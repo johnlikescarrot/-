@@ -1,0 +1,161 @@
+{
+  "method": "class descriptors from 21 DEX files, aggregated by namespace prefix",
+  "note": "Presence is a namespace-level observation, not a version or license assertion.",
+  "schema": "rea_lite/supply_chain@1",
+  "sdk_namespace_evidence": {
+    "android.support": {
+      "description": "Android Support Library",
+      "namespace_class_count": 110
+    },
+    "androidx": {
+      "description": "Android Jetpack",
+      "namespace_class_count": 7128
+    },
+    "app.rive": {
+      "description": "Rive",
+      "namespace_class_count": 264
+    },
+    "com.airbnb.lottie": {
+      "description": "Lottie",
+      "namespace_class_count": 173
+    },
+    "com.alibaba": {
+      "description": "Alibaba / Griver",
+      "namespace_class_count": 9607
+    },
+    "com.alipay": {
+      "description": "Alipay / Griver mini-app container",
+      "namespace_class_count": 945
+    },
+    "com.appsflyer": {
+      "description": "AppsFlyer",
+      "namespace_class_count": 754
+    },
+    "com.bumptech.glide": {
+      "description": "Glide",
+      "namespace_class_count": 197
+    },
+    "com.facebook": {
+      "description": "Facebook / Audience Network",
+      "namespace_class_count": 7138
+    },
+    "com.facebook.imagepipeline": {
+      "description": "Fresco",
+      "namespace_class_count": 94
+    },
+    "com.google.firebase": {
+      "description": "Firebase",
+      "namespace_class_count": 196
+    },
+    "com.google.gson": {
+      "description": "Gson",
+      "namespace_class_count": 190
+    },
+    "com.google.mlkit": {
+      "description": "ML Kit",
+      "namespace_class_count": 41
+    },
+    "com.google.protobuf": {
+      "description": "Protobuf",
+      "namespace_class_count": 209
+    },
+    "com.google.zxing": {
+      "description": "ZXing",
+      "namespace_class_count": 17
+    },
+    "com.nimbusds": {
+      "description": "Nimbus JOSE",
+      "namespace_class_count": 667
+    },
+    "com.visa": {
+      "description": "Visa CBP",
+      "namespace_class_count": 2711
+    },
+    "io.reactivex": {
+      "description": "RxJava",
+      "namespace_class_count": 517
+    },
+    "kotlin": {
+      "description": "Kotlin stdlib",
+      "namespace_class_count": 385
+    },
+    "kotlinx": {
+      "description": "Kotlinx coroutines",
+      "namespace_class_count": 17
+    },
+    "okhttp3": {
+      "description": "OkHttp 3",
+      "namespace_class_count": 335
+    },
+    "org.bouncycastle": {
+      "description": "Bouncy Castle",
+      "namespace_class_count": 12098
+    },
+    "retrofit2": {
+      "description": "Retrofit",
+      "namespace_class_count": 67
+    }
+  },
+  "top_namespaces_overall": {
+    "androidx.appcompat": 273,
+    "androidx.camera": 813,
+    "androidx.camera.camera2": 234,
+    "androidx.camera.core": 306,
+    "androidx.compose": 504,
+    "androidx.compose.foundation": 234,
+    "androidx.compose.ui": 261,
+    "androidx.core": 258,
+    "androidx.media3": 1198,
+    "androidx.media3.common": 202,
+    "androidx.media3.exoplayer": 518,
+    "androidx.media3.extractor": 286,
+    "com.alibaba": 4821,
+    "com.alibaba.ariver": 2415,
+    "com.alibaba.griver": 2228,
+    "com.alipay": 493,
+    "com.alipay.plus": 212,
+    "com.appsflyer": 407,
+    "com.appsflyer.internal": 347,
+    "com.bumptech": 197,
+    "com.bumptech.glide": 197,
+    "com.facebook": 3622,
+    "com.facebook.ads": 3250,
+    "com.google": 7761,
+    "com.google.android": 6507,
+    "com.google.common": 303,
+    "com.google.crypto": 221,
+    "com.google.firebase": 196,
+    "com.google.gson": 190,
+    "com.google.protobuf": 209,
+    "com.iap": 1599,
+    "com.iap.ac": 1330,
+    "com.iap.android": 248,
+    "com.nimbusds": 334,
+    "com.nimbusds.jose": 333,
+    "com.visa": 1370,
+    "com.visa.cbp": 900,
+    "com.visa.visapaysdk": 318,
+    "com.vnpay": 388,
+    "com.vnpay.vntaxi": 377,
+    "com.xq": 299,
+    "com.xq.cxzmoiwuegvp": 299,
+    "io.reactivex": 266,
+    "io.reactivex.internal": 251,
+    "okhttp3.internal": 196,
+    "org.bouncycastle": 6112,
+    "org.bouncycastle.asn1": 748,
+    "org.bouncycastle.cms": 231,
+    "org.bouncycastle.crypto": 836,
+    "org.bouncycastle.jcajce": 1758,
+    "org.bouncycastle.math": 244,
+    "org.bouncycastle.oer": 315,
+    "org.bouncycastle.pqc": 975,
+    "org.jmrtd": 237,
+    "vn.ai": 689,
+    "vn.ai.trueid": 622,
+    "vn.com": 1047,
+    "vn.com.vng": 954,
+    "vn.zalopay": 186,
+    "vn.zalopay.ui": 186
+  }
+}
