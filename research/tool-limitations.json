@@ -1,0 +1,30 @@
+{
+  "sample_sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+  "observations": [
+    {
+      "tool": "rea-agents 6.10.1 analyze-javascript-application",
+      "target": "assets/android.1.zip!/main.jsbundle (copied as main.js for inert static analysis)",
+      "configured_timeout_ms": 60000,
+      "result": "provider_timeout",
+      "interpretation": "Partial observation is not a completed semantic analysis; no runtime execution took place."
+    },
+    {
+      "tool": "JADX 1.1.0, --single-class",
+      "target": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity in the base APK",
+      "result": "A Java-like class was emitted; the tool logged 'finished with errors, count: 1'.",
+      "interpretation": "Selected pseudocode is approximate; obfuscation, decoder errors and unsupported bytecode limit confidence. Other classes were not decompiled in this pass."
+    },
+    {
+      "tool": "REA inspect-apk-signature",
+      "target": "five APKs",
+      "result": "Declared v2/v3 digests matched the recomputed content digests.",
+      "interpretation": "This REA operation does not verify signature cryptography; the independent apksigner result is in signatures.json."
+    },
+    {
+      "tool": "ZIP/TAR/gzip inventory",
+      "target": "archive tree",
+      "result": "All recognized entries were read and hashed within stated budgets.",
+      "interpretation": "Coverage does not include arbitrary encrypted, proprietary, self-extracting or unrecognized containers, nor exhaustive semantic interpretation of every file."
+    }
+  ]
+}

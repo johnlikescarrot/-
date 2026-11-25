@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Bên trong một bản phân phối Android: nghiên cứu tĩnh Zalopay 11.17.0"
+message: "Khi trích dẫn, nêu thêm SHA-256 của mẫu và commit Git đã dùng; đây là hồ sơ phần mềm/nghiên cứu, không phải bài báo đã bình duyệt."
+type: software
+version: 1.0.0
+date-released: 2026-11-25
+authors:
+  - name: "Những người đóng góp cho hồ sơ phân tích tĩnh"
+abstract: "Kiểm kê có thể tái tạo, phân tích tĩnh và video về một mẫu ZIP/XAPK/APK Android; không đánh giá hành vi thời gian chạy hoặc xác thực danh tính nhà phát hành."
+repository-code: "https://github.com/johnlikescarrot/-"
+keywords:
+  - Android
+  - reproducibility
+  - static analysis
+  - APK
+  - digital forensics

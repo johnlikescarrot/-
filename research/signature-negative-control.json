@@ -1,0 +1,10 @@
+{
+  "original_sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+  "mutated_sha256": "c1545446e9b50d661c379ce986085b26134d009859a4f5575a2e7e11eaf1b1ac",
+  "changed_byte_offset_zero_based": 1024,
+  "change": "XOR 0x01",
+  "apksigner_exit_code": 1,
+  "reported_does_not_verify": true,
+  "reported_digest_mismatch": true,
+  "scope": "A single altered temporary copy; does not establish authenticity or exhaustive tamper detection."
+}
