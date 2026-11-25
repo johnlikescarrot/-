@@ -1,0 +1,38 @@
+# Transcript — ZaloPay 11.17.0 Deep RE (research film)
+
+## SC01 — ZALOPAY 11.17.0 (00:00:01 → 00:00:37)
+
+ZaloPay eleven point seventeen point zero. A Vietnamese payment super application, distributed as an APKPure XAPK bundle. In this research film we reverse engineer every file in the corpus. Five Android packages. Twenty Dalvik executables. Sixty three thousand classes. Three hundred seventy eight thousand methods. Twenty eight native libraries. One signed configuration envelope. All hashes, all methods, all evidence, published alongside this video.
+
+## SC02 — ONE ZIP, ONE XAPK, FIVE APKS (00:00:39 → 00:01:18)
+
+Chapter one. Corpus anatomy. The outer zip is ninety eight megabytes. Inside, a single XAPK of one hundred five megabytes, stored uncompressed. The XAPK manifest declares package vn dot com dot vng dot zalopay, version code one one zero two seven five eight, targeting SDK thirty six. Five splits follow. The seventy nine megabyte base. A twenty four megabyte ARM native split. Density and locale splits for extra high screens, English, and Vietnamese. Every byte hashed. Nothing skipped.
+
+## SC03 — 200 ACTIVITIES, WIDE OPEN DOORS (00:01:19 → 00:01:59)
+
+Chapter two. Manifest and attack surface. The base manifest declares two hundred activities, thirty four services, twenty two receivers, nine providers, and two aliases. Dozens are exported. Payment screens, QR receivers, V N e I D verification, e K Y C and liveness cameras from F P T and True I D. Test scaffolding shipped in release, including preview and instrumentation activities. Eleven deep link filters span zalopay schemes, V N Pay, Facebook connect, and verified app links on zalopay dot vn.
+
+## SC04 — CLEARTEXT ON, PINS OFF (00:02:01 → 00:02:41)
+
+Chapter three. Network and trust. The network security config permits cleartext traffic globally, with system trust anchors and debug overrides that accept user certificates. One domain exception covers Google storage. There is no pin set. Yet the code is full of pinning strings, including certificate pinning failure events. Policy says open. Code says pinned. That gap is the finding. Alongside: H C E payment A I Ds for Visa, broad file provider cache paths, and an R S A twenty forty eight signed configuration envelope.
+
+## SC05 — 378,040 METHODS UNDER ONE ROOF (00:02:42 → 00:03:28)
+
+Chapter four. Dalvik at scale. Twenty dex files. The largest, classes two, holds sixteen megabytes. Audience Network ships its own dex. Nineteen belong to the app and its SDK mesh. Google leads with seven thousand classes. Bouncy Castle crypto next. Then Alibaba, Meta, I A P, Visa, Media Three, and just one thousand vn dot com classes of first party code. String forensics finds three thousand zalopay hits, fifteen hundred signatures, nine hundred firebase, four hundred H T T P S URLs, and six frida mentions. Obfuscation is partial. Telemetry is total.
+
+## SC06 — ARM32 ONLY, STRIPPED, HARDENED (00:03:30 → 00:04:14)
+
+Chapter five. The native layer. Twenty seven thirty two bit ARM libraries ride in the ABI split, plus one three hundred ninety two byte anomaly in the base. Security Guard Lite from Alipay hides its J N I behind register natives. We recover its init, encrypt, decrypt, and sign request entry points from strings. S Q L Cipher guards storage. Face, barcode, and M L Kit vision libraries cluster around e K Y C and QR. Every library ships position independent, read only relocations, and bind now. No Java exports in dynamic symbols. Stripped, but not silent.
+
+## SC07 — THE WEBVIEW CONTROL PLANE (00:04:15 → 00:04:58)
+
+Chapter six. JavaScript bridges. Nineteen web assets form the hybrid control plane. ZaloPay J S Bridge and its internal twin expose callback pools and subscribers to native. Griver compatibility shims mirror the Alipay bridge, with worker bootstrap and embedded view managers. Error page templates stand ready for every container state. We reconstructed the application graph with R E A agents, yielding a thirty seven node semantic graph across eighteen files. Native decompilers wanted Ghidra and J A D X providers we did not have. That gap is documented, not hidden.
+
+## SC08 — FINDINGS, RISKS, REPRODUCIBILITY (00:04:59 → 00:05:42)
+
+Chapter seven. Synthesis. The architecture is a split model super app with a third party SDK mesh dwarfing first party code. Risks, static only, pending dynamic confirmation. Global cleartext with no pins. Broad file provider paths. Exported test activities. An H C E payment surface. And a signed config envelope whose trust chain must still be verified. Reproduction is fully pinned. Androguard four point one point four. R E A agents six point five. Ten reports, raw JSON, scripts, and digests, all hashed, all public in the pull request.
+
+## SC09 — EVIDENCE OVER CLAIMS (00:05:44 → 00:06:05)
+
+Evidence over claims. All findings, hashes, scripts, and transcripts live in the pull request beside this video. Cite the reports, challenge the risks, rerun the toolchain. ZaloPay eleven point seventeen point zero, reversed end to end.
+

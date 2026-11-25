@@ -1,0 +1,73 @@
+{
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "totalDur": 366.1844791666667,
+  "frames": 8788,
+  "scenes": [
+    {
+      "id": "title",
+      "start": 0,
+      "dur": 37.5464375,
+      "narrDur": 33.8464375,
+      "estimated": false
+    },
+    {
+      "id": "corpus",
+      "start": 37.5464375,
+      "dur": 40.58797916666667,
+      "narrDur": 36.88797916666667,
+      "estimated": false
+    },
+    {
+      "id": "manifest",
+      "start": 78.13441666666668,
+      "dur": 41.79741666666667,
+      "narrDur": 38.09741666666667,
+      "estimated": false
+    },
+    {
+      "id": "trust",
+      "start": 119.93183333333334,
+      "dur": 41.51764583333333,
+      "narrDur": 37.81764583333333,
+      "estimated": false
+    },
+    {
+      "id": "dex",
+      "start": 161.44947916666666,
+      "dur": 47.44554166666667,
+      "narrDur": 43.74554166666667,
+      "estimated": false
+    },
+    {
+      "id": "native",
+      "start": 208.89502083333332,
+      "dur": 45.381125000000004,
+      "narrDur": 41.681125,
+      "estimated": false
+    },
+    {
+      "id": "jsbridge",
+      "start": 254.27614583333332,
+      "dur": 44.051375,
+      "narrDur": 40.351375,
+      "estimated": false
+    },
+    {
+      "id": "synthesis",
+      "start": 298.3275208333333,
+      "dur": 44.65541666666667,
+      "narrDur": 40.955416666666665,
+      "estimated": false
+    },
+    {
+      "id": "outro",
+      "start": 342.9829375,
+      "dur": 22.201541666666667,
+      "narrDur": 18.501541666666668,
+      "estimated": false
+    }
+  ],
+  "renderSec": 125.584
+}

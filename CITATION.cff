@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "ZaloPay 11.17.0 (APKPure XAPK) — Deep Reverse-Engineering Research and Documentary Film"
+message: "If you use this research, please cite it as below."
+type: software
+authors:
+  - name: "Arena.ai Agent Research"
+date-released: 2026-11-25
+version: "1.0.0"
+repository-code: "https://github.com/johnlikescarrot/-"
+keywords:
+  - reverse-engineering
+  - android
+  - apk-analysis
+  - dalvik
+  - xapk
+  - mobile-security
+  - zalopay
+license: MIT
+preferred-citation:
+  type: report
+  title: "Anatomy of a Payment Super-App: Deep Static Reverse Engineering of ZaloPay 11.17.0 (APKPure XAPK)"
+  authors:
+    - name: "Arena.ai Agent Research"
+  year: 2026
+  url: "https://github.com/johnlikescarrot/-"
