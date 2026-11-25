@@ -409,3 +409,9 @@ python3 work/deep_analysis.py
 - `analysis/manifests/AndroidManifest.decoded.xml`
 - `analysis/security/*.json` - DEX stats, exported components, certs, native libs, URLs
 - `analysis/apk_metadata.json`
+
+## 12. Video Artifact
+
+- TypeScript video pipeline: `video/src/render.ts` (Node.js + @napi-rs/canvas + ffmpeg)
+- Rendered MP4: `video/zalopay-11.17.0-reverse-engineering.mp4`
+- Build: `cd video && npm install && FFMPEG_PATH=$(python3 -c "import imageio_ffmpeg; print(imageio_ffmpeg.get_ffmpeg_exe())") npm run start`

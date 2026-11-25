@@ -9,3 +9,6 @@ build/
 video/node_modules/
 video/out/
 video/dist/
+
+# keep final rendered deliverable
+!video/zalopay-11.17.0-reverse-engineering.mp4
