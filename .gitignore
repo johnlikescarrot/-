@@ -7,3 +7,6 @@ out/
 artifacts/tmp/
 *.log
 .DS_Store
+.venv/
+.pytest_cache/
+__pycache__/
