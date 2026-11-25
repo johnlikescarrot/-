@@ -1,0 +1,1553 @@
+{
+ "apks": {
+  "base": {
+   "file_count": 6162,
+   "total_uncompressed": 136395610,
+   "extensions": [
+    [
+     ".xml",
+     5209
+    ],
+    [
+     ".png",
+     221
+    ],
+    [
+     ".version",
+     141
+    ],
+    [
+     ".txt",
+     136
+    ],
+    [
+     ".webp",
+     111
+    ],
+    [
+     ".properties",
+     79
+    ],
+    [
+     ".json",
+     64
+    ],
+    [
+     ".ttf",
+     23
+    ],
+    [
+     ".dex",
+     20
+    ],
+    [
+     "",
+     14
+    ],
+    [
+     ".tflite",
+     14
+    ],
+    [
+     ".kotlin_module",
+     11
+    ],
+    [
+     ".binarypb",
+     10
+    ],
+    [
+     ".proto",
+     10
+    ],
+    [
+     ".js",
+     9
+    ]
+   ]
+  },
+  "armeabi_v7a": {
+   "file_count": 32,
+   "total_uncompressed": 57459525,
+   "extensions": [
+    [
+     ".so",
+     27
+    ],
+    [
+     ".xml",
+     1
+    ],
+    [
+     "",
+     1
+    ],
+    [
+     ".sf",
+     1
+    ],
+    [
+     ".rsa",
+     1
+    ],
+    [
+     ".mf",
+     1
+    ]
+   ]
+  },
+  "en": {
+   "file_count": 6,
+   "total_uncompressed": 64699,
+   "extensions": [
+    [
+     ".xml",
+     1
+    ],
+    [
+     ".arsc",
+     1
+    ],
+    [
+     "",
+     1
+    ],
+    [
+     ".sf",
+     1
+    ],
+    [
+     ".rsa",
+     1
+    ],
+    [
+     ".mf",
+     1
+    ]
+   ]
+  },
+  "vi": {
+   "file_count": 6,
+   "total_uncompressed": 78175,
+   "extensions": [
+    [
+     ".xml",
+     1
+    ],
+    [
+     ".arsc",
+     1
+    ],
+    [
+     "",
+     1
+    ],
+    [
+     ".sf",
+     1
+    ],
+    [
+     ".rsa",
+     1
+    ],
+    [
+     ".mf",
+     1
+    ]
+   ]
+  },
+  "xhdpi": {
+   "file_count": 258,
+   "total_uncompressed": 1329300,
+   "extensions": [
+    [
+     ".xml",
+     108
+    ],
+    [
+     ".png",
+     97
+    ],
+    [
+     ".webp",
+     48
+    ],
+    [
+     ".arsc",
+     1
+    ],
+    [
+     "",
+     1
+    ],
+    [
+     ".sf",
+     1
+    ],
+    [
+     ".rsa",
+     1
+    ],
+    [
+     ".mf",
+     1
+    ]
+   ]
+  }
+ },
+ "native_libs": [
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libtaibmcf.so",
+   "size": 12617752
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libmlkitcommonpipeline.so",
+   "size": 6928228
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libmlkit_google_ocr_pipeline.so",
+   "size": 6781940
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libfgcpkjvqe.so",
+   "size": 6524160
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libface_detector_v2_jni.so",
+   "size": 5388224
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libsqlcipher.so",
+   "size": 3555080
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libbarhopper_v3.so",
+   "size": 3244440
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/librive-android.so",
+   "size": 3225636
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libpicodet_ncnn.so",
+   "size": 2992584
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libVFaceLib.so",
+   "size": 1963668
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/liba97d.so",
+   "size": 997572
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libc++_shared.so",
+   "size": 872872
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libljsfrcwmw.so",
+   "size": 600296
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libcrashlytics-common.so",
+   "size": 435732
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libnative-imagetranscoder.so",
+   "size": 341072
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/liblytcuhe.so",
+   "size": 178628
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/librcmefqonnx.so",
+   "size": 178628
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libohxbee.so",
+   "size": 155412
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libsecurity_lite.so",
+   "size": 154840
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libcrashlytics.so",
+   "size": 94540
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libcrashlytics-handler.so",
+   "size": 87908
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libtrueidlib.so",
+   "size": 79904
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libimage_processing_util_jni.so",
+   "size": 20380
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libnative-filters.so",
+   "size": 12588
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libandroidx.graphics.path.so",
+   "size": 7252
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libcrashlytics-trampoline.so",
+   "size": 6912
+  },
+  {
+   "apk": "armeabi_v7a",
+   "path": "lib/armeabi-v7a/libimagepipeline.so",
+   "size": 5876
+  },
+  {
+   "apk": "base",
+   "path": "assets/trueidlib.so",
+   "size": 392
+  }
+ ],
+ "dex": {
+  "files": [
+   {
+    "file_size": 8831004,
+    "string_count": 61218,
+    "type_count": 17196,
+    "class_count": 10703,
+    "method_count": 59948,
+    "field_count": 46956,
+    "file": "classes.dex"
+   },
+   {
+    "file_size": 78204,
+    "string_count": 920,
+    "type_count": 461,
+    "class_count": 92,
+    "method_count": 578,
+    "field_count": 314,
+    "file": "classes10.dex"
+   },
+   {
+    "file_size": 163420,
+    "string_count": 1584,
+    "type_count": 740,
+    "class_count": 177,
+    "method_count": 1171,
+    "field_count": 694,
+    "file": "classes11.dex"
+   },
+   {
+    "file_size": 398276,
+    "string_count": 3207,
+    "type_count": 1191,
+    "class_count": 425,
+    "method_count": 2604,
+    "field_count": 1723,
+    "file": "classes12.dex"
+   },
+   {
+    "file_size": 145824,
+    "string_count": 1381,
+    "type_count": 590,
+    "class_count": 139,
+    "method_count": 997,
+    "field_count": 561,
+    "file": "classes13.dex"
+   },
+   {
+    "file_size": 81748,
+    "string_count": 961,
+    "type_count": 404,
+    "class_count": 90,
+    "method_count": 575,
+    "field_count": 371,
+    "file": "classes14.dex"
+   },
+   {
+    "file_size": 82152,
+    "string_count": 1005,
+    "type_count": 436,
+    "class_count": 113,
+    "method_count": 658,
+    "field_count": 410,
+    "file": "classes15.dex"
+   },
+   {
+    "file_size": 15916,
+    "string_count": 261,
+    "type_count": 116,
+    "class_count": 20,
+    "method_count": 101,
+    "field_count": 38,
+    "file": "classes16.dex"
+   },
+   {
+    "file_size": 208476,
+    "string_count": 1847,
+    "type_count": 848,
+    "class_count": 243,
+    "method_count": 1311,
+    "field_count": 972,
+    "file": "classes17.dex"
+   },
+   {
+    "file_size": 95920,
+    "string_count": 1094,
+    "type_count": 553,
+    "class_count": 115,
+    "method_count": 668,
+    "field_count": 428,
+    "file": "classes18.dex"
+   },
+   {
+    "file_size": 719548,
+    "string_count": 4159,
+    "type_count": 1782,
+    "class_count": 777,
+    "method_count": 3781,
+    "field_count": 2804,
+    "file": "classes19.dex"
+   },
+   {
+    "file_size": 16516960,
+    "string_count": 56948,
+    "type_count": 11243,
+    "class_count": 7421,
+    "method_count": 45527,
+    "field_count": 60000,
+    "file": "classes2.dex"
+   },
+   {
+    "file_size": 850600,
+    "string_count": 8010,
+    "type_count": 3827,
+    "class_count": 1081,
+    "method_count": 6354,
+    "field_count": 3619,
+    "file": "classes3.dex"
+   },
+   {
+    "file_size": 9418124,
+    "string_count": 52812,
+    "type_count": 19105,
+    "class_count": 11441,
+    "method_count": 59997,
+    "field_count": 40269,
+    "file": "classes4.dex"
+   },
+   {
+    "file_size": 7357484,
+    "string_count": 56424,
+    "type_count": 14079,
+    "class_count": 7983,
+    "method_count": 49055,
+    "field_count": 60002,
+    "file": "classes5.dex"
+   },
+   {
+    "file_size": 7612432,
+    "string_count": 55274,
+    "type_count": 18399,
+    "class_count": 5475,
+    "method_count": 49201,
+    "field_count": 36617,
+    "file": "classes6.dex"
+   },
+   {
+    "file_size": 10803680,
+    "string_count": 59110,
+    "type_count": 20633,
+    "class_count": 12953,
+    "method_count": 60000,
+    "field_count": 43164,
+    "file": "classes7.dex"
+   },
+   {
+    "file_size": 239036,
+    "string_count": 1906,
+    "type_count": 915,
+    "class_count": 295,
+    "method_count": 1552,
+    "field_count": 1056,
+    "file": "classes8.dex"
+   },
+   {
+    "file_size": 1218908,
+    "string_count": 6155,
+    "type_count": 2175,
+    "class_count": 1128,
+    "method_count": 7170,
+    "field_count": 4520,
+    "file": "classes9.dex"
+   }
+  ],
+  "total_classes": 60671,
+  "total_strings": 374276,
+  "total_methods": 351248,
+  "total_fields": 304518,
+  "top_packages": [
+   [
+    "com.google",
+    7710
+   ],
+   [
+    "org.bouncycastle",
+    6112
+   ],
+   [
+    "com.alibaba",
+    4821
+   ],
+   [
+    "com.iap",
+    1599
+   ],
+   [
+    "com.visa",
+    1370
+   ],
+   [
+    "androidx.media3",
+    1198
+   ],
+   [
+    "vn.com",
+    1054
+   ],
+   [
+    "androidx.camera",
+    813
+   ],
+   [
+    "vn.ai",
+    689
+   ],
+   [
+    "com.facebook",
+    531
+   ],
+   [
+    "androidx.compose",
+    504
+   ],
+   [
+    "com.alipay",
+    493
+   ],
+   [
+    "q9",
+    472
+   ],
+   [
+    "p9",
+    454
+   ],
+   [
+    "com.appsflyer",
+    430
+   ],
+   [
+    "com.vnpay",
+    388
+   ],
+   [
+    "com.nimbusds",
+    361
+   ],
+   [
+    "n9",
+    315
+   ],
+   [
+    "m9",
+    314
+   ],
+   [
+    "com.xq",
+    299
+   ],
+   [
+    "androidx.appcompat",
+    273
+   ],
+   [
+    "io.reactivex",
+    266
+   ],
+   [
+    "androidx.core",
+    258
+   ],
+   [
+    "Va",
+    253
+   ],
+   [
+    "org.jmrtd",
+    237
+   ],
+   [
+    "okhttp3.internal",
+    216
+   ],
+   [
+    "com.bumptech",
+    213
+   ],
+   [
+    "n0",
+    212
+   ],
+   [
+    "vn.zalopay",
+    186
+   ],
+   [
+    "org.jsoup",
+    175
+   ],
+   [
+    "com.airbnb",
+    173
+   ],
+   [
+    "androidx.glance",
+    173
+   ],
+   [
+    "app.rive",
+    157
+   ],
+   [
+    "androidx.work",
+    152
+   ],
+   [
+    "androidx.datastore",
+    141
+   ],
+   [
+    "q0",
+    137
+   ],
+   [
+    "com.android",
+    137
+   ],
+   [
+    "BV",
+    124
+   ],
+   [
+    "kotlin.reflect",
+    123
+   ],
+   [
+    "F",
+    120
+   ]
+  ],
+  "top_domains": [
+   [
+    "scdn.zalopay.com.vn",
+    65
+   ],
+   [
+    "simg.zalopay.com.vn",
+    45
+   ],
+   [
+    "render.alipay.com",
+    24
+   ],
+   [
+    "zalopay.vn",
+    20
+   ],
+   [
+    "api.zalopay.vn",
+    13
+   ],
+   [
+    "social.zalopay.vn",
+    13
+   ],
+   [
+    "play.google.com",
+    11
+   ],
+   [
+    "appx",
+    10
+   ],
+   [
+    "sapi.zalopay.vn",
+    10
+   ],
+   [
+    "appx-ng",
+    9
+   ],
+   [
+    "developer.android.com",
+    8
+   ],
+   [
+    "mnap-director.zalopay.vn",
+    8
+   ],
+   [
+    "www.w3.org",
+    8
+   ],
+   [
+    "www.google.com",
+    8
+   ],
+   [
+    "firebase.google.com",
+    7
+   ],
+   [
+    "googleads.g.doubleclick.net",
+    7
+   ],
+   [
+    "issuetracker.google.com",
+    6
+   ],
+   [
+    "xml.org",
+    6
+   ],
+   [
+    "googlemobileadssdk.page.link",
+    6
+   ],
+   [
+    "xmlpull.org",
+    5
+   ],
+   [
+    "zalo.me",
+    5
+   ],
+   [
+    "upload-img.zalopay.vn",
+    5
+   ],
+   [
+    "developers.facebook.com",
+    5
+   ],
+   [
+    "uudai.zalopay.vn",
+    5
+   ],
+   [
+    "openauth.alipay.com",
+    4
+   ],
+   [
+    "schemas.android.com",
+    4
+   ],
+   [
+    "goo.gl",
+    4
+   ],
+   [
+    "app-measurement.com",
+    4
+   ],
+   [
+    "zalopay.com.vn",
+    4
+   ],
+   [
+    "openapi.zalopay.vn",
+    4
+   ],
+   [
+    "bim.zalopay.vn",
+    4
+   ],
+   [
+    "ns.adobe.com",
+    3
+   ],
+   [
+    "resource",
+    3
+   ],
+   [
+    "usr",
+    3
+   ],
+   [
+    "dala2zoom.zalopay.vn",
+    3
+   ],
+   [
+    "github.com",
+    3
+   ],
+   [
+    "open-sea.alipayplus.com",
+    3
+   ],
+   [
+    "render-intl.alipay.com",
+    3
+   ],
+   [
+    "www.google-analytics.com",
+    3
+   ],
+   [
+    "alipay.worker.com",
+    3
+   ],
+   [
+    "bank-profile.zalopay.vn",
+    3
+   ],
+   [
+    "mmf-redemption.zalopay.vn",
+    3
+   ],
+   [
+    "scard.zalopay.vn",
+    3
+   ],
+   [
+    "support.zalopay.vn",
+    3
+   ],
+   [
+    "zlp-ofp-emvco-gateway.zalopay.vn",
+    3
+   ],
+   [
+    "zlp-ofp-zpa-camera-config-be.zalopay.vn",
+    3
+   ],
+   [
+    "cps.zalopay.com.vn",
+    3
+   ],
+   [
+    "vngzalopay.freshdesk.com",
+    3
+   ],
+   [
+    "g.co",
+    2
+   ],
+   [
+    "alipay.kylinBridge",
+    2
+   ],
+   [
+    "cdn.marmot-cloud.com",
+    2
+   ],
+   [
+    "mobilegw.alipay.com",
+    2
+   ],
+   [
+    "shared",
+    2
+   ],
+   [
+    "user-life-cycle-public.zalopay.vn",
+    2
+   ],
+   [
+    "ds.alipay.com.*scheme=alipays.*",
+    2
+   ],
+   [
+    "d.alipay.com.*scheme=alipays.*",
+    2
+   ],
+   [
+    "ulink.alipay.com.*scheme=alipays.*",
+    2
+   ],
+   [
+    "iopengw-280.sggz00b.dev.alipay.net",
+    2
+   ],
+   [
+    "imdap-sea.alipay.com",
+    2
+   ],
+   [
+    "imgs-ac.alipay.com",
+    2
+   ]
+  ],
+  "top_urls": [
+   [
+    "https://render.alipay.com/p/yuyan/180020010001253580/exception_no_support.html?errorType=UNMARKED_MOVING_PINS",
+    10
+   ],
+   [
+    "https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay",
+    8
+   ],
+   [
+    "https://zalopay.vn/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu-hop-nhat",
+    7
+   ],
+   [
+    "https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/error.png",
+    6
+   ],
+   [
+    "https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/toro_information.png",
+    6
+   ],
+   [
+    "https://api.zalopay.vn/,",
+    6
+   ],
+   [
+    "https://firebase.google.com/support/privacy/init-options.",
+    5
+   ],
+   [
+    "https://sapi.zalopay.vn/,",
+    5
+   ],
+   [
+    "https://api.zalopay.vn/",
+    4
+   ],
+   [
+    "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+    3
+   ],
+   [
+    "https://appx-ng/",
+    3
+   ],
+   [
+    "https://appx/",
+    3
+   ],
+   [
+    "https://appx/af-appx.min.js",
+    3
+   ],
+   [
+    "https://resource/",
+    3
+   ],
+   [
+    "https://zalo.me/s/3888182390069527250/?",
+    3
+   ],
+   [
+    "https://social.zalopay.vn/spa/v2",
+    3
+   ],
+   [
+    "http://schemas.android.com/apk/res/android",
+    3
+   ],
+   [
+    "https://play.google.com/store/apps/details?id=",
+    3
+   ],
+   [
+    "https://upload-img.zalopay.vn/",
+    3
+   ],
+   [
+    "https://uudai.zalopay.vn/,",
+    3
+   ],
+   [
+    "https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread",
+    2
+   ],
+   [
+    "https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted",
+    2
+   ],
+   [
+    "https://issuetracker.google.com/issues/new?component=413106",
+    2
+   ],
+   [
+    "http://g.co/dev/packagevisibility.",
+    2
+   ],
+   [
+    "http://ns.adobe.com/xap/1.0/",
+    2
+   ],
+   [
+    "https://alipay.kylinBridge",
+    2
+   ],
+   [
+    "https://appx",
+    2
+   ],
+   [
+    "https://appx-ng/af-appx.min.js",
+    2
+   ],
+   [
+    "https://appx-ng/af-appx.worker.min.js",
+    2
+   ],
+   [
+    "https://appx-ng/index.prerender.html",
+    2
+   ],
+   [
+    "https://appx/af-appx.worker.min.js",
+    2
+   ],
+   [
+    "https://mobilegw.alipay.com/mgw.htm",
+    2
+   ],
+   [
+    "https://play.google.com/store/apps/details?id=vn.com.vng.zalopay",
+    2
+   ],
+   [
+    "https://shared",
+    2
+   ],
+   [
+    "https://usr/",
+    2
+   ],
+   [
+    "https://api.zalopay.vn",
+    2
+   ],
+   [
+    "https://play.google.com/store/apps/details?id=com.zing.zalo",
+    2
+   ],
+   [
+    "https://zalo.me/4046405574025332160",
+    2
+   ],
+   [
+    "https://user-life-cycle-public.zalopay.vn",
+    2
+   ],
+   [
+    "https://mnap-director.zalopay.vn/redir/-2003",
+    2
+   ]
+  ]
+ },
+ "resources": {
+  "global_string_count": 7763
+ },
+ "library_versions": {
+  "META-INF/androidx.activity_activity-compose.version": "1.9.3",
+  "META-INF/androidx.activity_activity-ktx.version": "1.9.3",
+  "META-INF/androidx.activity_activity.version": "1.9.3",
+  "META-INF/androidx.annotation_annotation-experimental.version": "1.5.0",
+  "META-INF/androidx.appcompat_appcompat-resources.version": "1.6.1",
+  "META-INF/androidx.appcompat_appcompat.version": "1.6.1",
+  "META-INF/androidx.arch.core_core-runtime.version": "task ':arch:core:core-runtime:writeVersionFile' property 'version'",
+  "META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version": "1.0.0",
+  "META-INF/androidx.autofill_autofill.version": "1.0.0",
+  "META-INF/androidx.biometric_biometric.version": "1.2.0-alpha05",
+  "META-INF/androidx.browser_browser.version": "1.8.0",
+  "META-INF/androidx.camera_camera-camera2.version": "1.4.0",
+  "META-INF/androidx.camera_camera-core.version": "1.4.0",
+  "META-INF/androidx.camera_camera-extensions.version": "1.4.0",
+  "META-INF/androidx.camera_camera-lifecycle.version": "1.4.0",
+  "META-INF/androidx.camera_camera-video.version": "1.4.0",
+  "META-INF/androidx.camera_camera-view.version": "1.4.0",
+  "META-INF/androidx.cardview_cardview.version": "1.0.0",
+  "META-INF/androidx.compose.animation_animation-core.version": "1.7.2",
+  "META-INF/androidx.compose.animation_animation.version": "1.7.2",
+  "META-INF/androidx.compose.foundation_foundation-layout.version": "1.7.2",
+  "META-INF/androidx.compose.foundation_foundation.version": "1.7.2",
+  "META-INF/androidx.compose.material_material-icons-core.version": "1.6.0",
+  "META-INF/androidx.compose.material_material-ripple.version": "1.6.0",
+  "META-INF/androidx.compose.material_material.version": "1.6.0",
+  "META-INF/androidx.compose.runtime_runtime-livedata.version": "1.7.2",
+  "META-INF/androidx.compose.runtime_runtime-saveable.version": "1.7.2",
+  "META-INF/androidx.compose.runtime_runtime.version": "1.7.2",
+  "META-INF/androidx.compose.ui_ui-geometry.version": "1.7.2",
+  "META-INF/androidx.compose.ui_ui-graphics.version": "1.7.2",
+  "META-INF/androidx.compose.ui_ui-text.version": "1.7.2",
+  "META-INF/androidx.compose.ui_ui-tooling-data.version": "1.7.2",
+  "META-INF/androidx.compose.ui_ui-tooling-preview.version": "1.7.2",
+  "META-INF/androidx.compose.ui_ui-tooling.version": "1.7.2",
+  "META-INF/androidx.compose.ui_ui-unit.version": "1.7.2",
+  "META-INF/androidx.compose.ui_ui-util.version": "1.7.2",
+  "META-INF/androidx.compose.ui_ui.version": "1.7.2",
+  "META-INF/androidx.constraintlayout_constraintlayout-compose.version": "1.1.1",
+  "META-INF/androidx.coordinatorlayout_coordinatorlayout.version": "1.1.0",
+  "META-INF/androidx.core_core-ktx.version": "1.16.0",
+  "META-INF/androidx.core_core-remoteviews.version": "1.1.0",
+  "META-INF/androidx.core_core-splashscreen.version": "1.0.0",
+  "META-INF/androidx.core_core-viewtree.version": "1.0.0",
+  "META-INF/androidx.core_core.version": "1.16.0",
+  "META-INF/androidx.cursoradapter_cursoradapter.version": "1.0.0",
+  "META-INF/androidx.customview_customview-poolingcontainer.version": "1.0.0",
+  "META-INF/androidx.customview_customview.version": "1.1.0",
+  "META-INF/androidx.databinding_baseAdapters.version": "8.12.3",
+  "META-INF/androidx.databinding_databindingKtx.version": "8.12.3",
+  "META-INF/androidx.databinding_library.version": "8.12.3",
+  "META-INF/androidx.databinding_viewbinding.version": "8.12.3",
+  "META-INF/androidx.datastore_datastore-preferences.version": "1.0.0",
+  "META-INF/androidx.datastore_datastore.version": "1.0.0",
+  "META-INF/androidx.documentfile_documentfile.version": "1.0.0",
+  "META-INF/androidx.drawerlayout_drawerlayout.version": "1.1.1",
+  "META-INF/androidx.dynamicanimation_dynamicanimation-ktx.version": "1.0.0-alpha03",
+  "META-INF/androidx.dynamicanimation_dynamicanimation.version": "1.1.0-alpha03",
+  "META-INF/androidx.emoji2_emoji2-views-helper.version": "1.3.0",
+  "META-INF/androidx.emoji2_emoji2.version": "1.3.0",
+  "META-INF/androidx.exifinterface_exifinterface.version": "1.3.6",
+  "META-INF/androidx.fragment_fragment-ktx.version": "1.8.7",
+  "META-INF/androidx.fragment_fragment.version": "1.8.7",
+  "META-INF/androidx.glance_glance-appwidget.version": "1.1.1",
+  "META-INF/androidx.glance_glance.version": "1.1.1",
+  "META-INF/androidx.graphics_graphics-path.version": "1.0.1",
+  "META-INF/androidx.interpolator_interpolator.version": "1.0.0",
+  "META-INF/androidx.legacy_legacy-support-core-ui.version": "1.0.0",
+  "META-INF/androidx.legacy_legacy-support-core-utils.version": "1.0.0",
+  "META-INF/androidx.legacy_legacy-support-v4.version": "1.0.0",
+  "META-INF/androidx.lifecycle_lifecycle-extensions.version": "2.1.0",
+  "META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-livedata-core.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-livedata-ktx.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-livedata.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-process.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-runtime-compose.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-runtime.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-service.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-viewmodel-compose.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version": "2.8.7",
+  "META-INF/androidx.lifecycle_lifecycle-viewmodel.version": "2.8.7",
+  "META-INF/androidx.loader_loader.version": "1.0.0",
+  "META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version": "1.0.0",
+  "META-INF/androidx.media_media.version": "1.0.0",
+  "META-INF/androidx.navigation_navigation-common-ktx.version": "2.8.3",
+  "META-INF/androidx.navigation_navigation-common.version": "2.8.3",
+  "META-INF/androidx.navigation_navigation-compose.version": "2.8.3",
+  "META-INF/androidx.navigation_navigation-dynamic-features-fragment.version": "2.8.3",
+  "META-INF/androidx.navigation_navigation-dynamic-features-runtime.version": "2.8.3",
+  "META-INF/androidx.navigation_navigation-fragment-ktx.version": "2.8.3",
+  "META-INF/androidx.navigation_navigation-fragment.version": "2.8.3",
+  "META-INF/androidx.navigation_navigation-runtime-ktx.version": "2.8.3",
+  "META-INF/androidx.navigation_navigation-runtime.version": "2.8.3",
+  "META-INF/androidx.navigation_navigation-ui-ktx.version": "2.8.3",
+  "META-INF/androidx.navigation_navigation-ui.version": "2.8.3",
+  "META-INF/androidx.paging_paging-compose.version": "3.2.1",
+  "META-INF/androidx.paging_paging-runtime-ktx.version": "3.2.1",
+  "META-INF/androidx.paging_paging-runtime.version": "3.2.1",
+  "META-INF/androidx.palette_palette-ktx.version": "1.0.0",
+  "META-INF/androidx.palette_palette.version": "1.0.0",
+  "META-INF/androidx.print_print.version": "1.0.0",
+  "META-INF/androidx.privacysandbox.ads_ads-adservices-java.version": "1.0.0-beta05",
+  "META-INF/androidx.privacysandbox.ads_ads-adservices.version": "1.0.0-beta05",
+  "META-INF/androidx.profileinstaller_profileinstaller.version": "1.3.1",
+  "META-INF/androidx.recyclerview_recyclerview.version": "1.3.0",
+  "META-INF/androidx.room_room-ktx.version": "2.8.4",
+  "META-INF/androidx.room_room-runtime.version": "2.8.4",
+  "META-INF/androidx.savedstate_savedstate-ktx.version": "1.2.1",
+  "META-INF/androidx.savedstate_savedstate.version": "1.2.1",
+  "META-INF/androidx.security_security-crypto.version": "1.1.0",
+  "META-INF/androidx.slidingpanelayout_slidingpanelayout.version": "1.2.0",
+  "META-INF/androidx.sqlite_sqlite-framework.version": "2.6.2",
+  "META-INF/androidx.sqlite_sqlite-ktx.version": "2.6.2",
+  "META-INF/androidx.sqlite_sqlite.version": "2.6.2",
+  "META-INF/androidx.startup_startup-runtime.version": "1.2.0",
+  "META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version": "1.1.0",
+  "META-INF/androidx.tracing_tracing-ktx.version": "1.2.0",
+  "META-INF/androidx.tracing_tracing.version": "1.2.0",
+  "META-INF/androidx.transition_transition.version": "1.4.1",
+  "META-INF/androidx.vectordrawable_vectordrawable-animated.version": "1.1.0",
+  "META-INF/androidx.vectordrawable_vectordrawable.version": "1.1.0",
+  "META-INF/androidx.versionedparcelable_versionedparcelable.version": "1.1.1",
+  "META-INF/androidx.viewpager2_viewpager2.version": "1.0.0",
+  "META-INF/androidx.viewpager_viewpager.version": "1.0.0",
+  "META-INF/androidx.webkit_webkit.version": "1.11.0-alpha02",
+  "META-INF/androidx.window_window.version": "1.0.0",
+  "META-INF/androidx.work_work-runtime-ktx.version": "2.7.1",
+  "META-INF/androidx.work_work-runtime.version": "2.7.1",
+  "META-INF/androidx.work_work-rxjava2.version": "2.7.1",
+  "META-INF/com.google.android.material_material.version": "1.4.0",
+  "META-INF/com.google.dagger_dagger-android-support.version": "2.59.2",
+  "META-INF/com.google.dagger_dagger-android.version": "2.59.2",
+  "META-INF/com.google.dagger_dagger-lint-aar.version": "2.59.2",
+  "META-INF/com.google.dagger_dagger.version": "2.59.2",
+  "META-INF/kotlinx_coroutines_android.version": "1.8.1",
+  "META-INF/kotlinx_coroutines_core.version": "1.8.1",
+  "META-INF/kotlinx_coroutines_play_services.version": "1.8.1",
+  "META-INF/kotlinx_coroutines_reactive.version": "1.8.1",
+  "META-INF/kotlinx_coroutines_rx2.version": "1.8.1"
+ },
+ "assets": {
+  "count": 124,
+  "total_size": 30011044,
+  "largest": [
+   [
+    "assets/audience_network.dex",
+    4864036
+   ],
+   [
+    "assets/android.1.zip",
+    3913966
+   ],
+   [
+    "assets/custom_models/object_labeler.tflite",
+    3770391
+   ],
+   [
+    "assets/FastestDet.ncnn.bin",
+    2420588
+   ],
+   [
+    "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+    1706957
+   ],
+   [
+    "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+    1254848
+   ],
+   [
+    "assets/models_bundled/contours.tfl",
+    1124144
+   ],
+   [
+    "assets/models_bundled/LMprec_600.emd",
+    1078354
+   ],
+   [
+    "assets/config/miniapp_config.json",
+    883684
+   ],
+   [
+    "assets/Griver/68687209_2.9.7.8.amr",
+    856974
+   ],
+   [
+    "assets/fgcpkjvqe.dat",
+    776320
+   ],
+   [
+    "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+    613352
+   ],
+   [
+    "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+    613080
+   ],
+   [
+    "assets/taxi_splash_loading.json",
+    536057
+   ],
+   [
+    "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+    390456
+   ],
+   [
+    "assets/models_bundled/blazeface.tfl",
+    347928
+   ],
+   [
+    "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+    340760
+   ],
+   [
+    "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+    315520
+   ],
+   [
+    "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+    309568
+   ],
+   [
+    "assets/Griver/66666692_1.24.8.amr",
+    287535
+   ],
+   [
+    "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+    276552
+   ],
+   [
+    "assets/com/visa/cbp/74e13961eb6489ab-",
+    265304
+   ],
+   [
+    "assets/models_bundled/fssd_25_8bit_v2.tflite",
+    232096
+   ],
+   [
+    "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+    231816
+   ],
+   [
+    "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+    213880
+   ]
+  ]
+ },
+ "manifest": {
+  "package": "vn.com.vng.zalopay",
+  "versionCode": "1102758",
+  "versionName": "11.17.0",
+  "minSdk": "26",
+  "targetSdk": "36",
+  "activities": 202,
+  "exported_activities": 16,
+  "exported_activity_names": [
+   "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+   "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+   "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+   "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+   "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+   "com.facebook.CustomTabActivity",
+   "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+   "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+   "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+   "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+   "androidx.compose.ui.tooling.PreviewActivity",
+   "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+   "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+   "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+   "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+   "vn.zalopay.apps.ZaloAppActivityAlias"
+  ],
+  "services": 34,
+  "receivers": 22,
+  "providers": 10,
+  "permissions": [
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.READ_CONTACTS",
+   "android.permission.INTERNET",
+   "android.permission.ACCESS_WIFI_STATE",
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.READ_PHONE_STATE",
+   "com.google.android.c2dm.permission.RECEIVE",
+   "android.permission.WAKE_LOCK",
+   "android.permission.NFC",
+   "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+   "android.permission.WRITE_EXTERNAL_STORAGE",
+   "android.permission.READ_EXTERNAL_STORAGE",
+   "android.permission.ACCESS_COARSE_LOCATION",
+   "android.permission.ACCESS_FINE_LOCATION",
+   "android.permission.USE_FINGERPRINT",
+   "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+   "android.permission.WRITE_CALENDAR",
+   "android.permission.READ_CALENDAR",
+   "android.permission.USE_BIOMETRIC",
+   "android.permission.RECORD_AUDIO",
+   "android.permission.MODIFY_AUDIO_SETTINGS",
+   "com.android.launcher.permission.INSTALL_SHORTCUT",
+   "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+   "com.android.launcher.permission.WRITE_SETTINGS",
+   "com.android.launcher.permission.READ_SETTINGS",
+   "com.bbk.launcher2.permission.READ_SETTINGS",
+   "com.bbk.launcher2.permission.WRITE_SETTINGS",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.CAMERA",
+   "android.permission.VIBRATE",
+   "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+   "android.permission.CHANGE_WIFI_STATE",
+   "android.permission.DETECT_SCREEN_CAPTURE",
+   "com.google.android.gms.permission.AD_ID",
+   "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+   "android.permission.ACCESS_ADSERVICES_AD_ID",
+   "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "com.android.vending.BILLING",
+   "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+   "android.permission.ACCESS_ADSERVICES_TOPICS",
+   "android.permission.FOREGROUND_SERVICE",
+   "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+   "android.permission.REORDER_TASKS",
+   "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+   "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+   "android.permission.READ_BASIC_PHONE_STATE",
+   "android.permission.WRITE_CONTACTS",
+   "android.permission.READ_MEDIA_AUDIO"
+  ],
+  "features": [
+   "android.hardware.nfc",
+   "android.hardware.nfc.hce",
+   "android.hardware.location.gps",
+   "android.hardware.bluetooth_le",
+   "android.hardware.camera",
+   "android.hardware.camera.autofocus",
+   null,
+   "android.hardware.camera.any"
+  ],
+  "application_name": "jwbmqnsll.xvndbxlk",
+  "deep_link_schemes": [
+   [
+    "zalopay",
+    10
+   ],
+   [
+    "https",
+    6
+   ],
+   [
+    "zalopay-1",
+    3
+   ],
+   [
+    "zalopay.api.v2",
+    3
+   ],
+   [
+    "http",
+    1
+   ],
+   [
+    "tel",
+    1
+   ],
+   [
+    "sms",
+    1
+   ],
+   [
+    "zalopay-vnpay",
+    1
+   ],
+   [
+    "fbconnect",
+    1
+   ],
+   [
+    "tagmanager.c.vn.com.vng.zalopay",
+    1
+   ]
+  ],
+  "deep_link_hosts": [
+   [
+    "go.zalopay.vn",
+    2
+   ],
+   [
+    "pay",
+    2
+   ],
+   [
+    "onelink.zalopay.vn",
+    1
+   ],
+   [
+    "kmzalopay.onelink.me",
+    1
+   ],
+   [
+    "km.zalopay.vn",
+    1
+   ],
+   [
+    "app",
+    1
+   ],
+   [
+    "post",
+    1
+   ],
+   [
+    "backtoapp",
+    1
+   ],
+   [
+    "backtologin",
+    1
+   ],
+   [
+    "zalopay.vn",
+    1
+   ],
+   [
+    "otp",
+    1
+   ],
+   [
+    "clearing",
+    1
+   ],
+   [
+    "launch",
+    1
+   ],
+   [
+    "merchant",
+    1
+   ],
+   [
+    "events",
+    1
+   ],
+   [
+    "auth",
+    1
+   ],
+   [
+    "recoverpassword",
+    1
+   ],
+   [
+    "promotions",
+    1
+   ],
+   [
+    "cashier",
+    1
+   ],
+   [
+    "cct.vn.com.vng.zalopay",
+    1
+   ]
+  ]
+ }
+}

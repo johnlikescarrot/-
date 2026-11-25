@@ -1,0 +1,18 @@
+# Reverse-engineering working tree (extracted XAPK, ~300 MB)
+/work/
+/tmp/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Build outputs / rendered media
+video/out/
+video/dist/
+*.mp4
+*.wav
+*video/.cache/
+
+# Python
+__pycache__/
+*.pyc

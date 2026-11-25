@@ -1,0 +1,1216 @@
+<manifest versionCode="1102758" versionName="11.17.0" compileSdkVersion="36" compileSdkVersionCodename="16" requiredSplitTypes="base__abi,base__density" splitTypes="" package="vn.com.vng.zalopay" platformBuildVersionCode="36" platformBuildVersionName="16">
+  <uses-sdk minSdkVersion="26" targetSdkVersion="36">
+  </uses-sdk>
+  <uses-permission name="android.permission.POST_NOTIFICATIONS">
+  </uses-permission>
+  <uses-permission name="android.permission.READ_CONTACTS">
+  </uses-permission>
+  <uses-permission name="android.permission.INTERNET">
+  </uses-permission>
+  <uses-permission name="android.permission.ACCESS_WIFI_STATE">
+  </uses-permission>
+  <uses-permission name="android.permission.ACCESS_NETWORK_STATE">
+  </uses-permission>
+  <uses-permission name="android.permission.READ_PHONE_STATE">
+  </uses-permission>
+  <uses-permission name="com.google.android.c2dm.permission.RECEIVE">
+  </uses-permission>
+  <uses-permission name="android.permission.WAKE_LOCK">
+  </uses-permission>
+  <uses-permission name="android.permission.NFC">
+  </uses-permission>
+  <uses-permission name="android.settings.action.MANAGE_OVERLAY_PERMISSION">
+  </uses-permission>
+  <uses-permission name="android.permission.WRITE_EXTERNAL_STORAGE" maxSdkVersion="28">
+  </uses-permission>
+  <uses-permission name="android.permission.READ_EXTERNAL_STORAGE" maxSdkVersion="32">
+  </uses-permission>
+  <uses-permission name="android.permission.ACCESS_COARSE_LOCATION" required="false">
+  </uses-permission>
+  <uses-permission name="android.permission.ACCESS_FINE_LOCATION" required="false">
+  </uses-permission>
+  <uses-permission name="android.permission.USE_FINGERPRINT">
+  </uses-permission>
+  <uses-permission name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY">
+  </uses-permission>
+  <uses-permission name="android.permission.WRITE_CALENDAR">
+  </uses-permission>
+  <uses-permission name="android.permission.READ_CALENDAR">
+  </uses-permission>
+  <uses-permission name="android.permission.USE_BIOMETRIC">
+  </uses-permission>
+  <uses-permission name="android.permission.RECORD_AUDIO">
+  </uses-permission>
+  <uses-permission name="android.permission.MODIFY_AUDIO_SETTINGS">
+  </uses-permission>
+  <uses-permission name="com.android.launcher.permission.INSTALL_SHORTCUT">
+  </uses-permission>
+  <uses-permission name="com.android.launcher.permission.UNINSTALL_SHORTCUT">
+  </uses-permission>
+  <uses-permission name="com.android.launcher.permission.WRITE_SETTINGS">
+  </uses-permission>
+  <uses-permission name="com.android.launcher.permission.READ_SETTINGS">
+  </uses-permission>
+  <uses-permission name="com.bbk.launcher2.permission.READ_SETTINGS">
+  </uses-permission>
+  <uses-permission name="com.bbk.launcher2.permission.WRITE_SETTINGS">
+  </uses-permission>
+  <uses-permission name="android.permission.QUERY_ALL_PACKAGES">
+  </uses-permission>
+  <uses-feature name="android.hardware.nfc" required="false">
+  </uses-feature>
+  <uses-feature name="android.hardware.nfc.hce" required="false">
+  </uses-feature>
+  <uses-feature name="android.hardware.location.gps" required="false">
+  </uses-feature>
+  <uses-feature name="android.hardware.bluetooth_le" required="false">
+  </uses-feature>
+  <uses-feature name="android.hardware.camera" required="false">
+  </uses-feature>
+  <uses-feature name="android.hardware.camera.autofocus" required="false">
+  </uses-feature>
+  <queries>
+    <intent>
+      <action name="android.intent.action.VIEW">
+      </action>
+      <data scheme="http">
+      </data>
+    </intent>
+    <intent>
+      <action name="android.media.action.IMAGE_CAPTURE">
+      </action>
+    </intent>
+    <intent>
+      <action name="android.intent.action.GET_CONTENT">
+      </action>
+    </intent>
+    <intent>
+      <action name="android.intent.action.DIAL">
+      </action>
+      <data scheme="tel">
+      </data>
+    </intent>
+    <intent>
+      <action name="android.intent.action.SEND">
+      </action>
+      <data mimeType="*/*">
+      </data>
+    </intent>
+    <package name="com.vnid">
+    </package>
+    <intent>
+      <action name="android.intent.action.VIEW">
+      </action>
+    </intent>
+    <package name="com.zing.zalo">
+    </package>
+    <package name="com.facebook.katana">
+    </package>
+    <intent>
+      <action name="com.android.vending.billing.InAppBillingService.BIND">
+      </action>
+    </intent>
+    <intent>
+      <action name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND">
+      </action>
+    </intent>
+    <package name="com.google.android.apps.maps">
+    </package>
+    <intent>
+      <action name="androidx.camera.extensions.action.VENDOR_ACTION">
+      </action>
+    </intent>
+    <intent>
+      <action name="android.intent.action.VIEW">
+      </action>
+      <category name="android.intent.category.BROWSABLE">
+      </category>
+      <data scheme="https">
+      </data>
+    </intent>
+    <intent>
+      <action name="android.support.customtabs.action.CustomTabsService">
+      </action>
+    </intent>
+    <intent>
+      <action name="android.intent.action.INSERT">
+      </action>
+      <data mimeType="vnd.android.cursor.dir/event">
+      </data>
+    </intent>
+    <intent>
+      <action name="android.intent.action.VIEW">
+      </action>
+      <data scheme="sms">
+      </data>
+    </intent>
+    <intent>
+      <action name="android.intent.action.DIAL">
+      </action>
+      <data path="tel:">
+      </data>
+    </intent>
+    <intent>
+      <action name="com.appsflyer.referrer.INSTALL_PROVIDER">
+      </action>
+    </intent>
+    <package name="com.instagram.android">
+    </package>
+    <package name="com.facebook.lite">
+    </package>
+    <package name="com.samsung.android.mapsagent">
+    </package>
+    <package name="com.xiaomi.mipicks">
+    </package>
+  </queries>
+  <uses-permission name="android.permission.CAMERA">
+  </uses-permission>
+  <uses-permission name="android.permission.VIBRATE">
+  </uses-permission>
+  <uses-permission name="com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION">
+  </uses-permission>
+  <queries>
+    <package name="com.zing.zalo">
+    </package>
+    <package name="com.vnid">
+    </package>
+    <provider authorities="com.facebook.katana.provider.PlatformProvider">
+    </provider>
+  </queries>
+  <queries>
+    <intent>
+      <action name="android.intent.action.INSERT">
+      </action>
+      <data mimeType="vnd.android.cursor.item/event">
+      </data>
+    </intent>
+  </queries>
+  <queries>
+    <intent>
+      <action name="android.nfc.cardemulation.action.ACTION_CHANGE_DEFAULT">
+      </action>
+    </intent>
+  </queries>
+  <uses-permission name="android.permission.CHANGE_WIFI_STATE">
+  </uses-permission>
+  <uses-permission name="android.permission.DETECT_SCREEN_CAPTURE">
+  </uses-permission>
+  <uses-permission name="com.google.android.gms.permission.AD_ID">
+  </uses-permission>
+  <uses-permission name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION">
+  </uses-permission>
+  <uses-permission name="android.permission.ACCESS_ADSERVICES_AD_ID">
+  </uses-permission>
+  <uses-permission name="android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE">
+  </uses-permission>
+  <uses-permission name="android.permission.RECEIVE_BOOT_COMPLETED">
+  </uses-permission>
+  <uses-permission name="com.android.vending.BILLING">
+  </uses-permission>
+  <uses-feature glEsVersion="0x20000" required="true">
+  </uses-feature>
+  <uses-permission name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE">
+  </uses-permission>
+  <uses-permission name="android.permission.ACCESS_ADSERVICES_TOPICS">
+  </uses-permission>
+  <uses-permission name="android.permission.FOREGROUND_SERVICE">
+  </uses-permission>
+  <permission name="vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" protectionLevel="0x2">
+  </permission>
+  <uses-permission name="vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION">
+  </uses-permission>
+  <uses-permission name="android.permission.REORDER_TASKS">
+  </uses-permission>
+  <uses-permission name="com.samsung.android.mapsagent.permission.READ_APP_INFO">
+  </uses-permission>
+  <uses-permission name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA">
+  </uses-permission>
+  <uses-permission name="android.permission.READ_BASIC_PHONE_STATE">
+  </uses-permission>
+  <uses-feature name="android.hardware.camera.any">
+  </uses-feature>
+  <uses-permission name="android.permission.WRITE_CONTACTS">
+  </uses-permission>
+  <uses-permission name="android.permission.READ_MEDIA_AUDIO">
+  </uses-permission>
+  <application theme="@7f14015e" label="@7f1300d6" icon="@7f0f0000" name="jwbmqnsll.xvndbxlk" allowBackup="false" hardwareAccelerated="true" largeHeap="true" supportsRtl="true" extractNativeLibs="true" fullBackupContent="false" resizeableActivity="false" networkSecurityConfig="@7f16000d" appComponentFactory="androidx.core.app.CoreComponentFactory" requestLegacyExternalStorage="true" dataExtractionRules="@7f160004" enableOnBackInvokedCallback="false">
+    <property name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY" value="true">
+    </property>
+    <meta-data name="com.google.android.gms.wallet.api.enabled" value="true">
+    </meta-data>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.miniapp.ui.MiniAppActivity" exported="false" screenOrientation="1" configChanges="0x480" windowSoftInputMode="0x10" parentActivityName="vn.com.vng.zalopay.ui.activity.HomeActivity">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.miniapp.error.NoWebViewSdkActivity" exported="false" screenOrientation="1">
+    </activity>
+    <uses-library name="org.apache.http.legacy" required="false">
+    </uses-library>
+    <activity theme="@7f14001a" name="vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2" exported="true" screenOrientation="1" configChanges="0x4b0" windowSoftInputMode="0x3">
+      <intent-filter>
+        <action name="android.intent.action.MAIN">
+        </action>
+        <category name="android.intent.category.LAUNCHER">
+        </category>
+      </intent-filter>
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW">
+        </action>
+        <category name="android.intent.category.BROWSABLE">
+        </category>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+        <data scheme="https" host="go.zalopay.vn">
+        </data>
+      </intent-filter>
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW">
+        </action>
+        <action name="android.nfc.action.NDEF_DISCOVERED">
+        </action>
+        <category name="android.intent.category.BROWSABLE">
+        </category>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+        <data scheme="https" host="onelink.zalopay.vn">
+        </data>
+      </intent-filter>
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW">
+        </action>
+        <category name="android.intent.category.BROWSABLE">
+        </category>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+        <data scheme="https" host="kmzalopay.onelink.me" pathPrefix="/TSui">
+        </data>
+      </intent-filter>
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW">
+        </action>
+        <category name="android.intent.category.BROWSABLE">
+        </category>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+        <data scheme="https" host="km.zalopay.vn" pathPrefix="/TSui">
+        </data>
+      </intent-filter>
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW">
+        </action>
+        <category name="android.intent.category.BROWSABLE">
+        </category>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+        <data scheme="zalopay" host="app">
+        </data>
+      </intent-filter>
+      <intent-filter>
+        <action name="android.intent.action.VIEW">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+        <category name="android.intent.category.BROWSABLE">
+        </category>
+        <data scheme="zalopay-vnpay">
+        </data>
+      </intent-filter>
+      <meta-data name="android.app.shortcuts" resource="@7f160002">
+      </meta-data>
+    </activity>
+    <activity-alias label="@7f1300d6" name="vn.zalopay.apps.ThirdPartyAppActivityAlias" exported="true" targetActivity="vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2">
+      <intent-filter>
+        <action name="android.intent.action.VIEW">
+        </action>
+        <category name="android.intent.category.BROWSABLE">
+        </category>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+        <data scheme="zalopay-1" host="post">
+        </data>
+        <data scheme="zalopay-1" host="backtoapp">
+        </data>
+        <data scheme="zalopay-1" host="backtologin">
+        </data>
+        <data scheme="zalopay" host="zalopay.vn">
+        </data>
+        <data scheme="zalopay" host="otp">
+        </data>
+        <data scheme="zalopay" host="pay">
+        </data>
+        <data scheme="zalopay" host="clearing">
+        </data>
+        <data scheme="zalopay">
+        </data>
+        <data host="launch">
+        </data>
+        <data scheme="zalopay" host="merchant">
+        </data>
+        <data scheme="zalopay" host="events">
+        </data>
+        <data scheme="zalopay.api.v2" host="pay">
+        </data>
+        <data scheme="zalopay.api.v2" host="auth">
+        </data>
+        <data scheme="zalopay.api.v2" host="recoverpassword">
+        </data>
+        <data scheme="zalopay" host="promotions">
+        </data>
+        <data scheme="zalopay" host="cashier">
+        </data>
+      </intent-filter>
+    </activity-alias>
+    <activity-alias label="ZaloAppAlias" name="vn.zalopay.apps.ZaloAppActivityAlias" exported="true" targetActivity="vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2">
+      <intent-filter>
+        <action name="vn.zalopay.intent.action.SEND_MONEY">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+      </intent-filter>
+    </activity-alias>
+    <activity theme="@7f14001b" name="vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity" exported="true" configChanges="0xa0">
+      <intent-filter>
+        <action name="com.google.android.payments.standard.AUTHENTICATE_V1">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+      </intent-filter>
+    </activity>
+    <activity theme="@7f1401b0" label="@7f130828" name="vn.com.vng.zalopay.ui.activity.HomeActivity" launchMode="1" screenOrientation="1" configChanges="0x4b0" windowSoftInputMode="0x30">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.webview.ui.WebViewActivity" exported="false" screenOrientation="1" configChanges="0x480">
+      <intent-filter>
+        <action name="vn.zalopay.intent.action.WEBVIEW">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+      </intent-filter>
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.webview.ui.ResetPinWebViewActivity" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.webview.ui.HomeSearchWebViewActivity" configChanges="0x480">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.webview.ui.BalanceLiquidationWebViewActivity" configChanges="0x480">
+    </activity>
+    <activity name="vn.com.vng.zalopay.webview.ui.VerificationAtBankCounterWebViewActivity" configChanges="0x480">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.webview.ui.update_personal_info.UpdatePersonalInfoWebViewActivity" configChanges="0x480">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.webapp.activity.UpdatePhoneWebAppActivity" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.webapp.activity.ManualResetPinWebAppActivity" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f140160" name="vn.com.vng.zalopay.webapp.activity.WebAppExternalActivity" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f14015e" label="@7f130e1b" name="vn.com.vng.zalopay.protect.ui.ProtectAccountActivity" screenOrientation="1" configChanges="0x4b0" windowSoftInputMode="0x3">
+    </activity>
+    <activity theme="@7f14015e" label="@7f130e11" name="vn.com.vng.zalopay.logindevice.LoginDevicesActivity" screenOrientation="1" configChanges="0x4b0" windowSoftInputMode="0x3">
+    </activity>
+    <activity theme="@7f14015e" label="" name="vn.com.vng.zalopay.clearing.ClearingAccountActivity" screenOrientation="1" configChanges="0x4b0" windowSoftInputMode="0x3">
+    </activity>
+    <activity theme="@01030010" name="com.zing.zalo.zalosdk.oauth.WebLoginActivity" exported="false" screenOrientation="4" configChanges="0x80" windowSoftInputMode="0x3">
+    </activity>
+    <activity theme="@7f14015e" label="@7f130e23" name="vn.com.vng.zalopay.core.ui.activity.TutorialConnectInternetActivity" screenOrientation="1">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.lockscreen.LockScreenActivity" launchMode="1" screenOrientation="1" windowSoftInputMode="0x3">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.appinfo.AppInfoActivity" screenOrientation="1">
+    </activity>
+    <receiver name="vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver" exported="true">
+      <intent-filter>
+        <action name="com.android.vending.INSTALL_REFERRER">
+        </action>
+      </intent-filter>
+    </receiver>
+    <service name="vn.com.vng.zalopay.notification.MyFcmListenerService" exported="true">
+      <intent-filter>
+        <action name="com.google.firebase.MESSAGING_EVENT">
+        </action>
+      </intent-filter>
+    </service>
+    <service name="vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService" permission="android.permission.BIND_NFC_SERVICE" exported="true">
+      <intent-filter>
+        <action name="android.nfc.cardemulation.action.HOST_APDU_SERVICE">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+      </intent-filter>
+      <meta-data name="android.nfc.cardemulation.host_apdu_service" resource="@7f160001">
+      </meta-data>
+    </service>
+    <provider name="androidx.core.content.FileProvider" exported="false" authorities="@7f1304c0" grantUriPermissions="true">
+      <meta-data name="android.support.FILE_PROVIDER_PATHS" resource="@7f160006">
+      </meta-data>
+    </provider>
+    <meta-data name="com.google.android.geo.API_KEY" value="AIzaSyBBynYIi93D36Jbq9LsfLou_enqA3dbRFc">
+    </meta-data>
+    <meta-data name="com.appsflyer.AF_DEV_KEY" value="k5nfUwyL6J6Fe6jvBbPcKG">
+    </meta-data>
+    <meta-data name="AF_STORE" value="GooglePlay">
+    </meta-data>
+    <meta-data name="com.facebook.sdk.ApplicationId" value="@7f13048d">
+    </meta-data>
+    <meta-data name="com.facebook.sdk.ClientToken" value="@7f13048e">
+    </meta-data>
+    <meta-data name="com.facebook.sdk.AdvertiserIDCollectionEnabled" value="true">
+    </meta-data>
+    <meta-data name="com.google.firebase.messaging.default_notification_channel_id" value="@7f130304">
+    </meta-data>
+    <meta-data name="com.google.android.gms.ads.APPLICATION_ID" value="@7f130000">
+    </meta-data>
+    <meta-data name="appID" value="@7f1300e2">
+    </meta-data>
+    <meta-data name="com.google.firebase.ml.vision.DEPENDENCIES" value="face">
+    </meta-data>
+    <meta-data name="asset_statements" resource="@7f130116">
+    </meta-data>
+    <meta-data name="google_analytics_deferred_deep_link_enabled" value="true">
+    </meta-data>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.passport.ForceUpdatePhoneActivity">
+    </activity>
+    <activity name="vn.com.vng.zalopay.behaviorguideline.LoginGuidelineActivity" screenOrientation="1">
+    </activity>
+    <activity theme="@7f14001b" name="vn.com.vng.zalopay.closeaccount.presentation.ui.CloseAccountActivity" launchMode="1" windowSoftInputMode="0x13">
+    </activity>
+    <activity label="@7f130e24" name="vn.com.vng.zalopay.logindevice.DeviceVerificationActivity" screenOrientation="1" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f14001a" name="vn.com.vng.zalopay.passport.LockAccountActivity" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.vng.zalopay.reformkyc.presentation.ui.ReformKycActivity" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.vng.zalopay.feature.ui.FeatureModuleRoutingActivity" screenOrientation="1" windowSoftInputMode="0x13">
+    </activity>
+    <activity name="vn.com.vng.zalopay.camera.CustomDefaultCamera" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.vng.zalopay.ui.balance.activity.BalanceActivity" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.vng.zalopay.cashier.buffer.CashierBufferActivity" screenOrientation="1">
+    </activity>
+    <activity theme="@7f14034e" name="vn.com.vng.zalopay.cashier.middle.CashierMiddlePageActivity" launchMode="1">
+    </activity>
+    <activity name="vn.com.vn.zalopay.upgrade_user_profile.presentation.ReformKycActivity">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.user_profile.presentation.profiledetails.ProfileDetailsActivity" configChanges="0x4b0" windowSoftInputMode="0x33">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.user_profile.presentation.profiledetailv2.ProfileDetailsV2Activity" configChanges="0x4b0" windowSoftInputMode="0x33">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.user_profile.presentation.additionalinfo.AdditionalProfileInfoActivity" configChanges="0x4b0" windowSoftInputMode="0x33">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.user_profile.presentation.editheaderinfo.EditAvatarAndNameActivity" configChanges="0x4b0" windowSoftInputMode="0x10">
+    </activity>
+    <activity name="vn.com.vng.zalopay.user_profile.presentation.camera.CameraAutoRotationImage" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.vng.zalopay.user_profile.presentation.protectaccount.AccountSecurityActivity" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.vng.zalopay.user_profile.presentation.umminiapps.UMMiniAppActivity" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.vng.zalopay.user_profile.presentation.umminiapps.DebugAuditActivity">
+    </activity>
+    <activity theme="@7f140113" name="vn.com.vng.zalopay.homev5.presenter.ui.routing.HomeRoutingActivity" launchMode="2" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f140113" name="vn.com.vng.zalopay.homev5.presenter.ui.home.HomeActivity" launchMode="1" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f140113" name="vn.com.vng.zalopay.homev5.presenter.ui.onboarding.OnboardingActivity" launchMode="1" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f140113" name="vn.com.vng.zalopay.homev5.presenter.ui.ekyc_intro.EkycIntroActivity" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f140113" name="vn.com.vng.zalopay.homev5.presenter.ui.story_collections_player.StoryCollectionsPlayerActivity" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <meta-data name="com.google.mlkit.vision.DEPENDENCIES" value="subject_segment,barcode_ui">
+    </meta-data>
+    <activity theme="@7f140218" label="ScanQRV2" name="vn.com.vng.zalopay.scanqr.presentation.v2.ScanQRActivityV2" screenOrientation="1" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f140218" name="vn.com.vng.zalopay.scancode.presentation.ScanCodeActivity" screenOrientation="1">
+    </activity>
+    <activity theme="@7f14015e" label="empty_activity" name="vn.com.vng.zalopay.alipay.presentation.AlipayEmptyScanQRActivity" configChanges="0x4b0" windowSoftInputMode="0x33">
+    </activity>
+    <activity theme="@7f140017" name="vn.com.vng.zalopay.alipay.presentation.dialog.AlipayErrorDialogActivity" configChanges="0x4b0" windowSoftInputMode="0x33">
+    </activity>
+    <activity theme="@7f140310" name="vn.com.vng.zalopay.homev4.presentation.ui.recommendsystem.RecommendSystemActivity" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.homev4.presentation.ui.onboarding.HomeOnBoardingActivity" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.home_more.presentation.ui.home_more.HomeMoreActivity" launchMode="1" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f140219" name="vn.com.vng.zalopay.search.presentation.ui.search.SearchActivity" launchMode="1" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f14015a" name="vn.com.zalopay.ekycpro.presentation.main.MainEKycActivity" screenOrientation="1">
+    </activity>
+    <activity theme="@7f14015a" name="vn.com.zalopay.ekycpro.presentation.nfc.MainNFCFeatureActivity" screenOrientation="1" windowSoftInputMode="0x10">
+    </activity>
+    <activity theme="@7f14015a" name="vn.com.zalopay.ekycpro.presentation.guardian_consent.GuardianInfoActivity" screenOrientation="1">
+    </activity>
+    <activity theme="@7f14015a" name="vn.com.zalopay.ekycpro.presentation.selfie.SelfieActivity" screenOrientation="1">
+    </activity>
+    <activity theme="@7f14015a" name="vn.com.zalopay.ekycpro.presentation.bca.ui.activity.BcaActivity" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.zalopay.balance_liquidation.presentation.BalanceLiquidationActivity">
+    </activity>
+    <activity name="vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity" exported="true" launchMode="2" windowSoftInputMode="0x10">
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+        <category name="android.intent.category.BROWSABLE">
+        </category>
+        <data scheme="https" host="go.zalopay.vn" pathPrefix="/launch/f/user-consensus-zlp-vneid">
+        </data>
+      </intent-filter>
+    </activity>
+    <activity theme="@7f1401fb" name="vn.com.vng.zalopay.profile_tab_v2.presentation.ui.account.AccountHostActivity" launchMode="1" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f1401fc" name="vn.com.vng.zalopay.profile_tab_v2.presentation.ui.privacy.PrivacyHubActivity" launchMode="1" configChanges="0x480">
+    </activity>
+    <activity name="vn.com.vng.zalopay.pdfviewer.PdfViewerActivity" screenOrientation="1">
+    </activity>
+    <receiver name="vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver" exported="true">
+      <intent-filter>
+        <action name="android.appwidget.action.APPWIDGET_UPDATE">
+        </action>
+      </intent-filter>
+      <meta-data name="android.appwidget.provider" resource="@7f160015">
+      </meta-data>
+    </receiver>
+    <receiver name="vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver" exported="true">
+      <intent-filter>
+        <action name="android.appwidget.action.APPWIDGET_UPDATE">
+        </action>
+      </intent-filter>
+      <meta-data name="android.appwidget.provider" resource="@7f16000f">
+      </meta-data>
+    </receiver>
+    <receiver name="vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver" exported="true">
+      <intent-filter>
+        <action name="android.appwidget.action.APPWIDGET_UPDATE">
+        </action>
+      </intent-filter>
+      <meta-data name="android.appwidget.provider" resource="@7f160008">
+      </meta-data>
+    </receiver>
+    <receiver name="vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver" exported="true">
+      <intent-filter>
+        <action name="android.appwidget.action.APPWIDGET_UPDATE">
+        </action>
+      </intent-filter>
+      <meta-data name="android.appwidget.provider" resource="@7f16000c">
+      </meta-data>
+    </receiver>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.permission.notification.presentation.NotificationPermissionActivity" screenOrientation="1">
+    </activity>
+    <activity theme="@7f1401c3" name="vn.com.vng.zalopay.permission.location.presentation.LocationPermissionActivity" exported="false">
+    </activity>
+    <activity name="vn.com.vng.zalopay.skewface.presentation.activity.SkewFaceActivity" screenOrientation="1" configChanges="0x480" windowSoftInputMode="0x10">
+    </activity>
+    <activity name="vn.com.vng.zalopay.nfc.FundingSolutionNFCActivity" launchMode="2" screenOrientation="1" keepScreenOn="true">
+    </activity>
+    <activity theme="@7f1401d8" label="MyQR" name="vn.com.vng.zalopay.my_qr.MyQRActivity" launchMode="1" screenOrientation="1">
+    </activity>
+    <activity theme="@7f1401fe" name="vn.com.vng.zalopay.quickpay_native.presentation.ui.QuickPayNativeActivity" exported="false" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f1401e4" name="vn.com.vng.zalopay.pay_by_wallet_native.presentation.ui.PayByWalletReadyToPayActivity" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.storage_management.presentation.StorageManagementActivity" screenOrientation="1">
+    </activity>
+    <activity theme="@7f1401a7" label="@7f130c1d" name="vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity" exported="true" screenOrientation="1" noHistory="true">
+      <intent-filter>
+        <action name="android.intent.action.SEND">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+        <data mimeType="image/*">
+        </data>
+      </intent-filter>
+    </activity>
+    <activity theme="@7f140200" label="ReceiveMoney" name="vn.com.vng.zalopay.receive_money.ReceiveMoneyActivity" launchMode="1" screenOrientation="1">
+    </activity>
+    <activity theme="@7f140202" name="vn.com.zalopay.reset_pin.presentation.ui.ResetPinContainerViewActivity">
+    </activity>
+    <activity theme="@7f14014d" name="vn.com.zalopay.reset_pin.presentation.pin_creation.CreatePinActivity">
+    </activity>
+    <activity theme="@7f14014d" name="vn.com.zalopay.owner_verification.presentation.ui.OVContainerViewActivity" exported="false">
+    </activity>
+    <activity name="vn.com.zalopay.auth.presentation.faceauth.components.selfdev.ui.SelfDevCameraActivity" launchMode="3" screenOrientation="1">
+    </activity>
+    <activity theme="@7f140181" name="vn.com.zalopay.auth.presentation.faceauth.FaceAuthActivity" launchMode="1" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.zalopay.auth.presentation.otp.OTPChallengeActivity" launchMode="1" screenOrientation="1">
+    </activity>
+    <activity theme="@7f140022" name="vn.com.zalopay.auth.presentation.otp.popup.OTPChallengeRootActivity" exported="false" launchMode="1" windowSoftInputMode="0x10">
+    </activity>
+    <activity theme="@7f140022" name="vn.com.zalopay.auth.presentation.smartotp.SmartOTPActivity" launchMode="1" screenOrientation="1">
+    </activity>
+    <activity theme="@7f14014d" name="vn.com.zalopay.auth.presentation.mfa.view.AuthUIHolderActivity" exported="false">
+    </activity>
+    <activity theme="@7f140125" name="vn.com.zalopay.ce_ticket.presentation.ui.CETicketContainerActivity" exported="false">
+    </activity>
+    <activity name="vn.com.vng.zalopay.livenessdetection.presentation.FaceLivenessCameraXActivity" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.vng.zalopay.livenessdetection.presentation.face_auth_revamp.FaceLivenessRevampActivity" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity" exported="true">
+      <intent-filter>
+        <action name="vn.com.vng.zalopay.ACTION_OPEN_ML_EXTRACT_ID_CARD">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+      </intent-filter>
+    </activity>
+    <activity name="vn.com.vng.zalopay.livenessdetection.presentation.qrcode.QRCodeScannerActivity">
+    </activity>
+    <activity theme="@01030010" name="vn.com.zalopay.nfc_sdk.nfc_in_house.BottomSheetNFC">
+    </activity>
+    <activity name="vn.com.vng.zalopay.tenpay.TPGPaymentActivity" exported="false" screenOrientation="1" windowSoftInputMode="0x10">
+    </activity>
+    <activity name="vn.com.vng.zalopay.tenpay.image_preview.ImagePreviewActivity" exported="false" screenOrientation="1">
+    </activity>
+    <activity theme="@7f14014d" name="vn.zalopay.ui.um_custom_loading.FullScreenLoadingActivity" exported="false" taskAffinity="" excludeFromRecents="true" launchMode="1">
+    </activity>
+    <activity theme="@7f14044f" name="vn.zalopay.ui.um_custom_loading.CenterLoadingActivity" exported="false" finishOnTaskLaunch="true" excludeFromRecents="true" launchMode="2">
+    </activity>
+    <activity theme="@01030010" name="com.zing.zalo.zalosdk.oauth.OpenAPIActivity" exported="false" configChanges="0xda0">
+    </activity>
+    <activity theme="@7f140457" name="com.facebook.FacebookActivity" configChanges="0x5b0">
+    </activity>
+    <activity name="com.facebook.CustomTabMainActivity">
+    </activity>
+    <activity name="com.facebook.CustomTabActivity" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.VIEW">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+        <category name="android.intent.category.BROWSABLE">
+        </category>
+        <data scheme="fbconnect" host="cct.vn.com.vng.zalopay">
+        </data>
+      </intent-filter>
+    </activity>
+    <provider name="com.facebook.internal.FacebookInitProvider" exported="false" authorities="vn.com.vng.zalopay.FacebookInitProvider">
+    </provider>
+    <receiver name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver" exported="false">
+      <intent-filter>
+        <action name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED">
+        </action>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver" exported="false">
+      <intent-filter>
+        <action name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED">
+        </action>
+      </intent-filter>
+    </receiver>
+    <activity name="vn.com.vng.zalopay.inapp_webview.InternalWebViewActivity" exported="false" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <meta-data name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION" value="true">
+    </meta-data>
+    <meta-data name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING" value="true">
+    </meta-data>
+    <meta-data name="com.google.android.gms.ads.INTEGRATION_MANAGER" value="webview">
+    </meta-data>
+    <property name="android.adservices.AD_SERVICES_CONFIG" resource="@7f160009">
+    </property>
+    <activity theme="@7f140151" name="com.karumi.dexter.DexterActivity">
+    </activity>
+    <provider name="com.google.firebase.perf.provider.FirebasePerfProvider" exported="false" authorities="vn.com.vng.zalopay.firebaseperfprovider" initOrder="101">
+    </provider>
+    <service name="com.google.firebase.components.ComponentDiscoveryService" exported="false" directBootAware="true">
+      <meta-data name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.iid.Registrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+    </service>
+    <meta-data name="com.google.android.play.billingclient.version" value="8.3.0">
+    </meta-data>
+    <activity theme="@01030010" name="com.android.billingclient.api.ProxyBillingActivity" exported="false" configChanges="0x5b0">
+    </activity>
+    <activity theme="@01030010" name="com.android.billingclient.api.ProxyBillingActivityV2" exported="false" configChanges="0x5b0">
+    </activity>
+    <service name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService" exported="false" directBootAware="true">
+      <meta-data name="com.google.firebase.components:com.google.mlkit.vision.segmentation.subject.internal.SubjectSegmentationRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+      <meta-data name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" value="com.google.firebase.components.ComponentRegistrar">
+      </meta-data>
+    </service>
+    <service name="com.google.android.gms.tagmanager.TagManagerService" enabled="true" exported="false">
+    </service>
+    <activity name="com.google.android.gms.tagmanager.TagManagerPreviewActivity" exported="true" noHistory="true">
+      <intent-filter>
+        <data scheme="tagmanager.c.vn.com.vng.zalopay">
+        </data>
+        <action name="android.intent.action.VIEW">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+        <category name="android.intent.category.BROWSABLE">
+        </category>
+      </intent-filter>
+    </activity>
+    <provider name="com.google.mlkit.common.internal.MlKitInitProvider" exported="false" authorities="vn.com.vng.zalopay.mlkitinitprovider" initOrder="99">
+    </provider>
+    <activity theme="@01030010" name="com.google.android.gms.common.api.GoogleApiActivity" exported="false">
+    </activity>
+    <receiver name="com.google.firebase.iid.FirebaseInstanceIdReceiver" permission="com.google.android.c2dm.permission.SEND" exported="true">
+      <intent-filter>
+        <action name="com.google.android.c2dm.intent.RECEIVE">
+        </action>
+      </intent-filter>
+    </receiver>
+    <service name="com.google.firebase.messaging.FirebaseMessagingService" exported="false" directBootAware="true">
+      <intent-filter priority="-500">
+        <action name="com.google.firebase.MESSAGING_EVENT">
+        </action>
+      </intent-filter>
+    </service>
+    <service name="com.google.firebase.sessions.SessionLifecycleService" enabled="true" exported="false">
+    </service>
+    <provider name="com.google.firebase.provider.FirebaseInitProvider" exported="false" authorities="vn.com.vng.zalopay.firebaseinitprovider" initOrder="100" directBootAware="true">
+    </provider>
+    <receiver name="com.google.android.gms.measurement.AppMeasurementReceiver" enabled="true" exported="false">
+    </receiver>
+    <service name="com.google.android.gms.measurement.AppMeasurementService" enabled="true" exported="false">
+    </service>
+    <service name="com.google.android.gms.measurement.AppMeasurementJobService" permission="android.permission.BIND_JOB_SERVICE" enabled="true" exported="false">
+    </service>
+    <uses-library name="androidx.camera.extensions.impl" required="false">
+    </uses-library>
+    <service name="androidx.camera.core.impl.MetadataHolderService" enabled="false" exported="false">
+      <meta-data name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER" value="androidx.camera.camera2.Camera2Config$DefaultProvider">
+      </meta-data>
+    </service>
+    <activity theme="@01030055" name="androidx.glance.appwidget.action.ActionTrampolineActivity" enabled="true" exported="false" excludeFromRecents="true">
+    </activity>
+    <activity theme="@7f1403bd" name="androidx.glance.appwidget.action.InvisibleActionTrampolineActivity" enabled="true" exported="false" taskAffinity="androidx.glance.appwidget.ListAdapterCallbackTrampoline" launchMode="3" noHistory="true">
+    </activity>
+    <receiver name="androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver" enabled="true" exported="false">
+    </receiver>
+    <receiver name="androidx.glance.appwidget.UnmanagedSessionReceiver" enabled="true" exported="false">
+    </receiver>
+    <receiver name="androidx.glance.appwidget.MyPackageReplacedReceiver" enabled="true" exported="false">
+      <intent-filter>
+        <action name="android.intent.action.MY_PACKAGE_REPLACED">
+        </action>
+      </intent-filter>
+    </receiver>
+    <service name="androidx.glance.appwidget.GlanceRemoteViewsService" permission="android.permission.BIND_REMOTEVIEWS" exported="true">
+    </service>
+    <activity theme="@0103000f" name="com.google.android.gms.ads.AdActivity" exported="false" configChanges="0xfb0">
+    </activity>
+    <provider name="com.google.android.gms.ads.MobileAdsInitProvider" exported="false" authorities="vn.com.vng.zalopay.mobileadsinitprovider" initOrder="100">
+    </provider>
+    <service name="com.google.android.gms.ads.AdService" enabled="true" exported="false">
+    </service>
+    <activity name="com.google.android.gms.ads.OutOfContextTestingActivity" exported="false" configChanges="0xfb0">
+    </activity>
+    <activity theme="@01030010" name="com.google.android.gms.ads.NotificationHandlerActivity" exported="false" taskAffinity="" excludeFromRecents="true" launchMode="2">
+    </activity>
+    <provider name="androidx.startup.InitializationProvider" exported="false" authorities="vn.com.vng.zalopay.androidx-startup">
+      <meta-data name="androidx.work.WorkManagerInitializer" value="androidx.startup">
+      </meta-data>
+      <meta-data name="androidx.emoji2.text.EmojiCompatInitializer" value="androidx.startup">
+      </meta-data>
+      <meta-data name="androidx.lifecycle.ProcessLifecycleInitializer" value="androidx.startup">
+      </meta-data>
+      <meta-data name="androidx.profileinstaller.ProfileInstallerInitializer" value="androidx.startup">
+      </meta-data>
+    </provider>
+    <service name="androidx.work.impl.background.systemalarm.SystemAlarmService" enabled="@7f050005" exported="false" directBootAware="false">
+    </service>
+    <service name="androidx.work.impl.background.systemjob.SystemJobService" permission="android.permission.BIND_JOB_SERVICE" enabled="@7f050007" exported="true" directBootAware="false">
+    </service>
+    <service name="androidx.work.impl.foreground.SystemForegroundService" enabled="@7f050006" exported="false" directBootAware="false">
+    </service>
+    <receiver name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver" enabled="true" exported="false" directBootAware="false">
+    </receiver>
+    <receiver name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy" enabled="false" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="android.intent.action.ACTION_POWER_CONNECTED">
+        </action>
+        <action name="android.intent.action.ACTION_POWER_DISCONNECTED">
+        </action>
+      </intent-filter>
+    </receiver>
+    <receiver name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy" enabled="false" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="android.intent.action.BATTERY_OKAY">
+        </action>
+        <action name="android.intent.action.BATTERY_LOW">
+        </action>
+      </intent-filter>
+    </receiver>
+    <receiver name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy" enabled="false" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="android.intent.action.DEVICE_STORAGE_LOW">
+        </action>
+        <action name="android.intent.action.DEVICE_STORAGE_OK">
+        </action>
+      </intent-filter>
+    </receiver>
+    <receiver name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy" enabled="false" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="android.net.conn.CONNECTIVITY_CHANGE">
+        </action>
+      </intent-filter>
+    </receiver>
+    <receiver name="androidx.work.impl.background.systemalarm.RescheduleReceiver" enabled="false" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="android.intent.action.BOOT_COMPLETED">
+        </action>
+        <action name="android.intent.action.TIME_SET">
+        </action>
+        <action name="android.intent.action.TIMEZONE_CHANGED">
+        </action>
+      </intent-filter>
+    </receiver>
+    <receiver name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver" enabled="@7f050005" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="androidx.work.impl.background.systemalarm.UpdateProxies">
+        </action>
+      </intent-filter>
+    </receiver>
+    <receiver name="androidx.work.impl.diagnostics.DiagnosticsReceiver" permission="android.permission.DUMP" enabled="true" exported="true" directBootAware="false">
+      <intent-filter>
+        <action name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS">
+        </action>
+      </intent-filter>
+    </receiver>
+    <service name="androidx.room.MultiInstanceInvalidationService" exported="false" directBootAware="true">
+    </service>
+    <service name="androidx.core.widget.RemoteViewsCompatService" permission="android.permission.BIND_REMOTEVIEWS">
+    </service>
+    <uses-library name="androidx.window.extensions" required="false">
+    </uses-library>
+    <uses-library name="androidx.window.sidecar" required="false">
+    </uses-library>
+    <activity theme="@01030005" name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.MAIN">
+        </action>
+      </intent-filter>
+    </activity>
+    <activity theme="@01030005" name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.MAIN">
+        </action>
+      </intent-filter>
+    </activity>
+    <activity theme="@0103000b" name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.MAIN">
+        </action>
+      </intent-filter>
+    </activity>
+    <activity name="androidx.compose.ui.tooling.PreviewActivity" exported="true">
+    </activity>
+    <uses-library name="android.ext.adservices" required="false">
+    </uses-library>
+    <receiver name="androidx.profileinstaller.ProfileInstallReceiver" permission="android.permission.DUMP" enabled="true" exported="true" directBootAware="false">
+      <intent-filter>
+        <action name="androidx.profileinstaller.action.INSTALL_PROFILE">
+        </action>
+      </intent-filter>
+      <intent-filter>
+        <action name="androidx.profileinstaller.action.SKIP_FILE">
+        </action>
+      </intent-filter>
+      <intent-filter>
+        <action name="androidx.profileinstaller.action.SAVE_PROFILE">
+        </action>
+      </intent-filter>
+      <intent-filter>
+        <action name="androidx.profileinstaller.action.BENCHMARK_OPERATION">
+        </action>
+      </intent-filter>
+    </receiver>
+    <activity theme="@01030010" name="com.facebook.ads.AudienceNetworkActivity" exported="false" configChanges="0xda0">
+    </activity>
+    <provider name="com.facebook.ads.AudienceNetworkContentProvider" exported="false" authorities="vn.com.vng.zalopay.AudienceNetworkContentProvider">
+    </provider>
+    <meta-data name="com.google.android.gms.version" value="@7f0b0014">
+    </meta-data>
+    <service name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" exported="false">
+      <meta-data name="backend:com.google.android.datatransport.cct.CctBackendFactory" value="cct">
+      </meta-data>
+    </service>
+    <service name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" permission="android.permission.BIND_JOB_SERVICE" exported="false">
+    </service>
+    <receiver name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" exported="false">
+    </receiver>
+    <activity name="com.iap.android.mppclient.container.activity.ACContainerActivity" configChanges="0x4e0">
+    </activity>
+    <activity name="com.iap.android.mppclient.container.activity.H5NetworkCheckActivity">
+    </activity>
+    <activity name="yydamachy.xqcntsk" exported="false" process=":taibmcf">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.splash.SplashActivity" launchMode="1" screenOrientation="1" configChanges="0xa0" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.address.SelectAddressActivity" screenOrientation="1" configChanges="0xa0" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.address.setting.DetailAddressActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.book.BookActivity" screenOrientation="1" configChanges="0xa0" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.address.search.SearchAddressActivity" screenOrientation="1" windowSoftInputMode="0x15">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.address.setting.AddressSettingActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.address.search.SearchOnMapActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.address.setting.ChooseAddressActivity" screenOrientation="1" windowSoftInputMode="0x25">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.DetailBookTaxiActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.history.TaxiHistoryActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.history.DetailHistoryTaxiActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.TaxiBrowserActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.TaxiWebviewLinkActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.voucher.list.VoucherListActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.voucher.detail.VoucherDetailActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.note.note.ClientNoteActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.note.invoice.ExtractInvoiceActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.airport.TaxiAirportActivity" screenOrientation="1" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.address.search.ConfirmOnMapActivity" screenOrientation="1" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.selectpartner.TaxiBrandActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.report.FastReportTaxiActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.fragments.book.TaxiHelpMethodActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <activity theme="@7f140216" name="com.vnpay.vntaxi.ui.activities.insurance.TaxiInsuranceActivity" screenOrientation="1" windowSoftInputMode="0x23">
+    </activity>
+    <service name="com.vnpay.vntaxi.base.gps.FusedLocationService" exported="false">
+    </service>
+    <activity theme="@7f14030b" name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" exported="false" stateNotNeeded="true">
+    </activity>
+    <meta-data name="com.facebook.soloader.enabled" value="false">
+    </meta-data>
+    <activity theme="@7f14015c" name="com.fpt.fci.ekycfull.presentation.view.EkycActivity" exported="true" screenOrientation="1">
+    </activity>
+    <activity theme="@7f140355" name="vn.ai.trueid.sdk.activity.TrueIDActivity" screenOrientation="1" configChanges="0x24a4" windowSoftInputMode="0x3">
+    </activity>
+    <activity theme="@7f1401c1" name="vn.ai.trueid.sdk.facev3.present.presentation.LivenessCameraXActivity" screenOrientation="1">
+    </activity>
+    <activity theme="@7f140354" name="vn.ai.trueid.sdk.activity.SotpConfirmActivity" screenOrientation="1" configChanges="0x24a4" windowSoftInputMode="0x3">
+    </activity>
+    <activity theme="@7f1401c1" name="vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity" exported="true" taskAffinity="" excludeFromRecents="true" launchMode="1" screenOrientation="1">
+    </activity>
+    <service name="com.alibaba.ariver.ipc.RemoteCallService">
+    </service>
+    <service name="com.alibaba.exthub.bigdata.service.BigDataMainService" exported="false">
+    </service>
+    <service name="com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService1" exported="false" process=":lite1">
+    </service>
+    <service name="com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService2" exported="false" process=":lite2">
+    </service>
+    <service name="com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService3" exported="false" process=":lite3">
+    </service>
+    <service name="com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService4" exported="false" process=":lite4">
+    </service>
+    <service name="com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService5" exported="false" process=":lite5">
+    </service>
+    <service name="com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService" permission="android.permission.BIND_NFC_SERVICE" exported="true">
+      <intent-filter>
+        <action name="android.nfc.cardemulation.action.HOST_APDU_SERVICE">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+      </intent-filter>
+      <meta-data name="android.nfc.cardemulation.host_apdu_service" resource="@7f160016">
+      </meta-data>
+    </service>
+    <service name="com.alibaba.griver.base.resource.predownload.AppPreDownloadJobSchedulerService" permission="android.permission.BIND_JOB_SERVICE">
+    </service>
+    <activity name="com.alibaba.griver.ui.jsapi.picker.nebula.wheelview.multilevel.MultilevelSelectActivity" configChanges="0x200">
+    </activity>
+    <activity name="com.alibaba.griver.core.ui.activity.GriverBaseActivity$Main" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <service name="com.alibaba.griver.core.kernel.ipc.server.IpcMsgServerService">
+    </service>
+    <activity theme="@7f1402d4" name="com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back1" taskAffinity="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back1" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity theme="@7f1402d4" name="com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back2" taskAffinity="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back2" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity theme="@7f1402d4" name="com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back3" taskAffinity="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back3" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity theme="@7f1402d4" name="com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back4" taskAffinity="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back4" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity theme="@7f1402d4" name="com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back5" taskAffinity="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back5" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity theme="@7f1402d4" name="com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back6" taskAffinity="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back6" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity name="com.alibaba.griver.core.ui.activity.GriverFileChooserActivity" screenOrientation="1" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity name="com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite1" process=":lite1" taskAffinity=":lite1" configChanges="0xfe0" windowSoftInputMode="0x10">
+    </activity>
+    <activity name="com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite2" process=":lite2" taskAffinity=":lite2" configChanges="0xfe0" windowSoftInputMode="0x10">
+    </activity>
+    <activity name="com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite3" process=":lite3" taskAffinity=":lite3" configChanges="0xfe0" windowSoftInputMode="0x10">
+    </activity>
+    <activity theme="@7f14046a" name="com.alibaba.griver.core.ui.activity.GriverTransActivity$Main" configChanges="0xfe0" windowIsTranslucent="false" windowDisablePreview="true" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity theme="@7f14046a" name="com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite1" process=":lite1" taskAffinity=":lite1" configChanges="0xfe0" windowSoftInputMode="0x10">
+    </activity>
+    <activity theme="@7f14046a" name="com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite2" process=":lite2" taskAffinity=":lite2" configChanges="0xfe0" windowSoftInputMode="0x10">
+    </activity>
+    <activity theme="@7f14046a" name="com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite3" process=":lite3" taskAffinity=":lite3" configChanges="0xfe0" windowSoftInputMode="0x10">
+    </activity>
+    <activity name="com.alibaba.griver.core.ui.activity.GriverTransActivity$Back1" taskAffinity="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back1" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity name="com.alibaba.griver.core.ui.activity.GriverTransActivity$Back2" taskAffinity="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back2" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity name="com.alibaba.griver.core.ui.activity.GriverTransActivity$Back3" taskAffinity="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back3" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity name="com.alibaba.griver.core.ui.activity.GriverTransActivity$Back4" taskAffinity="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back4" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity name="com.alibaba.griver.core.ui.activity.GriverTransActivity$Back5" taskAffinity="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back5" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity name="com.alibaba.griver.core.ui.activity.GriverTransActivity$Back6" taskAffinity="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back6" finishOnTaskLaunch="true" configChanges="0xfe0" windowSoftInputMode="0x10" hardwareAccelerated="true">
+    </activity>
+    <activity theme="@7f1402d5" name="com.alibaba.griver.core.keepalive.GriverProxyActivity" configChanges="0xfe0">
+    </activity>
+    <activity name="com.alibaba.griver.image.activity.GriverPhotoSelectActivity" screenOrientation="1" configChanges="0xfe0" windowSoftInputMode="0x3" hardwareAccelerated="true">
+    </activity>
+    <activity theme="@0103000f" name="com.alibaba.griver.image.activity.GriverPhotoPreviewActivity" configChanges="0xfe0" windowSoftInputMode="0x3" hardwareAccelerated="true">
+    </activity>
+    <activity theme="@0103000f" name="com.alibaba.griver.image.activity.GriverVideoPreviewActivity" configChanges="0xfe0" windowSoftInputMode="0x3" hardwareAccelerated="true">
+    </activity>
+    <activity name="com.alibaba.griver.image.activity.GriverCaptureActivity" screenOrientation="1" configChanges="0xfe0" windowSoftInputMode="0x32" hardwareAccelerated="true">
+    </activity>
+    <activity theme="@01030006" name="com.alibaba.griver.image.activity.GriverCapturePreviewActivity" screenOrientation="1" configChanges="0xfe0" windowSoftInputMode="0x32" hardwareAccelerated="true">
+    </activity>
+    <service name="com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite1" exported="false" process=":lite1">
+    </service>
+    <service name="com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite2" exported="false" process=":lite2">
+    </service>
+    <service name="com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite3" exported="false" process=":lite3">
+    </service>
+    <meta-data name="ariver_manifest" value="com.alibaba.griver.GriverManifest">
+    </meta-data>
+    <activity name="com.alibaba.griver.device.ui.GriverOpenSettingActivity" configChanges="0xfe0">
+    </activity>
+    <service name="com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService" permission="android.permission.BIND_NFC_SERVICE" exported="true">
+      <intent-filter>
+        <action name="android.nfc.cardemulation.action.HOST_APDU_SERVICE">
+        </action>
+        <category name="android.intent.category.DEFAULT">
+        </category>
+      </intent-filter>
+    </service>
+    <activity name="com.alibaba.griver.file.ui.FileViewerActivity" configChanges="0x200">
+    </activity>
+    <provider name="com.alibaba.griver.file.utils.GriverFileProvider" exported="false" authorities="vn.com.vng.zalopay.griver.file.provider" grantUriPermissions="true">
+      <meta-data name="android.support.FILE_PROVIDER_PATHS" resource="@7f16000a">
+      </meta-data>
+    </provider>
+    <activity name="com.iap.ac.android.acs.plugin.downgrade.ui.ErrorPageActivity" multiprocess="true" screenOrientation="1">
+    </activity>
+    <activity name="vn.com.vng.zalopay.changepin.presentation.ui.activity.ChangePinActivity" screenOrientation="1" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f14001b" name="vn.com.vng.zalopay.resetpin.presentation.ui.activity.ResetPinActivity" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f14015f" name="vn.com.vng.zalopay.loginv2.presentation.ui.login.LoginActivity" screenOrientation="1" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f14015f" name="vn.com.vng.zalopay.loginv2.presentation.ui.upgradeuserk0k1.UpgradeUserK0K1Activity" screenOrientation="1" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f14015f" name="vn.com.vng.zalopay.loginv2.presentation.ui.otp.OtpVerificationActivity" screenOrientation="1" windowSoftInputMode="0x13">
+    </activity>
+    <activity name="vn.com.vng.zalopay.loginv2.presentation.ui.webview.LoginWebViewActivity" exported="false" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.cashier.presentation.ui.main.MainCashierV2Activity" launchMode="1" screenOrientation="1" configChanges="0x480" windowSoftInputMode="0x10">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.cashier.presentation.ui.otp.DOtpErrorActivity" launchMode="1" screenOrientation="1">
+    </activity>
+    <activity theme="@7f140353" name="vn.com.vng.zalopay.cashier.presentation.ui.web.activity.CashierWebActivity" launchMode="1" screenOrientation="1" configChanges="0x480" windowSoftInputMode="0x10">
+    </activity>
+    <activity theme="@7f140353" name="vn.com.vng.zalopay.cashier.presentation.newui.CashierNewUIActivity" launchMode="1" screenOrientation="1" configChanges="0x480" windowSoftInputMode="0x10">
+    </activity>
+    <activity theme="@7f140186" label="@7f130e47" name="vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankBindingActivity" screenOrientation="1" configChanges="0x480" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankMediaWebViewActivity">
+    </activity>
+    <activity theme="@7f140186" name="vn.com.vng.zalopay.bankbinding.presentation.ui.activity.FundManagementActivity" screenOrientation="1" configChanges="0x480" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f14001b" name="vn.com.vng.zalopay.updatephone.presentation.ui.UpdatePhoneActivity" launchMode="1" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f140186" label="@7f130e48" name="vn.com.vng.zalopay.cashin.presentation.ui.activity.CashInActivity" launchMode="1" screenOrientation="1" configChanges="0x480" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.resultpage.presentation.ui.activity.ResultPageV2Activity" launchMode="1" screenOrientation="1">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.resultpage.presentation.ui.webview.RPWebActivity" screenOrientation="1">
+    </activity>
+    <activity theme="@7f140353" name="vn.com.vng.resultpage.presentation.newui.ResultPageNewUIActivity" launchMode="1" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f140353" name="vn.com.vng.resultpage.presentation.newuinative.ResultPageNativeActivity" launchMode="1" screenOrientation="1" configChanges="0x480">
+    </activity>
+    <activity theme="@7f140186" label="@7f130e87" name="vn.com.vng.zalopay.withdraw.presentation.ui.activity.WithdrawActivity" screenOrientation="1" configChanges="0x480" windowSoftInputMode="0x13">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.cashier_v3.presentation.main.activity.CashierV3Activity" launchMode="1" screenOrientation="1" configChanges="0x480" windowSoftInputMode="0x10">
+    </activity>
+    <activity theme="@7f14015e" name="vn.com.vng.zalopay.result_page_v3.presentation.main.activity.ResultPageV3Activity" launchMode="1" screenOrientation="1">
+    </activity>
+    <activity theme="@8b030000" label="@7f130e33" name="vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity" exported="true">
+    </activity>
+    <activity name="amcsetxek.dmayljy" exported="false" process=":xcmzqsawpqoefcds">
+    </activity>
+    <meta-data name="com.android.dynamic.apk.fused.modules" value="bank_binding,base,cash_in,cashier,cashier_v3,changepin,liveness,login_v2,resetpin,result_page_v3,resultpage,updatephone,withdraw">
+    </meta-data>
+    <meta-data name="com.android.vending.splits.required" value="true">
+    </meta-data>
+    <meta-data name="com.android.stamp.source" value="https://play.google.com/store">
+    </meta-data>
+    <meta-data name="com.android.stamp.type" value="STAMP_TYPE_DISTRIBUTION_APK">
+    </meta-data>
+    <meta-data name="com.android.vending.splits" resource="@7f160017">
+    </meta-data>
+    <meta-data name="com.android.vending.derived.apk.id" value="2">
+    </meta-data>
+  </application>
+</manifest>
