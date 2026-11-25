@@ -1,0 +1,19 @@
+{
+  "ok": false,
+  "error": "TypeError(\"object of type 'generator' has no len()\")",
+  "data": {
+    "manifest": {
+      "package": "",
+      "min_sdk": null,
+      "target_sdk": null,
+      "max_sdk": null,
+      "version_code": null,
+      "version_name": null,
+      "permissions": [],
+      "activities": [],
+      "services": [],
+      "receivers": [],
+      "providers": []
+    }
+  }
+}

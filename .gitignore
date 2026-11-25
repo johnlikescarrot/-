@@ -1,0 +1,18 @@
+# Moi truong & giai dau
+node_modules/
+.re-env/
+dist/
+*.log
+.env
+package-lock.json
+
+# Tap trung trinh tu xay duoc (co tai lai tu nguon)
+work/
+video/dist/
+video/node_modules/
+video/assets/slides/
+video/output/
+
+# He dieu hanh
+.DS_Store
+Thumbs.db
