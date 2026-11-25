@@ -1,0 +1,17 @@
+# Dependencies & caches
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.cache/
+.turbo/
+.vite/
+
+# Scratch / extracted APK raw dumps (kept in /tmp or work_tmp)
+work_tmp/
+*.tmp
+
+# Video intermediate frame dumps (final MP4 is tracked cleanly)
+video/out/frames/
+video/out/tmp/
+video/.remotion/
