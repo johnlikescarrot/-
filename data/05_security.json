@@ -1,0 +1,760 @@
+{
+ "generated_at": "2026-11-25T14:47:21.787977+00:00",
+ "corpus": {
+  "dex_files": 19,
+  "unique_strings": 256327
+ },
+ "themes": {
+  "symmetric_crypto": {
+   "note": "JCA/BouncyCastle transformation names reachable from app code.",
+   "count": 289,
+   "unique": 247,
+   "dex": {
+    "classes5.dex.txt": 144,
+    "classes4.dex.txt": 73,
+    "classes7.dex.txt": 38,
+    "classes6.dex.txt": 16,
+    "classes2.dex.txt": 12
+   }
+  },
+  "asymmetric_crypto": {
+   "note": "Public-key primitives, including the Chinese SM2 suite.",
+   "count": 69,
+   "unique": 54,
+   "dex": {
+    "classes5.dex.txt": 39,
+    "classes4.dex.txt": 14,
+    "classes6.dex.txt": 8,
+    "classes2.dex.txt": 5,
+    "classes7.dex.txt": 3
+   }
+  },
+  "digest_and_kdf": {
+   "note": "Hashing and key-derivation algorithms referenced by name.",
+   "count": 105,
+   "unique": 65,
+   "dex": {
+    "classes5.dex.txt": 31,
+    "classes4.dex.txt": 19,
+    "classes7.dex.txt": 16,
+    "classes.dex.txt": 14,
+    "classes6.dex.txt": 13
+   }
+  },
+  "tls_pinning": {
+   "note": "Certificate pinning / custom trust-manager surface.",
+   "count": 92,
+   "unique": 74,
+   "dex": {
+    "classes2.dex.txt": 58,
+    "classes7.dex.txt": 17,
+    "classes6.dex.txt": 7,
+    "classes.dex.txt": 2,
+    "classes4.dex.txt": 2
+   }
+  },
+  "root_emulator_detection": {
+   "note": "Integrity probes for rooted devices and emulators.",
+   "count": 27,
+   "unique": 16,
+   "dex": {
+    "classes2.dex.txt": 6,
+    "classes4.dex.txt": 6,
+    "classes7.dex.txt": 6,
+    "classes5.dex.txt": 5,
+    "classes.dex.txt": 3
+   }
+  },
+  "hook_detection": {
+   "note": "Anti-instrumentation surface.",
+   "count": 56,
+   "unique": 29,
+   "dex": {
+    "classes5.dex.txt": 13,
+    "classes.dex.txt": 10,
+    "classes2.dex.txt": 10,
+    "classes6.dex.txt": 10,
+    "classes7.dex.txt": 8
+   }
+  },
+  "dynamic_code": {
+   "note": "Dynamic class loading and the mini-app runtime (Alipay mPaaS / Ariver).",
+   "count": 12322,
+   "unique": 7124,
+   "dex": {
+    "classes.dex.txt": 4817,
+    "classes5.dex.txt": 3605,
+    "classes6.dex.txt": 2838,
+    "classes2.dex.txt": 1030,
+    "classes7.dex.txt": 27
+   }
+  },
+  "webview_bridge": {
+   "note": "JavaScript bridge surface — where web content can call into native.",
+   "count": 125,
+   "unique": 58,
+   "dex": {
+    "classes5.dex.txt": 41,
+    "classes6.dex.txt": 18,
+    "classes.dex.txt": 13,
+    "classes7.dex.txt": 10,
+    "classes4.dex.txt": 9
+   }
+  },
+  "biometric_and_keystore": {
+   "note": "Hardware-backed key storage and biometric gating.",
+   "count": 124,
+   "unique": 79,
+   "dex": {
+    "classes6.dex.txt": 31,
+    "classes7.dex.txt": 28,
+    "classes.dex.txt": 22,
+    "classes5.dex.txt": 18,
+    "classes4.dex.txt": 14
+   }
+  },
+  "payments_and_emv": {
+   "note": "Card-present / card-not-present payment vocabulary.",
+   "count": 2517,
+   "unique": 2030,
+   "dex": {
+    "classes7.dex.txt": 1091,
+    "classes5.dex.txt": 241,
+    "classes6.dex.txt": 237,
+    "classes4.dex.txt": 184,
+    "classes2.dex.txt": 164
+   }
+  },
+  "ekyc_face": {
+   "note": "Identity-verification (eKYC) surface, Vietnamese document types.",
+   "count": 2232,
+   "unique": 1639,
+   "dex": {
+    "classes7.dex.txt": 1440,
+    "classes6.dex.txt": 385,
+    "classes4.dex.txt": 150,
+    "classes.dex.txt": 79,
+    "classes5.dex.txt": 62
+   }
+  },
+  "device_attestation": {
+   "note": "Device-integrity and identifier collection.",
+   "count": 228,
+   "unique": 179,
+   "dex": {
+    "classes4.dex.txt": 68,
+    "classes5.dex.txt": 46,
+    "classes2.dex.txt": 41,
+    "classes6.dex.txt": 34,
+    "classes.dex.txt": 29
+   }
+  },
+  "analytics_and_ads": {
+   "note": "Measurement and monetisation SDKs present in the code.",
+   "count": 1176,
+   "unique": 953,
+   "dex": {
+    "classes5.dex.txt": 687,
+    "classes6.dex.txt": 170,
+    "classes4.dex.txt": 146,
+    "classes7.dex.txt": 104,
+    "classes.dex.txt": 49
+   }
+  },
+  "obfuscation": {
+   "note": "Single-letter package/class names produced by R8 shrinking.",
+   "count": 14053,
+   "unique": 7543,
+   "dex": {
+    "classes7.dex.txt": 2537,
+    "classes4.dex.txt": 2449,
+    "classes.dex.txt": 2097,
+    "classes6.dex.txt": 1858,
+    "classes2.dex.txt": 1633
+   }
+  }
+ },
+ "theme_samples": {
+  "symmetric_crypto": [
+   "'. Assuming AES-CTR crypto mode.",
+   "AES",
+   "AES/CTR/NoPadding",
+   "Can not use AES-CMAC in FIPS-mode.",
+   "AES",
+   "AES GCM ciphers are expected to make use of algorithm parameters",
+   "AES/CBC/PKCS5Padding",
+   "AES/CTR/NoPadding",
+   "AES/GCM/NoPadding",
+   "AES/GCM/NoPadding decryption failed: ",
+   "Couldn't create AES/GCM/NoPadding cipher: ",
+   "Couldn't encrypt with AES/GCM/NoPadding: ",
+   "Couldn't unwrap AES key: ",
+   "Couldn't wrap AES key: "
+  ],
+  "asymmetric_crypto": [
+   "Ed25519",
+   "Ed25519Signer only supports OctetKeyPairs with crv=Ed25519",
+   "Ed25519Verifier only supports OctetKeyPairs with crv=Ed25519",
+   "RSA/ECB/PKCS1Padding",
+   "secp384r1",
+   "Can not use Ed25519 in FIPS-mode.",
+   "EOF encountered in middle of Ed25519 public key",
+   "Ed25519",
+   "Lorg/bouncycastle/math/ec/rfc8032/Ed25519$PublicPoint;",
+   "Lorg/bouncycastle/math/ec/rfc8032/Ed25519;",
+   "MLDSA65-Ed25519-SHA512",
+   "RSA/ECB/PKCS1Padding",
+   "SM2",
+   "SM2 private key out of range"
+  ],
+  "digest_and_kdf": [
+   "MD5",
+   "MD5 with RSA",
+   "SHA-1",
+   "SHA-1 with DSA",
+   "SHA-1 with ECDSA",
+   "SHA-1 with RSA",
+   "SHA-256",
+   "SHA-256 with DSA",
+   "SHA-256 with ECDSA",
+   "SHA-256 with RSA",
+   "SHA-512",
+   "SHA-512 with DSA",
+   "SHA-512 with ECDSA",
+   "SHA-512 with RSA"
+  ],
+  "tls_pinning": [
+   "Landroid/net/http/X509TrustManagerExtensions;",
+   "Ljavax/net/ssl/X509TrustManager;",
+   "Lokhttp3/CertificatePinner;",
+   "Lokhttp3/CertificatePinner;",
+   "Lokhttp3/CertificatePinner;",
+   "Lokhttp3/CertificatePinner;",
+   "()Ljavax/net/ssl/X509TrustManager;",
+   "()Lokhttp3/CertificatePinner;",
+   "(Ljava/lang/String;ILokhttp3/Dns;Ljavax/net/SocketFactory;Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/HostnameVerifier;Lokhttp3/CertificatePinner;Lokhttp3/Au",
+   "(Ljava/lang/String;[Ljava/lang/String;)Lokhttp3/CertificatePinner$Builder;",
+   "(Ljavax/net/ssl/SSLSocketFactory;)Ljavax/net/ssl/X509TrustManager;",
+   "(Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/X509TrustManager;)Lokhttp3/OkHttpClient$Builder;",
+   "(Ljavax/net/ssl/X509TrustManager;)Ljavax/net/ssl/SSLSocketFactory;",
+   "(Ljavax/net/ssl/X509TrustManager;)Lokhttp3/internal/tls/CertificateChainCleaner;"
+  ],
+  "root_emulator_detection": [
+   "/system/bin/su",
+   "/system/xbin/su",
+   "isRooted",
+   "Genymotion",
+   "buildPropsMatch isEmulator: strong build property indicator matched (+5) current score = ",
+   "goldfish",
+   "isEmulator",
+   "isRooted",
+   "ro.kernel.qemu",
+   ", isEmulator=",
+   ", isRooted=",
+   "/system/app/Superuser.apk",
+   "/system/xbin/su",
+   "goldfish"
+  ],
+  "hook_detection": [
+   "Landroidx/camera/camera2/internal/compat/quirk/AutoFlashUnderExposedQuirk;",
+   "Screen exposed for less than 1000 ms. Event not sent. time",
+   "Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu",
+   "Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu",
+   "Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu",
+   "Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu",
+   "exposed_dropdown_menu_content_description",
+   "mtrl_exposed_dropdown_menu_popup_elevation",
+   "mtrl_exposed_dropdown_menu_popup_vertical_offset",
+   "mtrl_exposed_dropdown_menu_popup_vertical_padding",
+   "Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu",
+   "Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu",
+   "Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu",
+   "Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu"
+  ],
+  "dynamic_code": [
+   "$SwitchMap$com$alibaba$ariver$app$api$activity$StartAction",
+   "$SwitchMap$com$alibaba$ariver$app$api$point$engine$EngineInitFailedPoint$Action",
+   "$SwitchMap$com$alibaba$ariver$app$api$ui$darkmode$ColorSchemeType",
+   "$SwitchMap$com$alibaba$ariver$commonability$map$sdk$utils$MapSDKContext$MapSDK",
+   "$SwitchMap$com$alibaba$ariver$kernel$common$network$NetworkUtil$Network",
+   "$SwitchMap$com$alibaba$ariver$kernel$common$service$executor$ExecutorType",
+   "$SwitchMap$com$alibaba$ariver$remotedebug$core$state$RemoteDebugState",
+   "$SwitchMap$com$alibaba$ariver$resource$api$models$AppInfoScene",
+   "$SwitchMap$com$alibaba$ariver$resource$api$prepare$StepType",
+   "$SwitchMap$com$alibaba$ariver$resource$api$prepare$UpdateMode",
+   "$SwitchMap$com$alibaba$ariver$tracedebug$core$TraceDebugMode",
+   "$SwitchMap$com$alibaba$ariver$tracedebug$core$TraceProtocolType",
+   "/griver/performance/",
+   "/griver/performance/mini_program_audit_performance.txt"
+  ],
+  "webview_bridge": [
+   "Landroid/webkit/WebViewClient;",
+   "Landroidx/webkit/WebViewClientCompat$a;",
+   "Landroidx/webkit/WebViewClientCompat;",
+   "Lcom/alibaba/griver/base/api/APWebViewClient;",
+   "Lcom/alibaba/griver/base/api/NXH5WebViewClientAdapter;",
+   "Lorg/chromium/support_lib_boundary/WebViewClientBoundaryInterface;",
+   "addJavascriptInterface",
+   "evaluateJavascript",
+   "getWebViewClient",
+   "postWebMessage",
+   "setWebViewClient",
+   "shouldOverrideUrlLoading",
+   "shouldOverrideUrlLoadingForUC",
+   "Landroid/webkit/WebViewClient;"
+  ],
+  "biometric_and_keystore": [
+   "AndroidKeyStore",
+   "FINGERPRINT",
+   "FingerprintFragment",
+   "Got NPE while authenticating with fingerprint.",
+   "Got NPE while canceling fingerprint authentication.",
+   "Identity credential is not supported by FingerprintManager.",
+   "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;",
+   "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationResult;",
+   "Landroid/hardware/biometrics/BiometricPrompt$Builder;",
+   "Landroid/hardware/biometrics/BiometricPrompt$CryptoObject;",
+   "Landroid/hardware/biometrics/BiometricPrompt;",
+   "Landroid/hardware/fingerprint/FingerprintManager$AuthenticationCallback;",
+   "Landroid/hardware/fingerprint/FingerprintManager$AuthenticationResult;",
+   "Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;"
+  ],
+  "payments_and_emv": [
+   " isNfcEnable = ",
+   "ADJUST_NFC_CHALLENGE",
+   "ActionMenuItemView",
+   "ActionMenuItemView_android_minWidth",
+   "AriverRes:SnapshotProvider",
+   "CleartextNotPermittedException",
+   "EidNfc",
+   "KEY_APDU_COMMAND",
+   "Landroid/media/NotProvisionedException;",
+   "Landroid/nfc/NfcAdapter;",
+   "Landroid/nfc/Tag;",
+   "Landroid/nfc/TagLostException;",
+   "Landroid/nfc/cardemulation/CardEmulation;",
+   "Landroid/nfc/cardemulation/HostApduService;"
+  ],
+  "ekyc_face": [
+   "AppSelfie#",
+   "Cannot decode selfie image",
+   "Lorg/jmrtd/PassportService;",
+   "Lvn/ai/faceauth/sdk/presentation/navigation/SDKCallback;",
+   "Lvn/ai/trueid/lottie/LottieCompositionFactory;",
+   "Lvn/ai/trueid/lottie/LottieResult;",
+   "Lvn/ai/trueid/sdk/activity/SotpConfirmActivity;",
+   "Lvn/ai/trueid/sdk/activity/TrueIDActivity;",
+   "Lvn/ai/trueid/sdk/face/a0;",
+   "Lvn/ai/trueid/sdk/face/a2;",
+   "Lvn/ai/trueid/sdk/facev3/present/presentation/widgets/OverlayView;",
+   "Lvn/ai/trueid/sdk/liveness/networks/Helpers$Companion;",
+   "Lvn/ai/trueid/sdk/liveness/networks/e;",
+   "Lvn/ai/trueid/sdk/liveness/networks/f;"
+  ],
+  "device_attestation": [
+   "AriverInt:AppRunTimeInfoBridge",
+   "Landroid/animation/TimeInterpolator;",
+   "Lcom/alibaba/ariver/jsapi/AppRunTimeInfoBridgeExtension;",
+   "addRuntimeInfoBP",
+   "addRuntimeInfoForBuryingPoint",
+   "addRuntimeInfoForFeedBack",
+   "addRuntimeInfoForLog",
+   "addRuntimeInfoForLog-1 is closed ",
+   "addRuntimeInfoForLog-2 is closed",
+   "addRuntimeInfoLog",
+   "addRuntimeInfoP2",
+   "com.alibaba.ariver.jsapi.AppRunTimeInfoBridgeExtension",
+   "getAndroidId",
+   "getAndroidIdEncrypt"
+  ],
+  "analytics_and_ads": [
+   "ADJUST_E_KYC_AUTH_CHALLENGE",
+   "ADJUST_NFC_CHALLENGE",
+   "Adjust cropRect %s by width/height alignment %d/%d and supported widths %s / supported heights %s",
+   "Adjusting minDurationToRetainAfterDiscardMs to be at least minDurationForQualityIncreaseMs",
+   "AssumedMaxChannelAdjustment: ",
+   "Codec max resolution adjusted to: ",
+   "Event [%d] - previousscreen [%s] value [%s] - extra [%s] - zaloId [%s] - appsflyerId [%s] - deviceId [%s] - userId [%s] - sessionID [%s]",
+   "Event [%d_%s] - previousscreen [%s] value [%s] - extra [%s] - zaloId [%s] - appsflyerId [%s] - deviceId [%s] - userId [%s] - sessionID [%s]",
+   "Event dialog [eventID [%d] - category [%s] - lable [%s] - currentScreen [%s] - appsflyerId [%s] - deviceId [%s] - userId [%s] - sessionID[%s]]",
+   "FirebaseCrashlytics",
+   "Landroid/widget/AbsListView$SelectionBoundsAdjuster;",
+   "Lcom/appsflyer/AppsFlyerLib;",
+   "Lcom/appsflyer/b;",
+   "Lcom/appsflyer/internal/AFa1ySDK;"
+  ],
+  "obfuscation": [
+   "La/a;",
+   "La0/a;",
+   "La0/b;",
+   "La0/c;",
+   "La0/d;",
+   "La0/e;",
+   "La0/f;",
+   "La0/g;",
+   "La0/h;",
+   "La0/i;",
+   "La0/j;",
+   "La0/k;",
+   "La0/l;",
+   "La0/m;"
+  ]
+ },
+ "per_dex": {
+  "classes.dex.txt": {
+   "symmetric_crypto": 4,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 14,
+   "tls_pinning": 2,
+   "root_emulator_detection": 3,
+   "hook_detection": 10,
+   "dynamic_code": 4817,
+   "webview_bridge": 13,
+   "biometric_and_keystore": 22,
+   "payments_and_emv": 142,
+   "ekyc_face": 79,
+   "device_attestation": 29,
+   "analytics_and_ads": 49,
+   "obfuscation": 2097
+  },
+  "classes10.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 1,
+   "tls_pinning": 1,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 0,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 0,
+   "ekyc_face": 39,
+   "device_attestation": 0,
+   "analytics_and_ads": 0,
+   "obfuscation": 63
+  },
+  "classes11.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 0,
+   "tls_pinning": 0,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 3,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 18,
+   "ekyc_face": 0,
+   "device_attestation": 0,
+   "analytics_and_ads": 0,
+   "obfuscation": 212
+  },
+  "classes12.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 1,
+   "tls_pinning": 1,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 3,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 104,
+   "ekyc_face": 3,
+   "device_attestation": 2,
+   "analytics_and_ads": 1,
+   "obfuscation": 123
+  },
+  "classes13.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 0,
+   "tls_pinning": 0,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 3,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 0,
+   "ekyc_face": 0,
+   "device_attestation": 0,
+   "analytics_and_ads": 0,
+   "obfuscation": 101
+  },
+  "classes14.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 0,
+   "tls_pinning": 0,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 0,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 37,
+   "ekyc_face": 2,
+   "device_attestation": 0,
+   "analytics_and_ads": 0,
+   "obfuscation": 30
+  },
+  "classes15.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 1,
+   "tls_pinning": 1,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 0,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 13,
+   "ekyc_face": 2,
+   "device_attestation": 0,
+   "analytics_and_ads": 0,
+   "obfuscation": 30
+  },
+  "classes16.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 0,
+   "tls_pinning": 1,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 0,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 0,
+   "ekyc_face": 0,
+   "device_attestation": 0,
+   "analytics_and_ads": 0,
+   "obfuscation": 6
+  },
+  "classes17.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 0,
+   "tls_pinning": 0,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 1,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 0,
+   "ekyc_face": 0,
+   "device_attestation": 0,
+   "analytics_and_ads": 3,
+   "obfuscation": 236
+  },
+  "classes18.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 0,
+   "tls_pinning": 0,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 0,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 0,
+   "ekyc_face": 0,
+   "device_attestation": 0,
+   "analytics_and_ads": 3,
+   "obfuscation": 75
+  },
+  "classes19.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 0,
+   "tls_pinning": 0,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 4,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 39,
+   "ekyc_face": 0,
+   "device_attestation": 0,
+   "analytics_and_ads": 0,
+   "obfuscation": 506
+  },
+  "classes2.dex.txt": {
+   "symmetric_crypto": 12,
+   "asymmetric_crypto": 5,
+   "digest_and_kdf": 7,
+   "tls_pinning": 58,
+   "root_emulator_detection": 6,
+   "hook_detection": 10,
+   "dynamic_code": 1030,
+   "webview_bridge": 7,
+   "biometric_and_keystore": 9,
+   "payments_and_emv": 164,
+   "ekyc_face": 51,
+   "device_attestation": 41,
+   "analytics_and_ads": 7,
+   "obfuscation": 1633
+  },
+  "classes3.dex.txt": {
+   "symmetric_crypto": 2,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 2,
+   "tls_pinning": 0,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 1,
+   "webview_bridge": 5,
+   "biometric_and_keystore": 2,
+   "payments_and_emv": 98,
+   "ekyc_face": 19,
+   "device_attestation": 1,
+   "analytics_and_ads": 3,
+   "obfuscation": 424
+  },
+  "classes4.dex.txt": {
+   "symmetric_crypto": 73,
+   "asymmetric_crypto": 14,
+   "digest_and_kdf": 19,
+   "tls_pinning": 2,
+   "root_emulator_detection": 6,
+   "hook_detection": 5,
+   "dynamic_code": 4,
+   "webview_bridge": 9,
+   "biometric_and_keystore": 14,
+   "payments_and_emv": 184,
+   "ekyc_face": 150,
+   "device_attestation": 68,
+   "analytics_and_ads": 146,
+   "obfuscation": 2449
+  },
+  "classes5.dex.txt": {
+   "symmetric_crypto": 144,
+   "asymmetric_crypto": 39,
+   "digest_and_kdf": 31,
+   "tls_pinning": 2,
+   "root_emulator_detection": 5,
+   "hook_detection": 13,
+   "dynamic_code": 3605,
+   "webview_bridge": 41,
+   "biometric_and_keystore": 18,
+   "payments_and_emv": 241,
+   "ekyc_face": 62,
+   "device_attestation": 46,
+   "analytics_and_ads": 687,
+   "obfuscation": 1107
+  },
+  "classes6.dex.txt": {
+   "symmetric_crypto": 16,
+   "asymmetric_crypto": 8,
+   "digest_and_kdf": 13,
+   "tls_pinning": 7,
+   "root_emulator_detection": 1,
+   "hook_detection": 10,
+   "dynamic_code": 2838,
+   "webview_bridge": 18,
+   "biometric_and_keystore": 31,
+   "payments_and_emv": 237,
+   "ekyc_face": 385,
+   "device_attestation": 34,
+   "analytics_and_ads": 170,
+   "obfuscation": 1858
+  },
+  "classes7.dex.txt": {
+   "symmetric_crypto": 38,
+   "asymmetric_crypto": 3,
+   "digest_and_kdf": 16,
+   "tls_pinning": 17,
+   "root_emulator_detection": 6,
+   "hook_detection": 8,
+   "dynamic_code": 27,
+   "webview_bridge": 10,
+   "biometric_and_keystore": 28,
+   "payments_and_emv": 1091,
+   "ekyc_face": 1440,
+   "device_attestation": 7,
+   "analytics_and_ads": 104,
+   "obfuscation": 2537
+  },
+  "classes8.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 0,
+   "tls_pinning": 0,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 3,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 17,
+   "ekyc_face": 0,
+   "device_attestation": 0,
+   "analytics_and_ads": 0,
+   "obfuscation": 184
+  },
+  "classes9.dex.txt": {
+   "symmetric_crypto": 0,
+   "asymmetric_crypto": 0,
+   "digest_and_kdf": 0,
+   "tls_pinning": 0,
+   "root_emulator_detection": 0,
+   "hook_detection": 0,
+   "dynamic_code": 0,
+   "webview_bridge": 5,
+   "biometric_and_keystore": 0,
+   "payments_and_emv": 132,
+   "ekyc_face": 0,
+   "device_attestation": 0,
+   "analytics_and_ads": 3,
+   "obfuscation": 382
+  }
+ },
+ "sdk_census": [
+  {
+   "sdk": "Firebase / Google Play services",
+   "string_hits": 6506
+  },
+  {
+   "sdk": "Alipay mPaaS (Ariver) mini-app runtime",
+   "string_hits": 4842
+  },
+  {
+   "sdk": "Alipay IAP (international acquirer SDK)",
+   "string_hits": 1410
+  },
+  {
+   "sdk": "BouncyCastle (post-quantum build present)",
+   "string_hits": 1006
+  },
+  {
+   "sdk": "Visa Click-to-Pay SDK",
+   "string_hits": 932
+  },
+  {
+   "sdk": "OkHttp / Retrofit stack",
+   "string_hits": 859
+  },
+  {
+   "sdk": "TrueID eKYC",
+   "string_hits": 830
+  },
+  {
+   "sdk": "Rive animation runtime",
+   "string_hits": 261
+  },
+  {
+   "sdk": "VFace liveness SDK",
+   "string_hits": 84
+  },
+  {
+   "sdk": "Crashlytics",
+   "string_hits": 67
+  },
+  {
+   "sdk": "Barcode / ML Kit vision",
+   "string_hits": 61
+  }
+ ],
+ "limits": [
+  "String presence proves reachability of a code path, not its activation.",
+  "R8 obfuscation renames classes; string literals survive but call sites may not.",
+  "No dynamic execution: behaviour claims require on-device instrumentation."
+ ]
+}
