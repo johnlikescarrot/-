@@ -1,0 +1,159 @@
+1
+00:00:00,600 --> 00:00:06,000
+A complete static reverse-engineering of one Vietnamese payment app — every file, measured.
+
+2
+00:00:07,000 --> 00:00:11,500
+The question: what does a regulated wallet actually contain, and where does the plaintext end?
+
+3
+00:00:11,500 --> 00:00:16,000
+Three hypotheses: four trust domains, defence in depth native, integrity as the weak link.
+
+4
+00:00:16,000 --> 00:00:21,800
+Nothing here touches ZaloPay infrastructure. Everything is derived from the archive on disk.
+
+5
+00:00:22,400 --> 00:00:25,500
+Act I. The ZIP is not the app: an XAPK wraps a base APK and four configuration splits.
+
+6
+00:00:26,000 --> 00:00:33,500
+Five APKs, 6,464 entries, 186 MiB uncompressed. The base carries code; the ABI split carries 24 MiB of C++.
+
+7
+00:00:34,200 --> 00:00:39,500
+Bytecode is 61.8 MiB of the payload, native libraries 54.8 MiB, and ML models a further 14.5 MiB.
+
+8
+00:00:40,000 --> 00:00:47,500
+Multidex is forced by the format: three DEX files sit within 5,600 references of the 65,536 method limit.
+
+9
+00:00:48,200 --> 00:00:55,000
+Forensics: 4,249 payloads are not 4-byte aligned. This bundle was re-packed, not served by Play.
+
+10
+00:00:55,000 --> 00:01:01,500
+No v1 JAR signature in the base APK — verification can only rest on the v2 signing block.
+
+11
+00:01:02,400 --> 00:01:05,500
+Act II. A custom DEX reader decodes every class, method and string constant.
+
+12
+00:01:06,000 --> 00:01:13,000
+60,671 classes, 351,248 method references, 374,276 string constants across 19 DEX files.
+
+13
+00:01:14,000 --> 00:01:21,500
+A DEX is index tables first, code payload last — 2.2 MiB of indexes in the largest file.
+
+14
+00:01:22,500 --> 00:01:30,000
+Three files are at 91% of the method-id ceiling: packaging forces multidex, not architecture.
+
+15
+00:01:31,000 --> 00:01:37,500
+R8 shortens 28.5% of packages, yet 56 third-party SDKs remain identifiable from string evidence.
+
+16
+00:01:37,500 --> 00:01:45,500
+URL templates, protobuf schemas and JNI symbols survive obfuscation and identify the whole stack.
+
+17
+00:01:46,400 --> 00:01:49,500
+Act III. Twenty-eight ELF objects, 54.8 MiB, 27 in the ABI split plus one in assets.
+
+18
+00:01:50,000 --> 00:01:57,500
+Risk scoring, liveness, encrypted storage and crypto are all native; the JVM only orchestrates.
+
+19
+00:01:59,000 --> 00:02:06,000
+Hardening: RELRO 26/27, BIND_NOW 27/27, NX 27/27, PIE 26/27, stack canaries 25/27.
+
+20
+00:02:07,000 --> 00:02:14,500
+Seven libraries carry randomised filenames; each registers its JNI symbols at load time.
+
+21
+00:02:15,000 --> 00:02:22,500
+Crypto inventory: AES-GCM, RSA-OAEP, HMAC, PBKDF2, X25519, Ed25519 — plus a full post-quantum provider.
+
+22
+00:02:22,500 --> 00:02:29,500
+Post-quantum hits are string-level evidence only: the algorithms are linked, not proven to protect traffic.
+
+23
+00:02:30,400 --> 00:02:33,500
+Act IV. 168 hosts, 45 first-party: ZaloPay owns the wallet, not the whole pipe.
+
+24
+00:02:34,000 --> 00:02:41,000
+290 REST paths survive as strings — the protocol surface stays legible even when classes do not.
+
+25
+00:02:42,000 --> 00:02:49,500
+373 mini-apps ship as configuration in one 883 KiB JSON, executed by the Alibaba mPaaS runtime.
+
+26
+00:02:50,500 --> 00:02:58,000
+Endpoint names describe protocol shape: per-user salt, server public key, PIN pre-check, OTP sessions.
+
+27
+00:02:59,000 --> 00:03:06,500
+49 permissions, 14 dangerous-class: contacts, camera, location, phone state, audio.
+
+28
+00:03:07,000 --> 00:03:13,500
+But names reveal no envelope format, no key exchange and no PIN block. That is where this study stops.
+
+29
+00:03:14,400 --> 00:03:17,500
+Act V. The signer certificate is real, self-signed in 2016, valid until 2041.
+
+30
+00:03:18,000 --> 00:03:25,000
+A self-signed 25-year certificate is normal for an app that has shipped since 2016.
+
+31
+00:03:26,000 --> 00:03:33,500
+But identity is not integrity: the digest must also match the code, and here it does not.
+
+32
+00:03:34,000 --> 00:03:41,500
+The signing block declares 1,383 bytes for a pair whose payload is 1,387 — a parser desynchronises.
+
+33
+00:03:42,000 --> 00:03:49,500
+A duplicate, unaligned pair re-embeds the signed data. Neither parse nor signature survives.
+
+34
+00:03:50,000 --> 00:03:55,500
+Verdict: structurally parsed, cryptographically unproven. Unverified is a finding, not a failure.
+
+35
+00:03:56,400 --> 00:03:59,500
+Act VI. Nine findings, one reproducible pipeline.
+
+36
+00:04:00,000 --> 00:04:07,500
+Structure, code mass, obfuscation, vendor gravity, native secrets, ML, ecosystem, privacy, integrity.
+
+37
+00:04:08,000 --> 00:04:15,500
+Method: hash, decode, tag evidence, verify in layers, then render the film from the emitted JSON.
+
+38
+00:04:16,000 --> 00:04:23,500
+Every figure regenerates from research/data — the pipeline and the film ship together.
+
+39
+00:04:24,000 --> 00:04:31,500
+Cite the atlas, not the screenshots: the archive hash pins exactly what was analysed.
+
+40
+00:04:32,000 --> 00:04:35,800
+Static analysis only. No secret, key, PIN or customer record is reproduced in this work.
