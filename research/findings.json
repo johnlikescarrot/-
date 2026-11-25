@@ -1,0 +1,27 @@
+{
+  "artifact": "Zalopay-Thanh toan & Tai chinh_11.17.0_APKPure.zip",
+  "xapk": {
+    "package": "vn.com.vng.zalopay",
+    "name": "Zalopay",
+    "version_name": "11.17.0",
+    "version_code": "1102758",
+    "min_sdk": 26,
+    "target_sdk": 36,
+    "total_size": 105580620,
+    "splits": ["base (79.3MB)", "config.armeabi_v7a (24.8MB)", "config.en (74KB)", "config.vi (86KB)", "config.xhdpi (1.2MB)"]
+  },
+  "base_apk": {
+    "entries": 6162,
+    "dex_files": 19,
+    "dex_total_uncompressed": "~79MB",
+    "largest_dex": "classes2.dex (16.5MB)",
+    "activities": 212,
+    "services": 37,
+    "receivers": 19,
+    "permissions": 39,
+    "native_libs_armeabi": 28
+  },
+  "stack": ["Kotlin", "Jetpack Compose", "Dagger", "Room", "OkHttp", "Retrofit", "Firebase", "ML Kit", "Alibaba Griver", "Visa SDK", "TrueID eKYC", "SQLCipher"],
+  "security_posture": ["Biometric auth", "NFC", "Screen-capture detection", "SQLCipher encrypted DB", "Obfuscated native libs", "R8/ProGuard"],
+  "methodology": ["Static analysis (manifest, dex, assets)", "XAPK split analysis", "SDK fingerprinting via META-INF", "Obfuscation assessment", "Permission & component inventory"]
+}
