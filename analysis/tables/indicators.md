@@ -1,0 +1,17 @@
+# Behavioural indicators (string-corroborated)
+
+| Indicator | Category | Matches | Sample |
+| --- | --- | --- | --- |
+| Mini-program container JS bridge | supply-chain | 3,776 |  isTinyApp:  |
+| Signature / integrity verification | hardening | 813 | getPackageInfo |
+| Obfuscation / R8 markers | hardening | 224 | vn/com/vng/zalopay/loginv2/presentation/ui/webview/LoginWebViewActivity$finishReceiver$1 |
+| Certificate pinning / custom trust manager | network | 42 | Landroid/net/http/X509TrustManagerExtensions; |
+| Hardware / advertising identifiers | privacy | 37 |  from getSubscriberId no name. |
+| Hook / instrumentation detection (Frida, Xposed) | evasion | 27 | Landroidx/camera/camera2/internal/compat/quirk/AutoFlashUnderExposedQuirk; |
+| Cleartext HTTP endpoints | network | 26 | http:// |
+| Keystore / biometric-gated keys | crypto | 22 | Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback; |
+| Emulator detection | evasion | 20 | 22uUhJ3etkiChBnOXQGZ31CB4WVKfXWA |
+| Root / su detection | hardening | 9 | isRooted |
+| Contacts / calendar access | privacy | 8 | Landroid/provider/ContactsContract$CommonDataKinds$Phone; |
+| Dynamic code loading | supply-chain | 6 | createPackageContext |
+| WebView JavaScript bridge | supply-chain | 6 | addJavascriptInterface |

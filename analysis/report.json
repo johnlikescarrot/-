@@ -1,0 +1,5427 @@
+{
+  "app": {
+    "abis": [
+      "armeabi-v7a"
+    ],
+    "applicationClass": "jwbmqnsll.xvndbxlk",
+    "compileSdk": 36,
+    "label": "Zalopay",
+    "minSdk": 26,
+    "packageName": "vn.com.vng.zalopay",
+    "targetSdk": 36,
+    "versionCode": 1102758,
+    "versionName": "11.17.0"
+  },
+  "assets": {
+    "count": 124,
+    "notable": [
+      {
+        "entropy": null,
+        "ext": ".dex",
+        "path": "assets/audience_network.dex",
+        "size": 4864036,
+        "text": false
+      },
+      {
+        "entropy": 7.996,
+        "ext": ".zip",
+        "path": "assets/android.1.zip",
+        "size": 3913966,
+        "text": false
+      },
+      {
+        "entropy": 5.966,
+        "ext": ".tflite",
+        "path": "assets/custom_models/object_labeler.tflite",
+        "size": 3770391,
+        "text": false
+      },
+      {
+        "entropy": 7.53,
+        "ext": ".bin",
+        "path": "assets/FastestDet.ncnn.bin",
+        "size": 2420588,
+        "text": false
+      },
+      {
+        "entropy": 6.577,
+        "ext": ".tflite",
+        "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+        "size": 1706957,
+        "text": false
+      },
+      {
+        "entropy": 6.894,
+        "ext": ".tflite",
+        "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+        "size": 1254848,
+        "text": false
+      },
+      {
+        "entropy": 7.427,
+        "ext": ".tfl",
+        "path": "assets/models_bundled/contours.tfl",
+        "size": 1124144,
+        "text": false
+      },
+      {
+        "entropy": 6.624,
+        "ext": ".emd",
+        "path": "assets/models_bundled/LMprec_600.emd",
+        "size": 1078354,
+        "text": false
+      },
+      {
+        "entropy": 4.423,
+        "ext": ".json",
+        "path": "assets/config/miniapp_config.json",
+        "size": 883684,
+        "text": true
+      },
+      {
+        "entropy": 7.999,
+        "ext": ".amr",
+        "path": "assets/Griver/68687209_2.9.7.8.amr",
+        "size": 856974,
+        "text": false
+      },
+      {
+        "entropy": 8,
+        "ext": ".dat",
+        "path": "assets/fgcpkjvqe.dat",
+        "size": 776320,
+        "text": false
+      },
+      {
+        "entropy": 6.952,
+        "ext": ".tflite",
+        "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+        "size": 613352,
+        "text": false
+      },
+      {
+        "entropy": 6.921,
+        "ext": ".tflite",
+        "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+        "size": 613080,
+        "text": false
+      },
+      {
+        "entropy": 4.585,
+        "ext": ".json",
+        "path": "assets/taxi_splash_loading.json",
+        "size": 536057,
+        "text": true
+      },
+      {
+        "entropy": 6.745,
+        "ext": ".tflite",
+        "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+        "size": 390456,
+        "text": false
+      },
+      {
+        "entropy": 7.467,
+        "ext": ".tfl",
+        "path": "assets/models_bundled/blazeface.tfl",
+        "size": 347928,
+        "text": false
+      },
+      {
+        "entropy": 6.59,
+        "ext": ".tflite",
+        "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+        "size": 340760,
+        "text": false
+      },
+      {
+        "entropy": 7.843,
+        "ext": ".tflite",
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+        "size": 315520,
+        "text": false
+      },
+      {
+        "entropy": 5.366,
+        "ext": ".fb",
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+        "size": 309568,
+        "text": false
+      },
+      {
+        "entropy": 7.999,
+        "ext": ".amr",
+        "path": "assets/Griver/66666692_1.24.8.amr",
+        "size": 287535,
+        "text": false
+      },
+      {
+        "entropy": 6.788,
+        "ext": ".tflite",
+        "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+        "size": 276552,
+        "text": false
+      },
+      {
+        "entropy": 7.999,
+        "ext": "",
+        "path": "assets/com/visa/cbp/74e13961eb6489ab-",
+        "size": 265304,
+        "text": true
+      },
+      {
+        "entropy": 6.703,
+        "ext": ".tflite",
+        "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+        "size": 232096,
+        "text": false
+      },
+      {
+        "entropy": 6.824,
+        "ext": ".tflite",
+        "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+        "size": 231816,
+        "text": false
+      },
+      {
+        "entropy": 6.375,
+        "ext": ".tflite",
+        "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+        "size": 213880,
+        "text": false
+      },
+      {
+        "entropy": 6.46,
+        "ext": ".ttf",
+        "path": "assets/fonts/Roboto-Bold.ttf",
+        "size": 170064,
+        "text": false
+      },
+      {
+        "entropy": 6.509,
+        "ext": ".ttf",
+        "path": "assets/fonts/true_font.ttf",
+        "size": 168644,
+        "text": false
+      },
+      {
+        "entropy": 6.316,
+        "ext": ".lstm_model",
+        "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.lstm_model",
+        "size": 161448,
+        "text": false
+      },
+      {
+        "entropy": 5.152,
+        "ext": ".pb",
+        "path": "assets/mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+        "size": 153000,
+        "text": false
+      },
+      {
+        "entropy": 4.824,
+        "ext": ".json",
+        "path": "assets/client_tracking.json",
+        "size": 146391,
+        "text": true
+      },
+      {
+        "entropy": 6.148,
+        "ext": ".ttf",
+        "path": "assets/fonts/zalopay.ttf",
+        "size": 143944,
+        "text": false
+      },
+      {
+        "entropy": 6.608,
+        "ext": ".tflite",
+        "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+        "size": 129612,
+        "text": false
+      },
+      {
+        "entropy": 6.608,
+        "ext": ".ttf",
+        "path": "assets/fonts/Roboto-Medium.ttf",
+        "size": 127488,
+        "text": false
+      },
+      {
+        "entropy": 6.621,
+        "ext": ".ttf",
+        "path": "assets/fonts/Roboto-Regular.ttf",
+        "size": 126072,
+        "text": false
+      },
+      {
+        "entropy": 6.073,
+        "ext": ".tflite",
+        "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+        "size": 114384,
+        "text": false
+      },
+      {
+        "entropy": 4.37,
+        "ext": ".json",
+        "path": "assets/config/zalopay_config.json",
+        "size": 105659,
+        "text": true
+      },
+      {
+        "entropy": 7.976,
+        "ext": ".dat",
+        "path": "assets/taibmcf.dat",
+        "size": 8307,
+        "text": false
+      },
+      {
+        "entropy": 7.785,
+        "ext": ".dat",
+        "path": "assets/bshield.dat",
+        "size": 929,
+        "text": false
+      },
+      {
+        "entropy": 5.915,
+        "ext": ".pem",
+        "path": "assets/public.pem",
+        "size": 460,
+        "text": true
+      }
+    ],
+    "totalBytes": 30011044
+  },
+  "container": {
+    "apkSplits": [
+      {
+        "kind": "standalone",
+        "name": "vn.com.vng.zalopay.apk",
+        "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+        "size": 79359087
+      },
+      {
+        "kind": "config",
+        "name": "config.armeabi_v7a.apk",
+        "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+        "size": 24828408
+      },
+      {
+        "kind": "config",
+        "name": "config.en.apk",
+        "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+        "size": 74137
+      },
+      {
+        "kind": "config",
+        "name": "config.vi.apk",
+        "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+        "size": 86425
+      },
+      {
+        "kind": "config",
+        "name": "config.xhdpi.apk",
+        "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+        "size": 1232563
+      }
+    ],
+    "entries": 1,
+    "xapkManifest": null,
+    "zipComment": ""
+  },
+  "dex": {
+    "obfuscation": {
+      "avgSimpleNameLength": 6.88056778479327,
+      "classes": 63827,
+      "shortNames": 43342,
+      "shortRatio": 0.6790543187052501,
+      "sourceFilePresent": 52728
+    },
+    "packageHistogram": [
+      {
+        "classes": 7761,
+        "instructions": 891821,
+        "methods": 35338,
+        "pkg": "com/google"
+      },
+      {
+        "classes": 6112,
+        "instructions": 602397,
+        "methods": 33931,
+        "pkg": "org/bouncycastle"
+      },
+      {
+        "classes": 4821,
+        "instructions": 406308,
+        "methods": 27362,
+        "pkg": "com/alibaba"
+      },
+      {
+        "classes": 3622,
+        "instructions": 488203,
+        "methods": 24903,
+        "pkg": "com/facebook"
+      },
+      {
+        "classes": 1599,
+        "instructions": 90583,
+        "methods": 6491,
+        "pkg": "com/iap"
+      },
+      {
+        "classes": 1370,
+        "instructions": 2871597,
+        "methods": 8314,
+        "pkg": "com/visa"
+      },
+      {
+        "classes": 1198,
+        "instructions": 146984,
+        "methods": 4542,
+        "pkg": "androidx/media3"
+      },
+      {
+        "classes": 1054,
+        "instructions": 144324,
+        "methods": 7499,
+        "pkg": "vn/com"
+      },
+      {
+        "classes": 813,
+        "instructions": 63398,
+        "methods": 2880,
+        "pkg": "androidx/camera"
+      },
+      {
+        "classes": 689,
+        "instructions": 86164,
+        "methods": 5072,
+        "pkg": "vn/ai"
+      },
+      {
+        "classes": 504,
+        "instructions": 53581,
+        "methods": 2340,
+        "pkg": "androidx/compose"
+      },
+      {
+        "classes": 493,
+        "instructions": 30730,
+        "methods": 2701,
+        "pkg": "com/alipay"
+      },
+      {
+        "classes": 472,
+        "instructions": 34944,
+        "methods": 1074,
+        "pkg": "q9"
+      },
+      {
+        "classes": 454,
+        "instructions": 29410,
+        "methods": 1005,
+        "pkg": "p9"
+      },
+      {
+        "classes": 430,
+        "instructions": 59032,
+        "methods": 2349,
+        "pkg": "com/appsflyer"
+      },
+      {
+        "classes": 388,
+        "instructions": 44614,
+        "methods": 1866,
+        "pkg": "com/vnpay"
+      },
+      {
+        "classes": 361,
+        "instructions": 45037,
+        "methods": 2674,
+        "pkg": "com/nimbusds"
+      },
+      {
+        "classes": 315,
+        "instructions": 24405,
+        "methods": 737,
+        "pkg": "n9"
+      },
+      {
+        "classes": 314,
+        "instructions": 35709,
+        "methods": 857,
+        "pkg": "m9"
+      },
+      {
+        "classes": 299,
+        "instructions": 6758,
+        "methods": 1851,
+        "pkg": "com/xq"
+      },
+      {
+        "classes": 273,
+        "instructions": 34200,
+        "methods": 2188,
+        "pkg": "androidx/appcompat"
+      },
+      {
+        "classes": 266,
+        "instructions": 21647,
+        "methods": 1328,
+        "pkg": "io/reactivex"
+      },
+      {
+        "classes": 258,
+        "instructions": 15079,
+        "methods": 839,
+        "pkg": "androidx/core"
+      },
+      {
+        "classes": 253,
+        "instructions": 7411,
+        "methods": 899,
+        "pkg": "Va"
+      },
+      {
+        "classes": 237,
+        "instructions": 44854,
+        "methods": 2267,
+        "pkg": "org/jmrtd"
+      },
+      {
+        "classes": 216,
+        "instructions": 24246,
+        "methods": 1562,
+        "pkg": "okhttp3/internal"
+      },
+      {
+        "classes": 213,
+        "instructions": 14444,
+        "methods": 718,
+        "pkg": "com/bumptech"
+      },
+      {
+        "classes": 212,
+        "instructions": 24617,
+        "methods": 542,
+        "pkg": "n0"
+      },
+      {
+        "classes": 186,
+        "instructions": 24412,
+        "methods": 792,
+        "pkg": "vn/zalopay"
+      },
+      {
+        "classes": 175,
+        "instructions": 17954,
+        "methods": 624,
+        "pkg": "org/jsoup"
+      },
+      {
+        "classes": 173,
+        "instructions": 22075,
+        "methods": 718,
+        "pkg": "com/airbnb"
+      },
+      {
+        "classes": 173,
+        "instructions": 14061,
+        "methods": 618,
+        "pkg": "androidx/glance"
+      },
+      {
+        "classes": 157,
+        "instructions": 12012,
+        "methods": 1291,
+        "pkg": "app/rive"
+      },
+      {
+        "classes": 152,
+        "instructions": 13460,
+        "methods": 590,
+        "pkg": "androidx/work"
+      },
+      {
+        "classes": 141,
+        "instructions": 17376,
+        "methods": 770,
+        "pkg": "androidx/datastore"
+      },
+      {
+        "classes": 137,
+        "instructions": 15756,
+        "methods": 653,
+        "pkg": "q0"
+      },
+      {
+        "classes": 137,
+        "instructions": 10020,
+        "methods": 336,
+        "pkg": "com/android"
+      },
+      {
+        "classes": 124,
+        "instructions": 24310,
+        "methods": 413,
+        "pkg": "BV"
+      },
+      {
+        "classes": 123,
+        "instructions": 8463,
+        "methods": 508,
+        "pkg": "kotlin/reflect"
+      },
+      {
+        "classes": 120,
+        "instructions": 8318,
+        "methods": 370,
+        "pkg": "F"
+      }
+    ],
+    "perFile": [
+      {
+        "bytes": 4864036,
+        "checksum": "26c25778",
+        "classes": 3156,
+        "fields": 13105,
+        "file": "vn.com.vng.zalopay.apk:assets/audience_network.dex",
+        "instructions": 461192,
+        "invokeEdges": 88465,
+        "methods": 22955,
+        "sha1": "63a809cdb22fec218e3c17cd2fd62e35efac8088",
+        "strings": 30638,
+        "version": "035"
+      },
+      {
+        "bytes": 8831004,
+        "checksum": "48af238",
+        "classes": 10703,
+        "fields": 42944,
+        "file": "vn.com.vng.zalopay.apk:classes.dex",
+        "instructions": 970428,
+        "invokeEdges": 222324,
+        "methods": 47228,
+        "sha1": "e33a1a84d7cdda6b774adfae7e547510539b52b3",
+        "strings": 61218,
+        "version": "038"
+      },
+      {
+        "bytes": 78204,
+        "checksum": "7e8e62ec",
+        "classes": 92,
+        "fields": 222,
+        "file": "vn.com.vng.zalopay.apk:classes10.dex",
+        "instructions": 7206,
+        "invokeEdges": 1847,
+        "methods": 253,
+        "sha1": "18ffea7fa2cd9d1c51cbb343123dfa270a340b7a",
+        "strings": 920,
+        "version": "038"
+      },
+      {
+        "bytes": 163420,
+        "checksum": "fc26f750",
+        "classes": 177,
+        "fields": 521,
+        "file": "vn.com.vng.zalopay.apk:classes11.dex",
+        "instructions": 17207,
+        "invokeEdges": 4330,
+        "methods": 592,
+        "sha1": "283f489decdd2d7b0821e4bffafc9e8d407c2612",
+        "strings": 1584,
+        "version": "038"
+      },
+      {
+        "bytes": 398276,
+        "checksum": "25db0b0a",
+        "classes": 425,
+        "fields": 1497,
+        "file": "vn.com.vng.zalopay.apk:classes12.dex",
+        "instructions": 47456,
+        "invokeEdges": 12132,
+        "methods": 1560,
+        "sha1": "c2d319f8257c927d69481b67d9dabd90aeab6f1e",
+        "strings": 3207,
+        "version": "038"
+      },
+      {
+        "bytes": 145824,
+        "checksum": "5d15080e",
+        "classes": 139,
+        "fields": 445,
+        "file": "vn.com.vng.zalopay.apk:classes13.dex",
+        "instructions": 15160,
+        "invokeEdges": 3792,
+        "methods": 532,
+        "sha1": "b7f4a070b5b76faa0160d537dedb91cde840b052",
+        "strings": 1381,
+        "version": "038"
+      },
+      {
+        "bytes": 81748,
+        "checksum": "fed83693",
+        "classes": 90,
+        "fields": 306,
+        "file": "vn.com.vng.zalopay.apk:classes14.dex",
+        "instructions": 7320,
+        "invokeEdges": 1844,
+        "methods": 256,
+        "sha1": "17189f34c1ac48caecfa9d793e03c8ef17a8c8ff",
+        "strings": 961,
+        "version": "038"
+      },
+      {
+        "bytes": 82152,
+        "checksum": "e9d6e6b2",
+        "classes": 113,
+        "fields": 369,
+        "file": "vn.com.vng.zalopay.apk:classes15.dex",
+        "instructions": 6368,
+        "invokeEdges": 1652,
+        "methods": 290,
+        "sha1": "2368477abed7b81e21f9aab841587e3163911adf",
+        "strings": 1005,
+        "version": "038"
+      },
+      {
+        "bytes": 15916,
+        "checksum": "a3e2b6b6",
+        "classes": 20,
+        "fields": 29,
+        "file": "vn.com.vng.zalopay.apk:classes16.dex",
+        "instructions": 473,
+        "invokeEdges": 150,
+        "methods": 34,
+        "sha1": "a68f8986215b09d0cadb00fbbf0de157735ffc99",
+        "strings": 261,
+        "version": "038"
+      },
+      {
+        "bytes": 208476,
+        "checksum": "486d4f09",
+        "classes": 243,
+        "fields": 821,
+        "file": "vn.com.vng.zalopay.apk:classes17.dex",
+        "instructions": 23969,
+        "invokeEdges": 6280,
+        "methods": 629,
+        "sha1": "d208393fae313040429471f55a48fc8dcc4ffff3",
+        "strings": 1847,
+        "version": "038"
+      },
+      {
+        "bytes": 95920,
+        "checksum": "4e098b16",
+        "classes": 115,
+        "fields": 328,
+        "file": "vn.com.vng.zalopay.apk:classes18.dex",
+        "instructions": 9076,
+        "invokeEdges": 2366,
+        "methods": 250,
+        "sha1": "759252551d3bd6b13fd4e95fe14d6675b6ef788e",
+        "strings": 1094,
+        "version": "038"
+      },
+      {
+        "bytes": 719548,
+        "checksum": "355c77be",
+        "classes": 777,
+        "fields": 2508,
+        "file": "vn.com.vng.zalopay.apk:classes19.dex",
+        "instructions": 104372,
+        "invokeEdges": 26412,
+        "methods": 2601,
+        "sha1": "93a82bc81280988975f9ae81244074496ac3fb66",
+        "strings": 4159,
+        "version": "038"
+      },
+      {
+        "bytes": 16516960,
+        "checksum": "92cab890",
+        "classes": 7421,
+        "fields": 58267,
+        "file": "vn.com.vng.zalopay.apk:classes2.dex",
+        "instructions": 3095876,
+        "invokeEdges": 360884,
+        "methods": 38472,
+        "sha1": "a46d2f5bf1720cbb6e7b33426e58509621c6f504",
+        "strings": 56948,
+        "version": "038"
+      },
+      {
+        "bytes": 850600,
+        "checksum": "ed036752",
+        "classes": 1081,
+        "fields": 2400,
+        "file": "vn.com.vng.zalopay.apk:classes3.dex",
+        "instructions": 98203,
+        "invokeEdges": 23460,
+        "methods": 2980,
+        "sha1": "121e18d91853b7d28812d98f5e05d1f0881030c8",
+        "strings": 8010,
+        "version": "038"
+      },
+      {
+        "bytes": 9418124,
+        "checksum": "902d82b3",
+        "classes": 11441,
+        "fields": 34608,
+        "file": "vn.com.vng.zalopay.apk:classes4.dex",
+        "instructions": 1202710,
+        "invokeEdges": 263077,
+        "methods": 47711,
+        "sha1": "e2427129aaa32831742b3f5259fecdbe50118f67",
+        "strings": 52812,
+        "version": "038"
+      },
+      {
+        "bytes": 7357484,
+        "checksum": "72542fe4",
+        "classes": 7983,
+        "fields": 56147,
+        "file": "vn.com.vng.zalopay.apk:classes5.dex",
+        "instructions": 658963,
+        "invokeEdges": 170452,
+        "methods": 37294,
+        "sha1": "56b852f27eea29aecbf247fc2a5f2c1cb60a79bd",
+        "strings": 56424,
+        "version": "038"
+      },
+      {
+        "bytes": 7612432,
+        "checksum": "9529dc3c",
+        "classes": 5475,
+        "fields": 28379,
+        "file": "vn.com.vng.zalopay.apk:classes6.dex",
+        "instructions": 946010,
+        "invokeEdges": 175469,
+        "methods": 29029,
+        "sha1": "c84425e45007dae63e3741924ce1e80d6cc089ac",
+        "strings": 55274,
+        "version": "038"
+      },
+      {
+        "bytes": 10803680,
+        "checksum": "5a202c60",
+        "classes": 12953,
+        "fields": 38191,
+        "file": "vn.com.vng.zalopay.apk:classes7.dex",
+        "instructions": 1422728,
+        "invokeEdges": 324468,
+        "methods": 48030,
+        "sha1": "ea9b70bd8fcf55b7144d1eac5d9cd0c2da844636",
+        "strings": 59110,
+        "version": "038"
+      },
+      {
+        "bytes": 239036,
+        "checksum": "582f6119",
+        "classes": 295,
+        "fields": 907,
+        "file": "vn.com.vng.zalopay.apk:classes8.dex",
+        "instructions": 28274,
+        "invokeEdges": 7208,
+        "methods": 912,
+        "sha1": "48a8082dd8fe9d40400b9e6a945795d89c855560",
+        "strings": 1906,
+        "version": "038"
+      },
+      {
+        "bytes": 1218908,
+        "checksum": "3e714fb8",
+        "classes": 1128,
+        "fields": 4230,
+        "file": "vn.com.vng.zalopay.apk:classes9.dex",
+        "instructions": 135767,
+        "invokeEdges": 33303,
+        "methods": 5872,
+        "sha1": "92d32c9d7bc8e48e225cac49b17876907476ef7d",
+        "strings": 6155,
+        "version": "038"
+      }
+    ],
+    "topClasses": [
+      {
+        "instructionCount": 21052,
+        "methods": 1222,
+        "name": "Lkotlin/collections/y;"
+      },
+      {
+        "instructionCount": 4659,
+        "methods": 473,
+        "name": "Lgf/A;"
+      },
+      {
+        "instructionCount": 6471,
+        "methods": 223,
+        "name": "Landroidx/recyclerview/widget/RecyclerView;"
+      },
+      {
+        "instructionCount": 4106,
+        "methods": 216,
+        "name": "Lcom/facebook/ads/redexgen/X/nQ;"
+      },
+      {
+        "instructionCount": 6181,
+        "methods": 214,
+        "name": "Lcom/alibaba/griver/ui/ant/basic/AUHorizontalListView;"
+      },
+      {
+        "instructionCount": 217,
+        "methods": 209,
+        "name": "Lcom/facebook/ads/redexgen/X/nL;"
+      },
+      {
+        "instructionCount": 0,
+        "methods": 208,
+        "name": "Lcom/facebook/ads/redexgen/X/1f;"
+      },
+      {
+        "instructionCount": 4036,
+        "methods": 207,
+        "name": "Lkotlin/collections/CollectionsKt___CollectionsKt;"
+      },
+      {
+        "instructionCount": 975,
+        "methods": 206,
+        "name": "Lcom/google/android/gms/config/proto/Config$PackageData;"
+      },
+      {
+        "instructionCount": 1800,
+        "methods": 205,
+        "name": "Lkotlin/collections/w;"
+      },
+      {
+        "instructionCount": 6592,
+        "methods": 195,
+        "name": "Lcom/facebook/ads/redexgen/X/MG;"
+      },
+      {
+        "instructionCount": 2430,
+        "methods": 193,
+        "name": "Landroidx/fragment/app/Fragment;"
+      },
+      {
+        "instructionCount": 4149,
+        "methods": 187,
+        "name": "Lcom/facebook/ads/redexgen/X/9m;"
+      },
+      {
+        "instructionCount": 3778,
+        "methods": 177,
+        "name": "Lvn/com/vng/zalopay/miniapp/api/v2/device/DeviceModule;"
+      },
+      {
+        "instructionCount": 3940,
+        "methods": 176,
+        "name": "Lcom/google/android/material/textfield/TextInputLayout;"
+      },
+      {
+        "instructionCount": 5896,
+        "methods": 173,
+        "name": "LCC/g;"
+      },
+      {
+        "instructionCount": 1879,
+        "methods": 163,
+        "name": "Lvn/ai/trueid/lottie/LottieDrawable;"
+      },
+      {
+        "instructionCount": 1471,
+        "methods": 160,
+        "name": "Lcom/vnpay/vntaxi/starter/TaxiBuilder;"
+      },
+      {
+        "instructionCount": 6776,
+        "methods": 158,
+        "name": "Lcom/appsflyer/internal/AFa1ySDK;"
+      },
+      {
+        "instructionCount": 0,
+        "methods": 158,
+        "name": "LCC/k;"
+      },
+      {
+        "instructionCount": 2048,
+        "methods": 156,
+        "name": "Lcom/google/android/material/chip/Chip;"
+      },
+      {
+        "instructionCount": 6947,
+        "methods": 153,
+        "name": "Lvn/ai/trueid/sdk/navigation/TrueIDV3;"
+      },
+      {
+        "instructionCount": 910,
+        "methods": 146,
+        "name": "Lcom/google/android/gms/internal/measurement/q1;"
+      },
+      {
+        "instructionCount": 2745,
+        "methods": 145,
+        "name": "Lcom/facebook/ads/redexgen/X/ie;"
+      },
+      {
+        "instructionCount": 3218,
+        "methods": 142,
+        "name": "Lokio/Buffer;"
+      }
+    ],
+    "totals": {
+      "bytes": 69701748,
+      "classes": 63827,
+      "fields": 286224,
+      "files": 20,
+      "instructions": 9258758,
+      "invokeEdges": 1729915,
+      "methods": 287480,
+      "stringConstants": 242266,
+      "strings": 404914
+    }
+  },
+  "indicators": [
+    {
+      "category": "supply-chain",
+      "id": "mpaas-bridge",
+      "label": "Mini-program container JS bridge",
+      "matches": 3776,
+      "samples": [
+        " isTinyApp: ",
+        "$SwitchMap$com$alibaba$ariver$app$api$activity$StartAction",
+        "$SwitchMap$com$alibaba$ariver$app$api$point$engine$EngineInitFailedPoint$Action",
+        "$SwitchMap$com$alibaba$ariver$app$api$ui$darkmode$ColorSchemeType",
+        "$SwitchMap$com$alibaba$ariver$commonability$map$sdk$utils$MapSDKContext$MapSDK",
+        "$SwitchMap$com$alibaba$ariver$kernel$common$network$NetworkUtil$Network",
+        "$SwitchMap$com$alibaba$ariver$kernel$common$service$executor$ExecutorType",
+        "$SwitchMap$com$alibaba$ariver$remotedebug$core$state$RemoteDebugState"
+      ]
+    },
+    {
+      "category": "hardening",
+      "id": "integrity",
+      "label": "Signature / integrity verification",
+      "matches": 813,
+      "samples": [
+        "getPackageInfo",
+        "signatures",
+        "APK integrity check failed. %1$s digest mismatch. Expected: <%2$s>, actual: <%3$s>",
+        "APK is signed using APK Signature Scheme v2 but these signatures may be stripped without being detected because %1$s ...",
+        "ApkSignerEngine.java",
+        "Certificate mismatch between SourceStamp block in APK signing block and SourceStamp file in APK: <%1$s> vs <%2$s>",
+        "JAR_SIG_MAX_SIGNATURES_EXCEEDED",
+        "JAR_SIG_NO_SIGNATURES"
+      ]
+    },
+    {
+      "category": "hardening",
+      "id": "obfuscation-markers",
+      "label": "Obfuscation / R8 markers",
+      "matches": 224,
+      "samples": [
+        "vn/com/vng/zalopay/loginv2/presentation/ui/webview/LoginWebViewActivity$finishReceiver$1",
+        "vn/com/vng/zalopay/withdraw/domain/entity/WDOrderResultEntity$EKyc",
+        "vn/com/zalopay/extensions/GsonKt$parseJsonSafely$1",
+        "vn/com/zalopay/owner_verification/AuthExecutionStepKt$parseJsonToAuthExecutionSteps$type$1",
+        "vn/com/zalopay/owner_verification/presentation/tracker/OVTracker$trackEndFlow$listType$1",
+        "vn/com/zalopay/sms/SmsUserConsentProcessorImpl$smsVerificationReceiver$1",
+        "vn/ai/trueid/sdk/navigation/AuthenticationID$startFaceAuthen$1",
+        "vn/ai/trueid/sdk/navigation/FaceLiveness$startFaceSDKCapture$1"
+      ]
+    },
+    {
+      "category": "network",
+      "id": "pinning",
+      "label": "Certificate pinning / custom trust manager",
+      "matches": 42,
+      "samples": [
+        "Landroid/net/http/X509TrustManagerExtensions;",
+        "Ljavax/net/ssl/X509TrustManager;",
+        "Lokhttp3/CertificatePinner;",
+        "()Ljavax/net/ssl/X509TrustManager;",
+        "()Lokhttp3/CertificatePinner;",
+        "(Ljava/lang/String;ILokhttp3/Dns;Ljavax/net/SocketFactory;Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/HostnameVeri...",
+        "(Ljava/lang/String;[Ljava/lang/String;)Lokhttp3/CertificatePinner$Builder;",
+        "(Ljavax/net/ssl/SSLSocketFactory;)Ljavax/net/ssl/X509TrustManager;"
+      ]
+    },
+    {
+      "category": "privacy",
+      "id": "device-identifiers",
+      "label": "Hardware / advertising identifiers",
+      "matches": 37,
+      "samples": [
+        " from getSubscriberId no name.",
+        "AnimatedStateListDrawableItem_android_id",
+        "ConstraintSet_android_id",
+        "Constraint_android_id",
+        "Fragment_android_id",
+        "MenuGroup_android_id",
+        "MenuItem_android_id",
+        "State_android_id"
+      ]
+    },
+    {
+      "category": "evasion",
+      "id": "hook-detection",
+      "label": "Hook / instrumentation detection (Frida, Xposed)",
+      "matches": 27,
+      "samples": [
+        "Landroidx/camera/camera2/internal/compat/quirk/AutoFlashUnderExposedQuirk;",
+        "Screen exposed for less than 1000 ms. Event not sent. time",
+        "Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu",
+        "Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu",
+        "Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu",
+        "Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu",
+        "exposed_dropdown_menu_content_description",
+        "mtrl_exposed_dropdown_menu_popup_elevation"
+      ]
+    },
+    {
+      "category": "network",
+      "id": "cleartext",
+      "label": "Cleartext HTTP endpoints",
+      "matches": 26,
+      "samples": [
+        "http://",
+        "http://ns.adobe.com/xap/1.0/",
+        "http://ns.adobe.com/xap/1.0/��",
+        "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+        "http://iopengw-280.sggz00b.dev.alipay.net/",
+        "http://schemas.android.com/apk/res/android",
+        "http://tfsimg.alipay.com/images/partner/T1IVXXXb0bXXXXXXXX",
+        "http://vnpay.vn"
+      ]
+    },
+    {
+      "category": "crypto",
+      "id": "biometric-keystore",
+      "label": "Keystore / biometric-gated keys",
+      "matches": 22,
+      "samples": [
+        "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;",
+        "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationResult;",
+        "Landroid/hardware/biometrics/BiometricPrompt$Builder;",
+        "Landroid/hardware/biometrics/BiometricPrompt$CryptoObject;",
+        "Landroid/hardware/biometrics/BiometricPrompt;",
+        "Landroid/security/keystore/KeyGenParameterSpec$Builder;",
+        "Landroid/security/keystore/KeyGenParameterSpec;",
+        "BiometricPromptCompat"
+      ]
+    },
+    {
+      "category": "evasion",
+      "id": "emulator-detection",
+      "label": "Emulator detection",
+      "matches": 20,
+      "samples": [
+        "22uUhJ3etkiChBnOXQGZ31CB4WVKfXWA",
+        "8hGTWRVePtIxVw2NOXuq9knVHvw3DPvW",
+        "HSYkgNOxIO60XV4ngpdc16Z8wmTOtZr1",
+        "dggRIwntGnoxWZ7BDQUg45Sl6NQgoMuN",
+        "kcwn0HZtMTZNOx",
+        "lnnJwj9Jy1Fdr4Eb8hkoGrInOxKcj",
+        "nOxceDp",
+        "xy0Ab8m7NOX4ZRxTfyGPwRY1TRrgVPC4"
+      ]
+    },
+    {
+      "category": "hardening",
+      "id": "root-detection",
+      "label": "Root / su detection",
+      "matches": 9,
+      "samples": [
+        "isRooted",
+        "superUserApk",
+        "/system/bin/su",
+        "/system/xbin/su",
+        ", isRooted=",
+        "/system/app/Superuser.apk",
+        "test-keys",
+        "Test-keys aren't accepted on this build."
+      ]
+    },
+    {
+      "category": "privacy",
+      "id": "contacts-calendar",
+      "label": "Contacts / calendar access",
+      "matches": 8,
+      "samples": [
+        "Landroid/provider/ContactsContract$CommonDataKinds$Phone;",
+        "android.permission.READ_CONTACTS",
+        "Landroid/provider/ContactsContract$Contacts;",
+        "Landroid/provider/CalendarContract$Events;",
+        "Landroid/provider/ContactsContract$Data;",
+        "Landroid/provider/CalendarContract$Reminders;",
+        "Landroid/provider/ContactsContract;",
+        "Landroid/provider/CalendarContract$Calendars;"
+      ]
+    },
+    {
+      "category": "supply-chain",
+      "id": "dynamic-code",
+      "label": "Dynamic code loading",
+      "matches": 6,
+      "samples": [
+        "createPackageContext",
+        "Ldalvik/system/DexClassLoader;",
+        " should be of type BaseDexClassLoader",
+        "Ldalvik/system/BaseDexClassLoader;",
+        "Ldalvik/system/InMemoryDexClassLoader;",
+        "Ldalvik/system/PathClassLoader;"
+      ]
+    },
+    {
+      "category": "supply-chain",
+      "id": "js-bridge",
+      "label": "WebView JavaScript bridge",
+      "matches": 6,
+      "samples": [
+        "addJavascriptInterface",
+        "evaluateJavascript",
+        "shouldOverrideUrlLoading",
+        "shouldOverrideUrlLoadingForUC",
+        "AdWebView shouldOverrideUrlLoading: ",
+        "shouldOverrideUrlLoading: "
+      ]
+    }
+  ],
+  "meta": {
+    "deepScan": true,
+    "durationMs": 3717,
+    "generatedAt": "2026-11-25T15:08:18.928Z",
+    "input": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+    "inputSha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+    "inputSize": 98813878,
+    "runtime": "node v22.22.3",
+    "toolkit": "PayTear",
+    "version": "0.4.0"
+  },
+  "native": {
+    "abis": [
+      "armeabi-v7a"
+    ],
+    "count": 27,
+    "hardeningSummary": {
+      "canary": 25,
+      "fortify": 13,
+      "fullRelro": 23,
+      "nx": 27,
+      "partialRelro": 0,
+      "pie": 27
+    },
+    "libs": [
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "a26a37e9cce21f2a486aa9f8b6abd7d06bb975b2",
+        "comment": "Android (11349228, +pgo, +bolt, +lto, -mlgo, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362) | Linker: LLD 17.0.2",
+        "exported": 2,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libtaibmcf.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "0fba080d0364fc0f7a8f61611551ef3b231c8ad0c95113446916099f8112d650",
+        "size": 12617752,
+        "symbols": 198,
+        "textSize": 11900864
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "bae2bbb57b89bcf1710fd197774512ab",
+        "comment": null,
+        "exported": 38,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 38,
+        "name": "libmlkitcommonpipeline.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "9ab65cd53ed8334fc0fcd09fe3c442f2a9bb6653e1392bc0ff4a1c1381aba7db",
+        "size": 6928228,
+        "symbols": 368,
+        "textSize": 5275620
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "347eda0d518cde27617454728d109a5c",
+        "comment": null,
+        "exported": 33,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 33,
+        "name": "libmlkit_google_ocr_pipeline.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "06b9e2f587e401c6446aa0db344bb31b622957a2d04aa4eac03cde8b3a6ed78a",
+        "size": 6781940,
+        "symbols": 368,
+        "textSize": 4406008
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "f9826ee5d5243ae7091701e7593e50523a3d32d2",
+        "comment": "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349) | Linker: LLD 21.0.0 (/mnt/disks/build-disk/src/googleplex-android/llvm-r563880-release/out/llvm-project/llvm 5e96669f06077099aa41290cdb4c5e6fa0f59349)",
+        "exported": 2,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libfgcpkjvqe.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "5f72893936adfe712e8355c33c6f453c45396c7f58c8f05c9acc9c8f83c15b39",
+        "size": 6524160,
+        "symbols": 194,
+        "textSize": 5820360
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "2e94324788620fed426ff7412aa62bbb",
+        "comment": null,
+        "exported": 6,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 1,
+        "jniExports": 6,
+        "name": "libface_detector_v2_jni.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "21e48bd253e1c87edee42bce9a51048ac3082d681446d0d05a79c4ad0f5e187b",
+        "size": 5388224,
+        "symbols": 231,
+        "textSize": 4108928
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "0d71ed4fed60c71213942c74e976b97330df2cf5",
+        "comment": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Android (7284624, based on r416183b) clang version 12.0.5 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)",
+        "exported": 426,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 1,
+        "jniExports": 0,
+        "name": "libsqlcipher.so",
+        "needed": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "819c11750f332a8ca0d88f251d0d22d664f559b8ed10f7a4c61cc90be49f3f44",
+        "size": 3555080,
+        "symbols": 657,
+        "textSize": 2532016
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "2f828d569993ab52e65a7c056d4bb095",
+        "comment": null,
+        "exported": 8,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 8,
+        "name": "libbarhopper_v3.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "b3c162c69e4906b816227ae116bfd8b9ff19cfdd58a3de0c9a9b110e030063e9",
+        "size": 3244440,
+        "symbols": 212,
+        "textSize": 2836456
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "847ffc7d5f813c1920c7661652406f7297196a28",
+        "comment": "Linker: LLD 18.0.3 | Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+        "exported": 5390,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 167,
+        "name": "librive-android.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "ab2dd352553cafb7b7f1a686df8bf33c814b977e7c1cdf1e65d8c99c5cb0e782",
+        "size": 3225636,
+        "symbols": 6225,
+        "textSize": 2209180
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "f061f9654f9171d7506dd04633bb6ef15af2eb1c",
+        "comment": "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349) | Android (12027248, +pgo, -bolt, +lto, -mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Android (12027248, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d80",
+        "exported": 2152,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 1,
+        "jniExports": 8,
+        "name": "libpicodet_ncnn.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "442367c2e7f3e5b5f70ed8164f375d6306720eb1d3ddba4fdd936e569214230e",
+        "size": 2992584,
+        "symbols": 2824,
+        "textSize": 2634856
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "6c38a6f45674970536c5de358bb9dec440f4f89b",
+        "comment": "Android (12027248, +pgo, -bolt, +lto, -mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Android (13691557, +pgo, +bolt, +lto, +mlgo, based on r522817d) clang version 18.0.4 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Android (12027248, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d80",
+        "exported": 4,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 2,
+        "jniExports": 4,
+        "name": "libVFaceLib.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "c6d04f368fe967fb1fd2666519f78cf8fa5fdc3a95a1ffbb0095370483592329",
+        "size": 1963668,
+        "symbols": 176,
+        "textSize": 1515836
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "def3740891ad48ab",
+        "comment": null,
+        "exported": 64,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "liba97d.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "7fe7d830805a1e99f0d3661a99fdad20e5ea3f4998c65b3565fde4602ce2181e",
+        "size": 997572,
+        "symbols": 150,
+        "textSize": 878552
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "a760c680b329de8439f344bcfd47a1b7f0fdb446",
+        "comment": "Android (11695104, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18.0.3 | Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+        "exported": 1583,
+        "hardening": {
+          "bindNow": true,
+          "canary": false,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libc++_shared.so",
+        "needed": [
+          "",
+          "",
+          ""
+        ],
+        "sha256": "91b49f121b3120538faff020fcf535ade1d945e65ccd793fc0b815b5799bbdf0",
+        "size": 872872,
+        "symbols": 2499,
+        "textSize": 411396
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "1d8a1a4e69d37070ac1087184e145fb378e8bb0f",
+        "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+        "exported": 1,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libljsfrcwmw.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "12a389806114a18ff57d341e740108ebfe9b07d39abe2775a652f193cb99ac84",
+        "size": 600296,
+        "symbols": 19,
+        "textSize": 222180
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "0a3dbcd586db47ff982af5b0d84abecf3dc275eb",
+        "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+        "exported": 3,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "none",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libcrashlytics-common.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "4b8bcec5c0464d7b1741386e30eef9308c43d4ca8f57501ae6734fa48e1c55d2",
+        "size": 435732,
+        "symbols": 181,
+        "textSize": 309104
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "028a8b28da0d9c4d",
+        "comment": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18.0.2",
+        "exported": 92,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libnative-imagetranscoder.so",
+        "needed": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "43280a8f3f33529d3558b1f3283fec9b855ca28e7b8d7883ae7a64762f148dad",
+        "size": 341072,
+        "symbols": 353,
+        "textSize": 259328
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "24dd9d8341a2d978131be79560cf5684f2a9d50f",
+        "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+        "exported": 94,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "liblytcuhe.so",
+        "needed": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "a8e59c1d4922f6bce9814667c1566bb1a2ea39700fe312625a29a7cbe6ef4629",
+        "size": 178628,
+        "symbols": 339,
+        "textSize": 119752
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "0ee25e5c158c05fe6a60830fbf658003775b3ed1",
+        "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+        "exported": 94,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "librcmefqonnx.so",
+        "needed": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "9120dd02a8d94659ea178c0b73b4d02954915d8432c74b04a05d1583f69099af",
+        "size": 178628,
+        "symbols": 339,
+        "textSize": 119752
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "a34bec9e3f8ee63ea7ea5c36d40465e87819ee86",
+        "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+        "exported": 1,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libohxbee.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "2d54a2aa85d81dbfef1e8d01726b1ffd74004ead9d15d861e2323f54ffc01a74",
+        "size": 155412,
+        "symbols": 19,
+        "textSize": 56960
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "7b306bd587489659c60c29ebe609d9b434a897fa",
+        "comment": "Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn) | Alipay clang version 7.0.1 (based on LLVM 7.0.1.Alipay.Obfuscator build220224) | GCC: (GNU) 4.9.x 20150123 (prerelease)",
+        "exported": 63,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 3,
+        "jniExports": 4,
+        "name": "libsecurity_lite.so",
+        "needed": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "75c5d69621c5dce9a64e4466ae011ba5a22e16b35246b39941883d424df6c786",
+        "size": 154840,
+        "symbols": 133,
+        "textSize": 120148
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "5e64ab61bdc0fc0292344c878691de20f1f84d61",
+        "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+        "exported": 8,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "none",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libcrashlytics.so",
+        "needed": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "be0dedcd52a35e717ec0eeb832108e42c8d62552bc7005fef55ca233d0679260",
+        "size": 94540,
+        "symbols": 55,
+        "textSize": 58848
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "6ba77dbb7533b0d39295bf0b298fdc35477d4d0d",
+        "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+        "exported": 2,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "none",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libcrashlytics-handler.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "f58fca61975d2450e8bef2bc4b0ea68e5e181cdd0aff3693b04e469c1c6ccdb6",
+        "size": 87908,
+        "symbols": 42,
+        "textSize": 54216
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "af880e9ff3b456cb7ea5337d8d87dad8f3e85d52",
+        "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+        "exported": 40,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 10,
+        "name": "libtrueidlib.so",
+        "needed": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "e1a98166f637ebebf814a375ec147461229ff18314dd669ebbf07eabefdfdd06",
+        "size": 79904,
+        "symbols": 81,
+        "textSize": 62660
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "12e91d3874791a1d92920ec94bc2690acebe48aa",
+        "comment": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)",
+        "exported": 6,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": true,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 6,
+        "name": "libimage_processing_util_jni.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "e48e356bbe1902ae9a66178a4a0141c993b82ee9f70dde52ad83e4af3eca984f",
+        "size": 20380,
+        "symbols": 30,
+        "textSize": 14036
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "15dee69efb9bdd03",
+        "comment": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18.0.2",
+        "exported": 1,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libnative-filters.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "b8a2da1df4f33eb83adf9596e5e68c9633067a2826385e495ed47f02497b5995",
+        "size": 12588,
+        "symbols": 15,
+        "textSize": 6288
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "fa98a997cdd9b43f190a4bd20f3dad441b4062f0",
+        "comment": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)",
+        "exported": 1,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libandroidx.graphics.path.so",
+        "needed": [
+          "",
+          "",
+          ""
+        ],
+        "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b",
+        "size": 7252,
+        "symbols": 10,
+        "textSize": 3116
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "bc860efe07caf057f84f5a5507e1a3fee7bfbe88",
+        "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+        "exported": 0,
+        "hardening": {
+          "bindNow": true,
+          "canary": false,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "none",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libcrashlytics-trampoline.so",
+        "needed": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "5366393c1292cfb5c8b49bf846e644f8ce24e683e8c0e97566124b29f89eb722",
+        "size": 6912,
+        "symbols": 7,
+        "textSize": 280
+      },
+      {
+        "abi": "armeabi-v7a",
+        "buildId": "b79df1565cdf601d",
+        "comment": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18.0.2",
+        "exported": 1,
+        "hardening": {
+          "bindNow": true,
+          "canary": true,
+          "fortify": false,
+          "nx": true,
+          "pie": true,
+          "relro": "full",
+          "textRelocations": false
+        },
+        "highEntropyRegions": 0,
+        "jniExports": 0,
+        "name": "libimagepipeline.so",
+        "needed": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sha256": "2049c770f0dcca26b20d211f6113ae02eb7c3af48c784c28fd24c320d70d7cc9",
+        "size": 5876,
+        "symbols": 12,
+        "textSize": 1220
+      }
+    ],
+    "totalBytes": 57452124
+  },
+  "network": {
+    "cleartextUrls": [
+      "http://ns.adobe.com/xap/1.0/",
+      "http://g.co/dev/packagevisibility",
+      "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+      "http://",
+      "http://iopengw-280.sggz00b.dev.alipay.net/",
+      "http://schemas.android.com/apk/res/android",
+      "http://tfsimg.alipay.com/images/partner/T1IVXXXb0bXXXXXXXX",
+      "http://vnpay.vn",
+      "http://www.w3.org/1999/xlink",
+      "http://www.w3.org/2000/svg",
+      "http://www.w3.org/TR/SVG11/feature#",
+      "http://xml.org/sax/features/external-general-entities",
+      "http://xml.org/sax/features/external-parameter-entities",
+      "http://xml.org/sax/properties/lexical-handler",
+      "http://xmlpull.org/v1/doc/features.html#process-docdecl",
+      "http://goo.gl/8Rd3yj",
+      "http://schemas.android.com/apk/res-auto",
+      "http://www.example.com",
+      "http://www.google-analytics.com",
+      "http://www.google.com",
+      "http://www.w3.org/ns/ttml#parameter",
+      "http://www.android.com/",
+      "http://goo.gl/naFqQk",
+      "http://127.0.0.1:",
+      "http://hostname/?",
+      "http://html.zapps.vn/pay/FAQCenter/suport_bidv.html",
+      "http://trueid.net",
+      "http://www.facebook.com/dialog/oauth"
+    ],
+    "domainCount": 151,
+    "domainRollup": [
+      {
+        "domain": "zalopay.vn",
+        "urls": 35
+      },
+      {
+        "domain": "alipay.com",
+        "urls": 14
+      },
+      {
+        "domain": "google.com",
+        "urls": 8
+      },
+      {
+        "domain": "zalopay.com.vn",
+        "urls": 8
+      },
+      {
+        "domain": "visa.com",
+        "urls": 6
+      },
+      {
+        "domain": "alipaydev.com",
+        "urls": 4
+      },
+      {
+        "domain": "zaloapp.com",
+        "urls": 4
+      },
+      {
+        "domain": "zing.vn",
+        "urls": 4
+      },
+      {
+        "domain": "android.com",
+        "urls": 3
+      },
+      {
+        "domain": "alipayobjects.com",
+        "urls": 3
+      },
+      {
+        "domain": "googleapis.com",
+        "urls": 3
+      },
+      {
+        "domain": "facebook.com",
+        "urls": 3
+      },
+      {
+        "domain": "fpt.ai",
+        "urls": 3
+      },
+      {
+        "domain": "alipay.net",
+        "urls": 2
+      },
+      {
+        "domain": "vnpay.vn",
+        "urls": 2
+      },
+      {
+        "domain": "google-analytics.com",
+        "urls": 2
+      },
+      {
+        "domain": "gstatic.com",
+        "urls": 2
+      },
+      {
+        "domain": "tenpayglobal.com",
+        "urls": 2
+      },
+      {
+        "domain": "adobe.com",
+        "urls": 1
+      },
+      {
+        "domain": "page.link",
+        "urls": 1
+      },
+      {
+        "domain": "goo.gl",
+        "urls": 1
+      },
+      {
+        "domain": "github.com",
+        "urls": 1
+      },
+      {
+        "domain": "g.co",
+        "urls": 1
+      },
+      {
+        "domain": "xmlpull.org",
+        "urls": 1
+      },
+      {
+        "domain": "alipay.kylinbridge",
+        "urls": 1
+      },
+      {
+        "domain": "marmot-cloud.com",
+        "urls": 1
+      },
+      {
+        "domain": "zalo.me",
+        "urls": 1
+      },
+      {
+        "domain": "antfin-inc.com",
+        "urls": 1
+      },
+      {
+        "domain": "bouncycastle.org",
+        "urls": 1
+      },
+      {
+        "domain": "jetbrains.com",
+        "urls": 1
+      },
+      {
+        "domain": "alibaba.com",
+        "urls": 1
+      },
+      {
+        "domain": "tiktok.com",
+        "urls": 1
+      },
+      {
+        "domain": "vnpaytest.vn",
+        "urls": 1
+      },
+      {
+        "domain": "zamcs.com",
+        "urls": 1
+      },
+      {
+        "domain": "alipayplus.com",
+        "urls": 1
+      },
+      {
+        "domain": "juspay.io",
+        "urls": 1
+      },
+      {
+        "domain": "w3.org",
+        "urls": 1
+      },
+      {
+        "domain": "xml.org",
+        "urls": 1
+      },
+      {
+        "domain": "example.com",
+        "urls": 1
+      },
+      {
+        "domain": "appspot.com",
+        "urls": 1
+      },
+      {
+        "domain": "app-measurement.com",
+        "urls": 1
+      },
+      {
+        "domain": "doubleclick.net",
+        "urls": 1
+      },
+      {
+        "domain": "googlesyndication.com",
+        "urls": 1
+      },
+      {
+        "domain": "googleadservices.com",
+        "urls": 1
+      },
+      {
+        "domain": "worker.com",
+        "urls": 1
+      },
+      {
+        "domain": "alipay-eco.com",
+        "urls": 1
+      },
+      {
+        "domain": "mini-program.com",
+        "urls": 1
+      },
+      {
+        "domain": "appsflyersdk.com",
+        "urls": 1
+      },
+      {
+        "domain": "goo.gle",
+        "urls": 1
+      },
+      {
+        "domain": "0.1",
+        "urls": 1
+      },
+      {
+        "domain": "aomedia.org",
+        "urls": 1
+      },
+      {
+        "domain": "apple.com",
+        "urls": 1
+      },
+      {
+        "domain": "gov.vn",
+        "urls": 1
+      },
+      {
+        "domain": "zapps.vn",
+        "urls": 1
+      },
+      {
+        "domain": "trueid.net",
+        "urls": 1
+      },
+      {
+        "domain": "trueid.vn",
+        "urls": 1
+      },
+      {
+        "domain": "bidv.com.vn",
+        "urls": 1
+      },
+      {
+        "domain": "crashlytics.com",
+        "urls": 1
+      },
+      {
+        "domain": "symbols.vn",
+        "urls": 1
+      },
+      {
+        "domain": "freshdesk.com",
+        "urls": 1
+      },
+      {
+        "domain": "tenpay.com",
+        "urls": 1
+      }
+    ],
+    "domains": [
+      "127.0.0.1",
+      "a.alipayobjects.com",
+      "activityservice.alibaba.com",
+      "admob-gmats.uc.r.appspot.com",
+      "alipay.com",
+      "alipay.kylinbridge",
+      "alipay.worker.com",
+      "analytics.us.tiktok.com",
+      "aomedia.org",
+      "api.fpt.ai",
+      "api.trueid.vn",
+      "api.zalopay.vn",
+      "app-measurement.com",
+      "atlas.zalopay.vn",
+      "bank-profile.zalopay.vn",
+      "bim.zalopay.vn",
+      "bnpl-gateway.zalopay.vn",
+      "campaign.zalopay.com.vn",
+      "cdn.marmot-cloud.com",
+      "clients3.google.com",
+      "connectivitycheck.gstatic.com",
+      "cps.zalopay.com.vn",
+      "csi.gstatic.com",
+      "dala2zoom.zalopay.vn",
+      "demomb.vnpaytest.vn",
+      "design.vnpay.vn",
+      "developer.android.com",
+      "developer.apple.com",
+      "developers.facebook.com",
+      "developers.google.com",
+      "dpe.aacert.consumerapi.digital.visa.com",
+      "dpe.consumerapi.digital.visa.com",
+      "dpe.qa.consumerapi.digital.visa.com",
+      "dpe.sandbox.consumerapi.digital.visa.com",
+      "ebank.bidv.com.vn",
+      "ekyc-dev.fpt.ai",
+      "facebook.com",
+      "fin-installment.zalopay.vn",
+      "firebase-settings.crashlytics.com",
+      "firebase.google.com",
+      "firebaseinstallations.googleapis.com",
+      "firebaseremoteconfig.googleapis.com",
+      "g.co",
+      "github.com",
+      "goo.gl",
+      "goo.gle",
+      "google.com",
+      "googleads.g.doubleclick.net",
+      "googlemobileadssdk.page.link",
+      "googletng.dl.alipaydev.com",
+      "graph.zaloapp.com",
+      "gw.alipayobjects.com",
+      "gw.zamcs.com",
+      "hpmweb-pre.alipay.com",
+      "hpmweb.alipay.com",
+      "html.zapps.vn",
+      "icl.visa.com",
+      "imasdk.googleapis.com",
+      "imdap-sea.alipay.com",
+      "imgs-ac-amcs.dl.alipaydev.com",
+      "imgs-ac-saas.dl.alipaydev.com",
+      "imgs-ac.alipay.com",
+      "imgs-sea-pre.alipay.com",
+      "imgs-sit-sg.dl.alipaydev.com",
+      "iopengw-280.sggz00b.dev.alipay.net",
+      "issuetracker.google.com",
+      "log.zalopay.com.vn",
+      "loyalty.zalopay.vn",
+      "mdgw.alipay.com",
+      "mdgwdev.alipay.net",
+      "mdn.alipayobjects.com",
+      "miniprogram.alipay-eco.com",
+      "miniprogram.alipay.com",
+      "miniprogram.zalopay.vn",
+      "mmf-redemption.zalopay.vn",
+      "mmf-user.zalopay.vn",
+      "mnap-director.zalopay.vn",
+      "mobilegw.alipay.com",
+      "mock.saas.mini-program.com",
+      "mp.zalopay.vn",
+      "mp3.zing.vn",
+      "n.zing.vn",
+      "news.zing.vn",
+      "ns.adobe.com",
+      "oauth.zaloapp.com",
+      "onelink.zalopay.vn",
+      "open-sea.alipayplus.com",
+      "openapi.zalopay.vn",
+      "openchannel.alipay.com",
+      "opendocs.alipay.com",
+      "pagead2.googlesyndication.com",
+      "partners.zalopay.vn",
+      "play.google.com",
+      "privacy-sandbox.appsflyersdk.com",
+      "qrpay.zalopay.vn",
+      "rar-um.zalopay.vn",
+      "rdx.zalopay.vn",
+      "render-intl.alipay.com",
+      "render.alipay.com",
+      "sapi.zalopay.vn",
+      "scard.zalopay.vn",
+      "scdn.zalopay.com.vn",
+      "schemas.android.com",
+      "simg.zalopay.com.vn",
+      "social.zalopay.vn",
+      "srv.mp3.zing.vn",
+      "sse.zalopay.vn",
+      "ssl.google-analytics.com",
+      "support.google.com",
+      "support.zalopay.vn",
+      "symbols.vn",
+      "tfsimg.alipay.com",
+      "token.zalopay.vn",
+      "tracking.zalopay.vn",
+      "trueid.net",
+      "uat.tenpayglobal.com",
+      "universal.vneid.gov.vn",
+      "upload-img.zalopay.vn",
+      "upload.zalopay.com.vn",
+      "user-life-cycle-public.zalopay.vn",
+      "uudai.zalopay.vn",
+      "visapay.as1.juspay.io",
+      "vngzalopay.freshdesk.com",
+      "vnpay.vn",
+      "web-ekyc-uat.fpt.ai",
+      "weremit-static.tenpay.com",
+      "www.android.com",
+      "www.bouncycastle.org",
+      "www.example.com",
+      "www.facebook.com",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.googleadservices.com",
+      "www.tenpayglobal.com",
+      "www.visa.com",
+      "www.w3.org",
+      "xml.org",
+      "xmlpull.org",
+      "youtrack.jetbrains.com",
+      "yuque.antfin-inc.com",
+      "zalo.me",
+      "zaloapp.com",
+      "zalopay.com.vn",
+      "zalopay.vn",
+      "zlp-movie-api.zalopay.vn",
+      "zlp-ofp-emvco-gateway.zalopay.vn",
+      "zlp-ofp-integration-hub.zalopay.vn",
+      "zlp-ofp-qp-public-api.zalopay.vn",
+      "zlp-ofp-zpa-camera-config-be.zalopay.vn",
+      "zpm.zalopay.com.vn",
+      "ztevents.zaloapp.com"
+    ],
+    "topUrls": [
+      "https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay",
+      "https://firebase.google.com/support/privacy/init-options",
+      "https://issuetracker.google.com/issues/new?component=413106",
+      "http://ns.adobe.com/xap/1.0/",
+      "https://zalopay.vn/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu-hop-nhat",
+      "https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/toro_information.png",
+      "https://play.google.com/store/apps/details?id=",
+      "https://issuetracker.google.com/issues/new?component=618491&template=1257717",
+      "https://googlemobileadssdk.page.link/admob-interstitial-policies",
+      "https://goo.gl/NAOOOI",
+      "https://openapi.zalopay.vn",
+      "https://github.com/google/ExoPlayer/commit/<HEX_REDACTED>",
+      "https://github.com/androidx/media/pull/1742",
+      "https://github.com/androidx/media/pull/1754",
+      "https://github.com/androidx/media/pull/1768",
+      "https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread",
+      "https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted",
+      "http://g.co/dev/packagevisibility",
+      "https://issuetracker.google.com/issues/297974033",
+      "https://issuetracker.google.com/issues/300280216",
+      "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+      "https://a.alipayobjects.com/bridgeapi/1.0/jsready.js",
+      "https://alipay.com/h5container/un_safe.html",
+      "https://alipay.kylinBridge",
+      "https://appx",
+      "https://appx-ng/",
+      "https://appx-ng/af-appx.min.js",
+      "https://appx-ng/af-appx.worker.min.js",
+      "https://appx-ng/index.prerender.html",
+      "https://appx/",
+      "https://appx/af-appx.min.js",
+      "https://appx/af-appx.worker.min.js",
+      "https://cdn.marmot-cloud.com/page/g_diagnostic_tool/index.html",
+      "https://cdn.marmot-cloud.com/page/miniprogram-about/index.html",
+      "https://gw.alipayobjects.com/mdn/rms_ef981d/afts/img/A*qpA3TKXchKUAAAAAAAAAAABkARQnAQ",
+      "https://hpmweb.alipay.com/report/android/batch",
+      "https://mobilegw.alipay.com/mgw.htm",
+      "https://play.google.com/store/apps/details?id=vn.com.vng.zalopay",
+      "https://render.alipay.com/p/c/",
+      "https://render.alipay.com/p/s/h5misc/resource_error?url="
+    ],
+    "urlCount": 336
+  },
+  "privacy": {
+    "dangerous": [
+      {
+        "group": "location",
+        "note": "approximate location",
+        "permission": "android.permission.ACCESS_COARSE_LOCATION",
+        "risk": "high"
+      },
+      {
+        "group": "location",
+        "note": "precise location",
+        "permission": "android.permission.ACCESS_FINE_LOCATION",
+        "risk": "high"
+      },
+      {
+        "group": "camera",
+        "note": "camera frames (KYC / QR / card scan)",
+        "permission": "android.permission.CAMERA",
+        "risk": "high"
+      },
+      {
+        "group": "package-visibility",
+        "note": "enumerate installed apps",
+        "permission": "android.permission.QUERY_ALL_PACKAGES",
+        "risk": "high"
+      },
+      {
+        "group": "contacts",
+        "note": "read contact list",
+        "permission": "android.permission.READ_CONTACTS",
+        "risk": "high"
+      },
+      {
+        "group": "phone",
+        "note": "telephony state / identifiers",
+        "permission": "android.permission.READ_PHONE_STATE",
+        "risk": "high"
+      },
+      {
+        "group": "microphone",
+        "note": "microphone capture",
+        "permission": "android.permission.RECORD_AUDIO",
+        "risk": "high"
+      },
+      {
+        "group": "contacts",
+        "note": "modify contact list",
+        "permission": "android.permission.WRITE_CONTACTS",
+        "risk": "high"
+      },
+      {
+        "group": "overlay",
+        "note": "request overlay capability",
+        "permission": "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+        "risk": "high"
+      },
+      {
+        "group": "notifications",
+        "note": "post notifications",
+        "permission": "android.permission.POST_NOTIFICATIONS",
+        "risk": "low"
+      },
+      {
+        "group": "background",
+        "note": "long-running foreground work",
+        "permission": "android.permission.FOREGROUND_SERVICE",
+        "risk": "medium"
+      },
+      {
+        "group": "nfc",
+        "note": "NFC / card emulation",
+        "permission": "android.permission.NFC",
+        "risk": "medium"
+      },
+      {
+        "group": "phone",
+        "note": "basic telephony state",
+        "permission": "android.permission.READ_BASIC_PHONE_STATE",
+        "risk": "medium"
+      },
+      {
+        "group": "calendar",
+        "note": "read calendar events",
+        "permission": "android.permission.READ_CALENDAR",
+        "risk": "medium"
+      },
+      {
+        "group": "storage",
+        "note": "read shared storage",
+        "permission": "android.permission.READ_EXTERNAL_STORAGE",
+        "risk": "medium"
+      },
+      {
+        "group": "calendar",
+        "note": "write calendar events",
+        "permission": "android.permission.WRITE_CALENDAR",
+        "risk": "medium"
+      },
+      {
+        "group": "storage",
+        "note": "write shared storage",
+        "permission": "android.permission.WRITE_EXTERNAL_STORAGE",
+        "risk": "medium"
+      },
+      {
+        "group": "privacy",
+        "note": "detect screen recording",
+        "permission": "android.permission.DETECT_SCREEN_CAPTURE",
+        "risk": "low"
+      },
+      {
+        "group": "storage",
+        "note": "read audio media",
+        "permission": "android.permission.READ_MEDIA_AUDIO",
+        "risk": "low"
+      },
+      {
+        "group": "biometric",
+        "note": "biometric authentication",
+        "permission": "android.permission.USE_BIOMETRIC",
+        "risk": "low"
+      },
+      {
+        "group": "biometric",
+        "note": "legacy fingerprint API",
+        "permission": "android.permission.USE_FINGERPRINT",
+        "risk": "low"
+      },
+      {
+        "group": "oem-analytics",
+        "note": "Samsung usage survey",
+        "permission": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+        "risk": "low"
+      },
+      {
+        "group": "boot",
+        "note": "auto-start after boot",
+        "permission": "android.permission.RECEIVE_BOOT_COMPLETED",
+        "risk": "medium"
+      },
+      {
+        "group": "advertising",
+        "note": "advertising identifier",
+        "permission": "com.google.android.gms.permission.AD_ID",
+        "risk": "medium"
+      },
+      {
+        "group": "sso",
+        "note": "Zalo SSO authorisation",
+        "permission": "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+        "risk": "medium"
+      },
+      {
+        "group": "oem-analytics",
+        "note": "Huawei AppGallery data",
+        "permission": "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+        "risk": "low"
+      },
+      {
+        "group": "oem-analytics",
+        "note": "Samsung app info",
+        "permission": "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+        "risk": "low"
+      }
+    ],
+    "dangerousCount": 27,
+    "highRiskCount": 9,
+    "permissions": [
+      "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+      "android.permission.ACCESS_ADSERVICES_TOPICS",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CAMERA",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.DETECT_SCREEN_CAPTURE",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.INTERNET",
+      "android.permission.MODIFY_AUDIO_SETTINGS",
+      "android.permission.NFC",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.QUERY_ALL_PACKAGES",
+      "android.permission.READ_BASIC_PHONE_STATE",
+      "android.permission.READ_CALENDAR",
+      "android.permission.READ_CONTACTS",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.READ_MEDIA_AUDIO",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.REORDER_TASKS",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.USE_FINGERPRINT",
+      "android.permission.VIBRATE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.WRITE_CALENDAR",
+      "android.permission.WRITE_CONTACTS",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+      "com.android.launcher.permission.INSTALL_SHORTCUT",
+      "com.android.launcher.permission.READ_SETTINGS",
+      "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+      "com.android.launcher.permission.WRITE_SETTINGS",
+      "com.android.vending.BILLING",
+      "com.bbk.launcher2.permission.READ_SETTINGS",
+      "com.bbk.launcher2.permission.WRITE_SETTINGS",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "com.google.android.gms.permission.AD_ID",
+      "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+      "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+      "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+      "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+      "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ]
+  },
+  "resources": {
+    "appLabel": "Zalopay",
+    "entryCount": 16864,
+    "locales": [
+      {
+        "entries": 16864,
+        "locale": "default"
+      }
+    ],
+    "packages": [
+      {
+        "id": 127,
+        "name": "vn.com.vng.zalopay",
+        "types": 21
+      },
+      {
+        "id": 128,
+        "name": "vn.com.vng.zalopay.changepin",
+        "types": 4
+      },
+      {
+        "id": 129,
+        "name": "vn.com.vng.zalopay.resetpin",
+        "types": 5
+      },
+      {
+        "id": 130,
+        "name": "vn.com.vng.zalopay.login_v2",
+        "types": 9
+      },
+      {
+        "id": 131,
+        "name": "vn.com.vng.zalopay.cashier",
+        "types": 7
+      },
+      {
+        "id": 132,
+        "name": "vn.com.vng.zalopay.bank_binding",
+        "types": 11
+      },
+      {
+        "id": 133,
+        "name": "vn.com.vng.zalopay.updatephone",
+        "types": 4
+      },
+      {
+        "id": 134,
+        "name": "vn.com.vng.zalopay.cash_in",
+        "types": 5
+      },
+      {
+        "id": 135,
+        "name": "vn.com.vng.zalopay.resultpage",
+        "types": 6
+      },
+      {
+        "id": 136,
+        "name": "vn.com.vng.zalopay.withdraw",
+        "types": 5
+      },
+      {
+        "id": 137,
+        "name": "vn.com.vng.zalopay.cashier_v3",
+        "types": 6
+      },
+      {
+        "id": 138,
+        "name": "vn.com.vng.zalopay.result_page_v3",
+        "types": 7
+      },
+      {
+        "id": 139,
+        "name": "vn.com.vng.zalopay.liveness",
+        "types": 3
+      }
+    ],
+    "typeHistogram": [
+      {
+        "count": 5076,
+        "name": "drawable"
+      },
+      {
+        "count": 4843,
+        "name": "string"
+      },
+      {
+        "count": 4069,
+        "name": "id"
+      },
+      {
+        "count": 2167,
+        "name": "layout"
+      },
+      {
+        "count": 1940,
+        "name": "dimen"
+      },
+      {
+        "count": 1834,
+        "name": "attr"
+      },
+      {
+        "count": 1461,
+        "name": "color"
+      },
+      {
+        "count": 1217,
+        "name": "style"
+      },
+      {
+        "count": 130,
+        "name": "anim"
+      },
+      {
+        "count": 95,
+        "name": "raw"
+      },
+      {
+        "count": 69,
+        "name": "integer"
+      },
+      {
+        "count": 28,
+        "name": "animator"
+      },
+      {
+        "count": 28,
+        "name": "array"
+      },
+      {
+        "count": 28,
+        "name": "bool"
+      },
+      {
+        "count": 24,
+        "name": "xml"
+      },
+      {
+        "count": 18,
+        "name": "navigation"
+      },
+      {
+        "count": 17,
+        "name": "font"
+      },
+      {
+        "count": 17,
+        "name": "interpolator"
+      },
+      {
+        "count": 10,
+        "name": "menu"
+      },
+      {
+        "count": 3,
+        "name": "plurals"
+      },
+      {
+        "count": 2,
+        "name": "mipmap"
+      }
+    ]
+  },
+  "sensitive": [
+    {
+      "count": 125,
+      "label": "hex-blob",
+      "samples": [
+        "D45597293 for Oculus - allowing the start renderer offset to not be 0; Eventually changed in Exo:...",
+        "<HEX_REDACTED>",
+        "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'c103703e120ae8cc73c924862...",
+        "Room cannot verify the data integrity. Looks like you've changed schema but forgot to update the ..."
+      ]
+    },
+    {
+      "count": 1,
+      "label": "pem",
+      "samples": [
+        "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7WpkWOSD352bnmS9vRR7opElGv..."
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "appAttrs": {
+        "allowBackup": "false",
+        "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+        "dataExtractionRules": "@0x7f160004",
+        "enableOnBackInvokedCallback": "false",
+        "extractNativeLibs": "true",
+        "fullBackupContent": "false",
+        "hardwareAccelerated": "true",
+        "icon": "@0x7f0f0000",
+        "label": "@0x7f1300d6",
+        "largeHeap": "true",
+        "name": "jwbmqnsll.xvndbxlk",
+        "networkSecurityConfig": "@0x7f16000d",
+        "requestLegacyExternalStorage": "true",
+        "resizeableActivity": "false",
+        "supportsRtl": "true",
+        "theme": "@0x7f14015e"
+      },
+      "appClass": "jwbmqnsll.xvndbxlk",
+      "assets": [
+        {
+          "entropy": 7.53,
+          "ext": ".bin",
+          "path": "assets/FastestDet.ncnn.bin",
+          "size": 2420588,
+          "text": false
+        },
+        {
+          "entropy": 3.451,
+          "ext": ".param",
+          "path": "assets/FastestDet.ncnn.param",
+          "size": 15293,
+          "text": true
+        },
+        {
+          "entropy": 7.999,
+          "ext": ".amr",
+          "path": "assets/Griver/66666692_1.24.8.amr",
+          "size": 287535,
+          "text": false
+        },
+        {
+          "entropy": 7.981,
+          "ext": ".amr",
+          "path": "assets/Griver/66666693_2.0.7.amr",
+          "size": 17380,
+          "text": false
+        },
+        {
+          "entropy": 7.999,
+          "ext": ".amr",
+          "path": "assets/Griver/68687209_2.9.7.8.amr",
+          "size": 856974,
+          "text": false
+        },
+        {
+          "entropy": 4.864,
+          "ext": ".json",
+          "path": "assets/Griver/appx.json",
+          "size": 2178,
+          "text": true
+        },
+        {
+          "entropy": 5.039,
+          "ext": ".js",
+          "path": "assets/GriverBridge/appx_inline_bootstrap_min.js",
+          "size": 292,
+          "text": true
+        },
+        {
+          "entropy": 4.32,
+          "ext": ".js",
+          "path": "assets/GriverBridge/cover_component.js",
+          "size": 2888,
+          "text": true
+        },
+        {
+          "entropy": 4.849,
+          "ext": ".html",
+          "path": "assets/GriverBridge/create_worker.html",
+          "size": 159,
+          "text": true
+        },
+        {
+          "entropy": 5.274,
+          "ext": ".js",
+          "path": "assets/GriverBridge/h5_bridge.js",
+          "size": 4446,
+          "text": true
+        },
+        {
+          "entropy": 5.08,
+          "ext": ".html",
+          "path": "assets/GriverBridge/index_inline.html",
+          "size": 972,
+          "text": true
+        },
+        {
+          "entropy": 4.976,
+          "ext": ".html",
+          "path": "assets/GriverBridge/worker.html",
+          "size": 203,
+          "text": true
+        },
+        {
+          "entropy": 4.82,
+          "ext": ".js",
+          "path": "assets/GriverBridge/workerjs.js",
+          "size": 14360,
+          "text": true
+        },
+        {
+          "entropy": 5.783,
+          "ext": ".html",
+          "path": "assets/GriverErrorPage/griver_custom_h5_page_error.html",
+          "size": 3060,
+          "text": true
+        },
+        {
+          "entropy": 6.081,
+          "ext": ".html",
+          "path": "assets/GriverErrorPage/griver_page_error.html",
+          "size": 22734,
+          "text": true
+        },
+        {
+          "entropy": 6.104,
+          "ext": ".html",
+          "path": "assets/GriverErrorPage/mini-program-native-error.html",
+          "size": 13859,
+          "text": true
+        },
+        {
+          "entropy": 4.142,
+          "ext": ".json",
+          "path": "assets/GriverTheme/theme.json",
+          "size": 584,
+          "text": true
+        },
+        {
+          "entropy": 7.996,
+          "ext": ".zip",
+          "path": "assets/android.1.zip",
+          "size": 3913966,
+          "text": false
+        },
+        {
+          "entropy": 4.862,
+          "ext": ".js",
+          "path": "assets/android_jsbridge.js",
+          "size": 3673,
+          "text": true
+        },
+        {
+          "entropy": null,
+          "ext": ".dex",
+          "path": "assets/audience_network.dex",
+          "size": 4864036,
+          "text": false
+        },
+        {
+          "entropy": 7.785,
+          "ext": ".dat",
+          "path": "assets/bshield.dat",
+          "size": 929,
+          "text": false
+        },
+        {
+          "entropy": 4.6,
+          "ext": ".json",
+          "path": "assets/bundle.json",
+          "size": 312,
+          "text": true
+        },
+        {
+          "entropy": 4.824,
+          "ext": ".json",
+          "path": "assets/client_tracking.json",
+          "size": 146391,
+          "text": true
+        },
+        {
+          "entropy": 7.974,
+          "ext": "",
+          "path": "assets/com/appsflyer/internal/1a7e8023f147cacac-",
+          "size": 7142,
+          "text": true
+        },
+        {
+          "entropy": 7.984,
+          "ext": "",
+          "path": "assets/com/appsflyer/internal/3e6e8a8a85e1aaa2b-",
+          "size": 13692,
+          "text": true
+        },
+        {
+          "entropy": 7.976,
+          "ext": "",
+          "path": "assets/com/appsflyer/internal/cc32cb866f63cd58a-",
+          "size": 7936,
+          "text": true
+        },
+        {
+          "entropy": 7.94,
+          "ext": "",
+          "path": "assets/com/appsflyer/internal/cf2b565222edadded-",
+          "size": 3142,
+          "text": true
+        },
+        {
+          "entropy": 7.999,
+          "ext": "",
+          "path": "assets/com/visa/cbp/74e13961eb6489ab-",
+          "size": 265304,
+          "text": true
+        },
+        {
+          "entropy": 7.99,
+          "ext": "",
+          "path": "assets/com/visa/cbp/8c12f33e01f2a597a-",
+          "size": 15736,
+          "text": true
+        },
+        {
+          "entropy": 7.998,
+          "ext": "",
+          "path": "assets/com/visa/cbp/a2687fec63dbeebcd-",
+          "size": 80308,
+          "text": true
+        },
+        {
+          "entropy": 7.981,
+          "ext": "",
+          "path": "assets/com/visa/cbp/f3f564a2648dc019c-",
+          "size": 9668,
+          "text": true
+        },
+        {
+          "entropy": 4.423,
+          "ext": ".json",
+          "path": "assets/config/miniapp_config.json",
+          "size": 883684,
+          "text": true
+        },
+        {
+          "entropy": 5.897,
+          "ext": ".txt",
+          "path": "assets/config/public_key.txt",
+          "size": 450,
+          "text": true
+        },
+        {
+          "entropy": 5.924,
+          "ext": ".txt",
+          "path": "assets/config/signature.txt",
+          "size": 350,
+          "text": true
+        },
+        {
+          "entropy": 4.37,
+          "ext": ".json",
+          "path": "assets/config/zalopay_config.json",
+          "size": 105659,
+          "text": true
+        },
+        {
+          "entropy": 5.783,
+          "ext": ".html",
+          "path": "assets/containererrorpage/griver_custom_h5_page_error.html",
+          "size": 3060,
+          "text": true
+        },
+        {
+          "entropy": 5.927,
+          "ext": ".html",
+          "path": "assets/containererrorpage/griver_page_error.html",
+          "size": 9594,
+          "text": true
+        },
+        {
+          "entropy": 4.606,
+          "ext": ".json",
+          "path": "assets/containers/GTM-PC9W5BW.json",
+          "size": 7702,
+          "text": true
+        },
+        {
+          "entropy": 5.966,
+          "ext": ".tflite",
+          "path": "assets/custom_models/object_labeler.tflite",
+          "size": 3770391,
+          "text": false
+        },
+        {
+          "entropy": 7.99,
+          "ext": "",
+          "path": "assets/dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be/9f979174-fb94-f7f5-21c5-afddb32d1e32",
+          "size": 17888,
+          "text": true
+        },
+        {
+          "entropy": 7.966,
+          "ext": ".prof",
+          "path": "assets/dexopt/baseline.prof",
+          "size": 18503,
+          "text": false
+        },
+        {
+          "entropy": 7.884,
+          "ext": ".profm",
+          "path": "assets/dexopt/baseline.profm",
+          "size": 1909,
+          "text": false
+        },
+        {
+          "entropy": 8,
+          "ext": ".dat",
+          "path": "assets/fgcpkjvqe.dat",
+          "size": 776320,
+          "text": false
+        },
+        {
+          "entropy": 6.46,
+          "ext": ".ttf",
+          "path": "assets/fonts/Roboto-Bold.ttf",
+          "size": 170064,
+          "text": false
+        },
+        {
+          "entropy": 6.608,
+          "ext": ".ttf",
+          "path": "assets/fonts/Roboto-Medium.ttf",
+          "size": 127488,
+          "text": false
+        },
+        {
+          "entropy": 6.621,
+          "ext": ".ttf",
+          "path": "assets/fonts/Roboto-Regular.ttf",
+          "size": 126072,
+          "text": false
+        },
+        {
+          "entropy": 6.473,
+          "ext": ".ttf",
+          "path": "assets/fonts/UnisectVnu.ttf",
+          "size": 48216,
+          "text": false
+        },
+        {
+          "entropy": 6.473,
+          "ext": ".ttf",
+          "path": "assets/fonts/ocr-a-tribute.ttf",
+          "size": 48216,
+          "text": false
+        },
+        {
+          "entropy": 6.509,
+          "ext": ".ttf",
+          "path": "assets/fonts/true_font.ttf",
+          "size": 168644,
+          "text": false
+        },
+        {
+          "entropy": 3.46,
+          "ext": ".json",
+          "path": "assets/fonts/zalopay.json",
+          "size": 70880,
+          "text": true
+        },
+        {
+          "entropy": 6.148,
+          "ext": ".ttf",
+          "path": "assets/fonts/zalopay.ttf",
+          "size": 143944,
+          "text": false
+        },
+        {
+          "entropy": 6.465,
+          "ext": ".ttf",
+          "path": "assets/griverIconDefault/default.ttf",
+          "size": 28000,
+          "text": false
+        },
+        {
+          "entropy": 4.761,
+          "ext": ".ttf",
+          "path": "assets/h5iconfont/h5titlebar.ttf",
+          "size": 2300,
+          "text": false
+        },
+        {
+          "entropy": 6.003,
+          "ext": ".ttf",
+          "path": "assets/h5iconfont/titlebar.ttf",
+          "size": 5016,
+          "text": false
+        },
+        {
+          "entropy": 4.528,
+          "ext": ".json",
+          "path": "assets/home_data.json",
+          "size": 9417,
+          "text": true
+        },
+        {
+          "entropy": 5.702,
+          "ext": "",
+          "path": "assets/iapconnect_config_full",
+          "size": 1688,
+          "text": true
+        },
+        {
+          "entropy": 4.845,
+          "ext": ".js",
+          "path": "assets/internaljsbridge.js",
+          "size": 3890,
+          "text": true
+        },
+        {
+          "entropy": 4.855,
+          "ext": ".js",
+          "path": "assets/jsbridge.js",
+          "size": 3634,
+          "text": true
+        },
+        {
+          "entropy": 5.34,
+          "ext": ".binarypb",
+          "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+          "size": 276,
+          "text": false
+        },
+        {
+          "entropy": 5.331,
+          "ext": ".binarypb",
+          "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+          "size": 278,
+          "text": false
+        },
+        {
+          "entropy": 5.074,
+          "ext": ".pb",
+          "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/assets.extra/LabelMap.pb",
+          "size": 3809,
+          "text": false
+        },
+        {
+          "entropy": 6.803,
+          "ext": ".fb",
+          "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/conv_model.fb",
+          "size": 40848,
+          "text": false
+        },
+        {
+          "entropy": 5.366,
+          "ext": ".fb",
+          "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+          "size": 309568,
+          "text": false
+        },
+        {
+          "entropy": 5.412,
+          "ext": ".binarypb",
+          "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+          "size": 333,
+          "text": false
+        },
+        {
+          "entropy": 7.843,
+          "ext": ".tflite",
+          "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+          "size": 315520,
+          "text": false
+        },
+        {
+          "entropy": 6.608,
+          "ext": ".tflite",
+          "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+          "size": 129612,
+          "text": false
+        },
+        {
+          "entropy": 6.073,
+          "ext": ".tflite",
+          "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+          "size": 114384,
+          "text": false
+        },
+        {
+          "entropy": 5.629,
+          "ext": ".bincfg",
+          "path": "assets/mlkit-google-ocr-models/taser/detector/region_proposal_text_detector_tflite_vertical_mbv2_v1.bincfg",
+          "size": 452,
+          "text": false
+        },
+        {
+          "entropy": 6.59,
+          "ext": ".tflite",
+          "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+          "size": 340760,
+          "text": false
+        },
+        {
+          "entropy": 4.705,
+          "ext": ".binarypb",
+          "path": "assets/mlkit-google-ocr-models/taser/rpn_text_detection_tflite_mobile_mbv2.binarypb",
+          "size": 194,
+          "text": false
+        },
+        {
+          "entropy": 5.484,
+          "ext": ".bincfg",
+          "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.bincfg",
+          "size": 1118,
+          "text": false
+        },
+        {
+          "entropy": 6.703,
+          "ext": ".conv_model",
+          "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.conv_model",
+          "size": 40808,
+          "text": false
+        },
+        {
+          "entropy": 6.316,
+          "ext": ".lstm_model",
+          "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.lstm_model",
+          "size": 161448,
+          "text": false
+        },
+        {
+          "entropy": 4.599,
+          "ext": ".binarypb",
+          "path": "assets/mlkit-google-ocr-models/taser/taser_script_identification_tflite_mobile.binarypb",
+          "size": 136,
+          "text": false
+        },
+        {
+          "entropy": 5.653,
+          "ext": ".binarypb",
+          "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+          "size": 13178,
+          "text": false
+        },
+        {
+          "entropy": 5.653,
+          "ext": ".binarypb",
+          "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+          "size": 13183,
+          "text": false
+        },
+        {
+          "entropy": 5.06,
+          "ext": ".binarypb",
+          "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_recognizer.binarypb",
+          "size": 233,
+          "text": false
+        },
+        {
+          "entropy": 5.105,
+          "ext": ".binarypb",
+          "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner.binarypb",
+          "size": 331,
+          "text": false
+        },
+        {
+          "entropy": 5.101,
+          "ext": ".binarypb",
+          "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner_ti.binarypb",
+          "size": 334,
+          "text": false
+        },
+        {
+          "entropy": 6.745,
+          "ext": ".tflite",
+          "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+          "size": 390456,
+          "text": false
+        },
+        {
+          "entropy": 6.375,
+          "ext": ".tflite",
+          "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+          "size": 213880,
+          "text": false
+        },
+        {
+          "entropy": 6.788,
+          "ext": ".tflite",
+          "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+          "size": 276552,
+          "text": false
+        },
+        {
+          "entropy": 6.577,
+          "ext": ".tflite",
+          "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+          "size": 1706957,
+          "text": false
+        },
+        {
+          "entropy": 6.894,
+          "ext": ".tflite",
+          "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+          "size": 1254848,
+          "text": false
+        },
+        {
+          "entropy": 5.152,
+          "ext": ".pb",
+          "path": "assets/mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+          "size": 153000,
+          "text": false
+        },
+        {
+          "entropy": 4.187,
+          "ext": "",
+          "path": "assets/mlkit_odt_localizer/mobile_object_localizer_labelmap",
+          "size": 22,
+          "text": true
+        },
+        {
+          "entropy": 6.361,
+          "ext": ".emd",
+          "path": "assets/models_bundled/BCLjoy_200.emd",
+          "size": 17916,
+          "text": false
+        },
+        {
+          "entropy": 6.057,
+          "ext": ".emd",
+          "path": "assets/models_bundled/BCLlefteyeclosed_200.emd",
+          "size": 8630,
+          "text": false
+        },
+        {
+          "entropy": 6.034,
+          "ext": ".emd",
+          "path": "assets/models_bundled/BCLrighteyeclosed_200.emd",
+          "size": 8655,
+          "text": false
+        },
+        {
+          "entropy": 6.624,
+          "ext": ".emd",
+          "path": "assets/models_bundled/LMprec_600.emd",
+          "size": 1078354,
+          "text": false
+        },
+        {
+          "entropy": 5.263,
+          "ext": ".pb",
+          "path": "assets/models_bundled/MFT_fssd_accgray.pb",
+          "size": 793,
+          "text": false
+        },
+        {
+          "entropy": 5.267,
+          "ext": ".pb",
+          "path": "assets/models_bundled/MFT_fssd_fastgray.pb",
+          "size": 792,
+          "text": false
+        },
+        {
+          "entropy": 7.467,
+          "ext": ".tfl",
+          "path": "assets/models_bundled/blazeface.tfl",
+          "size": 347928,
+          "text": false
+        },
+        {
+          "entropy": 7.427,
+          "ext": ".tfl",
+          "path": "assets/models_bundled/contours.tfl",
+          "size": 1124144,
+          "text": false
+        },
+        {
+          "entropy": 6.824,
+          "ext": ".tflite",
+          "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+          "size": 231816,
+          "text": false
+        },
+        {
+          "entropy": 6.703,
+          "ext": ".tflite",
+          "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+          "size": 232096,
+          "text": false
+        },
+        {
+          "entropy": 3.333,
+          "ext": ".pb",
+          "path": "assets/models_bundled/fssd_anchors_v2.pb",
+          "size": 146,
+          "text": false
+        },
+        {
+          "entropy": 3.569,
+          "ext": ".pb",
+          "path": "assets/models_bundled/fssd_anchors_v5.pb",
+          "size": 144,
+          "text": false
+        },
+        {
+          "entropy": 6.921,
+          "ext": ".tflite",
+          "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+          "size": 613080,
+          "text": false
+        },
+        {
+          "entropy": 6.952,
+          "ext": ".tflite",
+          "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+          "size": 613352,
+          "text": false
+        },
+        {
+          "entropy": 5.915,
+          "ext": ".pem",
+          "path": "assets/public.pem",
+          "size": 460,
+          "text": true
+        },
+        {
+          "entropy": 4.418,
+          "ext": ".json",
+          "path": "assets/safemode_registrator_com_iap_ac_config.json",
+          "size": 80,
+          "text": true
+        },
+        {
+          "entropy": 7.976,
+          "ext": ".dat",
+          "path": "assets/taibmcf.dat",
+          "size": 8307,
+          "text": false
+        },
+        {
+          "entropy": 4.355,
+          "ext": ".json",
+          "path": "assets/taibmcf.json",
+          "size": 46,
+          "text": true
+        },
+        {
+          "entropy": 7.818,
+          "ext": ".png",
+          "path": "assets/taxi_images/Artboard_1.png",
+          "size": 7292,
+          "text": false
+        },
+        {
+          "entropy": 7.817,
+          "ext": ".png",
+          "path": "assets/taxi_images/Artboard_2.png",
+          "size": 6430,
+          "text": false
+        },
+        {
+          "entropy": 7.939,
+          "ext": ".png",
+          "path": "assets/taxi_images/Layer_2_loading.png",
+          "size": 5649,
+          "text": false
+        },
+        {
+          "entropy": 7.947,
+          "ext": ".png",
+          "path": "assets/taxi_images/Layer_3_loading.png",
+          "size": 5792,
+          "text": false
+        },
+        {
+          "entropy": 7.975,
+          "ext": ".png",
+          "path": "assets/taxi_images/Layer_4_loading.png",
+          "size": 14652,
+          "text": false
+        },
+        {
+          "entropy": 7.927,
+          "ext": ".png",
+          "path": "assets/taxi_images/Layer_5_loading.png",
+          "size": 42205,
+          "text": false
+        },
+        {
+          "entropy": 7.299,
+          "ext": ".png",
+          "path": "assets/taxi_images/Layer_7_loading.png",
+          "size": 520,
+          "text": false
+        },
+        {
+          "entropy": 7.878,
+          "ext": ".png",
+          "path": "assets/taxi_images/Layer_8_loading.png",
+          "size": 2636,
+          "text": false
+        },
+        {
+          "entropy": 7.932,
+          "ext": ".png",
+          "path": "assets/taxi_images/_____1_loading.png",
+          "size": 6123,
+          "text": false
+        },
+        {
+          "entropy": 4.585,
+          "ext": ".json",
+          "path": "assets/taxi_splash_loading.json",
+          "size": 536057,
+          "text": true
+        },
+        {
+          "entropy": 4.874,
+          "ext": ".json",
+          "path": "assets/theme/bank/bank_resource.json",
+          "size": 11339,
+          "text": true
+        },
+        {
+          "entropy": 4.909,
+          "ext": ".json",
+          "path": "assets/theme/bank/config_v2.json",
+          "size": 11573,
+          "text": true
+        },
+        {
+          "entropy": 4.156,
+          "ext": ".json",
+          "path": "assets/theme/bank/ui_config.json",
+          "size": 15430,
+          "text": true
+        },
+        {
+          "entropy": 4.861,
+          "ext": ".json",
+          "path": "assets/timezone2region_2023c.json",
+          "size": 11067,
+          "text": true
+        },
+        {
+          "entropy": 6.284,
+          "ext": ".ttf",
+          "path": "assets/tinyfont/iconfont.ttf",
+          "size": 9780,
+          "text": false
+        },
+        {
+          "entropy": 6.003,
+          "ext": ".ttf",
+          "path": "assets/tinyfont/titlebar.ttf",
+          "size": 5016,
+          "text": false
+        },
+        {
+          "entropy": 7.501,
+          "ext": ".so",
+          "path": "assets/trueidlib.so",
+          "size": 392,
+          "text": false
+        },
+        {
+          "entropy": 4.355,
+          "ext": ".json",
+          "path": "assets/vdfmoer.json",
+          "size": 46,
+          "text": true
+        },
+        {
+          "entropy": 4.424,
+          "ext": ".js",
+          "path": "assets/webapp.js",
+          "size": 619,
+          "text": true
+        },
+        {
+          "entropy": 5.865,
+          "ext": ".public",
+          "path": "assets/zoom.public",
+          "size": 450,
+          "text": false
+        }
+      ],
+      "compileSdk": 36,
+      "components": {
+        "activity": 202,
+        "alias": 0,
+        "provider": 9,
+        "receiver": 22,
+        "service": 34
+      },
+      "deepLinks": [
+        {
+          "autoVerify": true,
+          "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+          "host": "go.zalopay.vn",
+          "path": null,
+          "scheme": "https"
+        },
+        {
+          "autoVerify": true,
+          "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+          "host": "onelink.zalopay.vn",
+          "path": null,
+          "scheme": "https"
+        },
+        {
+          "autoVerify": true,
+          "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+          "host": "kmzalopay.onelink.me",
+          "path": "/TSui",
+          "scheme": "https"
+        },
+        {
+          "autoVerify": true,
+          "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+          "host": "km.zalopay.vn",
+          "path": "/TSui",
+          "scheme": "https"
+        },
+        {
+          "autoVerify": true,
+          "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+          "host": "app",
+          "path": null,
+          "scheme": "zalopay"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+          "host": null,
+          "path": null,
+          "scheme": "zalopay-vnpay"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "post",
+          "path": null,
+          "scheme": "zalopay-1"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "backtoapp",
+          "path": null,
+          "scheme": "zalopay-1"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "backtologin",
+          "path": null,
+          "scheme": "zalopay-1"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "zalopay.vn",
+          "path": null,
+          "scheme": "zalopay"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "otp",
+          "path": null,
+          "scheme": "zalopay"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "pay",
+          "path": null,
+          "scheme": "zalopay"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "clearing",
+          "path": null,
+          "scheme": "zalopay"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": null,
+          "path": null,
+          "scheme": "zalopay"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "merchant",
+          "path": null,
+          "scheme": "zalopay"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "events",
+          "path": null,
+          "scheme": "zalopay"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "pay",
+          "path": null,
+          "scheme": "zalopay.api.v2"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "auth",
+          "path": null,
+          "scheme": "zalopay.api.v2"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "recoverpassword",
+          "path": null,
+          "scheme": "zalopay.api.v2"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "promotions",
+          "path": null,
+          "scheme": "zalopay"
+        },
+        {
+          "autoVerify": false,
+          "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "host": "cashier",
+          "path": null,
+          "scheme": "zalopay"
+        },
+        {
+          "autoVerify": true,
+          "component": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+          "host": "go.zalopay.vn",
+          "path": "/launch/f/user-consensus-zlp-vneid",
+          "scheme": "https"
+        },
+        {
+          "autoVerify": false,
+          "component": "com.facebook.CustomTabActivity",
+          "host": "cct.vn.com.vng.zalopay",
+          "path": null,
+          "scheme": "fbconnect"
+        },
+        {
+          "autoVerify": false,
+          "component": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+          "host": null,
+          "path": null,
+          "scheme": "tagmanager.c.vn.com.vng.zalopay"
+        }
+      ],
+      "dexFiles": [
+        {
+          "classes": 3156,
+          "methods": 22955,
+          "path": "assets/audience_network.dex",
+          "size": 4864036
+        },
+        {
+          "classes": 10703,
+          "methods": 47228,
+          "path": "classes.dex",
+          "size": 8831004
+        },
+        {
+          "classes": 92,
+          "methods": 253,
+          "path": "classes10.dex",
+          "size": 78204
+        },
+        {
+          "classes": 177,
+          "methods": 592,
+          "path": "classes11.dex",
+          "size": 163420
+        },
+        {
+          "classes": 425,
+          "methods": 1560,
+          "path": "classes12.dex",
+          "size": 398276
+        },
+        {
+          "classes": 139,
+          "methods": 532,
+          "path": "classes13.dex",
+          "size": 145824
+        },
+        {
+          "classes": 90,
+          "methods": 256,
+          "path": "classes14.dex",
+          "size": 81748
+        },
+        {
+          "classes": 113,
+          "methods": 290,
+          "path": "classes15.dex",
+          "size": 82152
+        },
+        {
+          "classes": 20,
+          "methods": 34,
+          "path": "classes16.dex",
+          "size": 15916
+        },
+        {
+          "classes": 243,
+          "methods": 629,
+          "path": "classes17.dex",
+          "size": 208476
+        },
+        {
+          "classes": 115,
+          "methods": 250,
+          "path": "classes18.dex",
+          "size": 95920
+        },
+        {
+          "classes": 777,
+          "methods": 2601,
+          "path": "classes19.dex",
+          "size": 719548
+        },
+        {
+          "classes": 7421,
+          "methods": 38472,
+          "path": "classes2.dex",
+          "size": 16516960
+        },
+        {
+          "classes": 1081,
+          "methods": 2980,
+          "path": "classes3.dex",
+          "size": 850600
+        },
+        {
+          "classes": 11441,
+          "methods": 47711,
+          "path": "classes4.dex",
+          "size": 9418124
+        },
+        {
+          "classes": 7983,
+          "methods": 37294,
+          "path": "classes5.dex",
+          "size": 7357484
+        },
+        {
+          "classes": 5475,
+          "methods": 29029,
+          "path": "classes6.dex",
+          "size": 7612432
+        },
+        {
+          "classes": 12953,
+          "methods": 48030,
+          "path": "classes7.dex",
+          "size": 10803680
+        },
+        {
+          "classes": 295,
+          "methods": 912,
+          "path": "classes8.dex",
+          "size": 239036
+        },
+        {
+          "classes": 1128,
+          "methods": 5872,
+          "path": "classes9.dex",
+          "size": 1218908
+        }
+      ],
+      "entryCount": 6162,
+      "exported": [
+        {
+          "intentFilters": 7,
+          "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+          "permission": null,
+          "type": "activity-alias"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.zalopay.apps.ZaloAppActivityAlias",
+          "permission": null,
+          "type": "activity-alias"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+          "permission": null,
+          "type": "receiver"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.com.vng.zalopay.notification.MyFcmListenerService",
+          "permission": null,
+          "type": "service"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+          "permission": "android.permission.BIND_NFC_SERVICE",
+          "type": "service"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+          "permission": null,
+          "type": "receiver"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+          "permission": null,
+          "type": "receiver"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+          "permission": null,
+          "type": "receiver"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+          "permission": null,
+          "type": "receiver"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 1,
+          "name": "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 1,
+          "name": "com.facebook.CustomTabActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 1,
+          "name": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 1,
+          "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+          "permission": "com.google.android.c2dm.permission.SEND",
+          "type": "receiver"
+        },
+        {
+          "intentFilters": 0,
+          "name": "androidx.glance.appwidget.GlanceRemoteViewsService",
+          "permission": "android.permission.BIND_REMOTEVIEWS",
+          "type": "service"
+        },
+        {
+          "intentFilters": 0,
+          "name": "androidx.work.impl.background.systemjob.SystemJobService",
+          "permission": "android.permission.BIND_JOB_SERVICE",
+          "type": "service"
+        },
+        {
+          "intentFilters": 1,
+          "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+          "permission": "android.permission.DUMP",
+          "type": "receiver"
+        },
+        {
+          "intentFilters": 1,
+          "name": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 1,
+          "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 1,
+          "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 0,
+          "name": "androidx.compose.ui.tooling.PreviewActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 4,
+          "name": "androidx.profileinstaller.ProfileInstallReceiver",
+          "permission": "android.permission.DUMP",
+          "type": "receiver"
+        },
+        {
+          "intentFilters": 0,
+          "name": "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 0,
+          "name": "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+          "permission": null,
+          "type": "activity"
+        },
+        {
+          "intentFilters": 1,
+          "name": "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+          "permission": "android.permission.BIND_NFC_SERVICE",
+          "type": "service"
+        },
+        {
+          "intentFilters": 1,
+          "name": "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService",
+          "permission": "android.permission.BIND_NFC_SERVICE",
+          "type": "service"
+        },
+        {
+          "intentFilters": 0,
+          "name": "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+          "permission": null,
+          "type": "activity"
+        }
+      ],
+      "kind": "standalone",
+      "minSdk": 26,
+      "name": "vn.com.vng.zalopay.apk",
+      "nativeLibs": [],
+      "packageName": "vn.com.vng.zalopay",
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.READ_CONTACTS",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_WIFI_STATE",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.READ_PHONE_STATE",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "android.permission.WAKE_LOCK",
+        "android.permission.NFC",
+        "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.USE_FINGERPRINT",
+        "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.READ_CALENDAR",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+        "com.android.launcher.permission.WRITE_SETTINGS",
+        "com.android.launcher.permission.READ_SETTINGS",
+        "com.bbk.launcher2.permission.READ_SETTINGS",
+        "com.bbk.launcher2.permission.WRITE_SETTINGS",
+        "android.permission.QUERY_ALL_PACKAGES",
+        "android.permission.CAMERA",
+        "android.permission.VIBRATE",
+        "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+        "android.permission.CHANGE_WIFI_STATE",
+        "android.permission.DETECT_SCREEN_CAPTURE",
+        "com.google.android.gms.permission.AD_ID",
+        "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+        "android.permission.ACCESS_ADSERVICES_AD_ID",
+        "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "com.android.vending.BILLING",
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        "android.permission.ACCESS_ADSERVICES_TOPICS",
+        "android.permission.FOREGROUND_SERVICE",
+        "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "android.permission.REORDER_TASKS",
+        "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+        "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+        "android.permission.READ_BASIC_PHONE_STATE",
+        "android.permission.WRITE_CONTACTS",
+        "android.permission.READ_MEDIA_AUDIO"
+      ],
+      "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+      "signing": {
+        "blockSize": 8184,
+        "hasSigningBlock": true,
+        "pairIds": [
+          {
+            "id": 1896449818,
+            "label": "v2",
+            "size": 1383
+          },
+          {
+            "id": 4031998144,
+            "label": "v3",
+            "size": 1383
+          },
+          {
+            "id": 1845461005,
+            "label": "source-stamp",
+            "size": 3061
+          },
+          {
+            "id": 558253134,
+            "label": "play-frosting",
+            "size": 691
+          },
+          {
+            "id": 1114793335,
+            "label": "padding",
+            "size": 1602
+          }
+        ],
+        "schemes": [
+          {
+            "algorithms": [
+              {
+                "name": "RSASSA-PKCS1-v1_5-SHA256",
+                "verified": true
+              }
+            ],
+            "certificates": [
+              {
+                "issuer": "CN=Vu Manh Hieu",
+                "keyBits": 2048,
+                "keyType": "rsa",
+                "selfSigned": true,
+                "serialNumber": "153EA9FD",
+                "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                "signatureAlgorithm": "unknown",
+                "subject": "CN=Vu Manh Hieu",
+                "validFrom": "Apr 21 15:41:14 2016 GMT",
+                "validTo": "Apr 15 15:41:14 2041 GMT"
+              }
+            ],
+            "contentDigestAlgorithm": "RSASSA-PKCS1-v1_5-SHA256",
+            "contentDigestComputed": "48ed03987849283d2f39774ed6c1920f424bd9da36fb6aca12d39aaa55b04e53",
+            "contentDigestExpected": "978979daae85083cf7a4b555557275b44fa57f8cdf577c5761e62b8944774e07",
+            "contentDigestVerified": false,
+            "scheme": "v2",
+            "signers": 1
+          },
+          {
+            "algorithms": [
+              {
+                "name": "RSASSA-PKCS1-v1_5-SHA256",
+                "verified": true
+              }
+            ],
+            "certificates": [
+              {
+                "issuer": "CN=Vu Manh Hieu",
+                "keyBits": 2048,
+                "keyType": "rsa",
+                "selfSigned": true,
+                "serialNumber": "153EA9FD",
+                "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                "signatureAlgorithm": "unknown",
+                "subject": "CN=Vu Manh Hieu",
+                "validFrom": "Apr 21 15:41:14 2016 GMT",
+                "validTo": "Apr 15 15:41:14 2041 GMT"
+              }
+            ],
+            "contentDigestAlgorithm": "RSASSA-PKCS1-v1_5-SHA256",
+            "contentDigestComputed": "48ed03987849283d2f39774ed6c1920f424bd9da36fb6aca12d39aaa55b04e53",
+            "contentDigestExpected": "978979daae85083cf7a4b555557275b44fa57f8cdf577c5761e62b8944774e07",
+            "contentDigestVerified": false,
+            "maxSdk": 2147483647,
+            "minSdk": 24,
+            "scheme": "v3",
+            "signers": 1
+          }
+        ],
+        "v1Present": false,
+        "wholeFileSha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03"
+      },
+      "size": 79359087,
+      "targetSdk": 36,
+      "uncompressedBytes": 136395610,
+      "versionCode": 1102758,
+      "versionName": "11.17.0"
+    },
+    {
+      "appAttrs": {
+        "extractNativeLibs": "true",
+        "hasCode": "false"
+      },
+      "appClass": null,
+      "assets": [],
+      "components": {
+        "activity": 0,
+        "alias": 0,
+        "provider": 0,
+        "receiver": 0,
+        "service": 0
+      },
+      "deepLinks": [],
+      "dexFiles": [],
+      "entryCount": 32,
+      "exported": [],
+      "kind": "config",
+      "name": "config.armeabi_v7a.apk",
+      "nativeLibs": [],
+      "packageName": "vn.com.vng.zalopay",
+      "permissions": [],
+      "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+      "signing": {
+        "blockSize": 8184,
+        "hasSigningBlock": true,
+        "pairIds": [
+          {
+            "id": 1896449818,
+            "label": "v2",
+            "size": 1383
+          },
+          {
+            "id": 4031998144,
+            "label": "v3",
+            "size": 1383
+          },
+          {
+            "id": 1845461005,
+            "label": "source-stamp",
+            "size": 3597
+          },
+          {
+            "id": 1114793335,
+            "label": "padding",
+            "size": 1765
+          }
+        ],
+        "schemes": [
+          {
+            "algorithms": [
+              {
+                "name": "RSASSA-PKCS1-v1_5-SHA256",
+                "verified": true
+              }
+            ],
+            "certificates": [
+              {
+                "issuer": "CN=Vu Manh Hieu",
+                "keyBits": 2048,
+                "keyType": "rsa",
+                "selfSigned": true,
+                "serialNumber": "153EA9FD",
+                "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                "signatureAlgorithm": "unknown",
+                "subject": "CN=Vu Manh Hieu",
+                "validFrom": "Apr 21 15:41:14 2016 GMT",
+                "validTo": "Apr 15 15:41:14 2041 GMT"
+              }
+            ],
+            "contentDigestAlgorithm": "RSASSA-PKCS1-v1_5-SHA256",
+            "contentDigestComputed": "2907bcc9d2318728e7d2e327794d339828672c4bcf57c67476ae9f147789365f",
+            "contentDigestExpected": "70d374e6f5b4bb26b50d3834d7fde5645828654a72ac9852456fe7dbc36dfc03",
+            "contentDigestVerified": false,
+            "scheme": "v2",
+            "signers": 1
+          },
+          {
+            "algorithms": [
+              {
+                "name": "RSASSA-PKCS1-v1_5-SHA256",
+                "verified": true
+              }
+            ],
+            "certificates": [
+              {
+                "issuer": "CN=Vu Manh Hieu",
+                "keyBits": 2048,
+                "keyType": "rsa",
+                "selfSigned": true,
+                "serialNumber": "153EA9FD",
+                "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                "signatureAlgorithm": "unknown",
+                "subject": "CN=Vu Manh Hieu",
+                "validFrom": "Apr 21 15:41:14 2016 GMT",
+                "validTo": "Apr 15 15:41:14 2041 GMT"
+              }
+            ],
+            "contentDigestAlgorithm": "RSASSA-PKCS1-v1_5-SHA256",
+            "contentDigestComputed": "2907bcc9d2318728e7d2e327794d339828672c4bcf57c67476ae9f147789365f",
+            "contentDigestExpected": "70d374e6f5b4bb26b50d3834d7fde5645828654a72ac9852456fe7dbc36dfc03",
+            "contentDigestVerified": false,
+            "maxSdk": 2147483647,
+            "minSdk": 24,
+            "scheme": "v3",
+            "signers": 1
+          }
+        ],
+        "v1Present": true,
+        "wholeFileSha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b"
+      },
+      "size": 24828408,
+      "uncompressedBytes": 57459525,
+      "versionCode": 1102758,
+      "versionName": null
+    },
+    {
+      "appAttrs": {
+        "extractNativeLibs": "true",
+        "hasCode": "false"
+      },
+      "appClass": null,
+      "assets": [],
+      "components": {
+        "activity": 0,
+        "alias": 0,
+        "provider": 0,
+        "receiver": 0,
+        "service": 0
+      },
+      "deepLinks": [],
+      "dexFiles": [],
+      "entryCount": 6,
+      "exported": [],
+      "kind": "config",
+      "name": "config.en.apk",
+      "nativeLibs": [],
+      "packageName": "vn.com.vng.zalopay",
+      "permissions": [],
+      "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+      "signing": {
+        "blockSize": 8184,
+        "hasSigningBlock": true,
+        "pairIds": [
+          {
+            "id": 1896449818,
+            "label": "v2",
+            "size": 1383
+          },
+          {
+            "id": 4031998144,
+            "label": "v3",
+            "size": 1383
+          },
+          {
+            "id": 1845461005,
+            "label": "source-stamp",
+            "size": 3597
+          },
+          {
+            "id": 1114793335,
+            "label": "padding",
+            "size": 1765
+          }
+        ],
+        "schemes": [
+          {
+            "algorithms": [
+              {
+                "name": "RSASSA-PKCS1-v1_5-SHA256",
+                "verified": true
+              }
+            ],
+            "certificates": [
+              {
+                "issuer": "CN=Vu Manh Hieu",
+                "keyBits": 2048,
+                "keyType": "rsa",
+                "selfSigned": true,
+                "serialNumber": "153EA9FD",
+                "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                "signatureAlgorithm": "unknown",
+                "subject": "CN=Vu Manh Hieu",
+                "validFrom": "Apr 21 15:41:14 2016 GMT",
+                "validTo": "Apr 15 15:41:14 2041 GMT"
+              }
+            ],
+            "contentDigestAlgorithm": "RSASSA-PKCS1-v1_5-SHA256",
+            "contentDigestComputed": "3f4e4d08cd2be039913d90dda58471b903af0dcad2834993fd22d7765612dfd5",
+            "contentDigestExpected": "fca62d69a6619b64adf09ca116b37bb0702b7989053bdbb2894c458a9bac1d2d",
+            "contentDigestVerified": false,
+            "scheme": "v2",
+            "signers": 1
+          },
+          {
+            "algorithms": [
+              {
+                "name": "RSASSA-PKCS1-v1_5-SHA256",
+                "verified": true
+              }
+            ],
+            "certificates": [
+              {
+                "issuer": "CN=Vu Manh Hieu",
+                "keyBits": 2048,
+                "keyType": "rsa",
+                "selfSigned": true,
+                "serialNumber": "153EA9FD",
+                "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                "signatureAlgorithm": "unknown",
+                "subject": "CN=Vu Manh Hieu",
+                "validFrom": "Apr 21 15:41:14 2016 GMT",
+                "validTo": "Apr 15 15:41:14 2041 GMT"
+              }
+            ],
+            "contentDigestAlgorithm": "RSASSA-PKCS1-v1_5-SHA256",
+            "contentDigestComputed": "3f4e4d08cd2be039913d90dda58471b903af0dcad2834993fd22d7765612dfd5",
+            "contentDigestExpected": "fca62d69a6619b64adf09ca116b37bb0702b7989053bdbb2894c458a9bac1d2d",
+            "contentDigestVerified": false,
+            "maxSdk": 2147483647,
+            "minSdk": 24,
+            "scheme": "v3",
+            "signers": 1
+          }
+        ],
+        "v1Present": true,
+        "wholeFileSha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942"
+      },
+      "size": 74137,
+      "uncompressedBytes": 64699,
+      "versionCode": 1102758,
+      "versionName": null
+    },
+    {
+      "appAttrs": {
+        "extractNativeLibs": "true",
+        "hasCode": "false"
+      },
+      "appClass": null,
+      "assets": [],
+      "components": {
+        "activity": 0,
+        "alias": 0,
+        "provider": 0,
+        "receiver": 0,
+        "service": 0
+      },
+      "deepLinks": [],
+      "dexFiles": [],
+      "entryCount": 6,
+      "exported": [],
+      "kind": "config",
+      "name": "config.vi.apk",
+      "nativeLibs": [],
+      "packageName": "vn.com.vng.zalopay",
+      "permissions": [],
+      "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+      "signing": {
+        "blockSize": 8184,
+        "hasSigningBlock": true,
+        "pairIds": [
+          {
+            "id": 1896449818,
+            "label": "v2",
+            "size": 1383
+          },
+          {
+            "id": 4031998144,
+            "label": "v3",
+            "size": 1383
+          },
+          {
+            "id": 1845461005,
+            "label": "source-stamp",
+            "size": 3597
+          },
+          {
+            "id": 1114793335,
+            "label": "padding",
+            "size": 1765
+          }
+        ],
+        "schemes": [
+          {
+            "algorithms": [
+              {
+                "name": "RSASSA-PKCS1-v1_5-SHA256",
+                "verified": true
+              }
+            ],
+            "certificates": [
+              {
+                "issuer": "CN=Vu Manh Hieu",
+                "keyBits": 2048,
+                "keyType": "rsa",
+                "selfSigned": true,
+                "serialNumber": "153EA9FD",
+                "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                "signatureAlgorithm": "unknown",
+                "subject": "CN=Vu Manh Hieu",
+                "validFrom": "Apr 21 15:41:14 2016 GMT",
+                "validTo": "Apr 15 15:41:14 2041 GMT"
+              }
+            ],
+            "contentDigestAlgorithm": "RSASSA-PKCS1-v1_5-SHA256",
+            "contentDigestComputed": "d557f40819e8ecc6c90195e3be99cb6d6c02ea5c312a107c9784a33a127dbcd5",
+            "contentDigestExpected": "4ca4ea9f9e7b8153d418b580d4dfd6de5f5c57770b662ccec0aac07fcaf40ed5",
+            "contentDigestVerified": false,
+            "scheme": "v2",
+            "signers": 1
+          },
+          {
+            "algorithms": [
+              {
+                "name": "RSASSA-PKCS1-v1_5-SHA256",
+                "verified": true
+              }
+            ],
+            "certificates": [
+              {
+                "issuer": "CN=Vu Manh Hieu",
+                "keyBits": 2048,
+                "keyType": "rsa",
+                "selfSigned": true,
+                "serialNumber": "153EA9FD",
+                "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                "signatureAlgorithm": "unknown",
+                "subject": "CN=Vu Manh Hieu",
+                "validFrom": "Apr 21 15:41:14 2016 GMT",
+                "validTo": "Apr 15 15:41:14 2041 GMT"
+              }
+            ],
+            "contentDigestAlgorithm": "RSASSA-PKCS1-v1_5-SHA256",
+            "contentDigestComputed": "d557f40819e8ecc6c90195e3be99cb6d6c02ea5c312a107c9784a33a127dbcd5",
+            "contentDigestExpected": "4ca4ea9f9e7b8153d418b580d4dfd6de5f5c57770b662ccec0aac07fcaf40ed5",
+            "contentDigestVerified": false,
+            "maxSdk": 2147483647,
+            "minSdk": 24,
+            "scheme": "v3",
+            "signers": 1
+          }
+        ],
+        "v1Present": true,
+        "wholeFileSha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33"
+      },
+      "size": 86425,
+      "uncompressedBytes": 78175,
+      "versionCode": 1102758,
+      "versionName": null
+    },
+    {
+      "appAttrs": {
+        "extractNativeLibs": "true",
+        "hasCode": "false"
+      },
+      "appClass": null,
+      "assets": [],
+      "components": {
+        "activity": 0,
+        "alias": 0,
+        "provider": 0,
+        "receiver": 0,
+        "service": 0
+      },
+      "deepLinks": [],
+      "dexFiles": [],
+      "entryCount": 258,
+      "exported": [],
+      "kind": "config",
+      "name": "config.xhdpi.apk",
+      "nativeLibs": [],
+      "packageName": "vn.com.vng.zalopay",
+      "permissions": [],
+      "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+      "signing": {
+        "blockSize": 8184,
+        "hasSigningBlock": true,
+        "pairIds": [
+          {
+            "id": 1896449818,
+            "label": "v2",
+            "size": 1383
+          },
+          {
+            "id": 4031998144,
+            "label": "v3",
+            "size": 1383
+          },
+          {
+            "id": 1845461005,
+            "label": "source-stamp",
+            "size": 3597
+          },
+          {
+            "id": 1114793335,
+            "label": "padding",
+            "size": 1765
+          }
+        ],
+        "schemes": [
+          {
+            "algorithms": [
+              {
+                "name": "RSASSA-PKCS1-v1_5-SHA256",
+                "verified": true
+              }
+            ],
+            "certificates": [
+              {
+                "issuer": "CN=Vu Manh Hieu",
+                "keyBits": 2048,
+                "keyType": "rsa",
+                "selfSigned": true,
+                "serialNumber": "153EA9FD",
+                "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                "signatureAlgorithm": "unknown",
+                "subject": "CN=Vu Manh Hieu",
+                "validFrom": "Apr 21 15:41:14 2016 GMT",
+                "validTo": "Apr 15 15:41:14 2041 GMT"
+              }
+            ],
+            "contentDigestAlgorithm": "RSASSA-PKCS1-v1_5-SHA256",
+            "contentDigestComputed": "a8b6eb8703ecd4ea43b753d8aed3099f420bb1e216a5fec5bd5eed6d430325c2",
+            "contentDigestExpected": "067c75b55ee0f7b8e06a0793f41636d2806e7846c70e6f32aaf54b1be6bd6cbe",
+            "contentDigestVerified": false,
+            "scheme": "v2",
+            "signers": 1
+          },
+          {
+            "algorithms": [
+              {
+                "name": "RSASSA-PKCS1-v1_5-SHA256",
+                "verified": true
+              }
+            ],
+            "certificates": [
+              {
+                "issuer": "CN=Vu Manh Hieu",
+                "keyBits": 2048,
+                "keyType": "rsa",
+                "selfSigned": true,
+                "serialNumber": "153EA9FD",
+                "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                "signatureAlgorithm": "unknown",
+                "subject": "CN=Vu Manh Hieu",
+                "validFrom": "Apr 21 15:41:14 2016 GMT",
+                "validTo": "Apr 15 15:41:14 2041 GMT"
+              }
+            ],
+            "contentDigestAlgorithm": "RSASSA-PKCS1-v1_5-SHA256",
+            "contentDigestComputed": "a8b6eb8703ecd4ea43b753d8aed3099f420bb1e216a5fec5bd5eed6d430325c2",
+            "contentDigestExpected": "067c75b55ee0f7b8e06a0793f41636d2806e7846c70e6f32aaf54b1be6bd6cbe",
+            "contentDigestVerified": false,
+            "maxSdk": 2147483647,
+            "minSdk": 24,
+            "scheme": "v3",
+            "signers": 1
+          }
+        ],
+        "v1Present": true,
+        "wholeFileSha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b"
+      },
+      "size": 1232563,
+      "uncompressedBytes": 1329300,
+      "versionCode": 1102758,
+      "versionName": null
+    }
+  ],
+  "supplyChain": {
+    "sdkMatches": [
+      {
+        "category": "mini-program",
+        "classes": 2415,
+        "evidence": "dex-package",
+        "key": "mpaas-ariver",
+        "name": "mPaaS / Ariver mini-program runtime",
+        "value": "com/alibaba/ariver/",
+        "vendor": "Alibaba Cloud"
+      },
+      {
+        "category": "mini-program",
+        "classes": 2228,
+        "evidence": "dex-package",
+        "key": "mpaas-ariver",
+        "name": "mPaaS / Ariver mini-program runtime",
+        "value": "com/alibaba/griver/",
+        "vendor": "Alibaba Cloud"
+      },
+      {
+        "category": "mini-program",
+        "classes": 230,
+        "evidence": "dex-package",
+        "key": "mpaas-ariver",
+        "name": "mPaaS / Ariver mini-program runtime",
+        "value": "com/alipay/plus/",
+        "vendor": "Alibaba Cloud"
+      },
+      {
+        "category": "mini-program",
+        "evidence": "asset",
+        "key": "mpaas-ariver",
+        "name": "mPaaS / Ariver mini-program runtime",
+        "value": "assets/Griver/",
+        "vendor": "Alibaba Cloud"
+      },
+      {
+        "category": "payments",
+        "classes": 1330,
+        "evidence": "dex-package",
+        "key": "iap-connect",
+        "name": "IAP Connect (cross-border acquiring)",
+        "value": "com/iap/ac/",
+        "vendor": "Alipay / Ant Group"
+      },
+      {
+        "category": "payments",
+        "classes": 269,
+        "evidence": "dex-package",
+        "key": "iap-connect",
+        "name": "IAP Connect (cross-border acquiring)",
+        "value": "com/iap/android/",
+        "vendor": "Alipay / Ant Group"
+      },
+      {
+        "category": "payments",
+        "evidence": "asset",
+        "key": "iap-connect",
+        "name": "IAP Connect (cross-border acquiring)",
+        "value": "assets/iapconnect_config_full",
+        "vendor": "Alipay / Ant Group"
+      },
+      {
+        "category": "payments",
+        "classes": 900,
+        "evidence": "dex-package",
+        "key": "visa-cbp",
+        "name": "Visa Cardholder Benefits Platform / Visa Payment SDK",
+        "value": "com/visa/cbp/",
+        "vendor": "Visa"
+      },
+      {
+        "category": "payments",
+        "classes": 337,
+        "evidence": "dex-package",
+        "key": "visa-cbp",
+        "name": "Visa Cardholder Benefits Platform / Visa Payment SDK",
+        "value": "com/visa/visapaysdk/",
+        "vendor": "Visa"
+      },
+      {
+        "category": "payments",
+        "evidence": "asset",
+        "key": "visa-cbp",
+        "name": "Visa Cardholder Benefits Platform / Visa Payment SDK",
+        "value": "assets/com/visa/cbp/",
+        "vendor": "Visa"
+      },
+      {
+        "category": "ads",
+        "classes": 3254,
+        "evidence": "dex-package",
+        "key": "facebook-audience-network",
+        "name": "Meta Audience Network (ads)",
+        "value": "com/facebook/ads/",
+        "vendor": "Meta"
+      },
+      {
+        "category": "ads",
+        "evidence": "asset",
+        "key": "facebook-audience-network",
+        "name": "Meta Audience Network (ads)",
+        "value": "assets/audience_network.dex",
+        "vendor": "Meta"
+      },
+      {
+        "category": "analytics",
+        "classes": 430,
+        "evidence": "dex-package",
+        "key": "appsflyer",
+        "name": "AppsFlyer attribution",
+        "value": "com/appsflyer/",
+        "vendor": "AppsFlyer"
+      },
+      {
+        "category": "analytics",
+        "evidence": "asset",
+        "key": "appsflyer",
+        "name": "AppsFlyer attribution",
+        "value": "assets/com/appsflyer/internal/",
+        "vendor": "AppsFlyer"
+      },
+      {
+        "category": "platform",
+        "classes": 221,
+        "evidence": "dex-package",
+        "key": "firebase",
+        "name": "Firebase (Messaging, Crashlytics, Remote Config)",
+        "value": "com/google/firebase/",
+        "vendor": "Google"
+      },
+      {
+        "category": "platform",
+        "evidence": "native-library",
+        "key": "firebase",
+        "name": "Firebase (Messaging, Crashlytics, Remote Config)",
+        "value": "libcrashlytics.so",
+        "vendor": "Google"
+      },
+      {
+        "category": "platform",
+        "evidence": "native-library",
+        "key": "firebase",
+        "name": "Firebase (Messaging, Crashlytics, Remote Config)",
+        "value": "libcrashlytics-common.so",
+        "vendor": "Google"
+      },
+      {
+        "category": "ads",
+        "classes": 40,
+        "evidence": "dex-package",
+        "key": "google-ads",
+        "name": "Google Mobile Ads",
+        "value": "com/google/android/gms/ads/",
+        "vendor": "Google"
+      },
+      {
+        "category": "ads",
+        "evidence": "asset",
+        "key": "google-ads",
+        "name": "Google Mobile Ads",
+        "value": "assets/containers/GTM-PC9W5BW.json",
+        "vendor": "Google"
+      },
+      {
+        "category": "ml-vision",
+        "classes": 50,
+        "evidence": "dex-package",
+        "key": "mlkit-ocr",
+        "name": "ML Kit Text Recognition / Barcode",
+        "value": "com/google/mlkit/",
+        "vendor": "Google"
+      },
+      {
+        "category": "ml-vision",
+        "evidence": "native-library",
+        "key": "mlkit-ocr",
+        "name": "ML Kit Text Recognition / Barcode",
+        "value": "libbarhopper_v3.so",
+        "vendor": "Google"
+      },
+      {
+        "category": "ml-vision",
+        "evidence": "native-library",
+        "key": "mlkit-ocr",
+        "name": "ML Kit Text Recognition / Barcode",
+        "value": "libmlkit_google_ocr_pipeline.so",
+        "vendor": "Google"
+      },
+      {
+        "category": "ml-vision",
+        "evidence": "native-library",
+        "key": "mlkit-ocr",
+        "name": "ML Kit Text Recognition / Barcode",
+        "value": "libmlkitcommonpipeline.so",
+        "vendor": "Google"
+      },
+      {
+        "category": "ml-vision",
+        "evidence": "asset",
+        "key": "mlkit-ocr",
+        "name": "ML Kit Text Recognition / Barcode",
+        "value": "assets/mlkit-google-ocr-models/",
+        "vendor": "Google"
+      },
+      {
+        "category": "ml-vision",
+        "evidence": "native-library",
+        "key": "mediapipe-face",
+        "name": "MediaPipe face detector",
+        "value": "libface_detector_v2_jni.so",
+        "vendor": "Google"
+      },
+      {
+        "category": "ml-vision",
+        "evidence": "native-library",
+        "key": "mediapipe-face",
+        "name": "MediaPipe face detector",
+        "value": "libimage_processing_util_jni.so",
+        "vendor": "Google"
+      },
+      {
+        "category": "ml-vision",
+        "evidence": "native-library",
+        "key": "picodet-ncnn",
+        "name": "PicoDet + NCNN on-device detection",
+        "value": "libpicodet_ncnn.so",
+        "vendor": "PaddlePaddle / Tencent NCNN"
+      },
+      {
+        "category": "ml-vision",
+        "evidence": "asset",
+        "key": "picodet-ncnn",
+        "name": "PicoDet + NCNN on-device detection",
+        "value": "assets/FastestDet.ncnn.bin",
+        "vendor": "PaddlePaddle / Tencent NCNN"
+      },
+      {
+        "category": "ml-vision",
+        "evidence": "asset",
+        "key": "picodet-ncnn",
+        "name": "PicoDet + NCNN on-device detection",
+        "value": "assets/FastestDet.ncnn.param",
+        "vendor": "PaddlePaddle / Tencent NCNN"
+      },
+      {
+        "category": "storage",
+        "evidence": "native-library",
+        "key": "sqlcipher",
+        "name": "SQLCipher encrypted database",
+        "value": "libsqlcipher.so",
+        "vendor": "Zetetic"
+      },
+      {
+        "category": "crypto",
+        "classes": 6112,
+        "evidence": "dex-package",
+        "key": "bouncycastle",
+        "name": "Bouncy Castle JCE provider",
+        "value": "org/bouncycastle/",
+        "vendor": "Legion of the Bouncy Castle"
+      },
+      {
+        "category": "crypto",
+        "classes": 360,
+        "evidence": "dex-package",
+        "key": "nimbus-jose",
+        "name": "Nimbus JOSE+JWT",
+        "value": "com/nimbusds/jose/",
+        "vendor": "Federated Identity"
+      },
+      {
+        "category": "crypto",
+        "classes": 221,
+        "evidence": "dex-package",
+        "key": "tink",
+        "name": "Google Tink",
+        "value": "com/google/crypto/tink/",
+        "vendor": "Google"
+      },
+      {
+        "category": "networking",
+        "classes": 335,
+        "evidence": "dex-package",
+        "key": "okhttp",
+        "name": "OkHttp",
+        "value": "okhttp3/",
+        "vendor": "Square"
+      },
+      {
+        "category": "networking",
+        "classes": 107,
+        "evidence": "dex-package",
+        "key": "okhttp",
+        "name": "OkHttp",
+        "value": "okio/",
+        "vendor": "Square"
+      },
+      {
+        "category": "ui",
+        "classes": 504,
+        "evidence": "dex-package",
+        "key": "compose",
+        "name": "Jetpack Compose",
+        "value": "androidx/compose/",
+        "vendor": "Google"
+      },
+      {
+        "category": "ui",
+        "classes": 813,
+        "evidence": "dex-package",
+        "key": "camerax",
+        "name": "CameraX",
+        "value": "androidx/camera/",
+        "vendor": "Google"
+      },
+      {
+        "category": "ui",
+        "classes": 173,
+        "evidence": "dex-package",
+        "key": "lottie",
+        "name": "Lottie animations",
+        "value": "com/airbnb/lottie/",
+        "vendor": "Airbnb"
+      },
+      {
+        "category": "ui",
+        "evidence": "native-library",
+        "key": "rive",
+        "name": "Rive runtime",
+        "value": "librive-android.so",
+        "vendor": "Rive"
+      },
+      {
+        "category": "ui",
+        "classes": 213,
+        "evidence": "dex-package",
+        "key": "glide",
+        "name": "Glide image loader",
+        "value": "com/bumptech/glide/",
+        "vendor": "Bumptech"
+      },
+      {
+        "category": "ui",
+        "evidence": "native-library",
+        "key": "glide",
+        "name": "Glide image loader",
+        "value": "libimagepipeline.so",
+        "vendor": "Bumptech"
+      },
+      {
+        "category": "ui",
+        "evidence": "native-library",
+        "key": "glide",
+        "name": "Glide image loader",
+        "value": "libnative-imagetranscoder.so",
+        "vendor": "Bumptech"
+      },
+      {
+        "category": "ui",
+        "evidence": "native-library",
+        "key": "glide",
+        "name": "Glide image loader",
+        "value": "libnative-filters.so",
+        "vendor": "Bumptech"
+      },
+      {
+        "category": "ui",
+        "classes": 1198,
+        "evidence": "dex-package",
+        "key": "media3",
+        "name": "AndroidX Media3 / ExoPlayer",
+        "value": "androidx/media3/",
+        "vendor": "Google"
+      },
+      {
+        "category": "ui",
+        "classes": 173,
+        "evidence": "dex-package",
+        "key": "glance",
+        "name": "Glance app widgets",
+        "value": "androidx/glance/",
+        "vendor": "Google"
+      },
+      {
+        "category": "platform",
+        "evidence": "asset",
+        "key": "react-native",
+        "name": "React Native (legacy JS bundle)",
+        "value": "assets/android.1.zip",
+        "vendor": "Meta"
+      },
+      {
+        "category": "security",
+        "classes": 622,
+        "evidence": "dex-package",
+        "key": "trueid",
+        "name": "TrueID eKYC / liveness",
+        "value": "vn/ai/trueid/",
+        "vendor": "VNG"
+      },
+      {
+        "category": "security",
+        "evidence": "native-library",
+        "key": "trueid",
+        "name": "TrueID eKYC / liveness",
+        "value": "libtrueidlib.so",
+        "vendor": "VNG"
+      },
+      {
+        "category": "security",
+        "evidence": "native-library",
+        "key": "trueid",
+        "name": "TrueID eKYC / liveness",
+        "value": "libVFaceLib.so",
+        "vendor": "VNG"
+      },
+      {
+        "category": "security",
+        "classes": 21,
+        "evidence": "dex-package",
+        "key": "fpt-ekyc",
+        "name": "FPT.AI eKYC",
+        "value": "com/fpt/fci/",
+        "vendor": "FPT"
+      },
+      {
+        "category": "security",
+        "classes": 17,
+        "evidence": "dex-package",
+        "key": "alipay-securityguard",
+        "name": "Alipay SecurityGuard Lite",
+        "value": "com/alipay/plus/security/",
+        "vendor": "Ant Group"
+      },
+      {
+        "category": "security",
+        "evidence": "native-library",
+        "key": "alipay-securityguard",
+        "name": "Alipay SecurityGuard Lite",
+        "value": "libsecurity_lite.so",
+        "vendor": "Ant Group"
+      },
+      {
+        "category": "security",
+        "evidence": "native-library",
+        "key": "vng-bshield",
+        "name": "VNG BShield (RASP / tamper defence)",
+        "value": "libohxbee.so",
+        "vendor": "VNG"
+      },
+      {
+        "category": "security",
+        "evidence": "native-library",
+        "key": "vng-bshield",
+        "name": "VNG BShield (RASP / tamper defence)",
+        "value": "libtaibmcf.so",
+        "vendor": "VNG"
+      },
+      {
+        "category": "security",
+        "evidence": "native-library",
+        "key": "vng-bshield",
+        "name": "VNG BShield (RASP / tamper defence)",
+        "value": "libfgcpkjvqe.so",
+        "vendor": "VNG"
+      },
+      {
+        "category": "security",
+        "evidence": "native-library",
+        "key": "vng-bshield",
+        "name": "VNG BShield (RASP / tamper defence)",
+        "value": "libljsfrcwmw.so",
+        "vendor": "VNG"
+      },
+      {
+        "category": "security",
+        "evidence": "native-library",
+        "key": "vng-bshield",
+        "name": "VNG BShield (RASP / tamper defence)",
+        "value": "liba97d.so",
+        "vendor": "VNG"
+      },
+      {
+        "category": "security",
+        "evidence": "asset",
+        "key": "vng-bshield",
+        "name": "VNG BShield (RASP / tamper defence)",
+        "value": "assets/bshield.dat",
+        "vendor": "VNG"
+      },
+      {
+        "category": "security",
+        "evidence": "asset",
+        "key": "vng-bshield",
+        "name": "VNG BShield (RASP / tamper defence)",
+        "value": "assets/taibmcf.dat",
+        "vendor": "VNG"
+      },
+      {
+        "category": "security",
+        "evidence": "asset",
+        "key": "vng-bshield",
+        "name": "VNG BShield (RASP / tamper defence)",
+        "value": "assets/fgcpkjvqe.dat",
+        "vendor": "VNG"
+      },
+      {
+        "category": "platform",
+        "classes": 209,
+        "evidence": "dex-package",
+        "key": "protobuf",
+        "name": "Protocol Buffers",
+        "value": "com/google/protobuf/",
+        "vendor": "Google"
+      },
+      {
+        "category": "platform",
+        "classes": 30,
+        "evidence": "dex-package",
+        "key": "androidx-test",
+        "name": "AndroidX Test (shipped in release build)",
+        "value": "androidx/test/",
+        "vendor": "Google"
+      }
+    ],
+    "vendors": [
+      "Airbnb",
+      "Alibaba Cloud",
+      "Alipay / Ant Group",
+      "Ant Group",
+      "AppsFlyer",
+      "Bumptech",
+      "FPT",
+      "Federated Identity",
+      "Google",
+      "Legion of the Bouncy Castle",
+      "Meta",
+      "PaddlePaddle / Tencent NCNN",
+      "Rive",
+      "Square",
+      "VNG",
+      "Visa",
+      "Zetetic"
+    ]
+  }
+}

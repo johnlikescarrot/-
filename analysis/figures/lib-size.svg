@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="712" viewBox="0 0 980 712">
+  <rect width="100%" height="100%" fill="#0b1220"/>
+  <text x="32" y="42" fill="#e8eefc" font-size="26" font-weight="600" font-family="Inter, sans-serif">Native library payload (MiB)</text>
+  
+    <text x="286" y="91" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libtaibmcf.so</text>
+    <rect x="300" y="76" width="560" height="20" rx="4" fill="#a78bfa" opacity="0.9"/>
+    <text x="872" y="91" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">12.03 MiB</text>
+    <text x="286" y="125" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libmlkitcommonpipeline.so</text>
+    <rect x="300" y="110" width="307.6974231088945" height="20" rx="4" fill="#ff6b8b" opacity="0.9"/>
+    <text x="619.6974231088946" y="125" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">6.61 MiB</text>
+    <text x="286" y="159" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libmlkit_google_ocr_pipeline.so</text>
+    <rect x="300" y="144" width="301.18038237738983" height="20" rx="4" fill="#ffb84d" opacity="0.9"/>
+    <text x="613.1803823773898" y="159" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">6.47 MiB</text>
+    <text x="286" y="193" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libfgcpkjvqe.so</text>
+    <rect x="300" y="178" width="289.54280964256026" height="20" rx="4" fill="#38e1ff" opacity="0.9"/>
+    <text x="601.5428096425603" y="193" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">6.22 MiB</text>
+    <text x="286" y="227" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libface_detector_v2_jni.so</text>
+    <rect x="300" y="212" width="239.2684954280964" height="20" rx="4" fill="#a78bfa" opacity="0.9"/>
+    <text x="551.2684954280965" y="227" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">5.14 MiB</text>
+    <text x="286" y="261" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libsqlcipher.so</text>
+    <rect x="300" y="246" width="157.8054862842893" height="20" rx="4" fill="#ff6b8b" opacity="0.9"/>
+    <text x="469.80548628428926" y="261" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">3.39 MiB</text>
+    <text x="286" y="295" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libbarhopper_v3.so</text>
+    <rect x="300" y="280" width="143.84039900249377" height="20" rx="4" fill="#ffb84d" opacity="0.9"/>
+    <text x="455.84039900249377" y="295" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">3.09 MiB</text>
+    <text x="286" y="329" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">librive-android.so</text>
+    <rect x="300" y="314" width="143.37489609310057" height="20" rx="4" fill="#38e1ff" opacity="0.9"/>
+    <text x="455.3748960931006" y="329" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">3.08 MiB</text>
+    <text x="286" y="363" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libpicodet_ncnn.so</text>
+    <rect x="300" y="348" width="132.66832917705736" height="20" rx="4" fill="#a78bfa" opacity="0.9"/>
+    <text x="444.66832917705733" y="363" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">2.85 MiB</text>
+    <text x="286" y="397" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libVFaceLib.so</text>
+    <rect x="300" y="382" width="87.04904405652536" height="20" rx="4" fill="#ff6b8b" opacity="0.9"/>
+    <text x="399.04904405652536" y="397" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">1.87 MiB</text>
+    <text x="286" y="431" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">liba97d.so</text>
+    <rect x="300" y="416" width="44.22277639235246" height="20" rx="4" fill="#ffb84d" opacity="0.9"/>
+    <text x="356.22277639235244" y="431" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">0.95 MiB</text>
+    <text x="286" y="465" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libc++_shared.so</text>
+    <rect x="300" y="450" width="38.636741479634246" height="20" rx="4" fill="#38e1ff" opacity="0.9"/>
+    <text x="350.6367414796342" y="465" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">0.83 MiB</text>
+    <text x="286" y="499" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libljsfrcwmw.so</text>
+    <rect x="300" y="484" width="26.533665835411473" height="20" rx="4" fill="#a78bfa" opacity="0.9"/>
+    <text x="338.53366583541145" y="499" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">0.57 MiB</text>
+    <text x="286" y="533" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libcrashlytics-common.so</text>
+    <rect x="300" y="518" width="19.551122194513717" height="20" rx="4" fill="#ff6b8b" opacity="0.9"/>
+    <text x="331.5511221945137" y="533" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">0.42 MiB</text>
+    <text x="286" y="567" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libnative-imagetranscoder.so</text>
+    <rect x="300" y="552" width="15.361596009975065" height="20" rx="4" fill="#ffb84d" opacity="0.9"/>
+    <text x="327.3615960099751" y="567" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">0.33 MiB</text>
+    <text x="286" y="601" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">liblytcuhe.so</text>
+    <rect x="300" y="586" width="7.913549459684123" height="20" rx="4" fill="#38e1ff" opacity="0.9"/>
+    <text x="319.91354945968413" y="601" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">0.17 MiB</text>
+    <text x="286" y="635" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">librcmefqonnx.so</text>
+    <rect x="300" y="620" width="7.913549459684123" height="20" rx="4" fill="#a78bfa" opacity="0.9"/>
+    <text x="319.91354945968413" y="635" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">0.17 MiB</text>
+    <text x="286" y="669" fill="#e8eefc" font-size="17" text-anchor="end" font-family="Inter, sans-serif">libohxbee.so</text>
+    <rect x="300" y="654" width="6.982543640897756" height="20" rx="4" fill="#ff6b8b" opacity="0.9"/>
+    <text x="318.98254364089775" y="669" fill="#93a4c4" font-size="15" font-family="Inter, sans-serif">0.15 MiB</text>
+</svg>

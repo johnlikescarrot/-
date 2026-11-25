@@ -1,0 +1,18 @@
+{
+  "name": "paytear",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "PayTear — a zero-dependency TypeScript static-analysis toolkit for split APK/XAPK artifacts (AXML, ARSC, DEX, ELF, APK Signature Scheme v2/v3).",
+  "bin": { "paytear": "./src/cli.ts" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "analyze": "tsx src/cli.ts analyze",
+    "test": "tsx src/selftest.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}

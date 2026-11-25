@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this teardown, the PayTear toolkit, the JSON corpus, or the video, please cite the paper entry below."
+title: "PayTear: a JVM-free TypeScript pipeline for the static teardown of commercial Android payment clients (ZaloPay 11.17.0)"
+abstract: >-
+  We present a reproducible, dependency-free static analysis pipeline for split
+  Android artifacts and apply it to ZaloPay 11.17.0 (vn.com.vng.zalopay), a
+  production Vietnamese wallet. The pipeline re-implements ZIP, Android binary XML,
+  resources.arsc, Dalvik EXecutable, ELF and the APK Signature Scheme v2/v3 in
+  TypeScript and emits a deterministic JSON corpus. The subject contains 63,827
+  class definitions, 287,480 methods, 9.26 million decoded instructions, 27 native
+  libraries and 62 SDK fingerprints across 17 vendors. We document ten findings,
+  including a 32-bit-only native distribution, globally permitted cleartext
+  traffic, exported test/tooling activities, ten non-production endpoints shipped
+  in the release DEX, card emulation with requireDeviceUnlock=false, 3.9 MB of
+  unreachable React Native code, and an anti-tamper stack whose Java entry points
+  are absent from the DEX.
+type: software
+license: MIT
+repository-code: "https://github.com/johnlikescarrot/-"
+keywords:
+  - Android
+  - static analysis
+  - reverse engineering
+  - APK signature scheme
+  - DEX
+  - supply chain
+  - fintech
+  - reproducibility
+authors:
+  - name: "PayTear Project"
+version: "0.4.0"
+date-released: "2026-11-25"
+identifiers:
+  - type: other
+    value: "artifact:zalopay-11.17.0-teardown"
+preferred-citation:
+  type: article
+  title: "Ten measurements from a JVM-free teardown of a production payment client"
+  authors:
+    - name: "PayTear Project"
+  year: 2026
+  journal: "arXiv (preprint)"
+  url: "https://github.com/johnlikescarrot/-/blob/main/paper/main.md"

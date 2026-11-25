@@ -1,0 +1,340 @@
+{
+  "artifact": {
+    "package": "vn.com.vng.zalopay",
+    "versionName": "11.17.0",
+    "versionCode": 1102758,
+    "label": "Zalopay",
+    "minSdk": 26,
+    "targetSdk": 36,
+    "compileSdk": 36,
+    "applicationClass": "jwbmqnsll.xvndbxlk",
+    "abis": [
+      "armeabi-v7a"
+    ],
+    "inputSha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+    "inputBytes": 98813878,
+    "baseApkSha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+    "baseApkBytes": 79359087,
+    "splits": 5,
+    "analysedAt": "2026-11-25T15:08:18.928Z"
+  },
+  "dex": {
+    "files": 20,
+    "classes": 63827,
+    "uniqueClasses": 60671,
+    "methods": 287480,
+    "fields": 286224,
+    "strings": 404914,
+    "stringConstants": 242266,
+    "instructions": 9258758,
+    "invokeEdges": 1729915,
+    "bytes": 69701748,
+    "obfuscatedShortNames": 43342,
+    "shortNameRatio": 0.6790543187052501,
+    "sourceFileRetained": 52728,
+    "sourceFileRatio": 0.8261080733858712
+  },
+  "native": {
+    "count": 27,
+    "bytes": 57452124,
+    "abis": [
+      "armeabi-v7a"
+    ],
+    "canary": 25,
+    "fortify": 13,
+    "fullRelro": 23,
+    "nx": 27,
+    "partialRelro": 0,
+    "pie": 27
+  },
+  "manifest": {
+    "activities": 202,
+    "services": 34,
+    "receivers": 22,
+    "providers": 9,
+    "exported": 30,
+    "deepLinks": 24,
+    "permissions": 49,
+    "dangerous": 27,
+    "highRisk": 9
+  },
+  "signing": {
+    "v1": false,
+    "schemes": [
+      "v2",
+      "v3"
+    ],
+    "algorithm": "RSASSA-PKCS1-v1_5-SHA256",
+    "signatureVerified": [
+      true,
+      true
+    ],
+    "certificates": [
+      {
+        "issuer": "CN=Vu Manh Hieu",
+        "keyBits": 2048,
+        "keyType": "rsa",
+        "selfSigned": true,
+        "serialNumber": "153EA9FD",
+        "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+        "signatureAlgorithm": "unknown",
+        "subject": "CN=Vu Manh Hieu",
+        "validFrom": "Apr 21 15:41:14 2016 GMT",
+        "validTo": "Apr 15 15:41:14 2041 GMT"
+      }
+    ],
+    "blocks": [
+      {
+        "id": 1896449818,
+        "label": "v2",
+        "size": 1383
+      },
+      {
+        "id": 4031998144,
+        "label": "v3",
+        "size": 1383
+      },
+      {
+        "id": 1845461005,
+        "label": "source-stamp",
+        "size": 3061
+      },
+      {
+        "id": 558253134,
+        "label": "play-frosting",
+        "size": 691
+      },
+      {
+        "id": 1114793335,
+        "label": "padding",
+        "size": 1602
+      }
+    ]
+  },
+  "supplyChain": {
+    "sdks": 62,
+    "vendors": 17,
+    "top": [
+      {
+        "category": "crypto",
+        "classes": 6112,
+        "evidence": "dex-package",
+        "key": "bouncycastle",
+        "name": "Bouncy Castle JCE provider",
+        "value": "org/bouncycastle/",
+        "vendor": "Legion of the Bouncy Castle"
+      },
+      {
+        "category": "ads",
+        "classes": 3254,
+        "evidence": "dex-package",
+        "key": "facebook-audience-network",
+        "name": "Meta Audience Network (ads)",
+        "value": "com/facebook/ads/",
+        "vendor": "Meta"
+      },
+      {
+        "category": "mini-program",
+        "classes": 2415,
+        "evidence": "dex-package",
+        "key": "mpaas-ariver",
+        "name": "mPaaS / Ariver mini-program runtime",
+        "value": "com/alibaba/ariver/",
+        "vendor": "Alibaba Cloud"
+      },
+      {
+        "category": "mini-program",
+        "classes": 2228,
+        "evidence": "dex-package",
+        "key": "mpaas-ariver",
+        "name": "mPaaS / Ariver mini-program runtime",
+        "value": "com/alibaba/griver/",
+        "vendor": "Alibaba Cloud"
+      },
+      {
+        "category": "payments",
+        "classes": 1330,
+        "evidence": "dex-package",
+        "key": "iap-connect",
+        "name": "IAP Connect (cross-border acquiring)",
+        "value": "com/iap/ac/",
+        "vendor": "Alipay / Ant Group"
+      },
+      {
+        "category": "ui",
+        "classes": 1198,
+        "evidence": "dex-package",
+        "key": "media3",
+        "name": "AndroidX Media3 / ExoPlayer",
+        "value": "androidx/media3/",
+        "vendor": "Google"
+      },
+      {
+        "category": "payments",
+        "classes": 900,
+        "evidence": "dex-package",
+        "key": "visa-cbp",
+        "name": "Visa Cardholder Benefits Platform / Visa Payment SDK",
+        "value": "com/visa/cbp/",
+        "vendor": "Visa"
+      },
+      {
+        "category": "ui",
+        "classes": 813,
+        "evidence": "dex-package",
+        "key": "camerax",
+        "name": "CameraX",
+        "value": "androidx/camera/",
+        "vendor": "Google"
+      },
+      {
+        "category": "security",
+        "classes": 622,
+        "evidence": "dex-package",
+        "key": "trueid",
+        "name": "TrueID eKYC / liveness",
+        "value": "vn/ai/trueid/",
+        "vendor": "VNG"
+      },
+      {
+        "category": "ui",
+        "classes": 504,
+        "evidence": "dex-package",
+        "key": "compose",
+        "name": "Jetpack Compose",
+        "value": "androidx/compose/",
+        "vendor": "Google"
+      },
+      {
+        "category": "analytics",
+        "classes": 430,
+        "evidence": "dex-package",
+        "key": "appsflyer",
+        "name": "AppsFlyer attribution",
+        "value": "com/appsflyer/",
+        "vendor": "AppsFlyer"
+      },
+      {
+        "category": "crypto",
+        "classes": 360,
+        "evidence": "dex-package",
+        "key": "nimbus-jose",
+        "name": "Nimbus JOSE+JWT",
+        "value": "com/nimbusds/jose/",
+        "vendor": "Federated Identity"
+      }
+    ]
+  },
+  "network": {
+    "domains": 151,
+    "urls": 336,
+    "rollup": [
+      {
+        "domain": "zalopay.vn",
+        "urls": 35
+      },
+      {
+        "domain": "alipay.com",
+        "urls": 14
+      },
+      {
+        "domain": "google.com",
+        "urls": 8
+      },
+      {
+        "domain": "zalopay.com.vn",
+        "urls": 8
+      },
+      {
+        "domain": "visa.com",
+        "urls": 6
+      },
+      {
+        "domain": "alipaydev.com",
+        "urls": 4
+      },
+      {
+        "domain": "zaloapp.com",
+        "urls": 4
+      },
+      {
+        "domain": "zing.vn",
+        "urls": 4
+      },
+      {
+        "domain": "android.com",
+        "urls": 3
+      },
+      {
+        "domain": "alipayobjects.com",
+        "urls": 3
+      },
+      {
+        "domain": "googleapis.com",
+        "urls": 3
+      },
+      {
+        "domain": "facebook.com",
+        "urls": 3
+      },
+      {
+        "domain": "fpt.ai",
+        "urls": 3
+      },
+      {
+        "domain": "alipay.net",
+        "urls": 2
+      },
+      {
+        "domain": "vnpay.vn",
+        "urls": 2
+      }
+    ]
+  },
+  "resources": {
+    "entries": 16864,
+    "types": [
+      {
+        "count": 5076,
+        "name": "drawable"
+      },
+      {
+        "count": 4843,
+        "name": "string"
+      },
+      {
+        "count": 4069,
+        "name": "id"
+      },
+      {
+        "count": 2167,
+        "name": "layout"
+      },
+      {
+        "count": 1940,
+        "name": "dimen"
+      },
+      {
+        "count": 1834,
+        "name": "attr"
+      },
+      {
+        "count": 1461,
+        "name": "color"
+      },
+      {
+        "count": 1217,
+        "name": "style"
+      },
+      {
+        "count": 130,
+        "name": "anim"
+      },
+      {
+        "count": 95,
+        "name": "raw"
+      }
+    ]
+  },
+  "generatedAt": "2026-11-25T15:11:02.179Z"
+}
