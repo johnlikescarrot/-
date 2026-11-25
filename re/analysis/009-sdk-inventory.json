@@ -1,0 +1,74 @@
+{
+  "detected_sdks": [
+    {
+      "sdk": "Google Play Services",
+      "classes": 5933
+    },
+    {
+      "sdk": "Alibaba SDK",
+      "classes": 4821
+    },
+    {
+      "sdk": "AndroidX",
+      "classes": 4250
+    },
+    {
+      "sdk": "Meta / Facebook SDK",
+      "classes": 3622
+    },
+    {
+      "sdk": "VNG internal",
+      "classes": 958
+    },
+    {
+      "sdk": "Alipay SDK",
+      "classes": 493
+    },
+    {
+      "sdk": "OkHttp",
+      "classes": 335
+    },
+    {
+      "sdk": "RxJava",
+      "classes": 266
+    },
+    {
+      "sdk": "Google Material Components",
+      "classes": 234
+    },
+    {
+      "sdk": "Firebase",
+      "classes": 221
+    },
+    {
+      "sdk": "Glide",
+      "classes": 213
+    },
+    {
+      "sdk": "Retrofit",
+      "classes": 137
+    },
+    {
+      "sdk": "Picasso",
+      "classes": 81
+    },
+    {
+      "sdk": "Dagger",
+      "classes": 51
+    },
+    {
+      "sdk": "Kotlin stdlib / coroutines",
+      "classes": 23
+    },
+    {
+      "sdk": "EventBus",
+      "classes": 20
+    },
+    {
+      "sdk": "ZXing",
+      "classes": 17
+    }
+  ],
+  "method_index_classes": 878,
+  "method_index_total_methods": 7079
+}

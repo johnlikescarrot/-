@@ -1,0 +1,301 @@
+{
+  "app_namespace": "vn.com.vng.zalopay",
+  "own_classes_total": 897,
+  "own_methods_total": 7079,
+  "modules": [
+    {
+      "module": "bankbinding",
+      "classes": 200
+    },
+    {
+      "module": "homev5",
+      "classes": 116
+    },
+    {
+      "module": "data",
+      "classes": 72
+    },
+    {
+      "module": "webapp",
+      "classes": 43
+    },
+    {
+      "module": "miniapp",
+      "classes": 39
+    },
+    {
+      "module": "alipay",
+      "classes": 34
+    },
+    {
+      "module": "search",
+      "classes": 30
+    },
+    {
+      "module": "livenessdetection",
+      "classes": 18
+    },
+    {
+      "module": "network_monitor",
+      "classes": 18
+    },
+    {
+      "module": "authentication",
+      "classes": 17
+    },
+    {
+      "module": "cashin",
+      "classes": 14
+    },
+    {
+      "module": "withdraw",
+      "classes": 14
+    },
+    {
+      "module": "domain",
+      "classes": 13
+    },
+    {
+      "module": "internal",
+      "classes": 13
+    },
+    {
+      "module": "passport",
+      "classes": 13
+    },
+    {
+      "module": "quickpay_native",
+      "classes": 13
+    },
+    {
+      "module": "app_widget",
+      "classes": 12
+    },
+    {
+      "module": "loginv2",
+      "classes": 12
+    },
+    {
+      "module": "nfc",
+      "classes": 12
+    },
+    {
+      "module": "user_profile",
+      "classes": 12
+    },
+    {
+      "module": "ui",
+      "classes": 11
+    },
+    {
+      "module": "webview",
+      "classes": 11
+    },
+    {
+      "module": "pdfviewer",
+      "classes": 10
+    },
+    {
+      "module": "protect",
+      "classes": 10
+    },
+    {
+      "module": "feature",
+      "classes": 9
+    },
+    {
+      "module": "account",
+      "classes": 8
+    },
+    {
+      "module": "cashier",
+      "classes": 8
+    },
+    {
+      "module": "receive_money",
+      "classes": 8
+    },
+    {
+      "module": "core",
+      "classes": 7
+    },
+    {
+      "module": "clearing",
+      "classes": 6
+    },
+    {
+      "module": "logindevice",
+      "classes": 6
+    },
+    {
+      "module": "skewface",
+      "classes": 6
+    },
+    {
+      "module": "closeaccount",
+      "classes": 5
+    },
+    {
+      "module": "splashscreen",
+      "classes": 5
+    },
+    {
+      "module": "user",
+      "classes": 5
+    },
+    {
+      "module": "workers",
+      "classes": 4
+    },
+    {
+      "module": "changepin",
+      "classes": 3
+    },
+    {
+      "module": "homev4",
+      "classes": 3
+    },
+    {
+      "module": "network",
+      "classes": 3
+    },
+    {
+      "module": "pay_by_wallet_native",
+      "classes": 3
+    },
+    {
+      "module": "profile_tab_v2",
+      "classes": 3
+    },
+    {
+      "module": "scanqr",
+      "classes": 3
+    },
+    {
+      "module": "vitals",
+      "classes": 3
+    },
+    {
+      "module": "configloader",
+      "classes": 2
+    },
+    {
+      "module": "home_more",
+      "classes": 2
+    },
+    {
+      "module": "inapp_webview",
+      "classes": 2
+    },
+    {
+      "module": "mini_app_state",
+      "classes": 2
+    },
+    {
+      "module": "my_qr",
+      "classes": 2
+    },
+    {
+      "module": "navigation",
+      "classes": 2
+    },
+    {
+      "module": "permission",
+      "classes": 2
+    },
+    {
+      "module": "receivers",
+      "classes": 2
+    },
+    {
+      "module": "reformkyc",
+      "classes": 2
+    },
+    {
+      "module": "tenpay",
+      "classes": 2
+    },
+    {
+      "module": "vnpay_native",
+      "classes": 2
+    },
+    {
+      "module": "widget",
+      "classes": 2
+    },
+    {
+      "module": "AndroidApplication",
+      "classes": 1
+    },
+    {
+      "module": "BaseApplication",
+      "classes": 1
+    },
+    {
+      "module": "DataBinderMapperImpl",
+      "classes": 1
+    },
+    {
+      "module": "appinfo",
+      "classes": 1
+    },
+    {
+      "module": "behaviorguideline",
+      "classes": 1
+    },
+    {
+      "module": "camera",
+      "classes": 1
+    },
+    {
+      "module": "cashier_v3",
+      "classes": 1
+    },
+    {
+      "module": "deeplink",
+      "classes": 1
+    },
+    {
+      "module": "exception",
+      "classes": 1
+    },
+    {
+      "module": "liveness",
+      "classes": 1
+    },
+    {
+      "module": "lockscreen",
+      "classes": 1
+    },
+    {
+      "module": "notification",
+      "classes": 1
+    },
+    {
+      "module": "resetpin",
+      "classes": 1
+    },
+    {
+      "module": "result_page_v3",
+      "classes": 1
+    },
+    {
+      "module": "scancode",
+      "classes": 1
+    },
+    {
+      "module": "shareqr",
+      "classes": 1
+    },
+    {
+      "module": "storage_management",
+      "classes": 1
+    },
+    {
+      "module": "updatephone",
+      "classes": 1
+    }
+  ],
+  "total_classes_in_app": 63827,
+  "third_party_class_share": 98.59
+}

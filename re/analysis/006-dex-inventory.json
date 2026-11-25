@@ -1,0 +1,987 @@
+{
+  "generated_at_utc": "2026-11-25T15:07:57Z",
+  "base_apk": "work/extract/xapk/vn.com.vng.zalopay.apk",
+  "app_namespace": "vn/com/vng/zalopay",
+  "dex_files": [
+    {
+      "file": "audience_network.dex",
+      "size_bytes": 4864036,
+      "sha256": "10dc305fb2869db288bec2e114b32303dd627190dd6b23126d5e7aa610e44938",
+      "classes": 3156,
+      "strings": 30638,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.google.android.exoplayer2",
+          42
+        ],
+        [
+          "com.facebook.ads.internal",
+          16
+        ],
+        [
+          "com.google.common.base",
+          3
+        ],
+        [
+          "com.facebook.video.heroplayer",
+          2
+        ],
+        [
+          "com.google.common.collect",
+          2
+        ],
+        [
+          "com.google.errorprone.annotations",
+          2
+        ],
+        [
+          "com.google.common.math",
+          1
+        ],
+        [
+          "com.facebook.kotlin.compilerplugins",
+          1
+        ],
+        [
+          "com.google.common.primitives",
+          1
+        ]
+      ]
+    },
+    {
+      "file": "classes.dex",
+      "size_bytes": 8831004,
+      "sha256": "4572f052124fb4ebe9859e7311dd08251487ef258e6e39215456fe2918ceb9eb",
+      "classes": 10703,
+      "strings": 61218,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ],
+        [
+          "androidx.camera.camera2.internal",
+          192
+        ],
+        [
+          "com.xq.cxzmoiwuegvp.b",
+          173
+        ],
+        [
+          "androidx.glance.appwidget.protobuf",
+          162
+        ],
+        [
+          "com.alibaba.griver.api",
+          157
+        ]
+      ]
+    },
+    {
+      "file": "classes10.dex",
+      "size_bytes": 78204,
+      "sha256": "c2523d14c1373950903f7477cf383f906428d23a62993b90dff72060723a928d",
+      "classes": 92,
+      "strings": 920,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ],
+        [
+          "androidx.camera.camera2.internal",
+          192
+        ],
+        [
+          "com.xq.cxzmoiwuegvp.b",
+          173
+        ],
+        [
+          "androidx.glance.appwidget.protobuf",
+          162
+        ],
+        [
+          "com.alibaba.griver.api",
+          157
+        ]
+      ]
+    },
+    {
+      "file": "classes11.dex",
+      "size_bytes": 163420,
+      "sha256": "c6ee2d78f32137cb5450b9cf0fd55cebff8704328d4b9e719981d69b34160b2e",
+      "classes": 177,
+      "strings": 1584,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ],
+        [
+          "androidx.camera.camera2.internal",
+          192
+        ],
+        [
+          "com.xq.cxzmoiwuegvp.b",
+          173
+        ],
+        [
+          "androidx.glance.appwidget.protobuf",
+          162
+        ],
+        [
+          "com.alibaba.griver.api",
+          157
+        ]
+      ]
+    },
+    {
+      "file": "classes12.dex",
+      "size_bytes": 398276,
+      "sha256": "6742bfd85b7f61e18325045282b0ab6f8ad2ba7e4900217975c1a092889a2788",
+      "classes": 425,
+      "strings": 3207,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ],
+        [
+          "androidx.camera.camera2.internal",
+          192
+        ],
+        [
+          "com.xq.cxzmoiwuegvp.b",
+          173
+        ],
+        [
+          "androidx.glance.appwidget.protobuf",
+          162
+        ],
+        [
+          "com.alibaba.griver.api",
+          157
+        ]
+      ]
+    },
+    {
+      "file": "classes13.dex",
+      "size_bytes": 145824,
+      "sha256": "eb3fffe1dace3619cfb27fcb4eb88e3def404e5ddb59e1fd85b05d2c48b659df",
+      "classes": 139,
+      "strings": 1381,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ],
+        [
+          "androidx.camera.camera2.internal",
+          192
+        ],
+        [
+          "com.xq.cxzmoiwuegvp.b",
+          173
+        ],
+        [
+          "androidx.glance.appwidget.protobuf",
+          162
+        ],
+        [
+          "com.alibaba.griver.api",
+          157
+        ]
+      ]
+    },
+    {
+      "file": "classes14.dex",
+      "size_bytes": 81748,
+      "sha256": "63bc3727cf4b3674f8021471d7c0746666d9c76a999571bf300c097ab02720ee",
+      "classes": 90,
+      "strings": 961,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ],
+        [
+          "androidx.camera.camera2.internal",
+          192
+        ],
+        [
+          "com.xq.cxzmoiwuegvp.b",
+          173
+        ],
+        [
+          "androidx.glance.appwidget.protobuf",
+          162
+        ],
+        [
+          "com.alibaba.griver.api",
+          157
+        ]
+      ]
+    },
+    {
+      "file": "classes15.dex",
+      "size_bytes": 82152,
+      "sha256": "a8b037ff84ee078e100c3362f329900d0b7d7c2e4ab5d3fd6bf014504afb5b6e",
+      "classes": 113,
+      "strings": 1005,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ],
+        [
+          "androidx.camera.camera2.internal",
+          192
+        ],
+        [
+          "com.xq.cxzmoiwuegvp.b",
+          173
+        ],
+        [
+          "androidx.glance.appwidget.protobuf",
+          162
+        ],
+        [
+          "com.alibaba.griver.api",
+          157
+        ]
+      ]
+    },
+    {
+      "file": "classes16.dex",
+      "size_bytes": 15916,
+      "sha256": "331b4ebe76e9a71501cb6d912fe80295365e407b771c07434310f5c0b1b49ef1",
+      "classes": 20,
+      "strings": 261,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ],
+        [
+          "androidx.camera.camera2.internal",
+          192
+        ],
+        [
+          "com.xq.cxzmoiwuegvp.b",
+          173
+        ],
+        [
+          "androidx.glance.appwidget.protobuf",
+          162
+        ],
+        [
+          "com.alibaba.griver.api",
+          157
+        ]
+      ]
+    },
+    {
+      "file": "classes17.dex",
+      "size_bytes": 208476,
+      "sha256": "70f01df8cb8b396616aff93345018a06f69a922c2cfc9c60d3c6a49dadb4d333",
+      "classes": 243,
+      "strings": 1847,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ],
+        [
+          "androidx.camera.camera2.internal",
+          192
+        ],
+        [
+          "com.xq.cxzmoiwuegvp.b",
+          173
+        ],
+        [
+          "androidx.glance.appwidget.protobuf",
+          162
+        ],
+        [
+          "com.alibaba.griver.api",
+          157
+        ]
+      ]
+    },
+    {
+      "file": "classes18.dex",
+      "size_bytes": 95920,
+      "sha256": "326bdb3326e630df71334a3486447f0c32758c5c6828485b5f466b74d1b9bdba",
+      "classes": 115,
+      "strings": 1094,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ],
+        [
+          "androidx.camera.camera2.internal",
+          192
+        ],
+        [
+          "com.xq.cxzmoiwuegvp.b",
+          173
+        ],
+        [
+          "androidx.glance.appwidget.protobuf",
+          162
+        ],
+        [
+          "com.alibaba.griver.api",
+          157
+        ]
+      ]
+    },
+    {
+      "file": "classes19.dex",
+      "size_bytes": 719548,
+      "sha256": "4e7f019ebd9b76f66a9727fa841026e194f2d389350de6fe63dffb95820429a9",
+      "classes": 777,
+      "strings": 4159,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ],
+        [
+          "androidx.camera.camera2.internal",
+          192
+        ],
+        [
+          "com.xq.cxzmoiwuegvp.b",
+          173
+        ],
+        [
+          "androidx.glance.appwidget.protobuf",
+          162
+        ],
+        [
+          "com.alibaba.griver.api",
+          157
+        ]
+      ]
+    },
+    {
+      "file": "classes2.dex",
+      "size_bytes": 16516960,
+      "sha256": "af4987a99dd7bb69a835933be5e6ee5ec412de051bb0958fb253742b3fd462d9",
+      "classes": 7421,
+      "strings": 56948,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.iap.ac.android",
+          1077
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.visa.visapaysdk.sdk",
+          309
+        ],
+        [
+          "com.iap.android.mppclient",
+          242
+        ],
+        [
+          "io.reactivex.internal.operators",
+          203
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ]
+      ]
+    },
+    {
+      "file": "classes3.dex",
+      "size_bytes": 850600,
+      "sha256": "7e84baa2c50fd46554628176ee7a802bb13f36e7cfe1278efbed2739a4d14881",
+      "classes": 1081,
+      "strings": 8010,
+      "top_namespaces": [
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.iap.ac.android",
+          1077
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.visa.visapaysdk.sdk",
+          309
+        ],
+        [
+          "com.iap.android.mppclient",
+          242
+        ],
+        [
+          "io.reactivex.internal.operators",
+          203
+        ],
+        [
+          "com.alibaba.ariver.resource",
+          193
+        ]
+      ]
+    },
+    {
+      "file": "classes4.dex",
+      "size_bytes": 9418124,
+      "sha256": "77eb2deb3c18c0a56742d2fc5b7974a791b2b31298961c65dc9b3db8427602af",
+      "classes": 11441,
+      "strings": 52812,
+      "top_namespaces": [
+        [
+          "com.google.android.gms",
+          5340
+        ],
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "com.iap.ac.android",
+          1077
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.visa.visapaysdk.sdk",
+          309
+        ],
+        [
+          "org.bouncycastle.oer.its",
+          246
+        ],
+        [
+          "com.iap.android.mppclient",
+          242
+        ]
+      ]
+    },
+    {
+      "file": "classes5.dex",
+      "size_bytes": 7357484,
+      "sha256": "c6fdc65622c1855a53a7e86ef695a7575f9fe27284e6e6555d52017a122fa9b4",
+      "classes": 7983,
+      "strings": 56424,
+      "top_namespaces": [
+        [
+          "com.google.android.gms",
+          5493
+        ],
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "org.bouncycastle.jcajce.provider",
+          1581
+        ],
+        [
+          "com.iap.ac.android",
+          1077
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          712
+        ],
+        [
+          "com.alibaba.griver.core",
+          577
+        ],
+        [
+          "com.alibaba.griver.base",
+          331
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          325
+        ],
+        [
+          "com.alibaba.ariver.app",
+          309
+        ],
+        [
+          "com.visa.visapaysdk.sdk",
+          309
+        ]
+      ]
+    },
+    {
+      "file": "classes6.dex",
+      "size_bytes": 7612432,
+      "sha256": "1484dd8a338f8526b21d375325f5cb2aa4f596e471758e36e3d142ebf0ec3518",
+      "classes": 5475,
+      "strings": 55274,
+      "top_namespaces": [
+        [
+          "com.google.android.gms",
+          5933
+        ],
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "org.bouncycastle.jcajce.provider",
+          1629
+        ],
+        [
+          "com.iap.ac.android",
+          1189
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          799
+        ],
+        [
+          "com.alibaba.griver.core",
+          630
+        ],
+        [
+          "com.alibaba.griver.base",
+          436
+        ],
+        [
+          "com.alibaba.ariver.kernel",
+          386
+        ],
+        [
+          "com.alibaba.ariver.app",
+          360
+        ],
+        [
+          "com.visa.visapaysdk.sdk",
+          325
+        ]
+      ]
+    },
+    {
+      "file": "classes7.dex",
+      "size_bytes": 10803680,
+      "sha256": "5f356407a685dbe335719b9c8b34d1e47870b15634cc6f856e3bc12401726ff2",
+      "classes": 12953,
+      "strings": 59110,
+      "top_namespaces": [
+        [
+          "com.google.android.gms",
+          5933
+        ],
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "org.bouncycastle.jcajce.provider",
+          1629
+        ],
+        [
+          "com.iap.ac.android",
+          1189
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          799
+        ],
+        [
+          "vn.com.vng.zalopay",
+          751
+        ],
+        [
+          "com.alibaba.griver.core",
+          630
+        ],
+        [
+          "org.bouncycastle.pqc.crypto",
+          476
+        ],
+        [
+          "org.bouncycastle.pqc.jcajce",
+          468
+        ],
+        [
+          "com.alibaba.griver.base",
+          436
+        ]
+      ]
+    },
+    {
+      "file": "classes8.dex",
+      "size_bytes": 239036,
+      "sha256": "2e6d27956d455d475a7d0242bb128b9be48a6be7f37d599ed541541daa53a177",
+      "classes": 295,
+      "strings": 1906,
+      "top_namespaces": [
+        [
+          "com.google.android.gms",
+          5933
+        ],
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "org.bouncycastle.jcajce.provider",
+          1629
+        ],
+        [
+          "com.iap.ac.android",
+          1189
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          799
+        ],
+        [
+          "vn.com.vng.zalopay",
+          752
+        ],
+        [
+          "com.alibaba.griver.core",
+          630
+        ],
+        [
+          "org.bouncycastle.pqc.crypto",
+          476
+        ],
+        [
+          "org.bouncycastle.pqc.jcajce",
+          468
+        ],
+        [
+          "com.alibaba.griver.base",
+          436
+        ]
+      ]
+    },
+    {
+      "file": "classes9.dex",
+      "size_bytes": 1218908,
+      "sha256": "e9b46539c92987be18e840d9ffdc338e00505d52a04e117cc79ccbd8337522f5",
+      "classes": 1128,
+      "strings": 6155,
+      "top_namespaces": [
+        [
+          "com.google.android.gms",
+          5933
+        ],
+        [
+          "com.facebook.ads.redexgen",
+          3072
+        ],
+        [
+          "org.bouncycastle.jcajce.provider",
+          1629
+        ],
+        [
+          "com.iap.ac.android",
+          1189
+        ],
+        [
+          "vn.com.vng.zalopay",
+          952
+        ],
+        [
+          "com.alibaba.ariver.commonability",
+          799
+        ],
+        [
+          "com.alibaba.griver.core",
+          630
+        ],
+        [
+          "org.bouncycastle.pqc.crypto",
+          476
+        ],
+        [
+          "org.bouncycastle.pqc.jcajce",
+          468
+        ],
+        [
+          "com.alibaba.griver.base",
+          436
+        ]
+      ]
+    }
+  ]
+}

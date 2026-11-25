@@ -1,0 +1,4177 @@
+{
+  "counts": {
+    "activities": 202,
+    "services": 34,
+    "receivers": 22,
+    "providers": 9
+  },
+  "exported_counts": {
+    "activities": 16,
+    "services": 6,
+    "receivers": 8,
+    "providers": 0
+  },
+  "exported_names": {
+    "activities": [
+      "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+      "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+      "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+      "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+      "com.facebook.CustomTabActivity",
+      "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+      "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+      "androidx.compose.ui.tooling.PreviewActivity",
+      "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+      "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+      "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+      "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "vn.zalopay.apps.ZaloAppActivityAlias"
+    ],
+    "services": [
+      "vn.com.vng.zalopay.notification.MyFcmListenerService",
+      "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+      "androidx.glance.appwidget.GlanceRemoteViewsService",
+      "androidx.work.impl.background.systemjob.SystemJobService",
+      "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+      "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService"
+    ],
+    "receivers": [
+      "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+      "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+      "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+      "androidx.profileinstaller.ProfileInstallReceiver"
+    ],
+    "providers": []
+  },
+  "components": {
+    "activities": [
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.miniapp.ui.MiniAppActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.miniapp.error.NoWebViewSdkActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.MAIN"
+            ],
+            "categories": [
+              "android.intent.category.LAUNCHER"
+            ],
+            "data": []
+          },
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.BROWSABLE",
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              {
+                "scheme": "https",
+                "host": "go.zalopay.vn",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "https://go.zalopay.vn"
+              }
+            ]
+          },
+          {
+            "actions": [
+              "android.intent.action.VIEW",
+              "android.nfc.action.NDEF_DISCOVERED"
+            ],
+            "categories": [
+              "android.intent.category.BROWSABLE",
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              {
+                "scheme": "https",
+                "host": "onelink.zalopay.vn",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "https://onelink.zalopay.vn"
+              }
+            ]
+          },
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.BROWSABLE",
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              {
+                "scheme": "https",
+                "host": "kmzalopay.onelink.me",
+                "port": null,
+                "path": null,
+                "pathPrefix": "/TSui",
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "https://kmzalopay.onelink.me"
+              }
+            ]
+          },
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.BROWSABLE",
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              {
+                "scheme": "https",
+                "host": "km.zalopay.vn",
+                "port": null,
+                "path": null,
+                "pathPrefix": "/TSui",
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "https://km.zalopay.vn"
+              }
+            ]
+          },
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.BROWSABLE",
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              {
+                "scheme": "zalopay",
+                "host": "app",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay://app"
+              }
+            ]
+          },
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ],
+            "data": [
+              {
+                "scheme": "zalopay-vnpay",
+                "host": null,
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay-vnpay://"
+              }
+            ]
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "com.google.android.payments.standard.AUTHENTICATE_V1"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.ui.activity.HomeActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.WebViewActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "vn.zalopay.intent.action.WEBVIEW"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": []
+          }
+        ]
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.ResetPinWebViewActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.HomeSearchWebViewActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.BalanceLiquidationWebViewActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.VerificationAtBankCounterWebViewActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.update_personal_info.UpdatePersonalInfoWebViewActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.webapp.activity.UpdatePhoneWebAppActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.webapp.activity.ManualResetPinWebAppActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.webapp.activity.WebAppExternalActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.protect.ui.ProtectAccountActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.logindevice.LoginDevicesActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.clearing.ClearingAccountActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.zing.zalo.zalosdk.oauth.WebLoginActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.core.ui.activity.TutorialConnectInternetActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.lockscreen.LockScreenActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.appinfo.AppInfoActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.passport.ForceUpdatePhoneActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.behaviorguideline.LoginGuidelineActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.closeaccount.presentation.ui.CloseAccountActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.logindevice.DeviceVerificationActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.passport.LockAccountActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.reformkyc.presentation.ui.ReformKycActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.feature.ui.FeatureModuleRoutingActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.camera.CustomDefaultCamera",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.ui.balance.activity.BalanceActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.cashier.buffer.CashierBufferActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.cashier.middle.CashierMiddlePageActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vn.zalopay.upgrade_user_profile.presentation.ReformKycActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.profiledetails.ProfileDetailsActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.profiledetailv2.ProfileDetailsV2Activity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.additionalinfo.AdditionalProfileInfoActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.editheaderinfo.EditAvatarAndNameActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.camera.CameraAutoRotationImage",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.protectaccount.AccountSecurityActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.umminiapps.UMMiniAppActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.umminiapps.DebugAuditActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.homev5.presenter.ui.routing.HomeRoutingActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.homev5.presenter.ui.home.HomeActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.homev5.presenter.ui.onboarding.OnboardingActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.homev5.presenter.ui.ekyc_intro.EkycIntroActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.homev5.presenter.ui.story_collections_player.StoryCollectionsPlayerActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.scanqr.presentation.v2.ScanQRActivityV2",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.scancode.presentation.ScanCodeActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.alipay.presentation.AlipayEmptyScanQRActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.alipay.presentation.dialog.AlipayErrorDialogActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.homev4.presentation.ui.recommendsystem.RecommendSystemActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.homev4.presentation.ui.onboarding.HomeOnBoardingActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.home_more.presentation.ui.home_more.HomeMoreActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.search.presentation.ui.search.SearchActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.ekycpro.presentation.main.MainEKycActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.ekycpro.presentation.nfc.MainNFCFeatureActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.ekycpro.presentation.guardian_consent.GuardianInfoActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.ekycpro.presentation.selfie.SelfieActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.ekycpro.presentation.bca.ui.activity.BcaActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.balance_liquidation.presentation.BalanceLiquidationActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ],
+            "data": [
+              {
+                "scheme": "https",
+                "host": "go.zalopay.vn",
+                "port": null,
+                "path": null,
+                "pathPrefix": "/launch/f/user-consensus-zlp-vneid",
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "https://go.zalopay.vn"
+              }
+            ]
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.profile_tab_v2.presentation.ui.account.AccountHostActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.profile_tab_v2.presentation.ui.privacy.PrivacyHubActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.pdfviewer.PdfViewerActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.permission.notification.presentation.NotificationPermissionActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.permission.location.presentation.LocationPermissionActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.skewface.presentation.activity.SkewFaceActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.nfc.FundingSolutionNFCActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.my_qr.MyQRActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.quickpay_native.presentation.ui.QuickPayNativeActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.pay_by_wallet_native.presentation.ui.PayByWalletReadyToPayActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.storage_management.presentation.StorageManagementActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.SEND"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              {
+                "scheme": null,
+                "host": null,
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": "image/*",
+                "uri": null
+              }
+            ]
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.receive_money.ReceiveMoneyActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.reset_pin.presentation.ui.ResetPinContainerViewActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.reset_pin.presentation.pin_creation.CreatePinActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.owner_verification.presentation.ui.OVContainerViewActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.auth.presentation.faceauth.components.selfdev.ui.SelfDevCameraActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.auth.presentation.faceauth.FaceAuthActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.auth.presentation.otp.OTPChallengeActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.auth.presentation.otp.popup.OTPChallengeRootActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.auth.presentation.smartotp.SmartOTPActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.auth.presentation.mfa.view.AuthUIHolderActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.ce_ticket.presentation.ui.CETicketContainerActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.livenessdetection.presentation.FaceLivenessCameraXActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.livenessdetection.presentation.face_auth_revamp.FaceLivenessRevampActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "vn.com.vng.zalopay.ACTION_OPEN_ML_EXTRACT_ID_CARD"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.livenessdetection.presentation.qrcode.QRCodeScannerActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.zalopay.nfc_sdk.nfc_in_house.BottomSheetNFC",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.tenpay.TPGPaymentActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.tenpay.image_preview.ImagePreviewActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.zalopay.ui.um_custom_loading.FullScreenLoadingActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.zalopay.ui.um_custom_loading.CenterLoadingActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.zing.zalo.zalosdk.oauth.OpenAPIActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.facebook.FacebookActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.facebook.CustomTabMainActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.facebook.CustomTabActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ],
+            "data": [
+              {
+                "scheme": "fbconnect",
+                "host": "cct.vn.com.vng.zalopay",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "fbconnect://cct.vn.com.vng.zalopay"
+              }
+            ]
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.inapp_webview.InternalWebViewActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.karumi.dexter.DexterActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.android.billingclient.api.ProxyBillingActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.android.billingclient.api.ProxyBillingActivityV2",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ],
+            "data": [
+              {
+                "scheme": "tagmanager.c.vn.com.vng.zalopay",
+                "host": null,
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "tagmanager.c.vn.com.vng.zalopay://"
+              }
+            ]
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "com.google.android.gms.common.api.GoogleApiActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "androidx.glance.appwidget.action.ActionTrampolineActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "androidx.glance.appwidget.action.InvisibleActionTrampolineActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.google.android.gms.ads.AdActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.google.android.gms.ads.OutOfContextTestingActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.google.android.gms.ads.NotificationHandlerActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.MAIN"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.MAIN"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.MAIN"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "androidx.compose.ui.tooling.PreviewActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "com.facebook.ads.AudienceNetworkActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.iap.android.mppclient.container.activity.ACContainerActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.iap.android.mppclient.container.activity.H5NetworkCheckActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "yydamachy.xqcntsk",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": ":taibmcf",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.splash.SplashActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.SelectAddressActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.setting.DetailAddressActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.book.BookActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.search.SearchAddressActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.setting.AddressSettingActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.search.SearchOnMapActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.setting.ChooseAddressActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.DetailBookTaxiActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.history.TaxiHistoryActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.history.DetailHistoryTaxiActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.TaxiBrowserActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.TaxiWebviewLinkActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.voucher.list.VoucherListActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.voucher.detail.VoucherDetailActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.note.note.ClientNoteActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.note.invoice.ExtractInvoiceActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.airport.TaxiAirportActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.search.ConfirmOnMapActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.selectpartner.TaxiBrandActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.report.FastReportTaxiActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.fragments.book.TaxiHelpMethodActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.insurance.TaxiInsuranceActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "vn.ai.trueid.sdk.activity.TrueIDActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.ai.trueid.sdk.facev3.present.presentation.LivenessCameraXActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.ai.trueid.sdk.activity.SotpConfirmActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.ui.jsapi.picker.nebula.wheelview.multilevel.MultilevelSelectActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Main",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back1",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back2",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back3",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back4",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back5",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back6",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverFileChooserActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite1",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite1",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite2",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite2",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite3",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite3",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Main",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite1",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite1",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite2",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite2",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite3",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite3",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back1",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back2",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back3",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back4",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back5",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back6",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.core.keepalive.GriverProxyActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.image.activity.GriverPhotoSelectActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.image.activity.GriverPhotoPreviewActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.image.activity.GriverVideoPreviewActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.image.activity.GriverCaptureActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.image.activity.GriverCapturePreviewActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.device.ui.GriverOpenSettingActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.alibaba.griver.file.ui.FileViewerActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "com.iap.ac.android.acs.plugin.downgrade.ui.ErrorPageActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": "true",
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.changepin.presentation.ui.activity.ChangePinActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.resetpin.presentation.ui.activity.ResetPinActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.loginv2.presentation.ui.login.LoginActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.loginv2.presentation.ui.upgradeuserk0k1.UpgradeUserK0K1Activity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.loginv2.presentation.ui.otp.OtpVerificationActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.loginv2.presentation.ui.webview.LoginWebViewActivity",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.cashier.presentation.ui.main.MainCashierV2Activity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.cashier.presentation.ui.otp.DOtpErrorActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.cashier.presentation.ui.web.activity.CashierWebActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.cashier.presentation.newui.CashierNewUIActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankBindingActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankMediaWebViewActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.FundManagementActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.updatephone.presentation.ui.UpdatePhoneActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.cashin.presentation.ui.activity.CashInActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.resultpage.presentation.ui.activity.ResultPageV2Activity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.resultpage.presentation.ui.webview.RPWebActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.resultpage.presentation.newui.ResultPageNewUIActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.resultpage.presentation.newuinative.ResultPageNativeActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.withdraw.presentation.ui.activity.WithdrawActivity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.cashier_v3.presentation.main.activity.CashierV3Activity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.result_page_v3.presentation.main.activity.ResultPageV3Activity",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity",
+        "name": "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity",
+        "name": "amcsetxek.dmayljy",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": ":xcmzqsawpqoefcds",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "activity-alias",
+        "name": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.VIEW"
+            ],
+            "categories": [
+              "android.intent.category.BROWSABLE",
+              "android.intent.category.DEFAULT"
+            ],
+            "data": [
+              {
+                "scheme": "zalopay-1",
+                "host": "post",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay-1://post"
+              },
+              {
+                "scheme": "zalopay-1",
+                "host": "backtoapp",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay-1://backtoapp"
+              },
+              {
+                "scheme": "zalopay-1",
+                "host": "backtologin",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay-1://backtologin"
+              },
+              {
+                "scheme": "zalopay",
+                "host": "zalopay.vn",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay://zalopay.vn"
+              },
+              {
+                "scheme": "zalopay",
+                "host": "otp",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay://otp"
+              },
+              {
+                "scheme": "zalopay",
+                "host": "pay",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay://pay"
+              },
+              {
+                "scheme": "zalopay",
+                "host": "clearing",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay://clearing"
+              },
+              {
+                "scheme": "zalopay",
+                "host": null,
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay://"
+              },
+              {
+                "scheme": null,
+                "host": "launch",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": null
+              },
+              {
+                "scheme": "zalopay",
+                "host": "merchant",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay://merchant"
+              },
+              {
+                "scheme": "zalopay",
+                "host": "events",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay://events"
+              },
+              {
+                "scheme": "zalopay.api.v2",
+                "host": "pay",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay.api.v2://pay"
+              },
+              {
+                "scheme": "zalopay.api.v2",
+                "host": "auth",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay.api.v2://auth"
+              },
+              {
+                "scheme": "zalopay.api.v2",
+                "host": "recoverpassword",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay.api.v2://recoverpassword"
+              },
+              {
+                "scheme": "zalopay",
+                "host": "promotions",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay://promotions"
+              },
+              {
+                "scheme": "zalopay",
+                "host": "cashier",
+                "port": null,
+                "path": null,
+                "pathPrefix": null,
+                "pathPattern": null,
+                "mimeType": null,
+                "uri": "zalopay://cashier"
+              }
+            ]
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "activity-alias",
+        "name": "vn.zalopay.apps.ZaloAppActivityAlias",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "vn.zalopay.intent.action.SEND_MONEY"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      }
+    ],
+    "services": [
+      {
+        "type": "service",
+        "name": "vn.com.vng.zalopay.notification.MyFcmListenerService",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "com.google.firebase.MESSAGING_EVENT"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "service",
+        "name": "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+        "exported": "true",
+        "enabled": "true",
+        "permission": "android.permission.BIND_NFC_SERVICE",
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "service",
+        "name": "com.google.firebase.components.ComponentDiscoveryService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": "true",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": "true",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.google.android.gms.tagmanager.TagManagerService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.google.firebase.messaging.FirebaseMessagingService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": "true",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "com.google.firebase.MESSAGING_EVENT"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ]
+      },
+      {
+        "type": "service",
+        "name": "com.google.firebase.sessions.SessionLifecycleService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.google.android.gms.measurement.AppMeasurementService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.google.android.gms.measurement.AppMeasurementJobService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": "android.permission.BIND_JOB_SERVICE",
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "androidx.camera.core.impl.MetadataHolderService",
+        "exported": "false",
+        "enabled": "false",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "androidx.glance.appwidget.GlanceRemoteViewsService",
+        "exported": "true",
+        "enabled": "true",
+        "permission": "android.permission.BIND_REMOTEVIEWS",
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "service",
+        "name": "com.google.android.gms.ads.AdService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+        "exported": "false",
+        "enabled": "@7F050005",
+        "permission": null,
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "androidx.work.impl.background.systemjob.SystemJobService",
+        "exported": "true",
+        "enabled": "@7F050007",
+        "permission": "android.permission.BIND_JOB_SERVICE",
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "service",
+        "name": "androidx.work.impl.foreground.SystemForegroundService",
+        "exported": "false",
+        "enabled": "@7F050006",
+        "permission": null,
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "androidx.room.MultiInstanceInvalidationService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": "true",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "androidx.core.widget.RemoteViewsCompatService",
+        "exported": null,
+        "enabled": "true",
+        "permission": "android.permission.BIND_REMOTEVIEWS",
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": "android.permission.BIND_JOB_SERVICE",
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.vnpay.vntaxi.base.gps.FusedLocationService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.ariver.ipc.RemoteCallService",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataMainService",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService1",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite1",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService2",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite2",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService3",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite3",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService4",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite4",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService5",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite5",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+        "exported": "true",
+        "enabled": "true",
+        "permission": "android.permission.BIND_NFC_SERVICE",
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.griver.base.resource.predownload.AppPreDownloadJobSchedulerService",
+        "exported": null,
+        "enabled": "true",
+        "permission": "android.permission.BIND_JOB_SERVICE",
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.griver.core.kernel.ipc.server.IpcMsgServerService",
+        "exported": null,
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite1",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite1",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite2",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite2",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite3",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": ":lite3",
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "service",
+        "name": "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService",
+        "exported": "true",
+        "enabled": "true",
+        "permission": "android.permission.BIND_NFC_SERVICE",
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+            ],
+            "categories": [
+              "android.intent.category.DEFAULT"
+            ],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      }
+    ],
+    "receivers": [
+      {
+        "type": "receiver",
+        "name": "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "com.android.vending.INSTALL_REFERRER"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "receiver",
+        "name": "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "receiver",
+        "name": "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "receiver",
+        "name": "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "receiver",
+        "name": "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+        "exported": "true",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "receiver",
+        "name": "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ]
+      },
+      {
+        "type": "receiver",
+        "name": "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ]
+      },
+      {
+        "type": "receiver",
+        "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "exported": "true",
+        "enabled": "true",
+        "permission": "com.google.android.c2dm.permission.SEND",
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "com.google.android.c2dm.intent.RECEIVE"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "receiver",
+        "name": "com.google.android.gms.measurement.AppMeasurementReceiver",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.glance.appwidget.UnmanagedSessionReceiver",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.glance.appwidget.MyPackageReplacedReceiver",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ]
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+        "exported": "false",
+        "enabled": "false",
+        "permission": null,
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.ACTION_POWER_CONNECTED",
+              "android.intent.action.ACTION_POWER_DISCONNECTED"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ]
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+        "exported": "false",
+        "enabled": "false",
+        "permission": null,
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.BATTERY_OKAY",
+              "android.intent.action.BATTERY_LOW"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ]
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+        "exported": "false",
+        "enabled": "false",
+        "permission": null,
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.DEVICE_STORAGE_LOW",
+              "android.intent.action.DEVICE_STORAGE_OK"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ]
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+        "exported": "false",
+        "enabled": "false",
+        "permission": null,
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.net.conn.CONNECTIVITY_CHANGE"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ]
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "exported": "false",
+        "enabled": "false",
+        "permission": null,
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.intent.action.TIME_SET",
+              "android.intent.action.TIMEZONE_CHANGED"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ]
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+        "exported": "false",
+        "enabled": "@7F050005",
+        "permission": null,
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "androidx.work.impl.background.systemalarm.UpdateProxies"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ]
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+        "exported": "true",
+        "enabled": "true",
+        "permission": "android.permission.DUMP",
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "receiver",
+        "name": "androidx.profileinstaller.ProfileInstallReceiver",
+        "exported": "true",
+        "enabled": "true",
+        "permission": "android.permission.DUMP",
+        "process": null,
+        "directBootAware": "false",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [
+          {
+            "actions": [
+              "androidx.profileinstaller.action.INSTALL_PROFILE"
+            ],
+            "categories": [],
+            "data": []
+          },
+          {
+            "actions": [
+              "androidx.profileinstaller.action.SKIP_FILE"
+            ],
+            "categories": [],
+            "data": []
+          },
+          {
+            "actions": [
+              "androidx.profileinstaller.action.SAVE_PROFILE"
+            ],
+            "categories": [],
+            "data": []
+          },
+          {
+            "actions": [
+              "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+            ],
+            "categories": [],
+            "data": []
+          }
+        ],
+        "exported_inferred": "explicitly exported"
+      },
+      {
+        "type": "receiver",
+        "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": []
+      }
+    ],
+    "providers": [
+      {
+        "type": "provider",
+        "name": "androidx.core.content.FileProvider",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "authorities": "@7F1304C0",
+        "grantUriPermissions": "true"
+      },
+      {
+        "type": "provider",
+        "name": "com.facebook.internal.FacebookInitProvider",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "authorities": "vn.com.vng.zalopay.FacebookInitProvider",
+        "grantUriPermissions": null
+      },
+      {
+        "type": "provider",
+        "name": "com.google.firebase.perf.provider.FirebasePerfProvider",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "authorities": "vn.com.vng.zalopay.firebaseperfprovider",
+        "grantUriPermissions": null
+      },
+      {
+        "type": "provider",
+        "name": "com.google.mlkit.common.internal.MlKitInitProvider",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "authorities": "vn.com.vng.zalopay.mlkitinitprovider",
+        "grantUriPermissions": null
+      },
+      {
+        "type": "provider",
+        "name": "com.google.firebase.provider.FirebaseInitProvider",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": "true",
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "authorities": "vn.com.vng.zalopay.firebaseinitprovider",
+        "grantUriPermissions": null
+      },
+      {
+        "type": "provider",
+        "name": "com.google.android.gms.ads.MobileAdsInitProvider",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "authorities": "vn.com.vng.zalopay.mobileadsinitprovider",
+        "grantUriPermissions": null
+      },
+      {
+        "type": "provider",
+        "name": "androidx.startup.InitializationProvider",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "authorities": "vn.com.vng.zalopay.androidx-startup",
+        "grantUriPermissions": null
+      },
+      {
+        "type": "provider",
+        "name": "com.facebook.ads.AudienceNetworkContentProvider",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "authorities": "vn.com.vng.zalopay.AudienceNetworkContentProvider",
+        "grantUriPermissions": null
+      },
+      {
+        "type": "provider",
+        "name": "com.alibaba.griver.file.utils.GriverFileProvider",
+        "exported": "false",
+        "enabled": "true",
+        "permission": null,
+        "process": null,
+        "directBootAware": null,
+        "isolatedProcess": null,
+        "multiprocess": null,
+        "intent_filters": [],
+        "authorities": "vn.com.vng.zalopay.griver.file.provider",
+        "grantUriPermissions": "true"
+      }
+    ]
+  },
+  "deep_link_inventory": [
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "type": "activities",
+      "scheme": "https",
+      "host": "go.zalopay.vn",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "type": "activities",
+      "scheme": "https",
+      "host": "onelink.zalopay.vn",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "type": "activities",
+      "scheme": "https",
+      "host": "kmzalopay.onelink.me",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "type": "activities",
+      "scheme": "https",
+      "host": "km.zalopay.vn",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "type": "activities",
+      "scheme": "zalopay",
+      "host": "app",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "type": "activities",
+      "scheme": "zalopay-vnpay",
+      "host": null,
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+      "type": "activities",
+      "scheme": "https",
+      "host": "go.zalopay.vn",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "com.facebook.CustomTabActivity",
+      "type": "activities",
+      "scheme": "fbconnect",
+      "host": "cct.vn.com.vng.zalopay",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+      "type": "activities",
+      "scheme": "tagmanager.c.vn.com.vng.zalopay",
+      "host": null,
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay-1",
+      "host": "post",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay-1",
+      "host": "backtoapp",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay-1",
+      "host": "backtologin",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay",
+      "host": "zalopay.vn",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay",
+      "host": "otp",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay",
+      "host": "pay",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay",
+      "host": "clearing",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay",
+      "host": null,
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay",
+      "host": "merchant",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay",
+      "host": "events",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay.api.v2",
+      "host": "pay",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay.api.v2",
+      "host": "auth",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay.api.v2",
+      "host": "recoverpassword",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay",
+      "host": "promotions",
+      "path": null,
+      "port": null
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "type": "activities",
+      "scheme": "zalopay",
+      "host": "cashier",
+      "path": null,
+      "port": null
+    }
+  ]
+}

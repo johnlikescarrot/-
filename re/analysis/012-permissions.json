@@ -1,0 +1,206 @@
+{
+  "requested": [
+    {
+      "name": "android.permission.POST_NOTIFICATIONS",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.READ_CONTACTS",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.INTERNET",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.ACCESS_WIFI_STATE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.ACCESS_NETWORK_STATE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.READ_PHONE_STATE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.google.android.c2dm.permission.RECEIVE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.WAKE_LOCK",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.NFC",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+      "maxSdkVersion": "28"
+    },
+    {
+      "name": "android.permission.READ_EXTERNAL_STORAGE",
+      "maxSdkVersion": "32"
+    },
+    {
+      "name": "android.permission.ACCESS_COARSE_LOCATION",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.ACCESS_FINE_LOCATION",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.USE_FINGERPRINT",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.WRITE_CALENDAR",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.READ_CALENDAR",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.USE_BIOMETRIC",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.RECORD_AUDIO",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.MODIFY_AUDIO_SETTINGS",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.android.launcher.permission.WRITE_SETTINGS",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.android.launcher.permission.READ_SETTINGS",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.bbk.launcher2.permission.READ_SETTINGS",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.bbk.launcher2.permission.WRITE_SETTINGS",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.QUERY_ALL_PACKAGES",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.CAMERA",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.VIBRATE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.CHANGE_WIFI_STATE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.DETECT_SCREEN_CAPTURE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.google.android.gms.permission.AD_ID",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.android.vending.BILLING",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.ACCESS_ADSERVICES_TOPICS",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.FOREGROUND_SERVICE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.REORDER_TASKS",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.READ_BASIC_PHONE_STATE",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.WRITE_CONTACTS",
+      "maxSdkVersion": null
+    },
+    {
+      "name": "android.permission.READ_MEDIA_AUDIO",
+      "maxSdkVersion": null
+    }
+  ],
+  "declared": [
+    {
+      "name": "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "protectionLevel": "0x00000002"
+    }
+  ]
+}

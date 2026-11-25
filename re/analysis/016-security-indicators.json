@@ -1,0 +1,77 @@
+{
+  "package": "vn.com.vng.zalopay",
+  "version": "11.17.0",
+  "signing": {
+    "schemes": true,
+    "v1_jar_signature_files": []
+  },
+  "backup": {
+    "allowBackup": "false",
+    "fullBackupContent": "false",
+    "dataExtractionRules": "@7F160004"
+  },
+  "network": {
+    "usesCleartextTraffic": null,
+    "networkSecurityConfig": "@7F16000D",
+    "base_config_cleartext_permitted": true,
+    "network_security_config_xml": "<network-security-config>\n  <domain-config>\n    <domain includeSubdomains=\"true\">storage.googleapis.com</domain>\n  </domain-config>\n  <base-config cleartextTrafficPermitted=\"true\">\n    <trust-anchors>\n      <certificates src=\"system\"/>\n    </trust-anchors>\n  </base-config>\n  <debug-overrides cleartextTrafficPermitted=\"true\">\n    <trust-anchors>\n      <certificates src=\"system\"/>\n      <certificates src=\"user\"/>\n    </trust-anchors>\n  </debug-overrides>\n</network-security-config>\n"
+  },
+  "exported_surface": {
+    "activities": 16,
+    "services": 6,
+    "receivers": 8,
+    "providers": 0,
+    "deep_links": 24
+  },
+  "permissions": {
+    "requested_count": 49,
+    "declared_count": 1
+  },
+  "nfc_payment": {
+    "apdu_service_present": true,
+    "aid_filters": [
+      "325041592E5359532E4444463031",
+      "A0000000980840",
+      "A0000000032020",
+      "A0000000032010",
+      "A0000000033010",
+      "A0000000031010",
+      "A000000003"
+    ]
+  },
+  "hardening_hints": {
+    "keyword_hits": {
+      "api_endpoint": 5092,
+      "auth_token": 111,
+      "crypto": 4577,
+      "signing": 854,
+      "root_anti_debug": 336,
+      "ssl_pinning": 2757,
+      "payment": 5865,
+      "storage": 446,
+      "telemetry": 4063,
+      "native_bridge": 1917,
+      "obfuscation": 637
+    }
+  },
+  "third_party_sdks": [
+    "Google Play Services",
+    "Alibaba SDK",
+    "AndroidX",
+    "Meta / Facebook SDK",
+    "VNG internal",
+    "Alipay SDK",
+    "OkHttp",
+    "RxJava",
+    "Google Material Components",
+    "Firebase",
+    "Glide",
+    "Retrofit",
+    "Picasso",
+    "Dagger",
+    "Kotlin stdlib / coroutines",
+    "EventBus",
+    "ZXing"
+  ],
+  "dex_payloads": 20
+}

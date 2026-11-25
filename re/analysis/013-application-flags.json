@@ -1,0 +1,34 @@
+{
+  "manifest_package": "vn.com.vng.zalopay",
+  "manifest_platform_version": "16",
+  "security_relevant_flags": {
+    "android:allowBackup": "false",
+    "android:networkSecurityConfig": "@7F16000D",
+    "android:extractNativeLibs": "true",
+    "android:appComponentFactory": "androidx.core.app.CoreComponentFactory",
+    "android:requestLegacyExternalStorage": "true",
+    "android:fullBackupContent": "false",
+    "android:dataExtractionRules": "@7F160004",
+    "android:hardwareAccelerated": "true",
+    "android:largeHeap": "true",
+    "android:supportsRtl": "true",
+    "_all_application_attributes": {
+      "android:theme": "@7F14015E",
+      "android:label": "@7F1300D6",
+      "android:icon": "@7F0F0000",
+      "android:name": "jwbmqnsll.xvndbxlk",
+      "android:allowBackup": "false",
+      "android:hardwareAccelerated": "true",
+      "android:largeHeap": "true",
+      "android:supportsRtl": "true",
+      "android:extractNativeLibs": "true",
+      "android:fullBackupContent": "false",
+      "android:resizeableActivity": "false",
+      "android:networkSecurityConfig": "@7F16000D",
+      "android:appComponentFactory": "androidx.core.app.CoreComponentFactory",
+      "android:requestLegacyExternalStorage": "true",
+      "android:dataExtractionRules": "@7F160004",
+      "android:enableOnBackInvokedCallback": "false"
+    }
+  }
+}
