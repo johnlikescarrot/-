@@ -1,0 +1,453 @@
+{
+ "arsc": {
+  "bytes": 1802300,
+  "packages": [
+   "vn.com.vng.zalopay",
+   "vn.com.vng.zalopay.changepin",
+   "vn.com.vng.zalopay.resetpin",
+   "vn.com.vng.zalopay.login_v2",
+   "vn.com.vng.zalopay.cashier",
+   "vn.com.vng.zalopay.bank_binding",
+   "vn.com.vng.zalopay.updatephone",
+   "vn.com.vng.zalopay.cash_in",
+   "vn.com.vng.zalopay.resultpage",
+   "vn.com.vng.zalopay.withdraw",
+   "vn.com.vng.zalopay.cashier_v3",
+   "vn.com.vng.zalopay.result_page_v3",
+   "vn.com.vng.zalopay.liveness"
+  ],
+  "locales": 4,
+  "base_profile": {
+   "path": "vn.com.vng.zalopay/resources.arsc",
+   "bytes": 1802300,
+   "packages": [
+    "vn.com.vng.zalopay",
+    "vn.com.vng.zalopay.changepin",
+    "vn.com.vng.zalopay.resetpin",
+    "vn.com.vng.zalopay.login_v2",
+    "vn.com.vng.zalopay.cashier",
+    "vn.com.vng.zalopay.bank_binding",
+    "vn.com.vng.zalopay.updatephone",
+    "vn.com.vng.zalopay.cash_in",
+    "vn.com.vng.zalopay.resultpage",
+    "vn.com.vng.zalopay.withdraw",
+    "vn.com.vng.zalopay.cashier_v3",
+    "vn.com.vng.zalopay.result_page_v3",
+    "vn.com.vng.zalopay.liveness"
+   ],
+   "locales": [
+    "default"
+   ],
+   "string_pool_bytes": 207625,
+   "types": {
+    "public": 13,
+    "id": 12,
+    "layout": 12,
+    "string": 12,
+    "drawable": 11,
+    "style": 10,
+    "color": 6,
+    "raw": 5,
+    "dimen": 4,
+    "navigation": 4,
+    "anim": 3,
+    "attr": 3
+   }
+  },
+  "split_profiles": [
+   {
+    "path": "config.vi/resources.arsc",
+    "bytes": 75460,
+    "packages": [
+     "vn.com.vng.zalopay"
+    ],
+    "locales": [
+     "vi"
+    ],
+    "string_pool_bytes": 39664,
+    "types": {
+     "public": 1,
+     "array": 1,
+     "plurals": 1,
+     "string": 1
+    }
+   },
+   {
+    "path": "config.en/resources.arsc",
+    "bytes": 61984,
+    "packages": [
+     "vn.com.vng.zalopay"
+    ],
+    "locales": [
+     "en"
+    ],
+    "string_pool_bytes": 25612,
+    "types": {
+     "public": 1,
+     "array": 1,
+     "string": 1
+    }
+   },
+   {
+    "path": "config.xhdpi/resources.arsc",
+    "bytes": 141056,
+    "packages": [
+     "vn.com.vng.zalopay",
+     "vn.com.vng.zalopay.login_v2"
+    ],
+    "locales": [
+     "default"
+    ],
+    "string_pool_bytes": 128,
+    "types": {
+     "public": 2,
+     "drawable": 2,
+     "dimen": 1,
+     "style": 1
+    }
+   }
+  ],
+  "locale_entries": [
+   {
+    "locale": "default",
+    "present": 1
+   },
+   {
+    "locale": "split:config.vi:vi",
+    "present": 1
+   },
+   {
+    "locale": "split:config.en:en",
+    "present": 1
+   },
+   {
+    "locale": "split:config.xhdpi:default",
+    "present": 1
+   }
+  ],
+  "vietnamese_locales": [
+   "split:config.vi:vi"
+  ],
+  "type_counts": {
+   "public": 13,
+   "id": 12,
+   "layout": 12,
+   "string": 12,
+   "drawable": 11,
+   "style": 10,
+   "color": 6,
+   "raw": 5,
+   "dimen": 4,
+   "navigation": 4,
+   "anim": 3,
+   "attr": 3
+  }
+ },
+ "res": {
+  "files": 5604,
+  "bytes": 37670801,
+  "top_dirs": [
+   {
+    "dir": "drawable",
+    "files": 3675
+   },
+   {
+    "dir": "layout",
+    "files": 1018
+   },
+   {
+    "dir": "layout-v33",
+    "files": 319
+   },
+   {
+    "dir": "layout-v31",
+    "files": 150
+   },
+   {
+    "dir": "color",
+    "files": 82
+   },
+   {
+    "dir": "anim",
+    "files": 78
+   },
+   {
+    "dir": "raw",
+    "files": 56
+   },
+   {
+    "dir": "drawable-xxhdpi-v4",
+    "files": 49
+   },
+   {
+    "dir": "navigation",
+    "files": 18
+   },
+   {
+    "dir": "animator",
+    "files": 17
+   },
+   {
+    "dir": "drawable-mdpi-v4",
+    "files": 17
+   },
+   {
+    "dir": "font",
+    "files": 14
+   },
+   {
+    "dir": "interpolator",
+    "files": 14
+   },
+   {
+    "dir": "xml",
+    "files": 13
+   },
+   {
+    "dir": "drawable-v21",
+    "files": 9
+   }
+  ]
+ },
+ "splits": [
+  {
+   "split": "config.armeabi_v7a",
+   "installed_bytes": 24828408,
+   "entries": 32,
+   "uncompressed": 57459525,
+   "compressed": 24813347,
+   "ratio": 2.32,
+   "install_share": null,
+   "top_ext": [
+    {
+     "ext": ".so",
+     "bytes": 57452124
+    },
+    {
+     "ext": ".sf",
+     "bytes": 2667
+    },
+    {
+     "ext": ".mf",
+     "bytes": 2559
+    },
+    {
+     "ext": ".rsa",
+     "bytes": 1107
+    },
+    {
+     "ext": ".xml",
+     "bytes": 1036
+    },
+    {
+     "ext": "(none)",
+     "bytes": 32
+    }
+   ],
+   "share_of_uncompressed": 0.2942
+  },
+  {
+   "split": "config.en",
+   "installed_bytes": 74137,
+   "entries": 6,
+   "uncompressed": 64699,
+   "compressed": 63915,
+   "ratio": 1.01,
+   "install_share": null,
+   "top_ext": [
+    {
+     "ext": ".arsc",
+     "bytes": 61984
+    },
+    {
+     "ext": ".rsa",
+     "bytes": 1107
+    },
+    {
+     "ext": ".xml",
+     "bytes": 1000
+    },
+    {
+     "ext": ".sf",
+     "bytes": 342
+    },
+    {
+     "ext": ".mf",
+     "bytes": 234
+    },
+    {
+     "ext": "(none)",
+     "bytes": 32
+    }
+   ],
+   "share_of_uncompressed": 0.0003
+  },
+  {
+   "split": "config.vi",
+   "installed_bytes": 86425,
+   "entries": 6,
+   "uncompressed": 78175,
+   "compressed": 77394,
+   "ratio": 1.01,
+   "install_share": null,
+   "top_ext": [
+    {
+     "ext": ".arsc",
+     "bytes": 75460
+    },
+    {
+     "ext": ".rsa",
+     "bytes": 1107
+    },
+    {
+     "ext": ".xml",
+     "bytes": 1000
+    },
+    {
+     "ext": ".sf",
+     "bytes": 342
+    },
+    {
+     "ext": ".mf",
+     "bytes": 234
+    },
+    {
+     "ext": "(none)",
+     "bytes": 32
+    }
+   ],
+   "share_of_uncompressed": 0.0004
+  },
+  {
+   "split": "config.xhdpi",
+   "installed_bytes": 1232563,
+   "entries": 258,
+   "uncompressed": 1329300,
+   "compressed": 1178129,
+   "ratio": 1.13,
+   "install_share": null,
+   "top_ext": [
+    {
+     "ext": ".png",
+     "bytes": 726167
+    },
+    {
+     "ext": ".webp",
+     "bytes": 212942
+    },
+    {
+     "ext": ".xml",
+     "bytes": 196188
+    },
+    {
+     "ext": ".arsc",
+     "bytes": 141056
+    },
+    {
+     "ext": ".sf",
+     "bytes": 25958
+    },
+    {
+     "ext": ".mf",
+     "bytes": 25850
+    }
+   ],
+   "share_of_uncompressed": 0.0068
+  },
+  {
+   "split": "base",
+   "installed_bytes": 79359087,
+   "entries": 6162,
+   "uncompressed": 136395610,
+   "compressed": 78345127,
+   "ratio": 1.74,
+   "install_share": null,
+   "top_ext": [
+    {
+     "ext": ".dex",
+     "bytes": 69701748
+    },
+    {
+     "ext": ".xml",
+     "bytes": 11023504
+    },
+    {
+     "ext": ".tflite",
+     "bytes": 10203704
+    },
+    {
+     "ext": ".png",
+     "bytes": 6883387
+    },
+    {
+     "ext": ".ttf",
+     "bytes": 6823784
+    },
+    {
+     "ext": ".json",
+     "bytes": 6677077
+    }
+   ],
+   "share_of_uncompressed": 0.6983
+  }
+ ],
+ "compression_economics": {
+  "entries": 6162,
+  "deflated_entries": 5630,
+  "stored_entries": 532,
+  "stored_bytes": 23410984,
+  "stored_share_of_payload": 0.1716,
+  "largest_stored": [
+   {
+    "name": "assets/custom_models/object_labeler.tflite",
+    "bytes": 3770391
+   },
+   {
+    "name": "resources.arsc",
+    "bytes": 1802300
+   },
+   {
+    "name": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+    "bytes": 1706957
+   },
+   {
+    "name": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+    "bytes": 1254848
+   },
+   {
+    "name": "assets/Griver/68687209_2.9.7.8.amr",
+    "bytes": 856974
+   },
+   {
+    "name": "assets/fgcpkjvqe.dat",
+    "bytes": 776320
+   },
+   {
+    "name": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+    "bytes": 613352
+   },
+   {
+    "name": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+    "bytes": 613080
+   }
+  ]
+ },
+ "config_splits": {
+  "config.vi": {
+   "files": 7,
+   "bytes": 78175
+  },
+  "config.en": {
+   "files": 7,
+   "bytes": 64699
+  },
+  "config.xhdpi": {
+   "files": 266,
+   "bytes": 1329300
+  },
+  "config.armeabi_v7a": {
+   "files": 35,
+   "bytes": 57459525
+  }
+ }
+}

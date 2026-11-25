@@ -1,0 +1,1288 @@
+{
+ "census": {
+  "files": 124,
+  "bytes": 30011044,
+  "by_category": [
+   {
+    "category": "ml-model",
+    "files": 16,
+    "bytes": 12639585
+   },
+   {
+    "category": "native-payload",
+    "files": 3,
+    "bytes": 8778394
+   },
+   {
+    "category": "other",
+    "files": 42,
+    "bytes": 3770417
+   },
+   {
+    "category": "media",
+    "files": 24,
+    "bytes": 2135944
+   },
+   {
+    "category": "web-runtime",
+    "files": 33,
+    "bytes": 1899888
+   },
+   {
+    "category": "data-blob",
+    "files": 4,
+    "bytes": 786016
+   },
+   {
+    "category": "config",
+    "files": 2,
+    "bytes": 800
+   }
+  ]
+ },
+ "configs": [
+  {
+   "path": "assets/Griver/appx.json",
+   "bytes": 2178,
+   "entropy": 4.864,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "mini"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [
+    "alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com",
+    "cdn.marmot-cloud.com",
+    "gw.alipayobjects.com",
+    "oss-local-nightly-dev.marmot-cloud.com"
+   ],
+   "host_count": 4,
+   "flags": [
+    "plaintext-http"
+   ],
+   "preview": "{\"mini\": {\"66••••92 (8 chars)\": {\"appInfo\": {\"appId\": \"66••••92 (8 chars)\", \"deployVersion\": \"1.24.8\", \"fallbackBaseUrl\": \"https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/\", \"packageUrl\": \"https://cdn.marmot-cloud.com/storage/gmpop/5b39bcb7-85be-471c-aeaf-55ee5c4437a5/66666692_1.24"
+  },
+  {
+   "path": "assets/GriverBridge/appx_inline_bootstrap_min.js",
+   "bytes": 292,
+   "entropy": 5.039,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "!function(){\"use strict\";window.bootstrapApp({worker:\"index.worker.js\",onReady:function(i){0<=navigator.userAgent.indexOf(\"Alipay\")&&!window.AlipayJSBridge?document.addEventListener(\"AlipayJSBridgeReady\",function(){i({bridge:window.AlipayJSBridge})}):i({bridge:window.AlipayJSBrid"
+  },
+  {
+   "path": "assets/GriverBridge/cover_component.js",
+   "bytes": 2888,
+   "entropy": 4.32,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "document.androidEmbedViewManager = { parseObjectElement: function(e) { var t, n; if (e.children) for (var a = e.children.length, o = 0; o < a; o++) { var i = e.children[o]; 'type' === i.getAttribute('name') ? t = i.g"
+  },
+  {
+   "path": "assets/GriverBridge/create_worker.html",
+   "bytes": 159,
+   "entropy": 4.849,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "<head> </head> <body> <script type=\"text/javascript\"> window.worker = new Worker(\"create_worker.js\"); console.log(\"MultiWorkerReady\"); </script> </body>"
+  },
+  {
+   "path": "assets/GriverBridge/h5_bridge.js",
+   "bytes": 4446,
+   "entropy": 5.274,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [
+    "credential-ish-key"
+   ],
+   "preview": "var ucVersion;try{ucVersion=navigator.userAgent.match(/UCBS\\/(\\d+\\.\\d+)/)}catch(e){console.err(e)}var isUC=void 0!=ucVersion;console.log('inject h5_bridge with WebView: '+isUC);if(!isUC){console.log('try inject androidEmbedViewManager script in non WebView!');document.androidEmbe"
+  },
+  {
+   "path": "assets/GriverBridge/index_inline.html",
+   "bytes": 972,
+   "entropy": 5.08,
+   "category": "web-runtime",
+   "hosts": [
+    "gw.alipayobjects.com"
+   ],
+   "host_count": 1,
+   "flags": [],
+   "preview": "<!DO••••E  (8 chars)html> <html> <head> <link rel=\"manifest\" href=\"manifest.json\"> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=0, viewport-fit=cover\"> <!--[APPX-CSS]--> <link rel=\"stylesheet\" href=\"https://appx/af-appx."
+  },
+  {
+   "path": "assets/GriverBridge/worker.html",
+   "bytes": 203,
+   "entropy": 4.976,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "<html> <head></head> <body> <script type=\"text/javascript\"> window.worker = new Worker(\"workerjs.js\"); console.log(\"AlipayJSBridgeReady\"); console.log(\"JSBridgeReady\"); </script> </body> </html>"
+  },
+  {
+   "path": "assets/GriverBridge/workerjs.js",
+   "bytes": 14360,
+   "entropy": 4.82,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [
+    "credential-ish-key"
+   ],
+   "preview": "var document, AlipayJSBridge, window, self = {}; // window self 指向global 对象 window = self = this; self.importScript = importScripts; var messenger = window.console, log = messenger.log; var nativeFlushQueueImmediate = function(msg) { log.call(messenger, \"{"
+  },
+  {
+   "path": "assets/GriverErrorPage/griver_custom_h5_page_error.html",
+   "bytes": 3060,
+   "entropy": 5.783,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "<!DO••••E  (8 chars)html> <html> <head> <meta charset=\"UTF-8\"> <meta content=\"yes\" name=\"apple-mobile-web-app-capable\"/> <meta content=\"black\" name=\"apple-mobile-web-app-status-bar-style\"/> <meta content=\"telephone"
+  },
+  {
+   "path": "assets/GriverErrorPage/griver_page_error.html",
+   "bytes": 22734,
+   "entropy": 6.081,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "<!DO••••E  (8 chars)html> <html> <head> <meta charset=\"UTF-8\"> <meta content=\"yes\" name=\"apple-mobile-web-app-capable\" /> <meta content=\"black\" name=\"apple-mobile-web-app-status-bar-style\" /> <meta content=\"telephone=no\" name=\"format-detection\" /> <meta content=\"email="
+  },
+  {
+   "path": "assets/GriverErrorPage/mini-program-native-error.html",
+   "bytes": 13859,
+   "entropy": 6.104,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "<!DO••••E  (8 chars)html> <html> <head> <meta charset=\"utf-8\" /> <meta content=\"telephone=no, email=no\" name=\"format-detection\" /> <meta content=\"width=device-width, initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no\" name=\"viewport\" /> <sc"
+  },
+  {
+   "path": "assets/GriverTheme/theme.json",
+   "bytes": 584,
+   "entropy": 4.142,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "light",
+     "dark"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "{\"light\": {\"containerBackgroundColor\": \"#FF••FF (6 chars)\", \"backgroundColor\": \"#FF••FF (6 chars)\", \"titleBarColor\": \"#FF••FF (6 chars)\", \"titleColor\": \"#00••00 (6 chars)\", \"backButtonColor\": \"#00••00 (6 chars)\", \"closeButtonColor\": \"#00••00 (6 chars)\", \"optionMenuColor\": \"#00••00 (6 chars)\"}, \"dark\": {\"containerBackgroundColor\": \"#10••14 (6 chars)\", \"backgr"
+  },
+  {
+   "path": "assets/android_jsbridge.js",
+   "bytes": 3673,
+   "entropy": 4.862,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "function initializeWebBridge() { console.log('execute to initializeWebBridge'); ZaloPayJSBridge = window.ZaloPayJSBridge || {}; ZaloPayJSBridge.callbackPool = ZaloPayJSBridge.callbackPool || {}; ZaloPayJSBridge.subscribers = ZaloPayJSBridge.subscribers || {}; ZaloPayJSB"
+  },
+  {
+   "path": "assets/bundle.json",
+   "bytes": 312,
+   "entropy": 4.6,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "external_bundle",
+     "internal_bundle"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "{\"external_bundle\": [{\"appid\": 1, \"appname\": \"Internal Application\", \"asset\": \"android.1.zip\", \"checksum\": \"An3SoswJ6ujv2Qk6UqYxcw\", \"version\": \"1.0.0\", \"status\": 1}], \"internal_bundle\": {\"checksum\": \"ba910kal\", \"version\": \"1.0.20••••23 (8 chars).001\"}}"
+  },
+  {
+   "path": "assets/client_tracking.json",
+   "bytes": 146391,
+   "entropy": 4.881,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "tripDetail",
+     "trackingItems"
+    ],
+    "pii_fields": [
+     {
+      "field": "userId",
+      "json_path": "$.tripDetail.userId",
+      "masked": "57••••••••••00 (18 chars)",
+      "chars": 18
+     },
+     {
+      "field": "trackingKey",
+      "json_path": "$.tripDetail.trackingKey",
+      "masked": "f6••••••••••b| (18 chars)",
+      "chars": 18
+     },
+     {
+      "field": "customerId",
+      "json_path": "$.tripDetail.customerId",
+      "masked": "64••••••••••8e (24 chars)",
+      "chars": 24
+     },
+     {
+      "field": "customerSessionId",
+      "json_path": "$.tripDetail.customerSessionId",
+      "masked": "6c••••••••••59 (32 chars)",
+      "chars": 32
+     },
+     {
+      "field": "customerName",
+      "json_path": "$.tripDetail.customerName",
+      "masked": "NG••••••••••ẾU (16 chars)",
+      "chars": 16
+     },
+     {
+      "field": "customerMobileNo",
+      "json_path": "$.tripDetail.customerMobileNo",
+      "masked": "09••••••31 (10 chars)",
+      "chars": 10
+     },
+     {
+      "field": "customerEmail",
+      "json_path": "$.tripDetail.customerEmail",
+      "masked": "Ma••••••••••om (21 chars)",
+      "chars": 21
+     },
+     {
+      "field": "customerTaxName",
+      "json_path": "$.tripDetail.customerTaxName",
+      "masked": "CÔ••••••••••AM (46 chars)",
+      "chars": 46
+     },
+     {
+      "field": "customerTaxAddress",
+      "json_path": "$.tripDetail.customerTaxAddress",
+      "masked": "Tầ••••••••••ội (74 chars)",
+      "chars": 74
+     },
+     {
+      "field": "address",
+      "json_path": "$.tripDetail.destinations[0].address",
+      "masked": "Ch••••••••••co (18 chars)",
+      "chars": 18
+     }
+    ],
+    "pii_field_count": 10
+   },
+   "pii": [
+    {
+     "field": "userId",
+     "json_path": "$.tripDetail.userId",
+     "masked": "57••••••••••00 (18 chars)",
+     "chars": 18
+    },
+    {
+     "field": "trackingKey",
+     "json_path": "$.tripDetail.trackingKey",
+     "masked": "f6••••••••••b| (18 chars)",
+     "chars": 18
+    },
+    {
+     "field": "customerId",
+     "json_path": "$.tripDetail.customerId",
+     "masked": "64••••••••••8e (24 chars)",
+     "chars": 24
+    },
+    {
+     "field": "customerSessionId",
+     "json_path": "$.tripDetail.customerSessionId",
+     "masked": "6c••••••••••59 (32 chars)",
+     "chars": 32
+    },
+    {
+     "field": "customerName",
+     "json_path": "$.tripDetail.customerName",
+     "masked": "NG••••••••••ẾU (16 chars)",
+     "chars": 16
+    },
+    {
+     "field": "customerMobileNo",
+     "json_path": "$.tripDetail.customerMobileNo",
+     "masked": "09••••••31 (10 chars)",
+     "chars": 10
+    },
+    {
+     "field": "customerEmail",
+     "json_path": "$.tripDetail.customerEmail",
+     "masked": "Ma••••••••••om (21 chars)",
+     "chars": 21
+    },
+    {
+     "field": "customerTaxName",
+     "json_path": "$.tripDetail.customerTaxName",
+     "masked": "CÔ••••••••••AM (46 chars)",
+     "chars": 46
+    },
+    {
+     "field": "customerTaxAddress",
+     "json_path": "$.tripDetail.customerTaxAddress",
+     "masked": "Tầ••••••••••ội (74 chars)",
+     "chars": 74
+    },
+    {
+     "field": "address",
+     "json_path": "$.tripDetail.destinations[0].address",
+     "masked": "Ch••••••••••co (18 chars)",
+     "chars": 18
+    }
+   ],
+   "hosts": [
+    "15828440.cloud.edgevnpay.vn",
+    "storage.googleapis.com"
+   ],
+   "host_count": 2,
+   "flags": [],
+   "preview": "<redacted personal-data fixture: fields address, customerEmail, customerId, customerMobileNo, customerName, customerSessionId, customerTaxAddress, customerTaxName, trackingKey, userId>"
+  },
+  {
+   "path": "assets/config/miniapp_config.json",
+   "bytes": 883684,
+   "entropy": 4.424,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "code",
+     "data",
+     "msg"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [
+    "app.ahamove.com",
+    "app2-zl.unipass.vn",
+    "elsazalopay.onstudy.vn",
+    "loship.vn",
+    "lzd.co",
+    "m.choingay.vn",
+    "mc.zalopay.vn",
+    "mnap-director.zalopay.vn",
+    "monkeyzalopay.onstudy.vn",
+    "napthe.zalopay.vn",
+    "onelink.zalopay.vn",
+    "order.thecoffeehouse.com",
+    "pay.zing.vn",
+    "s3-advertising.zalopay.vn",
+    "s3-loyalty.zalopay.vn",
+    "scard.zalopay.vn",
+    "scdn.zalopay.com.vn",
+    "simg.zalopay.com.vn",
+    "sjs.zalopay.com.vn",
+    "social.zalopay.vn",
+    "socialdev.zalopay.vn",
+    "ti.ki",
+    "uudai.zalopay.vn",
+    "vieon.vn",
+    "zalo.me"
+   ],
+   "host_count": 28,
+   "flags": [
+    "plaintext-http"
+   ],
+   "preview": "{\"code\": 200, \"data\": [{\"app_id\": \"95••••••••••69 (16 chars)\", \"app_name\": \"Zalopay\", \"app_logo\": \"https://simg.zalopay.com.vn/zst/zpi/images/mini-app-info/logozalopay_square.jpg\", \"path\": \"spa/v2/quick-pay-binding/multigo/tnc\", \"category_name\": \"Tài chính\", \"base_url\": \"https://social.za"
+  },
+  {
+   "path": "assets/config/public_key.txt",
+   "bytes": 450,
+   "entropy": 5.897,
+   "category": "config",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [
+    "pem-block"
+   ],
+   "preview": "-----BE••••••••••EY (16 chars)----- MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnYJ6OPaYnmyYWxptmgE5 p+I8bSTFhaRgrf5wPBUfvwTe2DWRwnTZAonmegyCzvI3s2yySwGCctSFYkXcQREu kwf4qKnx3XYSmuIuZEjqJK9pZGYIszysEJHUHQiAQc943sw3/kGp8ITE3zbLaiQ4 nq5yk8Aocqv1p1X5d4huks+UW/9O/fhJipuiHqz7Pq+40mOcmdTBSQ9eMw"
+  },
+  {
+   "path": "assets/config/signature.txt",
+   "bytes": 350,
+   "entropy": 5.924,
+   "category": "config",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "XDTr8K2Oexe+RXIJKT2MYVBCASnn0zUL1trV8Rk9a7a2vDBMsP2uTtMZdB8KOQmb gYZUqrqmW00pNgjftTNLMddQjZ6ci4h2AZLF/1D+oGzLUEcQa9IwI0WjfZNEfDJX SdINu6m1JEl02uJynC1dZQuATU4umXoLfl5p8w9ExYgAVIbORaJLs28ihuskqLKH 7BTXOk5e6/rYshJPifcs09ST7i54ACfHlevb+JPCaJqm3W8LN1eh7RJjejpG1Lnr gbC+h0ANqI+2n/n06PUq"
+  },
+  {
+   "path": "assets/config/zalopay_config.json",
+   "bytes": 105659,
+   "entropy": 4.554,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "general",
+     "zpc",
+     "api",
+     "webapp",
+     "tab_me",
+     "notification",
+     "tab_home",
+     "promotion",
+     "promotion_handler",
+     "bank_integration",
+     "bank",
+     "profile",
+     "transfer_history",
+     "transfer_via_zalo",
+     "kvs",
+     "z",
+     "omniP",
+     "serverlog",
+     "sdk",
+     "social"
+    ],
+    "pii_fields": [
+     {
+      "field": "phone",
+      "json_path": "$.bank_integration.enableOB[0].phone",
+      "masked": "••••",
+      "chars": 4
+     },
+     {
+      "field": "phone",
+      "json_path": "$.bank_integration.enableOB[2].phone",
+      "masked": "••••",
+      "chars": 4
+     },
+     {
+      "field": "phone",
+      "json_path": "$.bank_integration.enableOB[3].phone",
+      "masked": "••••",
+      "chars": 4
+     }
+    ],
+    "pii_field_count": 3
+   },
+   "pii": [
+    {
+     "field": "phone",
+     "json_path": "$.bank_integration.enableOB[0].phone",
+     "masked": "••••",
+     "chars": 4
+    },
+    {
+     "field": "phone",
+     "json_path": "$.bank_integration.enableOB[2].phone",
+     "masked": "••••",
+     "chars": 4
+    },
+    {
+     "field": "phone",
+     "json_path": "$.bank_integration.enableOB[3].phone",
+     "masked": "••••",
+     "chars": 4
+    }
+   ],
+   "hosts": [
+    "bit.ly",
+    "ebank.bidv.com.vn",
+    "ebanking.vietinbank.vn",
+    "html.zapps.vn",
+    "mnap-director.zalopay.vn",
+    "pay.google.com",
+    "scard.zalopay.vn",
+    "seal.controlcase.com",
+    "social.zalopay.vn",
+    "vngzalopay.freshdesk.com",
+    "www.facebook.com",
+    "www.sacombank.com.vn",
+    "www.vietcombank.com.vn",
+    "zalo.me",
+    "zalopay.vn"
+   ],
+   "host_count": 15,
+   "flags": [
+    "credential-ish-key",
+    "plaintext-http"
+   ],
+   "preview": "<redacted personal-data fixture: fields phone>"
+  },
+  {
+   "path": "assets/containererrorpage/griver_custom_h5_page_error.html",
+   "bytes": 3060,
+   "entropy": 5.783,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "<!DO••••E  (8 chars)html> <html> <head> <meta charset=\"UTF-8\"> <meta content=\"yes\" name=\"apple-mobile-web-app-capable\"/> <meta content=\"black\" name=\"apple-mobile-web-app-status-bar-style\"/> <meta content=\"telephone"
+  },
+  {
+   "path": "assets/containererrorpage/griver_page_error.html",
+   "bytes": 9594,
+   "entropy": 5.927,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "<!DO••••E  (8 chars)html> <html> <head> <meta charset=\"UTF-8\"> <meta content=\"yes\" name=\"apple-mobile-web-app-capable\"/> <meta content=\"black\" name=\"apple-mobile-web-app-status-bar-style\"/> <meta content=\"telephone"
+  },
+  {
+   "path": "assets/containers/GTM-PC9W5BW.json",
+   "bytes": 7702,
+   "entropy": 4.606,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "fingerprint",
+     "resource",
+     "runtime"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "{\"fingerprint\": \"Mg$0\", \"resource\": {\"version\": \"2\", \"macros\": [{\"function\": \"__e\", \"instance_name\": \"Event Name\"}, {\"function\": \"__ai\", \"instance_name\": \"App ID\"}, {\"function\": \"__an\", \"instance_name\": \"App Name\"}, {\"function\": \"__av\", \"instance_name\": \"App Version Code\"}, {\"fun"
+  },
+  {
+   "path": "assets/fonts/zalopay.json",
+   "bytes": 70880,
+   "entropy": 3.45,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "support_center",
+     "token_link",
+     "mail_box",
+     "question_support",
+     "ttht_arrow",
+     "ttht_account",
+     "ttht_mail",
+     "ttht_send_success",
+     "ttht_trungtamhotro",
+     "icon_notice",
+     "recharge",
+     "ic_sendingmail",
+     "ic_support_done",
+     "ic_mail",
+     "fee",
+     "intro-transfer",
+     "limit",
+     "support-bank",
+     "app_shopping",
+     "resetpass_forget"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [],
+   "host_count": 0,
+   "flags": [
+    "credential-ish-key"
+   ],
+   "preview": "{\"support_center\": {\"rawcode\": 60003, \"colors\": [{\"fill\": \"rgb(83, 113, 139)\"}], \"code\": \"\"}, \"token_link\": {\"rawcode\": 60002, \"colors\": [{\"fill\": \"rgb(83, 113, 139)\"}], \"code\": \"\"}, \"mail_box\": {\"rawcode\": 60001, \"colors\": [{\"fill\": \"rgb(83, 113, 139)\"}, {\"fill\": \"rgb(83, 113,"
+  },
+  {
+   "path": "assets/home_data.json",
+   "bytes": 9417,
+   "entropy": 4.528,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "screen_id",
+     "header_banner_image",
+     "header_banner_url",
+     "shortcut_bar",
+     "reminder",
+     "highlight",
+     "ads_slider",
+     "third_party",
+     "security_image",
+     "bottom_bar",
+     "avatar",
+     "balance",
+     "metadata"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [
+    "simg.zalopay.com.vn"
+   ],
+   "host_count": 1,
+   "flags": [],
+   "preview": "{\"screen_id\": \"1000\", \"header_banner_image\": \"\", \"header_banner_url\": \"\", \"shortcut_bar\": {\"id\": 31, \"display_name\": \"Shortcut apps\", \"position\": -1, \"active\": true, \"app_profiles\": [{\"id\": 7, \"display_name\": \"Chuyển tiền\", \"icon\": \"android.resource://vn.com.vng.zalopay/drawable/"
+  },
+  {
+   "path": "assets/internaljsbridge.js",
+   "bytes": 3890,
+   "entropy": 4.845,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "function initializeInternalWebBridge() { // console.log('execute to initializeWebBridge'); ZaloPayInternalJSBridge.callbackPool = ZaloPayInternalJSBridge.callbackPool || {}; ZaloPayInternalJSBridge.subscribers = ZaloPayInternalJSBridge.subscribers || {}; ZaloPayInternalJS"
+  },
+  {
+   "path": "assets/jsbridge.js",
+   "bytes": 3634,
+   "entropy": 4.855,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "function initializeWebBridge() { // console.log('execute to initializeWebBridge'); ZaloPayJSBridge.callbackPool = ZaloPayJSBridge.callbackPool || {}; ZaloPayJSBridge.subscribers = ZaloPayJSBridge.subscribers || {}; ZaloPayJSBridge.subscriberId = ZaloPayJSBridge.subscriber"
+  },
+  {
+   "path": "assets/safemode_registrator_com_iap_ac_config.json",
+   "bytes": 80,
+   "entropy": 4.418,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "classname"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "{\"classname\": \"com.iap.ac.config.lite.safemodehandler.ConfigurationHandler\"}"
+  },
+  {
+   "path": "assets/taibmcf.json",
+   "bytes": 46,
+   "entropy": 4.355,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "vi",
+     "en"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "{\"vi\": \"Mở cài đặt\", \"en\": \"Open settings\"}"
+  },
+  {
+   "path": "assets/taxi_splash_loading.json",
+   "bytes": 536057,
+   "entropy": 4.613,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "v",
+     "fr",
+     "ip",
+     "op",
+     "w",
+     "h",
+     "nm",
+     "ddd",
+     "assets",
+     "layers",
+     "markers"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "{\"v\": \"5.7.12\", \"fr\": 60, \"ip\": 0, \"op\": 300, \"w\": 162, \"h\": 99, \"nm\": \"Vntaxi_loading\", \"ddd\": 0, \"assets\": [{\"id\": \"comp_0\", \"nm\": \"car\", \"layers\": [{\"ddd\": 0, \"ind\": 1, \"ty\": 4, \"nm\": \"Path 839\", \"td\": 1, \"sr\": 1, \"ks\": {\"o\": {\"a\": 0, \"k\": 100, \"ix\": 11}, \"r\": {\"a\": 0, \"k\": 0,"
+  },
+  {
+   "path": "assets/theme/bank/bank_resource.json",
+   "bytes": 11339,
+   "entropy": 4.874,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "_comment_1",
+     "_comment_2",
+     "resource_bank",
+     "resource_group",
+     "resource_item"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [
+    "bit.ly",
+    "cutt.ly",
+    "digibank.vietcapitalbank.com.vn",
+    "dl.bidvsmartbanking.vn",
+    "tiny.cc",
+    "zalopay.vn"
+   ],
+   "host_count": 6,
+   "flags": [],
+   "preview": "{\"_comment_1\": \"action: 1- START_WEB_VIEW, 2-START_REGISTER_BANK\", \"_comment_2\": \"vtb:301: `vtb` is bankCode, 301 is bank function code\", \"resource_bank\": [{\"keys\": [\"vcb:302\"], \"condition\": {\"group_id\": \"03\"}, \"guide\": {\"group_id\": \"23\", \"functions\": [{\"item_id\": \"item_34\", \"fun"
+  },
+  {
+   "path": "assets/theme/bank/config_v2.json",
+   "bytes": 11573,
+   "entropy": 4.909,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "_comment_1",
+     "_comment_2",
+     "config",
+     "item_groups",
+     "item_resources"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [
+    "bit.ly",
+    "cutt.ly",
+    "digibank.vietcapitalbank.com.vn",
+    "neo.vpbank.com.vn",
+    "social.zalopay.vn",
+    "taikhoan.vpbank.com.vn",
+    "zalopay.vn"
+   ],
+   "host_count": 7,
+   "flags": [],
+   "preview": "{\"_comment_1\": \"action: 1- START_WEB_VIEW, 2-START_REGISTER_BANK\", \"_comment_2\": \"vtb:1:0: `vtb` is bankCode, 1 is bank link type (1- Link Card, 2- Link Account), 0 is trans type (0- transtype default, 2 is Top up)\", \"config\": [{\"key_list\": [\"_default:1\", \"_default:2\"], \"conditio"
+  },
+  {
+   "path": "assets/theme/bank/ui_config.json",
+   "bytes": 15430,
+   "entropy": 4.156,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "_comment",
+     "bank_styles"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "{\"_comment\": \"1: thẻ 2: Tài khoản //this is comment, please not to get this value!\", \"bank_styles\": [{\"key\": \"cc_visa_1\", \"start_color\": \"#e4ab2c\", \"end_color\": \"#fad050\", \"icon_name\": \"visa\"}, {\"key\": \"cc_visa\", \"start_color\": \"#e4ab2c\", \"end_color\": \"#fad050\", \"icon_name\": \""
+  },
+  {
+   "path": "assets/timezone2region_2023c.json",
+   "bytes": 11067,
+   "entropy": 4.861,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "Europe/Andorra",
+     "Asia/Dubai",
+     "Asia/Kabul",
+     "America/Antigua",
+     "America/Anguilla",
+     "Europe/Tirane",
+     "Asia/Yerevan",
+     "Africa/Luanda",
+     "Antarctica/McMurdo",
+     "Antarctica/Casey",
+     "Antarctica/Davis",
+     "Antarctica/DumontDUrville",
+     "Antarctica/Mawson",
+     "Antarctica/Palmer",
+     "Antarctica/Rothera",
+     "Antarctica/Syowa",
+     "Antarctica/Troll",
+     "Antarctica/Vostok",
+     "America/Argentina/Buenos_Aires",
+     "America/Argentina/Cordoba"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "{\"Europe/Andorra\": \"AD\", \"Asia/Dubai\": \"AE\", \"Asia/Kabul\": \"AF\", \"America/Antigua\": \"AG\", \"America/Anguilla\": \"AI\", \"Europe/Tirane\": \"AL\", \"Asia/Yerevan\": \"AM\", \"Africa/Luanda\": \"AO\", \"Antarctica/McMurdo\": \"AQ\", \"Antarctica/Casey\": \"AQ\", \"Antarctica/Davis\": \"AQ\", \"Antarctica/Dumo"
+  },
+  {
+   "path": "assets/vdfmoer.json",
+   "bytes": 46,
+   "entropy": 4.355,
+   "category": "web-runtime",
+   "json": {
+    "top_keys": [
+     "vi",
+     "en"
+    ],
+    "pii_fields": [],
+    "pii_field_count": 0
+   },
+   "pii": [],
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "{\"vi\": \"Mở cài đặt\", \"en\": \"Open settings\"}"
+  },
+  {
+   "path": "assets/webapp.js",
+   "bytes": 619,
+   "entropy": 4.424,
+   "category": "web-runtime",
+   "hosts": [],
+   "host_count": 0,
+   "flags": [],
+   "preview": "'use strict'; function webapp_getNavigation() { if (typeof(utils) === \"undefined\") { return { returnCode: 0 }; } if (typeof(utils.getNav) === \"undefined\") { return { returnCode: 0 } } if (typeof(utils."
+  }
+ ],
+ "payloads": [
+  {
+   "asset": "assets/audience_network.dex",
+   "bytes": 4864036,
+   "kind": "dex"
+  },
+  {
+   "asset": "assets/android.1.zip",
+   "bytes": 3913966,
+   "kind": "zip",
+   "entries": 326,
+   "sample": [
+    "main.jsbundle",
+    "drawable-hdpi/",
+    "drawable-hdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png",
+    "drawable-hdpi/node_modules_miniapps_navigation_src_libs_stack_dist_views_assets_backicon.png",
+    "drawable-mdpi/",
+    "drawable-mdpi/notifications_images_educationfee.png",
+    "drawable-mdpi/notifications_images_postpaid.png",
+    "drawable-mdpi/node_modules_reactnativecheckbox_img_ic_indeterminate_check_box.png",
+    "drawable-mdpi/about_intro_images_02_dt.png",
+    "drawable-mdpi/notifications_images_reminder.png",
+    "drawable-mdpi/notifications_images_refund.png",
+    "drawable-mdpi/about_images_logoccdv.png"
+   ],
+   "extensions": {
+    ".png": 317,
+    "": 5,
+    ".jpg": 3,
+    ".jsbundle": 1
+   }
+  },
+  {
+   "asset": "assets/Griver/68687209_2.9.7.8.amr",
+   "bytes": 856974,
+   "kind": "zip",
+   "entries": 3,
+   "sample": [
+    "68687209.tar",
+    "CERT.json",
+    "Manifest.xml"
+   ],
+   "extensions": {
+    ".tar": 1,
+    ".json": 1,
+    ".xml": 1
+   }
+  },
+  {
+   "asset": "assets/Griver/66666692_1.24.8.amr",
+   "bytes": 287535,
+   "kind": "zip",
+   "entries": 3,
+   "sample": [
+    "66666692.tar",
+    "CERT.json",
+    "Manifest.xml"
+   ],
+   "extensions": {
+    ".tar": 1,
+    ".json": 1,
+    ".xml": 1
+   }
+  },
+  {
+   "asset": "assets/Griver/66666693_2.0.7.amr",
+   "bytes": 17380,
+   "kind": "zip",
+   "entries": 3,
+   "sample": [
+    "66666693.tar",
+    "CERT.json",
+    "Manifest.xml"
+   ],
+   "extensions": {
+    ".tar": 1,
+    ".json": 1,
+    ".xml": 1
+   }
+  }
+ ],
+ "mini_program_container": {
+  "griver": {
+   "bundled_mini_programs": [
+    {
+     "app_id": "66666692",
+     "name": "appx framework",
+     "deploy_version": "1.24.8",
+     "package_url_host": "https://cdn.marmot-cloud.com",
+     "fallback_host": "https://gw.alipayobjects.com",
+     "bytes_hint": null
+    },
+    {
+     "app_id": "66666693",
+     "name": "h5 embedded app",
+     "deploy_version": "2.0.7",
+     "package_url_host": "https://cdn.marmot-cloud.com",
+     "fallback_host": "https://gw.alipayobjects.com",
+     "bytes_hint": null
+    },
+    {
+     "app_id": "68687209",
+     "name": "appx ng framework",
+     "deploy_version": "2.9.7.8",
+     "package_url_host": "https://oss-local-nightly-dev.marmot-cloud.com",
+     "fallback_host": "https://gw.alipayobjects.com",
+     "bytes_hint": null
+    }
+   ],
+   "count": 3
+  },
+  "jsbridge": {
+   "js_files": [
+    {
+     "path": "assets/GriverBridge/appx_inline_bootstrap_min.js",
+     "bytes": 292
+    },
+    {
+     "path": "assets/GriverBridge/cover_component.js",
+     "bytes": 2888
+    },
+    {
+     "path": "assets/GriverBridge/h5_bridge.js",
+     "bytes": 4446
+    },
+    {
+     "path": "assets/GriverBridge/workerjs.js",
+     "bytes": 14360
+    },
+    {
+     "path": "assets/android_jsbridge.js",
+     "bytes": 3673
+    },
+    {
+     "path": "assets/internaljsbridge.js",
+     "bytes": 3890
+    },
+    {
+     "path": "assets/jsbridge.js",
+     "bytes": 3634
+    },
+    {
+     "path": "assets/webapp.js",
+     "bytes": 619
+    }
+   ],
+   "api_tokens": {
+    "JSBridge": 135,
+    "AlipayJSBridge": 32,
+    "postMessage": 5
+   },
+   "native_method_names": []
+  }
+ },
+ "high_entropy_blobs": [
+  {
+   "asset": "assets/android.1.zip",
+   "bytes": 3913966,
+   "entropy": 7.996,
+   "kind": "zip"
+  },
+  {
+   "asset": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+   "bytes": 1706957,
+   "entropy": 7.694,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+   "bytes": 1254848,
+   "entropy": 7.782,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/Griver/68687209_2.9.7.8.amr",
+   "bytes": 856974,
+   "entropy": 7.997,
+   "kind": "zip"
+  },
+  {
+   "asset": "assets/fgcpkjvqe.dat",
+   "bytes": 776320,
+   "entropy": 7.997,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/models_bundled/blazeface.tfl",
+   "bytes": 347928,
+   "entropy": 7.451,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/Griver/66666692_1.24.8.amr",
+   "bytes": 287535,
+   "entropy": 7.996,
+   "kind": "zip"
+  },
+  {
+   "asset": "assets/com/visa/cbp/74e13961eb6489ab-",
+   "bytes": 265304,
+   "entropy": 7.997,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/com/visa/cbp/a2687fec63dbeebcd-",
+   "bytes": 80308,
+   "entropy": 7.997,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/taxi_images/Layer_5_loading.png",
+   "bytes": 42205,
+   "entropy": 7.927,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/dexopt/baseline.prof",
+   "bytes": 18503,
+   "entropy": 7.966,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be/9f979174-fb94-f7f5-21c5-afddb32d1e32",
+   "bytes": 17888,
+   "entropy": 7.99,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/Griver/66666693_2.0.7.amr",
+   "bytes": 17380,
+   "entropy": 7.981,
+   "kind": "zip"
+  },
+  {
+   "asset": "assets/com/visa/cbp/8c12f33e01f2a597a-",
+   "bytes": 15736,
+   "entropy": 7.99,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/taxi_images/Layer_4_loading.png",
+   "bytes": 14652,
+   "entropy": 7.975,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/com/appsflyer/internal/3e6e8a8a85e1aaa2b-",
+   "bytes": 13692,
+   "entropy": 7.984,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/com/visa/cbp/f3f564a2648dc019c-",
+   "bytes": 9668,
+   "entropy": 7.981,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/taibmcf.dat",
+   "bytes": 8307,
+   "entropy": 7.976,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/com/appsflyer/internal/cc32cb866f63cd58a-",
+   "bytes": 7936,
+   "entropy": 7.976,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/taxi_images/Artboard_1.png",
+   "bytes": 7292,
+   "entropy": 7.818,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/com/appsflyer/internal/1a7e8023f147cacac-",
+   "bytes": 7142,
+   "entropy": 7.974,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/taxi_images/Artboard_2.png",
+   "bytes": 6430,
+   "entropy": 7.817,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/taxi_images/_____1_loading.png",
+   "bytes": 6123,
+   "entropy": 7.932,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/taxi_images/Layer_3_loading.png",
+   "bytes": 5792,
+   "entropy": 7.947,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/taxi_images/Layer_2_loading.png",
+   "bytes": 5649,
+   "entropy": 7.939,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/com/appsflyer/internal/cf2b565222edadded-",
+   "bytes": 3142,
+   "entropy": 7.94,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/taxi_images/Layer_8_loading.png",
+   "bytes": 2636,
+   "entropy": 7.878,
+   "kind": "opaque"
+  },
+  {
+   "asset": "assets/dexopt/baseline.profm",
+   "bytes": 1909,
+   "entropy": 7.884,
+   "kind": "opaque"
+  }
+ ],
+ "pii_exposure": {
+  "fields_total": 13,
+  "distinct_fields": {
+   "phone": 3,
+   "userId": 1,
+   "trackingKey": 1,
+   "customerId": 1,
+   "customerSessionId": 1,
+   "customerName": 1,
+   "customerMobileNo": 1,
+   "customerEmail": 1,
+   "customerTaxName": 1,
+   "customerTaxAddress": 1,
+   "address": 1
+  },
+  "files": [
+   "assets/client_tracking.json",
+   "assets/config/zalopay_config.json"
+  ],
+  "records": [
+   {
+    "file": "assets/client_tracking.json",
+    "field": "userId",
+    "masked": "57••••••••••00 (18 chars)"
+   },
+   {
+    "file": "assets/client_tracking.json",
+    "field": "trackingKey",
+    "masked": "f6••••••••••b| (18 chars)"
+   },
+   {
+    "file": "assets/client_tracking.json",
+    "field": "customerId",
+    "masked": "64••••••••••8e (24 chars)"
+   },
+   {
+    "file": "assets/client_tracking.json",
+    "field": "customerSessionId",
+    "masked": "6c••••••••••59 (32 chars)"
+   },
+   {
+    "file": "assets/client_tracking.json",
+    "field": "customerName",
+    "masked": "NG••••••••••ẾU (16 chars)"
+   },
+   {
+    "file": "assets/client_tracking.json",
+    "field": "customerMobileNo",
+    "masked": "09••••••31 (10 chars)"
+   },
+   {
+    "file": "assets/client_tracking.json",
+    "field": "customerEmail",
+    "masked": "Ma••••••••••om (21 chars)"
+   },
+   {
+    "file": "assets/client_tracking.json",
+    "field": "customerTaxName",
+    "masked": "CÔ••••••••••AM (46 chars)"
+   },
+   {
+    "file": "assets/client_tracking.json",
+    "field": "customerTaxAddress",
+    "masked": "Tầ••••••••••ội (74 chars)"
+   },
+   {
+    "file": "assets/client_tracking.json",
+    "field": "address",
+    "masked": "Ch••••••••••co (18 chars)"
+   },
+   {
+    "file": "assets/config/zalopay_config.json",
+    "field": "phone",
+    "masked": "••••"
+   },
+   {
+    "file": "assets/config/zalopay_config.json",
+    "field": "phone",
+    "masked": "••••"
+   },
+   {
+    "file": "assets/config/zalopay_config.json",
+    "field": "phone",
+    "masked": "••••"
+   }
+  ],
+  "categories": {
+   "direct_identifier": 6,
+   "financial": 1,
+   "pseudonymous": 4
+  }
+ }
+}

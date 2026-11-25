@@ -1,0 +1,1331 @@
+{
+ "schemes": {
+  "v2": true,
+  "v3": true,
+  "v31": false,
+  "source_stamp": true,
+  "schemes": [
+   "v2 (APK Signature Scheme v2)",
+   "v3 (APK Signature Scheme v3)",
+   "SourceStamp",
+   "Google Play Frozen",
+   "verity/padding"
+  ],
+  "block_bytes": 8168
+ },
+ "v1": {
+  "certificates": [
+   {
+    "subject": "Common Name: Vu Manh Hieu",
+    "issuer": "Common Name: Vu Manh Hieu",
+    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "sha1": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+    "not_before": "2016-04-21 15:41:14+00:00",
+    "not_after": "2041-04-15 15:41:14+00:00",
+    "sig_alg": "sha256_rsa",
+    "key_alg": "rsa"
+   }
+  ],
+  "manifest_entries": 0,
+  "manifest_digest_algorithms": {},
+  "signature_files": []
+ },
+ "signing_block": {
+  "present": true,
+  "parsed": true,
+  "bytes": 8168,
+  "pairs": [
+   {
+    "id": "0x7109871a",
+    "name": "v2 (APK Signature Scheme v2)",
+    "bytes": 1379
+   },
+   {
+    "id": "0xf05368c0",
+    "name": "v3 (APK Signature Scheme v3)",
+    "bytes": 1379
+   },
+   {
+    "id": "0x6dff800d",
+    "name": "SourceStamp",
+    "bytes": 3057
+   },
+   {
+    "id": "0x2146444e",
+    "name": "Google Play Frozen",
+    "bytes": 687
+   },
+   {
+    "id": "0x42726577",
+    "name": "verity/padding",
+    "bytes": 1598
+   }
+  ]
+ },
+ "certificates_v2_v3": [
+  {
+   "scheme": "v2 (APK Signature Scheme v2)",
+   "subject": "Common Name: Vu Manh Hieu",
+   "issuer": "Common Name: Vu Manh Hieu",
+   "serial": "153ea9fd",
+   "not_before": "2016-04-21 15:41:14+00:00",
+   "not_after": "2041-04-15 15:41:14+00:00",
+   "sig_alg": "sha256_rsa",
+   "key_alg": "rsa",
+   "key_bits": 2048,
+   "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+   "sha1": "502195a8d3e7c05c6086db45e943b16efcd24e5d"
+  },
+  {
+   "scheme": "v3 (APK Signature Scheme v3)",
+   "subject": "Common Name: Vu Manh Hieu",
+   "issuer": "Common Name: Vu Manh Hieu",
+   "serial": "153ea9fd",
+   "not_before": "2016-04-21 15:41:14+00:00",
+   "not_after": "2041-04-15 15:41:14+00:00",
+   "sig_alg": "sha256_rsa",
+   "key_alg": "rsa",
+   "key_bits": 2048,
+   "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+   "sha1": "502195a8d3e7c05c6086db45e943b16efcd24e5d"
+  },
+  {
+   "scheme": "SourceStamp",
+   "subject": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+   "issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+   "serial": "bf53fabb0b4e907f8f2a22a1b0e0d77f6def1060",
+   "not_before": "2020-05-19 10:35:21+00:00",
+   "not_after": "2050-05-19 10:35:21+00:00",
+   "sig_alg": "sha256_rsa",
+   "key_alg": "rsa",
+   "key_bits": 4096,
+   "sha256": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+   "sha1": "b1af3a0bf998aeede1a8716a539e5a59da1d86d6"
+  }
+ ],
+ "distinct_certificate_sha256": [
+  "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+  "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+ ],
+ "play_stamp": {
+  "bytes": 32,
+  "sha256": "1d9c2a02a93816ff5c7ae64f9aad02c23de49dc514620db1a7ad624d2a83679c",
+  "looks_like_der": false
+ },
+ "key_material": {
+  "files": [
+   {
+    "path": "AndroidManifest.xml",
+    "bytes": 125916,
+    "sha256": "88db211a71015bab12b00b5ff2d4f7f20a52957f23ce1abb662eed3feace3625"
+   },
+   {
+    "path": "LICENSE-junit.txt",
+    "bytes": 11376,
+    "sha256": "9648bb2891b9813970bddb68d4be8a5e6ec8280d0180a53dfb29236b579c55bb"
+   },
+   {
+    "path": "barcode-scanning-common.properties",
+    "bytes": 84,
+    "sha256": "98245f350edba9b80b71e4eb7416d2c18e1b3989a8f15fcc8eb04f5a6098c318"
+   },
+   {
+    "path": "barcode-scanning.properties",
+    "bytes": 70,
+    "sha256": "045a350629cb114c6b4557590e2230aded7b796c4ec7c1807e815591f8b48218"
+   },
+   {
+    "path": "billing-ktx.properties",
+    "bytes": 58,
+    "sha256": "4091622a45bc5ac3f84772191121ce1915c797d1f9dc11953fe277ad2b101377"
+   },
+   {
+    "path": "billing.properties",
+    "bytes": 50,
+    "sha256": "d748e65c1bfd6ea11b5130f711cafe682b8cf64757a3b7c57c635c1ef0e750a1"
+   },
+   {
+    "path": "common.properties",
+    "bytes": 52,
+    "sha256": "6e34f8b8269d048595ac00b7826dc0988a0bdf4bc131cebd096ee0e24e206127"
+   },
+   {
+    "path": "core-common.properties",
+    "bytes": 58,
+    "sha256": "b5153b8b6a843b0124253522a2eaba79840c92803d67cda1ccdff6b86e9a2eb7"
+   },
+   {
+    "path": "face-detection.properties",
+    "bytes": 66,
+    "sha256": "5aff3f5234c16750e473d7b87df33db2fe4ee300a349810d8f92d6304555ebe7"
+   },
+   {
+    "path": "feature-delivery.properties",
+    "bytes": 68,
+    "sha256": "35d8eb299c98f6ab1e60857d2ba3021ee2c90911c2f1af7a22cc4f61bf856b03"
+   },
+   {
+    "path": "firebase-abt.properties",
+    "bytes": 62,
+    "sha256": "60eaf8e3c5730f085442cd170acdc9efa67390478aab8b6a946ca5e9a980fb65"
+   },
+   {
+    "path": "firebase-analytics-ktx.properties",
+    "bytes": 82,
+    "sha256": "92ec735b6c77f2516e31386a087c72da9efa48c5d529fcb76cd3bdeb57490800"
+   },
+   {
+    "path": "firebase-analytics.properties",
+    "bytes": 74,
+    "sha256": "e059e30afb32535af77cdf1e64ae8e27695a77861079e1cf10ac2c08b9bede05"
+   },
+   {
+    "path": "firebase-annotations.properties",
+    "bytes": 78,
+    "sha256": "0a9af694f0a979e09e33be21c6428cceb2260d0c85a75cd374ba9fb997383de3"
+   },
+   {
+    "path": "firebase-config.properties",
+    "bytes": 68,
+    "sha256": "b9f4af450b78a032ca0309a1692c477db32ff18ea7455c622c7eba951acbd273"
+   },
+   {
+    "path": "firebase-core.properties",
+    "bytes": 64,
+    "sha256": "91d6f4b616661b219159a679ec94a5e8c0bbf05b89f71850e8c4c5950d59fa88"
+   },
+   {
+    "path": "firebase-encoders-proto.properties",
+    "bytes": 84,
+    "sha256": "eba792be6ea03f3b6d68eccfd25f3f53a0767657ec12b1b90996b5d5b34a9688"
+   },
+   {
+    "path": "firebase-encoders.properties",
+    "bytes": 72,
+    "sha256": "527438e526e7befb6c04dc394f4e36824a11019c7d6d687c2772a435d22c0e9f"
+   },
+   {
+    "path": "firebase-iid-interop.properties",
+    "bytes": 78,
+    "sha256": "a2862ae5811a268630807c645d5dadc1f15e85b922a2ab0408e984ea5548e102"
+   },
+   {
+    "path": "firebase-iid.properties",
+    "bytes": 62,
+    "sha256": "8334ddfaa5cb901550628606fe25e80d6a408cc8efecdf0fadcec94b61c8ea38"
+   },
+   {
+    "path": "firebase-measurement-connector.properties",
+    "bytes": 98,
+    "sha256": "2f03cfa9f9dbe4c8cf41cba44b92c1e14988b0f0997caed768a87e41ae9b5934"
+   },
+   {
+    "path": "firebase-messaging.properties",
+    "bytes": 74,
+    "sha256": "3555a61d926c2add1f1a9e65e3424db3e623071babfa66af00ae3eff0054aa8a"
+   },
+   {
+    "path": "firebase-perf.properties",
+    "bytes": 64,
+    "sha256": "2604d9dbedae1ba17739fc2db595433d1fde931999cbde0711da548428a97267"
+   },
+   {
+    "path": "getbanklist_zpm_success.json",
+    "bytes": 1917,
+    "sha256": "3815b55bc1dde9a1d0bea216c762619ed90752b5a9824070a129e764a066bfed"
+   },
+   {
+    "path": "image.properties",
+    "bytes": 58,
+    "sha256": "f152de3e1791dceecf408291e589678059b2f9d33d748dac34b1c87c5738c060"
+   },
+   {
+    "path": "integrity.properties",
+    "bytes": 54,
+    "sha256": "4288c259a7390b19d95cd67e82dbbdfe6aa5eafc4ef40d87f6fb96022d71a7ce"
+   },
+   {
+    "path": "kotlin-tooling-metadata.json",
+    "bytes": 627,
+    "sha256": "d9eeec89a498d3d48cc5fe31fe990a74839ae639d85fdbdc606e2668994949e7"
+   },
+   {
+    "path": "object-detection-common.properties",
+    "bytes": 84,
+    "sha256": "6cc2d2705ac7c581cf642dc6f3e72d9433c66c465435867fe34c0632d05f61c3"
+   },
+   {
+    "path": "object-detection.properties",
+    "bytes": 70,
+    "sha256": "1bd7b4a319aaaafb140552ad7eeb075b831e1b4fa7e73b4a76c6b115b71f523e"
+   },
+   {
+    "path": "play-services-ads-base.properties",
+    "bytes": 82,
+    "sha256": "9206fdf17f2cb20ec1eb1313d2b8f6f28931cac4d38d2d8b4c83862b1331d3a3"
+   },
+   {
+    "path": "play-services-ads-identifier.properties",
+    "bytes": 94,
+    "sha256": "13d8d24908d332853bcb62054c081849edb00e2d983098a646df0ab54f162194"
+   },
+   {
+    "path": "play-services-ads-lite.properties",
+    "bytes": 82,
+    "sha256": "02a452fb9a416527b9b5a27a05bfe9097cf81784c78375709aeca3ae9c16a8d9"
+   },
+   {
+    "path": "play-services-ads.properties",
+    "bytes": 72,
+    "sha256": "4c3ab010dd62374eb965dbd5ac6cc5212b61e920ee00b65a77cd4fae453605a0"
+   },
+   {
+    "path": "play-services-analytics-impl.properties",
+    "bytes": 94,
+    "sha256": "979fefeb3d2939aed2e42b3cda7678bde800fb22a1e65851904412b06dc1a988"
+   },
+   {
+    "path": "play-services-appset.properties",
+    "bytes": 78,
+    "sha256": "195c8fe12d8026f36f2baecebd8fe1722b0a85fdedd5bb59c9352f2ee18eaa8d"
+   },
+   {
+    "path": "play-services-auth-api-phone.properties",
+    "bytes": 94,
+    "sha256": "2a5c1c6f7f2f204182236da0dd93ae410313443aae464588b716b0dddd0155e5"
+   },
+   {
+    "path": "play-services-base.properties",
+    "bytes": 74,
+    "sha256": "8d3f6754abfac37a2cd34b08b4c528baa8754ec9ff59878ef3d4ac6b01f4d58f"
+   },
+   {
+    "path": "play-services-basement.properties",
+    "bytes": 82,
+    "sha256": "f104c265304c046ad9ba4807df8a0537204caf35dae11cc090cd8a34be6ee1da"
+   },
+   {
+    "path": "play-services-clearcut.properties",
+    "bytes": 82,
+    "sha256": "52fdcc3b832551bd8061715cb042dae5229d9fdc585399329395033895c50339"
+   },
+   {
+    "path": "play-services-cloud-messaging.properties",
+    "bytes": 96,
+    "sha256": "712efbde0a118e4174d4e3cc84716a0bc8a9273e9d846d3d001e669e1e2d32e3"
+   },
+   {
+    "path": "play-services-flags.properties",
+    "bytes": 76,
+    "sha256": "a9d938e4ebe876d9d7d78fed59ed162f89a1d381b51ac4f4d4a6ec567f21c4cf"
+   },
+   {
+    "path": "play-services-identity.properties",
+    "bytes": 82,
+    "sha256": "d2d180a3874b3ebd7ed97020416ff437921586f9d3b39e9bf95a40b77ed8afef"
+   },
+   {
+    "path": "play-services-location.properties",
+    "bytes": 82,
+    "sha256": "df7e5be0e368c737ce3fe493d7f84cb286832b64e6ee3a0cc66e6f2dd7d28509"
+   },
+   {
+    "path": "play-services-maps.properties",
+    "bytes": 74,
+    "sha256": "44b14aa828f60f4792301f20a9766df44eba42a1e476ef13917f9e669e293c53"
+   },
+   {
+    "path": "play-services-measurement-api.properties",
+    "bytes": 96,
+    "sha256": "a797a23d110fe447fb19e89065227534a408691805fb8ad565e8e276abcf1e14"
+   },
+   {
+    "path": "play-services-measurement-base.properties",
+    "bytes": 98,
+    "sha256": "cd11c102cd66b4e96a2ffdf9e13558dd808cc1fafa17def9508a968258f52a3d"
+   },
+   {
+    "path": "play-services-measurement-impl.properties",
+    "bytes": 98,
+    "sha256": "f44cd1361c9906784f68f4919fc9134b41f71e9f6bfd23fab66a0e29609f5360"
+   },
+   {
+    "path": "play-services-measurement-sdk-api.properties",
+    "bytes": 104,
+    "sha256": "be65e971e6034961a2a4247031b92dbc8fb94c99f4e272f2deee3121cd71127b"
+   },
+   {
+    "path": "play-services-measurement-sdk.properties",
+    "bytes": 96,
+    "sha256": "9c6ac5a744c236419096954f2ce421fff9e91cb2ca167ecc45f51f4537439d41"
+   },
+   {
+    "path": "play-services-measurement.properties",
+    "bytes": 88,
+    "sha256": "2e6cc31102ebdcec40fc8699a53525a83536e891be863dfc846c776832173a58"
+   },
+   {
+    "path": "play-services-mlkit-barcode-scanning.properties",
+    "bytes": 110,
+    "sha256": "44e42a08e2deb8d85ce4872f779923a498cd8b11d7ab2f0cb33f7d7ba54ae452"
+   },
+   {
+    "path": "play-services-mlkit-face-detection.properties",
+    "bytes": 106,
+    "sha256": "f9427fe0ea357d500076240d08a95a1b4a4b004efd5bdbdcc8545208faccba8b"
+   },
+   {
+    "path": "play-services-mlkit-subject-segmentation.properties",
+    "bytes": 130,
+    "sha256": "0d37e40e2705159c9080b589dcaf89e579fe4432713e41756b4c1daefd51e930"
+   },
+   {
+    "path": "play-services-mlkit-text-recognition-common.properties",
+    "bytes": 124,
+    "sha256": "d123efb15add2faaae9fe0e8edf0861f1848d588cefbe664aa125c8fec8ecf11"
+   },
+   {
+    "path": "play-services-mlkit-text-recognition.properties",
+    "bytes": 110,
+    "sha256": "c4d4e9e9b70297352419a2ae09827767a33e85cf585f4c894b53ff3c68b06c90"
+   },
+   {
+    "path": "play-services-phenotype.properties",
+    "bytes": 84,
+    "sha256": "eb39613337b346edca6c45f426e41357274e2b0056bc5d4d87b8a4251ff92f61"
+   },
+   {
+    "path": "play-services-places-placereport.properties",
+    "bytes": 102,
+    "sha256": "dcb990b67e7beba71fbf0c58a98c9d51051c80215537fe8add33cd8cb2381a1e"
+   },
+   {
+    "path": "play-services-safetynet.properties",
+    "bytes": 84,
+    "sha256": "27c7b0dfd0bf0fc660de81be28c4c54cc9c446979f0bf5625ff71ae6a515d3f5"
+   },
+   {
+    "path": "play-services-stats.properties",
+    "bytes": 76,
+    "sha256": "be02efae490fed7d001aa328e838dc900ae99ee9f5abde20a85413a929709653"
+   },
+   {
+    "path": "play-services-tagmanager-api.properties",
+    "bytes": 94,
+    "sha256": "367e57c158049ecb900c6c91827121f7b0e09e8d6cd3da31bd42b2f7a10b87cf"
+   },
+   {
+    "path": "play-services-tagmanager.properties",
+    "bytes": 86,
+    "sha256": "7a60e211a79c0bfd117102d947564724b00ba8cc6257e1c64d7820f25114ae0e"
+   },
+   {
+    "path": "play-services-tasks.properties",
+    "bytes": 76,
+    "sha256": "e82b1e7f5fbe3788895488f92aee879f1c431fc100fc7f337d429f213971dd88"
+   },
+   {
+    "path": "play-services-vision-common.properties",
+    "bytes": 92,
+    "sha256": "e0c4f5c448bc73dce43a7bf364f5c58e0857aa1574d61b703b83b50c93c2a51f"
+   },
+   {
+    "path": "play-services-vision.properties",
+    "bytes": 78,
+    "sha256": "ac940bdd8eff16fe2a07ac6fb9cd6697a80897134aaf61f52343e297edd855d0"
+   },
+   {
+    "path": "play-services-wallet.properties",
+    "bytes": 78,
+    "sha256": "34e0b23fffe2bc6e3dc3e7bf06227b7e53006df74c78c8f21a115d638ba95699"
+   },
+   {
+    "path": "review-ktx.properties",
+    "bytes": 56,
+    "sha256": "dc47de29d30c4a6419b938596b54fa51cbf8964e4d87f65144a3f78adc3a0617"
+   },
+   {
+    "path": "review.properties",
+    "bytes": 48,
+    "sha256": "9a5278881d0e56c9e9f673402cd9af9f66f5f8526773492925492db256bd3db9"
+   },
+   {
+    "path": "text-recognition-bundled-common.properties",
+    "bytes": 100,
+    "sha256": "5193b078323fd1cb8683c563b4ef65f0bd8e554691bce16c786148147f1e163c"
+   },
+   {
+    "path": "text-recognition.properties",
+    "bytes": 70,
+    "sha256": "717c7f707b928ff1f75ffb5aa6b87065e9bf8949a410288a817cb4318ea16d93"
+   },
+   {
+    "path": "user-messaging-platform.properties",
+    "bytes": 82,
+    "sha256": "412f4a89e766d67493966fe3e8515ff4cc5b8d3973029ffd8085ad1dd277074f"
+   },
+   {
+    "path": "vision-common.properties",
+    "bytes": 64,
+    "sha256": "17d5d69b33423ed393118678dd5c66d54bef292e6d295c772d3cda2ac280f093"
+   },
+   {
+    "path": "vision-interfaces.properties",
+    "bytes": 72,
+    "sha256": "4de4f31504cb086be088a62bb3b14d6e156381238dca2a362108d4ee8ede358f"
+   },
+   {
+    "path": "vision-internal-vkp.properties",
+    "bytes": 76,
+    "sha256": "5a7fe8e50cff6db1ca58cc329362833eaa757b1599d8890f4e3700afa179f261"
+   },
+   {
+    "path": "META-INF/rxkotlin.properties",
+    "bytes": 668,
+    "sha256": "f928968baaec99cb9de73246a8036caf52d6b8c27565fcdbe6e14d7d51522e15"
+   },
+   {
+    "path": "META-INF/androidx/annotation/annotation/LICENSE.txt",
+    "bytes": 10175,
+    "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0"
+   },
+   {
+    "path": "META-INF/androidx/collection/collection/LICENSE.txt",
+    "bytes": 10175,
+    "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0"
+   },
+   {
+    "path": "META-INF/androidx/collection/collection-ktx/LICENSE.txt",
+    "bytes": 10175,
+    "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0"
+   },
+   {
+    "path": "META-INF/androidx/room/room-common/LICENSE.txt",
+    "bytes": 10175,
+    "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0"
+   },
+   {
+    "path": "META-INF/androidx/constraintlayout/constraintlayout-core/LICENSE.txt",
+    "bytes": 10175,
+    "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0"
+   },
+   {
+    "path": "META-INF/com/android/build/gradle/app-metadata.properties",
+    "bytes": 57,
+    "sha256": "762cdeb9ba403447d57d66ef4eb6d32b17663b30916804feb9a8f3b64dd38d57"
+   },
+   {
+    "path": "assets/bundle.json",
+    "bytes": 312,
+    "sha256": "21c10377141df90d078b62dfaf9b042821d5cdb0cbf26df6fbb8b9b187eaae0d"
+   },
+   {
+    "path": "assets/client_tracking.json",
+    "bytes": 146391,
+    "sha256": "17658dcae0a7e7a0dabefe67843e9ed856a1fdde7241eed8a3a786214b104b0a"
+   },
+   {
+    "path": "assets/home_data.json",
+    "bytes": 9417,
+    "sha256": "0a6b0afe13690ff2408403be6907ba666bc0bf1b7fef4ec8e4dfecd28a56d73f"
+   },
+   {
+    "path": "assets/safemode_registrator_com_iap_ac_config.json",
+    "bytes": 80,
+    "sha256": "7369e6fce29a565885fc40dbc4682f716fe083c08fc6b2b8644516d311a02097"
+   },
+   {
+    "path": "assets/taibmcf.json",
+    "bytes": 46,
+    "sha256": "276833c96dde3ceefa9a894a4612f09ffdc6b22538ea5e1891e1155dc7355172"
+   },
+   {
+    "path": "assets/timezone2region_2023c.json",
+    "bytes": 11067,
+    "sha256": "5a8407b1dd33bdf0d44812c8f0394def555418558fa4c1b8074cc1925d5517a3"
+   },
+   {
+    "path": "assets/vdfmoer.json",
+    "bytes": 46,
+    "sha256": "276833c96dde3ceefa9a894a4612f09ffdc6b22538ea5e1891e1155dc7355172"
+   },
+   {
+    "path": "assets/Griver/appx.json",
+    "bytes": 2178,
+    "sha256": "3b7a99da47f6f10db498d5582e0255de17786531f0c7f090b56f24591be70090"
+   },
+   {
+    "path": "assets/GriverTheme/theme.json",
+    "bytes": 584,
+    "sha256": "72432cab511a423bebc6c4d46b2149e9de5cd394c37a5cadba724c3fceda1670"
+   },
+   {
+    "path": "assets/config/public_key.txt",
+    "bytes": 450,
+    "sha256": "ab63708a7b557a1332c316667a9d568e34a7a646a1383f8a33811948b081d52c",
+    "pem_blocks": [
+     "PUBLIC KEY"
+    ],
+    "key_summary": "MIIB…[32 chars]#21c53cc2 (b64 len 392)"
+   },
+   {
+    "path": "assets/config/signature.txt",
+    "bytes": 350,
+    "sha256": "fd7abb1a0d62a50ab42e53ab161be6a2229fabfa1558bda1ed0b5e47a3651750"
+   },
+   {
+    "path": "assets/config/zalopay_config.json",
+    "bytes": 105659,
+    "sha256": "740c82f914bd6399ed2db46804accb33f4dd48306f3fcccf095838a38315f3a3"
+   },
+   {
+    "path": "assets/containers/GTM-PC9W5BW.json",
+    "bytes": 7702,
+    "sha256": "5b739372c14abdb42bb77af63077d0fc613b253afc59a8b70747c679bbc0b20b"
+   },
+   {
+    "path": "assets/fonts/zalopay.json",
+    "bytes": 70880,
+    "sha256": "9af2f6bf0b740313dbcc64eeca1598bdc7ea0bde53065f7b968aae7ac7796d12"
+   },
+   {
+    "path": "assets/theme/bank/bank_resource.json",
+    "bytes": 11339,
+    "sha256": "bf584e41fde15aaf3b3b9b9d2f9f08c5b417d877a8da89d43269555876d1d2b7"
+   },
+   {
+    "path": "assets/theme/bank/config_v2.json",
+    "bytes": 11573,
+    "sha256": "258535cabe5cb6d87e7b66c9cca71e50bfcaa03c38d4af210e21d1ef3c9ab430"
+   },
+   {
+    "path": "assets/theme/bank/ui_config.json",
+    "bytes": 15430,
+    "sha256": "1efac77f60bba10946346b40d79a57f50638d47481d84fd872c9f668ca19793a"
+   },
+   {
+    "path": "org/apache/commons/codec/language/dmrules.txt",
+    "bytes": 3545,
+    "sha256": "90ff9e9c775e01444f19dec3f8444eaa6d39fdeca77d0eaf4ddcb970a43687f7"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_any.txt",
+    "bytes": 4708,
+    "sha256": "ad6c75e0e50b51f807d73a3d3ef46a6f666a891cb4953cc357a5d305e61e30ab"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_any.txt",
+    "bytes": 1952,
+    "sha256": "bc6b6b423e6af997ce45348e17f3a0d6a18617cfe67b50bdb501cc97258c3d35"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_common.txt",
+    "bytes": 4971,
+    "sha256": "da5b7febc70f860f91bcccca37c29a619a23442cc80b9cd98ad884e16d6c9854"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_cyrillic.txt",
+    "bytes": 831,
+    "sha256": "a29917ea4c00bdd216db31d36205ef3829d0fb76926d189fcd8260d3700d4c57"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_english.txt",
+    "bytes": 1489,
+    "sha256": "53739bd27868292338606ef7a1fd209b6253d35e94d7a4afb031769498d60d64"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_french.txt",
+    "bytes": 1224,
+    "sha256": "19650e4ab69678bb849028900e4c2e867f75229c4447a0fcbf5a5bd6b3bd69c3"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_german.txt",
+    "bytes": 1852,
+    "sha256": "cfc7c1ef41209af89b676ba46a183060b93dedcab1e7d730f6253f48f5af0ea9"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_hebrew.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_hungarian.txt",
+    "bytes": 830,
+    "sha256": "6bd249910726949afa4e5a9623ec3999151c3ef43843714a90003cfb11350309"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_polish.txt",
+    "bytes": 2228,
+    "sha256": "5f56627d50d4ef0e3c8c76225d3e72fd95c8c90ae629d65d32f202f792d5912a"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_romanian.txt",
+    "bytes": 830,
+    "sha256": "900bcb8b852ce9738f85efacda91bbcaf0192d662f2fa996ebbe34e115801736"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_russian.txt",
+    "bytes": 1427,
+    "sha256": "b908b81325099091067ecbaab232db0215b61ebd6899d0f7d989a013363a7cb3"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_approx_spanish.txt",
+    "bytes": 830,
+    "sha256": "6bd249910726949afa4e5a9623ec3999151c3ef43843714a90003cfb11350309"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_approx_common.txt",
+    "bytes": 1736,
+    "sha256": "a1f947e071423aa5c24360484f85b7139f7a3ffe77d2089e367ca152743d1a19"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_common.txt",
+    "bytes": 1095,
+    "sha256": "fc3558377839a10375bb40146d9d12ec9b37487223023cc0769946aed24f352f"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_cyrillic.txt",
+    "bytes": 830,
+    "sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_english.txt",
+    "bytes": 830,
+    "sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_french.txt",
+    "bytes": 830,
+    "sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_german.txt",
+    "bytes": 826,
+    "sha256": "32674f342f7c8b73fe831f46b0537df0a2b9d43c45fcded7617ddf28495c0e2a"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_hebrew.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_hungarian.txt",
+    "bytes": 830,
+    "sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_polish.txt",
+    "bytes": 875,
+    "sha256": "d04d6e8ea4ed593f478fe1ff150a1f57ac30557c13f9f019fcf2b1658b6ff49e"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_romanian.txt",
+    "bytes": 830,
+    "sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_russian.txt",
+    "bytes": 831,
+    "sha256": "34bfa509511f7517a628330cca7c5e51464ab4eef953834054f684d02e11ffc7"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_exact_spanish.txt",
+    "bytes": 830,
+    "sha256": "265d93b530f2f0b3b2b602afda6e912370c0b01c06df4a2987119f6320bffb44"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_hebrew_common.txt",
+    "bytes": 2983,
+    "sha256": "ad11a0f537e90b0893e8624e0c997dd8e2ece13dfe8b90b366d3a773f829bee5"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_lang.txt",
+    "bytes": 4874,
+    "sha256": "93bc49f227498c3151f4f132363256429e700eece2b72e3d3bc5b7fd857cc22a"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_languages.txt",
+    "bytes": 888,
+    "sha256": "ee736888a0725497a11c74cca309ee21d520d5ad64b5541250e8f1da9138fe97"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_rules_any.txt",
+    "bytes": 9451,
+    "sha256": "bdb60c3901ab057f4c94b384b302a0bdd7a6012ac07cf4edb87bd37b9283d17b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_rules_cyrillic.txt",
+    "bytes": 2366,
+    "sha256": "361bc87691da6bfda59ff416ce61c922aae811944669fd05f537ac629eefed84"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_rules_english.txt",
+    "bytes": 2970,
+    "sha256": "7c28986e7dc911d8798ebe9f26b93d0487e632482fc5348363cd8ef94dac1a5e"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_rules_french.txt",
+    "bytes": 2274,
+    "sha256": "234f4b1eeacea6c814af4494c155799c21387f2b3ce61c47f0f5e90e9592802a"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_rules_german.txt",
+    "bytes": 2787,
+    "sha256": "00b0a4baf27ff74f992f39ff875df7b694efe7218f228734695b4b0817575758"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_rules_hebrew.txt",
+    "bytes": 1472,
+    "sha256": "1e36828bd90a0721b6513f6f687eac503dc8c1a37824ae6e6d8d496344620194"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_rules_hungarian.txt",
+    "bytes": 1960,
+    "sha256": "a247af30ac47cbaa87cc9458fe33a9fa101424d77565c7ca012b4e8b923a369d"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_rules_polish.txt",
+    "bytes": 4167,
+    "sha256": "047bf7630b038e180ac407dc6bedb45ebbc42c01a7c9be7b17845c4e9b15f250"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_rules_romanian.txt",
+    "bytes": 1526,
+    "sha256": "212f03c2a1c539a08d4664107b107bddced3a461b6d5362335c0c1039dd88d7c"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_rules_russian.txt",
+    "bytes": 3980,
+    "sha256": "9d9904d23ec6031ff620967766cf72a06f5aa9ac958ebc9ab6c4956a19c2c76b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/ash_rules_spanish.txt",
+    "bytes": 2073,
+    "sha256": "c9e410a8a5c0965b39e39362a904bd107239bbfe0176348e003423e5e4812aa0"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_any.txt",
+    "bytes": 4043,
+    "sha256": "a72bbd45de8a31aa3ceaaa06513896c4abb59bc76ef945811a3edc63b55451d4"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_arabic.txt",
+    "bytes": 991,
+    "sha256": "838a47e6f968189a4a882b82220654ca219450956d2cf0ae0336d342894c598f"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_common.txt",
+    "bytes": 5120,
+    "sha256": "edf03e4f49c343d45b63ea9c3d470b6baf95a3688c5723ad1e85bdfb860e3314"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt",
+    "bytes": 831,
+    "sha256": "f9a750d48156d8e8e1d94c8ed34dbf596c24efe945123d6e808af069dee2599a"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_czech.txt",
+    "bytes": 830,
+    "sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_dutch.txt",
+    "bytes": 830,
+    "sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_english.txt",
+    "bytes": 1489,
+    "sha256": "53739bd27868292338606ef7a1fd209b6253d35e94d7a4afb031769498d60d64"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_french.txt",
+    "bytes": 942,
+    "sha256": "1d9d34f64e5d8d3009749d9d818c0583463ee89f08c0f7d2b0544a4316acad47"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_german.txt",
+    "bytes": 1853,
+    "sha256": "4330f43e087759d3616b02eb362074aed94698cb4d4f848a6e58f2532c5b0aeb"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_greek.txt",
+    "bytes": 830,
+    "sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_greeklatin.txt",
+    "bytes": 845,
+    "sha256": "dffa002d397f85134af0350cc2fa75f1eddfd75a2a18be5a5761e3c80781f12e"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_hebrew.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_hungarian.txt",
+    "bytes": 831,
+    "sha256": "f827f54af6560a4c6d615618433457e1c9dc06c78c7683dee6d4187cdbcd8c83"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_italian.txt",
+    "bytes": 831,
+    "sha256": "f827f54af6560a4c6d615618433457e1c9dc06c78c7683dee6d4187cdbcd8c83"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_polish.txt",
+    "bytes": 2183,
+    "sha256": "d062343f0330e121c684e3e6943f7775855c78e965b043a839a4dba87336d4d8"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_portuguese.txt",
+    "bytes": 830,
+    "sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_romanian.txt",
+    "bytes": 830,
+    "sha256": "4e35dd86b22d8d011287b19aba8b1d4af9e8c63ebdf27d0899e8d9edf4d4b1ed"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_russian.txt",
+    "bytes": 1437,
+    "sha256": "15e71e33faf7bb4558fd3f64ec9e38111bb04852343bc4a89b09ae127279caf0"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_spanish.txt",
+    "bytes": 868,
+    "sha256": "ca9391f883011b749197fbbc79776777d957dd5f55749d9a600c1d229f80b8df"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_approx_turkish.txt",
+    "bytes": 830,
+    "sha256": "e52b12a250fa593f99ca8a06e02b18a091518a1e6b66fd496e78a7db3888cc43"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_any.txt",
+    "bytes": 1226,
+    "sha256": "cf8da3ee51d478dce1ff6fa1ccef2f65411308d47703f920423cc1172266623e"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_approx_common.txt",
+    "bytes": 1769,
+    "sha256": "948f6d4355ac74011cccd7bd54ec3bce4a29ea26c5d4518f019cdc1dcef27285"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_arabic.txt",
+    "bytes": 816,
+    "sha256": "891a20110c50fd5dd6c34ba71c11207e2e11948c3cca5f1554b3c934644f5a05"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_common.txt",
+    "bytes": 1093,
+    "sha256": "6a943ca8cf3f7bed1ff516de9a3ecf44f13c801d3dc967803b1b6a95ae45d372"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_cyrillic.txt",
+    "bytes": 830,
+    "sha256": "fd5517e98eebfbe1f979ec21f9749e9d6cafd3e6798e5f31c173a0be08c025e5"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_czech.txt",
+    "bytes": 830,
+    "sha256": "fd5517e98eebfbe1f979ec21f9749e9d6cafd3e6798e5f31c173a0be08c025e5"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_dutch.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_english.txt",
+    "bytes": 830,
+    "sha256": "fd5517e98eebfbe1f979ec21f9749e9d6cafd3e6798e5f31c173a0be08c025e5"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_french.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_german.txt",
+    "bytes": 826,
+    "sha256": "abe0c2b293dde37d051c84c0a60194b8c3038f399411b60f0706dcddfadb0bdf"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_greek.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_greeklatin.txt",
+    "bytes": 817,
+    "sha256": "8784c2b1d8b8e206e3dfce6eda4f3dec800a1bc213dc4f4dc0cb09a8132a542c"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_hebrew.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_hungarian.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_italian.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_polish.txt",
+    "bytes": 874,
+    "sha256": "6d805f7fc3172f02f11240b9043fedc535d0729a105f218205ddbcee3245781a"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_portuguese.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_romanian.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_russian.txt",
+    "bytes": 831,
+    "sha256": "34bfa509511f7517a628330cca7c5e51464ab4eef953834054f684d02e11ffc7"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_spanish.txt",
+    "bytes": 832,
+    "sha256": "b3388ed5a9817dfa7172b1061cd2003068623c5b794b4d25a221225c893eddf2"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_exact_turkish.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_hebrew_common.txt",
+    "bytes": 2845,
+    "sha256": "4a989b869f2293590c21af2305da6588966aee6d3bde431b3e49123904b11bcf"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_lang.txt",
+    "bytes": 7594,
+    "sha256": "705d3b0eca3803ab2764f00b4cf9b2a68f9ec2201a7b340d6893412361022d95"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_languages.txt",
+    "bytes": 951,
+    "sha256": "b3165adaa36026c29338dc8d8f351cebc7423731465e1d6422f27d6778494c7d"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_any.txt",
+    "bytes": 13059,
+    "sha256": "d23d576829821edd7de13f6734eca746a767dd6d565a4cd18e33d9736df0d0ac"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_arabic.txt",
+    "bytes": 2208,
+    "sha256": "82b707c79998031bda269fd7c1192ea1a9670c03ead09ee77a77ce4feca12c38"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_cyrillic.txt",
+    "bytes": 2300,
+    "sha256": "0c8158127f19bd0e683bf883ab2fb7eb4c173a34ee51ab6752f56c932ab125e8"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_czech.txt",
+    "bytes": 1561,
+    "sha256": "84de9e152412cd6129340590372571fedb14876054b5df3b82a2a36564fcd619"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_dutch.txt",
+    "bytes": 1867,
+    "sha256": "9921e75dbbc942d2572a8660b0979329639e8707ffa9bb1de6b7d1a7a9955c2b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_english.txt",
+    "bytes": 3013,
+    "sha256": "bcfb8723cbf3966b09ba0dc6f3dbbdc7882869c4e7af160f803c2f0519785a22"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_french.txt",
+    "bytes": 2778,
+    "sha256": "b5f12b085cfb4896a91020f901bc16e6f3164f0641e683b0d205a730560274b3"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_german.txt",
+    "bytes": 2735,
+    "sha256": "453d474ab996523a2f09a1c5897d8e3e1b4c045061227c052792f982e1c3c8b7"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_greek.txt",
+    "bytes": 2918,
+    "sha256": "6b56c5d8a9b6270f8777cce5f1b0860390aa218f7e2b43eeb1d7cbdb38778830"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_greeklatin.txt",
+    "bytes": 3041,
+    "sha256": "06122f03fe879f2ef78b0b76bf1412eb170c69fa828f40d7e7b907856656446e"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_hebrew.txt",
+    "bytes": 1462,
+    "sha256": "a570f37f45f35f2e409b1173d955d83adc878da8187f899db930d5d19f89a5f1"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_hungarian.txt",
+    "bytes": 1887,
+    "sha256": "16ba7cf79bf85089dc29fd92eff6358c893bc6aef85e6396dd29af7c41a4f611"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_italian.txt",
+    "bytes": 1873,
+    "sha256": "99155dedf0caeaae4212877d0b90da52e0252812eee4ab06a9aaf5393b94afb0"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_polish.txt",
+    "bytes": 4112,
+    "sha256": "e4e0eb610a8bccf71d39cd0e10b2c51e4d1f132a052d183c749511464ed51fc9"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_portuguese.txt",
+    "bytes": 2598,
+    "sha256": "0c51c2cc22988516b03f6afdd5699897b7cafe2b3e5d3676ab101941fbfd92dc"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_romanian.txt",
+    "bytes": 1509,
+    "sha256": "75ee26f3c6bf6cafc2258be21b820952e2e07c192919e34fd717dd81b0a2f4ad"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_russian.txt",
+    "bytes": 3042,
+    "sha256": "ded105c857167c2ba8c44ced7cee000d6bcd7823a4851b698f8ea540115a7f37"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_spanish.txt",
+    "bytes": 2382,
+    "sha256": "e7253c7c1ab7e46d29c85792be68c15a7bdb8937c364043f4c4c658d08f76a6b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/gen_rules_turkish.txt",
+    "bytes": 1386,
+    "sha256": "1800bab9aee6be5f57838bfaaf071009841c1af93d5dd22789e1a7643d199261"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/lang.txt",
+    "bytes": 819,
+    "sha256": "05987a68044246aa19eabb6abc5a6d9bd066cb250b7fdc95ae9672b7389dc91e"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_approx_any.txt",
+    "bytes": 830,
+    "sha256": "47661c92b7bd2a3dbff0b19f2342281076f2877fab2592a0c076a555a813947f"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_approx_common.txt",
+    "bytes": 3195,
+    "sha256": "7f3ea2985fd4b1b5e0f5a6544a47ab632497a7853b691aef5e6bd7320fcaa3a6"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_approx_french.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_approx_hebrew.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_approx_italian.txt",
+    "bytes": 830,
+    "sha256": "b6165dbda3d972b5c54b2191409a2c04ac35fc7dba0abf5ddf3c9ae13f9a98a0"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_approx_portuguese.txt",
+    "bytes": 831,
+    "sha256": "21d632279772ae8983832220505bcf0c6fb500f4ffade0f9908306d018710f13"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_approx_spanish.txt",
+    "bytes": 831,
+    "sha256": "21d632279772ae8983832220505bcf0c6fb500f4ffade0f9908306d018710f13"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_exact_any.txt",
+    "bytes": 817,
+    "sha256": "df3f63b3946b8d5f05c4977ee5ab488da8162f4ad8cafa7a81cd8731b4954cb8"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_exact_approx_common.txt",
+    "bytes": 1685,
+    "sha256": "232f59750f9dedcf0bc2af194d16a1f434a56a0ace0415fe67924b73c7e22a32"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_exact_common.txt",
+    "bytes": 1109,
+    "sha256": "c3654ad436be18536fef3e3872db7255659c413bfc9b5ad446b1467b68c8b8c0"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_exact_french.txt",
+    "bytes": 815,
+    "sha256": "9ddcb79875c3a49259e98faf98433c7d8c29e368dedea7155c9ff7171016857d"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_exact_hebrew.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_exact_italian.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_exact_portuguese.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_exact_spanish.txt",
+    "bytes": 812,
+    "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_hebrew_common.txt",
+    "bytes": 2187,
+    "sha256": "f54d8a4d50ac4331b34a9a6d6466108e8d462f590d83b88130cb439f760a74e8"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_lang.txt",
+    "bytes": 2431,
+    "sha256": "f3b5f5fda135f0b1d3016b67eea126a9415c50d3b169ee4fa9bd8dd0143fa9f5"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_languages.txt",
+    "bytes": 849,
+    "sha256": "9cc12d4172e415642b4105d96717d9c9b28abca8abfb61b6443f4e9c47adaf87"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_rules_any.txt",
+    "bytes": 4632,
+    "sha256": "a334356decf81c182682d8e0d03e1727ab45a068446ed11c96809167aca1877f"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_rules_french.txt",
+    "bytes": 2224,
+    "sha256": "2a3cbe347fda0df595e3110959c49656c6ec6b6f3b7af69a67d5590f0729699b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_rules_hebrew.txt",
+    "bytes": 1459,
+    "sha256": "545919eeecaee7301ff14afe69c88faf0277f3568c154032be204d3ff0d9da68"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_rules_italian.txt",
+    "bytes": 1848,
+    "sha256": "3b4d253710d0c9dd5649594047c8e10763094c10b7b518cfd84048c122255f9b"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_rules_portuguese.txt",
+    "bytes": 2573,
+    "sha256": "8a1e06755eba82e40de80beecdcabc01d8a0e9a547f1eabb35346e526bcf90b2"
+   },
+   {
+    "path": "org/apache/commons/codec/language/bm/sep_rules_spanish.txt",
+    "bytes": 2480,
+    "sha256": "57654b4355e47b908556126a8cf10f9a77dc49e5bf3b179e9797b4e9b47f88ed"
+   },
+   {
+    "path": "org/bouncycastle/pkix/CertPathReviewerMessages.properties",
+    "bytes": 42868,
+    "sha256": "9fbb991695b174b3e21b91705cfef4146a7028e142d7262f936839281b374ba3"
+   },
+   {
+    "path": "org/bouncycastle/pkix/CertPathReviewerMessages_de.properties",
+    "bytes": 49608,
+    "sha256": "1e5085ab80e415564b4fd7b40d73361c89a81bea6c6f2608b03eb900fd03c28f"
+   },
+   {
+    "path": "org/bouncycastle/pqc/crypto/picnic/lowmcL1.bin.properties",
+    "bytes": 118306,
+    "sha256": "4f4ae14c89cbd0410c44edfb9b34ddf3f77fc04f2824f2c402bb35ac6d45e133"
+   },
+   {
+    "path": "org/bouncycastle/x509/CertPathReviewerMessages.properties",
+    "bytes": 42868,
+    "sha256": "9fbb991695b174b3e21b91705cfef4146a7028e142d7262f936839281b374ba3"
+   },
+   {
+    "path": "org/bouncycastle/x509/CertPathReviewerMessages_de.properties",
+    "bytes": 49608,
+    "sha256": "1e5085ab80e415564b4fd7b40d73361c89a81bea6c6f2608b03eb900fd03c28f"
+   },
+   {
+    "path": "org/jacoco/core/jacoco.properties",
+    "bytes": 166,
+    "sha256": "50405229dd77d8f5df08c1bb347f604e45af7fa5c512ee79bd3872a74ac784f8"
+   },
+   {
+    "path": "res/xml/apdu_service.xml",
+    "bytes": 1280,
+    "sha256": "e86657ba85fbb6a4c0eb1beabb5611f183e2e5ef431ea335eb10efaad6da617e"
+   },
+   {
+    "path": "res/xml/app_shortcuts.xml",
+    "bytes": 2092,
+    "sha256": "ec8a5ec787cccd4715f23889e40e3186c26cd8024553eec0add01bdebe920924"
+   },
+   {
+    "path": "res/xml/appsflyer_data_extraction_rules.xml",
+    "bytes": 1036,
+    "sha256": "d11aa10b9203d2b3a1e63aa904356554b90aa94468aa3a6ebb183ae75e393a64"
+   },
+   {
+    "path": "res/xml/file_paths.xml",
+    "bytes": 1236,
+    "sha256": "7cde3f7264cff1393a8b0ffe86901ff89796323332c6045d7ecfea2e78edddb2"
+   },
+   {
+    "path": "res/xml/game_app_widget_info.xml",
+    "bytes": 540,
+    "sha256": "454af7836a88c1b424aab26db721436b132290240c03c33cac3cb064ce7f4683"
+   },
+   {
+    "path": "res/xml/gma_ad_services_config.xml",
+    "bytes": 344,
+    "sha256": "ca6c1b9748710329962e1eca5ada15ce09cb6f6a2dacc4448b252b40d5d348d7"
+   },
+   {
+    "path": "res/xml/griverfilepath.xml",
+    "bytes": 300,
+    "sha256": "e824a36b3a8b374a5da864af8ea0657e120007d5beee2357567e40dba46fc18a"
+   },
+   {
+    "path": "res/xml/movie_app_widget_info.xml",
+    "bytes": 584,
+    "sha256": "abb6c9bc9ef106028f2b29e996ef65f5145bee16e94c21db20bbffe9588bd312"
+   },
+   {
+    "path": "res/xml/network_security_config.xml",
+    "bytes": 1056,
+    "sha256": "408d0b533a2b49eb257b6269de7d25db776f86f11ff1c6e22548f8a3bcf1f077"
+   },
+   {
+    "path": "res/xml/personal_qr_app_widget_info.xml",
+    "bytes": 448,
+    "sha256": "8220a3e4d45f5441beab5a2f0154f6ed760bd075b22f3b973f3c95fb992c06db"
+   }
+  ],
+  "pem_private_found": 0,
+  "pem_public_found": 2,
+  "digest_literals": 0
+ }
+}
