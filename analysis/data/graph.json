@@ -1,0 +1,765 @@
+{
+  "per_dex": [
+    {
+      "dex": "classes.dex",
+      "classes": 10703,
+      "domains": {
+        "other": 4205,
+        "google-stack": 3697,
+        "miniapp": 2638,
+        "crypto": 163
+      }
+    },
+    {
+      "dex": "classes10.dex",
+      "classes": 92,
+      "domains": {
+        "other": 91,
+        "wallet-core": 1
+      }
+    },
+    {
+      "dex": "classes11.dex",
+      "classes": 177,
+      "domains": {
+        "other": 163,
+        "wallet-core": 14
+      }
+    },
+    {
+      "dex": "classes12.dex",
+      "classes": 425,
+      "domains": {
+        "other": 413,
+        "wallet-core": 12
+      }
+    },
+    {
+      "dex": "classes13.dex",
+      "classes": 139,
+      "domains": {
+        "other": 125,
+        "wallet-core": 14
+      }
+    },
+    {
+      "dex": "classes14.dex",
+      "classes": 90,
+      "domains": {
+        "other": 87,
+        "wallet-core": 3
+      }
+    },
+    {
+      "dex": "classes15.dex",
+      "classes": 113,
+      "domains": {
+        "other": 112,
+        "wallet-core": 1
+      }
+    },
+    {
+      "dex": "classes16.dex",
+      "classes": 20,
+      "domains": {
+        "other": 19,
+        "wallet-core": 1
+      }
+    },
+    {
+      "dex": "classes17.dex",
+      "classes": 243,
+      "domains": {
+        "other": 243
+      }
+    },
+    {
+      "dex": "classes18.dex",
+      "classes": 115,
+      "domains": {
+        "other": 114,
+        "wallet-core": 1
+      }
+    },
+    {
+      "dex": "classes19.dex",
+      "classes": 777,
+      "domains": {
+        "other": 772,
+        "wallet-core": 5
+      }
+    },
+    {
+      "dex": "classes2.dex",
+      "classes": 7421,
+      "domains": {
+        "other": 4312,
+        "miniapp": 1459,
+        "payments": 1246,
+        "kotlin-runtime": 330,
+        "crypto": 65,
+        "social": 9
+      }
+    },
+    {
+      "dex": "classes3.dex",
+      "classes": 1081,
+      "domains": {
+        "other": 1081
+      }
+    },
+    {
+      "dex": "classes4.dex",
+      "classes": 11441,
+      "domains": {
+        "google-stack": 6629,
+        "other": 3376,
+        "crypto": 1436
+      }
+    },
+    {
+      "dex": "classes5.dex",
+      "classes": 7983,
+      "domains": {
+        "other": 3193,
+        "crypto": 2940,
+        "miniapp": 1370,
+        "google-stack": 200,
+        "ads": 162,
+        "social": 118
+      }
+    },
+    {
+      "dex": "classes6.dex",
+      "classes": 5475,
+      "domains": {
+        "other": 2775,
+        "google-stack": 1097,
+        "miniapp": 775,
+        "crypto": 496,
+        "payments": 124,
+        "wallet-core": 86,
+        "ekyc": 79,
+        "kotlin-runtime": 39,
+        "ads": 4
+      }
+    },
+    {
+      "dex": "classes7.dex",
+      "classes": 12953,
+      "domains": {
+        "other": 10785,
+        "crypto": 1012,
+        "wallet-core": 613,
+        "ekyc": 543
+      }
+    },
+    {
+      "dex": "classes8.dex",
+      "classes": 295,
+      "domains": {
+        "other": 294,
+        "wallet-core": 1
+      }
+    },
+    {
+      "dex": "classes9.dex",
+      "classes": 1128,
+      "domains": {
+        "other": 928,
+        "wallet-core": 200
+      }
+    },
+    {
+      "dex": "audience_network.dex",
+      "classes": 3156,
+      "domains": {
+        "ads": 3088,
+        "google-stack": 42,
+        "other": 17,
+        "kotlin-runtime": 9
+      }
+    }
+  ],
+  "domain_totals": {
+    "other": 33105,
+    "google-stack": 11665,
+    "miniapp": 6242,
+    "crypto": 6112,
+    "ads": 3254,
+    "payments": 1370,
+    "wallet-core": 952,
+    "ekyc": 622,
+    "kotlin-runtime": 378,
+    "social": 127
+  },
+  "namespaces_shared_across_dex": 122,
+  "shared_sample": {
+    "com.airbnb.lottie": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.core.view": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.compose.ui": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.glance.appwidget": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.camera.core": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.recyclerview.widget": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.work.impl": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.core.app": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "android.support.v4": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.compose.foundation": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.media3.extractor": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.activity.result": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.appcompat.view": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.fragment.app": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.appcompat.widget": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.media3.common": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.browser.customtabs": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.camera.camera2": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.media3.ui": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.camera.extensions": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.camera.video": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.cardview.widget": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.compose.runtime": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.constraintlayout.widget": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.core.widget": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.glance.session": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.media3.decoder": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.media3.exoplayer": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "androidx.viewpager.widget": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "app.rive.runtime": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "com.alibaba.ariver": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "com.alibaba.exthub": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "com.alibaba.fastjson": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "com.alibaba.griver": [
+      "classes.dex",
+      "classes5.dex",
+      "classes6.dex"
+    ],
+    "com.xq.cxzmoiwuegvp": [
+      "classes.dex",
+      "classes6.dex"
+    ],
+    "org.bouncycastle.asn1": [
+      "classes.dex",
+      "classes5.dex",
+      "classes6.dex"
+    ],
+    "vn.com.vng": [
+      "classes10.dex",
+      "classes11.dex",
+      "classes12.dex",
+      "classes13.dex",
+      "classes14.dex",
+      "classes15.dex",
+      "classes16.dex",
+      "classes17.dex",
+      "classes18.dex",
+      "classes19.dex",
+      "classes6.dex",
+      "classes7.dex",
+      "classes8.dex",
+      "classes9.dex"
+    ],
+    "com.vnpay.vntaxi": [
+      "classes2.dex",
+      "classes6.dex"
+    ],
+    "kotlin.jvm.internal": [
+      "classes2.dex",
+      "classes6.dex"
+    ],
+    "com.iap.ac": [
+      "classes2.dex",
+      "classes6.dex"
+    ]
+  },
+  "wallet_concentration": {
+    "dex": "classes7.dex",
+    "classes": 12953,
+    "domains": {
+      "other": 10785,
+      "crypto": 1012,
+      "wallet-core": 613,
+      "ekyc": 543
+    }
+  },
+  "miniapp_concentration": {
+    "dex": "classes.dex",
+    "classes": 10703,
+    "domains": {
+      "other": 4205,
+      "google-stack": 3697,
+      "miniapp": 2638,
+      "crypto": 163
+    }
+  },
+  "config": {
+    "path": "assets/config/zalopay_config.json",
+    "bytes": 105659,
+    "sections": [
+      "api",
+      "app_resource_policy",
+      "bank",
+      "bank_binding",
+      "bank_integration",
+      "bank_kyc",
+      "bank_register_online",
+      "banks_information",
+      "bill_split",
+      "change_pin",
+      "deeplink",
+      "general",
+      "grpc",
+      "ibft",
+      "keyboard",
+      "kvs",
+      "kyc",
+      "lockscreen",
+      "merchant_integration_info",
+      "merchant_token",
+      "mini_app",
+      "mp_sdk_v2",
+      "network_config",
+      "non_payment_appid",
+      "notification",
+      "omniP",
+      "otp",
+      "payment_app_policy",
+      "profile",
+      "promotion",
+      "promotion_handler",
+      "qrcode_emv",
+      "red_packet",
+      "remote_config",
+      "reset_passcode",
+      "reset_pin",
+      "sdk",
+      "serverlog",
+      "social",
+      "ssl_consideration",
+      "tab_home",
+      "tab_me",
+      "tab_promotion",
+      "theming",
+      "tracking_location_flow",
+      "tracking_npu",
+      "transfer_history",
+      "transfer_via_zalo",
+      "update_app_notification",
+      "update_profile_level",
+      "verify_device",
+      "web_config",
+      "webapp",
+      "z",
+      "zpc",
+      "zpi"
+    ],
+    "section_count": 56,
+    "api_names": [
+      "um/listcardinfoforclient",
+      "um/listbankaccountforclient",
+      "um/removeaccesstoken",
+      "um/getuserinfo",
+      "um/updateprofile",
+      "um/verifyotpprofile",
+      "um/recoverypin",
+      "umupload/preupdateprofilelevel3",
+      "um/getuserinfobyzalopayid",
+      "um/verifyaccesstoken",
+      "um/sendnotification",
+      "um/checkzalopaynameexist",
+      "um/updatezalopayname",
+      "um/getuserinfobyzalopayname",
+      "um/listcardinfo",
+      "um/getuserprofilelevel",
+      "ummerchant/getmerchantuserinfo",
+      "ummerchant/getlistmerchantuserinfo",
+      "v001/tpe/transhistory",
+      "v001/tpe/gettransstatus",
+      "v001/tpe/getorderinfo",
+      "v001/tpe/createorder",
+      "v001/tpe/createwalletorder",
+      "v001/tpe/getappinfo",
+      "v001/tpe/getappinfov1",
+      "v001/tpe/submittrans",
+      "v001/tpe/atmauthenpayer",
+      "v001/tpe/authcardholderformapping",
+      "v001/tpe/getstatusmapcard",
+      "v001/tpe/verifycardformapping",
+      "v001/tpe/getstatusbyapptransidforclient",
+      "v001/tpe/removemapcard",
+      "v001/tpe/submitmapaccount",
+      "cpscdn/app/getplatforminfo",
+      "cpscdn/app/getbanklist"
+    ],
+    "api_groups": {
+      "um": 15,
+      "umupload": 1,
+      "ummerchant": 2,
+      "v001": 15,
+      "cpscdn": 2
+    },
+    "transport": "grpc",
+    "api_route": "https",
+    "network_config": {
+      "connect_time_out": 30,
+      "connect_time_out_longer": 30,
+      "read_time_out": 30,
+      "read_time_out_longer": 30,
+      "enable_cdn": true,
+      "ssl_enabled": false
+    },
+    "ssl_error_matchers": [
+      {
+        "primary_error": 3,
+        "url_matcher": [
+          "^(https:)([/|.|\\w|\\s|-])*(.*3dsecure\\.shb\\.com\\.vn).*$",
+          "^(https:)([/|.|\\w|\\s|-])*(.*3dsecure\\.ocb\\.com\\.vn).*$",
+          "^(https:)([/|.|\\w|\\s|-])*(.*acscard\\.agribank\\.com\\.vn).*$",
+          "^(https:)([/|.|\\w|\\s|-])*(.*dps\\.napas\\.com\\.vn).*$",
+          "^(https:)([/|.|\\w|\\s|-])*(.*secureauthentication\\.citibank\\.com).*$",
+          "^(https:)([/|.|\\w|\\s|-])*(.*acs\\.woori\\.com\\.vn).*$"
+        ]
+      },
+      {
+        "primary_error": 2,
+        "url_matcher": [
+          "^(https:)([/|.|\\w|\\s|-])*(.*banknetvn\\.com\\.vn).*$",
+          "^(https:)([/|.|\\w|\\s|-])*(.*smartlink\\.com\\.vn).*$",
+          "^(https:)([/|.|\\w|\\s|-])*(.*securepay\\.scb\\.com).*$",
+          "^(https:)([/|.|\\w|\\s|-])*(.*demo\\.napas\\.com\\.vn).*$"
+        ]
+      }
+    ],
+    "otp_clipboard": {
+      "enabled": true,
+      "banks": [
+        "VTB",
+        "VCB",
+        "SCB",
+        "SGCB",
+        "EIB",
+        "BIDV",
+        "VCCB",
+        "MB",
+        "MSB",
+        "NAB",
+        "HDB",
+        "VPB",
+        "VIB",
+        "OJB",
+        "VARB"
+      ],
+      "bank_count": 15,
+      "zalopay_pattern": "(\\s|^)(\\d{6})(\\s|$)"
+    },
+    "kyc": {
+      "min_age": 14,
+      "transaction_amount_limit": 2000000,
+      "banks": [
+        "MB",
+        "VTB",
+        "BIDV",
+        "SGCB",
+        "MSB",
+        "NAB"
+      ],
+      "id_patterns": {
+        "cmnd_pattern": "^([0-9]{9}|[0-9]{12})$",
+        "cancuoc_max_length": 12,
+        "passport_pattern": "^[a-zA-Z][0-9]{7}$",
+        "name_pattern": "^([\\p{L}\\p{M} \\-`']*)$"
+      }
+    },
+    "grpc": {
+      "first_ping_interval": 1000,
+      "ping_interval": 30000,
+      "ping_timeout": 60000,
+      "connection_timeout": 10000,
+      "destroy_timer": 3000,
+      "first_reconnect_time": 3000,
+      "reconnect_multiply": 5000
+    }
+  },
+  "miniapps": {
+    "path": "assets/config/miniapp_config.json",
+    "bytes": 883684,
+    "count": 373,
+    "categories": [
+      [
+        "Dịch vụ phổ biến",
+        88
+      ],
+      [
+        "Giải trí - Cộng đồng",
+        77
+      ],
+      [
+        "Tài chính",
+        65
+      ],
+      [
+        "Ăn uống",
+        32
+      ],
+      [
+        "Dịch vụ đối tác",
+        18
+      ],
+      [
+        "Mua sắm",
+        15
+      ],
+      [
+        "Giao thông - Vận chuyển",
+        14
+      ],
+      [
+        "Thanh toán hoá đơn",
+        12
+      ],
+      [
+        "Du lịch - Đi lại",
+        9
+      ],
+      [
+        "Điện thoại",
+        8
+      ],
+      [
+        "Khám phá Zalopay",
+        8
+      ],
+      [
+        "Tích điểm thành viên đối tác",
+        7
+      ],
+      [
+        "Chuyển - Nhận tiền",
+        6
+      ],
+      [
+        "Ví của tôi",
+        5
+      ],
+      [
+        "Bảo hiểm",
+        4
+      ],
+      [
+        "Giáo dục",
+        2
+      ],
+      [
+        "Ưu đãi khuyến mãi",
+        1
+      ],
+      [
+        "Dịch vụ khác",
+        1
+      ],
+      [
+        "Dịch vụ y tế",
+        1
+      ]
+    ],
+    "hosts": [
+      [
+        "social.zalopay.vn",
+        316
+      ],
+      [
+        "mnap-director.zalopay.vn",
+        38
+      ],
+      [
+        "mc.zalopay.vn",
+        1
+      ],
+      [
+        "uudai.zalopay.vn",
+        1
+      ],
+      [
+        "ti.ki",
+        1
+      ],
+      [
+        "lzd.co",
+        1
+      ],
+      [
+        "zalo.me",
+        1
+      ],
+      [
+        "scard.zalopay.vn",
+        1
+      ],
+      [
+        "app2-zl.unipass.vn",
+        1
+      ],
+      [
+        "elsazalopay.onstudy.vn",
+        1
+      ],
+      [
+        "vieon.vn",
+        1
+      ],
+      [
+        "m.choingay.vn",
+        1
+      ]
+    ],
+    "sample": [
+      {
+        "id": "9588434516294069",
+        "name": "Zalopay",
+        "category": "Tài chính"
+      },
+      {
+        "id": "4938188290522793",
+        "name": "Nhà bán hàng Zalopay",
+        "category": "Dịch vụ phổ biến"
+      },
+      {
+        "id": "6228112469543198",
+        "name": "Security center",
+        "category": "Dịch vụ phổ biến"
+      },
+      {
+        "id": "8942078171900534",
+        "name": "Binding",
+        "category": "Dịch vụ phổ biến"
+      },
+      {
+        "id": "8379963487753330",
+        "name": "Dịch vụ đối tác",
+        "category": "Dịch vụ phổ biến"
+      },
+      {
+        "id": "6999842721975496",
+        "name": "MM Mega Market",
+        "category": "Tích điểm thành viên đối tác"
+      },
+      {
+        "id": "8555271139235307",
+        "name": "Vay tiền nhanh",
+        "category": "Dịch vụ phổ biến"
+      },
+      {
+        "id": "5183370829229954",
+        "name": "Zalopay",
+        "category": "Tài chính"
+      }
+    ]
+  },
+  "network_security_config": {
+    "raw": "<network-security-config>\n  <domain-config>\n    <domain includeSubdomains=\"true\">storage.googleapis.com</domain>\n  </domain-config>\n  <base-config cleartextTrafficPermitted=\"true\">\n    <trust-anchors>\n      <certificates src=\"system\"/>\n    </trust-anchors>\n  </base-config>\n  <debug-overrides cleartextTrafficPermitted=\"true\">\n    <trust-anchors>\n      <certificates src=\"system\"/>\n      <certificates src=\"user\"/>\n    </trust-anchors>\n  </debug-overrides>\n</network-security-config>\n",
+    "cleartext_permitted": true,
+    "user_ca_trusted": true,
+    "pin_set": false,
+    "domains": [
+      "storage.googleapis.com"
+    ]
+  }
+}

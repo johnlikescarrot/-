@@ -1,0 +1,111 @@
+{
+  "count": 14,
+  "bySeverity": {
+    "critical": 1,
+    "high": 4,
+    "medium": 3,
+    "low": 5,
+    "info": 1
+  },
+  "score": 41,
+  "items": [
+    {
+      "id": "F-01",
+      "title": "No certificate pinning anywhere in the app",
+      "severity": 5,
+      "label": "critical",
+      "category": "transport"
+    },
+    {
+      "id": "F-02",
+      "title": "Application-wide cleartext HTTP is permitted",
+      "severity": 4,
+      "label": "high",
+      "category": "transport"
+    },
+    {
+      "id": "F-03",
+      "title": "Clipboard OTP harvesting across 15 Vietnamese banks",
+      "severity": 4,
+      "label": "high",
+      "category": "credential-handling"
+    },
+    {
+      "id": "F-04",
+      "title": "134 credential-shaped constants embedded in bytecode",
+      "severity": 4,
+      "label": "high",
+      "category": "secret-hygiene"
+    },
+    {
+      "id": "F-06",
+      "title": "Runtime DEX unpacker in the JNI bootstrap path",
+      "severity": 4,
+      "label": "high",
+      "category": "anti-analysis"
+    },
+    {
+      "id": "F-05",
+      "title": "RSA-2048 public key and an opaque signature blob shipped as assets",
+      "severity": 3,
+      "label": "medium",
+      "category": "cryptography"
+    },
+    {
+      "id": "F-07",
+      "title": "Alipay SecurityGuardLite + Baichuan-shielded bundle",
+      "severity": 3,
+      "label": "medium",
+      "category": "provenance"
+    },
+    {
+      "id": "F-08",
+      "title": "30 exported components, including a host-APDU payment service",
+      "severity": 3,
+      "label": "medium",
+      "category": "attack-surface"
+    },
+    {
+      "id": "F-09",
+      "title": "Self-signed, non-EV signer; no v3.1/v4 and no source stamp",
+      "severity": 2,
+      "label": "low",
+      "category": "supply-chain"
+    },
+    {
+      "id": "F-10",
+      "title": "20 DEX images and 67.9% short identifiers — static review is costly",
+      "severity": 2,
+      "label": "low",
+      "category": "maintainability"
+    },
+    {
+      "id": "F-12",
+      "title": "373 mini-apps bundled in a wallet-side catalogue",
+      "severity": 2,
+      "label": "low",
+      "category": "privacy"
+    },
+    {
+      "id": "F-13",
+      "title": "27 native libraries, no arm64-v8a split in this distribution",
+      "severity": 2,
+      "label": "low",
+      "category": "packaging"
+    },
+    {
+      "id": "F-14",
+      "title": "35 gRPC RPC names and 56 config sections are client-visible",
+      "severity": 2,
+      "label": "low",
+      "category": "architecture"
+    },
+    {
+      "id": "F-11",
+      "title": "13 Play Feature Delivery modules, including the money-movement surfaces",
+      "severity": 1,
+      "label": "info",
+      "category": "architecture"
+    }
+  ]
+}

@@ -20,6 +20,19 @@ from dataclasses import dataclass, field, asdict
 from pathlib import Path
 from typing import Any, Iterable, Iterator, Sequence
 
+import logging as _logging
+
+# androguard 4.x emits through *loguru* (not stdlib logging), one DEBUG line per
+# XML attribute.  Silence both channels so stage output stays readable; stages
+# that need their own verbosity use `Stage.log`.
+_logging.disable(_logging.INFO)  # stdlib channel
+try:  # loguru channel
+    from loguru import logger as _loguru
+
+    _loguru.remove()
+except Exception:  # noqa: BLE001 - loguru is an optional transitive dep
+    pass
+
 # --------------------------------------------------------------------------
 # Repository layout
 # --------------------------------------------------------------------------

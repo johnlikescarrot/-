@@ -1,0 +1,558 @@
+{
+  "generated_from": [
+    "inventory_summary.json",
+    "manifest.json",
+    "dex_summary.json",
+    "sdks.json",
+    "secrets.json",
+    "endpoints.json",
+    "native.json",
+    "resources.json",
+    "graph.json"
+  ],
+  "count": 14,
+  "by_severity": {
+    "critical": 1,
+    "high": 4,
+    "medium": 3,
+    "low": 5,
+    "info": 1
+  },
+  "max_severity": "critical",
+  "weighted_score": 41,
+  "findings": [
+    {
+      "id": "F-01",
+      "title": "No certificate pinning anywhere in the app",
+      "severity": 5,
+      "severity_label": "critical",
+      "category": "transport",
+      "claim": "The base APK ships a network_security_config.xml with no <pin-set> element at any level, and no alternative pinning mechanism is reachable from the manifest.",
+      "evidence": {
+        "cleartextTrafficPermitted": true,
+        "trustAnchors": [
+          "system",
+          "user (debug-overrides)"
+        ],
+        "pin-set elements": 0,
+        "domains declared": [
+          "storage.googleapis.com"
+        ]
+      },
+      "artifact": "work/apk/res/xml/network_security_config.xml",
+      "method": "AXML decode + element scan (stage 08)",
+      "impact": "Any party who can install a user CA (MDM, malware with device-admin, or a compromised CA) can transparently intercept the app's HTTPS session, including the gRPC payment channel.",
+      "recommendation": "Pin the payment hosts (sapi, qrpay, token, oauth.zaloapp.com) with backup pins, or adopt Play Integrity-bound key pinning."
+    },
+    {
+      "id": "F-02",
+      "title": "Application-wide cleartext HTTP is permitted",
+      "severity": 4,
+      "severity_label": "high",
+      "category": "transport",
+      "claim": "base-config sets cleartextTrafficPermitted=\"true\", so any http:// URL the H5/mini-app layer emits will be followed without a TLS upgrade.",
+      "evidence": {
+        "base-config cleartext": true,
+        "cleartext URLs recovered from the DEX pool": [
+          "http://xmlpull.org/v1/doc/features.html",
+          "http://html.zapps.vn/pay/FAQCenter/suport_bidv.html",
+          "http://www.facebook.com/dialog/oauth"
+        ],
+        "sample cleartext hosts": [
+          "www.facebook.com",
+          "xmlpull.org",
+          "facebook.com",
+          "html.zapps.vn"
+        ]
+      },
+      "artifact": "work/apk/res/xml/network_security_config.xml",
+      "method": "AXML decode (stage 08) + URL harvest (stage 05)",
+      "impact": "Vendored Alipay 'a.alipayobjects.com' / 'activityservice.alibaba.com' JavaScript and the cleartext HTML help pages can be loaded over plain HTTP, letting a network attacker inject script into a WebView that shares the app's cookie jar.",
+      "recommendation": "Set cleartextTrafficPermitted=\"false\" and keep an explicit allow-list only where a partner bank's 3-D Secure ACS forces it."
+    },
+    {
+      "id": "F-03",
+      "title": "Clipboard OTP harvesting across 15 Vietnamese banks",
+      "severity": 4,
+      "severity_label": "high",
+      "category": "credential-handling",
+      "claim": "The app enables a clipboard parser that matches one-time-passwords from 15 bank SMS templates plus ZaloPay's own six-digit pattern.",
+      "evidence": {
+        "enable_clipboard_parser": true,
+        "bank_templates": 15,
+        "banks": [
+          "VTB",
+          "VCB",
+          "SCB",
+          "SGCB",
+          "EIB",
+          "BIDV",
+          "VCCB",
+          "MB",
+          "MSB",
+          "NAB",
+          "HDB",
+          "VPB",
+          "VIB",
+          "OJB",
+          "VARB"
+        ],
+        "zalopay_pattern": "(\\s|^)(\\d{6})(\\s|$)",
+        "min/max clipboard length": [
+          6,
+          160
+        ]
+      },
+      "artifact": "work/apk/assets/config/zalopay_config.json#/otp",
+      "method": "JSON config extraction (stage 08)",
+      "impact": "Because *any* process on the device can write the clipboard, a malicious app can seed a valid-looking OTP and induce the wallet to autofill it; conversely the feature means the app regularly reads the shared clipboard, a privacy-sensitive OS surface (Android 12+ shows a toast for every read).",
+      "recommendation": "Keep the feature but scope it to foreground + explicit user intent, and prefer the SMS Retriever API so the app never touches unrelated clipboard contents."
+    },
+    {
+      "id": "F-04",
+      "title": "134 credential-shaped constants embedded in bytecode",
+      "severity": 4,
+      "severity_label": "high",
+      "category": "secret-hygiene",
+      "claim": "Anchored pattern matching over 269,338 unique DEX strings yields 134 secret-shaped constants (112 x 40-char base64, 20 x 32-hex, plus two manifest meta-data keys). Values are withheld; only lengths and SHA-256 prefixes are recorded.",
+      "evidence": {
+        "scanned": 269338,
+        "hits": 134,
+        "by_pattern": {
+          "aws-secret": 112,
+          "facebook-token": 20
+        },
+        "by_severity": {
+          "high": 112,
+          "low": 20
+        },
+        "policy": "values are never persisted; only (pattern, length, sha256[:12], prefix[:4])"
+      },
+      "artifact": "analysis/data/dex_strings.json.gz -> analysis/data/secrets.json",
+      "method": "pattern sweep (stage 05)",
+      "impact": "Any client-embedded key is extractable by definition; a 32-byte value next to AES usage is an encryption key with the same lifetime as the APK.",
+      "recommendation": "Move all symmetric material to server-side key management; rotate anything that was ever shipped in a client binary."
+    },
+    {
+      "id": "F-06",
+      "title": "Runtime DEX unpacker in the JNI bootstrap path",
+      "severity": 4,
+      "severity_label": "high",
+      "category": "anti-analysis",
+      "claim": "libfgcpkjvqe.so exports only JNI_OnLoad/JNI_OnUnload and links mprotect + inflate + AAssetManager_*. It reads a 776,320-byte high-entropy asset (assets/fgcpkjvqe.dat, entropy 7.9998), decompresses it in memory, mprotects the result and hands a DEX to the loader.",
+      "evidence": {
+        "library": "libfgcpkjvqe.so",
+        "exports": [
+          "JNI_OnLoad",
+          "JNI_OnUnload"
+        ],
+        "danger_imports": [
+          "mprotect",
+          "inflate",
+          "inflateInit2_",
+          "deflate",
+          "AAssetManager_open",
+          "AAssetManager_read"
+        ],
+        "payload": {
+          "path": "assets/fgcpkjvqe.dat",
+          "bytes": 776320,
+          "entropy": 7.9998,
+          "mod16": 0
+        },
+        "disassembly": {
+          "ldr": 8,
+          "ldrd": 7,
+          "add": 6,
+          "mov": 5,
+          "str": 5,
+          "strd": 4,
+          "adds": 2,
+          "adc": 2,
+          "subseq": 2,
+          "push": 1,
+          "sub": 1,
+          "blx": 1,
+          "cmp": 1,
+          "subeq": 1,
+          "popeq": 1
+        }
+      },
+      "artifact": "work/native/lib/armeabi-v7a/libfgcpkjvqe.so",
+      "method": "LIEF symbols/imports + Capstone ARM disassembly (stage 06)",
+      "impact": "Static analysis of the shipped APK sees the loader, not the loaded code. Any reviewer who only reads classes*.dex underestimates the app; the real entry path is native.",
+      "recommendation": "Publish the packing scheme to reviewers (or drop it) so app-store security review and bug-bounty triage can actually reach the protected code."
+    },
+    {
+      "id": "F-05",
+      "title": "RSA-2048 public key and an opaque signature blob shipped as assets",
+      "severity": 3,
+      "severity_label": "medium",
+      "category": "cryptography",
+      "claim": "assets/public.pem contains an RSA-2048 SubjectPublicKeyInfo (DER 294 B) and assets/config/signature.txt contains a 256-byte signature; assets/config/public_key.txt holds a second, distinct RSA-2048 key.",
+      "evidence": {
+        "public.pem": {
+          "bytes": 460,
+          "der_sha256": "41feef4346a86271c2b4e2c07fe7c445ac257ea6a120cb8fb7becf3110a83d0f",
+          "bits": 2048
+        },
+        "config/public_key.txt": {
+          "bytes": 450,
+          "bits": 2048
+        },
+        "config/signature.txt": {
+          "bytes": 350,
+          "decoded_len": 256,
+          "matches_rsa2048": true
+        }
+      },
+      "artifact": "work/apk/assets/public.pem, work/apk/assets/config/{public_key,signature}.txt",
+      "method": "PEM->DER decode + openssl rsa -text (stage 04)",
+      "impact": "The signature is a detached signature over some manifest of trusted mini-apps or config. Because verification code is client-side, the trust decision is patchable.",
+      "recommendation": "Document the signed scope; bind it to a hardware-backed key (Keystore attestation) so a patched client cannot simply return true."
+    },
+    {
+      "id": "F-07",
+      "title": "Alipay SecurityGuardLite + Baichuan-shielded bundle",
+      "severity": 3,
+      "severity_label": "medium",
+      "category": "provenance",
+      "claim": "Two native libraries (libsecurity_lite.so, libtaibmcf.so) implement Alipay SecurityGuardLite (decryptByAes/encryptByAes/rsa_public_decrypt/aes_cbc_decrypt) and assets/ contains bshield.dat, taibmcf.dat/json and a UUID-named bundle directory — the Baichuan (mPaaS) shielding chain.",
+      "evidence": {
+        "libraries": [
+          "libtaibmcf.so",
+          "libsqlcipher.so",
+          "libsecurity_lite.so"
+        ],
+        "native_exports_sample": [
+          "SecurityGuardLiteNative_decrypt",
+          "SecurityGuardLiteNative_encryptByAes",
+          "decryptByAes",
+          "encryptByAes"
+        ],
+        "baichuan_assets": [
+          "bshield.dat",
+          "taibmcf.dat",
+          "taibmcf.json",
+          "dabc8a71…9b2be/"
+        ],
+        "miniapp_runtime_classes": 6242
+      },
+      "artifact": "work/native/lib/armeabi-v7a/libsecurity_lite.so",
+      "method": "LIEF + string table (stage 06)",
+      "impact": "The wallet's mini-program substrate is a third-party runtime with its own key hierarchy; a vulnerability in Griver/Ariver/mPaaS becomes a vulnerability in ZaloPay's H5 payments surface.",
+      "recommendation": "Vendor the runtime with reproducible builds and a published security-contact, and pin its remote bundle versions."
+    },
+    {
+      "id": "F-08",
+      "title": "30 exported components, including a host-APDU payment service",
+      "severity": 3,
+      "severity_label": "medium",
+      "category": "attack-surface",
+      "claim": "The manifest exports 14 activities, 2 activity-aliases, 6 services and 8 receivers. Among them are a NFC HCE service (VisaHostApduService) and the deep-link router ThirdPartyAppActivityAlias that accepts zalopay://pay, ://otp, ://clearing, ://cashier and zalopay.api.v2://auth.",
+      "evidence": {
+        "counts": {
+          "activities": 200,
+          "activity_aliases": 2,
+          "services": 34,
+          "receivers": 22,
+          "providers": 9
+        },
+        "exported": {
+          "activities": 14,
+          "activity_aliases": 2,
+          "services": 6,
+          "receivers": 8,
+          "providers": 0
+        },
+        "intent_surface_filters": 65,
+        "schemes": {
+          "https": 6,
+          "zalopay": 10,
+          "zalopay-vnpay": 1,
+          "fbconnect": 1,
+          "tagmanager.c.vn.com.vng.zalopay": 1,
+          "zalopay-1": 3,
+          "zalopay.api.v2": 3
+        },
+        "nfc_service": "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService"
+      },
+      "artifact": "work/apk/AndroidManifest.xml",
+      "method": "AXML decode + component census (stage 02)",
+      "impact": "Every exported entry point is reachable by any installed app. The deep-link router performs the dangerous parameter parsing for payments; an intent-redirection bug there is directly monetisable.",
+      "recommendation": "Validate every deep-link parameter server-side, require a signed nonce for zalopay://pay, and keep the HCE service restricted to the payment AID with per-transaction user verification."
+    },
+    {
+      "id": "F-09",
+      "title": "Self-signed, non-EV signer; no v3.1/v4 and no source stamp",
+      "severity": 2,
+      "severity_label": "low",
+      "category": "supply-chain",
+      "claim": "The APK carries only APK Signature Scheme v2 (one signer block) with a self-signed certificate whose subject and issuer are identical (CN=Vu Manh Hieu). No v1 JAR signature files, no v3.1 rotation, no source stamp.",
+      "evidence": {
+        "schemes": [
+          "APK Signature Scheme v2"
+        ],
+        "v2_signer_cert_sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+        "subject": [
+          {
+            "field": "CN",
+            "value": "Vu Manh Hieu"
+          },
+          {
+            "field": "CN",
+            "value": "Vu Manh Hieu"
+          }
+        ],
+        "issuer": [
+          {
+            "field": "CN",
+            "value": "Vu Manh Hieu"
+          },
+          {
+            "field": "CN",
+            "value": "Vu Manh Hieu"
+          }
+        ],
+        "not_before": "160421154114Z",
+        "v1_files": 0
+      },
+      "artifact": "work/extract/xapk/vn.com.vng.zalopay.apk",
+      "method": "APK Signing Block parse (stage 02)",
+      "impact": "v2-only means no key-rotation path for the app's lifetime: any future signing-key change must go through a new package name or a Play App Signing rotation.",
+      "recommendation": "Add v3/v3.1 rotation and a source stamp; keep v1 off (correct) but document the rotation plan."
+    },
+    {
+      "id": "F-10",
+      "title": "20 DEX images and 67.9% short identifiers — static review is costly",
+      "severity": 2,
+      "severity_label": "low",
+      "category": "maintainability",
+      "claim": "The corpus contains 20 DEX images, 63,827 classes and 378,040 methods; 43,342 classes (67.9%) have names of two characters or fewer, and 98,429 methods are similarly shortened.",
+      "evidence": {
+        "dex_files": 20,
+        "classes": 63827,
+        "methods": 378040,
+        "obfuscation": {
+          "single_letter_classes": 43342,
+          "total_classes": 63827,
+          "single_letter_methods": 98429,
+          "total_methods": 287480,
+          "single_letter_class_pct": 67.91,
+          "single_letter_method_pct": 34.24,
+          "verdict": "heavily obfuscated"
+        }
+      },
+      "artifact": "work/apk/classes*.dex",
+      "method": "dexread.py census (stage 03)",
+      "impact": "Third-party auditors cannot cheaply establish 'no backdoor' for a binary of this shape; the cost of review is itself a security property.",
+      "recommendation": "Ship R8 mapping files to the Play Console and to any external auditor under NDA."
+    },
+    {
+      "id": "F-12",
+      "title": "373 mini-apps bundled in a wallet-side catalogue",
+      "severity": 2,
+      "severity_label": "low",
+      "category": "privacy",
+      "claim": "assets/config/miniapp_config.json ships a 883 KB catalogue of 373 mini-apps across 19 Vietnamese categories, each with base_url, one-link and deep-link metadata.",
+      "evidence": {
+        "count": 373,
+        "categories": [
+          [
+            "Dịch vụ phổ biến",
+            88
+          ],
+          [
+            "Giải trí - Cộng đồng",
+            77
+          ],
+          [
+            "Tài chính",
+            65
+          ],
+          [
+            "Ăn uống",
+            32
+          ],
+          [
+            "Dịch vụ đối tác",
+            18
+          ],
+          [
+            "Mua sắm",
+            15
+          ],
+          [
+            "Giao thông - Vận chuyển",
+            14
+          ],
+          [
+            "Thanh toán hoá đơn",
+            12
+          ],
+          [
+            "Du lịch - Đi lại",
+            9
+          ],
+          [
+            "Điện thoại",
+            8
+          ]
+        ],
+        "hosts": [
+          [
+            "social.zalopay.vn",
+            316
+          ],
+          [
+            "mnap-director.zalopay.vn",
+            38
+          ],
+          [
+            "mc.zalopay.vn",
+            1
+          ],
+          [
+            "uudai.zalopay.vn",
+            1
+          ],
+          [
+            "ti.ki",
+            1
+          ],
+          [
+            "lzd.co",
+            1
+          ],
+          [
+            "zalo.me",
+            1
+          ],
+          [
+            "scard.zalopay.vn",
+            1
+          ],
+          [
+            "app2-zl.unipass.vn",
+            1
+          ],
+          [
+            "elsazalopay.onstudy.vn",
+            1
+          ],
+          [
+            "vieon.vn",
+            1
+          ],
+          [
+            "m.choingay.vn",
+            1
+          ]
+        ]
+      },
+      "artifact": "work/apk/assets/config/miniapp_config.json",
+      "method": "JSON config extraction (stage 08)",
+      "impact": "The catalogue is a map of third-party data flows: each base_url receives the user's identity context when the mini-app is opened.",
+      "recommendation": "Publish a per-mini-app data-sharing notice and keep the catalogue server-driven."
+    },
+    {
+      "id": "F-13",
+      "title": "27 native libraries, no arm64-v8a split in this distribution",
+      "severity": 2,
+      "severity_label": "low",
+      "category": "packaging",
+      "claim": "The APKPure bundle provides only config.armeabi_v7a (32-bit ARM), while targetSdkVersion is 36. 27 .so files ship in that split, of which 9 are ML/vision runtimes.",
+      "evidence": {
+        "abi": "armeabi-v7a (32-bit ARM, no arm64-v8a split shipped)",
+        "libraries": 27,
+        "bytes": 57452124,
+        "jni_entrypoints": 299,
+        "ml_runtimes": [
+          "libmlkitcommonpipeline.so",
+          "libmlkit_google_ocr_pipeline.so",
+          "libface_detector_v2_jni.so",
+          "libbarhopper_v3.so",
+          "libpicodet_ncnn.so",
+          "libVFaceLib.so",
+          "liblytcuhe.so",
+          "librcmefqonnx.so",
+          "libimage_processing_util_jni.so"
+        ]
+      },
+      "artifact": "work/extract/xapk/config.armeabi_v7a.apk",
+      "method": "LIEF per-object analysis (stage 06)",
+      "impact": "32-bit-only distribution is a device-fragmentation choice; it also means the native attack surface assessed here does not describe the arm64 build Play serves to most users.",
+      "recommendation": "Publish the ABI matrix used for store delivery and include arm64 in future audits."
+    },
+    {
+      "id": "F-14",
+      "title": "35 gRPC RPC names and 56 config sections are client-visible",
+      "severity": 2,
+      "severity_label": "low",
+      "category": "architecture",
+      "claim": "assets/config/zalopay_config.json enumerates the wallet's RPC vocabulary (um/*, v001/tpe/*, ummerchant/*, cpscdn/*) and 56 configuration sections including KYC limits and OTP templates.",
+      "evidence": {
+        "sections": 56,
+        "rpc_names": 35,
+        "rpc_groups": {
+          "um": 15,
+          "umupload": 1,
+          "ummerchant": 2,
+          "v001": 15,
+          "cpscdn": 2
+        },
+        "transport": "grpc",
+        "kyc_limit_vnd": 2000000,
+        "min_age": 14
+      },
+      "artifact": "work/apk/assets/config/zalopay_config.json",
+      "method": "JSON config extraction (stage 08)",
+      "impact": "An attacker does not need to guess the API: names, groups and business limits are shipped in the client, which shortens enumeration of the payment backend.",
+      "recommendation": "Treat the client config as public and enforce every limit server-side (verify this is the case)."
+    },
+    {
+      "id": "F-11",
+      "title": "13 Play Feature Delivery modules, including the money-movement surfaces",
+      "severity": 1,
+      "severity_label": "info",
+      "category": "architecture",
+      "claim": "resources.arsc declares 13 package chunks. The cashier, cash-in, withdraw, bank-binding, PIN reset and liveness flows are dynamic-feature modules resolved at runtime.",
+      "evidence": {
+        "modules": [
+          "base",
+          "changepin",
+          "resetpin",
+          "login_v2",
+          "cashier",
+          "bank_binding",
+          "updatephone",
+          "cash_in",
+          "resultpage",
+          "withdraw",
+          "cashier_v3",
+          "result_page_v3",
+          "liveness"
+        ],
+        "fused_manifest_list": [
+          "bank_binding",
+          "base",
+          "cash_in",
+          "cashier",
+          "cashier_v3",
+          "changepin",
+          "liveness",
+          "login_v2",
+          "resetpin",
+          "result_page_v3",
+          "resultpage",
+          "updatephone",
+          "withdraw"
+        ]
+      },
+      "artifact": "work/apk/resources.arsc",
+      "method": "ARSC package-chunk walk (stage 07)",
+      "impact": "Module boundaries reveal the product's true structure: the wallet is a thin shell around a cashier, a credit engine and an eKYC pipeline.",
+      "recommendation": "Document module boundaries for penetration-test scoping."
+    }
+  ]
+}

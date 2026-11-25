@@ -1,0 +1,107 @@
+{
+  "domains": {
+    "other": 33105,
+    "google-stack": 11665,
+    "miniapp": 6242,
+    "crypto": 6112,
+    "ads": 3254,
+    "payments": 1370,
+    "wallet-core": 952,
+    "ekyc": 622,
+    "kotlin-runtime": 378,
+    "social": 127
+  },
+  "perDex": [
+    {
+      "dex": "classes.dex",
+      "classes": 10703
+    },
+    {
+      "dex": "classes10.dex",
+      "classes": 92
+    },
+    {
+      "dex": "classes11.dex",
+      "classes": 177
+    },
+    {
+      "dex": "classes12.dex",
+      "classes": 425
+    },
+    {
+      "dex": "classes13.dex",
+      "classes": 139
+    },
+    {
+      "dex": "classes14.dex",
+      "classes": 90
+    },
+    {
+      "dex": "classes15.dex",
+      "classes": 113
+    },
+    {
+      "dex": "classes16.dex",
+      "classes": 20
+    },
+    {
+      "dex": "classes17.dex",
+      "classes": 243
+    },
+    {
+      "dex": "classes18.dex",
+      "classes": 115
+    },
+    {
+      "dex": "classes19.dex",
+      "classes": 777
+    },
+    {
+      "dex": "classes2.dex",
+      "classes": 7421
+    },
+    {
+      "dex": "classes3.dex",
+      "classes": 1081
+    },
+    {
+      "dex": "classes4.dex",
+      "classes": 11441
+    },
+    {
+      "dex": "classes5.dex",
+      "classes": 7983
+    },
+    {
+      "dex": "classes6.dex",
+      "classes": 5475
+    },
+    {
+      "dex": "classes7.dex",
+      "classes": 12953
+    },
+    {
+      "dex": "classes8.dex",
+      "classes": 295
+    },
+    {
+      "dex": "classes9.dex",
+      "classes": 1128
+    },
+    {
+      "dex": "audience_network.dex",
+      "classes": 3156
+    }
+  ],
+  "walletDex": "classes7.dex",
+  "miniappDex": "classes.dex",
+  "rpcNames": 35,
+  "miniApps": 373,
+  "miniAppCategories": 19,
+  "cleartext": true,
+  "userCA": true,
+  "pinning": false,
+  "clipboardOtp": true,
+  "otpBanks": 15,
+  "grpc": "grpc"
+}

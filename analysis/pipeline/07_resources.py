@@ -39,9 +39,9 @@ def main() -> None:
 
     module_pkgs = []
     try:
-        import logging
 
-        logging.disable(logging.CRITICAL)
+
+
         from androguard.core.axml import ARSCParser
 
         arsc = ARSCParser(arsc_raw)
