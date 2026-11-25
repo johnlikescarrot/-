@@ -1,0 +1,17 @@
+# Scratch & extracted binary workspace (never commit proprietary APK/XAPK extracted raw binaries)
+work/
+tmp/
+.tmp/
+*.xapk
+!Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip
+
+# Tooling & virtualenvs
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+build/
+.DS_Store
+Unselected files/
