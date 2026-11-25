@@ -1,0 +1,12 @@
+# Large, reproducible-only artefacts (never committed): source bundles, extracted
+# APK payloads, intermediate frames, dependency trees, local media scratch.
+work/
+node_modules/
+dist/
+media/frames/
+media/tmp/
+*.log
+.DS_Store
+
+# The delivered, final artefacts ARE committed on purpose:
+#   media/zalopay-rea.mp4, media/poster.png, analysis/*.json, paper/*, tools/*, docs/*

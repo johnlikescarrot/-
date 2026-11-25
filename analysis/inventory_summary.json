@@ -1,0 +1,97 @@
+{
+  "apk_members_inventoried": 6464,
+  "container_count": 7,
+  "global_kinds": {
+    "android-binary-xml (AXML)": 5208,
+    "android-resource-table (ARSC)": 1,
+    "binary": 5,
+    "binary-config": 2,
+    "c-dependency": 2,
+    "c-header": 3,
+    "dalvik-executable (DEX)": 20,
+    "elf-shared-object": 1,
+    "flatbuffer": 2,
+    "gif": 5,
+    "html": 9,
+    "jar-signature-file": 1,
+    "java-properties": 79,
+    "javascript": 9,
+    "json": 64,
+    "kotlin-module": 11,
+    "markdown": 6,
+    "objective-c": 2,
+    "pkcs7-signature": 1,
+    "png": 221,
+    "protobuf-binary": 16,
+    "protobuf-text?": 10,
+    "rive-animation": 4,
+    "text": 136,
+    "tflite-model": 14,
+    "truetype-font": 23,
+    "unknown": 52,
+    "version-marker": 141,
+    "webp": 111,
+    "zip-container": 4
+  },
+  "per_container": [
+    {
+      "compressed": 98813516,
+      "container": "outer-zip",
+      "entries": 1,
+      "ratio": 0.9357,
+      "sha256": "34b9b6b6735f0f73",
+      "uncompressed": 105608128
+    },
+    {
+      "compressed": 105607171,
+      "container": "xapk-bundle",
+      "entries": 7,
+      "ratio": 1.0,
+      "sha256": "686e9459da646c18",
+      "uncompressed": 105607171
+    },
+    {
+      "compressed": 24813347,
+      "container": "apk:config.armeabi_v7a.apk",
+      "entries": 32,
+      "ratio": 0.4318,
+      "sha256": "456aa08f4fa2e3f9",
+      "uncompressed": 57459525
+    },
+    {
+      "compressed": 63915,
+      "container": "apk:config.en.apk",
+      "entries": 6,
+      "ratio": 0.9879,
+      "sha256": "87699fda97e8a9be",
+      "uncompressed": 64699
+    },
+    {
+      "compressed": 77394,
+      "container": "apk:config.vi.apk",
+      "entries": 6,
+      "ratio": 0.99,
+      "sha256": "985fc073b810b628",
+      "uncompressed": 78175
+    },
+    {
+      "compressed": 1178129,
+      "container": "apk:config.xhdpi.apk",
+      "entries": 258,
+      "ratio": 0.8863,
+      "sha256": "f31350c3caed1509",
+      "uncompressed": 1329300
+    },
+    {
+      "compressed": 78345127,
+      "container": "apk:vn.com.vng.zalopay.apk",
+      "entries": 6162,
+      "ratio": 0.5744,
+      "sha256": "e289d547b45f6224",
+      "uncompressed": 136395610
+    }
+  ],
+  "schema": "rea_lite/inventory_summary@1",
+  "total_uncompressed_bytes": 406542608,
+  "total_zip_members_inventoried": 6472
+}
