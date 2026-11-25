@@ -1,0 +1,852 @@
+{
+  "apk_members": [
+    "vn.com.vng.zalopay.apk",
+    "config.armeabi_v7a.apk",
+    "config.en.apk",
+    "config.vi.apk",
+    "config.xhdpi.apk"
+  ],
+  "asset_bytes": 30011044,
+  "asset_count": 124,
+  "assets": [
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 2420588,
+      "name": "assets/FastestDet.ncnn.bin",
+      "sha256": "ee8e29ed0889be186336751d4ff1db13d8bd087fef45c116c2298a8859822e10"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 15293,
+      "name": "assets/FastestDet.ncnn.param",
+      "sha256": "8b659855f15bec83808c33f520f276cd22544dc21298c7f1b46dd62150f8dcb1"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 287535,
+      "name": "assets/Griver/66666692_1.24.8.amr",
+      "sha256": "02b7cf32e5e71d62667ed8bcc24c9c2c4eb7e644f49e487fd06e1cba19290e31"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 17380,
+      "name": "assets/Griver/66666693_2.0.7.amr",
+      "sha256": "212c15df244230e33b820b2b831b7c05b2a4a0ffcf9d878495598294e7451127"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 856974,
+      "name": "assets/Griver/68687209_2.9.7.8.amr",
+      "sha256": "3e67a09c8d76338cebf8cd495adbf72f26f5aecb7362e4ace4ce5dd6d0c2ad22"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 2178,
+      "name": "assets/Griver/appx.json",
+      "sha256": "3b7a99da47f6f10db498d5582e0255de17786531f0c7f090b56f24591be70090"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 292,
+      "name": "assets/GriverBridge/appx_inline_bootstrap_min.js",
+      "sha256": "98e536752ad1eb0cc92c0342636c25562d40ce1c13a7b94ac10dc8416190a452"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 2888,
+      "name": "assets/GriverBridge/cover_component.js",
+      "sha256": "0bfb0f20cb72e23a1c1b43c2aaf5b49e692e7f5660bab3a0a0544d129486d08b"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 159,
+      "name": "assets/GriverBridge/create_worker.html",
+      "sha256": "c4737f85a1c7ea5784b5c82f4a64173640e46367ea8f77000f812eacb9467b0a"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 4446,
+      "name": "assets/GriverBridge/h5_bridge.js",
+      "sha256": "e0f37c8b1163a14fce982c09afbded0249e18a6eca11c97225269d1edd63ec73"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 972,
+      "name": "assets/GriverBridge/index_inline.html",
+      "sha256": "a48d9cd2f6d00022acd666a5e274087725938a5fca7d9961a5eedf265883254e"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 203,
+      "name": "assets/GriverBridge/worker.html",
+      "sha256": "92a87b5c6be964c75359b0124a6a4ffcb8e281c298963eedc47ca68eb41f2ed6"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 14360,
+      "name": "assets/GriverBridge/workerjs.js",
+      "sha256": "47c076ffe63168d2164625e6ef533ceec5132fb60803c0193afabf4f13da728c"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 3060,
+      "name": "assets/GriverErrorPage/griver_custom_h5_page_error.html",
+      "sha256": "8483fdbc2245aba16ed4f6ef8a2831cf0f23fd3cacb7e28196f6bd6b748e35cd"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 22734,
+      "name": "assets/GriverErrorPage/griver_page_error.html",
+      "sha256": "b897eefc552cc6e1d3b33d923196d62bc860633a4f474d73bbd86a04c36bfc9f"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 13859,
+      "name": "assets/GriverErrorPage/mini-program-native-error.html",
+      "sha256": "53eda0cc349ead89918908a12f3c98cd551eaf11f36c1e56161881d50d00cf7e"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 584,
+      "name": "assets/GriverTheme/theme.json",
+      "sha256": "72432cab511a423bebc6c4d46b2149e9de5cd394c37a5cadba724c3fceda1670"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 3913966,
+      "name": "assets/android.1.zip",
+      "sha256": "e5358e94d6938eb1502857a78dfdb6fae7095e6859103abad9017127cd82cbda"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 3673,
+      "name": "assets/android_jsbridge.js",
+      "sha256": "79d13b8a360b1290af9e1ab640c0686e72cc7cc219f2f927ae1ddf83dd6b3388"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 4864036,
+      "name": "assets/audience_network.dex",
+      "sha256": null
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 929,
+      "name": "assets/bshield.dat",
+      "sha256": "b1750911acee6d39622970b5210221a4f1027a4000614ea3bd5bc41d297af292"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 312,
+      "name": "assets/bundle.json",
+      "sha256": "21c10377141df90d078b62dfaf9b042821d5cdb0cbf26df6fbb8b9b187eaae0d"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 146391,
+      "name": "assets/client_tracking.json",
+      "sha256": "17658dcae0a7e7a0dabefe67843e9ed856a1fdde7241eed8a3a786214b104b0a"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 7142,
+      "name": "assets/com/appsflyer/internal/1a7e8023f147cacac-",
+      "sha256": "6a24e0a7ae6967ec182988007d90c1ab0fab639d3d97417f4a8e22958fca9f2d"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 13692,
+      "name": "assets/com/appsflyer/internal/3e6e8a8a85e1aaa2b-",
+      "sha256": "3de7a0db70eddb66cb2322a03f47942c84182777a9187e1d490164d8cd3e8bc0"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 7936,
+      "name": "assets/com/appsflyer/internal/cc32cb866f63cd58a-",
+      "sha256": "d0efacf3f7f1d64d3a6549075dd37b370b51d8518093dd37374a51e9a2e411c7"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 3142,
+      "name": "assets/com/appsflyer/internal/cf2b565222edadded-",
+      "sha256": "2bc0ed047defe818531cf297b0a29d1f314544e3939cdf984f886e6645fa85cc"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 265304,
+      "name": "assets/com/visa/cbp/74e13961eb6489ab-",
+      "sha256": "317ed670fbd62a0c82d7771f30a1b52343492efa8bcbcf5090e17685e35c0c85"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 15736,
+      "name": "assets/com/visa/cbp/8c12f33e01f2a597a-",
+      "sha256": "65f56669c23d88f57bb842640819ad789f560ce1997c4e178384de3875e37f49"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 80308,
+      "name": "assets/com/visa/cbp/a2687fec63dbeebcd-",
+      "sha256": "62b9e4ee0bba0dae62d7d5ce780f42158954828d5e6badc2dfd8ba8c2322d612"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 9668,
+      "name": "assets/com/visa/cbp/f3f564a2648dc019c-",
+      "sha256": "3c99236cf065fdac60362022b92a1dd85f3a1f727e42af4fd7bf6de97baa5acf"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 883684,
+      "name": "assets/config/miniapp_config.json",
+      "sha256": "e69ba84631346485681a5e70e17d5fd1874c064f66a5736525597a50a4206cc7"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 450,
+      "name": "assets/config/public_key.txt",
+      "sha256": "ab63708a7b557a1332c316667a9d568e34a7a646a1383f8a33811948b081d52c"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 350,
+      "name": "assets/config/signature.txt",
+      "sha256": "fd7abb1a0d62a50ab42e53ab161be6a2229fabfa1558bda1ed0b5e47a3651750"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 105659,
+      "name": "assets/config/zalopay_config.json",
+      "sha256": "740c82f914bd6399ed2db46804accb33f4dd48306f3fcccf095838a38315f3a3"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 3060,
+      "name": "assets/containererrorpage/griver_custom_h5_page_error.html",
+      "sha256": "8483fdbc2245aba16ed4f6ef8a2831cf0f23fd3cacb7e28196f6bd6b748e35cd"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 9594,
+      "name": "assets/containererrorpage/griver_page_error.html",
+      "sha256": "568380640a97753f5b7561784a41789b1bd940d9cfedb4e6997d718a1fdca699"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 7702,
+      "name": "assets/containers/GTM-PC9W5BW.json",
+      "sha256": "5b739372c14abdb42bb77af63077d0fc613b253afc59a8b70747c679bbc0b20b"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 3770391,
+      "name": "assets/custom_models/object_labeler.tflite",
+      "sha256": "9400671e04685f5277edd3052a311cc51533de9da94255c52ebde1e18484c77c"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 17888,
+      "name": "assets/dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be/9f979174-fb94-f7f5-21c5-afddb32d1e32",
+      "sha256": "19008a8f7b59738f1db911d79cd2f215aafb3c126a8e53b6ebdbdbc8fbb49855"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 18503,
+      "name": "assets/dexopt/baseline.prof",
+      "sha256": "bc8fc048bab81b9a17aeb5a807727d1ae494592a815f833b8ea0c8bd0842a6cc"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 1909,
+      "name": "assets/dexopt/baseline.profm",
+      "sha256": "614658814ea66764bada07a7971d1f13af0b273fdbc6a177f2bf5f721c038480"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 776320,
+      "name": "assets/fgcpkjvqe.dat",
+      "sha256": "cb8c0211e579f1039fbc4a5fc6d22a24c28812e701f0d7b378f7b6a4bbafe226"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 170064,
+      "name": "assets/fonts/Roboto-Bold.ttf",
+      "sha256": "a073f449858a3f0389b2378c8a7c6011bc37065c9147e661b33bbe8180a53150"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 127488,
+      "name": "assets/fonts/Roboto-Medium.ttf",
+      "sha256": "6e2ec5c5f89e4ce302bb93b46cb7cc336236501de17348e284878914c5e0e723"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 126072,
+      "name": "assets/fonts/Roboto-Regular.ttf",
+      "sha256": "bde8a188e37aa936b167aecc5e5a3da40262f6e51fd54c584f2cf2b6b99d96ca"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 48216,
+      "name": "assets/fonts/UnisectVnu.ttf",
+      "sha256": "a53d8ae65b7ca6afc09faac7cc3f63d6b6b61cacc0828eb1dafb409440962e68"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 48216,
+      "name": "assets/fonts/ocr-a-tribute.ttf",
+      "sha256": "a53d8ae65b7ca6afc09faac7cc3f63d6b6b61cacc0828eb1dafb409440962e68"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 168644,
+      "name": "assets/fonts/true_font.ttf",
+      "sha256": "9d0d55a303bfd13b79a87721f65185e93f235e2d77fe398b2dca67ac519915f5"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 70880,
+      "name": "assets/fonts/zalopay.json",
+      "sha256": "9af2f6bf0b740313dbcc64eeca1598bdc7ea0bde53065f7b968aae7ac7796d12"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 143944,
+      "name": "assets/fonts/zalopay.ttf",
+      "sha256": "d6b2bdd7107fcc098a44e2a3ad6103264fe0336de504a7d3cf6feb6ba1a4a333"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 28000,
+      "name": "assets/griverIconDefault/default.ttf",
+      "sha256": "f0f38ae010465c446b4c4df7798c3177a0e591c76b78cd0a96b718976c283e51"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 2300,
+      "name": "assets/h5iconfont/h5titlebar.ttf",
+      "sha256": "1a0a0fb4d4ffd079db2e8f19c0e96d1d23267c46108578cb12e5c2d7332a8671"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 5016,
+      "name": "assets/h5iconfont/titlebar.ttf",
+      "sha256": "4cfed842deb4dc40fd0572cf3e87bd10e43673f2c0877173565b88125925ee20"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 9417,
+      "name": "assets/home_data.json",
+      "sha256": "0a6b0afe13690ff2408403be6907ba666bc0bf1b7fef4ec8e4dfecd28a56d73f"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 1688,
+      "name": "assets/iapconnect_config_full",
+      "sha256": "b6a55625c4866bfa13aec1d2716f0cce12e8d5021d5bc0f80e83f7e77d66a870"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 3890,
+      "name": "assets/internaljsbridge.js",
+      "sha256": "0587ef4cfda3ab69dca564bac71d7ac8b6efe02b15f88f979a7374ce3f17ef74"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 3634,
+      "name": "assets/jsbridge.js",
+      "sha256": "2dfe8f8ba6a70ff37d3f2665913532917e6c0fb914fd87dbe198fea3c26d0736"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 276,
+      "name": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+      "sha256": "b2963b78c7e55fdfd5ed82ca60f045aace7a7e373b5d93254e9ac979dcb5bb67"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 278,
+      "name": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+      "sha256": "d448c5de8d480d491ac128657926e6253a770baa90afb0e97a67740c93c1e9f3"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 3809,
+      "name": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/assets.extra/LabelMap.pb",
+      "sha256": "c6d345043a561f9dfdb1472cfca7cdda0128b19cb6909c67032c5783077c92b3"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 40848,
+      "name": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/conv_model.fb",
+      "sha256": "64aba719b4ed1ee5b3d4886c5aaf0b1ac051bf5879e9b08e861e0e29e20a08a7"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 309568,
+      "name": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+      "sha256": "0ed62e4fbe0fc5c4090aec473b136e188f828590765c028382358daddb3ccb6e"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 333,
+      "name": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+      "sha256": "a1dce9a376905a597366f6c9a0b3723205486880e176869e1ad65e92d68e068b"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 315520,
+      "name": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+      "sha256": "7f931f6f7c1dd0ec591ace7780df91645a450fafc83505f3ff45ce5ef7c8441b"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 129612,
+      "name": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+      "sha256": "ecda697ed244c5762410e0497878eabcda5f8b0682fb7c3800cd88a7f45dd8e6"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 114384,
+      "name": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+      "sha256": "f42197e656972c330bb9f092edbe298b4a6c2fcd808ff6d614381311f8dd22a7"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 452,
+      "name": "assets/mlkit-google-ocr-models/taser/detector/region_proposal_text_detector_tflite_vertical_mbv2_v1.bincfg",
+      "sha256": "7ac2d4c04fb2fe0cd5c33e3030d9276c40286c73f97c2daa3ab94ea8c3f314c3"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 340760,
+      "name": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+      "sha256": "eb811a1290738f131e4005d8a1d63ef21770866414b847190a932f0b56c0d18f"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 194,
+      "name": "assets/mlkit-google-ocr-models/taser/rpn_text_detection_tflite_mobile_mbv2.binarypb",
+      "sha256": "86660be29934bdd123a65ea30ec09eaa66481a7ac2def8e8f376e78484f8774a"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 1118,
+      "name": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.bincfg",
+      "sha256": "d4223c23cd8ee3d3d4999d4e10bb16ec0b8119f8812e5e66e64e907c5508f21b"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 40808,
+      "name": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.conv_model",
+      "sha256": "16be9fc0c0c9429cc3714d5d2e8662c53bd28cf0031375e237db288dc8da8d5f"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 161448,
+      "name": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.lstm_model",
+      "sha256": "2281a01686f9ff9164f2a12ed743818e2b8e0af6ae7c73240924d70342d3f2cb"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 136,
+      "name": "assets/mlkit-google-ocr-models/taser/taser_script_identification_tflite_mobile.binarypb",
+      "sha256": "a3ebf2720f86e1440e42604f8bd48194111e152fa93886f987655f01a9336d32"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 13178,
+      "name": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+      "sha256": "78210a92ad8ff692898e15d37718094c179149c9546a8fd53759b22939d39348"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 13183,
+      "name": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+      "sha256": "bfd6e9cb8ed0536d03fc9c06a31bc79de3996bc7dcfbe9f4cc19f819231b7d0a"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 233,
+      "name": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_recognizer.binarypb",
+      "sha256": "e80538539371576a5ad7dd58ed314a4f4d9fd9fca7ad73efdac476a6c3eb1ab4"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 331,
+      "name": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner.binarypb",
+      "sha256": "32c2c1b72ba32605c23a96a8b7bf4ebf8f5a916df6cd672724556a17d3d6c59e"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 334,
+      "name": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner_ti.binarypb",
+      "sha256": "2c8581869ebb972a2d82403c9cd871a1d4c8d6419ae371fc1d859ad2bce2d5dc"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 390456,
+      "name": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+      "sha256": "6c7b209f4256ca4521d86f83d00904ada1a6a443010698463b750d757fae15a4"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 213880,
+      "name": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+      "sha256": "8e07cd3b38da1ded3c07d6c81d06990cbdfa284c214557b94e106372e0497442"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 276552,
+      "name": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+      "sha256": "981c89dcca6aac10c7ff7304933747f6936292b6395d02ee944e6fbc73b3c92b"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 1706957,
+      "name": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+      "sha256": "479cb95767462b2fd9dd6df75702c7cc25dc6cfd5e0394a77fce31a4dbadf970"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 1254848,
+      "name": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+      "sha256": "fb5e5188b03c3bc0f12b797d7e1a7ffe76f405f06e9f7e33258705fc8c9f465e"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 153000,
+      "name": "assets/mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+      "sha256": "9932a0b82471e50deff0f926209b08474e86f0281ab90d07276b778ee606cf40"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 22,
+      "name": "assets/mlkit_odt_localizer/mobile_object_localizer_labelmap",
+      "sha256": "ae7d4f4c2e989dce779df71ad604ca81ec9334d6826eef168eab0ee919f0c437"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 17916,
+      "name": "assets/models_bundled/BCLjoy_200.emd",
+      "sha256": "f00f25644a628e738c155f493d072af143f253cbf99f08bf4829cbe5d4f4351c"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 8630,
+      "name": "assets/models_bundled/BCLlefteyeclosed_200.emd",
+      "sha256": "d31213e4f25ff8b21781e786fd89cede5917ef9b3fbe50bdf55d483af136eded"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 8655,
+      "name": "assets/models_bundled/BCLrighteyeclosed_200.emd",
+      "sha256": "63ca0bd838e51977489adadb80a0be016c5aa0b7b690fbc389a0645aaccfe4ff"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 1078354,
+      "name": "assets/models_bundled/LMprec_600.emd",
+      "sha256": "0ed5c85282f940d14a5723a6c0af05f9c2abd4e930c3c4f0be5a07236d374111"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 793,
+      "name": "assets/models_bundled/MFT_fssd_accgray.pb",
+      "sha256": "f0adb04d7b21b4d9889932a62f0eff127eedb27d2f85342a90144153ca0b81b1"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 792,
+      "name": "assets/models_bundled/MFT_fssd_fastgray.pb",
+      "sha256": "0943425df1b350e0c58a7be668be1f942eac338c198e1a4f16859ca3e1227f45"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 347928,
+      "name": "assets/models_bundled/blazeface.tfl",
+      "sha256": "4f25cc142e96b5f21b3236d2166c2e662920681f1d23942d2510e98c8af6ecdc"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 1124144,
+      "name": "assets/models_bundled/contours.tfl",
+      "sha256": "84160bc0c4a749517e62f93cb2c68ab8ff49de571f70eb6d160254ca9a0789c0"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 231816,
+      "name": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+      "sha256": "57dc1f2a3b9c0c5d949f21e86767d2bf319f10b09281c04005d82fef7c972fbd"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 232096,
+      "name": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+      "sha256": "d8abae91b0e0af52573c38cbb0a39e34905d4a36cfe54ad59a2fe98351c7f3b4"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 146,
+      "name": "assets/models_bundled/fssd_anchors_v2.pb",
+      "sha256": "7516ed46c04ab0fb850357b306c4c57f10af6f8ae44d6836318e7b872fc21ff6"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 144,
+      "name": "assets/models_bundled/fssd_anchors_v5.pb",
+      "sha256": "5390cab6b491eb3274b7acaa68e3bcb623eb2c7f9fccde1c97a858befbae110a"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 613080,
+      "name": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+      "sha256": "f0590874fd3a006cb7853796a5217bc8f1b712dc904ae7a680957ff284619372"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 613352,
+      "name": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+      "sha256": "ae2fa78e29441438e16104b815522660afb139ebf683e51672cadf88d6089ff8"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 460,
+      "name": "assets/public.pem",
+      "sha256": "0d4383c52c0f29e7cfee4dc179fba1181fe9313decc8973f884eca9e073890e3"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 80,
+      "name": "assets/safemode_registrator_com_iap_ac_config.json",
+      "sha256": "7369e6fce29a565885fc40dbc4682f716fe083c08fc6b2b8644516d311a02097"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 8307,
+      "name": "assets/taibmcf.dat",
+      "sha256": "392c01d84cc770b0a9e2c273ed6bf6ef5625fcd2a7b678e94464489691b96108"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 46,
+      "name": "assets/taibmcf.json",
+      "sha256": "276833c96dde3ceefa9a894a4612f09ffdc6b22538ea5e1891e1155dc7355172"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 7292,
+      "name": "assets/taxi_images/Artboard_1.png",
+      "sha256": "ea18e4e573cdd5ccc93ffe94e7bf0c2a7470869489cccb9cedab0dc63910c0bc"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 6430,
+      "name": "assets/taxi_images/Artboard_2.png",
+      "sha256": "a3d3fa854f60359b2a125b35a9bb687694842ab44b408ef6b42c609d6239c233"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 5649,
+      "name": "assets/taxi_images/Layer_2_loading.png",
+      "sha256": "9c93e8097b6fd8b780c3a0e531f836c4231027e13891f87caad248a0cb7edc29"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 5792,
+      "name": "assets/taxi_images/Layer_3_loading.png",
+      "sha256": "55d1cacd105bfb583ccac799a48e01ed0be93a9db4255b86df7a3081bd5fad54"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 14652,
+      "name": "assets/taxi_images/Layer_4_loading.png",
+      "sha256": "fb9f0d4c58a3f97826af3d63ec7bc7ef0446c0335e3635f48fc617fddacb930a"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 42205,
+      "name": "assets/taxi_images/Layer_5_loading.png",
+      "sha256": "9397331f2b99689e9c51d9feaf9b8317458bc61807b79bff36475a71a2b40e4f"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 520,
+      "name": "assets/taxi_images/Layer_7_loading.png",
+      "sha256": "d50afb8a8f662e77769149f17000fe918d24fbd90c1343858bfd94cd1c7b03d1"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 2636,
+      "name": "assets/taxi_images/Layer_8_loading.png",
+      "sha256": "1869e8557bc9422b38c42252d557d8f41196709bb5402ccd78b64217196d34e4"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 6123,
+      "name": "assets/taxi_images/_____1_loading.png",
+      "sha256": "0836fdd3b102764c4350894be9842edec59dd7f5ce1bbddcef820fed7589adc5"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 536057,
+      "name": "assets/taxi_splash_loading.json",
+      "sha256": "c68296d32ff394e1f4b040a72644119a5235cdb6044633323229805e9de82952"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 11339,
+      "name": "assets/theme/bank/bank_resource.json",
+      "sha256": "bf584e41fde15aaf3b3b9b9d2f9f08c5b417d877a8da89d43269555876d1d2b7"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 11573,
+      "name": "assets/theme/bank/config_v2.json",
+      "sha256": "258535cabe5cb6d87e7b66c9cca71e50bfcaa03c38d4af210e21d1ef3c9ab430"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 15430,
+      "name": "assets/theme/bank/ui_config.json",
+      "sha256": "1efac77f60bba10946346b40d79a57f50638d47481d84fd872c9f668ca19793a"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 11067,
+      "name": "assets/timezone2region_2023c.json",
+      "sha256": "5a8407b1dd33bdf0d44812c8f0394def555418558fa4c1b8074cc1925d5517a3"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 9780,
+      "name": "assets/tinyfont/iconfont.ttf",
+      "sha256": "209f6617fdf5be8d44ff11fc06a2c7b6e91bf5c4a6be02d0d60ddcb9c60f6caa"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 5016,
+      "name": "assets/tinyfont/titlebar.ttf",
+      "sha256": "4cfed842deb4dc40fd0572cf3e87bd10e43673f2c0877173565b88125925ee20"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 392,
+      "name": "assets/trueidlib.so",
+      "sha256": "055e573dbee6ee9d078b9856cb0e76ed34eb1b60e601ecae114068044fb95cc5"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 46,
+      "name": "assets/vdfmoer.json",
+      "sha256": "276833c96dde3ceefa9a894a4612f09ffdc6b22538ea5e1891e1155dc7355172"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 619,
+      "name": "assets/webapp.js",
+      "sha256": "73242fce8a393809de4768c505848e8c6f053634cfda379c7ca95ac601b43c15"
+    },
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "bytes": 450,
+      "name": "assets/zoom.public",
+      "sha256": "d8f31eca4380e7cd9de16e81ad9fbf262ecd552ef7d82849f514c2a2ade8965e"
+    }
+  ],
+  "library_property_files": [
+    "vn.com.vng.zalopay.apk:CertPathReviewerMessages.properties",
+    "vn.com.vng.zalopay.apk:CertPathReviewerMessages_de.properties",
+    "vn.com.vng.zalopay.apk:app-metadata.properties",
+    "vn.com.vng.zalopay.apk:barcode-scanning-common.properties",
+    "vn.com.vng.zalopay.apk:barcode-scanning.properties",
+    "vn.com.vng.zalopay.apk:billing-ktx.properties",
+    "vn.com.vng.zalopay.apk:billing.properties",
+    "vn.com.vng.zalopay.apk:common.properties",
+    "vn.com.vng.zalopay.apk:core-common.properties",
+    "vn.com.vng.zalopay.apk:face-detection.properties",
+    "vn.com.vng.zalopay.apk:feature-delivery.properties",
+    "vn.com.vng.zalopay.apk:firebase-abt.properties",
+    "vn.com.vng.zalopay.apk:firebase-analytics-ktx.properties",
+    "vn.com.vng.zalopay.apk:firebase-analytics.properties",
+    "vn.com.vng.zalopay.apk:firebase-annotations.properties",
+    "vn.com.vng.zalopay.apk:firebase-config.properties",
+    "vn.com.vng.zalopay.apk:firebase-core.properties",
+    "vn.com.vng.zalopay.apk:firebase-encoders-proto.properties",
+    "vn.com.vng.zalopay.apk:firebase-encoders.properties",
+    "vn.com.vng.zalopay.apk:firebase-iid-interop.properties",
+    "vn.com.vng.zalopay.apk:firebase-iid.properties",
+    "vn.com.vng.zalopay.apk:firebase-measurement-connector.properties",
+    "vn.com.vng.zalopay.apk:firebase-messaging.properties",
+    "vn.com.vng.zalopay.apk:firebase-perf.properties",
+    "vn.com.vng.zalopay.apk:image.properties",
+    "vn.com.vng.zalopay.apk:integrity.properties",
+    "vn.com.vng.zalopay.apk:jacoco.properties",
+    "vn.com.vng.zalopay.apk:lowmcL1.bin.properties",
+    "vn.com.vng.zalopay.apk:lowmcL3.bin.properties",
+    "vn.com.vng.zalopay.apk:lowmcL5.bin.properties",
+    "vn.com.vng.zalopay.apk:object-detection-common.properties",
+    "vn.com.vng.zalopay.apk:object-detection.properties",
+    "vn.com.vng.zalopay.apk:play-services-ads-base.properties",
+    "vn.com.vng.zalopay.apk:play-services-ads-identifier.properties",
+    "vn.com.vng.zalopay.apk:play-services-ads-lite.properties",
+    "vn.com.vng.zalopay.apk:play-services-ads.properties",
+    "vn.com.vng.zalopay.apk:play-services-analytics-impl.properties",
+    "vn.com.vng.zalopay.apk:play-services-appset.properties",
+    "vn.com.vng.zalopay.apk:play-services-auth-api-phone.properties",
+    "vn.com.vng.zalopay.apk:play-services-base.properties",
+    "vn.com.vng.zalopay.apk:play-services-basement.properties",
+    "vn.com.vng.zalopay.apk:play-services-clearcut.properties",
+    "vn.com.vng.zalopay.apk:play-services-cloud-messaging.properties",
+    "vn.com.vng.zalopay.apk:play-services-flags.properties",
+    "vn.com.vng.zalopay.apk:play-services-identity.properties",
+    "vn.com.vng.zalopay.apk:play-services-location.properties",
+    "vn.com.vng.zalopay.apk:play-services-maps.properties",
+    "vn.com.vng.zalopay.apk:play-services-measurement-api.properties",
+    "vn.com.vng.zalopay.apk:play-services-measurement-base.properties",
+    "vn.com.vng.zalopay.apk:play-services-measurement-impl.properties",
+    "vn.com.vng.zalopay.apk:play-services-measurement-sdk-api.properties",
+    "vn.com.vng.zalopay.apk:play-services-measurement-sdk.properties",
+    "vn.com.vng.zalopay.apk:play-services-measurement.properties",
+    "vn.com.vng.zalopay.apk:play-services-mlkit-barcode-scanning.properties",
+    "vn.com.vng.zalopay.apk:play-services-mlkit-face-detection.properties",
+    "vn.com.vng.zalopay.apk:play-services-mlkit-subject-segmentation.properties",
+    "vn.com.vng.zalopay.apk:play-services-mlkit-text-recognition-common.properties",
+    "vn.com.vng.zalopay.apk:play-services-mlkit-text-recognition.properties",
+    "vn.com.vng.zalopay.apk:play-services-phenotype.properties",
+    "vn.com.vng.zalopay.apk:play-services-places-placereport.properties",
+    "vn.com.vng.zalopay.apk:play-services-safetynet.properties",
+    "vn.com.vng.zalopay.apk:play-services-stats.properties",
+    "vn.com.vng.zalopay.apk:play-services-tagmanager-api.properties",
+    "vn.com.vng.zalopay.apk:play-services-tagmanager.properties",
+    "vn.com.vng.zalopay.apk:play-services-tasks.properties",
+    "vn.com.vng.zalopay.apk:play-services-vision-common.properties",
+    "vn.com.vng.zalopay.apk:play-services-vision.properties",
+    "vn.com.vng.zalopay.apk:play-services-wallet.properties",
+    "vn.com.vng.zalopay.apk:review-ktx.properties",
+    "vn.com.vng.zalopay.apk:review.properties",
+    "vn.com.vng.zalopay.apk:rxkotlin.properties",
+    "vn.com.vng.zalopay.apk:text-recognition-bundled-common.properties",
+    "vn.com.vng.zalopay.apk:text-recognition.properties",
+    "vn.com.vng.zalopay.apk:user-messaging-platform.properties",
+    "vn.com.vng.zalopay.apk:vision-common.properties",
+    "vn.com.vng.zalopay.apk:vision-interfaces.properties",
+    "vn.com.vng.zalopay.apk:vision-internal-vkp.properties"
+  ],
+  "property_file_count": 77,
+  "resource_xml_files": [
+    "vn.com.vng.zalopay.apk:res/xml/apdu_service.xml",
+    "vn.com.vng.zalopay.apk:res/xml/app_shortcuts.xml",
+    "vn.com.vng.zalopay.apk:res/xml/appsflyer_data_extraction_rules.xml",
+    "vn.com.vng.zalopay.apk:res/xml/file_paths.xml",
+    "vn.com.vng.zalopay.apk:res/xml/game_app_widget_info.xml",
+    "vn.com.vng.zalopay.apk:res/xml/gma_ad_services_config.xml",
+    "vn.com.vng.zalopay.apk:res/xml/griverfilepath.xml",
+    "vn.com.vng.zalopay.apk:res/xml/movie_app_widget_info.xml",
+    "vn.com.vng.zalopay.apk:res/xml/network_security_config.xml",
+    "vn.com.vng.zalopay.apk:res/xml/personal_qr_app_widget_info.xml",
+    "vn.com.vng.zalopay.apk:res/xml/splits0.xml",
+    "vn.com.vng.zalopay.apk:res/xml/standard_app_widget_info.xml",
+    "vn.com.vng.zalopay.apk:res/xml/tiny_app_apdu_service.xml"
+  ]
+}

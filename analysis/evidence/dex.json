@@ -1,0 +1,614 @@
+{
+  "dex_count": 19,
+  "dex_files": [
+    {
+      "actual_bytes": 8831004,
+      "class_defs": 10703,
+      "compressed_bytes": 3797844,
+      "data_bytes": 7128072,
+      "declared_file_size": 8831004,
+      "endian_tag": "0x12345678",
+      "field_ids": 46956,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 59948,
+      "name": "classes.dex",
+      "prototype_ids": 15953,
+      "sha256": "4572f052124fb4ebe9859e7311dd08251487ef258e6e39215456fe2918ceb9eb",
+      "string_ids": 61218,
+      "type_ids": 17196
+    },
+    {
+      "actual_bytes": 78204,
+      "class_defs": 92,
+      "compressed_bytes": 35522,
+      "data_bytes": 58888,
+      "declared_file_size": 78204,
+      "endian_tag": "0x12345678",
+      "field_ids": 314,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 578,
+      "name": "classes10.dex",
+      "prototype_ids": 300,
+      "sha256": "c2523d14c1373950903f7477cf383f906428d23a62993b90dff72060723a928d",
+      "string_ids": 920,
+      "type_ids": 461
+    },
+    {
+      "actual_bytes": 163420,
+      "class_defs": 177,
+      "compressed_bytes": 71734,
+      "data_bytes": 127152,
+      "declared_file_size": 163420,
+      "endian_tag": "0x12345678",
+      "field_ids": 694,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 1171,
+      "name": "classes11.dex",
+      "prototype_ids": 523,
+      "sha256": "c6ee2d78f32137cb5450b9cf0fd55cebff8704328d4b9e719981d69b34160b2e",
+      "string_ids": 1584,
+      "type_ids": 740
+    },
+    {
+      "actual_bytes": 398276,
+      "class_defs": 425,
+      "compressed_bytes": 171767,
+      "data_bytes": 321364,
+      "declared_file_size": 398276,
+      "endian_tag": "0x12345678",
+      "field_ids": 1723,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 2604,
+      "name": "classes12.dex",
+      "prototype_ids": 916,
+      "sha256": "6742bfd85b7f61e18325045282b0ab6f8ad2ba7e4900217975c1a092889a2788",
+      "string_ids": 3207,
+      "type_ids": 1191
+    },
+    {
+      "actual_bytes": 145824,
+      "class_defs": 139,
+      "compressed_bytes": 62687,
+      "data_bytes": 115876,
+      "declared_file_size": 145824,
+      "endian_tag": "0x12345678",
+      "field_ids": 561,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 997,
+      "name": "classes13.dex",
+      "prototype_ids": 420,
+      "sha256": "eb3fffe1dace3619cfb27fcb4eb88e3def404e5ddb59e1fd85b05d2c48b659df",
+      "string_ids": 1381,
+      "type_ids": 590
+    },
+    {
+      "actual_bytes": 81748,
+      "class_defs": 90,
+      "compressed_bytes": 34209,
+      "data_bytes": 62740,
+      "declared_file_size": 81748,
+      "endian_tag": "0x12345678",
+      "field_ids": 371,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 575,
+      "name": "classes14.dex",
+      "prototype_ids": 249,
+      "sha256": "63bc3727cf4b3674f8021471d7c0746666d9c76a999571bf300c097ab02720ee",
+      "string_ids": 961,
+      "type_ids": 404
+    },
+    {
+      "actual_bytes": 82152,
+      "class_defs": 113,
+      "compressed_bytes": 35227,
+      "data_bytes": 60456,
+      "declared_file_size": 82152,
+      "endian_tag": "0x12345678",
+      "field_ids": 410,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 658,
+      "name": "classes15.dex",
+      "prototype_ids": 305,
+      "sha256": "a8b037ff84ee078e100c3362f329900d0b7d7c2e4ab5d3fd6bf014504afb5b6e",
+      "string_ids": 1005,
+      "type_ids": 436
+    },
+    {
+      "actual_bytes": 15916,
+      "class_defs": 20,
+      "compressed_bytes": 6660,
+      "data_bytes": 11716,
+      "declared_file_size": 15916,
+      "endian_tag": "0x12345678",
+      "field_ids": 38,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 101,
+      "name": "classes16.dex",
+      "prototype_ids": 69,
+      "sha256": "331b4ebe76e9a71501cb6d912fe80295365e407b771c07434310f5c0b1b49ef1",
+      "string_ids": 261,
+      "type_ids": 116
+    },
+    {
+      "actual_bytes": 208476,
+      "class_defs": 243,
+      "compressed_bytes": 93490,
+      "data_bytes": 164212,
+      "declared_file_size": 208476,
+      "endian_tag": "0x12345678",
+      "field_ids": 972,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 1311,
+      "name": "classes17.dex",
+      "prototype_ids": 611,
+      "sha256": "70f01df8cb8b396616aff93345018a06f69a922c2cfc9c60d3c6a49dadb4d333",
+      "string_ids": 1847,
+      "type_ids": 848
+    },
+    {
+      "actual_bytes": 95920,
+      "class_defs": 115,
+      "compressed_bytes": 43729,
+      "data_bytes": 72296,
+      "declared_file_size": 95920,
+      "endian_tag": "0x12345678",
+      "field_ids": 428,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 668,
+      "name": "classes18.dex",
+      "prototype_ids": 373,
+      "sha256": "326bdb3326e630df71334a3486447f0c32758c5c6828485b5f466b74d1b9bdba",
+      "string_ids": 1094,
+      "type_ids": 553
+    },
+    {
+      "actual_bytes": 719548,
+      "class_defs": 777,
+      "compressed_bytes": 320650,
+      "data_bytes": 600788,
+      "declared_file_size": 719548,
+      "endian_tag": "0x12345678",
+      "field_ids": 2804,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 3781,
+      "name": "classes19.dex",
+      "prototype_ids": 1445,
+      "sha256": "4e7f019ebd9b76f66a9727fa841026e194f2d389350de6fe63dffb95820429a9",
+      "string_ids": 4159,
+      "type_ids": 1782
+    },
+    {
+      "actual_bytes": 16516960,
+      "class_defs": 7421,
+      "compressed_bytes": 8342327,
+      "data_bytes": 15017556,
+      "declared_file_size": 16516960,
+      "endian_tag": "0x12345678",
+      "field_ids": 60000,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 45527,
+      "name": "classes2.dex",
+      "prototype_ids": 12070,
+      "sha256": "af4987a99dd7bb69a835933be5e6ee5ec412de051bb0958fb253742b3fd462d9",
+      "string_ids": 56948,
+      "type_ids": 11243
+    },
+    {
+      "actual_bytes": 850600,
+      "class_defs": 1081,
+      "compressed_bytes": 383547,
+      "data_bytes": 660432,
+      "declared_file_size": 850600,
+      "endian_tag": "0x12345678",
+      "field_ids": 3619,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 6354,
+      "name": "classes3.dex",
+      "prototype_ids": 2361,
+      "sha256": "7e84baa2c50fd46554628176ee7a802bb13f36e7cfe1278efbed2739a4d14881",
+      "string_ids": 8010,
+      "type_ids": 3827
+    },
+    {
+      "actual_bytes": 9418124,
+      "class_defs": 11441,
+      "compressed_bytes": 4132672,
+      "data_bytes": 7773332,
+      "declared_file_size": 9418124,
+      "endian_tag": "0x12345678",
+      "field_ids": 40269,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 59997,
+      "name": "classes4.dex",
+      "prototype_ids": 15731,
+      "sha256": "77eb2deb3c18c0a56742d2fc5b7974a791b2b31298961c65dc9b3db8427602af",
+      "string_ids": 52812,
+      "type_ids": 19105
+    },
+    {
+      "actual_bytes": 7357484,
+      "class_defs": 7983,
+      "compressed_bytes": 2816380,
+      "data_bytes": 5790860,
+      "declared_file_size": 7357484,
+      "endian_tag": "0x12345678",
+      "field_ids": 60002,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 49055,
+      "name": "classes5.dex",
+      "prototype_ids": 13049,
+      "sha256": "c6fdc65622c1855a53a7e86ef695a7575f9fe27284e6e6555d52017a122fa9b4",
+      "string_ids": 56424,
+      "type_ids": 14079
+    },
+    {
+      "actual_bytes": 7612432,
+      "class_defs": 5475,
+      "compressed_bytes": 3412313,
+      "data_bytes": 6269368,
+      "declared_file_size": 7612432,
+      "endian_tag": "0x12345678",
+      "field_ids": 36617,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 49201,
+      "name": "classes6.dex",
+      "prototype_ids": 15543,
+      "sha256": "1484dd8a338f8526b21d375325f5cb2aa4f596e471758e36e3d142ebf0ec3518",
+      "string_ids": 55274,
+      "type_ids": 18399
+    },
+    {
+      "actual_bytes": 10803680,
+      "class_defs": 12953,
+      "compressed_bytes": 4622753,
+      "data_bytes": 9051816,
+      "declared_file_size": 10803680,
+      "endian_tag": "0x12345678",
+      "field_ids": 43164,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 60000,
+      "name": "classes7.dex",
+      "prototype_ids": 16081,
+      "sha256": "5f356407a685dbe335719b9c8b34d1e47870b15634cc6f856e3bc12401726ff2",
+      "string_ids": 59110,
+      "type_ids": 20633
+    },
+    {
+      "actual_bytes": 239036,
+      "class_defs": 295,
+      "compressed_bytes": 105710,
+      "data_bytes": 188972,
+      "declared_file_size": 239036,
+      "endian_tag": "0x12345678",
+      "field_ids": 1056,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 1552,
+      "name": "classes8.dex",
+      "prototype_ids": 697,
+      "sha256": "2e6d27956d455d475a7d0242bb128b9be48a6be7f37d599ed541541daa53a177",
+      "string_ids": 1906,
+      "type_ids": 915
+    },
+    {
+      "actual_bytes": 1218908,
+      "class_defs": 1128,
+      "compressed_bytes": 434564,
+      "data_bytes": 1033936,
+      "declared_file_size": 1218908,
+      "endian_tag": "0x12345678",
+      "field_ids": 4520,
+      "header_consistent": true,
+      "header_size": 112,
+      "magic": "dex\n038\u0000",
+      "method_ids": 7170,
+      "name": "classes9.dex",
+      "prototype_ids": 1827,
+      "sha256": "e9b46539c92987be18e840d9ffdc338e00505d52a04e117cc79ccbd8337522f5",
+      "string_ids": 6155,
+      "type_ids": 2175
+    }
+  ],
+  "distinct_uri_hosts": 155,
+  "framework_markers": {
+    "compose": 1362,
+    "coroutines": 140,
+    "facebook": 936,
+    "firebase": 430,
+    "gms": 9440,
+    "kotlin": 2592,
+    "mlkit": 99,
+    "okhttp": 955,
+    "protobuf": 372,
+    "retrofit": 370,
+    "room": 2,
+    "webview": 33,
+    "zalo_sdk": 12
+  },
+  "totals": {
+    "actual_bytes": 64837712,
+    "class_defs": 60671,
+    "field_ids": 304518,
+    "method_ids": 351248,
+    "prototype_ids": 98523,
+    "string_ids": 374276,
+    "type_ids": 114693
+  },
+  "uri_host_frequencies": [
+    {
+      "count": 65,
+      "host": "scdn.zalopay.com.vn"
+    },
+    {
+      "count": 45,
+      "host": "simg.zalopay.com.vn"
+    },
+    {
+      "count": 24,
+      "host": "render.alipay.com"
+    },
+    {
+      "count": 20,
+      "host": "zalopay.vn"
+    },
+    {
+      "count": 13,
+      "host": "api.zalopay.vn"
+    },
+    {
+      "count": 13,
+      "host": "social.zalopay.vn"
+    },
+    {
+      "count": 11,
+      "host": "play.google.com"
+    },
+    {
+      "count": 10,
+      "host": "sapi.zalopay.vn"
+    },
+    {
+      "count": 9,
+      "host": "appx-ng"
+    },
+    {
+      "count": 8,
+      "host": "developer.android.com"
+    },
+    {
+      "count": 8,
+      "host": "mnap-director.zalopay.vn"
+    },
+    {
+      "count": 8,
+      "host": "www.w3.org"
+    },
+    {
+      "count": 8,
+      "host": "www.google.com"
+    },
+    {
+      "count": 7,
+      "host": "firebase.google.com"
+    },
+    {
+      "count": 7,
+      "host": "googleads.g.doubleclick.net"
+    },
+    {
+      "count": 6,
+      "host": "issuetracker.google.com"
+    },
+    {
+      "count": 6,
+      "host": "xml.org"
+    },
+    {
+      "count": 6,
+      "host": "googlemobileadssdk.page.link"
+    },
+    {
+      "count": 5,
+      "host": "xmlpull.org"
+    },
+    {
+      "count": 5,
+      "host": "appx"
+    },
+    {
+      "count": 5,
+      "host": "zalo.me"
+    },
+    {
+      "count": 5,
+      "host": "upload-img.zalopay.vn"
+    },
+    {
+      "count": 5,
+      "host": "developers.facebook.com"
+    },
+    {
+      "count": 5,
+      "host": "uudai.zalopay.vn"
+    },
+    {
+      "count": 4,
+      "host": "openauth.alipay.com"
+    },
+    {
+      "count": 4,
+      "host": "schemas.android.com"
+    },
+    {
+      "count": 4,
+      "host": "goo.gl"
+    },
+    {
+      "count": 4,
+      "host": "app-measurement.com"
+    },
+    {
+      "count": 4,
+      "host": "zalopay.com.vn"
+    },
+    {
+      "count": 4,
+      "host": "openapi.zalopay.vn"
+    },
+    {
+      "count": 4,
+      "host": "bim.zalopay.vn"
+    },
+    {
+      "count": 3,
+      "host": "ns.adobe.com"
+    },
+    {
+      "count": 3,
+      "host": "resource"
+    },
+    {
+      "count": 3,
+      "host": "dala2zoom.zalopay.vn"
+    },
+    {
+      "count": 3,
+      "host": "github.com"
+    },
+    {
+      "count": 3,
+      "host": "open-sea.alipayplus.com"
+    },
+    {
+      "count": 3,
+      "host": "render-intl.alipay.com"
+    },
+    {
+      "count": 3,
+      "host": "www.google-analytics.com"
+    },
+    {
+      "count": 3,
+      "host": "alipay.worker.com"
+    },
+    {
+      "count": 3,
+      "host": "bank-profile.zalopay.vn"
+    },
+    {
+      "count": 3,
+      "host": "mmf-redemption.zalopay.vn"
+    },
+    {
+      "count": 3,
+      "host": "scard.zalopay.vn"
+    },
+    {
+      "count": 3,
+      "host": "support.zalopay.vn"
+    },
+    {
+      "count": 3,
+      "host": "zlp-ofp-emvco-gateway.zalopay.vn"
+    },
+    {
+      "count": 3,
+      "host": "zlp-ofp-zpa-camera-config-be.zalopay.vn"
+    },
+    {
+      "count": 3,
+      "host": "cps.zalopay.com.vn"
+    },
+    {
+      "count": 3,
+      "host": "vngzalopay.freshdesk.com"
+    },
+    {
+      "count": 2,
+      "host": "g.co"
+    },
+    {
+      "count": 2,
+      "host": "alipay.kylinbridge"
+    },
+    {
+      "count": 2,
+      "host": "cdn.marmot-cloud.com"
+    },
+    {
+      "count": 2,
+      "host": "mobilegw.alipay.com"
+    },
+    {
+      "count": 2,
+      "host": "shared"
+    },
+    {
+      "count": 2,
+      "host": "user-life-cycle-public.zalopay.vn"
+    },
+    {
+      "count": 2,
+      "host": "iopengw-280.sggz00b.dev.alipay.net"
+    },
+    {
+      "count": 2,
+      "host": "imdap-sea.alipay.com"
+    },
+    {
+      "count": 2,
+      "host": "imgs-ac.alipay.com"
+    },
+    {
+      "count": 2,
+      "host": "oauth.zaloapp.com"
+    },
+    {
+      "count": 2,
+      "host": "visapay.as1.juspay.io"
+    },
+    {
+      "count": 2,
+      "host": "www.visa.com"
+    },
+    {
+      "count": 2,
+      "host": "rdx.zalopay.vn"
+    }
+  ]
+}

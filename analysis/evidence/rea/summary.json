@@ -1,0 +1,98 @@
+{
+  "artifact-Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.xapk.json": {
+    "evidence_id": "ev_11bde661d752a6fe4ba65d495f22bbb9011de90014c582df0d494a02f956994c",
+    "subject_sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d",
+    "substeps": [
+      {
+        "operation": "inventory_artifact",
+        "status": "completed"
+      }
+    ],
+    "limitations": [
+      "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+      "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+    ]
+  },
+  "artifact-config.armeabi_v7a.apk.json": {
+    "evidence_id": "ev_e3b17c1d0872452902b89985b559a726fd93326d8e6e5aa436b895ff78312224",
+    "subject_sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+    "substeps": [
+      {
+        "operation": "inventory_artifact",
+        "status": "completed"
+      }
+    ],
+    "limitations": [
+      "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+      "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+    ]
+  },
+  "artifact-config.en.apk.json": {
+    "evidence_id": "ev_55ef288281c7422a685592d725c593cc22f8a2b719754ba02480fde1a1d1b782",
+    "subject_sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+    "substeps": [
+      {
+        "operation": "inventory_artifact",
+        "status": "completed"
+      }
+    ],
+    "limitations": [
+      "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+      "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+    ]
+  },
+  "artifact-config.vi.apk.json": {
+    "evidence_id": "ev_41e565d2c9a9d5a7543cb3c2e36914df936c5be81940d1e4a52a3ac82f254f39",
+    "subject_sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+    "substeps": [
+      {
+        "operation": "inventory_artifact",
+        "status": "completed"
+      }
+    ],
+    "limitations": [
+      "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+      "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+    ]
+  },
+  "artifact-config.xhdpi.apk.json": {
+    "evidence_id": "ev_b724d50b608e14d7fcb2c26cd62e0f9f6e36bb6e2aa1e43bb992bb28b1145bcd",
+    "subject_sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+    "substeps": [
+      {
+        "operation": "inventory_artifact",
+        "status": "completed"
+      }
+    ],
+    "limitations": [
+      "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+      "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+    ]
+  },
+  "artifact-vn.com.vng.zalopay.apk.json": {
+    "evidence_id": "ev_d161bc747f9f7d3ccc9e2ddf37fd59db63ec441fc9884fc7aa6f08c7c1594c30",
+    "subject_sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+    "substeps": [
+      {
+        "operation": "inventory_artifact",
+        "status": "completed"
+      }
+    ],
+    "limitations": [
+      "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+      "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+    ]
+  },
+  "flutter": {
+    "flutter_detected": false,
+    "coverage": "complete",
+    "limitations": [
+      "The APK is read through an owned read-only snapshot; concurrent changes to the original cannot mix into this observation",
+      "The snapshot hash identifies a Dart SDK build only against an external mapping dataset; REA performs no lookup",
+      "Release engine builds often carry no labeled Dart version string; absence is reported, not guessed",
+      "Engine build IDs come only from ELF-declared PT_NOTE/SHT_NOTE records; conflicting or incompletely examined notes preserve candidates and report partial coverage",
+      "The snapshot hash sits 20 bytes after each snapshot magic in the AOT payload; findings are observations of that layout"
+    ]
+  },
+  "signature_provider_note": "REA 6.7.0 CLI inspect-signature maps to native macOS codesign; APK v1/v2/v3 identity captured with androguard instead."
+}

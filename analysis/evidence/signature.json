@@ -1,0 +1,29 @@
+{
+  "certificates_v1": [],
+  "certificates_v2": [
+    {
+      "issuer": "Common Name: Vu Manh Hieu",
+      "serial_number": "356428285",
+      "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+      "subject": "Common Name: Vu Manh Hieu",
+      "valid_from": "<unavailable: AttributeError>",
+      "valid_until": "<unavailable: AttributeError>"
+    }
+  ],
+  "certificates_v3": [
+    {
+      "issuer": "Common Name: Vu Manh Hieu",
+      "serial_number": "356428285",
+      "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+      "subject": "Common Name: Vu Manh Hieu",
+      "valid_from": "<unavailable: AttributeError>",
+      "valid_until": "<unavailable: AttributeError>"
+    }
+  ],
+  "meta_inf_entries": [],
+  "signed_v1": false,
+  "signed_v2": true,
+  "signed_v3": true,
+  "stamp_cert_sha256": "2Wՙ��,�\u001aG\u001c��?Y�A�\u0005�E��\b}�#{s;�m",
+  "v1_verification": "unavailable: TypeError"
+}
