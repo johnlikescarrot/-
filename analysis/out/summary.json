@@ -1,0 +1,1006 @@
+{
+ "meta": {
+  "package": "vn.com.vng.zalopay",
+  "version_name": "11.17.0",
+  "version_code": 1102758,
+  "min_sdk": 26,
+  "target_sdk": 36,
+  "compile_sdk": 36,
+  "kotlin": "2.2.10",
+  "gradle": "8.14.5",
+  "jvm_target": 17,
+  "build_date_hint": "2026-11",
+  "source": "APKPure XAPK (split APK bundle)",
+  "xapk_bytes": 105608128
+ },
+ "signing": {
+  "subject": "CN=Vu Manh Hieu",
+  "serial": "0x153ea9fd",
+  "not_before": "2016-04-21",
+  "not_after": "2041-04-15",
+  "sha256": "59:DD:31:FD:F3:60:70:A0:D7:F8:C8:CD:E8:43:FA:C3:71:DF:7F:1A:91:5C:01:36:C9:C9:B5:59:92:E8:CD:AE",
+  "v1": false,
+  "v2": true,
+  "v3": true,
+  "self_signed": true,
+  "key": "RSA-2048+ (per cert)"
+ },
+ "splits": [
+  {
+   "file": "vn.com.vng.zalopay.apk",
+   "role": "base",
+   "bytes": 79359087
+  },
+  {
+   "file": "config.armeabi_v7a.apk",
+   "role": "native ABI (armeabi-v7a only)",
+   "bytes": 24828408
+  },
+  {
+   "file": "config.en.apk",
+   "role": "locale en",
+   "bytes": 74137
+  },
+  {
+   "file": "config.vi.apk",
+   "role": "locale vi",
+   "bytes": 86425
+  },
+  {
+   "file": "config.xhdpi.apk",
+   "role": "density xhdpi",
+   "bytes": 1232563
+  }
+ ],
+ "corpus": {
+  "files": 6213,
+  "bytes": 299605180,
+  "dex_files": 19,
+  "dex_bytes": 64837712,
+  "classes": 60671,
+  "methods": 351248,
+  "fields": 304518,
+  "strings": 243013,
+  "types": 114693,
+  "protos": 98523,
+  "native_libs": 28,
+  "native_bytes": 57452516
+ },
+ "file_kinds": [
+  [
+   "xml",
+   5212
+  ],
+  [
+   "image",
+   335
+  ],
+  [
+   "other",
+   327
+  ],
+  [
+   "text",
+   136
+  ],
+  [
+   "json",
+   65
+  ],
+  [
+   "native",
+   28
+  ],
+  [
+   "ml",
+   27
+  ],
+  [
+   "font",
+   25
+  ],
+  [
+   "dex",
+   20
+  ],
+  [
+   "proto",
+   10
+  ],
+  [
+   "js",
+   9
+  ],
+  [
+   "sig",
+   9
+  ],
+  [
+   "blob",
+   5
+  ],
+  [
+   "resources",
+   3
+  ],
+  [
+   "archive",
+   1
+  ],
+  [
+   "key",
+   1
+  ]
+ ],
+ "bytes_by_kind": [
+  [
+   "other",
+   116243486
+  ],
+  [
+   "dex",
+   69701748
+  ],
+  [
+   "native",
+   57452516
+  ],
+  [
+   "ml",
+   12963308
+  ],
+  [
+   "xml",
+   11026540
+  ],
+  [
+   "image",
+   8671229
+  ],
+  [
+   "font",
+   7412552
+  ],
+  [
+   "json",
+   6679787
+  ],
+  [
+   "archive",
+   3913966
+  ],
+  [
+   "blob",
+   3207882
+  ],
+  [
+   "resources",
+   1939744
+  ],
+  [
+   "text",
+   296882
+  ],
+  [
+   "proto",
+   49704
+  ],
+  [
+   "js",
+   35677
+  ],
+  [
+   "sig",
+   9699
+  ],
+  [
+   "key",
+   460
+  ]
+ ],
+ "libraries": {
+  "BouncyCastle": 6112,
+  "Google Play services": 5933,
+  "Alibaba ARiver/Griver": 4821,
+  "AndroidX": 4250,
+  "IAP Connect (Griver)": 1599,
+  "Visa CBP": 1370,
+  "ZaloPay first-party": 952,
+  "TrueID (vn.ai)": 689,
+  "Facebook SDK/AN": 531,
+  "Alipay+ / Ant SDK": 493,
+  "AppsFlyer": 430,
+  "VNPay SDK": 388,
+  "Nimbus JOSE+JWT": 361,
+  "OkHttp": 335,
+  "RxJava": 266,
+  "JMRTD (e-passport NFC)": 237,
+  "Firebase": 221,
+  "Tink": 221,
+  "Coil/Glide": 216,
+  "Gson": 207,
+  "Jsoup": 175,
+  "Rive": 157,
+  "ML Kit": 50,
+  "Kotlinx coroutines": 17,
+  "Room": 1
+ },
+ "crypto": {
+  "AES": 181,
+  "RSA": 106,
+  "EC/ECDSA": 121,
+  "Ed25519/X25519": 90,
+  "SHA-2": 48,
+  "SHA-3/Keccak": 133,
+  "HMAC": 25,
+  "GCM": 37,
+  "ChaCha20": 6,
+  "Post-quantum": 181,
+  "PBKDF2/Argon2": 10,
+  "Tink": 9
+ },
+ "components": {
+  "total": {
+   "activity": 200,
+   "service": 34,
+   "receiver": 22,
+   "provider": 9
+  },
+  "exported": {
+   "activity": 14,
+   "service": 6,
+   "receiver": 8
+  }
+ },
+ "permissions": {
+  "requested": 49,
+  "dangerous": [
+   "android.permission.READ_CONTACTS",
+   "android.permission.WRITE_CONTACTS",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.DETECT_SCREEN_CAPTURE",
+   "android.permission.READ_PHONE_STATE",
+   "android.permission.CAMERA",
+   "android.permission.NFC",
+   "android.permission.USE_BIOMETRIC",
+   "android.permission.RECORD_AUDIO",
+   "android.permission.ACCESS_FINE_LOCATION",
+   "android.permission.READ_MEDIA_AUDIO",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.WRITE_CALENDAR",
+   "android.permission.READ_CALENDAR",
+   "android.permission.ACCESS_COARSE_LOCATION"
+  ]
+ },
+ "deeplinks": {
+  "schemes": 10,
+  "hosts": 20,
+  "top_schemes": [
+   [
+    "zalopay",
+    10
+   ],
+   [
+    "https",
+    6
+   ],
+   [
+    "zalopay-1",
+    3
+   ],
+   [
+    "zalopay.api.v2",
+    3
+   ],
+   [
+    "http",
+    1
+   ],
+   [
+    "tel",
+    1
+   ],
+   [
+    "sms",
+    1
+   ],
+   [
+    "zalopay-vnpay",
+    1
+   ],
+   [
+    "fbconnect",
+    1
+   ],
+   [
+    "tagmanager.c.vn.com.vng.zalopay",
+    1
+   ]
+  ],
+  "top_hosts": [
+   [
+    "go.zalopay.vn",
+    2
+   ],
+   [
+    "pay",
+    2
+   ],
+   [
+    "onelink.zalopay.vn",
+    1
+   ],
+   [
+    "kmzalopay.onelink.me",
+    1
+   ],
+   [
+    "km.zalopay.vn",
+    1
+   ],
+   [
+    "app",
+    1
+   ],
+   [
+    "post",
+    1
+   ],
+   [
+    "backtoapp",
+    1
+   ],
+   [
+    "backtologin",
+    1
+   ],
+   [
+    "zalopay.vn",
+    1
+   ],
+   [
+    "otp",
+    1
+   ],
+   [
+    "clearing",
+    1
+   ]
+  ]
+ },
+ "endpoints": {
+  "urls": 335,
+  "hosts": 229,
+  "api_paths": 288,
+  "zalopay": 50,
+  "alipay": 41,
+  "google": 35,
+  "tracker": 6,
+  "other": 98,
+  "host_list": [
+   "Dispatchers.IO",
+   "EF.COM",
+   "a.alipayobjects.com",
+   "abc.com",
+   "ac.mobilepayment.user.info",
+   "activityservice.alibaba.com",
+   "ad.doubleclick.net",
+   "admob-gmats.uc.r.appspot.com",
+   "alipay.com",
+   "alipay.intl.gmp.rpc.app",
+   "alipay.intl.gmp.rpc.app.info",
+   "alipay.worker.com",
+   "amcstxt.alipay.com",
+   "analytics.us.tiktok.com",
+   "android.app",
+   "android.com",
+   "android.net",
+   "android.nfc.tech",
+   "androidx.appcompat.app",
+   "androidx.core.app",
+   "androidx.test.core.app",
+   "aomedia.org",
+   "ap.mobileamcs.cloud",
+   "api.fpt.ai",
+   "api.trueid.vn",
+   "api.zalopay.vn",
+   "app-measurement.com",
+   "appsflyersdk.com",
+   "atlas.zalopay.vn",
+   "authentication.tpb.vn",
+   "bank-profile.zalopay.vn",
+   "bim.zalopay.vn",
+   "bnpl-gateway.zalopay.vn",
+   "camerax.core.io",
+   "campaign.zalopay.com.vn",
+   "cdn.marmot-cloud.com",
+   "client.dev",
+   "clients3.google.com",
+   "com.alibaba.ariver.app",
+   "com.alibaba.ariver.app.api.App",
+   "com.alibaba.ariver.app.api.point.app",
+   "com.alibaba.ariver.commonability.map.api.app",
+   "com.alibaba.ariver.jsapi.app",
+   "com.alibaba.griver.core.jsapi.app",
+   "com.alipay.sdk.app",
+   "com.android.org",
+   "com.chrome.dev",
+   "com.google.android.gms.org",
+   "com.google.android.wearable.app",
+   "com.google.app",
+   "com.google.common.io",
+   "com.samsung.android.game.cloudgame.dev",
+   "connectivitycheck.gstatic.com",
+   "cps.zalopay.com.vn",
+   "csi.gstatic.com",
+   "dala2zoom.zalopay.vn",
+   "dc-ob-gatewaylb-ext.vpbank.com.vn",
+   "de.zalando.lounge.dev",
+   "debug.firebase.analytics.app",
+   "demomb.vnpaytest.vn",
+   "design.vnpay.vn",
+   "developer.android.com",
+   "developer.apple.com",
+   "developers.facebook.com",
+   "developers.google.com",
+   "doubleclick.net",
+   "dpe.aacert.consumerapi.digital.visa.com",
+   "dpe.consumerapi.digital.visa.com",
+   "dpe.qa.consumerapi.digital.visa.com",
+   "dpe.sandbox.consumerapi.digital.visa.com",
+   "ebank.bidv.com.vn",
+   "ekyc-dev.fpt.ai",
+   "facebook.com",
+   "fin-installment.zalopay.vn",
+   "firebase-settings.crashlytics.com",
+   "firebase.google.com",
+   "firebaseinstallations.googleapis.com",
+   "firebaseremoteconfig.googleapis.com",
+   "g.co",
+   "gbraid.client.dev",
+   "github.com",
+   "gmp.openplatform.app",
+   "go.onelink.me",
+   "go.zalopay.vn",
+   "google-analytics.com",
+   "google.com",
+   "googleads.g.doubleclick.net",
+   "googleadservices.com",
+   "googlesyndication.com",
+   "googletng.dl.alipaydev.com",
+   "graph.zaloapp.com",
+   "group.v.calendar.google.com",
+   "gw.alicdn.com",
+   "gw.alipayobjects.com",
+   "gw.zamcs.com",
+   "hpmweb-pre.alipay.com",
+   "hpmweb.alipay.com",
+   "html.zapps.vn",
+   "icl.visa.com",
+   "id.zalo.me",
+   "id.zaloapp.com",
+   "imasdk.googleapis.com",
+   "imdap-sea.alipay.com",
+   "img.alicdn.com",
+   "img03.taobaocdn.com",
+   "imgs-ac-amcs.dl.alipaydev.com",
+   "imgs-ac-saas.dl.alipaydev.com",
+   "imgs-ac.alipay.com",
+   "imgs-sea-pre.alipay.com",
+   "imgs-sit-sg.dl.alipaydev.com",
+   "instagram.com",
+   "iopengw-280.sggz00b.dev.alipay.net",
+   "issuetracker.google.com",
+   "java.com",
+   "java.io",
+   "java.net",
+   "jp.ne.ibis.ibispaintx.app",
+   "km.zalopay.vn",
+   "kmzalopay.onelink.me",
+   "kotlinx.coroutines.io",
+   "libcore.io",
+   "log.zalopay.com.vn",
+   "loyalty.zalopay.vn",
+   "mdgw.alipay.com",
+   "mdgwdev.alipay.net",
+   "mdn.alipayobjects.com",
+   "miniprogram.alipay-eco.com",
+   "miniprogram.alipay.com",
+   "miniprogram.zalopay.vn",
+   "mmf-redemption.zalopay.vn",
+   "mmf-user.zalopay.vn",
+   "mnap-director.zalopay.vn",
+   "mobileads.google.com",
+   "mobilegw.alipay.com",
+   "mock.saas.mini-program.com",
+   "mp.zalopay.vn",
+   "mp3.zing.vn",
+   "n.zing.vn",
+   "news.zing.vn",
+   "ns.adobe.com",
+   "oauth.zaloapp.com",
+   "oauth2.zalopay.vn",
+   "onelink.zalopay.vn",
+   "open-sea.alipayplus.com",
+   "open.weixin.qq.com",
+   "openapi.zalopay.vn",
+   "openchannel.alipay.com",
+   "openssh.com",
+   "org.openjsse.net",
+   "os.alipayobjects.com",
+   "ossgw.alicdn.com",
+   "pad.trueid.ai",
+   "pagead2.googlesyndication.com",
+   "partners.zalopay.vn",
+   "play.google.com",
+   "privacy-sandbox.appsflyersdk.com",
+   "promotion.zalopay.vn",
+   "qrpay.zalopay.vn",
+   "rar-um.zalopay.vn",
+   "rdx.zalopay.vn",
+   "render-intl.alipay.com",
+   "render.alipay.com",
+   "rx2.io",
+   "saas.mini-program.com",
+   "sapi.zalopay.vn",
+   "scard.zalopay.vn",
+   "scdn.zalopay.com.vn",
+   "schemas.android.com",
+   "simg.zalopay.com.vn",
+   "social.zalopay.vn",
+   "srv.mp3.zing.vn",
+   "sse.zalopay.vn",
+   "ssl.google-analytics.com",
+   "sun.net",
+   "support.google.com",
+   "support.zalopay.vn",
+   "symbols.vn",
+   "t.alipayobjects.com",
+   "tfs.alipayobjects.com",
+   "tfsimg.alipay.com",
+   "ticket.zalopay.vn",
+   "token.zalopay.vn",
+   "tracking.zalopay.vn",
+   "trueid.net",
+   "type.googleapis.com",
+   "uat.tenpayglobal.com",
+   "universal.vneid.gov.vn",
+   "upload-img.zalopay.vn",
+   "upload.zalopay.com.vn",
+   "user-life-cycle-public.zalopay.vn",
+   "uudai.zalopay.vn",
+   "vcbdigibank.vietcombank.com.vn",
+   "visapay.as1.juspay.io",
+   "visionkit-pa.googleapis.com",
+   "vn.ai",
+   "vn.com",
+   "vngzalopay.freshdesk.com",
+   "vnpay.vn",
+   "web-ekyc-uat.fpt.ai",
+   "weremit-static.tenpay.com",
+   "www.android.com",
+   "www.bouncycastle.org",
+   "www.example.com",
+   "www.facebook.com",
+   "www.google-analytics.com",
+   "www.google.com",
+   "www.googleadservices.com",
+   "www.gotadi.com",
+   "www.tenpayglobal.com",
+   "www.tiki.vn",
+   "www.visa.com",
+   "www.w3.org",
+   "wwww.123phim.vn",
+   "xml.org",
+   "xmlpull.org",
+   "youtrack.jetbrains.com",
+   "yuque.antfin-inc.com",
+   "zalo.me",
+   "zaloapp.com",
+   "zalopay.com.vn",
+   "zalopay.vn",
+   "zlp-movie-api.zalopay.vn",
+   "zlp-ofp-emvco-gateway.zalopay.vn",
+   "zlp-ofp-integration-hub.zalopay.vn",
+   "zlp-ofp-qp-public-api.zalopay.vn",
+   "zlp-ofp-zpa-camera-config-be.zalopay.vn",
+   "zos.alipayobjects.com",
+   "zpm.zalopay.com.vn",
+   "ztevents.zaloapp.com"
+  ],
+  "zalopay_hosts": [
+   "api.zalopay.vn",
+   "atlas.zalopay.vn",
+   "bank-profile.zalopay.vn",
+   "bim.zalopay.vn",
+   "bnpl-gateway.zalopay.vn",
+   "campaign.zalopay.com.vn",
+   "cps.zalopay.com.vn",
+   "dala2zoom.zalopay.vn",
+   "fin-installment.zalopay.vn",
+   "go.zalopay.vn",
+   "km.zalopay.vn",
+   "kmzalopay.onelink.me",
+   "log.zalopay.com.vn",
+   "loyalty.zalopay.vn",
+   "miniprogram.zalopay.vn",
+   "mmf-redemption.zalopay.vn",
+   "mmf-user.zalopay.vn",
+   "mnap-director.zalopay.vn",
+   "mp.zalopay.vn",
+   "oauth2.zalopay.vn",
+   "onelink.zalopay.vn",
+   "openapi.zalopay.vn",
+   "partners.zalopay.vn",
+   "promotion.zalopay.vn",
+   "qrpay.zalopay.vn",
+   "rar-um.zalopay.vn",
+   "rdx.zalopay.vn",
+   "sapi.zalopay.vn",
+   "scard.zalopay.vn",
+   "scdn.zalopay.com.vn",
+   "simg.zalopay.com.vn",
+   "social.zalopay.vn",
+   "sse.zalopay.vn",
+   "support.zalopay.vn",
+   "ticket.zalopay.vn",
+   "token.zalopay.vn",
+   "tracking.zalopay.vn",
+   "upload-img.zalopay.vn",
+   "upload.zalopay.com.vn",
+   "user-life-cycle-public.zalopay.vn",
+   "uudai.zalopay.vn",
+   "vngzalopay.freshdesk.com",
+   "zalopay.com.vn",
+   "zalopay.vn",
+   "zlp-movie-api.zalopay.vn",
+   "zlp-ofp-emvco-gateway.zalopay.vn",
+   "zlp-ofp-integration-hub.zalopay.vn",
+   "zlp-ofp-qp-public-api.zalopay.vn",
+   "zlp-ofp-zpa-camera-config-be.zalopay.vn",
+   "zpm.zalopay.com.vn"
+  ],
+  "api_sample": [
+   "/api/app/v2/accounts/unlock",
+   "/api/inspector/v1.0/inspect",
+   "/api/v1/app_sdk/batch",
+   "/api/v1/app_sdk/ddl",
+   "/api/v1/app_sdk/monitor",
+   "/api/v1/private/orders/status",
+   "/api/v1/users/confirm-agreement",
+   "/gw/v1/session/init",
+   "/v1/api/extra/android/dfp",
+   "/v1/auth/getauthcode",
+   "/v1/auth/getpublicprofile",
+   "/v1/camera/config/all",
+   "/v1/camera/detect-qr",
+   "/v1/emvco/verify",
+   "/v1/external/consents",
+   "/v1/friendship/contacts",
+   "/v1/loyalty/cashier-earned-point",
+   "/v1/loyalty/point",
+   "/v1/merchant/approvepermission",
+   "/v1/merchant/approvepermissionandgetauthcode",
+   "/v1/merchant/checkconsentstatus",
+   "/v1/merchant/getaccesstoken",
+   "/v1/merchant/getauthcode",
+   "/v1/merchant/getpermissionconfig",
+   "/v1/merchant/getpublicprofile",
+   "/v1/merchant/getuserinfo",
+   "/v1/mt/flex-qrcode/generate",
+   "/v1/notification/setting/version",
+   "/v1/oauth/accessToken",
+   "/v1/quick-pay/update-user-info",
+   "/v1/travel/vnpay_taxi/condition",
+   "/v2/account/guest/login",
+   "/v2/account/history/recents",
+   "/v2/account/history/remove",
+   "/v2/account/landing/banner",
+   "/v2/account/logindevice",
+   "/v2/account/otp",
+   "/v2/account/otp-verification",
+   "/v2/account/otp/status",
+   "/v2/account/outapp-ticket/create",
+   "/v2/account/phone/forgot-pin-session",
+   "/v2/account/phone/recycle/status",
+   "/v2/account/phone/registration",
+   "/v2/account/phone/session",
+   "/v2/account/phone/status",
+   "/v2/account/session",
+   "/v2/account/zalo/phone-and-pin-setting",
+   "/v2/account/zalo/registration",
+   "/v2/account/zalo/session",
+   "/v2/account/zalo/status",
+   "/v2/agreement/confirm",
+   "/v2/bank-mapping-pci/web/check-bank-number-v2",
+   "/v2/bank-mapping-pci/web/check-internet-banking",
+   "/v2/bank-mapping-pci/web/check-open-bank-account",
+   "/v2/bank-mapping-pci/web/ekyc-infos",
+   "/v2/bank-mapping-pci/web/faq-config",
+   "/v2/bank-mapping-pci/web/link",
+   "/v2/bank-mapping-pci/web/link-status",
+   "/v2/bank-mapping-pci/web/register-online",
+   "/v2/bank-mapping-pci/web/relink-unconfirmed-bank"
+  ]
+ },
+ "hardening": {
+  "stub_app": "jwbmqnsll.xvndbxlk extends vn.com.vng.zalopay.AndroidApplication",
+  "encrypted_blobs": [
+   {
+    "path": "assets/fgcpkjvqe.dat",
+    "bytes": 776320,
+    "entropy": 8.0
+   },
+   {
+    "path": "assets/taibmcf.dat",
+    "bytes": 8307,
+    "entropy": 7.976
+   },
+   {
+    "path": "assets/bshield.dat",
+    "bytes": 929,
+    "entropy": 7.785
+   },
+   {
+    "path": "assets/trueidlib.so",
+    "bytes": 392,
+    "entropy": 7.501
+   }
+  ],
+  "shells": [
+   "libtaibmcf.so",
+   "libfgcpkjvqe.so"
+  ],
+  "jni_onload_only": [
+   "liba97d.so",
+   "libcrashlytics-handler.so",
+   "libcrashlytics.so",
+   "libfgcpkjvqe.so",
+   "libimagepipeline.so",
+   "libljsfrcwmw.so",
+   "libnative-filters.so",
+   "libnative-imagetranscoder.so",
+   "libohxbee.so",
+   "libsqlcipher.so",
+   "libtaibmcf.so"
+  ],
+  "anti_analysis": {
+   "root_markers": 23,
+   "frida_markers": 10,
+   "emulator_markers": 13,
+   "debug_markers": 4,
+   "samples": [
+    "/proc/self/maps",
+    "/proc/self/status",
+    "FRIDA",
+    "TracerPid",
+    "XPOSED",
+    "frida",
+    "gMain",
+    "magisk",
+    "substrate",
+    "xposed"
+   ]
+  },
+  "reflection": [
+   "DexFile",
+   "LoadedApk",
+   "dalvik/system/BaseDexClassLoader",
+   "dalvik/system/DexClassLoader",
+   "dalvik/system/InMemoryDexClassLoader",
+   "dalvik/system/PathClassLoader",
+   "dexfile",
+   "java/lang/reflect/Constructor",
+   "java/lang/reflect/Field",
+   "java/lang/reflect/Method",
+   "setAccessible"
+  ],
+  "dynamic_loading": [
+   "VFaceLib",
+   "barhopper_v3",
+   "fgcpkjvqe",
+   "ohxbee",
+   "picodet_ncnn",
+   "rive-android",
+   "security_lite",
+   "sqlcipher",
+   "taibmcf",
+   "trueidlib"
+  ]
+ },
+ "obfuscation": {
+  "top_packages": 60,
+  "short_packages": 655,
+  "short_package_classes": 33281,
+  "r8_note": "Single-letter package roots consistent with R8 full-mode + class repackaging"
+ },
+ "zp_modules": [
+  [
+   "bankbinding",
+   200
+  ],
+  [
+   "homev5",
+   120
+  ],
+  [
+   "data",
+   72
+  ],
+  [
+   "internal",
+   47
+  ],
+  [
+   "webapp",
+   46
+  ],
+  [
+   "miniapp",
+   39
+  ],
+  [
+   "alipay",
+   34
+  ],
+  [
+   "search",
+   30
+  ],
+  [
+   "network_monitor",
+   19
+  ],
+  [
+   "livenessdetection",
+   18
+  ],
+  [
+   "authentication",
+   17
+  ],
+  [
+   "webview",
+   16
+  ],
+  [
+   "domain",
+   14
+  ],
+  [
+   "user_profile",
+   14
+  ],
+  [
+   "cashin",
+   14
+  ],
+  [
+   "withdraw",
+   14
+  ],
+  [
+   "passport",
+   13
+  ],
+  [
+   "nfc",
+   13
+  ],
+  [
+   "quickpay_native",
+   13
+  ],
+  [
+   "app_widget",
+   12
+  ],
+  [
+   "ui",
+   12
+  ],
+  [
+   "loginv2",
+   12
+  ],
+  [
+   "pdfviewer",
+   10
+  ],
+  [
+   "protect",
+   10
+  ],
+  [
+   "feature",
+   9
+  ],
+  [
+   "account",
+   8
+  ],
+  [
+   "cashier",
+   8
+  ],
+  [
+   "receive_money",
+   8
+  ],
+  [
+   "logindevice",
+   7
+  ],
+  [
+   "core",
+   7
+  ],
+  [
+   "skewface",
+   6
+  ],
+  [
+   "clearing",
+   6
+  ],
+  [
+   "splashscreen",
+   5
+  ],
+  [
+   "user",
+   5
+  ],
+  [
+   "closeaccount",
+   5
+  ],
+  [
+   "network",
+   4
+  ],
+  [
+   "workers",
+   4
+  ],
+  [
+   "profile_tab_v2",
+   3
+  ],
+  [
+   "homev4",
+   3
+  ],
+  [
+   "navigation",
+   3
+  ]
+ ],
+ "mobile_stack": {
+  "react_native_bundle": "assets/android.1.zip:main.jsbundle (3.61 MB, 2022-03-08)",
+  "griver": "com.alibaba.griver/IAP Connect miniapp container",
+  "webapp_js": [
+   "webapp.js",
+   "jsbridge.js",
+   "internaljsbridge.js",
+   "android_jsbridge.js",
+   "workerjs.js"
+  ]
+ },
+ "trackers": {
+  "appsflyer": "k5nfUwyL6J6Fe6jvBbPcKG (dev key)",
+  "sentry": "o529616.ingest.sentry.io/5666380",
+  "firebase": true,
+  "facebook": true,
+  "google_ads": true,
+  "tiktok_analytics": true
+ },
+ "security_config": {
+  "cleartext_permitted": true,
+  "trust_anchors": "system",
+  "user_certs_in_debug_overrides": true,
+  "allow_backup": false,
+  "network_security_config": "res/xml/network_security_config.xml",
+  "storage_googleapis_domain_config": true
+ }
+}

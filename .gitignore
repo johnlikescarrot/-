@@ -1,0 +1,11 @@
+# --- analysis scratch / extracted artifacts (never committed) ---
+/work/
+/venv/
+node_modules/
+*.log
+# generated media intermediates
+video/frames/
+video/build/
+video/out/*.wav
+video/out/*.mp4
+__pycache__/

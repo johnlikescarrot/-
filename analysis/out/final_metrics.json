@@ -1,0 +1,516 @@
+{
+ "corpus": {
+  "dex_files": 19,
+  "strings": 243013,
+  "classes": 60671
+ },
+ "libraries": {
+  "IAP Connect": 1599
+ },
+ "crypto": {
+  "AES": 181,
+  "RSA": 106,
+  "EC/ECDSA": 121,
+  "Ed25519/X25519": 90,
+  "SHA-2": 48,
+  "SHA-3/Keccak": 133,
+  "HMAC": 25,
+  "GCM": 37,
+  "ChaCha20": 6,
+  "Post-quantum": 181,
+  "PBKDF2/Argon2": 10,
+  "Tink": 9
+ },
+ "components": {
+  "total": {
+   "activity": 200,
+   "service": 34,
+   "receiver": 22,
+   "provider": 9
+  },
+  "exported": {
+   "activity": 14,
+   "service": 6,
+   "receiver": 8
+  }
+ },
+ "deeplinks": {
+  "schemes": 10,
+  "hosts": 20,
+  "top_schemes": [
+   [
+    "zalopay",
+    10
+   ],
+   [
+    "https",
+    6
+   ],
+   [
+    "zalopay-1",
+    3
+   ],
+   [
+    "zalopay.api.v2",
+    3
+   ],
+   [
+    "http",
+    1
+   ],
+   [
+    "tel",
+    1
+   ],
+   [
+    "sms",
+    1
+   ],
+   [
+    "zalopay-vnpay",
+    1
+   ],
+   [
+    "fbconnect",
+    1
+   ],
+   [
+    "tagmanager.c.vn.com.vng.zalopay",
+    1
+   ]
+  ],
+  "top_hosts": [
+   [
+    "go.zalopay.vn",
+    2
+   ],
+   [
+    "pay",
+    2
+   ],
+   [
+    "onelink.zalopay.vn",
+    1
+   ],
+   [
+    "kmzalopay.onelink.me",
+    1
+   ],
+   [
+    "km.zalopay.vn",
+    1
+   ],
+   [
+    "app",
+    1
+   ],
+   [
+    "post",
+    1
+   ],
+   [
+    "backtoapp",
+    1
+   ],
+   [
+    "backtologin",
+    1
+   ],
+   [
+    "zalopay.vn",
+    1
+   ],
+   [
+    "otp",
+    1
+   ],
+   [
+    "clearing",
+    1
+   ]
+  ]
+ },
+ "locales": "ARSCParser.get_locales() missing 1 required positional argument: 'package_name'",
+ "permissions": {
+  "requested": 49,
+  "dangerous": [
+   "android.permission.READ_CONTACTS",
+   "android.permission.WRITE_CONTACTS",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.DETECT_SCREEN_CAPTURE",
+   "android.permission.READ_PHONE_STATE",
+   "android.permission.CAMERA",
+   "android.permission.NFC",
+   "android.permission.USE_BIOMETRIC",
+   "android.permission.RECORD_AUDIO",
+   "android.permission.ACCESS_FINE_LOCATION",
+   "android.permission.READ_MEDIA_AUDIO",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.WRITE_CALENDAR",
+   "android.permission.READ_CALENDAR",
+   "android.permission.ACCESS_COARSE_LOCATION"
+  ]
+ },
+ "native": {
+  "libVFaceLib.so": {
+   "size": 1963668,
+   "needed": [
+    "libandroid.so",
+    "liblog.so",
+    "libjnigraphics.so",
+    "libc.so",
+    "libz.so",
+    "libdl.so",
+    "libm.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 4,
+   "has_init_array": true
+  },
+  "liba97d.so": {
+   "size": 997572,
+   "needed": [
+    "libc.so",
+    "libstdc++.so",
+    "libm.so",
+    "libdl.so",
+    "liblog.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "libandroidx.graphics.path.so": {
+   "size": 7252,
+   "needed": [
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "libbarhopper_v3.so": {
+   "size": 3244440,
+   "needed": [
+    "libjnigraphics.so",
+    "liblog.so",
+    "libdl.so",
+    "libm.so",
+    "libc.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 8,
+   "has_init_array": true
+  },
+  "libc++_shared.so": {
+   "size": 872872,
+   "needed": [
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 0,
+   "has_init_array": true
+  },
+  "libcrashlytics-common.so": {
+   "size": 435732,
+   "needed": [
+    "liblog.so",
+    "libz.so",
+    "libdl.so",
+    "libc.so",
+    "libm.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "libcrashlytics-handler.so": {
+   "size": 87908,
+   "needed": [
+    "liblog.so",
+    "libz.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "libcrashlytics-trampoline.so": {
+   "size": 6912,
+   "needed": [
+    "liblog.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 0,
+   "has_init_array": true
+  },
+  "libcrashlytics.so": {
+   "size": 94540,
+   "needed": [
+    "liblog.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "libface_detector_v2_jni.so": {
+   "size": 5388224,
+   "needed": [
+    "libandroid.so",
+    "liblog.so",
+    "libjnigraphics.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 6,
+   "has_init_array": true
+  },
+  "libfgcpkjvqe.so": {
+   "size": 6524160,
+   "needed": [
+    "libz.so",
+    "liblog.so",
+    "libandroid.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 0,
+   "has_init_array": true
+  },
+  "libimage_processing_util_jni.so": {
+   "size": 20380,
+   "needed": [
+    "liblog.so",
+    "libandroid.so",
+    "libjnigraphics.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 6,
+   "has_init_array": false
+  },
+  "libimagepipeline.so": {
+   "size": 5876,
+   "needed": [
+    "liblog.so",
+    "libjnigraphics.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "libljsfrcwmw.so": {
+   "size": 600296,
+   "needed": [
+    "librcmefqonnx.so",
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "liblytcuhe.so": {
+   "size": 178628,
+   "needed": [
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "libmlkit_google_ocr_pipeline.so": {
+   "size": 6781940,
+   "needed": [
+    "liblog.so",
+    "libdl.so",
+    "libjnigraphics.so",
+    "libandroid.so",
+    "libz.so",
+    "libm.so",
+    "libEGL.so",
+    "libGLESv2.so",
+    "libc.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 33,
+   "has_init_array": true
+  },
+  "libmlkitcommonpipeline.so": {
+   "size": 6928228,
+   "needed": [
+    "liblog.so",
+    "libdl.so",
+    "libjnigraphics.so",
+    "libandroid.so",
+    "libz.so",
+    "libm.so",
+    "libEGL.so",
+    "libGLESv2.so",
+    "libc.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 38,
+   "has_init_array": true
+  },
+  "libnative-filters.so": {
+   "size": 12588,
+   "needed": [
+    "liblog.so",
+    "libjnigraphics.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "libnative-imagetranscoder.so": {
+   "size": 341072,
+   "needed": [
+    "liblog.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "libohxbee.so": {
+   "size": 155412,
+   "needed": [
+    "liblytcuhe.so",
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "libpicodet_ncnn.so": {
+   "size": 2992584,
+   "needed": [
+    "liblog.so",
+    "libandroid.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 8,
+   "has_init_array": true
+  },
+  "librcmefqonnx.so": {
+   "size": 178628,
+   "needed": [
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 0,
+   "has_init_array": false
+  },
+  "librive-android.so": {
+   "size": 3225636,
+   "needed": [
+    "liblog.so",
+    "libandroid.so",
+    "libEGL.so",
+    "libGLESv3.so",
+    "libjnigraphics.so",
+    "libm.so",
+    "libc++_shared.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 167,
+   "has_init_array": true
+  },
+  "libsecurity_lite.so": {
+   "size": 154840,
+   "needed": [
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": false,
+   "jni_exports": 4,
+   "has_init_array": false
+  },
+  "libsqlcipher.so": {
+   "size": 3555080,
+   "needed": [
+    "libdl.so",
+    "liblog.so",
+    "libc.so",
+    "libm.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 0,
+   "has_init_array": true
+  },
+  "libtaibmcf.so": {
+   "size": 12617752,
+   "needed": [
+    "libz.so",
+    "liblog.so",
+    "libandroid.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 0,
+   "has_init_array": true
+  },
+  "libtrueidlib.so": {
+   "size": 79904,
+   "needed": [
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "jni_onload": true,
+   "jni_exports": 10,
+   "has_init_array": false
+  }
+ },
+ "lib_versions": {
+  "kotlin": null
+ }
+}

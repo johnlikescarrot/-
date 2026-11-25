@@ -1,0 +1,4888 @@
+{
+ "libVFaceLib.so": {
+  "size": 1963668,
+  "sha256": "c6d04f368fe967fb1fd2666519f78cf8fa5fdc3a95a1ffbb0095370483592329",
+  "dynsym": 175,
+  "jni_exports": 4,
+  "jni": [
+   "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_getFaces",
+   "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_faceAlignment",
+   "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeInit",
+   "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeDestroy"
+  ],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.15
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.136
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 2816,
+    "entropy": 1.642
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 3344,
+    "size": 352,
+    "entropy": 1.567
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 3696,
+    "size": 96,
+    "entropy": 2.225
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 3792,
+    "size": 44,
+    "entropy": 3.489
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 3836,
+    "size": 1416,
+    "entropy": 1.476
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 5252,
+    "size": 2216,
+    "entropy": 4.556
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 7468,
+    "size": 93352,
+    "entropy": 3.721
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 100820,
+    "size": 24056,
+    "entropy": 5.767
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 124876,
+    "size": 1352,
+    "entropy": 4.15
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 126228,
+    "size": 86796,
+    "entropy": 5.535
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 213024,
+    "size": 140777,
+    "entropy": 5.671
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 353808,
+    "size": 1515836,
+    "entropy": 7.244
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 1869648,
+    "size": 2736,
+    "entropy": 3.967
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 1872384,
+    "size": 34292,
+    "entropy": 5.442
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 1906676,
+    "size": 8,
+    "entropy": 2.25
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 1906684,
+    "size": 56,
+    "entropy": 3.766
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 1906740,
+    "size": 256,
+    "entropy": 3.154
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 1906996,
+    "size": 596,
+    "entropy": 4.736
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 1907592,
+    "size": 688,
+    "entropy": 1.999
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 1908280,
+    "size": 8648,
+    "entropy": 2.246
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 1908280,
+    "size": 53368,
+    "entropy": 2.532
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 1961648,
+    "size": 649798,
+    "entropy": 4.525
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 1961648,
+    "size": 570,
+    "entropy": 5.1
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 1962218,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 1962278,
+    "size": 269,
+    "entropy": 4.275
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "liba97d.so": {
+  "size": 997572,
+  "sha256": "7fe7d830805a1e99f0d3661a99fdad20e5ea3f4998c65b3565fde4602ce2181e",
+  "dynsym": 149,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 372,
+    "size": 152,
+    "entropy": 1.171
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 524,
+    "size": 24,
+    "entropy": 3.117
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 548,
+    "size": 2400,
+    "entropy": 2.626
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 2948,
+    "size": 300,
+    "entropy": 1.571
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 3248,
+    "size": 64,
+    "entropy": 2.162
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 3312,
+    "size": 1208,
+    "entropy": 1.447
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 4520,
+    "size": 2308,
+    "entropy": 4.652
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 6828,
+    "size": 41088,
+    "entropy": 3.584
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 47916,
+    "size": 2976,
+    "entropy": 5.152
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 50892,
+    "size": 520,
+    "entropy": 3.91
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 51412,
+    "size": 1508,
+    "entropy": 3.247
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 52928,
+    "size": 1516,
+    "entropy": 6.935
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 65536,
+    "size": 878552,
+    "entropy": 6.336
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 944096,
+    "size": 1072,
+    "entropy": 3.855
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 950272,
+    "size": 36,
+    "entropy": 2.909
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 950308,
+    "size": 8,
+    "entropy": 1.299
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 950316,
+    "size": 216,
+    "entropy": 2.551
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 950532,
+    "size": 40,
+    "entropy": 0.669
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 950572,
+    "size": 272,
+    "entropy": 1.996
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 966656,
+    "size": 29680,
+    "entropy": 6.792
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 996336,
+    "size": 50204,
+    "entropy": 3.346
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 996336,
+    "size": 44,
+    "entropy": 4.276
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 996380,
+    "size": 229,
+    "entropy": 4.247
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libandroidx.graphics.path.so": {
+  "size": 7252,
+  "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b",
+  "dynsym": 9,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.171
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.247
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 160,
+    "entropy": 1.069
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 688,
+    "size": 20,
+    "entropy": 1.219
+   },
+   ".gnu.version_d": {
+    "type": "VERDEF",
+    "off": 708,
+    "size": 56,
+    "entropy": 2.135
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 764,
+    "size": 32,
+    "entropy": 1.686
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 796,
+    "size": 28,
+    "entropy": 1.984
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 824,
+    "size": 88,
+    "entropy": 0.953
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 912,
+    "size": 199,
+    "entropy": 4.885
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 1112,
+    "size": 392,
+    "entropy": 2.375
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 1504,
+    "size": 48,
+    "entropy": 1.87
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 1552,
+    "size": 56,
+    "entropy": 2.702
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 1608,
+    "size": 439,
+    "entropy": 4.706
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 2048,
+    "size": 3116,
+    "entropy": 6.679
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 5168,
+    "size": 144,
+    "entropy": 3.639
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 5312,
+    "size": 184,
+    "entropy": 3.099
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 5496,
+    "size": 8,
+    "entropy": 1.299
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 5504,
+    "size": 224,
+    "entropy": 2.908
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 5728,
+    "size": 4,
+    "entropy": -0.0
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 5732,
+    "size": 40,
+    "entropy": 1.284
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 5772,
+    "size": 8,
+    "entropy": 3.0
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 5772,
+    "size": 178,
+    "entropy": 5.103
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 5950,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 6010,
+    "size": 240,
+    "entropy": 4.264
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 1,
+  "sensitive_imports": []
+ },
+ "libbarhopper_v3.so": {
+  "size": 3244440,
+  "sha256": "b3c162c69e4906b816227ae116bfd8b9ff19cfdd58a3de0c9a9b110e030063e9",
+  "dynsym": 211,
+  "jni_exports": 8,
+  "jni": [
+   "Java_com_google_android_libraries_barhopper_BarhopperV3_closeNative@@VERS_1.0",
+   "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBufferNative@@VERS_1.0",
+   "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeNative@@VERS_1.0",
+   "Java_com_google_android_libraries_barhopper_BarhopperV3_createNativeWithClientOptions@@VERS_1.0",
+   "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBitmapNative@@VERS_1.0",
+   "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedBufferNative@@VERS_1.0",
+   "Java_com_google_android_libraries_barhopper_BarhopperV3_createNative@@VERS_1.0",
+   "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedNative@@VERS_1.0"
+  ],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.15
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 32,
+    "entropy": 3.962
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 524,
+    "size": 3392,
+    "entropy": 1.79
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 3916,
+    "size": 424,
+    "entropy": 1.819
+   },
+   ".gnu.version_d": {
+    "type": "VERDEF",
+    "off": 4340,
+    "size": 56,
+    "entropy": 2.334
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 4396,
+    "size": 96,
+    "entropy": 2.191
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 4492,
+    "size": 108,
+    "entropy": 4.654
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 4600,
+    "size": 1704,
+    "entropy": 1.509
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 6304,
+    "size": 2921,
+    "entropy": 4.653
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 9228,
+    "size": 47808,
+    "entropy": 3.642
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 57036,
+    "size": 85480,
+    "entropy": 5.722
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 142516,
+    "size": 1568,
+    "entropy": 4.192
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 144128,
+    "size": 192437,
+    "entropy": 5.845
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 336568,
+    "size": 15972,
+    "entropy": 4.735
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 352544,
+    "size": 2836456,
+    "entropy": 7.236
+   },
+   "malloc_hook": {
+    "type": "PROGBITS",
+    "off": 3189000,
+    "size": 284,
+    "entropy": 5.94
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 3189296,
+    "size": 3168,
+    "entropy": 3.986
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 3194880,
+    "size": 20508,
+    "entropy": 5.606
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 3215388,
+    "size": 24,
+    "entropy": 3.355
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 3215412,
+    "size": 56,
+    "entropy": 4.257
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 3215468,
+    "size": 256,
+    "entropy": 3.249
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 3215724,
+    "size": 3360,
+    "entropy": 5.838
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 3219084,
+    "size": 796,
+    "entropy": 1.507
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 3219880,
+    "size": 3672,
+    "entropy": 2.881
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 3219880,
+    "size": 22988,
+    "entropy": 2.787
+   },
+   "pb_defaults": {
+    "type": "PROGBITS",
+    "off": 3242868,
+    "size": 12,
+    "entropy": 1.585
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 3242880,
+    "size": 140077,
+    "entropy": 3.587
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 3242880,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 3242940,
+    "size": 299,
+    "entropy": 4.346
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 8,
+  "sensitive_imports": []
+ },
+ "libc++_shared.so": {
+  "size": 872872,
+  "sha256": "91b49f121b3120538faff020fcf535ade1d945e65ccd793fc0b815b5799bbdf0",
+  "dynsym": 2498,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 372,
+    "size": 152,
+    "entropy": 1.451
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 524,
+    "size": 36,
+    "entropy": 4.136
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 560,
+    "size": 39984,
+    "entropy": 4.474
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 40544,
+    "size": 4998,
+    "entropy": 1.167
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 45544,
+    "size": 64,
+    "entropy": 2.332
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 45608,
+    "size": 15796,
+    "entropy": 6.984
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 61404,
+    "size": 20000,
+    "entropy": 2.349
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 81404,
+    "size": 118901,
+    "entropy": 4.993
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 200308,
+    "size": 30472,
+    "entropy": 4.718
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 230780,
+    "size": 14808,
+    "entropy": 5.392
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 245588,
+    "size": 3784,
+    "entropy": 4.812
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 249372,
+    "size": 37132,
+    "entropy": 5.024
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 286504,
+    "size": 145141,
+    "entropy": 6.929
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 431648,
+    "size": 411396,
+    "entropy": 7.03
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 843056,
+    "size": 7600,
+    "entropy": 4.022
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 850656,
+    "size": 17228,
+    "entropy": 3.02
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 867884,
+    "size": 8,
+    "entropy": 2.25
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 867892,
+    "size": 4,
+    "entropy": 2.0
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 867896,
+    "size": 224,
+    "entropy": 3.406
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 868120,
+    "size": 768,
+    "entropy": 0.12
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 868888,
+    "size": 1904,
+    "entropy": 2.0
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 870792,
+    "size": 1656,
+    "entropy": 4.823
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 870792,
+    "size": 244,
+    "entropy": 3.734
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 871036,
+    "size": 22585,
+    "entropy": 4.338
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 871036,
+    "size": 387,
+    "entropy": 5.123
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 871423,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 871483,
+    "size": 269,
+    "entropy": 4.275
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libcrashlytics-common.so": {
+  "size": 435732,
+  "sha256": "4b8bcec5c0464d7b1741386e30eef9308c43d4ca8f57501ae6734fa48e1c55d2",
+  "dynsym": 180,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 276,
+    "size": 152,
+    "entropy": 1.171
+   },
+   ".note.crashpad.info": {
+    "type": "NOTE",
+    "off": 428,
+    "size": 28,
+    "entropy": 3.377
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 456,
+    "size": 36,
+    "entropy": 4.136
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 492,
+    "size": 2896,
+    "entropy": 1.584
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 3388,
+    "size": 362,
+    "entropy": 1.315
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 3752,
+    "size": 96,
+    "entropy": 2.225
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 3848,
+    "size": 40,
+    "entropy": 3.111
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 3888,
+    "size": 1456,
+    "entropy": 1.481
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 5344,
+    "size": 2001,
+    "entropy": 4.462
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 7348,
+    "size": 21768,
+    "entropy": 3.394
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 29116,
+    "size": 14504,
+    "entropy": 5.306
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 43620,
+    "size": 1352,
+    "entropy": 4.152
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 44976,
+    "size": 42592,
+    "entropy": 5.129
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 87568,
+    "size": 20640,
+    "entropy": 4.32
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 108208,
+    "size": 309104,
+    "entropy": 7.02
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 417312,
+    "size": 2736,
+    "entropy": 3.915
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 420048,
+    "size": 12660,
+    "entropy": 4.968
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 432708,
+    "size": 8,
+    "entropy": 2.25
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 432716,
+    "size": 72,
+    "entropy": 1.76
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 432788,
+    "size": 224,
+    "entropy": 3.142
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 433012,
+    "size": 452,
+    "entropy": 4.338
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 433464,
+    "size": 688,
+    "entropy": 1.999
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 434152,
+    "size": 2572,
+    "entropy": 3.938
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 434152,
+    "size": 177,
+    "entropy": 5.072
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 434329,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 434389,
+    "size": 262,
+    "entropy": 4.279
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libcrashlytics-handler.so": {
+  "size": 87908,
+  "sha256": "f58fca61975d2450e8bef2bc4b0ea68e5e181cdd0aff3693b04e469c1c6ccdb6",
+  "dynsym": 41,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 276,
+    "size": 152,
+    "entropy": 1.171
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 428,
+    "size": 36,
+    "entropy": 4.136
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 464,
+    "size": 672,
+    "entropy": 1.286
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 1136,
+    "size": 84,
+    "entropy": 1.52
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 1220,
+    "size": 64,
+    "entropy": 2.062
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 1284,
+    "size": 32,
+    "entropy": 2.704
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 1316,
+    "size": 344,
+    "entropy": 1.216
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 1660,
+    "size": 581,
+    "entropy": 4.542
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 2244,
+    "size": 8752,
+    "entropy": 3.243
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 10996,
+    "size": 3152,
+    "entropy": 4.389
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 14148,
+    "size": 296,
+    "entropy": 3.675
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 14444,
+    "size": 3640,
+    "entropy": 3.895
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 18084,
+    "size": 8346,
+    "entropy": 5.261
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 26432,
+    "size": 54216,
+    "entropy": 6.827
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 80656,
+    "size": 624,
+    "entropy": 3.792
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 81280,
+    "size": 4604,
+    "entropy": 3.96
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 85884,
+    "size": 8,
+    "entropy": 1.75
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 85892,
+    "size": 28,
+    "entropy": 1.72
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 85920,
+    "size": 224,
+    "entropy": 3.003
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 86144,
+    "size": 84,
+    "entropy": 3.37
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 86228,
+    "size": 160,
+    "entropy": 1.988
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 86388,
+    "size": 560,
+    "entropy": 5.013
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 86388,
+    "size": 177,
+    "entropy": 5.072
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 86565,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 86625,
+    "size": 242,
+    "entropy": 4.266
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libcrashlytics-trampoline.so": {
+  "size": 6912,
+  "sha256": "5366393c1292cfb5c8b49bf846e644f8ce24e683e8c0e97566124b29f89eb722",
+  "dynsym": 6,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".interp": {
+    "type": "PROGBITS",
+    "off": 308,
+    "size": 19,
+    "entropy": 3.577
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 328,
+    "size": 152,
+    "entropy": 1.171
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 480,
+    "size": 36,
+    "entropy": 4.081
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 516,
+    "size": 112,
+    "entropy": 0.737
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 628,
+    "size": 14,
+    "entropy": 1.611
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 644,
+    "size": 64,
+    "entropy": 1.857
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 708,
+    "size": 24,
+    "entropy": 0.9
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 732,
+    "size": 64,
+    "entropy": 0.887
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 796,
+    "size": 107,
+    "entropy": 4.193
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 904,
+    "size": 32,
+    "entropy": 1.618
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 936,
+    "size": 32,
+    "entropy": 1.503
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 968,
+    "size": 48,
+    "entropy": 2.646
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 1016,
+    "size": 89,
+    "entropy": 4.571
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 1108,
+    "size": 280,
+    "entropy": 5.572
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 1392,
+    "size": 128,
+    "entropy": 3.6
+   },
+   ".preinit_array": {
+    "type": "PREINIT_ARRAY",
+    "off": 1520,
+    "size": 8,
+    "entropy": 1.0
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 1528,
+    "size": 8,
+    "entropy": 1.0
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 1536,
+    "size": 8,
+    "entropy": 1.0
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 1544,
+    "size": 248,
+    "entropy": 2.733
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 1792,
+    "size": 16,
+    "entropy": 2.092
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 1808,
+    "size": 36,
+    "entropy": 1.252
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 1844,
+    "size": 4,
+    "entropy": 2.0
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 1844,
+    "size": 177,
+    "entropy": 5.072
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 2021,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".debug_loc": {
+    "type": "PROGBITS",
+    "off": 2081,
+    "size": 156,
+    "entropy": 1.987
+   },
+   ".debug_abbrev": {
+    "type": "PROGBITS",
+    "off": 2237,
+    "size": 254,
+    "entropy": 4.424
+   },
+   ".debug_info": {
+    "type": "PROGBITS",
+    "off": 2491,
+    "size": 390,
+    "entropy": 3.829
+   },
+   ".debug_str": {
+    "type": "PROGBITS",
+    "off": 2881,
+    "size": 584,
+    "entropy": 5.159
+   },
+   ".debug_frame": {
+    "type": "PROGBITS",
+    "off": 3468,
+    "size": 52,
+    "entropy": 3.299
+   },
+   ".debug_line": {
+    "type": "PROGBITS",
+    "off": 3520,
+    "size": 595,
+    "entropy": 5.319
+   },
+   ".symtab": {
+    "type": "SYMTAB",
+    "off": 4116,
+    "size": 736,
+    "entropy": 2.315
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 4852,
+    "size": 347,
+    "entropy": 4.334
+   },
+   ".strtab": {
+    "type": "STRTAB",
+    "off": 5199,
+    "size": 350,
+    "entropy": 4.648
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libcrashlytics.so": {
+  "size": 94540,
+  "sha256": "be0dedcd52a35e717ec0eeb832108e42c8d62552bc7005fef55ca233d0679260",
+  "dynsym": 54,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 276,
+    "size": 152,
+    "entropy": 1.171
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 428,
+    "size": 36,
+    "entropy": 4.192
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 464,
+    "size": 880,
+    "entropy": 1.641
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 1344,
+    "size": 110,
+    "entropy": 1.576
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 1456,
+    "size": 64,
+    "entropy": 2.105
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 1520,
+    "size": 72,
+    "entropy": 4.174
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 1592,
+    "size": 448,
+    "entropy": 1.265
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 2040,
+    "size": 779,
+    "entropy": 4.483
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 2820,
+    "size": 8848,
+    "entropy": 3.243
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 11668,
+    "size": 3280,
+    "entropy": 4.462
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 14948,
+    "size": 352,
+    "entropy": 3.769
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 15300,
+    "size": 9052,
+    "entropy": 5.281
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 24352,
+    "size": 3900,
+    "entropy": 3.946
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 28256,
+    "size": 58848,
+    "entropy": 6.836
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 87104,
+    "size": 736,
+    "entropy": 3.829
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 87840,
+    "size": 4636,
+    "entropy": 3.98
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 92476,
+    "size": 8,
+    "entropy": 1.75
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 92484,
+    "size": 28,
+    "entropy": 1.72
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 92512,
+    "size": 216,
+    "entropy": 3.08
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 92728,
+    "size": 104,
+    "entropy": 3.504
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 92832,
+    "size": 188,
+    "entropy": 1.992
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 93020,
+    "size": 576,
+    "entropy": 4.99
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 93020,
+    "size": 177,
+    "entropy": 5.072
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 93197,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 93257,
+    "size": 242,
+    "entropy": 4.266
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libface_detector_v2_jni.so": {
+  "size": 5388224,
+  "sha256": "21e48bd253e1c87edee42bce9a51048ac3082d681446d0d05a79c4ad0f5e187b",
+  "dynsym": 230,
+  "jni_exports": 6,
+  "jni": [
+   "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayJni@@VERS_1.0",
+   "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayMultiPlanesJni@@VERS_1.0",
+   "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_initDetectorJni@@VERS_1.0",
+   "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferJni@@VERS_1.0",
+   "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferMultiPlanesJni@@VERS_1.0",
+   "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_closeDetectorJni@@VERS_1.0"
+  ],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.15
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 32,
+    "entropy": 3.899
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 524,
+    "size": 3696,
+    "entropy": 1.766
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 4220,
+    "size": 462,
+    "entropy": 1.793
+   },
+   ".gnu.version_d": {
+    "type": "VERDEF",
+    "off": 4684,
+    "size": 56,
+    "entropy": 2.37
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 4740,
+    "size": 96,
+    "entropy": 2.191
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 4836,
+    "size": 80,
+    "entropy": 4.37
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 4916,
+    "size": 1856,
+    "entropy": 1.525
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 6772,
+    "size": 2988,
+    "entropy": 4.669
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 9760,
+    "size": 309480,
+    "entropy": 3.8
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 319240,
+    "size": 148880,
+    "entropy": 5.837
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 468120,
+    "size": 1744,
+    "entropy": 4.209
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 469888,
+    "size": 471121,
+    "entropy": 5.406
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 941012,
+    "size": 131596,
+    "entropy": 5.638
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 1072608,
+    "size": 4108928,
+    "entropy": 7.223
+   },
+   "malloc_hook": {
+    "type": "PROGBITS",
+    "off": 5181536,
+    "size": 284,
+    "entropy": 5.948
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 5181824,
+    "size": 3520,
+    "entropy": 3.937
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 5185536,
+    "size": 162356,
+    "entropy": 5.85
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 5347892,
+    "size": 24,
+    "entropy": 3.491
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 5347916,
+    "size": 224,
+    "entropy": 5.6
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 5348140,
+    "size": 264,
+    "entropy": 3.312
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 5348404,
+    "size": 9412,
+    "entropy": 5.974
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 5357816,
+    "size": 884,
+    "entropy": 2.0
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 5358700,
+    "size": 2964,
+    "entropy": 3.65
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 5358704,
+    "size": 27948,
+    "entropy": 2.928
+   },
+   "pb_defaults": {
+    "type": "PROGBITS",
+    "off": 5386652,
+    "size": 12,
+    "entropy": 1.585
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 5386664,
+    "size": 142877,
+    "entropy": 3.639
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 5386664,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 5386724,
+    "size": 299,
+    "entropy": 4.346
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 6,
+  "sensitive_imports": []
+ },
+ "libfgcpkjvqe.so": {
+  "size": 6524160,
+  "sha256": "5f72893936adfe712e8355c33c6f453c45396c7f58c8f05c9acc9c8f83c15b39",
+  "dynsym": 193,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.189
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.136
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 3104,
+    "entropy": 1.575
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 3632,
+    "size": 388,
+    "entropy": 1.34
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 4020,
+    "size": 64,
+    "entropy": 2.162
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 4084,
+    "size": 32,
+    "entropy": 2.704
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 4116,
+    "size": 1560,
+    "entropy": 1.493
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 5676,
+    "size": 2080,
+    "entropy": 4.529
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 7756,
+    "size": 79936,
+    "entropy": 3.703
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 87692,
+    "size": 49648,
+    "entropy": 6.115
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 137340,
+    "size": 1496,
+    "entropy": 4.181
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 138836,
+    "size": 286600,
+    "entropy": 5.981
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 425440,
+    "size": 206332,
+    "entropy": 7.279
+   },
+   ".ARM.extab__lcxx_override": {
+    "type": "PROGBITS",
+    "off": 631772,
+    "size": 24,
+    "entropy": 3.137
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 631808,
+    "size": 5820360,
+    "entropy": 6.139
+   },
+   "__lcxx_override": {
+    "type": "PROGBITS",
+    "off": 6452168,
+    "size": 212,
+    "entropy": 5.763
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 6452384,
+    "size": 3024,
+    "entropy": 3.979
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 6455408,
+    "size": 55724,
+    "entropy": 4.967
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 6511132,
+    "size": 8,
+    "entropy": 1.906
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 6511140,
+    "size": 136,
+    "entropy": 5.332
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 6511276,
+    "size": 248,
+    "entropy": 3.186
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 6511524,
+    "size": 3804,
+    "entropy": 5.486
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 6515328,
+    "size": 760,
+    "entropy": 1.999
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 6516088,
+    "size": 648,
+    "entropy": 2.704
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 6516088,
+    "size": 6180,
+    "entropy": 4.416
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 6522268,
+    "size": 29009,
+    "entropy": 4.264
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 6522268,
+    "size": 335,
+    "entropy": 5.171
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 6522603,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 6522663,
+    "size": 295,
+    "entropy": 4.332
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libimage_processing_util_jni.so": {
+  "size": 20380,
+  "sha256": "e48e356bbe1902ae9a66178a4a0141c993b82ee9f70dde52ad83e4af3eca984f",
+  "dynsym": 29,
+  "jni_exports": 6,
+  "jni": [
+   "Java_androidx_camera_core_ImageProcessingUtil_nativeCopyBetweenByteBufferAndBitmap@@VERS_1.0",
+   "Java_androidx_camera_core_ImageProcessingUtil_nativeShiftPixel@@VERS_1.0",
+   "Java_androidx_camera_core_ImageProcessingUtil_nativeWriteJpegToSurface@@VERS_1.0",
+   "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToABGR@@VERS_1.0",
+   "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToBitmap@@VERS_1.0",
+   "Java_androidx_camera_core_ImageProcessingUtil_nativeRotateYUV@@VERS_1.0"
+  ],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.171
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.136
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 480,
+    "entropy": 1.724
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 1008,
+    "size": 60,
+    "entropy": 1.725
+   },
+   ".gnu.version_d": {
+    "type": "VERDEF",
+    "off": 1068,
+    "size": 56,
+    "entropy": 2.37
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 1124,
+    "size": 32,
+    "entropy": 1.906
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 1156,
+    "size": 60,
+    "entropy": 4.044
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 1216,
+    "size": 248,
+    "entropy": 1.155
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 1464,
+    "size": 898,
+    "entropy": 4.794
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 2364,
+    "size": 296,
+    "entropy": 2.373
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 2660,
+    "size": 432,
+    "entropy": 4.036
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 3092,
+    "size": 176,
+    "entropy": 3.081
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 3268,
+    "size": 444,
+    "entropy": 3.242
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 3712,
+    "size": 208,
+    "entropy": 5.149
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 3920,
+    "size": 14036,
+    "entropy": 6.969
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 17968,
+    "size": 384,
+    "entropy": 3.716
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 18352,
+    "size": 4,
+    "entropy": 1.5
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 18356,
+    "size": 8,
+    "entropy": 1.75
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 18364,
+    "size": 248,
+    "entropy": 3.034
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 18612,
+    "size": 136,
+    "entropy": 3.657
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 18748,
+    "size": 100,
+    "entropy": 1.43
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 18848,
+    "size": 4,
+    "entropy": 2.0
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 18848,
+    "size": 178,
+    "entropy": 5.103
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 19026,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 19086,
+    "size": 251,
+    "entropy": 4.288
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 6,
+  "sensitive_imports": []
+ },
+ "libimagepipeline.so": {
+  "size": 5876,
+  "sha256": "2049c770f0dcca26b20d211f6113ae02eb7c3af48c784c28fd24c320d70d7cc9",
+  "dynsym": 11,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.214
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 24,
+    "entropy": 3.201
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 516,
+    "size": 192,
+    "entropy": 1.036
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 708,
+    "size": 24,
+    "entropy": 1.451
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 732,
+    "size": 32,
+    "entropy": 1.686
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 764,
+    "size": 28,
+    "entropy": 1.984
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 792,
+    "size": 104,
+    "entropy": 0.987
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 896,
+    "size": 252,
+    "entropy": 4.577
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 1148,
+    "size": 224,
+    "entropy": 2.268
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 1372,
+    "size": 160,
+    "entropy": 2.857
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 1532,
+    "size": 72,
+    "entropy": 2.792
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 1604,
+    "size": 144,
+    "entropy": 3.153
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 1748,
+    "size": 734,
+    "entropy": 4.844
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 2484,
+    "size": 1220,
+    "entropy": 6.21
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 3712,
+    "size": 176,
+    "entropy": 3.637
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 3888,
+    "size": 4,
+    "entropy": 1.5
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 3892,
+    "size": 8,
+    "entropy": 1.75
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 3900,
+    "size": 224,
+    "entropy": 2.762
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 4124,
+    "size": 4,
+    "entropy": -0.0
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 4128,
+    "size": 48,
+    "entropy": 1.329
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 4176,
+    "size": 4016,
+    "entropy": 3.861
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 4176,
+    "size": 96,
+    "entropy": 3.17
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 4272,
+    "size": 12,
+    "entropy": 3.418
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 4272,
+    "size": 204,
+    "entropy": 5.113
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 4476,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 4536,
+    "size": 257,
+    "entropy": 4.28
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libljsfrcwmw.so": {
+  "size": 600296,
+  "sha256": "12a389806114a18ff57d341e740108ebfe9b07d39abe2775a652f193cb99ac84",
+  "dynsym": 18,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.115
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.004
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 304,
+    "entropy": 1.076
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 832,
+    "size": 38,
+    "entropy": 1.402
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 872,
+    "size": 32,
+    "entropy": 1.686
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 904,
+    "size": 28,
+    "entropy": 1.984
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 932,
+    "size": 160,
+    "entropy": 1.071
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 1092,
+    "size": 291,
+    "entropy": 4.655
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 1384,
+    "size": 10664,
+    "entropy": 3.417
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 12048,
+    "size": 736,
+    "entropy": 4.879
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 12784,
+    "size": 120,
+    "entropy": 3.334
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 12904,
+    "size": 347304,
+    "entropy": 5.898
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 360208,
+    "size": 408,
+    "entropy": 2.995
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 360616,
+    "size": 222180,
+    "entropy": 6.378
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 582800,
+    "size": 272,
+    "entropy": 3.731
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 583072,
+    "size": 15436,
+    "entropy": 4.644
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 598508,
+    "size": 8,
+    "entropy": 2.25
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 598516,
+    "size": 224,
+    "entropy": 2.953
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 598740,
+    "size": 8,
+    "entropy": -0.0
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 598748,
+    "size": 72,
+    "entropy": 1.945
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 598820,
+    "size": 44900,
+    "entropy": 3.904
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 598820,
+    "size": 177,
+    "entropy": 5.072
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 598997,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 599057,
+    "size": 236,
+    "entropy": 4.28
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "liblytcuhe.so": {
+  "size": 178628,
+  "sha256": "a8e59c1d4922f6bce9814667c1566bb1a2ea39700fe312625a29a7cbe6ef4629",
+  "dynsym": 338,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.115
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.247
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 5424,
+    "entropy": 3.684
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 5952,
+    "size": 678,
+    "entropy": 1.265
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 6632,
+    "size": 96,
+    "entropy": 2.225
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 6728,
+    "size": 2040,
+    "entropy": 6.169
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 8768,
+    "size": 2720,
+    "entropy": 1.718
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 11488,
+    "size": 5450,
+    "entropy": 4.934
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 16940,
+    "size": 13184,
+    "entropy": 3.767
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 30124,
+    "size": 3776,
+    "entropy": 4.818
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 33900,
+    "size": 536,
+    "entropy": 3.962
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 34436,
+    "size": 4756,
+    "entropy": 4.279
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 39192,
+    "size": 9375,
+    "entropy": 5.29
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 48568,
+    "size": 119752,
+    "entropy": 6.828
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 168320,
+    "size": 1104,
+    "entropy": 3.854
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 169424,
+    "size": 6020,
+    "entropy": 3.506
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 175444,
+    "size": 8,
+    "entropy": 1.75
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 175452,
+    "size": 216,
+    "entropy": 3.159
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 175668,
+    "size": 108,
+    "entropy": 0.615
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 175776,
+    "size": 280,
+    "entropy": 1.996
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 176056,
+    "size": 1052,
+    "entropy": 4.999
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 177108,
+    "size": 637,
+    "entropy": 4.872
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 177108,
+    "size": 177,
+    "entropy": 5.072
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 177285,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 177345,
+    "size": 242,
+    "entropy": 4.266
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libmlkit_google_ocr_pipeline.so": {
+  "size": 6781940,
+  "sha256": "06b9e2f587e401c6446aa0db344bb31b622957a2d04aa4eac03cde8b3a6ed78a",
+  "dynsym": 367,
+  "jni_exports": 33,
+  "jni": [
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_stop@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceState@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveProcessContext@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initialize@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameBufferReleaseCallback@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeIsolationCallback@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processBitmap@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveFaces@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_disableSubpipeline@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameManager@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_waitUntilIdle@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveRgbFrame@@VERS_1.0"
+  ],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.15
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 32,
+    "entropy": 3.899
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 524,
+    "size": 5888,
+    "entropy": 1.999
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 6412,
+    "size": 736,
+    "entropy": 1.89
+   },
+   ".gnu.version_d": {
+    "type": "VERDEF",
+    "off": 7148,
+    "size": 56,
+    "entropy": 2.26
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 7204,
+    "size": 96,
+    "entropy": 2.191
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 7300,
+    "size": 264,
+    "entropy": 6.041
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 7564,
+    "size": 2952,
+    "entropy": 1.752
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 10516,
+    "size": 7825,
+    "entropy": 4.636
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 18344,
+    "size": 423112,
+    "entropy": 3.907
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 441456,
+    "size": 218120,
+    "entropy": 5.73
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 659576,
+    "size": 2480,
+    "entropy": 4.378
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 662080,
+    "size": 1205680,
+    "entropy": 6.188
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 1867760,
+    "size": 22660,
+    "entropy": 4.69
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 1890432,
+    "size": 4406008,
+    "entropy": 7.185
+   },
+   "google_init_cold": {
+    "type": "PROGBITS",
+    "off": 6296440,
+    "size": 364,
+    "entropy": 6.182
+   },
+   "malloc_hook": {
+    "type": "PROGBITS",
+    "off": 6296804,
+    "size": 284,
+    "entropy": 6.008
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 6297088,
+    "size": 4992,
+    "entropy": 3.966
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 6303744,
+    "size": 279112,
+    "entropy": 5.156
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 6582856,
+    "size": 24,
+    "entropy": 3.491
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 6582880,
+    "size": 1160,
+    "entropy": 6.003
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 6584040,
+    "size": 288,
+    "entropy": 3.273
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 6584328,
+    "size": 15376,
+    "entropy": 6.069
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 6599704,
+    "size": 1252,
+    "entropy": 1.495
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 6600956,
+    "size": 1796,
+    "entropy": 3.777
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 6600960,
+    "size": 179284,
+    "entropy": 3.503
+   },
+   "filewrapper_toc": {
+    "type": "PROGBITS",
+    "off": 6780244,
+    "size": 12,
+    "entropy": 2.855
+   },
+   "pb_defaults": {
+    "type": "PROGBITS",
+    "off": 6780256,
+    "size": 12,
+    "entropy": 1.585
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 6780268,
+    "size": 168601,
+    "entropy": 3.626
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 6780268,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 6780328,
+    "size": 332,
+    "entropy": 4.396
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 33,
+  "sensitive_imports": [
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_waitUntilIdle"
+  ]
+ },
+ "libmlkitcommonpipeline.so": {
+  "size": 6928228,
+  "sha256": "9ab65cd53ed8334fc0fcd09fe3c442f2a9bb6653e1392bc0ff4a1c1381aba7db",
+  "dynsym": 367,
+  "jni_exports": 38,
+  "jni": [
+   "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetNNAPIInfo@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeResultsCallback@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveRgbFrame@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_experimentalRotateResults@@VERS_1.0",
+   "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeNotifyProcessLifecycleState@@VERS_1.0",
+   "Java_org_tensorflow_lite_acceleration_validation_entrypoint@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameManager@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processBitmap@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processYuvFrame@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceState@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveAudioData@@VERS_1.0",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_getAnalyticsLogs@@VERS_1.0"
+  ],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.15
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 32,
+    "entropy": 3.962
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 524,
+    "size": 5888,
+    "entropy": 2.053
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 6412,
+    "size": 736,
+    "entropy": 1.892
+   },
+   ".gnu.version_d": {
+    "type": "VERDEF",
+    "off": 7148,
+    "size": 56,
+    "entropy": 2.334
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 7204,
+    "size": 96,
+    "entropy": 2.191
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 7300,
+    "size": 288,
+    "entropy": 6.382
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 7588,
+    "size": 2952,
+    "entropy": 1.752
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 10540,
+    "size": 7916,
+    "entropy": 4.633
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 18456,
+    "size": 304536,
+    "entropy": 3.845
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 322992,
+    "size": 232040,
+    "entropy": 5.824
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 555032,
+    "size": 2536,
+    "entropy": 4.419
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 557568,
+    "size": 686144,
+    "entropy": 5.824
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 1243712,
+    "size": 89504,
+    "entropy": 5.66
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 1333216,
+    "size": 5275620,
+    "entropy": 7.213
+   },
+   "google_init_cold": {
+    "type": "PROGBITS",
+    "off": 6608836,
+    "size": 364,
+    "entropy": 6.167
+   },
+   "malloc_hook": {
+    "type": "PROGBITS",
+    "off": 6609200,
+    "size": 284,
+    "entropy": 5.961
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 6609488,
+    "size": 5104,
+    "entropy": 4.022
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 6615040,
+    "size": 151620,
+    "entropy": 5.799
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 6766660,
+    "size": 24,
+    "entropy": 3.355
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 6766684,
+    "size": 796,
+    "entropy": 5.983
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 6767480,
+    "size": 288,
+    "entropy": 3.305
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 6767768,
+    "size": 15768,
+    "entropy": 6.026
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 6783536,
+    "size": 1280,
+    "entropy": 2.0
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 6784816,
+    "size": 2256,
+    "entropy": 2.753
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 6784816,
+    "size": 141716,
+    "entropy": 3.449
+   },
+   "filewrapper_toc": {
+    "type": "PROGBITS",
+    "off": 6926532,
+    "size": 12,
+    "entropy": 2.626
+   },
+   "pb_defaults": {
+    "type": "PROGBITS",
+    "off": 6926544,
+    "size": 12,
+    "entropy": 1.585
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 6926556,
+    "size": 751525,
+    "entropy": 3.651
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 6926556,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 6926616,
+    "size": 332,
+    "entropy": 4.396
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 38,
+  "sensitive_imports": [
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_waitUntilIdle"
+  ]
+ },
+ "libnative-filters.so": {
+  "size": 12588,
+  "sha256": "b8a2da1df4f33eb83adf9596e5e68c9633067a2826385e495ed47f02497b5995",
+  "dynsym": 14,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.214
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 24,
+    "entropy": 3.117
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 516,
+    "size": 240,
+    "entropy": 1.024
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 756,
+    "size": 30,
+    "entropy": 1.602
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 788,
+    "size": 64,
+    "entropy": 1.857
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 852,
+    "size": 28,
+    "entropy": 1.984
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 880,
+    "size": 128,
+    "entropy": 1.028
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 1008,
+    "size": 295,
+    "entropy": 4.602
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 1304,
+    "size": 152,
+    "entropy": 2.284
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 1456,
+    "size": 192,
+    "entropy": 3.255
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 1648,
+    "size": 96,
+    "entropy": 2.896
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 1744,
+    "size": 188,
+    "entropy": 3.367
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 1932,
+    "size": 2175,
+    "entropy": 4.692
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 4112,
+    "size": 6288,
+    "entropy": 6.818
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 10400,
+    "size": 224,
+    "entropy": 3.659
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 10624,
+    "size": 4,
+    "entropy": 1.5
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 10628,
+    "size": 8,
+    "entropy": 1.406
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 10636,
+    "size": 224,
+    "entropy": 2.787
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 10860,
+    "size": 4,
+    "entropy": -0.0
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 10864,
+    "size": 60,
+    "entropy": 1.371
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 10924,
+    "size": 1364,
+    "entropy": 4.165
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 10924,
+    "size": 60,
+    "entropy": 3.162
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 10984,
+    "size": 12,
+    "entropy": 3.418
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 10984,
+    "size": 204,
+    "entropy": 5.113
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 11188,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 11248,
+    "size": 257,
+    "entropy": 4.28
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libnative-imagetranscoder.so": {
+  "size": 341072,
+  "sha256": "43280a8f3f33529d3558b1f3283fec9b855ca28e7b8d7883ae7a64762f148dad",
+  "dynsym": 352,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.214
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 24,
+    "entropy": 3.201
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 516,
+    "size": 5648,
+    "entropy": 3.66
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 6164,
+    "size": 706,
+    "entropy": 1.285
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 6872,
+    "size": 64,
+    "entropy": 2.162
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 6936,
+    "size": 2020,
+    "entropy": 6.115
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 8956,
+    "size": 2832,
+    "entropy": 1.735
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 11788,
+    "size": 5675,
+    "entropy": 4.934
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 17464,
+    "size": 14880,
+    "entropy": 3.763
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 32344,
+    "size": 7160,
+    "entropy": 5.182
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 39504,
+    "size": 696,
+    "entropy": 4.01
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 40200,
+    "size": 9628,
+    "entropy": 4.029
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 49840,
+    "size": 19927,
+    "entropy": 5.825
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 69768,
+    "size": 259328,
+    "entropy": 7.117
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 329104,
+    "size": 1424,
+    "entropy": 3.87
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 330528,
+    "size": 7916,
+    "entropy": 4.23
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 338444,
+    "size": 8,
+    "entropy": 2.25
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 338452,
+    "size": 216,
+    "entropy": 3.157
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 338668,
+    "size": 356,
+    "entropy": 3.986
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 339024,
+    "size": 360,
+    "entropy": 1.514
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 339384,
+    "size": 584,
+    "entropy": 5.335
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 339384,
+    "size": 84,
+    "entropy": 2.502
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 339468,
+    "size": 573,
+    "entropy": 5.127
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 339468,
+    "size": 204,
+    "entropy": 5.113
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 339672,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 339732,
+    "size": 257,
+    "entropy": 4.28
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libohxbee.so": {
+  "size": 155412,
+  "sha256": "2d54a2aa85d81dbfef1e8d01726b1ffd74004ead9d15d861e2323f54ffc01a74",
+  "dynsym": 18,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.115
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.192
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 304,
+    "entropy": 1.076
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 832,
+    "size": 38,
+    "entropy": 1.402
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 872,
+    "size": 32,
+    "entropy": 1.686
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 904,
+    "size": 28,
+    "entropy": 1.984
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 932,
+    "size": 160,
+    "entropy": 1.071
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 1092,
+    "size": 288,
+    "entropy": 4.606
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 1380,
+    "size": 2832,
+    "entropy": 3.217
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 4212,
+    "size": 104,
+    "entropy": 3.568
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 4316,
+    "size": 120,
+    "entropy": 3.337
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 4436,
+    "size": 24,
+    "entropy": 2.752
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 4460,
+    "size": 87804,
+    "entropy": 5.602
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 92264,
+    "size": 56960,
+    "entropy": 6.255
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 149232,
+    "size": 272,
+    "entropy": 3.715
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 149504,
+    "size": 4120,
+    "entropy": 4.588
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 153624,
+    "size": 8,
+    "entropy": 1.906
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 153632,
+    "size": 224,
+    "entropy": 2.889
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 153856,
+    "size": 8,
+    "entropy": -0.0
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 153864,
+    "size": 72,
+    "entropy": 1.945
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 153936,
+    "size": 10608,
+    "entropy": 3.825
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 153936,
+    "size": 177,
+    "entropy": 5.072
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 154113,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 154173,
+    "size": 236,
+    "entropy": 4.28
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libpicodet_ncnn.so": {
+  "size": 2992584,
+  "sha256": "442367c2e7f3e5b5f70ed8164f375d6306720eb1d3ddba4fdd936e569214230e",
+  "dynsym": 2823,
+  "jni_exports": 8,
+  "jni": [
+   "Java_com_example_picodet_PicoDetJNI_picodetConfigure2",
+   "Java_com_example_picodet_PicoDetJNI_picodetCreate",
+   "Java_com_example_picodet_PicoDetJNI_picodetDestroy",
+   "Java_com_example_picodet_PicoDetJNI_picodetConfigure",
+   "Java_com_example_picodet_PicoDetJNI_picodetInputWidth",
+   "Java_com_example_picodet_PicoDetJNI_detect",
+   "Java_com_example_picodet_PicoDetJNI_picodetInputHeight",
+   "Java_com_example_picodet_PicoDetJNI_detectYuv"
+  ],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 372,
+    "size": 152,
+    "entropy": 1.15
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 524,
+    "size": 36,
+    "entropy": 4.247
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 560,
+    "size": 45184,
+    "entropy": 4.414
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 45744,
+    "size": 5648,
+    "entropy": 1.192
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 51392,
+    "size": 96,
+    "entropy": 2.308
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 51488,
+    "size": 17352,
+    "entropy": 7.131
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 68840,
+    "size": 69139,
+    "entropy": 5.166
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 137980,
+    "size": 43992,
+    "entropy": 4.135
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 181972,
+    "size": 28200,
+    "entropy": 5.661
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 210172,
+    "size": 6728,
+    "entropy": 5.004
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 216900,
+    "size": 41512,
+    "entropy": 3.825
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 258416,
+    "size": 46736,
+    "entropy": 5.509
+   },
+   ".eh_frame_hdr": {
+    "type": "PROGBITS",
+    "off": 305152,
+    "size": 20,
+    "entropy": 2.461
+   },
+   ".eh_frame": {
+    "type": "PROGBITS",
+    "off": 305172,
+    "size": 44,
+    "entropy": 2.343
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 305216,
+    "size": 2634856,
+    "entropy": 7.207
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 2940080,
+    "size": 13488,
+    "entropy": 4.054
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 2953568,
+    "size": 25324,
+    "entropy": 3.994
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 2978892,
+    "size": 8,
+    "entropy": 2.25
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 2978900,
+    "size": 12,
+    "entropy": 3.022
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 2978912,
+    "size": 232,
+    "entropy": 3.341
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 2979144,
+    "size": 2356,
+    "entropy": 0.283
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 2981500,
+    "size": 3376,
+    "entropy": 2.0
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 2984876,
+    "size": 1108,
+    "entropy": 1.258
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 2984960,
+    "size": 5540,
+    "entropy": 3.831
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 2990500,
+    "size": 6333,
+    "entropy": 4.511
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 2990500,
+    "size": 570,
+    "entropy": 5.119
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 2991070,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 2991130,
+    "size": 293,
+    "entropy": 4.313
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "librcmefqonnx.so": {
+  "size": 178628,
+  "sha256": "9120dd02a8d94659ea178c0b73b4d02954915d8432c74b04a05d1583f69099af",
+  "dynsym": 338,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.115
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.192
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 5424,
+    "entropy": 3.693
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 5952,
+    "size": 678,
+    "entropy": 1.265
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 6632,
+    "size": 96,
+    "entropy": 2.225
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 6728,
+    "size": 2040,
+    "entropy": 6.164
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 8768,
+    "size": 2720,
+    "entropy": 1.718
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 11488,
+    "size": 5450,
+    "entropy": 4.934
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 16940,
+    "size": 13184,
+    "entropy": 3.766
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 30124,
+    "size": 3776,
+    "entropy": 4.818
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 33900,
+    "size": 536,
+    "entropy": 3.974
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 34436,
+    "size": 4756,
+    "entropy": 4.279
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 39192,
+    "size": 9375,
+    "entropy": 5.29
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 48568,
+    "size": 119752,
+    "entropy": 6.828
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 168320,
+    "size": 1104,
+    "entropy": 3.854
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 169424,
+    "size": 6020,
+    "entropy": 3.506
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 175444,
+    "size": 8,
+    "entropy": 1.75
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 175452,
+    "size": 216,
+    "entropy": 3.146
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 175668,
+    "size": 108,
+    "entropy": 0.615
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 175776,
+    "size": 280,
+    "entropy": 1.996
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 176056,
+    "size": 1052,
+    "entropy": 4.999
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 177108,
+    "size": 637,
+    "entropy": 4.872
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 177108,
+    "size": 177,
+    "entropy": 5.072
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 177285,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 177345,
+    "size": 242,
+    "entropy": 4.266
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "librive-android.so": {
+  "size": 3225636,
+  "sha256": "ab2dd352553cafb7b7f1a686df8bf33c814b977e7c1cdf1e65d8c99c5cb0e782",
+  "dynsym": 6224,
+  "jni_exports": 167,
+  "jni": [
+   "Java_app_rive_runtime_kotlin_core_FileAsset_cppUniqueFilename",
+   "Java_app_rive_runtime_kotlin_core_Artboard_cppGetArtboardWidth",
+   "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppWorkEnd",
+   "Java_app_rive_runtime_kotlin_core_ImageAsset_cppGetRenderImage",
+   "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByIndex",
+   "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineNameByIndex",
+   "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppPointerMove",
+   "Java_app_rive_runtime_kotlin_core_ViewModelNumberProperty_cppGetValue",
+   "Java_app_rive_runtime_kotlin_core_File_cppViewModelByIndex",
+   "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppSetTime",
+   "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByName",
+   "Java_app_rive_runtime_kotlin_core_SMIInput_cppIsTrigger"
+  ],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.232
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.192
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 99600,
+    "entropy": 4.645
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 100128,
+    "size": 12450,
+    "entropy": 1.071
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 112580,
+    "size": 96,
+    "entropy": 2.476
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 112676,
+    "size": 46140,
+    "entropy": 6.541
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 158816,
+    "size": 49808,
+    "entropy": 2.532
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 208624,
+    "size": 280061,
+    "entropy": 5.173
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 488688,
+    "size": 105992,
+    "entropy": 4.578
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 594680,
+    "size": 47760,
+    "entropy": 5.825
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 642440,
+    "size": 11384,
+    "entropy": 5.137
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 653824,
+    "size": 230351,
+    "entropy": 6.502
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 884176,
+    "size": 41104,
+    "entropy": 3.256
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 925280,
+    "size": 2209180,
+    "entropy": 6.196
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 3134464,
+    "size": 22800,
+    "entropy": 4.086
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 3157264,
+    "size": 57420,
+    "entropy": 3.651
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 3214684,
+    "size": 8,
+    "entropy": 2.25
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 3214692,
+    "size": 32,
+    "entropy": 3.39
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 3214724,
+    "size": 272,
+    "entropy": 3.526
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 3214996,
+    "size": 1640,
+    "entropy": -0.0
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 3216636,
+    "size": 5704,
+    "entropy": 1.499
+   },
+   ".relro_padding": {
+    "type": "NOBITS",
+    "off": 3222340,
+    "size": 1212,
+    "entropy": 2.485
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 3222344,
+    "size": 1636,
+    "entropy": 2.821
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 3223980,
+    "size": 1056,
+    "entropy": 4.619
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 3223980,
+    "size": 204,
+    "entropy": 5.155
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 3224184,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 3224244,
+    "size": 269,
+    "entropy": 4.275
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libsecurity_lite.so": {
+  "size": 154840,
+  "sha256": "75c5d69621c5dce9a64e4466ae011ba5a22e16b35246b39941883d424df6c786",
+  "dynsym": 132,
+  "jni_exports": 4,
+  "jni": [
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest"
+  ],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 308,
+    "size": 152,
+    "entropy": 1.189
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 460,
+    "size": 36,
+    "entropy": 4.247
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 496,
+    "size": 2128,
+    "entropy": 3.49
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 2624,
+    "size": 1983,
+    "entropy": 5.025
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 4608,
+    "size": 1064,
+    "entropy": 1.434
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 5672,
+    "size": 266,
+    "entropy": 1.381
+   },
+   ".gnu.version_d": {
+    "type": "VERDEF",
+    "off": 5940,
+    "size": 28,
+    "entropy": 1.841
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 5968,
+    "size": 64,
+    "entropy": 1.965
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 6032,
+    "size": 3592,
+    "entropy": 3.432
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 9624,
+    "size": 400,
+    "entropy": 3.764
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 10024,
+    "size": 620,
+    "entropy": 4.006
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 10644,
+    "size": 120148,
+    "entropy": 7.332
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 130792,
+    "size": 1144,
+    "entropy": 4.833
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 131936,
+    "size": 1188,
+    "entropy": 3.2
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 133136,
+    "size": 11840,
+    "entropy": 7.909
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 145184,
+    "size": 8,
+    "entropy": 1.75
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 145192,
+    "size": 1424,
+    "entropy": 4.299
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 146616,
+    "size": 264,
+    "entropy": 2.661
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 146880,
+    "size": 576,
+    "entropy": 0.984
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 147456,
+    "size": 5512,
+    "entropy": 7.135
+   },
+   ".llvm": {
+    "type": "PROGBITS",
+    "off": 152968,
+    "size": 54,
+    "entropy": 4.71
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 153022,
+    "size": 10905,
+    "entropy": 4.221
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 153022,
+    "size": 382,
+    "entropy": 5.16
+   },
+   ".note.gnu.gold-version": {
+    "type": "NOTE",
+    "off": 153404,
+    "size": 28,
+    "entropy": 2.946
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 153432,
+    "size": 52,
+    "entropy": 4.563
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 153484,
+    "size": 273,
+    "entropy": 4.292
+   }
+  },
+  "high_entropy_sections": [
+   ".rodata"
+  ],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libsqlcipher.so": {
+  "size": 3555080,
+  "sha256": "819c11750f332a8ca0d88f251d0d22d664f559b8ed10f7a4c61cc90be49f3f44",
+  "dynsym": 656,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.171
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.136
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 10512,
+    "entropy": 3.659
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 11040,
+    "size": 1314,
+    "entropy": 1.434
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 12356,
+    "size": 96,
+    "entropy": 2.225
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 12452,
+    "size": 3440,
+    "entropy": 6.736
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 15892,
+    "size": 5264,
+    "entropy": 1.974
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 21156,
+    "size": 14104,
+    "entropy": 4.792
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 35260,
+    "size": 157520,
+    "entropy": 3.865
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 192780,
+    "size": 25880,
+    "entropy": 5.479
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 218660,
+    "size": 3160,
+    "entropy": 4.588
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 221820,
+    "size": 31880,
+    "entropy": 3.443
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 253952,
+    "size": 565833,
+    "entropy": 7.288
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 819840,
+    "size": 2532016,
+    "entropy": 6.568
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 3351856,
+    "size": 6352,
+    "entropy": 3.995
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 3358208,
+    "size": 180504,
+    "entropy": 3.904
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 3538712,
+    "size": 12,
+    "entropy": 2.855
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 3538724,
+    "size": 4,
+    "entropy": 2.0
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 3538728,
+    "size": 232,
+    "entropy": 3.25
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 3538960,
+    "size": 1448,
+    "entropy": 5.018
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 3540408,
+    "size": 1592,
+    "entropy": 2.0
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 3542000,
+    "size": 11348,
+    "entropy": 3.599
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 3553348,
+    "size": 7024,
+    "entropy": 4.238
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 3553348,
+    "size": 335,
+    "entropy": 5.109
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 3553683,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 3553743,
+    "size": 254,
+    "entropy": 4.263
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libtaibmcf.so": {
+  "size": 12617752,
+  "sha256": "0fba080d0364fc0f7a8f61611551ef3b231c8ad0c95113446916099f8112d650",
+  "dynsym": 197,
+  "jni_exports": 0,
+  "jni": [],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.214
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.192
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 3168,
+    "entropy": 1.582
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 3696,
+    "size": 396,
+    "entropy": 1.335
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 4092,
+    "size": 64,
+    "entropy": 2.13
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 4156,
+    "size": 32,
+    "entropy": 2.704
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 4188,
+    "size": 1592,
+    "entropy": 1.497
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 5780,
+    "size": 2127,
+    "entropy": 4.517
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 7908,
+    "size": 87376,
+    "entropy": 3.712
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 95284,
+    "size": 64888,
+    "entropy": 6.06
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 160172,
+    "size": 1376,
+    "entropy": 4.118
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 161548,
+    "size": 268620,
+    "entropy": 5.879
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 430168,
+    "size": 211692,
+    "entropy": 7.27
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 641888,
+    "size": 11900864,
+    "entropy": 6.039
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 12542752,
+    "size": 2784,
+    "entropy": 3.965
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 12545536,
+    "size": 56812,
+    "entropy": 5.006
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 12602348,
+    "size": 8,
+    "entropy": 2.25
+   },
+   ".init_array": {
+    "type": "INIT_ARRAY",
+    "off": 12602356,
+    "size": 520,
+    "entropy": 6.182
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 12602876,
+    "size": 248,
+    "entropy": 3.18
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 12603124,
+    "size": 6228,
+    "entropy": 5.891
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 12609352,
+    "size": 700,
+    "entropy": 1.999
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 12610056,
+    "size": 6096,
+    "entropy": 4.409
+   },
+   ".bss": {
+    "type": "NOBITS",
+    "off": 12616152,
+    "size": 28265,
+    "entropy": 4.063
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 12616152,
+    "size": 204,
+    "entropy": 5.164
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 12616356,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 12616416,
+    "size": 254,
+    "entropy": 4.263
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ },
+ "libtrueidlib.so": {
+  "size": 79904,
+  "sha256": "e1a98166f637ebebf814a375ec147461229ff18314dd669ebbf07eabefdfdd06",
+  "dynsym": 80,
+  "jni_exports": 10,
+  "jni": [
+   "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQReg",
+   "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey",
+   "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultAuthCeremony",
+   "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckIntegrity",
+   "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_getNonce",
+   "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultVerifyTxDigest",
+   "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultRegisterCeremony",
+   "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQAuth",
+   "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_genSignature",
+   "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckDebugger"
+  ],
+  "sections": {
+   "NULL": {
+    "type": "00000000",
+    "off": 0,
+    "size": 0,
+    "entropy": 0.0
+   },
+   ".note.android.ident": {
+    "type": "NOTE",
+    "off": 340,
+    "size": 152,
+    "entropy": 1.171
+   },
+   ".note.gnu.build-id": {
+    "type": "NOTE",
+    "off": 492,
+    "size": 36,
+    "entropy": 4.192
+   },
+   ".dynsym": {
+    "type": "DYNSYM",
+    "off": 528,
+    "size": 1296,
+    "entropy": 2.568
+   },
+   ".gnu.version": {
+    "type": "VERSYM",
+    "off": 1824,
+    "size": 162,
+    "entropy": 1.494
+   },
+   ".gnu.version_r": {
+    "type": "VERNEED",
+    "off": 1988,
+    "size": 32,
+    "entropy": 1.93
+   },
+   ".gnu.hash": {
+    "type": "GNU_HASH",
+    "off": 2020,
+    "size": 280,
+    "entropy": 6.032
+   },
+   ".hash": {
+    "type": "HASH",
+    "off": 2300,
+    "size": 656,
+    "entropy": 1.335
+   },
+   ".dynstr": {
+    "type": "STRTAB",
+    "off": 2956,
+    "size": 1608,
+    "entropy": 4.783
+   },
+   ".rel.dyn": {
+    "type": "REL",
+    "off": 4564,
+    "size": 1376,
+    "entropy": 2.974
+   },
+   ".ARM.exidx": {
+    "type": "ARM_EXIDX",
+    "off": 5940,
+    "size": 1080,
+    "entropy": 4.24
+   },
+   ".rel.plt": {
+    "type": "REL",
+    "off": 7020,
+    "size": 464,
+    "entropy": 3.8
+   },
+   ".ARM.extab": {
+    "type": "PROGBITS",
+    "off": 7484,
+    "size": 1352,
+    "entropy": 3.354
+   },
+   ".rodata": {
+    "type": "PROGBITS",
+    "off": 8840,
+    "size": 4800,
+    "entropy": 6.174
+   },
+   ".text": {
+    "type": "PROGBITS",
+    "off": 13648,
+    "size": 62660,
+    "entropy": 7.042
+   },
+   ".plt": {
+    "type": "PROGBITS",
+    "off": 76320,
+    "size": 960,
+    "entropy": 3.816
+   },
+   ".data.rel.ro": {
+    "type": "PROGBITS",
+    "off": 77280,
+    "size": 580,
+    "entropy": 3.785
+   },
+   ".fini_array": {
+    "type": "FINI_ARRAY",
+    "off": 77860,
+    "size": 8,
+    "entropy": 1.75
+   },
+   ".dynamic": {
+    "type": "DYNAMIC",
+    "off": 77868,
+    "size": 216,
+    "entropy": 3.034
+   },
+   ".got": {
+    "type": "PROGBITS",
+    "off": 78084,
+    "size": 4,
+    "entropy": -0.0
+   },
+   ".got.plt": {
+    "type": "PROGBITS",
+    "off": 78088,
+    "size": 244,
+    "entropy": 1.995
+   },
+   ".data": {
+    "type": "PROGBITS",
+    "off": 78332,
+    "size": 96,
+    "entropy": 3.443
+   },
+   ".comment": {
+    "type": "PROGBITS",
+    "off": 78428,
+    "size": 177,
+    "entropy": 5.072
+   },
+   ".ARM.attributes": {
+    "type": "ARM_ATTRIBUTES",
+    "off": 78605,
+    "size": 60,
+    "entropy": 4.587
+   },
+   ".shstrtab": {
+    "type": "STRTAB",
+    "off": 78665,
+    "size": 237,
+    "entropy": 4.267
+   }
+  },
+  "high_entropy_sections": [],
+  "imports": 0,
+  "sensitive_imports": []
+ }
+}

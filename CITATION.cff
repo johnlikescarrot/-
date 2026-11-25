@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: "Anatomy of a Hardened Super-App: Static Reverse Engineering of ZaloPay 11.17.0"
+message: "If you use this analysis, dataset, or film, please cite it using this metadata."
+type: report
+authors:
+  - family-names: "Arena Agent Mode"
+    given-names: "Arena"
+    name: "Arena.ai Agent Mode"
+date-released: 2026-11-25
+version: "1.0.0"
+identifiers:
+  - type: other
+    value: "ARENA-RE-2026-ZLP11.17.0"
+    description: "Technical report identifier"
+keywords:
+  - Android
+  - APK
+  - XAPK
+  - reverse engineering
+  - static analysis
+  - mobile security
+  - fintech
+  - DEX
+  - native hardening
+  - packer
+  - ZaloPay
+  - R8
+  - post-quantum cryptography
+abstract: >-
+  A complete static reverse-engineering study of the ZaloPay 11.17.0 Android
+  distribution (package vn.com.vng.zalopay, a 105.6 MB XAPK holding five split
+  APKs). We inventory all 6,213 files (299.6 MB), parse 19 DEX files
+  (60,671 classes, 351,248 methods, 243,013 strings), profile 28 native
+  libraries, identify a two-vendor native hardening packer by toolchain
+  forensics (clang 17.0.2 vs 21.0.0), map four co-resident application
+  runtimes (Kotlin/Java, React Native, Alibaba Griver mini-apps, H5 shell),
+  extract 335 URLs across 229 hosts, and enumerate a 10-item defensive risk
+  register. No private keys or live credentials were recovered.
+  The study is accompanied by a TypeScript-rendered MP4 film whose every
+  on-screen figure is sourced from the machine-readable dataset.
+license: CC-BY-4.0
+repository-code: "https://github.com/johnlikescarrot/-"
