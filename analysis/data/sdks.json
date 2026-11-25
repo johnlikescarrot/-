@@ -1,0 +1,809 @@
+{
+  "catalogue_size": 46,
+  "present_count": 28,
+  "sdks": [
+    {
+      "id": "androidx",
+      "name": "AndroidX (Jetpack)",
+      "vendor": "Google",
+      "cat": "framework",
+      "present": true,
+      "prefix_hits": {
+        "androidx.": 3951
+      },
+      "artifact_hits": [
+        "androidx."
+      ],
+      "native_hits": [],
+      "namespace_classes": 3951
+    },
+    {
+      "id": "compose",
+      "name": "Jetpack Compose",
+      "vendor": "Google",
+      "cat": "ui",
+      "present": true,
+      "prefix_hits": {
+        "androidx.compose.": 495
+      },
+      "artifact_hits": [
+        "androidx.compose."
+      ],
+      "native_hits": [],
+      "namespace_classes": 495
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "vendor": "Google",
+      "cat": "backend",
+      "present": true,
+      "prefix_hits": {
+        "com.google.firebase.": 221
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 221
+    },
+    {
+      "id": "crashlytics",
+      "name": "Firebase Crashlytics",
+      "vendor": "Google",
+      "cat": "telemetry",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "gms",
+      "name": "Google Play services",
+      "vendor": "Google",
+      "cat": "backend",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "mlkit",
+      "name": "ML Kit (vision, barcode, face)",
+      "vendor": "Google",
+      "cat": "ml",
+      "present": true,
+      "prefix_hits": {
+        "com.google.mlkit.": 50
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 50
+    },
+    {
+      "id": "tink",
+      "name": "Google Tink (crypto)",
+      "vendor": "Google",
+      "cat": "crypto",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "protobuf-javalite",
+      "name": "Protocol Buffers",
+      "vendor": "Google",
+      "cat": "serialisation",
+      "present": true,
+      "prefix_hits": {
+        "com.google.protobuf.": 209
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 209
+    },
+    {
+      "id": "gson",
+      "name": "Gson",
+      "vendor": "Google",
+      "cat": "serialisation",
+      "present": true,
+      "prefix_hits": {
+        "com.google.gson.": 207
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 207
+    },
+    {
+      "id": "exoplayer",
+      "name": "ExoPlayer / Media3",
+      "vendor": "Google",
+      "cat": "media",
+      "present": true,
+      "prefix_hits": {
+        "androidx.media3.": 1163
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 1163
+    },
+    {
+      "id": "billing",
+      "name": "Google Play Billing 8.3.0",
+      "vendor": "Google",
+      "cat": "commerce",
+      "present": true,
+      "prefix_hits": {
+        "com.android.billingclient.": 88
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 88
+    },
+    {
+      "id": "fb-ads",
+      "name": "Meta Audience Network",
+      "vendor": "Meta",
+      "cat": "ads",
+      "present": true,
+      "prefix_hits": {
+        "com.facebook.ads.": 3254
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 3254
+    },
+    {
+      "id": "fb-sdk",
+      "name": "Facebook SDK (Login/Share/Graph)",
+      "vendor": "Meta",
+      "cat": "social",
+      "present": true,
+      "prefix_hits": {
+        "com.facebook.appevents.": 23,
+        "com.facebook.login.": 23,
+        "com.facebook.internal.": 62
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 108
+    },
+    {
+      "id": "soloader",
+      "name": "SoLoader",
+      "vendor": "Meta",
+      "cat": "native",
+      "present": true,
+      "prefix_hits": {
+        "com.facebook.soloader.": 40
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 40
+    },
+    {
+      "id": "griver",
+      "name": "Alibaba Griver (mini-program runtime)",
+      "vendor": "Alibaba",
+      "cat": "miniapp",
+      "present": true,
+      "prefix_hits": {
+        "com.alibaba.griver.": 2228
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 2228
+    },
+    {
+      "id": "ariver",
+      "name": "Alibaba Ariver (mini-program kernel)",
+      "vendor": "Alibaba",
+      "cat": "miniapp",
+      "present": true,
+      "prefix_hits": {
+        "com.alibaba.ariver.": 2415
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 2415
+    },
+    {
+      "id": "mpp-client",
+      "name": "Alipay mPaaS / MPP client",
+      "vendor": "Ant Group",
+      "cat": "miniapp",
+      "present": true,
+      "prefix_hits": {
+        "com.iap.android.": 269,
+        "com.alipay.": 465
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 734
+    },
+    {
+      "id": "afu",
+      "name": "Alipay AFU (H5 container)",
+      "vendor": "Ant Group",
+      "cat": "webview",
+      "present": true,
+      "prefix_hits": {
+        "com.alibaba.fastjson.": 76
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 76
+    },
+    {
+      "id": "visa-cbp",
+      "name": "Visa Cardholder Benefits / CBP (NFC)",
+      "vendor": "Visa",
+      "cat": "payments",
+      "present": true,
+      "prefix_hits": {
+        "com.visa.cbp.": 900,
+        "com.visa.": 1370
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 2270
+    },
+    {
+      "id": "napas",
+      "name": "NAPAS / VietQR linkage",
+      "vendor": "NAPAS",
+      "cat": "payments",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "trueid",
+      "name": "VNPT / TrueID eKYC",
+      "vendor": "VNG / partner",
+      "cat": "identity",
+      "present": true,
+      "prefix_hits": {
+        "vn.ai.trueid.": 622
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 622
+    },
+    {
+      "id": "vface",
+      "name": "VFaceLib — on-device face liveness",
+      "vendor": "VNG",
+      "cat": "identity",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "barhopper",
+      "name": "Barhopper v3 — barcode/QR scanner",
+      "vendor": "Google",
+      "cat": "ml",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "bouncycastle",
+      "name": "Bouncy Castle (incl. PQC)",
+      "vendor": "Legion of the Bouncy Castle",
+      "cat": "crypto",
+      "present": true,
+      "prefix_hits": {
+        "org.bouncycastle.": 6069
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 6069
+    },
+    {
+      "id": "conscrypt",
+      "name": "Conscrypt TLS",
+      "vendor": "Google",
+      "cat": "crypto",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "okhttp",
+      "name": "OkHttp 3.x",
+      "vendor": "Square",
+      "cat": "network",
+      "present": true,
+      "prefix_hits": {
+        "okhttp3.": 223,
+        "okio.": 107
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 330
+    },
+    {
+      "id": "retrofit",
+      "name": "Retrofit 2",
+      "vendor": "Square",
+      "cat": "network",
+      "present": true,
+      "prefix_hits": {
+        "retrofit2.": 113
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 113
+    },
+    {
+      "id": "moshi",
+      "name": "Moshi",
+      "vendor": "Square",
+      "cat": "serialisation",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "coil",
+      "name": "Coil image loader",
+      "vendor": "Coil",
+      "cat": "ui",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "glide",
+      "name": "Glide",
+      "vendor": "Google",
+      "cat": "ui",
+      "present": true,
+      "prefix_hits": {
+        "com.bumptech.glide.": 213
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 213
+    },
+    {
+      "id": "chucker",
+      "name": "Chucker HTTP inspector",
+      "vendor": "ChuckerTeams",
+      "cat": "debug",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "adjust",
+      "name": "Adjust (attribution)",
+      "vendor": "Adjust GmbH",
+      "cat": "attribution",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "appsflyer",
+      "name": "AppsFlyer (attribution)",
+      "vendor": "AppsFlyer",
+      "cat": "attribution",
+      "present": true,
+      "prefix_hits": {
+        "com.appsflyer.": 418
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 418
+    },
+    {
+      "id": "facebook-appevents",
+      "name": "Facebook App Events",
+      "vendor": "Meta",
+      "cat": "analytics",
+      "present": true,
+      "prefix_hits": {
+        "com.facebook.appevents.": 23
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 23
+    },
+    {
+      "id": "adjust-facebook",
+      "name": "Facebook → Adjust bridge",
+      "vendor": "mixed",
+      "cat": "attribution",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin stdlib + coroutines",
+      "vendor": "JetBrains",
+      "cat": "runtime",
+      "present": true,
+      "prefix_hits": {
+        "kotlin.": 286
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 286
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger / Hilt DI",
+      "vendor": "Google",
+      "cat": "runtime",
+      "present": true,
+      "prefix_hits": {},
+      "artifact_hits": [
+        "dagger"
+      ],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "rxjava",
+      "name": "RxJava 2/3",
+      "vendor": "Netflix/ReactiveX",
+      "cat": "runtime",
+      "present": true,
+      "prefix_hits": {
+        "io.reactivex.": 251
+      },
+      "artifact_hits": [
+        "rxjava"
+      ],
+      "native_hits": [],
+      "namespace_classes": 251
+    },
+    {
+      "id": "room",
+      "name": "Room / SQLite",
+      "vendor": "Google",
+      "cat": "storage",
+      "present": true,
+      "prefix_hits": {},
+      "artifact_hits": [
+        "room"
+      ],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "realm",
+      "name": "Realm DB",
+      "vendor": "MongoDB",
+      "cat": "storage",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "lottie",
+      "name": "Lottie animations",
+      "vendor": "Airbnb",
+      "cat": "ui",
+      "present": true,
+      "prefix_hits": {
+        "com.airbnb.lottie.": 173
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 173
+    },
+    {
+      "id": "zalo-sdk",
+      "name": "Zalo SDK / Zalo login",
+      "vendor": "VNG",
+      "cat": "social",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "smartotp",
+      "name": "SmartOTP (SoftOTP)",
+      "vendor": "VNG",
+      "cat": "auth",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "safetynet",
+      "name": "Play Integrity / SafetyNet",
+      "vendor": "Google",
+      "cat": "attestation",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "rootbeer",
+      "name": "RootBeer root detection",
+      "vendor": "scottyab",
+      "cat": "anti-tamper",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    },
+    {
+      "id": "emulator-detect",
+      "name": "Emulator/root heuristics",
+      "vendor": "in-house",
+      "cat": "anti-tamper",
+      "present": false,
+      "prefix_hits": {},
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 0
+    }
+  ],
+  "trackers": [
+    {
+      "id": "fb-ads",
+      "name": "Meta Audience Network",
+      "vendor": "Meta",
+      "cat": "ads",
+      "present": true,
+      "prefix_hits": {
+        "com.facebook.ads.": 3254
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 3254
+    },
+    {
+      "id": "appsflyer",
+      "name": "AppsFlyer (attribution)",
+      "vendor": "AppsFlyer",
+      "cat": "attribution",
+      "present": true,
+      "prefix_hits": {
+        "com.appsflyer.": 418
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 418
+    },
+    {
+      "id": "facebook-appevents",
+      "name": "Facebook App Events",
+      "vendor": "Meta",
+      "cat": "analytics",
+      "present": true,
+      "prefix_hits": {
+        "com.facebook.appevents.": 23
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 23
+    }
+  ],
+  "tracker_categories": [
+    "ads",
+    "analytics",
+    "attribution"
+  ],
+  "artifacts": {
+    "version_modules": [
+      "androidx.activity_activity",
+      "androidx.activity_activity-compose",
+      "androidx.activity_activity-ktx",
+      "androidx.annotation_annotation-experimental",
+      "androidx.appcompat_appcompat",
+      "androidx.appcompat_appcompat-resources",
+      "androidx.arch.core_core-runtime",
+      "androidx.asynclayoutinflater_asynclayoutinflater",
+      "androidx.autofill_autofill",
+      "androidx.biometric_biometric",
+      "androidx.browser_browser",
+      "androidx.camera_camera-camera2",
+      "androidx.camera_camera-core",
+      "androidx.camera_camera-extensions",
+      "androidx.camera_camera-lifecycle",
+      "androidx.camera_camera-video",
+      "androidx.camera_camera-view",
+      "androidx.cardview_cardview",
+      "androidx.compose.animation_animation",
+      "androidx.compose.animation_animation-core",
+      "androidx.compose.foundation_foundation",
+      "androidx.compose.foundation_foundation-layout",
+      "androidx.compose.material_material",
+      "androidx.compose.material_material-icons-core",
+      "androidx.compose.material_material-ripple",
+      "androidx.compose.runtime_runtime",
+      "androidx.compose.runtime_runtime-livedata",
+      "androidx.compose.runtime_runtime-saveable",
+      "androidx.compose.ui_ui",
+      "androidx.compose.ui_ui-geometry",
+      "androidx.compose.ui_ui-graphics",
+      "androidx.compose.ui_ui-text",
+      "androidx.compose.ui_ui-tooling",
+      "androidx.compose.ui_ui-tooling-data",
+      "androidx.compose.ui_ui-tooling-preview",
+      "androidx.compose.ui_ui-unit",
+      "androidx.compose.ui_ui-util",
+      "androidx.constraintlayout_constraintlayout-compose",
+      "androidx.coordinatorlayout_coordinatorlayout",
+      "androidx.core_core",
+      "androidx.core_core-ktx",
+      "androidx.core_core-remoteviews",
+      "androidx.core_core-splashscreen",
+      "androidx.core_core-viewtree",
+      "androidx.cursoradapter_cursoradapter",
+      "androidx.customview_customview",
+      "androidx.customview_customview-poolingcontainer",
+      "androidx.databinding_baseAdapters",
+      "androidx.databinding_databindingKtx",
+      "androidx.databinding_library",
+      "androidx.databinding_viewbinding",
+      "androidx.datastore_datastore",
+      "androidx.datastore_datastore-preferences",
+      "androidx.documentfile_documentfile",
+      "androidx.drawerlayout_drawerlayout",
+      "androidx.dynamicanimation_dynamicanimation",
+      "androidx.dynamicanimation_dynamicanimation-ktx",
+      "androidx.emoji2_emoji2",
+      "androidx.emoji2_emoji2-views-helper",
+      "androidx.exifinterface_exifinterface",
+      "androidx.fragment_fragment",
+      "androidx.fragment_fragment-ktx",
+      "androidx.glance_glance",
+      "androidx.glance_glance-appwidget",
+      "androidx.graphics_graphics-path",
+      "androidx.interpolator_interpolator",
+      "androidx.legacy_legacy-support-core-ui",
+      "androidx.legacy_legacy-support-core-utils",
+      "androidx.legacy_legacy-support-v4",
+      "androidx.lifecycle_lifecycle-extensions",
+      "androidx.lifecycle_lifecycle-livedata",
+      "androidx.lifecycle_lifecycle-livedata-core",
+      "androidx.lifecycle_lifecycle-livedata-core-ktx",
+      "androidx.lifecycle_lifecycle-livedata-ktx",
+      "androidx.lifecycle_lifecycle-process",
+      "androidx.lifecycle_lifecycle-runtime",
+      "androidx.lifecycle_lifecycle-runtime-compose",
+      "androidx.lifecycle_lifecycle-runtime-ktx",
+      "androidx.lifecycle_lifecycle-service",
+      "androidx.lifecycle_lifecycle-viewmodel",
+      "androidx.lifecycle_lifecycle-viewmodel-compose",
+      "androidx.lifecycle_lifecycle-viewmodel-ktx",
+      "androidx.lifecycle_lifecycle-viewmodel-savedstate",
+      "androidx.loader_loader",
+      "androidx.localbroadcastmanager_localbroadcastmanager",
+      "androidx.media_media",
+      "androidx.navigation_navigation-common",
+      "androidx.navigation_navigation-common-ktx",
+      "androidx.navigation_navigation-compose",
+      "androidx.navigation_navigation-dynamic-features-fragment",
+      "androidx.navigation_navigation-dynamic-features-runtime",
+      "androidx.navigation_navigation-fragment",
+      "androidx.navigation_navigation-fragment-ktx",
+      "androidx.navigation_navigation-runtime",
+      "androidx.navigation_navigation-runtime-ktx",
+      "androidx.navigation_navigation-ui",
+      "androidx.navigation_navigation-ui-ktx",
+      "androidx.paging_paging-compose",
+      "androidx.paging_paging-runtime",
+      "androidx.paging_paging-runtime-ktx",
+      "androidx.palette_palette",
+      "androidx.palette_palette-ktx",
+      "androidx.print_print",
+      "androidx.privacysandbox.ads_ads-adservices",
+      "androidx.privacysandbox.ads_ads-adservices-java",
+      "androidx.profileinstaller_profileinstaller",
+      "androidx.recyclerview_recyclerview",
+      "androidx.room_room-ktx",
+      "androidx.room_room-runtime",
+      "androidx.savedstate_savedstate",
+      "androidx.savedstate_savedstate-ktx",
+      "androidx.security_security-crypto",
+      "androidx.slidingpanelayout_slidingpanelayout",
+      "androidx.sqlite_sqlite",
+      "androidx.sqlite_sqlite-framework",
+      "androidx.sqlite_sqlite-ktx",
+      "androidx.startup_startup-runtime",
+      "androidx.swiperefreshlayout_swiperefreshlayout",
+      "androidx.tracing_tracing",
+      "androidx.tracing_tracing-ktx",
+      "androidx.transition_transition",
+      "androidx.vectordrawable_vectordrawable",
+      "androidx.vectordrawable_vectordrawable-animated",
+      "androidx.viewpager2_viewpager2",
+      "androidx.viewpager_viewpager",
+      "androidx.webkit_webkit",
+      "androidx.window_window",
+      "androidx.work_work-runtime",
+      "androidx.work_work-runtime-ktx",
+      "androidx.work_work-rxjava2",
+      "androidxedparcelable_versionedparcelable",
+      "com.google.android.material_material",
+      "com.google.dagger_dagger",
+      "com.google.dagger_dagger-android",
+      "com.google.dagger_dagger-android-support",
+      "com.google.dagger_dagger-lint-aar",
+      "kotlinx_coroutines_android",
+      "kotlinx_coroutines_core",
+      "kotlinx_coroutines_play_services",
+      "kotlinx_coroutines_reactive",
+      "kotlinx_coroutines_rx2"
+    ],
+    "native_libs": [],
+    "asset_count": 124
+  },
+  "key_material": {
+    "pem_private": {
+      "count": 0,
+      "samples": []
+    },
+    "pem_public": {
+      "count": 5,
+      "samples": [
+        "-----BEGIN CERTIFICATE REQUEST-----\n…",
+        "-----BEGIN CERTIFICATE-----…",
+        "-----BEGIN CERTIFICATE-----\n…"
+      ]
+    },
+    "hex64": {
+      "count": 62,
+      "samples": [
+        "00000000…",
+        "00010203…",
+        "10000000…",
+        "26DC5C6C…",
+        "28E9FA9E…"
+      ]
+    },
+    "b64_43": {
+      "count": 32,
+      "samples": [
+        "/bkPoQed…",
+        "1hqMb526…",
+        "3J/aaHdj…",
+        "4/nh4M+Z…",
+        "5EH0wgVO…"
+      ]
+    },
+    "base32": {
+      "count": 36
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "present": 28,
+  "catalogue": 46,
+  "trackers": 3,
+  "top": [
+    {
+      "name": "Bouncy Castle (incl. PQC)",
+      "vendor": "Legion of the Bouncy Castle",
+      "classes": 6069,
+      "cat": "crypto"
+    },
+    {
+      "name": "AndroidX (Jetpack)",
+      "vendor": "Google",
+      "classes": 3951,
+      "cat": "framework"
+    },
+    {
+      "name": "Meta Audience Network",
+      "vendor": "Meta",
+      "classes": 3254,
+      "cat": "ads"
+    },
+    {
+      "name": "Alibaba Ariver (mini-program kernel)",
+      "vendor": "Alibaba",
+      "classes": 2415,
+      "cat": "miniapp"
+    },
+    {
+      "name": "Visa Cardholder Benefits / CBP (NFC)",
+      "vendor": "Visa",
+      "classes": 2270,
+      "cat": "payments"
+    },
+    {
+      "name": "Alibaba Griver (mini-program runtime)",
+      "vendor": "Alibaba",
+      "classes": 2228,
+      "cat": "miniapp"
+    },
+    {
+      "name": "ExoPlayer / Media3",
+      "vendor": "Google",
+      "classes": 1163,
+      "cat": "media"
+    },
+    {
+      "name": "Alipay mPaaS / MPP client",
+      "vendor": "Ant Group",
+      "classes": 734,
+      "cat": "miniapp"
+    },
+    {
+      "name": "VNPT / TrueID eKYC",
+      "vendor": "VNG / partner",
+      "classes": 622,
+      "cat": "identity"
+    },
+    {
+      "name": "Jetpack Compose",
+      "vendor": "Google",
+      "classes": 495,
+      "cat": "ui"
+    },
+    {
+      "name": "AppsFlyer (attribution)",
+      "vendor": "AppsFlyer",
+      "classes": 418,
+      "cat": "attribution"
+    },
+    {
+      "name": "OkHttp 3.x",
+      "vendor": "Square",
+      "classes": 330,
+      "cat": "network"
+    },
+    {
+      "name": "Kotlin stdlib + coroutines",
+      "vendor": "JetBrains",
+      "classes": 286,
+      "cat": "runtime"
+    },
+    {
+      "name": "RxJava 2/3",
+      "vendor": "Netflix/ReactiveX",
+      "classes": 251,
+      "cat": "runtime"
+    }
+  ],
+  "byCategory": [
+    [
+      "miniapp",
+      3
+    ],
+    [
+      "ui",
+      3
+    ],
+    [
+      "runtime",
+      3
+    ],
+    [
+      "network",
+      2
+    ],
+    [
+      "serialisation",
+      2
+    ],
+    [
+      "crypto",
+      1
+    ],
+    [
+      "framework",
+      1
+    ],
+    [
+      "ads",
+      1
+    ],
+    [
+      "payments",
+      1
+    ],
+    [
+      "media",
+      1
+    ],
+    [
+      "identity",
+      1
+    ],
+    [
+      "attribution",
+      1
+    ],
+    [
+      "backend",
+      1
+    ],
+    [
+      "social",
+      1
+    ],
+    [
+      "commerce",
+      1
+    ],
+    [
+      "webview",
+      1
+    ],
+    [
+      "ml",
+      1
+    ],
+    [
+      "native",
+      1
+    ],
+    [
+      "analytics",
+      1
+    ],
+    [
+      "storage",
+      1
+    ]
+  ],
+  "versionModules": 141
+}

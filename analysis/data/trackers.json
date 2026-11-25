@@ -1,0 +1,49 @@
+{
+  "count": 3,
+  "trackers": [
+    {
+      "id": "fb-ads",
+      "name": "Meta Audience Network",
+      "vendor": "Meta",
+      "cat": "ads",
+      "present": true,
+      "prefix_hits": {
+        "com.facebook.ads.": 3254
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 3254
+    },
+    {
+      "id": "appsflyer",
+      "name": "AppsFlyer (attribution)",
+      "vendor": "AppsFlyer",
+      "cat": "attribution",
+      "present": true,
+      "prefix_hits": {
+        "com.appsflyer.": 418
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 418
+    },
+    {
+      "id": "facebook-appevents",
+      "name": "Facebook App Events",
+      "vendor": "Meta",
+      "cat": "analytics",
+      "present": true,
+      "prefix_hits": {
+        "com.facebook.appevents.": 23
+      },
+      "artifact_hits": [],
+      "native_hits": [],
+      "namespace_classes": 23
+    }
+  ],
+  "categories": [
+    "ads",
+    "analytics",
+    "attribution"
+  ]
+}
