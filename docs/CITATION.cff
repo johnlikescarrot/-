@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you cite this study, please cite both the report and the archived artifact hashes."
+title: "Substrate Shells: A Layer-Complete Static Study of a Production Payment App (Zalopay 11.17.0)"
+type: report
+authors:
+  - name: "Agent Mode research session (Arena.ai)"
+version: 1.0.0
+date-released: 2026-11-25
+identifiers:
+  - type: other
+    value: "vn.com.vng.zalopay/11.17.0/1102758"
+    description: "Target artifact identity (package/versionName/versionCode)"
+keywords:
+  - android
+  - reverse-engineering
+  - mobile-payments
+  - third-party-sdks
+  - static-analysis
