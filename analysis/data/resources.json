@@ -1,0 +1,330 @@
+{
+  "arsc_bytes": 1802300,
+  "package_chunks": 13,
+  "modules": [
+    {
+      "package": "vn.com.vng.zalopay",
+      "module": "base",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.changepin",
+      "module": "changepin",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.resetpin",
+      "module": "resetpin",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.login_v2",
+      "module": "login_v2",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.cashier",
+      "module": "cashier",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.bank_binding",
+      "module": "bank_binding",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.updatephone",
+      "module": "updatephone",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.cash_in",
+      "module": "cash_in",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.resultpage",
+      "module": "resultpage",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.withdraw",
+      "module": "withdraw",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.cashier_v3",
+      "module": "cashier_v3",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.result_page_v3",
+      "module": "result_page_v3",
+      "locales": [],
+      "locale_count": 0
+    },
+    {
+      "package": "vn.com.vng.zalopay.liveness",
+      "module": "liveness",
+      "locales": [],
+      "locale_count": 0
+    }
+  ],
+  "res_files": 5604,
+  "type_buckets": [
+    [
+      "res/drawable",
+      3771
+    ],
+    [
+      "res/layout",
+      1498
+    ],
+    [
+      "res/color",
+      92
+    ],
+    [
+      "res/anim",
+      87
+    ],
+    [
+      "res/raw",
+      56
+    ],
+    [
+      "res/animator",
+      18
+    ],
+    [
+      "res/navigation",
+      18
+    ],
+    [
+      "res/interpolator",
+      17
+    ],
+    [
+      "res/xml",
+      17
+    ],
+    [
+      "res/font",
+      14
+    ],
+    [
+      "res/mipmap",
+      13
+    ],
+    [
+      "res/menu",
+      3
+    ]
+  ],
+  "qualifier_sets": [
+    [
+      "default",
+      4988
+    ],
+    [
+      "v33",
+      319
+    ],
+    [
+      "v31",
+      156
+    ],
+    [
+      "xxhdpi-v4",
+      51
+    ],
+    [
+      "mdpi-v4",
+      19
+    ],
+    [
+      "v21",
+      18
+    ],
+    [
+      "v23",
+      11
+    ],
+    [
+      "night-v8",
+      9
+    ],
+    [
+      "hdpi-v4",
+      7
+    ],
+    [
+      "xhdpi-v4",
+      7
+    ],
+    [
+      "ldrtl-v17",
+      4
+    ],
+    [
+      "watch-v20",
+      3
+    ],
+    [
+      "xxxhdpi-v4",
+      3
+    ],
+    [
+      "land",
+      3
+    ],
+    [
+      "sw600dp-v13",
+      2
+    ],
+    [
+      "v26",
+      2
+    ],
+    [
+      "anydpi-v24",
+      1
+    ],
+    [
+      "anydpi-v26",
+      1
+    ]
+  ],
+  "locales": [
+    "en",
+    "vi"
+  ],
+  "media": {
+    "png": 212,
+    "webp": 111,
+    "ninepatch": 26,
+    "layouts": 1498,
+    "xml": 5208
+  },
+  "native_libs": [
+    {
+      "name": "libtaibmcf.so",
+      "bytes": 12617752
+    },
+    {
+      "name": "libmlkitcommonpipeline.so",
+      "bytes": 6928228
+    },
+    {
+      "name": "libmlkit_google_ocr_pipeline.so",
+      "bytes": 6781940
+    },
+    {
+      "name": "libfgcpkjvqe.so",
+      "bytes": 6524160
+    },
+    {
+      "name": "libface_detector_v2_jni.so",
+      "bytes": 5388224
+    },
+    {
+      "name": "libsqlcipher.so",
+      "bytes": 3555080
+    },
+    {
+      "name": "libbarhopper_v3.so",
+      "bytes": 3244440
+    },
+    {
+      "name": "librive-android.so",
+      "bytes": 3225636
+    },
+    {
+      "name": "libpicodet_ncnn.so",
+      "bytes": 2992584
+    },
+    {
+      "name": "libVFaceLib.so",
+      "bytes": 1963668
+    },
+    {
+      "name": "liba97d.so",
+      "bytes": 997572
+    },
+    {
+      "name": "libc++_shared.so",
+      "bytes": 872872
+    },
+    {
+      "name": "libljsfrcwmw.so",
+      "bytes": 600296
+    },
+    {
+      "name": "libcrashlytics-common.so",
+      "bytes": 435732
+    },
+    {
+      "name": "libnative-imagetranscoder.so",
+      "bytes": 341072
+    },
+    {
+      "name": "liblytcuhe.so",
+      "bytes": 178628
+    },
+    {
+      "name": "librcmefqonnx.so",
+      "bytes": 178628
+    },
+    {
+      "name": "libohxbee.so",
+      "bytes": 155412
+    },
+    {
+      "name": "libsecurity_lite.so",
+      "bytes": 154840
+    },
+    {
+      "name": "libcrashlytics.so",
+      "bytes": 94540
+    },
+    {
+      "name": "libcrashlytics-handler.so",
+      "bytes": 87908
+    },
+    {
+      "name": "libtrueidlib.so",
+      "bytes": 79904
+    },
+    {
+      "name": "libimage_processing_util_jni.so",
+      "bytes": 20380
+    },
+    {
+      "name": "libnative-filters.so",
+      "bytes": 12588
+    },
+    {
+      "name": "libandroidx.graphics.path.so",
+      "bytes": 7252
+    },
+    {
+      "name": "libcrashlytics-trampoline.so",
+      "bytes": 6912
+    },
+    {
+      "name": "libimagepipeline.so",
+      "bytes": 5876
+    }
+  ]
+}

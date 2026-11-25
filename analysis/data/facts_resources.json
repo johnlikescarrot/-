@@ -1,0 +1,25 @@
+{
+  "modules": [
+    "base",
+    "changepin",
+    "resetpin",
+    "login_v2",
+    "cashier",
+    "bank_binding",
+    "updatephone",
+    "cash_in",
+    "resultpage",
+    "withdraw",
+    "cashier_v3",
+    "result_page_v3",
+    "liveness"
+  ],
+  "moduleCount": 13,
+  "resFiles": 5604,
+  "locales": 2,
+  "assets": 124,
+  "assetBytes": 30011044,
+  "protectedAssets": 16,
+  "nativeLibs": 27,
+  "nativeBytes": 57452124
+}

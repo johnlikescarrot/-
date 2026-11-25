@@ -1,0 +1,1246 @@
+{
+  "distinct": 263,
+  "hosts": 142,
+  "vng_hosts": 53,
+  "third_party_hosts": 15,
+  "top_hosts": [
+    {
+      "host": "simg.zalopay.com.vn",
+      "urls": 34,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "zalopay.vn",
+      "urls": 10,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "social.zalopay.vn",
+      "urls": 10,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "render.alipay.com",
+      "urls": 8,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "www.google.com",
+      "urls": 7,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "googleads.g.doubleclick.net",
+      "urls": 7,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "developer.android.com",
+      "urls": 6,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "play.google.com",
+      "urls": 6,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "issuetracker.google.com",
+      "urls": 6,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "mnap-director.zalopay.vn",
+      "urls": 6,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "googlemobileadssdk.page.link",
+      "urls": 5,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "developers.facebook.com",
+      "urls": 5,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "firebase.google.com",
+      "urls": 5,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "zalopay.com.vn",
+      "urls": 4,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "api.zalopay.vn",
+      "urls": 4,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "openapi.zalopay.vn",
+      "urls": 4,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "scdn.zalopay.com.vn",
+      "urls": 4,
+      "vng": true,
+      "third_party": true
+    },
+    {
+      "host": "cps.zalopay.com.vn",
+      "urls": 3,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "sapi.zalopay.vn",
+      "urls": 3,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "www.google-analytics.com",
+      "urls": 3,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "render-intl.alipay.com",
+      "urls": 3,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "support.zalopay.vn",
+      "urls": 3,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "vngzalopay.freshdesk.com",
+      "urls": 3,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "developers.google.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "upload.zalopay.com.vn",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "log.zalopay.com.vn",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "zpm.zalopay.com.vn",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "token.zalopay.vn",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "partners.zalopay.vn",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "upload-img.zalopay.vn",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "openauth.alipay.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "www.facebook.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "xmlpull.org",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "alipay.worker.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "api.fpt.ai",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "app-measurement.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "bim.zalopay.vn",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "cdn.marmot-cloud.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "dala2zoom.zalopay.vn",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "ebank.bidv.com.vn",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "facebook.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "miniprogram.alipay-eco.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "mmf-user.zalopay.vn",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "oauth.zaloapp.com",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "open-sea.alipayplus.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "pagead2.googlesyndication.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "rdx.zalopay.vn",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "tracking.zalopay.vn",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "visapay.as1.juspay.io",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "weremit-static.tenpay.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "www.visa.com",
+      "urls": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "zalo.me",
+      "urls": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "googlemobileadssdk.page.li",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "goo.gle",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "www.bouncycastle.org",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "youtrack.jetbrains.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "g.co",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "html.zapps.vn",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "iopengw-280.sggz00b.dev.alipay.net",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "tfsimg.alipay.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "trueid.net",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "vnpay.vn",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "www.android.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "a.alipayobjects.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "activityservice.alibaba.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "admob-gmats.uc.r.appspot.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "alipay.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "alipay.kylinbridge",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "analytics.us.tiktok.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "aomedia.org",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "api.trueid.vn",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "atlas.zalopay.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "bank-profile.zalopay.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "bnpl-gateway.zalopay.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "campaign.zalopay.com.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "clients3.google.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "connectivitycheck.gstatic.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "csi.gstatic.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "demomb.vnpaytest.vn",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "design.vnpay.vn",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "developer.apple.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "dpe.aacert.consumerapi.digital.visa.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "dpe.consumerapi.digital.visa.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "dpe.qa.consumerapi.digital.visa.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "dpe.sandbox.consumerapi.digital.visa.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "ekyc-dev.fpt.ai",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "fin-installment.zalopay.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "firebase-settings.crashlytics.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "firebaseinstallations.googleapis.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "firebaseremoteconfig.googleapis.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "google.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "googletng.dl.alipaydev.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "graph.zaloapp.com",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "gw.alipayobjects.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "gw.zamcs.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "hpmweb.alipay.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "icl.visa.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "imasdk.googleapis.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "host": "imdap-sea.alipay.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "imgs-ac-amcs.dl.alipaydev.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "imgs-ac-saas.dl.alipaydev.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "imgs-ac.alipay.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "imgs-sea-pre.alipay.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "imgs-sit-sg.dl.alipaydev.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "loyalty.zalopay.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "mdgw.alipay.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "mdgwdev.alipay.net",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "mdn.alipayobjects.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "miniprogram.zalopay.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "mmf-redemption.zalopay.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "mobilegw.alipay.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "mock.saas.mini-program.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "mp.zalopay.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "mp3.zing.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "n.zing.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "news.zing.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "onelink.zalopay.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "privacy-sandbox.appsflyersdk.com",
+      "urls": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "host": "qrpay.zalopay.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "host": "rar-um.zalopay.vn",
+      "urls": 1,
+      "vng": true,
+      "third_party": false
+    }
+  ],
+  "vng_host_list": [
+    "api.zalopay.vn",
+    "atlas.zalopay.vn",
+    "bank-profile.zalopay.vn",
+    "bim.zalopay.vn",
+    "bnpl-gateway.zalopay.vn",
+    "campaign.zalopay.com.vn",
+    "cps.zalopay.com.vn",
+    "dala2zoom.zalopay.vn",
+    "fin-installment.zalopay.vn",
+    "graph.zaloapp.com",
+    "log.zalopay.com.vn",
+    "loyalty.zalopay.vn",
+    "miniprogram.zalopay.vn",
+    "mmf-redemption.zalopay.vn",
+    "mmf-user.zalopay.vn",
+    "mnap-director.zalopay.vn",
+    "mp.zalopay.vn",
+    "mp3.zing.vn",
+    "n.zing.vn",
+    "news.zing.vn",
+    "oauth.zaloapp.com",
+    "onelink.zalopay.vn",
+    "openapi.zalopay.vn",
+    "partners.zalopay.vn",
+    "qrpay.zalopay.vn",
+    "rar-um.zalopay.vn",
+    "rdx.zalopay.vn",
+    "sapi.zalopay.vn",
+    "scard.zalopay.vn",
+    "scdn.zalopay.com.vn",
+    "simg.zalopay.com.vn",
+    "social.zalopay.vn",
+    "srv.mp3.zing.vn",
+    "sse.zalopay.vn",
+    "support.zalopay.vn",
+    "token.zalopay.vn",
+    "tracking.zalopay.vn",
+    "upload-img.zalopay.vn",
+    "upload.zalopay.com.vn",
+    "user-life-cycle-public.zalopay.vn",
+    "uudai.zalopay.vn",
+    "vngzalopay.freshdesk.com",
+    "zalo.me",
+    "zaloapp.com",
+    "zalopay.com.vn",
+    "zalopay.vn",
+    "zlp-movie-api.zalopay.vn",
+    "zlp-ofp-emvco-gateway.zalopay.vn",
+    "zlp-ofp-integration-hub.zalopay.vn",
+    "zlp-ofp-qp-public-api.zalopay.vn",
+    "zlp-ofp-zpa-camera-config-be.zalopay.vn",
+    "zpm.zalopay.com.vn",
+    "ztevents.zaloapp.com"
+  ],
+  "third_party_host_list": [
+    "cdn.marmot-cloud.com",
+    "connectivitycheck.gstatic.com",
+    "csi.gstatic.com",
+    "developers.facebook.com",
+    "facebook.com",
+    "firebase-settings.crashlytics.com",
+    "firebaseinstallations.googleapis.com",
+    "firebaseremoteconfig.googleapis.com",
+    "googleads.g.doubleclick.net",
+    "imasdk.googleapis.com",
+    "scdn.zalopay.com.vn",
+    "ssl.google-analytics.com",
+    "www.facebook.com",
+    "www.google-analytics.com",
+    "www.googleadservices.com"
+  ],
+  "sensitive_paths": [
+    {
+      "url": "https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay",
+      "hits": 3,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/toro_information.png",
+      "hits": 2,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "http://xmlpull.org/v1/doc/features.html",
+      "hits": 2,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/zst/zpi/images/mini-app-info/logozalopay_square.jpg",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "http://html.zapps.vn/pay/FAQCenter/suport_bidv.html",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "http://www.facebook.com/dialog/oauth",
+      "hits": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "url": "https://a.alipayobjects.com/bridgeapi/1.0/jsready.js",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://activityservice.alibaba.com/openapi/v1/version",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://analytics.us.tiktok.com/api/v1/app_sdk/config",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://api.fpt.ai/vision/ekyc-be/",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://api.zalopay.vn/v2/user/session/check",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://cps.zalopay.com.vn/wallet-topup-client/",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://demomb.vnpaytest.vn/vnptoken/api/v1/getToken",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://design.vnpay.vn/web/sdk/sdk-taxi/tro-giup-vi-vnpay/page/",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://ebank.bidv.com.vn/EWALLET/pay.jsp",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://ekyc-dev.fpt.ai/api/v1/",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://facebook.com/device",
+      "hits": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "url": "https://firebase-settings.crashlytics.com/spi/v2/platforms/android/gmp/",
+      "hits": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "url": "https://firebaseinstallations.googleapis.com/v1/",
+      "hits": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "url": "https://firebaseremoteconfig.googleapis.com/v1/projects/",
+      "hits": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_banner.js",
+      "hits": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_expanded_banner.js",
+      "hits": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_interstitial.js",
+      "hits": 1,
+      "vng": false,
+      "third_party": true
+    },
+    {
+      "url": "https://googletng.dl.alipaydev.com/isupergw/alipaynet/site/oauth/auth/extension/prepare.htm",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://mmf-user.zalopay.vn/api/v1/public/docs/contract",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://oauth.zaloapp.com/v2/auth",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://open-sea.alipayplus.com/isupergw/alipaynet/site/oauth/auth/extension/prepare.htm",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com/pagead/ping",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://privacy-sandbox.appsflyersdk.com/api/trigger",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://rdx.zalopay.vn/v1/api/android/crash-log",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://scdn.zalopay.com.vn/zst/zpi-spa/cashier/icon/zalopay.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": true
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/bank-card/Wallet_2.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/bg/addSource-green.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/bg/topup-middle-page-bg.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/bills.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/entertainment.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/food.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/healthcare.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/insurance.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/investment.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/loan.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/shopping.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/telco.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/transportation.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/travel.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/home-onboarding/categories/utilities.webp",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/icon/general_addacc.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/icon/general_message_line_v3.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/icon/general_support_line_V3.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/logo/support-center.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/bank-mapping/phoenix/logo/zalopay_V2.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/zst/mobile/ten-pay/ic-tenpay-consent-logo.svg",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/zst/zpi-spa/um/home-wallet/images/balance_background_1.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/zst/zpi-spa/um/home-wallet/images/balance_layer_1.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/zst/zpi-spa/um/home-wallet/images/circle_arrow.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/error.png",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/recommend-system/",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://social.zalopay.vn/spa/kyc/phone/change/zpa-v2",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://social.zalopay.vn/spa/v2",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://social.zalopay.vn/spa/v2/cashier-payment-complete",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://social.zalopay.vn/spa/v2/personal/career-information",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://social.zalopay.vn/spa/v2/rba/verify/cashier_verify/%s",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://tracking.zalopay.vn/v3/log/events",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://uat.tenpayglobal.com/sg/inbound-payment/merchant-oauth.shtml",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://visapay.as1.juspay.io/visapay/sdk/v1",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://visapay.as1.juspay.io/visapay/sdk/v1/logs",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://web-ekyc-uat.fpt.ai/api/v1/",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://www.google.com/dfp/debugSignals",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://www.google.com/dfp/linkDevice",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://www.tenpayglobal.com/sg/inbound-payment/merchant-oauth.shtml",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    },
+    {
+      "url": "https://zalopay.vn/hoi-dap/an-toan-va-bao-mat/hoi-dap-ve-an-toan-bao-mat/tai-sao-toi-khong-su-dung-duoc-ung-dung-zalopay",
+      "hits": 1,
+      "vng": true,
+      "third_party": false
+    },
+    {
+      "url": "https://scdn.zalopay.com.vn/offline-payment/country-flag-icons/china.svg",
+      "hits": 1,
+      "vng": true,
+      "third_party": true
+    },
+    {
+      "url": "https://scdn.zalopay.com.vn/offline-payment/country-flag-icons/singapore.svg",
+      "hits": 1,
+      "vng": true,
+      "third_party": true
+    },
+    {
+      "url": "https://opendocs.alipay.com/mini/api/owycmh",
+      "hits": 1,
+      "vng": false,
+      "third_party": false
+    }
+  ]
+}

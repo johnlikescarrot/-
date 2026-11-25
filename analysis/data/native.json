@@ -1,0 +1,3024 @@
+{
+  "count": 27,
+  "bytes": 57452124,
+  "abi": "armeabi-v7a (32-bit ARM, no arm64-v8a split shipped)",
+  "libraries": [
+    {
+      "name": "libtaibmcf.so",
+      "bytes": 12617752,
+      "entropy": 6.1236,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 27,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 11900864,
+          "entropy": null
+        },
+        {
+          "name": ".ARM.extab",
+          "size": 268620,
+          "entropy": 5.879
+        },
+        {
+          "name": ".rodata",
+          "size": 211692,
+          "entropy": 7.27
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 87376,
+          "entropy": 3.712
+        },
+        {
+          "name": ".ARM.exidx",
+          "size": 64888,
+          "entropy": 6.06
+        }
+      ],
+      "needed": [
+        "libz.so",
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 191,
+      "exported_count": 2,
+      "jni_exports": [
+        "JNI_OnLoad",
+        "JNI_OnUnload"
+      ],
+      "jni_export_count": 2,
+      "danger_imports": {
+        "mprotect": "makes memory writable+executable (JIT / unpacker)",
+        "mmap": "raw page mapping",
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "syscall": "raw kernel entry",
+        "popen": "shell pipeline",
+        "fopen": "file access",
+        "AAssetManager_open": "reads packaged APK assets",
+        "inflate": "zlib decompression",
+        "deflate": "zlib compression",
+        "pthread_create": "thread creation"
+      },
+      "role": "shielded-payload-runtime",
+      "role_evidence": "links SecurityGuardLite; AES-256-OFB; mprotect",
+      "top_imports": [
+        "AAssetManager_fromJava",
+        "AAssetManager_open",
+        "AAsset_close",
+        "AAsset_getLength",
+        "AAsset_read",
+        "__android_log_write",
+        "__assert2",
+        "__ctype_get_mb_cur_max",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__memcpy_chk",
+        "__memmove_chk",
+        "__memset_chk",
+        "__open_2",
+        "__read_chk",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strchr_chk",
+        "__strlen_chk",
+        "__strncpy_chk2",
+        "__system_property_get",
+        "__vsnprintf_chk",
+        "__vsprintf_chk",
+        "_exit",
+        "abort",
+        "access",
+        "android_set_abort_message",
+        "arc4random",
+        "asprintf",
+        "atoi",
+        "bsearch",
+        "calloc",
+        "chmod",
+        "clearerr",
+        "clock_gettime",
+        "close",
+        "closedir",
+        "closelog"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libmlkitcommonpipeline.so",
+      "bytes": 6928228,
+      "entropy": 7.1582,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 32,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 5275620,
+          "entropy": null
+        },
+        {
+          "name": ".bss",
+          "size": 751525,
+          "entropy": 0.0
+        },
+        {
+          "name": ".rodata",
+          "size": 686144,
+          "entropy": 5.824
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 304536,
+          "entropy": 3.845
+        },
+        {
+          "name": ".ARM.exidx",
+          "size": 232040,
+          "entropy": 5.824
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libdl.so",
+        "libjnigraphics.so",
+        "libandroid.so",
+        "libz.so",
+        "libm.so",
+        "libEGL.so",
+        "libGLESv2.so",
+        "libc.so"
+      ],
+      "imported_count": 300,
+      "exported_count": 38,
+      "jni_exports": [
+        "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeIsProcessInBackground",
+        "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeNotifyProcessLifecycleState",
+        "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetDeviceInfo",
+        "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetGPUInfo",
+        "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetNNAPIInfo",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_close",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_disableSubpipeline",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_enableSubpipeline",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_experimentalRotateResults",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_flushAndClearMobileIqSamples",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_getAnalyticsLogs",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initialize",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameManager",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeIsolationCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeResultsCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_process",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processBitmap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processYuvFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveAudioData",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDepthMap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDetections",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceState",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveFaces",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receivePreviewFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receivePreviewFrameWithStreamName",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveProcessContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveRgbFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveSensorEvent",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveYuvFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetOcr",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetSchedulingOptimizerOptions",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetTrackedObjects",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_start",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_stop",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_waitUntilIdle",
+        "Java_org_tensorflow_lite_acceleration_validation_entrypoint"
+      ],
+      "jni_export_count": 38,
+      "danger_imports": {
+        "mmap": "raw page mapping",
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "kill": "signal delivery",
+        "syscall": "raw kernel entry",
+        "popen": "shell pipeline",
+        "fopen": "file access",
+        "pthread_create": "thread creation"
+      },
+      "role": "ML Kit common",
+      "role_evidence": "ML Kit",
+      "top_imports": [
+        "AndroidBitmap_lockPixels",
+        "AndroidBitmap_unlockPixels",
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy4",
+        "__aeabi_memcpy8",
+        "__aeabi_memmove",
+        "__aeabi_memmove4",
+        "__aeabi_memmove8",
+        "__aeabi_memset",
+        "__aeabi_memset4",
+        "__aeabi_memset8",
+        "__android_log_print",
+        "__android_log_vprint",
+        "__android_log_write",
+        "__ctype_get_mb_cur_max",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__mmap2",
+        "__pthread_cleanup_pop",
+        "__pthread_cleanup_push",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__system_property_get",
+        "_exit",
+        "abort",
+        "access",
+        "acos",
+        "android_set_abort_message",
+        "asinf",
+        "asprintf",
+        "atan2",
+        "atan2f",
+        "atoi",
+        "bsearch",
+        "calloc"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libmlkit_google_ocr_pipeline.so",
+      "bytes": 6781940,
+      "entropy": 6.98,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 32,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 4406008,
+          "entropy": null
+        },
+        {
+          "name": ".rodata",
+          "size": 1205680,
+          "entropy": 6.188
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 423112,
+          "entropy": 3.907
+        },
+        {
+          "name": ".data.rel.ro",
+          "size": 279112,
+          "entropy": 5.156
+        },
+        {
+          "name": ".ARM.exidx",
+          "size": 218120,
+          "entropy": 5.73
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libdl.so",
+        "libjnigraphics.so",
+        "libandroid.so",
+        "libz.so",
+        "libm.so",
+        "libEGL.so",
+        "libGLESv2.so",
+        "libc.so"
+      ],
+      "imported_count": 293,
+      "exported_count": 33,
+      "jni_exports": [
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_AndroidAssetUtil_nativeInitializeAssetManager",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_close",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_disableSubpipeline",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_enableSubpipeline",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_experimentalRotateResults",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_flushAndClearMobileIqSamples",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_getAnalyticsLogs",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initialize",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameManager",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeIsolationCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeResultsCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_process",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processBitmap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processYuvFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveAudioData",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDepthMap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDetections",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceState",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveFaces",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrameWithStreamName",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveProcessContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveRgbFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveSensorEvent",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveYuvFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetOcr",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetSchedulingOptimizerOptions",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetTrackedObjects",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_start",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_stop",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_waitUntilIdle"
+      ],
+      "jni_export_count": 33,
+      "danger_imports": {
+        "mprotect": "makes memory writable+executable (JIT / unpacker)",
+        "mmap": "raw page mapping",
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "kill": "signal delivery",
+        "syscall": "raw kernel entry",
+        "fopen": "file access",
+        "AAssetManager_open": "reads packaged APK assets",
+        "pthread_create": "thread creation"
+      },
+      "role": "ML Kit OCR",
+      "role_evidence": "ML Kit",
+      "top_imports": [
+        "AAssetManager_fromJava",
+        "AAssetManager_open",
+        "AAsset_close",
+        "AAsset_getBuffer",
+        "AAsset_getLength",
+        "AndroidBitmap_lockPixels",
+        "AndroidBitmap_unlockPixels",
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy4",
+        "__aeabi_memcpy8",
+        "__aeabi_memmove",
+        "__aeabi_memmove4",
+        "__aeabi_memmove8",
+        "__aeabi_memset",
+        "__aeabi_memset4",
+        "__aeabi_memset8",
+        "__android_log_print",
+        "__android_log_vprint",
+        "__android_log_write",
+        "__ctype_get_mb_cur_max",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__mmap2",
+        "__pthread_cleanup_pop",
+        "__pthread_cleanup_push",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__system_property_get",
+        "_exit",
+        "abort",
+        "access",
+        "acosf",
+        "android_set_abort_message",
+        "asinf",
+        "asprintf"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libfgcpkjvqe.so",
+      "bytes": 6524160,
+      "entropy": 6.2658,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 30,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 5820360,
+          "entropy": null
+        },
+        {
+          "name": ".ARM.extab",
+          "size": 286600,
+          "entropy": 5.981
+        },
+        {
+          "name": ".rodata",
+          "size": 206332,
+          "entropy": 7.279
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 79936,
+          "entropy": 3.703
+        },
+        {
+          "name": ".data.rel.ro",
+          "size": 55724,
+          "entropy": 4.967
+        }
+      ],
+      "needed": [
+        "libz.so",
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 187,
+      "exported_count": 2,
+      "jni_exports": [
+        "JNI_OnLoad",
+        "JNI_OnUnload"
+      ],
+      "jni_export_count": 2,
+      "danger_imports": {
+        "mprotect": "makes memory writable+executable (JIT / unpacker)",
+        "mmap": "raw page mapping",
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "syscall": "raw kernel entry",
+        "popen": "shell pipeline",
+        "fopen": "file access",
+        "AAssetManager_open": "reads packaged APK assets",
+        "inflate": "zlib decompression",
+        "deflate": "zlib compression",
+        "pthread_create": "thread creation"
+      },
+      "role": "runtime-unpacker-stub",
+      "role_evidence": "exports only JNI_OnLoad/Unload; imports mprotect+inflate+AAssetManager_*",
+      "top_imports": [
+        "AAssetManager_fromJava",
+        "AAssetManager_open",
+        "AAsset_close",
+        "AAsset_getLength",
+        "AAsset_read",
+        "__android_log_write",
+        "__ctype_get_mb_cur_max",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__memcpy_chk",
+        "__memmove_chk",
+        "__memset_chk",
+        "__open_2",
+        "__read_chk",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strchr_chk",
+        "__strncpy_chk2",
+        "__system_property_get",
+        "__vsnprintf_chk",
+        "__vsprintf_chk",
+        "_exit",
+        "abort",
+        "access",
+        "android_set_abort_message",
+        "arc4random",
+        "asprintf",
+        "atoi",
+        "bsearch",
+        "calloc",
+        "chmod",
+        "clearerr",
+        "clock_gettime",
+        "close",
+        "closedir",
+        "closelog",
+        "crc32",
+        "deflate"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libface_detector_v2_jni.so",
+      "bytes": 5388224,
+      "entropy": 7.1486,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 30,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 4108928,
+          "entropy": 7.223
+        },
+        {
+          "name": ".rodata",
+          "size": 471121,
+          "entropy": 5.406
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 309480,
+          "entropy": 3.8
+        },
+        {
+          "name": ".data.rel.ro",
+          "size": 162356,
+          "entropy": 5.85
+        },
+        {
+          "name": ".ARM.exidx",
+          "size": 148880,
+          "entropy": 5.837
+        }
+      ],
+      "needed": [
+        "libandroid.so",
+        "liblog.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 211,
+      "exported_count": 6,
+      "jni_exports": [
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_closeDetectorJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayMultiPlanesJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferMultiPlanesJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_initDetectorJni"
+      ],
+      "jni_export_count": 6,
+      "danger_imports": {
+        "mmap": "raw page mapping",
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "syscall": "raw kernel entry",
+        "fopen": "file access",
+        "AAssetManager_open": "reads packaged APK assets",
+        "pthread_create": "thread creation"
+      },
+      "role": "face detection (ML Kit)",
+      "role_evidence": "JNI vision pipeline",
+      "top_imports": [
+        "AAssetManager_fromJava",
+        "AAssetManager_open",
+        "AAsset_close",
+        "AAsset_getBuffer",
+        "AAsset_getLength",
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy4",
+        "__aeabi_memcpy8",
+        "__aeabi_memmove",
+        "__aeabi_memmove4",
+        "__aeabi_memmove8",
+        "__aeabi_memset",
+        "__aeabi_memset4",
+        "__aeabi_memset8",
+        "__android_log_print",
+        "__android_log_vprint",
+        "__android_log_write",
+        "__ctype_get_mb_cur_max",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__system_property_get",
+        "_exit",
+        "abort",
+        "access",
+        "acos",
+        "acosf",
+        "android_set_abort_message",
+        "asin",
+        "atan",
+        "atan2",
+        "atan2f",
+        "atanf",
+        "atof"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libsqlcipher.so",
+      "bytes": 3555080,
+      "entropy": 6.6941,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 27,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 2532016,
+          "entropy": 6.568
+        },
+        {
+          "name": ".rodata",
+          "size": 565833,
+          "entropy": 7.288
+        },
+        {
+          "name": ".data.rel.ro",
+          "size": 180504,
+          "entropy": 3.904
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 157520,
+          "entropy": 3.865
+        },
+        {
+          "name": ".ARM.extab",
+          "size": 31880,
+          "entropy": 3.443
+        }
+      ],
+      "needed": [
+        "libdl.so",
+        "liblog.so",
+        "libc.so",
+        "libm.so"
+      ],
+      "imported_count": 175,
+      "exported_count": 480,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "jni_export_count": 1,
+      "danger_imports": {
+        "mprotect": "makes memory writable+executable (JIT / unpacker)",
+        "mmap": "raw page mapping",
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "syscall": "raw kernel entry",
+        "fopen": "file access",
+        "pthread_create": "thread creation"
+      },
+      "role": "encrypted-storage (SQLCipher)",
+      "role_evidence": "SQLCipher amalgamation",
+      "top_imports": [
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy4",
+        "__aeabi_memcpy8",
+        "__aeabi_memmove",
+        "__aeabi_memmove4",
+        "__aeabi_memset",
+        "__aeabi_memset8",
+        "__android_log_print",
+        "__android_log_write",
+        "__assert2",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__memcpy_chk",
+        "__memmove_chk",
+        "__memset_chk",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strchr_chk",
+        "__strlen_chk",
+        "__vsnprintf_chk",
+        "abort",
+        "accept",
+        "access",
+        "asprintf",
+        "atoi",
+        "bind",
+        "bsd_signal",
+        "clock_gettime",
+        "close",
+        "closedir",
+        "connect",
+        "dl_unwind_find_exidx",
+        "dlclose",
+        "dlerror",
+        "dlopen"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libbarhopper_v3.so",
+      "bytes": 3244440,
+      "entropy": 7.2147,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 30,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 2836456,
+          "entropy": 7.236
+        },
+        {
+          "name": ".rodata",
+          "size": 192437,
+          "entropy": 5.845
+        },
+        {
+          "name": ".bss",
+          "size": 140077,
+          "entropy": 0.0
+        },
+        {
+          "name": ".ARM.exidx",
+          "size": 85480,
+          "entropy": 5.722
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 47808,
+          "entropy": 3.642
+        }
+      ],
+      "needed": [
+        "libjnigraphics.so",
+        "liblog.so",
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "imported_count": 190,
+      "exported_count": 8,
+      "jni_exports": [
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_closeNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_createNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_createNativeWithClientOptions",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBitmapNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBufferNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedBufferNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedNative"
+      ],
+      "jni_export_count": 8,
+      "danger_imports": {
+        "mmap": "raw page mapping",
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "syscall": "raw kernel entry",
+        "fopen": "file access",
+        "pthread_create": "thread creation"
+      },
+      "role": "on-device barcode/QR decoding",
+      "role_evidence": "Google Barhopper v3",
+      "top_imports": [
+        "AndroidBitmap_getInfo",
+        "AndroidBitmap_lockPixels",
+        "AndroidBitmap_unlockPixels",
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy4",
+        "__aeabi_memcpy8",
+        "__aeabi_memmove",
+        "__aeabi_memmove4",
+        "__aeabi_memmove8",
+        "__aeabi_memset",
+        "__aeabi_memset4",
+        "__aeabi_memset8",
+        "__android_log_print",
+        "__android_log_vprint",
+        "__android_log_write",
+        "__ctype_get_mb_cur_max",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__system_property_get",
+        "_exit",
+        "abort",
+        "access",
+        "acos",
+        "acosf",
+        "android_set_abort_message",
+        "asin",
+        "atan",
+        "atan2",
+        "atan2f",
+        "atanf",
+        "atoi",
+        "bsearch",
+        "calloc"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "librive-android.so",
+      "bytes": 3225636,
+      "entropy": 6.4175,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 28,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 2209180,
+          "entropy": 6.196
+        },
+        {
+          "name": ".dynstr",
+          "size": 280061,
+          "entropy": 5.173
+        },
+        {
+          "name": ".rodata",
+          "size": 230351,
+          "entropy": 6.502
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 105992,
+          "entropy": 4.578
+        },
+        {
+          "name": ".dynsym",
+          "size": 99600,
+          "entropy": 4.645
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libandroid.so",
+        "libEGL.so",
+        "libGLESv3.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 276,
+      "exported_count": 5948,
+      "jni_exports": [
+        "Java_app_rive_runtime_kotlin_RiveTextureView_cppGetAverageFps",
+        "Java_app_rive_runtime_kotlin_core_AnimationState_cppName",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppAdvance",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByIndex",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByName",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationCount",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationNameByIndex",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppBounds",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppDelete",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppDraw",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppDrawAligned",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppFindTextValueRun",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppFindTextValueRunAtPath",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppFindValueOfTextValueRun",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppFindValueOfTextValueRunAtPath",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppGetArtboardHeight",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppGetArtboardWidth",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppGetVolume",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppInputByNameAtPath",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppName",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppResetArtboardSize",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppSetArtboardHeight",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppSetArtboardWidth",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppSetValueOfTextValueRun",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppSetValueOfTextValueRunAtPath",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppSetViewModelInstance",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppSetVolume",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByIndex",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByName",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineCount",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineNameByIndex",
+        "Java_app_rive_runtime_kotlin_core_AudioAsset_cppGetAudio",
+        "Java_app_rive_runtime_kotlin_core_AudioAsset_cppSetAudio",
+        "Java_app_rive_runtime_kotlin_core_FileAssetLoader_constructor",
+        "Java_app_rive_runtime_kotlin_core_FileAssetLoader_cppDelete",
+        "Java_app_rive_runtime_kotlin_core_FileAssetLoader_cppSetRendererType",
+        "Java_app_rive_runtime_kotlin_core_FileAsset_cppCDNUrl",
+        "Java_app_rive_runtime_kotlin_core_FileAsset_cppDecode",
+        "Java_app_rive_runtime_kotlin_core_FileAsset_cppName",
+        "Java_app_rive_runtime_kotlin_core_FileAsset_cppUniqueFilename"
+      ],
+      "jni_export_count": 167,
+      "danger_imports": {
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "fopen": "file access",
+        "pthread_create": "thread creation"
+      },
+      "role": "Rive animation runtime",
+      "role_evidence": "Rive",
+      "top_imports": [
+        "ANativeWindow_acquire",
+        "ANativeWindow_fromSurface",
+        "ANativeWindow_getHeight",
+        "ANativeWindow_getWidth",
+        "ANativeWindow_release",
+        "_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findEcj",
+        "_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5rfindEcj",
+        "_ZNKSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv",
+        "_ZNKSt6__ndk119__shared_weak_count13__get_deleterERKSt9type_info",
+        "_ZNKSt6__ndk16locale9use_facetERNS0_2idE",
+        "_ZNKSt6__ndk18ios_base6getlocEv",
+        "_ZNSt6__ndk112__next_primeEj",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEjj",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcj",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendERKS5_jj",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEjRKS5_jj",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEjjc",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEj",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+        "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_",
+        "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev",
+        "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED2Ev",
+        "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEf",
+        "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEi",
+        "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEj",
+        "_ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED2Ev",
+        "_ZNSt6__ndk115__thread_structC1Ev",
+        "_ZNSt6__ndk115__thread_structD1Ev",
+        "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEC2Ev",
+        "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEED2Ev",
+        "_ZNSt6__ndk118condition_variable10notify_allEv",
+        "_ZNSt6__ndk118condition_variable10notify_oneEv",
+        "_ZNSt6__ndk118condition_variable4waitERNS_11unique_lockINS_5mutexEEE",
+        "_ZNSt6__ndk118condition_variableD1Ev",
+        "_ZNSt6__ndk119__shared_weak_count14__release_weakEv",
+        "_ZNSt6__ndk119__shared_weak_countD2Ev",
+        "_ZNSt6__ndk119__thread_local_dataEv"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libpicodet_ncnn.so",
+      "bytes": 2992584,
+      "entropy": 7.1811,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 29,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 2634856,
+          "entropy": 7.207
+        },
+        {
+          "name": ".dynstr",
+          "size": 69139,
+          "entropy": 5.166
+        },
+        {
+          "name": ".rodata",
+          "size": 46736,
+          "entropy": 5.509
+        },
+        {
+          "name": ".dynsym",
+          "size": 45184,
+          "entropy": 4.414
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 43992,
+          "entropy": 4.135
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 175,
+      "exported_count": 2647,
+      "jni_exports": [
+        "Java_com_example_picodet_PicoDetJNI_detect",
+        "Java_com_example_picodet_PicoDetJNI_detectYuv",
+        "Java_com_example_picodet_PicoDetJNI_picodetConfigure",
+        "Java_com_example_picodet_PicoDetJNI_picodetConfigure2",
+        "Java_com_example_picodet_PicoDetJNI_picodetCreate",
+        "Java_com_example_picodet_PicoDetJNI_picodetDestroy",
+        "Java_com_example_picodet_PicoDetJNI_picodetInputHeight",
+        "Java_com_example_picodet_PicoDetJNI_picodetInputWidth"
+      ],
+      "jni_export_count": 8,
+      "danger_imports": {
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "syscall": "raw kernel entry",
+        "fopen": "file access",
+        "pthread_create": "thread creation"
+      },
+      "role": "object detection (NCNN)",
+      "role_evidence": "PicoDet model runtime",
+      "top_imports": [
+        "__android_log_print",
+        "__assert2",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__memcpy_chk",
+        "__register_atfork",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strlen_chk",
+        "__vsprintf_chk",
+        "abort",
+        "acosf",
+        "acoshf",
+        "android_set_abort_message",
+        "asinf",
+        "asinhf",
+        "atan2f",
+        "atanf",
+        "atanhf",
+        "atoi",
+        "calloc",
+        "ceilf",
+        "close",
+        "closedir",
+        "closelog",
+        "cosf",
+        "coshf",
+        "dl_unwind_find_exidx",
+        "dlclose",
+        "dlerror",
+        "dlopen",
+        "dlsym",
+        "environ",
+        "erfcf",
+        "erff",
+        "expf",
+        "fclose",
+        "fegetround"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libVFaceLib.so",
+      "bytes": 1963668,
+      "entropy": 7.1116,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 28,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 1515836,
+          "entropy": 7.244
+        },
+        {
+          "name": ".bss",
+          "size": 649798,
+          "entropy": 0.0
+        },
+        {
+          "name": ".rodata",
+          "size": 140777,
+          "entropy": 5.671
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 93352,
+          "entropy": 3.721
+        },
+        {
+          "name": ".ARM.extab",
+          "size": 86796,
+          "entropy": 5.535
+        }
+      ],
+      "needed": [
+        "libandroid.so",
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libz.so",
+        "libdl.so",
+        "libm.so"
+      ],
+      "imported_count": 171,
+      "exported_count": 4,
+      "jni_exports": [
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_faceAlignment",
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeDestroy",
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeInit",
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_getFaces"
+      ],
+      "jni_export_count": 4,
+      "danger_imports": {
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "syscall": "raw kernel entry",
+        "fopen": "file access",
+        "pthread_create": "thread creation"
+      },
+      "role": "on-device face liveness (OpenCV)",
+      "role_evidence": "cv::Mat symbols",
+      "top_imports": [
+        "AndroidBitmap_getInfo",
+        "AndroidBitmap_lockPixels",
+        "AndroidBitmap_unlockPixels",
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy4",
+        "__aeabi_memcpy8",
+        "__aeabi_memmove",
+        "__aeabi_memmove4",
+        "__aeabi_memmove8",
+        "__aeabi_memset",
+        "__aeabi_memset8",
+        "__android_log_print",
+        "__assert2",
+        "__ctype_get_mb_cur_max",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__memset_chk",
+        "__open_2",
+        "__read_chk",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strchr_chk",
+        "__strcpy_chk",
+        "__strlen_chk",
+        "__strncat_chk",
+        "__strncpy_chk",
+        "__vsnprintf_chk",
+        "abort",
+        "android_set_abort_message",
+        "ceil",
+        "ceilf",
+        "clock_gettime",
+        "close",
+        "closedir",
+        "closelog"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "liba97d.so",
+      "bytes": 997572,
+      "entropy": 6.2211,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 24,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 878552,
+          "entropy": 6.336
+        },
+        {
+          "name": ".bss",
+          "size": 50204,
+          "entropy": 0.0
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 41088,
+          "entropy": 3.584
+        },
+        {
+          "name": ".data",
+          "size": 29680,
+          "entropy": 6.792
+        },
+        {
+          "name": ".ARM.exidx",
+          "size": 2976,
+          "entropy": 5.152
+        }
+      ],
+      "needed": [
+        "libc.so",
+        "libstdc++.so",
+        "libm.so",
+        "libdl.so",
+        "liblog.so"
+      ],
+      "imported_count": 81,
+      "exported_count": 64,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "jni_export_count": 1,
+      "danger_imports": {
+        "mprotect": "makes memory writable+executable (JIT / unpacker)",
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "fork": "process cloning",
+        "kill": "signal delivery",
+        "syscall": "raw kernel entry",
+        "fopen": "file access",
+        "pthread_create": "thread creation"
+      },
+      "role": "packed/obfuscated helper",
+      "role_evidence": "single short export set",
+      "top_imports": [
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy8",
+        "__aeabi_memmove",
+        "__aeabi_memset",
+        "__aeabi_memset4",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__gnu_Unwind_Find_exidx",
+        "__progname",
+        "__pthread_cleanup_push",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__system_property_find_nth",
+        "__system_property_foreach",
+        "__system_property_get",
+        "__system_property_read",
+        "_exit",
+        "abort",
+        "atoi",
+        "basename",
+        "calloc",
+        "close",
+        "closedir",
+        "dladdr",
+        "dlerror",
+        "dlopen",
+        "dlsym",
+        "dup2",
+        "execv",
+        "fclose",
+        "fcntl",
+        "fopen",
+        "fork",
+        "free",
+        "getpagesize",
+        "getppid",
+        "ioctl"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libc++_shared.so",
+      "bytes": 872872,
+      "entropy": 6.8845,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 28,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 411396,
+          "entropy": 7.03
+        },
+        {
+          "name": ".rodata",
+          "size": 145141,
+          "entropy": 6.929
+        },
+        {
+          "name": ".dynstr",
+          "size": 118901,
+          "entropy": 4.993
+        },
+        {
+          "name": ".dynsym",
+          "size": 39984,
+          "entropy": 4.474
+        },
+        {
+          "name": ".ARM.extab",
+          "size": 37132,
+          "entropy": 5.024
+        }
+      ],
+      "needed": [
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "imported_count": 160,
+      "exported_count": 2337,
+      "jni_exports": [],
+      "jni_export_count": 0,
+      "danger_imports": {
+        "syscall": "raw kernel entry",
+        "fopen": "file access"
+      },
+      "role": "C++ standard library",
+      "role_evidence": "libc++",
+      "top_imports": [
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy4",
+        "__aeabi_memmove",
+        "__aeabi_memmove4",
+        "__aeabi_memset",
+        "__assert2",
+        "__ctype_get_mb_cur_max",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__sF",
+        "abort",
+        "android_set_abort_message",
+        "btowc",
+        "chdir",
+        "clock_gettime",
+        "close",
+        "closedir",
+        "closelog",
+        "dl_unwind_find_exidx",
+        "fchmod",
+        "fchmodat",
+        "fclose",
+        "fdopendir",
+        "fflush",
+        "fopen",
+        "fprintf",
+        "fputc",
+        "fputwc",
+        "fread",
+        "free",
+        "freelocale",
+        "fseek",
+        "fseeko",
+        "fstat",
+        "ftello",
+        "ftruncate"
+      ],
+      "has_canary": false,
+      "has_relro": true
+    },
+    {
+      "name": "libljsfrcwmw.so",
+      "bytes": 600296,
+      "entropy": 6.4332,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 25,
+      "largest_sections": [
+        {
+          "name": ".rodata",
+          "size": 347304,
+          "entropy": 5.898
+        },
+        {
+          "name": ".text",
+          "size": 222180,
+          "entropy": 6.378
+        },
+        {
+          "name": ".bss",
+          "size": 44900,
+          "entropy": 0.0
+        },
+        {
+          "name": ".data.rel.ro",
+          "size": 15436,
+          "entropy": 4.644
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 10664,
+          "entropy": 3.417
+        }
+      ],
+      "needed": [
+        "librcmefqonnx.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 17,
+      "exported_count": 1,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "jni_export_count": 1,
+      "danger_imports": {},
+      "role": "obfuscated helper",
+      "role_evidence": "short random name",
+      "top_imports": [
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__memset_chk",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strlen_chk",
+        "__strncpy_chk",
+        "__strncpy_chk2",
+        "calloc",
+        "etoooh",
+        "free",
+        "gVm",
+        "jjajwd",
+        "malloc",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock",
+        "ztrihxmuqw"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libcrashlytics-common.so",
+      "bytes": 435732,
+      "entropy": 6.906,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 27,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 309104,
+          "entropy": 7.02
+        },
+        {
+          "name": ".rodata",
+          "size": 42592,
+          "entropy": 5.129
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 21768,
+          "entropy": 3.394
+        },
+        {
+          "name": ".ARM.extab",
+          "size": 20640,
+          "entropy": 4.32
+        },
+        {
+          "name": ".ARM.exidx",
+          "size": 14504,
+          "entropy": 5.306
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libdl.so",
+        "libc.so",
+        "libm.so"
+      ],
+      "imported_count": 177,
+      "exported_count": 3,
+      "jni_exports": [],
+      "jni_export_count": 0,
+      "danger_imports": {
+        "mprotect": "makes memory writable+executable (JIT / unpacker)",
+        "ptrace": "debugger attach/detach (anti-debug)",
+        "fork": "process cloning",
+        "syscall": "raw kernel entry",
+        "inflate": "zlib decompression",
+        "deflate": "zlib compression",
+        "pthread_create": "thread creation"
+      },
+      "role": "crash reporting native trampoline",
+      "role_evidence": "Crashlytics",
+      "top_imports": [
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy4",
+        "__aeabi_memcpy8",
+        "__aeabi_memmove",
+        "__aeabi_memset",
+        "__aeabi_memset4",
+        "__android_log_buf_write",
+        "__android_log_write",
+        "__assert2",
+        "__cmsg_nxthdr",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__errno",
+        "__memcpy_chk",
+        "__open_2",
+        "__read_chk",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strchr_chk",
+        "__strlen_chk",
+        "__strncpy_chk2",
+        "__system_property_get",
+        "__vsnprintf_chk",
+        "_ctype_",
+        "_exit",
+        "abort",
+        "atoi",
+        "atoll",
+        "ceilf",
+        "clock_gettime",
+        "close",
+        "closedir",
+        "connect",
+        "daylight",
+        "deflate",
+        "deflateEnd"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libnative-imagetranscoder.so",
+      "bytes": 341072,
+      "entropy": 6.9594,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 27,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 259328,
+          "entropy": 7.117
+        },
+        {
+          "name": ".rodata",
+          "size": 19927,
+          "entropy": 5.825
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 14880,
+          "entropy": 3.763
+        },
+        {
+          "name": ".ARM.extab",
+          "size": 9628,
+          "entropy": 4.029
+        },
+        {
+          "name": ".data.rel.ro",
+          "size": 7916,
+          "entropy": 4.23
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "imported_count": 53,
+      "exported_count": 299,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "jni_export_count": 1,
+      "danger_imports": {},
+      "role": "image transcode (Fresco)",
+      "role_evidence": "native-imagetranscoder",
+      "top_imports": [
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy4",
+        "__aeabi_memmove",
+        "__aeabi_memmove4",
+        "__android_log_print",
+        "__assert2",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__memcpy_chk",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strlen_chk",
+        "__vsnprintf_chk",
+        "abort",
+        "android_set_abort_message",
+        "closelog",
+        "dl_unwind_find_exidx",
+        "exit",
+        "fflush",
+        "fprintf",
+        "fputc",
+        "free",
+        "fwrite",
+        "getenv",
+        "longjmp",
+        "malloc",
+        "memchr",
+        "memcmp",
+        "memcpy",
+        "memset",
+        "openlog",
+        "posix_memalign",
+        "pthread_getspecific",
+        "pthread_key_create",
+        "pthread_key_delete",
+        "pthread_mutex_lock"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "liblytcuhe.so",
+      "bytes": 178628,
+      "entropy": 6.6293,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 26,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 119752,
+          "entropy": 6.828
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 13184,
+          "entropy": 3.767
+        },
+        {
+          "name": ".rodata",
+          "size": 9375,
+          "entropy": 5.29
+        },
+        {
+          "name": ".data.rel.ro",
+          "size": 6020,
+          "entropy": 3.506
+        },
+        {
+          "name": ".dynstr",
+          "size": 5450,
+          "entropy": 4.934
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 35,
+      "exported_count": 303,
+      "jni_exports": [],
+      "jni_export_count": 0,
+      "danger_imports": {},
+      "role": "ONNX inference runtime (duplicate/renamed)",
+      "role_evidence": "onnxruntime embedded",
+      "top_imports": [
+        "__assert2",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__memcpy_chk",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strlen_chk",
+        "__vsnprintf_chk",
+        "abort",
+        "dl_unwind_find_exidx",
+        "fflush",
+        "fmod",
+        "fmodf",
+        "fprintf",
+        "fputc",
+        "free",
+        "malloc",
+        "memchr",
+        "memcpy",
+        "memmove",
+        "memset",
+        "posix_memalign",
+        "pthread_getspecific",
+        "pthread_key_create",
+        "pthread_key_delete",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock",
+        "pthread_once",
+        "pthread_setspecific",
+        "realloc",
+        "strcmp",
+        "strlen",
+        "vasprintf",
+        "vfprintf"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "librcmefqonnx.so",
+      "bytes": 178628,
+      "entropy": 6.6295,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 26,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 119752,
+          "entropy": 6.828
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 13184,
+          "entropy": 3.766
+        },
+        {
+          "name": ".rodata",
+          "size": 9375,
+          "entropy": 5.29
+        },
+        {
+          "name": ".data.rel.ro",
+          "size": 6020,
+          "entropy": 3.506
+        },
+        {
+          "name": ".dynstr",
+          "size": 5450,
+          "entropy": 4.934
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 35,
+      "exported_count": 303,
+      "jni_exports": [],
+      "jni_export_count": 0,
+      "danger_imports": {},
+      "role": "ONNX inference runtime",
+      "role_evidence": "onnxruntime embedded",
+      "top_imports": [
+        "__assert2",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__memcpy_chk",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strlen_chk",
+        "__vsnprintf_chk",
+        "abort",
+        "dl_unwind_find_exidx",
+        "fflush",
+        "fmod",
+        "fmodf",
+        "fprintf",
+        "fputc",
+        "free",
+        "malloc",
+        "memchr",
+        "memcpy",
+        "memmove",
+        "memset",
+        "posix_memalign",
+        "pthread_getspecific",
+        "pthread_key_create",
+        "pthread_key_delete",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock",
+        "pthread_once",
+        "pthread_setspecific",
+        "realloc",
+        "strcmp",
+        "strlen",
+        "vasprintf",
+        "vfprintf"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libohxbee.so",
+      "bytes": 155412,
+      "entropy": 6.2457,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 25,
+      "largest_sections": [
+        {
+          "name": ".rodata",
+          "size": 87804,
+          "entropy": 5.602
+        },
+        {
+          "name": ".text",
+          "size": 56960,
+          "entropy": 6.255
+        },
+        {
+          "name": ".bss",
+          "size": 10608,
+          "entropy": 0.0
+        },
+        {
+          "name": ".data.rel.ro",
+          "size": 4120,
+          "entropy": 4.588
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 2832,
+          "entropy": 3.217
+        }
+      ],
+      "needed": [
+        "liblytcuhe.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 17,
+      "exported_count": 1,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "jni_export_count": 1,
+      "danger_imports": {},
+      "role": "obfuscated helper",
+      "role_evidence": "short random name",
+      "top_imports": [
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__memset_chk",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strlen_chk",
+        "__strncpy_chk",
+        "__strncpy_chk2",
+        "calloc",
+        "fayjpsel",
+        "free",
+        "gVm",
+        "kxffetq",
+        "malloc",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock",
+        "sgsmdzzsfi"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libsecurity_lite.so",
+      "bytes": 154840,
+      "entropy": 7.3025,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 27,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 120148,
+          "entropy": 7.332
+        },
+        {
+          "name": ".rodata",
+          "size": 11840,
+          "entropy": 7.909
+        },
+        {
+          "name": ".bss",
+          "size": 10905,
+          "entropy": 0.0
+        },
+        {
+          "name": ".data",
+          "size": 5512,
+          "entropy": 7.135
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 3592,
+          "entropy": 3.432
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 35,
+      "exported_count": 94,
+      "jni_exports": [
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest"
+      ],
+      "jni_export_count": 4,
+      "danger_imports": {
+        "fopen": "file access"
+      },
+      "role": "crypto-provider (Alipay SecurityGuardLite)",
+      "role_evidence": "exports SecurityGuardLiteNative_decrypt/encryptByAes/rsa_*",
+      "top_imports": [
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy4",
+        "__aeabi_memset",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__gnu_Unwind_Find_exidx",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "abort",
+        "dladdr",
+        "fclose",
+        "fflush",
+        "fileno",
+        "fopen",
+        "fprintf",
+        "free",
+        "fstat",
+        "isalnum",
+        "lrand48",
+        "malloc",
+        "raise",
+        "realloc",
+        "snprintf",
+        "sprintf",
+        "srand48",
+        "strcat",
+        "strcmp",
+        "strcpy",
+        "strlen",
+        "strncpy",
+        "time"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libcrashlytics.so",
+      "bytes": 94540,
+      "entropy": 6.5569,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 26,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 58848,
+          "entropy": 6.836
+        },
+        {
+          "name": ".rodata",
+          "size": 9052,
+          "entropy": 5.281
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 8848,
+          "entropy": 3.243
+        },
+        {
+          "name": ".data.rel.ro",
+          "size": 4636,
+          "entropy": 3.98
+        },
+        {
+          "name": ".ARM.extab",
+          "size": 3900,
+          "entropy": 3.946
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "imported_count": 46,
+      "exported_count": 8,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "jni_export_count": 1,
+      "danger_imports": {
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution",
+        "syscall": "raw kernel entry"
+      },
+      "role": "crash reporting native trampoline",
+      "role_evidence": "Crashlytics",
+      "top_imports": [
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memmove",
+        "__android_log_print",
+        "__assert2",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strlen_chk",
+        "__system_property_get",
+        "__vsnprintf_chk",
+        "abort",
+        "atoi",
+        "dl_unwind_find_exidx",
+        "dladdr",
+        "dlopen",
+        "dlsym",
+        "fflush",
+        "fprintf",
+        "fputc",
+        "free",
+        "getpid",
+        "malloc",
+        "memchr",
+        "memcpy",
+        "memset",
+        "posix_memalign",
+        "pthread_cond_broadcast",
+        "pthread_cond_wait",
+        "pthread_getspecific",
+        "pthread_key_create",
+        "pthread_key_delete",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock",
+        "pthread_once",
+        "pthread_setspecific"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libcrashlytics-handler.so",
+      "bytes": 87908,
+      "entropy": 6.5162,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 26,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 54216,
+          "entropy": 6.827
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 8752,
+          "entropy": 3.243
+        },
+        {
+          "name": ".rodata",
+          "size": 8346,
+          "entropy": 5.261
+        },
+        {
+          "name": ".data.rel.ro",
+          "size": 4604,
+          "entropy": 3.96
+        },
+        {
+          "name": ".ARM.extab",
+          "size": 3640,
+          "entropy": 3.895
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "imported_count": 39,
+      "exported_count": 2,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "jni_export_count": 1,
+      "danger_imports": {
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution"
+      },
+      "role": "crash reporting native trampoline",
+      "role_evidence": "Crashlytics",
+      "top_imports": [
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "__aeabi_memcpy",
+        "__aeabi_memmove",
+        "__android_log_print",
+        "__assert2",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__sF",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strlen_chk",
+        "__vsnprintf_chk",
+        "abort",
+        "dl_unwind_find_exidx",
+        "dlopen",
+        "dlsym",
+        "fflush",
+        "fprintf",
+        "fputc",
+        "free",
+        "malloc",
+        "memchr",
+        "memcpy",
+        "memset",
+        "posix_memalign",
+        "pthread_getspecific",
+        "pthread_key_create",
+        "pthread_key_delete",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock",
+        "pthread_once",
+        "pthread_setspecific",
+        "realloc",
+        "strcmp",
+        "strlen",
+        "vasprintf",
+        "vfprintf"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libtrueidlib.so",
+      "bytes": 79904,
+      "entropy": 6.9485,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 25,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 62660,
+          "entropy": 7.042
+        },
+        {
+          "name": ".rodata",
+          "size": 4800,
+          "entropy": 6.174
+        },
+        {
+          "name": ".dynstr",
+          "size": 1608,
+          "entropy": 4.783
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 1376,
+          "entropy": 2.974
+        },
+        {
+          "name": ".ARM.extab",
+          "size": 1352,
+          "entropy": 3.354
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 40,
+      "exported_count": 40,
+      "jni_exports": [
+        "JNI_OnLoad",
+        "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_genSignature",
+        "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_getNonce",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultAuthCeremony",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckDebugger",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckIntegrity",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQAuth",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQReg",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultRegisterCeremony",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultVerifyTxDigest",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey"
+      ],
+      "jni_export_count": 11,
+      "danger_imports": {
+        "syscall": "raw kernel entry",
+        "popen": "shell pipeline",
+        "fopen": "file access"
+      },
+      "role": "eKYC orchestration",
+      "role_evidence": "TrueID SDK",
+      "top_imports": [
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__memcpy_chk",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__strchr_chk",
+        "__strcpy_chk",
+        "__strlen_chk",
+        "__system_property_get",
+        "__vsnprintf_chk",
+        "__vsprintf_chk",
+        "atoi",
+        "clock_gettime",
+        "fclose",
+        "fgets",
+        "fopen",
+        "free",
+        "malloc",
+        "memchr",
+        "memcmp",
+        "memcpy",
+        "memset",
+        "mlock",
+        "pclose",
+        "popen",
+        "qsort",
+        "rand",
+        "sscanf",
+        "strchr",
+        "strcmp",
+        "strcpy",
+        "strdup",
+        "strlen",
+        "strncat",
+        "strncpy",
+        "strrchr",
+        "strstr",
+        "strtok",
+        "syscall",
+        "vsnprintf"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libimage_processing_util_jni.so",
+      "bytes": 20380,
+      "entropy": 6.5741,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 26,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 14036,
+          "entropy": 6.969
+        },
+        {
+          "name": ".dynstr",
+          "size": 898,
+          "entropy": 4.794
+        },
+        {
+          "name": ".dynsym",
+          "size": 480,
+          "entropy": 1.724
+        },
+        {
+          "name": ".ARM.extab",
+          "size": 444,
+          "entropy": 3.242
+        },
+        {
+          "name": ".ARM.exidx",
+          "size": 432,
+          "entropy": 4.036
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libandroid.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 23,
+      "exported_count": 6,
+      "jni_exports": [
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToABGR",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToBitmap",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeCopyBetweenByteBufferAndBitmap",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeRotateYUV",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeShiftPixel",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeWriteJpegToSurface"
+      ],
+      "jni_export_count": 6,
+      "danger_imports": {
+        "fopen": "file access"
+      },
+      "role": "ML Kit image utils",
+      "role_evidence": "ML Kit",
+      "top_imports": [
+        "ANativeWindow_fromSurface",
+        "ANativeWindow_lock",
+        "ANativeWindow_release",
+        "ANativeWindow_setBuffersGeometry",
+        "ANativeWindow_unlockAndPost",
+        "AndroidBitmap_lockPixels",
+        "AndroidBitmap_unlockPixels",
+        "__aeabi_memmove",
+        "__android_log_print",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__memcpy_chk",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "fclose",
+        "fgets",
+        "fopen",
+        "free",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memset",
+        "strstr"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libnative-filters.so",
+      "bytes": 12588,
+      "entropy": 6.3272,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 27,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 6288,
+          "entropy": 6.818
+        },
+        {
+          "name": ".rodata",
+          "size": 2175,
+          "entropy": 4.692
+        },
+        {
+          "name": ".relro_padding",
+          "size": 1364,
+          "entropy": 4.165
+        },
+        {
+          "name": ".dynstr",
+          "size": 295,
+          "entropy": 4.602
+        },
+        {
+          "name": ".shstrtab",
+          "size": 257,
+          "entropy": 4.28
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "imported_count": 13,
+      "exported_count": 1,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "jni_export_count": 1,
+      "danger_imports": {},
+      "role": "unclassified",
+      "role_evidence": "",
+      "top_imports": [
+        "AndroidBitmap_getInfo",
+        "AndroidBitmap_lockPixels",
+        "AndroidBitmap_unlockPixels",
+        "__aeabi_memclr",
+        "__aeabi_memcpy",
+        "__android_log_print",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "ceil",
+        "free",
+        "malloc"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libandroidx.graphics.path.so",
+      "bytes": 7252,
+      "entropy": 5.7671,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 25,
+      "largest_sections": [
+        {
+          "name": ".text",
+          "size": 3116,
+          "entropy": 6.679
+        },
+        {
+          "name": ".rodata",
+          "size": 439,
+          "entropy": 4.706
+        },
+        {
+          "name": ".rel.dyn",
+          "size": 392,
+          "entropy": 2.375
+        },
+        {
+          "name": ".shstrtab",
+          "size": 240,
+          "entropy": 4.264
+        },
+        {
+          "name": ".dynamic",
+          "size": 224,
+          "entropy": 2.908
+        }
+      ],
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "imported_count": 8,
+      "exported_count": 1,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "jni_export_count": 1,
+      "danger_imports": {},
+      "role": "AndroidX path",
+      "role_evidence": "androidx",
+      "top_imports": [
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "__system_property_get",
+        "atoi",
+        "free",
+        "malloc"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    },
+    {
+      "name": "libcrashlytics-trampoline.so",
+      "bytes": 6912,
+      "entropy": 4.6584,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 34,
+      "largest_sections": [
+        {
+          "name": ".symtab",
+          "size": 736,
+          "entropy": 2.315
+        },
+        {
+          "name": ".debug_line",
+          "size": 595,
+          "entropy": 5.319
+        },
+        {
+          "name": ".debug_str",
+          "size": 584,
+          "entropy": 5.159
+        },
+        {
+          "name": ".debug_info",
+          "size": 390,
+          "entropy": 3.829
+        },
+        {
+          "name": ".strtab",
+          "size": 350,
+          "entropy": 4.648
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "imported_count": 6,
+      "exported_count": 4,
+      "jni_exports": [],
+      "jni_export_count": 0,
+      "danger_imports": {
+        "dlopen": "runtime library loading",
+        "dlsym": "runtime symbol resolution"
+      },
+      "role": "crash reporting native trampoline",
+      "role_evidence": "Crashlytics",
+      "top_imports": [
+        "__android_log_print",
+        "__cxa_atexit",
+        "__libc_init",
+        "dlerror",
+        "dlopen",
+        "dlsym"
+      ],
+      "has_canary": false,
+      "has_relro": true
+    },
+    {
+      "name": "libimagepipeline.so",
+      "bytes": 5876,
+      "entropy": 5.1578,
+      "machine": "ARM",
+      "class": "ELF32",
+      "is_pie": true,
+      "sections": 27,
+      "largest_sections": [
+        {
+          "name": ".relro_padding",
+          "size": 4016,
+          "entropy": 0.0
+        },
+        {
+          "name": ".text",
+          "size": 1220,
+          "entropy": 6.21
+        },
+        {
+          "name": ".rodata",
+          "size": 734,
+          "entropy": 4.844
+        },
+        {
+          "name": ".shstrtab",
+          "size": 257,
+          "entropy": 4.28
+        },
+        {
+          "name": ".dynstr",
+          "size": 252,
+          "entropy": 4.577
+        }
+      ],
+      "needed": [
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "imported_count": 10,
+      "exported_count": 1,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "jni_export_count": 1,
+      "danger_imports": {},
+      "role": "image pipeline (Fresco)",
+      "role_evidence": "imagepipeline",
+      "top_imports": [
+        "AndroidBitmap_lockPixels",
+        "AndroidBitmap_unlockPixels",
+        "__aeabi_memcpy",
+        "__android_log_print",
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__stack_chk_fail",
+        "__stack_chk_guard",
+        "free",
+        "malloc"
+      ],
+      "has_canary": true,
+      "has_relro": true
+    }
+  ],
+  "role_histogram": {
+    "shielded-payload-runtime": 1,
+    "ML Kit common": 1,
+    "ML Kit OCR": 1,
+    "runtime-unpacker-stub": 1,
+    "face detection (ML Kit)": 1,
+    "encrypted-storage (SQLCipher)": 1,
+    "on-device barcode/QR decoding": 1,
+    "Rive animation runtime": 1,
+    "object detection (NCNN)": 1,
+    "on-device face liveness (OpenCV)": 1,
+    "packed/obfuscated helper": 1,
+    "C++ standard library": 1,
+    "obfuscated helper": 2,
+    "crash reporting native trampoline": 4,
+    "image transcode (Fresco)": 1,
+    "ONNX inference runtime (duplicate/renamed)": 1,
+    "ONNX inference runtime": 1,
+    "crypto-provider (Alipay SecurityGuardLite)": 1,
+    "eKYC orchestration": 1,
+    "ML Kit image utils": 1,
+    "unclassified": 1,
+    "AndroidX path": 1,
+    "image pipeline (Fresco)": 1
+  },
+  "danger_import_histogram": {
+    "mprotect": 6,
+    "mmap": 7,
+    "dlopen": 14,
+    "dlsym": 14,
+    "syscall": 14,
+    "popen": 4,
+    "fopen": 15,
+    "AAssetManager_open": 4,
+    "inflate": 3,
+    "deflate": 3,
+    "pthread_create": 12,
+    "kill": 3,
+    "fork": 2,
+    "ptrace": 1
+  },
+  "jni_surface": {
+    "total": 299,
+    "libraries": [
+      "libtaibmcf.so",
+      "libmlkitcommonpipeline.so",
+      "libmlkit_google_ocr_pipeline.so",
+      "libfgcpkjvqe.so",
+      "libface_detector_v2_jni.so",
+      "libsqlcipher.so",
+      "libbarhopper_v3.so",
+      "librive-android.so",
+      "libpicodet_ncnn.so",
+      "libVFaceLib.so",
+      "liba97d.so",
+      "libljsfrcwmw.so",
+      "libnative-imagetranscoder.so",
+      "libohxbee.so",
+      "libsecurity_lite.so",
+      "libcrashlytics.so",
+      "libcrashlytics-handler.so",
+      "libtrueidlib.so",
+      "libimage_processing_util_jni.so",
+      "libnative-filters.so",
+      "libandroidx.graphics.path.so",
+      "libimagepipeline.so"
+    ]
+  },
+  "probes": {
+    "JNI_OnLoad": {
+      "symbol": "JNI_OnLoad",
+      "found": true,
+      "address": "0xabedc",
+      "size": 196,
+      "instructions": [
+        {
+          "addr": "0xabedc",
+          "mnemonic": "push",
+          "ops": "{r4, r5, r6, r7, fp, lr}"
+        },
+        {
+          "addr": "0xabee0",
+          "mnemonic": "add",
+          "ops": "fp, sp, #0x10"
+        },
+        {
+          "addr": "0xabee4",
+          "mnemonic": "sub",
+          "ops": "sp, sp, #0x28"
+        },
+        {
+          "addr": "0xabee8",
+          "mnemonic": "ldr",
+          "ops": "r4, [pc, #0xa4]"
+        },
+        {
+          "addr": "0xabeec",
+          "mnemonic": "ldr",
+          "ops": "r2, [pc, #0xa4]"
+        },
+        {
+          "addr": "0xabef0",
+          "mnemonic": "add",
+          "ops": "r4, pc, r4"
+        },
+        {
+          "addr": "0xabef4",
+          "mnemonic": "add",
+          "ops": "r2, pc, r2"
+        },
+        {
+          "addr": "0xabef8",
+          "mnemonic": "mov",
+          "ops": "r5, #0"
+        },
+        {
+          "addr": "0xabefc",
+          "mnemonic": "ldr",
+          "ops": "r2, [r2]"
+        },
+        {
+          "addr": "0xabf00",
+          "mnemonic": "ldr",
+          "ops": "r2, [r2]"
+        },
+        {
+          "addr": "0xabf04",
+          "mnemonic": "str",
+          "ops": "r2, [fp, #-0x14]"
+        },
+        {
+          "addr": "0xabf08",
+          "mnemonic": "add",
+          "ops": "r2, sp, #0x10"
+        },
+        {
+          "addr": "0xabf0c",
+          "mnemonic": "strd",
+          "ops": "r4, r5, [sp]"
+        },
+        {
+          "addr": "0xabf10",
+          "mnemonic": "str",
+          "ops": "r2, [sp, #0x18]"
+        },
+        {
+          "addr": "0xabf14",
+          "mnemonic": "str",
+          "ops": "r5, [sp, #0x1c]"
+        },
+        {
+          "addr": "0xabf18",
+          "mnemonic": "ldrd",
+          "ops": "r2, r3, [sp, #0x18]"
+        },
+        {
+          "addr": "0xabf1c",
+          "mnemonic": "add",
+          "ops": "r2, sp, #0x18"
+        },
+        {
+          "addr": "0xabf20",
+          "mnemonic": "str",
+          "ops": "r2, [sp, #0x10]"
+        },
+        {
+          "addr": "0xabf24",
+          "mnemonic": "str",
+          "ops": "r5, [sp, #0x14]"
+        },
+        {
+          "addr": "0xabf28",
+          "mnemonic": "ldrd",
+          "ops": "r2, r3, [sp, #0x10]"
+        },
+        {
+          "addr": "0xabf2c",
+          "mnemonic": "ldrd",
+          "ops": "r2, r3, [sp, #0x18]"
+        },
+        {
+          "addr": "0xabf30",
+          "mnemonic": "mov",
+          "ops": "r2, #6"
+        },
+        {
+          "addr": "0xabf34",
+          "mnemonic": "ldrd",
+          "ops": "r6, r7, [sp, #0x10]"
+        },
+        {
+          "addr": "0xabf38",
+          "mnemonic": "mov",
+          "ops": "r3, r5"
+        },
+        {
+          "addr": "0xabf3c",
+          "mnemonic": "strd",
+          "ops": "r2, r3, [sp, #0x10]"
+        },
+        {
+          "addr": "0xabf40",
+          "mnemonic": "mov",
+          "ops": "r2, #0x1a"
+        },
+        {
+          "addr": "0xabf44",
+          "mnemonic": "mov",
+          "ops": "r3, r5"
+        },
+        {
+          "addr": "0xabf48",
+          "mnemonic": "strd",
+          "ops": "r2, r3, [sp, #0x18]"
+        },
+        {
+          "addr": "0xabf4c",
+          "mnemonic": "ldrd",
+          "ops": "r2, r3, [sp, #0x10]"
+        },
+        {
+          "addr": "0xabf50",
+          "mnemonic": "ldrd",
+          "ops": "r6, r7, [sp, #0x18]"
+        },
+        {
+          "addr": "0xabf54",
+          "mnemonic": "adds",
+          "ops": "r5, r2, r4"
+        },
+        {
+          "addr": "0xabf58",
+          "mnemonic": "adc",
+          "ops": "r2, r3, #0"
+        },
+        {
+          "addr": "0xabf5c",
+          "mnemonic": "adds",
+          "ops": "r4, r5, r6"
+        },
+        {
+          "addr": "0xabf60",
+          "mnemonic": "adc",
+          "ops": "r5, r2, r7"
+        },
+        {
+          "addr": "0xabf64",
+          "mnemonic": "strd",
+          "ops": "r4, r5, [sp, #8]"
+        },
+        {
+          "addr": "0xabf68",
+          "mnemonic": "ldrd",
+          "ops": "r2, r3, [sp, #8]"
+        },
+        {
+          "addr": "0xabf6c",
+          "mnemonic": "blx",
+          "ops": "r2"
+        },
+        {
+          "addr": "0xabf70",
+          "mnemonic": "ldr",
+          "ops": "r1, [fp, #-0x14]"
+        },
+        {
+          "addr": "0xabf74",
+          "mnemonic": "ldr",
+          "ops": "r2, [pc, #0x20]"
+        },
+        {
+          "addr": "0xabf78",
+          "mnemonic": "add",
+          "ops": "r2, pc, r2"
+        },
+        {
+          "addr": "0xabf7c",
+          "mnemonic": "ldr",
+          "ops": "r2, [r2]"
+        },
+        {
+          "addr": "0xabf80",
+          "mnemonic": "ldr",
+          "ops": "r2, [r2]"
+        },
+        {
+          "addr": "0xabf84",
+          "mnemonic": "cmp",
+          "ops": "r2, r1"
+        },
+        {
+          "addr": "0xabf88",
+          "mnemonic": "subeq",
+          "ops": "sp, fp, #0x10"
+        },
+        {
+          "addr": "0xabf8c",
+          "mnemonic": "popeq",
+          "ops": "{r4, r5, r6, r7, fp, pc}"
+        },
+        {
+          "addr": "0xabf90",
+          "mnemonic": "bl",
+          "ops": "#0x6274e0"
+        },
+        {
+          "addr": "0xabf94",
+          "mnemonic": "strdeq",
+          "ops": "r0, r1, [r0], -r8"
+        },
+        {
+          "addr": "0xabf98",
+          "mnemonic": "subseq",
+          "ops": "sp, r8, r8, lsr #25"
+        },
+        {
+          "addr": "0xabf9c",
+          "mnemonic": "subseq",
+          "ops": "sp, r8, r4, lsr #24"
+        }
+      ],
+      "mnemonic_histogram": {
+        "ldr": 8,
+        "ldrd": 7,
+        "add": 6,
+        "mov": 5,
+        "str": 5,
+        "strd": 4,
+        "adds": 2,
+        "adc": 2,
+        "subseq": 2,
+        "push": 1,
+        "sub": 1,
+        "blx": 1,
+        "cmp": 1,
+        "subeq": 1,
+        "popeq": 1
+      },
+      "calls": [
+        "#0x6274e0",
+        "r2"
+      ]
+    }
+  },
+  "ml_runtimes": [
+    "libmlkitcommonpipeline.so",
+    "libmlkit_google_ocr_pipeline.so",
+    "libface_detector_v2_jni.so",
+    "libbarhopper_v3.so",
+    "libpicodet_ncnn.so",
+    "libVFaceLib.so",
+    "liblytcuhe.so",
+    "librcmefqonnx.so",
+    "libimage_processing_util_jni.so"
+  ],
+  "crypto_runtimes": [
+    "libtaibmcf.so",
+    "libsqlcipher.so",
+    "libsecurity_lite.so"
+  ]
+}

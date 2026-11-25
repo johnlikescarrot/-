@@ -1,0 +1,129 @@
+{
+  "count": 27,
+  "bytes": 57452124,
+  "roles": {
+    "shielded-payload-runtime": 1,
+    "ML Kit common": 1,
+    "ML Kit OCR": 1,
+    "runtime-unpacker-stub": 1,
+    "face detection (ML Kit)": 1,
+    "encrypted-storage (SQLCipher)": 1,
+    "on-device barcode/QR decoding": 1,
+    "Rive animation runtime": 1,
+    "object detection (NCNN)": 1,
+    "on-device face liveness (OpenCV)": 1,
+    "packed/obfuscated helper": 1,
+    "C++ standard library": 1,
+    "obfuscated helper": 2,
+    "crash reporting native trampoline": 4,
+    "image transcode (Fresco)": 1,
+    "ONNX inference runtime (duplicate/renamed)": 1,
+    "ONNX inference runtime": 1,
+    "crypto-provider (Alipay SecurityGuardLite)": 1,
+    "eKYC orchestration": 1,
+    "ML Kit image utils": 1,
+    "unclassified": 1,
+    "AndroidX path": 1,
+    "image pipeline (Fresco)": 1
+  },
+  "danger": {
+    "mprotect": 6,
+    "mmap": 7,
+    "dlopen": 14,
+    "dlsym": 14,
+    "syscall": 14,
+    "popen": 4,
+    "fopen": 15,
+    "AAssetManager_open": 4,
+    "inflate": 3,
+    "deflate": 3,
+    "pthread_create": 12,
+    "kill": 3,
+    "fork": 2,
+    "ptrace": 1
+  },
+  "jniTotal": 299,
+  "jniLibs": 22,
+  "highEntropy": 2,
+  "ml": [
+    "libmlkitcommonpipeline.so",
+    "libmlkit_google_ocr_pipeline.so",
+    "libface_detector_v2_jni.so",
+    "libbarhopper_v3.so",
+    "libpicodet_ncnn.so",
+    "libVFaceLib.so",
+    "liblytcuhe.so",
+    "librcmefqonnx.so",
+    "libimage_processing_util_jni.so"
+  ],
+  "crypto": [
+    "libtaibmcf.so",
+    "libsqlcipher.so",
+    "libsecurity_lite.so"
+  ],
+  "packer": [
+    "libfgcpkjvqe.so"
+  ],
+  "largest": [
+    {
+      "name": "libtaibmcf.so",
+      "bytes": 12617752,
+      "role": "shielded-payload-runtime"
+    },
+    {
+      "name": "libmlkitcommonpipeline.so",
+      "bytes": 6928228,
+      "role": "ML Kit common"
+    },
+    {
+      "name": "libmlkit_google_ocr_pipeline.so",
+      "bytes": 6781940,
+      "role": "ML Kit OCR"
+    },
+    {
+      "name": "libfgcpkjvqe.so",
+      "bytes": 6524160,
+      "role": "runtime-unpacker-stub"
+    },
+    {
+      "name": "libface_detector_v2_jni.so",
+      "bytes": 5388224,
+      "role": "face detection (ML Kit)"
+    },
+    {
+      "name": "libsqlcipher.so",
+      "bytes": 3555080,
+      "role": "encrypted-storage (SQLCipher)"
+    },
+    {
+      "name": "libbarhopper_v3.so",
+      "bytes": 3244440,
+      "role": "on-device barcode/QR decoding"
+    },
+    {
+      "name": "librive-android.so",
+      "bytes": 3225636,
+      "role": "Rive animation runtime"
+    },
+    {
+      "name": "libpicodet_ncnn.so",
+      "bytes": 2992584,
+      "role": "object detection (NCNN)"
+    },
+    {
+      "name": "libVFaceLib.so",
+      "bytes": 1963668,
+      "role": "on-device face liveness (OpenCV)"
+    },
+    {
+      "name": "liba97d.so",
+      "bytes": 997572,
+      "role": "packed/obfuscated helper"
+    },
+    {
+      "name": "libc++_shared.so",
+      "bytes": 872872,
+      "role": "C++ standard library"
+    }
+  ]
+}

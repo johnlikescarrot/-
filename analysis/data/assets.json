@@ -1,0 +1,1002 @@
+{
+  "count": 124,
+  "bytes": 30011044,
+  "classes": {
+    "dalvik": 1,
+    "bundle-zip": 4,
+    "ml-model": 41,
+    "other": 20,
+    "config-json": 17,
+    "encrypted-blob": 3,
+    "font": 12,
+    "image": 9,
+    "miniapp-runtime": 6,
+    "javascript": 8,
+    "public-key": 1,
+    "config": 2
+  },
+  "protected": [
+    {
+      "path": "assets/android.1.zip",
+      "bytes": 3913966,
+      "entropy": 7.996,
+      "class": "bundle-zip",
+      "protected": true
+    },
+    {
+      "path": "assets/Griver/68687209_2.9.7.8.amr",
+      "bytes": 856974,
+      "entropy": 7.9966,
+      "class": "bundle-zip",
+      "protected": true
+    },
+    {
+      "path": "assets/fgcpkjvqe.dat",
+      "bytes": 776320,
+      "entropy": 7.9972,
+      "class": "encrypted-blob",
+      "protected": true
+    },
+    {
+      "path": "assets/Griver/66666692_1.24.8.amr",
+      "bytes": 287535,
+      "entropy": 7.9963,
+      "class": "bundle-zip",
+      "protected": true
+    },
+    {
+      "path": "assets/com/visa/cbp/74e13961eb6489ab-",
+      "bytes": 265304,
+      "entropy": 7.9969,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/com/visa/cbp/a2687fec63dbeebcd-",
+      "bytes": 80308,
+      "entropy": 7.9971,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/dexopt/baseline.prof",
+      "bytes": 18503,
+      "entropy": 7.9656,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be/9f979174-fb94-f7f5-21c5-afddb32d1e32",
+      "bytes": 17888,
+      "entropy": 7.9895,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/Griver/66666693_2.0.7.amr",
+      "bytes": 17380,
+      "entropy": 7.9807,
+      "class": "bundle-zip",
+      "protected": true
+    },
+    {
+      "path": "assets/com/visa/cbp/8c12f33e01f2a597a-",
+      "bytes": 15736,
+      "entropy": 7.9896,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/taxi_images/Layer_4_loading.png",
+      "bytes": 14652,
+      "entropy": 7.9753,
+      "class": "image",
+      "protected": true
+    },
+    {
+      "path": "assets/com/appsflyer/internal/3e6e8a8a85e1aaa2b-",
+      "bytes": 13692,
+      "entropy": 7.9844,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/com/visa/cbp/f3f564a2648dc019c-",
+      "bytes": 9668,
+      "entropy": 7.9815,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/taibmcf.dat",
+      "bytes": 8307,
+      "entropy": 7.9756,
+      "class": "encrypted-blob",
+      "protected": true
+    },
+    {
+      "path": "assets/com/appsflyer/internal/cc32cb866f63cd58a-",
+      "bytes": 7936,
+      "entropy": 7.9755,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/com/appsflyer/internal/1a7e8023f147cacac-",
+      "bytes": 7142,
+      "entropy": 7.974,
+      "class": "other",
+      "protected": true
+    }
+  ],
+  "all": [
+    {
+      "path": "assets/audience_network.dex",
+      "bytes": 4864036,
+      "entropy": 6.159,
+      "class": "dalvik",
+      "protected": false
+    },
+    {
+      "path": "assets/android.1.zip",
+      "bytes": 3913966,
+      "entropy": 7.996,
+      "class": "bundle-zip",
+      "protected": true
+    },
+    {
+      "path": "assets/custom_models/object_labeler.tflite",
+      "bytes": 3770391,
+      "entropy": 6.7483,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/FastestDet.ncnn.bin",
+      "bytes": 2420588,
+      "entropy": 7.0382,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+      "bytes": 1706957,
+      "entropy": 7.6943,
+      "class": "other",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+      "bytes": 1254848,
+      "entropy": 7.7825,
+      "class": "other",
+      "protected": false
+    },
+    {
+      "path": "assets/models_bundled/contours.tfl",
+      "bytes": 1124144,
+      "entropy": 7.2887,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/models_bundled/LMprec_600.emd",
+      "bytes": 1078354,
+      "entropy": 6.9222,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/config/miniapp_config.json",
+      "bytes": 883684,
+      "entropy": 4.4244,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/Griver/68687209_2.9.7.8.amr",
+      "bytes": 856974,
+      "entropy": 7.9966,
+      "class": "bundle-zip",
+      "protected": true
+    },
+    {
+      "path": "assets/fgcpkjvqe.dat",
+      "bytes": 776320,
+      "entropy": 7.9972,
+      "class": "encrypted-blob",
+      "protected": true
+    },
+    {
+      "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+      "bytes": 613352,
+      "entropy": 6.93,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+      "bytes": 613080,
+      "entropy": 6.9227,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/taxi_splash_loading.json",
+      "bytes": 536057,
+      "entropy": 4.6133,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+      "bytes": 390456,
+      "entropy": 6.4748,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/models_bundled/blazeface.tfl",
+      "bytes": 347928,
+      "entropy": 7.4509,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+      "bytes": 340760,
+      "entropy": 7.3566,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+      "bytes": 315520,
+      "entropy": 6.1476,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+      "bytes": 309568,
+      "entropy": 3.6378,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/Griver/66666692_1.24.8.amr",
+      "bytes": 287535,
+      "entropy": 7.9963,
+      "class": "bundle-zip",
+      "protected": true
+    },
+    {
+      "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+      "bytes": 276552,
+      "entropy": 6.541,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/com/visa/cbp/74e13961eb6489ab-",
+      "bytes": 265304,
+      "entropy": 7.9969,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+      "bytes": 232096,
+      "entropy": 6.9071,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+      "bytes": 231816,
+      "entropy": 6.9382,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+      "bytes": 213880,
+      "entropy": 5.5447,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/fonts/Roboto-Bold.ttf",
+      "bytes": 170064,
+      "entropy": 6.5581,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/fonts/true_font.ttf",
+      "bytes": 168644,
+      "entropy": 6.5795,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.lstm_model",
+      "bytes": 161448,
+      "entropy": 5.6888,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+      "bytes": 153000,
+      "entropy": 4.3394,
+      "class": "other",
+      "protected": false
+    },
+    {
+      "path": "assets/client_tracking.json",
+      "bytes": 146391,
+      "entropy": 4.8806,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/fonts/zalopay.ttf",
+      "bytes": 143944,
+      "entropy": 6.1366,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+      "bytes": 129612,
+      "entropy": 6.711,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/fonts/Roboto-Medium.ttf",
+      "bytes": 127488,
+      "entropy": 6.8695,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/fonts/Roboto-Regular.ttf",
+      "bytes": 126072,
+      "entropy": 6.8918,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+      "bytes": 114384,
+      "entropy": 6.4967,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/config/zalopay_config.json",
+      "bytes": 105659,
+      "entropy": 4.5539,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/com/visa/cbp/a2687fec63dbeebcd-",
+      "bytes": 80308,
+      "entropy": 7.9971,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/fonts/zalopay.json",
+      "bytes": 70880,
+      "entropy": 3.45,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/fonts/UnisectVnu.ttf",
+      "bytes": 48216,
+      "entropy": 6.4726,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/fonts/ocr-a-tribute.ttf",
+      "bytes": 48216,
+      "entropy": 6.4726,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/taxi_images/Layer_5_loading.png",
+      "bytes": 42205,
+      "entropy": 7.9271,
+      "class": "image",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/conv_model.fb",
+      "bytes": 40848,
+      "entropy": 6.8034,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.conv_model",
+      "bytes": 40808,
+      "entropy": 6.7035,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/griverIconDefault/default.ttf",
+      "bytes": 28000,
+      "entropy": 6.4651,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/GriverErrorPage/griver_page_error.html",
+      "bytes": 22734,
+      "entropy": 6.0809,
+      "class": "miniapp-runtime",
+      "protected": false
+    },
+    {
+      "path": "assets/dexopt/baseline.prof",
+      "bytes": 18503,
+      "entropy": 7.9656,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/models_bundled/BCLjoy_200.emd",
+      "bytes": 17916,
+      "entropy": 6.3608,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be/9f979174-fb94-f7f5-21c5-afddb32d1e32",
+      "bytes": 17888,
+      "entropy": 7.9895,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/Griver/66666693_2.0.7.amr",
+      "bytes": 17380,
+      "entropy": 7.9807,
+      "class": "bundle-zip",
+      "protected": true
+    },
+    {
+      "path": "assets/com/visa/cbp/8c12f33e01f2a597a-",
+      "bytes": 15736,
+      "entropy": 7.9896,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/theme/bank/ui_config.json",
+      "bytes": 15430,
+      "entropy": 4.1562,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/FastestDet.ncnn.param",
+      "bytes": 15293,
+      "entropy": 3.451,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/taxi_images/Layer_4_loading.png",
+      "bytes": 14652,
+      "entropy": 7.9753,
+      "class": "image",
+      "protected": true
+    },
+    {
+      "path": "assets/GriverBridge/workerjs.js",
+      "bytes": 14360,
+      "entropy": 4.8197,
+      "class": "javascript",
+      "protected": false
+    },
+    {
+      "path": "assets/GriverErrorPage/mini-program-native-error.html",
+      "bytes": 13859,
+      "entropy": 6.1036,
+      "class": "miniapp-runtime",
+      "protected": false
+    },
+    {
+      "path": "assets/com/appsflyer/internal/3e6e8a8a85e1aaa2b-",
+      "bytes": 13692,
+      "entropy": 7.9844,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+      "bytes": 13183,
+      "entropy": 5.6528,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+      "bytes": 13178,
+      "entropy": 5.6525,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/theme/bank/config_v2.json",
+      "bytes": 11573,
+      "entropy": 4.9095,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/theme/bank/bank_resource.json",
+      "bytes": 11339,
+      "entropy": 4.874,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/timezone2region_2023c.json",
+      "bytes": 11067,
+      "entropy": 4.8615,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/tinyfont/iconfont.ttf",
+      "bytes": 9780,
+      "entropy": 6.2841,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/com/visa/cbp/f3f564a2648dc019c-",
+      "bytes": 9668,
+      "entropy": 7.9815,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/containererrorpage/griver_page_error.html",
+      "bytes": 9594,
+      "entropy": 5.9272,
+      "class": "other",
+      "protected": false
+    },
+    {
+      "path": "assets/home_data.json",
+      "bytes": 9417,
+      "entropy": 4.5278,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/models_bundled/BCLrighteyeclosed_200.emd",
+      "bytes": 8655,
+      "entropy": 6.0339,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/models_bundled/BCLlefteyeclosed_200.emd",
+      "bytes": 8630,
+      "entropy": 6.0569,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/taibmcf.dat",
+      "bytes": 8307,
+      "entropy": 7.9756,
+      "class": "encrypted-blob",
+      "protected": true
+    },
+    {
+      "path": "assets/com/appsflyer/internal/cc32cb866f63cd58a-",
+      "bytes": 7936,
+      "entropy": 7.9755,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/containers/GTM-PC9W5BW.json",
+      "bytes": 7702,
+      "entropy": 4.6062,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/taxi_images/Artboard_1.png",
+      "bytes": 7292,
+      "entropy": 7.8176,
+      "class": "image",
+      "protected": false
+    },
+    {
+      "path": "assets/com/appsflyer/internal/1a7e8023f147cacac-",
+      "bytes": 7142,
+      "entropy": 7.974,
+      "class": "other",
+      "protected": true
+    },
+    {
+      "path": "assets/taxi_images/Artboard_2.png",
+      "bytes": 6430,
+      "entropy": 7.8166,
+      "class": "image",
+      "protected": false
+    },
+    {
+      "path": "assets/taxi_images/_____1_loading.png",
+      "bytes": 6123,
+      "entropy": 7.9321,
+      "class": "image",
+      "protected": false
+    },
+    {
+      "path": "assets/taxi_images/Layer_3_loading.png",
+      "bytes": 5792,
+      "entropy": 7.9475,
+      "class": "image",
+      "protected": false
+    },
+    {
+      "path": "assets/taxi_images/Layer_2_loading.png",
+      "bytes": 5649,
+      "entropy": 7.9395,
+      "class": "image",
+      "protected": false
+    },
+    {
+      "path": "assets/h5iconfont/titlebar.ttf",
+      "bytes": 5016,
+      "entropy": 6.0034,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/tinyfont/titlebar.ttf",
+      "bytes": 5016,
+      "entropy": 6.0034,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/GriverBridge/h5_bridge.js",
+      "bytes": 4446,
+      "entropy": 5.2735,
+      "class": "javascript",
+      "protected": false
+    },
+    {
+      "path": "assets/internaljsbridge.js",
+      "bytes": 3890,
+      "entropy": 4.8451,
+      "class": "javascript",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/assets.extra/LabelMap.pb",
+      "bytes": 3809,
+      "entropy": 5.0737,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/android_jsbridge.js",
+      "bytes": 3673,
+      "entropy": 4.8622,
+      "class": "javascript",
+      "protected": false
+    },
+    {
+      "path": "assets/jsbridge.js",
+      "bytes": 3634,
+      "entropy": 4.8549,
+      "class": "javascript",
+      "protected": false
+    },
+    {
+      "path": "assets/com/appsflyer/internal/cf2b565222edadded-",
+      "bytes": 3142,
+      "entropy": 7.9402,
+      "class": "other",
+      "protected": false
+    },
+    {
+      "path": "assets/GriverErrorPage/griver_custom_h5_page_error.html",
+      "bytes": 3060,
+      "entropy": 5.7835,
+      "class": "miniapp-runtime",
+      "protected": false
+    },
+    {
+      "path": "assets/containererrorpage/griver_custom_h5_page_error.html",
+      "bytes": 3060,
+      "entropy": 5.7835,
+      "class": "other",
+      "protected": false
+    },
+    {
+      "path": "assets/GriverBridge/cover_component.js",
+      "bytes": 2888,
+      "entropy": 4.3198,
+      "class": "javascript",
+      "protected": false
+    },
+    {
+      "path": "assets/taxi_images/Layer_8_loading.png",
+      "bytes": 2636,
+      "entropy": 7.8784,
+      "class": "image",
+      "protected": false
+    },
+    {
+      "path": "assets/h5iconfont/h5titlebar.ttf",
+      "bytes": 2300,
+      "entropy": 4.7608,
+      "class": "font",
+      "protected": false
+    },
+    {
+      "path": "assets/Griver/appx.json",
+      "bytes": 2178,
+      "entropy": 4.8643,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/dexopt/baseline.profm",
+      "bytes": 1909,
+      "entropy": 7.8839,
+      "class": "other",
+      "protected": false
+    },
+    {
+      "path": "assets/iapconnect_config_full",
+      "bytes": 1688,
+      "entropy": 5.7021,
+      "class": "other",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.bincfg",
+      "bytes": 1118,
+      "entropy": 5.4841,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/GriverBridge/index_inline.html",
+      "bytes": 972,
+      "entropy": 5.08,
+      "class": "miniapp-runtime",
+      "protected": false
+    },
+    {
+      "path": "assets/bshield.dat",
+      "bytes": 929,
+      "entropy": 7.7848,
+      "class": "encrypted-blob",
+      "protected": false
+    },
+    {
+      "path": "assets/models_bundled/MFT_fssd_accgray.pb",
+      "bytes": 793,
+      "entropy": 5.2631,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/models_bundled/MFT_fssd_fastgray.pb",
+      "bytes": 792,
+      "entropy": 5.2666,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/webapp.js",
+      "bytes": 619,
+      "entropy": 4.4243,
+      "class": "javascript",
+      "protected": false
+    },
+    {
+      "path": "assets/GriverTheme/theme.json",
+      "bytes": 584,
+      "entropy": 4.1418,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/taxi_images/Layer_7_loading.png",
+      "bytes": 520,
+      "entropy": 7.2985,
+      "class": "image",
+      "protected": false
+    },
+    {
+      "path": "assets/public.pem",
+      "bytes": 460,
+      "entropy": 5.9152,
+      "class": "public-key",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/detector/region_proposal_text_detector_tflite_vertical_mbv2_v1.bincfg",
+      "bytes": 452,
+      "entropy": 5.6294,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/config/public_key.txt",
+      "bytes": 450,
+      "entropy": 5.8965,
+      "class": "config",
+      "protected": false
+    },
+    {
+      "path": "assets/zoom.public",
+      "bytes": 450,
+      "entropy": 5.8653,
+      "class": "other",
+      "protected": false
+    },
+    {
+      "path": "assets/trueidlib.so",
+      "bytes": 392,
+      "entropy": 7.5008,
+      "class": "other",
+      "protected": false
+    },
+    {
+      "path": "assets/config/signature.txt",
+      "bytes": 350,
+      "entropy": 5.9237,
+      "class": "config",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner_ti.binarypb",
+      "bytes": 334,
+      "entropy": 5.101,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+      "bytes": 333,
+      "entropy": 5.4119,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner.binarypb",
+      "bytes": 331,
+      "entropy": 5.1054,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/bundle.json",
+      "bytes": 312,
+      "entropy": 4.6001,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/GriverBridge/appx_inline_bootstrap_min.js",
+      "bytes": 292,
+      "entropy": 5.0385,
+      "class": "javascript",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+      "bytes": 278,
+      "entropy": 5.3311,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+      "bytes": 276,
+      "entropy": 5.3402,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_recognizer.binarypb",
+      "bytes": 233,
+      "entropy": 5.0604,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/GriverBridge/worker.html",
+      "bytes": 203,
+      "entropy": 4.9763,
+      "class": "miniapp-runtime",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/rpn_text_detection_tflite_mobile_mbv2.binarypb",
+      "bytes": 194,
+      "entropy": 4.7048,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/GriverBridge/create_worker.html",
+      "bytes": 159,
+      "entropy": 4.8486,
+      "class": "miniapp-runtime",
+      "protected": false
+    },
+    {
+      "path": "assets/models_bundled/fssd_anchors_v2.pb",
+      "bytes": 146,
+      "entropy": 3.3328,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/models_bundled/fssd_anchors_v5.pb",
+      "bytes": 144,
+      "entropy": 3.5691,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/taser_script_identification_tflite_mobile.binarypb",
+      "bytes": 136,
+      "entropy": 4.5993,
+      "class": "ml-model",
+      "protected": false
+    },
+    {
+      "path": "assets/safemode_registrator_com_iap_ac_config.json",
+      "bytes": 80,
+      "entropy": 4.4185,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/taibmcf.json",
+      "bytes": 46,
+      "entropy": 4.3546,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/vdfmoer.json",
+      "bytes": 46,
+      "entropy": 4.3546,
+      "class": "config-json",
+      "protected": false
+    },
+    {
+      "path": "assets/mlkit_odt_localizer/mobile_object_localizer_labelmap",
+      "bytes": 22,
+      "entropy": 4.1867,
+      "class": "other",
+      "protected": false
+    }
+  ]
+}
