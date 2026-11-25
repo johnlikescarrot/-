@@ -1,0 +1,9 @@
+# Local analysis workspace and downloaded toolchains; never commit extracted app code.
+.work/
+.venv/
+node_modules/
+
+# Transient render output; final deliverables live in deliverables/.
+render-cache/
+*.log
+.DS_Store
