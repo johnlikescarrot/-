@@ -1,0 +1,19 @@
+# Extracted APK / XAPK contents (copyrighted binaries, do not redistribute)
+work/apk/
+work/extracted/
+*.xapk
+*.apk
+# Original archive is tracked only if already present; do not add extracted copies
+# Node
+video/node_modules/
+video/dist/
+# Python
+__pycache__/
+.venv/
+# Video intermediates (keep final MP4 + poster)
+video/out/frames/
+video/out/*.png
+!video/out/poster.png
+# OS / editor
+.DS_Store
+*.log
