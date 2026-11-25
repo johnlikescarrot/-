@@ -1,0 +1,21 @@
+# Phân tích ngược (working analysis - chứa nhị phân lớn, không commit)
+zalopay_re/
+*.xapk
+*.apk
+*.dex
+*.so
+
+# Node.js
+node_modules/
+.npm
+*.log
+
+# Build/dist
+dist/
+build/
+.next/
+.output/
+
+# OS
+.DS_Store
+Thumbs.db
