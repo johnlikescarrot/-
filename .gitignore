@@ -1,0 +1,15 @@
+# Extracted sample / intermediate artifacts (large, reproducible from the source XAPK)
+work/
+*.xapk
+*.apk
+
+# Build / render intermediates
+video/node_modules/
+video/dist/
+video/*.tsbuildinfo
+output/frames/
+output/audio/*.wav
+output/audio/chunks/
+__pycache__/
+*.pyc
+.venv/
