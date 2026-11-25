@@ -1,0 +1,102 @@
+Starting AnalyzeAPK(vn.com.vng.zalopay.apk)
+Per-dex decompile start: start_i=0 max_files=1 all=False rss=62MB files=['classes.dex']
+=== Processing classes.dex rss=62MB
+  dex classes: total=10703 vn=0 other=10703 rss=277MB
+=== Finished classes.dex rss=277MB
+ALL DONE
+Per-dex decompile start: all=False rss=62MB files=['classes3.dex', 'classes6.dex', 'classes7.dex', 'classes9.dex']
+=== Processing classes3.dex rss=62MB
+  dex classes: total=1081 vn=226 other=855 rss=83MB
+    FAIL Lvn/com/zalopay/nfc_sdk/nfc_in_house/BottomSheetNFC;: 'DEX' object has no attribute 'decompiler'
+    [vn] 0/226 ok=0 fail=1 rss=124MB
+    FAIL Lvn/com/zalopay/nfc_sdk/nfc_in_house/api/ChipError;: 'DEX' object has no attribute 'decompiler'
+    FAIL Lvn/com/zalopay/nfc_sdk/nfc_in_house/crypto/AESCipherError;: 'DEX' object has no attribute 'decompiler'
+  classes3.dex[vn] done ok=0 fail=226 rss=124MB
+=== Finished classes3.dex rss=124MB
+=== Processing classes6.dex rss=124MB
+  dex classes: total=5475 vn=175 other=5300 rss=293MB
+    FAIL Lvn/ai/faceauth/sdk/presentation/domain/configs/ConfigEndPoint;: 'DEX' object has no attribute 'decompiler'
+    [vn] 0/175 ok=0 fail=1 rss=645MB
+    FAIL Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessResponse;: 'DEX' object has no attribute 'decompiler'
+    FAIL Lvn/ai/trueid/lottie/FontAssetDelegate;: 'DEX' object has no attribute 'decompiler'
+  classes6.dex[vn] done ok=0 fail=175 rss=645MB
+=== Finished classes6.dex rss=645MB
+=== Processing classes7.dex rss=645MB
+  dex classes: total=12953 vn=1274 other=11679 rss=820MB
+    FAIL Lvn/a;: 'DEX' object has no attribute 'decompiler'
+    [vn] 0/1274 ok=0 fail=1 rss=1396MB
+    FAIL Lvn/ai/faceauth/sdk/BuildConfig;: 'DEX' object has no attribute 'decompiler'
+    FAIL Lvn/ai/faceauth/sdk/R$color;: 'DEX' object has no attribute 'decompiler'
+    [vn] 500/1274 ok=0 fail=501 rss=1396MB
+    [vn] 1000/1274 ok=0 fail=1001 rss=1396MB
+  classes7.dex[vn] done ok=0 fail=1274 rss=1396MB
+=== Finished classes7.dex rss=1396MB
+=== Processing classes9.dex rss=1396MB
+  dex classes: total=1128 vn=200 other=928 rss=1396MB
+    FAIL Lvn/com/vng/zalopay/bankbinding/data/repository/mapper/FundManagementDataMapperKt$toEntity$$inlined$parseJsonSafely$1;: 'DEX' object has no attribute 'decompiler'
+    [vn] 0/200 ok=0 fail=1 rss=1396MB
+    FAIL Lvn/com/vng/zalopay/bankbinding/data/repository/mapper/FundManagementDataMapperKt$toEntity$$inlined$parseJsonSafely$2;: 'DEX' object has no attribute 'decompiler'
+    FAIL Lvn/com/vng/zalopay/bankbinding/data/storage/SupportBankStorageImpl$getBankList$type$1;: 'DEX' object has no attribute 'decompiler'
+  classes9.dex[vn] done ok=0 fail=200 rss=1396MB
+=== Finished classes9.dex rss=1396MB
+ALL DONE
+Per-dex decompile start: all=False rss=62MB files=['classes3.dex', 'classes6.dex', 'classes7.dex', 'classes9.dex']
+=== Processing classes3.dex rss=62MB
+  dex classes: total=1081 vn=226 other=855 rss=83MB
+    FAIL Lvn/com/zalopay/nfc_sdk/nfc_in_house/BottomSheetNFC;: 'DEX' object has no attribute 'decompiler_ob'
+    [vn] 0/226 ok=0 fail=1 rss=124MB
+    FAIL Lvn/com/zalopay/nfc_sdk/nfc_in_house/api/ChipError;: 'DEX' object has no attribute 'decompiler_ob'
+    FAIL Lvn/com/zalopay/nfc_sdk/nfc_in_house/crypto/AESCipherError;: 'DEX' object has no attribute 'decompiler_ob'
+  classes3.dex[vn] done ok=0 fail=226 rss=124MB
+=== Finished classes3.dex rss=124MB
+=== Processing classes6.dex rss=124MB
+  dex classes: total=5475 vn=175 other=5300 rss=293MB
+    FAIL Lvn/ai/faceauth/sdk/presentation/domain/configs/ConfigEndPoint;: 'DEX' object has no attribute 'decompiler_ob'
+    [vn] 0/175 ok=0 fail=1 rss=645MB
+    FAIL Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessResponse;: 'DEX' object has no attribute 'decompiler_ob'
+    FAIL Lvn/ai/trueid/lottie/FontAssetDelegate;: 'DEX' object has no attribute 'decompiler_ob'
+  classes6.dex[vn] done ok=0 fail=175 rss=645MB
+=== Finished classes6.dex rss=645MB
+=== Processing classes7.dex rss=645MB
+  dex classes: total=12953 vn=1274 other=11679 rss=820MB
+    FAIL Lvn/a;: 'DEX' object has no attribute 'decompiler_ob'
+    [vn] 0/1274 ok=0 fail=1 rss=1396MB
+    FAIL Lvn/ai/faceauth/sdk/BuildConfig;: 'DEX' object has no attribute 'decompiler_ob'
+    FAIL Lvn/ai/faceauth/sdk/R$color;: 'DEX' object has no attribute 'decompiler_ob'
+    [vn] 500/1274 ok=0 fail=501 rss=1396MB
+    [vn] 1000/1274 ok=0 fail=1001 rss=1396MB
+  classes7.dex[vn] done ok=0 fail=1274 rss=1396MB
+=== Finished classes7.dex rss=1396MB
+=== Processing classes9.dex rss=1396MB
+  dex classes: total=1128 vn=200 other=928 rss=1396MB
+    FAIL Lvn/com/vng/zalopay/bankbinding/data/repository/mapper/FundManagementDataMapperKt$toEntity$$inlined$parseJsonSafely$1;: 'DEX' object has no attribute 'decompiler_ob'
+    [vn] 0/200 ok=0 fail=1 rss=1396MB
+    FAIL Lvn/com/vng/zalopay/bankbinding/data/repository/mapper/FundManagementDataMapperKt$toEntity$$inlined$parseJsonSafely$2;: 'DEX' object has no attribute 'decompiler_ob'
+    FAIL Lvn/com/vng/zalopay/bankbinding/data/storage/SupportBankStorageImpl$getBankList$type$1;: 'DEX' object has no attribute 'decompiler_ob'
+  classes9.dex[vn] done ok=0 fail=200 rss=1396MB
+=== Finished classes9.dex rss=1396MB
+ALL DONE
+Per-dex decompile start: all=False rss=62MB files=['classes3.dex', 'classes6.dex', 'classes7.dex', 'classes9.dex']
+=== Processing classes3.dex rss=62MB
+  dex classes: total=1081 vn=226 other=855 rss=83MB
+    [vn] 0/226 ok=1 fail=0 rss=124MB
+  classes3.dex[vn] done ok=226 fail=0 rss=152MB
+=== Finished classes3.dex rss=152MB
+=== Processing classes6.dex rss=152MB
+  dex classes: total=5475 vn=175 other=5300 rss=295MB
+    [vn] 0/175 ok=1 fail=0 rss=645MB
+  classes6.dex[vn] done ok=175 fail=0 rss=673MB
+=== Finished classes6.dex rss=673MB
+=== Processing classes7.dex rss=673MB
+  dex classes: total=12953 vn=1274 other=11679 rss=821MB
+    [vn] 0/1274 ok=1 fail=0 rss=1396MB
+    [vn] 500/1274 ok=501 fail=0 rss=1446MB
+    [vn] 1000/1274 ok=1001 fail=0 rss=1503MB
+  classes7.dex[vn] done ok=1274 fail=0 rss=1530MB
+=== Finished classes7.dex rss=1530MB
+=== Processing classes9.dex rss=1530MB
+  dex classes: total=1128 vn=200 other=928 rss=1530MB
+    [vn] 0/200 ok=1 fail=0 rss=1530MB
+  classes9.dex[vn] done ok=200 fail=0 rss=1530MB
+=== Finished classes9.dex rss=1530MB
+ALL DONE

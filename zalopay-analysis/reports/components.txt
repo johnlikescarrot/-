@@ -1,0 +1,368 @@
+
+==================== activities (200) ====================
+[1] activity: vn.com.vng.zalopay.miniapp.ui.MiniAppActivity
+[2] activity: vn.com.vng.zalopay.miniapp.error.NoWebViewSdkActivity
+[3] activity: vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2
+    intent-filter: actions=['android.intent.action.MAIN'] categories=['android.intent.category.LAUNCHER']
+        autoVerify=None
+    intent-filter: actions=['android.intent.action.VIEW'] categories=['android.intent.category.BROWSABLE', 'android.intent.category.DEFAULT']
+        schemes=['https'] hosts=['go.zalopay.vn'] mimes=['']
+        autoVerify=true
+    intent-filter: actions=['android.intent.action.VIEW', 'android.nfc.action.NDEF_DISCOVERED'] categories=['android.intent.category.BROWSABLE', 'android.intent.category.DEFAULT']
+        schemes=['https'] hosts=['onelink.zalopay.vn'] mimes=['']
+        autoVerify=true
+    intent-filter: actions=['android.intent.action.VIEW'] categories=['android.intent.category.BROWSABLE', 'android.intent.category.DEFAULT']
+        schemes=['https'] hosts=['kmzalopay.onelink.me'] mimes=['']
+        autoVerify=true
+    intent-filter: actions=['android.intent.action.VIEW'] categories=['android.intent.category.BROWSABLE', 'android.intent.category.DEFAULT']
+        schemes=['https'] hosts=['km.zalopay.vn'] mimes=['']
+        autoVerify=true
+    intent-filter: actions=['android.intent.action.VIEW'] categories=['android.intent.category.BROWSABLE', 'android.intent.category.DEFAULT']
+        schemes=['zalopay'] hosts=['app'] mimes=['']
+        autoVerify=true
+    intent-filter: actions=['android.intent.action.VIEW'] categories=['android.intent.category.DEFAULT', 'android.intent.category.BROWSABLE']
+        schemes=['zalopay-vnpay'] hosts=[''] mimes=['']
+        autoVerify=None
+[4] activity: vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity
+    intent-filter: actions=['com.google.android.payments.standard.AUTHENTICATE_V1'] categories=['android.intent.category.DEFAULT']
+        autoVerify=None
+[5] activity: vn.com.vng.zalopay.ui.activity.HomeActivity
+[6] activity: vn.com.vng.zalopay.webview.ui.WebViewActivity
+    intent-filter: actions=['vn.zalopay.intent.action.WEBVIEW'] categories=['android.intent.category.DEFAULT']
+        autoVerify=None
+[7] activity: vn.com.vng.zalopay.webview.ui.ResetPinWebViewActivity
+[8] activity: vn.com.vng.zalopay.webview.ui.HomeSearchWebViewActivity
+[9] activity: vn.com.vng.zalopay.webview.ui.BalanceLiquidationWebViewActivity
+[10] activity: vn.com.vng.zalopay.webview.ui.VerificationAtBankCounterWebViewActivity
+[11] activity: vn.com.vng.zalopay.webview.ui.update_personal_info.UpdatePersonalInfoWebViewActivity
+[12] activity: vn.com.vng.zalopay.webapp.activity.UpdatePhoneWebAppActivity
+[13] activity: vn.com.vng.zalopay.webapp.activity.ManualResetPinWebAppActivity
+[14] activity: vn.com.vng.zalopay.webapp.activity.WebAppExternalActivity
+[15] activity: vn.com.vng.zalopay.protect.ui.ProtectAccountActivity
+[16] activity: vn.com.vng.zalopay.logindevice.LoginDevicesActivity
+[17] activity: vn.com.vng.zalopay.clearing.ClearingAccountActivity
+[18] activity: com.zing.zalo.zalosdk.oauth.WebLoginActivity
+[19] activity: vn.com.vng.zalopay.core.ui.activity.TutorialConnectInternetActivity
+[20] activity: vn.com.vng.zalopay.lockscreen.LockScreenActivity
+[21] activity: vn.com.vng.zalopay.appinfo.AppInfoActivity
+[22] activity: vn.com.vng.zalopay.passport.ForceUpdatePhoneActivity
+[23] activity: vn.com.vng.zalopay.behaviorguideline.LoginGuidelineActivity
+[24] activity: vn.com.vng.zalopay.closeaccount.presentation.ui.CloseAccountActivity
+[25] activity: vn.com.vng.zalopay.logindevice.DeviceVerificationActivity
+[26] activity: vn.com.vng.zalopay.passport.LockAccountActivity
+[27] activity: vn.com.vng.zalopay.reformkyc.presentation.ui.ReformKycActivity
+[28] activity: vn.com.vng.zalopay.feature.ui.FeatureModuleRoutingActivity
+[29] activity: vn.com.vng.zalopay.camera.CustomDefaultCamera
+[30] activity: vn.com.vng.zalopay.ui.balance.activity.BalanceActivity
+[31] activity: vn.com.vng.zalopay.cashier.buffer.CashierBufferActivity
+[32] activity: vn.com.vng.zalopay.cashier.middle.CashierMiddlePageActivity
+[33] activity: vn.com.vn.zalopay.upgrade_user_profile.presentation.ReformKycActivity
+[34] activity: vn.com.vng.zalopay.user_profile.presentation.profiledetails.ProfileDetailsActivity
+[35] activity: vn.com.vng.zalopay.user_profile.presentation.profiledetailv2.ProfileDetailsV2Activity
+[36] activity: vn.com.vng.zalopay.user_profile.presentation.additionalinfo.AdditionalProfileInfoActivity
+[37] activity: vn.com.vng.zalopay.user_profile.presentation.editheaderinfo.EditAvatarAndNameActivity
+[38] activity: vn.com.vng.zalopay.user_profile.presentation.camera.CameraAutoRotationImage
+[39] activity: vn.com.vng.zalopay.user_profile.presentation.protectaccount.AccountSecurityActivity
+[40] activity: vn.com.vng.zalopay.user_profile.presentation.umminiapps.UMMiniAppActivity
+[41] activity: vn.com.vng.zalopay.user_profile.presentation.umminiapps.DebugAuditActivity
+[42] activity: vn.com.vng.zalopay.homev5.presenter.ui.routing.HomeRoutingActivity
+[43] activity: vn.com.vng.zalopay.homev5.presenter.ui.home.HomeActivity
+[44] activity: vn.com.vng.zalopay.homev5.presenter.ui.onboarding.OnboardingActivity
+[45] activity: vn.com.vng.zalopay.homev5.presenter.ui.ekyc_intro.EkycIntroActivity
+[46] activity: vn.com.vng.zalopay.homev5.presenter.ui.story_collections_player.StoryCollectionsPlayerActivity
+[47] activity: vn.com.vng.zalopay.scanqr.presentation.v2.ScanQRActivityV2
+[48] activity: vn.com.vng.zalopay.scancode.presentation.ScanCodeActivity
+[49] activity: vn.com.vng.zalopay.alipay.presentation.AlipayEmptyScanQRActivity
+[50] activity: vn.com.vng.zalopay.alipay.presentation.dialog.AlipayErrorDialogActivity
+[51] activity: vn.com.vng.zalopay.homev4.presentation.ui.recommendsystem.RecommendSystemActivity
+[52] activity: vn.com.vng.zalopay.homev4.presentation.ui.onboarding.HomeOnBoardingActivity
+[53] activity: vn.com.vng.zalopay.home_more.presentation.ui.home_more.HomeMoreActivity
+[54] activity: vn.com.vng.zalopay.search.presentation.ui.search.SearchActivity
+[55] activity: vn.com.zalopay.ekycpro.presentation.main.MainEKycActivity
+[56] activity: vn.com.zalopay.ekycpro.presentation.nfc.MainNFCFeatureActivity
+[57] activity: vn.com.zalopay.ekycpro.presentation.guardian_consent.GuardianInfoActivity
+[58] activity: vn.com.zalopay.ekycpro.presentation.selfie.SelfieActivity
+[59] activity: vn.com.zalopay.ekycpro.presentation.bca.ui.activity.BcaActivity
+[60] activity: vn.com.zalopay.balance_liquidation.presentation.BalanceLiquidationActivity
+[61] activity: vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity
+    intent-filter: actions=['android.intent.action.VIEW'] categories=['android.intent.category.DEFAULT', 'android.intent.category.BROWSABLE']
+        schemes=['https'] hosts=['go.zalopay.vn'] mimes=['']
+        autoVerify=true
+[62] activity: vn.com.vng.zalopay.profile_tab_v2.presentation.ui.account.AccountHostActivity
+[63] activity: vn.com.vng.zalopay.profile_tab_v2.presentation.ui.privacy.PrivacyHubActivity
+[64] activity: vn.com.vng.zalopay.pdfviewer.PdfViewerActivity
+[65] activity: vn.com.vng.zalopay.permission.notification.presentation.NotificationPermissionActivity
+[66] activity: vn.com.vng.zalopay.permission.location.presentation.LocationPermissionActivity
+[67] activity: vn.com.vng.zalopay.skewface.presentation.activity.SkewFaceActivity
+[68] activity: vn.com.vng.zalopay.nfc.FundingSolutionNFCActivity
+[69] activity: vn.com.vng.zalopay.my_qr.MyQRActivity
+[70] activity: vn.com.vng.zalopay.quickpay_native.presentation.ui.QuickPayNativeActivity
+[71] activity: vn.com.vng.zalopay.pay_by_wallet_native.presentation.ui.PayByWalletReadyToPayActivity
+[72] activity: vn.com.vng.zalopay.storage_management.presentation.StorageManagementActivity
+[73] activity: vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity
+    intent-filter: actions=['android.intent.action.SEND'] categories=['android.intent.category.DEFAULT']
+        schemes=[''] hosts=[''] mimes=['image/*']
+        autoVerify=None
+[74] activity: vn.com.vng.zalopay.receive_money.ReceiveMoneyActivity
+[75] activity: vn.com.zalopay.reset_pin.presentation.ui.ResetPinContainerViewActivity
+[76] activity: vn.com.zalopay.reset_pin.presentation.pin_creation.CreatePinActivity
+[77] activity: vn.com.zalopay.owner_verification.presentation.ui.OVContainerViewActivity
+[78] activity: vn.com.zalopay.auth.presentation.faceauth.components.selfdev.ui.SelfDevCameraActivity
+[79] activity: vn.com.zalopay.auth.presentation.faceauth.FaceAuthActivity
+[80] activity: vn.com.zalopay.auth.presentation.otp.OTPChallengeActivity
+[81] activity: vn.com.zalopay.auth.presentation.otp.popup.OTPChallengeRootActivity
+[82] activity: vn.com.zalopay.auth.presentation.smartotp.SmartOTPActivity
+[83] activity: vn.com.zalopay.auth.presentation.mfa.view.AuthUIHolderActivity
+[84] activity: vn.com.zalopay.ce_ticket.presentation.ui.CETicketContainerActivity
+[85] activity: vn.com.vng.zalopay.livenessdetection.presentation.FaceLivenessCameraXActivity
+[86] activity: vn.com.vng.zalopay.livenessdetection.presentation.face_auth_revamp.FaceLivenessRevampActivity
+[87] activity: vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity
+    intent-filter: actions=['vn.com.vng.zalopay.ACTION_OPEN_ML_EXTRACT_ID_CARD'] categories=['android.intent.category.DEFAULT']
+        autoVerify=None
+[88] activity: vn.com.vng.zalopay.livenessdetection.presentation.qrcode.QRCodeScannerActivity
+[89] activity: vn.com.zalopay.nfc_sdk.nfc_in_house.BottomSheetNFC
+[90] activity: vn.com.vng.zalopay.tenpay.TPGPaymentActivity
+[91] activity: vn.com.vng.zalopay.tenpay.image_preview.ImagePreviewActivity
+[92] activity: vn.zalopay.ui.um_custom_loading.FullScreenLoadingActivity
+[93] activity: vn.zalopay.ui.um_custom_loading.CenterLoadingActivity
+[94] activity: com.zing.zalo.zalosdk.oauth.OpenAPIActivity
+[95] activity: com.facebook.FacebookActivity
+[96] activity: com.facebook.CustomTabMainActivity
+[97] activity: com.facebook.CustomTabActivity
+    intent-filter: actions=['android.intent.action.VIEW'] categories=['android.intent.category.DEFAULT', 'android.intent.category.BROWSABLE']
+        schemes=['fbconnect'] hosts=['cct.vn.com.vng.zalopay'] mimes=['']
+        autoVerify=None
+[98] activity: vn.com.vng.zalopay.inapp_webview.InternalWebViewActivity
+[99] activity: com.karumi.dexter.DexterActivity
+[100] activity: com.android.billingclient.api.ProxyBillingActivity
+[101] activity: com.android.billingclient.api.ProxyBillingActivityV2
+[102] activity: com.google.android.gms.tagmanager.TagManagerPreviewActivity
+    intent-filter: actions=['android.intent.action.VIEW'] categories=['android.intent.category.DEFAULT', 'android.intent.category.BROWSABLE']
+        schemes=['tagmanager.c.vn.com.vng.zalopay'] hosts=[''] mimes=['']
+        autoVerify=None
+[103] activity: com.google.android.gms.common.api.GoogleApiActivity
+[104] activity: androidx.glance.appwidget.action.ActionTrampolineActivity
+[105] activity: androidx.glance.appwidget.action.InvisibleActionTrampolineActivity
+[106] activity: com.google.android.gms.ads.AdActivity
+[107] activity: com.google.android.gms.ads.OutOfContextTestingActivity
+[108] activity: com.google.android.gms.ads.NotificationHandlerActivity
+[109] activity: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+    intent-filter: actions=['android.intent.action.MAIN'] categories=[]
+        autoVerify=None
+[110] activity: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+    intent-filter: actions=['android.intent.action.MAIN'] categories=[]
+        autoVerify=None
+[111] activity: androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+    intent-filter: actions=['android.intent.action.MAIN'] categories=[]
+        autoVerify=None
+[112] activity: androidx.compose.ui.tooling.PreviewActivity
+[113] activity: com.facebook.ads.AudienceNetworkActivity
+[114] activity: com.iap.android.mppclient.container.activity.ACContainerActivity
+[115] activity: com.iap.android.mppclient.container.activity.H5NetworkCheckActivity
+[116] activity: yydamachy.xqcntsk
+[117] activity: com.vnpay.vntaxi.ui.activities.splash.SplashActivity
+[118] activity: com.vnpay.vntaxi.ui.activities.address.SelectAddressActivity
+[119] activity: com.vnpay.vntaxi.ui.activities.address.setting.DetailAddressActivity
+[120] activity: com.vnpay.vntaxi.ui.activities.book.BookActivity
+[121] activity: com.vnpay.vntaxi.ui.activities.address.search.SearchAddressActivity
+[122] activity: com.vnpay.vntaxi.ui.activities.address.setting.AddressSettingActivity
+[123] activity: com.vnpay.vntaxi.ui.activities.address.search.SearchOnMapActivity
+[124] activity: com.vnpay.vntaxi.ui.activities.address.setting.ChooseAddressActivity
+[125] activity: com.vnpay.vntaxi.ui.activities.DetailBookTaxiActivity
+[126] activity: com.vnpay.vntaxi.ui.activities.history.TaxiHistoryActivity
+[127] activity: com.vnpay.vntaxi.ui.activities.history.DetailHistoryTaxiActivity
+[128] activity: com.vnpay.vntaxi.ui.activities.TaxiBrowserActivity
+[129] activity: com.vnpay.vntaxi.ui.activities.TaxiWebviewLinkActivity
+[130] activity: com.vnpay.vntaxi.ui.activities.voucher.list.VoucherListActivity
+[131] activity: com.vnpay.vntaxi.ui.activities.voucher.detail.VoucherDetailActivity
+[132] activity: com.vnpay.vntaxi.ui.activities.note.note.ClientNoteActivity
+[133] activity: com.vnpay.vntaxi.ui.activities.note.invoice.ExtractInvoiceActivity
+[134] activity: com.vnpay.vntaxi.ui.activities.airport.TaxiAirportActivity
+[135] activity: com.vnpay.vntaxi.ui.activities.address.search.ConfirmOnMapActivity
+[136] activity: com.vnpay.vntaxi.ui.activities.selectpartner.TaxiBrandActivity
+[137] activity: com.vnpay.vntaxi.ui.activities.report.FastReportTaxiActivity
+[138] activity: com.vnpay.vntaxi.ui.fragments.book.TaxiHelpMethodActivity
+[139] activity: com.vnpay.vntaxi.ui.activities.insurance.TaxiInsuranceActivity
+[140] activity: com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+[141] activity: com.fpt.fci.ekycfull.presentation.view.EkycActivity
+[142] activity: vn.ai.trueid.sdk.activity.TrueIDActivity
+[143] activity: vn.ai.trueid.sdk.facev3.present.presentation.LivenessCameraXActivity
+[144] activity: vn.ai.trueid.sdk.activity.SotpConfirmActivity
+[145] activity: vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity
+[146] activity: com.alibaba.griver.ui.jsapi.picker.nebula.wheelview.multilevel.MultilevelSelectActivity
+[147] activity: com.alibaba.griver.core.ui.activity.GriverBaseActivity$Main
+[148] activity: com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back1
+[149] activity: com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back2
+[150] activity: com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back3
+[151] activity: com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back4
+[152] activity: com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back5
+[153] activity: com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back6
+[154] activity: com.alibaba.griver.core.ui.activity.GriverFileChooserActivity
+[155] activity: com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite1
+[156] activity: com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite2
+[157] activity: com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite3
+[158] activity: com.alibaba.griver.core.ui.activity.GriverTransActivity$Main
+[159] activity: com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite1
+[160] activity: com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite2
+[161] activity: com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite3
+[162] activity: com.alibaba.griver.core.ui.activity.GriverTransActivity$Back1
+[163] activity: com.alibaba.griver.core.ui.activity.GriverTransActivity$Back2
+[164] activity: com.alibaba.griver.core.ui.activity.GriverTransActivity$Back3
+[165] activity: com.alibaba.griver.core.ui.activity.GriverTransActivity$Back4
+[166] activity: com.alibaba.griver.core.ui.activity.GriverTransActivity$Back5
+[167] activity: com.alibaba.griver.core.ui.activity.GriverTransActivity$Back6
+[168] activity: com.alibaba.griver.core.keepalive.GriverProxyActivity
+[169] activity: com.alibaba.griver.image.activity.GriverPhotoSelectActivity
+[170] activity: com.alibaba.griver.image.activity.GriverPhotoPreviewActivity
+[171] activity: com.alibaba.griver.image.activity.GriverVideoPreviewActivity
+[172] activity: com.alibaba.griver.image.activity.GriverCaptureActivity
+[173] activity: com.alibaba.griver.image.activity.GriverCapturePreviewActivity
+[174] activity: com.alibaba.griver.device.ui.GriverOpenSettingActivity
+[175] activity: com.alibaba.griver.file.ui.FileViewerActivity
+[176] activity: com.iap.ac.android.acs.plugin.downgrade.ui.ErrorPageActivity
+[177] activity: vn.com.vng.zalopay.changepin.presentation.ui.activity.ChangePinActivity
+[178] activity: vn.com.vng.zalopay.resetpin.presentation.ui.activity.ResetPinActivity
+[179] activity: vn.com.vng.zalopay.loginv2.presentation.ui.login.LoginActivity
+[180] activity: vn.com.vng.zalopay.loginv2.presentation.ui.upgradeuserk0k1.UpgradeUserK0K1Activity
+[181] activity: vn.com.vng.zalopay.loginv2.presentation.ui.otp.OtpVerificationActivity
+[182] activity: vn.com.vng.zalopay.loginv2.presentation.ui.webview.LoginWebViewActivity
+[183] activity: vn.com.vng.zalopay.cashier.presentation.ui.main.MainCashierV2Activity
+[184] activity: vn.com.vng.zalopay.cashier.presentation.ui.otp.DOtpErrorActivity
+[185] activity: vn.com.vng.zalopay.cashier.presentation.ui.web.activity.CashierWebActivity
+[186] activity: vn.com.vng.zalopay.cashier.presentation.newui.CashierNewUIActivity
+[187] activity: vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankBindingActivity
+[188] activity: vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankMediaWebViewActivity
+[189] activity: vn.com.vng.zalopay.bankbinding.presentation.ui.activity.FundManagementActivity
+[190] activity: vn.com.vng.zalopay.updatephone.presentation.ui.UpdatePhoneActivity
+[191] activity: vn.com.vng.zalopay.cashin.presentation.ui.activity.CashInActivity
+[192] activity: vn.com.vng.resultpage.presentation.ui.activity.ResultPageV2Activity
+[193] activity: vn.com.vng.resultpage.presentation.ui.webview.RPWebActivity
+[194] activity: vn.com.vng.resultpage.presentation.newui.ResultPageNewUIActivity
+[195] activity: vn.com.vng.resultpage.presentation.newuinative.ResultPageNativeActivity
+[196] activity: vn.com.vng.zalopay.withdraw.presentation.ui.activity.WithdrawActivity
+[197] activity: vn.com.vng.zalopay.cashier_v3.presentation.main.activity.CashierV3Activity
+[198] activity: vn.com.vng.zalopay.result_page_v3.presentation.main.activity.ResultPageV3Activity
+[199] activity: vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity
+[200] activity: amcsetxek.dmayljy
+
+==================== services (34) ====================
+[1] service: vn.com.vng.zalopay.notification.MyFcmListenerService
+    intent-filter: actions=['com.google.firebase.MESSAGING_EVENT'] categories=[]
+        autoVerify=None
+[2] service: vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService
+    intent-filter: actions=['android.nfc.cardemulation.action.HOST_APDU_SERVICE'] categories=['android.intent.category.DEFAULT']
+        autoVerify=None
+[3] service: com.google.firebase.components.ComponentDiscoveryService
+[4] service: com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+[5] service: com.google.android.gms.tagmanager.TagManagerService
+[6] service: com.google.firebase.messaging.FirebaseMessagingService
+    intent-filter: actions=['com.google.firebase.MESSAGING_EVENT'] categories=[]
+        autoVerify=None
+[7] service: com.google.firebase.sessions.SessionLifecycleService
+[8] service: com.google.android.gms.measurement.AppMeasurementService
+[9] service: com.google.android.gms.measurement.AppMeasurementJobService
+[10] service: androidx.camera.core.impl.MetadataHolderService
+[11] service: androidx.glance.appwidget.GlanceRemoteViewsService
+[12] service: com.google.android.gms.ads.AdService
+[13] service: androidx.work.impl.background.systemalarm.SystemAlarmService
+[14] service: androidx.work.impl.background.systemjob.SystemJobService
+[15] service: androidx.work.impl.foreground.SystemForegroundService
+[16] service: androidx.room.MultiInstanceInvalidationService
+[17] service: androidx.core.widget.RemoteViewsCompatService
+[18] service: com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+[19] service: com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+[20] service: com.vnpay.vntaxi.base.gps.FusedLocationService
+[21] service: com.alibaba.ariver.ipc.RemoteCallService
+[22] service: com.alibaba.exthub.bigdata.service.BigDataMainService
+[23] service: com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService1
+[24] service: com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService2
+[25] service: com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService3
+[26] service: com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService4
+[27] service: com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService5
+[28] service: com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService
+    intent-filter: actions=['android.nfc.cardemulation.action.HOST_APDU_SERVICE'] categories=['android.intent.category.DEFAULT']
+        autoVerify=None
+[29] service: com.alibaba.griver.base.resource.predownload.AppPreDownloadJobSchedulerService
+[30] service: com.alibaba.griver.core.kernel.ipc.server.IpcMsgServerService
+[31] service: com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite1
+[32] service: com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite2
+[33] service: com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite3
+[34] service: com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService
+    intent-filter: actions=['android.nfc.cardemulation.action.HOST_APDU_SERVICE'] categories=['android.intent.category.DEFAULT']
+        autoVerify=None
+
+==================== receivers (22) ====================
+[1] receiver: vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver
+    intent-filter: actions=['com.android.vending.INSTALL_REFERRER'] categories=[]
+        autoVerify=None
+[2] receiver: vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver
+    intent-filter: actions=['android.appwidget.action.APPWIDGET_UPDATE'] categories=[]
+        autoVerify=None
+[3] receiver: vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver
+    intent-filter: actions=['android.appwidget.action.APPWIDGET_UPDATE'] categories=[]
+        autoVerify=None
+[4] receiver: vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver
+    intent-filter: actions=['android.appwidget.action.APPWIDGET_UPDATE'] categories=[]
+        autoVerify=None
+[5] receiver: vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver
+    intent-filter: actions=['android.appwidget.action.APPWIDGET_UPDATE'] categories=[]
+        autoVerify=None
+[6] receiver: com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+    intent-filter: actions=['com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED'] categories=[]
+        autoVerify=None
+[7] receiver: com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+    intent-filter: actions=['com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED'] categories=[]
+        autoVerify=None
+[8] receiver: com.google.firebase.iid.FirebaseInstanceIdReceiver
+    intent-filter: actions=['com.google.android.c2dm.intent.RECEIVE'] categories=[]
+        autoVerify=None
+[9] receiver: com.google.android.gms.measurement.AppMeasurementReceiver
+[10] receiver: androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver
+[11] receiver: androidx.glance.appwidget.UnmanagedSessionReceiver
+[12] receiver: androidx.glance.appwidget.MyPackageReplacedReceiver
+    intent-filter: actions=['android.intent.action.MY_PACKAGE_REPLACED'] categories=[]
+        autoVerify=None
+[13] receiver: androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+[14] receiver: androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+    intent-filter: actions=['android.intent.action.ACTION_POWER_CONNECTED', 'android.intent.action.ACTION_POWER_DISCONNECTED'] categories=[]
+        autoVerify=None
+[15] receiver: androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+    intent-filter: actions=['android.intent.action.BATTERY_OKAY', 'android.intent.action.BATTERY_LOW'] categories=[]
+        autoVerify=None
+[16] receiver: androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+    intent-filter: actions=['android.intent.action.DEVICE_STORAGE_LOW', 'android.intent.action.DEVICE_STORAGE_OK'] categories=[]
+        autoVerify=None
+[17] receiver: androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+    intent-filter: actions=['android.net.conn.CONNECTIVITY_CHANGE'] categories=[]
+        autoVerify=None
+[18] receiver: androidx.work.impl.background.systemalarm.RescheduleReceiver
+    intent-filter: actions=['android.intent.action.BOOT_COMPLETED', 'android.intent.action.TIME_SET', 'android.intent.action.TIMEZONE_CHANGED'] categories=[]
+        autoVerify=None
+[19] receiver: androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+    intent-filter: actions=['androidx.work.impl.background.systemalarm.UpdateProxies'] categories=[]
+        autoVerify=None
+[20] receiver: androidx.work.impl.diagnostics.DiagnosticsReceiver
+    intent-filter: actions=['androidx.work.diagnostics.REQUEST_DIAGNOSTICS'] categories=[]
+        autoVerify=None
+[21] receiver: androidx.profileinstaller.ProfileInstallReceiver
+    intent-filter: actions=['androidx.profileinstaller.action.INSTALL_PROFILE'] categories=[]
+        autoVerify=None
+    intent-filter: actions=['androidx.profileinstaller.action.SKIP_FILE'] categories=[]
+        autoVerify=None
+    intent-filter: actions=['androidx.profileinstaller.action.SAVE_PROFILE'] categories=[]
+        autoVerify=None
+    intent-filter: actions=['androidx.profileinstaller.action.BENCHMARK_OPERATION'] categories=[]
+        autoVerify=None
+[22] receiver: com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+
+==================== providers (10) ====================
+[1] provider: 
+[2] provider: androidx.core.content.FileProvider
+[3] provider: com.facebook.internal.FacebookInitProvider
+[4] provider: com.google.firebase.perf.provider.FirebasePerfProvider
+[5] provider: com.google.mlkit.common.internal.MlKitInitProvider
+[6] provider: com.google.firebase.provider.FirebaseInitProvider
+[7] provider: com.google.android.gms.ads.MobileAdsInitProvider
+[8] provider: androidx.startup.InitializationProvider
+[9] provider: com.facebook.ads.AudienceNetworkContentProvider
+[10] provider: com.alibaba.griver.file.utils.GriverFileProvider
