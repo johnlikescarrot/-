@@ -1,0 +1,21 @@
+{
+  "name": "zalopay-re-video",
+  "version": "1.0.0",
+  "description": "TypeScript pipeline: ZaloPay 11.17.0 reverse-engineering academic video (SVG slides -> PNG -> MP4 with narration)",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "render": "ts-node src/render.ts",
+    "render:built": "node dist/render.js",
+    "mux": "ts-node src/mux.ts",
+    "all": "ts-node src/render.ts && ts-node src/mux.ts"
+  },
+  "dependencies": {
+    "sharp": "^0.34.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.0"
+  }
+}

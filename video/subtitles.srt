@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:45,000
+Xin chào. Đây là video học thuật trình bày nghiên cứu dịch ngược toàn diện ứng dụng ZaloPay phiên bản mười một chấm mười bảy. Chúng tôi phân tích tĩnh ngoại tuyến gói XAPK gồm sáu nghìn bốn trăm bảy mươi mốt mục, từ ZIP gốc qua XAPK tới năm APK chia tách. Video trình bày kiến trúc, bề mặt API, hệ sinh thái mini-app, học máy trên thiết bị và cơ chế bảo mật. Mọi con số đều có thể tái lập từ bảng kiểm kê và các script trong kho mã.
+
+2
+00:00:45,000 --> 00:01:30,000
+ZaloPay không chỉ là ví điện tử. Đó là siêu ứng dụng tích hợp thanh toán QR, chuyển tiền, liên kết ngân hàng, định danh điện tử eKYC, NFC và hàng trăm mini-app. Nghiên cứu đặt năm câu hỏi: cấu trúc đóng gói ra sao, kiến trúc khôi phục được ở mức nào, bề mặt API có gì đặc biệt, bảo mật và học máy triển khai thế nào, và giới hạn đạo đức là gì. Phạm vi chỉ là phân tích tĩnh, không thực thi mã.
+
+3
+00:01:30,000 --> 00:02:15,000
+Phương pháp lấy cảm hứng từ khung REA của morluto, chuyên kiểm kê và trích xuất artifact ngoại tuyến bằng tác nhân. Trong môi trường không có jadx hay apktool, chúng tôi dùng Python thuần: liệt kê ZIP, XAPK, APK, băm SHA hai trăm năm mươi sáu, trích chuỗi UTF tám và UTF mười sáu từ DEX, Manifest và thư viện native. Mọi kết luận đều dẫn tới bằng chứng cụ thể.
+
+4
+00:02:15,000 --> 00:03:00,000
+Chuỗi đóng gói bắt đầu từ ZIP chín mươi tám phẩy tám megabyte, chứa XAPK một trăm lẻ năm phẩy sáu megabyte. XAPK gồm APK cơ sở bảy mươi chín megabyte với sáu nghìn một trăm sáu mươi hai mục, APK native ARM v bảy hai mươi bốn megabyte, hai APK ngôn ngữ Anh và Việt, và APK mật độ xhdpi. DEX chiếm sáu mươi sáu phẩy năm megabyte, tài nguyên ba mươi lăm phẩy chín, assets hai mươi tám phẩy sáu.
+
+5
+00:03:00,000 --> 00:03:45,000
+Manifest nhị phân một trăm hai mươi lăm nghìn byte chứa sáu trăm mười tám chuỗi UTF mười sáu. Ứng dụng xin năm mươi lăm quyền: mạng, định vị, camera, micro, danh bạ, lịch, lưu trữ, sinh trắc, NFC, thanh toán Google Play và quảng cáo. Có hàng trăm Activity cho luồng cashier, liên kết ngân hàng, eKYC, mini-app và Griver. Các dynamic feature cho thấy kiến trúc mô-đun theo tính năng.
+
+6
+00:03:45,000 --> 00:04:30,000
+Mã DEX gồm hai mươi tệp, tổng sáu mươi sáu phẩy năm megabyte. Tệp lớn nhất là classes hai, mười sáu phẩy năm megabyte. Ngôn ngữ chính là Kotlin với coroutines, giao diện Jetpack Compose, điều hướng Navigation Compose, và dependency injection Dagger. Kiến trúc lai gồm lõi native, bundle React Native và runtime mini-program Griver của Alipay.
+
+7
+00:04:30,000 --> 00:05:15,000
+Hai mươi bảy thư viện native ARM v bảy, tất cả ELF ba mươi hai bit. Hai thư viện lớn nhất là libtaibmcf mười hai phẩy sáu megabyte và libfgcpkjvqe sáu phẩy năm, đều chứa BoringSSL và Protobuf, chỉ export JNI OnLoad. Thư viện security lite là Alipay SecurityGuardLite với các hàm mã hóa và ký request. SQLCipher mã hóa cơ sở dữ liệu cục bộ.
+
+8
+00:05:15,000 --> 00:06:00,000
+Bề mặt mạng gồm một trăm bốn mươi hai URL duy nhất. Các máy chủ chính là api, openapi, token, qrpay và bnpl gateway của zalopay chấm vn. Có ba mươi lăm endpoint trong cấu hình, chia thành quản lý người dùng um, giao dịch tpe và CDN. Chế độ kết nối là gRPC qua HTTPS. Danh sách ngân hàng gồm bốn mươi ba ngân hàng, với allowlist 3D Secure của Napas.
+
+9
+00:06:00,000 --> 00:06:45,000
+Hệ sinh thái mini-app gồm ba trăm bảy mươi ba ứng dụng được cấu hình sẵn, mỗi ứng dụng có mã định danh, URL cơ sở, liên kết deep link và thanh điều hướng riêng. Các nhóm lớn nhất là dịch vụ phổ biến tám mươi tám, giải trí bảy mươi bảy và tài chính sáu mươi lăm. Runtime Griver của Alipay cung cấp IPC và dịch vụ NFC cho mini-app.
+
+10
+00:06:45,000 --> 00:07:30,000
+Mười sáu mô hình TensorFlow Lite tổng mười một phẩy bảy megabyte phục vụ nhận diện vật thể, OCR tiếng Việt, quét barcode và nhận diện khuôn mặt. Mô hình lớn nhất là object labeler ba phẩy tám megabyte. Pipeline OCR của ML Kit gồm detector, line recognition và layout. Tất cả chạy trên thiết bị, giúp giảm tải máy chủ và bảo vệ dữ liệu sinh trắc.
+
+11
+00:07:30,000 --> 00:08:15,000
+Bảo mật gồm SQLCipher mã hóa cơ sở dữ liệu, BoringSSL cho truyền tải, khóa RSA hai nghìn lẻ bốn mươi tám bit trong cấu hình, và xác thực sinh trắc. Cầu nối JavaScript gồm ba bridge: ZaloPay, Internal và Alipay, với giao thức call, callback và trigger. Đây là bề mặt tấn công quan trọng nếu WebView tải URL không tin cậy, vì vậy danh sách URL cho phép là kiểm soát then chốt.
+
+12
+00:08:15,000 --> 00:09:00,000
+Bundle React Native nằm trong android chấm một zip, gồm ba trăm hai mươi sáu mục, trong đó main jsbundle ba phẩy sáu megabyte ở chế độ production. Bundle dùng Metro, React Navigation, Redux và các thư viện react native. Nội dung tải từ CDN zalopay và báo lỗi qua Sentry. Một URL localhost của môi trường dev còn sót lại trong bản production cần được loại bỏ.
+
+13
+00:09:00,000 --> 00:09:45,000
+Thảo luận cho thấy ZaloPay là siêu ứng dụng điển hình: kiến trúc lai giúp ra tính năng nhanh, học máy trên thiết bị và mã hóa nhiều lớp. Tuy nhiên kích thước lớn, tên thư viện bị obfuscate và tập quyền rộng đặt ra thách thức. Nghiên cứu chỉ phân tích tĩnh, chỉ trên ARM v bảy, chưa decompile hay kiểm tra runtime. Dữ liệu cá nhân mẫu trong assets đã được che giấu.
+
+14
+00:09:45,000 --> 00:10:30,000
+Kết luận: chúng tôi đã kiểm kê sáu nghìn bốn trăm bảy mươi mốt mục, khôi phục kiến trúc và công bố bằng chứng đầy đủ. Hướng tiếp theo là decompile bằng jadx, phân tích động trong môi trường cô lập với ủy quyền hợp pháp, so sánh liên phiên bản và kiểm thử xâm nhập chính thức cùng VNG. Video này được xuất MP4 với âm thanh thuyết minh, sẵn sàng trích dẫn học thuật.
+
