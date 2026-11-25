@@ -59,11 +59,11 @@ def analyze(apk_path, label):
             out['cert_error'] = str(e)
         out['certificates'] = certs
         # files in apk
-        files = a.get_files()
+        files = list(a.get_files())
         out['file_count'] = len(files)
         # dex
-        dex_names = a.get_dex_names()
-        out['dex_names'] = dex_names
+        dex_names = list(a.get_dex_names())
+        out['dex_names'] = list(dex_names)
         dex_info = []
         class_names = []
         strings_total = 0
