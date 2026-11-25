@@ -1,0 +1,419 @@
+{
+ "generated_at": "2026-11-25T14:49:12.540072+00:00",
+ "entries_scanned": 6464,
+ "content_types": [
+  [
+   "opaque",
+   6406
+  ],
+  [
+   "ELF executable",
+   27
+  ],
+  [
+   "Dalvik DEX",
+   20
+  ],
+  [
+   "ZIP archive",
+   4
+  ],
+  [
+   "gzip",
+   4
+  ],
+  [
+   "PEM key/cert",
+   3
+  ]
+ ],
+ "hidden_executables": [
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/trueidlib.so",
+   "bytes": 392,
+   "hidden_because": "named .so but content is opaque (entropy 7.5 b/B)",
+   "loadable": "no: not a valid ELF; dlopen/System.load will fail"
+  }
+ ],
+ "extension_mismatches": [
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/Griver/66666692_1.24.8.amr",
+   "bytes": 287535,
+   "claimed": ".amr",
+   "actual": "ZIP archive"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/Griver/66666693_2.0.7.amr",
+   "bytes": 17380,
+   "claimed": ".amr",
+   "actual": "ZIP archive"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/Griver/68687209_2.9.7.8.amr",
+   "bytes": 856974,
+   "claimed": ".amr",
+   "actual": "ZIP archive"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/trueidlib.so",
+   "bytes": 392,
+   "claimed": ".so",
+   "actual": "opaque",
+   "entropy": 7.5
+  }
+ ],
+ "model_files": [
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "DebugProbesKt.bin",
+   "bytes": 1738,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/FastestDet.ncnn.bin",
+   "bytes": 2420588,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/FastestDet.ncnn.param",
+   "bytes": 15293,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/custom_models/object_labeler.tflite",
+   "bytes": 3770391,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+   "bytes": 315520,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+   "bytes": 129612,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+   "bytes": 114384,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+   "bytes": 340760,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+   "bytes": 390456,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+   "bytes": 213880,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+   "bytes": 276552,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+   "bytes": 1706957,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+   "bytes": 1254848,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+   "bytes": 231816,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+   "bytes": 232096,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+   "bytes": 613080,
+   "kind": "opaque"
+  },
+  {
+   "apk": "vn.com.vng.zalopay.apk",
+   "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+   "bytes": 613352,
+   "kind": "opaque"
+  }
+ ],
+ "assets_largest": [
+  {
+   "path": "assets/audience_network.dex",
+   "bytes": 4864036
+  },
+  {
+   "path": "assets/android.1.zip",
+   "bytes": 3913966
+  },
+  {
+   "path": "assets/custom_models/object_labeler.tflite",
+   "bytes": 3770391
+  },
+  {
+   "path": "assets/FastestDet.ncnn.bin",
+   "bytes": 2420588
+  },
+  {
+   "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+   "bytes": 1706957
+  },
+  {
+   "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+   "bytes": 1254848
+  },
+  {
+   "path": "assets/models_bundled/contours.tfl",
+   "bytes": 1124144
+  },
+  {
+   "path": "assets/models_bundled/LMprec_600.emd",
+   "bytes": 1078354
+  },
+  {
+   "path": "assets/config/miniapp_config.json",
+   "bytes": 883684
+  },
+  {
+   "path": "assets/Griver/68687209_2.9.7.8.amr",
+   "bytes": 856974
+  },
+  {
+   "path": "assets/fgcpkjvqe.dat",
+   "bytes": 776320
+  },
+  {
+   "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+   "bytes": 613352
+  },
+  {
+   "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+   "bytes": 613080
+  },
+  {
+   "path": "assets/taxi_splash_loading.json",
+   "bytes": 536057
+  },
+  {
+   "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+   "bytes": 390456
+  },
+  {
+   "path": "assets/models_bundled/blazeface.tfl",
+   "bytes": 347928
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+   "bytes": 340760
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+   "bytes": 315520
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+   "bytes": 309568
+  },
+  {
+   "path": "assets/Griver/66666692_1.24.8.amr",
+   "bytes": 287535
+  }
+ ],
+ "res_raw_largest": [
+  {
+   "path": "res/raw/lbfmodel.yaml",
+   "bytes": 3778896
+  },
+  {
+   "path": "res/raw/haarcascade_frontalface_default.xml",
+   "bytes": 1788328
+  },
+  {
+   "path": "res/raw/img_guide_back_id_card.json",
+   "bytes": 1449629
+  },
+  {
+   "path": "res/raw/required_kyc.svg",
+   "bytes": 1436457
+  },
+  {
+   "path": "res/raw/phone_pending.svg",
+   "bytes": 1114729
+  },
+  {
+   "path": "res/raw/anim_location_profile_tab.json",
+   "bytes": 747900
+  },
+  {
+   "path": "res/raw/img_guide_front_id_card.json",
+   "bytes": 555219
+  },
+  {
+   "path": "res/raw/img_anim_fds_nfc_guidance_step1.json",
+   "bytes": 452303
+  },
+  {
+   "path": "res/raw/img_anim_fds_nfc_guidance_step2.json",
+   "bytes": 323238
+  },
+  {
+   "path": "res/raw/img_anim_nfc_guidance_step1.json",
+   "bytes": 284974
+  }
+ ],
+ "js_bridge": [
+  {
+   "path": "assets/GriverBridge/workerjs.js",
+   "bytes": 14360,
+   "postMessage": 2,
+   "prompt": 0,
+   "jsapi": 2,
+   "needs_review": true
+  },
+  {
+   "path": "assets/GriverBridge/h5_bridge.js",
+   "bytes": 4446,
+   "postMessage": 3,
+   "prompt": 0,
+   "jsapi": 4,
+   "needs_review": false
+  },
+  {
+   "path": "assets/internaljsbridge.js",
+   "bytes": 3890,
+   "postMessage": 0,
+   "prompt": 0,
+   "jsapi": 0,
+   "needs_review": false
+  },
+  {
+   "path": "assets/android_jsbridge.js",
+   "bytes": 3673,
+   "postMessage": 0,
+   "prompt": 0,
+   "jsapi": 0,
+   "needs_review": false
+  },
+  {
+   "path": "assets/jsbridge.js",
+   "bytes": 3634,
+   "postMessage": 0,
+   "prompt": 0,
+   "jsapi": 0,
+   "needs_review": false
+  },
+  {
+   "path": "assets/GriverBridge/cover_component.js",
+   "bytes": 2888,
+   "postMessage": 0,
+   "prompt": 0,
+   "jsapi": 0,
+   "needs_review": false
+  },
+  {
+   "path": "res/raw/h5_bridge.js",
+   "bytes": 1875,
+   "postMessage": 0,
+   "prompt": 0,
+   "jsapi": 4,
+   "needs_review": false
+  },
+  {
+   "path": "assets/webapp.js",
+   "bytes": 619,
+   "postMessage": 0,
+   "prompt": 0,
+   "jsapi": 0,
+   "needs_review": false
+  },
+  {
+   "path": "assets/GriverBridge/appx_inline_bootstrap_min.js",
+   "bytes": 292,
+   "postMessage": 0,
+   "prompt": 0,
+   "jsapi": 0,
+   "needs_review": false
+  }
+ ],
+ "nested_bundles": [
+  {
+   "path": "assets/Griver/66666692_1.24.8.amr",
+   "bytes": 287535,
+   "entries": 287535
+  },
+  {
+   "path": "assets/Griver/66666693_2.0.7.amr",
+   "bytes": 17380,
+   "entries": 17380
+  },
+  {
+   "path": "assets/Griver/68687209_2.9.7.8.amr",
+   "bytes": 856974,
+   "entries": 856974
+  },
+  {
+   "path": "assets/android.1.zip",
+   "bytes": 3913966,
+   "entries": 3851147
+  }
+ ],
+ "public_keys": [
+  {
+   "path": "assets/config/public_key.txt",
+   "bytes": 450,
+   "sha256": "ab63708a7b557a1332c31666",
+   "kind": "-----BEGIN PUBLIC KEY-----"
+  },
+  {
+   "path": "assets/public.pem",
+   "bytes": 460,
+   "sha256": "0d4383c52c0f29e7cfee4dc1",
+   "kind": "-----BEGIN PUBLIC KEY-----\r"
+  },
+  {
+   "path": "assets/zoom.public",
+   "bytes": 450,
+   "sha256": "d8f31eca4380e7cd9de16e81",
+   "kind": "-----BEGIN PUBLIC KEY-----"
+  }
+ ],
+ "notes": [
+  "Content magic beats extension: 302 entries re-typed from their first 16 bytes.",
+  "assets/trueidlib.so is an ELF shipped outside lib/: it can only be loaded after extraction to app-writable storage.",
+  "assets/audience_network.dex is a secondary DEX delivered as an asset (Meta Audience Network), loaded via a custom class loader."
+ ]
+}
