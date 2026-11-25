@@ -1,0 +1,15 @@
+# ── Reverse-engineering workspace (regenerable, never committed) ──────────────
+/work/
+/node_modules/
+/.cache/
+*.log
+.DS_Store
+
+# Large media intermediates (final deliverables in /out are committed selectively)
+/out/frames/
+/out/*.tmp*
+/audio/raw/
+
+# Extracted sensitive material — MUST NOT be committed
+/secrets/
+*.keystore
