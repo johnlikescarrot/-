@@ -978,7 +978,7 @@
       },
       {
         "entropy_first_64k": 6.7483,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/custom_models/object_labeler.tflite",
         "sha256": "9400671e04685f52",
         "size": 3770391
@@ -1097,14 +1097,14 @@
       },
       {
         "entropy_first_64k": 6.8034,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/conv_model.fb",
         "sha256": "64aba719b4ed1ee5",
         "size": 40848
       },
       {
         "entropy_first_64k": 3.6378,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
         "sha256": "0ed62e4fbe0fc5c4",
         "size": 309568
@@ -1118,21 +1118,21 @@
       },
       {
         "entropy_first_64k": 6.1476,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
         "sha256": "7f931f6f7c1dd0ec",
         "size": 315520
       },
       {
         "entropy_first_64k": 6.711,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
         "sha256": "ecda697ed244c576",
         "size": 129612
       },
       {
         "entropy_first_64k": 6.4967,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
         "sha256": "f42197e656972c33",
         "size": 114384
@@ -1146,7 +1146,7 @@
       },
       {
         "entropy_first_64k": 7.3566,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
         "sha256": "eb811a1290738f13",
         "size": 340760
@@ -1209,35 +1209,35 @@
       },
       {
         "entropy_first_64k": 6.4748,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
         "sha256": "6c7b209f4256ca45",
         "size": 390456
       },
       {
         "entropy_first_64k": 5.5447,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
         "sha256": "8e07cd3b38da1ded",
         "size": 213880
       },
       {
         "entropy_first_64k": 6.541,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
         "sha256": "981c89dcca6aac10",
         "size": 276552
       },
       {
         "entropy_first_64k": 7.6943,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
         "sha256": "479cb95767462b2f",
         "size": 1706957
       },
       {
         "entropy_first_64k": 7.7825,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
         "sha256": "fb5e5188b03c3bc0",
         "size": 1254848
@@ -1293,14 +1293,14 @@
       },
       {
         "entropy_first_64k": 6.9382,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
         "sha256": "57dc1f2a3b9c0c5d",
         "size": 231816
       },
       {
         "entropy_first_64k": 6.9071,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
         "sha256": "d8abae91b0e0af52",
         "size": 232096
@@ -1321,14 +1321,14 @@
       },
       {
         "entropy_first_64k": 6.9227,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
         "sha256": "f0590874fd3a006c",
         "size": 613080
       },
       {
         "entropy_first_64k": 6.93,
-        "magic": "opaque-or-text",
+        "magic": "tflite-flatbuffer",
         "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
         "sha256": "ae2fa78e29441438",
         "size": 613352
@@ -1357,7 +1357,8 @@
     ],
     "model_counts_by_magic": {
       "art-baseline-profile": 1,
-      "opaque-or-text": 44,
+      "opaque-or-text": 28,
+      "tflite-flatbuffer": 16,
       "truetype-font": 12,
       "zip": 3
     },

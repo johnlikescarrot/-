@@ -371,7 +371,8 @@
         ],
         "payload_magic_counts": {
           "art-baseline-profile": 1,
-          "opaque-or-text": 44,
+          "opaque-or-text": 28,
+          "tflite-flatbuffer": 16,
           "truetype-font": 12,
           "zip": 3
         }
@@ -417,6 +418,7 @@
     "manifest.json",
     "nested.json",
     "rea_javascript.json",
+    "report.json",
     "resources.json",
     "signing.json",
     "strings.json",

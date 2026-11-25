@@ -47,7 +47,8 @@ def short_shape(s):
 
 
 def magic_name(b):
-    if b[:4] == b'TFL3': return 'tflite-flatbuffer'
+    if b[:4] == b'PK\x03\x04': return 'zip'
+    if b[4:8] == b'TFL3' or b[:4] == b'TFL3': return 'tflite-flatbuffer'
     if b[:6] == b'#!AMR\n': return 'amr-nb-audio'
     if b[:4] == b'RIFF': return 'riff/rive'
     if b[:4] == b'\x00\x01\x00\x00': return 'truetype-font'
