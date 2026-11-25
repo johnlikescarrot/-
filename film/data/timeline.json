@@ -1,0 +1,263 @@
+{
+ "generated": "2026-11-25T15:06:46.272Z",
+ "total": 316.5,
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "scenes": [
+  {
+   "id": "open",
+   "act": "overture",
+   "title": "Cold open",
+   "start": 0,
+   "dur": 8.5,
+   "evidence": [
+    "01"
+   ]
+  },
+  {
+   "id": "title",
+   "act": "overture",
+   "title": "Title",
+   "start": 8.5,
+   "dur": 16,
+   "evidence": [
+    "01"
+   ]
+  },
+  {
+   "id": "layers",
+   "act": "overture",
+   "title": "Six layers",
+   "start": 24.5,
+   "dur": 15,
+   "evidence": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "09"
+   ]
+  },
+  {
+   "id": "question",
+   "act": "overture",
+   "title": "The question",
+   "start": 39.5,
+   "dur": 15,
+   "evidence": [
+    "03",
+    "09"
+   ]
+  },
+  {
+   "id": "unpack",
+   "act": "artifact",
+   "title": "Container chain",
+   "start": 54.5,
+   "dur": 22,
+   "evidence": [
+    "01"
+   ]
+  },
+  {
+   "id": "mass",
+   "act": "artifact",
+   "title": "Mass composition",
+   "start": 76.5,
+   "dur": 20,
+   "evidence": [
+    "03",
+    "04",
+    "05"
+   ]
+  },
+  {
+   "id": "files",
+   "act": "artifact",
+   "title": "File census",
+   "start": 96.5,
+   "dur": 18,
+   "evidence": [
+    "01",
+    "05"
+   ]
+  },
+  {
+   "id": "components",
+   "act": "identity",
+   "title": "Component census",
+   "start": 114.5,
+   "dur": 20,
+   "evidence": [
+    "02"
+   ]
+  },
+  {
+   "id": "signing",
+   "act": "identity",
+   "title": "Signing identity",
+   "start": 134.5,
+   "dur": 20,
+   "evidence": [
+    "02"
+   ]
+  },
+  {
+   "id": "surface",
+   "act": "identity",
+   "title": "Attack surface",
+   "start": 154.5,
+   "dur": 22,
+   "evidence": [
+    "10"
+   ]
+  },
+  {
+   "id": "dexmass",
+   "act": "code",
+   "title": "DEX mass",
+   "start": 176.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "obfuscation",
+   "act": "code",
+   "title": "Obfuscation",
+   "start": 186.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "firstparty",
+   "act": "code",
+   "title": "First party",
+   "start": 196.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "host",
+   "act": "code",
+   "title": "Miniapp host",
+   "start": 206.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "elfs",
+   "act": "native",
+   "title": "ELF census",
+   "start": 216.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "obfuscated",
+   "act": "native",
+   "title": "Obfuscated libs",
+   "start": 226.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "crypto",
+   "act": "native",
+   "title": "Crypto stack",
+   "start": 236.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "nsc",
+   "act": "trust",
+   "title": "Network security config",
+   "start": 246.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "pinning",
+   "act": "trust",
+   "title": "Pinning",
+   "start": 256.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "capabilities",
+   "act": "trust",
+   "title": "Capabilities",
+   "start": 266.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "verdict",
+   "act": "verdict",
+   "title": "Verdict",
+   "start": 276.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "risks",
+   "act": "verdict",
+   "title": "Risk model",
+   "start": 286.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "method",
+   "act": "verdict",
+   "title": "Method",
+   "start": 296.5,
+   "dur": 10,
+   "evidence": []
+  },
+  {
+   "id": "end",
+   "act": "coda",
+   "title": "End card",
+   "start": 306.5,
+   "dur": 10,
+   "evidence": []
+  }
+ ],
+ "acts": {
+  "overture": {
+   "start": 0,
+   "end": 54.5
+  },
+  "artifact": {
+   "start": 54.5,
+   "end": 114.5
+  },
+  "identity": {
+   "start": 114.5,
+   "end": 176.5
+  },
+  "code": {
+   "start": 176.5,
+   "end": 216.5
+  },
+  "native": {
+   "start": 216.5,
+   "end": 246.5
+  },
+  "trust": {
+   "start": 246.5,
+   "end": 276.5
+  },
+  "verdict": {
+   "start": 276.5,
+   "end": 306.5
+  },
+  "coda": {
+   "start": 306.5,
+   "end": 316.5
+  }
+ }
+}
