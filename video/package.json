@@ -1,0 +1,11 @@
+{
+  "name": "zalopay-research-video",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "preview": "tsx src/render.ts --preview",
+    "render": "tsx src/render.ts"
+  }
+}
