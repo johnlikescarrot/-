@@ -1,0 +1,336 @@
+{
+  "corpus": {
+    "outer": {
+      "file": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+      "bytes": 98813878,
+      "sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a"
+    },
+    "xapk": {
+      "file": "Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk",
+      "bytes": 105608128,
+      "sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d"
+    },
+    "splits": {
+      "config.armeabi_v7a.apk": {
+        "entries": 32,
+        "uncompressed_bytes": 57459525,
+        "compressed_bytes": 24813347,
+        "compression_ratio": 2.316,
+        "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+        "by_bucket": {
+          "manifest": 1,
+          "native": 27,
+          "other": 1,
+          "signature": 3
+        }
+      },
+      "config.en.apk": {
+        "entries": 6,
+        "uncompressed_bytes": 64699,
+        "compressed_bytes": 63915,
+        "compression_ratio": 1.012,
+        "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+        "by_bucket": {
+          "manifest": 1,
+          "resource-table": 1,
+          "other": 1,
+          "signature": 3
+        }
+      },
+      "config.vi.apk": {
+        "entries": 6,
+        "uncompressed_bytes": 78175,
+        "compressed_bytes": 77394,
+        "compression_ratio": 1.01,
+        "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+        "by_bucket": {
+          "manifest": 1,
+          "resource-table": 1,
+          "other": 1,
+          "signature": 3
+        }
+      },
+      "config.xhdpi.apk": {
+        "entries": 258,
+        "uncompressed_bytes": 1329300,
+        "compressed_bytes": 1178129,
+        "compression_ratio": 1.128,
+        "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+        "by_bucket": {
+          "manifest": 1,
+          "resource": 252,
+          "resource-table": 1,
+          "other": 1,
+          "signature": 3
+        }
+      },
+      "vn.com.vng.zalopay.apk": {
+        "entries": 6162,
+        "uncompressed_bytes": 136395610,
+        "compressed_bytes": 78345127,
+        "compression_ratio": 1.741,
+        "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+        "by_bucket": {
+          "manifest": 1,
+          "code": 22,
+          "other": 79,
+          "signature": 180,
+          "asset": 122,
+          "metadata": 153,
+          "resource": 5604,
+          "resource-table": 1
+        }
+      }
+    },
+    "loose_files": [
+      {
+        "file": "icon.png",
+        "bytes": 23841,
+        "sha256": "f0b9d7d1a6144ca550e4d326bc3b6cf93696549675bc624d7774c9879c33d3f0",
+        "type": "png",
+        "type_desc": "Portable Network Graphics",
+        "entropy_first64k": 7.8401
+      },
+      {
+        "file": "manifest.json",
+        "bytes": 2710,
+        "sha256": "1382fb85261a3f58699396b832c4c68e0b206e8188ca835727c4f1f84b511ca0",
+        "type": "data",
+        "type_desc": "unrecognised (high-entropy or proprietary)",
+        "entropy_first64k": 5.1545
+      }
+    ]
+  },
+  "totals": {
+    "layers": 3,
+    "entries_all_layers": 6472,
+    "bytes_all_layers_uncompressed": 399749315,
+    "bytes_on_disk": 310002626
+  },
+  "native": {
+    "AndroidManifest.xml": {
+      "size": 1036,
+      "sha256": "21643435d0129412a1d9662b2d0d33a2",
+      "type": "arsc",
+      "entropy": 3.3653,
+      "csize": 460
+    },
+    "lib/armeabi-v7a/libVFaceLib.so": {
+      "size": 1963668,
+      "sha256": "c6d04f368fe967fb1fd2666519f78cf8",
+      "type": "elf",
+      "entropy": 7.1116,
+      "csize": 966152
+    },
+    "lib/armeabi-v7a/liba97d.so": {
+      "size": 997572,
+      "sha256": "7fe7d830805a1e99f0d3661a99fdad20",
+      "type": "elf",
+      "entropy": 6.2211,
+      "csize": 484043
+    },
+    "lib/armeabi-v7a/libandroidx.graphics.path.so": {
+      "size": 7252,
+      "sha256": "41399eba6fc2a60f6f14642375c1824f",
+      "type": "elf",
+      "entropy": 5.7671,
+      "csize": 4064
+    },
+    "lib/armeabi-v7a/libbarhopper_v3.so": {
+      "size": 3244440,
+      "sha256": "b3c162c69e4906b816227ae116bfd8b9",
+      "type": "elf",
+      "entropy": 7.2147,
+      "csize": 1787700
+    },
+    "lib/armeabi-v7a/libc++_shared.so": {
+      "size": 872872,
+      "sha256": "91b49f121b3120538faff020fcf535ad",
+      "type": "elf",
+      "entropy": 6.8845,
+      "csize": 349046
+    },
+    "lib/armeabi-v7a/libcrashlytics-common.so": {
+      "size": 435732,
+      "sha256": "4b8bcec5c0464d7b1741386e30eef930",
+      "type": "elf",
+      "entropy": 6.906,
+      "csize": 229473
+    },
+    "lib/armeabi-v7a/libcrashlytics-handler.so": {
+      "size": 87908,
+      "sha256": "f58fca61975d2450e8bef2bc4b0ea68e",
+      "type": "elf",
+      "entropy": 6.5162,
+      "csize": 43141
+    },
+    "lib/armeabi-v7a/libcrashlytics-trampoline.so": {
+      "size": 6912,
+      "sha256": "5366393c1292cfb5c8b49bf846e644f8",
+      "type": "elf",
+      "entropy": 4.6584,
+      "csize": 3138
+    },
+    "lib/armeabi-v7a/libcrashlytics.so": {
+      "size": 94540,
+      "sha256": "be0dedcd52a35e717ec0eeb832108e42",
+      "type": "elf",
+      "entropy": 6.5569,
+      "csize": 47002
+    },
+    "lib/armeabi-v7a/libface_detector_v2_jni.so": {
+      "size": 5388224,
+      "sha256": "21e48bd253e1c87edee42bce9a51048a",
+      "type": "elf",
+      "entropy": 7.1486,
+      "csize": 2821904
+    },
+    "lib/armeabi-v7a/libfgcpkjvqe.so": {
+      "size": 6524160,
+      "sha256": "5f72893936adfe712e8355c33c6f453c",
+      "type": "elf",
+      "entropy": 6.2658,
+      "csize": 2394866
+    },
+    "lib/armeabi-v7a/libimage_processing_util_jni.so": {
+      "size": 20380,
+      "sha256": "e48e356bbe1902ae9a66178a4a0141c9",
+      "type": "elf",
+      "entropy": 6.5741,
+      "csize": 12586
+    },
+    "lib/armeabi-v7a/libimagepipeline.so": {
+      "size": 5876,
+      "sha256": "2049c770f0dcca26b20d211f6113ae02",
+      "type": "elf",
+      "entropy": 5.1578,
+      "csize": 2737
+    },
+    "lib/armeabi-v7a/libljsfrcwmw.so": {
+      "size": 600296,
+      "sha256": "12a389806114a18ff57d341e740108eb",
+      "type": "elf",
+      "entropy": 6.4332,
+      "csize": 193311
+    },
+    "lib/armeabi-v7a/liblytcuhe.so": {
+      "size": 178628,
+      "sha256": "a8e59c1d4922f6bce9814667c1566bb1",
+      "type": "elf",
+      "entropy": 6.6293,
+      "csize": 72277
+    },
+    "lib/armeabi-v7a/libmlkit_google_ocr_pipeline.so": {
+      "size": 6781940,
+      "sha256": "06b9e2f587e401c6446aa0db344bb31b",
+      "type": "elf",
+      "entropy": 6.98,
+      "csize": 3513116
+    },
+    "lib/armeabi-v7a/libmlkitcommonpipeline.so": {
+      "size": 6928228,
+      "sha256": "9ab65cd53ed8334fc0fcd09fe3c442f2",
+      "type": "elf",
+      "entropy": 7.1582,
+      "csize": 3675078
+    },
+    "lib/armeabi-v7a/libnative-filters.so": {
+      "size": 12588,
+      "sha256": "b8a2da1df4f33eb83adf9596e5e68c96",
+      "type": "elf",
+      "entropy": 6.3272,
+      "csize": 7022
+    },
+    "lib/armeabi-v7a/libnative-imagetranscoder.so": {
+      "size": 341072,
+      "sha256": "43280a8f3f33529d3558b1f3283fec9b",
+      "type": "elf",
+      "entropy": 6.9594,
+      "csize": 165916
+    },
+    "lib/armeabi-v7a/libohxbee.so": {
+      "size": 155412,
+      "sha256": "2d54a2aa85d81dbfef1e8d01726b1ffd",
+      "type": "elf",
+      "entropy": 6.2457,
+      "csize": 49500
+    },
+    "lib/armeabi-v7a/libpicodet_ncnn.so": {
+      "size": 2992584,
+      "sha256": "442367c2e7f3e5b5f70ed8164f375d63",
+      "type": "elf",
+      "entropy": 7.1811,
+      "csize": 1482877
+    },
+    "lib/armeabi-v7a/librcmefqonnx.so": {
+      "size": 178628,
+      "sha256": "9120dd02a8d94659ea178c0b73b4d029",
+      "type": "elf",
+      "entropy": 6.6295,
+      "csize": 72282
+    },
+    "lib/armeabi-v7a/librive-android.so": {
+      "size": 3225636,
+      "sha256": "ab2dd352553cafb7b7f1a686df8bf33c",
+      "type": "elf",
+      "entropy": 6.4175,
+      "csize": 1320274
+    },
+    "lib/armeabi-v7a/libsecurity_lite.so": {
+      "size": 154840,
+      "sha256": "75c5d69621c5dce9a64e4466ae011ba5",
+      "type": "elf",
+      "entropy": 7.3025,
+      "csize": 117597
+    },
+    "lib/armeabi-v7a/libsqlcipher.so": {
+      "size": 3555080,
+      "sha256": "819c11750f332a8ca0d88f251d0d22d6",
+      "type": "elf",
+      "entropy": 6.6941,
+      "csize": 1875931
+    },
+    "lib/armeabi-v7a/libtaibmcf.so": {
+      "size": 12617752,
+      "sha256": "0fba080d0364fc0f7a8f61611551ef3b",
+      "type": "elf",
+      "entropy": 6.1236,
+      "csize": 3076892
+    },
+    "lib/armeabi-v7a/libtrueidlib.so": {
+      "size": 79904,
+      "sha256": "e1a98166f637ebebf814a375ec147461",
+      "type": "elf",
+      "entropy": 6.9485,
+      "csize": 41716
+    },
+    "stamp-cert-sha256": {
+      "size": 32,
+      "sha256": "1d9c2a02a93816ff5c7ae64f9aad02c2",
+      "type": "data",
+      "entropy": 4.9375,
+      "csize": 35
+    },
+    "META-INF/BNDLTOOL.SF": {
+      "size": 2667,
+      "sha256": "af9b2dc807bca48efb6fe74d1129dc3f",
+      "type": "data",
+      "entropy": 5.6703,
+      "csize": 1125
+    },
+    "META-INF/BNDLTOOL.RSA": {
+      "size": 1107,
+      "sha256": "526762c0bfd6ce5e395d13060b73b6fa",
+      "type": "data",
+      "entropy": 7.5459,
+      "csize": 1035
+    },
+    "META-INF/MANIFEST.MF": {
+      "size": 2559,
+      "sha256": "c3e9002db94506b511c53dcf7b2b3089",
+      "type": "data",
+      "entropy": 5.6423,
+      "csize": 1051
+    }
+  }
+}

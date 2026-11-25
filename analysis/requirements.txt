@@ -1,0 +1,6 @@
+# Reverse-engineering toolchain (all installable offline from PyPI)
+androguard==4.1.4      # DEX/ARSC/AXML parsers
+lief==1.0.0            # ELF structure parser
+capstone==5.0.7        # disassembly engine
+imageio-ffmpeg==0.8.1  # bundled ffmpeg for the video mux (no system package needed)
+apkid==3.2.0           # packer/obfuscator YARA rules

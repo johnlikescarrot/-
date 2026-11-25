@@ -1,0 +1,21 @@
+# Extracted / intermediate artifacts (never commit the decompiled payload)
+/work/
+/tmp/
+*.xapk
+*.apk
+
+# Node
+node_modules/
+video/out/*.mp4
+video/frames/
+video/out/*.wav
+video/out/*.m4a
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
