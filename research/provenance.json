@@ -1,0 +1,147 @@
+{
+  "outer_archive": {
+    "file": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+    "bytes": 98813878,
+    "sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a"
+  },
+  "containers": [
+    {
+      "file": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.xapk",
+      "sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d",
+      "members": [
+        {
+          "name": "vn.com.vng.zalopay.apk",
+          "bytes": 79359087,
+          "compressed_bytes": 79359087,
+          "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03"
+        },
+        {
+          "name": "icon.png",
+          "bytes": 23841,
+          "compressed_bytes": 23841,
+          "sha256": "f0b9d7d1a6144ca550e4d326bc3b6cf93696549675bc624d7774c9879c33d3f0"
+        },
+        {
+          "name": "config.armeabi_v7a.apk",
+          "bytes": 24828408,
+          "compressed_bytes": 24828408,
+          "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b"
+        },
+        {
+          "name": "config.en.apk",
+          "bytes": 74137,
+          "compressed_bytes": 74137,
+          "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942"
+        },
+        {
+          "name": "config.vi.apk",
+          "bytes": 86425,
+          "compressed_bytes": 86425,
+          "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33"
+        },
+        {
+          "name": "config.xhdpi.apk",
+          "bytes": 1232563,
+          "compressed_bytes": 1232563,
+          "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b"
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 2710,
+          "compressed_bytes": 2710,
+          "sha256": "1382fb85261a3f58699396b832c4c68e0b206e8188ca835727c4f1f84b511ca0"
+        }
+      ],
+      "manifest": {
+        "xapk_version": 2,
+        "package_name": "vn.com.vng.zalopay",
+        "name": "Zalopay",
+        "version_code": "1102758",
+        "version_name": "11.17.0",
+        "min_sdk_version": "26",
+        "target_sdk_version": "36",
+        "permissions": [
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CONTACTS",
+          "android.permission.INTERNET",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.READ_PHONE_STATE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.NFC",
+          "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.USE_FINGERPRINT",
+          "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.READ_CALENDAR",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+          "com.android.launcher.permission.WRITE_SETTINGS",
+          "com.android.launcher.permission.READ_SETTINGS",
+          "com.bbk.launcher2.permission.READ_SETTINGS",
+          "com.bbk.launcher2.permission.WRITE_SETTINGS",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.CAMERA",
+          "android.permission.VIBRATE",
+          "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.DETECT_SCREEN_CAPTURE",
+          "com.google.android.gms.permission.AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.FOREGROUND_SERVICE",
+          "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "android.permission.REORDER_TASKS",
+          "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+          "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+          "android.permission.READ_BASIC_PHONE_STATE",
+          "android.permission.WRITE_CONTACTS",
+          "android.permission.READ_MEDIA_AUDIO"
+        ],
+        "split_configs": [
+          "config.armeabi_v7a",
+          "config.en",
+          "config.vi",
+          "config.xhdpi"
+        ],
+        "total_size": 105580620,
+        "icon": "icon.png",
+        "split_apks": [
+          {
+            "file": "vn.com.vng.zalopay.apk",
+            "id": "base"
+          },
+          {
+            "file": "config.armeabi_v7a.apk",
+            "id": "config.armeabi_v7a"
+          },
+          {
+            "file": "config.en.apk",
+            "id": "config.en"
+          },
+          {
+            "file": "config.vi.apk",
+            "id": "config.vi"
+          },
+          {
+            "file": "config.xhdpi.apk",
+            "id": "config.xhdpi"
+          }
+        ]
+      }
+    }
+  ]
+}

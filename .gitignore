@@ -1,0 +1,18 @@
+# Large binary inputs and generated intermediates stay outside Git
+*.apk
+*.xapk
+*.zip
+data/
+work/
+build/
+dist/
+out/
+frames/
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Keep the source archive only where it already exists in history.
+# Generated research outputs are small text/JSON and are committed.
