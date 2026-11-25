@@ -1,0 +1,10 @@
+work/
+node_modules/
+video/node_modules/
+video/dist/
+video/out/*.tmp
+*.apk
+*.xapk
+__pycache__/
+*.pyc
+.DS_Store
