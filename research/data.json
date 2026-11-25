@@ -1,0 +1,2413 @@
+{
+  "app": {
+    "package": "vn.com.vng.zalopay",
+    "version_name": "11.17.0",
+    "version_code": "1102758",
+    "min_sdk": "26",
+    "target_sdk": "36",
+    "label": "Zalopay",
+    "main_activity": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+    "permissions": [
+      "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+      "android.permission.ACCESS_ADSERVICES_TOPICS",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CAMERA",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.DETECT_SCREEN_CAPTURE",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.INTERNET",
+      "android.permission.MODIFY_AUDIO_SETTINGS",
+      "android.permission.NFC",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.QUERY_ALL_PACKAGES",
+      "android.permission.READ_BASIC_PHONE_STATE",
+      "android.permission.READ_CALENDAR",
+      "android.permission.READ_CONTACTS",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.READ_MEDIA_AUDIO",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.REORDER_TASKS",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.USE_FINGERPRINT",
+      "android.permission.VIBRATE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.WRITE_CALENDAR",
+      "android.permission.WRITE_CONTACTS",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+      "com.android.launcher.permission.INSTALL_SHORTCUT",
+      "com.android.launcher.permission.READ_SETTINGS",
+      "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+      "com.android.launcher.permission.WRITE_SETTINGS",
+      "com.android.vending.BILLING",
+      "com.bbk.launcher2.permission.READ_SETTINGS",
+      "com.bbk.launcher2.permission.WRITE_SETTINGS",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "com.google.android.gms.permission.AD_ID",
+      "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+      "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+      "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+      "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+      "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "activities": [
+      "amcsetxek.dmayljy",
+      "androidx.compose.ui.tooling.PreviewActivity",
+      "androidx.glance.appwidget.action.ActionTrampolineActivity",
+      "androidx.glance.appwidget.action.InvisibleActionTrampolineActivity",
+      "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+      "com.alibaba.griver.core.keepalive.GriverProxyActivity",
+      "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back1",
+      "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back2",
+      "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back3",
+      "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back4",
+      "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back5",
+      "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back6",
+      "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite1",
+      "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite2",
+      "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite3",
+      "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Main",
+      "com.alibaba.griver.core.ui.activity.GriverFileChooserActivity",
+      "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back1",
+      "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back2",
+      "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back3",
+      "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back4",
+      "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back5",
+      "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back6",
+      "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite1",
+      "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite2",
+      "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite3",
+      "com.alibaba.griver.core.ui.activity.GriverTransActivity$Main",
+      "com.alibaba.griver.device.ui.GriverOpenSettingActivity",
+      "com.alibaba.griver.file.ui.FileViewerActivity",
+      "com.alibaba.griver.image.activity.GriverCaptureActivity",
+      "com.alibaba.griver.image.activity.GriverCapturePreviewActivity",
+      "com.alibaba.griver.image.activity.GriverPhotoPreviewActivity",
+      "com.alibaba.griver.image.activity.GriverPhotoSelectActivity",
+      "com.alibaba.griver.image.activity.GriverVideoPreviewActivity",
+      "com.alibaba.griver.ui.jsapi.picker.nebula.wheelview.multilevel.MultilevelSelectActivity",
+      "com.android.billingclient.api.ProxyBillingActivity",
+      "com.android.billingclient.api.ProxyBillingActivityV2",
+      "com.facebook.CustomTabActivity",
+      "com.facebook.CustomTabMainActivity",
+      "com.facebook.FacebookActivity",
+      "com.facebook.ads.AudienceNetworkActivity",
+      "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+      "com.google.android.gms.ads.AdActivity",
+      "com.google.android.gms.ads.NotificationHandlerActivity",
+      "com.google.android.gms.ads.OutOfContextTestingActivity",
+      "com.google.android.gms.common.api.GoogleApiActivity",
+      "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+      "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+      "com.iap.ac.android.acs.plugin.downgrade.ui.ErrorPageActivity",
+      "com.iap.android.mppclient.container.activity.ACContainerActivity",
+      "com.iap.android.mppclient.container.activity.H5NetworkCheckActivity",
+      "com.karumi.dexter.DexterActivity",
+      "com.vnpay.vntaxi.ui.activities.DetailBookTaxiActivity",
+      "com.vnpay.vntaxi.ui.activities.TaxiBrowserActivity",
+      "com.vnpay.vntaxi.ui.activities.TaxiWebviewLinkActivity",
+      "com.vnpay.vntaxi.ui.activities.address.SelectAddressActivity",
+      "com.vnpay.vntaxi.ui.activities.address.search.ConfirmOnMapActivity",
+      "com.vnpay.vntaxi.ui.activities.address.search.SearchAddressActivity",
+      "com.vnpay.vntaxi.ui.activities.address.search.SearchOnMapActivity",
+      "com.vnpay.vntaxi.ui.activities.address.setting.AddressSettingActivity",
+      "com.vnpay.vntaxi.ui.activities.address.setting.ChooseAddressActivity",
+      "com.vnpay.vntaxi.ui.activities.address.setting.DetailAddressActivity",
+      "com.vnpay.vntaxi.ui.activities.airport.TaxiAirportActivity",
+      "com.vnpay.vntaxi.ui.activities.book.BookActivity",
+      "com.vnpay.vntaxi.ui.activities.history.DetailHistoryTaxiActivity",
+      "com.vnpay.vntaxi.ui.activities.history.TaxiHistoryActivity",
+      "com.vnpay.vntaxi.ui.activities.insurance.TaxiInsuranceActivity",
+      "com.vnpay.vntaxi.ui.activities.note.invoice.ExtractInvoiceActivity",
+      "com.vnpay.vntaxi.ui.activities.note.note.ClientNoteActivity",
+      "com.vnpay.vntaxi.ui.activities.report.FastReportTaxiActivity",
+      "com.vnpay.vntaxi.ui.activities.selectpartner.TaxiBrandActivity",
+      "com.vnpay.vntaxi.ui.activities.splash.SplashActivity",
+      "com.vnpay.vntaxi.ui.activities.voucher.detail.VoucherDetailActivity",
+      "com.vnpay.vntaxi.ui.activities.voucher.list.VoucherListActivity",
+      "com.vnpay.vntaxi.ui.fragments.book.TaxiHelpMethodActivity",
+      "com.zing.zalo.zalosdk.oauth.OpenAPIActivity",
+      "com.zing.zalo.zalosdk.oauth.WebLoginActivity",
+      "vn.ai.trueid.sdk.activity.SotpConfirmActivity",
+      "vn.ai.trueid.sdk.activity.TrueIDActivity",
+      "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+      "vn.ai.trueid.sdk.facev3.present.presentation.LivenessCameraXActivity",
+      "vn.com.vn.zalopay.upgrade_user_profile.presentation.ReformKycActivity",
+      "vn.com.vng.resultpage.presentation.newui.ResultPageNewUIActivity",
+      "vn.com.vng.resultpage.presentation.newuinative.ResultPageNativeActivity",
+      "vn.com.vng.resultpage.presentation.ui.activity.ResultPageV2Activity",
+      "vn.com.vng.resultpage.presentation.ui.webview.RPWebActivity",
+      "vn.com.vng.zalopay.alipay.presentation.AlipayEmptyScanQRActivity",
+      "vn.com.vng.zalopay.alipay.presentation.dialog.AlipayErrorDialogActivity",
+      "vn.com.vng.zalopay.appinfo.AppInfoActivity",
+      "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankBindingActivity",
+      "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankMediaWebViewActivity",
+      "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.FundManagementActivity",
+      "vn.com.vng.zalopay.behaviorguideline.LoginGuidelineActivity",
+      "vn.com.vng.zalopay.camera.CustomDefaultCamera",
+      "vn.com.vng.zalopay.cashier.buffer.CashierBufferActivity",
+      "vn.com.vng.zalopay.cashier.middle.CashierMiddlePageActivity",
+      "vn.com.vng.zalopay.cashier.presentation.newui.CashierNewUIActivity",
+      "vn.com.vng.zalopay.cashier.presentation.ui.main.MainCashierV2Activity",
+      "vn.com.vng.zalopay.cashier.presentation.ui.otp.DOtpErrorActivity",
+      "vn.com.vng.zalopay.cashier.presentation.ui.web.activity.CashierWebActivity",
+      "vn.com.vng.zalopay.cashier_v3.presentation.main.activity.CashierV3Activity",
+      "vn.com.vng.zalopay.cashin.presentation.ui.activity.CashInActivity",
+      "vn.com.vng.zalopay.changepin.presentation.ui.activity.ChangePinActivity",
+      "vn.com.vng.zalopay.clearing.ClearingAccountActivity",
+      "vn.com.vng.zalopay.closeaccount.presentation.ui.CloseAccountActivity",
+      "vn.com.vng.zalopay.core.ui.activity.TutorialConnectInternetActivity",
+      "vn.com.vng.zalopay.feature.ui.FeatureModuleRoutingActivity",
+      "vn.com.vng.zalopay.home_more.presentation.ui.home_more.HomeMoreActivity",
+      "vn.com.vng.zalopay.homev4.presentation.ui.onboarding.HomeOnBoardingActivity",
+      "vn.com.vng.zalopay.homev4.presentation.ui.recommendsystem.RecommendSystemActivity",
+      "vn.com.vng.zalopay.homev5.presenter.ui.ekyc_intro.EkycIntroActivity",
+      "vn.com.vng.zalopay.homev5.presenter.ui.home.HomeActivity",
+      "vn.com.vng.zalopay.homev5.presenter.ui.onboarding.OnboardingActivity",
+      "vn.com.vng.zalopay.homev5.presenter.ui.routing.HomeRoutingActivity",
+      "vn.com.vng.zalopay.homev5.presenter.ui.story_collections_player.StoryCollectionsPlayerActivity",
+      "vn.com.vng.zalopay.inapp_webview.InternalWebViewActivity",
+      "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+      "vn.com.vng.zalopay.livenessdetection.presentation.FaceLivenessCameraXActivity",
+      "vn.com.vng.zalopay.livenessdetection.presentation.face_auth_revamp.FaceLivenessRevampActivity",
+      "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+      "vn.com.vng.zalopay.livenessdetection.presentation.qrcode.QRCodeScannerActivity",
+      "vn.com.vng.zalopay.lockscreen.LockScreenActivity",
+      "vn.com.vng.zalopay.logindevice.DeviceVerificationActivity",
+      "vn.com.vng.zalopay.logindevice.LoginDevicesActivity",
+      "vn.com.vng.zalopay.loginv2.presentation.ui.login.LoginActivity",
+      "vn.com.vng.zalopay.loginv2.presentation.ui.otp.OtpVerificationActivity",
+      "vn.com.vng.zalopay.loginv2.presentation.ui.upgradeuserk0k1.UpgradeUserK0K1Activity",
+      "vn.com.vng.zalopay.loginv2.presentation.ui.webview.LoginWebViewActivity",
+      "vn.com.vng.zalopay.miniapp.error.NoWebViewSdkActivity",
+      "vn.com.vng.zalopay.miniapp.ui.MiniAppActivity",
+      "vn.com.vng.zalopay.my_qr.MyQRActivity",
+      "vn.com.vng.zalopay.nfc.FundingSolutionNFCActivity",
+      "vn.com.vng.zalopay.passport.ForceUpdatePhoneActivity",
+      "vn.com.vng.zalopay.passport.LockAccountActivity",
+      "vn.com.vng.zalopay.pay_by_wallet_native.presentation.ui.PayByWalletReadyToPayActivity",
+      "vn.com.vng.zalopay.pdfviewer.PdfViewerActivity",
+      "vn.com.vng.zalopay.permission.location.presentation.LocationPermissionActivity",
+      "vn.com.vng.zalopay.permission.notification.presentation.NotificationPermissionActivity",
+      "vn.com.vng.zalopay.profile_tab_v2.presentation.ui.account.AccountHostActivity",
+      "vn.com.vng.zalopay.profile_tab_v2.presentation.ui.privacy.PrivacyHubActivity",
+      "vn.com.vng.zalopay.protect.ui.ProtectAccountActivity",
+      "vn.com.vng.zalopay.quickpay_native.presentation.ui.QuickPayNativeActivity",
+      "vn.com.vng.zalopay.receive_money.ReceiveMoneyActivity",
+      "vn.com.vng.zalopay.reformkyc.presentation.ui.ReformKycActivity",
+      "vn.com.vng.zalopay.resetpin.presentation.ui.activity.ResetPinActivity",
+      "vn.com.vng.zalopay.result_page_v3.presentation.main.activity.ResultPageV3Activity",
+      "vn.com.vng.zalopay.scancode.presentation.ScanCodeActivity",
+      "vn.com.vng.zalopay.scanqr.presentation.v2.ScanQRActivityV2",
+      "vn.com.vng.zalopay.search.presentation.ui.search.SearchActivity",
+      "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+      "vn.com.vng.zalopay.skewface.presentation.activity.SkewFaceActivity",
+      "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+      "vn.com.vng.zalopay.storage_management.presentation.StorageManagementActivity",
+      "vn.com.vng.zalopay.tenpay.TPGPaymentActivity",
+      "vn.com.vng.zalopay.tenpay.image_preview.ImagePreviewActivity",
+      "vn.com.vng.zalopay.ui.activity.HomeActivity",
+      "vn.com.vng.zalopay.ui.balance.activity.BalanceActivity",
+      "vn.com.vng.zalopay.updatephone.presentation.ui.UpdatePhoneActivity",
+      "vn.com.vng.zalopay.user_profile.presentation.additionalinfo.AdditionalProfileInfoActivity",
+      "vn.com.vng.zalopay.user_profile.presentation.camera.CameraAutoRotationImage",
+      "vn.com.vng.zalopay.user_profile.presentation.editheaderinfo.EditAvatarAndNameActivity",
+      "vn.com.vng.zalopay.user_profile.presentation.profiledetails.ProfileDetailsActivity",
+      "vn.com.vng.zalopay.user_profile.presentation.profiledetailv2.ProfileDetailsV2Activity",
+      "vn.com.vng.zalopay.user_profile.presentation.protectaccount.AccountSecurityActivity",
+      "vn.com.vng.zalopay.user_profile.presentation.umminiapps.DebugAuditActivity",
+      "vn.com.vng.zalopay.user_profile.presentation.umminiapps.UMMiniAppActivity",
+      "vn.com.vng.zalopay.webapp.activity.ManualResetPinWebAppActivity",
+      "vn.com.vng.zalopay.webapp.activity.UpdatePhoneWebAppActivity",
+      "vn.com.vng.zalopay.webapp.activity.WebAppExternalActivity",
+      "vn.com.vng.zalopay.webview.ui.BalanceLiquidationWebViewActivity",
+      "vn.com.vng.zalopay.webview.ui.HomeSearchWebViewActivity",
+      "vn.com.vng.zalopay.webview.ui.ResetPinWebViewActivity",
+      "vn.com.vng.zalopay.webview.ui.VerificationAtBankCounterWebViewActivity",
+      "vn.com.vng.zalopay.webview.ui.WebViewActivity",
+      "vn.com.vng.zalopay.webview.ui.update_personal_info.UpdatePersonalInfoWebViewActivity",
+      "vn.com.vng.zalopay.withdraw.presentation.ui.activity.WithdrawActivity",
+      "vn.com.zalopay.auth.presentation.faceauth.FaceAuthActivity",
+      "vn.com.zalopay.auth.presentation.faceauth.components.selfdev.ui.SelfDevCameraActivity",
+      "vn.com.zalopay.auth.presentation.mfa.view.AuthUIHolderActivity",
+      "vn.com.zalopay.auth.presentation.otp.OTPChallengeActivity",
+      "vn.com.zalopay.auth.presentation.otp.popup.OTPChallengeRootActivity",
+      "vn.com.zalopay.auth.presentation.smartotp.SmartOTPActivity",
+      "vn.com.zalopay.balance_liquidation.presentation.BalanceLiquidationActivity",
+      "vn.com.zalopay.ce_ticket.presentation.ui.CETicketContainerActivity",
+      "vn.com.zalopay.ekycpro.presentation.bca.ui.activity.BcaActivity",
+      "vn.com.zalopay.ekycpro.presentation.guardian_consent.GuardianInfoActivity",
+      "vn.com.zalopay.ekycpro.presentation.main.MainEKycActivity",
+      "vn.com.zalopay.ekycpro.presentation.nfc.MainNFCFeatureActivity",
+      "vn.com.zalopay.ekycpro.presentation.selfie.SelfieActivity",
+      "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+      "vn.com.zalopay.nfc_sdk.nfc_in_house.BottomSheetNFC",
+      "vn.com.zalopay.owner_verification.presentation.ui.OVContainerViewActivity",
+      "vn.com.zalopay.reset_pin.presentation.pin_creation.CreatePinActivity",
+      "vn.com.zalopay.reset_pin.presentation.ui.ResetPinContainerViewActivity",
+      "vn.zalopay.ui.um_custom_loading.CenterLoadingActivity",
+      "vn.zalopay.ui.um_custom_loading.FullScreenLoadingActivity",
+      "yydamachy.xqcntsk"
+    ],
+    "services": [
+      "androidx.camera.core.impl.MetadataHolderService",
+      "androidx.core.widget.RemoteViewsCompatService",
+      "androidx.glance.appwidget.GlanceRemoteViewsService",
+      "androidx.room.MultiInstanceInvalidationService",
+      "androidx.work.impl.background.systemalarm.SystemAlarmService",
+      "androidx.work.impl.background.systemjob.SystemJobService",
+      "androidx.work.impl.foreground.SystemForegroundService",
+      "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+      "com.alibaba.ariver.ipc.RemoteCallService",
+      "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService1",
+      "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService2",
+      "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService3",
+      "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService4",
+      "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService5",
+      "com.alibaba.exthub.bigdata.service.BigDataMainService",
+      "com.alibaba.griver.base.resource.predownload.AppPreDownloadJobSchedulerService",
+      "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite1",
+      "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite2",
+      "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite3",
+      "com.alibaba.griver.core.kernel.ipc.server.IpcMsgServerService",
+      "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService",
+      "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+      "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+      "com.google.android.gms.ads.AdService",
+      "com.google.android.gms.measurement.AppMeasurementJobService",
+      "com.google.android.gms.measurement.AppMeasurementService",
+      "com.google.android.gms.tagmanager.TagManagerService",
+      "com.google.firebase.components.ComponentDiscoveryService",
+      "com.google.firebase.messaging.FirebaseMessagingService",
+      "com.google.firebase.sessions.SessionLifecycleService",
+      "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+      "com.vnpay.vntaxi.base.gps.FusedLocationService",
+      "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+      "vn.com.vng.zalopay.notification.MyFcmListenerService"
+    ],
+    "receivers": [
+      "androidx.glance.appwidget.MyPackageReplacedReceiver",
+      "androidx.glance.appwidget.UnmanagedSessionReceiver",
+      "androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver",
+      "androidx.profileinstaller.ProfileInstallReceiver",
+      "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+      "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+      "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+      "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+      "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+      "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+      "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+      "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+      "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+      "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver",
+      "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+      "com.google.android.gms.measurement.AppMeasurementReceiver",
+      "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+      "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver"
+    ],
+    "providers": [
+      "androidx.core.content.FileProvider",
+      "androidx.startup.InitializationProvider",
+      "com.alibaba.griver.file.utils.GriverFileProvider",
+      "com.facebook.ads.AudienceNetworkContentProvider",
+      "com.facebook.internal.FacebookInitProvider",
+      "com.google.android.gms.ads.MobileAdsInitProvider",
+      "com.google.firebase.perf.provider.FirebasePerfProvider",
+      "com.google.firebase.provider.FirebaseInitProvider",
+      "com.google.mlkit.common.internal.MlKitInitProvider"
+    ],
+    "libraries": [
+      "androidx.window.sidecar",
+      "org.apache.http.legacy",
+      "android.ext.adservices",
+      "androidx.camera.extensions.impl",
+      "androidx.window.extensions"
+    ],
+    "cert_sha256": [
+      "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+    ]
+  },
+  "xapk_manifest": {
+    "xapk_version": 2,
+    "package_name": "vn.com.vng.zalopay",
+    "name": "Zalopay",
+    "version_code": "1102758",
+    "version_name": "11.17.0",
+    "min_sdk_version": "26",
+    "target_sdk_version": "36",
+    "permissions": [
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.READ_CONTACTS",
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.READ_PHONE_STATE",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.NFC",
+      "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.USE_FINGERPRINT",
+      "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+      "android.permission.WRITE_CALENDAR",
+      "android.permission.READ_CALENDAR",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.MODIFY_AUDIO_SETTINGS",
+      "com.android.launcher.permission.INSTALL_SHORTCUT",
+      "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+      "com.android.launcher.permission.WRITE_SETTINGS",
+      "com.android.launcher.permission.READ_SETTINGS",
+      "com.bbk.launcher2.permission.READ_SETTINGS",
+      "com.bbk.launcher2.permission.WRITE_SETTINGS",
+      "android.permission.QUERY_ALL_PACKAGES",
+      "android.permission.CAMERA",
+      "android.permission.VIBRATE",
+      "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.DETECT_SCREEN_CAPTURE",
+      "com.google.android.gms.permission.AD_ID",
+      "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "com.android.vending.BILLING",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "android.permission.ACCESS_ADSERVICES_TOPICS",
+      "android.permission.FOREGROUND_SERVICE",
+      "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "android.permission.REORDER_TASKS",
+      "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+      "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+      "android.permission.READ_BASIC_PHONE_STATE",
+      "android.permission.WRITE_CONTACTS",
+      "android.permission.READ_MEDIA_AUDIO"
+    ],
+    "split_configs": [
+      "config.armeabi_v7a",
+      "config.en",
+      "config.vi",
+      "config.xhdpi"
+    ],
+    "total_size": 105580620,
+    "icon": "icon.png",
+    "split_apks": [
+      {
+        "file": "vn.com.vng.zalopay.apk",
+        "id": "base"
+      },
+      {
+        "file": "config.armeabi_v7a.apk",
+        "id": "config.armeabi_v7a"
+      },
+      {
+        "file": "config.en.apk",
+        "id": "config.en"
+      },
+      {
+        "file": "config.vi.apk",
+        "id": "config.vi"
+      },
+      {
+        "file": "config.xhdpi.apk",
+        "id": "config.xhdpi"
+      }
+    ]
+  },
+  "dex": [
+    {
+      "file": "classes.dex",
+      "size": 8831004,
+      "classes": 10703,
+      "methods": 59948,
+      "strings": 61218
+    },
+    {
+      "file": "classes10.dex",
+      "size": 78204,
+      "classes": 92,
+      "methods": 578,
+      "strings": 920
+    },
+    {
+      "file": "classes11.dex",
+      "size": 163420,
+      "classes": 177,
+      "methods": 1171,
+      "strings": 1584
+    },
+    {
+      "file": "classes12.dex",
+      "size": 398276,
+      "classes": 425,
+      "methods": 2604,
+      "strings": 3207
+    },
+    {
+      "file": "classes13.dex",
+      "size": 145824,
+      "classes": 139,
+      "methods": 997,
+      "strings": 1381
+    },
+    {
+      "file": "classes14.dex",
+      "size": 81748,
+      "classes": 90,
+      "methods": 575,
+      "strings": 961
+    },
+    {
+      "file": "classes15.dex",
+      "size": 82152,
+      "classes": 113,
+      "methods": 658,
+      "strings": 1005
+    },
+    {
+      "file": "classes16.dex",
+      "size": 15916,
+      "classes": 20,
+      "methods": 101,
+      "strings": 261
+    },
+    {
+      "file": "classes17.dex",
+      "size": 208476,
+      "classes": 243,
+      "methods": 1311,
+      "strings": 1847
+    },
+    {
+      "file": "classes18.dex",
+      "size": 95920,
+      "classes": 115,
+      "methods": 668,
+      "strings": 1094
+    },
+    {
+      "file": "classes19.dex",
+      "size": 719548,
+      "classes": 777,
+      "methods": 3781,
+      "strings": 4159
+    },
+    {
+      "file": "classes2.dex",
+      "size": 16516960,
+      "classes": 7421,
+      "methods": 45527,
+      "strings": 56948
+    },
+    {
+      "file": "classes3.dex",
+      "size": 850600,
+      "classes": 1081,
+      "methods": 6354,
+      "strings": 8010
+    },
+    {
+      "file": "classes4.dex",
+      "size": 9418124,
+      "classes": 11441,
+      "methods": 59997,
+      "strings": 52812
+    },
+    {
+      "file": "classes5.dex",
+      "size": 7357484,
+      "classes": 7983,
+      "methods": 49055,
+      "strings": 56424
+    },
+    {
+      "file": "classes6.dex",
+      "size": 7612432,
+      "classes": 5475,
+      "methods": 49201,
+      "strings": 55274
+    },
+    {
+      "file": "classes7.dex",
+      "size": 10803680,
+      "classes": 12953,
+      "methods": 60000,
+      "strings": 59110
+    },
+    {
+      "file": "classes8.dex",
+      "size": 239036,
+      "classes": 295,
+      "methods": 1552,
+      "strings": 1906
+    },
+    {
+      "file": "classes9.dex",
+      "size": 1218908,
+      "classes": 1128,
+      "methods": 7170,
+      "strings": 6155
+    }
+  ],
+  "total_classes": 60671,
+  "total_methods": 351248,
+  "total_unique_strings": 243786,
+  "top_packages": [
+    [
+      "com/google/android",
+      6465
+    ],
+    [
+      "com/alibaba/ariver",
+      2415
+    ],
+    [
+      "com/alibaba/griver",
+      2228
+    ],
+    [
+      "org/bouncycastle/jcajce",
+      1758
+    ],
+    [
+      "com/iap/ac",
+      1330
+    ],
+    [
+      "org/bouncycastle/pqc",
+      975
+    ],
+    [
+      "vn/com/vng",
+      958
+    ],
+    [
+      "com/visa/cbp",
+      900
+    ],
+    [
+      "org/bouncycastle/crypto",
+      836
+    ],
+    [
+      "org/bouncycastle/asn1",
+      748
+    ],
+    [
+      "vn/ai/trueid",
+      622
+    ],
+    [
+      "androidx/media3/exoplayer",
+      538
+    ],
+    [
+      "com/vnpay/vntaxi",
+      377
+    ],
+    [
+      "com/appsflyer/internal",
+      364
+    ],
+    [
+      "com/nimbusds/jose",
+      360
+    ],
+    [
+      "com/visa/visapaysdk",
+      337
+    ],
+    [
+      "org/bouncycastle/oer",
+      315
+    ],
+    [
+      "androidx/media3/extractor",
+      309
+    ],
+    [
+      "androidx/camera/core",
+      306
+    ],
+    [
+      "com/xq/cxzmoiwuegvp",
+      299
+    ],
+    [
+      "com/google/common",
+      297
+    ],
+    [
+      "com/iap/android",
+      269
+    ],
+    [
+      "org/bouncycastle/math",
+      264
+    ],
+    [
+      "androidx/compose/ui",
+      261
+    ],
+    [
+      "io/reactivex/internal",
+      251
+    ],
+    [
+      "org/bouncycastle/cms",
+      240
+    ],
+    [
+      "androidx/camera/camera2",
+      234
+    ],
+    [
+      "androidx/compose/foundation",
+      234
+    ],
+    [
+      "com/alipay/plus",
+      230
+    ],
+    [
+      "com/google/crypto",
+      221
+    ],
+    [
+      "com/google/firebase",
+      221
+    ],
+    [
+      "com/bumptech/glide",
+      213
+    ],
+    [
+      "com/google/protobuf",
+      209
+    ],
+    [
+      "com/google/gson",
+      207
+    ],
+    [
+      "androidx/media3/common",
+      202
+    ],
+    [
+      "vn/zalopay/ui",
+      186
+    ],
+    [
+      "androidx/appcompat/widget",
+      178
+    ],
+    [
+      "com/airbnb/lottie",
+      173
+    ],
+    [
+      "androidx/glance/appwidget",
+      170
+    ],
+    [
+      "com/facebook/ads",
+      166
+    ]
+  ],
+  "strings": {
+    "urls": [
+      "\n\n******************************************************************************\n* Invalid application ID. Follow instructions here:                          *\n* https://googlemobileadssdk.page.link/admob-android-update-manifest         *\n* to find your app ID.                                                       *\n* Google Ad Manager publishers should follow instructions here:              *\n* https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.   *\n******************************************************************************\n\n",
+      "\n\n******************************************************************************\n* Missing application ID. AdMob publishers should follow the instructions    *\n* here:                                                                      *\n* https://googlemobileadssdk.page.link/admob-android-update-manifest         *\n* to add a valid App ID inside the AndroidManifest.                          *\n* Google Ad Manager publishers should follow instructions here:              *\n* https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.   *\n******************************************************************************\n\n",
+      " (https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#",
+      " (https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#",
+      " (https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#",
+      " (https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#",
+      "'\nSee https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread",
+      "). Please report to Google or use https://goo.gle/compose-feedback",
+      ", iconErrorUrl=https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/toro_information.png, primaryButtonContent=",
+      ", see https://developers.google.com/tink/faq/registration_errors",
+      ", storeUrl=https://play.google.com/store/apps/details?id=, currentVersionName=",
+      ". Url format must be: https://abc.com&ZPA_EXTRA_DATA={}",
+      "<p>Bạn đã đồng ý với <a href=\"https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay\" data-link-id=\"terms_of_use\" data-action=\"OPEN_BOTTOM_SHEET\">Thỏa thuận mở và sử dụng</a> và <a href=\"https://zalopay.vn/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu\" data-link-id=\"privacy_policy\" data-action=\"OPEN_BOTTOM_SHEET\">Chính sách quyền riêng tư</a> của Zalopay vào ngày 10/10/2026.</p>",
+      "A valid Facebook client token must be set in the AndroidManifest.xml or set by calling FacebookSdk.setClientToken before initializing the sdk. Visit https://developers.facebook.com/docs/android/getting-started#add-app_id for more information.",
+      "Ad inspector cannot be opened because the device is not in test mode. See https://developers.google.com/admob/android/test-ads#enable_test_devices for more information.",
+      "ApiDomainConfiguration(baseHost=https://zalopay.com.vn/, uploadPhotoHost=https://upload.zalopay.com.vn/, clientLogHost=https://log.zalopay.com.vn/, zpmHost=https://zpm.zalopay.com.vn/, zpwHost=https://api.zalopay.vn/, billHost=https://cps.zalopay.com.vn/, zteHost=https://token.zalopay.vn/, googleTokenHost=https://zalopay.com.vn/, autoDebitHost=https://openapi.zalopay.vn/, partnerLinkHost=https://partners.zalopay.vn/link/, socialHost=https://sapi.zalopay.vn/, userFaceAuthHost=https://upload-img.zalopay.vn/, adsHost=https://uudai.zalopay.vn/, ofpEmvcoHost=https://zlp-ofp-emvco-gateway.zalopay.vn/, ofpScanConfigHost=https://zlp-ofp-zpa-camera-config-be.zalopay.vn/, ofpIntegrationHubHost=https://zlp-ofp-integration-hub.zalopay.vn, umHost=https://api.zalopay.vn/, profileUmHost=https://api.zalopay.vn/, livenessVerificationHost=https://api.zalopay.vn, faceTecHost=https://dala2zoom.zalopay.vn/liveness/, cashierHost=https://api.zalopay.vn/, cashierAdsHost=https://uudai.zalopay.vn/, loyaltyHost=https://sapi.zalopay.vn/, submitTransHost=https://bim.zalopay.vn/oss/, userLifecyclePublicHost=https://user-life-cycle-public.zalopay.vn, bimHost=https://bim.zalopay.vn/, uploadImageHost=https://upload-img.zalopay.vn/, promotionSupportHost=https://campaign.zalopay.com.vn/, wrapLoyaltyHost=https://loyalty.zalopay.vn, bankBindingHost=https://sapi.zalopay.vn/, bankBindingPciHost=https://scard.zalopay.vn/, bankConfigHost=https://sapi.zalopay.vn/, notificationHost=https://api.zalopay.vn/, mmfHost=https://mmf-redemption.zalopay.vn/, paymentPlatform=android, zpaConfigHost=https://api.zalopay.vn, mpBaseUrl=https://mp.zalopay.vn, mmfAgreementHost=https://mmf-user.zalopay.vn, appVersionName=11.17.0, paymentSdkVersionName=11.17.0, isDebug=false, trackingHost=https://tracking.zalopay.vn, onelinkHost=https://onelink.zalopay.vn/, bankProfileHost=https://bank-profile.zalopay.vn/, apiZaloPayHost=https://api.zalopay.vn/, miniProgramHost=https://miniprogram.zalopay.vn, ofpHost=https://zlp-ofp-qp-public-api.zalopay.vn, vneidHost=https://rar-um.zalopay.vn, promotionSurveyOutflow=https://uudai.zalopay.vn/, scanAIHost=https://sapi.zalopay.vn/scan360/, searchHost=https://sapi.zalopay.vn/, installmentHost=https://fin-installment.zalopay.vn/, bnplHost=https://bnpl-gateway.zalopay.vn, sseHost=https://sse.zalopay.vn/)",
+      "App measurement deactivated via resources. This method is being deprecated. Please refer to https://firebase.google.com/support/guides/disable-analytics",
+      "Apps that target Android API 30+ (Android 11+) cannot call Facebook native apps unless the package visibility needs are declared. Please follow https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988 to make the declaration.",
+      "Bằng việc bấm <b>Xác nhận</b>, tôi đồng ý với <a href=\"https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay\">Thoả thuận sử dụng</a> và <a href=\"https://zalopay.vn/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu-hop-nhat\">Chính sách quyền riêng tư</a> của Zalopay.",
+      "Cleartext HTTP traffic not permitted. See https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted",
+      "Copyright (c) 2000-2023 The Legion of the Bouncy Castle Inc. (https://www.bouncycastle.org) ",
+      "Detected camera timebase inconsistent. Please file an issue at https://issuetracker.google.com/issues/new?component=618491&template=1257717 with this error message [Manufacturer: %s, Model: %s, Hardware: %s, API Level: %d%s].\nCamera timebase is inconsistent. The timebase reported by the camera is %s, but the actual timebase contained in the frame is detected as %s.",
+      "Exception thrown while checking for flash availability on device not known to throw exceptions during this check. Please file an issue at https://issuetracker.google.com/issues/new?component=618491&template=1257717 with this error message [Manufacturer: %s, Model: %s, API Level: %d].\nFlash is not available.",
+      "FacebookActivity is not declared in the AndroidManifest.xml. If you are using the facebook-common module or dependent modules please add com.facebook.FacebookActivity to your AndroidManifest.xml file. See https://developers.facebook.com/docs/android/getting-started for more info.",
+      "Hit delivery not possible. Missing network permissions. See http://goo.gl/8Rd3yj for instructions",
+      "IllegalStateException getting Ad Id Info. If you would like to see Audience reports, please ensure that you have added '<meta-data android:name=\"com.google.android.gms.version\" android:value=\"@integer/google_play_services_version\" />' to your application manifest file. See http://goo.gl/naFqQk for details.",
+      "Interstitials that show when your app is in the background are a violation of AdMob policies and may lead to blocked ad serving. To learn more, visit  https://googlemobileadssdk.page.link/admob-interstitial-policies",
+      "Invalid google_app_id. Firebase Analytics disabled. See https://goo.gl/NAOOOI. provided id",
+      "Kotlin reflection is not yet supported for synthetic Java properties. Please follow/upvote https://youtrack.jetbrains.com/issue/KT-55980",
+      "Missing call to onListPresentable after new list was presented. If you are seeing\n this exception, it is generally an indication of an issue with Paging.\n Please file a bug so we can fix it at:\n https://issuetracker.google.com/issues/new?component=413106",
+      "Missing google_app_id. Firebase Analytics disabled. See https://goo.gl/NAOOOI",
+      "Package in android.resource:// URI not found. Check http://g.co/dev/packagevisibility.",
+      "Paging received a refresh event in the middle of an actively loading generation\nof PagingData. If you see this exception, it is most likely a bug in the library.\nPlease file a bug so we can fix it at:\nhttps://issuetracker.google.com/issues/new?component=413106",
+      "PayByWalletSession(backendBaseUrl=https://openapi.zalopay.vn, backendAuthToken=",
+      "Please set a valid API key. A Firebase API key is required to communicate with Firebase server APIs: It authenticates your project with Google.Please refer to https://firebase.google.com/support/privacy/init-options.",
+      "Please set your Application ID. A valid Firebase App ID is required to communicate with Firebase server APIs: It identifies your application with Firebase.Please refer to https://firebase.google.com/support/privacy/init-options.",
+      "Please set your Project ID. A valid Firebase Project ID is required to communicate with Firebase server APIs: It identifies your application with Firebase.Please refer to https://firebase.google.com/support/privacy/init-options.",
+      "Rewarded ads that show when your app is in the background are a violation of AdMob policies and may lead to blocked ad serving. To learn more, visit https://googlemobileadssdk.page.link/admob-interstitial-policies",
+      "Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.",
+      "The Crashlytics build ID is missing. This occurs when the Crashlytics Gradle plugin is missing from your app's build configuration. Please review the Firebase Crashlytics onboarding instructions at https://firebase.google.com/docs/crashlytics/get-started?platform=android#add-plugin",
+      "The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | ",
+      "The exception was not handled due to missing onError handler in the subscribe() method call. Further reading: https://github.com/ReactiveX/RxJava/wiki/Error-Handling | ",
+      "The file containing the JPEG 2000 compressed data. This can be either a JPEG 2000 codestream or a JP2 file containing a JPEG 2000 codestream. In the latter case the first codestream in the file will be decoded. If an URL is specified (e.g., http://...) the data will be downloaded and cached in memory before decoding. This is intended for easy use in applets, but it is not a very efficient way of decoding network served data.",
+      "This log indicates a hard-to-reproduce Compose issue, modified with additional debugging details. Please help us by adding your experiences to the bug link provided. Thank you for helping us improve Compose. https://issuetracker.google.com/issues/297974033 mainAxisMax ",
+      "This log indicates a hard-to-reproduce Compose issue, modified with additional debugging details. Please help us by adding your experiences to the bug link provided. Thank you for helping us improve Compose. https://issuetracker.google.com/issues/300280216 mainAxisMax ",
+      "You haven't set a value for AdvertiserIDCollectionEnabled. Set the flag to TRUE if you want to collect Advertiser ID for better advertising and analytics results. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.",
+      "[\n  {\n    \"source\": \"EWALLET\",\n    \"logo\": \"https://simg.zalopay.com.vn/zst/zpi/images/mini-app-info/logozalopay_square.jpg\",\n    \"name\": \"Zalopay\",\n    \"amount\": \"\",\n    \"viewBalance\": false\n  }\n]\n",
+      "[{\"hookType\":\"DECODE_URL\",\"mappingParams\":\"{\\\"codeParamKey\\\":\\\"ACCodeValue\\\",\\\"loadingUrl\\\":\\\"loadingUrl\\\"}\",\"matchRule\":\"https://render.alipay.com/p/w/ac-fe-adaptor/\",\"matchType\":\"CONTAIN\"},{\"hookType\":\"AUTH_URL\",\"mappingParams\":\"{ \\\"acquireId\\\": \\\"1022088000000000001\\\" }\",\"matchRule\":\"http://openauth.alipay.com/\",\"matchType\":\"CONTAIN\"},{\"hookType\":\"AUTH_URL\",\"mappingParams\":\"{ \\\"acquireId\\\": \\\"1022088000000000001\\\" }\",\"matchRule\":\"https://openauth.alipay.com/\",\"matchType\":\"CONTAIN\"},{\"hookType\":\"DOWNGRADE_URL\",\"mappingParams\":\"{\\\"redirectUrl\\\":\\\"https://render.alipay.com/p/yuyan/180020010001253580/exception_no_support.html?errorType=UNMARKED_MOVING_PINS\\\"}\",\"matchRule\":\"^https://render.alipay.com/p/s/i.*scheme=alipays.*\",\"matchType\":\"REGEX\"},{\"hookType\":\"PRE_CREATE_ORDER_DECODE_URL\",\"mappingParams\":\"{\\\"redirectUrl\\\":\\\"https://render.alipay.com/p/yuyan/180020010001253580/exception_no_support.html?errorType=UNMARKED_MOVING_PINS\\\",\\\"queryParamKey\\\":\\\"scheme\\\",\\\"codeParamKey\\\":\\\"qrcode\\\",\\\"codeParamRule\\\":\\\"^https:\\\\\\\\/\\\\\\\\/qr.alipay.com\\\\\\\\/ba.*\\\"}\",\"matchRule\":\"^https://ds.alipay.com.*scheme=alipays.*\",\"matchType\":\"REGEX\"},{\"hookType\":\"DOWNGRADE_URL\",\"mappingParams\":\"{\\\"redirectUrl\\\": \\\"https://render.alipay.com/p/yuyan/180020010001253580/exception_no_support.html?errorType=UNMARKED_MOVING_PINS\\\" }\",\"matchRule\":\"^https://d.alipay.com.*scheme=alipays.*\",\"matchType\":\"REGEX\"},{\"hookType\":\"DOWNGRADE_URL\",\"mappingParams\":\"{ \\\"redirectUrl\\\": \\\"https://render.alipay.com/p/yuyan/180020010001253580/exception_no_support.html?errorType=UNMARKED_MOVING_PINS\\\" }\",\"matchRule\":\"^https://ulink.alipay.com.*scheme=alipays.*\",\"matchType\":\"REGEX\"},{\"hookType\":\"PRE_CREATE_ORDER_DECODE_URL\",\"mappingParams\":\"{\\\"redirectUrl\\\":\\\"https://render.alipay.com/p/yuyan/180020010001253580/exception_no_support.html?errorType=UNMARKED_MOVING_PINS\\\",\\\"queryParamKey\\\":\\\"scheme\\\",\\\"codeParamKey\\\":\\\"qrcode\\\",\\\"codeParamRule\\\":\\\"^https:\\\\\\\\/\\\\\\\\/qr.alipay.com\\\\\\\\/ba.*\\\"}\",\"matchRule\":\"^https://render.alipay.com/p/s/i.*scheme=.*\",\"matchType\":\"REGEX\"}]",
+      "^https://.*.zalopay.vn/.*$",
+      "http://127.0.0.1:",
+      "http://hostname/?",
+      "http://html.zapps.vn/pay/FAQCenter/suport_bidv.html",
+      "http://iopengw-280.sggz00b.dev.alipay.net/",
+      "http://ns.adobe.com/xap/1.0/",
+      "http://ns.adobe.com/xap/1.0/\u0000",
+      "http://schemas.android.com/apk/res-auto",
+      "http://schemas.android.com/apk/res/android",
+      "http://tfsimg.alipay.com/images/partner/T1IVXXXb0bXXXXXXXX",
+      "http://trueid.net",
+      "http://vnpay.vn"
+    ],
+    "n_urls": 344,
+    "domains": [
+      " (https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#",
+      " (https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#",
+      " (https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#",
+      " (https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#",
+      "%@group.v.calendar.google.com",
+      "'\nSee https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread",
+      "(.*authentication.tpb.vn\\/AuthenPage\\/?.*)#$",
+      "(.*dc-ob-gatewaylb-ext.vpbank.com.vn/openui/$)",
+      "(.*vcbdigibank.vietcombank.com.vn/#/login$)",
+      "(.*vcbdigibank.vietcombank.com.vn\\/#\\/tienich\\/vidientu\\/dangky\\/.*)",
+      "(function() {  var height = -1;  if (document.body) {    height = document.body.offsetHeight;  } else if (document.documentElement) {    height = document.documentElement.offsetHeight;  }  var url = 'gmsg://mobileads.google.com/contentHeight?';  url += 'height=' + height;  try {    window.googleAdsJsInterface.notify(url);  } catch (e) {    var frame = document.getElementById('afma-notify-fluid');    if (!frame) {      frame = document.createElement('IFRAME');      frame.id = 'afma-notify-fluid';      frame.style.display = 'none';      var body = document.body || document.documentElement;      body.appendChild(frame);    }    frame.src = url;  }})();",
+      "*.zalopay.com.vn",
+      "*.zalopay.vn",
+      ", iconErrorUrl=https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/toro_information.png, primaryButtonContent=",
+      ", see https://developers.google.com/tink/faq/registration_errors",
+      ", storeUrl=https://play.google.com/store/apps/details?id=, currentVersionName=",
+      ". Url format must be: https://abc.com&ZPA_EXTRA_DATA={}",
+      ".*dc-ob-gatewaylb-ext.vpbank.com.vn/openui/",
+      ".*ebank.bidv.com.vn/EWALLET/index.jsp.*",
+      ".alipay.com.",
+      ".amcstxt.alipay.com.",
+      ".doubleclick.net",
+      ".doubleclick.net,.googleadservices.com",
+      ".doubleclick.net,.googleadservices.com,.googlesyndication.com",
+      ".facebook.com",
+      ".googleadservices.com",
+      ".googlesyndication.com",
+      ".zalopay.vn",
+      "//pagead2.googlesyndication.com/pagead/gen_204",
+      "/gw.alicdn.com",
+      "/gw.alipayobjects.com/os/",
+      "/gw.alipayobjects.com/tfs",
+      "/gw.alipayobjects.com/zos/",
+      "/img.alicdn.com",
+      "/img03.taobaocdn.com",
+      "/os.alipayobjects.com",
+      "/t.alipayobjects.com",
+      "/tfs.alipayobjects.com",
+      "/zos.alipayobjects.com",
+      "0\u0004¨0\u0003 \u0003\u0002\u0001\u0002\u0002\t\u0000Õ¸l}ÓNõ0\r\u0006\t*H÷\r\u0001\u0001\u0004\u0005\u000001\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00130\u0011\u0006\u0003U\u0004\b\u0013\nCalifornia1\u00160\u0014\u0006\u0003U\u0004\u0007\u0013\rMountain View1\u00100\u000e\u0006\u0003U\u0004\n\u0013\u0007Android1\u00100\u000e\u0006\u0003U\u0004\u000b\u0013\u0007Android1\u00100\u000e\u0006\u0003U\u0004\u0003\u0013\u0007Android1\"0 \u0006\t*H÷\r\u0001\t\u0001\u0016\u0013android@android.com0\u001e\u0017\r080415233656Z\u0017\r350901233656Z01\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00130\u0011\u0006\u0003U\u0004\b\u0013\nCalifornia1\u00160\u0014\u0006\u0003U\u0004\u0007\u0013\rMountain View1\u00100\u000e\u0006\u0003U\u0004\n\u0013\u0007Android1\u00100\u000e\u0006\u0003U\u0004\u000b\u0013\u0007Android1\u00100\u000e\u0006\u0003U\u0004\u0003\u0013\u0007Android1\"0 \u0006\t*H÷\r\u0001\t\u0001\u0016\u0013android@android.com0\u0001 0\r\u0006\t*H÷\r\u0001\u0001\u0001\u0005\u0000\u0003\u0001\r\u00000\u0001\b\u0002\u0001\u0001\u0000ÖÎ.\b\n¿â1MÑ³ÏÓ\u0018\\´=3ú\ftá½¶ÑÛ\u0013ö,\\9ßVøF=e¾ÀóÊBk\u0007Å¨íZ9ÁgçkÉ¹'K\u000b\"\u0000\u0019©)\u0015årÅm*0\u001b£oÅü\u0011:ÖËt5¡m#«}úîáeäß\u001f\n½§\nQlN\u0005\u0011Ê|\fU\u0017[ÃuùHÅj®\b¤O¦¤Ý}¿,\n5\"­\u0006¸Ì\u0018^±Uyîøm\b\u000b\u001daÀù¯±ÂëÑ\u0007êE«Ûh£Ç^TÇlSÔ\u000b\u0012\u001dç»Ó\u000eb\f\u0018áªaÛ¼Ý<d_/UóÔÃuì@p©?qQØ6pÁj\u001a¾^òÑ\u0018á¸®ó)ðf¿láD¬èm\u001c\u001b\u000f\u0002\u0001\u0003£ü0ù0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u001cÅ¾LC<a:\u0015°L¼\u0003òOà²0É\u0006\u0003U\u001d#\u0004Á0¾\u0014\u001cÅ¾LC<a:\u0015°L¼\u0003òOà²¡¤01\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00130\u0011\u0006\u0003U\u0004\b\u0013\nCalifornia1\u00160\u0014\u0006\u0003U\u0004\u0007\u0013\rMountain View1\u00100\u000e\u0006\u0003U\u0004\n\u0013\u0007Android1\u00100\u000e\u0006\u0003U\u0004\u000b\u0013\u0007Android1\u00100\u000e\u0006\u0003U\u0004\u0003\u0013\u0007Android1\"0 \u0006\t*H÷\r\u0001\t\u0001\u0016\u0013android@android.com\t\u0000Õ¸l}ÓNõ0\f\u0006\u0003U\u001d\u0013\u0004\u00050\u0003\u0001\u0001ÿ0\r\u0006\t*H÷\r\u0001\u0001\u0004\u0005\u0000\u0003\u0001\u0001\u0000\u0019Ó\fñ\u0005ûx?L\r}Ò##=@zÏÎ\u0000\b\u001d[×ÆéÖí k\u000e\u0011 \u0006Al¢D\u0013ÒkJ àõ$ÊÒ»\\nL¡\u0001j\u0015n¡ì]ÉZ^:\u0001\u00006ôHÕ\u0010¿.\u001eag:;åm¯\u000bw±Â)ãÂUãèL]#ïº\tËñ; +NZ\"É2cHJ#Òü)ú\u00199u3¯Øª\u0016\u000fBÂÐ\u0016>fCéÁ/ Á33[Àÿk\"ÞÑ­DB)¥9©Nï­«ÐeÎÒK>QåÝ{fx{ï\u0012þû¤Ä#ûOøÌIL\u0002ðõ\u0005\u0016\u0012ÿe)9>FêÅ»!òwÁQª_*¦'Ñè§\n¶\u00035iÞ;¿ÿ|©Ú>\u0012Cö\u000b",
+      "://go.zalopay.vn",
+      "; Domain=zalopay.vn",
+      "<p>Bạn đã đồng ý với <a href=\"https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay\" data-link-id=\"terms_of_use\" data-action=\"OPEN_BOTTOM_SHEET\">Thỏa thuận mở và sử dụng</a> và <a href=\"https://zalopay.vn/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu\" data-link-id=\"privacy_policy\" data-action=\"OPEN_BOTTOM_SHEET\">Chính sách quyền riêng tư</a> của Zalopay vào ngày 10/10/2026.</p>",
+      "=; Max-Age=-1; path=/; domain=.doubleclick.net",
+      "@Url must be okhttp3.HttpUrl, String, java.net.URI, or android.net.Uri type.",
+      "@zalopay.com.vn",
+      "A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.",
+      "A valid Facebook client token must be set in the AndroidManifest.xml or set by calling FacebookSdk.setClientToken before initializing the sdk. Visit https://developers.facebook.com/docs/android/getting-started#add-app_id for more information.",
+      "Ad inspector cannot be opened because the device is not in test mode. See https://developers.google.com/admob/android/test-ads#enable_test_devices for more information.",
+      "AnalyticsDebugEnvironment(applicationId=vn.com.vng.zalopay, environmentValue=3)",
+      "ApiDomainConfiguration(baseHost=https://zalopay.com.vn/, uploadPhotoHost=https://upload.zalopay.com.vn/, clientLogHost=https://log.zalopay.com.vn/, zpmHost=https://zpm.zalopay.com.vn/, zpwHost=https://api.zalopay.vn/, billHost=https://cps.zalopay.com.vn/, zteHost=https://token.zalopay.vn/, googleTokenHost=https://zalopay.com.vn/, autoDebitHost=https://openapi.zalopay.vn/, partnerLinkHost=https://partners.zalopay.vn/link/, socialHost=https://sapi.zalopay.vn/, userFaceAuthHost=https://upload-img.zalopay.vn/, adsHost=https://uudai.zalopay.vn/, ofpEmvcoHost=https://zlp-ofp-emvco-gateway.zalopay.vn/, ofpScanConfigHost=https://zlp-ofp-zpa-camera-config-be.zalopay.vn/, ofpIntegrationHubHost=https://zlp-ofp-integration-hub.zalopay.vn, umHost=https://api.zalopay.vn/, profileUmHost=https://api.zalopay.vn/, livenessVerificationHost=https://api.zalopay.vn, faceTecHost=https://dala2zoom.zalopay.vn/liveness/, cashierHost=https://api.zalopay.vn/, cashierAdsHost=https://uudai.zalopay.vn/, loyaltyHost=https://sapi.zalopay.vn/, submitTransHost=https://bim.zalopay.vn/oss/, userLifecyclePublicHost=https://user-life-cycle-public.zalopay.vn, bimHost=https://bim.zalopay.vn/, uploadImageHost=https://upload-img.zalopay.vn/, promotionSupportHost=https://campaign.zalopay.com.vn/, wrapLoyaltyHost=https://loyalty.zalopay.vn, bankBindingHost=https://sapi.zalopay.vn/, bankBindingPciHost=https://scard.zalopay.vn/, bankConfigHost=https://sapi.zalopay.vn/, notificationHost=https://api.zalopay.vn/, mmfHost=https://mmf-redemption.zalopay.vn/, paymentPlatform=android, zpaConfigHost=https://api.zalopay.vn, mpBaseUrl=https://mp.zalopay.vn, mmfAgreementHost=https://mmf-user.zalopay.vn, appVersionName=11.17.0, paymentSdkVersionName=11.17.0, isDebug=false, trackingHost=https://tracking.zalopay.vn, onelinkHost=https://onelink.zalopay.vn/, bankProfileHost=https://bank-profile.zalopay.vn/, apiZaloPayHost=https://api.zalopay.vn/, miniProgramHost=https://miniprogram.zalopay.vn, ofpHost=https://zlp-ofp-qp-public-api.zalopay.vn, vneidHost=https://rar-um.zalopay.vn, promotionSurveyOutflow=https://uudai.zalopay.vn/, scanAIHost=https://sapi.zalopay.vn/scan360/, searchHost=https://sapi.zalopay.vn/, installmentHost=https://fin-installment.zalopay.vn/, bnplHost=https://bnpl-gateway.zalopay.vn, sseHost=https://sse.zalopay.vn/)",
+      "App measurement deactivated via resources. This method is being deprecated. Please refer to https://firebase.google.com/support/guides/disable-analytics",
+      "Apps that target Android API 30+ (Android 11+) cannot call Facebook native apps unless the package visibility needs are declared. Please follow https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988 to make the declaration.",
+      "Attempt to read EF.COM before BAC failed with: ",
+      "Bằng việc bấm <b>Xác nhận</b>, tôi đồng ý với <a href=\"https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay\">Thoả thuận sử dụng</a> và <a href=\"https://zalopay.vn/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu-hop-nhat\">Chính sách quyền riêng tư</a> của Zalopay.",
+      "Cannot be invoked on Dispatchers.IO",
+      "Cleartext HTTP traffic not permitted. See https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted",
+      "Copyright (c) 2000-2023 The Legion of the Bouncy Castle Inc. (https://www.bouncycastle.org) ",
+      "Detected camera timebase inconsistent. Please file an issue at https://issuetracker.google.com/issues/new?component=618491&template=1257717 with this error message [Manufacturer: %s, Model: %s, Hardware: %s, API Level: %d%s].\nCamera timebase is inconsistent. The timebase reported by the camera is %s, but the actual timebase contained in the frame is detected as %s.",
+      "Dispatchers.IO"
+    ],
+    "n_domains": 530,
+    "apis": [
+      " (API level ",
+      " , apiName:",
+      " , call from render . by  render jsapi control",
+      " API",
+      " EmbedWebViewJsApi ignore\t",
+      " This may occur when resolving Google Play services connection issues on emulators with Google APIs but not Google Play Store.",
+      " api level= ",
+      " api: ",
+      " at API ",
+      " mUnconsumedApiCalls.size()=",
+      " onReceiveJsapiResult cost ",
+      " requires a complex layout before API 31",
+      "$SwitchMap$com$alibaba$ariver$app$api$activity$StartAction",
+      "$SwitchMap$com$alibaba$ariver$app$api$point$engine$EngineInitFailedPoint$Action",
+      "$SwitchMap$com$alibaba$ariver$app$api$ui$darkmode$ColorSchemeType",
+      "$SwitchMap$com$alibaba$ariver$app$api$ui$loading$SplashView$Status",
+      "$SwitchMap$com$alibaba$ariver$resource$api$models$AppInfoScene",
+      "$SwitchMap$com$alibaba$ariver$resource$api$prepare$OfflineMode",
+      "$SwitchMap$com$alibaba$ariver$resource$api$prepare$StepType",
+      "$SwitchMap$com$alibaba$ariver$resource$api$prepare$UpdateMode",
+      "$SwitchMap$com$alibaba$griver$base$api$APWebSettings$LayoutAlgorithm",
+      "$SwitchMap$com$alibaba$griver$base$api$APWebSettings$PluginState",
+      "$SwitchMap$com$alibaba$griver$base$api$APWebSettings$TextSize",
+      "', apiName='",
+      "'awaitClose { yourCallbackOrListener.cancel() }' should be used in the end of callbackFlow block.\nOtherwise, a callback/listener may leak in case of external cancellation.\nSee callbackFlow API documentation for the details.",
+      "('not in H5_SWSYNCAPILIST')",
+      "()' must be called after the 'init(String, AppsFlyerConversionListener)' API method, which should be called on the Application's onCreate.",
+      "()Lcom/miui/referrer/api/GetAppsReferrerDetails;",
+      "()Lvn/ai/trueid/sdk/models/ConfigEndPoint;",
+      "(.*dc-ob-gatewaylb-ext.vpbank.com.vn/openui/$)",
+      "(.*dc-ob-gatewaylb-ext\\.vpbank\\.com\\.vn/openui/login.do.*)",
+      "(.*dc-ob-gatewaylb-ext\\.vpbank\\.com\\.vn/openui/otp.do.*)",
+      "(.*dc-ob-gatewaylb-ext\\.vpbank\\.com\\.vn/openui/wallet.do.*)",
+      "(.*dc-ob-gatewaylb-ext\\.vpbank\\.com\\.vn\\/openui\\/login\\.do.*)",
+      "(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lvn/ai/trueid/sdk/models/ConfigEndPoint;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V",
+      "(Lcom/alipay/iap/android/wallet/acl/member/MemberService$MemberInfoFetchStrategy;Lcom/alipay/iap/android/wallet/acl/member/MemberInfoScope;Lcom/alipay/iap/android/wallet/acl/base/APIContext;Lcom/alipay/iap/android/wallet/acl/base/Callback;)V",
+      "(Lcom/miui/referrer/api/GetAppsReferrerStateListener;)V",
+      "(Ljava/lang/String;ILcom/miui/referrer/api/GetAppsReferrerStateListener;I)V",
+      "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILvn/ai/trueid/sdk/models/ConfigEndPoint;Ljava/lang/String;)V",
+      "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lvn/ai/trueid/sdk/models/ConfigEndPoint;)V",
+      "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lvn/ai/trueid/sdk/models/ConfigEndPoint;I)V",
+      "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lvn/ai/trueid/sdk/models/ConfigEndPoint;)V",
+      "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lvn/ai/trueid/sdk/models/ConfigEndPoint;)V",
+      "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lvn/ai/trueid/sdk/models/ConfigEndPoint;Ljava/lang/String;)V",
+      "(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILvn/com/vng/zalopay/bankbinding/domain/entity/CardNumberGuideEntity;Lvn/com/vng/zalopay/bankbinding/domain/entity/PageOneBackActionEntity;Ljava/lang/String;Ljava/lang/String;Lvn/com/vng/zalopay/bankbinding/domain/entity/select/helper/HelperEntity;Ljava/lang/String;Lvn/com/vng/zalopay/domain/bank/entity/qr/BankDialogEntity;Ljava/lang/String;Lvn/com/vng/zalopay/bankbinding/domain/entity/BankPopupEntity;Ljava/util/List;)Lvn/com/vng/zalopay/bankbinding/presentation/model/BankBindingTypeModel$BankBindingByApiModel;",
+      "(Lorg/json/JSONObject;Lcom/google/gson/Gson;)Lvn/com/vng/zalopay/miniapp/api/v2/common/UserLocalConfigModule$b;",
+      "(Lorg/json/JSONObject;Lcom/google/gson/Gson;)Lvn/com/vng/zalopay/miniapp/api/v2/common/UserLocalConfigModule$c;",
+      "(Lvn/ai/trueid/sdk/models/ConfigEndPoint;)V",
+      ") — cần pin khóa tĩnh của gateway theo API Spec §2",
+      ", accessTokenEndPoint=",
+      ", accesstokenEndPoint=",
+      ", after replacing rpcGateway = ",
+      ", apiConfig=",
+      ", apiId=",
+      ", apiKey=",
+      ", apiLevel=",
+      ", authenEndPoint=",
+      ", autoFillFromApi=",
+      ", before replacing rpcGateway = ",
+      ", capitalization="
+    ],
+    "n_apis": 5061,
+    "crypto": [
+      "\n                            |   placeholdersAfter: ",
+      "\n                    |   placeholdersAfter: ",
+      "\n  Pinned certificates for ",
+      "\n-----END CERTIFICATE REQUEST-----",
+      "\n-----END CERTIFICATE-----",
+      "       certificateIssuer: ",
+      "      userCertificate: ",
+      "  mMapBoxClassLoaded:",
+      " (supports Card Verifiable Certificates for ePassports)",
+      " - encryptedFace: ",
+      " ClassLoader: ",
+      " This may occur when resolving Google Play services connection issues on emulators with Google APIs but not Google Play Store.",
+      " bytes) is not supported by the cipher (max. ",
+      " cannot be reused for encryption",
+      " cannot be saved using the current SaveableStateRegistry. The default implementation only supports types which can be stored inside the Bundle. Please consider implementing a custom Saver for this class and pass it as a stateSaver parameter to rememberSaveable().",
+      " cannot be saved using the current SaveableStateRegistry. The default implementation only supports types which can be stored inside the Bundle. Please consider implementing a custom Saver for this class and pass it to rememberSaveable().",
+      " cannot process AAD when the length of the ciphertext to be processed exceeds the a block size",
+      " cipherSuite=",
+      " correct rootPath: ",
+      " debug app permission check switch is close",
+      " decryption failure limit exceeded",
+      " is a reserved key for the encryption keyset.",
+      " is requested but Paging only supports default logging for level 2 (DEBUG) or level 3 (VERBOSE)",
+      " is starting up. To enable debug logging on a device run:\n  adb shell setprop log.tag.GAv4 DEBUG\n  adb logcat -s GAv4",
+      " isNetDebug:",
+      " localCertificates=",
+      " not verified (no certificates)",
+      " not verified:\n              |    certificate: ",
+      " passed to RSA",
+      " peerCertificates=",
+      " querySignalsCacheTtlSeconds",
+      " should be of type BaseDexClassLoader",
+      " unavailable with RSA.",
+      "\" algorithm is not supported by the JWE encrypter: Supported algorithms: ",
+      "\" encryption method or key size is not supported by the JWE encrypter: Supported methods: ",
+      "#root",
+      "#version 300 es\n#extension GL_OES_EGL_image_external_essl3 : require\nprecision mediump float;\nuniform samplerExternalOES sTexture;\nuniform float uAlphaScale;\nin vec2 vTextureCoord;\nout vec4 outColor;\n\nvoid main() {\n  vec4 src = texture(sTexture, vTextureCoord);\n  outColor = vec4(src.rgb, src.a * uAlphaScale);\n}",
+      "$AESCCMMAC",
+      "$AESCCMMAC128",
+      "$AESCCMMAC192",
+      "$AESCCMMAC256",
+      "$AESCMAC",
+      "$AESGMAC",
+      "$PBEWithAESCBC",
+      "$PBEWithMD5And128BitAESCBCOpenSSL",
+      "$PBEWithMD5And192BitAESCBCOpenSSL",
+      "$PBEWithMD5And256BitAESCBCOpenSSL",
+      "$PBEWithSHA1AESCBC128",
+      "$PBEWithSHA1AESCBC192",
+      "$PBEWithSHA1AESCBC256",
+      "$PBEWithSHA256AESCBC128",
+      "$PBEWithSHA256AESCBC192",
+      "$PBEWithSHA256AESCBC256",
+      "$PBEWithSHA256And128BitAESBC",
+      "$PBEWithSHA256And192BitAESBC",
+      "$PBEWithSHA256And256BitAESBC",
+      "$PBEWithSHAAnd128BitAESBC",
+      "$PBEWithSHAAnd192BitAESBC",
+      "$PBEWithSHAAnd256BitAESBC",
+      "$PBKDF2withSHA256"
+    ],
+    "n_crypto": 6162,
+    "firebase": [
+      " - Initializing AppsFlyer Tacking",
+      " Or adjust your R8 configuration to keep the no-args constructor of the class.",
+      " is not accessible and ReflectionAccessFilter does not permit making it accessible. Register a TypeAdapter for the declaring type, adjust the access filter or increase the visibility of the element and its declaring type.",
+      " is not an instance of com.google.firebase.components.ComponentRegistrar",
+      "$SwitchMap$com$alipay$multimedia$adjuster$utils$Scheme",
+      "'allowBackup' is set to true; appsflyer_backup_rules.xml is NOT detected.\nAppsFlyer shared preferences should be excluded from auto backup by adding: <exclude domain=\"sharedpref\" path=\"appsflyer-data\"/> to the Application's <full-backup-content> rules.\nIf Appsflyer's Purchase Connector is in use then you also must add the following to your rules: <exclude domain=\"sharedpref\" path=\"appsflyer-purchase-data\"/> AND <exclude domain=\"database\" path=\"afpurchases.db\"/>",
+      "'allowBackup' is set to true; appsflyer_data_extraction_rules.xml is NOT detected.\nAppsFlyer shared preferences should be excluded from auto backup by adding: <exclude domain=\"sharedpref\" path=\"appsflyer-data\"/> to the Application's <data-extraction-rules> both in <device-transfer> and <cloud-backup>.\nIf Appsflyer's Purchase Connector is in use then you also must add to <device-transfer> and <cloud-backup> the following excludes: <exclude domain=\"sharedpref\" path=\"appsflyer-purchase-data\"/> AND <exclude domain=\"database\" path=\"afpurchases.db\"/>",
+      "()' must be called after the 'init(String, AppsFlyerConversionListener)' API method, which should be called on the Application's onCreate.",
+      "()Lcom/appsflyer/AFPurchaseType;",
+      "()Lcom/appsflyer/AppsFlyerConsent;",
+      "()Lcom/appsflyer/AppsFlyerProperties;",
+      "()Lcom/appsflyer/MediationNetwork;",
+      "()Lcom/appsflyer/attribution/AppsFlyerRequestListener;",
+      "()Lcom/appsflyer/internal/AFc1kSDK;",
+      "()Lcom/appsflyer/internal/AFc1pSDK;",
+      "()Lcom/appsflyer/internal/AFd1jSDK;",
+      "()Lcom/appsflyer/internal/AFd1wSDK;",
+      "()Lcom/appsflyer/internal/AFd1xSDK;",
+      "()Lcom/appsflyer/internal/AFe1qSDK;",
+      "()Lcom/appsflyer/internal/AFf1fSDK;",
+      "()Lcom/appsflyer/internal/AFf1iSDK;",
+      "()Lcom/appsflyer/internal/AFi1sSDK;",
+      "()Lcom/appsflyer/internal/platform_extension/Plugin;",
+      "(Landroid/content/Context;Lcom/appsflyer/internal/AFb1bSDK$AFa1zSDK;)V",
+      "(Landroid/content/Context;Lcom/appsflyer/internal/AFe1bSDK$AFa1tSDK;)Z",
+      "(Lcom/appsflyer/AFLogger$LogLevel;)Z",
+      "(Lcom/appsflyer/AFLogger$LogLevel;Lcom/appsflyer/internal/AFh1ySDK;Ljava/lang/String;Ljava/lang/Throwable;)V",
+      "(Lcom/appsflyer/AFPurchaseType;Ljava/lang/String;Ljava/lang/String;)Lcom/appsflyer/AFPurchaseDetails;",
+      "(Lcom/appsflyer/AFPurchaseType;Ljava/lang/String;Ljava/lang/String;)V",
+      "(Lcom/appsflyer/internal/AFa1jSDK;)Lcom/appsflyer/internal/AFa1gSDK;",
+      "(Lcom/appsflyer/internal/AFc1fSDK;Lcom/appsflyer/internal/AFc1kSDK;)V",
+      "(Lcom/appsflyer/internal/AFc1kSDK;Lcom/appsflyer/internal/AFc1pSDK;)V",
+      "(Lcom/appsflyer/internal/AFc1kSDK;Lcom/appsflyer/internal/AFf1lSDK;)V",
+      "(Lcom/appsflyer/internal/AFc1kSDK;[BLjava/util/Map;I)V",
+      "(Lcom/appsflyer/internal/AFc1pSDK;)Ljava/lang/String;",
+      "(Lcom/appsflyer/internal/AFd1zSDK;)V",
+      "(Lcom/appsflyer/internal/AFd1zSDK;Lcom/appsflyer/AppsFlyerProperties;Lcom/appsflyer/AFPurchaseDetails;Ljava/util/Map;Lcom/appsflyer/AppsFlyerInAppPurchaseValidationCallback;Lcom/appsflyer/internal/AFj1kSDK;)V",
+      "(Lcom/appsflyer/internal/AFe1qSDK;)V",
+      "(Lcom/appsflyer/internal/AFe1sSDK;Ljava/util/concurrent/Executor;Lcom/appsflyer/internal/AFc1kSDK;Lcom/appsflyer/internal/AFc1fSDK;Lcom/appsflyer/internal/AFg1pSDK;Lcom/appsflyer/internal/AFf1fSDK;Lkotlin/jvm/functions/Function1;)V",
+      "(Lcom/appsflyer/internal/AFe1wSDK;)V",
+      "(Lcom/appsflyer/internal/AFg1bSDK;)V",
+      "(Lcom/appsflyer/internal/AFh1mSDK;)Lcom/appsflyer/internal/AFa1gSDK;",
+      "(Lcom/appsflyer/internal/AFh1mSDK;)Lcom/appsflyer/internal/AFe1sSDK;",
+      "(Lcom/appsflyer/internal/AFh1mSDK;[B)V",
+      "(Lcom/appsflyer/internal/AFh1rSDK;Ljava/lang/String;)V",
+      "(Lcom/appsflyer/internal/AFh1ySDK;Ljava/lang/String;)V",
+      "(Lcom/appsflyer/internal/AFh1ySDK;Ljava/lang/String;Ljava/lang/Throwable;ZZZZ)V",
+      "(Lcom/appsflyer/internal/AFh1ySDK;Ljava/lang/String;Z)V",
+      "(Lcom/appsflyer/internal/AFi1fSDK;Lcom/appsflyer/internal/AFc1kSDK;Lcom/appsflyer/internal/AFd1zSDK;Lcom/appsflyer/internal/AFg1pSDK;Lcom/appsflyer/internal/AFc1fSDK;Lcom/appsflyer/internal/AFh1fSDK;)V",
+      "(Lcom/appsflyer/internal/components/IdProvider;Lcom/appsflyer/internal/util/ServerConfigUrlFormatter;)V",
+      "(Lcom/appsflyer/internal/model/event/AFEvent;)Ljava/lang/String;",
+      "(Lcom/appsflyer/internal/platform_extension/Plugin;Ljava/lang/String;Ljava/util/Map;)Lcom/appsflyer/internal/platform_extension/PluginInfo;",
+      "(Lcom/appsflyer/internal/platform_extension/Plugin;Ljava/lang/String;Ljava/util/Map;)V",
+      "(Lcom/facebook/FacebookException;)V",
+      "(Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;)Lcom/appsflyer/AppsFlyerConsent;",
+      "(Ljava/lang/String;)Lcom/appsflyer/internal/AFc1aSDK;",
+      "(Ljava/lang/String;)Lcom/appsflyer/internal/AFd1iSDK;",
+      "(Ljava/lang/String;Lcom/appsflyer/MediationNetwork;Ljava/lang/String;D)Lcom/appsflyer/AFAdRevenueData;",
+      "(Ljava/lang/String;Lcom/appsflyer/MediationNetwork;Ljava/lang/String;D)V",
+      "(Ljava/lang/String;Lcom/appsflyer/internal/AFc1pSDK;)V"
+    ],
+    "n_firebase": 2538,
+    "zalopay": [
+      "\nChọn Zalopay trong danh sách ngân hàng nhận và chuyển khoản ngay!",
+      "\nNgân hàng nhận: Zalopay\nSTK: ",
+      "      <data android:scheme=\"zalo-",
+      " AS PHONE_NUMBER, 0 AS STATUS, NULL AS ZALOPAY_ID, NULL AS ZALOPAY_NAME, 0 AS USING_APP, ",
+      " Cài đặt > Zalopay > Thông báo > Bật cho phép thông báo ",
+      " ZaloPay Android / ",
+      " căn cước, Zalopay cần bạn cấp quyền truy cập camera:",
+      "%/năm cho tiền nhận vào Số dư sinh lời.\nBạn vui lòng cho Zalopay khảo sát lý do trước khi tắt Sinh lời tự động nhé:",
+      "', zalopayname='",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankCtaEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankPopupEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankSecurityEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankSmsOtpDetectorEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankValidatorEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/CardNumberGuideEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/OpenBankAccountPopupEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/PageOneBackActionEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/SuggestBankEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/ekyc/BankEKYCCtaEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/link/AuthenCancelConsentDialogEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/link/TermEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/oao/AddressEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/oao/EmailEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/oao/ExtraInfoEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/oao/ExtraInfoInputFieldEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/oao/ExtraInfoStepDetailEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/select/helper/FaqCtaEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/select/helper/HelperEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/select/helper/ToroEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/repository/params/BankBindingInfoParams;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/argument/BankWebAppArgument;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/argument/fm/LinkedBankDetailData;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/model/BankBindingFieldModel$ExpiryDateModel;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/model/BankBindingFieldModel$IssueDateModel;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/model/BankSubmitStateModel$BottomDialogErrorModel;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/model/BankSubmitStateModel$ToolTipErrorModel;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/model/ekyc/BankEKycInputModel;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/ui/view/EdittextView;",
+      "()Lvn/com/vng/zalopay/data/bank/ui/BankStyle;",
+      "()Lvn/com/vng/zalopay/domain/bank/entity/qr/BankDialogEntity;",
+      "()Lvn/com/vng/zalopay/domain/topupwithdraw/entity/FundingSolutionCtaEntity;",
+      "()Lvn/com/vng/zalopay/domain/topupwithdraw/entity/TopUpWithdrawCTAEntity;",
+      "()Lvn/com/vng/zalopay/domain/topupwithdraw/entity/result/FundingResultPageCustomBlockEntity;",
+      "()Lvn/com/vng/zalopay/domain/topupwithdraw/entity/result/FundingResultPageEntity;",
+      "()Lvn/com/vng/zalopay/domain/topupwithdraw/entity/result/FundingResultPageExtraCtaEntity;",
+      "()Lvn/com/vng/zalopay/domain/topupwithdraw/entity/routingtopup/RoutingTopupEntity;",
+      "()Lvn/com/vng/zalopay/feature/argument/BankDetailArgs;",
+      "()Lvn/com/vng/zalopay/feature/argument/BankUnLinkStatusArgs;",
+      "()Lvn/com/vng/zalopay/livenessdetection/presentation/domain/model/SelfieCheckConfig;",
+      "()Lvn/com/vng/zalopay/livenessdetection/presentation/domain/model/SelfieCheckConfigResponse$Ear;",
+      "()Lvn/com/vng/zalopay/livenessdetection/presentation/domain/model/SelfieCheckConfigResponse$Glare;",
+      "()Lvn/com/vng/zalopay/livenessdetection/presentation/domain/model/SelfieCheckConfigResponse;",
+      "()Lvn/com/vng/zalopay/loginv2/data/model/SmartOTPConfigResponse;",
+      "()Lvn/com/vng/zalopay/loginv2/domain/model/LockInfo;",
+      "()Lvn/com/vng/zalopay/loginv2/domain/model/PinExpireInfo;",
+      "()Lvn/com/vng/zalopay/navigation/b;",
+      "()Lvn/com/vng/zalopay/pdfviewer/PdfRendererView$a;",
+      "()Lvn/com/vng/zalopay/withdraw/domain/entity/WDCtaEntity;",
+      "()Lvn/com/vng/zalopay/withdraw/domain/entity/WDNextActionConditionEntity;",
+      "()Lvn/com/vng/zalopay/withdraw/domain/entity/WDOrderResultEntity$EKyc;"
+    ],
+    "n_zalopay": 2803,
+    "payment": [
+      "\u00000\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000e\n\u0002\b\u0005\n\u0002\u0010\b\n\u0002\b\u0011\n\u0002\u0018\u0002\n\u0002\b2\n\u0002\u0010\u000b\n\u0002\b\b\n\u0002\u0010 \n\u0002\b\u0006\b\b\u0018\u00002\u00020\u0001R\u001c\u0010\u0007\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b\u0003\u0010\u0004\u001a\u0004\b\u0005\u0010\u0006R\u001c\u0010\r\u001a\u0004\u0018\u00010\b8\u0006X\u0004¢\u0006\f\n\u0004\b\t\u0010\n\u001a\u0004\b\u000b\u0010\fR\u001c\u0010\u0010\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b\u000e\u0010\u0004\u001a\u0004\b\u000f\u0010\u0006R\u001c\u0010\u0013\u001a\u0004\u0018\u00010\b8\u0006X\u0004¢\u0006\f\n\u0004\b\u0011\u0010\n\u001a\u0004\b\u0012\u0010\fR\u001c\u0010\u0016\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b\u0014\u0010\u0004\u001a\u0004\b\u0015\u0010\u0006R\u001c\u0010\u0019\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b\u0017\u0010\u0004\u001a\u0004\b\u0018\u0010\u0006R\u001c\u0010\u001f\u001a\u0004\u0018\u00010\u001a8\u0006X\u0004¢\u0006\f\n\u0004\b\u001b\u0010\u001c\u001a\u0004\b\u001d\u0010\u001eR\u001c\u0010\"\u001a\u0004\u0018\u00010\u001a8\u0006X\u0004¢\u0006\f\n\u0004\b \u0010\u001c\u001a\u0004\b!\u0010\u001eR\u001c\u0010%\u001a\u0004\u0018\u00010\u001a8\u0006X\u0004¢\u0006\f\n\u0004\b#\u0010\u001c\u001a\u0004\b$\u0010\u001eR\u001c\u0010(\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b&\u0010\u0004\u001a\u0004\b'\u0010\u0006R\u001c\u0010+\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b)\u0010\u0004\u001a\u0004\b*\u0010\u0006R\u001c\u0010.\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b,\u0010\u0004\u001a\u0004\b-\u0010\u0006R\u001c\u00101\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b/\u0010\u0004\u001a\u0004\b0\u0010\u0006R\u001c\u00104\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b2\u0010\u0004\u001a\u0004\b3\u0010\u0006R\u001c\u00107\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b5\u0010\u0004\u001a\u0004\b6\u0010\u0006R\u001c\u0010:\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b8\u0010\u0004\u001a\u0004\b9\u0010\u0006R\u001c\u0010=\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b;\u0010\u0004\u001a\u0004\b<\u0010\u0006R\u001c\u0010@\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\b>\u0010\u0004\u001a\u0004\b?\u0010\u0006R\u001c\u0010C\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\bA\u0010\u0004\u001a\u0004\bB\u0010\u0006R\u001c\u0010F\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\bD\u0010\u0004\u001a\u0004\bE\u0010\u0006R\u001c\u0010I\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\bG\u0010\u0004\u001a\u0004\bH\u0010\u0006R\u001c\u0010L\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\f\n\u0004\bJ\u0010\u0004\u001a\u0004\bK\u0010\u0006R\u001c\u0010R\u001a\u0004\u0018\u00010M8\u0006X\u0004¢\u0006\f\n\u0004\bN\u0010O\u001a\u0004\bP\u0010QR\u001a\u0010U\u001a\u00020\u00028\u0006X\u0004¢\u0006\f\n\u0004\bS\u0010\u0004\u001a\u0004\bT\u0010\u0006R \u0010[\u001a\b\u0012\u0004\u0012\u00020\u00020V8\u0006X\u0004¢\u0006\f\n\u0004\bW\u0010X\u001a\u0004\bY\u0010Z¨\u0006\\",
+      "\u00004\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000b\n\u0002\b+\n\u0002\u0010 \n\u0002\u0010\u000e\n\u0002\b\u0007\n\u0002\u0010\b\n\u0002\b\u0013\n\u0002\u0010\t\n\u0002\bE\n\u0002\u0018\u0002\n\u0002\b\u0006\b\b\u0018\u00002\u00020\u0001R\"\u0010\t\u001a\u00020\u00028\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b\u0003\u0010\u0004\u001a\u0004\b\u0005\u0010\u0006\"\u0004\b\u0007\u0010\bR\"\u0010\r\u001a\u00020\u00028\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b\n\u0010\u0004\u001a\u0004\b\u000b\u0010\u0006\"\u0004\b\f\u0010\bR\"\u0010\u0011\u001a\u00020\u00028\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b\u000e\u0010\u0004\u001a\u0004\b\u000f\u0010\u0006\"\u0004\b\u0010\u0010\bR\"\u0010\u0015\u001a\u00020\u00028\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b\u0012\u0010\u0004\u001a\u0004\b\u0013\u0010\u0006\"\u0004\b\u0014\u0010\bR\"\u0010\u0019\u001a\u00020\u00028\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b\u0016\u0010\u0004\u001a\u0004\b\u0017\u0010\u0006\"\u0004\b\u0018\u0010\bR\"\u0010\u001d\u001a\u00020\u00028\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b\u001a\u0010\u0004\u001a\u0004\b\u001b\u0010\u0006\"\u0004\b\u001c\u0010\bR\"\u0010!\u001a\u00020\u00028\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b\u001e\u0010\u0004\u001a\u0004\b\u001f\u0010\u0006\"\u0004\b \u0010\bR\"\u0010%\u001a\u00020\u00028\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b\"\u0010\u0004\u001a\u0004\b#\u0010\u0006\"\u0004\b$\u0010\bR\"\u0010)\u001a\u00020\u00028\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b&\u0010\u0004\u001a\u0004\b'\u0010\u0006\"\u0004\b(\u0010\bR\"\u0010-\u001a\u00020\u00028\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b*\u0010\u0004\u001a\u0004\b+\u0010\u0006\"\u0004\b,\u0010\bR*\u00106\u001a\n\u0012\u0004\u0012\u00020/\u0018\u00010.8\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b0\u00101\u001a\u0004\b2\u00103\"\u0004\b4\u00105R\"\u0010>\u001a\u0002078\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b8\u00109\u001a\u0004\b:\u0010;\"\u0004\b<\u0010=R\"\u0010B\u001a\u0002078\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b?\u00109\u001a\u0004\b@\u0010;\"\u0004\bA\u0010=R\"\u0010F\u001a\u0002078\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\bC\u00109\u001a\u0004\bD\u0010;\"\u0004\bE\u0010=R\"\u0010J\u001a\u0002078\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\bG\u00109\u001a\u0004\bH\u0010;\"\u0004\bI\u0010=R\"\u0010R\u001a\u00020K8\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\bL\u0010M\u001a\u0004\bN\u0010O\"\u0004\bP\u0010QR\"\u0010V\u001a\u0002078\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\bS\u00109\u001a\u0004\bT\u0010;\"\u0004\bU\u0010=R\"\u0010Z\u001a\u0002078\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\bW\u00109\u001a\u0004\bX\u0010;\"\u0004\bY\u0010=R\"\u0010^\u001a\u0002078\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b[\u00109\u001a\u0004\b\\\u0010;\"\u0004\b]\u0010=R\"\u0010b\u001a\u0002078\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\b_\u00109\u001a\u0004\b`\u0010;\"\u0004\ba\u0010=R\"\u0010f\u001a\u0002078\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\bc\u00109\u001a\u0004\bd\u0010;\"\u0004\be\u0010=R\"\u0010j\u001a\u0002078\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\bg\u00109\u001a\u0004\bh\u0010;\"\u0004\bi\u0010=R$\u0010q\u001a\u0004\u0018\u00010/8\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\bk\u0010l\u001a\u0004\bm\u0010n\"\u0004\bo\u0010pR$\u0010u\u001a\u0004\u0018\u00010/8\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\br\u0010l\u001a\u0004\bs\u0010n\"\u0004\bt\u0010pR$\u0010y\u001a\u0004\u0018\u00010/8\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\bv\u0010l\u001a\u0004\bw\u0010n\"\u0004\bx\u0010pR\u001c\u0010|\u001a\u0004\u0018\u00010/8\u0006X\u0004¢\u0006\f\n\u0004\bz\u0010l\u001a\u0004\b{\u0010nR\u001c\u0010\u001a\u0004\u0018\u00010/8\u0006X\u0004¢\u0006\f\n\u0004\b}\u0010l\u001a\u0004\b~\u0010nR\u001f\u0010\u0001\u001a\u0004\u0018\u00010/8\u0006X\u0004¢\u0006\u000e\n\u0005\b\u0001\u0010l\u001a\u0005\b\u0001\u0010nR\u001f\u0010\u0001\u001a\u0004\u0018\u00010/8\u0006X\u0004¢\u0006\u000e\n\u0005\b\u0001\u0010l\u001a\u0005\b\u0001\u0010nR!\u0010\u0001\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\u0010\n\u0006\b\u0001\u0010\u0001\u001a\u0006\b\u0001\u0010\u0001R!\u0010\u0001\u001a\u0004\u0018\u00010\u00028\u0006X\u0004¢\u0006\u0010\n\u0006\b\u0001\u0010\u0001\u001a\u0006\b\u0001\u0010\u0001R\u001d\u0010\u0001\u001a\u0002078\u0006X\u0004¢\u0006\u000e\n\u0005\b\u0001\u00109\u001a\u0005\b\u0001\u0010;R\"\u0010\u0001\u001a\u0005\u0018\u00010\u00018\u0006X\u0004¢\u0006\u0010\n\u0006\b\u0001\u0010\u0001\u001a\u0006\b\u0001\u0010\u0001¨\u0006\u0001",
+      "\u0000L\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u0002\n\u0002\b\u0002\n\u0002\u0010\u0007\n\u0002\b%\n\u0002\u0018\u0002\n\u0002\b\u0017\n\u0002\u0010\u000b\n\u0002\b\u000b\n\u0002\u0018\u0002\n\u0002\b\u000b\n\u0002\u0018\u0002\n\u0002\b\u0015\b\u0007\u0018\u00002\u00020\u0001:\u0002W3B\u001b\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\n\b\u0002\u0010\u0005\u001a\u0004\u0018\u00010\u0004¢\u0006\u0004\b\u0006\u0010\u0007J\u0017\u0010\u000b\u001a\u00020\n2\u0006\u0010\t\u001a\u00020\bH\u0016¢\u0006\u0004\b\u000b\u0010\fR*\u0010\u0015\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\r8\u0006@FX\u000e¢\u0006\u0012\n\u0004\b\u000f\u0010\u0010\u001a\u0004\b\u0011\u0010\u0012\"\u0004\b\u0013\u0010\u0014R*\u0010\u0019\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\r8\u0006@FX\u000e¢\u0006\u0012\n\u0004\b\u0016\u0010\u0010\u001a\u0004\b\u0017\u0010\u0012\"\u0004\b\u0018\u0010\u0014R*\u0010\u001d\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\r8\u0006@FX\u000e¢\u0006\u0012\n\u0004\b\u001a\u0010\u0010\u001a\u0004\b\u001b\u0010\u0012\"\u0004\b\u001c\u0010\u0014R*\u0010!\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\r8\u0006@FX\u000e¢\u0006\u0012\n\u0004\b\u001e\u0010\u0010\u001a\u0004\b\u001f\u0010\u0012\"\u0004\b \u0010\u0014R*\u0010'\u001a\u00020\b2\u0006\u0010\u000e\u001a\u00020\b8\u0006@FX\u000e¢\u0006\u0012\n\u0004\b\"\u0010#\u001a\u0004\b$\u0010%\"\u0004\b&\u0010\fR.\u0010.\u001a\u0004\u0018\u00010\b2\b\u0010\u000e\u001a\u0004\u0018\u00010\b8\u0006@FX\u000e¢\u0006\u0012\n\u0004\b(\u0010)\u001a\u0004\b*\u0010+\"\u0004\b,\u0010-R.\u00102\u001a\u0004\u0018\u00010\b2\b\u0010\u000e\u001a\u0004\u0018\u00010\b8\u0006@FX\u000e¢\u0006\u0012\n\u0004\b/\u0010)\u001a\u0004\b0\u0010+\"\u0004\b1\u0010-R*\u0010:\u001a\u0002032\u0006\u0010\u000e\u001a\u0002038\u0006@FX\u000e¢\u0006\u0012\n\u0004\b4\u00105\u001a\u0004\b6\u00107\"\u0004\b8\u00109R*\u0010>\u001a\u00020\b2\u0006\u0010\u000e\u001a\u00020\b8\u0006@FX\u000e¢\u0006\u0012\n\u0004\b;\u0010#\u001a\u0004\b<\u0010%\"\u0004\b=\u0010\fR.\u0010B\u001a\u0004\u0018\u00010\b2\b\u0010\u000e\u001a\u0004\u0018\u00010\b8\u0006@FX\u000e¢\u0006\u0012\n\u0004\b?\u0010)\u001a\u0004\b@\u0010+\"\u0004\bA\u0010-R.\u0010F\u001a\u0004\u0018\u00010\b2\b\u0010\u000e\u001a\u0004\u0018\u00010\b8\u0006@FX\u000e¢\u0006\u0012\n\u0004\bC\u0010)\u001a\u0004\bD\u0010+\"\u0004\bE\u0010-R*\u0010J\u001a\u0002032\u0006\u0010\u000e\u001a\u0002038\u0006@FX\u000e¢\u0006\u0012\n\u0004\bG\u00105\u001a\u0004\bH\u00107\"\u0004\bI\u00109R*\u0010R\u001a\u00020K2\u0006\u0010\u000e\u001a\u00020K8\u0006@FX\u000e¢\u0006\u0012\n\u0004\bL\u0010M\u001a\u0004\bN\u0010O\"\u0004\bP\u0010QR*\u0010V\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\r8\u0006@FX\u000e¢\u0006\u0012\n\u0004\bS\u0010\u0010\u001a\u0004\bT\u0010\u0012\"\u0004\bU\u0010\u0014R*\u0010^\u001a\u00020W2\u0006\u0010\u000e\u001a\u00020W8\u0006@FX\u000e¢\u0006\u0012\n\u0004\bX\u0010Y\u001a\u0004\bZ\u0010[\"\u0004\b\\\u0010]R*\u0010b\u001a\u00020K2\u0006\u0010\u000e\u001a\u00020K8\u0006@FX\u000e¢\u0006\u0012\n\u0004\b_\u0010M\u001a\u0004\b`\u0010O\"\u0004\ba\u0010QR0\u0010j\u001a\u0010\u0012\u0004\u0012\u00020\r\u0012\u0004\u0012\u00020\n\u0018\u00010c8\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\bd\u0010e\u001a\u0004\bf\u0010g\"\u0004\bh\u0010iR0\u0010n\u001a\u0010\u0012\u0004\u0012\u00020K\u0012\u0004\u0012\u00020\n\u0018\u00010c8\u0006@\u0006X\u000e¢\u0006\u0012\n\u0004\bk\u0010e\u001a\u0004\bl\u0010g\"\u0004\bm\u0010iR$\u0010q\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\r8\u0002@BX\u000e¢\u0006\f\n\u0004\bo\u0010\u0010\"\u0004\bp\u0010\u0014R$\u0010t\u001a\u00020W2\u0006\u0010\u000e\u001a\u00020W8\u0002@BX\u000e¢\u0006\f\n\u0004\br\u0010Y\"\u0004\bs\u0010]R$\u0010w\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\r8\u0002@BX\u000e¢\u0006\f\n\u0004\bu\u0010\u0010\"\u0004\bv\u0010\u0014¨\u0006x",
+      "\u0000\u0001\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\b\u0006\n\u0002\u0018\u0002\n\u0002\b\u0006\n\u0002\u0010\t\n\u0002\b\t\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u000b\n\u0002\u0010\u0002\n\u0002\b\f\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\b\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0006\u0018\u0000 _2\u00020\u0001:\u0004_`abB1\b\u0000\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u0012\u0006\u0010\u0006\u001a\u00020\u0007\u0012\u0006\u0010\b\u001a\u00020\u0007\u0012\b\u0010\t\u001a\u0004\u0018\u00010\n¢\u0006\u0002\u0010\u000bJ\u000e\u0010@\u001a\u00020A2\u0006\u0010B\u001a\u00020#J\r\u0010C\u001a\u00020AH\u0000¢\u0006\u0002\bDJ\r\u0010E\u001a\u00020AH\u0000¢\u0006\u0002\bFJ\u0018\u0010G\u001a\u00020A2\u0006\u0010H\u001a\u00020\u000f2\b\u0010\u0014\u001a\u0004\u0018\u00010\u0015J\u001a\u0010I\u001a\u00020\u00072\u0006\u0010\u000e\u001a\u00020\u000f2\b\u0010\u0014\u001a\u0004\u0018\u00010\u0015H\u0002J\u000e\u0010J\u001a\u00020A2\u0006\u0010\u000e\u001a\u00020\u000fJ\u000e\u0010K\u001a\u00020A2\u0006\u0010L\u001a\u00020\nJ\u0006\u0010M\u001a\u00020NJ\u0006\u0010O\u001a\u00020PJ\u0006\u0010,\u001a\u00020QJ\u0016\u0010R\u001a\u00020A2\u0006\u00104\u001a\u00020S2\u0006\u0010T\u001a\u00020\u0003J\u0016\u0010U\u001a\u00020A2\u0006\u0010\t\u001a\u00020\n2\u0006\u0010\b\u001a\u00020\u0007J\u000e\u0010V\u001a\u00020A2\u0006\u0010\u000e\u001a\u00020\u000fJ\u0006\u0010W\u001a\u00020\nJ\u0006\u0010L\u001a\u00020\nJ\r\u0010X\u001a\u00020AH\u0000¢\u0006\u0002\bYJ$\u0010Z\u001a\u00020A2\f\u0010[\u001a\b\u0012\u0004\u0012\u00020]0\\2\u0006\u0010\u0006\u001a\u00020\u00072\u0006\u0010^\u001a\u00020\u0007J\u0006\u0010>\u001a\u00020QR\u0011\u0010\u0004\u001a\u00020\u0005¢\u0006\b\n\u0000\u001a\u0004\b\f\u0010\rR\u001e\u0010\u000e\u001a\u0004\u0018\u00010\u000f8@X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u0010\u0010\u0011\"\u0004\b\u0012\u0010\u0013R\u001c\u0010\u0014\u001a\u0004\u0018\u00010\u0015X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u0016\u0010\u0017\"\u0004\b\u0018\u0010\u0019R\u000e\u0010\u001a\u001a\u00020\u0007X\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\u001b\u001a\b\u0012\u0004\u0012\u00020\n0\u001cX\u0004¢\u0006\u0002\n\u0000R\u0011\u0010\u0002\u001a\u00020\u0003¢\u0006\b\n\u0000\u001a\u0004\b\u001d\u0010\u001eR\u0011\u0010\u001f\u001a\u00020\u00078F¢\u0006\u0006\u001a\u0004\b\u001f\u0010 R\u0011\u0010!\u001a\u00020\u00078F¢\u0006\u0006\u001a\u0004\b!\u0010 R$\u0010$\u001a\u00020#2\u0006\u0010\"\u001a\u00020#@@X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b%\u0010&\"\u0004\b'\u0010(R$\u0010)\u001a\u00020#2\u0006\u0010\"\u001a\u00020#@@X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b*\u0010&\"\u0004\b+\u0010(R\u0018\u0010,\u001a\u00060-R\u00020\u0000X\u0004¢\u0006\b\n\u0000\u001a\u0004\b.\u0010/R\u0018\u00100\u001a\u000601R\u00020\u0000X\u0004¢\u0006\b\n\u0000\u001a\u0004\b2\u00103R\u0018\u00104\u001a\u000605R\u00020\u0000X\u0004¢\u0006\b\n\u0000\u001a\u0004\b6\u00107R$\u00108\u001a\u00020#2\u0006\u0010\"\u001a\u00020#@@X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b9\u0010&\"\u0004\b:\u0010(R$\u0010;\u001a\u00020#2\u0006\u0010\"\u001a\u00020#@@X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b<\u0010&\"\u0004\b=\u0010(R\u0018\u0010>\u001a\u00060-R\u00020\u0000X\u0004¢\u0006\b\n\u0000\u001a\u0004\b?\u0010/¨\u0006c",
+      "\u0000\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\b\u0004\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u000b\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0002\b\u0007\n\u0002\u0010\u000b\n\u0002\b\b\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u001a\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\u0005\b\u0007\u0018\u0000 \u00112\u00020\u00012\u00020\u0002:\u0003Z`iB!\b\u0007\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u0012\u0006\u0010\u0006\u001a\u00020\u0005\u0012\u0006\u0010\b\u001a\u00020\u0007¢\u0006\u0004\b\t\u0010\nJ#\u0010\u0011\u001a\u00020\u00102\f\u0010\r\u001a\b\u0012\u0004\u0012\u00020\f0\u000b2\u0006\u0010\u000f\u001a\u00020\u000e¢\u0006\u0004\b\u0011\u0010\u0012J\u000f\u0010\u0013\u001a\u00020\u0010H\u0016¢\u0006\u0004\b\u0013\u0010\u0014J-\u0010\u001b\u001a\u00020\u00102\b\u0010\u0016\u001a\u0004\u0018\u00010\u00152\b\u0010\u0018\u001a\u0004\u0018\u00010\u00172\b\u0010\u001a\u001a\u0004\u0018\u00010\u0019H\u0016¢\u0006\u0004\b\u001b\u0010\u001cJ\r\u0010\u001d\u001a\u00020\u0010¢\u0006\u0004\b\u001d\u0010\u0014J\r\u0010\u001e\u001a\u00020\u0010¢\u0006\u0004\b\u001e\u0010\u0014J\r\u0010\u001f\u001a\u00020\u0010¢\u0006\u0004\b\u001f\u0010\u0014J\r\u0010 \u001a\u00020\u0010¢\u0006\u0004\b \u0010\u0014J\u000f\u0010!\u001a\u00020\u0010H\u0016¢\u0006\u0004\b!\u0010\u0014J\u000f\u0010\"\u001a\u00020\u0010H\u0016¢\u0006\u0004\b\"\u0010\u0014J#\u0010#\u001a\u00020\u00102\b\u0010\u0018\u001a\u0004\u0018\u00010\u00172\b\u0010\u001a\u001a\u0004\u0018\u00010\u0019H\u0002¢\u0006\u0004\b#\u0010$J!\u0010)\u001a\u00020\u00102\u0006\u0010&\u001a\u00020%2\b\u0010(\u001a\u0004\u0018\u00010'H\u0002¢\u0006\u0004\b)\u0010*J#\u0010+\u001a\u00020\u00102\b\u0010\u0018\u001a\u0004\u0018\u00010\u00172\b\u0010\u001a\u001a\u0004\u0018\u00010\u0019H\u0002¢\u0006\u0004\b+\u0010$J\u000f\u0010,\u001a\u00020\u0010H\u0002¢\u0006\u0004\b,\u0010\u0014J#\u0010-\u001a\u00020\u00102\b\u0010\u0018\u001a\u0004\u0018\u00010\u00172\b\u0010\u001a\u001a\u0004\u0018\u00010\u0019H\u0002¢\u0006\u0004\b-\u0010$J\u000f\u0010.\u001a\u00020\u0010H\u0002¢\u0006\u0004\b.\u0010\u0014J\u000f\u00100\u001a\u00020/H\u0002¢\u0006\u0004\b0\u00101J#\u00102\u001a\u00020\u00102\b\u0010\u0018\u001a\u0004\u0018\u00010\u00172\b\u0010\u001a\u001a\u0004\u0018\u00010\u0019H\u0002¢\u0006\u0004\b2\u0010$J\u0019\u00103\u001a\u00020\u00102\b\u0010\u001a\u001a\u0004\u0018\u00010\u0019H\u0002¢\u0006\u0004\b3\u00104J\u000f\u00105\u001a\u00020\u0010H\u0002¢\u0006\u0004\b5\u0010\u0014J#\u00106\u001a\u00020\u00102\b\u0010\u0018\u001a\u0004\u0018\u00010\u00172\b\u0010\u001a\u001a\u0004\u0018\u00010\u0019H\u0002¢\u0006\u0004\b6\u0010$J#\u00107\u001a\u00020\u00102\b\u0010\u0018\u001a\u0004\u0018\u00010\u00172\b\u0010\u001a\u001a\u0004\u0018\u00010\u0019H\u0002¢\u0006\u0004\b7\u0010$J\u001d\u0010;\u001a\u00020\u00102\f\u0010:\u001a\b\u0012\u0004\u0012\u00020908H\u0002¢\u0006\u0004\b;\u0010<J\u001f\u0010A\u001a\u00020\u00102\u0006\u0010>\u001a\u00020=2\u0006\u0010@\u001a\u00020?H\u0002¢\u0006\u0004\bA\u0010BJ\u0017\u0010D\u001a\u00020\u00102\u0006\u0010C\u001a\u000209H\u0002¢\u0006\u0004\bD\u0010EJ#\u0010F\u001a\u00020\u00102\b\u0010\u0018\u001a\u0004\u0018\u00010\u00172\b\u0010\u001a\u001a\u0004\u0018\u00010\u0019H\u0002¢\u0006\u0004\bF\u0010$J#\u0010G\u001a\u00020\u00102\b\u0010\u0018\u001a\u0004\u0018\u00010\u00172\b\u0010\u001a\u001a\u0004\u0018\u00010\u0019H\u0002¢\u0006\u0004\bG\u0010$J\u0017\u0010I\u001a\u00020\u00172\u0006\u0010H\u001a\u00020\u0015H\u0002¢\u0006\u0004\bI\u0010JR\u0017\u0010\u0004\u001a\u00020\u00038\u0006¢\u0006\f\n\u0004\b\u001b\u0010K\u001a\u0004\bL\u0010MR\u0017\u0010\u0006\u001a\u00020\u00058\u0006¢\u0006\f\n\u0004\bN\u0010O\u001a\u0004\bP\u0010QR\u0017\u0010\b\u001a\u00020\u00078\u0006¢\u0006\f\n\u0004\bR\u0010S\u001a\u0004\bT\u0010UR\u0016\u0010\u000f\u001a\u00020\u000e8\u0002@\u0002X.¢\u0006\u0006\n\u0004\bV\u0010WR\u001c\u0010\r\u001a\b\u0012\u0004\u0012\u00020\f0\u000b8\u0002@\u0002X.¢\u0006\u0006\n\u0004\bX\u0010YR\u001f\u0010_\u001a\u00060ZR\u00020\u00008BX\u0002¢\u0006\f\n\u0004\b[\u0010\\\u001a\u0004\b]\u0010^R\u001f\u0010d\u001a\u00060`R\u00020\u00008FX\u0002¢\u0006\f\n\u0004\ba\u0010\\\u001a\u0004\bb\u0010cR\u0018\u0010h\u001a\u0004\u0018\u00010e8\u0002@\u0002X\u000e¢\u0006\u0006\n\u0004\bf\u0010g¨\u0006j",
+      "\nQR RAW    : '",
+      "\nsyncFromOutOfReqRate=",
+      "\rABCDEFGHIJKLMNOPQRSTUVWXYZ￺\u001c\u001d\u001e￻ ￼\"#$%&'()*+,-./0123456789:￱￲￳￴￸",
+      " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001fÿ",
+      " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÿ",
+      " (supports Card Verifiable Certificates for ePassports)",
+      " - isOdaTransaction:",
+      " - isTransactionCompleted:",
+      " .,:;'`\"<>()[]{}?/\\!@#$%^&*_-=+|~0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      " TEXT, max_tvl INTEGER DEFAULT 100, CVMPriorityList TEXT DEFAULT 'OCS', sdk_enable_payment INTEGER DEFAULT 0, deviceKeyID TEXT, deviceId TEXT, deviceIDType TEXT, dasEnrollDevice INTEGER DEFAULT 0, x_via_hint_header TEXT, customTransit INTEGER DEFAULT 0, offlinePayment INTEGER DEFAULT 0);",
+      " already ended. Cannot end transfer again.",
+      " defaultPayment=",
+      " events, will discard them",
+      " that were previously added to the FragmentManager through a separate FragmentTransaction.",
+      "\") included FragmentTransactions must use setReorderingAllowed(true) to ensure that the back stack can be restored as an atomic operation. Found ",
+      "\") must be self contained and not reference fragments from non-saved FragmentTransactions. Found reference to fragment",
+      "#;/?:@&=+$,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_.!~*'()0123456789",
+      "&from_source=vietqr",
+      "&is_qr_upload=",
+      "' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.",
+      "'allowBackup' is set to true; appsflyer_data_extraction_rules.xml is NOT detected.\nAppsFlyer shared preferences should be excluded from auto backup by adding: <exclude domain=\"sharedpref\" path=\"appsflyer-data\"/> to the Application's <data-extraction-rules> both in <device-transfer> and <cloud-backup>.\nIf Appsflyer's Purchase Connector is in use then you also must add to <device-transfer> and <cloud-backup> the following excludes: <exclude domain=\"sharedpref\" path=\"appsflyer-purchase-data\"/> AND <exclude domain=\"database\" path=\"afpurchases.db\"/>",
+      "()Lvn/ai/trueid/sdk/models/sotp/TransactionType;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankCtaEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankPopupEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankSecurityEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankSmsOtpDetectorEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankValidatorEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/CardNumberGuideEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/OpenBankAccountPopupEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/PageOneBackActionEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/SuggestBankEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/ekyc/BankEKYCCtaEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/link/AuthenCancelConsentDialogEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/link/TermEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/oao/AddressEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/oao/EmailEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/oao/ExtraInfoEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/oao/ExtraInfoInputFieldEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/oao/ExtraInfoStepDetailEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/select/helper/FaqCtaEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/select/helper/HelperEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/entity/select/helper/ToroEntity;",
+      "()Lvn/com/vng/zalopay/bankbinding/domain/repository/params/BankBindingInfoParams;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/argument/BankWebAppArgument;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/argument/fm/LinkedBankDetailData;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/model/BankBindingFieldModel$ExpiryDateModel;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/model/BankBindingFieldModel$IssueDateModel;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/model/BankSubmitStateModel$BottomDialogErrorModel;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/model/BankSubmitStateModel$ToolTipErrorModel;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/model/ekyc/BankEKycInputModel;",
+      "()Lvn/com/vng/zalopay/bankbinding/presentation/ui/view/EdittextView;",
+      "()Lvn/com/vng/zalopay/data/bank/ui/BankStyle;",
+      "()Lvn/com/vng/zalopay/domain/bank/entity/qr/BankDialogEntity;",
+      "()Lvn/com/vng/zalopay/feature/argument/BankDetailArgs;",
+      "()Lvn/com/vng/zalopay/feature/argument/BankUnLinkStatusArgs;"
+    ],
+    "n_payment": 4841,
+    "biometric": [
+      "\n                                    {\n                                      \"primaryColor\":  \"#2BAA50\",\n                                      \"secondaryColor\":\"#2BAA50\",\n                                      \"titleColor\":    \"#FFFFFF\",\n                                      \"errorColor\":    \"#EF4444\",\n                                      \"textColor\":     \"#FFFFFF\",\n                                      \"borderInputColor\":\"#2BAA50\",\n                                      \"backgroundColor\":\"#000000\",\n                                      \"closeColor\":    \"#FFFFFF\",\n                                      \"stepBarColor\":  \"#26B840\",\n                                      \"stepBarBackgroundColor\":\"#1A1A1A\",\n                                      \"borderRadius\":  16,\n                                      \"ovalColor\":     \"#2BAA50\",\n                                      \"animationOvalColor\":\"#2BAA50\",\n                                      \"successColor\":  \"#26B840\",\n                                      \"trueidWatermark\":false,\n                                      \"isShowStepBar\": false,\n                                      \"isAutoProcess\": true,\n                                      \"overlayAlpha\":  0.9\n                                    }\n                                    ",
+      "\n                                    {\n                                      \"primaryColor\":\"#26B840\",\n                                      \"secondaryColor\":\"#42526E\",\n                                      \"titleColor\":\"#253858\",\n                                      \"errorColor\":\"#FF6234\",\n                                      \"textColor\":\"#253858\",\n                                      \"borderInputColor\":\"#D3D9E0\",\n                                      \"backgroundColor\":\"#FFFFFF\",\n                                      \"closeColor\":\"#000000\",\n                                      \"stepBarColor\":\"#26B840\",\n                                      \"stepBarBackgroundColor\":\"#E4F4FF\",\n                                      \"fontName\":\"Lato Italic\",\n                                      \"borderRadius\":8,\n                                      \"maxRetry\":1000,\n                                      \"defaultSpacing\":20,\n                                      \"imageConfirmation\":true,\n                                      \"trueidWatermark\":true,\n                                      \"isDisableSecurity\":false,\n                                      \"isShowStepBar\":false,\n                                      \"isShowSkipNFC\":false,\n                                      \"returnNFC\":true,\n                                      \"nfcSkipMaxRetry\":true,\n                                      \"ovalColor\": \"#26B840\"\n                                    }\n                                    ",
+      "\nface=",
+      " - encryptedFace: ",
+      " and implement all of the following interfaces ",
+      " does not implement interface method onNestedFling",
+      " does not implement interface method onNestedPreFling",
+      " does not implement interface method onNestedPreScroll",
+      " does not implement interface method onNestedScroll",
+      " does not implement interface method onNestedScrollAccepted",
+      " does not implement interface method onStartNestedScroll",
+      " does not implement interface method onStopNestedScroll",
+      " does not implement the Quirk interface.",
+      " interface.",
+      " result EkycSDK getCallBack ",
+      " sharedSurfaces",
+      " surface",
+      " surface=",
+      " surfaceGroupId",
+      " which is an interface of ",
+      "###onSurfaceTextureAvailable w:",
+      "###onSurfaceTextureDestroyed",
+      "###onSurfaceTextureSizeChanged w:",
+      "$SwitchMap$org$jmrtd$cbeff$BiometricEncodingType",
+      "%s is not an interface",
+      "&request_code=134&source=6&should_display_ekyc_suggestion=",
+      "()Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXError;",
+      "()Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessResponse;",
+      "()Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;",
+      "()Lvn/ai/trueid/sdk/face/e;",
+      "()Lvn/ai/trueid/sdk/face/p0;",
+      "()Lvn/ai/trueid/sdk/face/present/domain/configs/SDKConfig;",
+      "()Lvn/ai/trueid/sdk/models/ConfigEndPoint;",
+      "()Lvn/ai/trueid/sdk/models/Decision;",
+      "()Lvn/ai/trueid/sdk/models/DeviceInfo;",
+      "()Lvn/ai/trueid/sdk/models/EkycConfig;",
+      "()Lvn/ai/trueid/sdk/models/FaceAuthenConfig;",
+      "()Lvn/ai/trueid/sdk/models/FaceEnrollConfig;",
+      "()Lvn/ai/trueid/sdk/models/FaceLivenessConfig;",
+      "()Lvn/ai/trueid/sdk/models/FaceMatching;",
+      "()Lvn/ai/trueid/sdk/models/NFCConfig;",
+      "()Lvn/ai/trueid/sdk/models/NfcInfo;",
+      "()Lvn/ai/trueid/sdk/models/Person;",
+      "()Lvn/ai/trueid/sdk/models/RawImage;",
+      "()Lvn/ai/trueid/sdk/models/ResultValue;",
+      "()Lvn/ai/trueid/sdk/models/TrueError;",
+      "()Lvn/ai/trueid/sdk/models/sotp/FieldStyle;",
+      "()Lvn/ai/trueid/sdk/models/sotp/TransactionType;",
+      "()Lvn/ai/trueid/sdk/models/sotp/TrueIDSSLPinningConfig;",
+      "()Lvn/ai/trueid/sdk/models/sotp/TrueIdSmartOTPConfig;",
+      "()Lvn/ai/trueid/sdk/models/sotp/TrueIdSmartOTPPinPolicy;",
+      "()Lvn/ai/trueid/sdk/models/sotp/TrueIdSmartOTPUIConfig;",
+      "()Lvn/ai/trueid/sdk/navigation/AuthenListener;",
+      "()Lvn/ai/trueid/sdk/navigation/FaceEnrollListener;",
+      "()Lvn/ai/trueid/sdk/navigation/FaceLivenessListener;",
+      "()Lvn/ai/trueid/sdk/navigation/NFCListener;",
+      "()Lvn/ai/trueid/sdk/navigation/TrueIDEKYCCaptureListener;",
+      "()Lvn/ai/trueid/sdk/navigation/TrueIDFaceEnrollCaptureListener;",
+      "()Lvn/ai/trueid/sdk/navigation/TrueIDListener;",
+      "()Lvn/ai/trueid/sdk/navigation/TrueIDLivenessCaptureInput;"
+    ],
+    "n_biometric": 6101
+  },
+  "native": [
+    {
+      "file": "libVFaceLib.so",
+      "size": 1963668,
+      "sha256": "c6d04f368fe967fb",
+      "needed": [
+        "libandroid.so",
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libz.so",
+        "libdl.so",
+        "libm.so"
+      ],
+      "exports_sample": "00057115 T Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_faceAlignment\n00057719 T Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeDestroy\n00057641 T Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeInit\n00056c09 T Java_vn_ai_faceauth_sdk_opencv_VFaceLib_getFaces\n"
+    },
+    {
+      "file": "liba97d.so",
+      "size": 997572,
+      "sha256": "7fe7d830805a1e99",
+      "needed": [
+        "libc.so",
+        "libstdc++.so",
+        "libm.so",
+        "libdl.so",
+        "liblog.so"
+      ],
+      "exports_sample": "0006fc49 T JNI_OnLoad\n000e5030 T _Unwind_Backtrace\n000e4548 T _Unwind_Complete\n000e454c T _Unwind_DeleteException\n000e500c T _Unwind_ForcedUnwind\n000e43ec T _Unwind_GetCFA\n000e54d4 T _Unwind_GetDataRelBase\n000e54b8 T _Unwind_GetLanguageSpecificData\n000e54a8 T _Unwind_GetRegionStart\n000e54dc T _Unwind_GetTextRelBase\n000e4fa0 T _Unwind_RaiseException\n000e4fc4 T _Unwind_Resume\n000e4fe8 T _Unwind_Resume_or_Rethrow\n000e4564 T _Unwind_VRS_Get\n000e4b40 T _Unwind_VRS_Pop\n000e45e8 T _Unwind_VRS_Set\n000e5030 T ___Unwind_Backtrace\n000e500c T ___Unwind_ForcedUnwind\n000e4fa0 T ___Unwind_RaiseException\n000e4fc4 T ___Unwind_Resume\n000e4fe8 T ___Unwind_Resume_or_Rethrow\n000e3b24 T __aeabi_idiv\n000e3cb0 W __aeabi_idiv0\n000e3c00 T __aeabi_idivmod\n000e3c3c T __aeabi_lasr\n000e3cb0 W __aeabi_ldiv0\n000e3c58 T _"
+    },
+    {
+      "file": "libandroidx.graphics.path.so",
+      "size": 7252,
+      "sha256": "41399eba6fc2a60f",
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "000010a5 T JNI_OnLoad@@LIBANDROIDX.GRAPHICS.PATH\n"
+    },
+    {
+      "file": "libbarhopper_v3.so",
+      "size": 3244440,
+      "sha256": "b3c162c69e4906b8",
+      "needed": [
+        "libjnigraphics.so",
+        "liblog.so",
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "exports_sample": "000561f5 T Java_com_google_android_libraries_barhopper_BarhopperV3_closeNative@@VERS_1.0\n00056165 T Java_com_google_android_libraries_barhopper_BarhopperV3_createNative@@VERS_1.0\n00056175 T Java_com_google_android_libraries_barhopper_BarhopperV3_createNativeWithClientOptions@@VERS_1.0\n00056209 T Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBitmapNative@@VERS_1.0\n00056563 T Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBufferNative@@VERS_1.0\n00056675 T Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeNative@@VERS_1.0\n000565d1 T Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedBufferNative@@VERS_1.0\n000566cb T Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedNative@@VERS_1.0\n0030a908 T __star"
+    },
+    {
+      "file": "libc++_shared.so",
+      "size": 872872,
+      "sha256": "91b49f121b312053",
+      "needed": [
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "exports_sample": "0006b2d5 T _ZNKSt10bad_typeid4whatEv\n0006b169 T _ZNKSt11logic_error4whatEv\n000891d5 T _ZNKSt12bad_any_cast4whatEv\n000891e1 T _ZNKSt12experimental15fundamentals_v112bad_any_cast4whatEv\n0006b099 T _ZNKSt13bad_exception4whatEv\n0006b1d1 T _ZNKSt13runtime_error4whatEv\n0008ad65 T _ZNKSt16nested_exception14rethrow_nestedEv\n00097b91 T _ZNKSt18bad_variant_access4whatEv\n0008dcc1 T _ZNKSt19bad_optional_access4whatEv\n0006b0f9 T _ZNKSt20bad_array_new_length4whatEv\n000af7e5 T _ZNKSt6__ndk110__time_put8__do_putEPcRS1_PK2tmcc\n000afa5d T _ZNKSt6__ndk110__time_put8__do_putEPwRS1_PK2tmcc\n0009733d T _ZNKSt6__ndk110error_code7messageEv\n000afb0d W _ZNKSt6__ndk110moneypunctIcLb0EE11do_groupingEv\n000afb45 W _ZNKSt6__ndk110moneypunctIcLb0EE13do_neg_formatEv\n000afb3b W _ZNKSt6__ndk110moneypunctIcLb0EE13do_pos_forma"
+    },
+    {
+      "file": "libcrashlytics-common.so",
+      "size": 435732,
+      "sha256": "4b8bcec5c0464d7b",
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libdl.so",
+        "libc.so",
+        "libm.so"
+      ],
+      "exports_sample": "0001a6f5 T CrashpadHandlerMain\n0001a941 T install_signal_handler_java\n0001a895 T install_signal_handler_linker\n"
+    },
+    {
+      "file": "libcrashlytics-handler.so",
+      "size": 87908,
+      "sha256": "f58fca61975d2450",
+      "needed": [
+        "liblog.so",
+        "libz.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "exports_sample": "00006975 T JNI_Init\n00006959 T JNI_OnLoad\n"
+    },
+    {
+      "file": "libcrashlytics-trampoline.so",
+      "size": 6912,
+      "sha256": "5366393c1292cfb5",
+      "needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "exports_sample": ""
+    },
+    {
+      "file": "libcrashlytics.so",
+      "size": 94540,
+      "sha256": "be0dedcd52a35e71",
+      "needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "exports_sample": "00007ce1 T CrashpadHandlerMain\n00006f61 T JNI_Init\n00006f49 T JNI_OnLoad\n0000718b T external_api_dispose\n00007055 T external_api_initialize\n000072dd T external_api_log\n00007281 T external_api_set\n00007335 T external_api_set_user_id\n"
+    },
+    {
+      "file": "libface_detector_v2_jni.so",
+      "size": 5388224,
+      "sha256": "21e48bd253e1c87e",
+      "needed": [
+        "libandroid.so",
+        "liblog.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "0010704d T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_closeDetectorJni@@VERS_1.0\n001067e5 T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayJni@@VERS_1.0\n00106dbd T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayMultiPlanesJni@@VERS_1.0\n001065ad T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferJni@@VERS_1.0\n00106b11 T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferMultiPlanesJni@@VERS_1.0\n00105ef9 T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_initDetectorJni@@VERS_1.0\n004f1060 T __start_malloc_hook\n0052419c D __start_pb_defaults\n004f117c T __stop_malloc_hook\n005241a8 D __stop_pb_defaults\n"
+    },
+    {
+      "file": "libfgcpkjvqe.so",
+      "size": 6524160,
+      "sha256": "5f72893936adfe71",
+      "needed": [
+        "libz.so",
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "000abedc T JNI_OnLoad\n000abe18 T JNI_OnUnload\n"
+    },
+    {
+      "file": "libimage_processing_util_jni.so",
+      "size": 20380,
+      "sha256": "e48e356bbe1902ae",
+      "needed": [
+        "liblog.so",
+        "libandroid.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "00003f19 T Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToABGR@@VERS_1.0\n0000415d T Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToBitmap@@VERS_1.0\n00003ca9 T Java_androidx_camera_core_ImageProcessingUtil_nativeCopyBetweenByteBufferAndBitmap@@VERS_1.0\n00004221 T Java_androidx_camera_core_ImageProcessingUtil_nativeRotateYUV@@VERS_1.0\n00003d3d T Java_androidx_camera_core_ImageProcessingUtil_nativeShiftPixel@@VERS_1.0\n00003e19 T Java_androidx_camera_core_ImageProcessingUtil_nativeWriteJpegToSurface@@VERS_1.0\n"
+    },
+    {
+      "file": "libimagepipeline.so",
+      "size": 5876,
+      "sha256": "2049c770f0dcca26",
+      "needed": [
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "exports_sample": "00000a2d T JNI_OnLoad\n"
+    },
+    {
+      "file": "libljsfrcwmw.so",
+      "size": 600296,
+      "sha256": "12a389806114a18f",
+      "needed": [
+        "librcmefqonnx.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "0008e3fd T JNI_OnLoad\n"
+    },
+    {
+      "file": "liblytcuhe.so",
+      "size": 178628,
+      "sha256": "a8e59c1d4922f6bc",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "00025a39 T _ZNKSt10bad_typeid4whatEv\n00025991 T _ZNKSt13bad_exception4whatEv\n000259d1 T _ZNKSt20bad_array_new_length4whatEv\n00025a09 T _ZNKSt8bad_cast4whatEv\n000259b1 T _ZNKSt9bad_alloc4whatEv\n00025981 T _ZNKSt9exception4whatEv\n00025a15 T _ZNSt10bad_typeidC1Ev\n00025a15 T _ZNSt10bad_typeidC2Ev\n00025a29 T _ZNSt10bad_typeidD0Ev\n00025a25 T _ZNSt10bad_typeidD1Ev\n00025a25 T _ZNSt10bad_typeidD2Ev\n0002598d T _ZNSt13bad_exceptionD0Ev\n00025979 T _ZNSt13bad_exceptionD1Ev\n00025979 T _ZNSt13bad_exceptionD2Ev\n000259bd T _ZNSt20bad_array_new_lengthC1Ev\n000259bd T _ZNSt20bad_array_new_lengthC2Ev\n000259cd T _ZNSt20bad_array_new_lengthD0Ev\n00025979 T _ZNSt20bad_array_new_lengthD1Ev\n00025979 T _ZNSt20bad_array_new_lengthD2Ev\n000259e5 T _ZNSt8bad_castC1Ev\n000259e5 T _ZNSt8bad_castC2Ev\n000259f9 T _ZNSt8bad_cas"
+    },
+    {
+      "file": "libmlkit_google_ocr_pipeline.so",
+      "size": 6781940,
+      "sha256": "06b9e2f587e401c6",
+      "needed": [
+        "liblog.so",
+        "libdl.so",
+        "libjnigraphics.so",
+        "libandroid.so",
+        "libz.so",
+        "libm.so",
+        "libEGL.so",
+        "libGLESv2.so",
+        "libc.so"
+      ],
+      "exports_sample": "001cd8f9 T Java_com_google_android_libraries_vision_visionkit_pipeline_AndroidAssetUtil_nativeInitializeAssetManager@@VERS_1.0\n002ece29 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_close@@VERS_1.0\n002ecc65 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_disableSubpipeline@@VERS_1.0\n002ecbc5 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_enableSubpipeline@@VERS_1.0\n002ecec9 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_experimentalRotateResults@@VERS_1.0\n002ecf33 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_flushAndClearMobileIqSamples@@VERS_1.0\n002ecda9 T Java_com_google_android_libraries_vision_vis"
+    },
+    {
+      "file": "libmlkitcommonpipeline.so",
+      "size": 6928228,
+      "sha256": "9ab65cd53ed8334f",
+      "needed": [
+        "liblog.so",
+        "libdl.so",
+        "libjnigraphics.so",
+        "libandroid.so",
+        "libz.so",
+        "libm.so",
+        "libEGL.so",
+        "libGLESv2.so",
+        "libc.so"
+      ],
+      "exports_sample": "005f2e3b T Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeIsProcessInBackground@@VERS_1.0\n005f2e2f T Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeNotifyProcessLifecycleState@@VERS_1.0\n00329515 T Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetDeviceInfo@@VERS_1.0\n00329645 T Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetGPUInfo@@VERS_1.0\n00329721 T Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetNNAPIInfo@@VERS_1.0\n0032aea5 T Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_close@@VERS_1.0\n0032ace1 T Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_d"
+    },
+    {
+      "file": "libnative-filters.so",
+      "size": 12588,
+      "sha256": "b8a2da1df4f33eb8",
+      "needed": [
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "exports_sample": "00001089 T JNI_OnLoad\n"
+    },
+    {
+      "file": "libnative-imagetranscoder.so",
+      "size": 341072,
+      "sha256": "43280a8f3f33529d",
+      "needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "exports_sample": "00011101 T JNI_OnLoad\n0004c091 T _ZNKSt10bad_typeid4whatEv\n0004c0d5 T _ZNKSt13bad_exception4whatEv\n0004c135 T _ZNKSt20bad_array_new_length4whatEv\n0004c05d T _ZNKSt8bad_cast4whatEv\n0004c105 T _ZNKSt9bad_alloc4whatEv\n0004c0b5 T _ZNKSt9exception4whatEv\n0004c069 T _ZNSt10bad_typeidC1Ev\n0004c069 T _ZNSt10bad_typeidC2Ev\n0004c07d T _ZNSt10bad_typeidD0Ev\n0004c079 T _ZNSt10bad_typeidD1Ev\n0004c079 T _ZNSt10bad_typeidD2Ev\n0004c0c1 T _ZNSt13bad_exceptionD0Ev\n0004c09d T _ZNSt13bad_exceptionD1Ev\n0004c09d T _ZNSt13bad_exceptionD2Ev\n0004c111 T _ZNSt20bad_array_new_lengthC1Ev\n0004c111 T _ZNSt20bad_array_new_lengthC2Ev\n0004c121 T _ZNSt20bad_array_new_lengthD0Ev\n0004c09d T _ZNSt20bad_array_new_lengthD1Ev\n0004c09d T _ZNSt20bad_array_new_lengthD2Ev\n00039d49 W _ZNSt6__ndk122__libcpp_verbose_abortEPKcz\n0004c035 "
+    },
+    {
+      "file": "libohxbee.so",
+      "size": 155412,
+      "sha256": "2d54a2aa85d81dbf",
+      "needed": [
+        "liblytcuhe.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "0002467d T JNI_OnLoad\n"
+    },
+    {
+      "file": "libpicodet_ncnn.so",
+      "size": 2992584,
+      "sha256": "442367c2e7f3e5b5",
+      "needed": [
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "002e2200 B .gomp_critical_user_\n00052d31 T AB64ToARGB\n0006256d T AB64ToARGBRow_Any_NEON\n00068861 T AB64ToARGBRow_C\n000668e9 T AB64ToARGBRow_NEON\n000685bf T ABGRToAR30Row_C\n00052635 T ABGRToARGB\n000639ad T ABGRToUVJRow_Any_NEON\n00069a4d T ABGRToUVJRow_C\n00065f0d T ABGRToUVJRow_NEON\n00063b95 T ABGRToUVRow_Any_NEON\n0006901d T ABGRToUVRow_C\n00066145 T ABGRToUVRow_NEON\n00061109 T ABGRToYJRow_Any_NEON\n00069985 T ABGRToYJRow_C\n00066a21 T ABGRToYJRow_NEON\n00061319 T ABGRToYRow_Any_NEON\n00068f5b T ABGRToYRow_C\n000669d1 T ABGRToYRow_NEON\n00052bf5 T AR30ToAB30\n00067b61 T AR30ToAB30Row_C\n00052b7d T AR30ToABGR\n00067a9b T AR30ToABGRRow_C\n00052b05 T AR30ToARGB\n000679d7 T AR30ToARGBRow_C\n0005dc61 T AR64Shuffle\n0006897d T AR64ShuffleRow_C\n00052695 T AR64ToAB64\n000688ef T AR64ToAB64Row_C\n00052c6d T AR64ToAR"
+    },
+    {
+      "file": "librcmefqonnx.so",
+      "size": 178628,
+      "sha256": "9120dd02a8d94659",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "00025a39 T _ZNKSt10bad_typeid4whatEv\n00025991 T _ZNKSt13bad_exception4whatEv\n000259d1 T _ZNKSt20bad_array_new_length4whatEv\n00025a09 T _ZNKSt8bad_cast4whatEv\n000259b1 T _ZNKSt9bad_alloc4whatEv\n00025981 T _ZNKSt9exception4whatEv\n00025a15 T _ZNSt10bad_typeidC1Ev\n00025a15 T _ZNSt10bad_typeidC2Ev\n00025a29 T _ZNSt10bad_typeidD0Ev\n00025a25 T _ZNSt10bad_typeidD1Ev\n00025a25 T _ZNSt10bad_typeidD2Ev\n0002598d T _ZNSt13bad_exceptionD0Ev\n00025979 T _ZNSt13bad_exceptionD1Ev\n00025979 T _ZNSt13bad_exceptionD2Ev\n000259bd T _ZNSt20bad_array_new_lengthC1Ev\n000259bd T _ZNSt20bad_array_new_lengthC2Ev\n000259cd T _ZNSt20bad_array_new_lengthD0Ev\n00025979 T _ZNSt20bad_array_new_lengthD1Ev\n00025979 T _ZNSt20bad_array_new_lengthD2Ev\n000259e5 T _ZNSt8bad_castC1Ev\n000259e5 T _ZNSt8bad_castC2Ev\n000259f9 T _ZNSt8bad_cas"
+    },
+    {
+      "file": "librive-android.so",
+      "size": 3225636,
+      "sha256": "ab2dd352553cafb7",
+      "needed": [
+        "liblog.so",
+        "libandroid.so",
+        "libEGL.so",
+        "libGLESv3.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "000e4e58 T GetProperties\n000e4e28 T GetTargetValue\n000e53e4 T Java_app_rive_runtime_kotlin_RiveTextureView_cppGetAverageFps\n000e484c T Java_app_rive_runtime_kotlin_core_AnimationState_cppName\n000e26b8 T Java_app_rive_runtime_kotlin_core_Artboard_cppAdvance\n000e1ff8 T Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByIndex\n000e2024 T Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByName\n000e2088 T Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationCount\n000e1ec0 T Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationNameByIndex\n000e26d4 T Java_app_rive_runtime_kotlin_core_Artboard_cppBounds\n000e2aac T Java_app_rive_runtime_kotlin_core_Artboard_cppDelete\n000e2904 T Java_app_rive_runtime_kotlin_core_Artboard_cppDraw\n000e2930 T Java_app_rive_runtime_kotlin_core_Artboard_cp"
+    },
+    {
+      "file": "libsecurity_lite.so",
+      "size": 154840,
+      "sha256": "75c5d69621c5dce9",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "000160e1 T AES_decrypt\n00013a71 T AES_encrypt\n00011ec1 T AES_set_decrypt_key\n0000ffb9 T AES_set_encrypt_key\n00002c25 T Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt\n00002b55 T Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt\n00002a15 T Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init\n00002a81 T Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest\n0001e12d T MD5Decode\n0001df15 T MD5Encode\n0001e3e9 T MD5Final\n0001957d T MD5Init\n000199fd T MD5Transform\n000195f1 T MD5Update\n00026390 D PADDING\n00020cb3 R SMALL_PRIMES\n000029d9 T _Z14throwExceptionP7_JNIEnvPKc\n000265be A __bss_start\n00026588 V __obfuscator_version__\n000265be A _edata\n00029059 A _end\n00018f6d T aes_cbc_decrypt\n00018b79 T aes_cbc_encrypt\n0000fd31 T b64_buf_mall"
+    },
+    {
+      "file": "libsqlcipher.so",
+      "size": 3555080,
+      "sha256": "819c11750f332a8c",
+      "needed": [
+        "libdl.so",
+        "liblog.so",
+        "libc.so",
+        "libm.so"
+      ],
+      "exports_sample": "000c85b5 T JNI_OnLoad\n0036b8cc B _ZN12JniConstants10fieldClassE\n0036b8d8 B _ZN12JniConstants10floatClassE\n0036b92c B _ZN12JniConstants10shortClassE\n0036b8c4 B _ZN12JniConstants11doubleClassE\n0036b904 B _ZN12JniConstants11methodClassE\n0036b910 B _ZN12JniConstants11objectClassE\n0036b930 B _ZN12JniConstants11socketClassE\n0036b938 B _ZN12JniConstants11stringClassE\n0036b89c B _ZN12JniConstants12bidiRunClassE\n0036b8a4 B _ZN12JniConstants12booleanClassE\n0036b8f8 B _ZN12JniConstants12integerClassE\n0036b8b0 B _ZN12JniConstants13calendarClassE\n0036b8c0 B _ZN12JniConstants13deflaterClassE\n0036b8f0 B _ZN12JniConstants13inflaterClassE\n0036b8a8 B _ZN12JniConstants14byteArrayClassE\n0036b8b4 B _ZN12JniConstants14characterClassE\n0036b928 B _ZN12JniConstants14referenceClassE\n0036b8a0 B _ZN12JniConstants15bi"
+    },
+    {
+      "file": "libtaibmcf.so",
+      "size": 12617752,
+      "sha256": "0fba080d0364fc0f",
+      "needed": [
+        "libz.so",
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "000ae68c T JNI_OnLoad\n000b0adc T JNI_OnUnload\n"
+    },
+    {
+      "file": "libtrueidlib.so",
+      "size": 79904,
+      "sha256": "e1a98166f637ebeb",
+      "needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "exports_sample": "00003b99 T JNI_OnLoad\n00006099 T Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_genSignature\n00005f01 T Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_getNonce\n0000b65d T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultAuthCeremony\n0000b139 T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckDebugger\n0000b13d T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckIntegrity\n0000b209 T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQAuth\n0000b141 T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQReg\n0000b415 T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultRegisterCeremony\n0000b3a1 T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultVerifyTxDigest\n0000b2fd T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey\n00005de9 T android_b"
+    }
+  ],
+  "assets": [
+    {
+      "path": "FastestDet.ncnn.bin",
+      "size": 2420588
+    },
+    {
+      "path": "FastestDet.ncnn.param",
+      "size": 15293
+    },
+    {
+      "path": "Griver/66666692_1.24.8.amr",
+      "size": 287535
+    },
+    {
+      "path": "Griver/66666693_2.0.7.amr",
+      "size": 17380
+    },
+    {
+      "path": "Griver/68687209_2.9.7.8.amr",
+      "size": 856974
+    },
+    {
+      "path": "Griver/appx.json",
+      "size": 2178
+    },
+    {
+      "path": "GriverBridge/appx_inline_bootstrap_min.js",
+      "size": 292
+    },
+    {
+      "path": "GriverBridge/cover_component.js",
+      "size": 2888
+    },
+    {
+      "path": "GriverBridge/create_worker.html",
+      "size": 159
+    },
+    {
+      "path": "GriverBridge/h5_bridge.js",
+      "size": 4446
+    },
+    {
+      "path": "GriverBridge/index_inline.html",
+      "size": 972
+    },
+    {
+      "path": "GriverBridge/worker.html",
+      "size": 203
+    },
+    {
+      "path": "GriverBridge/workerjs.js",
+      "size": 14360
+    },
+    {
+      "path": "GriverErrorPage/griver_custom_h5_page_error.html",
+      "size": 3060
+    },
+    {
+      "path": "GriverErrorPage/griver_page_error.html",
+      "size": 22734
+    },
+    {
+      "path": "GriverErrorPage/mini-program-native-error.html",
+      "size": 13859
+    },
+    {
+      "path": "GriverTheme/theme.json",
+      "size": 584
+    },
+    {
+      "path": "android.1.zip",
+      "size": 3913966
+    },
+    {
+      "path": "android_jsbridge.js",
+      "size": 3673
+    },
+    {
+      "path": "audience_network.dex",
+      "size": 4864036
+    },
+    {
+      "path": "bshield.dat",
+      "size": 929
+    },
+    {
+      "path": "bundle.json",
+      "size": 312
+    },
+    {
+      "path": "client_tracking.json",
+      "size": 146391
+    },
+    {
+      "path": "com/appsflyer/internal/1a7e8023f147cacac-",
+      "size": 7142
+    },
+    {
+      "path": "com/appsflyer/internal/3e6e8a8a85e1aaa2b-",
+      "size": 13692
+    },
+    {
+      "path": "com/appsflyer/internal/cc32cb866f63cd58a-",
+      "size": 7936
+    },
+    {
+      "path": "com/appsflyer/internal/cf2b565222edadded-",
+      "size": 3142
+    },
+    {
+      "path": "com/visa/cbp/74e13961eb6489ab-",
+      "size": 265304
+    },
+    {
+      "path": "com/visa/cbp/8c12f33e01f2a597a-",
+      "size": 15736
+    },
+    {
+      "path": "com/visa/cbp/a2687fec63dbeebcd-",
+      "size": 80308
+    },
+    {
+      "path": "com/visa/cbp/f3f564a2648dc019c-",
+      "size": 9668
+    },
+    {
+      "path": "config/miniapp_config.json",
+      "size": 883684
+    },
+    {
+      "path": "config/public_key.txt",
+      "size": 450
+    },
+    {
+      "path": "config/signature.txt",
+      "size": 350
+    },
+    {
+      "path": "config/zalopay_config.json",
+      "size": 105659
+    },
+    {
+      "path": "containererrorpage/griver_custom_h5_page_error.html",
+      "size": 3060
+    },
+    {
+      "path": "containererrorpage/griver_page_error.html",
+      "size": 9594
+    },
+    {
+      "path": "containers/GTM-PC9W5BW.json",
+      "size": 7702
+    },
+    {
+      "path": "custom_models/object_labeler.tflite",
+      "size": 3770391
+    },
+    {
+      "path": "dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be/9f979174-fb94-f7f5-21c5-afddb32d1e32",
+      "size": 17888
+    },
+    {
+      "path": "dexopt/baseline.prof",
+      "size": 18503
+    },
+    {
+      "path": "dexopt/baseline.profm",
+      "size": 1909
+    },
+    {
+      "path": "fgcpkjvqe.dat",
+      "size": 776320
+    },
+    {
+      "path": "fonts/Roboto-Bold.ttf",
+      "size": 170064
+    },
+    {
+      "path": "fonts/Roboto-Medium.ttf",
+      "size": 127488
+    },
+    {
+      "path": "fonts/Roboto-Regular.ttf",
+      "size": 126072
+    },
+    {
+      "path": "fonts/UnisectVnu.ttf",
+      "size": 48216
+    },
+    {
+      "path": "fonts/ocr-a-tribute.ttf",
+      "size": 48216
+    },
+    {
+      "path": "fonts/true_font.ttf",
+      "size": 168644
+    },
+    {
+      "path": "fonts/zalopay.json",
+      "size": 70880
+    },
+    {
+      "path": "fonts/zalopay.ttf",
+      "size": 143944
+    },
+    {
+      "path": "griverIconDefault/default.ttf",
+      "size": 28000
+    },
+    {
+      "path": "h5iconfont/h5titlebar.ttf",
+      "size": 2300
+    },
+    {
+      "path": "h5iconfont/titlebar.ttf",
+      "size": 5016
+    },
+    {
+      "path": "home_data.json",
+      "size": 9417
+    },
+    {
+      "path": "iapconnect_config_full",
+      "size": 1688
+    },
+    {
+      "path": "internaljsbridge.js",
+      "size": 3890
+    },
+    {
+      "path": "jsbridge.js",
+      "size": 3634
+    },
+    {
+      "path": "mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+      "size": 276
+    },
+    {
+      "path": "mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+      "size": 278
+    },
+    {
+      "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/assets.extra/LabelMap.pb",
+      "size": 3809
+    },
+    {
+      "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/conv_model.fb",
+      "size": 40848
+    },
+    {
+      "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+      "size": 309568
+    },
+    {
+      "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+      "size": 333
+    },
+    {
+      "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+      "size": 315520
+    },
+    {
+      "path": "mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+      "size": 129612
+    },
+    {
+      "path": "mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+      "size": 114384
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser/detector/region_proposal_text_detector_tflite_vertical_mbv2_v1.bincfg",
+      "size": 452
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+      "size": 340760
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser/rpn_text_detection_tflite_mobile_mbv2.binarypb",
+      "size": 194
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.bincfg",
+      "size": 1118
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.conv_model",
+      "size": 40808
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.lstm_model",
+      "size": 161448
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser/taser_script_identification_tflite_mobile.binarypb",
+      "size": 136
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+      "size": 13178
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+      "size": 13183
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_recognizer.binarypb",
+      "size": 233
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner.binarypb",
+      "size": 331
+    },
+    {
+      "path": "mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner_ti.binarypb",
+      "size": 334
+    },
+    {
+      "path": "mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+      "size": 390456
+    },
+    {
+      "path": "mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+      "size": 213880
+    },
+    {
+      "path": "mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+      "size": 276552
+    },
+    {
+      "path": "mlkit_odt_default_classifier/labeler_with_validation.tflite",
+      "size": 1706957
+    },
+    {
+      "path": "mlkit_odt_localizer/localizer_with_validation.tflite",
+      "size": 1254848
+    },
+    {
+      "path": "mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+      "size": 153000
+    },
+    {
+      "path": "mlkit_odt_localizer/mobile_object_localizer_labelmap",
+      "size": 22
+    },
+    {
+      "path": "models_bundled/BCLjoy_200.emd",
+      "size": 17916
+    },
+    {
+      "path": "models_bundled/BCLlefteyeclosed_200.emd",
+      "size": 8630
+    },
+    {
+      "path": "models_bundled/BCLrighteyeclosed_200.emd",
+      "size": 8655
+    },
+    {
+      "path": "models_bundled/LMprec_600.emd",
+      "size": 1078354
+    },
+    {
+      "path": "models_bundled/MFT_fssd_accgray.pb",
+      "size": 793
+    },
+    {
+      "path": "models_bundled/MFT_fssd_fastgray.pb",
+      "size": 792
+    },
+    {
+      "path": "models_bundled/blazeface.tfl",
+      "size": 347928
+    },
+    {
+      "path": "models_bundled/contours.tfl",
+      "size": 1124144
+    },
+    {
+      "path": "models_bundled/fssd_25_8bit_gray_v2.tflite",
+      "size": 231816
+    },
+    {
+      "path": "models_bundled/fssd_25_8bit_v2.tflite",
+      "size": 232096
+    },
+    {
+      "path": "models_bundled/fssd_anchors_v2.pb",
+      "size": 146
+    },
+    {
+      "path": "models_bundled/fssd_anchors_v5.pb",
+      "size": 144
+    },
+    {
+      "path": "models_bundled/fssd_medium_8bit_gray_v5.tflite",
+      "size": 613080
+    },
+    {
+      "path": "models_bundled/fssd_medium_8bit_v5.tflite",
+      "size": 613352
+    },
+    {
+      "path": "public.pem",
+      "size": 460
+    },
+    {
+      "path": "safemode_registrator_com_iap_ac_config.json",
+      "size": 80
+    },
+    {
+      "path": "taibmcf.dat",
+      "size": 8307
+    },
+    {
+      "path": "taibmcf.json",
+      "size": 46
+    },
+    {
+      "path": "taxi_images/Artboard_1.png",
+      "size": 7292
+    },
+    {
+      "path": "taxi_images/Artboard_2.png",
+      "size": 6430
+    },
+    {
+      "path": "taxi_images/Layer_2_loading.png",
+      "size": 5649
+    },
+    {
+      "path": "taxi_images/Layer_3_loading.png",
+      "size": 5792
+    },
+    {
+      "path": "taxi_images/Layer_4_loading.png",
+      "size": 14652
+    },
+    {
+      "path": "taxi_images/Layer_5_loading.png",
+      "size": 42205
+    },
+    {
+      "path": "taxi_images/Layer_7_loading.png",
+      "size": 520
+    },
+    {
+      "path": "taxi_images/Layer_8_loading.png",
+      "size": 2636
+    },
+    {
+      "path": "taxi_images/_____1_loading.png",
+      "size": 6123
+    },
+    {
+      "path": "taxi_splash_loading.json",
+      "size": 536057
+    },
+    {
+      "path": "theme/bank/bank_resource.json",
+      "size": 11339
+    },
+    {
+      "path": "theme/bank/config_v2.json",
+      "size": 11573
+    },
+    {
+      "path": "theme/bank/ui_config.json",
+      "size": 15430
+    },
+    {
+      "path": "timezone2region_2023c.json",
+      "size": 11067
+    },
+    {
+      "path": "tinyfont/iconfont.ttf",
+      "size": 9780
+    },
+    {
+      "path": "tinyfont/titlebar.ttf",
+      "size": 5016
+    },
+    {
+      "path": "trueidlib.so",
+      "size": 392
+    },
+    {
+      "path": "vdfmoer.json",
+      "size": 46
+    },
+    {
+      "path": "webapp.js",
+      "size": 619
+    },
+    {
+      "path": "zoom.public",
+      "size": 450
+    }
+  ],
+  "asset_by_ext": {
+    ".bin": 1,
+    ".param": 1,
+    ".amr": 3,
+    ".json": 17,
+    ".js": 8,
+    ".html": 8,
+    ".zip": 1,
+    ".dex": 1,
+    ".dat": 3,
+    "": 11,
+    ".txt": 2,
+    ".tflite": 14,
+    ".prof": 1,
+    ".profm": 1,
+    ".ttf": 12,
+    ".binarypb": 10,
+    ".pb": 6,
+    ".fb": 2,
+    ".bincfg": 2,
+    ".conv_model": 1,
+    ".lstm_model": 1,
+    ".emd": 4,
+    ".tfl": 2,
+    ".pem": 1,
+    ".png": 9,
+    ".so": 1,
+    ".public": 1
+  },
+  "asset_by_top": {
+    "FastestDet.ncnn.bin": 1,
+    "FastestDet.ncnn.param": 1,
+    "Griver": 4,
+    "GriverBridge": 7,
+    "GriverErrorPage": 3,
+    "GriverTheme": 1,
+    "android.1.zip": 1,
+    "android_jsbridge.js": 1,
+    "audience_network.dex": 1,
+    "bshield.dat": 1,
+    "bundle.json": 1,
+    "client_tracking.json": 1,
+    "com": 8,
+    "config": 4,
+    "containererrorpage": 2,
+    "containers": 1,
+    "custom_models": 1,
+    "dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be": 1,
+    "dexopt": 2,
+    "fgcpkjvqe.dat": 1,
+    "fonts": 8,
+    "griverIconDefault": 1,
+    "h5iconfont": 2,
+    "home_data.json": 1,
+    "iapconnect_config_full": 1,
+    "internaljsbridge.js": 1,
+    "jsbridge.js": 1,
+    "mlkit-google-ocr-models": 21,
+    "mlkit_barcode_models": 3,
+    "mlkit_odt_default_classifier": 1,
+    "mlkit_odt_localizer": 3,
+    "models_bundled": 14,
+    "public.pem": 1,
+    "safemode_registrator_com_iap_ac_config.json": 1,
+    "taibmcf.dat": 1,
+    "taibmcf.json": 1,
+    "taxi_images": 9,
+    "taxi_splash_loading.json": 1,
+    "theme": 3,
+    "timezone2region_2023c.json": 1,
+    "tinyfont": 2,
+    "trueidlib.so": 1,
+    "vdfmoer.json": 1,
+    "webapp.js": 1,
+    "zoom.public": 1
+  },
+  "res_by_top": {
+    "anim": 78,
+    "anim-ldrtl-v17": 4,
+    "anim-v21": 5,
+    "animator": 17,
+    "animator-v21": 1,
+    "color": 82,
+    "color-night-v8": 3,
+    "color-v23": 7,
+    "drawable": 3675,
+    "drawable-anydpi-v24": 1,
+    "drawable-hdpi-v4": 5,
+    "drawable-mdpi-v4": 17,
+    "drawable-night-v8": 4,
+    "drawable-v21": 9,
+    "drawable-v23": 2,
+    "drawable-v31": 2,
+    "drawable-watch-v20": 1,
+    "drawable-xhdpi-v4": 5,
+    "drawable-xxhdpi-v4": 49,
+    "drawable-xxxhdpi-v4": 1,
+    "font": 14,
+    "interpolator": 14,
+    "interpolator-v21": 3,
+    "layout": 1018,
+    "layout-land": 3,
+    "layout-sw600dp-v13": 2,
+    "layout-v23": 2,
+    "layout-v26": 2,
+    "layout-v31": 150,
+    "layout-v33": 319,
+    "layout-watch-v20": 2,
+    "menu": 3,
+    "mipmap-anydpi-v26": 1,
+    "mipmap-hdpi-v4": 2,
+    "mipmap-mdpi-v4": 2,
+    "mipmap-night-v8": 2,
+    "mipmap-xhdpi-v4": 2,
+    "mipmap-xxhdpi-v4": 2,
+    "mipmap-xxxhdpi-v4": 2,
+    "navigation": 18,
+    "raw": 56,
+    "xml": 13,
+    "xml-v31": 4
+  },
+  "res_total": 5604,
+  "configs": {
+    "assets/config/zalopay_config.json": {
+      "keys": [
+        "general",
+        "zpc",
+        "api",
+        "webapp",
+        "tab_me",
+        "notification",
+        "tab_home",
+        "promotion",
+        "promotion_handler",
+        "bank_integration",
+        "bank",
+        "profile",
+        "transfer_history",
+        "transfer_via_zalo",
+        "kvs",
+        "z",
+        "omniP",
+        "serverlog",
+        "sdk",
+        "social"
+      ],
+      "size": 105659
+    },
+    "assets/config/miniapp_config.json": {
+      "keys": [
+        "code",
+        "data",
+        "msg"
+      ],
+      "size": 883684
+    },
+    "assets/home_data.json": {
+      "keys": [
+        "screen_id",
+        "header_banner_image",
+        "header_banner_url",
+        "shortcut_bar",
+        "reminder",
+        "highlight",
+        "ads_slider",
+        "third_party",
+        "security_image",
+        "bottom_bar",
+        "avatar",
+        "balance",
+        "metadata"
+      ],
+      "size": 9417
+    },
+    "assets/bundle.json": {
+      "keys": [
+        "external_bundle",
+        "internal_bundle"
+      ],
+      "size": 312
+    },
+    "getbanklist_zpm_success.json": {
+      "keys": [
+        "data",
+        "returncode",
+        "returnmessage"
+      ],
+      "size": 1917
+    }
+  },
+  "api_names": [
+    "um/listcardinfoforclient",
+    "um/listbankaccountforclient",
+    "um/removeaccesstoken",
+    "um/getuserinfo",
+    "um/updateprofile",
+    "um/verifyotpprofile",
+    "um/recoverypin",
+    "umupload/preupdateprofilelevel3",
+    "um/getuserinfobyzalopayid",
+    "um/verifyaccesstoken",
+    "um/sendnotification",
+    "um/checkzalopaynameexist",
+    "um/updatezalopayname",
+    "um/getuserinfobyzalopayname",
+    "um/listcardinfo",
+    "um/getuserprofilelevel",
+    "ummerchant/getmerchantuserinfo",
+    "ummerchant/getlistmerchantuserinfo",
+    "v001/tpe/transhistory",
+    "v001/tpe/gettransstatus",
+    "v001/tpe/getorderinfo",
+    "v001/tpe/createorder",
+    "v001/tpe/createwalletorder",
+    "v001/tpe/getappinfo",
+    "v001/tpe/getappinfov1",
+    "v001/tpe/submittrans",
+    "v001/tpe/atmauthenpayer",
+    "v001/tpe/authcardholderformapping",
+    "v001/tpe/getstatusmapcard",
+    "v001/tpe/verifycardformapping",
+    "v001/tpe/getstatusbyapptransidforclient",
+    "v001/tpe/removemapcard",
+    "v001/tpe/submitmapaccount",
+    "cpscdn/app/getplatforminfo",
+    "cpscdn/app/getbanklist"
+  ],
+  "api_info_keys": [
+    "um/createaccesstoken",
+    "um/removeaccesstoken",
+    "um/verifyaccesstoken",
+    "um/updateprofile",
+    "um/verifyotpprofile",
+    "um/recoverypin",
+    "um/getuserinfo",
+    "um/getuserprofilelevel",
+    "um/updatezalopayname",
+    "um/getuserinfobyzalopayname",
+    "um/checkzalopaynameexist",
+    "um/sendnotification",
+    "um/getuserinfobyzalopayid",
+    "um/verifycodetest",
+    "um/listcardinfoforclient",
+    "ummerchant/getlistmerchantuserinfo",
+    "v001/tpe/getorderinfo",
+    "v001/tpe/transhistory",
+    "v001/tpe/getbalance",
+    "v001/tpe/submittrans",
+    "v001/tpe/gettransstatus",
+    "v001/tpe/createwalletorder",
+    "v001/tpe/removemapcard",
+    "v001/tpe/getstatusbyapptransidforclient",
+    "v001/tpe/verifycardformapping",
+    "v001/tpe/authcardholderformapping",
+    "v001/tpe/getstatusmapcard",
+    "v001/tpe/getbanklistgateway",
+    "v001/tpe/verifyaccountformapping",
+    "v001/tpe/removemapaccount",
+    "v001/tpe/atmauthenpayer",
+    "redpackage/getsentbundlelist",
+    "redpackage/getrevpackagelist",
+    "redpackage/getappinfo",
+    "redpackage/createorderfullinfo",
+    "redpackage/createbundleorder",
+    "redpackage/submittosendbundle",
+    "redpackage/getbundlestatus",
+    "redpackage/submitopenpackage",
+    "redpackage/getpackagestatus",
+    "redpackage/getpackagesinbundle",
+    "redpackage/bundleordercallback",
+    "redpackage/openpackage",
+    "redpackage/submittosendbundlebyzalopayinfo",
+    "redpackage/getlistpackagestatus",
+    "redpackage/getallpackagesinbundle"
+  ],
+  "zp_general": {
+    "phone_format": {
+      "min_length": 9,
+      "max_length": 12,
+      "patterns": [
+        "^(840|84|0|)8(1|2|3|4|5|6|7|8|9)\\d{7}$",
+        "(840|84|0|)9\\d{8}",
+        "^(840|84|0|)5(2|5|6|8|9)\\d{7}$",
+        "(840|84|0|)7(0|6|7|8|9)\\d{7}",
+        "(840|84|0|)3[2-9]\\d{7}"
+      ],
+      "invalid_length_message": "Số điện thoại cần từ 9 đến 12 chữ số",
+      "general_message": "Số điện thoại không hợp lệ"
+    },
+    "click_timeout": 1000,
+    "api_timeout": 10000,
+    "cskh_phonenumber": "1900545436",
+    "pcidss": "https://seal.controlcase.com/index.php?page=showCert&cId=3654794347",
+    "otp_sender": "ZaloPay"
+  },
+  "zp_zpc": {
+    "enable_merge_contact_name": 1,
+    "friend_favorite": 0,
+    "interval_sync_contact": 259200,
+    "time_reload": 300,
+    "max_life_time_millis": 300000,
+    "enable_send_invite_friend_zalo": 1,
+    "enable_custom_keypad": 1,
+    "max_search_text_length": 26,
+    "max_request_status_for_client": 3,
+    "time_delay_request_status_for_client": 3000,
+    "max_phone_list_size_request": 20,
+    "timeout_request_friend": 10
+  },
+  "manifest_strings_sample": [],
+  "inventory_count": 12626,
+  "hashes": {
+    "xapk_zip": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+    "base_apk": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03"
+  }
+}
