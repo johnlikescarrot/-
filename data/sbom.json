@@ -1,0 +1,2379 @@
+{
+ "counts": {
+  "versioned_maven_components": 141,
+  "property_components": 1,
+  "dex_inferred_sdks": 28,
+  "spi_registrations": 16,
+  "license_files": 5
+ },
+ "build_provenance": {
+  "appMetadataVersion": "1.1",
+  "androidGradlePluginVersion": "8.12.3"
+ },
+ "jetpack": [
+  {
+   "coord": "androidx.activity_activity",
+   "version": "1.9.3"
+  },
+  {
+   "coord": "androidx.activity_activity-compose",
+   "version": "1.9.3"
+  },
+  {
+   "coord": "androidx.activity_activity-ktx",
+   "version": "1.9.3"
+  },
+  {
+   "coord": "androidx.annotation_annotation-experimental",
+   "version": "1.5.0"
+  },
+  {
+   "coord": "androidx.appcompat_appcompat",
+   "version": "1.6.1"
+  },
+  {
+   "coord": "androidx.appcompat_appcompat-resources",
+   "version": "1.6.1"
+  },
+  {
+   "coord": "androidx.arch.core_core-runtime",
+   "version": "task ':arch:core:core-runtime:writeVersionFile' property 'version'"
+  },
+  {
+   "coord": "androidx.asynclayoutinflater_asynclayoutinflater",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.autofill_autofill",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.biometric_biometric",
+   "version": "1.2.0-alpha05"
+  },
+  {
+   "coord": "androidx.browser_browser",
+   "version": "1.8.0"
+  },
+  {
+   "coord": "androidx.camera_camera-camera2",
+   "version": "1.4.0"
+  },
+  {
+   "coord": "androidx.camera_camera-core",
+   "version": "1.4.0"
+  },
+  {
+   "coord": "androidx.camera_camera-extensions",
+   "version": "1.4.0"
+  },
+  {
+   "coord": "androidx.camera_camera-lifecycle",
+   "version": "1.4.0"
+  },
+  {
+   "coord": "androidx.camera_camera-video",
+   "version": "1.4.0"
+  },
+  {
+   "coord": "androidx.camera_camera-view",
+   "version": "1.4.0"
+  },
+  {
+   "coord": "androidx.cardview_cardview",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.compose.animation_animation",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.animation_animation-core",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.foundation_foundation",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.foundation_foundation-layout",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.material_material",
+   "version": "1.6.0"
+  },
+  {
+   "coord": "androidx.compose.material_material-icons-core",
+   "version": "1.6.0"
+  },
+  {
+   "coord": "androidx.compose.material_material-ripple",
+   "version": "1.6.0"
+  },
+  {
+   "coord": "androidx.compose.runtime_runtime",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.runtime_runtime-livedata",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.runtime_runtime-saveable",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.ui_ui",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.ui_ui-geometry",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.ui_ui-graphics",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.ui_ui-text",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.ui_ui-tooling",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.ui_ui-tooling-data",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.ui_ui-tooling-preview",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.ui_ui-unit",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.compose.ui_ui-util",
+   "version": "1.7.2"
+  },
+  {
+   "coord": "androidx.constraintlayout_constraintlayout-compose",
+   "version": "1.1.1"
+  },
+  {
+   "coord": "androidx.coordinatorlayout_coordinatorlayout",
+   "version": "1.1.0"
+  },
+  {
+   "coord": "androidx.core_core",
+   "version": "1.16.0"
+  },
+  {
+   "coord": "androidx.core_core-ktx",
+   "version": "1.16.0"
+  },
+  {
+   "coord": "androidx.core_core-remoteviews",
+   "version": "1.1.0"
+  },
+  {
+   "coord": "androidx.core_core-splashscreen",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.core_core-viewtree",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.cursoradapter_cursoradapter",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.customview_customview",
+   "version": "1.1.0"
+  },
+  {
+   "coord": "androidx.customview_customview-poolingcontainer",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.databinding_baseAdapters",
+   "version": "8.12.3"
+  },
+  {
+   "coord": "androidx.databinding_databindingKtx",
+   "version": "8.12.3"
+  },
+  {
+   "coord": "androidx.databinding_library",
+   "version": "8.12.3"
+  },
+  {
+   "coord": "androidx.databinding_viewbinding",
+   "version": "8.12.3"
+  },
+  {
+   "coord": "androidx.datastore_datastore",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.datastore_datastore-preferences",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.documentfile_documentfile",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.drawerlayout_drawerlayout",
+   "version": "1.1.1"
+  },
+  {
+   "coord": "androidx.dynamicanimation_dynamicanimation",
+   "version": "1.1.0-alpha03"
+  },
+  {
+   "coord": "androidx.dynamicanimation_dynamicanimation-ktx",
+   "version": "1.0.0-alpha03"
+  },
+  {
+   "coord": "androidx.emoji2_emoji2",
+   "version": "1.3.0"
+  },
+  {
+   "coord": "androidx.emoji2_emoji2-views-helper",
+   "version": "1.3.0"
+  },
+  {
+   "coord": "androidx.exifinterface_exifinterface",
+   "version": "1.3.6"
+  },
+  {
+   "coord": "androidx.fragment_fragment",
+   "version": "1.8.7"
+  },
+  {
+   "coord": "androidx.fragment_fragment-ktx",
+   "version": "1.8.7"
+  },
+  {
+   "coord": "androidx.glance_glance",
+   "version": "1.1.1"
+  },
+  {
+   "coord": "androidx.glance_glance-appwidget",
+   "version": "1.1.1"
+  },
+  {
+   "coord": "androidx.graphics_graphics-path",
+   "version": "1.0.1"
+  },
+  {
+   "coord": "androidx.interpolator_interpolator",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.legacy_legacy-support-core-ui",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.legacy_legacy-support-core-utils",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.legacy_legacy-support-v4",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-extensions",
+   "version": "2.1.0"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-livedata",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-livedata-core",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-livedata-core-ktx",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-livedata-ktx",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-process",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-runtime",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-runtime-compose",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-runtime-ktx",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-service",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-viewmodel",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-viewmodel-compose",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-viewmodel-ktx",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.lifecycle_lifecycle-viewmodel-savedstate",
+   "version": "2.8.7"
+  },
+  {
+   "coord": "androidx.loader_loader",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.localbroadcastmanager_localbroadcastmanager",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.media_media",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.navigation_navigation-common",
+   "version": "2.8.3"
+  },
+  {
+   "coord": "androidx.navigation_navigation-common-ktx",
+   "version": "2.8.3"
+  },
+  {
+   "coord": "androidx.navigation_navigation-compose",
+   "version": "2.8.3"
+  },
+  {
+   "coord": "androidx.navigation_navigation-dynamic-features-fragment",
+   "version": "2.8.3"
+  },
+  {
+   "coord": "androidx.navigation_navigation-dynamic-features-runtime",
+   "version": "2.8.3"
+  },
+  {
+   "coord": "androidx.navigation_navigation-fragment",
+   "version": "2.8.3"
+  },
+  {
+   "coord": "androidx.navigation_navigation-fragment-ktx",
+   "version": "2.8.3"
+  },
+  {
+   "coord": "androidx.navigation_navigation-runtime",
+   "version": "2.8.3"
+  },
+  {
+   "coord": "androidx.navigation_navigation-runtime-ktx",
+   "version": "2.8.3"
+  },
+  {
+   "coord": "androidx.navigation_navigation-ui",
+   "version": "2.8.3"
+  },
+  {
+   "coord": "androidx.navigation_navigation-ui-ktx",
+   "version": "2.8.3"
+  },
+  {
+   "coord": "androidx.paging_paging-compose",
+   "version": "3.2.1"
+  },
+  {
+   "coord": "androidx.paging_paging-runtime",
+   "version": "3.2.1"
+  },
+  {
+   "coord": "androidx.paging_paging-runtime-ktx",
+   "version": "3.2.1"
+  },
+  {
+   "coord": "androidx.palette_palette",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.palette_palette-ktx",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.print_print",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.privacysandbox.ads_ads-adservices",
+   "version": "1.0.0-beta05"
+  },
+  {
+   "coord": "androidx.privacysandbox.ads_ads-adservices-java",
+   "version": "1.0.0-beta05"
+  },
+  {
+   "coord": "androidx.profileinstaller_profileinstaller",
+   "version": "1.3.1"
+  },
+  {
+   "coord": "androidx.recyclerview_recyclerview",
+   "version": "1.3.0"
+  },
+  {
+   "coord": "androidx.room_room-ktx",
+   "version": "2.8.4"
+  },
+  {
+   "coord": "androidx.room_room-runtime",
+   "version": "2.8.4"
+  },
+  {
+   "coord": "androidx.savedstate_savedstate",
+   "version": "1.2.1"
+  },
+  {
+   "coord": "androidx.savedstate_savedstate-ktx",
+   "version": "1.2.1"
+  },
+  {
+   "coord": "androidx.security_security-crypto",
+   "version": "1.1.0"
+  },
+  {
+   "coord": "androidx.slidingpanelayout_slidingpanelayout",
+   "version": "1.2.0"
+  },
+  {
+   "coord": "androidx.sqlite_sqlite",
+   "version": "2.6.2"
+  },
+  {
+   "coord": "androidx.sqlite_sqlite-framework",
+   "version": "2.6.2"
+  },
+  {
+   "coord": "androidx.sqlite_sqlite-ktx",
+   "version": "2.6.2"
+  },
+  {
+   "coord": "androidx.startup_startup-runtime",
+   "version": "1.2.0"
+  },
+  {
+   "coord": "androidx.swiperefreshlayout_swiperefreshlayout",
+   "version": "1.1.0"
+  },
+  {
+   "coord": "androidx.tracing_tracing",
+   "version": "1.2.0"
+  },
+  {
+   "coord": "androidx.tracing_tracing-ktx",
+   "version": "1.2.0"
+  },
+  {
+   "coord": "androidx.transition_transition",
+   "version": "1.4.1"
+  },
+  {
+   "coord": "androidx.vectordrawable_vectordrawable",
+   "version": "1.1.0"
+  },
+  {
+   "coord": "androidx.vectordrawable_vectordrawable-animated",
+   "version": "1.1.0"
+  },
+  {
+   "coord": "androidx.versionedparcelable_versionedparcelable",
+   "version": "1.1.1"
+  },
+  {
+   "coord": "androidx.viewpager2_viewpager2",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.viewpager_viewpager",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.webkit_webkit",
+   "version": "1.11.0-alpha02"
+  },
+  {
+   "coord": "androidx.window_window",
+   "version": "1.0.0"
+  },
+  {
+   "coord": "androidx.work_work-runtime",
+   "version": "2.7.1"
+  },
+  {
+   "coord": "androidx.work_work-runtime-ktx",
+   "version": "2.7.1"
+  },
+  {
+   "coord": "androidx.work_work-rxjava2",
+   "version": "2.7.1"
+  },
+  {
+   "coord": "com.google.android.material_material",
+   "version": "1.4.0"
+  },
+  {
+   "coord": "com.google.dagger_dagger",
+   "version": "2.59.2"
+  },
+  {
+   "coord": "com.google.dagger_dagger-android",
+   "version": "2.59.2"
+  },
+  {
+   "coord": "com.google.dagger_dagger-android-support",
+   "version": "2.59.2"
+  },
+  {
+   "coord": "com.google.dagger_dagger-lint-aar",
+   "version": "2.59.2"
+  },
+  {
+   "coord": "kotlinx_coroutines_android",
+   "version": "1.8.1"
+  },
+  {
+   "coord": "kotlinx_coroutines_core",
+   "version": "1.8.1"
+  },
+  {
+   "coord": "kotlinx_coroutines_play_services",
+   "version": "1.8.1"
+  },
+  {
+   "coord": "kotlinx_coroutines_reactive",
+   "version": "1.8.1"
+  },
+  {
+   "coord": "kotlinx_coroutines_rx2",
+   "version": "1.8.1"
+  }
+ ],
+ "jetpack_major_families": {
+  "androidx": 131,
+  "com": 5,
+  "kotlinx": 5
+ },
+ "properties": {
+  "META-INF/rxkotlin.properties": {
+   "Manifest-Version": "1.0",
+   "Implementation-Title": "io.reactivex.rxjava2#rxkotlin;2.2.0",
+   "Implementation-Version": "2.2.0",
+   "Built-Status": "integration",
+   "Built-By": "travis",
+   "Built-OS": "Linux",
+   "Build-Date": "2017-11-27_01:03:47",
+   "Gradle-Version": "2.14",
+   "Module-Owner": "benjchristensen@netflix.com",
+   "Module-Email": "benjchristensen@netflix.com",
+   "Module-Source": "",
+   "Module-Origin": "https://github.com/ReactiveX/RxKotlin.git",
+   "Change": "4e5cc2e",
+   "Branch": "4e5cc2e0c0f09a04f0bf9dc8a1d67afcf86029d8",
+   "Build-Host": "travis-job-reactivex-rxkotlin-307674598.travisci.net",
+   "Build-Job": "LOCAL",
+   "Build-Number": "LOCAL",
+   "Build-Id": "LOCAL",
+   "Created-By": "1.8.0_144-b01 (Oracle Corporation)",
+   "Build-Java-Version": "1.8.0_144",
+   "X-Compile-Target-JDK": "1.6",
+   "X-Compile-Source-JDK": "1.6"
+  }
+ },
+ "spi": {
+  "Eh.g": [
+   "kh.k",
+   "kh.i",
+   "kh.s"
+  ],
+  "K6.d": [
+   "K6.d"
+  ],
+  "K6.h": [
+   "Q6.k"
+  ],
+  "Ug.c": [
+   "Ph.b"
+  ],
+  "com.google.protobuf.GeneratedExtensionRegistryLoader": [
+   "com.google.protobuf.java_com_google_android_gmscore_sdk_target_granule__proguard_group_gtm_N1281923064GeneratedExtensionRegistryLite$Loader"
+  ],
+  "gi.H": [
+   "hi.b"
+  ],
+  "hx.d": [
+   "Mr.a"
+  ],
+  "hx.h": [
+   "IC.a"
+  ],
+  "hx.j": [
+   "gE.a"
+  ],
+  "hx.l": [
+   "qC.e"
+  ],
+  "hx.m": [
+   "gE.b"
+  ],
+  "ih.p": [
+   "jh.d"
+  ],
+  "java.security.Provider": [
+   "org.bouncycastle.jce.provider.BouncyCastleProvider",
+   "org.bouncycastle.pqc.jcajce.provider.BouncyCastlePQCProvider"
+  ],
+  "javax.annotation.processing.Processor": [
+   "Ca.a"
+  ],
+  "li.m": [
+   "hi.a"
+  ],
+  "px.a": [
+   "iP.a"
+  ]
+ },
+ "spi_security_providers": [
+  [
+   "org.bouncycastle.jce.provider.BouncyCastleProvider",
+   "org.bouncycastle.pqc.jcajce.provider.BouncyCastlePQCProvider"
+  ]
+ ],
+ "licenses": [
+  [
+   "Apache-2.0 (AndroidX LICENSE.txt)",
+   5
+  ]
+ ],
+ "components": [
+  {
+   "component": "Bouncy Castle",
+   "ecosystem": "android-embedded",
+   "group": "Legion of the Bouncy Castle",
+   "artifact": "org.bouncycastle",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 6112,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Meta Audience Network / Login",
+   "ecosystem": "android-embedded",
+   "group": "Meta Platforms",
+   "artifact": "com.facebook.android",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 3622,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Ariver runtime",
+   "ecosystem": "android-embedded",
+   "group": "Alibaba Group",
+   "artifact": "com.alibaba.ariver",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 2415,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Griver mini-app container",
+   "ecosystem": "android-embedded",
+   "group": "Alibaba Group",
+   "artifact": "com.alibaba.griver",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 2228,
+   "confidence": "namespace"
+  },
+  {
+   "component": "IAPConnect (Alipay+)",
+   "ecosystem": "android-embedded",
+   "group": "Ant Group",
+   "artifact": "com.alipay.iap",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 1330,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Visa Consumer Brand Payment SDK",
+   "ecosystem": "android-embedded",
+   "group": "Visa Inc.",
+   "artifact": "com.visa.cbp",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 900,
+   "confidence": "namespace"
+  },
+  {
+   "component": "TrueID eKYC SDK",
+   "ecosystem": "android-embedded",
+   "group": "VNG / TrueID",
+   "artifact": "vn.ai.trueid",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 622,
+   "confidence": "namespace"
+  },
+  {
+   "component": "AppsFlyer attribution",
+   "ecosystem": "android-embedded",
+   "group": "AppsFlyer",
+   "artifact": "com.appsflyer",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 430,
+   "confidence": "namespace"
+  },
+  {
+   "component": "VNPAY taxi module",
+   "ecosystem": "android-embedded",
+   "group": "VNPAY",
+   "artifact": "com.vnpay",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 388,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Nimbus JOSE+JWT",
+   "ecosystem": "android-embedded",
+   "group": "Connect2id",
+   "artifact": "com.nimbusds",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 361,
+   "confidence": "namespace"
+  },
+  {
+   "component": "RxJava",
+   "ecosystem": "android-embedded",
+   "group": "ReactiveX",
+   "artifact": "io.reactivex",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 266,
+   "confidence": "namespace"
+  },
+  {
+   "component": "OkHttp",
+   "ecosystem": "android-embedded",
+   "group": "Square",
+   "artifact": "com.squareup.okhttp3",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 228,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Firebase",
+   "ecosystem": "android-embedded",
+   "group": "Google LLC",
+   "artifact": "com.google.firebase",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 221,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Glide",
+   "ecosystem": "android-embedded",
+   "group": "Bumptech",
+   "artifact": "com.github.bumptech.glide",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 213,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Protocol Buffers",
+   "ecosystem": "android-embedded",
+   "group": "Google LLC",
+   "artifact": "com.google.protobuf",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 209,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Gson",
+   "ecosystem": "android-embedded",
+   "group": "Google LLC",
+   "artifact": "com.google.code.gson",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 207,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Lottie",
+   "ecosystem": "android-embedded",
+   "group": "Airbnb",
+   "artifact": "com.airbnb.android:lottie",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 173,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Picasso",
+   "ecosystem": "android-embedded",
+   "group": "Square",
+   "artifact": "com.squareup.picasso",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 81,
+   "confidence": "namespace"
+  },
+  {
+   "component": "FaceAuth SDK (BShield)",
+   "ecosystem": "android-embedded",
+   "group": "VNG",
+   "artifact": "vn.ai.faceauth",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 67,
+   "confidence": "namespace"
+  },
+  {
+   "component": "ML Kit",
+   "ecosystem": "android-embedded",
+   "group": "Google LLC",
+   "artifact": "com.google.mlkit",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 50,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Retrofit",
+   "ecosystem": "android-embedded",
+   "group": "Square",
+   "artifact": "com.squareup.retrofit2",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 49,
+   "confidence": "namespace"
+  },
+  {
+   "component": "AndroidX WebKit boundary",
+   "ecosystem": "android-embedded",
+   "group": "Google LLC",
+   "artifact": "androidx.webkit",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 38,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Dagger",
+   "ecosystem": "android-embedded",
+   "group": "Google LLC",
+   "artifact": "com.google.dagger",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 35,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Jackson",
+   "ecosystem": "android-embedded",
+   "group": "FasterXML",
+   "artifact": "com.fasterxml.jackson",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 25,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Okio",
+   "ecosystem": "android-embedded",
+   "group": "Square",
+   "artifact": "com.squareup.okio",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 23,
+   "confidence": "namespace"
+  },
+  {
+   "component": "ZXing",
+   "ecosystem": "android-embedded",
+   "group": "ZXing authors",
+   "artifact": "com.google.zxing",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 17,
+   "confidence": "namespace"
+  },
+  {
+   "component": "Apache Commons",
+   "ecosystem": "android-embedded",
+   "group": "Apache Software Foundation",
+   "artifact": "org.apache",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 3,
+   "confidence": "namespace"
+  },
+  {
+   "component": "JetBrains annotations",
+   "ecosystem": "android-embedded",
+   "group": "JetBrains",
+   "artifact": "org.jetbrains",
+   "version": "",
+   "evidence": "DEX namespace",
+   "classes": 2,
+   "confidence": "namespace"
+  },
+  {
+   "component": "androidx.activity_activity",
+   "ecosystem": "maven",
+   "group": "androidx.activity",
+   "artifact": "activity",
+   "version": "1.9.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.activity_activity-compose",
+   "ecosystem": "maven",
+   "group": "androidx.activity",
+   "artifact": "activity-compose",
+   "version": "1.9.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.activity_activity-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.activity",
+   "artifact": "activity-ktx",
+   "version": "1.9.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.annotation_annotation-experimental",
+   "ecosystem": "maven",
+   "group": "androidx.annotation",
+   "artifact": "annotation-experimental",
+   "version": "1.5.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.appcompat_appcompat",
+   "ecosystem": "maven",
+   "group": "androidx.appcompat",
+   "artifact": "appcompat",
+   "version": "1.6.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.appcompat_appcompat-resources",
+   "ecosystem": "maven",
+   "group": "androidx.appcompat",
+   "artifact": "appcompat-resources",
+   "version": "1.6.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.arch.core_core-runtime",
+   "ecosystem": "maven",
+   "group": "androidx.arch.core",
+   "artifact": "core-runtime",
+   "version": "task ':arch:core:core-runtime:writeVersionFile' property 'version'",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.asynclayoutinflater_asynclayoutinflater",
+   "ecosystem": "maven",
+   "group": "androidx.asynclayoutinflater",
+   "artifact": "asynclayoutinflater",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.autofill_autofill",
+   "ecosystem": "maven",
+   "group": "androidx.autofill",
+   "artifact": "autofill",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.biometric_biometric",
+   "ecosystem": "maven",
+   "group": "androidx.biometric",
+   "artifact": "biometric",
+   "version": "1.2.0-alpha05",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.browser_browser",
+   "ecosystem": "maven",
+   "group": "androidx.browser",
+   "artifact": "browser",
+   "version": "1.8.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.camera_camera-camera2",
+   "ecosystem": "maven",
+   "group": "androidx.camera",
+   "artifact": "camera-camera2",
+   "version": "1.4.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.camera_camera-core",
+   "ecosystem": "maven",
+   "group": "androidx.camera",
+   "artifact": "camera-core",
+   "version": "1.4.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.camera_camera-extensions",
+   "ecosystem": "maven",
+   "group": "androidx.camera",
+   "artifact": "camera-extensions",
+   "version": "1.4.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.camera_camera-lifecycle",
+   "ecosystem": "maven",
+   "group": "androidx.camera",
+   "artifact": "camera-lifecycle",
+   "version": "1.4.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.camera_camera-video",
+   "ecosystem": "maven",
+   "group": "androidx.camera",
+   "artifact": "camera-video",
+   "version": "1.4.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.camera_camera-view",
+   "ecosystem": "maven",
+   "group": "androidx.camera",
+   "artifact": "camera-view",
+   "version": "1.4.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.cardview_cardview",
+   "ecosystem": "maven",
+   "group": "androidx.cardview",
+   "artifact": "cardview",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.animation_animation",
+   "ecosystem": "maven",
+   "group": "androidx.compose.animation",
+   "artifact": "animation",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.animation_animation-core",
+   "ecosystem": "maven",
+   "group": "androidx.compose.animation",
+   "artifact": "animation-core",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.foundation_foundation",
+   "ecosystem": "maven",
+   "group": "androidx.compose.foundation",
+   "artifact": "foundation",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.foundation_foundation-layout",
+   "ecosystem": "maven",
+   "group": "androidx.compose.foundation",
+   "artifact": "foundation-layout",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.material_material",
+   "ecosystem": "maven",
+   "group": "androidx.compose.material",
+   "artifact": "material",
+   "version": "1.6.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.material_material-icons-core",
+   "ecosystem": "maven",
+   "group": "androidx.compose.material",
+   "artifact": "material-icons-core",
+   "version": "1.6.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.material_material-ripple",
+   "ecosystem": "maven",
+   "group": "androidx.compose.material",
+   "artifact": "material-ripple",
+   "version": "1.6.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.runtime_runtime",
+   "ecosystem": "maven",
+   "group": "androidx.compose.runtime",
+   "artifact": "runtime",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.runtime_runtime-livedata",
+   "ecosystem": "maven",
+   "group": "androidx.compose.runtime",
+   "artifact": "runtime-livedata",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.runtime_runtime-saveable",
+   "ecosystem": "maven",
+   "group": "androidx.compose.runtime",
+   "artifact": "runtime-saveable",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.ui_ui",
+   "ecosystem": "maven",
+   "group": "androidx.compose.ui",
+   "artifact": "ui",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.ui_ui-geometry",
+   "ecosystem": "maven",
+   "group": "androidx.compose.ui",
+   "artifact": "ui-geometry",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.ui_ui-graphics",
+   "ecosystem": "maven",
+   "group": "androidx.compose.ui",
+   "artifact": "ui-graphics",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.ui_ui-text",
+   "ecosystem": "maven",
+   "group": "androidx.compose.ui",
+   "artifact": "ui-text",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.ui_ui-tooling",
+   "ecosystem": "maven",
+   "group": "androidx.compose.ui",
+   "artifact": "ui-tooling",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.ui_ui-tooling-data",
+   "ecosystem": "maven",
+   "group": "androidx.compose.ui",
+   "artifact": "ui-tooling-data",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.ui_ui-tooling-preview",
+   "ecosystem": "maven",
+   "group": "androidx.compose.ui",
+   "artifact": "ui-tooling-preview",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.ui_ui-unit",
+   "ecosystem": "maven",
+   "group": "androidx.compose.ui",
+   "artifact": "ui-unit",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.compose.ui_ui-util",
+   "ecosystem": "maven",
+   "group": "androidx.compose.ui",
+   "artifact": "ui-util",
+   "version": "1.7.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.constraintlayout_constraintlayout-compose",
+   "ecosystem": "maven",
+   "group": "androidx.constraintlayout",
+   "artifact": "constraintlayout-compose",
+   "version": "1.1.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.coordinatorlayout_coordinatorlayout",
+   "ecosystem": "maven",
+   "group": "androidx.coordinatorlayout",
+   "artifact": "coordinatorlayout",
+   "version": "1.1.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.core_core",
+   "ecosystem": "maven",
+   "group": "androidx.core",
+   "artifact": "core",
+   "version": "1.16.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.core_core-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.core",
+   "artifact": "core-ktx",
+   "version": "1.16.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.core_core-remoteviews",
+   "ecosystem": "maven",
+   "group": "androidx.core",
+   "artifact": "core-remoteviews",
+   "version": "1.1.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.core_core-splashscreen",
+   "ecosystem": "maven",
+   "group": "androidx.core",
+   "artifact": "core-splashscreen",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.core_core-viewtree",
+   "ecosystem": "maven",
+   "group": "androidx.core",
+   "artifact": "core-viewtree",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.cursoradapter_cursoradapter",
+   "ecosystem": "maven",
+   "group": "androidx.cursoradapter",
+   "artifact": "cursoradapter",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.customview_customview",
+   "ecosystem": "maven",
+   "group": "androidx.customview",
+   "artifact": "customview",
+   "version": "1.1.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.customview_customview-poolingcontainer",
+   "ecosystem": "maven",
+   "group": "androidx.customview",
+   "artifact": "customview-poolingcontainer",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.databinding_baseAdapters",
+   "ecosystem": "maven",
+   "group": "androidx.databinding",
+   "artifact": "baseAdapters",
+   "version": "8.12.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.databinding_databindingKtx",
+   "ecosystem": "maven",
+   "group": "androidx.databinding",
+   "artifact": "databindingKtx",
+   "version": "8.12.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.databinding_library",
+   "ecosystem": "maven",
+   "group": "androidx.databinding",
+   "artifact": "library",
+   "version": "8.12.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.databinding_viewbinding",
+   "ecosystem": "maven",
+   "group": "androidx.databinding",
+   "artifact": "viewbinding",
+   "version": "8.12.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.datastore_datastore",
+   "ecosystem": "maven",
+   "group": "androidx.datastore",
+   "artifact": "datastore",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.datastore_datastore-preferences",
+   "ecosystem": "maven",
+   "group": "androidx.datastore",
+   "artifact": "datastore-preferences",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.documentfile_documentfile",
+   "ecosystem": "maven",
+   "group": "androidx.documentfile",
+   "artifact": "documentfile",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.drawerlayout_drawerlayout",
+   "ecosystem": "maven",
+   "group": "androidx.drawerlayout",
+   "artifact": "drawerlayout",
+   "version": "1.1.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.dynamicanimation_dynamicanimation",
+   "ecosystem": "maven",
+   "group": "androidx.dynamicanimation",
+   "artifact": "dynamicanimation",
+   "version": "1.1.0-alpha03",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.dynamicanimation_dynamicanimation-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.dynamicanimation",
+   "artifact": "dynamicanimation-ktx",
+   "version": "1.0.0-alpha03",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.emoji2_emoji2",
+   "ecosystem": "maven",
+   "group": "androidx.emoji2",
+   "artifact": "emoji2",
+   "version": "1.3.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.emoji2_emoji2-views-helper",
+   "ecosystem": "maven",
+   "group": "androidx.emoji2",
+   "artifact": "emoji2-views-helper",
+   "version": "1.3.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.exifinterface_exifinterface",
+   "ecosystem": "maven",
+   "group": "androidx.exifinterface",
+   "artifact": "exifinterface",
+   "version": "1.3.6",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.fragment_fragment",
+   "ecosystem": "maven",
+   "group": "androidx.fragment",
+   "artifact": "fragment",
+   "version": "1.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.fragment_fragment-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.fragment",
+   "artifact": "fragment-ktx",
+   "version": "1.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.glance_glance",
+   "ecosystem": "maven",
+   "group": "androidx.glance",
+   "artifact": "glance",
+   "version": "1.1.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.glance_glance-appwidget",
+   "ecosystem": "maven",
+   "group": "androidx.glance",
+   "artifact": "glance-appwidget",
+   "version": "1.1.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.graphics_graphics-path",
+   "ecosystem": "maven",
+   "group": "androidx.graphics",
+   "artifact": "graphics-path",
+   "version": "1.0.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.interpolator_interpolator",
+   "ecosystem": "maven",
+   "group": "androidx.interpolator",
+   "artifact": "interpolator",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.legacy_legacy-support-core-ui",
+   "ecosystem": "maven",
+   "group": "androidx.legacy",
+   "artifact": "legacy-support-core-ui",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.legacy_legacy-support-core-utils",
+   "ecosystem": "maven",
+   "group": "androidx.legacy",
+   "artifact": "legacy-support-core-utils",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.legacy_legacy-support-v4",
+   "ecosystem": "maven",
+   "group": "androidx.legacy",
+   "artifact": "legacy-support-v4",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-extensions",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-extensions",
+   "version": "2.1.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-livedata",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-livedata",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-livedata-core",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-livedata-core",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-livedata-core-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-livedata-core-ktx",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-livedata-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-livedata-ktx",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-process",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-process",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-runtime",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-runtime",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-runtime-compose",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-runtime-compose",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-runtime-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-runtime-ktx",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-service",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-service",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-viewmodel",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-viewmodel",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-viewmodel-compose",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-viewmodel-compose",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-viewmodel-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-viewmodel-ktx",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.lifecycle_lifecycle-viewmodel-savedstate",
+   "ecosystem": "maven",
+   "group": "androidx.lifecycle",
+   "artifact": "lifecycle-viewmodel-savedstate",
+   "version": "2.8.7",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.loader_loader",
+   "ecosystem": "maven",
+   "group": "androidx.loader",
+   "artifact": "loader",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.localbroadcastmanager_localbroadcastmanager",
+   "ecosystem": "maven",
+   "group": "androidx.localbroadcastmanager",
+   "artifact": "localbroadcastmanager",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.media_media",
+   "ecosystem": "maven",
+   "group": "androidx.media",
+   "artifact": "media",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.navigation_navigation-common",
+   "ecosystem": "maven",
+   "group": "androidx.navigation",
+   "artifact": "navigation-common",
+   "version": "2.8.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.navigation_navigation-common-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.navigation",
+   "artifact": "navigation-common-ktx",
+   "version": "2.8.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.navigation_navigation-compose",
+   "ecosystem": "maven",
+   "group": "androidx.navigation",
+   "artifact": "navigation-compose",
+   "version": "2.8.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.navigation_navigation-dynamic-features-fragment",
+   "ecosystem": "maven",
+   "group": "androidx.navigation",
+   "artifact": "navigation-dynamic-features-fragment",
+   "version": "2.8.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.navigation_navigation-dynamic-features-runtime",
+   "ecosystem": "maven",
+   "group": "androidx.navigation",
+   "artifact": "navigation-dynamic-features-runtime",
+   "version": "2.8.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.navigation_navigation-fragment",
+   "ecosystem": "maven",
+   "group": "androidx.navigation",
+   "artifact": "navigation-fragment",
+   "version": "2.8.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.navigation_navigation-fragment-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.navigation",
+   "artifact": "navigation-fragment-ktx",
+   "version": "2.8.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.navigation_navigation-runtime",
+   "ecosystem": "maven",
+   "group": "androidx.navigation",
+   "artifact": "navigation-runtime",
+   "version": "2.8.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.navigation_navigation-runtime-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.navigation",
+   "artifact": "navigation-runtime-ktx",
+   "version": "2.8.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.navigation_navigation-ui",
+   "ecosystem": "maven",
+   "group": "androidx.navigation",
+   "artifact": "navigation-ui",
+   "version": "2.8.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.navigation_navigation-ui-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.navigation",
+   "artifact": "navigation-ui-ktx",
+   "version": "2.8.3",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.paging_paging-compose",
+   "ecosystem": "maven",
+   "group": "androidx.paging",
+   "artifact": "paging-compose",
+   "version": "3.2.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.paging_paging-runtime",
+   "ecosystem": "maven",
+   "group": "androidx.paging",
+   "artifact": "paging-runtime",
+   "version": "3.2.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.paging_paging-runtime-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.paging",
+   "artifact": "paging-runtime-ktx",
+   "version": "3.2.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.palette_palette",
+   "ecosystem": "maven",
+   "group": "androidx.palette",
+   "artifact": "palette",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.palette_palette-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.palette",
+   "artifact": "palette-ktx",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.print_print",
+   "ecosystem": "maven",
+   "group": "androidx.print",
+   "artifact": "print",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.privacysandbox.ads_ads-adservices",
+   "ecosystem": "maven",
+   "group": "androidx.privacysandbox.ads",
+   "artifact": "ads-adservices",
+   "version": "1.0.0-beta05",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.privacysandbox.ads_ads-adservices-java",
+   "ecosystem": "maven",
+   "group": "androidx.privacysandbox.ads",
+   "artifact": "ads-adservices-java",
+   "version": "1.0.0-beta05",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.profileinstaller_profileinstaller",
+   "ecosystem": "maven",
+   "group": "androidx.profileinstaller",
+   "artifact": "profileinstaller",
+   "version": "1.3.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.recyclerview_recyclerview",
+   "ecosystem": "maven",
+   "group": "androidx.recyclerview",
+   "artifact": "recyclerview",
+   "version": "1.3.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.room_room-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.room",
+   "artifact": "room-ktx",
+   "version": "2.8.4",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.room_room-runtime",
+   "ecosystem": "maven",
+   "group": "androidx.room",
+   "artifact": "room-runtime",
+   "version": "2.8.4",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.savedstate_savedstate",
+   "ecosystem": "maven",
+   "group": "androidx.savedstate",
+   "artifact": "savedstate",
+   "version": "1.2.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.savedstate_savedstate-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.savedstate",
+   "artifact": "savedstate-ktx",
+   "version": "1.2.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.security_security-crypto",
+   "ecosystem": "maven",
+   "group": "androidx.security",
+   "artifact": "security-crypto",
+   "version": "1.1.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.slidingpanelayout_slidingpanelayout",
+   "ecosystem": "maven",
+   "group": "androidx.slidingpanelayout",
+   "artifact": "slidingpanelayout",
+   "version": "1.2.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.sqlite_sqlite",
+   "ecosystem": "maven",
+   "group": "androidx.sqlite",
+   "artifact": "sqlite",
+   "version": "2.6.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.sqlite_sqlite-framework",
+   "ecosystem": "maven",
+   "group": "androidx.sqlite",
+   "artifact": "sqlite-framework",
+   "version": "2.6.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.sqlite_sqlite-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.sqlite",
+   "artifact": "sqlite-ktx",
+   "version": "2.6.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.startup_startup-runtime",
+   "ecosystem": "maven",
+   "group": "androidx.startup",
+   "artifact": "startup-runtime",
+   "version": "1.2.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.swiperefreshlayout_swiperefreshlayout",
+   "ecosystem": "maven",
+   "group": "androidx.swiperefreshlayout",
+   "artifact": "swiperefreshlayout",
+   "version": "1.1.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.tracing_tracing",
+   "ecosystem": "maven",
+   "group": "androidx.tracing",
+   "artifact": "tracing",
+   "version": "1.2.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.tracing_tracing-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.tracing",
+   "artifact": "tracing-ktx",
+   "version": "1.2.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.transition_transition",
+   "ecosystem": "maven",
+   "group": "androidx.transition",
+   "artifact": "transition",
+   "version": "1.4.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.vectordrawable_vectordrawable",
+   "ecosystem": "maven",
+   "group": "androidx.vectordrawable",
+   "artifact": "vectordrawable",
+   "version": "1.1.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.vectordrawable_vectordrawable-animated",
+   "ecosystem": "maven",
+   "group": "androidx.vectordrawable",
+   "artifact": "vectordrawable-animated",
+   "version": "1.1.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.versionedparcelable_versionedparcelable",
+   "ecosystem": "maven",
+   "group": "androidx.versionedparcelable",
+   "artifact": "versionedparcelable",
+   "version": "1.1.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.viewpager2_viewpager2",
+   "ecosystem": "maven",
+   "group": "androidx.viewpager2",
+   "artifact": "viewpager2",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.viewpager_viewpager",
+   "ecosystem": "maven",
+   "group": "androidx.viewpager",
+   "artifact": "viewpager",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.webkit_webkit",
+   "ecosystem": "maven",
+   "group": "androidx.webkit",
+   "artifact": "webkit",
+   "version": "1.11.0-alpha02",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.window_window",
+   "ecosystem": "maven",
+   "group": "androidx.window",
+   "artifact": "window",
+   "version": "1.0.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.work_work-runtime",
+   "ecosystem": "maven",
+   "group": "androidx.work",
+   "artifact": "work-runtime",
+   "version": "2.7.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.work_work-runtime-ktx",
+   "ecosystem": "maven",
+   "group": "androidx.work",
+   "artifact": "work-runtime-ktx",
+   "version": "2.7.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "androidx.work_work-rxjava2",
+   "ecosystem": "maven",
+   "group": "androidx.work",
+   "artifact": "work-rxjava2",
+   "version": "2.7.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "com.google.android.material_material",
+   "ecosystem": "maven",
+   "group": "com.google.android.material",
+   "artifact": "material",
+   "version": "1.4.0",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "com.google.dagger_dagger",
+   "ecosystem": "maven",
+   "group": "com.google.dagger",
+   "artifact": "dagger",
+   "version": "2.59.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "com.google.dagger_dagger-android",
+   "ecosystem": "maven",
+   "group": "com.google.dagger",
+   "artifact": "dagger-android",
+   "version": "2.59.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "com.google.dagger_dagger-android-support",
+   "ecosystem": "maven",
+   "group": "com.google.dagger",
+   "artifact": "dagger-android-support",
+   "version": "2.59.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "com.google.dagger_dagger-lint-aar",
+   "ecosystem": "maven",
+   "group": "com.google.dagger",
+   "artifact": "dagger-lint-aar",
+   "version": "2.59.2",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "io.reactivex.rxjava2#rxkotlin;2.2.0",
+   "ecosystem": "maven",
+   "group": "",
+   "artifact": "io.reactivex.rxjava2#rxkotlin;2.2.0",
+   "version": "2.2.0",
+   "evidence": "META-INF/rxkotlin.properties",
+   "classes": 0,
+   "confidence": "exact",
+   "origin": "https://github.com/ReactiveX/RxKotlin.git",
+   "built": "2017-11-27_01:03:47"
+  },
+  {
+   "component": "kotlinx_coroutines_android",
+   "ecosystem": "maven",
+   "group": "kotlinx",
+   "artifact": "coroutines_android",
+   "version": "1.8.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "kotlinx_coroutines_core",
+   "ecosystem": "maven",
+   "group": "kotlinx",
+   "artifact": "coroutines_core",
+   "version": "1.8.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "kotlinx_coroutines_play_services",
+   "ecosystem": "maven",
+   "group": "kotlinx",
+   "artifact": "coroutines_play_services",
+   "version": "1.8.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "kotlinx_coroutines_reactive",
+   "ecosystem": "maven",
+   "group": "kotlinx",
+   "artifact": "coroutines_reactive",
+   "version": "1.8.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  },
+  {
+   "component": "kotlinx_coroutines_rx2",
+   "ecosystem": "maven",
+   "group": "kotlinx",
+   "artifact": "coroutines_rx2",
+   "version": "1.8.1",
+   "evidence": "META-INF/*.version",
+   "classes": 0,
+   "confidence": "exact"
+  }
+ ]
+}

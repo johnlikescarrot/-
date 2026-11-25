@@ -1,0 +1,171 @@
+component,ecosystem,group,artifact,version,evidence,classes,confidence
+Bouncy Castle,android-embedded,Legion of the Bouncy Castle,org.bouncycastle,,DEX namespace,6112,namespace
+Meta Audience Network / Login,android-embedded,Meta Platforms,com.facebook.android,,DEX namespace,3622,namespace
+Ariver runtime,android-embedded,Alibaba Group,com.alibaba.ariver,,DEX namespace,2415,namespace
+Griver mini-app container,android-embedded,Alibaba Group,com.alibaba.griver,,DEX namespace,2228,namespace
+IAPConnect (Alipay+),android-embedded,Ant Group,com.alipay.iap,,DEX namespace,1330,namespace
+Visa Consumer Brand Payment SDK,android-embedded,Visa Inc.,com.visa.cbp,,DEX namespace,900,namespace
+TrueID eKYC SDK,android-embedded,VNG / TrueID,vn.ai.trueid,,DEX namespace,622,namespace
+AppsFlyer attribution,android-embedded,AppsFlyer,com.appsflyer,,DEX namespace,430,namespace
+VNPAY taxi module,android-embedded,VNPAY,com.vnpay,,DEX namespace,388,namespace
+Nimbus JOSE+JWT,android-embedded,Connect2id,com.nimbusds,,DEX namespace,361,namespace
+RxJava,android-embedded,ReactiveX,io.reactivex,,DEX namespace,266,namespace
+OkHttp,android-embedded,Square,com.squareup.okhttp3,,DEX namespace,228,namespace
+Firebase,android-embedded,Google LLC,com.google.firebase,,DEX namespace,221,namespace
+Glide,android-embedded,Bumptech,com.github.bumptech.glide,,DEX namespace,213,namespace
+Protocol Buffers,android-embedded,Google LLC,com.google.protobuf,,DEX namespace,209,namespace
+Gson,android-embedded,Google LLC,com.google.code.gson,,DEX namespace,207,namespace
+Lottie,android-embedded,Airbnb,com.airbnb.android:lottie,,DEX namespace,173,namespace
+Picasso,android-embedded,Square,com.squareup.picasso,,DEX namespace,81,namespace
+FaceAuth SDK (BShield),android-embedded,VNG,vn.ai.faceauth,,DEX namespace,67,namespace
+ML Kit,android-embedded,Google LLC,com.google.mlkit,,DEX namespace,50,namespace
+Retrofit,android-embedded,Square,com.squareup.retrofit2,,DEX namespace,49,namespace
+AndroidX WebKit boundary,android-embedded,Google LLC,androidx.webkit,,DEX namespace,38,namespace
+Dagger,android-embedded,Google LLC,com.google.dagger,,DEX namespace,35,namespace
+Jackson,android-embedded,FasterXML,com.fasterxml.jackson,,DEX namespace,25,namespace
+Okio,android-embedded,Square,com.squareup.okio,,DEX namespace,23,namespace
+ZXing,android-embedded,ZXing authors,com.google.zxing,,DEX namespace,17,namespace
+Apache Commons,android-embedded,Apache Software Foundation,org.apache,,DEX namespace,3,namespace
+JetBrains annotations,android-embedded,JetBrains,org.jetbrains,,DEX namespace,2,namespace
+androidx.activity_activity,maven,androidx.activity,activity,1.9.3,META-INF/*.version,0,exact
+androidx.activity_activity-compose,maven,androidx.activity,activity-compose,1.9.3,META-INF/*.version,0,exact
+androidx.activity_activity-ktx,maven,androidx.activity,activity-ktx,1.9.3,META-INF/*.version,0,exact
+androidx.annotation_annotation-experimental,maven,androidx.annotation,annotation-experimental,1.5.0,META-INF/*.version,0,exact
+androidx.appcompat_appcompat,maven,androidx.appcompat,appcompat,1.6.1,META-INF/*.version,0,exact
+androidx.appcompat_appcompat-resources,maven,androidx.appcompat,appcompat-resources,1.6.1,META-INF/*.version,0,exact
+androidx.arch.core_core-runtime,maven,androidx.arch.core,core-runtime,task ':arch:core:core-runtime:writeVersionFile' property 'version',META-INF/*.version,0,exact
+androidx.asynclayoutinflater_asynclayoutinflater,maven,androidx.asynclayoutinflater,asynclayoutinflater,1.0.0,META-INF/*.version,0,exact
+androidx.autofill_autofill,maven,androidx.autofill,autofill,1.0.0,META-INF/*.version,0,exact
+androidx.biometric_biometric,maven,androidx.biometric,biometric,1.2.0-alpha05,META-INF/*.version,0,exact
+androidx.browser_browser,maven,androidx.browser,browser,1.8.0,META-INF/*.version,0,exact
+androidx.camera_camera-camera2,maven,androidx.camera,camera-camera2,1.4.0,META-INF/*.version,0,exact
+androidx.camera_camera-core,maven,androidx.camera,camera-core,1.4.0,META-INF/*.version,0,exact
+androidx.camera_camera-extensions,maven,androidx.camera,camera-extensions,1.4.0,META-INF/*.version,0,exact
+androidx.camera_camera-lifecycle,maven,androidx.camera,camera-lifecycle,1.4.0,META-INF/*.version,0,exact
+androidx.camera_camera-video,maven,androidx.camera,camera-video,1.4.0,META-INF/*.version,0,exact
+androidx.camera_camera-view,maven,androidx.camera,camera-view,1.4.0,META-INF/*.version,0,exact
+androidx.cardview_cardview,maven,androidx.cardview,cardview,1.0.0,META-INF/*.version,0,exact
+androidx.compose.animation_animation,maven,androidx.compose.animation,animation,1.7.2,META-INF/*.version,0,exact
+androidx.compose.animation_animation-core,maven,androidx.compose.animation,animation-core,1.7.2,META-INF/*.version,0,exact
+androidx.compose.foundation_foundation,maven,androidx.compose.foundation,foundation,1.7.2,META-INF/*.version,0,exact
+androidx.compose.foundation_foundation-layout,maven,androidx.compose.foundation,foundation-layout,1.7.2,META-INF/*.version,0,exact
+androidx.compose.material_material,maven,androidx.compose.material,material,1.6.0,META-INF/*.version,0,exact
+androidx.compose.material_material-icons-core,maven,androidx.compose.material,material-icons-core,1.6.0,META-INF/*.version,0,exact
+androidx.compose.material_material-ripple,maven,androidx.compose.material,material-ripple,1.6.0,META-INF/*.version,0,exact
+androidx.compose.runtime_runtime,maven,androidx.compose.runtime,runtime,1.7.2,META-INF/*.version,0,exact
+androidx.compose.runtime_runtime-livedata,maven,androidx.compose.runtime,runtime-livedata,1.7.2,META-INF/*.version,0,exact
+androidx.compose.runtime_runtime-saveable,maven,androidx.compose.runtime,runtime-saveable,1.7.2,META-INF/*.version,0,exact
+androidx.compose.ui_ui,maven,androidx.compose.ui,ui,1.7.2,META-INF/*.version,0,exact
+androidx.compose.ui_ui-geometry,maven,androidx.compose.ui,ui-geometry,1.7.2,META-INF/*.version,0,exact
+androidx.compose.ui_ui-graphics,maven,androidx.compose.ui,ui-graphics,1.7.2,META-INF/*.version,0,exact
+androidx.compose.ui_ui-text,maven,androidx.compose.ui,ui-text,1.7.2,META-INF/*.version,0,exact
+androidx.compose.ui_ui-tooling,maven,androidx.compose.ui,ui-tooling,1.7.2,META-INF/*.version,0,exact
+androidx.compose.ui_ui-tooling-data,maven,androidx.compose.ui,ui-tooling-data,1.7.2,META-INF/*.version,0,exact
+androidx.compose.ui_ui-tooling-preview,maven,androidx.compose.ui,ui-tooling-preview,1.7.2,META-INF/*.version,0,exact
+androidx.compose.ui_ui-unit,maven,androidx.compose.ui,ui-unit,1.7.2,META-INF/*.version,0,exact
+androidx.compose.ui_ui-util,maven,androidx.compose.ui,ui-util,1.7.2,META-INF/*.version,0,exact
+androidx.constraintlayout_constraintlayout-compose,maven,androidx.constraintlayout,constraintlayout-compose,1.1.1,META-INF/*.version,0,exact
+androidx.coordinatorlayout_coordinatorlayout,maven,androidx.coordinatorlayout,coordinatorlayout,1.1.0,META-INF/*.version,0,exact
+androidx.core_core,maven,androidx.core,core,1.16.0,META-INF/*.version,0,exact
+androidx.core_core-ktx,maven,androidx.core,core-ktx,1.16.0,META-INF/*.version,0,exact
+androidx.core_core-remoteviews,maven,androidx.core,core-remoteviews,1.1.0,META-INF/*.version,0,exact
+androidx.core_core-splashscreen,maven,androidx.core,core-splashscreen,1.0.0,META-INF/*.version,0,exact
+androidx.core_core-viewtree,maven,androidx.core,core-viewtree,1.0.0,META-INF/*.version,0,exact
+androidx.cursoradapter_cursoradapter,maven,androidx.cursoradapter,cursoradapter,1.0.0,META-INF/*.version,0,exact
+androidx.customview_customview,maven,androidx.customview,customview,1.1.0,META-INF/*.version,0,exact
+androidx.customview_customview-poolingcontainer,maven,androidx.customview,customview-poolingcontainer,1.0.0,META-INF/*.version,0,exact
+androidx.databinding_baseAdapters,maven,androidx.databinding,baseAdapters,8.12.3,META-INF/*.version,0,exact
+androidx.databinding_databindingKtx,maven,androidx.databinding,databindingKtx,8.12.3,META-INF/*.version,0,exact
+androidx.databinding_library,maven,androidx.databinding,library,8.12.3,META-INF/*.version,0,exact
+androidx.databinding_viewbinding,maven,androidx.databinding,viewbinding,8.12.3,META-INF/*.version,0,exact
+androidx.datastore_datastore,maven,androidx.datastore,datastore,1.0.0,META-INF/*.version,0,exact
+androidx.datastore_datastore-preferences,maven,androidx.datastore,datastore-preferences,1.0.0,META-INF/*.version,0,exact
+androidx.documentfile_documentfile,maven,androidx.documentfile,documentfile,1.0.0,META-INF/*.version,0,exact
+androidx.drawerlayout_drawerlayout,maven,androidx.drawerlayout,drawerlayout,1.1.1,META-INF/*.version,0,exact
+androidx.dynamicanimation_dynamicanimation,maven,androidx.dynamicanimation,dynamicanimation,1.1.0-alpha03,META-INF/*.version,0,exact
+androidx.dynamicanimation_dynamicanimation-ktx,maven,androidx.dynamicanimation,dynamicanimation-ktx,1.0.0-alpha03,META-INF/*.version,0,exact
+androidx.emoji2_emoji2,maven,androidx.emoji2,emoji2,1.3.0,META-INF/*.version,0,exact
+androidx.emoji2_emoji2-views-helper,maven,androidx.emoji2,emoji2-views-helper,1.3.0,META-INF/*.version,0,exact
+androidx.exifinterface_exifinterface,maven,androidx.exifinterface,exifinterface,1.3.6,META-INF/*.version,0,exact
+androidx.fragment_fragment,maven,androidx.fragment,fragment,1.8.7,META-INF/*.version,0,exact
+androidx.fragment_fragment-ktx,maven,androidx.fragment,fragment-ktx,1.8.7,META-INF/*.version,0,exact
+androidx.glance_glance,maven,androidx.glance,glance,1.1.1,META-INF/*.version,0,exact
+androidx.glance_glance-appwidget,maven,androidx.glance,glance-appwidget,1.1.1,META-INF/*.version,0,exact
+androidx.graphics_graphics-path,maven,androidx.graphics,graphics-path,1.0.1,META-INF/*.version,0,exact
+androidx.interpolator_interpolator,maven,androidx.interpolator,interpolator,1.0.0,META-INF/*.version,0,exact
+androidx.legacy_legacy-support-core-ui,maven,androidx.legacy,legacy-support-core-ui,1.0.0,META-INF/*.version,0,exact
+androidx.legacy_legacy-support-core-utils,maven,androidx.legacy,legacy-support-core-utils,1.0.0,META-INF/*.version,0,exact
+androidx.legacy_legacy-support-v4,maven,androidx.legacy,legacy-support-v4,1.0.0,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-extensions,maven,androidx.lifecycle,lifecycle-extensions,2.1.0,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-livedata,maven,androidx.lifecycle,lifecycle-livedata,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-livedata-core,maven,androidx.lifecycle,lifecycle-livedata-core,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-livedata-core-ktx,maven,androidx.lifecycle,lifecycle-livedata-core-ktx,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-livedata-ktx,maven,androidx.lifecycle,lifecycle-livedata-ktx,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-process,maven,androidx.lifecycle,lifecycle-process,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-runtime,maven,androidx.lifecycle,lifecycle-runtime,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-runtime-compose,maven,androidx.lifecycle,lifecycle-runtime-compose,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-runtime-ktx,maven,androidx.lifecycle,lifecycle-runtime-ktx,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-service,maven,androidx.lifecycle,lifecycle-service,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-viewmodel,maven,androidx.lifecycle,lifecycle-viewmodel,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-viewmodel-compose,maven,androidx.lifecycle,lifecycle-viewmodel-compose,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-viewmodel-ktx,maven,androidx.lifecycle,lifecycle-viewmodel-ktx,2.8.7,META-INF/*.version,0,exact
+androidx.lifecycle_lifecycle-viewmodel-savedstate,maven,androidx.lifecycle,lifecycle-viewmodel-savedstate,2.8.7,META-INF/*.version,0,exact
+androidx.loader_loader,maven,androidx.loader,loader,1.0.0,META-INF/*.version,0,exact
+androidx.localbroadcastmanager_localbroadcastmanager,maven,androidx.localbroadcastmanager,localbroadcastmanager,1.0.0,META-INF/*.version,0,exact
+androidx.media_media,maven,androidx.media,media,1.0.0,META-INF/*.version,0,exact
+androidx.navigation_navigation-common,maven,androidx.navigation,navigation-common,2.8.3,META-INF/*.version,0,exact
+androidx.navigation_navigation-common-ktx,maven,androidx.navigation,navigation-common-ktx,2.8.3,META-INF/*.version,0,exact
+androidx.navigation_navigation-compose,maven,androidx.navigation,navigation-compose,2.8.3,META-INF/*.version,0,exact
+androidx.navigation_navigation-dynamic-features-fragment,maven,androidx.navigation,navigation-dynamic-features-fragment,2.8.3,META-INF/*.version,0,exact
+androidx.navigation_navigation-dynamic-features-runtime,maven,androidx.navigation,navigation-dynamic-features-runtime,2.8.3,META-INF/*.version,0,exact
+androidx.navigation_navigation-fragment,maven,androidx.navigation,navigation-fragment,2.8.3,META-INF/*.version,0,exact
+androidx.navigation_navigation-fragment-ktx,maven,androidx.navigation,navigation-fragment-ktx,2.8.3,META-INF/*.version,0,exact
+androidx.navigation_navigation-runtime,maven,androidx.navigation,navigation-runtime,2.8.3,META-INF/*.version,0,exact
+androidx.navigation_navigation-runtime-ktx,maven,androidx.navigation,navigation-runtime-ktx,2.8.3,META-INF/*.version,0,exact
+androidx.navigation_navigation-ui,maven,androidx.navigation,navigation-ui,2.8.3,META-INF/*.version,0,exact
+androidx.navigation_navigation-ui-ktx,maven,androidx.navigation,navigation-ui-ktx,2.8.3,META-INF/*.version,0,exact
+androidx.paging_paging-compose,maven,androidx.paging,paging-compose,3.2.1,META-INF/*.version,0,exact
+androidx.paging_paging-runtime,maven,androidx.paging,paging-runtime,3.2.1,META-INF/*.version,0,exact
+androidx.paging_paging-runtime-ktx,maven,androidx.paging,paging-runtime-ktx,3.2.1,META-INF/*.version,0,exact
+androidx.palette_palette,maven,androidx.palette,palette,1.0.0,META-INF/*.version,0,exact
+androidx.palette_palette-ktx,maven,androidx.palette,palette-ktx,1.0.0,META-INF/*.version,0,exact
+androidx.print_print,maven,androidx.print,print,1.0.0,META-INF/*.version,0,exact
+androidx.privacysandbox.ads_ads-adservices,maven,androidx.privacysandbox.ads,ads-adservices,1.0.0-beta05,META-INF/*.version,0,exact
+androidx.privacysandbox.ads_ads-adservices-java,maven,androidx.privacysandbox.ads,ads-adservices-java,1.0.0-beta05,META-INF/*.version,0,exact
+androidx.profileinstaller_profileinstaller,maven,androidx.profileinstaller,profileinstaller,1.3.1,META-INF/*.version,0,exact
+androidx.recyclerview_recyclerview,maven,androidx.recyclerview,recyclerview,1.3.0,META-INF/*.version,0,exact
+androidx.room_room-ktx,maven,androidx.room,room-ktx,2.8.4,META-INF/*.version,0,exact
+androidx.room_room-runtime,maven,androidx.room,room-runtime,2.8.4,META-INF/*.version,0,exact
+androidx.savedstate_savedstate,maven,androidx.savedstate,savedstate,1.2.1,META-INF/*.version,0,exact
+androidx.savedstate_savedstate-ktx,maven,androidx.savedstate,savedstate-ktx,1.2.1,META-INF/*.version,0,exact
+androidx.security_security-crypto,maven,androidx.security,security-crypto,1.1.0,META-INF/*.version,0,exact
+androidx.slidingpanelayout_slidingpanelayout,maven,androidx.slidingpanelayout,slidingpanelayout,1.2.0,META-INF/*.version,0,exact
+androidx.sqlite_sqlite,maven,androidx.sqlite,sqlite,2.6.2,META-INF/*.version,0,exact
+androidx.sqlite_sqlite-framework,maven,androidx.sqlite,sqlite-framework,2.6.2,META-INF/*.version,0,exact
+androidx.sqlite_sqlite-ktx,maven,androidx.sqlite,sqlite-ktx,2.6.2,META-INF/*.version,0,exact
+androidx.startup_startup-runtime,maven,androidx.startup,startup-runtime,1.2.0,META-INF/*.version,0,exact
+androidx.swiperefreshlayout_swiperefreshlayout,maven,androidx.swiperefreshlayout,swiperefreshlayout,1.1.0,META-INF/*.version,0,exact
+androidx.tracing_tracing,maven,androidx.tracing,tracing,1.2.0,META-INF/*.version,0,exact
+androidx.tracing_tracing-ktx,maven,androidx.tracing,tracing-ktx,1.2.0,META-INF/*.version,0,exact
+androidx.transition_transition,maven,androidx.transition,transition,1.4.1,META-INF/*.version,0,exact
+androidx.vectordrawable_vectordrawable,maven,androidx.vectordrawable,vectordrawable,1.1.0,META-INF/*.version,0,exact
+androidx.vectordrawable_vectordrawable-animated,maven,androidx.vectordrawable,vectordrawable-animated,1.1.0,META-INF/*.version,0,exact
+androidx.versionedparcelable_versionedparcelable,maven,androidx.versionedparcelable,versionedparcelable,1.1.1,META-INF/*.version,0,exact
+androidx.viewpager2_viewpager2,maven,androidx.viewpager2,viewpager2,1.0.0,META-INF/*.version,0,exact
+androidx.viewpager_viewpager,maven,androidx.viewpager,viewpager,1.0.0,META-INF/*.version,0,exact
+androidx.webkit_webkit,maven,androidx.webkit,webkit,1.11.0-alpha02,META-INF/*.version,0,exact
+androidx.window_window,maven,androidx.window,window,1.0.0,META-INF/*.version,0,exact
+androidx.work_work-runtime,maven,androidx.work,work-runtime,2.7.1,META-INF/*.version,0,exact
+androidx.work_work-runtime-ktx,maven,androidx.work,work-runtime-ktx,2.7.1,META-INF/*.version,0,exact
+androidx.work_work-rxjava2,maven,androidx.work,work-rxjava2,2.7.1,META-INF/*.version,0,exact
+com.google.android.material_material,maven,com.google.android.material,material,1.4.0,META-INF/*.version,0,exact
+com.google.dagger_dagger,maven,com.google.dagger,dagger,2.59.2,META-INF/*.version,0,exact
+com.google.dagger_dagger-android,maven,com.google.dagger,dagger-android,2.59.2,META-INF/*.version,0,exact
+com.google.dagger_dagger-android-support,maven,com.google.dagger,dagger-android-support,2.59.2,META-INF/*.version,0,exact
+com.google.dagger_dagger-lint-aar,maven,com.google.dagger,dagger-lint-aar,2.59.2,META-INF/*.version,0,exact
+io.reactivex.rxjava2#rxkotlin;2.2.0,maven,,io.reactivex.rxjava2#rxkotlin;2.2.0,2.2.0,META-INF/rxkotlin.properties,0,exact
+kotlinx_coroutines_android,maven,kotlinx,coroutines_android,1.8.1,META-INF/*.version,0,exact
+kotlinx_coroutines_core,maven,kotlinx,coroutines_core,1.8.1,META-INF/*.version,0,exact
+kotlinx_coroutines_play_services,maven,kotlinx,coroutines_play_services,1.8.1,META-INF/*.version,0,exact
+kotlinx_coroutines_reactive,maven,kotlinx,coroutines_reactive,1.8.1,META-INF/*.version,0,exact
+kotlinx_coroutines_rx2,maven,kotlinx,coroutines_rx2,1.8.1,META-INF/*.version,0,exact

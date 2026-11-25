@@ -1,0 +1,300 @@
+[
+ {
+  "path": "assets/Griver/66666692_1.24.8.amr",
+  "size": 287535,
+  "container": "zip",
+  "members": 3,
+  "extension_lie": true,
+  "uid": "66666692",
+  "version": "1.24.8",
+  "cert_entries": [
+   "66666692.tar",
+   "Manifest.xml"
+  ],
+  "cert_values_are_hashes": true,
+  "tar_members": 11,
+  "tar_bytes": 968941,
+  "tar_largest": [
+   {
+    "name": "appx/af-appx.min.js",
+    "size": 501944
+   },
+   {
+    "name": "appx/af-appx.worker.min.js",
+    "size": 403620
+   },
+   {
+    "name": "appx/worker.min.js",
+    "size": 23363
+   },
+   {
+    "name": "appx/af-appx.min.css",
+    "size": 21912
+   },
+   {
+    "name": "appx/web-view.min.js",
+    "size": 9095
+   },
+   {
+    "name": "appx/es6-promise.min.js",
+    "size": 6367
+   },
+   {
+    "name": "appx/index.html",
+    "size": 1440
+   },
+   {
+    "name": "appx/security-patch.min.js",
+    "size": 731
+   }
+  ],
+  "frameworks": [
+   "appx",
+   "cli"
+  ],
+  "has_worker_js": true,
+  "has_es6_polyfill": true,
+  "security_patch_js": true,
+  "files": [
+   {
+    "name": "hpmfile.json",
+    "size": 202
+   },
+   {
+    "name": "appx/af-appx.min.css",
+    "size": 21912
+   },
+   {
+    "name": "appx/af-appx.min.js",
+    "size": 501944
+   },
+   {
+    "name": "appx/af-appx.worker.min.js",
+    "size": 403620
+   },
+   {
+    "name": "appx/es6-promise.min.js",
+    "size": 6367
+   },
+   {
+    "name": "appx/index.html",
+    "size": 1440
+   },
+   {
+    "name": "appx/security-patch.min.js",
+    "size": 731
+   },
+   {
+    "name": "appx/web-view.min.js",
+    "size": 9095
+   },
+   {
+    "name": "appx/worker.min.js",
+    "size": 23363
+   },
+   {
+    "name": "bugme.cfg",
+    "size": 267
+   }
+  ]
+ },
+ {
+  "path": "assets/Griver/66666693_2.0.7.amr",
+  "size": 17380,
+  "container": "zip",
+  "members": 3,
+  "extension_lie": true,
+  "uid": "66666693",
+  "version": "2.0.7",
+  "cert_entries": [
+   "66666693.tar",
+   "Manifest.xml"
+  ],
+  "cert_values_are_hashes": true,
+  "tar_members": 7,
+  "tar_bytes": 56382,
+  "tar_largest": [
+   {
+    "name": "index.worker.js",
+    "size": 29252
+   },
+   {
+    "name": "index.js",
+    "size": 22462
+   },
+   {
+    "name": "index.html",
+    "size": 4439
+   },
+   {
+    "name": "appConfig.json",
+    "size": 134
+   },
+   {
+    "name": "manifest.json",
+    "size": 74
+   },
+   {
+    "name": "package.json",
+    "size": 19
+   },
+   {
+    "name": "api_permission",
+    "size": 2
+   }
+  ],
+  "frameworks": [
+   "cli"
+  ],
+  "has_worker_js": true,
+  "has_es6_polyfill": false,
+  "security_patch_js": false,
+  "files": [
+   {
+    "name": "api_permission",
+    "size": 2
+   },
+   {
+    "name": "appConfig.json",
+    "size": 134
+   },
+   {
+    "name": "index.html",
+    "size": 4439
+   },
+   {
+    "name": "index.js",
+    "size": 22462
+   },
+   {
+    "name": "index.worker.js",
+    "size": 29252
+   },
+   {
+    "name": "manifest.json",
+    "size": 74
+   },
+   {
+    "name": "package.json",
+    "size": 19
+   }
+  ]
+ },
+ {
+  "path": "assets/Griver/68687209_2.9.7.8.amr",
+  "size": 856974,
+  "container": "zip",
+  "members": 3,
+  "extension_lie": true,
+  "uid": "68687209",
+  "version": "2.9.7.8",
+  "cert_entries": [
+   "68687209.tar",
+   "Manifest.xml"
+  ],
+  "cert_values_are_hashes": true,
+  "tar_members": 14,
+  "tar_bytes": 3292617,
+  "tar_largest": [
+   {
+    "name": "appx-ng/af-appx.min.js",
+    "size": 1667588
+   },
+   {
+    "name": "appx-ng/af-appx.worker.min.js",
+    "size": 1371101
+   },
+   {
+    "name": "appx-ng/appx-portal.min.js",
+    "size": 61935
+   },
+   {
+    "name": "appx-ng/appx-portal.worker.min.js",
+    "size": 57703
+   },
+   {
+    "name": "appx-ng/af-appx.min.css",
+    "size": 52368
+   },
+   {
+    "name": "appx-ng/web-view.min.js",
+    "size": 39939
+   },
+   {
+    "name": "appx-ng/worker.min.js",
+    "size": 23646
+   },
+   {
+    "name": "appx-ng/es6-promise.min.js",
+    "size": 6367
+   }
+  ],
+  "frameworks": [
+   "appx-ng",
+   "cli"
+  ],
+  "has_worker_js": true,
+  "has_es6_polyfill": true,
+  "security_patch_js": true,
+  "files": [
+   {
+    "name": "bugme.cfg",
+    "size": 267
+   },
+   {
+    "name": "appx-ng/af-appx.min.css",
+    "size": 52368
+   },
+   {
+    "name": "appx-ng/af-appx.min.js",
+    "size": 1667588
+   },
+   {
+    "name": "appx-ng/af-appx.worker.min.js",
+    "size": 1371101
+   },
+   {
+    "name": "appx-ng/appx-portal.min.js",
+    "size": 61935
+   },
+   {
+    "name": "appx-ng/appx-portal.worker.min.js",
+    "size": 57703
+   },
+   {
+    "name": "appx-ng/appx-prerender.min.js",
+    "size": 6058
+   },
+   {
+    "name": "appx-ng/es6-promise.min.js",
+    "size": 6367
+   },
+   {
+    "name": "appx-ng/index.html",
+    "size": 1521
+   },
+   {
+    "name": "appx-ng/index.prerender.html",
+    "size": 3393
+   },
+   {
+    "name": "appx-ng/security-patch.min.js",
+    "size": 731
+   },
+   {
+    "name": "appx-ng/web-view.min.js",
+    "size": 39939
+   },
+   {
+    "name": "appx-ng/worker.min.js",
+    "size": 23646
+   }
+  ]
+ },
+ {
+  "path": "assets/Griver/appx.json",
+  "size": 2178,
+  "container": "unknown",
+  "magic": "7b0a2020226d696e"
+ }
+]

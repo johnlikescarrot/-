@@ -297,6 +297,7 @@ def main() -> None:
         "pkg_depth1": pkg1.most_common(60),
         "pkg_depth2": pkg2.most_common(60),
         "pkg_depth3": pkg3.most_common(60),
+        "pkg_depth3_full": dict(pkg3),  # exact namespace counts for SBOM attribution
         "obfuscation": {
             "single_letter_pkg_classes": obf_single_letter,
             "single_letter_pkg_pct": round(100 * obf_single_letter / totals["classes"], 2),

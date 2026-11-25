@@ -1,0 +1,66 @@
+{
+ "keys": [
+  {
+   "file": "assets/public.pem",
+   "kind": "PUBLIC KEY",
+   "algorithm": "RSA",
+   "key_bits": 2048,
+   "spki_sha256": "41feef4346a86271c2b4e2c07fe7c445ac257ea6a120cb8fb7becf3110a83d0f",
+   "spki_der_b64": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy+JB8AzvyNYdlvcoDuM+fdVVj5EsEoAA/Rj3vqA+XuITYsbcyvuyVQwhf1ChrvOD6+Rz5IB2PR1mcgSX2tjL4nY1tq+84teUWlarw9dsiHzWlRXEvf6hDSYVjgKeVsKXPz04ktha2gL4ipT4p51ddp763rnyEjrFLg8cJdribsjbrpppKk/K54h7M/dwD5s3iV5RXRBbKppoo2e8MsiXUvHY8JG2icJqNVfdwdiq3j4AUMemJOPCxurDu1Fn4PVAeRzu9BOdraSLUXrL5vzVA7uITEMPpnr3vlDR/zWTkjZNCEOk+askulCBqd3faqXQjBkfGjjFQFnZii36FK6AKwIDAQAB",
+   "public_only": true,
+   "note": "public key material \u2014 cannot decrypt or forge; included for pin/attribution analysis"
+  },
+  {
+   "file": "assets/zoom.public",
+   "kind": "PUBLIC KEY",
+   "algorithm": "RSA",
+   "key_bits": 2048,
+   "spki_sha256": "1fe3a2f631ec87282e90e734e7d68179fd920e5c8781f0ba0c5988fdca5ecf7c",
+   "spki_der_b64": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxIuKBrpVnPM1EooK1E9TDLEaUiDvku9h9cHFND/Clt1cBKpMG37y6BpwILZYeiMkpEDzG6Gm5s3yPI3SnitBbjp23/+HGe9lNNKBjJ/RkHsE/LEDftBa8+3WIhBVItbhbod9LFs8EXRbYuIIaZgbk2Hseqe0RTcl3VewqlEsrV2rcm8hQmlyrEt96YpK7MmkLY6JJcFdi+q3GmPE6a4Q7dAHKA3N01cX2LzS6Zi2eL9L5Iw+GVw4oK6KkcdAxbcK4XteSq+2KRePmgHbwFiCFrv4COLhVTepv+CzdsCj1agmOMTxPrh4frtXObVtzMtVlbAbKjnel/zJIcxldkBv/QIDAQAB",
+   "public_only": true,
+   "note": "public key material \u2014 cannot decrypt or forge; included for pin/attribution analysis"
+  },
+  {
+   "file": "assets/config/public_key.txt",
+   "kind": "PUBLIC KEY",
+   "algorithm": "RSA",
+   "key_bits": 2048,
+   "spki_sha256": "6c4d7f0fbf7ca50409ebd2a436881195fbf4a5f4adbcdfec8367d9375f80c69a",
+   "spki_der_b64": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnYJ6OPaYnmyYWxptmgE5p+I8bSTFhaRgrf5wPBUfvwTe2DWRwnTZAonmegyCzvI3s2yySwGCctSFYkXcQREukwf4qKnx3XYSmuIuZEjqJK9pZGYIszysEJHUHQiAQc943sw3/kGp8ITE3zbLaiQ4nq5yk8Aocqv1p1X5d4huks+UW/9O/fhJipuiHqz7Pq+40mOcmdTBSQ9eMw9xIHLJ9jMp3cVuBMSjeNt+oh52XO67tKEs8oSRt4yIMkoBAbYcSuAG4r/VGfjv80M6eGMb2BOvbH+2O29DkX8oT5KK7k88yLE0zzT2x2w6etfWQZounmmT6dCBzLRRbtO/+zFKowIDAQAB",
+   "public_only": true,
+   "note": "public key material \u2014 cannot decrypt or forge; included for pin/attribution analysis"
+  }
+ ],
+ "signature_audit": {
+  "available": true,
+  "signature_bytes": 256,
+  "key_bits": 2048,
+  "payloads_tested": [
+   "miniapp_config.json",
+   "zalopay_config.json"
+  ],
+  "matrix_size": 18,
+  "any_valid": false,
+  "matrix": [
+   {
+    "payload": "miniapp_config.json",
+    "hash": "SHA-1",
+    "padding": "PKCS1v15",
+    "result": "invalid"
+   },
+   {
+    "payload": "miniapp_config.json",
+    "hash": "SHA-1",
+    "padding": "PSS(salt=32)",
+    "result": "invalid"
+   },
+   {
+    "payload": "miniapp_config.json",
+    "hash": "SHA-1",
+    "padding": "PSS(max)",
+    "result": "invalid"
+   }
+  ],
+  "interpretation": "No shipped payload validates against the shipped signature. The pinned RSA-2048 key therefore guards *runtime-fetched* remote config (which is re-signed server-side on each push), not the bootstrap copy baked into the APK. Reporting this as 'signature purpose' \u2014 not as a weakness: the bootstrap copy is integrity-protected by the APK signature itself."
+ }
+}

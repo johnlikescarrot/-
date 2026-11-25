@@ -1,0 +1,3305 @@
+{
+ "summary": {
+  "count": 27,
+  "bytes": 57452124,
+  "total_jni_exports": 284,
+  "with_symtab": 1,
+  "pie": 27,
+  "relro": 23,
+  "nx_stack": 27,
+  "with_debug": 1,
+  "embedded_dex": [],
+  "embedded_zip_candidates": [
+   "libtaibmcf.so",
+   "libfgcpkjvqe.so",
+   "libljsfrcwmw.so"
+  ],
+  "embedded_zip_note": "zip signatures inside .rodata may be embedded payloads OR compile-time constants from the zip/archive library; static analysis alone cannot separate the two.",
+  "anti_analysis_libs": {
+   "libmlkitcommonpipeline.so": {
+    "emulator_probe": 3
+   },
+   "libcrashlytics-common.so": {
+    "ptrace_probe": 9
+   },
+   "libtrueidlib.so": {
+    "frida_probe": 2,
+    "xposed_probe": 1,
+    "ptrace_probe": 1,
+    "root_probe": 8,
+    "emulator_probe": 4,
+    "integrity_probe": 1
+   }
+  },
+  "needed_by_lib": {
+   "libtaibmcf.so": [
+    "libz.so",
+    "liblog.so",
+    "libandroid.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libmlkitcommonpipeline.so": [
+    "liblog.so",
+    "libdl.so",
+    "libjnigraphics.so",
+    "libandroid.so",
+    "libz.so",
+    "libm.so",
+    "libEGL.so",
+    "libGLESv2.so",
+    "libc.so"
+   ],
+   "libmlkit_google_ocr_pipeline.so": [
+    "liblog.so",
+    "libdl.so",
+    "libjnigraphics.so",
+    "libandroid.so",
+    "libz.so",
+    "libm.so",
+    "libEGL.so",
+    "libGLESv2.so",
+    "libc.so"
+   ],
+   "libfgcpkjvqe.so": [
+    "libz.so",
+    "liblog.so",
+    "libandroid.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libface_detector_v2_jni.so": [
+    "libandroid.so",
+    "liblog.so",
+    "libjnigraphics.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libsqlcipher.so": [
+    "libdl.so",
+    "liblog.so",
+    "libc.so",
+    "libm.so"
+   ],
+   "libbarhopper_v3.so": [
+    "libjnigraphics.so",
+    "liblog.so",
+    "libdl.so",
+    "libm.so",
+    "libc.so"
+   ],
+   "librive-android.so": [
+    "liblog.so",
+    "libandroid.so",
+    "libEGL.so",
+    "libGLESv3.so",
+    "libjnigraphics.so",
+    "libm.so",
+    "libc++_shared.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libpicodet_ncnn.so": [
+    "liblog.so",
+    "libandroid.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libVFaceLib.so": [
+    "libandroid.so",
+    "liblog.so",
+    "libjnigraphics.so",
+    "libc.so",
+    "libz.so",
+    "libdl.so",
+    "libm.so"
+   ],
+   "liba97d.so": [
+    "libc.so",
+    "libstdc++.so",
+    "libm.so",
+    "libdl.so",
+    "liblog.so"
+   ],
+   "libc++_shared.so": [
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "libljsfrcwmw.so": [
+    "librcmefqonnx.so",
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libcrashlytics-common.so": [
+    "liblog.so",
+    "libz.so",
+    "libdl.so",
+    "libc.so",
+    "libm.so"
+   ],
+   "libnative-imagetranscoder.so": [
+    "liblog.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "liblytcuhe.so": [
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "librcmefqonnx.so": [
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libohxbee.so": [
+    "liblytcuhe.so",
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libsecurity_lite.so": [
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libcrashlytics.so": [
+    "liblog.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "libcrashlytics-handler.so": [
+    "liblog.so",
+    "libz.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "libtrueidlib.so": [
+    "liblog.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libimage_processing_util_jni.so": [
+    "liblog.so",
+    "libandroid.so",
+    "libjnigraphics.so",
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libnative-filters.so": [
+    "liblog.so",
+    "libjnigraphics.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "libandroidx.graphics.path.so": [
+    "libm.so",
+    "libdl.so",
+    "libc.so"
+   ],
+   "libcrashlytics-trampoline.so": [
+    "liblog.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ],
+   "libimagepipeline.so": [
+    "liblog.so",
+    "libjnigraphics.so",
+    "libc.so",
+    "libm.so",
+    "libdl.so"
+   ]
+  },
+  "compilers": [
+   "GCC: (GNU) 4.9.",
+   "clang version 12.0.5",
+   "clang version 14.0.6",
+   "clang version 14.0.7",
+   "clang version 17.0.2",
+   "clang version 18.0.1",
+   "clang version 18.0.2",
+   "clang version 18.0.3",
+   "clang version 18.0.4",
+   "clang version 21.0.0",
+   "clang version 7.0.1",
+   "clang version 7.0.2"
+  ]
+ },
+ "libs": [
+  {
+   "lib": "libtaibmcf.so",
+   "size": 12617752,
+   "sha256": "0fba080d0364fc0f7a8f61611551ef3b231c8ad0c95113446916099f8112d650",
+   "entropy": 6.124,
+   "strings": 4363,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 27,
+   "text_bytes": 11900864,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 197,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "AAssetManager_fromJava",
+    "AAssetManager_open",
+    "AAsset_close",
+    "AAsset_getLength",
+    "AAsset_read",
+    "JNI_OnLoad",
+    "JNI_OnUnload",
+    "OPENSSL_memory_alloc",
+    "OPENSSL_memory_free",
+    "OPENSSL_memory_get_size",
+    "abort",
+    "access",
+    "android_set_abort_message",
+    "arc4random",
+    "asprintf",
+    "atoi",
+    "bsearch",
+    "calloc",
+    "chmod",
+    "clearerr",
+    "clock_gettime",
+    "close",
+    "closedir",
+    "closelog",
+    "crc32",
+    "deflate",
+    "deflateEnd",
+    "deflateInit2_",
+    "dl_iterate_phdr",
+    "dl_unwind_find_exidx",
+    "dladdr",
+    "dlclose",
+    "dlerror",
+    "dlopen",
+    "dlsym",
+    "exit",
+    "fclose",
+    "fdopen",
+    "ferror",
+    "fflush"
+   ],
+   "build_id": "a26a37e9cce21f2a486aa9f8b6abd7d06bb975b2",
+   "elf": {
+    "needed": [
+     "libz.so",
+     "liblog.so",
+     "libandroid.so",
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "libtaibmcf.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "protobuf": 4
+   },
+   "attribution": [],
+   "version_strings": [],
+   "compiler": [
+    "clang version 17.0.2"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": true,
+   "embedding_requires_dynamic_confirmation": true
+  },
+  {
+   "lib": "libmlkitcommonpipeline.so",
+   "size": 6928228,
+   "sha256": "9ab65cd53ed8334fc0fcd09fe3c442f2a9bb6653e1392bc0ff4a1c1381aba7db",
+   "entropy": 7.158,
+   "strings": 44779,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 32,
+   "text_bytes": 5275620,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 367,
+   "jni": [
+    "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeIsProcessInBackground",
+    "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeNotifyProcessLifecycleState",
+    "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetDeviceInfo",
+    "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetGPUInfo",
+    "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetNNAPIInfo",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_close",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_disableSubpipeline",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_enableSubpipeline",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_experimentalRotateResults",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_flushAndClearMobileIqSamples",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_getAnalyticsLogs",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initialize",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameManager",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeIsolationCallback",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeResultsCallback",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_process",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processBitmap",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processYuvFrame",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveAudioData",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDepthMap",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDetections",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceContext",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceState",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveFaces",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receivePreviewFrame",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receivePreviewFrameWithStreamName",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveProcessContext",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveRgbFrame",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveSensorEvent",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveYuvFrame",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetOcr",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetSchedulingOptimizerOptions",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetTrackedObjects",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_start",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_stop",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_waitUntilIdle",
+    "Java_org_tensorflow_lite_acceleration_validation_entrypoint"
+   ],
+   "jni_count": 38,
+   "cxx_export_count": 5,
+   "exported_api": [
+    "AndroidBitmap_lockPixels",
+    "AndroidBitmap_unlockPixels",
+    "MallocExtension_Internal_GetNumericProperty",
+    "MallocExtension_Internal_MarkThreadBusy",
+    "MallocExtension_Internal_MarkThreadIdle",
+    "MallocExtension_Internal_ProcessBackgroundActions",
+    "abort",
+    "access",
+    "acos",
+    "android_set_abort_message",
+    "asinf",
+    "asprintf",
+    "atan2",
+    "atan2f",
+    "atoi",
+    "bsearch",
+    "calloc",
+    "cbrt",
+    "ceil",
+    "ceilf",
+    "chmod",
+    "clock_gettime",
+    "close",
+    "closelog",
+    "cos",
+    "cosf",
+    "dl_unwind_find_exidx",
+    "dladdr",
+    "dlclose",
+    "dlerror",
+    "dlopen",
+    "dlsym",
+    "dup",
+    "eglBindAPI",
+    "eglChooseConfig",
+    "eglCreateContext",
+    "eglCreatePbufferSurface",
+    "eglDestroyContext",
+    "eglDestroySurface",
+    "eglGetCurrentContext"
+   ],
+   "build_id": "bae2bbb57b89bcf1710fd197774512ab",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libdl.so",
+     "libjnigraphics.so",
+     "libandroid.so",
+     "libz.so",
+     "libm.so",
+     "libEGL.so",
+     "libGLESv2.so",
+     "libc.so"
+    ],
+    "soname": "libmlkitcommonpipeline.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "protobuf": 38,
+    "tflite": 156,
+    "opencv": 1362,
+    "mediapipe": 709,
+    "emulator_probe": 3
+   },
+   "attribution": [
+    {
+     "vendor": "Google ML Kit",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 18.0.1"
+   ],
+   "anti_analysis": {
+    "emulator_probe": 3
+   },
+   "vendored_java_pkgs": [
+    [
+     "com/google/android/libraries",
+     5
+    ],
+    [
+     "com/util",
+     2
+    ],
+    [
+     "io/coded_stream",
+     2
+    ],
+    [
+     "com/google/mediapipe/framework",
+     1
+    ],
+    [
+     "io/zero_copy_stream",
+     1
+    ],
+    [
+     "org/lite/guide/ops_select",
+     1
+    ],
+    [
+     "com/opencv/opencv/issues",
+     1
+    ],
+    [
+     "io/internal/expvar",
+     1
+    ]
+   ],
+   "notable_strings": [
+    "Friday",
+    "ThreadLivenessWatcher"
+   ],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libmlkit_google_ocr_pipeline.so",
+   "size": 6781940,
+   "sha256": "06b9e2f587e401c6446aa0db344bb31b622957a2d04aa4eac03cde8b3a6ed78a",
+   "entropy": 6.98,
+   "strings": 51447,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 32,
+   "text_bytes": 4406008,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 367,
+   "jni": [
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_AndroidAssetUtil_nativeInitializeAssetManager",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_close",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_disableSubpipeline",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_enableSubpipeline",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_experimentalRotateResults",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_flushAndClearMobileIqSamples",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_getAnalyticsLogs",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initialize",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameManager",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeIsolationCallback",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeResultsCallback",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_process",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processBitmap",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processYuvFrame",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveAudioData",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDepthMap",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDetections",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceContext",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceState",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveFaces",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrame",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrameWithStreamName",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveProcessContext",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveRgbFrame",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveSensorEvent",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveYuvFrame",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetOcr",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetSchedulingOptimizerOptions",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetTrackedObjects",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_start",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_stop",
+    "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_waitUntilIdle"
+   ],
+   "jni_count": 33,
+   "cxx_export_count": 4,
+   "exported_api": [
+    "AAssetManager_fromJava",
+    "AAssetManager_open",
+    "AAsset_close",
+    "AAsset_getBuffer",
+    "AAsset_getLength",
+    "AndroidBitmap_lockPixels",
+    "AndroidBitmap_unlockPixels",
+    "MallocExtension_Internal_GetNumericProperty",
+    "MallocExtension_Internal_MarkThreadBusy",
+    "MallocExtension_Internal_MarkThreadIdle",
+    "MallocExtension_Internal_ProcessBackgroundActions",
+    "abort",
+    "access",
+    "acosf",
+    "android_set_abort_message",
+    "asinf",
+    "asprintf",
+    "atan",
+    "atan2",
+    "atan2f",
+    "atoi",
+    "bsearch",
+    "calloc",
+    "ceil",
+    "ceilf",
+    "clock_gettime",
+    "close",
+    "closelog",
+    "cos",
+    "cosf",
+    "difftime",
+    "dl_unwind_find_exidx",
+    "dlclose",
+    "dlerror",
+    "dlopen",
+    "dlsym",
+    "eglBindAPI",
+    "eglChooseConfig",
+    "eglCreateContext",
+    "eglCreatePbufferSurface"
+   ],
+   "build_id": "347eda0d518cde27617454728d109a5c",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libdl.so",
+     "libjnigraphics.so",
+     "libandroid.so",
+     "libz.so",
+     "libm.so",
+     "libEGL.so",
+     "libGLESv2.so",
+     "libc.so"
+    ],
+    "soname": "libmlkit_google_ocr_pipeline.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "protobuf": 41,
+    "tflite": 147,
+    "mediapipe": 667,
+    "mlkit": 3
+   },
+   "attribution": [
+    {
+     "vendor": "Google ML Kit",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/google/android/libraries",
+     5
+    ],
+    [
+     "com/util",
+     2
+    ],
+    [
+     "io/coded_stream",
+     2
+    ],
+    [
+     "com/google/mediapipe/framework",
+     1
+    ],
+    [
+     "io/zero_copy_stream",
+     1
+    ],
+    [
+     "org/lite/guide/ops_select",
+     1
+    ],
+    [
+     "io/internal/expvar",
+     1
+    ],
+    [
+     "org/lite/guide/ops_custom",
+     1
+    ]
+   ],
+   "notable_strings": [
+    "Friday",
+    "ThreadLivenessWatcher"
+   ],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libfgcpkjvqe.so",
+   "size": 6524160,
+   "sha256": "5f72893936adfe712e8355c33c6f453c45396c7f58c8f05c9acc9c8f83c15b39",
+   "entropy": 6.266,
+   "strings": 4434,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 30,
+   "text_bytes": 5820360,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 193,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "AAssetManager_fromJava",
+    "AAssetManager_open",
+    "AAsset_close",
+    "AAsset_getLength",
+    "AAsset_read",
+    "JNI_OnLoad",
+    "JNI_OnUnload",
+    "OPENSSL_memory_alloc",
+    "OPENSSL_memory_free",
+    "OPENSSL_memory_get_size",
+    "abort",
+    "access",
+    "android_set_abort_message",
+    "arc4random",
+    "asprintf",
+    "atoi",
+    "bsearch",
+    "calloc",
+    "chmod",
+    "clearerr",
+    "clock_gettime",
+    "close",
+    "closedir",
+    "closelog",
+    "crc32",
+    "deflate",
+    "deflateEnd",
+    "deflateInit2_",
+    "dl_iterate_phdr",
+    "dl_unwind_find_exidx",
+    "dladdr",
+    "dlclose",
+    "dlerror",
+    "dlopen",
+    "dlsym",
+    "exit",
+    "fclose",
+    "fdopen",
+    "ferror",
+    "fflush"
+   ],
+   "build_id": "f9826ee5d5243ae7091701e7593e50523a3d32d2",
+   "elf": {
+    "needed": [
+     "libz.so",
+     "liblog.so",
+     "libandroid.so",
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "libfgcpkjvqe.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "protobuf": 4
+   },
+   "attribution": [],
+   "version_strings": [],
+   "compiler": [
+    "clang version 21.0.0"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": true,
+   "embedding_requires_dynamic_confirmation": true
+  },
+  {
+   "lib": "libface_detector_v2_jni.so",
+   "size": 5388224,
+   "sha256": "21e48bd253e1c87edee42bce9a51048ac3082d681446d0d05a79c4ad0f5e187b",
+   "entropy": 7.149,
+   "strings": 42126,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 30,
+   "text_bytes": 4108928,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 230,
+   "jni": [
+    "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_closeDetectorJni",
+    "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayJni",
+    "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayMultiPlanesJni",
+    "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferJni",
+    "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferMultiPlanesJni",
+    "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_initDetectorJni"
+   ],
+   "jni_count": 6,
+   "cxx_export_count": 2,
+   "exported_api": [
+    "AAssetManager_fromJava",
+    "AAssetManager_open",
+    "AAsset_close",
+    "AAsset_getBuffer",
+    "AAsset_getLength",
+    "MallocExtension_Internal_MarkThreadBusy",
+    "MallocExtension_Internal_MarkThreadIdle",
+    "OPENSSL_memory_alloc",
+    "OPENSSL_memory_free",
+    "OPENSSL_memory_get_size",
+    "abort",
+    "access",
+    "acos",
+    "acosf",
+    "android_set_abort_message",
+    "asin",
+    "atan",
+    "atan2",
+    "atan2f",
+    "atanf",
+    "atof",
+    "atoi",
+    "atol",
+    "bsearch",
+    "calloc",
+    "cbrtf",
+    "ceil",
+    "ceilf",
+    "clock_gettime",
+    "close",
+    "closelog",
+    "cos",
+    "cosf",
+    "ctime",
+    "dl_unwind_find_exidx",
+    "dlclose",
+    "dlerror",
+    "dlopen",
+    "dlsym",
+    "erfcf"
+   ],
+   "build_id": "2e94324788620fed426ff7412aa62bbb",
+   "elf": {
+    "needed": [
+     "libandroid.so",
+     "liblog.so",
+     "libjnigraphics.so",
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "libface_detector_v2_jni.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "protobuf": 16,
+    "tflite": 110,
+    "opencv": 1,
+    "mediapipe": 5,
+    "face": 19
+   },
+   "attribution": [
+    {
+     "vendor": "Google ML Kit",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/google/android/libraries",
+     3
+    ],
+    [
+     "com/util",
+     2
+    ],
+    [
+     "io/zero_copy_stream",
+     1
+    ],
+    [
+     "org/lite/guide/ops_select",
+     1
+    ],
+    [
+     "org/lite/guide/ops_custom",
+     1
+    ],
+    [
+     "io/zero_copy_stream_impl_lite",
+     1
+    ]
+   ],
+   "notable_strings": [
+    "Friday"
+   ],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libsqlcipher.so",
+   "size": 3555080,
+   "sha256": "819c11750f332a8ca0d88f251d0d22d664f559b8ed10f7a4c61cc90be49f3f44",
+   "entropy": 6.694,
+   "strings": 16208,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 27,
+   "text_bytes": 2532016,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 656,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 96,
+   "exported_api": [
+    "JNI_OnLoad",
+    "abort",
+    "accept",
+    "access",
+    "asprintf",
+    "atoi",
+    "bind",
+    "bsd_signal",
+    "clock_gettime",
+    "close",
+    "closedir",
+    "connect",
+    "dl_unwind_find_exidx",
+    "dlclose",
+    "dlerror",
+    "dlopen",
+    "dlsym",
+    "fchmod",
+    "fchown",
+    "fclose",
+    "fcntl",
+    "feof",
+    "ferror",
+    "fflush",
+    "fgets",
+    "fileno",
+    "fopen",
+    "fprintf",
+    "fputc",
+    "fputs",
+    "fread",
+    "free",
+    "freeaddrinfo",
+    "fseek",
+    "fstat",
+    "fsync",
+    "ftell",
+    "ftruncate64",
+    "fwrite",
+    "gai_strerror"
+   ],
+   "build_id": "0d71ed4fed60c71213942c74e976b97330df2cf5",
+   "elf": {
+    "needed": [
+     "libdl.so",
+     "liblog.so",
+     "libc.so",
+     "libm.so"
+    ],
+    "soname": "libsqlcipher.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "openssl": 5,
+    "sqlite": 325,
+    "sqlcipher": 169,
+    "sm_algo": 27
+   },
+   "attribution": [
+    {
+     "vendor": "SQLCipher (Zetetic)",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [
+    "OpenSSL 3.0.16"
+   ],
+   "compiler": [
+    "clang version 12.0.5",
+    "clang version 14.0.7"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "net/zetetic/database/sqlcipher",
+     8
+    ],
+    [
+     "com/toolchain/llvm",
+     2
+    ],
+    [
+     "net/zetetic/database",
+     1
+    ]
+   ],
+   "notable_strings": [
+    "SM4-CBC",
+    "SM4-CBC:SM4:1.2.156.10197.1.104.2",
+    "SM4-CFB",
+    "SM4-CFB1",
+    "SM4-CFB8",
+    "SM4-CFB:SM4-CFB128:1.2.156.10197.1.104.4",
+    "SM4-CTR",
+    "SM4-CTR:1.2.156.10197.1.104.7",
+    "SM4-ECB",
+    "SM4-ECB:1.2.156.10197.1.104.1",
+    "SM4-OFB",
+    "SM4-OFB:SM4-OFB128:1.2.156.10197.1.104.3",
+    "id-ct-resourceTaggedAttest",
+    "providers/implementations/ciphers/cipher_sm4.c",
+    "sm4-cbc"
+   ],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libbarhopper_v3.so",
+   "size": 3244440,
+   "sha256": "b3c162c69e4906b816227ae116bfd8b9ff19cfdd58a3de0c9a9b110e030063e9",
+   "entropy": 7.215,
+   "strings": 19525,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 30,
+   "text_bytes": 2836456,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 211,
+   "jni": [
+    "Java_com_google_android_libraries_barhopper_BarhopperV3_closeNative",
+    "Java_com_google_android_libraries_barhopper_BarhopperV3_createNative",
+    "Java_com_google_android_libraries_barhopper_BarhopperV3_createNativeWithClientOptions",
+    "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBitmapNative",
+    "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBufferNative",
+    "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeNative",
+    "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedBufferNative",
+    "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedNative"
+   ],
+   "jni_count": 8,
+   "cxx_export_count": 2,
+   "exported_api": [
+    "AndroidBitmap_getInfo",
+    "AndroidBitmap_lockPixels",
+    "AndroidBitmap_unlockPixels",
+    "MallocExtension_Internal_MarkThreadBusy",
+    "MallocExtension_Internal_MarkThreadIdle",
+    "OPENSSL_memory_alloc",
+    "OPENSSL_memory_free",
+    "OPENSSL_memory_get_size",
+    "abort",
+    "access",
+    "acos",
+    "acosf",
+    "android_set_abort_message",
+    "asin",
+    "atan",
+    "atan2",
+    "atan2f",
+    "atanf",
+    "atoi",
+    "bsearch",
+    "calloc",
+    "ceilf",
+    "clock_gettime",
+    "close",
+    "closelog",
+    "cos",
+    "cosf",
+    "dl_unwind_find_exidx",
+    "dlclose",
+    "dlerror",
+    "dlopen",
+    "dlsym",
+    "erfcf",
+    "exit",
+    "exp",
+    "expf",
+    "expm1f",
+    "fclose",
+    "fflush",
+    "fgets"
+   ],
+   "build_id": "2f828d569993ab52e65a7c056d4bb095",
+   "elf": {
+    "needed": [
+     "libjnigraphics.so",
+     "liblog.so",
+     "libdl.so",
+     "libm.so",
+     "libc.so"
+    ],
+    "soname": "libbarhopper_v3.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "protobuf": 14,
+    "tflite": 76
+   },
+   "attribution": [
+    {
+     "vendor": "Google ML Kit",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/google/android/libraries",
+     2
+    ],
+    [
+     "com/util",
+     2
+    ],
+    [
+     "io/zero_copy_stream",
+     1
+    ],
+    [
+     "org/lite/guide/ops_select",
+     1
+    ],
+    [
+     "org/lite/guide/ops_custom",
+     1
+    ],
+    [
+     "io/zero_copy_stream_impl_lite",
+     1
+    ]
+   ],
+   "notable_strings": [
+    "Friday"
+   ],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "librive-android.so",
+   "size": 3225636,
+   "sha256": "ab2dd352553cafb7b7f1a686df8bf33c814b977e7c1cdf1e65d8c99c5cb0e782",
+   "entropy": 6.417,
+   "strings": 9707,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 28,
+   "text_bytes": 2209180,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 6224,
+   "jni": [
+    "Java_app_rive_runtime_kotlin_RiveTextureView_cppGetAverageFps",
+    "Java_app_rive_runtime_kotlin_core_AnimationState_cppName",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppAdvance",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByIndex",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByName",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationCount",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationNameByIndex",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppBounds",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppDelete",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppDraw",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppDrawAligned",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppFindTextValueRun",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppFindTextValueRunAtPath",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppFindValueOfTextValueRun",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppFindValueOfTextValueRunAtPath",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppGetArtboardHeight",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppGetArtboardWidth",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppGetVolume",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppInputByNameAtPath",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppName",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppResetArtboardSize",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppSetArtboardHeight",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppSetArtboardWidth",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppSetValueOfTextValueRun",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppSetValueOfTextValueRunAtPath",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppSetViewModelInstance",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppSetVolume",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByIndex",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByName",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineCount",
+    "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineNameByIndex",
+    "Java_app_rive_runtime_kotlin_core_AudioAsset_cppGetAudio",
+    "Java_app_rive_runtime_kotlin_core_AudioAsset_cppSetAudio",
+    "Java_app_rive_runtime_kotlin_core_FileAssetLoader_constructor",
+    "Java_app_rive_runtime_kotlin_core_FileAssetLoader_cppDelete",
+    "Java_app_rive_runtime_kotlin_core_FileAssetLoader_cppSetRendererType",
+    "Java_app_rive_runtime_kotlin_core_FileAsset_cppCDNUrl",
+    "Java_app_rive_runtime_kotlin_core_FileAsset_cppDecode",
+    "Java_app_rive_runtime_kotlin_core_FileAsset_cppName",
+    "Java_app_rive_runtime_kotlin_core_FileAsset_cppUniqueFilename",
+    "Java_app_rive_runtime_kotlin_core_File_cppArtboardByIndex",
+    "Java_app_rive_runtime_kotlin_core_File_cppArtboardByName",
+    "Java_app_rive_runtime_kotlin_core_File_cppArtboardCount",
+    "Java_app_rive_runtime_kotlin_core_File_cppArtboardNameByIndex",
+    "Java_app_rive_runtime_kotlin_core_File_cppDefaultViewModelForArtboard",
+    "Java_app_rive_runtime_kotlin_core_File_cppDelete",
+    "Java_app_rive_runtime_kotlin_core_File_cppEnums",
+    "Java_app_rive_runtime_kotlin_core_File_cppViewModelByIndex",
+    "Java_app_rive_runtime_kotlin_core_File_cppViewModelByName",
+    "Java_app_rive_runtime_kotlin_core_File_cppViewModelCount",
+    "Java_app_rive_runtime_kotlin_core_File_import",
+    "Java_app_rive_runtime_kotlin_core_FontAsset_cppGetFont",
+    "Java_app_rive_runtime_kotlin_core_FontAsset_cppSetFont",
+    "Java_app_rive_runtime_kotlin_core_Helpers_cppConvertToArtboardSpace",
+    "Java_app_rive_runtime_kotlin_core_ImageAsset_cppGetRenderImage",
+    "Java_app_rive_runtime_kotlin_core_ImageAsset_cppImageAssetHeight",
+    "Java_app_rive_runtime_kotlin_core_ImageAsset_cppImageAssetWidth",
+    "Java_app_rive_runtime_kotlin_core_ImageAsset_cppSetRenderImage",
+    "Java_app_rive_runtime_kotlin_core_LayerState_cppIsAnimationState",
+    "Java_app_rive_runtime_kotlin_core_LayerState_cppIsAnyState",
+    "Java_app_rive_runtime_kotlin_core_LayerState_cppIsBlendState",
+    "Java_app_rive_runtime_kotlin_core_LayerState_cppIsBlendState1D",
+    "Java_app_rive_runtime_kotlin_core_LayerState_cppIsBlendStateDirect",
+    "Java_app_rive_runtime_kotlin_core_LayerState_cppIsEntryState",
+    "Java_app_rive_runtime_kotlin_core_LayerState_cppIsExitState",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppAdvance",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppAdvanceAndGetResult",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppApply",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppDelete",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppDuration",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppFps",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppGetDirection",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppGetLoop",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppGetTime",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppName",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppSetDirection",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppSetLoop",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppSetTime",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppWorkEnd",
+    "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppWorkStart",
+    "Java_app_rive_runtime_kotlin_core_RiveAudio_00024Companion_cppMakeAudio",
+    "Java_app_rive_runtime_kotlin_core_RiveAudio_cppDelete",
+    "Java_app_rive_runtime_kotlin_core_RiveEvent_cppData",
+    "Java_app_rive_runtime_kotlin_core_RiveEvent_cppName",
+    "Java_app_rive_runtime_kotlin_core_RiveEvent_cppProperties",
+    "Java_app_rive_runtime_kotlin_core_RiveEvent_cppType",
+    "Java_app_rive_runtime_kotlin_core_RiveFont_00024Companion_cppMakeFont",
+    "Java_app_rive_runtime_kotlin_core_RiveFont_cppDelete",
+    "Java_app_rive_runtime_kotlin_core_RiveOpenURLEvent_cppTarget",
+    "Java_app_rive_runtime_kotlin_core_RiveOpenURLEvent_cppURL",
+    "Java_app_rive_runtime_kotlin_core_RiveRenderImage_00024Companion_cppMakeImage",
+    "Java_app_rive_runtime_kotlin_core_RiveRenderImage_cppDelete",
+    "Java_app_rive_runtime_kotlin_core_RiveTextValueRun_cppSetText",
+    "Java_app_rive_runtime_kotlin_core_RiveTextValueRun_cppText",
+    "Java_app_rive_runtime_kotlin_core_Rive_cppCalculateRequiredBounds",
+    "Java_app_rive_runtime_kotlin_core_Rive_cppInitialize",
+    "Java_app_rive_runtime_kotlin_core_SMIBoolean_cppSetValue",
+    "Java_app_rive_runtime_kotlin_core_SMIBoolean_cppValue",
+    "Java_app_rive_runtime_kotlin_core_SMIInput_cppIsBoolean",
+    "Java_app_rive_runtime_kotlin_core_SMIInput_cppIsNumber",
+    "Java_app_rive_runtime_kotlin_core_SMIInput_cppIsTrigger",
+    "Java_app_rive_runtime_kotlin_core_SMIInput_cppName",
+    "Java_app_rive_runtime_kotlin_core_SMINumber_cppSetValue",
+    "Java_app_rive_runtime_kotlin_core_SMINumber_cppValue",
+    "Java_app_rive_runtime_kotlin_core_SMITrigger_cppFire",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppAdvance",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppDelete",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppInputCount",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppLayerCount",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppName",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppPointerDown",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppPointerMove",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppPointerUp",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppReportedEventAt",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppReportedEventCount",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppSMIInputByIndex",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppSetViewModelInstance",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppStateChangedByIndex",
+    "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppStateChangedCount",
+    "Java_app_rive_runtime_kotlin_core_ViewModelBooleanProperty_cppGetValue",
+    "Java_app_rive_runtime_kotlin_core_ViewModelBooleanProperty_cppSetValue",
+    "Java_app_rive_runtime_kotlin_core_ViewModelColorProperty_cppGetValue",
+    "Java_app_rive_runtime_kotlin_core_ViewModelColorProperty_cppSetValue",
+    "Java_app_rive_runtime_kotlin_core_ViewModelEnumProperty_cppGetValue",
+    "Java_app_rive_runtime_kotlin_core_ViewModelEnumProperty_cppSetValue",
+    "Java_app_rive_runtime_kotlin_core_ViewModelInstance_cppDerefInstance",
+    "Java_app_rive_runtime_kotlin_core_ViewModelInstance_cppName",
+    "Java_app_rive_runtime_kotlin_core_ViewModelInstance_cppPropertyBoolean",
+    "Java_app_rive_runtime_kotlin_core_ViewModelInstance_cppPropertyColor",
+    "Java_app_rive_runtime_kotlin_core_ViewModelInstance_cppPropertyEnum",
+    "Java_app_rive_runtime_kotlin_core_ViewModelInstance_cppPropertyInstance",
+    "Java_app_rive_runtime_kotlin_core_ViewModelInstance_cppPropertyNumber",
+    "Java_app_rive_runtime_kotlin_core_ViewModelInstance_cppPropertyString",
+    "Java_app_rive_runtime_kotlin_core_ViewModelInstance_cppPropertyTrigger",
+    "Java_app_rive_runtime_kotlin_core_ViewModelInstance_cppRefInstance",
+    "Java_app_rive_runtime_kotlin_core_ViewModelInstance_cppSetInstanceProperty",
+    "Java_app_rive_runtime_kotlin_core_ViewModelNumberProperty_cppGetValue",
+    "Java_app_rive_runtime_kotlin_core_ViewModelNumberProperty_cppSetValue",
+    "Java_app_rive_runtime_kotlin_core_ViewModelProperty_cppFlushChanges",
+    "Java_app_rive_runtime_kotlin_core_ViewModelProperty_cppHasChanged",
+    "Java_app_rive_runtime_kotlin_core_ViewModelStringProperty_cppGetValue",
+    "Java_app_rive_runtime_kotlin_core_ViewModelStringProperty_cppSetValue",
+    "Java_app_rive_runtime_kotlin_core_ViewModelTriggerProperty_cppTrigger",
+    "Java_app_rive_runtime_kotlin_core_ViewModel_cppCreateBlankInstance",
+    "Java_app_rive_runtime_kotlin_core_ViewModel_cppCreateDefaultInstance",
+    "Java_app_rive_runtime_kotlin_core_ViewModel_cppCreateInstanceFromIndex",
+    "Java_app_rive_runtime_kotlin_core_ViewModel_cppCreateInstanceFromName",
+    "Java_app_rive_runtime_kotlin_core_ViewModel_cppGetProperties",
+    "Java_app_rive_runtime_kotlin_core_ViewModel_cppInstanceCount",
+    "Java_app_rive_runtime_kotlin_core_ViewModel_cppName",
+    "Java_app_rive_runtime_kotlin_core_ViewModel_cppPropertyCount",
+    "Java_app_rive_runtime_kotlin_fonts_FontFallbackStrategy_00024Companion_cppResetFontCache",
+    "Java_app_rive_runtime_kotlin_fonts_NativeFontHelper_cppRegisterFallbackFont",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_constructor",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppAlign",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppAvgFps",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppDelete",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppDestroySurface",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppDoFrame",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppHeight",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppRestore",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppSave",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppSetSurface",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppStart",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppStop",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppTransform",
+    "Java_app_rive_runtime_kotlin_renderers_Renderer_cppWidth"
+   ],
+   "jni_count": 167,
+   "cxx_export_count": 4183,
+   "exported_api": [
+    "ANativeWindow_acquire",
+    "ANativeWindow_fromSurface",
+    "ANativeWindow_getHeight",
+    "ANativeWindow_getWidth",
+    "ANativeWindow_release",
+    "GetProperties",
+    "GetTargetValue",
+    "SBAlgorithmCreate",
+    "SBAlgorithmCreateParagraph",
+    "SBAlgorithmGetBidiTypesPtr",
+    "SBAlgorithmGetParagraphBoundary",
+    "SBAlgorithmRelease",
+    "SBAlgorithmRetain",
+    "SBCodepointGetBidiType",
+    "SBCodepointGetGeneralCategory",
+    "SBCodepointGetMirror",
+    "SBCodepointGetScript",
+    "SBCodepointSequenceGetCodepointAt",
+    "SBCodepointSequenceGetCodepointBefore",
+    "SBLineGetLength",
+    "SBLineGetOffset",
+    "SBLineGetRunCount",
+    "SBLineGetRunsPtr",
+    "SBLineRelease",
+    "SBLineRetain",
+    "SBMirrorLocatorCreate",
+    "SBMirrorLocatorGetAgent",
+    "SBMirrorLocatorLoadLine",
+    "SBMirrorLocatorMoveNext",
+    "SBMirrorLocatorRelease",
+    "SBMirrorLocatorReset",
+    "SBMirrorLocatorRetain",
+    "SBParagraphCreateLine",
+    "SBParagraphGetBaseLevel",
+    "SBParagraphGetLength",
+    "SBParagraphGetLevelsPtr",
+    "SBParagraphGetOffset",
+    "SBParagraphRelease",
+    "SBParagraphRetain",
+    "SBScriptGetOpenTypeTag"
+   ],
+   "build_id": "847ffc7d5f813c1920c7661652406f7297196a28",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libandroid.so",
+     "libEGL.so",
+     "libGLESv3.so",
+     "libjnigraphics.so",
+     "libm.so",
+     "libc++_shared.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "librive-android.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "rive": 25,
+    "libcxx": 1
+   },
+   "attribution": [
+    {
+     "vendor": "Rive runtime",
+     "confidence": "high"
+    },
+    {
+     "vendor": "LLVM libc++ (NDK)",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 18.0.3"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libpicodet_ncnn.so",
+   "size": 2992584,
+   "sha256": "442367c2e7f3e5b5f70ed8164f375d6306720eb1d3ddba4fdd936e569214230e",
+   "entropy": 7.181,
+   "strings": 10193,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 29,
+   "text_bytes": 2634856,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 2823,
+   "jni": [
+    "Java_com_example_picodet_PicoDetJNI_detect",
+    "Java_com_example_picodet_PicoDetJNI_detectYuv",
+    "Java_com_example_picodet_PicoDetJNI_picodetConfigure",
+    "Java_com_example_picodet_PicoDetJNI_picodetConfigure2",
+    "Java_com_example_picodet_PicoDetJNI_picodetCreate",
+    "Java_com_example_picodet_PicoDetJNI_picodetDestroy",
+    "Java_com_example_picodet_PicoDetJNI_picodetInputHeight",
+    "Java_com_example_picodet_PicoDetJNI_picodetInputWidth"
+   ],
+   "jni_count": 8,
+   "cxx_export_count": 651,
+   "exported_api": [
+    ".gomp_critical_user_",
+    "AB64ToARGB",
+    "AB64ToARGBRow_Any_NEON",
+    "AB64ToARGBRow_C",
+    "AB64ToARGBRow_NEON",
+    "ABGRToAR30Row_C",
+    "ABGRToARGB",
+    "ABGRToUVJRow_Any_NEON",
+    "ABGRToUVJRow_C",
+    "ABGRToUVJRow_NEON",
+    "ABGRToUVRow_Any_NEON",
+    "ABGRToUVRow_C",
+    "ABGRToUVRow_NEON",
+    "ABGRToYJRow_Any_NEON",
+    "ABGRToYJRow_C",
+    "ABGRToYJRow_NEON",
+    "ABGRToYRow_Any_NEON",
+    "ABGRToYRow_C",
+    "ABGRToYRow_NEON",
+    "AR30ToAB30",
+    "AR30ToAB30Row_C",
+    "AR30ToABGR",
+    "AR30ToABGRRow_C",
+    "AR30ToARGB",
+    "AR30ToARGBRow_C",
+    "AR64Shuffle",
+    "AR64ShuffleRow_C",
+    "AR64ToAB64",
+    "AR64ToAB64Row_C",
+    "AR64ToARGB",
+    "AR64ToARGBRow_Any_NEON",
+    "AR64ToARGBRow_C",
+    "AR64ToARGBRow_NEON",
+    "ARGB1555ToARGB",
+    "ARGB1555ToARGBRow_Any_NEON",
+    "ARGB1555ToARGBRow_C",
+    "ARGB1555ToARGBRow_NEON",
+    "ARGB1555ToUVRow_Any_NEON",
+    "ARGB1555ToUVRow_C",
+    "ARGB1555ToUVRow_NEON"
+   ],
+   "build_id": "f061f9654f9171d7506dd04633bb6ef15af2eb1c",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libandroid.so",
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "libpicodet_ncnn.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "ncnn": 1
+   },
+   "attribution": [
+    {
+     "vendor": "PicoDet via NCNN",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 18.0.1",
+    "clang version 21.0.0"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/llvm",
+     3
+    ],
+    [
+     "com/llvm/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libVFaceLib.so",
+   "size": 1963668,
+   "sha256": "c6d04f368fe967fb1fd2666519f78cf8fa5fdc3a95a1ffbb0095370483592329",
+   "entropy": 7.112,
+   "strings": 8580,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 28,
+   "text_bytes": 1515836,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 175,
+   "jni": [
+    "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_faceAlignment",
+    "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeDestroy",
+    "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeInit",
+    "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_getFaces"
+   ],
+   "jni_count": 4,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "AndroidBitmap_getInfo",
+    "AndroidBitmap_lockPixels",
+    "AndroidBitmap_unlockPixels",
+    "abort",
+    "android_set_abort_message",
+    "ceil",
+    "ceilf",
+    "clock_gettime",
+    "close",
+    "closedir",
+    "closelog",
+    "dl_unwind_find_exidx",
+    "dladdr",
+    "dlclose",
+    "dlerror",
+    "dlopen",
+    "dlsym",
+    "fclose",
+    "fegetenv",
+    "feof",
+    "fesetenv",
+    "fflush",
+    "fgetc",
+    "fgets",
+    "floor",
+    "floorf",
+    "fopen",
+    "fprintf",
+    "fputc",
+    "fputs",
+    "fputwc",
+    "fread",
+    "free",
+    "freelocale",
+    "frexp",
+    "frexpf",
+    "fscanf",
+    "fseek",
+    "fseeko",
+    "ftell"
+   ],
+   "build_id": "6c38a6f45674970536c5de358bb9dec440f4f89b",
+   "elf": {
+    "needed": [
+     "libandroid.so",
+     "liblog.so",
+     "libjnigraphics.so",
+     "libc.so",
+     "libz.so",
+     "libdl.so",
+     "libm.so"
+    ],
+    "soname": "libVFaceLib.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "protobuf": 1,
+    "opencv": 778,
+    "face": 7
+   },
+   "attribution": [
+    {
+     "vendor": "VNG FaceAuth (VFaceLib)",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [
+    "Android 1"
+   ],
+   "compiler": [
+    "clang version 18.0.1",
+    "clang version 18.0.4"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/llvm",
+     3
+    ],
+    [
+     "com/opencv/opencv/issues",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "liba97d.so",
+   "size": 997572,
+   "sha256": "7fe7d830805a1e99f0d3661a99fdad20e5ea3f4998c65b3565fde4602ce2181e",
+   "entropy": 6.221,
+   "strings": 1146,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 24,
+   "text_bytes": 878552,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 149,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "JNI_OnLoad",
+    "abort",
+    "atoi",
+    "basename",
+    "calloc",
+    "close",
+    "closedir",
+    "dladdr",
+    "dlerror",
+    "dlopen",
+    "dlsym",
+    "dup2",
+    "execv",
+    "fclose",
+    "fcntl",
+    "fopen",
+    "fork",
+    "free",
+    "getpagesize",
+    "getppid",
+    "ioctl",
+    "isupper",
+    "kill",
+    "killpg",
+    "malloc",
+    "memcpy",
+    "memmove",
+    "memset",
+    "mprotect",
+    "opendir",
+    "pathconf",
+    "pipe",
+    "pipe2",
+    "poll",
+    "prctl",
+    "pthread_create",
+    "pthread_getspecific",
+    "pthread_key_create",
+    "pthread_key_delete",
+    "pthread_mutex_lock"
+   ],
+   "build_id": "def3740891ad48ab",
+   "elf": {
+    "needed": [
+     "libc.so",
+     "libstdc++.so",
+     "libm.so",
+     "libdl.so",
+     "liblog.so"
+    ],
+    "soname": "liba97d.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {},
+   "attribution": [],
+   "version_strings": [],
+   "compiler": [],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libc++_shared.so",
+   "size": 872872,
+   "sha256": "91b49f121b3120538faff020fcf535ade1d945e65ccd793fc0b815b5799bbdf0",
+   "entropy": 6.884,
+   "strings": 5527,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 28,
+   "text_bytes": 411396,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 2498,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 2290,
+   "exported_api": [
+    "abort",
+    "android_set_abort_message",
+    "btowc",
+    "chdir",
+    "clock_gettime",
+    "close",
+    "closedir",
+    "closelog",
+    "dl_unwind_find_exidx",
+    "fchmod",
+    "fchmodat",
+    "fclose",
+    "fdopendir",
+    "fflush",
+    "fopen",
+    "fprintf",
+    "fputc",
+    "fputwc",
+    "fread",
+    "free",
+    "freelocale",
+    "fseek",
+    "fseeko",
+    "fstat",
+    "ftello",
+    "ftruncate",
+    "fwrite",
+    "getc",
+    "getcwd",
+    "getenv",
+    "getwc",
+    "ioctl",
+    "iswalpha_l",
+    "iswblank_l",
+    "iswcntrl_l",
+    "iswdigit_l",
+    "iswlower_l",
+    "iswprint_l",
+    "iswpunct_l",
+    "iswspace_l"
+   ],
+   "build_id": "a760c680b329de8439f344bcfd47a1b7f0fdb446",
+   "elf": {
+    "needed": [
+     "libc.so",
+     "libm.so",
+     "libdl.so"
+    ],
+    "soname": "libc++_shared.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "libcxx": 1
+   },
+   "attribution": [
+    {
+     "vendor": "LLVM libc++ (NDK)",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 18.0.1",
+    "clang version 18.0.3"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/llvm",
+     2
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libljsfrcwmw.so",
+   "size": 600296,
+   "sha256": "12a389806114a18ff57d341e740108ebfe9b07d39abe2775a652f193cb99ac84",
+   "entropy": 6.433,
+   "strings": 4463,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 25,
+   "text_bytes": 222180,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 18,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "JNI_OnLoad",
+    "calloc",
+    "etoooh",
+    "free",
+    "gVm",
+    "jjajwd",
+    "malloc",
+    "pthread_mutex_lock",
+    "pthread_mutex_unlock",
+    "ztrihxmuqw"
+   ],
+   "build_id": "1d8a1a4e69d37070ac1087184e145fb378e8bb0f",
+   "elf": {
+    "needed": [
+     "librcmefqonnx.so",
+     "liblog.so",
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "libljsfrcwmw.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {},
+   "attribution": [
+    {
+     "vendor": "Alibaba Griver/ARiver",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 14.0.6"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/xq/cxzmoiwuegvp/b",
+     237
+    ],
+    [
+     "com/xq/cxzmoiwuegvp",
+     40
+    ],
+    [
+     "net/ssl",
+     27
+    ],
+    [
+     "com/xq/cxzmoiwuegvp/a",
+     21
+    ],
+    [
+     "com/xq/cxzmoiwuegvp/d",
+     14
+    ],
+    [
+     "com/alibaba/griver/image",
+     10
+    ],
+    [
+     "com/xq/cxzmoiwuegvp/e",
+     10
+    ],
+    [
+     "com/google/android/gms",
+     6
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": true,
+   "embedding_requires_dynamic_confirmation": true
+  },
+  {
+   "lib": "libcrashlytics-common.so",
+   "size": 435732,
+   "sha256": "4b8bcec5c0464d7b1741386e30eef9308c43d4ca8f57501ae6734fa48e1c55d2",
+   "entropy": 6.906,
+   "strings": 2813,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 27,
+   "text_bytes": 309104,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 180,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "CrashpadHandlerMain",
+    "abort",
+    "atoi",
+    "atoll",
+    "ceilf",
+    "clock_gettime",
+    "close",
+    "closedir",
+    "connect",
+    "daylight",
+    "deflate",
+    "deflateEnd",
+    "deflateInit2_",
+    "deflateInit_",
+    "dl_unwind_find_exidx",
+    "epoll_create1",
+    "epoll_ctl",
+    "epoll_wait",
+    "eventfd",
+    "execv",
+    "execve",
+    "fcntl",
+    "fflush",
+    "fork",
+    "fprintf",
+    "fputc",
+    "fputs",
+    "free",
+    "freeaddrinfo",
+    "freelocale",
+    "fsync",
+    "ftruncate64",
+    "getaddrinfo",
+    "geteuid",
+    "getopt_long",
+    "getpagesize",
+    "getpid",
+    "getppid",
+    "getpriority",
+    "getsockopt"
+   ],
+   "build_id": "0a3dbcd586db47ff982af5b0d84abecf3dc275eb",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libz.so",
+     "libdl.so",
+     "libc.so",
+     "libm.so"
+    ],
+    "soname": "libcrashlytics-common.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": false,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "ptrace_probe": 9,
+    "crashlytics": 1
+   },
+   "attribution": [
+    {
+     "vendor": "Firebase Crashlytics",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 14.0.6"
+   ],
+   "anti_analysis": {
+    "ptrace_probe": 9
+   },
+   "vendored_java_pkgs": [
+    [
+     "com/google/firebase/crashlytics",
+     1
+    ],
+    [
+     "net/http_transport_socket",
+     1
+    ],
+    [
+     "org/bug/new",
+     1
+    ],
+    [
+     "net/http_body_gzip",
+     1
+    ],
+    [
+     "net/http_multipart_builder",
+     1
+    ],
+    [
+     "net/url",
+     1
+    ],
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [
+    "Friday"
+   ],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libnative-imagetranscoder.so",
+   "size": 341072,
+   "sha256": "43280a8f3f33529d3558b1f3283fec9b855ca28e7b8d7883ae7a64762f148dad",
+   "entropy": 6.959,
+   "strings": 2104,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 27,
+   "text_bytes": 259328,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 352,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 268,
+   "exported_api": [
+    "JNI_OnLoad",
+    "abort",
+    "android_set_abort_message",
+    "closelog",
+    "dl_unwind_find_exidx",
+    "exit",
+    "fflush",
+    "fprintf",
+    "fputc",
+    "free",
+    "fwrite",
+    "getenv",
+    "longjmp",
+    "malloc",
+    "memchr",
+    "memcmp",
+    "memcpy",
+    "memset",
+    "openlog",
+    "posix_memalign",
+    "pthread_getspecific",
+    "pthread_key_create",
+    "pthread_key_delete",
+    "pthread_mutex_lock",
+    "pthread_mutex_unlock",
+    "pthread_once",
+    "pthread_setspecific",
+    "realloc",
+    "setjmp",
+    "snprintf",
+    "sscanf",
+    "strcmp",
+    "strlen",
+    "strncpy",
+    "syslog",
+    "vasprintf",
+    "vfprintf"
+   ],
+   "build_id": "028a8b28da0d9c4d",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libc.so",
+     "libm.so",
+     "libdl.so"
+    ],
+    "soname": "libnative-imagetranscoder.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "fresco": 1
+   },
+   "attribution": [
+    {
+     "vendor": "Fresco image pipeline",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 18.0.2"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/facebook/imagepipeline/nativecode",
+     1
+    ],
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "liblytcuhe.so",
+   "size": 178628,
+   "sha256": "a8e59c1d4922f6bce9814667c1566bb1a2ea39700fe312625a29a7cbe6ef4629",
+   "entropy": 6.629,
+   "strings": 1265,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 26,
+   "text_bytes": 119752,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 338,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 269,
+   "exported_api": [
+    "abort",
+    "dl_unwind_find_exidx",
+    "fayjpsel",
+    "fflush",
+    "fmod",
+    "fmodf",
+    "fprintf",
+    "fputc",
+    "free",
+    "gVm",
+    "kxffetq",
+    "malloc",
+    "memchr",
+    "memcpy",
+    "memmove",
+    "memset",
+    "posix_memalign",
+    "pthread_getspecific",
+    "pthread_key_create",
+    "pthread_key_delete",
+    "pthread_mutex_lock",
+    "pthread_mutex_unlock",
+    "pthread_once",
+    "pthread_setspecific",
+    "realloc",
+    "sgsmdzzsfi",
+    "strcmp",
+    "strlen",
+    "vasprintf",
+    "vfprintf"
+   ],
+   "build_id": "24dd9d8341a2d978131be79560cf5684f2a9d50f",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "liblytcuhe.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {},
+   "attribution": [],
+   "version_strings": [],
+   "compiler": [
+    "clang version 14.0.6"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "librcmefqonnx.so",
+   "size": 178628,
+   "sha256": "9120dd02a8d94659ea178c0b73b4d02954915d8432c74b04a05d1583f69099af",
+   "entropy": 6.63,
+   "strings": 1265,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 26,
+   "text_bytes": 119752,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 338,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 269,
+   "exported_api": [
+    "abort",
+    "dl_unwind_find_exidx",
+    "etoooh",
+    "fflush",
+    "fmod",
+    "fmodf",
+    "fprintf",
+    "fputc",
+    "free",
+    "gVm",
+    "jjajwd",
+    "malloc",
+    "memchr",
+    "memcpy",
+    "memmove",
+    "memset",
+    "posix_memalign",
+    "pthread_getspecific",
+    "pthread_key_create",
+    "pthread_key_delete",
+    "pthread_mutex_lock",
+    "pthread_mutex_unlock",
+    "pthread_once",
+    "pthread_setspecific",
+    "realloc",
+    "strcmp",
+    "strlen",
+    "vasprintf",
+    "vfprintf",
+    "ztrihxmuqw"
+   ],
+   "build_id": "0ee25e5c158c05fe6a60830fbf658003775b3ed1",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "librcmefqonnx.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {},
+   "attribution": [],
+   "version_strings": [],
+   "compiler": [
+    "clang version 14.0.6"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libohxbee.so",
+   "size": 155412,
+   "sha256": "2d54a2aa85d81dbfef1e8d01726b1ffd74004ead9d15d861e2323f54ffc01a74",
+   "entropy": 6.246,
+   "strings": 1500,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 25,
+   "text_bytes": 56960,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 18,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "JNI_OnLoad",
+    "calloc",
+    "fayjpsel",
+    "free",
+    "gVm",
+    "kxffetq",
+    "malloc",
+    "pthread_mutex_lock",
+    "pthread_mutex_unlock",
+    "sgsmdzzsfi"
+   ],
+   "build_id": "a34bec9e3f8ee63ea7ea5c36d40465e87819ee86",
+   "elf": {
+    "needed": [
+     "liblytcuhe.so",
+     "liblog.so",
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "libohxbee.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "opencv": 6,
+    "liveness": 6,
+    "face": 1
+   },
+   "attribution": [
+    {
+     "vendor": "VNG FaceAuth (VFaceLib)",
+     "confidence": "high"
+    },
+    {
+     "vendor": "Google ML Kit",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 14.0.6"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "vn/ai/faceauth/sdk",
+     59
+    ],
+    [
+     "net/ssl",
+     29
+    ],
+    [
+     "com/google/mlkit/vision",
+     4
+    ],
+    [
+     "net/http",
+     3
+    ],
+    [
+     "com/google/android/gms",
+     3
+    ],
+    [
+     "org/json",
+     2
+    ],
+    [
+     "com/vng/bcell",
+     1
+    ],
+    [
+     "com/google/gson",
+     1
+    ]
+   ],
+   "notable_strings": [
+    "()Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXError;",
+    "()Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessResponse;",
+    "()Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;",
+    "()[Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;",
+    "(FFFF)Lvn/ai/faceauth/sdk/presentation/domain/configs/LivenessConfig;",
+    "(I)[Lvn/ai/faceauth/sdk/presentation/domain/configs/LivenessConfig;",
+    "(I)[Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;",
+    "(Landroid/os/Parcel;)Lvn/ai/faceauth/sdk/presentation/domain/configs/LivenessConfig;",
+    "(Landroid/os/Parcel;)Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;",
+    "(Ljava/lang/String;)Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;",
+    "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXError;",
+    "(Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessResponse;Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXError;)Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXResult;",
+    "(Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessResponse;Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXError;)V",
+    "(Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;)Lvn/ai/faceauth/sdk/h;",
+    "(Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;)V"
+   ],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libsecurity_lite.so",
+   "size": 154840,
+   "sha256": "75c5d69621c5dce9a64e4466ae011ba5a22e16b35246b39941883d424df6c786",
+   "entropy": 7.303,
+   "strings": 1227,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 27,
+   "text_bytes": 120148,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 132,
+   "jni": [
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest"
+   ],
+   "jni_count": 4,
+   "cxx_export_count": 1,
+   "exported_api": [
+    "AES_decrypt",
+    "AES_encrypt",
+    "AES_set_decrypt_key",
+    "AES_set_encrypt_key",
+    "MD5Decode",
+    "MD5Encode",
+    "MD5Final",
+    "MD5Init",
+    "MD5Transform",
+    "MD5Update",
+    "PADDING",
+    "SMALL_PRIMES",
+    "abort",
+    "aes_cbc_decrypt",
+    "aes_cbc_encrypt",
+    "b64_buf_malloc",
+    "b64_buf_realloc",
+    "b64_decode",
+    "b64_decode_ex",
+    "b64_encode",
+    "bn_add",
+    "bn_assign",
+    "bn_assign_2exp",
+    "bn_assign_zero",
+    "bn_bits",
+    "bn_cmp",
+    "bn_decode",
+    "bn_digits",
+    "bn_div",
+    "bn_encode",
+    "bn_gcd",
+    "bn_is_zero",
+    "bn_mod",
+    "bn_mod_exp",
+    "bn_mod_inv",
+    "bn_mod_mul",
+    "bn_mul",
+    "bn_shift_l",
+    "bn_shift_r",
+    "bn_sub"
+   ],
+   "build_id": "7b306bd587489659c60c29ebe609d9b434a897fa",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "libsecurity_lite.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "secguard": 8
+   },
+   "attribution": [
+    {
+     "vendor": "Alipay SecurityGuard-Lite",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [
+    "clang 003100370607242ddd5"
+   ],
+   "compiler": [
+    "GCC: (GNU) 4.9.",
+    "clang version 7.0.1",
+    "clang version 7.0.2"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/clang",
+     1
+    ],
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest",
+    "signRequest"
+   ],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libcrashlytics.so",
+   "size": 94540,
+   "sha256": "be0dedcd52a35e717ec0eeb832108e42c8d62552bc7005fef55ca233d0679260",
+   "entropy": 6.557,
+   "strings": 854,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 26,
+   "text_bytes": 58848,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 54,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "CrashpadHandlerMain",
+    "JNI_Init",
+    "JNI_OnLoad",
+    "abort",
+    "atoi",
+    "dl_unwind_find_exidx",
+    "dladdr",
+    "dlopen",
+    "dlsym",
+    "external_api_dispose",
+    "external_api_initialize",
+    "external_api_log",
+    "external_api_set",
+    "external_api_set_user_id",
+    "fflush",
+    "fprintf",
+    "fputc",
+    "free",
+    "getpid",
+    "malloc",
+    "memchr",
+    "memcpy",
+    "memset",
+    "posix_memalign",
+    "pthread_cond_broadcast",
+    "pthread_cond_wait",
+    "pthread_getspecific",
+    "pthread_key_create",
+    "pthread_key_delete",
+    "pthread_mutex_lock",
+    "pthread_mutex_unlock",
+    "pthread_once",
+    "pthread_setspecific",
+    "realloc",
+    "strcmp",
+    "strlen",
+    "syscall",
+    "vasprintf",
+    "vfprintf"
+   ],
+   "build_id": "5e64ab61bdc0fc0292344c878691de20f1f84d61",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libc.so",
+     "libm.so",
+     "libdl.so"
+    ],
+    "soname": "libcrashlytics.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": false,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "crashlytics": 5
+   },
+   "attribution": [
+    {
+     "vendor": "Firebase Crashlytics",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 14.0.6"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/google/firebase/crashlytics",
+     2
+    ],
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libcrashlytics-handler.so",
+   "size": 87908,
+   "sha256": "f58fca61975d2450e8bef2bc4b0ea68e5e181cdd0aff3693b04e469c1c6ccdb6",
+   "entropy": 6.516,
+   "strings": 768,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 26,
+   "text_bytes": 54216,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 41,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "JNI_Init",
+    "JNI_OnLoad",
+    "abort",
+    "dl_unwind_find_exidx",
+    "dlopen",
+    "dlsym",
+    "fflush",
+    "fprintf",
+    "fputc",
+    "free",
+    "malloc",
+    "memchr",
+    "memcpy",
+    "memset",
+    "posix_memalign",
+    "pthread_getspecific",
+    "pthread_key_create",
+    "pthread_key_delete",
+    "pthread_mutex_lock",
+    "pthread_mutex_unlock",
+    "pthread_once",
+    "pthread_setspecific",
+    "realloc",
+    "strcmp",
+    "strlen",
+    "vasprintf",
+    "vfprintf"
+   ],
+   "build_id": "6ba77dbb7533b0d39295bf0b298fdc35477d4d0d",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libz.so",
+     "libc.so",
+     "libm.so",
+     "libdl.so"
+    ],
+    "soname": "libcrashlytics-handler.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": false,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "crashlytics": 1
+   },
+   "attribution": [
+    {
+     "vendor": "Firebase Crashlytics",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 14.0.6"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/google/firebase/crashlytics",
+     1
+    ],
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libtrueidlib.so",
+   "size": 79904,
+   "sha256": "e1a98166f637ebebf814a375ec147461229ff18314dd669ebbf07eabefdfdd06",
+   "entropy": 6.948,
+   "strings": 656,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 25,
+   "text_bytes": 62660,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 80,
+   "jni": [
+    "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_genSignature",
+    "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_getNonce",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultAuthCeremony",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckDebugger",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckIntegrity",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQAuth",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQReg",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultRegisterCeremony",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultVerifyTxDigest",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey"
+   ],
+   "jni_count": 10,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "JNI_OnLoad",
+    "android_base64_encode",
+    "atoi",
+    "chacha20poly1305_decrypt",
+    "clock_gettime",
+    "fclose",
+    "fgets",
+    "fopen",
+    "free",
+    "genSignValue",
+    "generate_context_hash",
+    "hkdf_expand",
+    "hkdf_extract",
+    "hmac_sha256",
+    "hpke_labeled_expand",
+    "hpke_labeled_extract",
+    "malloc",
+    "memchr",
+    "memcmp",
+    "memcpy",
+    "memset",
+    "mlock",
+    "pclose",
+    "popen",
+    "qsort",
+    "rand",
+    "sha256_final",
+    "sha256_init",
+    "sha256_transform",
+    "sha256_update",
+    "sscanf",
+    "strchr",
+    "strcmp",
+    "strcpy",
+    "strdup",
+    "strlen",
+    "strncat",
+    "strncpy",
+    "strrchr",
+    "strstr"
+   ],
+   "build_id": "af880e9ff3b456cb7ea5337d8d87dad8f3e85d52",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "libtrueidlib.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "opencv": 2,
+    "frida_probe": 2,
+    "xposed_probe": 1,
+    "ptrace_probe": 1,
+    "root_probe": 8,
+    "emulator_probe": 4,
+    "integrity_probe": 1
+   },
+   "attribution": [
+    {
+     "vendor": "VNG TrueID eKYC",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 14.0.6"
+   ],
+   "anti_analysis": {
+    "frida_probe": 2,
+    "xposed_probe": 1,
+    "ptrace_probe": 1,
+    "root_probe": 8,
+    "emulator_probe": 4,
+    "integrity_probe": 1
+   },
+   "vendored_java_pkgs": [
+    [
+     "vn/ai/trueid/sdk",
+     4
+    ],
+    [
+     "vn/trueid/sotp/crypto",
+     1
+    ],
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [
+    "/cache/.disable_magisk",
+    "/data/adb/magisk",
+    "/data/adb/magisk.db",
+    "/dev/.magisk.unblock",
+    "/sbin/.magisk",
+    "26_Secure_Vault_TrueID_Shield_20TrueID_Shield_V6",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultAuthCeremony",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckDebugger",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckIntegrity",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQAuth",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQReg",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultRegisterCeremony",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultVerifyTxDigest",
+    "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey",
+    "TrueID_Shield_2026_Secure_Vault_TrueID_Shield_V6"
+   ],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libimage_processing_util_jni.so",
+   "size": 20380,
+   "sha256": "e48e356bbe1902ae9a66178a4a0141c993b82ee9f70dde52ad83e4af3eca984f",
+   "entropy": 6.574,
+   "strings": 169,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 26,
+   "text_bytes": 14036,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 29,
+   "jni": [
+    "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToABGR",
+    "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToBitmap",
+    "Java_androidx_camera_core_ImageProcessingUtil_nativeCopyBetweenByteBufferAndBitmap",
+    "Java_androidx_camera_core_ImageProcessingUtil_nativeRotateYUV",
+    "Java_androidx_camera_core_ImageProcessingUtil_nativeShiftPixel",
+    "Java_androidx_camera_core_ImageProcessingUtil_nativeWriteJpegToSurface"
+   ],
+   "jni_count": 6,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "ANativeWindow_fromSurface",
+    "ANativeWindow_lock",
+    "ANativeWindow_release",
+    "ANativeWindow_setBuffersGeometry",
+    "ANativeWindow_unlockAndPost",
+    "AndroidBitmap_lockPixels",
+    "AndroidBitmap_unlockPixels",
+    "fclose",
+    "fgets",
+    "fopen",
+    "free",
+    "malloc",
+    "memcmp",
+    "memcpy",
+    "memset",
+    "strstr"
+   ],
+   "build_id": "12e91d3874791a1d92920ec94bc2690acebe48aa",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libandroid.so",
+     "libjnigraphics.so",
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "libimage_processing_util_jni.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {},
+   "attribution": [],
+   "version_strings": [],
+   "compiler": [
+    "clang version 14.0.7"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libnative-filters.so",
+   "size": 12588,
+   "sha256": "b8a2da1df4f33eb83adf9596e5e68c9633067a2826385e495ed47f02497b5995",
+   "entropy": 6.327,
+   "strings": 116,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 27,
+   "text_bytes": 6288,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 14,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "AndroidBitmap_getInfo",
+    "AndroidBitmap_lockPixels",
+    "AndroidBitmap_unlockPixels",
+    "JNI_OnLoad",
+    "ceil",
+    "free",
+    "malloc"
+   ],
+   "build_id": "15dee69efb9bdd03",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libjnigraphics.so",
+     "libc.so",
+     "libm.so",
+     "libdl.so"
+    ],
+    "soname": "libnative-filters.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "fresco": 2
+   },
+   "attribution": [
+    {
+     "vendor": "Fresco image pipeline",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 18.0.2"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/facebook/imagepipeline/nativecode",
+     2
+    ],
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libandroidx.graphics.path.so",
+   "size": 7252,
+   "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b",
+   "entropy": 5.767,
+   "strings": 68,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 25,
+   "text_bytes": 3116,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 9,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "JNI_OnLoad",
+    "atoi",
+    "free",
+    "malloc"
+   ],
+   "build_id": "fa98a997cdd9b43f190a4bd20f3dad441b4062f0",
+   "elf": {
+    "needed": [
+     "libm.so",
+     "libdl.so",
+     "libc.so"
+    ],
+    "soname": "libandroidx.graphics.path.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {},
+   "attribution": [],
+   "version_strings": [],
+   "compiler": [
+    "clang version 14.0.7"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libcrashlytics-trampoline.so",
+   "size": 6912,
+   "sha256": "5366393c1292cfb5c8b49bf846e644f8ce24e683e8c0e97566124b29f89eb722",
+   "entropy": 4.658,
+   "strings": 112,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 34,
+   "text_bytes": 280,
+   "has_symtab": true,
+   "has_debug": true,
+   "dynsym": 6,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "dlerror",
+    "dlopen",
+    "dlsym"
+   ],
+   "build_id": "bc860efe07caf057f84f5a5507e1a3fee7bfbe88",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libc.so",
+     "libm.so",
+     "libdl.so"
+    ],
+    "soname": null,
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": false,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {},
+   "attribution": [
+    {
+     "vendor": "Firebase Crashlytics",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [
+    "clang/14.0.6"
+   ],
+   "compiler": [
+    "clang version 14.0.6"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  },
+  {
+   "lib": "libimagepipeline.so",
+   "size": 5876,
+   "sha256": "2049c770f0dcca26b20d211f6113ae02eb7c3af48c784c28fd24c320d70d7cc9",
+   "entropy": 5.158,
+   "strings": 88,
+   "machine": "EM_ARM",
+   "type": "ET_DYN",
+   "pie": true,
+   "sections": 27,
+   "text_bytes": 1220,
+   "has_symtab": false,
+   "has_debug": false,
+   "dynsym": 11,
+   "jni": [],
+   "jni_count": 0,
+   "cxx_export_count": 0,
+   "exported_api": [
+    "AndroidBitmap_lockPixels",
+    "AndroidBitmap_unlockPixels",
+    "JNI_OnLoad",
+    "free",
+    "malloc"
+   ],
+   "build_id": "b79df1565cdf601d",
+   "elf": {
+    "needed": [
+     "liblog.so",
+     "libjnigraphics.so",
+     "libc.so",
+     "libm.so",
+     "libdl.so"
+    ],
+    "soname": "libimagepipeline.so",
+    "rpath": null,
+    "runpath": null,
+    "bind_now": true,
+    "gnu_relro": true,
+    "gnu_stack": true,
+    "flags": "0x5000200, Version5 EABI, soft-float ABI"
+   },
+   "capabilities": {
+    "fresco": 3
+   },
+   "attribution": [
+    {
+     "vendor": "Fresco image pipeline",
+     "confidence": "high"
+    }
+   ],
+   "version_strings": [],
+   "compiler": [
+    "clang version 18.0.2"
+   ],
+   "anti_analysis": {},
+   "vendored_java_pkgs": [
+    [
+     "com/facebook/imagepipeline/nativecode",
+     2
+    ],
+    [
+     "com/facebook/imagepipeline/memory",
+     1
+    ],
+    [
+     "com/toolchain/llvm",
+     1
+    ]
+   ],
+   "notable_strings": [],
+   "has_embedded_dex": false,
+   "has_embedded_zip": false,
+   "embedding_requires_dynamic_confirmation": false
+  }
+ ]
+}
