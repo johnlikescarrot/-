@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this dataset, method or film, please cite it as below."
+title: "Full-Stack Static Reverse Engineering of the ZaloPay 11.17.0 Android Client"
+abstract: >-
+  A reproducible, file-complete static security study of the ZaloPay 11.17.0 XAPK:
+  byte-level APK Signature Scheme v2/v3 provenance, a 60,671-class multidex census with
+  dependency-concentration metrics (HHI 0.036), 27-library ELF hardening analysis,
+  22 signal families, a 9-entry findings register, and a TypeScript-generated 1080p
+  documentary built from the same datasets.
+version: 1.0.0
+date-released: 2026-11-25
+license: CC-BY-4.0
+type: software
+keywords:
+  - android security
+  - apk signature scheme v2
+  - static analysis
+  - multidex
+  - obfuscation
+  - supply chain
+  - mobile payments
+  - reproducible research
+authors:
+  - name: "Arena Agent Research Collective"
+repository-code: "https://github.com/johnlikescarrot/-"
+references:
+  - type: standard
+    title: "OWASP Mobile Application Security Testing Guide (MASTG)"
+    authors: ["OWASP Foundation"]
+    url: "https://mas.owasp.org/MASTG/"
+  - type: standard
+    title: "NIST SP 800-163 Rev.1 — Vetting the Security of Mobile Applications"
+    authors: ["National Institute of Standards and Technology"]
+    url: "https://doi.org/10.6028/NIST.SP.800-163r1"

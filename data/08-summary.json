@@ -1,0 +1,404 @@
+{
+  "artifact": {
+    "package": "vn.com.vng.zalopay",
+    "version_name": "11.17.0",
+    "version_code": "1102758",
+    "min_sdk": "26",
+    "target_sdk": "36",
+    "sha256_base_apk": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+    "sha256_xapk": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d"
+  },
+  "concentration": {
+    "hhi": 0.0364,
+    "top10_share": 0.4383,
+    "first_party_share_pct": 1.57,
+    "vn_namespace_classes": 1936,
+    "top_roots": [
+      [
+        "com.google",
+        7710
+      ],
+      [
+        "org.bouncycastle",
+        6112
+      ],
+      [
+        "com.alibaba",
+        4821
+      ],
+      [
+        "vn",
+        1936
+      ],
+      [
+        "com.iap",
+        1599
+      ],
+      [
+        "com.visa",
+        1370
+      ],
+      [
+        "androidx.media3",
+        1198
+      ],
+      [
+        "androidx.camera",
+        813
+      ],
+      [
+        "com.facebook",
+        531
+      ],
+      [
+        "androidx.compose",
+        504
+      ],
+      [
+        "com.alipay",
+        493
+      ],
+      [
+        "q9",
+        472
+      ],
+      [
+        "p9",
+        454
+      ],
+      [
+        "com.appsflyer",
+        430
+      ],
+      [
+        "com.vnpay",
+        388
+      ]
+    ]
+  },
+  "rubric": {
+    "dimensions": [
+      {
+        "id": "signing_provenance",
+        "weight": 0.14,
+        "score": 100,
+        "evidence": [
+          "v2",
+          "v3",
+          "source-stamp",
+          "0x2146444e",
+          "padding"
+        ]
+      },
+      {
+        "id": "platform_hardening",
+        "weight": 0.16,
+        "score": 99.6,
+        "evidence": {
+          "pie": true,
+          "nx": true,
+          "bind_now": 27,
+          "libs": 27
+        }
+      },
+      {
+        "id": "transport_security",
+        "weight": 0.16,
+        "score": 90,
+        "evidence": [
+          "CertificatePinner",
+          "sha256/",
+          "sha1/",
+          "pinning",
+          "pin-set"
+        ]
+      },
+      {
+        "id": "device_integrity",
+        "weight": 0.14,
+        "score": 95,
+        "evidence": [
+          "SafetyNet",
+          "PlayIntegrity",
+          "IntegrityManager",
+          "Attestation",
+          "requestIntegrityToken",
+          "attest"
+        ]
+      },
+      {
+        "id": "anti_tamper_runtime",
+        "weight": 0.1,
+        "score": 100,
+        "evidence": {
+          "root": true,
+          "hook": true,
+          "emulator": true,
+          "shield": true
+        }
+      },
+      {
+        "id": "data_minimisation",
+        "weight": 0.14,
+        "score": 55,
+        "evidence": {
+          "permissions": 49,
+          "sensitive_apis": [
+            "getDeviceId",
+            "getImei",
+            "getSubscriberId",
+            "getMacAddress",
+            "getAccounts",
+            "ContactsContract"
+          ],
+          "trackers": [
+            "Ads"
+          ]
+        }
+      },
+      {
+        "id": "code_hygiene",
+        "weight": 0.1,
+        "score": 45,
+        "evidence": {
+          "exported_test_components": 4,
+          "legacy_flags": [
+            "requestLegacyExternalStorage",
+            "extractNativeLibs"
+          ],
+          "build_path_leaks": 236
+        }
+      },
+      {
+        "id": "supply_chain",
+        "weight": 0.06,
+        "score": 56.2,
+        "evidence": {
+          "sdks": 38,
+          "hhi": 0.036,
+          "top10_share": 0.438
+        }
+      }
+    ],
+    "weighted_score": 83.2,
+    "scale": "0-100, higher = stronger posture; weights in data/08-summary.json"
+  },
+  "findings": [
+    {
+      "id": "F-01",
+      "title": "AndroidX test harness exported in a production payment build",
+      "severity": "medium",
+      "category": "code hygiene",
+      "evidence": [
+        "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+        "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+        "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+        "androidx.compose.ui.tooling.PreviewActivity"
+      ],
+      "why_it_matters": "Instrumentation/test activities ship with the release APK and are reachable by any app declaring the intent-filter action. They cannot disclose user data by themselves, but they widen the reachable surface of a payments app and signal a release-variant configuration gap.",
+      "recommendation": "Strip test-only artefacts from release variants (androidTestImplementation to debugImplementation, tools:node=\"remove\" for tooling preview activities)."
+    },
+    {
+      "id": "F-02",
+      "title": "Static client credentials embedded in the manifest",
+      "severity": "info",
+      "category": "configuration",
+      "evidence": [
+        "com.google.android.geo.API_KEY -> AIza********Fc",
+        "com.appsflyer.AF_DEV_KEY -> k5nf********KG"
+      ],
+      "why_it_matters": "Google Maps and AppsFlyer dev keys are client-side by design; risk depends entirely on server-side key restriction. They are reported masked so this study does not republish credentials.",
+      "recommendation": "Keep application-restricted keys, rotate if unrestricted, and monitor quota anomalies."
+    },
+    {
+      "id": "F-03",
+      "title": "Vendor build paths and internal component names leaked in native code",
+      "severity": "low",
+      "category": "information disclosure",
+      "evidence": [
+        {
+          "lib": "libtaibmcf.so",
+          "count": 67,
+          "sample": [
+            "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/a_bitstr.cc"
+          ]
+        },
+        {
+          "lib": "libmlkitcommonpipeline.so",
+          "count": 3,
+          "sample": [
+            "/home/build/nonconf/google3/ocr/photo/detection/testdata"
+          ]
+        },
+        {
+          "lib": "libmlkit_google_ocr_pipeline.so",
+          "count": 4,
+          "sample": [
+            "/home/build/nonconf/google3/ocr/photo/detection/testdata"
+          ]
+        },
+        {
+          "lib": "libfgcpkjvqe.so",
+          "count": 67,
+          "sample": [
+            "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/a_bitstr.cc"
+          ]
+        },
+        {
+          "lib": "libsqlcipher.so",
+          "count": 1,
+          "sample": [
+            "/buildbot/src/android/ndk-r25-release/toolchain/llvm-project/libcxx/../../../toolchain/llvm-project/libcxxabi/src/abort_"
+          ]
+        },
+        {
+          "lib": "libcrashlytics-common.so",
+          "count": 85,
+          "sample": [
+            "/buildbot/src/android/ndk-r25-release/toolchain/llvm-project/libcxx/../../../toolchain/llvm-project/libcxxabi/src/abort_"
+          ]
+        }
+      ],
+      "why_it_matters": "Debug paths disclose the shielding vendor's CI naming (BshieldAzure/vsts build agents) and confirm a native-only app-shield layer, which shortens an attacker's reconnaissance step.",
+      "recommendation": "Strip debug paths with -ffile-prefix-map / --strip-debug in the consumer-proguard + CMake pipeline."
+    },
+    {
+      "id": "F-04",
+      "title": "Third-party code dominates the binary (98.4%)",
+      "severity": "medium",
+      "category": "supply chain",
+      "evidence": {
+        "first_party_classes": 952,
+        "total": 60671,
+        "top_roots": [
+          [
+            "com.google",
+            7710
+          ],
+          [
+            "org.bouncycastle",
+            6112
+          ],
+          [
+            "com.alibaba",
+            4821
+          ],
+          [
+            "vn",
+            1936
+          ],
+          [
+            "com.iap",
+            1599
+          ],
+          [
+            "com.visa",
+            1370
+          ],
+          [
+            "androidx.media3",
+            1198
+          ],
+          [
+            "androidx.camera",
+            813
+          ]
+        ],
+        "hhi": 0.036
+      },
+      "why_it_matters": "Effective trust boundary is not ZaloPay's own code but ~59 700 inherited classes from 30+ vendors; each is an independent vulnerability channel inside the payment process.",
+      "recommendation": "SBOM per release + vendor CVE SLA + feature-flag kill switches for SDK-heavy surfaces."
+    },
+    {
+      "id": "F-05",
+      "title": "Native-only application shielding with randomized library names",
+      "severity": "info",
+      "category": "anti-analysis",
+      "evidence": {
+        "bshield_asset": "assets/bshield.dat",
+        "libs": [
+          "libtaibmcf.so",
+          "libfgcpkjvqe.so",
+          "libsqlcipher.so",
+          "libljsfrcwmw.so",
+          "liblytcuhe.so",
+          "librcmefqonnx.so",
+          "libohxbee.so",
+          "libtrueidlib.so"
+        ],
+        "markers": [
+          "frida",
+          "magisk",
+          "shield"
+        ]
+      },
+      "why_it_matters": "The shield lives entirely in .so + opaque assets, so Java-level review under-reports the real behaviour; auditors must budget native analysis. Opaque hardening also complicates the vendor's own incident response.",
+      "recommendation": "Document the shield in the app's security whitepaper; keep deterministic, reproducible builds for the rest of the APK."
+    },
+    {
+      "id": "F-06",
+      "title": "Layered runtime integrity checks (root, hook, emulator, attestation)",
+      "severity": "positive",
+      "category": "defence in depth",
+      "evidence": {
+        "integrity_attestation": 6,
+        "root_detection": 9,
+        "hook_debug_detection": 6,
+        "emulator_detection": 6
+      },
+      "why_it_matters": "Multiple independent detection families plus server-side attestation raise the cost of instrumented analysis; string-level evidence is not proof of enforcement, so this is scored as capability rather than guarantee.",
+      "recommendation": "Keep enforcement server-side; treat client checks as friction, never as the trust decision."
+    },
+    {
+      "id": "F-07",
+      "title": "Legacy manifest flags survive a targetSdk 36 migration",
+      "severity": "low",
+      "category": "platform posture",
+      "evidence": [
+        "requestLegacyExternalStorage=true",
+        "extractNativeLibs=true",
+        "androidx.test components",
+        "targetSdk=36"
+      ],
+      "why_it_matters": "Legacy storage and extraction flags have no effect on modern devices but indicate release-configuration drift, the same class of drift that produced F-01.",
+      "recommendation": "Audit manifest merge output in CI (diff of merged manifest between variants)."
+    },
+    {
+      "id": "F-08",
+      "title": "Development endpoint of a payment partner embedded in release config",
+      "severity": "low",
+      "category": "information disclosure",
+      "evidence": [
+        "http://iopengw-280.sggz00b.dev.alipay.net/",
+        "http://tfsimg.alipay.com/images/partner/T1IVXXXb0bXXXXXXXX"
+      ],
+      "why_it_matters": "A partner sandbox host (dev.alipay.net) is compiled into the production artefact. It is not reachable by the app at runtime for payments, but it reveals partner infrastructure naming and shows an unreviewed config patch.",
+      "recommendation": "Gate partner sandbox configuration behind build variants; add secret/endpoint linting to the pipeline."
+    },
+    {
+      "id": "F-09",
+      "title": "No JAR (v1) signature in the base APK; v2 + v3 only",
+      "severity": "positive",
+      "category": "signing",
+      "evidence": {
+        "v1_certificates_in_base": 0,
+        "split_v1_certificates": [
+          "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+        ],
+        "v3_sdk_range": {
+          "min_sdk": 24,
+          "max_sdk": 2147483647
+        }
+      },
+      "why_it_matters": "With minSdk 26, v1 adds no install coverage and only adds parsing ambiguity; the split APKs retain bundletool v1 blocks, which is expected for Play-delivered splits.",
+      "recommendation": "None; document v3 key-rotation readiness."
+    }
+  ],
+  "metrics_csv": "data/dataset.csv",
+  "counts": {
+    "sdks": 38,
+    "hosts": 151,
+    "models": 16,
+    "locales": 3
+  }
+}

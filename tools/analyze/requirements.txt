@@ -1,0 +1,6 @@
+# Analysis pipeline (Python 3.11+)
+androguard==4.1.4
+pyelftools>=0.31
+cryptography>=42
+pillow>=10
+matplotlib>=3.8
