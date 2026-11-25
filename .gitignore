@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.cache/
+.tmp/
+tmp_work/
+extracted_binaries/
+video-studio/dist/
+video-studio/frames/
+*.log
+.DS_Store
