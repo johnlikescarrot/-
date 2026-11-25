@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "Anatomy of a Super-App Mobile Wallet: Comprehensive Evidence-Bounded Static Reverse Engineering of ZaloPay 11.17.0"
+message: "If you cite this research monograph, dataset, or programmatic documentary, please use the metadata below."
+type: software
+authors:
+  - family-names: "Arena Research Collective"
+    given-names: "Mobile Systems & Binary Telemetry Group"
+repository-code: "https://github.com/johnlikescarrot/-"
+version: "1.0.0"
+date-released: "2026-11-25"
+keywords:
+  - android-reverse-engineering
+  - mobile-fintech
+  - binary-telemetry
+  - xapk-split-apk
+  - elf-hardening
+  - rasp-application-shielding
+  - super-app-architecture
+  - morluto-rea
+license: MIT
+abstract: >-
+  An exhaustive, evidence-bounded, non-executing static reverse-engineering study
+  of all 6,832 files across the multi-layer archive hierarchy of ZaloPay 11.17.0
+  (vn.com.vng.zalopay, versionCode 1102758, targetSdk 36), combining the
+  morluto/rea (rea-agents 6.10.1) evidence framework with deterministic DEX,
+  ARSC, ELF32, and ML/JS-bridge telemetry.
