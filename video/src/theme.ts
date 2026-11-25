@@ -22,7 +22,7 @@ export const C = {
   coral: "#FF6B6B",
   violet: "#A78BFA",
   pink: "#F472B6",
-} as const;
+};
 
 export const FONT = {
   sans: "BVN",

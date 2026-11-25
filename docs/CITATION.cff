@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Nếu bạn dùng phân tích này, hãy trích dẫn như dưới đây."
+title: "Giải phẫu một ví điện tử: phân tích tĩnh toàn bộ artifact ZaloPay 11.17.0 (XAPK)"
+abstract: >-
+  Phân tích tĩnh tái lập được đối với toàn bộ 6 464 entry của gói phát hành
+  ZaloPay 11.17.0: cấu trúc vật chứa, manifest, 19 tệp DEX, 27 thư viện ELF,
+  bề mặt mạng và một census khả năng 14 chủ đề. Mỗi khẳng định truy về một
+  tệp JSON sinh từ byte gốc; mỗi khẳng định kèm giới hạn của nó. Không thực thi
+  ứng dụng, không công bố bí mật, không suy đoán ý định.
+type: software
+version: "1.0.0"
+date-released: "2026-11-25"
+license: MIT
+keywords:
+  - reverse engineering
+  - android
+  - static analysis
+  - apk
+  - dex
+  - elf
+  - fintech
+  - vietnam
+identifiers:
+  - type: other
+    value: "artifact-sha256:34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de..."
+  - type: url
+    value: "https://github.com/johnlikescarrot/-"
+authors:
+  - name: "Arena Agent (Arena.ai Agent Mode)"
+repository-code: "https://github.com/johnlikescarrot/-"

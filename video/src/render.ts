@@ -9,7 +9,7 @@
  * the result is bit-identical regardless of worker count.
  */
 
-import { spawn, type ChildProcessWithoutNullStreams } from "node:child_process";
+import { spawn } from "node:child_process";
 import { existsSync, mkdirSync, rmSync, writeFileSync, readdirSync, statSync, appendFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -69,7 +69,7 @@ async function encodeSegment(from: number, to: number, out: string, crf: string,
     "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709",
     "-r", String(FPS), out,
   ];
-  const child: ChildProcessWithoutNullStreams = spawn(ffmpeg, args, { stdio: ["pipe", "inherit", "inherit"] });
+  const child = spawn(ffmpeg, args, { stdio: ["pipe", "inherit", "inherit"] });
   const done = new Promise<void>((res, rej) => {
     child.on("error", rej);
     child.on("close", (code) => (code === 0 ? res() : rej(new Error(`ffmpeg exited ${code}`))));
