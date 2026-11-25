@@ -1,0 +1,96 @@
+{
+ "artifact": {
+  "package": "vn.com.vng.zalopay",
+  "version_name": "11.17.0",
+  "version_code": 1102758,
+  "xapk_bytes": 105580620,
+  "base_apk_bytes": 79359087,
+  "dex_files": 19,
+  "classes": 110677,
+  "methods": 351248,
+  "strings": 374276
+ },
+ "SR": {
+  "third_party_share": 0.973,
+  "first_party_classes": 2990,
+  "total_classes": 110677,
+  "one_minus_SR": 0.027
+ },
+ "EDI": {
+  "non_production_hosts": 23,
+  "js_only": 9,
+  "dex_only": 14,
+  "index": 0.391,
+  "js_only_hosts": [
+   "devcps.zalopay.com.vn",
+   "sandbox.zalopay.com.vn",
+   "sandbox.zalopay.vn",
+   "socialdev.zalopay.vn",
+   "socialstg.zalopay.vn",
+   "staging.zalopay.vn",
+   "stcstg.zalopay.com.vn",
+   "stgcdn.zalopay.com.vn",
+   "stgcps.zalopay.com.vn"
+  ]
+ },
+ "CBB": {
+  "rn_modules": 22,
+  "first_party_modules": 8,
+  "first_party_names": [
+   "ZPBankIntegrationApi",
+   "ZaloPay",
+   "ZaloPayApi",
+   "ZaloPayBillSplitApi",
+   "ZaloPayNotification",
+   "ZaloPayRedPacketApi",
+   "ZaloPayTracker",
+   "ZaloPayTransactionLogs"
+  ]
+ },
+ "NTS": {
+  "libs": 27,
+  "jni_exporting": 10,
+  "zero_jni": 17,
+  "obfuscated_dlopen_only": [
+   "libcrashlytics.so",
+   "libfgcpkjvqe.so",
+   "libimagepipeline.so",
+   "libljsfrcwmw.so",
+   "liblytcuhe.so",
+   "libohxbee.so",
+   "librcmefqonnx.so",
+   "libsqlcipher.so",
+   "libtaibmcf.so"
+  ],
+  "fully_hardened": 25,
+  "jni_names": [
+   "libVFaceLib.so",
+   "libbarhopper_v3.so",
+   "libface_detector_v2_jni.so",
+   "libimage_processing_util_jni.so",
+   "libmlkit_google_ocr_pipeline.so",
+   "libmlkitcommonpipeline.so",
+   "libpicodet_ncnn.so",
+   "librive-android.so",
+   "libsecurity_lite.so",
+   "libtrueidlib.so"
+  ]
+ },
+ "PSS": {
+  "permissions": 49,
+  "exported_components": 30,
+  "components": {
+   "provider": 10,
+   "activity": 200,
+   "activity-alias": 2,
+   "receiver": 22,
+   "service": 34
+  }
+ },
+ "endpoints": {
+  "total_hosts": 197,
+  "production": 143,
+  "non_production": 23,
+  "placeholder": 31
+ }
+}
