@@ -1,0 +1,14 @@
+{
+  "name": "zalopay-xapk-static-study-film",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Reproducible TypeScript source for the Vietnamese static-analysis short film.",
+  "scripts": {
+    "build": "node generate.ts"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/linux-x64": "4.1.0",
+    "sharp": "^0.35.5"
+  }
+}

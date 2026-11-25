@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: >-
+  If you use this reproducible static-analysis artifact, cite the repository version
+  and the accompanying report. This is a project artifact, not a peer-reviewed paper.
+title: >-
+  Static package survey of the user-supplied Zalopay 11.17.0 XAPK
+version: 1.0.0
+date-released: 2026-11-25
+type: software
+abstract: >-
+  Offline static inventory, manifest and DEX metadata survey, recursive SHA-256
+  catalog, and Vietnamese explainer video for one supplied Android XAPK. No app
+  execution, network interaction, source recovery, or safety certification is claimed.
+repository-code: https://github.com/johnlikescarrot/-
