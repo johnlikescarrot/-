@@ -1,0 +1,174 @@
+{
+  "package": "vn.com.vng.zalopay",
+  "version_name": "11.17.0",
+  "version_code": "1102758",
+  "min_sdk": "26",
+  "target_sdk": "36",
+  "main_activity": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+  "counts": {
+    "permissions": 49,
+    "dangerous_permissions": 13,
+    "activities": 200,
+    "services": 34,
+    "receivers": 22,
+    "providers": 9,
+    "dex_files": 19,
+    "dex_mb": 61.83,
+    "dex_method_ids_total": 351248,
+    "dex_class_defs_total": 60671,
+    "dex_string_ids_total": 374276,
+    "native_libs": 27,
+    "native_mb": 54.79,
+    "zip_entries_base": 6162,
+    "apk_splits": 5
+  },
+  "debuggable": false,
+  "allow_backup": true,
+  "manifest_flags": {
+    "debuggable": false,
+    "allow_backup": true,
+    "uses_cleartext_traffic": false,
+    "network_security_config": false,
+    "extract_native_libs": null,
+    "request_legacy_storage": false
+  },
+  "certificates": [
+    {
+      "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+      "subject": "common_name=Vu Manh Hieu",
+      "issuer": "common_name=Vu Manh Hieu"
+    }
+  ],
+  "native_abis": [
+    "armeabi-v7a"
+  ],
+  "top_domains": [
+    [
+      "com.vn",
+      74
+    ],
+    [
+      "zalopay.vn",
+      59
+    ],
+    [
+      "alipay.com",
+      21
+    ],
+    [
+      "google.com",
+      18
+    ],
+    [
+      "android.com",
+      9
+    ],
+    [
+      "page.link",
+      6
+    ],
+    [
+      "goo.gl",
+      4
+    ],
+    [
+      "github.com",
+      3
+    ],
+    [
+      "zalo.me",
+      3
+    ],
+    [
+      "alipayplus.com",
+      2
+    ],
+    [
+      "g.co",
+      2
+    ],
+    [
+      "marmot-cloud.com",
+      2
+    ],
+    [
+      "bouncycastle.org",
+      1
+    ],
+    [
+      "jetbrains.com",
+      1
+    ],
+    [
+      "alibaba.com",
+      1
+    ]
+  ],
+  "top_package_prefixes": [
+    [
+      "android.intent.action",
+      44
+    ],
+    [
+      "kotlin.jvm.functions",
+      26
+    ],
+    [
+      "android.intent.extra",
+      20
+    ],
+    [
+      "com.alibaba.ariver",
+      17
+    ],
+    [
+      "com.google.android",
+      17
+    ],
+    [
+      "vn.com.vng",
+      17
+    ],
+    [
+      "android.media.metadata",
+      14
+    ],
+    [
+      "com.facebook.sdk",
+      8
+    ],
+    [
+      "com.visa.cbp",
+      8
+    ],
+    [
+      "android.permission.CAMERA",
+      8
+    ],
+    [
+      "com.zing.zalo",
+      7
+    ],
+    [
+      "kotlin.jvm.PlatformType",
+      7
+    ],
+    [
+      "com.google.firebase",
+      7
+    ],
+    [
+      "org.bouncycastle.ec",
+      7
+    ],
+    [
+      "android.view.View",
+      6
+    ]
+  ],
+  "source": {
+    "zip": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+    "sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a"
+  },
+  "confidence": "static-only; heuristics labeled"
+}

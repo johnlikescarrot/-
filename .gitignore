@@ -1,0 +1,12 @@
+# Reproducible / large artifacts (re-extractable from the tracked source ZIP)
+/extracted/
+artifacts/
+video/out/
+video/frames/
+video/dist/
+**/__pycache__/
+.venv/
+node_modules/
+*.log
+.DS_Store
+*.tmp

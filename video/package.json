@@ -1,0 +1,16 @@
+{
+  "name": "zalopay-re-documentary",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TypeScript-driven documentary video pipeline (timeline -> frames -> MP4)",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "render": "node dist/render.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^22.7.5"
+  }
+}
