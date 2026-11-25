@@ -1,0 +1,3298 @@
+{
+  "axml_corpus": {
+    "attribute_names": {
+      "angle": 1249,
+      "background": 1187,
+      "color": 4230,
+      "drawable": 315,
+      "duration": 259,
+      "endX": 1059,
+      "endY": 1060,
+      "fillAlpha": 2038,
+      "fillColor": 9028,
+      "fillType": 2859,
+      "glance_isTopLevelLayout": 288,
+      "gravity": 974,
+      "height": 1741,
+      "id": 4643,
+      "layout": 1417,
+      "layoutDirection": 337,
+      "layout_constraintBottom_toBottomOf": 243,
+      "layout_constraintEnd_toEndOf": 376,
+      "layout_constraintStart_toStartOf": 405,
+      "layout_constraintTop_toBottomOf": 262,
+      "layout_constraintTop_toTopOf": 309,
+      "layout_gravity": 1687,
+      "layout_height": 5672,
+      "layout_marginBottom": 329,
+      "layout_marginEnd": 200,
+      "layout_marginLeft": 265,
+      "layout_marginRight": 218,
+      "layout_marginStart": 272,
+      "layout_marginTop": 679,
+      "layout_weight": 580,
+      "layout_width": 5674,
+      "name": 878,
+      "offset": 3238,
+      "orientation": 990,
+      "padding": 247,
+      "paddingBottom": 258,
+      "paddingTop": 268,
+      "pathData": 9537,
+      "radius": 354,
+      "shape": 405,
+      "srcCompat": 268,
+      "startX": 1060,
+      "startY": 1058,
+      "strokeAlpha": 1878,
+      "strokeColor": 1441,
+      "strokeLineCap": 336,
+      "strokeWidth": 1451,
+      "style": 904,
+      "text": 879,
+      "textColor": 1129,
+      "textSize": 1033,
+      "textStyle": 362,
+      "theme": 251,
+      "translateX": 239,
+      "translateY": 229,
+      "type": 1212,
+      "viewportHeight": 1694,
+      "viewportWidth": 1694,
+      "visibility": 535,
+      "width": 1924
+    },
+    "axml_files": 5319,
+    "chunk_counts": {
+      "0x0001": 5319,
+      "0x0100": 8237,
+      "0x0101": 8237,
+      "0x0102": 28072,
+      "0x0103": 28072,
+      "0x0104": 2,
+      "0x0180": 5319
+    },
+    "element_names": {
+      "Button": 72,
+      "FrameLayout": 362,
+      "GridView": 73,
+      "ImageButton": 26,
+      "ImageView": 314,
+      "LinearLayout": 842,
+      "ProgressBar": 63,
+      "RadioButton": 19,
+      "RadioGroup": 88,
+      "RelativeLayout": 193,
+      "ScrollView": 30,
+      "TextView": 747,
+      "View": 259,
+      "ViewStub": 1059,
+      "action": 148,
+      "activity": 213,
+      "androidx.appcompat.widget.AppCompatButton": 36,
+      "androidx.appcompat.widget.AppCompatImageView": 238,
+      "androidx.appcompat.widget.AppCompatTextView": 89,
+      "androidx.appcompat.widget.Toolbar": 19,
+      "androidx.compose.ui.platform.ComposeView": 33,
+      "androidx.constraintlayout.widget.ConstraintLayout": 136,
+      "androidx.core.widget.NestedScrollView": 21,
+      "androidx.recyclerview.widget.RecyclerView": 48,
+      "argument": 41,
+      "category": 30,
+      "clip-path": 336,
+      "com.vnpay.vntaxi.ui.viewcompat.CustomTextView": 366,
+      "corners": 415,
+      "data": 34,
+      "fragment": 61,
+      "gradient": 1249,
+      "group": 625,
+      "include": 1313,
+      "intent": 21,
+      "intent-filter": 44,
+      "item": 4030,
+      "layer-list": 87,
+      "merge": 329,
+      "meta-data": 70,
+      "navigation": 18,
+      "objectAnimator": 190,
+      "padding": 28,
+      "path": 9188,
+      "pathInterpolator": 18,
+      "receiver": 22,
+      "scale": 17,
+      "selector": 231,
+      "service": 34,
+      "set": 133,
+      "shape": 584,
+      "size": 41,
+      "solid": 532,
+      "stroke": 186,
+      "target": 30,
+      "translate": 45,
+      "uses-permission": 49,
+      "vector": 1694,
+      "vn.zalopay.ui.password.view.KeyboardButtonView": 31,
+      "vn.zalopay.ui.svgutil.ZPSVGImageView": 29
+    },
+    "files_per_apk": {
+      "config.armeabi_v7a.apk": 1,
+      "config.en.apk": 1,
+      "config.vi.apk": 1,
+      "config.xhdpi.apk": 108,
+      "vn.com.vng.zalopay.apk": 5209
+    },
+    "files_total": 5320,
+    "other_magic": 0,
+    "parse_failure_count": 0,
+    "parse_failures": [],
+    "plain_text_xml": 1,
+    "reference_packages": {},
+    "size_buckets": {
+      "0..255": 5,
+      "1024..1279": 554,
+      "10240..10495": 7,
+      "10752..11007": 3,
+      "11008..11263": 2,
+      "11264..11519": 4,
+      "11520..11775": 3,
+      "11776..12031": 3,
+      "12544..12799": 2,
+      "1280..1535": 374,
+      "13312..13567": 3,
+      "14080..14335": 6,
+      "14848..15103": 3,
+      "1536..1791": 240,
+      "15360..15615": 3,
+      "15616..15871": 3,
+      "15872..16127": 2,
+      "16640..16895": 2,
+      "17408..17663": 2,
+      "1792..2047": 127,
+      "18176..18431": 2,
+      "2048..2303": 122,
+      "22528..22783": 2,
+      "2304..2559": 105,
+      "24320..24575": 3,
+      "256..511": 556,
+      "2560..2815": 102,
+      "2816..3071": 62,
+      "29952..30207": 2,
+      "3072..3327": 57,
+      "3328..3583": 48,
+      "3584..3839": 28,
+      "3840..4095": 27,
+      "38400..38655": 3,
+      "4096..4351": 20,
+      "4352..4607": 21,
+      "4608..4863": 26,
+      "4864..5119": 18,
+      "512..767": 954,
+      "5120..5375": 24,
+      "5376..5631": 19,
+      "5632..5887": 9,
+      "5888..6143": 6,
+      "6144..6399": 16,
+      "6400..6655": 11,
+      "6656..6911": 7,
+      "6912..7167": 7,
+      "7168..7423": 8,
+      "7424..7679": 10,
+      "768..1023": 1616,
+      "7680..7935": 7,
+      "7936..8191": 6,
+      "8192..8447": 3,
+      "8448..8703": 6,
+      "8704..8959": 6,
+      "8960..9215": 3,
+      "9216..9471": 6,
+      "9472..9727": 4,
+      "9728..9983": 2,
+      "9984..10239": 5
+    },
+    "total_attributes": 95874,
+    "total_elements": 28072
+  },
+  "evidence": "Every count derives from a full ResXMLTree chunk walk of each .xml member.",
+  "manifests": {
+    "config.armeabi_v7a.apk": {
+      "application": {
+        "extractNativeLibs": true,
+        "hasCode": false
+      },
+      "chunk_counts": {
+        "0x0001": 1,
+        "0x0100": 1,
+        "0x0101": 1,
+        "0x0102": 3,
+        "0x0103": 3,
+        "0x0180": 1
+      },
+      "components": {
+        "activity": [],
+        "activity-alias": [],
+        "provider": [],
+        "receiver": [],
+        "service": []
+      },
+      "element_count": 3,
+      "errors": [],
+      "features": [],
+      "file": "config.armeabi_v7a.apk:AndroidManifest.xml",
+      "limits": [
+        "meta-data / key-like attribute values are redacted to length + digest",
+        "intent-filter data hosts/paths are counted, not copied"
+      ],
+      "meta_data": [
+        {
+          "name": "com.android.vending.derived.apk.id",
+          "value": 2
+        }
+      ],
+      "parsed": true,
+      "permission_definitions": [],
+      "permissions": [],
+      "queries_packages": [],
+      "queries_packages_total": 0,
+      "resource_map_size": 6,
+      "root_attributes": {
+        "package": "vn.com.vng.zalopay",
+        "split": "config.armeabi_v7a",
+        "splitTypes": "base__abi",
+        "versionCode": 1102758
+      },
+      "sha256": "21643435d0129412",
+      "size": 1036,
+      "string_pool_count": 17,
+      "string_pool_utf8": false,
+      "tag_counts": {
+        "application": 1,
+        "manifest": 1,
+        "meta-data": 1
+      },
+      "uses_libraries": [],
+      "uses_sdk": []
+    },
+    "config.en.apk": {
+      "application": {
+        "extractNativeLibs": true,
+        "hasCode": false
+      },
+      "chunk_counts": {
+        "0x0001": 1,
+        "0x0100": 1,
+        "0x0101": 1,
+        "0x0102": 3,
+        "0x0103": 3,
+        "0x0180": 1
+      },
+      "components": {
+        "activity": [],
+        "activity-alias": [],
+        "provider": [],
+        "receiver": [],
+        "service": []
+      },
+      "element_count": 3,
+      "errors": [],
+      "features": [],
+      "file": "config.en.apk:AndroidManifest.xml",
+      "limits": [
+        "meta-data / key-like attribute values are redacted to length + digest",
+        "intent-filter data hosts/paths are counted, not copied"
+      ],
+      "meta_data": [
+        {
+          "name": "com.android.vending.derived.apk.id",
+          "value": 2
+        }
+      ],
+      "parsed": true,
+      "permission_definitions": [],
+      "permissions": [],
+      "queries_packages": [],
+      "queries_packages_total": 0,
+      "resource_map_size": 6,
+      "root_attributes": {
+        "package": "vn.com.vng.zalopay",
+        "split": "config.en",
+        "splitTypes": "",
+        "versionCode": 1102758
+      },
+      "sha256": "487916059202bbe8",
+      "size": 1000,
+      "string_pool_count": 17,
+      "string_pool_utf8": false,
+      "tag_counts": {
+        "application": 1,
+        "manifest": 1,
+        "meta-data": 1
+      },
+      "uses_libraries": [],
+      "uses_sdk": []
+    },
+    "config.vi.apk": {
+      "application": {
+        "extractNativeLibs": true,
+        "hasCode": false
+      },
+      "chunk_counts": {
+        "0x0001": 1,
+        "0x0100": 1,
+        "0x0101": 1,
+        "0x0102": 3,
+        "0x0103": 3,
+        "0x0180": 1
+      },
+      "components": {
+        "activity": [],
+        "activity-alias": [],
+        "provider": [],
+        "receiver": [],
+        "service": []
+      },
+      "element_count": 3,
+      "errors": [],
+      "features": [],
+      "file": "config.vi.apk:AndroidManifest.xml",
+      "limits": [
+        "meta-data / key-like attribute values are redacted to length + digest",
+        "intent-filter data hosts/paths are counted, not copied"
+      ],
+      "meta_data": [
+        {
+          "name": "com.android.vending.derived.apk.id",
+          "value": 2
+        }
+      ],
+      "parsed": true,
+      "permission_definitions": [],
+      "permissions": [],
+      "queries_packages": [],
+      "queries_packages_total": 0,
+      "resource_map_size": 6,
+      "root_attributes": {
+        "package": "vn.com.vng.zalopay",
+        "split": "config.vi",
+        "splitTypes": "",
+        "versionCode": 1102758
+      },
+      "sha256": "b1193ac0a77cf715",
+      "size": 1000,
+      "string_pool_count": 17,
+      "string_pool_utf8": false,
+      "tag_counts": {
+        "application": 1,
+        "manifest": 1,
+        "meta-data": 1
+      },
+      "uses_libraries": [],
+      "uses_sdk": []
+    },
+    "config.xhdpi.apk": {
+      "application": {
+        "extractNativeLibs": true,
+        "hasCode": false
+      },
+      "chunk_counts": {
+        "0x0001": 1,
+        "0x0100": 1,
+        "0x0101": 1,
+        "0x0102": 3,
+        "0x0103": 3,
+        "0x0180": 1
+      },
+      "components": {
+        "activity": [],
+        "activity-alias": [],
+        "provider": [],
+        "receiver": [],
+        "service": []
+      },
+      "element_count": 3,
+      "errors": [],
+      "features": [],
+      "file": "config.xhdpi.apk:AndroidManifest.xml",
+      "limits": [
+        "meta-data / key-like attribute values are redacted to length + digest",
+        "intent-filter data hosts/paths are counted, not copied"
+      ],
+      "meta_data": [
+        {
+          "name": "com.android.vending.derived.apk.id",
+          "value": 2
+        }
+      ],
+      "parsed": true,
+      "permission_definitions": [],
+      "permissions": [],
+      "queries_packages": [],
+      "queries_packages_total": 0,
+      "resource_map_size": 6,
+      "root_attributes": {
+        "package": "vn.com.vng.zalopay",
+        "split": "config.xhdpi",
+        "splitTypes": "base__density",
+        "versionCode": 1102758
+      },
+      "sha256": "0362e0a50ab88539",
+      "size": 1032,
+      "string_pool_count": 17,
+      "string_pool_utf8": false,
+      "tag_counts": {
+        "application": 1,
+        "manifest": 1,
+        "meta-data": 1
+      },
+      "uses_libraries": [],
+      "uses_sdk": []
+    },
+    "vn.com.vng.zalopay.apk": {
+      "application": {
+        "allowBackup": false,
+        "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+        "dataExtractionRules": "0x7f160004",
+        "enableOnBackInvokedCallback": false,
+        "extractNativeLibs": true,
+        "fullBackupContent": false,
+        "hardwareAccelerated": true,
+        "icon": "0x7f0f0000",
+        "label": "0x7f1300d6",
+        "largeHeap": true,
+        "name": "jwbmqnsll.xvndbxlk",
+        "networkSecurityConfig": "0x7f16000d",
+        "requestLegacyExternalStorage": true,
+        "resizeableActivity": false,
+        "supportsRtl": true,
+        "theme": "0x7f14015e"
+      },
+      "chunk_counts": {
+        "0x0001": 1,
+        "0x0100": 1,
+        "0x0101": 1,
+        "0x0102": 608,
+        "0x0103": 608,
+        "0x0180": 1
+      },
+      "components": {
+        "activity": [
+          {
+            "configChanges": "0x00000480",
+            "exported": false,
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.miniapp.ui.MiniAppActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.miniapp.error.NoWebViewSdkActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x000004b0",
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.MAIN"
+                ],
+                "categories": [
+                  "android.intent.category.LAUNCHER"
+                ],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              },
+              {
+                "actions": [
+                  "android.intent.action.VIEW"
+                ],
+                "categories": [
+                  "android.intent.category.BROWSABLE",
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 1,
+                "data_path_count": 0,
+                "data_scheme_count": 1,
+                "priority": null
+              },
+              {
+                "actions": [
+                  "android.intent.action.VIEW",
+                  "android.nfc.action.NDEF_DISCOVERED"
+                ],
+                "categories": [
+                  "android.intent.category.BROWSABLE",
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 1,
+                "data_path_count": 0,
+                "data_scheme_count": 1,
+                "priority": null
+              },
+              {
+                "actions": [
+                  "android.intent.action.VIEW"
+                ],
+                "categories": [
+                  "android.intent.category.BROWSABLE",
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 1,
+                "data_path_count": 1,
+                "data_scheme_count": 1,
+                "priority": null
+              },
+              {
+                "actions": [
+                  "android.intent.action.VIEW"
+                ],
+                "categories": [
+                  "android.intent.category.BROWSABLE",
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 1,
+                "data_path_count": 1,
+                "data_scheme_count": 1,
+                "priority": null
+              },
+              {
+                "actions": [
+                  "android.intent.action.VIEW"
+                ],
+                "categories": [
+                  "android.intent.category.BROWSABLE",
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 1,
+                "data_path_count": 0,
+                "data_scheme_count": 1,
+                "priority": null
+              },
+              {
+                "actions": [
+                  "android.intent.action.VIEW"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT",
+                  "android.intent.category.BROWSABLE"
+                ],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 1,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000003"
+          },
+          {
+            "configChanges": "0x000000a0",
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "com.google.android.payments.standard.AUTHENTICATE_V1"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity"
+          },
+          {
+            "configChanges": "0x000004b0",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.ui.activity.HomeActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000030"
+          },
+          {
+            "configChanges": "0x00000480",
+            "exported": false,
+            "intent_filters": [
+              {
+                "actions": [
+                  "vn.zalopay.intent.action.WEBVIEW"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.webview.ui.WebViewActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.webview.ui.ResetPinWebViewActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.webview.ui.HomeSearchWebViewActivity"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.webview.ui.BalanceLiquidationWebViewActivity"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.webview.ui.VerificationAtBankCounterWebViewActivity"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.webview.ui.update_personal_info.UpdatePersonalInfoWebViewActivity"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.webapp.activity.UpdatePhoneWebAppActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.webapp.activity.ManualResetPinWebAppActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.webapp.activity.WebAppExternalActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x000004b0",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.protect.ui.ProtectAccountActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000003"
+          },
+          {
+            "configChanges": "0x000004b0",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.logindevice.LoginDevicesActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000003"
+          },
+          {
+            "configChanges": "0x000004b0",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.clearing.ClearingAccountActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000003"
+          },
+          {
+            "configChanges": "0x00000080",
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.zing.zalo.zalosdk.oauth.WebLoginActivity",
+            "screenOrientation": 4,
+            "windowSoftInputMode": "0x00000003"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.core.ui.activity.TutorialConnectInternetActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.lockscreen.LockScreenActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000003"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.appinfo.AppInfoActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.passport.ForceUpdatePhoneActivity"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.behaviorguideline.LoginGuidelineActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.closeaccount.presentation.ui.CloseAccountActivity",
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.logindevice.DeviceVerificationActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.passport.LockAccountActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.reformkyc.presentation.ui.ReformKycActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.feature.ui.FeatureModuleRoutingActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.camera.CustomDefaultCamera",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.ui.balance.activity.BalanceActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.cashier.buffer.CashierBufferActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.cashier.middle.CashierMiddlePageActivity"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vn.zalopay.upgrade_user_profile.presentation.ReformKycActivity"
+          },
+          {
+            "configChanges": "0x000004b0",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.user_profile.presentation.profiledetails.ProfileDetailsActivity",
+            "windowSoftInputMode": "0x00000033"
+          },
+          {
+            "configChanges": "0x000004b0",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.user_profile.presentation.profiledetailv2.ProfileDetailsV2Activity",
+            "windowSoftInputMode": "0x00000033"
+          },
+          {
+            "configChanges": "0x000004b0",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.user_profile.presentation.additionalinfo.AdditionalProfileInfoActivity",
+            "windowSoftInputMode": "0x00000033"
+          },
+          {
+            "configChanges": "0x000004b0",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.user_profile.presentation.editheaderinfo.EditAvatarAndNameActivity",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.user_profile.presentation.camera.CameraAutoRotationImage",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.user_profile.presentation.protectaccount.AccountSecurityActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.user_profile.presentation.umminiapps.UMMiniAppActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.user_profile.presentation.umminiapps.DebugAuditActivity"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 2,
+            "name": "vn.com.vng.zalopay.homev5.presenter.ui.routing.HomeRoutingActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.homev5.presenter.ui.home.HomeActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.homev5.presenter.ui.onboarding.OnboardingActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.homev5.presenter.ui.ekyc_intro.EkycIntroActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.homev5.presenter.ui.story_collections_player.StoryCollectionsPlayerActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.scanqr.presentation.v2.ScanQRActivityV2",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.scancode.presentation.ScanCodeActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x000004b0",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.alipay.presentation.AlipayEmptyScanQRActivity",
+            "windowSoftInputMode": "0x00000033"
+          },
+          {
+            "configChanges": "0x000004b0",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.alipay.presentation.dialog.AlipayErrorDialogActivity",
+            "windowSoftInputMode": "0x00000033"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.homev4.presentation.ui.recommendsystem.RecommendSystemActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.homev4.presentation.ui.onboarding.HomeOnBoardingActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.home_more.presentation.ui.home_more.HomeMoreActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.search.presentation.ui.search.SearchActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.zalopay.ekycpro.presentation.main.MainEKycActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.zalopay.ekycpro.presentation.nfc.MainNFCFeatureActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.zalopay.ekycpro.presentation.guardian_consent.GuardianInfoActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.zalopay.ekycpro.presentation.selfie.SelfieActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.zalopay.ekycpro.presentation.bca.ui.activity.BcaActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.zalopay.balance_liquidation.presentation.BalanceLiquidationActivity"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.VIEW"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT",
+                  "android.intent.category.BROWSABLE"
+                ],
+                "data_host_count": 1,
+                "data_path_count": 1,
+                "data_scheme_count": 1,
+                "priority": null
+              }
+            ],
+            "launchMode": 2,
+            "name": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.profile_tab_v2.presentation.ui.account.AccountHostActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.profile_tab_v2.presentation.ui.privacy.PrivacyHubActivity"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.pdfviewer.PdfViewerActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.permission.notification.presentation.NotificationPermissionActivity",
+            "screenOrientation": 1
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.permission.location.presentation.LocationPermissionActivity"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.skewface.presentation.activity.SkewFaceActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 2,
+            "name": "vn.com.vng.zalopay.nfc.FundingSolutionNFCActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.my_qr.MyQRActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "exported": false,
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.quickpay_native.presentation.ui.QuickPayNativeActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.pay_by_wallet_native.presentation.ui.PayByWalletReadyToPayActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.storage_management.presentation.StorageManagementActivity",
+            "screenOrientation": 1
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.SEND"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.receive_money.ReceiveMoneyActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.zalopay.reset_pin.presentation.ui.ResetPinContainerViewActivity"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.zalopay.reset_pin.presentation.pin_creation.CreatePinActivity"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "vn.com.zalopay.owner_verification.presentation.ui.OVContainerViewActivity"
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 3,
+            "name": "vn.com.zalopay.auth.presentation.faceauth.components.selfdev.ui.SelfDevCameraActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.zalopay.auth.presentation.faceauth.FaceAuthActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.zalopay.auth.presentation.otp.OTPChallengeActivity",
+            "screenOrientation": 1
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.zalopay.auth.presentation.otp.popup.OTPChallengeRootActivity",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.zalopay.auth.presentation.smartotp.SmartOTPActivity",
+            "screenOrientation": 1
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "vn.com.zalopay.auth.presentation.mfa.view.AuthUIHolderActivity"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "vn.com.zalopay.ce_ticket.presentation.ui.CETicketContainerActivity"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.livenessdetection.presentation.FaceLivenessCameraXActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.livenessdetection.presentation.face_auth_revamp.FaceLivenessRevampActivity",
+            "screenOrientation": 1
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "vn.com.vng.zalopay.ACTION_OPEN_ML_EXTRACT_ID_CARD"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.livenessdetection.presentation.qrcode.QRCodeScannerActivity"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.zalopay.nfc_sdk.nfc_in_house.BottomSheetNFC"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.tenpay.TPGPaymentActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.tenpay.image_preview.ImagePreviewActivity",
+            "screenOrientation": 1
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.zalopay.ui.um_custom_loading.FullScreenLoadingActivity",
+            "taskAffinity": ""
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "launchMode": 2,
+            "name": "vn.zalopay.ui.um_custom_loading.CenterLoadingActivity"
+          },
+          {
+            "configChanges": "0x00000da0",
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.zing.zalo.zalosdk.oauth.OpenAPIActivity"
+          },
+          {
+            "configChanges": "0x000005b0",
+            "intent_filters": [],
+            "name": "com.facebook.FacebookActivity"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.facebook.CustomTabMainActivity"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.VIEW"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT",
+                  "android.intent.category.BROWSABLE"
+                ],
+                "data_host_count": 1,
+                "data_path_count": 0,
+                "data_scheme_count": 1,
+                "priority": null
+              }
+            ],
+            "name": "com.facebook.CustomTabActivity"
+          },
+          {
+            "configChanges": "0x00000480",
+            "exported": false,
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.inapp_webview.InternalWebViewActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "com.karumi.dexter.DexterActivity"
+          },
+          {
+            "configChanges": "0x000005b0",
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.android.billingclient.api.ProxyBillingActivity"
+          },
+          {
+            "configChanges": "0x000005b0",
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.android.billingclient.api.ProxyBillingActivityV2"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.VIEW"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT",
+                  "android.intent.category.BROWSABLE"
+                ],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 1,
+                "priority": null
+              }
+            ],
+            "name": "com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.gms.common.api.GoogleApiActivity"
+          },
+          {
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "androidx.glance.appwidget.action.ActionTrampolineActivity"
+          },
+          {
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [],
+            "launchMode": 3,
+            "name": "androidx.glance.appwidget.action.InvisibleActionTrampolineActivity",
+            "taskAffinity": "androidx.glance.appwidget.ListAdapterCallbackTrampoline"
+          },
+          {
+            "configChanges": "0x00000fb0",
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.gms.ads.AdActivity"
+          },
+          {
+            "configChanges": "0x00000fb0",
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.gms.ads.OutOfContextTestingActivity"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "launchMode": 2,
+            "name": "com.google.android.gms.ads.NotificationHandlerActivity",
+            "taskAffinity": ""
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.MAIN"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.MAIN"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.MAIN"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+          },
+          {
+            "exported": true,
+            "intent_filters": [],
+            "name": "androidx.compose.ui.tooling.PreviewActivity"
+          },
+          {
+            "configChanges": "0x00000da0",
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.facebook.ads.AudienceNetworkActivity"
+          },
+          {
+            "configChanges": "0x000004e0",
+            "intent_filters": [],
+            "name": "com.iap.android.mppclient.container.activity.ACContainerActivity"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.iap.android.mppclient.container.activity.H5NetworkCheckActivity"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "yydamachy.xqcntsk",
+            "process": ":taibmcf"
+          },
+          {
+            "configChanges": "0x000000a0",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "com.vnpay.vntaxi.ui.activities.splash.SplashActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "configChanges": "0x000000a0",
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.address.SelectAddressActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.address.setting.DetailAddressActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "configChanges": "0x000000a0",
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.book.BookActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.address.search.SearchAddressActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000015"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.address.setting.AddressSettingActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.address.search.SearchOnMapActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.address.setting.ChooseAddressActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000025"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.DetailBookTaxiActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.history.TaxiHistoryActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.history.DetailHistoryTaxiActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.TaxiBrowserActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.TaxiWebviewLinkActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.voucher.list.VoucherListActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.voucher.detail.VoucherDetailActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.note.note.ClientNoteActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.note.invoice.ExtractInvoiceActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.airport.TaxiAirportActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.address.search.ConfirmOnMapActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.selectpartner.TaxiBrandActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.report.FastReportTaxiActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.fragments.book.TaxiHelpMethodActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.ui.activities.insurance.TaxiInsuranceActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000023"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+          },
+          {
+            "exported": true,
+            "intent_filters": [],
+            "name": "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x000024a4",
+            "intent_filters": [],
+            "name": "vn.ai.trueid.sdk.activity.TrueIDActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000003"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.ai.trueid.sdk.facev3.present.presentation.LivenessCameraXActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x000024a4",
+            "intent_filters": [],
+            "name": "vn.ai.trueid.sdk.activity.SotpConfirmActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000003"
+          },
+          {
+            "exported": true,
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+            "screenOrientation": 1,
+            "taskAffinity": ""
+          },
+          {
+            "configChanges": "0x00000200",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.ui.jsapi.picker.nebula.wheelview.multilevel.MultilevelSelectActivity"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Main",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back1",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back1",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back2",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back2",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back3",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back3",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back4",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back4",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back5",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back5",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back6",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back6",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverFileChooserActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite1",
+            "process": ":lite1",
+            "taskAffinity": ":lite1",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite2",
+            "process": ":lite2",
+            "taskAffinity": ":lite2",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite3",
+            "process": ":lite3",
+            "taskAffinity": ":lite3",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Main",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite1",
+            "process": ":lite1",
+            "taskAffinity": ":lite1",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite2",
+            "process": ":lite2",
+            "taskAffinity": ":lite2",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite3",
+            "process": ":lite3",
+            "taskAffinity": ":lite3",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back1",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverTransActivity.Back1",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back2",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverTransActivity.Back2",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back3",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverTransActivity.Back3",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back4",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverTransActivity.Back4",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back5",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverTransActivity.Back5",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back6",
+            "taskAffinity": "com.alibaba.griver.core.ui.activity.GriverTransActivity.Back6",
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.keepalive.GriverProxyActivity"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.image.activity.GriverPhotoSelectActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000003"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.image.activity.GriverPhotoPreviewActivity",
+            "windowSoftInputMode": "0x00000003"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.image.activity.GriverVideoPreviewActivity",
+            "windowSoftInputMode": "0x00000003"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.image.activity.GriverCaptureActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000032"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.image.activity.GriverCapturePreviewActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000032"
+          },
+          {
+            "configChanges": "0x00000fe0",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.device.ui.GriverOpenSettingActivity"
+          },
+          {
+            "configChanges": "0x00000200",
+            "intent_filters": [],
+            "name": "com.alibaba.griver.file.ui.FileViewerActivity"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.iap.ac.android.acs.plugin.downgrade.ui.ErrorPageActivity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.changepin.presentation.ui.activity.ChangePinActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.resetpin.presentation.ui.activity.ResetPinActivity",
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.loginv2.presentation.ui.login.LoginActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.loginv2.presentation.ui.upgradeuserk0k1.UpgradeUserK0K1Activity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.loginv2.presentation.ui.otp.OtpVerificationActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "configChanges": "0x00000480",
+            "exported": false,
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.loginv2.presentation.ui.webview.LoginWebViewActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.cashier.presentation.ui.main.MainCashierV2Activity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.cashier.presentation.ui.otp.DOtpErrorActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.cashier.presentation.ui.web.activity.CashierWebActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.cashier.presentation.newui.CashierNewUIActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankBindingActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankMediaWebViewActivity"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.FundManagementActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.updatephone.presentation.ui.UpdatePhoneActivity",
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.cashin.presentation.ui.activity.CashInActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.resultpage.presentation.ui.activity.ResultPageV2Activity",
+            "screenOrientation": 1
+          },
+          {
+            "intent_filters": [],
+            "name": "vn.com.vng.resultpage.presentation.ui.webview.RPWebActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.resultpage.presentation.newui.ResultPageNewUIActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.resultpage.presentation.newuinative.ResultPageNativeActivity",
+            "screenOrientation": 1
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.withdraw.presentation.ui.activity.WithdrawActivity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000013"
+          },
+          {
+            "configChanges": "0x00000480",
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.cashier_v3.presentation.main.activity.CashierV3Activity",
+            "screenOrientation": 1,
+            "windowSoftInputMode": "0x00000010"
+          },
+          {
+            "intent_filters": [],
+            "launchMode": 1,
+            "name": "vn.com.vng.zalopay.result_page_v3.presentation.main.activity.ResultPageV3Activity",
+            "screenOrientation": 1
+          },
+          {
+            "exported": true,
+            "intent_filters": [],
+            "name": "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "amcsetxek.dmayljy",
+            "process": ":xcmzqsawpqoefcds"
+          }
+        ],
+        "activity-alias": [
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.VIEW"
+                ],
+                "categories": [
+                  "android.intent.category.BROWSABLE",
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 15,
+                "data_path_count": 0,
+                "data_scheme_count": 15,
+                "priority": null
+              }
+            ],
+            "name": "vn.zalopay.apps.ThirdPartyAppActivityAlias"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "vn.zalopay.intent.action.SEND_MONEY"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.zalopay.apps.ZaloAppActivityAlias"
+          }
+        ],
+        "provider": [
+          {
+            "authorities": {
+              "length": 45,
+              "redacted": true,
+              "sha256_16": "1f0eefbf9bd58556"
+            },
+            "intent_filters": []
+          },
+          {
+            "authorities": {
+              "length": 10,
+              "redacted": true,
+              "sha256_16": "b5340e8286b47660"
+            },
+            "exported": false,
+            "intent_filters": [],
+            "name": "androidx.core.content.FileProvider"
+          },
+          {
+            "authorities": {
+              "length": 39,
+              "redacted": true,
+              "sha256_16": "db11b1d7fa5ece5e"
+            },
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.facebook.internal.FacebookInitProvider"
+          },
+          {
+            "authorities": {
+              "length": 39,
+              "redacted": true,
+              "sha256_16": "c25347f8e751f81b"
+            },
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.firebase.perf.provider.FirebasePerfProvider"
+          },
+          {
+            "authorities": {
+              "length": 36,
+              "redacted": true,
+              "sha256_16": "85c316054e4739fb"
+            },
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.mlkit.common.internal.MlKitInitProvider"
+          },
+          {
+            "authorities": {
+              "length": 39,
+              "redacted": true,
+              "sha256_16": "8739da9a33a395c7"
+            },
+            "directBootAware": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.firebase.provider.FirebaseInitProvider"
+          },
+          {
+            "authorities": {
+              "length": 40,
+              "redacted": true,
+              "sha256_16": "fb2bdf058732939a"
+            },
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.gms.ads.MobileAdsInitProvider"
+          },
+          {
+            "authorities": {
+              "length": 35,
+              "redacted": true,
+              "sha256_16": "8058e4fbe4372782"
+            },
+            "exported": false,
+            "intent_filters": [],
+            "name": "androidx.startup.InitializationProvider"
+          },
+          {
+            "authorities": {
+              "length": 49,
+              "redacted": true,
+              "sha256_16": "563ac8ac4da618b6"
+            },
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.facebook.ads.AudienceNetworkContentProvider"
+          },
+          {
+            "authorities": {
+              "length": 39,
+              "redacted": true,
+              "sha256_16": "82f8c57b35ed6280"
+            },
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.alibaba.griver.file.utils.GriverFileProvider"
+          }
+        ],
+        "receiver": [
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "com.android.vending.INSTALL_REFERRER"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.appwidget.action.APPWIDGET_UPDATE"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.appwidget.action.APPWIDGET_UPDATE"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.appwidget.action.APPWIDGET_UPDATE"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.appwidget.action.APPWIDGET_UPDATE"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver"
+          },
+          {
+            "exported": false,
+            "intent_filters": [
+              {
+                "actions": [
+                  "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+          },
+          {
+            "exported": false,
+            "intent_filters": [
+              {
+                "actions": [
+                  "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "com.google.android.c2dm.intent.RECEIVE"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+            "permission": "com.google.android.c2dm.permission.SEND"
+          },
+          {
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.gms.measurement.AppMeasurementReceiver"
+          },
+          {
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver"
+          },
+          {
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "androidx.glance.appwidget.UnmanagedSessionReceiver"
+          },
+          {
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.MY_PACKAGE_REPLACED"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.glance.appwidget.MyPackageReplacedReceiver"
+          },
+          {
+            "directBootAware": false,
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+          },
+          {
+            "directBootAware": false,
+            "enabled": false,
+            "exported": false,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.ACTION_POWER_CONNECTED",
+                  "android.intent.action.ACTION_POWER_DISCONNECTED"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+          },
+          {
+            "directBootAware": false,
+            "enabled": false,
+            "exported": false,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.BATTERY_OKAY",
+                  "android.intent.action.BATTERY_LOW"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+          },
+          {
+            "directBootAware": false,
+            "enabled": false,
+            "exported": false,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.DEVICE_STORAGE_LOW",
+                  "android.intent.action.DEVICE_STORAGE_OK"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+          },
+          {
+            "directBootAware": false,
+            "enabled": false,
+            "exported": false,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.net.conn.CONNECTIVITY_CHANGE"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+          },
+          {
+            "directBootAware": false,
+            "enabled": false,
+            "exported": false,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.intent.action.BOOT_COMPLETED",
+                  "android.intent.action.TIME_SET",
+                  "android.intent.action.TIMEZONE_CHANGED"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver"
+          },
+          {
+            "directBootAware": false,
+            "enabled": "0x7f050005",
+            "exported": false,
+            "intent_filters": [
+              {
+                "actions": [
+                  "androidx.work.impl.background.systemalarm.UpdateProxies"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+          },
+          {
+            "directBootAware": false,
+            "enabled": true,
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+            "permission": "android.permission.DUMP"
+          },
+          {
+            "directBootAware": false,
+            "enabled": true,
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "androidx.profileinstaller.action.INSTALL_PROFILE"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              },
+              {
+                "actions": [
+                  "androidx.profileinstaller.action.SKIP_FILE"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              },
+              {
+                "actions": [
+                  "androidx.profileinstaller.action.SAVE_PROFILE"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              },
+              {
+                "actions": [
+                  "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "androidx.profileinstaller.ProfileInstallReceiver",
+            "permission": "android.permission.DUMP"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+          }
+        ],
+        "service": [
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "com.google.firebase.MESSAGING_EVENT"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.notification.MyFcmListenerService"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+            "permission": "android.permission.BIND_NFC_SERVICE"
+          },
+          {
+            "directBootAware": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.firebase.components.ComponentDiscoveryService"
+          },
+          {
+            "directBootAware": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+          },
+          {
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.gms.tagmanager.TagManagerService"
+          },
+          {
+            "directBootAware": true,
+            "exported": false,
+            "intent_filters": [
+              {
+                "actions": [
+                  "com.google.firebase.MESSAGING_EVENT"
+                ],
+                "categories": [],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": -500
+              }
+            ],
+            "name": "com.google.firebase.messaging.FirebaseMessagingService"
+          },
+          {
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.firebase.sessions.SessionLifecycleService"
+          },
+          {
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.gms.measurement.AppMeasurementService"
+          },
+          {
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.gms.measurement.AppMeasurementJobService",
+            "permission": "android.permission.BIND_JOB_SERVICE"
+          },
+          {
+            "enabled": false,
+            "exported": false,
+            "intent_filters": [],
+            "name": "androidx.camera.core.impl.MetadataHolderService"
+          },
+          {
+            "exported": true,
+            "intent_filters": [],
+            "name": "androidx.glance.appwidget.GlanceRemoteViewsService",
+            "permission": "android.permission.BIND_REMOTEVIEWS"
+          },
+          {
+            "enabled": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.gms.ads.AdService"
+          },
+          {
+            "directBootAware": false,
+            "enabled": "0x7f050005",
+            "exported": false,
+            "intent_filters": [],
+            "name": "androidx.work.impl.background.systemalarm.SystemAlarmService"
+          },
+          {
+            "directBootAware": false,
+            "enabled": "0x7f050007",
+            "exported": true,
+            "intent_filters": [],
+            "name": "androidx.work.impl.background.systemjob.SystemJobService",
+            "permission": "android.permission.BIND_JOB_SERVICE"
+          },
+          {
+            "directBootAware": false,
+            "enabled": "0x7f050006",
+            "exported": false,
+            "intent_filters": [],
+            "name": "androidx.work.impl.foreground.SystemForegroundService"
+          },
+          {
+            "directBootAware": true,
+            "exported": false,
+            "intent_filters": [],
+            "name": "androidx.room.MultiInstanceInvalidationService"
+          },
+          {
+            "intent_filters": [],
+            "name": "androidx.core.widget.RemoteViewsCompatService",
+            "permission": "android.permission.BIND_REMOTEVIEWS"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+            "permission": "android.permission.BIND_JOB_SERVICE"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.vnpay.vntaxi.base.gps.FusedLocationService"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.alibaba.ariver.ipc.RemoteCallService"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.alibaba.exthub.bigdata.service.BigDataMainService"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService1",
+            "process": ":lite1"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService2",
+            "process": ":lite2"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService3",
+            "process": ":lite3"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService4",
+            "process": ":lite4"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService5",
+            "process": ":lite5"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+            "permission": "android.permission.BIND_NFC_SERVICE"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.alibaba.griver.base.resource.predownload.AppPreDownloadJobSchedulerService",
+            "permission": "android.permission.BIND_JOB_SERVICE"
+          },
+          {
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.kernel.ipc.server.IpcMsgServerService"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite1",
+            "process": ":lite1"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite2",
+            "process": ":lite2"
+          },
+          {
+            "exported": false,
+            "intent_filters": [],
+            "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite3",
+            "process": ":lite3"
+          },
+          {
+            "exported": true,
+            "intent_filters": [
+              {
+                "actions": [
+                  "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+                ],
+                "categories": [
+                  "android.intent.category.DEFAULT"
+                ],
+                "data_host_count": 0,
+                "data_path_count": 0,
+                "data_scheme_count": 0,
+                "priority": null
+              }
+            ],
+            "name": "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService",
+            "permission": "android.permission.BIND_NFC_SERVICE"
+          }
+        ]
+      },
+      "element_count": 608,
+      "errors": [],
+      "features": [
+        "android.hardware.nfc",
+        "android.hardware.nfc.hce",
+        "android.hardware.location.gps",
+        "android.hardware.bluetooth_le",
+        "android.hardware.camera",
+        "android.hardware.camera.autofocus",
+        null,
+        "android.hardware.camera.any"
+      ],
+      "file": "vn.com.vng.zalopay.apk:AndroidManifest.xml",
+      "limits": [
+        "meta-data / key-like attribute values are redacted to length + digest",
+        "intent-filter data hosts/paths are counted, not copied"
+      ],
+      "meta_data": [
+        {
+          "name": "com.google.android.gms.wallet.api.enabled",
+          "value": true
+        },
+        {
+          "name": "android.app.shortcuts",
+          "value": {
+            "length": 0,
+            "redacted": true
+          }
+        },
+        {
+          "name": "android.nfc.cardemulation.host_apdu_service",
+          "value": {
+            "length": 0,
+            "redacted": true
+          }
+        },
+        {
+          "name": "android.support.FILE_PROVIDER_PATHS",
+          "value": {
+            "length": 0,
+            "redacted": true
+          }
+        },
+        {
+          "name": "com.google.android.geo.API_KEY",
+          "value": {
+            "length": 39,
+            "redacted": true,
+            "sha256_16": "441f3eb6f908a86b"
+          }
+        },
+        {
+          "name": "com.appsflyer.AF_DEV_KEY",
+          "value": {
+            "length": 22,
+            "redacted": true,
+            "sha256_16": "061d8af9066cbcbe"
+          }
+        },
+        {
+          "name": "AF_STORE",
+          "value": {
+            "length": 10,
+            "redacted": true,
+            "sha256_16": "7d6366c869a3a119"
+          }
+        },
+        {
+          "name": "com.facebook.sdk.ApplicationId",
+          "value": {
+            "length": 10,
+            "redacted": true,
+            "sha256_16": "c36c292292dcbcf0"
+          }
+        },
+        {
+          "name": "com.facebook.sdk.ClientToken",
+          "value": {
+            "length": 10,
+            "redacted": true,
+            "sha256_16": "f5888d48816b2633"
+          }
+        },
+        {
+          "name": "com.facebook.sdk.AdvertiserIDCollectionEnabled",
+          "value": true
+        },
+        {
+          "name": "com.google.firebase.messaging.default_notification_channel_id",
+          "value": {
+            "length": 10,
+            "redacted": true,
+            "sha256_16": "f4ba7132c0f94299"
+          }
+        },
+        {
+          "name": "com.google.android.gms.ads.APPLICATION_ID",
+          "value": {
+            "length": 10,
+            "redacted": true,
+            "sha256_16": "df1b7aabc2df38fa"
+          }
+        },
+        {
+          "name": "appID",
+          "value": {
+            "length": 10,
+            "redacted": true,
+            "sha256_16": "5678934e1a03e015"
+          }
+        },
+        {
+          "name": "com.google.firebase.ml.vision.DEPENDENCIES",
+          "value": {
+            "length": 4,
+            "redacted": true,
+            "sha256_16": "0282d9b79f42c74c"
+          }
+        },
+        {
+          "name": "asset_statements",
+          "value": {
+            "length": 0,
+            "redacted": true
+          }
+        },
+        {
+          "name": {
+            "length": 43,
+            "redacted": true,
+            "sha256_16": "d489652db9906082"
+          },
+          "value": true
+        },
+        {
+          "name": "com.google.mlkit.vision.DEPENDENCIES",
+          "value": {
+            "length": 26,
+            "redacted": true,
+            "sha256_16": "b665f3074a7ef552"
+          }
+        },
+        {
+          "name": "android.appwidget.provider",
+          "value": {
+            "length": 0,
+            "redacted": true
+          }
+        },
+        {
+          "name": "android.appwidget.provider",
+          "value": {
+            "length": 0,
+            "redacted": true
+          }
+        },
+        {
+          "name": "android.appwidget.provider",
+          "value": {
+            "length": 0,
+            "redacted": true
+          }
+        },
+        {
+          "name": "android.appwidget.provider",
+          "value": {
+            "length": 0,
+            "redacted": true
+          }
+        },
+        {
+          "name": "com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION",
+          "value": true
+        },
+        {
+          "name": "com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING",
+          "value": true
+        },
+        {
+          "name": "com.google.android.gms.ads.INTEGRATION_MANAGER",
+          "value": {
+            "length": 7,
+            "redacted": true,
+            "sha256_16": "0acd18246f16d696"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.iid.Registrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.android.play.billingclient.version",
+          "value": {
+            "length": 5,
+            "redacted": true,
+            "sha256_16": "981e06bf91e46fd4"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.mlkit.vision.segmentation.subject.internal.SubjectSegmentationRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar",
+          "value": {
+            "length": 49,
+            "redacted": true,
+            "sha256_16": "f0bf9f0dbd82c21b"
+          }
+        },
+        {
+          "name": "androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER",
+          "value": {
+            "length": 53,
+            "redacted": true,
+            "sha256_16": "b68539c71a60aaae"
+          }
+        },
+        {
+          "name": "androidx.work.WorkManagerInitializer",
+          "value": {
+            "length": 16,
+            "redacted": true,
+            "sha256_16": "8377900f94b19ea8"
+          }
+        },
+        {
+          "name": "androidx.emoji2.text.EmojiCompatInitializer",
+          "value": {
+            "length": 16,
+            "redacted": true,
+            "sha256_16": "8377900f94b19ea8"
+          }
+        },
+        {
+          "name": "androidx.lifecycle.ProcessLifecycleInitializer",
+          "value": {
+            "length": 16,
+            "redacted": true,
+            "sha256_16": "8377900f94b19ea8"
+          }
+        },
+        {
+          "name": "androidx.profileinstaller.ProfileInstallerInitializer",
+          "value": {
+            "length": 16,
+            "redacted": true,
+            "sha256_16": "8377900f94b19ea8"
+          }
+        },
+        {
+          "name": "com.google.android.gms.version",
+          "value": {
+            "length": 10,
+            "redacted": true,
+            "sha256_16": "f1a37b06b470efd1"
+          }
+        },
+        {
+          "name": "backend:com.google.android.datatransport.cct.CctBackendFactory",
+          "value": {
+            "length": 3,
+            "redacted": true,
+            "sha256_16": "b821563ce1115410"
+          }
+        },
+        {
+          "name": "com.facebook.soloader.enabled",
+          "value": false
+        },
+        {
+          "name": "android.nfc.cardemulation.host_apdu_service",
+          "value": {
+            "length": 0,
+            "redacted": true
+          }
+        },
+        {
+          "name": "ariver_manifest",
+          "value": {
+            "length": 33,
+            "redacted": true,
+            "sha256_16": "c6c74f4845d9fa99"
+          }
+        },
+        {
+          "name": "android.support.FILE_PROVIDER_PATHS",
+          "value": {
+            "length": 0,
+            "redacted": true
+          }
+        },
+        {
+          "name": "com.android.dynamic.apk.fused.modules",
+          "value": {
+            "length": 128,
+            "redacted": true,
+            "sha256_16": "2a144290026fade1"
+          }
+        },
+        {
+          "name": "com.android.vending.splits.required",
+          "value": true
+        },
+        {
+          "name": "com.android.stamp.source",
+          "value": {
+            "length": 29,
+            "redacted": true,
+            "sha256_16": "b5d6d7caeabec808"
+          }
+        },
+        {
+          "name": "com.android.stamp.type",
+          "value": {
+            "length": 27,
+            "redacted": true,
+            "sha256_16": "873d6e3cbe5e1f0b"
+          }
+        },
+        {
+          "name": "com.android.vending.splits",
+          "value": {
+            "length": 0,
+            "redacted": true
+          }
+        },
+        {
+          "name": "com.android.vending.derived.apk.id",
+          "value": 2
+        }
+      ],
+      "parsed": true,
+      "permission_definitions": [
+        "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+      ],
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.READ_CONTACTS",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_WIFI_STATE",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.READ_PHONE_STATE",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "android.permission.WAKE_LOCK",
+        "android.permission.NFC",
+        "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.USE_FINGERPRINT",
+        "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.READ_CALENDAR",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+        "com.android.launcher.permission.WRITE_SETTINGS",
+        "com.android.launcher.permission.READ_SETTINGS",
+        "com.bbk.launcher2.permission.READ_SETTINGS",
+        "com.bbk.launcher2.permission.WRITE_SETTINGS",
+        "android.permission.QUERY_ALL_PACKAGES",
+        "android.permission.CAMERA",
+        "android.permission.VIBRATE",
+        "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+        "android.permission.CHANGE_WIFI_STATE",
+        "android.permission.DETECT_SCREEN_CAPTURE",
+        "com.google.android.gms.permission.AD_ID",
+        "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+        "android.permission.ACCESS_ADSERVICES_AD_ID",
+        "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "com.android.vending.BILLING",
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        "android.permission.ACCESS_ADSERVICES_TOPICS",
+        "android.permission.FOREGROUND_SERVICE",
+        "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "android.permission.REORDER_TASKS",
+        "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+        "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+        "android.permission.READ_BASIC_PHONE_STATE",
+        "android.permission.WRITE_CONTACTS",
+        "android.permission.READ_MEDIA_AUDIO"
+      ],
+      "queries_packages": [
+        "com.vnid",
+        "com.zing.zalo",
+        "com.facebook.katana",
+        "com.google.android.apps.maps",
+        "com.instagram.android",
+        "com.facebook.lite",
+        "com.samsung.android.mapsagent",
+        "com.xiaomi.mipicks",
+        "com.zing.zalo",
+        "com.vnid"
+      ],
+      "queries_packages_total": 10,
+      "resource_map_size": 60,
+      "root_attributes": {
+        "compileSdkVersion": 36,
+        "compileSdkVersionCodename": "16",
+        "package": "vn.com.vng.zalopay",
+        "platformBuildVersionCode": 36,
+        "platformBuildVersionName": 16,
+        "requiredSplitTypes": "base__abi,base__density",
+        "splitTypes": "",
+        "versionCode": 1102758,
+        "versionName": "11.17.0"
+      },
+      "sha256": "88db211a71015bab",
+      "size": 125916,
+      "string_pool_count": 627,
+      "string_pool_utf8": false,
+      "tag_counts": {
+        "action": 67,
+        "activity": 200,
+        "activity-alias": 2,
+        "application": 1,
+        "category": 30,
+        "data": 34,
+        "intent": 17,
+        "intent-filter": 44,
+        "manifest": 1,
+        "meta-data": 66,
+        "package": 10,
+        "permission": 1,
+        "property": 2,
+        "provider": 10,
+        "queries": 4,
+        "receiver": 22,
+        "service": 34,
+        "uses-feature": 8,
+        "uses-library": 5,
+        "uses-permission": 49,
+        "uses-sdk": 1
+      },
+      "uses_libraries": [
+        "org.apache.http.legacy",
+        "androidx.camera.extensions.impl",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+        "android.ext.adservices"
+      ],
+      "uses_sdk": [
+        {
+          "minSdkVersion": 26,
+          "targetSdkVersion": 36
+        }
+      ]
+    }
+  },
+  "schema": "rea_lite/manifest@1"
+}
