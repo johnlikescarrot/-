@@ -1,0 +1,111 @@
+{
+  "evidence": {
+    "authority": "shipped-artifact",
+    "confidence": "derived",
+    "evidence_id": "ev_8beaecb75515717d8f071ca23b426fb0969dabdbbfb2dfc309efc5ee4f7e0d45",
+    "integrity_contradictions": [],
+    "inventory_graph_sha256": "602c031f0aecbee35343c8a465c46d7036740beb975708b9cea0da50cef62b26",
+    "raw_output_bytes": 2584468,
+    "raw_output_sha256": "60ff24d86ee5ddc04d1bf686f5b0654092133d9b37a0d4d793849d0ec94505f5",
+    "root_artifact_sha256": "c9a6cf90382d9d1d37bd6d1fea32de9b2c71ab4a1b74d158a7e58de02f38d10d",
+    "subject_sha256": "c9a6cf90382d9d1d37bd6d1fea32de9b2c71ab4a1b74d158a7e58de02f38d10d"
+  },
+  "graph": {
+    "coverage": {
+      "limits": [],
+      "omitted_count": 0,
+      "status": "complete",
+      "truncated": false
+    },
+    "edge_count": 8,
+    "edge_relations": {
+      "contains": 8
+    },
+    "graph_id": "jag_d735e28997ea90cc09b21e4ec936ccdc83df7578dad139a567fdf2327b29c74b",
+    "javascript_assets": [
+      "assets_internaljsbridge.js",
+      "assets_jsbridge.js",
+      "assets_android_jsbridge.js",
+      "assets_GriverBridge_h5_bridge.js"
+    ],
+    "javascript_modules": [
+      "assets_jsbridge.js",
+      "assets_android_jsbridge.js",
+      "assets_GriverBridge_h5_bridge.js",
+      "assets_internaljsbridge.js"
+    ],
+    "node_count": 9,
+    "node_kinds": {
+      "artifact": 1,
+      "javascript-asset": 4,
+      "javascript-module": 4
+    },
+    "schema": "JavaScriptApplicationGraph",
+    "semantic_graph_node_count": 1686,
+    "semantic_graph_relation_count": 970
+  },
+  "interpretation": [
+    "REA reconstructed an inert, AST-derived application graph of the four JS bridge files.",
+    "Zero findings/modules reported by REA reflect that these bridges are plain scripts, not a bundled CommonJS/ESM module graph.",
+    "The 3.6 MB Metro bundle (main.jsbundle) is analysed separately in jsbundle.json."
+  ],
+  "limitations_reported_by_REA": [
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+  ],
+  "schema": "rea_lite/rea_javascript_evidence@1",
+  "statistics": {
+    "findings": 0,
+    "invalid_utf8_files": 0,
+    "modules": 0,
+    "nested_asar_containers": 0,
+    "parse_failures": 0,
+    "parsed_javascript_files": 4,
+    "relevant_files": 4,
+    "text_bytes_read": 15643,
+    "visited_ast_nodes": 2738
+  },
+  "summary": {
+    "browser_windows": 0,
+    "context_bridge_apis": 0,
+    "explicit_web_preferences": 0,
+    "exposed_api_members": 0,
+    "ipc": {
+      "ambiguous_renderer_transmissions": 0,
+      "dynamic_channel_operations": 0,
+      "literal_channels": 0,
+      "main_handlers": 0,
+      "operations": 0,
+      "paired_renderer_transmissions": 0,
+      "renderer_listeners": 0,
+      "renderer_transmissions": 0,
+      "unpaired_literal_renderer_transmissions": 0
+    },
+    "native_addon_bindings": 0,
+    "preload_entrypoints": 0,
+    "resolved_native_addon_bindings": 0,
+    "resolved_utility_entrypoints": 0,
+    "sender_validation_observations": 0,
+    "utility_processes": 0
+  },
+  "tool": {
+    "command": "npx -y rea-agents@6.5.0 analyze-javascript-application <work/jsapp> --json",
+    "name": "REA — Reverse Engineer Anything (rea-agents)",
+    "note": "rea-agents@6.10.1 requires Node >=22.23.4; 6.5.0 accepts the available Node 22.22.3.",
+    "provider": {
+      "id": "rea-javascript-application",
+      "name": "REA JavaScript application analyzer",
+      "version": "1"
+    },
+    "upstream": "https://github.com/morluto/rea",
+    "version": "6.5.0"
+  }
+}

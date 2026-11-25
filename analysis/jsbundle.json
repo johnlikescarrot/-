@@ -1,0 +1,119 @@
+{
+  "bundle": {
+    "dependency_edges": 9783,
+    "dev_flag": true,
+    "distinct_module_ids": 2346,
+    "entry_points___r": [
+      82,
+      0
+    ],
+    "factory_signature": "function(g,r,i,a,m,e,d)",
+    "library_marker_counts": {
+      "Expo": 7,
+      "hermes": 1,
+      "jsc": 3,
+      "moment": 31,
+      "react-native": 64,
+      "redux": 15
+    },
+    "max_dependencies_of_one_module": 157,
+    "mean_dependencies": 4.17,
+    "module_definitions_counted_by___d": 2346,
+    "module_definitions_parsed": 2346,
+    "module_id_max": 2345,
+    "module_id_min": 0,
+    "most_required_module_ids": [
+      {
+        "count": 652,
+        "id": 1
+      },
+      {
+        "count": 407,
+        "id": 2
+      },
+      {
+        "count": 383,
+        "id": 50
+      },
+      {
+        "count": 299,
+        "id": 465
+      },
+      {
+        "count": 295,
+        "id": 466
+      },
+      {
+        "count": 272,
+        "id": 470
+      },
+      {
+        "count": 270,
+        "id": 467
+      },
+      {
+        "count": 270,
+        "id": 468
+      },
+      {
+        "count": 216,
+        "id": 285
+      },
+      {
+        "count": 187,
+        "id": 53
+      },
+      {
+        "count": 181,
+        "id": 63
+      },
+      {
+        "count": 181,
+        "id": 358
+      },
+      {
+        "count": 165,
+        "id": 1668
+      },
+      {
+        "count": 113,
+        "id": 166
+      },
+      {
+        "count": 105,
+        "id": 24
+      },
+      {
+        "count": 104,
+        "id": 25
+      },
+      {
+        "count": 104,
+        "id": 1230
+      },
+      {
+        "count": 69,
+        "id": 647
+      },
+      {
+        "count": 67,
+        "id": 34
+      },
+      {
+        "count": 66,
+        "id": 35
+      }
+    ],
+    "require_call_sites_r_d": 9814
+  },
+  "bytes": 3613478,
+  "entropy_first_64k": 5.4588,
+  "limits": [
+    "Regex-based module recovery from inert text; no bundle bootstrap or factory execution.",
+    "Dependency edges are numeric module IDs; no module source code is published.",
+    "Counts are structural evidence of a Metro bundle, not runtime behaviour."
+  ],
+  "schema": "rea_lite/jsbundle@1",
+  "sha256": "c6a70c55c4f99567",
+  "source": "assets/android.1.zip!main.jsbundle (React Native / Metro production bundle)"
+}

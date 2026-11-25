@@ -1,0 +1,630 @@
+{
+  "aggregate": {
+    "apks_with_signing_block": 5,
+    "schemes_observed": {
+      "APK Signature Scheme v2": 5,
+      "APK Signature Scheme v3": 5,
+      "unknown": 6,
+      "verity padding block": 5
+    },
+    "signer_certificate_fingerprints": {
+      "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae": 14
+    },
+    "single_signer_identity_across_all_apks": true
+  },
+  "limits": [
+    "Certificate bytes are never published; only SHA-256 fingerprints and public X.509 subject/issuer fields.",
+    "Signature verification against a trusted root is out of scope; these are structural observations.",
+    "No signing keys, keystores or private material are present or derived."
+  ],
+  "per_apk": {
+    "config.armeabi_v7a.apk": {
+      "apk_bytes": 24828408,
+      "apk_sha256": "456aa08f4fa2e3f9",
+      "block_pairs": [
+        {
+          "id": "0x7109871a",
+          "length": 1379,
+          "scheme": "APK Signature Scheme v2",
+          "signers": {
+            "parsed": true,
+            "signer_count": 1,
+            "signers": [
+              {
+                "algorithms": [
+                  {
+                    "id": "0x0028",
+                    "name": "unknown"
+                  }
+                ],
+                "certificate_count": 1,
+                "certificates": [
+                  {
+                    "length": 721,
+                    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+                  }
+                ],
+                "digest_lengths": [
+                  259
+                ],
+                "max_sdk": null,
+                "min_sdk": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "0xf05368c0",
+          "length": 1379,
+          "scheme": "APK Signature Scheme v3",
+          "signers": {
+            "parsed": true,
+            "signer_count": 1,
+            "signers": [
+              {
+                "algorithms": [
+                  {
+                    "id": "0x0028",
+                    "name": "unknown"
+                  }
+                ],
+                "certificate_count": 1,
+                "certificates": [
+                  {
+                    "length": 721,
+                    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+                  }
+                ],
+                "digest_lengths": [
+                  259
+                ],
+                "max_sdk": 2147483647,
+                "min_sdk": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "0x6dff800d",
+          "length": 3593,
+          "scheme": "unknown",
+          "value_sha256": "61cf06c5069fca6c739413b159688d999d939fa369e18b456b574b42bc0cbefd"
+        },
+        {
+          "id": "0x42726577",
+          "length": 1761,
+          "scheme": "verity padding block",
+          "value_sha256": "d152e28f32dc55c02f9852767076656b57a02a9fd9708ca7722639dfbb9f5cfb"
+        }
+      ],
+      "jar_v1": {
+        "certificate_files": [
+          {
+            "length": 1107,
+            "openssl_x509": {
+              "fields": [
+                "subject=CN = Vu Manh Hieu",
+                "issuer=CN = Vu Manh Hieu",
+                "notBefore=Apr 21 15:41:14 2016 GMT",
+                "notAfter=Apr 15 15:41:14 2041 GMT",
+                "serial=153EA9FD",
+                "sha256 Fingerprint=59:DD:31:FD:F3:60:70:A0:D7:F8:C8:CD:E8:43:FA:C3:71:DF:7F:1A:91:5C:01:36:C9:C9:B5:59:92:E8:CD:AE"
+              ]
+            },
+            "path": "META-INF/BNDLTOOL.RSA",
+            "sha256_of_pkcs7": "526762c0bfd6ce5e395d13060b73b6fa384d6e6151acfb8a0f4be10224a6dee2"
+          }
+        ],
+        "digest_algorithms": {
+          "SHA1-Digest": 29
+        },
+        "manifest_entries": 29,
+        "signature_files": [
+          {
+            "entries": 29,
+            "path": "META-INF/BNDLTOOL.SF",
+            "sha256": "af9b2dc807bca48e"
+          }
+        ]
+      },
+      "signing_block": {
+        "block_size": 8192,
+        "block_start": 24817664,
+        "central_directory_offset": 24825856,
+        "eocd_offset": 24828386,
+        "leading_size": 8184,
+        "sizes_match": true,
+        "trailing_size": 8184
+      },
+      "stamp_cert_sha256": [
+        {
+          "hex": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+          "path": "stamp-cert-sha256"
+        }
+      ]
+    },
+    "config.en.apk": {
+      "apk_bytes": 74137,
+      "apk_sha256": "87699fda97e8a9be",
+      "block_pairs": [
+        {
+          "id": "0x7109871a",
+          "length": 1379,
+          "scheme": "APK Signature Scheme v2",
+          "signers": {
+            "parsed": true,
+            "signer_count": 1,
+            "signers": [
+              {
+                "algorithms": [
+                  {
+                    "id": "0x0028",
+                    "name": "unknown"
+                  }
+                ],
+                "certificate_count": 1,
+                "certificates": [
+                  {
+                    "length": 721,
+                    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+                  }
+                ],
+                "digest_lengths": [
+                  259
+                ],
+                "max_sdk": null,
+                "min_sdk": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "0xf05368c0",
+          "length": 1379,
+          "scheme": "APK Signature Scheme v3",
+          "signers": {
+            "parsed": true,
+            "signer_count": 1,
+            "signers": [
+              {
+                "algorithms": [
+                  {
+                    "id": "0x0028",
+                    "name": "unknown"
+                  }
+                ],
+                "certificate_count": 1,
+                "certificates": [
+                  {
+                    "length": 721,
+                    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+                  }
+                ],
+                "digest_lengths": [
+                  259
+                ],
+                "max_sdk": 2147483647,
+                "min_sdk": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "0x6dff800d",
+          "length": 3593,
+          "scheme": "unknown",
+          "value_sha256": "4e58aa5422837e541f079db8f920f0bdfd620bbfe45b9977fd7b8a38a2d47096"
+        },
+        {
+          "id": "0x42726577",
+          "length": 1761,
+          "scheme": "verity padding block",
+          "value_sha256": "d152e28f32dc55c02f9852767076656b57a02a9fd9708ca7722639dfbb9f5cfb"
+        }
+      ],
+      "jar_v1": {
+        "certificate_files": [
+          {
+            "length": 1107,
+            "openssl_x509": {
+              "fields": [
+                "subject=CN = Vu Manh Hieu",
+                "issuer=CN = Vu Manh Hieu",
+                "notBefore=Apr 21 15:41:14 2016 GMT",
+                "notAfter=Apr 15 15:41:14 2041 GMT",
+                "serial=153EA9FD",
+                "sha256 Fingerprint=59:DD:31:FD:F3:60:70:A0:D7:F8:C8:CD:E8:43:FA:C3:71:DF:7F:1A:91:5C:01:36:C9:C9:B5:59:92:E8:CD:AE"
+              ]
+            },
+            "path": "META-INF/BNDLTOOL.RSA",
+            "sha256_of_pkcs7": "5b6a3bd1334bb205965956e318e3b804663cacbd1d53f36be6ff70a95b7468f8"
+          }
+        ],
+        "digest_algorithms": {
+          "SHA1-Digest": 3
+        },
+        "manifest_entries": 3,
+        "signature_files": [
+          {
+            "entries": 3,
+            "path": "META-INF/BNDLTOOL.SF",
+            "sha256": "8f6822e16939c235"
+          }
+        ]
+      },
+      "signing_block": {
+        "block_size": 8192,
+        "block_start": 65536,
+        "central_directory_offset": 73728,
+        "eocd_offset": 74115,
+        "leading_size": 8184,
+        "sizes_match": true,
+        "trailing_size": 8184
+      },
+      "stamp_cert_sha256": [
+        {
+          "hex": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+          "path": "stamp-cert-sha256"
+        }
+      ]
+    },
+    "config.vi.apk": {
+      "apk_bytes": 86425,
+      "apk_sha256": "985fc073b810b628",
+      "block_pairs": [
+        {
+          "id": "0x7109871a",
+          "length": 1379,
+          "scheme": "APK Signature Scheme v2",
+          "signers": {
+            "parsed": true,
+            "signer_count": 1,
+            "signers": [
+              {
+                "algorithms": [
+                  {
+                    "id": "0x0028",
+                    "name": "unknown"
+                  }
+                ],
+                "certificate_count": 1,
+                "certificates": [
+                  {
+                    "length": 721,
+                    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+                  }
+                ],
+                "digest_lengths": [
+                  259
+                ],
+                "max_sdk": null,
+                "min_sdk": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "0xf05368c0",
+          "length": 1379,
+          "scheme": "APK Signature Scheme v3",
+          "signers": {
+            "parsed": true,
+            "signer_count": 1,
+            "signers": [
+              {
+                "algorithms": [
+                  {
+                    "id": "0x0028",
+                    "name": "unknown"
+                  }
+                ],
+                "certificate_count": 1,
+                "certificates": [
+                  {
+                    "length": 721,
+                    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+                  }
+                ],
+                "digest_lengths": [
+                  259
+                ],
+                "max_sdk": 2147483647,
+                "min_sdk": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "0x6dff800d",
+          "length": 3593,
+          "scheme": "unknown",
+          "value_sha256": "fa344180e842a05c791d8beeb325d51f2152070c409e39fdbe2cdf5dc11c2da6"
+        },
+        {
+          "id": "0x42726577",
+          "length": 1761,
+          "scheme": "verity padding block",
+          "value_sha256": "d152e28f32dc55c02f9852767076656b57a02a9fd9708ca7722639dfbb9f5cfb"
+        }
+      ],
+      "jar_v1": {
+        "certificate_files": [
+          {
+            "length": 1107,
+            "openssl_x509": {
+              "fields": [
+                "subject=CN = Vu Manh Hieu",
+                "issuer=CN = Vu Manh Hieu",
+                "notBefore=Apr 21 15:41:14 2016 GMT",
+                "notAfter=Apr 15 15:41:14 2041 GMT",
+                "serial=153EA9FD",
+                "sha256 Fingerprint=59:DD:31:FD:F3:60:70:A0:D7:F8:C8:CD:E8:43:FA:C3:71:DF:7F:1A:91:5C:01:36:C9:C9:B5:59:92:E8:CD:AE"
+              ]
+            },
+            "path": "META-INF/BNDLTOOL.RSA",
+            "sha256_of_pkcs7": "c6fd0d6fb831fe29086aed9481f93947461838268c669d23cc2a0113a587d70e"
+          }
+        ],
+        "digest_algorithms": {
+          "SHA1-Digest": 3
+        },
+        "manifest_entries": 3,
+        "signature_files": [
+          {
+            "entries": 3,
+            "path": "META-INF/BNDLTOOL.SF",
+            "sha256": "51268105f82b491e"
+          }
+        ]
+      },
+      "signing_block": {
+        "block_size": 8192,
+        "block_start": 77824,
+        "central_directory_offset": 86016,
+        "eocd_offset": 86403,
+        "leading_size": 8184,
+        "sizes_match": true,
+        "trailing_size": 8184
+      },
+      "stamp_cert_sha256": [
+        {
+          "hex": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+          "path": "stamp-cert-sha256"
+        }
+      ]
+    },
+    "config.xhdpi.apk": {
+      "apk_bytes": 1232563,
+      "apk_sha256": "f31350c3caed1509",
+      "block_pairs": [
+        {
+          "id": "0x7109871a",
+          "length": 1379,
+          "scheme": "APK Signature Scheme v2",
+          "signers": {
+            "parsed": true,
+            "signer_count": 1,
+            "signers": [
+              {
+                "algorithms": [
+                  {
+                    "id": "0x0028",
+                    "name": "unknown"
+                  }
+                ],
+                "certificate_count": 1,
+                "certificates": [
+                  {
+                    "length": 721,
+                    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+                  }
+                ],
+                "digest_lengths": [
+                  259
+                ],
+                "max_sdk": null,
+                "min_sdk": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "0xf05368c0",
+          "length": 1379,
+          "scheme": "APK Signature Scheme v3",
+          "signers": {
+            "parsed": true,
+            "signer_count": 1,
+            "signers": [
+              {
+                "algorithms": [
+                  {
+                    "id": "0x0028",
+                    "name": "unknown"
+                  }
+                ],
+                "certificate_count": 1,
+                "certificates": [
+                  {
+                    "length": 721,
+                    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+                  }
+                ],
+                "digest_lengths": [
+                  259
+                ],
+                "max_sdk": 2147483647,
+                "min_sdk": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "0x6dff800d",
+          "length": 3593,
+          "scheme": "unknown",
+          "value_sha256": "cdced1874596790aa2a2ff726cb5e07b48aa67681ad7c7f4699358aa72061248"
+        },
+        {
+          "id": "0x42726577",
+          "length": 1761,
+          "scheme": "verity padding block",
+          "value_sha256": "d152e28f32dc55c02f9852767076656b57a02a9fd9708ca7722639dfbb9f5cfb"
+        }
+      ],
+      "jar_v1": {
+        "certificate_files": [
+          {
+            "length": 1107,
+            "openssl_x509": {
+              "fields": [
+                "subject=CN = Vu Manh Hieu",
+                "issuer=CN = Vu Manh Hieu",
+                "notBefore=Apr 21 15:41:14 2016 GMT",
+                "notAfter=Apr 15 15:41:14 2041 GMT",
+                "serial=153EA9FD",
+                "sha256 Fingerprint=59:DD:31:FD:F3:60:70:A0:D7:F8:C8:CD:E8:43:FA:C3:71:DF:7F:1A:91:5C:01:36:C9:C9:B5:59:92:E8:CD:AE"
+              ]
+            },
+            "path": "META-INF/BNDLTOOL.RSA",
+            "sha256_of_pkcs7": "b47e51f1d17c34a7386aa8170795bd048671a45b614fde169838dbfc86c90697"
+          }
+        ],
+        "digest_algorithms": {
+          "SHA1-Digest": 255
+        },
+        "manifest_entries": 255,
+        "signature_files": [
+          {
+            "entries": 255,
+            "path": "META-INF/BNDLTOOL.SF",
+            "sha256": "e498bed3320c2c8d"
+          }
+        ]
+      },
+      "signing_block": {
+        "block_size": 8192,
+        "block_start": 1200128,
+        "central_directory_offset": 1208320,
+        "eocd_offset": 1232541,
+        "leading_size": 8184,
+        "sizes_match": true,
+        "trailing_size": 8184
+      },
+      "stamp_cert_sha256": [
+        {
+          "hex": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+          "path": "stamp-cert-sha256"
+        }
+      ]
+    },
+    "vn.com.vng.zalopay.apk": {
+      "apk_bytes": 79359087,
+      "apk_sha256": "e289d547b45f6224",
+      "block_pairs": [
+        {
+          "id": "0x7109871a",
+          "length": 1379,
+          "scheme": "APK Signature Scheme v2",
+          "signers": {
+            "parsed": true,
+            "signer_count": 1,
+            "signers": [
+              {
+                "algorithms": [
+                  {
+                    "id": "0x0028",
+                    "name": "unknown"
+                  }
+                ],
+                "certificate_count": 1,
+                "certificates": [
+                  {
+                    "length": 721,
+                    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+                  }
+                ],
+                "digest_lengths": [
+                  259
+                ],
+                "max_sdk": null,
+                "min_sdk": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "0xf05368c0",
+          "length": 1379,
+          "scheme": "APK Signature Scheme v3",
+          "signers": {
+            "parsed": true,
+            "signer_count": 1,
+            "signers": [
+              {
+                "algorithms": [
+                  {
+                    "id": "0x0028",
+                    "name": "unknown"
+                  }
+                ],
+                "certificate_count": 1,
+                "certificates": [
+                  {
+                    "length": 721,
+                    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+                  }
+                ],
+                "digest_lengths": [
+                  259
+                ],
+                "max_sdk": 2147483647,
+                "min_sdk": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "0x6dff800d",
+          "length": 3057,
+          "scheme": "unknown",
+          "value_sha256": "5c35e4d894b24cccaaa9d6b8e97169e9c6d93e285dafc5c5f150c41c400cac23"
+        },
+        {
+          "id": "0x2146444e",
+          "length": 687,
+          "scheme": "unknown",
+          "value_sha256": "80ea2c031d1ab65ee91425d33106c38a09bd7bb8b35b1ad0b258e7fa7ea84890"
+        },
+        {
+          "id": "0x42726577",
+          "length": 1598,
+          "scheme": "verity padding block",
+          "value_sha256": "e2524d150f570a5a68bcad40b06eb4a7ffbe667c4e6fe14ceb55433c1260889f"
+        }
+      ],
+      "jar_v1": {
+        "certificate_files": [],
+        "digest_algorithms": {},
+        "manifest_entries": 0,
+        "signature_files": []
+      },
+      "signing_block": {
+        "block_size": 8192,
+        "block_start": 78807040,
+        "central_directory_offset": 78815232,
+        "eocd_offset": 79359065,
+        "leading_size": 8184,
+        "sizes_match": true,
+        "trailing_size": 8184
+      },
+      "stamp_cert_sha256": [
+        {
+          "hex": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+          "path": "stamp-cert-sha256"
+        }
+      ]
+    }
+  },
+  "schema": "rea_lite/signing@1"
+}

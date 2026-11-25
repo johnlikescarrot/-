@@ -1,0 +1,2376 @@
+{
+  "limits": [
+    "Only ZIP-family containers are expanded; .amr, .tflite, .riv, .dat and .pb are inventoried but not parsed into behaviour.",
+    "Opaque/encrypted-looking payloads are described by size and entropy only; no decryption attempted."
+  ],
+  "nested_containers": [
+    {
+      "extensions": {
+        ".json": 1,
+        ".tar": 1,
+        ".xml": 1
+      },
+      "member_count": 3,
+      "members": [
+        {
+          "compressed": 286540,
+          "crc32": "b01e86e6",
+          "path": "66666692.tar",
+          "sha256": "bf6a3a97d1b004c8",
+          "size": 977920
+        },
+        {
+          "compressed": 584,
+          "crc32": "578a3a9e",
+          "path": "CERT.json",
+          "sha256": "d03cbee634fd43c9",
+          "size": 725
+        },
+        {
+          "compressed": 95,
+          "crc32": "ef97973d",
+          "path": "Manifest.xml",
+          "sha256": "871f9b988b7c7f11",
+          "size": 133
+        }
+      ],
+      "path": "assets/Griver/66666692_1.24.8.amr",
+      "sha256": "02b7cf32e5e71d62",
+      "size": 287535,
+      "uncompressed_bytes": 978778
+    },
+    {
+      "extensions": {
+        ".json": 1,
+        ".tar": 1,
+        ".xml": 1
+      },
+      "member_count": 3,
+      "members": [
+        {
+          "compressed": 16384,
+          "crc32": "a24eaf52",
+          "path": "66666693.tar",
+          "sha256": "15e63f412def7e5e",
+          "size": 63488
+        },
+        {
+          "compressed": 586,
+          "crc32": "2251f93e",
+          "path": "CERT.json",
+          "sha256": "1ba1d7969984da63",
+          "size": 725
+        },
+        {
+          "compressed": 94,
+          "crc32": "606496f6",
+          "path": "Manifest.xml",
+          "sha256": "33d4f969b8d98a40",
+          "size": 132
+        }
+      ],
+      "path": "assets/Griver/66666693_2.0.7.amr",
+      "sha256": "212c15df244230e3",
+      "size": 17380,
+      "uncompressed_bytes": 64345
+    },
+    {
+      "extensions": {
+        ".json": 1,
+        ".tar": 1,
+        ".xml": 1
+      },
+      "member_count": 3,
+      "members": [
+        {
+          "compressed": 855975,
+          "crc32": "b3ae1f4e",
+          "path": "68687209.tar",
+          "sha256": "58d6ab872dd5d05f",
+          "size": 3303936
+        },
+        {
+          "compressed": 585,
+          "crc32": "eab1137e",
+          "path": "CERT.json",
+          "sha256": "413ef15202ec09cb",
+          "size": 725
+        },
+        {
+          "compressed": 98,
+          "crc32": "1051ee0b",
+          "path": "Manifest.xml",
+          "sha256": "04f3cf68aa282f99",
+          "size": 134
+        }
+      ],
+      "path": "assets/Griver/68687209_2.9.7.8.amr",
+      "sha256": "3e67a09c8d76338c",
+      "size": 856974,
+      "uncompressed_bytes": 3304795
+    },
+    {
+      "extensions": {
+        ".jpg": 3,
+        ".jsbundle": 1,
+        ".png": 317
+      },
+      "member_count": 321,
+      "members": [
+        {
+          "compressed": 906425,
+          "crc32": "dce84e18",
+          "path": "main.jsbundle",
+          "sha256": "c6a70c55c4f99567",
+          "size": 3613478
+        },
+        {
+          "compressed": 132,
+          "crc32": "b9054f2a",
+          "path": "drawable-hdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png",
+          "sha256": "409b06d15a4633ee",
+          "size": 134
+        },
+        {
+          "compressed": 132,
+          "crc32": "b9054f2a",
+          "path": "drawable-hdpi/node_modules_miniapps_navigation_src_libs_stack_dist_views_assets_backicon.png",
+          "sha256": "409b06d15a4633ee",
+          "size": 134
+        },
+        {
+          "compressed": 1788,
+          "crc32": "d4171bf3",
+          "path": "drawable-mdpi/notifications_images_educationfee.png",
+          "sha256": "1d4e3f2f55259562",
+          "size": 1788
+        },
+        {
+          "compressed": 1097,
+          "crc32": "f2f91a43",
+          "path": "drawable-mdpi/notifications_images_postpaid.png",
+          "sha256": "c8d06a1fa126d3be",
+          "size": 9365
+        },
+        {
+          "compressed": 115,
+          "crc32": "e496d917",
+          "path": "drawable-mdpi/node_modules_reactnativecheckbox_img_ic_indeterminate_check_box.png",
+          "sha256": "3e2c761048e982cc",
+          "size": 118
+        },
+        {
+          "compressed": 28460,
+          "crc32": "545052db",
+          "path": "drawable-mdpi/about_intro_images_02_dt.png",
+          "sha256": "ffdafa0b23f43e0f",
+          "size": 28589
+        },
+        {
+          "compressed": 1220,
+          "crc32": "d8827ad0",
+          "path": "drawable-mdpi/notifications_images_reminder.png",
+          "sha256": "1704ea08a299b4cb",
+          "size": 9365
+        },
+        {
+          "compressed": 1782,
+          "crc32": "393db8f8",
+          "path": "drawable-mdpi/notifications_images_refund.png",
+          "sha256": "8485aee9837168ff",
+          "size": 9365
+        },
+        {
+          "compressed": 5555,
+          "crc32": "fa496e59",
+          "path": "drawable-mdpi/about_images_logoccdv.png",
+          "sha256": "6b12c02b491cc0fc",
+          "size": 5555
+        },
+        {
+          "compressed": 10896,
+          "crc32": "e423a04d",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_disconnect.png",
+          "sha256": "965bc2c8a067f675",
+          "size": 10896
+        },
+        {
+          "compressed": 1639,
+          "crc32": "d6e58a69",
+          "path": "drawable-mdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_vinaphone.png",
+          "sha256": "5752609763f6b777",
+          "size": 1639
+        },
+        {
+          "compressed": 83165,
+          "crc32": "b78c8b07",
+          "path": "drawable-mdpi/about_intro_images_05_dt_ipx.png",
+          "sha256": "17d7f18202be19df",
+          "size": 83840
+        },
+        {
+          "compressed": 1479,
+          "crc32": "a4f3c899",
+          "path": "drawable-mdpi/notifications_images_receive.png",
+          "sha256": "55acb1c20a2f12b2",
+          "size": 9365
+        },
+        {
+          "compressed": 4402,
+          "crc32": "c3e6e575",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_errorcloud.png",
+          "sha256": "20398ee586a13dd3",
+          "size": 4444
+        },
+        {
+          "compressed": 2749,
+          "crc32": "9db75e1a",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nobill.png",
+          "sha256": "fc5ad2ebfb3dc9fc",
+          "size": 2799
+        },
+        {
+          "compressed": 7733,
+          "crc32": "05cfd41a",
+          "path": "drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_mobilecard_images_bgcard.png",
+          "sha256": "54deec450eb01261",
+          "size": 7759
+        },
+        {
+          "compressed": 1497,
+          "crc32": "5f344924",
+          "path": "drawable-mdpi/notifications_images_internet.png",
+          "sha256": "f63898cbf14dd4ff",
+          "size": 9365
+        },
+        {
+          "compressed": 1399,
+          "crc32": "9ef88839",
+          "path": "drawable-mdpi/clearingaccount_images_icon_123pjcb.png",
+          "sha256": "6b7953702f31829f",
+          "size": 1399
+        },
+        {
+          "compressed": 1663,
+          "crc32": "65f8deb7",
+          "path": "drawable-mdpi/notifications_images_servicescards.png",
+          "sha256": "36f4194f86b95e05",
+          "size": 9365
+        },
+        {
+          "compressed": 1471,
+          "crc32": "1e27fb49",
+          "path": "drawable-mdpi/notifications_images_travelticket.png",
+          "sha256": "371cb48d8b6ffebb",
+          "size": 9365
+        },
+        {
+          "compressed": 1115,
+          "crc32": "387ffa02",
+          "path": "drawable-mdpi/notifications_images_water.png",
+          "sha256": "daceb00a699afab6",
+          "size": 9365
+        },
+        {
+          "compressed": 841,
+          "crc32": "b0335ee6",
+          "path": "drawable-mdpi/registeronlinebanking_image_smsregistericon.png",
+          "sha256": "11e514f8e182b349",
+          "size": 841
+        },
+        {
+          "compressed": 1385,
+          "crc32": "163bcbbd",
+          "path": "drawable-mdpi/notifications_images_homestay.png",
+          "sha256": "a6ebbe668e170677",
+          "size": 9365
+        },
+        {
+          "compressed": 1596,
+          "crc32": "88807b10",
+          "path": "drawable-mdpi/notifications_images_recharge.png",
+          "sha256": "5296219610427e20",
+          "size": 1596
+        },
+        {
+          "compressed": 324,
+          "crc32": "f6e74dea",
+          "path": "drawable-mdpi/about_images_arrowright.png",
+          "sha256": "6126de8c12827298",
+          "size": 350
+        },
+        {
+          "compressed": 893,
+          "crc32": "6452c5ff",
+          "path": "drawable-mdpi/about_images_iconpolicy.png",
+          "sha256": "f567c5e21c1e7d15",
+          "size": 893
+        },
+        {
+          "compressed": 973,
+          "crc32": "09fc0ba6",
+          "path": "drawable-mdpi/notifications_images_travel.png",
+          "sha256": "f471c88f3544c519",
+          "size": 9365
+        },
+        {
+          "compressed": 306,
+          "crc32": "c6b6b99a",
+          "path": "drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_success.png",
+          "sha256": "f18ceda9c8a841b9",
+          "size": 306
+        },
+        {
+          "compressed": 883,
+          "crc32": "f1d16bd9",
+          "path": "drawable-mdpi/clearingaccount_images_icon_123pscb.png",
+          "sha256": "65beece2ecdcfe74",
+          "size": 883
+        },
+        {
+          "compressed": 471,
+          "crc32": "252e270a",
+          "path": "drawable-mdpi/notifications_images_iconcheck.png",
+          "sha256": "1b929565dc21e584",
+          "size": 471
+        },
+        {
+          "compressed": 2720,
+          "crc32": "a8c47820",
+          "path": "drawable-mdpi/registeronlinebanking_image_icomapcard.png",
+          "sha256": "b460ed436cce1295",
+          "size": 2720
+        },
+        {
+          "compressed": 860,
+          "crc32": "c71d0cf3",
+          "path": "drawable-mdpi/clearingaccount_images_icon_123pvisa.png",
+          "sha256": "dd14d18dfbd20361",
+          "size": 860
+        },
+        {
+          "compressed": 3091,
+          "crc32": "faff0b15",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_emptybill.png",
+          "sha256": "a1e7b49e950c8f98",
+          "size": 3148
+        },
+        {
+          "compressed": 950,
+          "crc32": "c8a892e8",
+          "path": "drawable-mdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_mobifone.png",
+          "sha256": "ae138b55d5b625df",
+          "size": 975
+        },
+        {
+          "compressed": 96,
+          "crc32": "d73e90d0",
+          "path": "drawable-mdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png",
+          "sha256": "8b61a4c7ef70dc92",
+          "size": 100
+        },
+        {
+          "compressed": 1583,
+          "crc32": "f503d5dc",
+          "path": "drawable-mdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_vietnamobile.png",
+          "sha256": "e2404f3f7296afe0",
+          "size": 1585
+        },
+        {
+          "compressed": 2829,
+          "crc32": "c9638c49",
+          "path": "drawable-mdpi/about_images_logosquare.png",
+          "sha256": "90fa2fd0b8d65b37",
+          "size": 2829
+        },
+        {
+          "compressed": 46015,
+          "crc32": "35fcd569",
+          "path": "drawable-mdpi/about_intro_images_04_dt.png",
+          "sha256": "07a81c369b434c92",
+          "size": 46005
+        },
+        {
+          "compressed": 8865,
+          "crc32": "39d7ac0f",
+          "path": "drawable-mdpi/notifications_images_header_header2022x.png",
+          "sha256": "11558209046fee4b",
+          "size": 8953
+        },
+        {
+          "compressed": 7655,
+          "crc32": "c1682271",
+          "path": "drawable-mdpi/transactionhistoryv2_src_components_header_images_header2022.png",
+          "sha256": "4cae5fdf16136700",
+          "size": 7712
+        },
+        {
+          "compressed": 1562,
+          "crc32": "650843bd",
+          "path": "drawable-mdpi/clearingaccount_images_icon_zpvcb.png",
+          "sha256": "dca9d9f883f9df66",
+          "size": 1562
+        },
+        {
+          "compressed": 1273,
+          "crc32": "eea2fb92",
+          "path": "drawable-mdpi/notifications_images_withdraw.png",
+          "sha256": "5f555afdc6d14691",
+          "size": 9365
+        },
+        {
+          "compressed": 37532,
+          "crc32": "99816ad4",
+          "path": "drawable-mdpi/about_intro_images_bg1.jpg",
+          "sha256": "ea9319cf95f438a1",
+          "size": 38272
+        },
+        {
+          "compressed": 2192,
+          "crc32": "b3f474dd",
+          "path": "drawable-mdpi/notifications_images_transfer.png",
+          "sha256": "ce874723fed20a49",
+          "size": 9365
+        },
+        {
+          "compressed": 3386,
+          "crc32": "c9d4b08b",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_maintenance.png",
+          "sha256": "9a8c254be4439da9",
+          "size": 3400
+        },
+        {
+          "compressed": 292,
+          "crc32": "8cbcafcc",
+          "path": "drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_moreinformation.png",
+          "sha256": "65c0d804db7a5060",
+          "size": 292
+        },
+        {
+          "compressed": 817,
+          "crc32": "ecb6c6fa",
+          "path": "drawable-mdpi/notifications_images_mobilecard.png",
+          "sha256": "f41f5ffaed474927",
+          "size": 9365
+        },
+        {
+          "compressed": 113,
+          "crc32": "46e5e60e",
+          "path": "drawable-mdpi/node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png",
+          "sha256": "aa9c6e2eadfac9fe",
+          "size": 116
+        },
+        {
+          "compressed": 474,
+          "crc32": "4ecb2446",
+          "path": "drawable-mdpi/notifications_images_tivi.png",
+          "sha256": "64a3d653714bbcc8",
+          "size": 9365
+        },
+        {
+          "compressed": 65814,
+          "crc32": "936578ce",
+          "path": "drawable-mdpi/about_intro_images_02_dt_ipx.png",
+          "sha256": "10029829fb42dfe0",
+          "size": 66767
+        },
+        {
+          "compressed": 7655,
+          "crc32": "c1682271",
+          "path": "drawable-mdpi/notifications_images_header_header2022.png",
+          "sha256": "4cae5fdf16136700",
+          "size": 7712
+        },
+        {
+          "compressed": 659,
+          "crc32": "0af1290c",
+          "path": "drawable-mdpi/node_modules_miniapps_navigation_src_libs_stack_dist_views_assets_backiconmask.png",
+          "sha256": "a8f68eb210e72be8",
+          "size": 659
+        },
+        {
+          "compressed": 659,
+          "crc32": "0af1290c",
+          "path": "drawable-mdpi/node_modules_reactnavigationstack_dist_views_assets_backiconmask.png",
+          "sha256": "a8f68eb210e72be8",
+          "size": 659
+        },
+        {
+          "compressed": 1335,
+          "crc32": "01087787",
+          "path": "drawable-mdpi/notifications_images_services.png",
+          "sha256": "7a149e34407e11b4",
+          "size": 9365
+        },
+        {
+          "compressed": 1205,
+          "crc32": "06100cf8",
+          "path": "drawable-mdpi/notifications_images_electric.png",
+          "sha256": "18f5b41085116aed",
+          "size": 9365
+        },
+        {
+          "compressed": 272,
+          "crc32": "6dedf075",
+          "path": "drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_images_arrowright.png",
+          "sha256": "6a3b3ee229c246d8",
+          "size": 272
+        },
+        {
+          "compressed": 66117,
+          "crc32": "c065d43c",
+          "path": "drawable-mdpi/about_intro_images_01_dt_ipx.png",
+          "sha256": "a79bdaca441c056e",
+          "size": 67451
+        },
+        {
+          "compressed": 3213,
+          "crc32": "fc813e43",
+          "path": "drawable-mdpi/registeronlinebanking_image_icosms.png",
+          "sha256": "3d0e09efa77be401",
+          "size": 3213
+        },
+        {
+          "compressed": 1978,
+          "crc32": "bb345234",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_empty_recent_topup.png",
+          "sha256": "7e5f2b04a4080fae",
+          "size": 1985
+        },
+        {
+          "compressed": 286,
+          "crc32": "f2bf7476",
+          "path": "drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_failed.png",
+          "sha256": "83b522e0a5e1a3e2",
+          "size": 286
+        },
+        {
+          "compressed": 27646,
+          "crc32": "e2c55e98",
+          "path": "drawable-mdpi/about_intro_images_03_dt.png",
+          "sha256": "b96ffb4c20e4390d",
+          "size": 27825
+        },
+        {
+          "compressed": 624,
+          "crc32": "4037ba3f",
+          "path": "drawable-mdpi/clearingaccount_images_icon_123psgcb.png",
+          "sha256": "bee740312f7327c3",
+          "size": 802
+        },
+        {
+          "compressed": 1045,
+          "crc32": "c172b5ea",
+          "path": "drawable-mdpi/clearingaccount_images_icon_123pvtb.png",
+          "sha256": "c60f0fe5b42dcefe",
+          "size": 1045
+        },
+        {
+          "compressed": 8865,
+          "crc32": "39d7ac0f",
+          "path": "drawable-mdpi/transactionhistoryv2_src_components_header_images_header2022x.png",
+          "sha256": "11558209046fee4b",
+          "size": 8953
+        },
+        {
+          "compressed": 985,
+          "crc32": "bf83d92a",
+          "path": "drawable-mdpi/about_images_iconoperation.png",
+          "sha256": "ed6cf080b21cec03",
+          "size": 985
+        },
+        {
+          "compressed": 722,
+          "crc32": "33f0b92d",
+          "path": "drawable-mdpi/notifications_images_quickpay.png",
+          "sha256": "77393b006694007e",
+          "size": 9365
+        },
+        {
+          "compressed": 10137,
+          "crc32": "6339c0ce",
+          "path": "drawable-mdpi/transactionhistoryv2_src_app_errorcontent_images_errorpage.png",
+          "sha256": "3223d571e3834e7d",
+          "size": 10137
+        },
+        {
+          "compressed": 169,
+          "crc32": "6b849d4b",
+          "path": "drawable-mdpi/node_modules_reactnativecheckbox_img_ic_check_box.png",
+          "sha256": "552315a3f2e31fb1",
+          "size": 169
+        },
+        {
+          "compressed": 10560,
+          "crc32": "e17b5aa9",
+          "path": "drawable-mdpi/transactionhistoryv2_src_components_transactionloaderror_images_transactionhistoryerror.png",
+          "sha256": "bb1c7183ebb508f5",
+          "size": 10560
+        },
+        {
+          "compressed": 1097,
+          "crc32": "dff7dc7a",
+          "path": "drawable-mdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_gmobile.png",
+          "sha256": "48f8586f99cae4d5",
+          "size": 1102
+        },
+        {
+          "compressed": 328,
+          "crc32": "60e59f07",
+          "path": "drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_processing.png",
+          "sha256": "4181fe058be65755",
+          "size": 328
+        },
+        {
+          "compressed": 21337,
+          "crc32": "646f1c14",
+          "path": "drawable-mdpi/about_intro_images_01_dt.png",
+          "sha256": "e5e6af7cc94be564",
+          "size": 21646
+        },
+        {
+          "compressed": 561,
+          "crc32": "352425db",
+          "path": "drawable-mdpi/notifications_images_credit.png",
+          "sha256": "a6fd6ca222074116",
+          "size": 9365
+        },
+        {
+          "compressed": 1452,
+          "crc32": "35ce0a4d",
+          "path": "drawable-mdpi/notifications_images_open_lixi.png",
+          "sha256": "31a2baae31918c37",
+          "size": 9365
+        },
+        {
+          "compressed": 2687,
+          "crc32": "635ec6e8",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nodeal.png",
+          "sha256": "48341d22ea8cc265",
+          "size": 2722
+        },
+        {
+          "compressed": 1180,
+          "crc32": "89c2ba16",
+          "path": "drawable-mdpi/notifications_images_addcard.png",
+          "sha256": "c2fa17f3b23d1e90",
+          "size": 9365
+        },
+        {
+          "compressed": 292,
+          "crc32": "0ef4e719",
+          "path": "drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_mobilecard_images_close.png",
+          "sha256": "bbafd0a24a374c6c",
+          "size": 292
+        },
+        {
+          "compressed": 1363,
+          "crc32": "0413990e",
+          "path": "drawable-mdpi/transactionhistoryv2_src_components_transactionicon_images_ictransactiondefault.png",
+          "sha256": "c31cf40a24d555af",
+          "size": 9365
+        },
+        {
+          "compressed": 849,
+          "crc32": "294a0e6b",
+          "path": "drawable-mdpi/notifications_images_apartment.png",
+          "sha256": "00c3672b4743d03c",
+          "size": 849
+        },
+        {
+          "compressed": 1436,
+          "crc32": "3ebb88c1",
+          "path": "drawable-mdpi/notifications_images_lixi.png",
+          "sha256": "b2a883028d2744e1",
+          "size": 9365
+        },
+        {
+          "compressed": 5162,
+          "crc32": "9e630206",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_emptysplitmoney.png",
+          "sha256": "9494880182ae62df",
+          "size": 5162
+        },
+        {
+          "compressed": 3275,
+          "crc32": "73e2c127",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_processing.png",
+          "sha256": "a01e32fc5aecdacb",
+          "size": 3341
+        },
+        {
+          "compressed": 3217,
+          "crc32": "af763325",
+          "path": "drawable-mdpi/notifications_images_notify.png",
+          "sha256": "f493177146fbff61",
+          "size": 3217
+        },
+        {
+          "compressed": 140214,
+          "crc32": "bec47950",
+          "path": "drawable-mdpi/about_intro_images_04_dt_ipx.png",
+          "sha256": "2c4e538cd72abacf",
+          "size": 140341
+        },
+        {
+          "compressed": 1895,
+          "crc32": "8b14ca3f",
+          "path": "drawable-mdpi/notifications_images_consumerloan.png",
+          "sha256": "dbe7b73f823d6e92",
+          "size": 1895
+        },
+        {
+          "compressed": 5562,
+          "crc32": "675157c9",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_unsupport.png",
+          "sha256": "6675c01cb2aa3197",
+          "size": 5562
+        },
+        {
+          "compressed": 74465,
+          "crc32": "a03ac293",
+          "path": "drawable-mdpi/about_intro_images_03_dt_ipx.png",
+          "sha256": "8f83207e4e2d45c3",
+          "size": 75357
+        },
+        {
+          "compressed": 790,
+          "crc32": "95588088",
+          "path": "drawable-mdpi/notifications_images_data.png",
+          "sha256": "3ea37b6fedd8ae61",
+          "size": 9365
+        },
+        {
+          "compressed": 816,
+          "crc32": "2892b88a",
+          "path": "drawable-mdpi/clearingaccount_images_icon_123pmaster.png",
+          "sha256": "fdb6d21e93e6722f",
+          "size": 1002
+        },
+        {
+          "compressed": 597,
+          "crc32": "5d250e01",
+          "path": "drawable-mdpi/notifications_images_topup.png",
+          "sha256": "723f462b1c9555ad",
+          "size": 9365
+        },
+        {
+          "compressed": 33215,
+          "crc32": "871ac7f3",
+          "path": "drawable-mdpi/about_intro_images_05_dt.png",
+          "sha256": "7a93bbb6de1e7edd",
+          "size": 33272
+        },
+        {
+          "compressed": 2913,
+          "crc32": "d06cce5a",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nonotify.png",
+          "sha256": "d5f3c2314bf4ab98",
+          "size": 2976
+        },
+        {
+          "compressed": 930,
+          "crc32": "4403e667",
+          "path": "drawable-mdpi/clearingaccount_images_icon_123peib.png",
+          "sha256": "d269d3785d80a450",
+          "size": 930
+        },
+        {
+          "compressed": 2336,
+          "crc32": "c777c9e6",
+          "path": "drawable-mdpi/registeronlinebanking_image_icoregister.png",
+          "sha256": "b259a8f2e9337da8",
+          "size": 2336
+        },
+        {
+          "compressed": 2633,
+          "crc32": "75c165fa",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_noload.png",
+          "sha256": "bb3158382774a88d",
+          "size": 2675
+        },
+        {
+          "compressed": 96,
+          "crc32": "d73e90d0",
+          "path": "drawable-mdpi/node_modules_miniapps_navigation_src_libs_stack_dist_views_assets_backicon.png",
+          "sha256": "8b61a4c7ef70dc92",
+          "size": 100
+        },
+        {
+          "compressed": 775,
+          "crc32": "3dc1e7ff",
+          "path": "drawable-mdpi/registeronlinebanking_image_linkregistericon.png",
+          "sha256": "604bc1f7139d52e0",
+          "size": 775
+        },
+        {
+          "compressed": 957,
+          "crc32": "4afe864f",
+          "path": "drawable-mdpi/notifications_images_lixi_zalo.png",
+          "sha256": "cd4f43cb06626f67",
+          "size": 9365
+        },
+        {
+          "compressed": 751,
+          "crc32": "e8c1240c",
+          "path": "drawable-mdpi/about_images_iconfeatured.png",
+          "sha256": "c0209b412fb8f340",
+          "size": 756
+        },
+        {
+          "compressed": 629,
+          "crc32": "c9611618",
+          "path": "drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_mobilecard_images_outlinecopy.png",
+          "sha256": "26893865af1dde8c",
+          "size": 640
+        },
+        {
+          "compressed": 2802,
+          "crc32": "2feb159d",
+          "path": "drawable-mdpi/notifications_updateprofileview_images_identifier.png",
+          "sha256": "0a2e55bc5dfaedc0",
+          "size": 2858
+        },
+        {
+          "compressed": 1059,
+          "crc32": "acf90d87",
+          "path": "drawable-mdpi/about_images_iconrating.png",
+          "sha256": "9173c2f3b6df1eed",
+          "size": 1059
+        },
+        {
+          "compressed": 2668,
+          "crc32": "871ea419",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nocontact.png",
+          "sha256": "ea9b92f66a34f839",
+          "size": 2730
+        },
+        {
+          "compressed": 2061,
+          "crc32": "b45c545f",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_noconnect.png",
+          "sha256": "b5c76f878354a6e7",
+          "size": 2066
+        },
+        {
+          "compressed": 1041,
+          "crc32": "fd9fb463",
+          "path": "drawable-mdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_viettel.png",
+          "sha256": "d195c95a7f54b5d1",
+          "size": 1066
+        },
+        {
+          "compressed": 2528,
+          "crc32": "f4e4f584",
+          "path": "drawable-mdpi/notifications_images_pagenoti.png",
+          "sha256": "25c11b6003d083d2",
+          "size": 2537
+        },
+        {
+          "compressed": 10271,
+          "crc32": "7ebfbfc1",
+          "path": "drawable-mdpi/transactionhistoryv2_src_screens_mainscreen_transactionlist_transactionlistempty_images_historyempty.png",
+          "sha256": "87394daaea8ac2a0",
+          "size": 10271
+        },
+        {
+          "compressed": 852,
+          "crc32": "8df5e4d1",
+          "path": "drawable-mdpi/clearingaccount_images_icon_123pbidv.png",
+          "sha256": "89b7605e3581c4de",
+          "size": 852
+        },
+        {
+          "compressed": 3207,
+          "crc32": "03ab1955",
+          "path": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_comingsoon.png",
+          "sha256": "263360271c074634",
+          "size": 3227
+        },
+        {
+          "compressed": 2246,
+          "crc32": "bed76673",
+          "path": "drawable-mdpi/notifications_images_default.png",
+          "sha256": "9fa6f5acd818de81",
+          "size": 9365
+        },
+        {
+          "compressed": 769,
+          "crc32": "38ecbb29",
+          "path": "drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_images_ic_loyalty.png",
+          "sha256": "599ed6b07c01e63b",
+          "size": 769
+        },
+        {
+          "compressed": 913,
+          "crc32": "d103d674",
+          "path": "drawable-mdpi/notifications_images_thank.png",
+          "sha256": "5364c3e310eae287",
+          "size": 9365
+        },
+        {
+          "compressed": 3717,
+          "crc32": "92ff0595",
+          "path": "drawable-xhdpi/notifications_images_educationfee.png",
+          "sha256": "4addd6f9065d675f",
+          "size": 3717
+        },
+        {
+          "compressed": 2128,
+          "crc32": "c002812a",
+          "path": "drawable-xhdpi/notifications_images_postpaid.png",
+          "sha256": "52ba73687dda5b46",
+          "size": 37102
+        },
+        {
+          "compressed": 39844,
+          "crc32": "5483a1a2",
+          "path": "drawable-xhdpi/about_intro_images_02_dt.png",
+          "sha256": "4dc8dfcbd1175342",
+          "size": 40071
+        },
+        {
+          "compressed": 2397,
+          "crc32": "25b1fbed",
+          "path": "drawable-xhdpi/notifications_images_reminder.png",
+          "sha256": "4c9d24d4461c643b",
+          "size": 37102
+        },
+        {
+          "compressed": 3671,
+          "crc32": "1afe8d70",
+          "path": "drawable-xhdpi/notifications_images_refund.png",
+          "sha256": "d72797716b7c8823",
+          "size": 37102
+        },
+        {
+          "compressed": 13643,
+          "crc32": "df9ebad6",
+          "path": "drawable-xhdpi/about_images_logoccdv.png",
+          "sha256": "d6412e1986ade8a7",
+          "size": 13643
+        },
+        {
+          "compressed": 24421,
+          "crc32": "73dca2fa",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_disconnect.png",
+          "sha256": "778f61230cd22694",
+          "size": 24432
+        },
+        {
+          "compressed": 3706,
+          "crc32": "62f15edb",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_vinaphone.png",
+          "sha256": "bec0693bdc51ca67",
+          "size": 3770
+        },
+        {
+          "compressed": 2948,
+          "crc32": "1d7d527f",
+          "path": "drawable-xhdpi/notifications_images_receive.png",
+          "sha256": "ba0d205a85cda3d0",
+          "size": 37102
+        },
+        {
+          "compressed": 5666,
+          "crc32": "55671cc2",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_errorcloud.png",
+          "sha256": "00dcf5626aadeeaf",
+          "size": 5702
+        },
+        {
+          "compressed": 4753,
+          "crc32": "6e2d9d49",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nobill.png",
+          "sha256": "34ab39d447fd6032",
+          "size": 4881
+        },
+        {
+          "compressed": 17322,
+          "crc32": "c1b89149",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_mobilecard_images_bgcard.png",
+          "sha256": "6c1cead82ab80297",
+          "size": 17409
+        },
+        {
+          "compressed": 3125,
+          "crc32": "dc4c36cc",
+          "path": "drawable-xhdpi/notifications_images_internet.png",
+          "sha256": "002c38c12523c976",
+          "size": 37102
+        },
+        {
+          "compressed": 1971,
+          "crc32": "043e1775",
+          "path": "drawable-xhdpi/clearingaccount_images_icon_123pjcb.png",
+          "sha256": "7de9d59e255143dd",
+          "size": 1971
+        },
+        {
+          "compressed": 3316,
+          "crc32": "80763a72",
+          "path": "drawable-xhdpi/notifications_images_servicescards.png",
+          "sha256": "67d5ce485d0b04c4",
+          "size": 37102
+        },
+        {
+          "compressed": 2786,
+          "crc32": "990d8119",
+          "path": "drawable-xhdpi/notifications_images_travelticket.png",
+          "sha256": "c0a5b1e27ac08077",
+          "size": 37102
+        },
+        {
+          "compressed": 2198,
+          "crc32": "e9c11925",
+          "path": "drawable-xhdpi/notifications_images_water.png",
+          "sha256": "7056d3aa0b1256e2",
+          "size": 37102
+        },
+        {
+          "compressed": 1562,
+          "crc32": "9f98e644",
+          "path": "drawable-xhdpi/registeronlinebanking_image_smsregistericon.png",
+          "sha256": "817cf451be687f54",
+          "size": 1562
+        },
+        {
+          "compressed": 2583,
+          "crc32": "e6ff3c49",
+          "path": "drawable-xhdpi/notifications_images_homestay.png",
+          "sha256": "90b9540de71dc733",
+          "size": 37102
+        },
+        {
+          "compressed": 3149,
+          "crc32": "2d14d9d5",
+          "path": "drawable-xhdpi/notifications_images_recharge.png",
+          "sha256": "36a0d5c2ccebd885",
+          "size": 3159
+        },
+        {
+          "compressed": 497,
+          "crc32": "94c46739",
+          "path": "drawable-xhdpi/about_images_arrowright.png",
+          "sha256": "1b6417b09204523c",
+          "size": 524
+        },
+        {
+          "compressed": 1948,
+          "crc32": "503135e1",
+          "path": "drawable-xhdpi/about_images_iconpolicy.png",
+          "sha256": "7b08f10745b71a49",
+          "size": 1948
+        },
+        {
+          "compressed": 1902,
+          "crc32": "44cc2ec3",
+          "path": "drawable-xhdpi/notifications_images_travel.png",
+          "sha256": "e11b73271daa1cae",
+          "size": 37102
+        },
+        {
+          "compressed": 542,
+          "crc32": "732c3101",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_success.png",
+          "sha256": "3f55af2c0d8702b7",
+          "size": 542
+        },
+        {
+          "compressed": 1670,
+          "crc32": "ee26dd73",
+          "path": "drawable-xhdpi/clearingaccount_images_icon_123pscb.png",
+          "sha256": "88ba19a2399610a4",
+          "size": 1670
+        },
+        {
+          "compressed": 840,
+          "crc32": "3d4bc6e4",
+          "path": "drawable-xhdpi/notifications_images_iconcheck.png",
+          "sha256": "d26c4238e1539735",
+          "size": 840
+        },
+        {
+          "compressed": 6147,
+          "crc32": "d6da7528",
+          "path": "drawable-xhdpi/registeronlinebanking_image_icomapcard.png",
+          "sha256": "378b056184dcff3a",
+          "size": 6147
+        },
+        {
+          "compressed": 1022,
+          "crc32": "ebcaa679",
+          "path": "drawable-xhdpi/clearingaccount_images_icon_123pvisa.png",
+          "sha256": "994dbd7d22dab98a",
+          "size": 1022
+        },
+        {
+          "compressed": 5424,
+          "crc32": "80064a52",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_emptybill.png",
+          "sha256": "74b712132aa9a0b8",
+          "size": 5544
+        },
+        {
+          "compressed": 2111,
+          "crc32": "bbabd820",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_mobifone.png",
+          "sha256": "4f559ea2a454ad4d",
+          "size": 2259
+        },
+        {
+          "compressed": 133,
+          "crc32": "cffc8400",
+          "path": "drawable-xhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png",
+          "sha256": "906666dd689346ad",
+          "size": 134
+        },
+        {
+          "compressed": 3519,
+          "crc32": "a61b3a21",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_vietnamobile.png",
+          "sha256": "626cad22ab144079",
+          "size": 3619
+        },
+        {
+          "compressed": 5754,
+          "crc32": "81686963",
+          "path": "drawable-xhdpi/about_images_logosquare.png",
+          "sha256": "ddea37ea8443ffca",
+          "size": 5754
+        },
+        {
+          "compressed": 69437,
+          "crc32": "b9e54bf4",
+          "path": "drawable-xhdpi/about_intro_images_04_dt.png",
+          "sha256": "3eb7764fab509c3b",
+          "size": 69440
+        },
+        {
+          "compressed": 24519,
+          "crc32": "01da7133",
+          "path": "drawable-xhdpi/notifications_images_header_header2022x.png",
+          "sha256": "68e377afd40cd7f7",
+          "size": 25279
+        },
+        {
+          "compressed": 21621,
+          "crc32": "94addd23",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_components_header_images_header2022.png",
+          "sha256": "07b9411e8a7d7b00",
+          "size": 22132
+        },
+        {
+          "compressed": 2183,
+          "crc32": "e376001b",
+          "path": "drawable-xhdpi/clearingaccount_images_icon_zpvcb.png",
+          "sha256": "777ee943fadda053",
+          "size": 2190
+        },
+        {
+          "compressed": 2582,
+          "crc32": "00c52983",
+          "path": "drawable-xhdpi/notifications_images_withdraw.png",
+          "sha256": "2c92e1c60a78c78e",
+          "size": 37102
+        },
+        {
+          "compressed": 75824,
+          "crc32": "ee8e512a",
+          "path": "drawable-xhdpi/about_intro_images_bg1.jpg",
+          "sha256": "967792654d369b12",
+          "size": 76944
+        },
+        {
+          "compressed": 4437,
+          "crc32": "c22c4273",
+          "path": "drawable-xhdpi/notifications_images_transfer.png",
+          "sha256": "fe9bbd5ff1c3f9b4",
+          "size": 37102
+        },
+        {
+          "compressed": 6787,
+          "crc32": "feedb519",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_maintenance.png",
+          "sha256": "90a1e4a2b050fa25",
+          "size": 6810
+        },
+        {
+          "compressed": 567,
+          "crc32": "ffce34d3",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_moreinformation.png",
+          "sha256": "87f46340fea7116a",
+          "size": 567
+        },
+        {
+          "compressed": 1519,
+          "crc32": "29bdbf41",
+          "path": "drawable-xhdpi/notifications_images_mobilecard.png",
+          "sha256": "510856c09fecde22",
+          "size": 37102
+        },
+        {
+          "compressed": 159,
+          "crc32": "4053f035",
+          "path": "drawable-xhdpi/node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png",
+          "sha256": "04a9f0e404531e83",
+          "size": 159
+        },
+        {
+          "compressed": 869,
+          "crc32": "b2964156",
+          "path": "drawable-xhdpi/notifications_images_tivi.png",
+          "sha256": "b5088e4908dffefe",
+          "size": 37102
+        },
+        {
+          "compressed": 13403,
+          "crc32": "f730c4d1",
+          "path": "drawable-xhdpi/components_loadingview_images_loadingdata.png",
+          "sha256": "858dc507aaef5591",
+          "size": 14264
+        },
+        {
+          "compressed": 21621,
+          "crc32": "94addd23",
+          "path": "drawable-xhdpi/notifications_images_header_header2022.png",
+          "sha256": "07b9411e8a7d7b00",
+          "size": 22132
+        },
+        {
+          "compressed": 2615,
+          "crc32": "7e0f055d",
+          "path": "drawable-xhdpi/notifications_images_services.png",
+          "sha256": "18eda52e7b428a70",
+          "size": 37102
+        },
+        {
+          "compressed": 2325,
+          "crc32": "be700db3",
+          "path": "drawable-xhdpi/notifications_images_electric.png",
+          "sha256": "a8f3315ab9127b72",
+          "size": 37102
+        },
+        {
+          "compressed": 443,
+          "crc32": "93bf7541",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_images_arrowright.png",
+          "sha256": "7c7850009791583d",
+          "size": 443
+        },
+        {
+          "compressed": 6706,
+          "crc32": "afbd9579",
+          "path": "drawable-xhdpi/registeronlinebanking_image_icosms.png",
+          "sha256": "dcc5efc9c56969bb",
+          "size": 6706
+        },
+        {
+          "compressed": 2427,
+          "crc32": "7ef1f08d",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_empty_recent_topup.png",
+          "sha256": "4f29e385174f50b0",
+          "size": 2438
+        },
+        {
+          "compressed": 507,
+          "crc32": "5799b7ab",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_failed.png",
+          "sha256": "cc8056bd1ad38284",
+          "size": 507
+        },
+        {
+          "compressed": 39331,
+          "crc32": "7cc9c5c8",
+          "path": "drawable-xhdpi/about_intro_images_03_dt.png",
+          "sha256": "72e1dea72c1c42b2",
+          "size": 39548
+        },
+        {
+          "compressed": 1142,
+          "crc32": "129c4205",
+          "path": "drawable-xhdpi/clearingaccount_images_icon_123psgcb.png",
+          "sha256": "004f5ca19a4133ae",
+          "size": 1314
+        },
+        {
+          "compressed": 1793,
+          "crc32": "3b3c8772",
+          "path": "drawable-xhdpi/clearingaccount_images_icon_123pvtb.png",
+          "sha256": "8915cf420c0aa5d1",
+          "size": 1808
+        },
+        {
+          "compressed": 24519,
+          "crc32": "01da7133",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_components_header_images_header2022x.png",
+          "sha256": "68e377afd40cd7f7",
+          "size": 25279
+        },
+        {
+          "compressed": 2178,
+          "crc32": "e14e06c3",
+          "path": "drawable-xhdpi/about_images_iconoperation.png",
+          "sha256": "897c5d9c6c65e57a",
+          "size": 2178
+        },
+        {
+          "compressed": 1417,
+          "crc32": "3a276ba8",
+          "path": "drawable-xhdpi/notifications_images_quickpay.png",
+          "sha256": "bd5f2b4220938d60",
+          "size": 37102
+        },
+        {
+          "compressed": 29535,
+          "crc32": "b5b3f141",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_app_errorcontent_images_errorpage.png",
+          "sha256": "832a7fe7bc8f3e03",
+          "size": 29535
+        },
+        {
+          "compressed": 265,
+          "crc32": "5b0bb3d8",
+          "path": "drawable-xhdpi/node_modules_reactnativecheckbox_img_ic_check_box.png",
+          "sha256": "06b31fdbee24fdbf",
+          "size": 265
+        },
+        {
+          "compressed": 31439,
+          "crc32": "46953bc1",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_components_transactionloaderror_images_transactionhistoryerror.png",
+          "sha256": "00fba1fc41758552",
+          "size": 31439
+        },
+        {
+          "compressed": 2442,
+          "crc32": "9891a8da",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_gmobile.png",
+          "sha256": "275ce4799c1a942a",
+          "size": 2550
+        },
+        {
+          "compressed": 624,
+          "crc32": "51d4e98a",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_processing.png",
+          "sha256": "a276b7c15036a93e",
+          "size": 624
+        },
+        {
+          "compressed": 29472,
+          "crc32": "854a5886",
+          "path": "drawable-xhdpi/about_intro_images_01_dt.png",
+          "sha256": "b9c70d63eddd79ee",
+          "size": 30134
+        },
+        {
+          "compressed": 969,
+          "crc32": "d2939fd3",
+          "path": "drawable-xhdpi/notifications_images_credit.png",
+          "sha256": "e012cdb4a92bbafd",
+          "size": 37102
+        },
+        {
+          "compressed": 2822,
+          "crc32": "30badfa0",
+          "path": "drawable-xhdpi/notifications_images_open_lixi.png",
+          "sha256": "078bb35fe219dc72",
+          "size": 37102
+        },
+        {
+          "compressed": 4360,
+          "crc32": "3db3e858",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nodeal.png",
+          "sha256": "e0b3de15fcf6d508",
+          "size": 4479
+        },
+        {
+          "compressed": 2141,
+          "crc32": "3492386e",
+          "path": "drawable-xhdpi/notifications_images_addcard.png",
+          "sha256": "77451573eb61c7fb",
+          "size": 37102
+        },
+        {
+          "compressed": 575,
+          "crc32": "365d0f7c",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_mobilecard_images_close.png",
+          "sha256": "9eb7c58f53bcbaa7",
+          "size": 575
+        },
+        {
+          "compressed": 2893,
+          "crc32": "a4f7d1ee",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_components_transactionicon_images_ictransactiondefault.png",
+          "sha256": "fd0b09fa3e1ad217",
+          "size": 37102
+        },
+        {
+          "compressed": 1213,
+          "crc32": "20e1d3a5",
+          "path": "drawable-xhdpi/notifications_images_apartment.png",
+          "sha256": "b293eda9efc724ce",
+          "size": 1228
+        },
+        {
+          "compressed": 2889,
+          "crc32": "f9882123",
+          "path": "drawable-xhdpi/notifications_images_lixi.png",
+          "sha256": "dea13ad7da9f2518",
+          "size": 37102
+        },
+        {
+          "compressed": 10515,
+          "crc32": "bacdc55f",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_emptysplitmoney.png",
+          "sha256": "a9457d9b9e898b4e",
+          "size": 10616
+        },
+        {
+          "compressed": 5930,
+          "crc32": "038abdba",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_processing.png",
+          "sha256": "72d24292c0f6b605",
+          "size": 6039
+        },
+        {
+          "compressed": 6142,
+          "crc32": "d7d8a919",
+          "path": "drawable-xhdpi/notifications_images_notify.png",
+          "sha256": "301feb2e4e32feeb",
+          "size": 6142
+        },
+        {
+          "compressed": 3759,
+          "crc32": "3e3838a4",
+          "path": "drawable-xhdpi/notifications_images_consumerloan.png",
+          "sha256": "efa319421414c316",
+          "size": 3759
+        },
+        {
+          "compressed": 11914,
+          "crc32": "5cfba020",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_unsupport.png",
+          "sha256": "df1eebddddd16054",
+          "size": 12096
+        },
+        {
+          "compressed": 1458,
+          "crc32": "bdafcb71",
+          "path": "drawable-xhdpi/notifications_images_data.png",
+          "sha256": "84aea5717fa8d284",
+          "size": 37102
+        },
+        {
+          "compressed": 1544,
+          "crc32": "cfe440f2",
+          "path": "drawable-xhdpi/clearingaccount_images_icon_123pmaster.png",
+          "sha256": "63a10e37fa9923eb",
+          "size": 1793
+        },
+        {
+          "compressed": 1096,
+          "crc32": "34ab3a50",
+          "path": "drawable-xhdpi/notifications_images_topup.png",
+          "sha256": "1b42cfac9680ac55",
+          "size": 37102
+        },
+        {
+          "compressed": 48751,
+          "crc32": "33420a74",
+          "path": "drawable-xhdpi/about_intro_images_05_dt.png",
+          "sha256": "d11facd2d5de2491",
+          "size": 48861
+        },
+        {
+          "compressed": 5054,
+          "crc32": "b120e899",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nonotify.png",
+          "sha256": "973f773b3ed8ec6e",
+          "size": 5170
+        },
+        {
+          "compressed": 1742,
+          "crc32": "d36d8210",
+          "path": "drawable-xhdpi/clearingaccount_images_icon_123peib.png",
+          "sha256": "f24103baebbbfec4",
+          "size": 1770
+        },
+        {
+          "compressed": 4832,
+          "crc32": "1b144f48",
+          "path": "drawable-xhdpi/registeronlinebanking_image_icoregister.png",
+          "sha256": "854b1924bb73397e",
+          "size": 4859
+        },
+        {
+          "compressed": 4574,
+          "crc32": "fd49d26c",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_noload.png",
+          "sha256": "3927e919914aceef",
+          "size": 4669
+        },
+        {
+          "compressed": 133,
+          "crc32": "cffc8400",
+          "path": "drawable-xhdpi/node_modules_miniapps_navigation_src_libs_stack_dist_views_assets_backicon.png",
+          "sha256": "906666dd689346ad",
+          "size": 134
+        },
+        {
+          "compressed": 1414,
+          "crc32": "d04cc309",
+          "path": "drawable-xhdpi/registeronlinebanking_image_linkregistericon.png",
+          "sha256": "7035151f3f7ae68a",
+          "size": 1414
+        },
+        {
+          "compressed": 1919,
+          "crc32": "1ab9834b",
+          "path": "drawable-xhdpi/notifications_images_lixi_zalo.png",
+          "sha256": "7c3bb1bd74f21335",
+          "size": 37102
+        },
+        {
+          "compressed": 1495,
+          "crc32": "eb2be6de",
+          "path": "drawable-xhdpi/about_images_iconfeatured.png",
+          "sha256": "659f37447e904547",
+          "size": 1495
+        },
+        {
+          "compressed": 992,
+          "crc32": "ac8e0509",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_mobilecard_images_outlinecopy.png",
+          "sha256": "51ca3964a4a21e6b",
+          "size": 992
+        },
+        {
+          "compressed": 4878,
+          "crc32": "3c2f7c66",
+          "path": "drawable-xhdpi/notifications_updateprofileview_images_identifier.png",
+          "sha256": "a124600b6c358ce2",
+          "size": 4954
+        },
+        {
+          "compressed": 2502,
+          "crc32": "a207a814",
+          "path": "drawable-xhdpi/about_images_iconrating.png",
+          "sha256": "a3a26838a47247a0",
+          "size": 2502
+        },
+        {
+          "compressed": 4717,
+          "crc32": "b70d2d5e",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nocontact.png",
+          "sha256": "33b48beeb9a0c390",
+          "size": 4803
+        },
+        {
+          "compressed": 3436,
+          "crc32": "b8323017",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_noconnect.png",
+          "sha256": "aaba08286de1cc6e",
+          "size": 3491
+        },
+        {
+          "compressed": 2190,
+          "crc32": "4444adda",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_viettel.png",
+          "sha256": "4b046cdc00c27502",
+          "size": 2332
+        },
+        {
+          "compressed": 4379,
+          "crc32": "a1d3b027",
+          "path": "drawable-xhdpi/notifications_images_pagenoti.png",
+          "sha256": "68ca29ea26e7382e",
+          "size": 4423
+        },
+        {
+          "compressed": 31149,
+          "crc32": "f54333b1",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_screens_mainscreen_transactionlist_transactionlistempty_images_historyempty.png",
+          "sha256": "c189d08803eba4af",
+          "size": 31149
+        },
+        {
+          "compressed": 1360,
+          "crc32": "8792fabe",
+          "path": "drawable-xhdpi/clearingaccount_images_icon_123pbidv.png",
+          "sha256": "075b23fd5c6eb58f",
+          "size": 1360
+        },
+        {
+          "compressed": 5586,
+          "crc32": "5fccf779",
+          "path": "drawable-xhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_comingsoon.png",
+          "sha256": "62ff3d479a0a6722",
+          "size": 5622
+        },
+        {
+          "compressed": 4573,
+          "crc32": "b6cd0a2f",
+          "path": "drawable-xhdpi/notifications_images_default.png",
+          "sha256": "f5958223c1db6c55",
+          "size": 37102
+        },
+        {
+          "compressed": 1405,
+          "crc32": "0b7b3f63",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_images_ic_loyalty.png",
+          "sha256": "23d5ada2591a1b2c",
+          "size": 1405
+        },
+        {
+          "compressed": 1823,
+          "crc32": "db70b81c",
+          "path": "drawable-xhdpi/notifications_images_thank.png",
+          "sha256": "8955ec7abb888584",
+          "size": 37102
+        },
+        {
+          "compressed": 5594,
+          "crc32": "4cfa25de",
+          "path": "drawable-xxhdpi/notifications_images_educationfee.png",
+          "sha256": "023734f94815ce07",
+          "size": 5608
+        },
+        {
+          "compressed": 3251,
+          "crc32": "18d1e84c",
+          "path": "drawable-xxhdpi/notifications_images_postpaid.png",
+          "sha256": "ef7b6cb7dec5715d",
+          "size": 83307
+        },
+        {
+          "compressed": 59500,
+          "crc32": "3b8bf535",
+          "path": "drawable-xxhdpi/about_intro_images_02_dt.png",
+          "sha256": "421a17cdbfccd220",
+          "size": 60084
+        },
+        {
+          "compressed": 3536,
+          "crc32": "4daac7fd",
+          "path": "drawable-xxhdpi/notifications_images_reminder.png",
+          "sha256": "275b4bd0edbc378e",
+          "size": 83307
+        },
+        {
+          "compressed": 5735,
+          "crc32": "b749a00a",
+          "path": "drawable-xxhdpi/notifications_images_refund.png",
+          "sha256": "f767dc58437fea19",
+          "size": 83307
+        },
+        {
+          "compressed": 24093,
+          "crc32": "2a2bbd7d",
+          "path": "drawable-xxhdpi/about_images_logoccdv.png",
+          "sha256": "3884d6da97fb50f5",
+          "size": 24093
+        },
+        {
+          "compressed": 38648,
+          "crc32": "a00e5591",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_disconnect.png",
+          "sha256": "af7e04a23356ffe2",
+          "size": 38853
+        },
+        {
+          "compressed": 5835,
+          "crc32": "29f95591",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_vinaphone.png",
+          "sha256": "56b632bd9af0edd5",
+          "size": 6049
+        },
+        {
+          "compressed": 4532,
+          "crc32": "231bc577",
+          "path": "drawable-xxhdpi/notifications_images_receive.png",
+          "sha256": "0d1bd8c927156cae",
+          "size": 83307
+        },
+        {
+          "compressed": 8211,
+          "crc32": "e75f2632",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_errorcloud.png",
+          "sha256": "e3e8198275d2614c",
+          "size": 8281
+        },
+        {
+          "compressed": 6548,
+          "crc32": "54224292",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nobill.png",
+          "sha256": "8f038dd1293289a4",
+          "size": 6751
+        },
+        {
+          "compressed": 28096,
+          "crc32": "c18dc86d",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_mobilecard_images_bgcard.png",
+          "sha256": "e6c6cd5e72b9690e",
+          "size": 28176
+        },
+        {
+          "compressed": 4699,
+          "crc32": "402c6641",
+          "path": "drawable-xxhdpi/notifications_images_internet.png",
+          "sha256": "a3372771851c8580",
+          "size": 83307
+        },
+        {
+          "compressed": 1905,
+          "crc32": "bd1bf9ed",
+          "path": "drawable-xxhdpi/clearingaccount_images_icon_123pjcb.png",
+          "sha256": "b3fe4e949a0bceac",
+          "size": 1905
+        },
+        {
+          "compressed": 5004,
+          "crc32": "9e85dc4a",
+          "path": "drawable-xxhdpi/notifications_images_servicescards.png",
+          "sha256": "4dcb3053655eff68",
+          "size": 83307
+        },
+        {
+          "compressed": 4119,
+          "crc32": "225be7b3",
+          "path": "drawable-xxhdpi/notifications_images_travelticket.png",
+          "sha256": "12ceedba08137809",
+          "size": 83307
+        },
+        {
+          "compressed": 3389,
+          "crc32": "171f4548",
+          "path": "drawable-xxhdpi/notifications_images_water.png",
+          "sha256": "a36260cb540056c4",
+          "size": 83307
+        },
+        {
+          "compressed": 2284,
+          "crc32": "ee633c63",
+          "path": "drawable-xxhdpi/registeronlinebanking_image_smsregistericon.png",
+          "sha256": "f2ba73a9b047068d",
+          "size": 2284
+        },
+        {
+          "compressed": 3747,
+          "crc32": "36c86b9b",
+          "path": "drawable-xxhdpi/notifications_images_homestay.png",
+          "sha256": "91676d09ce5b32fb",
+          "size": 83307
+        },
+        {
+          "compressed": 4790,
+          "crc32": "8c77ebce",
+          "path": "drawable-xxhdpi/notifications_images_recharge.png",
+          "sha256": "94f39ad5ad84e162",
+          "size": 4860
+        },
+        {
+          "compressed": 721,
+          "crc32": "243f2a83",
+          "path": "drawable-xxhdpi/about_images_arrowright.png",
+          "sha256": "c5d27c678f3d65c2",
+          "size": 739
+        },
+        {
+          "compressed": 2942,
+          "crc32": "ce5fe475",
+          "path": "drawable-xxhdpi/about_images_iconpolicy.png",
+          "sha256": "c6c55c9f0aebf9ac",
+          "size": 2942
+        },
+        {
+          "compressed": 2858,
+          "crc32": "d15a08b4",
+          "path": "drawable-xxhdpi/notifications_images_travel.png",
+          "sha256": "a28a3db5dc6e2c31",
+          "size": 83307
+        },
+        {
+          "compressed": 877,
+          "crc32": "80dc98d9",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_success.png",
+          "sha256": "7512a94999b418e4",
+          "size": 877
+        },
+        {
+          "compressed": 1412,
+          "crc32": "89b3f929",
+          "path": "drawable-xxhdpi/clearingaccount_images_icon_123pscb.png",
+          "sha256": "13e68f837b6cf799",
+          "size": 1412
+        },
+        {
+          "compressed": 1270,
+          "crc32": "a6500d96",
+          "path": "drawable-xxhdpi/notifications_images_iconcheck.png",
+          "sha256": "928e67693f95d616",
+          "size": 1270
+        },
+        {
+          "compressed": 9237,
+          "crc32": "16a90ef8",
+          "path": "drawable-xxhdpi/registeronlinebanking_image_icomapcard.png",
+          "sha256": "5d052b10c3e554a4",
+          "size": 9446
+        },
+        {
+          "compressed": 1480,
+          "crc32": "226d45f8",
+          "path": "drawable-xxhdpi/clearingaccount_images_icon_123pvisa.png",
+          "sha256": "6c8fe1278ae1a17e",
+          "size": 1484
+        },
+        {
+          "compressed": 7709,
+          "crc32": "5acd215c",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_emptybill.png",
+          "sha256": "ca2336a39684e138",
+          "size": 7925
+        },
+        {
+          "compressed": 3474,
+          "crc32": "af1bc996",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_mobifone.png",
+          "sha256": "449b447193c48ada",
+          "size": 3851
+        },
+        {
+          "compressed": 161,
+          "crc32": "cafac07b",
+          "path": "drawable-xxhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png",
+          "sha256": "ffa7ee45b76405ba",
+          "size": 167
+        },
+        {
+          "compressed": 5600,
+          "crc32": "8fb04f34",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_vietnamobile.png",
+          "sha256": "68df305d1b185d9a",
+          "size": 5887
+        },
+        {
+          "compressed": 8534,
+          "crc32": "0fcfdf12",
+          "path": "drawable-xxhdpi/about_images_logosquare.png",
+          "sha256": "7bcb27e6a33e4971",
+          "size": 8645
+        },
+        {
+          "compressed": 121166,
+          "crc32": "8d0f81ce",
+          "path": "drawable-xxhdpi/about_intro_images_04_dt.png",
+          "sha256": "cb00fd7457cb066c",
+          "size": 121275
+        },
+        {
+          "compressed": 45880,
+          "crc32": "92e68716",
+          "path": "drawable-xxhdpi/notifications_images_header_header2022x.png",
+          "sha256": "57d388f5b3c9db6f",
+          "size": 47254
+        },
+        {
+          "compressed": 41037,
+          "crc32": "4ddfc2a2",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_components_header_images_header2022.png",
+          "sha256": "b29e3ac9f92ba670",
+          "size": 42154
+        },
+        {
+          "compressed": 3000,
+          "crc32": "74b77a53",
+          "path": "drawable-xxhdpi/clearingaccount_images_icon_zpvcb.png",
+          "sha256": "41bd84a4895728d1",
+          "size": 3004
+        },
+        {
+          "compressed": 3753,
+          "crc32": "62e68092",
+          "path": "drawable-xxhdpi/notifications_images_withdraw.png",
+          "sha256": "f73a68cc9637cc12",
+          "size": 83307
+        },
+        {
+          "compressed": 107846,
+          "crc32": "e83631ac",
+          "path": "drawable-xxhdpi/about_intro_images_bg1.jpg",
+          "sha256": "80f97f4fb505945c",
+          "size": 110895
+        },
+        {
+          "compressed": 6751,
+          "crc32": "12fdeac4",
+          "path": "drawable-xxhdpi/notifications_images_transfer.png",
+          "sha256": "bf6a908e8b88f484",
+          "size": 83307
+        },
+        {
+          "compressed": 10149,
+          "crc32": "848c8f52",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_maintenance.png",
+          "sha256": "e72dd023a909ee54",
+          "size": 10207
+        },
+        {
+          "compressed": 857,
+          "crc32": "aa4a4952",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_moreinformation.png",
+          "sha256": "66317171dc8a4d49",
+          "size": 857
+        },
+        {
+          "compressed": 2302,
+          "crc32": "c9aa973f",
+          "path": "drawable-xxhdpi/notifications_images_mobilecard.png",
+          "sha256": "c8e359adfd918040",
+          "size": 83307
+        },
+        {
+          "compressed": 208,
+          "crc32": "bf9a159e",
+          "path": "drawable-xxhdpi/node_modules_reactnativecheckbox_img_ic_check_box_outline_blank.png",
+          "sha256": "b880634b2f5262f3",
+          "size": 218
+        },
+        {
+          "compressed": 1297,
+          "crc32": "d1d1c869",
+          "path": "drawable-xxhdpi/notifications_images_tivi.png",
+          "sha256": "900683adc6d23a88",
+          "size": 83307
+        },
+        {
+          "compressed": 13738,
+          "crc32": "65fbf0ae",
+          "path": "drawable-xxhdpi/components_loadingview_images_loadingdata.png",
+          "sha256": "755bb690bfd423cb",
+          "size": 14123
+        },
+        {
+          "compressed": 41037,
+          "crc32": "4ddfc2a2",
+          "path": "drawable-xxhdpi/notifications_images_header_header2022.png",
+          "sha256": "b29e3ac9f92ba670",
+          "size": 42154
+        },
+        {
+          "compressed": 3928,
+          "crc32": "297d39ae",
+          "path": "drawable-xxhdpi/notifications_images_services.png",
+          "sha256": "8341eb8be25687c7",
+          "size": 83307
+        },
+        {
+          "compressed": 3510,
+          "crc32": "fdb8b104",
+          "path": "drawable-xxhdpi/notifications_images_electric.png",
+          "sha256": "a1dc32446145b10b",
+          "size": 83307
+        },
+        {
+          "compressed": 657,
+          "crc32": "13ee26fa",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_images_arrowright.png",
+          "sha256": "bd2c092253b80e90",
+          "size": 657
+        },
+        {
+          "compressed": 10007,
+          "crc32": "b683fbda",
+          "path": "drawable-xxhdpi/registeronlinebanking_image_icosms.png",
+          "sha256": "fa7b43a8669d0d51",
+          "size": 10007
+        },
+        {
+          "compressed": 3329,
+          "crc32": "cd51c05b",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_empty_recent_topup.png",
+          "sha256": "26e240ce53af318c",
+          "size": 3386
+        },
+        {
+          "compressed": 792,
+          "crc32": "f0de1340",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_failed.png",
+          "sha256": "12820fd1033612af",
+          "size": 792
+        },
+        {
+          "compressed": 58042,
+          "crc32": "9c0e10a2",
+          "path": "drawable-xxhdpi/about_intro_images_03_dt.png",
+          "sha256": "219c3d66a3d86545",
+          "size": 58595
+        },
+        {
+          "compressed": 1592,
+          "crc32": "7a37a314",
+          "path": "drawable-xxhdpi/clearingaccount_images_icon_123psgcb.png",
+          "sha256": "9c55302e3c5ce5f5",
+          "size": 1742
+        },
+        {
+          "compressed": 1189,
+          "crc32": "949659f1",
+          "path": "drawable-xxhdpi/clearingaccount_images_icon_123pvtb.png",
+          "sha256": "80e9bf07dd4afea6",
+          "size": 1288
+        },
+        {
+          "compressed": 45880,
+          "crc32": "92e68716",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_components_header_images_header2022x.png",
+          "sha256": "57d388f5b3c9db6f",
+          "size": 47254
+        },
+        {
+          "compressed": 3310,
+          "crc32": "4904751d",
+          "path": "drawable-xxhdpi/about_images_iconoperation.png",
+          "sha256": "c26b46b7308ea5d7",
+          "size": 3310
+        },
+        {
+          "compressed": 2160,
+          "crc32": "35526d62",
+          "path": "drawable-xxhdpi/notifications_images_quickpay.png",
+          "sha256": "e4fa5b1239832b7a",
+          "size": 83307
+        },
+        {
+          "compressed": 56198,
+          "crc32": "b0aea5bf",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_app_errorcontent_images_errorpage.png",
+          "sha256": "de0f4d3b8ea624b2",
+          "size": 56292
+        },
+        {
+          "compressed": 388,
+          "crc32": "bb8cc312",
+          "path": "drawable-xxhdpi/node_modules_reactnativecheckbox_img_ic_check_box.png",
+          "sha256": "58b0914817b4f69a",
+          "size": 388
+        },
+        {
+          "compressed": 61172,
+          "crc32": "bb3f81ce",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_components_transactionloaderror_images_transactionhistoryerror.png",
+          "sha256": "82a66f631cf47c25",
+          "size": 61249
+        },
+        {
+          "compressed": 3877,
+          "crc32": "754d3c08",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_gmobile.png",
+          "sha256": "660ea06a3dc80351",
+          "size": 4175
+        },
+        {
+          "compressed": 981,
+          "crc32": "61a377f7",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_processing.png",
+          "sha256": "3033b05dcb1d8350",
+          "size": 981
+        },
+        {
+          "compressed": 44589,
+          "crc32": "ae01429b",
+          "path": "drawable-xxhdpi/about_intro_images_01_dt.png",
+          "sha256": "992443b5b4c5bc6a",
+          "size": 46444
+        },
+        {
+          "compressed": 1458,
+          "crc32": "0ec93d0c",
+          "path": "drawable-xxhdpi/notifications_images_credit.png",
+          "sha256": "f1eb40476572eea7",
+          "size": 83307
+        },
+        {
+          "compressed": 4329,
+          "crc32": "a31fffa9",
+          "path": "drawable-xxhdpi/notifications_images_open_lixi.png",
+          "sha256": "be367a19e1946829",
+          "size": 83307
+        },
+        {
+          "compressed": 5962,
+          "crc32": "2384d363",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nodeal.png",
+          "sha256": "c331cf74f02df7f8",
+          "size": 6192
+        },
+        {
+          "compressed": 3281,
+          "crc32": "499cf5b6",
+          "path": "drawable-xxhdpi/notifications_images_addcard.png",
+          "sha256": "74803cb892b6a438",
+          "size": 83307
+        },
+        {
+          "compressed": 713,
+          "crc32": "db631d2d",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_mobilecard_images_close.png",
+          "sha256": "ebe2885d7b89d0c7",
+          "size": 713
+        },
+        {
+          "compressed": 4735,
+          "crc32": "4cd74c28",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_components_transactionicon_images_ictransactiondefault.png",
+          "sha256": "74499d5587db0c16",
+          "size": 83307
+        },
+        {
+          "compressed": 1449,
+          "crc32": "4404ab58",
+          "path": "drawable-xxhdpi/notifications_images_apartment.png",
+          "sha256": "c84bc6ab44440fc3",
+          "size": 1621
+        },
+        {
+          "compressed": 4419,
+          "crc32": "75db4f46",
+          "path": "drawable-xxhdpi/notifications_images_lixi.png",
+          "sha256": "0660b3ec25d46010",
+          "size": 83307
+        },
+        {
+          "compressed": 15853,
+          "crc32": "c6ed7ca3",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_emptysplitmoney.png",
+          "sha256": "a10ea4a21d50a430",
+          "size": 16512
+        },
+        {
+          "compressed": 8448,
+          "crc32": "a1b44c7d",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_processing.png",
+          "sha256": "e65eb016092d8276",
+          "size": 8577
+        },
+        {
+          "compressed": 9187,
+          "crc32": "39d7927f",
+          "path": "drawable-xxhdpi/notifications_images_notify.png",
+          "sha256": "1556ad18255c87cc",
+          "size": 9187
+        },
+        {
+          "compressed": 5795,
+          "crc32": "bc10a287",
+          "path": "drawable-xxhdpi/notifications_images_consumerloan.png",
+          "sha256": "d7d45e600c227d6c",
+          "size": 5859
+        },
+        {
+          "compressed": 18628,
+          "crc32": "e4f2e72f",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_unsupport.png",
+          "sha256": "8e00bf9dc57c3c71",
+          "size": 19521
+        },
+        {
+          "compressed": 2093,
+          "crc32": "705f2e02",
+          "path": "drawable-xxhdpi/notifications_images_data.png",
+          "sha256": "2cce0f09d73b18c2",
+          "size": 83307
+        },
+        {
+          "compressed": 2094,
+          "crc32": "66c5683d",
+          "path": "drawable-xxhdpi/clearingaccount_images_icon_123pmaster.png",
+          "sha256": "f631fe907d072116",
+          "size": 2353
+        },
+        {
+          "compressed": 1658,
+          "crc32": "68ac5f7d",
+          "path": "drawable-xxhdpi/notifications_images_topup.png",
+          "sha256": "4e472eb5c3ed20b6",
+          "size": 83307
+        },
+        {
+          "compressed": 74564,
+          "crc32": "3f892fef",
+          "path": "drawable-xxhdpi/about_intro_images_05_dt.png",
+          "sha256": "42a4f22bbbfc474c",
+          "size": 74934
+        },
+        {
+          "compressed": 7173,
+          "crc32": "7f955924",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nonotify.png",
+          "sha256": "76b5deb17d30baa9",
+          "size": 7333
+        },
+        {
+          "compressed": 1237,
+          "crc32": "70df556f",
+          "path": "drawable-xxhdpi/clearingaccount_images_icon_123peib.png",
+          "sha256": "a0dbc7288dfd9004",
+          "size": 1290
+        },
+        {
+          "compressed": 7342,
+          "crc32": "780e412f",
+          "path": "drawable-xxhdpi/registeronlinebanking_image_icoregister.png",
+          "sha256": "87e37863ac9c1b92",
+          "size": 7555
+        },
+        {
+          "compressed": 6444,
+          "crc32": "bf591a07",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_noload.png",
+          "sha256": "0b9c661982e02b1c",
+          "size": 6681
+        },
+        {
+          "compressed": 161,
+          "crc32": "cafac07b",
+          "path": "drawable-xxhdpi/node_modules_miniapps_navigation_src_libs_stack_dist_views_assets_backicon.png",
+          "sha256": "ffa7ee45b76405ba",
+          "size": 167
+        },
+        {
+          "compressed": 1942,
+          "crc32": "bcf176ac",
+          "path": "drawable-xxhdpi/registeronlinebanking_image_linkregistericon.png",
+          "sha256": "e87220142967d6c0",
+          "size": 1942
+        },
+        {
+          "compressed": 2869,
+          "crc32": "ce71dff3",
+          "path": "drawable-xxhdpi/notifications_images_lixi_zalo.png",
+          "sha256": "efffa0c8cbc8ff2d",
+          "size": 83307
+        },
+        {
+          "compressed": 2157,
+          "crc32": "14106550",
+          "path": "drawable-xxhdpi/about_images_iconfeatured.png",
+          "sha256": "616641473323b479",
+          "size": 2157
+        },
+        {
+          "compressed": 1273,
+          "crc32": "8c35ae79",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_mobilecard_images_outlinecopy.png",
+          "sha256": "edd1b49fc61b5f26",
+          "size": 1273
+        },
+        {
+          "compressed": 6911,
+          "crc32": "5d1a4541",
+          "path": "drawable-xxhdpi/notifications_updateprofileview_images_identifier.png",
+          "sha256": "9ff782fd1c4f46ab",
+          "size": 7007
+        },
+        {
+          "compressed": 3847,
+          "crc32": "67149b6d",
+          "path": "drawable-xxhdpi/about_images_iconrating.png",
+          "sha256": "b1543b95a82be75d",
+          "size": 3847
+        },
+        {
+          "compressed": 6898,
+          "crc32": "b22eda0e",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nocontact.png",
+          "sha256": "a3edfba0f7943611",
+          "size": 7060
+        },
+        {
+          "compressed": 4791,
+          "crc32": "20310578",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_noconnect.png",
+          "sha256": "055e82b52ee8b920",
+          "size": 5027
+        },
+        {
+          "compressed": 3280,
+          "crc32": "fc640284",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_viettel.png",
+          "sha256": "d7cd6a2de9030237",
+          "size": 3645
+        },
+        {
+          "compressed": 6262,
+          "crc32": "0118b8d9",
+          "path": "drawable-xxhdpi/notifications_images_pagenoti.png",
+          "sha256": "2cf92b4503a5804d",
+          "size": 6400
+        },
+        {
+          "compressed": 60804,
+          "crc32": "eec35a68",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_screens_mainscreen_transactionlist_transactionlistempty_images_historyempty.png",
+          "sha256": "a58b7a7ca212edb8",
+          "size": 60943
+        },
+        {
+          "compressed": 947,
+          "crc32": "8546dd6f",
+          "path": "drawable-xxhdpi/clearingaccount_images_icon_123pbidv.png",
+          "sha256": "6f433ccf63dae559",
+          "size": 1027
+        },
+        {
+          "compressed": 8008,
+          "crc32": "03ec33fd",
+          "path": "drawable-xxhdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_comingsoon.png",
+          "sha256": "dee7b5314319dbb9",
+          "size": 8140
+        },
+        {
+          "compressed": 7213,
+          "crc32": "a9b386ec",
+          "path": "drawable-xxhdpi/notifications_images_default.png",
+          "sha256": "592dd93f89e432b6",
+          "size": 83307
+        },
+        {
+          "compressed": 2119,
+          "crc32": "488d5511",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_screens_transactiondetailscreen_images_ic_loyalty.png",
+          "sha256": "7691eb4244bac8f6",
+          "size": 2119
+        },
+        {
+          "compressed": 2688,
+          "crc32": "7a3c4c38",
+          "path": "drawable-xxhdpi/notifications_images_thank.png",
+          "sha256": "f6f5deb7246b2e49",
+          "size": 83307
+        },
+        {
+          "compressed": 202,
+          "crc32": "77c37a95",
+          "path": "drawable-xxxhdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png",
+          "sha256": "84cf5eb3b20250f6",
+          "size": 207
+        },
+        {
+          "compressed": 202,
+          "crc32": "77c37a95",
+          "path": "drawable-xxxhdpi/node_modules_miniapps_navigation_src_libs_stack_dist_views_assets_backicon.png",
+          "sha256": "84cf5eb3b20250f6",
+          "size": 207
+        }
+      ],
+      "path": "assets/android.1.zip",
+      "sha256": "e5358e94d6938eb1",
+      "size": 3913966,
+      "uncompressed_bytes": 9877453
+    }
+  ],
+  "note": "Recursive (one-level-deep) enumeration of ZIP containers embedded in APK assets.",
+  "schema": "rea_lite/nested@1"
+}
