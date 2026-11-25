@@ -40,7 +40,8 @@ EVIDENCE_RULES: dict[str, re.Pattern] = {
     "openssl": re.compile(r"OpenSSL \d\.\d|SSL_CTX_new|X509_verify_cert|BIO_new"),
     "boringssl": re.compile(r"BoringSSL|CRYPTO_BUFFER|SSL_CTX_set_custom_verify"),
     "mbedtls": re.compile(r"mbedtls_"),
-    "protobuf": re.compile(r"protobuf|google\.protobuf\.|DescriptorProto|proto2"),
+    "protobuf": re.compile(r"libprotobuf|google\.protobuf\.|DescriptorProto|"
+                        r"FileDescriptorProto|protobuf::"),
     "sqlite": re.compile(r"sqlite3_|SQLite format 3"),
     "sqlcipher": re.compile(r"sqlcipher|PRAGMA key"),
     "ncnn": re.compile(r"ncnn"),

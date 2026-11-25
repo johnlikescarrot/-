@@ -322,7 +322,7 @@
     "flags": "0x5000200, Version5 EABI, soft-float ABI"
    },
    "capabilities": {
-    "protobuf": 4
+    "protobuf": 2
    },
    "attribution": [],
    "version_strings": [],
@@ -461,7 +461,7 @@
     "flags": "0x5000200, Version5 EABI, soft-float ABI"
    },
    "capabilities": {
-    "protobuf": 38,
+    "protobuf": 7,
     "tflite": 156,
     "opencv": 1362,
     "mediapipe": 709,
@@ -637,7 +637,7 @@
     "flags": "0x5000200, Version5 EABI, soft-float ABI"
    },
    "capabilities": {
-    "protobuf": 41,
+    "protobuf": 8,
     "tflite": 147,
     "mediapipe": 667,
     "mlkit": 3
@@ -771,7 +771,7 @@
     "flags": "0x5000200, Version5 EABI, soft-float ABI"
    },
    "capabilities": {
-    "protobuf": 4
+    "protobuf": 2
    },
    "attribution": [],
    "version_strings": [],
@@ -875,7 +875,6 @@
     "flags": "0x5000200, Version5 EABI, soft-float ABI"
    },
    "capabilities": {
-    "protobuf": 16,
     "tflite": 110,
     "opencv": 1,
     "mediapipe": 5,
@@ -1139,7 +1138,6 @@
     "flags": "0x5000200, Version5 EABI, soft-float ABI"
    },
    "capabilities": {
-    "protobuf": 14,
     "tflite": 76
    },
    "attribution": [

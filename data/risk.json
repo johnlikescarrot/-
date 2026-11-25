@@ -59,7 +59,7 @@
   },
   {
    "id": "R-05",
-   "title": "5 test/tooling components exported in a release build",
+   "title": "5 debug/tooling components exported in a release build (4 androidx.test/Compose + 1 Google Tag Manager)",
    "severity": "low",
    "evidence": "com.google.android.gms.tagmanager.TagManagerPreviewActivity; androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity; androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity; androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity; androidx.compose.ui.tooling.PreviewActivity",
    "standard": "MASVS-RESILIENCE-2 / build hygiene",

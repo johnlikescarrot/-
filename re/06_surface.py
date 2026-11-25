@@ -351,7 +351,9 @@ def risk_register(surface: dict, ncfg: dict, aids: dict, native: dict,
                      or "compose.ui.tooling" in r["name"]
                      or "TagManagerPreviewActivity" in r["name"]]
     if test_exported:
-        add("R-05", f"{len(test_exported)} test/tooling components exported in a release build",
+        n_ax = sum(1 for r in test_exported if "androidx" in r["name"])
+        add("R-05", f"{len(test_exported)} debug/tooling components exported in a release build "
+                    f"({n_ax} androidx.test/Compose + {len(test_exported)-n_ax} Google Tag Manager)",
             "low",
             "; ".join(r["name"] for r in test_exported),
             "MASVS-RESILIENCE-2 / build hygiene",

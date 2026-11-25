@@ -338,7 +338,7 @@ Each library gets a vector from three channels — ELF structure, dynamic symbol
 | Category | Count | Examples |
 |---|---:|---|
 | NFC HCE payment endpoints | 3 | `VisaHostApduService`, `ariver`/`griver` `TinyAppHostApduService` |
-| Test/tooling stubs in a release build | 4 | `androidx.test.core.app.InstrumentationActivityInvoker{,Empty,EmptyFloating}Activity`, `androidx.compose.ui.tooling.PreviewActivity` |
+| Test/tooling stubs in a release build | 5 | `androidx.test.core.app.InstrumentationActivityInvoker{,Empty,EmptyFloating}Activity`, `androidx.compose.ui.tooling.PreviewActivity` |
 | Vendor tooling | 1 | `com.google.android.gms.tagmanager.TagManagerPreviewActivity` |
 | Launcher / identity entry | 4 | `SplashScreenActivityV2`, `SplashScreenGooglePaymentActivity`, `VerificationByVNeIDActivity`, `QRReceiverActivity` |
 | Cross-app entry aliases | 2 | `ZaloAppActivityAlias`, `ThirdPartyAppActivityAlias` |
@@ -346,7 +346,7 @@ Each library gets a vector from three channels — ELF structure, dynamic symbol
 
 Deep-link schemes reachable from any app or browser: `zalopay`, `zalopay-1`, `zalopay-vnpay`, `zalopay.api.v2`, `fbconnect`, `tagmanager.c.vn.com.vng.zalopay`. `QUERY_ALL_PACKAGES` is declared (a Play-policy-sensitive permission) along with 10 explicit `<queries><package>` entries.
 
-The four exported test activities are the clearest process defect: `androidx.test` and `compose.ui.tooling` are `androidTest`/`debug` dependencies. Their presence means the release manifest was not stripped, and `PreviewActivity` in particular exists to render arbitrary Compose previews. Severity is low (they grant nothing by themselves), but it is a one-line fix and it failed to happen across at least this release.
+The five exported debug/tooling components are the clearest process defect: `androidx.test` and `compose.ui.tooling` are `androidTest`/`debug` dependencies. Their presence means the release manifest was not stripped, and `PreviewActivity` in particular exists to render arbitrary Compose previews. Severity is low (they grant nothing by themselves), but it is a one-line fix and it failed to happen across at least this release.
 
 ### 7.2 NFC card emulation — the finding that matters
 
@@ -495,7 +495,7 @@ Full register in `data/risk.json`; summary:
 | R-04 | medium | Catch-all 3-byte Visa AID beside 5 specific ones | EMV AID allocation |
 | R-01 | medium | `requestLegacyExternalStorage="true"` on targetSdk 36 | MASVS-STORAGE-1 |
 | R-11 | medium | 1.67 MB AppX JavaScript in WebView with a JS bridge | MASVS-PLATFORM-2 |
-| R-05 | low | 4 exported test/tooling activities in a release build | build hygiene |
+| R-05 | low | 5 exported debug/tooling components (4 androidx.test/Compose + 1 Tag Manager) | build hygiene |
 | R-09 | low | armeabi-v7a-only native split (no arm64) | Play targeting |
 | R-06 | info | CN-only self-signed cert, 25-year validity | context |
 | R-07 | info | Anti-analysis probes in native eKYC (working as intended) | MASVS-RESILIENCE-3/4 |
