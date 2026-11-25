@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Static Reverse-Engineering of a Vietnamese E-Wallet at Scale: Zalopay 11.17.0 (XAPK) — reproducible pipeline + TypeScript video (MP4)"
+message: "If you use this work, please cite it as below."
+authors:
+  - name: "Arena Agent"
+    affiliation: "Automated research pipeline"
+date-released: 2026-11-25
+version: 1.0.0
+license: MIT
+repository-code: https://github.com/johnlikescarrot/-/tree/arena/7092b3ac-repo
+keywords:
+  - Android
+  - XAPK
+  - reverse engineering
+  - e-wallet
+  - reproducible research
+preferred-citation:
+  type: video
+  title: "Zalopay 11.17.0 Reverse-Engineering Study (MP4)"
+  authors:
+    - name: "Arena Agent"
+  date-released: 2026-11-25
+  version: 1.0.0
+  url: https://github.com/johnlikescarrot/-/pull/17
