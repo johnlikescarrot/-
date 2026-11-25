@@ -1,0 +1,20 @@
+# ---- extracted / scratch artifacts (never committed) ----
+/work/
+/tmp/
+*.apk
+*.xapk
+
+# ---- node ----
+node_modules/
+video/out/frames/
+video/out/audio/
+video/out/*.tmp
+.python-venv/
+
+# ---- python ----
+__pycache__/
+*.pyc
+.venv/
+
+# ---- generated media intermediates ----
+*.wav

@@ -1,0 +1,330 @@
+{
+ "findings": [
+  {
+   "id": "MASVS-PLATFORM-1",
+   "title": "22 exported components have no permission guard",
+   "severity": "medium",
+   "masvs": "MASVS-PLATFORM-1",
+   "detail": "{'activity': 14, 'activity-alias': 2, 'service': 1, 'receiver': 5} of the app's 267 components are reachable by any installed application (exported=true and no android:permission). Examples: SplashScreenActivityV2, SplashScreenGooglePaymentActivity, VerificationByVNeIDActivity, QRReceiverActivity, IdentityCardCaptureActivity, CustomTabActivity. For a wallet this is the classic intent-redirection / confused-deputy surface: a malicious app can start these with attacker-controlled extras and URIs.",
+   "recommendation": "Guard every exported entry point with a signature-level permission, validate all incoming extras/URIs against an allowlist, and re-check the caller uid for value-moving flows.",
+   "evidence": [
+    "activity: vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+    "activity: vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+    "activity: vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+    "activity: vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+    "activity: vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+    "activity: com.facebook.CustomTabActivity",
+    "activity: com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+    "activity: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+    "activity: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+    "activity: androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+    "activity: androidx.compose.ui.tooling.PreviewActivity",
+    "activity: com.fpt.fci.ekycfull.presentation.view.EkycActivity"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "MASVS-PLATFORM-2",
+   "title": "21 deep links resolve into exported activities",
+   "severity": "medium",
+   "masvs": "MASVS-PLATFORM-2",
+   "detail": "App-link domains: https://go.zalopay.vn, https://km.zalopay.vn, https://kmzalopay.onelink.me, https://onelink.zalopay.vn. 16 use a non-http scheme, which any app can claim, so link parameters arrive from an untrusted source. Auto-verify protects only the https hosts.",
+   "recommendation": "Treat every deep-link parameter as untrusted input, sign/validate hand-off tokens, and require re-authentication before any transaction is pre-filled from a link.",
+   "evidence": [
+    "https://go.zalopay.vn -> vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+    "https://onelink.zalopay.vn -> vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+    "https://kmzalopay.onelink.me/TSui -> vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+    "https://km.zalopay.vn/TSui -> vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+    "zalopay://app -> vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+    "https://go.zalopay.vn/launch/f/user-consensus-zlp-vneid -> vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+    "fbconnect://cct.vn.com.vng.zalopay -> com.facebook.CustomTabActivity",
+    "zalopay-1://post -> vn.zalopay.apps.ThirdPartyAppActivityAlias",
+    "zalopay-1://backtoapp -> vn.zalopay.apps.ThirdPartyAppActivityAlias",
+    "zalopay-1://backtologin -> vn.zalopay.apps.ThirdPartyAppActivityAlias"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "MASVS-PLATFORM-4",
+   "title": "WebView.addJavascriptInterface used at 13 call sites",
+   "severity": "medium",
+   "masvs": "MASVS-PLATFORM-4",
+   "detail": "A JavaScript bridge object is injected into a WebView. On API < 17 every public method was reachable from JS; on modern Android only @JavascriptInterface methods are, but any URL loaded in that WebView inherits access to those methods - the textbook route for a cross-app bridge if a URL can be influenced by an attacker.",
+   "recommendation": "Restrict the bridge to the minimal method set, validate the origin of every load, and never mix the bridge WebView with untrusted content.",
+   "evidence": [
+    "capability census: webview_js_iface=13, webview_eval=47"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "MASVS-PRIVACY-1",
+   "title": "49 permissions requested, 13 dangerous across 9 groups",
+   "severity": "medium",
+   "masvs": "MASVS-PRIVACY-1",
+   "detail": "Runtime-sensitive groups: NOTIFICATIONS(1), CONTACTS(2), PHONE(1), STORAGE(2), LOCATION(2), CALENDAR(2), MICROPHONE(1), CAMERA(1), MEDIA(1). Custom/OEM permissions: 15. Each dangerous permission is a user-visible data channel that must be justified at runtime and in the Play listing.",
+   "recommendation": "Apply just-in-time requests, keep a machine-readable permission-to-feature map, and ship a privacy manifest that ties each SDK to the data it can collect.",
+   "evidence": [
+    "dangerous: POST_NOTIFICATIONS, READ_CONTACTS, READ_PHONE_STATE, WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE, ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION, WRITE_CALENDAR, READ_CALENDAR, RECORD_AUDIO, CAMERA, WRITE_CONTACTS, READ_MEDIA_AUDIO"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "MASVS-RESILIENCE-4",
+   "title": "Dynamic class loading observed (6 call sites)",
+   "severity": "medium",
+   "masvs": "MASVS-RESILIENCE-4",
+   "detail": "DexClassLoader/PathClassLoader/InMemoryDexClassLoader references mean bytecode can enter the process outside the APK. For a payments app this is legitimate only for signed plugin modules, and it must be integrity-checked before load.",
+   "recommendation": "Verify a signature over every downloaded dex/jar, load from app-private storage only, and prefer the platform's split/feature delivery.",
+   "evidence": [
+    "call sites: 6",
+    "examples: []"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "MASVS-NETWORK-2",
+   "title": "No declarative certificate pinning in the network security config",
+   "severity": "low",
+   "masvs": "MASVS-NETWORK-2",
+   "detail": "res/xml/network_security_config.xml declares 1 domain-config (e.g. storage.googleapis.com) and no <pin-set>. Any pinning therefore lives in application code (OkHttp CertificatePinner / trust manager), which is invisible to the platform and to third-party SDKs that open their own connections.",
+   "recommendation": "Publish pins in the NSC so every consumer of the process-wide TLS stack benefits, with a backup pin and a rotation expiry.",
+   "evidence": [
+    "file: res/xml/network_security_config.xml",
+    "domain-configs: ['storage.googleapis.com']"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "MASVS-PRIVACY-2",
+   "title": "QUERY_ALL_PACKAGES broadens app-visibility beyond the <queries> list",
+   "severity": "low",
+   "masvs": "MASVS-PRIVACY-2",
+   "detail": "The manifest both declares <queries> (27 entries) and requests QUERY_ALL_PACKAGES, which Google Play restricts to specific use cases. Combined with the PackageManager calls observed in DEX, the app can enumerate installed apps (fraud/risk signals, but also fingerprinting).",
+   "recommendation": "Drop QUERY_ALL_PACKAGES and rely on the explicit <queries> allowlist where possible.",
+   "evidence": [
+    "<queries>: com.vnid, com.zing.zalo, com.facebook.katana, com.google.android.apps.maps, com.instagram.android, com.facebook.lite, com.samsung.android.mapsagent, com.xiaomi.mipicks, intent:android.intent.action.VIEW, intent:android.media.action.IMAGE_CAPTURE"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "MASVS-RESILIENCE-5",
+   "title": "Signing key is self-signed with a 25-year validity window",
+   "severity": "low",
+   "masvs": "MASVS-RESILIENCE-5",
+   "detail": "Subject CN=Vu Manh Hieu / issuer CN=Vu Manh Hieu, rsaEncryption 2048 bit, valid Apr 21 15:41:14 2016 GMT -> Apr 15 15:41:14 2041 GMT, SHA-256 59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae. Android does not check expiry for APK verification, but a single long-lived key with no rotation lineage means key compromise is unrecoverable for existing installs.",
+   "recommendation": "Use Play App Signing with a rotating upload key, and publish a v3 proof-of-rotation lineage so future keys are auditable.",
+   "evidence": [
+    "serial 356428285 (0x153ea9fd)",
+    "skid AB:4E:99:38:3A:8E:BA:98:75:D3:AF:D2:B0:A7:E2:D2:D1:AD:B1:A4"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "CTRL-01",
+   "title": "Production build flags are clean (not debuggable, backup disabled)",
+   "severity": "info",
+   "masvs": "MASVS-RESILIENCE-2",
+   "detail": "android:debuggable is absent, allowBackup=false, dataExtractionRules=@7F160004. A debuggable release would allow JDWP attach and arbitrary file pulls via run-as.",
+   "recommendation": "Keep these as release-only properties and assert them in CI (e.g. a bundle-lint gate).",
+   "evidence": [
+    "application.debuggable=None",
+    "application.allowBackup=false"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "CTRL-02",
+   "title": "Signature scheme: v2+v3 on every module, v1 only on bundletool splits",
+   "severity": "info",
+   "masvs": "MASVS-RESILIENCE-1",
+   "detail": "All five modules carry a v2 (0x7109871a) and v3 (0xf05368c0) block, so the whole-file digest covers the base APK. META-INF/BNDLTOOL.RSA (a v1 JAR signature) is present in 4 configuration splits only - a bundletool artefact, not a build setting. v1 is dead weight under minSdk=26 and is also the surface of the classic Janus/strip attacks.",
+   "recommendation": "No action required; consider v4/fs-verity sidecars for incremental install.",
+   "evidence": [
+    "signing schemes present: ['v1', 'v2', 'v3']",
+    "modules with v1: ['config.armeabi_v7a.apk', 'config.en.apk', 'config.vi.apk', 'config.xhdpi.apk']",
+    "cert SHA-256 59dd31fdf36070a0d7f8c8cde843fac3…"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "CTRL-03",
+   "title": "Native libraries are toolchain-hardened (mean 5.07/6)",
+   "severity": "info",
+   "masvs": "MASVS-RESILIENCE-2",
+   "detail": "28 shared objects: PIE=27/28, NX=27/28, RELRO=23/28, full-RELRO=23/28, canary=25/28.",
+   "recommendation": "Keep -Wl,-z,relro,-z,now,-z,noexecstack and fstack-protector-strong in the NDK build.",
+   "evidence": [
+    "mean hardening index 5.07/6"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "CTRL-04",
+   "title": "All 9 ContentProviders are non-exported",
+   "severity": "info",
+   "masvs": "MASVS-PLATFORM-3",
+   "detail": "Every declared authority (FileProvider, Firebase, Facebook init provider, WorkManager, etc.) is exported=false; the file-sharing surface is therefore limited to explicit grantUriPermissions flows.",
+   "recommendation": "No action.",
+   "evidence": [
+    "@7F1304C0",
+    "vn.com.vng.zalopay.FacebookInitProvider",
+    "vn.com.vng.zalopay.firebaseperfprovider",
+    "vn.com.vng.zalopay.mlkitinitprovider",
+    "vn.com.vng.zalopay.firebaseinitprovider",
+    "vn.com.vng.zalopay.mobileadsinitprovider",
+    "vn.com.vng.zalopay.androidx-startup",
+    "vn.com.vng.zalopay.AudienceNetworkContentProvider"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "CTRL-05",
+   "title": "No base-config cleartext exemption (platform default: cleartext blocked)",
+   "severity": "info",
+   "masvs": "MASVS-NETWORK-1",
+   "detail": "cleartextTrafficPermitted is not set at base-config level; because targetSdk=36 the platform default denies cleartext for all domains not explicitly listed.",
+   "recommendation": "No action; keep the allowlist empty.",
+   "evidence": [
+    "network_security_config base_cleartext=None"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "CTRL-06",
+   "title": "App-layer pinning present (12 OkHttp sites, 0 SHA-256 pin digests in the string pool)",
+   "severity": "info",
+   "masvs": "MASVS-NETWORK-2",
+   "detail": "CertificatePinner / pin digests live in application code, so HTTPS trust is additionally constrained for the OkHttp stack used by first-party calls. Because the pins are not in the platform NSC, SDKs with their own HTTP stacks bypass them entirely.",
+   "recommendation": "Document a rotation window, keep a backup pin, and cover every host that carries session or payment data - including mini-program and bank-app hand-off hosts.",
+   "evidence": [
+    "pin digests found: 0",
+    "sample (truncated): []"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "CTRL-07",
+   "title": "Device/app integrity and anti-tamper signals present",
+   "severity": "info",
+   "masvs": "MASVS-RESILIENCE-2",
+   "detail": "String and symbol evidence for: play_integrity(48), root_detection(248), hook_detection(8), emulator_detection(2), biometric_gate(101), certificate_pinning(14), code_obfuscation(9), screenshot_or_hook_strings(7). Combined with screenshot protection (FLAG_SECURE) and biometric gating of the payment flow, the app implements a layered client-side risk posture.",
+   "recommendation": "Treat client-side signals as *risk inputs* only; the server must remain the authority for every value-moving decision.",
+   "evidence": [
+    "hint counts: {'play_integrity': 48, 'root_detection': 248, 'hook_detection': 8, 'emulator_detection': 2, 'biometric_gate': 101, 'certificate_pinning': 14, 'code_obfuscation': 9, 'screenshot_or_hook_strings': 7}"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "CTRL-08",
+   "title": "26 on-device ML models shipped (12371 KiB)",
+   "severity": "info",
+   "masvs": "MASVS-PRIVACY-3",
+   "detail": "TensorFlow-Lite / ncnn artefacts plus ML Kit bundled models run inference locally (OCR, barcode, face, liveness). Keeping inference on-device reduces the amount of biometric or document imagery leaving the handset.",
+   "recommendation": "Keep model updates signed, and document the inference boundary in the privacy notice.",
+   "evidence": [
+    "assets/custom_models/object_labeler.tflite (3770391 B)",
+    "assets/FastestDet.ncnn.bin (2420588 B)",
+    "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite (1706957 B)",
+    "assets/mlkit_odt_localizer/localizer_with_validation.tflite (1254848 B)",
+    "assets/models_bundled/fssd_medium_8bit_v5.tflite (613352 B)",
+    "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite (613080 B)"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "INFO-01",
+   "title": "APK carries a Play source stamp (distribution provenance)",
+   "severity": "info",
+   "masvs": "MASVS-RESILIENCE-1",
+   "detail": "The APK Signing Block contains id 0x6dff800d (source stamp), together with the 0x42726577 'Brew' and 0x204b5041 'APK ' padding blocks. These are written by Play App Signing, so the artifact is a Play-signed build re-packaged by APKPure, not a rebuild from source.",
+   "recommendation": "Treat the APK as authentic-for-distribution but verify the distribution channel.",
+   "evidence": [
+    "signing block pairs: ['0x7109871a', '0xf05368c0', '0x6dff800d', '0x2146444e', '0x42726577', '0x204b5041']"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "INFO-02",
+   "title": "Unattributed namespaces remain after vendor matching",
+   "severity": "info",
+   "masvs": "MASVS-CODE-1",
+   "detail": "40 namespaces could not be mapped to a known vendor. The largest is <default> (12 classes) - random-looking identifiers that suggest either a rebranded SDK or R8 repackaging of a first-party module.",
+   "recommendation": "Maintain an internal namespace allowlist so every shipped package is attributable to a team.",
+   "evidence": [
+    "<default>: 12",
+    "A.a: 2",
+    "C.a: 2",
+    "G.a: 2",
+    "D.a: 2",
+    "E.a: 2"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "INFO-03",
+   "title": "Split-APK packaging: base + ABI/locale/density configuration splits",
+   "severity": "info",
+   "masvs": "MASVS-CODE-1",
+   "detail": "6464 entries across 5 APKs (config.armeabi_v7a=32, config.en=6, config.vi=6, config.xhdpi=258, base=6162). Splits must be signature-identical to the base module or the installer rejects them.",
+   "recommendation": "Verify split signatures in CI (apksigner verify on every module).",
+   "evidence": [
+    "duplicated paths across splits: 6"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "INFO-04",
+   "title": "3 trust/config artefacts inside assets/",
+   "severity": "info",
+   "masvs": "MASVS-STORAGE-2",
+   "detail": "Bundled key material is public by definition (anything in the APK can be read). These files are only meaningful as pins/verification keys, never as secrets.",
+   "recommendation": "Audit that no long-term secret is packaged; rotate anything that was.",
+   "evidence": [
+    "assets/config/public_key.txt sha256=ab63708a7b557a13…",
+    "assets/config/signature.txt sha256=fd7abb1a0d62a50a…",
+    "assets/public.pem sha256=0d4383c52c0f29e7…"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "MASVS-CODE-1",
+   "title": "141 version-stamped third-party libraries from 62 groups",
+   "severity": "info",
+   "masvs": "MASVS-CODE-1",
+   "detail": "META-INF/*.version files give an exact, build-time SBOM. Third-party code is ~99% of the class space, so the app's real attack surface is mostly the SDKs' surface.",
+   "recommendation": "Feed these stamps into an SCA pipeline (OSV/CVE matching) and fail the build on known vulnerable versions.",
+   "evidence": [
+    "top groups: [('androidx.lifecycle', 14), ('androidx.navigation', 11), ('androidx.compose.ui', 9), ('androidx.camera', 6), ('androidx.core', 5), ('kotlinx', 5), ('androidx.databinding', 4), ('com.google.dagger', 4), ('androidx.activity', 3), ('androidx.compose.material', 3), ('androidx.compose.runtime', 3), ('androidx.legacy', 3)]"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "summary": {
+  "count": 21,
+  "by_severity": {
+   "critical": 0,
+   "high": 0,
+   "medium": 5,
+   "low": 3,
+   "info": 13
+  },
+  "by_masvs": {
+   "MASVS-RESILIENCE-2": 3,
+   "MASVS-CODE-1": 3,
+   "MASVS-NETWORK-2": 2,
+   "MASVS-RESILIENCE-1": 2,
+   "MASVS-PLATFORM-1": 1,
+   "MASVS-PLATFORM-2": 1,
+   "MASVS-PLATFORM-4": 1,
+   "MASVS-PRIVACY-1": 1,
+   "MASVS-RESILIENCE-4": 1,
+   "MASVS-PRIVACY-2": 1,
+   "MASVS-RESILIENCE-5": 1,
+   "MASVS-PLATFORM-3": 1,
+   "MASVS-NETWORK-1": 1,
+   "MASVS-PRIVACY-3": 1,
+   "MASVS-STORAGE-2": 1
+  },
+  "risk_score": 36
+ }
+}

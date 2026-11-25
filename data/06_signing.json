@@ -1,0 +1,400 @@
+{
+ "per_apk": {
+  "config.armeabi_v7a.apk": {
+   "schemes": [
+    "v2",
+    "v3"
+   ],
+   "v1": {
+    "blocks": [
+     {
+      "file": "META-INF/BNDLTOOL.RSA",
+      "sha256": "526762c0bfd6ce5e395d13060b73b6fa384d6e6151acfb8a0f4be10224a6dee2",
+      "size": 1107,
+      "certs": [
+       {
+        "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+        "sha1": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+        "der_len": 721,
+        "subject": "CN=Vu Manh Hieu",
+        "issuer": "CN=Vu Manh Hieu",
+        "serial": "356428285 (0x153ea9fd)",
+        "not_before": "Apr 21 15:41:14 2016 GMT",
+        "not_after": "Apr 15 15:41:14 2041 GMT",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "key_algorithm": "rsaEncryption",
+        "key_bits": 2048,
+        "self_signed": true,
+        "is_ca": false,
+        "subject_key_id": "AB:4E:99:38:3A:8E:BA:98:75:D3:AF:D2:B0:A7:E2:D2:D1:AD:B1:A4"
+       }
+      ],
+      "pkcs7_subjects": [
+       "CN = Vu Manh Hieu"
+      ]
+     }
+    ],
+    "manifest_mf_present": true,
+    "entry_count": 29,
+    "mf_sha256": "c3e9002db94506b511c53dcf7b2b3089e33794f8c0c4f2ad866d3cc59a9d2337"
+   },
+   "cert_sha256": [
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+   ],
+   "block_pairs": [
+    {
+     "id": "0x7109871a",
+     "size": 1379
+    },
+    {
+     "id": "0xf05368c0",
+     "size": 1379
+    },
+    {
+     "id": "0x6dff800d",
+     "size": 3593
+    },
+    {
+     "id": "0x42726577",
+     "size": 1761
+    },
+    {
+     "id": "0x204b5041",
+     "size": 2564
+    }
+   ],
+   "signed": true
+  },
+  "config.en.apk": {
+   "schemes": [
+    "v2",
+    "v3"
+   ],
+   "v1": {
+    "blocks": [
+     {
+      "file": "META-INF/BNDLTOOL.RSA",
+      "sha256": "5b6a3bd1334bb205965956e318e3b804663cacbd1d53f36be6ff70a95b7468f8",
+      "size": 1107,
+      "certs": [
+       {
+        "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+        "sha1": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+        "der_len": 721,
+        "subject": "CN=Vu Manh Hieu",
+        "issuer": "CN=Vu Manh Hieu",
+        "serial": "356428285 (0x153ea9fd)",
+        "not_before": "Apr 21 15:41:14 2016 GMT",
+        "not_after": "Apr 15 15:41:14 2041 GMT",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "key_algorithm": "rsaEncryption",
+        "key_bits": 2048,
+        "self_signed": true,
+        "is_ca": false,
+        "subject_key_id": "AB:4E:99:38:3A:8E:BA:98:75:D3:AF:D2:B0:A7:E2:D2:D1:AD:B1:A4"
+       }
+      ],
+      "pkcs7_subjects": [
+       "CN = Vu Manh Hieu"
+      ]
+     }
+    ],
+    "manifest_mf_present": true,
+    "entry_count": 3,
+    "mf_sha256": "3de5c200f3a183b3aee0abffe669b0f048c4376c966236e038c4222f17514775"
+   },
+   "cert_sha256": [
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+   ],
+   "block_pairs": [
+    {
+     "id": "0x7109871a",
+     "size": 1379
+    },
+    {
+     "id": "0xf05368c0",
+     "size": 1379
+    },
+    {
+     "id": "0x6dff800d",
+     "size": 3593
+    },
+    {
+     "id": "0x42726577",
+     "size": 1761
+    },
+    {
+     "id": "0x204b5041",
+     "size": 421
+    }
+   ],
+   "signed": true
+  },
+  "config.vi.apk": {
+   "schemes": [
+    "v2",
+    "v3"
+   ],
+   "v1": {
+    "blocks": [
+     {
+      "file": "META-INF/BNDLTOOL.RSA",
+      "sha256": "c6fd0d6fb831fe29086aed9481f93947461838268c669d23cc2a0113a587d70e",
+      "size": 1107,
+      "certs": [
+       {
+        "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+        "sha1": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+        "der_len": 721,
+        "subject": "CN=Vu Manh Hieu",
+        "issuer": "CN=Vu Manh Hieu",
+        "serial": "356428285 (0x153ea9fd)",
+        "not_before": "Apr 21 15:41:14 2016 GMT",
+        "not_after": "Apr 15 15:41:14 2041 GMT",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "key_algorithm": "rsaEncryption",
+        "key_bits": 2048,
+        "self_signed": true,
+        "is_ca": false,
+        "subject_key_id": "AB:4E:99:38:3A:8E:BA:98:75:D3:AF:D2:B0:A7:E2:D2:D1:AD:B1:A4"
+       }
+      ],
+      "pkcs7_subjects": [
+       "CN = Vu Manh Hieu"
+      ]
+     }
+    ],
+    "manifest_mf_present": true,
+    "entry_count": 3,
+    "mf_sha256": "34b95272eef546e38e7d93ae2b4a4884fd29767f92b0916b54d10c587e34604d"
+   },
+   "cert_sha256": [
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+   ],
+   "block_pairs": [
+    {
+     "id": "0x7109871a",
+     "size": 1379
+    },
+    {
+     "id": "0xf05368c0",
+     "size": 1379
+    },
+    {
+     "id": "0x6dff800d",
+     "size": 3593
+    },
+    {
+     "id": "0x42726577",
+     "size": 1761
+    },
+    {
+     "id": "0x204b5041",
+     "size": 421
+    }
+   ],
+   "signed": true
+  },
+  "config.xhdpi.apk": {
+   "schemes": [
+    "v2",
+    "v3"
+   ],
+   "v1": {
+    "blocks": [
+     {
+      "file": "META-INF/BNDLTOOL.RSA",
+      "sha256": "b47e51f1d17c34a7386aa8170795bd048671a45b614fde169838dbfc86c90697",
+      "size": 1107,
+      "certs": [
+       {
+        "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+        "sha1": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+        "der_len": 721,
+        "subject": "CN=Vu Manh Hieu",
+        "issuer": "CN=Vu Manh Hieu",
+        "serial": "356428285 (0x153ea9fd)",
+        "not_before": "Apr 21 15:41:14 2016 GMT",
+        "not_after": "Apr 15 15:41:14 2041 GMT",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "key_algorithm": "rsaEncryption",
+        "key_bits": 2048,
+        "self_signed": true,
+        "is_ca": false,
+        "subject_key_id": "AB:4E:99:38:3A:8E:BA:98:75:D3:AF:D2:B0:A7:E2:D2:D1:AD:B1:A4"
+       }
+      ],
+      "pkcs7_subjects": [
+       "CN = Vu Manh Hieu"
+      ]
+     }
+    ],
+    "manifest_mf_present": true,
+    "entry_count": 255,
+    "mf_sha256": "864b07054db096d998ef152df65f33b382cc67ce1a89863030f2b6f32777b6cd"
+   },
+   "cert_sha256": [
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+   ],
+   "block_pairs": [
+    {
+     "id": "0x7109871a",
+     "size": 1379
+    },
+    {
+     "id": "0xf05368c0",
+     "size": 1379
+    },
+    {
+     "id": "0x6dff800d",
+     "size": 3593
+    },
+    {
+     "id": "0x42726577",
+     "size": 1761
+    },
+    {
+     "id": "0x204b5041",
+     "size": 8180
+    }
+   ],
+   "signed": true
+  },
+  "vn.com.vng.zalopay.apk": {
+   "schemes": [
+    "v2",
+    "v3"
+   ],
+   "v1": {
+    "blocks": [],
+    "manifest_mf_present": false,
+    "entry_count": 0
+   },
+   "cert_sha256": [
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+   ],
+   "block_pairs": [
+    {
+     "id": "0x7109871a",
+     "size": 1379
+    },
+    {
+     "id": "0xf05368c0",
+     "size": 1379
+    },
+    {
+     "id": "0x6dff800d",
+     "size": 3057
+    },
+    {
+     "id": "0x2146444e",
+     "size": 687
+    },
+    {
+     "id": "0x42726577",
+     "size": 1598
+    },
+    {
+     "id": "0x204b5041",
+     "size": 8180
+    }
+   ],
+   "signed": true
+  }
+ },
+ "schemes": [
+  "v2",
+  "v3",
+  "v1"
+ ],
+ "certificates": [
+  {
+   "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+   "sha1": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+   "der_len": 721,
+   "subject": "CN=Vu Manh Hieu",
+   "issuer": "CN=Vu Manh Hieu",
+   "serial": "356428285 (0x153ea9fd)",
+   "not_before": "Apr 21 15:41:14 2016 GMT",
+   "not_after": "Apr 15 15:41:14 2041 GMT",
+   "signature_algorithm": "sha256WithRSAEncryption",
+   "key_algorithm": "rsaEncryption",
+   "key_bits": 2048,
+   "self_signed": true,
+   "is_ca": false,
+   "subject_key_id": "AB:4E:99:38:3A:8E:BA:98:75:D3:AF:D2:B0:A7:E2:D2:D1:AD:B1:A4",
+   "first_seen": "config.armeabi_v7a.apk"
+  }
+ ],
+ "block_pairs": [
+  {
+   "id": "0x7109871a",
+   "size": 1379
+  },
+  {
+   "id": "0xf05368c0",
+   "size": 1379
+  },
+  {
+   "id": "0x6dff800d",
+   "size": 3057
+  },
+  {
+   "id": "0x2146444e",
+   "size": 687
+  },
+  {
+   "id": "0x42726577",
+   "size": 1598
+  },
+  {
+   "id": "0x204b5041",
+   "size": 8180
+  }
+ ],
+ "source_stamp": true,
+ "consistent": true,
+ "signing_block_size": 8192,
+ "offset": 78807040,
+ "module_schemes": {
+  "config.armeabi_v7a.apk": [
+   "v2",
+   "v3"
+  ],
+  "config.en.apk": [
+   "v2",
+   "v3"
+  ],
+  "config.vi.apk": [
+   "v2",
+   "v3"
+  ],
+  "config.xhdpi.apk": [
+   "v2",
+   "v3"
+  ],
+  "vn.com.vng.zalopay.apk": [
+   "v2",
+   "v3"
+  ]
+ },
+ "v1_modules": [
+  "config.armeabi_v7a.apk",
+  "config.en.apk",
+  "config.vi.apk",
+  "config.xhdpi.apk"
+ ],
+ "v1_files": [
+  "META-INF/BNDLTOOL.RSA"
+ ],
+ "split_signature_identical": true
+}

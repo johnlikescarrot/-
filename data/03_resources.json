@@ -1,0 +1,1110 @@
+{
+ "base": {
+  "package_count": 13,
+  "packages": [
+   {
+    "id": 127,
+    "name": "vn.com.vng.zalopay",
+    "typeCount": 21,
+    "entries": 122610,
+    "specs": 21,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "drawable": 48774,
+     "dimen": 30592,
+     "layout": 12102,
+     "style": 10674,
+     "string": 8648,
+     "color": 5644,
+     "id": 3460,
+     "attr": 1826,
+     "anim": 252,
+     "integer": 207,
+     "bool": 168,
+     "raw": 85,
+     "xml": 48,
+     "animator": 28,
+     "array": 27,
+     "font": 17,
+     "interpolator": 17,
+     "mipmap": 14,
+     "navigation": 14,
+     "menu": 10,
+     "plurals": 3
+    }
+   },
+   {
+    "id": 128,
+    "name": "vn.com.vng.zalopay.changepin",
+    "typeCount": 4,
+    "entries": 47,
+    "specs": 4,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "id": 19,
+     "string": 19,
+     "layout": 8,
+     "style": 1
+    }
+   },
+   {
+    "id": 129,
+    "name": "vn.com.vng.zalopay.resetpin",
+    "typeCount": 5,
+    "entries": 103,
+    "specs": 5,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "id": 32,
+     "drawable": 31,
+     "string": 29,
+     "layout": 10,
+     "style": 1
+    }
+   },
+   {
+    "id": 130,
+    "name": "vn.com.vng.zalopay.login_v2",
+    "typeCount": 9,
+    "entries": 570,
+    "specs": 9,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "id": 173,
+     "drawable": 168,
+     "string": 154,
+     "layout": 46,
+     "style": 14,
+     "color": 7,
+     "attr": 4,
+     "anim": 2,
+     "dimen": 2
+    }
+   },
+   {
+    "id": 131,
+    "name": "vn.com.vng.zalopay.cashier",
+    "typeCount": 7,
+    "entries": 387,
+    "specs": 7,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "drawable": 240,
+     "string": 69,
+     "id": 40,
+     "color": 21,
+     "layout": 13,
+     "raw": 2,
+     "style": 2
+    }
+   },
+   {
+    "id": 132,
+    "name": "vn.com.vng.zalopay.bank_binding",
+    "typeCount": 11,
+    "entries": 659,
+    "specs": 11,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "id": 261,
+     "string": 175,
+     "drawable": 117,
+     "layout": 59,
+     "dimen": 21,
+     "color": 11,
+     "style": 6,
+     "attr": 4,
+     "anim": 2,
+     "navigation": 2,
+     "array": 1
+    }
+   },
+   {
+    "id": 133,
+    "name": "vn.com.vng.zalopay.updatephone",
+    "typeCount": 4,
+    "entries": 37,
+    "specs": 4,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "id": 19,
+     "string": 12,
+     "dimen": 5,
+     "layout": 1
+    }
+   },
+   {
+    "id": 134,
+    "name": "vn.com.vng.zalopay.cash_in",
+    "typeCount": 5,
+    "entries": 72,
+    "specs": 5,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "id": 27,
+     "drawable": 24,
+     "string": 17,
+     "layout": 3,
+     "navigation": 1
+    }
+   },
+   {
+    "id": 135,
+    "name": "vn.com.vng.zalopay.resultpage",
+    "typeCount": 6,
+    "entries": 47,
+    "specs": 6,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "drawable": 24,
+     "color": 8,
+     "id": 5,
+     "layout": 4,
+     "raw": 4,
+     "style": 2
+    }
+   },
+   {
+    "id": 136,
+    "name": "vn.com.vng.zalopay.withdraw",
+    "typeCount": 5,
+    "entries": 61,
+    "specs": 5,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "string": 23,
+     "drawable": 20,
+     "id": 16,
+     "layout": 1,
+     "navigation": 1
+    }
+   },
+   {
+    "id": 137,
+    "name": "vn.com.vng.zalopay.cashier_v3",
+    "typeCount": 6,
+    "entries": 70,
+    "specs": 6,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "drawable": 58,
+     "id": 5,
+     "layout": 2,
+     "string": 2,
+     "style": 2,
+     "raw": 1
+    }
+   },
+   {
+    "id": 138,
+    "name": "vn.com.vng.zalopay.result_page_v3",
+    "typeCount": 7,
+    "entries": 36,
+    "specs": 7,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "id": 12,
+     "drawable": 11,
+     "color": 3,
+     "layout": 3,
+     "raw": 3,
+     "string": 2,
+     "style": 2
+    }
+   },
+   {
+    "id": 139,
+    "name": "vn.com.vng.zalopay.liveness",
+    "typeCount": 3,
+    "entries": 51,
+    "specs": 3,
+    "locales": [
+     "default"
+    ],
+    "types": {
+     "drawable": 33,
+     "string": 17,
+     "style": 1
+    }
+   }
+  ],
+  "total_entries": 16475,
+  "global_strings": 7763,
+  "type_totals": {
+   "id": 4069,
+   "drawable": 3796,
+   "string": 2461,
+   "attr": 1834,
+   "layout": 1742,
+   "color": 810,
+   "style": 745,
+   "dimen": 712,
+   "anim": 84,
+   "raw": 56,
+   "integer": 42,
+   "bool": 19,
+   "animator": 18,
+   "navigation": 18,
+   "array": 17,
+   "interpolator": 17,
+   "font": 14,
+   "xml": 13,
+   "menu": 3,
+   "plurals": 3,
+   "mipmap": 2
+  },
+  "locales": {
+   "default": 16475
+  },
+  "locale_count": 0
+ },
+ "splits": {
+  "config.en.apk": {
+   "package_count": 1,
+   "packages": [
+    {
+     "id": 127,
+     "name": "vn.com.vng.zalopay",
+     "typeCount": 2,
+     "entries": 4327,
+     "specs": 2,
+     "locales": [
+      "en"
+     ],
+     "types": {
+      "string": 4323,
+      "array": 4
+     }
+    }
+   ],
+   "total_entries": 370,
+   "global_strings": 335,
+   "type_totals": {
+    "string": 369,
+    "array": 1
+   },
+   "locales": {
+    "en": 370
+   },
+   "locale_count": 1
+  },
+  "config.vi.apk": {
+   "package_count": 1,
+   "packages": [
+    {
+     "id": 127,
+     "name": "vn.com.vng.zalopay",
+     "typeCount": 3,
+     "entries": 4260,
+     "specs": 3,
+     "locales": [
+      "vi"
+     ],
+     "types": {
+      "string": 4245,
+      "array": 12,
+      "plurals": 3
+     }
+    }
+   ],
+   "total_entries": 496,
+   "global_strings": 449,
+   "type_totals": {
+    "string": 492,
+    "plurals": 3,
+    "array": 1
+   },
+   "locales": {
+    "vi": 496
+   },
+   "locale_count": 1
+  },
+  "config.xhdpi.apk": {
+   "package_count": 2,
+   "packages": [
+    {
+     "id": 127,
+     "name": "vn.com.vng.zalopay",
+     "typeCount": 3,
+     "entries": 23027,
+     "specs": 3,
+     "locales": [
+      "default"
+     ],
+     "types": {
+      "drawable": 22190,
+      "dimen": 619,
+      "style": 218
+     }
+    },
+    {
+     "id": 130,
+     "name": "vn.com.vng.zalopay.login_v2",
+     "typeCount": 1,
+     "entries": 57,
+     "specs": 1,
+     "locales": [
+      "default"
+     ],
+     "types": {
+      "drawable": 57
+     }
+    }
+   ],
+   "total_entries": 252,
+   "global_strings": 252,
+   "type_totals": {
+    "drawable": 249,
+    "dimen": 2,
+    "style": 1
+   },
+   "locales": {
+    "default": 252
+   },
+   "locale_count": 0
+  }
+ },
+ "res_xml": {
+  "scanned": 330,
+  "network_security_config": [
+   {
+    "file": "res/xml/network_security_config.xml",
+    "base_cleartext": null,
+    "trust_anchors_present": true,
+    "debug_overrides": false,
+    "pins": [],
+    "domain_configs": [
+     {
+      "domain": "storage.googleapis.com",
+      "cleartext": null,
+      "includesSubdomains": null
+     }
+    ]
+   }
+  ],
+  "backup_rules": [
+   {
+    "file": "res/xml/appsflyer_data_extraction_rules.xml",
+    "tag": "data-extraction-rules",
+    "children": [
+     "cloud-backup",
+     "device-transfer"
+    ]
+   }
+  ],
+  "other_interesting": [
+   {
+    "file": "res/color-v23/abc_tint_spinner.xml",
+    "root": "selector",
+    "attrs": "selector "
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__0.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=89.036400 {http://schemas.android.com/apk/res/android}startY=23.453899 {http://schemas.android.com/apk/res/android}endX=89.036400 "
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__1.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=155.617004 {http://schemas.android.com/apk/res/android}startY=147.466003 {http://schemas.android.com/apk/res/android}endX=155.6170"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__10.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=75.092003 {http://schemas.android.com/apk/res/android}startY=147.466003 {http://schemas.android.com/apk/res/android}endX=75.092003"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__11.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=37.551201 {http://schemas.android.com/apk/res/android}startY=147.826004 {http://schemas.android.com/apk/res/android}endX=37.551201"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__12.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=165.257996 {http://schemas.android.com/apk/res/android}startY=147.466003 {http://schemas.android.com/apk/res/android}endX=165.2579"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__13.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=5.990000 {http://schemas.android.com/apk/res/android}startY=147.826004 {http://schemas.android.com/apk/res/android}endX=5.990000 {"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__14.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=96.364304 {http://schemas.android.com/apk/res/android}startY=147.412003 {http://schemas.android.com/apk/res/android}endX=96.364304"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__15.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=175.809006 {http://schemas.android.com/apk/res/android}startY=147.466003 {http://schemas.android.com/apk/res/android}endX=175.8090"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__16.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=143.279999 {http://schemas.android.com/apk/res/android}startY=129.977997 {http://schemas.android.com/apk/res/android}endX=143.2799"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__17.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=114.237999 {http://schemas.android.com/apk/res/android}startY=142.304001 {http://schemas.android.com/apk/res/android}endX=114.2379"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__18.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=118.755997 {http://schemas.android.com/apk/res/android}startY=137.274994 {http://schemas.android.com/apk/res/android}endX=118.7559"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__19.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=150.098007 {http://schemas.android.com/apk/res/android}startY=129.977997 {http://schemas.android.com/apk/res/android}endX=150.0980"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__2.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=61.449402 {http://schemas.android.com/apk/res/android}startY=68.993202 {http://schemas.android.com/apk/res/android}endX=88.799400 "
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__20.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=26.628799 {http://schemas.android.com/apk/res/android}startY=139.384003 {http://schemas.android.com/apk/res/android}endX=26.628799"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__21.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=20.649200 {http://schemas.android.com/apk/res/android}startY=129.520004 {http://schemas.android.com/apk/res/android}endX=20.649200"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__22.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=62.574902 {http://schemas.android.com/apk/res/android}startY=116.754997 {http://schemas.android.com/apk/res/android}endX=62.574902"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__23.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=62.574902 {http://schemas.android.com/apk/res/android}startY=129.059998 {http://schemas.android.com/apk/res/android}endX=62.574902"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__3.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=61.880299 {http://schemas.android.com/apk/res/android}startY=67.719498 {http://schemas.android.com/apk/res/android}endX=89.401497 "
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__4.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=22.406000 {http://schemas.android.com/apk/res/android}startY=147.826004 {http://schemas.android.com/apk/res/android}endX=22.406000"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__5.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=47.807499 {http://schemas.android.com/apk/res/android}startY=147.826004 {http://schemas.android.com/apk/res/android}endX=47.807499"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__6.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=60.054699 {http://schemas.android.com/apk/res/android}startY=147.466003 {http://schemas.android.com/apk/res/android}endX=60.054699"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__7.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=116.597000 {http://schemas.android.com/apk/res/android}startY=148.139999 {http://schemas.android.com/apk/res/android}endX=116.5970"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__8.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=128.466003 {http://schemas.android.com/apk/res/android}startY=147.466003 {http://schemas.android.com/apk/res/android}endX=128.4660"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error__9.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=148.477997 {http://schemas.android.com/apk/res/android}startY=147.466003 {http://schemas.android.com/apk/res/android}endX=148.4779"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__0.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=85.589996 {http://schemas.android.com/apk/res/android}startY=118.900002 {http://schemas.android.com/apk/res/android}endX=75.309998"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__1.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=85.589996 {http://schemas.android.com/apk/res/android}startY=118.900002 {http://schemas.android.com/apk/res/android}endX=75.309998"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__10.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=1 {http://schemas.android.com/apk/res/android}centerX=90.500000 {http://schemas.android.com/apk/res/android}centerY=122.400002 {http://schemas.android.com/apk/res/android}gradientRadi"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__11.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=134.600006 {http://schemas.android.com/apk/res/android}startY=133.309998 {http://schemas.android.com/apk/res/android}endX=134.6000"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__12.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=52.700001 {http://schemas.android.com/apk/res/android}startY=132.500000 {http://schemas.android.com/apk/res/android}endX=52.700001"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__13.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=124.010002 {http://schemas.android.com/apk/res/android}startY=132.380005 {http://schemas.android.com/apk/res/android}endX=124.0100"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__2.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=85.589996 {http://schemas.android.com/apk/res/android}startY=118.900002 {http://schemas.android.com/apk/res/android}endX=75.309998"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__3.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=85.589996 {http://schemas.android.com/apk/res/android}startY=118.900002 {http://schemas.android.com/apk/res/android}endX=75.309998"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__4.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=85.589996 {http://schemas.android.com/apk/res/android}startY=118.900002 {http://schemas.android.com/apk/res/android}endX=75.309998"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__5.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=43.209999 {http://schemas.android.com/apk/res/android}startY=48.779999 {http://schemas.android.com/apk/res/android}endX=116.410004"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__6.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=43.209999 {http://schemas.android.com/apk/res/android}startY=48.779999 {http://schemas.android.com/apk/res/android}endX=116.410004"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__7.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=43.209999 {http://schemas.android.com/apk/res/android}startY=48.779999 {http://schemas.android.com/apk/res/android}endX=116.410004"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__8.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=43.209999 {http://schemas.android.com/apk/res/android}startY=48.779999 {http://schemas.android.com/apk/res/android}endX=116.410004"
+   },
+   {
+    "file": "res/drawable/$ic_cashier_network_error_v3__9.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=43.209999 {http://schemas.android.com/apk/res/android}startY=48.779999 {http://schemas.android.com/apk/res/android}endX=116.410004"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__0.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=60.993301 {http://schemas.android.com/apk/res/android}startY=31.631500 {http://schemas.android.com/apk/res/android}endX=60.993301 "
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__1.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=5.730120 {http://schemas.android.com/apk/res/android}startY=72.392601 {http://schemas.android.com/apk/res/android}endX=5.730120 {h"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__10.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=22.933800 {http://schemas.android.com/apk/res/android}startY=106.259003 {http://schemas.android.com/apk/res/android}endX=74.407097"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__11.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=41.040001 {http://schemas.android.com/apk/res/android}startY=64.519501 {http://schemas.android.com/apk/res/android}endX=41.040001 "
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__12.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=73.980003 {http://schemas.android.com/apk/res/android}startY=116.856003 {http://schemas.android.com/apk/res/android}endX=73.980003"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__13.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=100.390999 {http://schemas.android.com/apk/res/android}startY=101.942001 {http://schemas.android.com/apk/res/android}endX=100.3909"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__14.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=100.390999 {http://schemas.android.com/apk/res/android}startY=89.145500 {http://schemas.android.com/apk/res/android}endX=100.39099"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__15.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=97.379303 {http://schemas.android.com/apk/res/android}startY=112.105003 {http://schemas.android.com/apk/res/android}endX=102.96499"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__16.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=93.936096 {http://schemas.android.com/apk/res/android}startY=116.497002 {http://schemas.android.com/apk/res/android}endX=116.69899"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__17.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=1 {http://schemas.android.com/apk/res/android}centerX=-20.609900 {http://schemas.android.com/apk/res/android}centerY=-22.264999 {http://schemas.android.com/apk/res/android}gradientRad"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__2.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=17.250099 {http://schemas.android.com/apk/res/android}startY=85.352501 {http://schemas.android.com/apk/res/android}endX=17.250099 "
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__3.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=103.650002 {http://schemas.android.com/apk/res/android}startY=62.312500 {http://schemas.android.com/apk/res/android}endX=103.65000"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__4.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=115.169998 {http://schemas.android.com/apk/res/android}startY=77.792999 {http://schemas.android.com/apk/res/android}endX=115.16999"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__5.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=7.380000 {http://schemas.android.com/apk/res/android}startY=75.408302 {http://schemas.android.com/apk/res/android}endX=7.380000 {h"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__6.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=105.300003 {http://schemas.android.com/apk/res/android}startY=72.528397 {http://schemas.android.com/apk/res/android}endX=105.30000"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__7.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=17.100000 {http://schemas.android.com/apk/res/android}startY=95.208099 {http://schemas.android.com/apk/res/android}endX=17.100000 "
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__8.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=60.539101 {http://schemas.android.com/apk/res/android}startY=131.289993 {http://schemas.android.com/apk/res/android}endX=60.539101"
+   },
+   {
+    "file": "res/drawable/$ic_reset_pin_pending__9.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=60.417099 {http://schemas.android.com/apk/res/android}startY=147.380005 {http://schemas.android.com/apk/res/android}endX=60.417099"
+   },
+   {
+    "file": "res/drawable/$ic_security__0.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=17.000000 {http://schemas.android.com/apk/res/android}startY=0.000000 {http://schemas.android.com/apk/res/android}endX=17.000000 {"
+   },
+   {
+    "file": "res/drawable/$ic_security__1.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=17.070999 {http://schemas.android.com/apk/res/android}startY=4.722000 {http://schemas.android.com/apk/res/android}endX=17.070999 {"
+   },
+   {
+    "file": "res/drawable/$ic_security__2.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=17.070999 {http://schemas.android.com/apk/res/android}startY=6.827000 {http://schemas.android.com/apk/res/android}endX=17.070999 {"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__0.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=85.589996 {http://schemas.android.com/apk/res/android}startY=118.900002 {http://schemas.android.com/apk/res/android}endX=75.309998"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__1.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=85.589996 {http://schemas.android.com/apk/res/android}startY=118.900002 {http://schemas.android.com/apk/res/android}endX=75.309998"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__10.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=1 {http://schemas.android.com/apk/res/android}centerX=90.500000 {http://schemas.android.com/apk/res/android}centerY=122.400002 {http://schemas.android.com/apk/res/android}gradientRadi"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__11.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=134.600006 {http://schemas.android.com/apk/res/android}startY=133.309998 {http://schemas.android.com/apk/res/android}endX=134.6000"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__12.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=52.700001 {http://schemas.android.com/apk/res/android}startY=132.500000 {http://schemas.android.com/apk/res/android}endX=52.700001"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__13.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=124.010002 {http://schemas.android.com/apk/res/android}startY=132.380005 {http://schemas.android.com/apk/res/android}endX=124.0100"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__2.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=85.589996 {http://schemas.android.com/apk/res/android}startY=118.900002 {http://schemas.android.com/apk/res/android}endX=75.309998"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__3.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=85.589996 {http://schemas.android.com/apk/res/android}startY=118.900002 {http://schemas.android.com/apk/res/android}endX=75.309998"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__4.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=85.589996 {http://schemas.android.com/apk/res/android}startY=118.900002 {http://schemas.android.com/apk/res/android}endX=75.309998"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__5.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=43.209999 {http://schemas.android.com/apk/res/android}startY=48.779999 {http://schemas.android.com/apk/res/android}endX=116.410004"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__6.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=43.209999 {http://schemas.android.com/apk/res/android}startY=48.779999 {http://schemas.android.com/apk/res/android}endX=116.410004"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__7.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=43.209999 {http://schemas.android.com/apk/res/android}startY=48.779999 {http://schemas.android.com/apk/res/android}endX=116.410004"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__8.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=43.209999 {http://schemas.android.com/apk/res/android}startY=48.779999 {http://schemas.android.com/apk/res/android}endX=116.410004"
+   },
+   {
+    "file": "res/drawable/$img180_general_no_network__9.xml",
+    "root": "gradient",
+    "attrs": "gradient {http://schemas.android.com/apk/res/android}angle=0.000000 {http://schemas.android.com/apk/res/android}type=0 {http://schemas.android.com/apk/res/android}startX=43.209999 {http://schemas.android.com/apk/res/android}startY=48.779999 {http://schemas.android.com/apk/res/android}endX=116.410004"
+   },
+   {
+    "file": "res/drawable/abc_spinner_textfield_background_material.xml",
+    "root": "inset",
+    "attrs": "inset {http://schemas.android.com/apk/res/android}insetLeft=@7F070019 {http://schemas.android.com/apk/res/android}insetRight=@7F070019 {http://schemas.android.com/apk/res/android}insetTop=@7F070019 {http://schemas.android.com/apk/res/android}insetBottom=@7F070019"
+   },
+   {
+    "file": "res/drawable/bg_err_pink_ekyc.xml",
+    "root": "shape",
+    "attrs": "shape {http://schemas.android.com/apk/res/android}shape=0"
+   },
+   {
+    "file": "res/drawable/bg_resetpin_edt.xml",
+    "root": "shape",
+    "attrs": "shape {http://schemas.android.com/apk/res/android}shape=0"
+   },
+   {
+    "file": "res/drawable/ic_app_shopping.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=48.000000dip {http://schemas.android.com/apk/res/android}width=48.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=48.000000 {http://schemas.android.com/apk/res/android}viewportHeight=48.000000"
+   },
+   {
+    "file": "res/drawable/ic_cashier_network_error.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=181.000000dip {http://schemas.android.com/apk/res/android}width=181.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=181.000000 {http://schemas.android.com/apk/res/android}viewportHeight=181.000000"
+   },
+   {
+    "file": "res/drawable/ic_cashier_network_error_v3.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=180.000000dip {http://schemas.android.com/apk/res/android}width=181.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=181.000000 {http://schemas.android.com/apk/res/android}viewportHeight=180.000000"
+   },
+   {
+    "file": "res/drawable/ic_cashier_network_offline.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=24.000000dip {http://schemas.android.com/apk/res/android}width=24.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=24.000000 {http://schemas.android.com/apk/res/android}viewportHeight=24.000000"
+   },
+   {
+    "file": "res/drawable/ic_cashier_network_online.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=24.000000dip {http://schemas.android.com/apk/res/android}width=24.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=24.000000 {http://schemas.android.com/apk/res/android}viewportHeight=24.000000"
+   },
+   {
+    "file": "res/drawable/ic_circle_philippines.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=40.000000dip {http://schemas.android.com/apk/res/android}width=40.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=40.000000 {http://schemas.android.com/apk/res/android}viewportHeight=40.000000"
+   },
+   {
+    "file": "res/drawable/ic_general_security_check.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=24.000000dip {http://schemas.android.com/apk/res/android}width=24.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=24.000000 {http://schemas.android.com/apk/res/android}viewportHeight=24.000000"
+   },
+   {
+    "file": "res/drawable/ic_nonetwork.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=24.000000dip {http://schemas.android.com/apk/res/android}width=24.000000dip {http://schemas.android.com/apk/res/android}autoMirrored=true {http://schemas.android.com/apk/res/android}viewportWidth=24.000000 {http://schemas.android.com/apk/res/"
+   },
+   {
+    "file": "res/drawable/ic_otp_popup_smart_otp_security.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=24.000000dip {http://schemas.android.com/apk/res/android}width=24.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=24.000000 {http://schemas.android.com/apk/res/android}viewportHeight=24.000000"
+   },
+   {
+    "file": "res/drawable/ic_personal_online_shopping.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=24.000000dip {http://schemas.android.com/apk/res/android}width=24.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=24.000000 {http://schemas.android.com/apk/res/android}viewportHeight=24.000000"
+   },
+   {
+    "file": "res/drawable/ic_reset_pin_pending.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=164.000000dip {http://schemas.android.com/apk/res/android}width=142.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=142.000000 {http://schemas.android.com/apk/res/android}viewportHeight=164.000000"
+   },
+   {
+    "file": "res/drawable/ic_security.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=34.000000dip {http://schemas.android.com/apk/res/android}width=34.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=34.000000 {http://schemas.android.com/apk/res/android}viewportHeight=34.000000"
+   },
+   {
+    "file": "res/drawable/ic_security_check.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=24.000000dip {http://schemas.android.com/apk/res/android}width=24.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=24.000000 {http://schemas.android.com/apk/res/android}viewportHeight=24.000000"
+   },
+   {
+    "file": "res/drawable/ic_vector_reset_pin.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=48.000000dip {http://schemas.android.com/apk/res/android}width=48.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=48.000000 {http://schemas.android.com/apk/res/android}viewportHeight=48.000000"
+   },
+   {
+    "file": "res/drawable/img180_general_no_network.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=180.000000dip {http://schemas.android.com/apk/res/android}width=181.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=181.000000 {http://schemas.android.com/apk/res/android}viewportHeight=180.000000"
+   },
+   {
+    "file": "res/drawable/lnf_ic_secondary_general_security_check.xml",
+    "root": "vector",
+    "attrs": "vector {http://schemas.android.com/apk/res/android}height=24.000000dip {http://schemas.android.com/apk/res/android}width=24.000000dip {http://schemas.android.com/apk/res/android}viewportWidth=24.000000 {http://schemas.android.com/apk/res/android}viewportHeight=24.000000"
+   },
+   {
+    "file": "res/drawable/pin_code_round_empty.xml",
+    "root": "shape",
+    "attrs": "shape {http://schemas.android.com/apk/res/android}shape=1"
+   },
+   {
+    "file": "res/drawable/pin_code_round_empty_lock_screen.xml",
+    "root": "shape",
+    "attrs": "shape {http://schemas.android.com/apk/res/android}shape=1"
+   },
+   {
+    "file": "res/drawable/pin_code_round_empty_onboarding.xml",
+    "root": "shape",
+    "attrs": "shape {http://schemas.android.com/apk/res/android}shape=1"
+   },
+   {
+    "file": "res/drawable/pin_code_round_full.xml",
+    "root": "shape",
+    "attrs": "shape {http://schemas.android.com/apk/res/android}shape=1"
+   },
+   {
+    "file": "res/drawable/pin_code_round_full_lock_screen.xml",
+    "root": "shape",
+    "attrs": "shape {http://schemas.android.com/apk/res/android}shape=1"
+   },
+   {
+    "file": "res/layout/activity_account_security_setting.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}fitsSystemWindows=true {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-1"
+   },
+   {
+    "file": "res/layout/activity_change_pin.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}background=@7F0603D6 {http://schemas.android.com/apk/res/android}fitsSystemWindows=true {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/a"
+   },
+   {
+    "file": "res/layout/activity_reset_pin.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}id=@8102000F {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-1"
+   },
+   {
+    "file": "res/layout/fragment_confirm_reset_pin_dialog.xml",
+    "root": "androidx.constraintlayout.widget.ConstraintLayout",
+    "attrs": "androidx.constraintlayout.widget.ConstraintLayout {http://schemas.android.com/apk/res/android}background=@7F08061A {http://schemas.android.com/apk/res/android}padding=@7F070431 {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-2"
+   },
+   {
+    "file": "res/layout/fragment_new_pin.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-1"
+   },
+   {
+    "file": "res/layout/fragment_old_pin.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-1"
+   },
+   {
+    "file": "res/layout/fragment_otp_pin.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-1"
+   },
+   {
+    "file": "res/layout/fragment_reset_pin_otp.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}background=@7F06056A {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-1"
+   },
+   {
+    "file": "res/layout/fragment_reset_pin_pending.xml",
+    "root": "androidx.constraintlayout.widget.ConstraintLayout",
+    "attrs": "androidx.constraintlayout.widget.ConstraintLayout {http://schemas.android.com/apk/res/android}background=@7F0601B6 {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-1"
+   },
+   {
+    "file": "res/layout/h5_network_check_activity.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-1"
+   },
+   {
+    "file": "res/layout/include_status_network_sdk_taxi.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}gravity=0x00000010 {http://schemas.android.com/apk/res/android}orientation=0 {http://schemas.android.com/apk/res/android}id=@7F0A06C0 {http://schemas.android.com/apk/res/android}background=@7F0810A2 {http://schemas.android.com/apk/res/android}"
+   },
+   {
+    "file": "res/layout/item_reset_pin_entry_point_1.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}gravity=0x00000001 {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}background=#FFFFFFFF {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/andro"
+   },
+   {
+    "file": "res/layout/layout_change_pin_content.xml",
+    "root": "merge",
+    "attrs": "merge "
+   },
+   {
+    "file": "res/layout/layout_login_by_pin.xml",
+    "root": "RelativeLayout",
+    "attrs": "RelativeLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}id=@8206004D {http://schemas.android.com/apk/res/android}background=@82050031 {http://schemas.android.com/apk/res/android}fitsSystemWindows=true {http://schemas.android.com/apk/res/an"
+   },
+   {
+    "file": "res/layout/layout_network_pin.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}gravity=0x00000010 {http://schemas.android.com/apk/res/android}orientation=0 {http://schemas.android.com/apk/res/android}id=@80010002 {http://schemas.android.com/apk/res/android}background=@7F060399 {http://schemas.android.com/apk/res/android}"
+   },
+   {
+    "file": "res/layout/layout_pin_auth.xml",
+    "root": "FrameLayout",
+    "attrs": "FrameLayout {http://schemas.android.com/apk/res/android}id=@7F0A0674 {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-2"
+   },
+   {
+    "file": "res/layout/layout_pin_expiration_option.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}background=@82030005 {http://schemas.android.com/apk/res/android}padding=16.000000dip {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/and"
+   },
+   {
+    "file": "res/layout/layout_round_pin_view.xml",
+    "root": "merge",
+    "attrs": "merge "
+   },
+   {
+    "file": "res/layout/layout_security_verification.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}background=@81010013 {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-2 {http://schemas.android.com/apk/res/android"
+   },
+   {
+    "file": "res/layout/login_pin_verification_layout.xml",
+    "root": "ScrollView",
+    "attrs": "ScrollView {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}id=@82060050 {http://schemas.android.com/apk/res/android}background=#FFFFFFFF {http://schemas.android.com/apk/res/android}scrollbars=0x00000000 {http://schemas.android.com/apk/res/android"
+   },
+   {
+    "file": "res/layout/payment_webview_retry_network.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}gravity=0x00000001 {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}id=@83030011 {http://schemas.android.com/apk/res/android}background=@7F06056A {http://schemas.android.com/apk/res/android}"
+   },
+   {
+    "file": "res/layout/registration_pin_layout.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}id=@8206004B {http://schemas.android.com/apk/res/android}background=#FFFDFDFD {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}lay"
+   },
+   {
+    "file": "res/layout/support_simple_spinner_dropdown_item.xml",
+    "root": "TextView",
+    "attrs": "TextView {http://schemas.android.com/apk/res/android}ellipsize=4 {http://schemas.android.com/apk/res/android}id=@android:01020014 {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=?7F0401C7 {http://schemas.android.com/apk/res/androi"
+   },
+   {
+    "file": "res/layout/view_pin_keyboard.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}orientation=1 {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layout_height=-2"
+   },
+   {
+    "file": "res/layout/view_pin_keyboard_button.xml",
+    "root": "RelativeLayout",
+    "attrs": "RelativeLayout {http://schemas.android.com/apk/res/android}layout_gravity=0x00000010 {http://schemas.android.com/apk/res/android}id=@7F0A0810 {http://schemas.android.com/apk/res/android}paddingTop=@7F070250 {http://schemas.android.com/apk/res/android}paddingBottom=@7F070250 {http://schemas.android.c"
+   },
+   {
+    "file": "res/layout/view_round_pin.xml",
+    "root": "vn.zalopay.ui.password.view.SquareImageView",
+    "attrs": "vn.zalopay.ui.password.view.SquareImageView {http://schemas.android.com/apk/res/android}id=@7F0A0812 {http://schemas.android.com/apk/res/android}layout_width=0.000000dip {http://schemas.android.com/apk/res/android}layout_height=@7F0703E2 {http://schemas.android.com/apk/res/android}layout_margin=@7F0"
+   },
+   {
+    "file": "res/layout/view_round_pin_code.xml",
+    "root": "LinearLayout",
+    "attrs": "LinearLayout {http://schemas.android.com/apk/res/android}gravity=0x00000011 {http://schemas.android.com/apk/res/android}orientation=0 {http://schemas.android.com/apk/res/android}id=@7F0A090F {http://schemas.android.com/apk/res/android}layout_width=-1 {http://schemas.android.com/apk/res/android}layou"
+   },
+   {
+    "file": "res/navigation/navigation_account_security_setting.xml",
+    "root": "navigation",
+    "attrs": "navigation {http://schemas.android.com/apk/res/android}id=@7F0A0768 {http://schemas.android.com/apk/res-auto}progressDestination=@7F0A03F8 {http://schemas.android.com/apk/res-auto}startDestination=@7F0A03F5"
+   },
+   {
+    "file": "res/navigation/navigation_feature_changepin.xml",
+    "root": "navigation",
+    "attrs": "navigation {http://schemas.android.com/apk/res/android}id=@7F0A0768 {http://schemas.android.com/apk/res-auto}progressDestination=@7F0A03F8 {http://schemas.android.com/apk/res-auto}startDestination=@7F0A03A1"
+   },
+   {
+    "file": "res/navigation/navigation_feature_resetpin.xml",
+    "root": "navigation",
+    "attrs": "navigation {http://schemas.android.com/apk/res/android}id=@7F0A0768 {http://schemas.android.com/apk/res-auto}progressDestination=@7F0A03F8 {http://schemas.android.com/apk/res-auto}startDestination=@7F0A03A4"
+   }
+  ],
+  "errors": 0,
+  "tag_histogram": {
+   "selector": 93,
+   "gradient": 78,
+   "set": 77,
+   "vector": 17,
+   "LinearLayout": 17,
+   "translate": 14,
+   "shape": 7,
+   "alpha": 4,
+   "objectAnimator": 4,
+   "navigation": 3,
+   "androidx.constraintlayout.widget.ConstraintLayout": 2,
+   "merge": 2,
+   "RelativeLayout": 2,
+   "pathInterpolator": 2,
+   "inset": 1,
+   "FrameLayout": 1,
+   "ScrollView": 1,
+   "TextView": 1,
+   "vn.zalopay.ui.password.view.SquareImageView": 1,
+   "data-extraction-rules": 1
+  }
+ },
+ "resolved": {
+  "networkSecurityConfig": "@7F16000D",
+  "dataExtractionRules": "@7F160004",
+  "fullBackupContent": "false"
+ },
+ "split_locales": {
+  "config.en.apk": [
+   [
+    "en",
+    370
+   ]
+  ],
+  "config.vi.apk": [
+   [
+    "vi",
+    496
+   ]
+  ],
+  "config.xhdpi.apk": [
+   [
+    "default",
+    252
+   ]
+  ]
+ }
+}

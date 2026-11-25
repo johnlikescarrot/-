@@ -1,0 +1,2074 @@
+{
+ "artifact": {
+  "package": "vn.com.vng.zalopay",
+  "version": "11.17.0",
+  "version_code": "1102758",
+  "min_sdk": "26",
+  "target_sdk": "36",
+  "compile_sdk": "36",
+  "sha256_outer": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+  "size_outer": 98813878,
+  "apks": 5,
+  "entries": 6464,
+  "uncompressed_bytes": 195327309,
+  "categories": {
+   "binary-manifest": 5,
+   "native-code": 27,
+   "other": 152,
+   "signature-or-service-metadata": 192,
+   "resource-table": 4,
+   "android-resource": 5856,
+   "bundled-asset": 123,
+   "dalvik-bytecode": 20,
+   "library-config": 77,
+   "kotlin-metadata": 8
+  }
+ },
+ "manifest": {
+  "permissions": 49,
+  "dangerous": 13,
+  "dangerous_groups": {
+   "NOTIFICATIONS": 1,
+   "CONTACTS": 2,
+   "PHONE": 1,
+   "STORAGE": 2,
+   "LOCATION": 2,
+   "CALENDAR": 2,
+   "MICROPHONE": 1,
+   "CAMERA": 1,
+   "MEDIA": 1
+  },
+  "components": {
+   "activity": 200,
+   "activity-alias": 2,
+   "service": 34,
+   "receiver": 22,
+   "provider": 9
+  },
+  "exported": {
+   "activity": 14,
+   "activity-alias": 2,
+   "service": 6,
+   "receiver": 8
+  },
+  "deep_links": 21,
+  "app_link_domains": [
+   "https://go.zalopay.vn",
+   "https://km.zalopay.vn",
+   "https://kmzalopay.onelink.me",
+   "https://onelink.zalopay.vn"
+  ],
+  "authorities": 9,
+  "queries": 27,
+  "application": {
+   "name": "jwbmqnsll.xvndbxlk",
+   "allowBackup": "false",
+   "fullBackupContent": "false",
+   "dataExtractionRules": "@7F160004",
+   "networkSecurityConfig": "@7F16000D",
+   "extractNativeLibs": "true",
+   "largeHeap": "true",
+   "hardwareAccelerated": "true",
+   "requestLegacyExternalStorage": "true",
+   "enableOnBackInvokedCallback": "false",
+   "appComponentFactory": "androidx.core.app.CoreComponentFactory"
+  }
+ },
+ "dex": {
+  "dex_files": 20,
+  "bytes": 69701748,
+  "classes": 63827,
+  "methods": 287480,
+  "fields": 286224,
+  "strings": 404914,
+  "insns": 9447883,
+  "code_units": 17513272,
+  "packages": 3352
+ },
+ "resources": {
+  "packages": 13,
+  "entries": 16475,
+  "strings": 7763,
+  "locales_split": {
+   "config.en.apk": [
+    [
+     "en",
+     370
+    ]
+   ],
+   "config.vi.apk": [
+    [
+     "vi",
+     496
+    ]
+   ],
+   "config.xhdpi.apk": [
+    [
+     "default",
+     252
+    ]
+   ]
+  }
+ },
+ "native": {
+  "count": 28,
+  "total_bytes": 57452516,
+  "pie": 27,
+  "nx": 27,
+  "relro": 23,
+  "full_relro": 23,
+  "canary": 25,
+  "fortify": 13,
+  "stripped": 26,
+  "avg_hardening": 5.07,
+  "jni_exports": 284,
+  "high_entropy": [
+   "lib/armeabi-v7a/libtaibmcf.so",
+   "lib/armeabi-v7a/libmlkitcommonpipeline.so",
+   "lib/armeabi-v7a/libfgcpkjvqe.so",
+   "lib/armeabi-v7a/libface_detector_v2_jni.so",
+   "lib/armeabi-v7a/libsqlcipher.so",
+   "lib/armeabi-v7a/libbarhopper_v3.so",
+   "lib/armeabi-v7a/libpicodet_ncnn.so",
+   "lib/armeabi-v7a/libVFaceLib.so",
+   "lib/armeabi-v7a/libsecurity_lite.so"
+  ],
+  "compilers": {
+   "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)": 9,
+   "Linker: LLD 14.0.7": 3,
+   "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)": 3,
+   "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)": 2,
+   "Android (11349228, +pgo, +bolt, +lto, -mlgo, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)": 1,
+   "Linker: LLD 18.0.3": 1,
+   "Android (12027248, +pgo, -bolt, +lto, -mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)": 1,
+   "Android (11695104, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)": 1,
+   "Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)": 1
+  },
+  "needed": {
+   "libm.so": 27,
+   "libdl.so": 27,
+   "libc.so": 27,
+   "liblog.so": 25,
+   "libandroid.so": 9,
+   "libjnigraphics.so": 9,
+   "libz.so": 7,
+   "libEGL.so": 3,
+   "libGLESv2.so": 2,
+   "libGLESv3.so": 1,
+   "libc++_shared.so": 1,
+   "libstdc++.so": 1,
+   "librcmefqonnx.so": 1,
+   "liblytcuhe.so": 1
+  }
+ },
+ "signing": {
+  "schemes": [
+   "v2",
+   "v3",
+   "v1"
+  ],
+  "certificates": [
+   {
+    "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "sha1": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+    "der_len": 721,
+    "subject": "CN=Vu Manh Hieu",
+    "issuer": "CN=Vu Manh Hieu",
+    "serial": "356428285 (0x153ea9fd)",
+    "not_before": "Apr 21 15:41:14 2016 GMT",
+    "not_after": "Apr 15 15:41:14 2041 GMT",
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "key_algorithm": "rsaEncryption",
+    "key_bits": 2048,
+    "self_signed": true,
+    "is_ca": false,
+    "subject_key_id": "AB:4E:99:38:3A:8E:BA:98:75:D3:AF:D2:B0:A7:E2:D2:D1:AD:B1:A4",
+    "first_seen": "config.armeabi_v7a.apk"
+   }
+  ],
+  "source_stamp": true,
+  "consistent": true,
+  "block_pairs": [
+   {
+    "id": "0x7109871a",
+    "size": 1379
+   },
+   {
+    "id": "0xf05368c0",
+    "size": 1379
+   },
+   {
+    "id": "0x6dff800d",
+    "size": 3057
+   },
+   {
+    "id": "0x2146444e",
+    "size": 687
+   },
+   {
+    "id": "0x42726577",
+    "size": 1598
+   },
+   {
+    "id": "0x204b5041",
+    "size": 8180
+   }
+  ]
+ },
+ "host_taxonomy": {
+  "other third-party": 126,
+  "first-party (ZaloPay/VNG)": 57,
+  "cloud / CDN": 18,
+  "banking / payment rails": 14,
+  "social platform": 12,
+  "advertising / attribution": 9,
+  "card network": 7,
+  "telemetry / observability": 6
+ },
+ "host_taxonomy_detail": {
+  "other third-party": {
+   "count": 126,
+   "hosts": [
+    "a.alipayobjects.com",
+    "abc.com",
+    "ac.mobilepayment.user.info",
+    "alipay.antmember.biz",
+    "alipay.com",
+    "alipay.intl.gmp.rpc.app",
+    "alipay.intl.gmp.rpc.app.info",
+    "alipay.worker.com",
+    "amcstxt.alipay.com",
+    "android.app",
+    "android.net",
+    "androidx.appcompat.app",
+    "androidx.core.app",
+    "androidx.test.core.app",
+    "aomedia.org",
+    "ap.mobileamcs.cloud",
+    "api.trueid.vn",
+    "authentication.tpb.vn",
+    "camerax.core.io",
+    "client.dev",
+    "clients3.google.com",
+    "com.alipay.antmember.biz",
+    "com.alipay.creditexprod.biz",
+    "com.alipay.mobile.nebulax.resource.biz",
+    "com.alipay.sdk.app",
+    "com.android.org",
+    "com.chrome.dev",
+    "com.google.android.gms.org",
+    "com.google.android.wearable.app",
+    "com.google.app",
+    "com.google.common.io",
+    "com.iap.ac.android.acs.operation.biz",
+    "com.iap.ac.android.biz",
+    "com.samsung.android.game.cloudgame.dev",
+    "developer.android.com",
+    "developer.apple.com",
+    "developers.google.com",
+    "fbandroid.java.com",
+    "g.co",
+    "gbraid.client.dev"
+   ]
+  },
+  "first-party (ZaloPay/VNG)": {
+   "count": 57,
+   "hosts": [
+    "advertising.zalopay.vn",
+    "api.zalopay.vn",
+    "atlas.zalopay.vn",
+    "bank-profile.zalopay.vn",
+    "bim.zalopay.vn",
+    "bnpl-gateway.zalopay.vn",
+    "campaign.zalopay.com.vn",
+    "cps.zalopay.com.vn",
+    "dala2zoom.zalopay.vn",
+    "fin-installment.zalopay.vn",
+    "go.zalopay.vn",
+    "html.zapps.vn",
+    "id.zalo.me",
+    "km.zalopay.vn",
+    "log.zalopay.com.vn",
+    "loyalty.zalopay.vn",
+    "mc.zalopay.vn",
+    "miniprogram.zalopay.vn",
+    "mmf-redemption.zalopay.vn",
+    "mmf-user.zalopay.vn",
+    "mnap-director.zalopay.vn",
+    "mp.zalopay.vn",
+    "oauth2.zalopay.vn",
+    "onelink.zalopay.vn",
+    "openapi.zalopay.vn",
+    "partners.zalopay.vn",
+    "promotion.zalopay.vn",
+    "qrpay.zalopay.vn",
+    "rar-um.zalopay.vn",
+    "rdx.zalopay.vn",
+    "s3-advertising.zalopay.vn",
+    "s3-loyalty.zalopay.vn",
+    "sapi.zalopay.vn",
+    "scard.zalopay.vn",
+    "scdn.zalopay.com.vn",
+    "simg.zalopay.com.vn",
+    "sjs.zalopay.com.vn",
+    "social.zalopay.vn",
+    "socialdev.zalopay.vn",
+    "sse.zalopay.vn"
+   ]
+  },
+  "cloud / CDN": {
+   "count": 18,
+   "hosts": [
+    "activityservice.alibaba.com",
+    "admob-gmats.uc.r.appspot.com",
+    "alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com",
+    "cdn.marmot-cloud.com",
+    "com.alibaba.ariver.app",
+    "com.alibaba.ariver.app.api.point.app",
+    "com.alibaba.ariver.app.api.point.biz",
+    "com.alibaba.ariver.commonability.map.api.app",
+    "com.alibaba.ariver.jsapi.app",
+    "com.alibaba.griver.biz",
+    "com.alibaba.griver.core.jsapi.app",
+    "connectivitycheck.gstatic.com",
+    "csi.gstatic.com",
+    "imasdk.googleapis.com",
+    "oss-local-nightly-dev.marmot-cloud.com",
+    "storage.googleapis.com",
+    "type.googleapis.com",
+    "visionkit-pa.googleapis.com"
+   ]
+  },
+  "banking / payment rails": {
+   "count": 14,
+   "hosts": [
+    "15828440.cloud.edgevnpay.vn",
+    "dc-ob-gatewaylb-ext.vpbank.com.vn",
+    "demomb.vnpaytest.vn",
+    "design.vnpay.vn",
+    "digibank.vietcapitalbank.com.vn",
+    "dl.bidvsmartbanking.vn",
+    "ebank.bidv.com.vn",
+    "ebanking.vietinbank.vn",
+    "neo.vpbank.com.vn",
+    "taikhoan.vpbank.com.vn",
+    "vcbdigibank.vietcombank.com.vn",
+    "vnpay.vn",
+    "www.sacombank.com.vn",
+    "www.vietcombank.com.vn"
+   ]
+  },
+  "social platform": {
+   "count": 12,
+   "hosts": [
+    "analytics.us.tiktok.com",
+    "developers.facebook.com",
+    "facebook.com",
+    "graph.zaloapp.com",
+    "id.zaloapp.com",
+    "instagram.com",
+    "kmzalopay.onelink.me",
+    "oauth.zaloapp.com",
+    "vngzalopay.freshdesk.com",
+    "www.facebook.com",
+    "zaloapp.com",
+    "ztevents.zaloapp.com"
+   ]
+  },
+  "advertising / attribution": {
+   "count": 9,
+   "hosts": [
+    "ad.doubleclick.net",
+    "appsflyersdk.com",
+    "doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "googleadservices.com",
+    "googlesyndication.com",
+    "pagead2.googlesyndication.com",
+    "privacy-sandbox.appsflyersdk.com",
+    "www.googleadservices.com"
+   ]
+  },
+  "card network": {
+   "count": 7,
+   "hosts": [
+    "dpe.aacert.consumerapi.digital.visa.com",
+    "dpe.consumerapi.digital.visa.com",
+    "dpe.qa.consumerapi.digital.visa.com",
+    "dpe.sandbox.consumerapi.digital.visa.com",
+    "icl.visa.com",
+    "visapay.as1.juspay.io",
+    "www.visa.com"
+   ]
+  },
+  "telemetry / observability": {
+   "count": 6,
+   "hosts": [
+    "app-measurement.com",
+    "debug.firebase.analytics.app",
+    "firebase-settings.crashlytics.com",
+    "firebase.google.com",
+    "firebaseinstallations.googleapis.com",
+    "firebaseremoteconfig.googleapis.com"
+   ]
+  }
+ },
+ "supply_chain": {
+  "libraries": 141,
+  "distinct_groups": 62,
+  "top_groups": {
+   "androidx.lifecycle": 14,
+   "androidx.navigation": 11,
+   "androidx.compose.ui": 9,
+   "androidx.camera": 6,
+   "androidx.core": 5,
+   "kotlinx": 5,
+   "androidx.databinding": 4,
+   "com.google.dagger": 4,
+   "androidx.activity": 3,
+   "androidx.compose.material": 3,
+   "androidx.compose.runtime": 3,
+   "androidx.legacy": 3,
+   "androidx.paging": 3,
+   "androidx.sqlite": 3,
+   "androidx.work": 3
+  },
+  "vendor_classes": {
+   "unattributed": 27273,
+   "Google": 10815,
+   "BouncyCastle": 6112,
+   "Alibaba": 4821,
+   "Meta": 3622,
+   "Ant Group": 2092,
+   "AndroidX (Google)": 1371,
+   "Visa": 1370,
+   "VNG / ZaloPay": 1239,
+   "Square": 660,
+   "VNG TrueID": 622,
+   "AppsFlyer": 430,
+   "VNPAY": 388,
+   "JetBrains": 380,
+   "Nimbus": 361,
+   "unknown": 299,
+   "ReactiveX": 266,
+   "JMRTD": 237,
+   "Bumptech": 213,
+   "jsoup": 175,
+   "Airbnb": 173,
+   "Rive": 157,
+   "ByteDance": 109,
+   "Caverock": 91,
+   "AOSP / AndroidX": 79,
+   "VNG": 76,
+   "Karumi": 65,
+   "EJBCA": 61,
+   "Zetetic": 57,
+   "Google Dagger": 51,
+   "SCUBA": 30,
+   "FasterXML": 25,
+   "greenrobot": 22,
+   "FPT.AI": 21,
+   "Xiaomi": 19,
+   "JUnit": 15,
+   "JSR-250": 5,
+   "OW2": 4,
+   "Apache": 3,
+   "sample code": 3,
+   "JaCoCo": 3
+  },
+  "unattributed": {
+   "<default>": 12,
+   "A.a": 2,
+   "C.a": 2,
+   "G.a": 2,
+   "D.a": 2,
+   "E.a": 2,
+   "F.a": 2,
+   "F.b": 2,
+   "F.c": 2,
+   "F.d": 2,
+   "F.e": 2,
+   "F.f": 2,
+   "F.g": 2,
+   "w.a": 2,
+   "H.a": 2,
+   "I.a": 2,
+   "J.a": 2,
+   "J.b": 2,
+   "K.a": 2,
+   "K.f": 2,
+   ".a": 2,
+   ".b": 2,
+   ".c": 2,
+   ".d": 2,
+   ".e": 2,
+   "M.a": 2,
+   "M.b": 2,
+   "N.a": 2,
+   "P.a": 2,
+   "P.b": 2,
+   "P.c": 2,
+   "P.d": 2,
+   "Q.a": 2,
+   "Q.b": 2,
+   "Q.c": 2,
+   "R.a": 2,
+   "R.b": 2,
+   "S.a": 2,
+   "S.b": 2,
+   "S.c": 2
+  },
+  "integrity_hints": {
+   "play_integrity": 48,
+   "root_detection": 248,
+   "hook_detection": 8,
+   "emulator_detection": 2,
+   "biometric_gate": 101,
+   "certificate_pinning": 14,
+   "code_obfuscation": 9,
+   "screenshot_or_hook_strings": 7
+  }
+ },
+ "assets": {
+  "count": 124,
+  "classes": {
+   "on-device-ml (ncnn)": 2,
+   "other": 43,
+   "configuration-json": 17,
+   "javascript-bundle": 8,
+   "nested-package": 2,
+   "opaque-binary": 3,
+   "text-config": 2,
+   "on-device-ml (TensorFlow Lite)": 14,
+   "font": 12,
+   "on-device-ml (ML Kit model)": 10,
+   "trust-material": 1,
+   "image": 9,
+   "native": 1
+  },
+  "models": [
+   {
+    "path": "assets/custom_models/object_labeler.tflite",
+    "size": 3770391,
+    "magic": "1c00000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/FastestDet.ncnn.bin",
+    "size": 2420588,
+    "magic": "476b30018e28cd28",
+    "is_tflite": false
+   },
+   {
+    "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+    "size": 1706957,
+    "magic": "1c00000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+    "size": 1254848,
+    "magic": "1c00000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+    "size": 613352,
+    "magic": "2000000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+    "size": 613080,
+    "magic": "2000000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+    "size": 390456,
+    "magic": "1800000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+    "size": 340760,
+    "magic": "1c00000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+    "size": 315520,
+    "magic": "2000000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+    "size": 276552,
+    "magic": "1c00000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+    "size": 232096,
+    "magic": "1c00000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+    "size": 231816,
+    "magic": "1c00000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+    "size": 213880,
+    "magic": "1c00000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+    "size": 129612,
+    "magic": "1c00000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+    "size": 114384,
+    "magic": "1c00000054464c33",
+    "is_tflite": true
+   },
+   {
+    "path": "assets/FastestDet.ncnn.param",
+    "size": 15293,
+    "magic": "373736373531370a",
+    "is_tflite": false
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+    "size": 13183,
+    "magic": "0aac2c0a68121e49",
+    "is_tflite": false
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+    "size": 13178,
+    "magic": "0aac2c0a68121e49",
+    "is_tflite": false
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner_ti.binarypb",
+    "size": 334,
+    "magic": "0a98021217676f6f",
+    "is_tflite": false
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+    "size": 333,
+    "magic": "0a16476f63725465",
+    "is_tflite": false
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner.binarypb",
+    "size": 331,
+    "magic": "0a95021217676f6f",
+    "is_tflite": false
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+    "size": 278,
+    "magic": "0a3e747970652e67",
+    "is_tflite": false
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+    "size": 276,
+    "magic": "0a3e747970652e67",
+    "is_tflite": false
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_recognizer.binarypb",
+    "size": 233,
+    "magic": "0a44747970652e67",
+    "is_tflite": false
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/taser/rpn_text_detection_tflite_mobile_mbv2.binarypb",
+    "size": 194,
+    "magic": "0a41747970652e67",
+    "is_tflite": false
+   },
+   {
+    "path": "assets/mlkit-google-ocr-models/taser/taser_script_identification_tflite_mobile.binarypb",
+    "size": 136,
+    "magic": "0a48747970652e67",
+    "is_tflite": false
+   }
+  ],
+  "js_bundles": [
+   {
+    "path": "assets/GriverBridge/appx_inline_bootstrap_min.js",
+    "size": 292,
+    "sha256": "98e536752ad1eb0cc92c0342636c25562d40ce1c13a7b94ac10dc8416190a452",
+    "urls": [],
+    "hosts": [],
+    "lines": 2,
+    "has_eval": false,
+    "has_websocket": false
+   },
+   {
+    "path": "assets/GriverBridge/cover_component.js",
+    "size": 2888,
+    "sha256": "0bfb0f20cb72e23a1c1b43c2aaf5b49e692e7f5660bab3a0a0544d129486d08b",
+    "urls": [],
+    "hosts": [],
+    "lines": 74,
+    "has_eval": false,
+    "has_websocket": false
+   },
+   {
+    "path": "assets/GriverBridge/h5_bridge.js",
+    "size": 4446,
+    "sha256": "e0f37c8b1163a14fce982c09afbded0249e18a6eca11c97225269d1edd63ec73",
+    "urls": [],
+    "hosts": [],
+    "lines": 2,
+    "has_eval": false,
+    "has_websocket": false
+   },
+   {
+    "path": "assets/GriverBridge/workerjs.js",
+    "size": 14360,
+    "sha256": "47c076ffe63168d2164625e6ef533ceec5132fb60803c0193afabf4f13da728c",
+    "urls": [],
+    "hosts": [],
+    "lines": 474,
+    "has_eval": true,
+    "has_websocket": false
+   },
+   {
+    "path": "assets/android_jsbridge.js",
+    "size": 3673,
+    "sha256": "79d13b8a360b1290af9e1ab640c0686e72cc7cc219f2f927ae1ddf83dd6b3388",
+    "urls": [],
+    "hosts": [],
+    "lines": 117,
+    "has_eval": false,
+    "has_websocket": false
+   },
+   {
+    "path": "assets/internaljsbridge.js",
+    "size": 3890,
+    "sha256": "0587ef4cfda3ab69dca564bac71d7ac8b6efe02b15f88f979a7374ce3f17ef74",
+    "urls": [],
+    "hosts": [],
+    "lines": 116,
+    "has_eval": false,
+    "has_websocket": false
+   },
+   {
+    "path": "assets/jsbridge.js",
+    "size": 3634,
+    "sha256": "2dfe8f8ba6a70ff37d3f2665913532917e6c0fb914fd87dbe198fea3c26d0736",
+    "urls": [],
+    "hosts": [],
+    "lines": 116,
+    "has_eval": false,
+    "has_websocket": false
+   },
+   {
+    "path": "assets/webapp.js",
+    "size": 619,
+    "sha256": "73242fce8a393809de4768c505848e8c6f053634cfda379c7ca95ac601b43c15",
+    "urls": [],
+    "hosts": [],
+    "lines": 35,
+    "has_eval": false,
+    "has_websocket": false
+   }
+  ],
+  "hosts": [
+   "15828440.cloud.edgevnpay.vn",
+   "advertising.zalopay.vn",
+   "alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com",
+   "cdn.marmot-cloud.com",
+   "digibank.vietcapitalbank.com.vn",
+   "dl.bidvsmartbanking.vn",
+   "ebanking.vietinbank.vn",
+   "gmail.com",
+   "gw.alipayobjects.com",
+   "html.zapps.vn",
+   "loyalty.zalopay.vn",
+   "lzd.co",
+   "mc.zalopay.vn",
+   "mnap-director.zalopay.vn",
+   "neo.vpbank.com.vn",
+   "onelink.zalopay.vn",
+   "oss-local-nightly-dev.marmot-cloud.com",
+   "pay.google.com",
+   "s3-advertising.zalopay.vn",
+   "s3-loyalty.zalopay.vn",
+   "scard.zalopay.vn",
+   "scdn.zalopay.com.vn",
+   "seal.controlcase.com",
+   "simg.zalopay.com.vn",
+   "sjs.zalopay.com.vn",
+   "social.zalopay.vn",
+   "socialdev.zalopay.vn",
+   "storage.googleapis.com",
+   "taikhoan.vpbank.com.vn",
+   "uudai.zalopay.vn",
+   "vn.com",
+   "vngzalopay.freshdesk.com",
+   "www.facebook.com",
+   "www.sacombank.com.vn",
+   "www.vietcombank.com.vn",
+   "zalo.me",
+   "zalopay.com.vn",
+   "zalopay.vn"
+  ],
+  "top_keys": {
+   "assets[].layers[].ddd": 76,
+   "assets[].layers[].ind": 76,
+   "assets[].layers[].ty": 76,
+   "assets[].layers[].nm": 76,
+   "assets[].layers[].sr": 76,
+   "assets[].layers[].ks": 76,
+   "assets[].layers[].ks.o": 76,
+   "assets[].layers[].ks.r": 76,
+   "assets[].layers[].ks.p": 76,
+   "assets[].layers[].ks.a": 76,
+   "assets[].layers[].ks.s": 76,
+   "assets[].layers[].ao": 76,
+   "assets[].layers[].ip": 76,
+   "assets[].layers[].op": 76,
+   "assets[].layers[].st": 76,
+   "assets[].layers[].bm": 76,
+   "assets[].layers[].shapes": 72,
+   "data[].groups[][].name": 24,
+   "data[].groups[][].logo": 24,
+   "data[].groups[][].action_type": 24,
+   "data[].groups[][].value": 24,
+   "trackingItems[].clientLocation": 20,
+   "trackingItems[].clientLocation.lat": 20,
+   "trackingItems[].clientLocation.lng": 20,
+   "trackingItems[].lastLocation": 20,
+   "trackingItems[].lastLocation.lat": 20,
+   "trackingItems[].lastLocation.lng": 20,
+   "trackingItems[].responseLocation": 20,
+   "trackingItems[].responseLocation.lat": 20,
+   "trackingItems[].responseLocation.lng": 20,
+   "trackingItems[].orientation": 20,
+   "trackingItems[].requestTime": 20,
+   "trackingItems[].responseTime": 20,
+   "data[].app_id": 20,
+   "data[].app_name": 20,
+   "data[].app_logo": 20,
+   "data[].path": 20,
+   "data[].category_name": 20,
+   "data[].base_url": 20,
+   "data[].one_link": 20
+  }
+ },
+ "findings": {
+  "count": 21,
+  "by_severity": {
+   "critical": 0,
+   "high": 0,
+   "medium": 5,
+   "low": 3,
+   "info": 13
+  },
+  "by_masvs": {
+   "MASVS-RESILIENCE-2": 3,
+   "MASVS-CODE-1": 3,
+   "MASVS-NETWORK-2": 2,
+   "MASVS-RESILIENCE-1": 2,
+   "MASVS-PLATFORM-1": 1,
+   "MASVS-PLATFORM-2": 1,
+   "MASVS-PLATFORM-4": 1,
+   "MASVS-PRIVACY-1": 1,
+   "MASVS-RESILIENCE-4": 1,
+   "MASVS-PRIVACY-2": 1,
+   "MASVS-RESILIENCE-5": 1,
+   "MASVS-PLATFORM-3": 1,
+   "MASVS-NETWORK-1": 1,
+   "MASVS-PRIVACY-3": 1,
+   "MASVS-STORAGE-2": 1
+  },
+  "risk_score": 36
+ },
+ "api_hits": {
+  "reflection": 18400,
+  "crypto_cipher": 488,
+  "crypto_msgdigest": 440,
+  "net_http": 429,
+  "crypto_random": 322,
+  "prefs": 205,
+  "crypto_keyspec": 186,
+  "crypto_ks": 169,
+  "crypto_mac": 154,
+  "db_sqlite": 150,
+  "file_io": 139,
+  "pkg_manager": 136,
+  "nfc": 132,
+  "crypto_kpg": 121,
+  "proc_exec": 85,
+  "net_url": 81,
+  "webview_load": 56,
+  "crypto_ecdh": 56,
+  "webview_eval": 47,
+  "clipboard": 32,
+  "jni_bridge": 28,
+  "webview_js_iface": 13,
+  "pinning_okhttp": 12,
+  "keystore_android": 12,
+  "ssl_ctx": 10,
+  "location": 6,
+  "dynamic_code": 6,
+  "telephony": 3,
+  "net_raw": 3,
+  "biometric": 2,
+  "ssl_hv": 2,
+  "ssl_tm": 2
+ },
+ "opcode_hist": {
+  "invoke-virtual": 655666,
+  "move-result-object": 616051,
+  "invoke-static": 543908,
+  "const/4": 423752,
+  "iget-object": 379891,
+  "move-result": 359086,
+  "const/16": 316655,
+  "invoke-direct": 275106,
+  "check-cast": 266000,
+  "new-instance": 225952,
+  "const-string": 219628,
+  "if-eqz": 213719,
+  "goto": 209699,
+  "const": 198652,
+  "or-int/2addr": 179592,
+  "invoke-interface": 168797,
+  "sget-object": 164923,
+  "return-void": 156624,
+  "not-int": 152057,
+  "return-object": 151792,
+  "iput-object": 134802,
+  "if-nez": 133517,
+  "move-object/from16": 126144,
+  "add-int/2addr": 103526,
+  "move-object": 99904,
+  "new-array": 96936,
+  "iget": 96748,
+  "move/from16": 95776,
+  "return": 88641,
+  "add-int/lit8": 81426,
+  "and-int/2addr": 81083,
+  "aput-object": 78874,
+  "nop": 76631,
+  "move": 76614,
+  "aget-object": 71782,
+  "iput": 60489,
+  "mul-int/lit16": 60391,
+  "throw": 58100,
+  "if-ne": 57972,
+  "neg-int": 57850,
+  "xor-int": 55603,
+  "invoke-static/range": 52041,
+  "move-result-wide": 51392,
+  "int-to-byte": 48583,
+  "sput-object": 43756,
+  "int-to-long": 41518,
+  "if-eq": 38006,
+  "sub-int/2addr": 37557,
+  "and-int/lit8": 37090,
+  "aput": 35476,
+  "goto/16": 35029,
+  "or-int": 34366,
+  "filled-new-array": 32999,
+  "shl-int/lit8": 32747,
+  "or-long": 32345,
+  "and-int": 31022,
+  "xor-long": 30746,
+  "move-exception": 30570,
+  "iget-boolean": 29777,
+  "int-to-char": 27951
+ },
+ "package_classes": {
+  "com.google.android": 6507,
+  "com.facebook.ads": 3254,
+  "com.alibaba.ariver": 2415,
+  "com.alibaba.griver": 2228,
+  "org.bouncycastle.jcajce": 1758,
+  "com.iap.ac": 1330,
+  "org.bouncycastle.pqc": 975,
+  "vn.com.vng": 958,
+  "com.visa.cbp": 900,
+  "org.bouncycastle.crypto": 836,
+  "org.bouncycastle.asn1": 748,
+  "vn.ai.trueid": 622,
+  "androidx.media3.exoplayer": 538,
+  "q9": 472,
+  "p9": 454,
+  "com.vnpay.vntaxi": 377,
+  "com.appsflyer.internal": 364,
+  "com.nimbusds.jose": 360,
+  "com.visa.visapaysdk": 337,
+  "n9": 315,
+  "org.bouncycastle.oer": 315,
+  "m9": 314,
+  "androidx.media3.extractor": 309,
+  "androidx.camera.core": 306,
+  "com.google.common": 304,
+  "com.xq.cxzmoiwuegvp": 299,
+  "com.iap.android": 269,
+  "org.bouncycastle.math": 264,
+  "androidx.compose.ui": 261,
+  "Va": 253
+ },
+ "edges": [
+  {
+   "src": "com.google.android",
+   "dst": "com.google.android",
+   "w": 14525
+  },
+  {
+   "src": "com.facebook.ads",
+   "dst": "com.facebook.ads",
+   "w": 12715
+  },
+  {
+   "src": "com.google.android",
+   "dst": "java/lang",
+   "w": 10612
+  },
+  {
+   "src": "com.facebook.ads",
+   "dst": "java/lang",
+   "w": 6085
+  },
+  {
+   "src": "com.alibaba.ariver",
+   "dst": "com.alibaba.ariver",
+   "w": 5631
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "com.alibaba.griver",
+   "w": 5313
+  },
+  {
+   "src": "org.bouncycastle.asn1",
+   "dst": "org.bouncycastle.asn1",
+   "w": 3913
+  },
+  {
+   "src": "com.google.android",
+   "dst": "java/util",
+   "w": 3682
+  },
+  {
+   "src": "com.alibaba.ariver",
+   "dst": "java/lang",
+   "w": 3681
+  },
+  {
+   "src": "org.bouncycastle.crypto",
+   "dst": "org.bouncycastle.crypto",
+   "w": 3436
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "java/lang",
+   "w": 3423
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "java/lang",
+   "w": 3016
+  },
+  {
+   "src": "com.iap.ac",
+   "dst": "com.iap.ac",
+   "w": 2996
+  },
+  {
+   "src": "org.bouncycastle.jcajce",
+   "dst": "org.bouncycastle.jcajce",
+   "w": 2841
+  },
+  {
+   "src": "com.facebook.ads",
+   "dst": "java/util",
+   "w": 2658
+  },
+  {
+   "src": "org.bouncycastle.pqc",
+   "dst": "org.bouncycastle.pqc",
+   "w": 2647
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "com.visa.cbp",
+   "w": 2621
+  },
+  {
+   "src": "org.bouncycastle.math",
+   "dst": "org.bouncycastle.math",
+   "w": 2161
+  },
+  {
+   "src": "vn.ai.trueid",
+   "dst": "vn.ai.trueid",
+   "w": 1984
+  },
+  {
+   "src": "com.iap.ac",
+   "dst": "java/lang",
+   "w": 1973
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "com.alibaba.ariver",
+   "w": 1968
+  },
+  {
+   "src": "vn.com.vng",
+   "dst": "java/lang",
+   "w": 1671
+  },
+  {
+   "src": "com.google.protobuf",
+   "dst": "com.google.protobuf",
+   "w": 1640
+  },
+  {
+   "src": "vn.com.vng",
+   "dst": "vn.com.vng",
+   "w": 1614
+  },
+  {
+   "src": "org.bouncycastle.crypto",
+   "dst": "java/lang",
+   "w": 1590
+  },
+  {
+   "src": "com.nimbusds.jose",
+   "dst": "com.nimbusds.jose",
+   "w": 1511
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "android/view",
+   "w": 1386
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "java.lang.reflect",
+   "w": 1361
+  },
+  {
+   "src": "org.bouncycastle.jcajce",
+   "dst": "org.bouncycastle.crypto",
+   "w": 1359
+  },
+  {
+   "src": "com.google.android",
+   "dst": "android/os",
+   "w": 1354
+  },
+  {
+   "src": "org.bouncycastle.jcajce",
+   "dst": "java/lang",
+   "w": 1333
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "android/text",
+   "w": 1267
+  },
+  {
+   "src": "kotlin/collections",
+   "dst": "java/lang",
+   "w": 1248
+  },
+  {
+   "src": "com.alibaba.ariver",
+   "dst": "java/util",
+   "w": 1210
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "android/os",
+   "w": 1206
+  },
+  {
+   "src": "org.bouncycastle.pqc",
+   "dst": "java/lang",
+   "w": 1158
+  },
+  {
+   "src": "vn.ai.trueid",
+   "dst": "java/lang",
+   "w": 1114
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "android/graphics",
+   "w": 1095
+  },
+  {
+   "src": "kotlin/collections",
+   "dst": "kotlin/collections",
+   "w": 1074
+  },
+  {
+   "src": "kotlin/collections",
+   "dst": "java/util",
+   "w": 1028
+  },
+  {
+   "src": "com.appsflyer.internal",
+   "dst": "com.appsflyer.internal",
+   "w": 1019
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "java/util",
+   "w": 1015
+  },
+  {
+   "src": "androidx.media3.exoplayer",
+   "dst": "androidx.media3.exoplayer",
+   "w": 977
+  },
+  {
+   "src": "org.bouncycastle.oer",
+   "dst": "org.bouncycastle.oer",
+   "w": 959
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "android/widget",
+   "w": 937
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "android/view",
+   "w": 862
+  },
+  {
+   "src": "com.google.gson",
+   "dst": "com.google.gson",
+   "w": 835
+  },
+  {
+   "src": "com.nimbusds.jose",
+   "dst": "java/lang",
+   "w": 822
+  },
+  {
+   "src": "org.bouncycastle.asn1",
+   "dst": "java/lang",
+   "w": 821
+  },
+  {
+   "src": "com.appsflyer.internal",
+   "dst": "java/lang",
+   "w": 818
+  },
+  {
+   "src": "com.vnpay.vntaxi",
+   "dst": "com.vnpay.vntaxi",
+   "w": 804
+  },
+  {
+   "src": "org.bouncycastle.crypto",
+   "dst": "org.bouncycastle.util",
+   "w": 790
+  },
+  {
+   "src": "com.google.android",
+   "dst": "java.util.concurrent",
+   "w": 788
+  },
+  {
+   "src": "androidx.media3.exoplayer",
+   "dst": "java/lang",
+   "w": 757
+  },
+  {
+   "src": "okio",
+   "dst": "okio",
+   "w": 749
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "android/text",
+   "w": 748
+  },
+  {
+   "src": "org.bouncycastle.pqc",
+   "dst": "org.bouncycastle.util",
+   "w": 742
+  },
+  {
+   "src": "com.google.android",
+   "dst": "android/view",
+   "w": 723
+  },
+  {
+   "src": "com.alibaba.ariver",
+   "dst": "android/text",
+   "w": 715
+  },
+  {
+   "src": "q9",
+   "dst": "java/lang",
+   "w": 696
+  },
+  {
+   "src": "p9",
+   "dst": "java/lang",
+   "w": 679
+  },
+  {
+   "src": "app.rive.runtime",
+   "dst": "app.rive.runtime",
+   "w": 673
+  },
+  {
+   "src": "kotlin/collections",
+   "dst": "kotlin.jvm.functions",
+   "w": 663
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "android/util",
+   "w": 656
+  },
+  {
+   "src": "com.alibaba.ariver",
+   "dst": "wmoi",
+   "w": 651
+  },
+  {
+   "src": "org.jmrtd.lds",
+   "dst": "org.jmrtd.lds",
+   "w": 646
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "android/media",
+   "w": 644
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "wmoi",
+   "w": 639
+  },
+  {
+   "src": "org.bouncycastle.oer",
+   "dst": "org.bouncycastle.asn1",
+   "w": 635
+  },
+  {
+   "src": "com.iap.ac",
+   "dst": "java/util",
+   "w": 632
+  },
+  {
+   "src": "androidx.appcompat.widget",
+   "dst": "androidx.appcompat.widget",
+   "w": 617
+  },
+  {
+   "src": "org.bouncycastle.cms",
+   "dst": "org.bouncycastle.cms",
+   "w": 600
+  },
+  {
+   "src": "com.vnpay.vntaxi",
+   "dst": "java/lang",
+   "w": 599
+  },
+  {
+   "src": "com.google.android",
+   "dst": "android/content",
+   "w": 597
+  },
+  {
+   "src": "org.jmrtd.lds",
+   "dst": "java/lang",
+   "w": 564
+  },
+  {
+   "src": "com.facebook.ads",
+   "dst": "android/widget",
+   "w": 562
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "java/util",
+   "w": 551
+  },
+  {
+   "src": "com.facebook.ads",
+   "dst": "android/view",
+   "w": 539
+  },
+  {
+   "src": "m9",
+   "dst": "java/lang",
+   "w": 535
+  },
+  {
+   "src": "org.bouncycastle.pqc",
+   "dst": "org.bouncycastle.crypto",
+   "w": 526
+  },
+  {
+   "src": "com.google.protobuf",
+   "dst": "java/lang",
+   "w": 522
+  },
+  {
+   "src": "org.bouncycastle.jcajce",
+   "dst": "java/security",
+   "w": 521
+  },
+  {
+   "src": "com.google.crypto",
+   "dst": "com.google.crypto",
+   "w": 508
+  },
+  {
+   "src": "com.google.firebase",
+   "dst": "java/lang",
+   "w": 508
+  },
+  {
+   "src": "androidx.media3.extractor",
+   "dst": "java/lang",
+   "w": 507
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "com.alibaba.fastjson",
+   "w": 505
+  },
+  {
+   "src": "com.facebook.ads",
+   "dst": "android/os",
+   "w": 486
+  },
+  {
+   "src": "androidx.recyclerview.widget",
+   "dst": "androidx.recyclerview.widget",
+   "w": 474
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "android/widget",
+   "w": 470
+  },
+  {
+   "src": "okhttp3",
+   "dst": "okhttp3",
+   "w": 469
+  },
+  {
+   "src": "vn.com.vng",
+   "dst": "androidx.fragment.app",
+   "w": 463
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "android/content",
+   "w": 462
+  },
+  {
+   "src": "androidx.media3.exoplayer",
+   "dst": "androidx.media3.common",
+   "w": 461
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "android.telephony.cdma",
+   "w": 460
+  },
+  {
+   "src": "n9",
+   "dst": "java/lang",
+   "w": 460
+  },
+  {
+   "src": "com.alibaba.ariver",
+   "dst": "com.alibaba.fastjson",
+   "w": 458
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "com.google.android",
+   "w": 455
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "android.graphics.drawable",
+   "w": 455
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "A1",
+   "w": 451
+  },
+  {
+   "src": "com.google.android",
+   "dst": "H8",
+   "w": 451
+  },
+  {
+   "src": "org.bouncycastle.cert",
+   "dst": "org.bouncycastle.cert",
+   "w": 448
+  },
+  {
+   "src": "org.bouncycastle.cert",
+   "dst": "org.bouncycastle.asn1",
+   "w": 442
+  },
+  {
+   "src": "org.bouncycastle.jcajce",
+   "dst": "org.bouncycastle.asn1",
+   "w": 440
+  },
+  {
+   "src": "androidx.camera.core",
+   "dst": "java/lang",
+   "w": 437
+  },
+  {
+   "src": "androidx.camera.camera2",
+   "dst": "java/lang",
+   "w": 429
+  },
+  {
+   "src": "com.alibaba.ariver",
+   "dst": "android/os",
+   "w": 427
+  },
+  {
+   "src": "vn.ai.trueid",
+   "dst": "java/util",
+   "w": 427
+  },
+  {
+   "src": "com.google.gson",
+   "dst": "java/lang",
+   "w": 426
+  },
+  {
+   "src": "com.google.firebase",
+   "dst": "com.google.firebase",
+   "w": 422
+  },
+  {
+   "src": "com.alibaba.fastjson",
+   "dst": "com.alibaba.fastjson",
+   "w": 421
+  },
+  {
+   "src": "vn.com.vng",
+   "dst": "kotlin.jvm.internal",
+   "w": 421
+  },
+  {
+   "src": "com.google.android",
+   "dst": "c9",
+   "w": 419
+  },
+  {
+   "src": "androidx.datastore.preferences",
+   "dst": "androidx.datastore.preferences",
+   "w": 412
+  },
+  {
+   "src": "androidx.appcompat.widget",
+   "dst": "android/view",
+   "w": 408
+  },
+  {
+   "src": "androidx.media3.extractor",
+   "dst": "androidx.media3.extractor",
+   "w": 406
+  },
+  {
+   "src": "com.iap.ac",
+   "dst": "android/text",
+   "w": 406
+  },
+  {
+   "src": "io.reactivex.internal",
+   "dst": "io.reactivex.internal",
+   "w": 404
+  },
+  {
+   "src": "com.alipay.plus",
+   "dst": "com.alipay.plus",
+   "w": 404
+  },
+  {
+   "src": "q9",
+   "dst": "q9",
+   "w": 401
+  },
+  {
+   "src": "androidx.compose.ui",
+   "dst": "java/lang",
+   "w": 400
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "java/io",
+   "w": 396
+  },
+  {
+   "src": "io.reactivex.internal",
+   "dst": "java.util.concurrent",
+   "w": 395
+  },
+  {
+   "src": "com.google.android",
+   "dst": "java/io",
+   "w": 395
+  },
+  {
+   "src": "androidx.fragment.app",
+   "dst": "androidx.fragment.app",
+   "w": 392
+  },
+  {
+   "src": "Va",
+   "dst": "com.google.crypto",
+   "w": 392
+  },
+  {
+   "src": "com.iap.android",
+   "dst": "com.iap.android",
+   "w": 389
+  },
+  {
+   "src": "androidx.camera.core",
+   "dst": "androidx.camera.core",
+   "w": 385
+  },
+  {
+   "src": "org.bouncycastle.jce",
+   "dst": "org.bouncycastle.jce",
+   "w": 377
+  },
+  {
+   "src": "io.reactivex.internal",
+   "dst": "gf",
+   "w": 374
+  },
+  {
+   "src": "androidx.compose.ui",
+   "dst": "androidx.compose.ui",
+   "w": 371
+  },
+  {
+   "src": "com.google.android",
+   "dst": "android/util",
+   "w": 371
+  },
+  {
+   "src": "com.facebook.ads",
+   "dst": "java.util.concurrent",
+   "w": 370
+  },
+  {
+   "src": "androidx.compose.foundation",
+   "dst": "java/lang",
+   "w": 369
+  },
+  {
+   "src": "p9",
+   "dst": "p9",
+   "w": 360
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "android/app",
+   "w": 357
+  },
+  {
+   "src": "com.visa.cbp",
+   "dst": "com.alibaba.ariver",
+   "w": 354
+  },
+  {
+   "src": "androidx.camera.camera2",
+   "dst": "androidx.camera.camera2",
+   "w": 349
+  },
+  {
+   "src": "com.alipay.android",
+   "dst": "com.alipay.android",
+   "w": 346
+  },
+  {
+   "src": "com.google.android",
+   "dst": "android/text",
+   "w": 345
+  },
+  {
+   "src": "vn.com.vng",
+   "dst": "android/view",
+   "w": 345
+  },
+  {
+   "src": "vn.com.vng",
+   "dst": "java/util",
+   "w": 340
+  },
+  {
+   "src": "org.bouncycastle.math",
+   "dst": "java/lang",
+   "w": 339
+  },
+  {
+   "src": "com.google.crypto",
+   "dst": "java/lang",
+   "w": 330
+  },
+  {
+   "src": "androidx.media3.extractor",
+   "dst": "androidx.media3.common",
+   "w": 328
+  },
+  {
+   "src": "com.visa.visapaysdk",
+   "dst": "java/lang",
+   "w": 328
+  },
+  {
+   "src": "com.google.common",
+   "dst": "com.google.common",
+   "w": 323
+  },
+  {
+   "src": "androidx.glance.appwidget",
+   "dst": "androidx.glance.appwidget",
+   "w": 321
+  },
+  {
+   "src": "com.google.android",
+   "dst": "androidx.camera.camera2",
+   "w": 321
+  },
+  {
+   "src": "com.google.protobuf",
+   "dst": "java/util",
+   "w": 321
+  },
+  {
+   "src": "org.bouncycastle.asn1",
+   "dst": "java/util",
+   "w": 320
+  },
+  {
+   "src": "com.nimbusds.jose",
+   "dst": "java/util",
+   "w": 318
+  },
+  {
+   "src": "com.airbnb.lottie",
+   "dst": "com.airbnb.lottie",
+   "w": 317
+  },
+  {
+   "src": "kotlin/text",
+   "dst": "java/lang",
+   "w": 315
+  },
+  {
+   "src": "gf",
+   "dst": "gf",
+   "w": 314
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "android/os",
+   "w": 312
+  },
+  {
+   "src": "org.bouncycastle.cms",
+   "dst": "org.bouncycastle.asn1",
+   "w": 311
+  },
+  {
+   "src": "org.jmrtd.lds",
+   "dst": "java/util",
+   "w": 311
+  },
+  {
+   "src": "com.visa.visapaysdk",
+   "dst": "com.visa.visapaysdk",
+   "w": 309
+  },
+  {
+   "src": "com.google.android",
+   "dst": "sun/misc",
+   "w": 309
+  },
+  {
+   "src": "org.bouncycastle.crypto",
+   "dst": "java/math",
+   "w": 309
+  },
+  {
+   "src": "kotlin/text",
+   "dst": "kotlin/text",
+   "w": 308
+  },
+  {
+   "src": "com.google.common",
+   "dst": "java/lang",
+   "w": 305
+  },
+  {
+   "src": "androidx.appcompat.widget",
+   "dst": "android/widget",
+   "w": 304
+  },
+  {
+   "src": "org.bouncycastle.asn1",
+   "dst": "org.bouncycastle.util",
+   "w": 303
+  },
+  {
+   "src": "com.iap.android",
+   "dst": "java/lang",
+   "w": 303
+  },
+  {
+   "src": "com.facebook.ads",
+   "dst": "android/util",
+   "w": 302
+  },
+  {
+   "src": "org.bouncycastle.pqc",
+   "dst": "java/security",
+   "w": 300
+  },
+  {
+   "src": "c1",
+   "dst": "c1",
+   "w": 299
+  },
+  {
+   "src": "androidx.compose.foundation",
+   "dst": "androidx.compose.foundation",
+   "w": 298
+  },
+  {
+   "src": "com.alibaba.ariver",
+   "dst": "java.util.concurrent",
+   "w": 298
+  },
+  {
+   "src": "q0",
+   "dst": "q0",
+   "w": 298
+  },
+  {
+   "src": "m9",
+   "dst": "m9",
+   "w": 296
+  },
+  {
+   "src": "com.alipay.plus",
+   "dst": "java/lang",
+   "w": 296
+  },
+  {
+   "src": "com.visa.visapaysdk",
+   "dst": "com.visa.visapay",
+   "w": 295
+  },
+  {
+   "src": "vn.com.vng",
+   "dst": "ng",
+   "w": 294
+  },
+  {
+   "src": "com.appsflyer.internal",
+   "dst": "java/util",
+   "w": 292
+  },
+  {
+   "src": "ah",
+   "dst": "ah",
+   "w": 290
+  },
+  {
+   "src": "vn.com.vng",
+   "dst": "android/os",
+   "w": 288
+  },
+  {
+   "src": "org.bouncycastle.jcajce",
+   "dst": "org.bouncycastle.util",
+   "w": 285
+  },
+  {
+   "src": "vh",
+   "dst": "vh",
+   "w": 284
+  },
+  {
+   "src": "org.bouncycastle.pqc",
+   "dst": "org.bouncycastle.asn1",
+   "w": 282
+  },
+  {
+   "src": "com.xq.cxzmoiwuegvp",
+   "dst": "java/lang",
+   "w": 281
+  },
+  {
+   "src": "okio",
+   "dst": "java/lang",
+   "w": 281
+  },
+  {
+   "src": "vn.zalopay.ui",
+   "dst": "vn.zalopay.ui",
+   "w": 281
+  },
+  {
+   "src": "androidx.media3.common",
+   "dst": "java/lang",
+   "w": 279
+  },
+  {
+   "src": "org.bouncycastle.oer",
+   "dst": "java/lang",
+   "w": 279
+  },
+  {
+   "src": "com.bumptech.glide",
+   "dst": "com.bumptech.glide",
+   "w": 279
+  },
+  {
+   "src": "org.bouncycastle.jce",
+   "dst": "java/lang",
+   "w": 277
+  },
+  {
+   "src": "com.alibaba.griver",
+   "dst": "java.util.concurrent",
+   "w": 276
+  },
+  {
+   "src": "com.alibaba.fastjson",
+   "dst": "java/lang",
+   "w": 275
+  },
+  {
+   "src": "q9",
+   "dst": "com.google.android",
+   "w": 272
+  },
+  {
+   "src": "org.bouncycastle.cert",
+   "dst": "java/lang",
+   "w": 268
+  },
+  {
+   "src": "org.bouncycastle.math",
+   "dst": "java/math",
+   "w": 267
+  },
+  {
+   "src": "com.bumptech.glide",
+   "dst": "java/lang",
+   "w": 266
+  },
+  {
+   "src": "androidx.media3.exoplayer",
+   "dst": "java/util",
+   "w": 265
+  },
+  {
+   "src": "org.bouncycastle.jcajce",
+   "dst": "java/util",
+   "w": 265
+  },
+  {
+   "src": "com.google.android",
+   "dst": "com.google.protobuf",
+   "w": 263
+  },
+  {
+   "src": "androidx.camera.video",
+   "dst": "java/lang",
+   "w": 262
+  },
+  {
+   "src": "vn.com.vng",
+   "dst": "android/content",
+   "w": 262
+  },
+  {
+   "src": "com.iap.ac",
+   "dst": "org/json",
+   "w": 259
+  }
+ ],
+ "strings_intel": {
+  "url": {
+   "unique": 328,
+   "total": 427
+  },
+  "host": {
+   "unique": 228,
+   "total": 776
+  },
+  "crypto_alg": {
+   "unique": 41,
+   "total": 921
+  },
+  "pem": {
+   "unique": 3,
+   "total": 10
+  },
+  "path": {
+   "unique": 41,
+   "total": 49
+  },
+  "root_hint": {
+   "unique": 8,
+   "total": 16
+  },
+  "ipv4": {
+   "unique": 130,
+   "total": 558
+  },
+  "pinning_hint": {
+   "unique": 7,
+   "total": 9
+  },
+  "email": {
+   "unique": 6,
+   "total": 7
+  },
+  "pan_like": {
+   "unique": 5,
+   "total": 5
+  }
+ },
+ "generated_at": "2026-11-25T14:54:37Z",
+ "tool_version": "1.0.0"
+}
