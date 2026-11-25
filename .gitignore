@@ -1,0 +1,22 @@
+# Dependencies & caches
+node_modules/
+.npm/
+.cache/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Temporary extracted binaries & render scratch (never commit raw third-party APK contents)
+work/
+tmp/
+out/frames/
+video/dist-tmp/
+video/.cache/
+*.raw
+*.pcm
+*.wav
+
+# OS
+.DS_Store
+Thumbs.db

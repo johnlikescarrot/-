@@ -1,0 +1,723 @@
+{
+  "meta": {
+    "generated_at_utc": "2026-11-25T15:01:40.231003+00:00",
+    "methodology": "Static Structural, Packaging, Software-Composition & Binary-Ecosystem Telemetry (100% File Coverage)",
+    "ethical_scope": "Non-exploitative empirical software engineering study. No proprietary source decompilation, no native disassembly, no secret extraction, no vulnerability auditing.",
+    "target_package": "vn.com.vng.zalopay",
+    "target_app_name": "Zalopay",
+    "version_name": "11.17.0",
+    "version_code": "1102758",
+    "min_sdk": 26,
+    "target_sdk": 36,
+    "compile_sdk": 36,
+    "outer_zip_mb": 98.81,
+    "xapk_mb": 105.61,
+    "uncompressed_mb": 195.33,
+    "compressed_entries_mb": 104.48,
+    "total_files": 6464,
+    "split_apk_count": 5
+  },
+  "split_apks": [
+    {
+      "apk": "vn.com.vng.zalopay.apk",
+      "disk_mb": 79.36,
+      "uncomp_mb": 136.4,
+      "files": 6162,
+      "savings_pct": 42.56
+    },
+    {
+      "apk": "config.armeabi_v7a.apk",
+      "disk_mb": 24.83,
+      "uncomp_mb": 57.46,
+      "files": 32,
+      "savings_pct": 56.82
+    },
+    {
+      "apk": "config.xhdpi.apk",
+      "disk_mb": 1.23,
+      "uncomp_mb": 1.33,
+      "files": 258,
+      "savings_pct": 11.37
+    },
+    {
+      "apk": "config.vi.apk",
+      "disk_mb": 0.09,
+      "uncomp_mb": 0.08,
+      "files": 6,
+      "savings_pct": 1.0
+    },
+    {
+      "apk": "config.en.apk",
+      "disk_mb": 0.07,
+      "uncomp_mb": 0.06,
+      "files": 6,
+      "savings_pct": 1.21
+    }
+  ],
+  "magic_breakdown": [
+    {
+      "label": "Dalvik Executable (.dex)",
+      "count": 20,
+      "uncomp_mb": 69.7,
+      "comp_mb": 31.21,
+      "share_pct": 35.68
+    },
+    {
+      "label": "ELF Native Shared Library (.so)",
+      "count": 27,
+      "uncomp_mb": 57.45,
+      "comp_mb": 24.81,
+      "share_pct": 29.41
+    },
+    {
+      "label": "TensorFlow Lite Model (.tflite)",
+      "count": 20,
+      "uncomp_mb": 12.23,
+      "comp_mb": 11.9,
+      "share_pct": 6.26
+    },
+    {
+      "label": "Binary Android XML (AXML)",
+      "count": 5319,
+      "uncomp_mb": 9.43,
+      "comp_mb": 3.63,
+      "share_pct": 4.83
+    },
+    {
+      "label": "Other Binary / Data Asset",
+      "count": 65,
+      "uncomp_mb": 8.84,
+      "comp_mb": 6.27,
+      "share_pct": 4.52
+    },
+    {
+      "label": "PNG Raster Image",
+      "count": 269,
+      "uncomp_mb": 7.59,
+      "comp_mb": 7.59,
+      "share_pct": 3.88
+    },
+    {
+      "label": "TrueType / OpenType Font",
+      "count": 25,
+      "uncomp_mb": 7.41,
+      "comp_mb": 3.25,
+      "share_pct": 3.79
+    },
+    {
+      "label": "JSON Data / Lottie / Config",
+      "count": 64,
+      "uncomp_mb": 6.68,
+      "comp_mb": 2.87,
+      "share_pct": 3.42
+    },
+    {
+      "label": "Nested ZIP / JAR / Bundle",
+      "count": 4,
+      "uncomp_mb": 5.08,
+      "comp_mb": 5.01,
+      "share_pct": 2.6
+    },
+    {
+      "label": "SVG Vector Graphic",
+      "count": 2,
+      "uncomp_mb": 2.55,
+      "comp_mb": 1.9,
+      "share_pct": 1.31
+    },
+    {
+      "label": "Android Compiled Resource Table (.arsc)",
+      "count": 4,
+      "uncomp_mb": 2.08,
+      "comp_mb": 2.08,
+      "share_pct": 1.07
+    },
+    {
+      "label": "WebP Image",
+      "count": 159,
+      "uncomp_mb": 1.92,
+      "comp_mb": 1.92,
+      "share_pct": 0.99
+    }
+  ],
+  "manifest": {
+    "permissions_total": 49,
+    "permissions_by_protection": {
+      "Runtime (Dangerous)": 13,
+      "Normal / Platform": 18,
+      "Google / Play Ecosystem": 4,
+      "Special / Restricted": 3,
+      "OEM Vendor Integration": 5,
+      "Third-Party / Custom": 4,
+      "First-Party / VNG Ecosystem": 2
+    },
+    "permissions_by_domain": {
+      "Messaging, Push & Background Lifecycle": 6,
+      "Social P2P Transfers & Bill Reminders": 4,
+      "Networking & Device Connectivity": 6,
+      "Payments, NFC & Commerce": 2,
+      "Launcher, Shortcuts & System UI": 8,
+      "Media & Local Storage": 3,
+      "Geolocation & Merchant Discovery": 3,
+      "Identity, Biometrics & Anti-Screen-Capture": 3,
+      "Attribution, Privacy Sandbox & Analytics": 7,
+      "eKYC, QR Scanning & Audio/Voice": 3,
+      "Super-App Ecosystem & Inter-App Discovery": 4
+    },
+    "components": {
+      "activity": 200,
+      "activity-alias": 2,
+      "receiver": 22,
+      "service": 34,
+      "provider": 9
+    },
+    "components_total_count": 267,
+    "processes": {
+      ":taibmcf": 1,
+      ":lite1": 4,
+      ":lite2": 4,
+      ":lite3": 4,
+      ":lite4": 1,
+      ":lite5": 1,
+      ":xcmzqsawpqoefcds": 1
+    },
+    "miniapp_worker_processes": 5,
+    "flags": {
+      "extractNativeLibs": true,
+      "largeHeap": true,
+      "hardwareAccelerated": true,
+      "supportsRtl": true,
+      "allowBackup": false,
+      "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+      "requestLegacyExternalStorage": true
+    },
+    "androidx_artifacts": 131
+  },
+  "multidex": {
+    "shard_count": 20,
+    "root_shards": 19,
+    "embedded_shards": 1,
+    "total_mb": 69.7,
+    "total_classes": 63827,
+    "total_defined_methods": 287480,
+    "minified_pct": 60.92,
+    "shards": [
+      {
+        "name": "classes.dex",
+        "version": "038",
+        "mb": 8.83,
+        "classes": 10703,
+        "method_ids": 59948,
+        "util_pct": 91.47,
+        "minified_pct": 64.0,
+        "embedded": false
+      },
+      {
+        "name": "classes2.dex",
+        "version": "038",
+        "mb": 16.52,
+        "classes": 7421,
+        "method_ids": 45527,
+        "util_pct": 69.47,
+        "minified_pct": 47.16,
+        "embedded": false
+      },
+      {
+        "name": "classes3.dex",
+        "version": "038",
+        "mb": 0.85,
+        "classes": 1081,
+        "method_ids": 6354,
+        "util_pct": 9.7,
+        "minified_pct": 89.45,
+        "embedded": false
+      },
+      {
+        "name": "classes4.dex",
+        "version": "038",
+        "mb": 9.42,
+        "classes": 11441,
+        "method_ids": 59997,
+        "util_pct": 91.55,
+        "minified_pct": 60.54,
+        "embedded": false
+      },
+      {
+        "name": "classes5.dex",
+        "version": "038",
+        "mb": 7.36,
+        "classes": 7983,
+        "method_ids": 49055,
+        "util_pct": 74.85,
+        "minified_pct": 32.14,
+        "embedded": false
+      },
+      {
+        "name": "classes6.dex",
+        "version": "038",
+        "mb": 7.61,
+        "classes": 5475,
+        "method_ids": 49201,
+        "util_pct": 75.07,
+        "minified_pct": 59.69,
+        "embedded": false
+      },
+      {
+        "name": "classes7.dex",
+        "version": "038",
+        "mb": 10.8,
+        "classes": 12953,
+        "method_ids": 60000,
+        "util_pct": 91.55,
+        "minified_pct": 82.38,
+        "embedded": false
+      },
+      {
+        "name": "classes8.dex",
+        "version": "038",
+        "mb": 0.24,
+        "classes": 295,
+        "method_ids": 1552,
+        "util_pct": 2.37,
+        "minified_pct": 99.66,
+        "embedded": false
+      },
+      {
+        "name": "classes9.dex",
+        "version": "038",
+        "mb": 1.22,
+        "classes": 1128,
+        "method_ids": 7170,
+        "util_pct": 10.94,
+        "minified_pct": 82.62,
+        "embedded": false
+      },
+      {
+        "name": "classes10.dex",
+        "version": "038",
+        "mb": 0.08,
+        "classes": 92,
+        "method_ids": 578,
+        "util_pct": 0.88,
+        "minified_pct": 98.91,
+        "embedded": false
+      },
+      {
+        "name": "classes11.dex",
+        "version": "038",
+        "mb": 0.16,
+        "classes": 177,
+        "method_ids": 1171,
+        "util_pct": 1.79,
+        "minified_pct": 92.09,
+        "embedded": false
+      },
+      {
+        "name": "classes12.dex",
+        "version": "038",
+        "mb": 0.4,
+        "classes": 425,
+        "method_ids": 2604,
+        "util_pct": 3.97,
+        "minified_pct": 97.18,
+        "embedded": false
+      },
+      {
+        "name": "classes13.dex",
+        "version": "038",
+        "mb": 0.15,
+        "classes": 139,
+        "method_ids": 997,
+        "util_pct": 1.52,
+        "minified_pct": 89.93,
+        "embedded": false
+      },
+      {
+        "name": "classes14.dex",
+        "version": "038",
+        "mb": 0.08,
+        "classes": 90,
+        "method_ids": 575,
+        "util_pct": 0.88,
+        "minified_pct": 96.67,
+        "embedded": false
+      },
+      {
+        "name": "classes15.dex",
+        "version": "038",
+        "mb": 0.08,
+        "classes": 113,
+        "method_ids": 658,
+        "util_pct": 1.0,
+        "minified_pct": 99.12,
+        "embedded": false
+      },
+      {
+        "name": "classes16.dex",
+        "version": "038",
+        "mb": 0.02,
+        "classes": 20,
+        "method_ids": 101,
+        "util_pct": 0.15,
+        "minified_pct": 95.0,
+        "embedded": false
+      },
+      {
+        "name": "classes17.dex",
+        "version": "038",
+        "mb": 0.21,
+        "classes": 243,
+        "method_ids": 1311,
+        "util_pct": 2.0,
+        "minified_pct": 97.94,
+        "embedded": false
+      },
+      {
+        "name": "classes18.dex",
+        "version": "038",
+        "mb": 0.1,
+        "classes": 115,
+        "method_ids": 668,
+        "util_pct": 1.02,
+        "minified_pct": 99.13,
+        "embedded": false
+      },
+      {
+        "name": "classes19.dex",
+        "version": "038",
+        "mb": 0.72,
+        "classes": 777,
+        "method_ids": 3781,
+        "util_pct": 5.77,
+        "minified_pct": 99.36,
+        "embedded": false
+      },
+      {
+        "name": "ast/audience_network.dex",
+        "version": "035",
+        "mb": 4.86,
+        "classes": 3156,
+        "method_ids": 26792,
+        "util_pct": 40.88,
+        "minified_pct": 24.52,
+        "embedded": true
+      }
+    ],
+    "sdk_ecosystems": [
+      {
+        "name": "Google Play / Firebase / ML Kit",
+        "prefix": "com.google.*",
+        "classes": 7761,
+        "role": "Platform & Cloud"
+      },
+      {
+        "name": "Ant / Alibaba / Alipay+ Griver",
+        "prefix": "com.alibaba + com.iap + com.alipay",
+        "classes": 6913,
+        "role": "Mini-App Super-App Engine"
+      },
+      {
+        "name": "BouncyCastle Crypto Provider",
+        "prefix": "org.bouncycastle.*",
+        "classes": 6112,
+        "role": "Cryptography & PKI"
+      },
+      {
+        "name": "Meta / Facebook & Audience Net",
+        "prefix": "com.facebook.*",
+        "classes": 3622,
+        "role": "Social, Fresco & Ads"
+      },
+      {
+        "name": "AndroidX / Jetpack & Compose",
+        "prefix": "androidx.*",
+        "classes": 4543,
+        "role": "Modern Android UI/Core"
+      },
+      {
+        "name": "Visa EMV / Payment SDK",
+        "prefix": "com.visa.*",
+        "classes": 1370,
+        "role": "Card & Tap-to-Pay"
+      },
+      {
+        "name": "First-Party ZaloPay Core (unminified)",
+        "prefix": "vn.com.vng.zalopay.*",
+        "classes": 1233,
+        "role": "Core Fintech App"
+      },
+      {
+        "name": "VNPay + Nimbus JOSE + JMRTD",
+        "prefix": "vnpay + nimbusds + jmrtd",
+        "classes": 986,
+        "role": "VN QR, JWT & NFC eID"
+      }
+    ]
+  },
+  "native_elf": {
+    "total_libs": 27,
+    "total_mb": 57.45,
+    "compressed_mb": 24.81,
+    "aligned_16kb": 20,
+    "aligned_4kb_only": 7,
+    "ready_16kb_pct": 74.07,
+    "abi": "armeabi-v7a",
+    "categories": [
+      {
+        "category": "On-Device AI / ML / Computer Vision",
+        "count": 7,
+        "mb": 27.48
+      },
+      {
+        "category": "Domain / Vendor / Application Native Modules",
+        "count": 10,
+        "mb": 21.33
+      },
+      {
+        "category": "Media, Graphics & Image Codecs",
+        "count": 4,
+        "mb": 3.59
+      },
+      {
+        "category": "Embedded Storage & KV/SQL Engines",
+        "count": 1,
+        "mb": 3.56
+      },
+      {
+        "category": "C++ Standard Runtime & Toolchain",
+        "count": 1,
+        "mb": 0.87
+      },
+      {
+        "category": "Observability & Crash Reporting",
+        "count": 4,
+        "mb": 0.63
+      }
+    ],
+    "toolchains": [
+      {
+        "generation": "Clang 7 (NDK r19, 2018)",
+        "count": 1,
+        "bytes": 154840
+      },
+      {
+        "generation": "Clang 14 (NDK r25, 2022)",
+        "count": 12,
+        "bytes": 5400672
+      },
+      {
+        "generation": "Clang 17 (NDK r26, 2023)",
+        "count": 1,
+        "bytes": 12617752
+      },
+      {
+        "generation": "Clang 18 (NDK r27, 2024)",
+        "count": 6,
+        "bytes": 6421712
+      },
+      {
+        "generation": "Clang 21 (NDK r29, 2025–26)",
+        "count": 2,
+        "bytes": 9516744
+      },
+      {
+        "generation": "Stripped / Unknown",
+        "count": 5,
+        "bytes": 23340404
+      }
+    ],
+    "top_libraries": [
+      {
+        "name": "libtaibmcf.so",
+        "mb": 12.62,
+        "aligned_16kb": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "toolchain": "Clang 17 (NDK r26, 2023)"
+      },
+      {
+        "name": "libmlkitcommonpipeline.so",
+        "mb": 6.93,
+        "aligned_16kb": false,
+        "category": "On-Device AI / ML / Computer Vision",
+        "toolchain": "Stripped / Unknown"
+      },
+      {
+        "name": "libmlkit_google_ocr_pipeline.so",
+        "mb": 6.78,
+        "aligned_16kb": false,
+        "category": "On-Device AI / ML / Computer Vision",
+        "toolchain": "Stripped / Unknown"
+      },
+      {
+        "name": "libfgcpkjvqe.so",
+        "mb": 6.52,
+        "aligned_16kb": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "toolchain": "Clang 21 (NDK r29, 2025–26)"
+      },
+      {
+        "name": "libface_detector_v2_jni.so",
+        "mb": 5.39,
+        "aligned_16kb": false,
+        "category": "On-Device AI / ML / Computer Vision",
+        "toolchain": "Stripped / Unknown"
+      },
+      {
+        "name": "libsqlcipher.so",
+        "mb": 3.56,
+        "aligned_16kb": true,
+        "category": "Embedded Storage & KV/SQL Engines",
+        "toolchain": "Clang 14 (NDK r25, 2022)"
+      },
+      {
+        "name": "libbarhopper_v3.so",
+        "mb": 3.24,
+        "aligned_16kb": false,
+        "category": "On-Device AI / ML / Computer Vision",
+        "toolchain": "Stripped / Unknown"
+      },
+      {
+        "name": "librive-android.so",
+        "mb": 3.23,
+        "aligned_16kb": false,
+        "category": "Media, Graphics & Image Codecs",
+        "toolchain": "Clang 18 (NDK r27, 2024)"
+      },
+      {
+        "name": "libpicodet_ncnn.so",
+        "mb": 2.99,
+        "aligned_16kb": true,
+        "category": "On-Device AI / ML / Computer Vision",
+        "toolchain": "Clang 21 (NDK r29, 2025–26)"
+      },
+      {
+        "name": "libVFaceLib.so",
+        "mb": 1.96,
+        "aligned_16kb": true,
+        "category": "On-Device AI / ML / Computer Vision",
+        "toolchain": "Clang 18 (NDK r27, 2024)"
+      },
+      {
+        "name": "liba97d.so",
+        "mb": 1.0,
+        "aligned_16kb": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "toolchain": "Stripped / Unknown"
+      },
+      {
+        "name": "libc++_shared.so",
+        "mb": 0.87,
+        "aligned_16kb": false,
+        "category": "C++ Standard Runtime & Toolchain",
+        "toolchain": "Clang 18 (NDK r27, 2024)"
+      },
+      {
+        "name": "libljsfrcwmw.so",
+        "mb": 0.6,
+        "aligned_16kb": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "toolchain": "Clang 14 (NDK r25, 2022)"
+      },
+      {
+        "name": "libcrashlytics-common.so",
+        "mb": 0.44,
+        "aligned_16kb": true,
+        "category": "Observability & Crash Reporting",
+        "toolchain": "Clang 14 (NDK r25, 2022)"
+      }
+    ]
+  },
+  "edge_ai_cv": {
+    "total_combined_mb": 49.06,
+    "share_of_app_pct": 25.12,
+    "native_engines_mb": 27.48,
+    "neural_assets_mb": 16.01,
+    "classic_cv_raw_mb": 5.57,
+    "lbf_mb": 3.78,
+    "haar_mb": 1.79,
+    "tflite_count": 20,
+    "timeline": [
+      {
+        "year": "2001",
+        "era": "Viola-Jones Haar Cascade",
+        "artifact": "haarcascade_frontalface_default.xml",
+        "mb": 1.79
+      },
+      {
+        "year": "2014",
+        "era": "Ren et al. LBF Landmarks",
+        "artifact": "lbfmodel.yaml",
+        "mb": 3.78
+      },
+      {
+        "year": "2019–24",
+        "era": "ML Kit / BlazeFace / FSSD / Taser OCR",
+        "artifact": "20× .tflite + 4× ML Kit .so",
+        "mb": 35.93
+      },
+      {
+        "year": "2022–26",
+        "era": "NCNN PicoDet / FastestDet & ONNX",
+        "artifact": "FastestDet.ncnn + picodet + onnx",
+        "mb": 7.55
+      }
+    ]
+  },
+  "resources_bloat": {
+    "arsc_res_ids": 21020,
+    "night_mode_chunks": 0,
+    "png_count": 269,
+    "png_mb": 7.59,
+    "webp_count": 159,
+    "webp_mb": 1.92,
+    "vector_count": 316,
+    "vector_mb": 0.26,
+    "svg_count": 2,
+    "svg_mb": 2.55,
+    "fonts_count": 25,
+    "fonts_mb": 7.41,
+    "lottie_count": 44,
+    "lottie_mb": 5.39,
+    "pqc_files": 3,
+    "pqc_kb": 1221.1,
+    "junit_files": [
+      "junit/runner/logo.gif",
+      "junit/runner/smalllogo.gif"
+    ],
+    "redundant_copies": 496,
+    "redundant_mb": 0.96,
+    "optimizations": [
+      {
+        "opportunity": "Migrate 269 PNGs -> Lossless/Lossy WebP (~45% est.)",
+        "current_mb": 7.59,
+        "est_savings_mb": 3.41
+      },
+      {
+        "opportunity": "Prune Legacy OpenCV Haar + LBF Models (replaced by ML Kit/NCNN)",
+        "current_mb": 5.57,
+        "est_savings_mb": 5.57
+      },
+      {
+        "opportunity": "Convert 2 Embedded-Raster SVGs -> VectorDrawable / WebP",
+        "current_mb": 2.55,
+        "est_savings_mb": 2.17
+      },
+      {
+        "opportunity": "Deduplicate 25 Bundled Fonts (incl. 5 Roboto & SF families)",
+        "current_mb": 7.41,
+        "est_savings_mb": 3.71
+      },
+      {
+        "opportunity": "Prune Unneeded BouncyCastle PQC / Classpath Resources",
+        "current_mb": 1.41,
+        "est_savings_mb": 1.22
+      },
+      {
+        "opportunity": "Eliminate 496 Byte-Identical Redundant File Copies",
+        "current_mb": 0.96,
+        "est_savings_mb": 0.96
+      }
+    ],
+    "total_est_savings_mb": 17.04
+  }
+}

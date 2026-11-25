@@ -1,0 +1,5670 @@
+{
+  "metadata": {
+    "generated_at_utc": "2026-11-25T15:01:40.231003+00:00",
+    "methodology": "Static Structural, Packaging, Software-Composition & Binary-Ecosystem Telemetry (100% File Coverage)",
+    "ethical_scope": "Non-exploitative empirical software engineering study. No proprietary source decompilation, no native disassembly, no secret extraction, no vulnerability auditing.",
+    "target_package": "vn.com.vng.zalopay",
+    "target_app_name": "Zalopay",
+    "version_name": "11.17.0",
+    "version_code": "1102758"
+  },
+  "rq1_packaging": {
+    "container": {
+      "outer_zip_filename": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+      "outer_zip_size_bytes": 98813878,
+      "outer_zip_sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+      "xapk_filename": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.xapk",
+      "xapk_compressed_bytes": 98813516,
+      "xapk_uncompressed_bytes": 105608128,
+      "xapk_sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d",
+      "xapk_entries": [
+        {
+          "filename": "vn.com.vng.zalopay.apk",
+          "compress_type": "STORED",
+          "compressed_bytes": 79359087,
+          "uncompressed_bytes": 79359087,
+          "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+          "is_apk": true
+        },
+        {
+          "filename": "icon.png",
+          "compress_type": "STORED",
+          "compressed_bytes": 23841,
+          "uncompressed_bytes": 23841,
+          "sha256": "f0b9d7d1a6144ca550e4d326bc3b6cf93696549675bc624d7774c9879c33d3f0",
+          "is_apk": false
+        },
+        {
+          "filename": "config.armeabi_v7a.apk",
+          "compress_type": "STORED",
+          "compressed_bytes": 24828408,
+          "uncompressed_bytes": 24828408,
+          "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+          "is_apk": true
+        },
+        {
+          "filename": "config.en.apk",
+          "compress_type": "STORED",
+          "compressed_bytes": 74137,
+          "uncompressed_bytes": 74137,
+          "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+          "is_apk": true
+        },
+        {
+          "filename": "config.vi.apk",
+          "compress_type": "STORED",
+          "compressed_bytes": 86425,
+          "uncompressed_bytes": 86425,
+          "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+          "is_apk": true
+        },
+        {
+          "filename": "config.xhdpi.apk",
+          "compress_type": "STORED",
+          "compressed_bytes": 1232563,
+          "uncompressed_bytes": 1232563,
+          "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+          "is_apk": true
+        },
+        {
+          "filename": "manifest.json",
+          "compress_type": "STORED",
+          "compressed_bytes": 2710,
+          "uncompressed_bytes": 2710,
+          "sha256": "1382fb85261a3f58699396b832c4c68e0b206e8188ca835727c4f1f84b511ca0",
+          "is_apk": false
+        }
+      ],
+      "xapk_manifest": {
+        "xapk_version": 2,
+        "package_name": "vn.com.vng.zalopay",
+        "name": "Zalopay",
+        "version_code": "1102758",
+        "version_name": "11.17.0",
+        "min_sdk_version": "26",
+        "target_sdk_version": "36",
+        "permissions": [
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CONTACTS",
+          "android.permission.INTERNET",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.READ_PHONE_STATE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.NFC",
+          "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.USE_FINGERPRINT",
+          "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.READ_CALENDAR",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+          "com.android.launcher.permission.WRITE_SETTINGS",
+          "com.android.launcher.permission.READ_SETTINGS",
+          "com.bbk.launcher2.permission.READ_SETTINGS",
+          "com.bbk.launcher2.permission.WRITE_SETTINGS",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.CAMERA",
+          "android.permission.VIBRATE",
+          "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.DETECT_SCREEN_CAPTURE",
+          "com.google.android.gms.permission.AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.FOREGROUND_SERVICE",
+          "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "android.permission.REORDER_TASKS",
+          "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+          "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+          "android.permission.READ_BASIC_PHONE_STATE",
+          "android.permission.WRITE_CONTACTS",
+          "android.permission.READ_MEDIA_AUDIO"
+        ],
+        "split_configs": [
+          "config.armeabi_v7a",
+          "config.en",
+          "config.vi",
+          "config.xhdpi"
+        ],
+        "total_size": 105580620,
+        "icon": "icon.png",
+        "split_apks": [
+          {
+            "file": "vn.com.vng.zalopay.apk",
+            "id": "base"
+          },
+          {
+            "file": "config.armeabi_v7a.apk",
+            "id": "config.armeabi_v7a"
+          },
+          {
+            "file": "config.en.apk",
+            "id": "config.en"
+          },
+          {
+            "file": "config.vi.apk",
+            "id": "config.vi"
+          },
+          {
+            "file": "config.xhdpi.apk",
+            "id": "config.xhdpi"
+          }
+        ]
+      }
+    },
+    "totals": {
+      "split_apk_count": 5,
+      "total_files_scanned": 6464,
+      "total_entries_uncompressed_bytes": 195327309,
+      "total_entries_compressed_bytes": 104477912,
+      "overall_compression_savings_pct": 46.51
+    },
+    "split_apks": [
+      {
+        "apk": "vn.com.vng.zalopay.apk",
+        "apk_disk_bytes": 79359087,
+        "file_count": 6162,
+        "stored_files": 532,
+        "deflated_files": 5630,
+        "entries_uncompressed_bytes": 136395610,
+        "entries_compressed_bytes": 78345127,
+        "compression_ratio_pct": 42.56,
+        "signing": {
+          "v1_jar_sig": false,
+          "has_apk_sig_block": true,
+          "sig_block_total_bytes": 8192,
+          "blocks": [
+            {
+              "id_hex": "0x7109871a",
+              "label": "APK Signature Scheme v2",
+              "size_bytes": 1379
+            },
+            {
+              "id_hex": "0xf05368c0",
+              "label": "APK Signature Scheme v3",
+              "size_bytes": 1379
+            },
+            {
+              "id_hex": "0x6dff800d",
+              "label": "APK Source Stamp v2",
+              "size_bytes": 3057
+            },
+            {
+              "id_hex": "0x2146444e",
+              "label": "Custom Block 0x2146444e",
+              "size_bytes": 687
+            },
+            {
+              "id_hex": "0x42726577",
+              "label": "Verity Padding Block",
+              "size_bytes": 1598
+            }
+          ]
+        },
+        "top_directories_uncompressed": {
+          "<root>": 66790154,
+          "res/": 37670801,
+          "assets/": 30011044,
+          "org/": 1640008,
+          "META-INF/": 140283,
+          "kotlin/": 51125,
+          "google/": 46722,
+          "okhttp3/": 41612,
+          "vn/": 2014,
+          "junit/": 1847
+        },
+        "top_magic_types_uncompressed": {
+          "Dalvik Executable (.dex)": 69701748,
+          "TensorFlow Lite Model (.tflite)": 12228448,
+          "Binary Android XML (AXML)": 9235176,
+          "Other Binary / Data Asset": 8837468,
+          "TrueType / OpenType Font": 7412552,
+          "PNG Raster Image": 6870510,
+          "JSON Data / Lottie / Config": 6677077,
+          "Nested ZIP / JAR / Bundle": 5075855,
+          "SVG Vector Graphic": 2551186,
+          "Android Compiled Resource Table (.arsc)": 1802300,
+          "XML Resource / Config": 1788328,
+          "Build / Library Metadata Text": 1714269,
+          "WebP Image": 1711422,
+          "GIF Animation": 222888,
+          "Protobuf Binary Asset": 208388
+        }
+      },
+      {
+        "apk": "config.armeabi_v7a.apk",
+        "apk_disk_bytes": 24828408,
+        "file_count": 32,
+        "stored_files": 0,
+        "deflated_files": 32,
+        "entries_uncompressed_bytes": 57459525,
+        "entries_compressed_bytes": 24813347,
+        "compression_ratio_pct": 56.82,
+        "signing": {
+          "v1_jar_sig": true,
+          "has_apk_sig_block": true,
+          "sig_block_total_bytes": 8192,
+          "blocks": [
+            {
+              "id_hex": "0x7109871a",
+              "label": "APK Signature Scheme v2",
+              "size_bytes": 1379
+            },
+            {
+              "id_hex": "0xf05368c0",
+              "label": "APK Signature Scheme v3",
+              "size_bytes": 1379
+            },
+            {
+              "id_hex": "0x6dff800d",
+              "label": "APK Source Stamp v2",
+              "size_bytes": 3593
+            },
+            {
+              "id_hex": "0x42726577",
+              "label": "Verity Padding Block",
+              "size_bytes": 1761
+            }
+          ]
+        },
+        "top_directories_uncompressed": {
+          "lib/": 57452124,
+          "META-INF/": 6333,
+          "<root>": 1068
+        },
+        "top_magic_types_uncompressed": {
+          "ELF Native Shared Library (.so)": 57452124,
+          "JAR Signature / Manifest Metadata": 6333,
+          "Binary Android XML (AXML)": 1036,
+          "Other Binary / Data Asset": 32
+        }
+      },
+      {
+        "apk": "config.xhdpi.apk",
+        "apk_disk_bytes": 1232563,
+        "file_count": 258,
+        "stored_files": 146,
+        "deflated_files": 112,
+        "entries_uncompressed_bytes": 1329300,
+        "entries_compressed_bytes": 1178129,
+        "compression_ratio_pct": 11.37,
+        "signing": {
+          "v1_jar_sig": true,
+          "has_apk_sig_block": true,
+          "sig_block_total_bytes": 8192,
+          "blocks": [
+            {
+              "id_hex": "0x7109871a",
+              "label": "APK Signature Scheme v2",
+              "size_bytes": 1379
+            },
+            {
+              "id_hex": "0xf05368c0",
+              "label": "APK Signature Scheme v3",
+              "size_bytes": 1379
+            },
+            {
+              "id_hex": "0x6dff800d",
+              "label": "APK Source Stamp v2",
+              "size_bytes": 3593
+            },
+            {
+              "id_hex": "0x42726577",
+              "label": "Verity Padding Block",
+              "size_bytes": 1761
+            }
+          ]
+        },
+        "top_directories_uncompressed": {
+          "res/": 1134265,
+          "<root>": 142120,
+          "META-INF/": 52915
+        },
+        "top_magic_types_uncompressed": {
+          "PNG Raster Image": 715552,
+          "WebP Image": 212942,
+          "Binary Android XML (AXML)": 196188,
+          "Android Compiled Resource Table (.arsc)": 141056,
+          "JAR Signature / Manifest Metadata": 52915,
+          "Nine-Patch PNG (.9.png)": 10615,
+          "Other Binary / Data Asset": 32
+        }
+      },
+      {
+        "apk": "config.vi.apk",
+        "apk_disk_bytes": 86425,
+        "file_count": 6,
+        "stored_files": 1,
+        "deflated_files": 5,
+        "entries_uncompressed_bytes": 78175,
+        "entries_compressed_bytes": 77394,
+        "compression_ratio_pct": 1.0,
+        "signing": {
+          "v1_jar_sig": true,
+          "has_apk_sig_block": true,
+          "sig_block_total_bytes": 8192,
+          "blocks": [
+            {
+              "id_hex": "0x7109871a",
+              "label": "APK Signature Scheme v2",
+              "size_bytes": 1379
+            },
+            {
+              "id_hex": "0xf05368c0",
+              "label": "APK Signature Scheme v3",
+              "size_bytes": 1379
+            },
+            {
+              "id_hex": "0x6dff800d",
+              "label": "APK Source Stamp v2",
+              "size_bytes": 3593
+            },
+            {
+              "id_hex": "0x42726577",
+              "label": "Verity Padding Block",
+              "size_bytes": 1761
+            }
+          ]
+        },
+        "top_directories_uncompressed": {
+          "<root>": 76492,
+          "META-INF/": 1683
+        },
+        "top_magic_types_uncompressed": {
+          "Android Compiled Resource Table (.arsc)": 75460,
+          "JAR Signature / Manifest Metadata": 1683,
+          "Binary Android XML (AXML)": 1000,
+          "Other Binary / Data Asset": 32
+        }
+      },
+      {
+        "apk": "config.en.apk",
+        "apk_disk_bytes": 74137,
+        "file_count": 6,
+        "stored_files": 1,
+        "deflated_files": 5,
+        "entries_uncompressed_bytes": 64699,
+        "entries_compressed_bytes": 63915,
+        "compression_ratio_pct": 1.21,
+        "signing": {
+          "v1_jar_sig": true,
+          "has_apk_sig_block": true,
+          "sig_block_total_bytes": 8192,
+          "blocks": [
+            {
+              "id_hex": "0x7109871a",
+              "label": "APK Signature Scheme v2",
+              "size_bytes": 1379
+            },
+            {
+              "id_hex": "0xf05368c0",
+              "label": "APK Signature Scheme v3",
+              "size_bytes": 1379
+            },
+            {
+              "id_hex": "0x6dff800d",
+              "label": "APK Source Stamp v2",
+              "size_bytes": 3593
+            },
+            {
+              "id_hex": "0x42726577",
+              "label": "Verity Padding Block",
+              "size_bytes": 1761
+            }
+          ]
+        },
+        "top_directories_uncompressed": {
+          "<root>": 63016,
+          "META-INF/": 1683
+        },
+        "top_magic_types_uncompressed": {
+          "Android Compiled Resource Table (.arsc)": 61984,
+          "JAR Signature / Manifest Metadata": 1683,
+          "Binary Android XML (AXML)": 1000,
+          "Other Binary / Data Asset": 32
+        }
+      }
+    ],
+    "by_magic_type": [
+      {
+        "type": "Dalvik Executable (.dex)",
+        "count": 20,
+        "uncompressed_bytes": 69701748,
+        "compressed_bytes": 31207880,
+        "share_uncompressed_pct": 35.68
+      },
+      {
+        "type": "ELF Native Shared Library (.so)",
+        "count": 27,
+        "uncompressed_bytes": 57452124,
+        "compressed_bytes": 24809641,
+        "share_uncompressed_pct": 29.41
+      },
+      {
+        "type": "TensorFlow Lite Model (.tflite)",
+        "count": 20,
+        "uncompressed_bytes": 12228448,
+        "compressed_bytes": 11898931,
+        "share_uncompressed_pct": 6.26
+      },
+      {
+        "type": "Binary Android XML (AXML)",
+        "count": 5319,
+        "uncompressed_bytes": 9434400,
+        "compressed_bytes": 3626589,
+        "share_uncompressed_pct": 4.83
+      },
+      {
+        "type": "Other Binary / Data Asset",
+        "count": 65,
+        "uncompressed_bytes": 8837596,
+        "compressed_bytes": 6265964,
+        "share_uncompressed_pct": 4.52
+      },
+      {
+        "type": "PNG Raster Image",
+        "count": 269,
+        "uncompressed_bytes": 7586062,
+        "compressed_bytes": 7586062,
+        "share_uncompressed_pct": 3.88
+      },
+      {
+        "type": "TrueType / OpenType Font",
+        "count": 25,
+        "uncompressed_bytes": 7412552,
+        "compressed_bytes": 3248943,
+        "share_uncompressed_pct": 3.79
+      },
+      {
+        "type": "JSON Data / Lottie / Config",
+        "count": 64,
+        "uncompressed_bytes": 6677077,
+        "compressed_bytes": 2866407,
+        "share_uncompressed_pct": 3.42
+      },
+      {
+        "type": "Nested ZIP / JAR / Bundle",
+        "count": 4,
+        "uncompressed_bytes": 5075855,
+        "compressed_bytes": 5013036,
+        "share_uncompressed_pct": 2.6
+      },
+      {
+        "type": "SVG Vector Graphic",
+        "count": 2,
+        "uncompressed_bytes": 2551186,
+        "compressed_bytes": 1903400,
+        "share_uncompressed_pct": 1.31
+      },
+      {
+        "type": "Android Compiled Resource Table (.arsc)",
+        "count": 4,
+        "uncompressed_bytes": 2080800,
+        "compressed_bytes": 2080800,
+        "share_uncompressed_pct": 1.07
+      },
+      {
+        "type": "WebP Image",
+        "count": 159,
+        "uncompressed_bytes": 1924364,
+        "compressed_bytes": 1924364,
+        "share_uncompressed_pct": 0.99
+      },
+      {
+        "type": "XML Resource / Config",
+        "count": 1,
+        "uncompressed_bytes": 1788328,
+        "compressed_bytes": 142650,
+        "share_uncompressed_pct": 0.92
+      },
+      {
+        "type": "Build / Library Metadata Text",
+        "count": 358,
+        "uncompressed_bytes": 1714269,
+        "compressed_bytes": 1369431,
+        "share_uncompressed_pct": 0.88
+      },
+      {
+        "type": "GIF Animation",
+        "count": 5,
+        "uncompressed_bytes": 222888,
+        "compressed_bytes": 222888,
+        "share_uncompressed_pct": 0.11
+      },
+      {
+        "type": "Protobuf Binary Asset",
+        "count": 16,
+        "uncompressed_bytes": 208388,
+        "compressed_bytes": 25840,
+        "share_uncompressed_pct": 0.11
+      },
+      {
+        "type": "Audio / Video Media Container",
+        "count": 2,
+        "uncompressed_bytes": 103132,
+        "compressed_bytes": 103132,
+        "share_uncompressed_pct": 0.05
+      },
+      {
+        "type": "Web HTML / CSS Asset",
+        "count": 9,
+        "uncompressed_bytes": 64751,
+        "compressed_bytes": 35479,
+        "share_uncompressed_pct": 0.03
+      },
+      {
+        "type": "JAR Signature / Manifest Metadata",
+        "count": 12,
+        "uncompressed_bytes": 62614,
+        "compressed_bytes": 23313,
+        "share_uncompressed_pct": 0.03
+      },
+      {
+        "type": "Kotlin Compiler Metadata",
+        "count": 19,
+        "uncompressed_bytes": 52814,
+        "compressed_bytes": 13230,
+        "share_uncompressed_pct": 0.03
+      },
+      {
+        "type": "JPEG Image",
+        "count": 2,
+        "uncompressed_bytes": 52579,
+        "compressed_bytes": 52579,
+        "share_uncompressed_pct": 0.03
+      },
+      {
+        "type": "JavaScript / Hermes Bundle",
+        "count": 9,
+        "uncompressed_bytes": 35677,
+        "compressed_bytes": 10637,
+        "share_uncompressed_pct": 0.02
+      },
+      {
+        "type": "Nine-Patch PNG (.9.png)",
+        "count": 49,
+        "uncompressed_bytes": 23492,
+        "compressed_bytes": 23492,
+        "share_uncompressed_pct": 0.01
+      },
+      {
+        "type": "ART Baseline / Cloud Profile",
+        "count": 2,
+        "uncompressed_bytes": 20412,
+        "compressed_bytes": 20412,
+        "share_uncompressed_pct": 0.01
+      },
+      {
+        "type": "On-Device ML Model Asset",
+        "count": 1,
+        "uncompressed_bytes": 15293,
+        "compressed_bytes": 2439,
+        "share_uncompressed_pct": 0.01
+      },
+      {
+        "type": "Trust Store / Certificate Asset",
+        "count": 1,
+        "uncompressed_bytes": 460,
+        "compressed_bytes": 373,
+        "share_uncompressed_pct": 0.0
+      }
+    ],
+    "by_top_directory": [
+      {
+        "directory": "<root>",
+        "count": 107,
+        "uncompressed_bytes": 67072850,
+        "compressed_bytes": 31036917,
+        "share_uncompressed_pct": 34.34
+      },
+      {
+        "directory": "lib/",
+        "count": 27,
+        "uncompressed_bytes": 57452124,
+        "compressed_bytes": 24809641,
+        "share_uncompressed_pct": 29.41
+      },
+      {
+        "directory": "res/",
+        "count": 5856,
+        "uncompressed_bytes": 38805066,
+        "compressed_bytes": 22922680,
+        "share_uncompressed_pct": 19.87
+      },
+      {
+        "directory": "assets/",
+        "count": 124,
+        "uncompressed_bytes": 30011044,
+        "compressed_bytes": 24223552,
+        "share_uncompressed_pct": 15.36
+      },
+      {
+        "directory": "org/",
+        "count": 136,
+        "uncompressed_bytes": 1640008,
+        "compressed_bytes": 1339846,
+        "share_uncompressed_pct": 0.84
+      },
+      {
+        "directory": "META-INF/",
+        "count": 192,
+        "uncompressed_bytes": 202897,
+        "compressed_bytes": 70144,
+        "share_uncompressed_pct": 0.1
+      },
+      {
+        "directory": "kotlin/",
+        "count": 8,
+        "uncompressed_bytes": 51125,
+        "compressed_bytes": 12053,
+        "share_uncompressed_pct": 0.03
+      },
+      {
+        "directory": "google/",
+        "count": 9,
+        "uncompressed_bytes": 46722,
+        "compressed_bytes": 19308,
+        "share_uncompressed_pct": 0.02
+      },
+      {
+        "directory": "okhttp3/",
+        "count": 2,
+        "uncompressed_bytes": 41612,
+        "compressed_bytes": 41543,
+        "share_uncompressed_pct": 0.02
+      },
+      {
+        "directory": "vn/",
+        "count": 1,
+        "uncompressed_bytes": 2014,
+        "compressed_bytes": 381,
+        "share_uncompressed_pct": 0.0
+      },
+      {
+        "directory": "junit/",
+        "count": 2,
+        "uncompressed_bytes": 1847,
+        "compressed_bytes": 1847,
+        "share_uncompressed_pct": 0.0
+      }
+    ],
+    "by_compression_method": [
+      {
+        "method": "DEFLATED",
+        "count": 5784,
+        "uncompressed_bytes": 170698716,
+        "compressed_bytes": 79849319
+      },
+      {
+        "method": "STORED",
+        "count": 680,
+        "uncompressed_bytes": 24628593,
+        "compressed_bytes": 24628593
+      }
+    ],
+    "top_extensions": [
+      {
+        "extension": ".dex",
+        "count": 20,
+        "uncompressed_bytes": 69701748
+      },
+      {
+        "extension": ".so",
+        "count": 28,
+        "uncompressed_bytes": 57452516
+      },
+      {
+        "extension": ".xml",
+        "count": 5320,
+        "uncompressed_bytes": 11222728
+      },
+      {
+        "extension": ".tflite",
+        "count": 14,
+        "uncompressed_bytes": 10203704
+      },
+      {
+        "extension": ".png",
+        "count": 269,
+        "uncompressed_bytes": 7586062
+      },
+      {
+        "extension": ".ttf",
+        "count": 23,
+        "uncompressed_bytes": 6823784
+      },
+      {
+        "extension": ".json",
+        "count": 64,
+        "uncompressed_bytes": 6677077
+      },
+      {
+        "extension": ".zip",
+        "count": 1,
+        "uncompressed_bytes": 3913966
+      },
+      {
+        "extension": ".yaml",
+        "count": 1,
+        "uncompressed_bytes": 3778896
+      },
+      {
+        "extension": ".svg",
+        "count": 2,
+        "uncompressed_bytes": 2551186
+      },
+      {
+        "extension": ".bin",
+        "count": 2,
+        "uncompressed_bytes": 2422326
+      },
+      {
+        "extension": ".arsc",
+        "count": 4,
+        "uncompressed_bytes": 2080800
+      },
+      {
+        "extension": ".webp",
+        "count": 159,
+        "uncompressed_bytes": 1924364
+      },
+      {
+        "extension": ".tfl",
+        "count": 2,
+        "uncompressed_bytes": 1472072
+      },
+      {
+        "extension": ".properties",
+        "count": 79,
+        "uncompressed_bytes": 1412456
+      },
+      {
+        "extension": ".amr",
+        "count": 3,
+        "uncompressed_bytes": 1161889
+      },
+      {
+        "extension": ".emd",
+        "count": 4,
+        "uncompressed_bytes": 1113555
+      },
+      {
+        "extension": ".dat",
+        "count": 3,
+        "uncompressed_bytes": 785556
+      },
+      {
+        "extension": ".otf",
+        "count": 2,
+        "uncompressed_bytes": 588768
+      },
+      {
+        "extension": "<none>",
+        "count": 18,
+        "uncompressed_bytes": 504522
+      },
+      {
+        "extension": ".fb",
+        "count": 2,
+        "uncompressed_bytes": 350416
+      },
+      {
+        "extension": ".txt",
+        "count": 136,
+        "uncompressed_bytes": 296882
+      },
+      {
+        "extension": ".gif",
+        "count": 5,
+        "uncompressed_bytes": 222888
+      },
+      {
+        "extension": ".lstm_model",
+        "count": 1,
+        "uncompressed_bytes": 161448
+      },
+      {
+        "extension": ".riv",
+        "count": 4,
+        "uncompressed_bytes": 160014
+      }
+    ],
+    "deduplication": {
+      "unique_file_hashes": 5968,
+      "total_file_entries": 6464,
+      "duplicate_hash_groups": 299,
+      "redundant_file_copies": 496,
+      "wasted_uncompressed_bytes": 959564,
+      "wasted_compressed_bytes": 538188,
+      "top_duplicates": [
+        {
+          "sha256_prefix": "80077ec8b0e5",
+          "copies": 2,
+          "single_size_bytes": 106396,
+          "wasted_uncompressed_bytes": 106396,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable/img_fds_nfc_guidance.png",
+            "vn.com.vng.zalopay.apk:res/drawable/img_nfc_pro_guidance.png"
+          ]
+        },
+        {
+          "sha256_prefix": "77cca31de49f",
+          "copies": 2,
+          "single_size_bytes": 99295,
+          "wasted_uncompressed_bytes": 99295,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable/bg_cashier_new_ui_header.png",
+            "vn.com.vng.zalopay.apk:res/drawable/bg_rp_new_ui_header.png"
+          ]
+        },
+        {
+          "sha256_prefix": "1e5085ab80e4",
+          "copies": 2,
+          "single_size_bytes": 49608,
+          "wasted_uncompressed_bytes": 49608,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:org/bouncycastle/pkix/CertPathReviewerMessages_de.properties",
+            "vn.com.vng.zalopay.apk:org/bouncycastle/x509/CertPathReviewerMessages_de.properties"
+          ]
+        },
+        {
+          "sha256_prefix": "a53d8ae65b7c",
+          "copies": 2,
+          "single_size_bytes": 48216,
+          "wasted_uncompressed_bytes": 48216,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:assets/fonts/UnisectVnu.ttf",
+            "vn.com.vng.zalopay.apk:assets/fonts/ocr-a-tribute.ttf"
+          ]
+        },
+        {
+          "sha256_prefix": "9fbb991695b1",
+          "copies": 2,
+          "single_size_bytes": 42868,
+          "wasted_uncompressed_bytes": 42868,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:org/bouncycastle/pkix/CertPathReviewerMessages.properties",
+            "vn.com.vng.zalopay.apk:org/bouncycastle/x509/CertPathReviewerMessages.properties"
+          ]
+        },
+        {
+          "sha256_prefix": "809fa1ed2145",
+          "copies": 5,
+          "single_size_bytes": 10175,
+          "wasted_uncompressed_bytes": 40700,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:META-INF/androidx/annotation/annotation/LICENSE.txt",
+            "vn.com.vng.zalopay.apk:META-INF/androidx/collection/collection/LICENSE.txt",
+            "vn.com.vng.zalopay.apk:META-INF/androidx/collection/collection-ktx/LICENSE.txt",
+            "vn.com.vng.zalopay.apk:META-INF/androidx/constraintlayout/constraintlayout-core/LICENSE.txt"
+          ]
+        },
+        {
+          "sha256_prefix": "518974b32586",
+          "copies": 2,
+          "single_size_bytes": 38275,
+          "wasted_uncompressed_bytes": 38275,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable-xxhdpi-v4/img_profile_v2_privacy_hub.png",
+            "vn.com.vng.zalopay.apk:res/drawable-xxhdpi-v4/img_register_consent_shield.png"
+          ]
+        },
+        {
+          "sha256_prefix": "fce958b20050",
+          "copies": 2,
+          "single_size_bytes": 27062,
+          "wasted_uncompressed_bytes": 27062,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/raw/ic_cashier_pay_loading.json",
+            "vn.com.vng.zalopay.apk:res/raw/ic_cashier_pay_loading_v3.json"
+          ]
+        },
+        {
+          "sha256_prefix": "0f06f7bbe45d",
+          "copies": 3,
+          "single_size_bytes": 11988,
+          "wasted_uncompressed_bytes": 23976,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable/ic_account_varb.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/ic_card_varb.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/ic_varb.xml"
+          ]
+        },
+        {
+          "sha256_prefix": "ce4a1989362b",
+          "copies": 2,
+          "single_size_bytes": 20470,
+          "wasted_uncompressed_bytes": 20470,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable/ic_kyc_protection_info.webp",
+            "vn.com.vng.zalopay.apk:res/drawable/ic_reform_kyc_protection_info.webp"
+          ]
+        },
+        {
+          "sha256_prefix": "20182646b466",
+          "copies": 4,
+          "single_size_bytes": 6184,
+          "wasted_uncompressed_bytes": 18552,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable/ic_account_bidv.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/ic_bidv.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/ic_bidv_card_logo.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/ic_card_bidv.xml"
+          ]
+        },
+        {
+          "sha256_prefix": "57f8ad1f2f37",
+          "copies": 2,
+          "single_size_bytes": 18308,
+          "wasted_uncompressed_bytes": 18308,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable/ic_cashier_secure.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/ic_rp_secure.xml"
+          ]
+        },
+        {
+          "sha256_prefix": "b04465b2053a",
+          "copies": 2,
+          "single_size_bytes": 15952,
+          "wasted_uncompressed_bytes": 15952,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable/ic_sgcb_card_logo.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/ic_sgcb_full_brand.xml"
+          ]
+        },
+        {
+          "sha256_prefix": "d54f26f806ec",
+          "copies": 18,
+          "single_size_bytes": 812,
+          "wasted_uncompressed_bytes": 13804,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:org/apache/commons/codec/language/bm/ash_approx_hebrew.txt",
+            "vn.com.vng.zalopay.apk:org/apache/commons/codec/language/bm/ash_exact_hebrew.txt",
+            "vn.com.vng.zalopay.apk:org/apache/commons/codec/language/bm/gen_approx_hebrew.txt",
+            "vn.com.vng.zalopay.apk:org/apache/commons/codec/language/bm/gen_exact_dutch.txt"
+          ]
+        },
+        {
+          "sha256_prefix": "af54f81e34c6",
+          "copies": 2,
+          "single_size_bytes": 11696,
+          "wasted_uncompressed_bytes": 11696,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable/img_error_popup_ce.webp",
+            "vn.com.vng.zalopay.apk:res/drawable/img_profile_v2_privacy_load_error.webp"
+          ]
+        },
+        {
+          "sha256_prefix": "add7eaf89642",
+          "copies": 2,
+          "single_size_bytes": 11004,
+          "wasted_uncompressed_bytes": 11004,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable/ic_master_debit.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/ic_master_debit_full_brand.xml"
+          ]
+        },
+        {
+          "sha256_prefix": "b3b458b83818",
+          "copies": 2,
+          "single_size_bytes": 10018,
+          "wasted_uncompressed_bytes": 10018,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/mipmap-night-v8/ic_launcher_foreground.png",
+            "vn.com.vng.zalopay.apk:res/mipmap-xxxhdpi-v4/ic_launcher_foreground.png"
+          ]
+        },
+        {
+          "sha256_prefix": "dd3220f7d5c4",
+          "copies": 2,
+          "single_size_bytes": 9508,
+          "wasted_uncompressed_bytes": 9508,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable/ic_cashier_pcidss.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/ic_rp_pcidss.xml"
+          ]
+        },
+        {
+          "sha256_prefix": "78d3f7b80ce1",
+          "copies": 4,
+          "single_size_bytes": 3032,
+          "wasted_uncompressed_bytes": 9096,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/raw/ic_anim_zlp_loading_auth_state.json",
+            "vn.com.vng.zalopay.apk:res/raw/ic_anim_zlp_loading_common_state.json",
+            "vn.com.vng.zalopay.apk:res/raw/ic_anim_zlp_loading_state.json",
+            "vn.com.vng.zalopay.apk:res/raw/ic_cashier_loading.json"
+          ]
+        },
+        {
+          "sha256_prefix": "6ce3387474ed",
+          "copies": 4,
+          "single_size_bytes": 2228,
+          "wasted_uncompressed_bytes": 6684,
+          "sample_paths": [
+            "vn.com.vng.zalopay.apk:res/drawable/ic_voucher_unselected.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/sdk_taxi_icon_voucher_unchecked_00.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/sdk_taxi_icon_voucher_unchecked_01.xml",
+            "vn.com.vng.zalopay.apk:res/drawable/sdk_taxi_icon_voucher_unchecked_02.xml"
+          ]
+        }
+      ]
+    }
+  },
+  "rq2_manifest_platform": {
+    "manifests": [
+      {
+        "apk": "vn.com.vng.zalopay.apk",
+        "package": "vn.com.vng.zalopay",
+        "split": "",
+        "version_code": 1102758,
+        "version_name": "11.17.0",
+        "compile_sdk_version": 36,
+        "compile_sdk_codename": "16",
+        "is_split_required": null,
+        "min_sdk": 26,
+        "target_sdk": 36,
+        "permissions": [
+          {
+            "name": "android.permission.POST_NOTIFICATIONS",
+            "protection": "Runtime (Dangerous)",
+            "domain": "Messaging, Push & Background Lifecycle"
+          },
+          {
+            "name": "android.permission.READ_CONTACTS",
+            "protection": "Runtime (Dangerous)",
+            "domain": "Social P2P Transfers & Bill Reminders"
+          },
+          {
+            "name": "android.permission.INTERNET",
+            "protection": "Normal / Platform",
+            "domain": "Networking & Device Connectivity"
+          },
+          {
+            "name": "android.permission.ACCESS_WIFI_STATE",
+            "protection": "Normal / Platform",
+            "domain": "Networking & Device Connectivity"
+          },
+          {
+            "name": "android.permission.ACCESS_NETWORK_STATE",
+            "protection": "Normal / Platform",
+            "domain": "Networking & Device Connectivity"
+          },
+          {
+            "name": "android.permission.READ_PHONE_STATE",
+            "protection": "Runtime (Dangerous)",
+            "domain": "Networking & Device Connectivity"
+          },
+          {
+            "name": "com.google.android.c2dm.permission.RECEIVE",
+            "protection": "Google / Play Ecosystem",
+            "domain": "Messaging, Push & Background Lifecycle"
+          },
+          {
+            "name": "android.permission.WAKE_LOCK",
+            "protection": "Normal / Platform",
+            "domain": "Messaging, Push & Background Lifecycle"
+          },
+          {
+            "name": "android.permission.NFC",
+            "protection": "Normal / Platform",
+            "domain": "Payments, NFC & Commerce"
+          },
+          {
+            "name": "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+            "protection": "Special / Restricted",
+            "domain": "Launcher, Shortcuts & System UI"
+          },
+          {
+            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+            "protection": "Runtime (Dangerous)",
+            "domain": "Media & Local Storage"
+          },
+          {
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "protection": "Runtime (Dangerous)",
+            "domain": "Media & Local Storage"
+          },
+          {
+            "name": "android.permission.ACCESS_COARSE_LOCATION",
+            "protection": "Runtime (Dangerous)",
+            "domain": "Geolocation & Merchant Discovery"
+          },
+          {
+            "name": "android.permission.ACCESS_FINE_LOCATION",
+            "protection": "Runtime (Dangerous)",
+            "domain": "Geolocation & Merchant Discovery"
+          },
+          {
+            "name": "android.permission.USE_FINGERPRINT",
+            "protection": "Normal / Platform",
+            "domain": "Identity, Biometrics & Anti-Screen-Capture"
+          },
+          {
+            "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+            "protection": "OEM Vendor Integration",
+            "domain": "Attribution, Privacy Sandbox & Analytics"
+          },
+          {
+            "name": "android.permission.WRITE_CALENDAR",
+            "protection": "Runtime (Dangerous)",
+            "domain": "Social P2P Transfers & Bill Reminders"
+          },
+          {
+            "name": "android.permission.READ_CALENDAR",
+            "protection": "Runtime (Dangerous)",
+            "domain": "Social P2P Transfers & Bill Reminders"
+          },
+          {
+            "name": "android.permission.USE_BIOMETRIC",
+            "protection": "Normal / Platform",
+            "domain": "Identity, Biometrics & Anti-Screen-Capture"
+          },
+          {
+            "name": "android.permission.RECORD_AUDIO",
+            "protection": "Runtime (Dangerous)",
+            "domain": "eKYC, QR Scanning & Audio/Voice"
+          },
+          {
+            "name": "android.permission.MODIFY_AUDIO_SETTINGS",
+            "protection": "Normal / Platform",
+            "domain": "eKYC, QR Scanning & Audio/Voice"
+          },
+          {
+            "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "protection": "Third-Party / Custom",
+            "domain": "Launcher, Shortcuts & System UI"
+          },
+          {
+            "name": "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            "protection": "Third-Party / Custom",
+            "domain": "Launcher, Shortcuts & System UI"
+          },
+          {
+            "name": "com.android.launcher.permission.WRITE_SETTINGS",
+            "protection": "Third-Party / Custom",
+            "domain": "Launcher, Shortcuts & System UI"
+          },
+          {
+            "name": "com.android.launcher.permission.READ_SETTINGS",
+            "protection": "Third-Party / Custom",
+            "domain": "Launcher, Shortcuts & System UI"
+          },
+          {
+            "name": "com.bbk.launcher2.permission.READ_SETTINGS",
+            "protection": "OEM Vendor Integration",
+            "domain": "Launcher, Shortcuts & System UI"
+          },
+          {
+            "name": "com.bbk.launcher2.permission.WRITE_SETTINGS",
+            "protection": "OEM Vendor Integration",
+            "domain": "Launcher, Shortcuts & System UI"
+          },
+          {
+            "name": "android.permission.QUERY_ALL_PACKAGES",
+            "protection": "Special / Restricted",
+            "domain": "Super-App Ecosystem & Inter-App Discovery"
+          },
+          {
+            "name": "android.permission.CAMERA",
+            "protection": "Runtime (Dangerous)",
+            "domain": "eKYC, QR Scanning & Audio/Voice"
+          },
+          {
+            "name": "android.permission.VIBRATE",
+            "protection": "Normal / Platform",
+            "domain": "Messaging, Push & Background Lifecycle"
+          },
+          {
+            "name": "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+            "protection": "First-Party / VNG Ecosystem",
+            "domain": "Super-App Ecosystem & Inter-App Discovery"
+          },
+          {
+            "name": "android.permission.CHANGE_WIFI_STATE",
+            "protection": "Normal / Platform",
+            "domain": "Networking & Device Connectivity"
+          },
+          {
+            "name": "android.permission.DETECT_SCREEN_CAPTURE",
+            "protection": "Special / Restricted",
+            "domain": "Identity, Biometrics & Anti-Screen-Capture"
+          },
+          {
+            "name": "com.google.android.gms.permission.AD_ID",
+            "protection": "Google / Play Ecosystem",
+            "domain": "Attribution, Privacy Sandbox & Analytics"
+          },
+          {
+            "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            "protection": "Normal / Platform",
+            "domain": "Attribution, Privacy Sandbox & Analytics"
+          },
+          {
+            "name": "android.permission.ACCESS_ADSERVICES_AD_ID",
+            "protection": "Normal / Platform",
+            "domain": "Attribution, Privacy Sandbox & Analytics"
+          },
+          {
+            "name": "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+            "protection": "Normal / Platform",
+            "domain": "Attribution, Privacy Sandbox & Analytics"
+          },
+          {
+            "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+            "protection": "Normal / Platform",
+            "domain": "Messaging, Push & Background Lifecycle"
+          },
+          {
+            "name": "com.android.vending.BILLING",
+            "protection": "Google / Play Ecosystem",
+            "domain": "Payments, NFC & Commerce"
+          },
+          {
+            "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            "protection": "Google / Play Ecosystem",
+            "domain": "Attribution, Privacy Sandbox & Analytics"
+          },
+          {
+            "name": "android.permission.ACCESS_ADSERVICES_TOPICS",
+            "protection": "Normal / Platform",
+            "domain": "Attribution, Privacy Sandbox & Analytics"
+          },
+          {
+            "name": "android.permission.FOREGROUND_SERVICE",
+            "protection": "Normal / Platform",
+            "domain": "Messaging, Push & Background Lifecycle"
+          },
+          {
+            "name": "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "protection": "First-Party / VNG Ecosystem",
+            "domain": "Super-App Ecosystem & Inter-App Discovery"
+          },
+          {
+            "name": "android.permission.REORDER_TASKS",
+            "protection": "Normal / Platform",
+            "domain": "Launcher, Shortcuts & System UI"
+          },
+          {
+            "name": "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+            "protection": "OEM Vendor Integration",
+            "domain": "Geolocation & Merchant Discovery"
+          },
+          {
+            "name": "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+            "protection": "OEM Vendor Integration",
+            "domain": "Super-App Ecosystem & Inter-App Discovery"
+          },
+          {
+            "name": "android.permission.READ_BASIC_PHONE_STATE",
+            "protection": "Normal / Platform",
+            "domain": "Networking & Device Connectivity"
+          },
+          {
+            "name": "android.permission.WRITE_CONTACTS",
+            "protection": "Runtime (Dangerous)",
+            "domain": "Social P2P Transfers & Bill Reminders"
+          },
+          {
+            "name": "android.permission.READ_MEDIA_AUDIO",
+            "protection": "Runtime (Dangerous)",
+            "domain": "Media & Local Storage"
+          }
+        ],
+        "permission_by_protection": {
+          "Runtime (Dangerous)": 13,
+          "Normal / Platform": 18,
+          "Google / Play Ecosystem": 4,
+          "Special / Restricted": 3,
+          "OEM Vendor Integration": 5,
+          "Third-Party / Custom": 4,
+          "First-Party / VNG Ecosystem": 2
+        },
+        "permission_by_domain": {
+          "Messaging, Push & Background Lifecycle": 6,
+          "Social P2P Transfers & Bill Reminders": 4,
+          "Networking & Device Connectivity": 6,
+          "Payments, NFC & Commerce": 2,
+          "Launcher, Shortcuts & System UI": 8,
+          "Media & Local Storage": 3,
+          "Geolocation & Merchant Discovery": 3,
+          "Identity, Biometrics & Anti-Screen-Capture": 3,
+          "Attribution, Privacy Sandbox & Analytics": 7,
+          "eKYC, QR Scanning & Audio/Voice": 3,
+          "Super-App Ecosystem & Inter-App Discovery": 4
+        },
+        "custom_permissions_defined": [
+          "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "uses_features": [
+          {
+            "name": "android.hardware.nfc",
+            "required": false
+          },
+          {
+            "name": "android.hardware.nfc.hce",
+            "required": false
+          },
+          {
+            "name": "android.hardware.location.gps",
+            "required": false
+          },
+          {
+            "name": "android.hardware.bluetooth_le",
+            "required": false
+          },
+          {
+            "name": "android.hardware.camera",
+            "required": false
+          },
+          {
+            "name": "android.hardware.camera.autofocus",
+            "required": false
+          },
+          {
+            "name": "0x20000",
+            "required": true
+          },
+          {
+            "name": "android.hardware.camera.any",
+            "required": true
+          }
+        ],
+        "uses_libraries": [
+          {
+            "tag": "uses-library",
+            "name": "org.apache.http.legacy",
+            "required": false
+          },
+          {
+            "tag": "uses-library",
+            "name": "androidx.camera.extensions.impl",
+            "required": false
+          },
+          {
+            "tag": "uses-library",
+            "name": "androidx.window.extensions",
+            "required": false
+          },
+          {
+            "tag": "uses-library",
+            "name": "androidx.window.sidecar",
+            "required": false
+          },
+          {
+            "tag": "uses-library",
+            "name": "android.ext.adservices",
+            "required": false
+          }
+        ],
+        "queries_packages_count": 10,
+        "queries_intents_count": 17,
+        "queries_providers_count": 1,
+        "application_flags": {
+          "extractNativeLibs": true,
+          "largeHeap": true,
+          "hardwareAccelerated": true,
+          "supportsRtl": true,
+          "allowBackup": false,
+          "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+          "requestLegacyExternalStorage": true
+        },
+        "components_total": {
+          "activity": 200,
+          "activity-alias": 2,
+          "receiver": 22,
+          "service": 34,
+          "provider": 9
+        },
+        "components_by_domain": {
+          "activity": {
+            "First-Party: ZaloPay Core": 111,
+            "VNG / Zalo Ecosystem SDKs": 6,
+            "Other Third-Party / Utility Libraries": 69,
+            "Google Play Services & Firebase": 6,
+            "AndroidX / Jetpack & Material": 6,
+            "Analytics, Attribution, Push & OEM SDKs": 1,
+            "Fintech, Biometrics/ML, Crypto & Compliance SDKs": 1
+          },
+          "activity-alias": {
+            "First-Party: ZaloPay Core": 2
+          },
+          "receiver": {
+            "First-Party: ZaloPay Core": 5,
+            "Other Third-Party / Utility Libraries": 2,
+            "Google Play Services & Firebase": 3,
+            "AndroidX / Jetpack & Material": 12
+          },
+          "service": {
+            "First-Party: ZaloPay Core": 2,
+            "Google Play Services & Firebase": 10,
+            "AndroidX / Jetpack & Material": 7,
+            "Other Third-Party / Utility Libraries": 15
+          },
+          "provider": {
+            "AndroidX / Jetpack & Material": 2,
+            "Analytics, Attribution, Push & OEM SDKs": 2,
+            "Google Play Services & Firebase": 4,
+            "Other Third-Party / Utility Libraries": 1
+          }
+        },
+        "meta_data_count": 27,
+        "foreground_service_types": {},
+        "processes_declared": {
+          ":taibmcf": 1,
+          ":lite1": 4,
+          ":lite2": 4,
+          ":lite3": 4,
+          ":lite4": 1,
+          ":lite5": 1,
+          ":xcmzqsawpqoefcds": 1
+        }
+      },
+      {
+        "apk": "config.armeabi_v7a.apk",
+        "package": "vn.com.vng.zalopay",
+        "split": "config.armeabi_v7a",
+        "version_code": 1102758,
+        "version_name": "",
+        "compile_sdk_version": null,
+        "compile_sdk_codename": "",
+        "is_split_required": null,
+        "min_sdk": null,
+        "target_sdk": null,
+        "permissions": [],
+        "permission_by_protection": {},
+        "permission_by_domain": {},
+        "custom_permissions_defined": [],
+        "uses_features": [],
+        "uses_libraries": [],
+        "queries_packages_count": 0,
+        "queries_intents_count": 0,
+        "queries_providers_count": 0,
+        "application_flags": {
+          "extractNativeLibs": true,
+          "hasCode": false
+        },
+        "components_total": {},
+        "components_by_domain": {},
+        "meta_data_count": 1,
+        "foreground_service_types": {},
+        "processes_declared": {}
+      },
+      {
+        "apk": "config.xhdpi.apk",
+        "package": "vn.com.vng.zalopay",
+        "split": "config.xhdpi",
+        "version_code": 1102758,
+        "version_name": "",
+        "compile_sdk_version": null,
+        "compile_sdk_codename": "",
+        "is_split_required": null,
+        "min_sdk": null,
+        "target_sdk": null,
+        "permissions": [],
+        "permission_by_protection": {},
+        "permission_by_domain": {},
+        "custom_permissions_defined": [],
+        "uses_features": [],
+        "uses_libraries": [],
+        "queries_packages_count": 0,
+        "queries_intents_count": 0,
+        "queries_providers_count": 0,
+        "application_flags": {
+          "extractNativeLibs": true,
+          "hasCode": false
+        },
+        "components_total": {},
+        "components_by_domain": {},
+        "meta_data_count": 1,
+        "foreground_service_types": {},
+        "processes_declared": {}
+      },
+      {
+        "apk": "config.vi.apk",
+        "package": "vn.com.vng.zalopay",
+        "split": "config.vi",
+        "version_code": 1102758,
+        "version_name": "",
+        "compile_sdk_version": null,
+        "compile_sdk_codename": "",
+        "is_split_required": null,
+        "min_sdk": null,
+        "target_sdk": null,
+        "permissions": [],
+        "permission_by_protection": {},
+        "permission_by_domain": {},
+        "custom_permissions_defined": [],
+        "uses_features": [],
+        "uses_libraries": [],
+        "queries_packages_count": 0,
+        "queries_intents_count": 0,
+        "queries_providers_count": 0,
+        "application_flags": {
+          "extractNativeLibs": true,
+          "hasCode": false
+        },
+        "components_total": {},
+        "components_by_domain": {},
+        "meta_data_count": 1,
+        "foreground_service_types": {},
+        "processes_declared": {}
+      },
+      {
+        "apk": "config.en.apk",
+        "package": "vn.com.vng.zalopay",
+        "split": "config.en",
+        "version_code": 1102758,
+        "version_name": "",
+        "compile_sdk_version": null,
+        "compile_sdk_codename": "",
+        "is_split_required": null,
+        "min_sdk": null,
+        "target_sdk": null,
+        "permissions": [],
+        "permission_by_protection": {},
+        "permission_by_domain": {},
+        "custom_permissions_defined": [],
+        "uses_features": [],
+        "uses_libraries": [],
+        "queries_packages_count": 0,
+        "queries_intents_count": 0,
+        "queries_providers_count": 0,
+        "application_flags": {
+          "extractNativeLibs": true,
+          "hasCode": false
+        },
+        "components_total": {},
+        "components_by_domain": {},
+        "meta_data_count": 1,
+        "foreground_service_types": {},
+        "processes_declared": {}
+      }
+    ]
+  },
+  "rq3_multidex_sca": {
+    "shard_count": 20,
+    "dex_versions": [
+      "035",
+      "038"
+    ],
+    "total_uncompressed_bytes": 69701748,
+    "total_compressed_bytes": 31207880,
+    "total_class_defs": 63827,
+    "total_defined_methods": 287480,
+    "total_defined_fields": 286224,
+    "sum_method_id_refs_across_shards": 378040,
+    "sum_string_id_refs_across_shards": 404914,
+    "total_minified_classes": 38882,
+    "overall_minified_pct": 60.92,
+    "total_inner_classes": 7856,
+    "inner_class_pct": 12.31,
+    "mean_method_64k_utilization_pct": 28.84,
+    "roles": {
+      "interface": 11251,
+      "concrete_class": 44943,
+      "abstract_class": 6075,
+      "synthetic": 4029,
+      "enum": 1558
+    },
+    "domains": {
+      "Minified / Obfuscated (R8/ProGuard)": 26955,
+      "Other Third-Party / Utility Libraries": 10153,
+      "Fintech, Biometrics/ML, Crypto & Compliance SDKs": 7503,
+      "Google Play Services & Firebase": 6498,
+      "AndroidX / Jetpack & Material": 4543,
+      "Analytics, Attribution, Push & OEM SDKs": 3946,
+      "First-Party: ZaloPay Core": 1233,
+      "Google Core Libraries (Protobuf/Gson/Guava/ZXing)": 960,
+      "Networking, HTTP/2, gRPC & Serialization": 616,
+      "Media, Imaging, Lottie & WebRTC": 603,
+      "Kotlin Stdlib & Coroutines": 364,
+      "Reactive, DI & Concurrency": 301,
+      "Hybrid / Cross-Platform & UI Runtimes": 78,
+      "Android / JVM Platform Shims": 25,
+      "Local Storage & High-Speed KV Engines": 22,
+      "VNG / Zalo Ecosystem SDKs": 15,
+      "Minified / Root Package (R8)": 12
+    },
+    "top_prefix2": {
+      "com.google": 7761,
+      "org.bouncycastle": 6112,
+      "com.alibaba": 4821,
+      "com.facebook": 3622,
+      "com.iap": 1599,
+      "com.visa": 1370,
+      "androidx.media3": 1198,
+      "vn.com": 1046,
+      "androidx.camera": 813,
+      "vn.ai": 689,
+      "androidx.compose": 504,
+      "com.alipay": 493,
+      "q9": 472,
+      "p9": 454,
+      "com.appsflyer": 407,
+      "com.vnpay": 388,
+      "com.nimbusds": 361,
+      "n9": 315,
+      "m9": 314,
+      "com.xq": 299,
+      "androidx.appcompat": 273,
+      "io.reactivex": 266,
+      "androidx.core": 258,
+      "Va": 253,
+      "org.jmrtd": 237,
+      "n0": 212,
+      "com.bumptech": 197,
+      "okhttp3.internal": 196,
+      "vn.zalopay": 186,
+      "com.airbnb": 173,
+      "androidx.glance": 170,
+      "org.jsoup": 155,
+      "androidx.work": 141,
+      "androidx.datastore": 141,
+      "q0": 137
+    },
+    "top_prefix3": {
+      "com.google.android": 6507,
+      "com.facebook.ads": 3250,
+      "com.alibaba.ariver": 2415,
+      "com.alibaba.griver": 2228,
+      "org.bouncycastle.jcajce": 1758,
+      "com.iap.ac": 1330,
+      "org.bouncycastle.pqc": 975,
+      "vn.com.vng": 958,
+      "com.visa.cbp": 900,
+      "org.bouncycastle.crypto": 836,
+      "org.bouncycastle.asn1": 748,
+      "vn.ai.trueid": 622,
+      "androidx.media3.exoplayer": 518,
+      "q9": 472,
+      "p9": 454,
+      "com.vnpay.vntaxi": 377,
+      "com.nimbusds.jose": 360,
+      "com.appsflyer.internal": 347,
+      "com.visa.visapaysdk": 318,
+      "n9": 315,
+      "org.bouncycastle.oer": 315,
+      "m9": 314,
+      "androidx.media3.extractor": 309,
+      "androidx.camera.core": 306,
+      "com.google.common": 303,
+      "com.xq.cxzmoiwuegvp": 299,
+      "com.iap.android": 269,
+      "androidx.compose.ui": 261,
+      "Va": 253,
+      "io.reactivex.internal": 251,
+      "org.bouncycastle.math": 244,
+      "androidx.camera.camera2": 234,
+      "androidx.compose.foundation": 234,
+      "org.bouncycastle.cms": 231,
+      "com.google.crypto": 221,
+      "com.google.firebase": 221,
+      "n0": 212,
+      "com.alipay.plus": 212,
+      "com.google.protobuf": 209,
+      "androidx.media3.common": 202,
+      "com.bumptech.glide": 197,
+      "com.google.gson": 190,
+      "vn.zalopay.ui": 186,
+      "androidx.appcompat.widget": 178,
+      "com.airbnb.lottie": 173
+    },
+    "shards": [
+      {
+        "name": "vn.com.vng.zalopay.apk:classes.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 8831004,
+        "string_ids": 61218,
+        "type_ids": 17196,
+        "proto_ids": 15953,
+        "field_ids": 46956,
+        "method_ids": 59948,
+        "class_defs": 10703,
+        "data_size_bytes": 7128072,
+        "method_64k_utilization_pct": 91.47,
+        "field_64k_utilization_pct": 71.65,
+        "type_64k_utilization_pct": 26.24,
+        "defined_methods_total": 47228,
+        "defined_fields_total": 42944,
+        "minified_classes": 6850,
+        "minified_pct": 64.0,
+        "inner_classes": 1581,
+        "roles": {
+          "interface": 3138,
+          "concrete_class": 6543,
+          "abstract_class": 881,
+          "synthetic": 516,
+          "enum": 141
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 3377,
+          "Media, Imaging, Lottie & WebRTC": 132,
+          "AndroidX / Jetpack & Material": 3752,
+          "Android / JVM Platform Shims": 16,
+          "Other Third-Party / Utility Libraries": 3258,
+          "Minified / Root Package (R8)": 5,
+          "Fintech, Biometrics/ML, Crypto & Compliance SDKs": 163
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 3797844,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes2.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 16516960,
+        "string_ids": 56948,
+        "type_ids": 11243,
+        "proto_ids": 12070,
+        "field_ids": 60000,
+        "method_ids": 45527,
+        "class_defs": 7421,
+        "data_size_bytes": 15017556,
+        "method_64k_utilization_pct": 69.47,
+        "field_64k_utilization_pct": 91.55,
+        "type_64k_utilization_pct": 17.16,
+        "defined_methods_total": 38472,
+        "defined_fields_total": 58267,
+        "minified_classes": 3500,
+        "minified_pct": 47.16,
+        "inner_classes": 1103,
+        "roles": {
+          "abstract_class": 463,
+          "concrete_class": 5377,
+          "interface": 1381,
+          "synthetic": 215,
+          "enum": 200
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 2558,
+          "Other Third-Party / Utility Libraries": 2484,
+          "Networking, HTTP/2, gRPC & Serialization": 413,
+          "Kotlin Stdlib & Coroutines": 320,
+          "Media, Imaging, Lottie & WebRTC": 73,
+          "Fintech, Biometrics/ML, Crypto & Compliance SDKs": 1311,
+          "Reactive, DI & Concurrency": 253,
+          "VNG / Zalo Ecosystem SDKs": 9
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes2.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 8342327,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes3.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 850600,
+        "string_ids": 8010,
+        "type_ids": 3827,
+        "proto_ids": 2361,
+        "field_ids": 3619,
+        "method_ids": 6354,
+        "class_defs": 1081,
+        "data_size_bytes": 660432,
+        "method_64k_utilization_pct": 9.7,
+        "field_64k_utilization_pct": 5.52,
+        "type_64k_utilization_pct": 5.84,
+        "defined_methods_total": 2980,
+        "defined_fields_total": 2400,
+        "minified_classes": 967,
+        "minified_pct": 89.45,
+        "inner_classes": 26,
+        "roles": {
+          "concrete_class": 630,
+          "enum": 25,
+          "interface": 312,
+          "synthetic": 103,
+          "abstract_class": 114
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 728,
+          "First-Party: ZaloPay Core": 226,
+          "Other Third-Party / Utility Libraries": 127
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes3.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 383547,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes4.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 9418124,
+        "string_ids": 52812,
+        "type_ids": 19105,
+        "proto_ids": 15731,
+        "field_ids": 40269,
+        "method_ids": 59997,
+        "class_defs": 11441,
+        "data_size_bytes": 7773332,
+        "method_64k_utilization_pct": 91.55,
+        "field_64k_utilization_pct": 61.45,
+        "type_64k_utilization_pct": 29.15,
+        "defined_methods_total": 47711,
+        "defined_fields_total": 34608,
+        "minified_classes": 6926,
+        "minified_pct": 60.54,
+        "inner_classes": 593,
+        "roles": {
+          "interface": 2079,
+          "concrete_class": 7399,
+          "abstract_class": 1779,
+          "synthetic": 384,
+          "enum": 184
+        },
+        "domains": {
+          "Google Play Services & Firebase": 5817,
+          "Minified / Obfuscated (R8/ProGuard)": 3058,
+          "Google Core Libraries (Protobuf/Gson/Guava/ZXing)": 903,
+          "AndroidX / Jetpack & Material": 218,
+          "Other Third-Party / Utility Libraries": 7,
+          "Fintech, Biometrics/ML, Crypto & Compliance SDKs": 1436,
+          "First-Party: ZaloPay Core": 2
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes4.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 4132672,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes5.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 7357484,
+        "string_ids": 56424,
+        "type_ids": 14079,
+        "proto_ids": 13049,
+        "field_ids": 60002,
+        "method_ids": 49055,
+        "class_defs": 7983,
+        "data_size_bytes": 5790860,
+        "method_64k_utilization_pct": 74.85,
+        "field_64k_utilization_pct": 91.56,
+        "type_64k_utilization_pct": 21.48,
+        "defined_methods_total": 37294,
+        "defined_fields_total": 56147,
+        "minified_classes": 2566,
+        "minified_pct": 32.14,
+        "inner_classes": 2760,
+        "roles": {
+          "interface": 1321,
+          "concrete_class": 6093,
+          "abstract_class": 426,
+          "synthetic": 169,
+          "enum": 143
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 1628,
+          "Google Play Services & Firebase": 200,
+          "Analytics, Attribution, Push & OEM SDKs": 792,
+          "Other Third-Party / Utility Libraries": 2037,
+          "Networking, HTTP/2, gRPC & Serialization": 37,
+          "Media, Imaging, Lottie & WebRTC": 284,
+          "Hybrid / Cross-Platform & UI Runtimes": 40,
+          "Fintech, Biometrics/ML, Crypto & Compliance SDKs": 2957,
+          "Minified / Root Package (R8)": 7,
+          "First-Party: ZaloPay Core": 1
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes5.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 2816380,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes6.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 7612432,
+        "string_ids": 55274,
+        "type_ids": 18399,
+        "proto_ids": 15543,
+        "field_ids": 36617,
+        "method_ids": 49201,
+        "class_defs": 5475,
+        "data_size_bytes": 6269368,
+        "method_64k_utilization_pct": 75.07,
+        "field_64k_utilization_pct": 55.87,
+        "type_64k_utilization_pct": 28.07,
+        "defined_methods_total": 29029,
+        "defined_fields_total": 28379,
+        "minified_classes": 3268,
+        "minified_pct": 59.69,
+        "inner_classes": 669,
+        "roles": {
+          "abstract_class": 560,
+          "synthetic": 286,
+          "concrete_class": 4449,
+          "interface": 285,
+          "enum": 181
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 2222,
+          "Kotlin Stdlib & Coroutines": 39,
+          "Google Play Services & Firebase": 481,
+          "AndroidX / Jetpack & Material": 573,
+          "Android / JVM Platform Shims": 4,
+          "Other Third-Party / Utility Libraries": 1154,
+          "Media, Imaging, Lottie & WebRTC": 72,
+          "Analytics, Attribution, Push & OEM SDKs": 63,
+          "Fintech, Biometrics/ML, Crypto & Compliance SDKs": 624,
+          "Google Core Libraries (Protobuf/Gson/Guava/ZXing)": 48,
+          "Reactive, DI & Concurrency": 48,
+          "Networking, HTTP/2, gRPC & Serialization": 44,
+          "Hybrid / Cross-Platform & UI Runtimes": 7,
+          "Local Storage & High-Speed KV Engines": 2,
+          "First-Party: ZaloPay Core": 94
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes6.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 3412313,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes7.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 10803680,
+        "string_ids": 59110,
+        "type_ids": 20633,
+        "proto_ids": 16081,
+        "field_ids": 43164,
+        "method_ids": 60000,
+        "class_defs": 12953,
+        "data_size_bytes": 9051816,
+        "method_64k_utilization_pct": 91.55,
+        "field_64k_utilization_pct": 65.86,
+        "type_64k_utilization_pct": 31.48,
+        "defined_methods_total": 48030,
+        "defined_fields_total": 38191,
+        "minified_classes": 10671,
+        "minified_pct": 82.38,
+        "inner_classes": 1014,
+        "roles": {
+          "abstract_class": 1083,
+          "concrete_class": 9248,
+          "synthetic": 1345,
+          "interface": 2108,
+          "enum": 514
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 10047,
+          "Other Third-Party / Utility Libraries": 1063,
+          "Networking, HTTP/2, gRPC & Serialization": 122,
+          "First-Party: ZaloPay Core": 657,
+          "Local Storage & High-Speed KV Engines": 20,
+          "Fintech, Biometrics/ML, Crypto & Compliance SDKs": 1012,
+          "Hybrid / Cross-Platform & UI Runtimes": 31,
+          "VNG / Zalo Ecosystem SDKs": 1
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes7.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 4622753,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes8.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 239036,
+        "string_ids": 1906,
+        "type_ids": 915,
+        "proto_ids": 697,
+        "field_ids": 1056,
+        "method_ids": 1552,
+        "class_defs": 295,
+        "data_size_bytes": 188972,
+        "method_64k_utilization_pct": 2.37,
+        "field_64k_utilization_pct": 1.61,
+        "type_64k_utilization_pct": 1.4,
+        "defined_methods_total": 912,
+        "defined_fields_total": 907,
+        "minified_classes": 294,
+        "minified_pct": 99.66,
+        "inner_classes": 1,
+        "roles": {
+          "concrete_class": 242,
+          "enum": 15,
+          "abstract_class": 19,
+          "interface": 19,
+          "synthetic": 55
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 294,
+          "First-Party: ZaloPay Core": 1
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes8.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 105710,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes9.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 1218908,
+        "string_ids": 6155,
+        "type_ids": 2175,
+        "proto_ids": 1827,
+        "field_ids": 4520,
+        "method_ids": 7170,
+        "class_defs": 1128,
+        "data_size_bytes": 1033936,
+        "method_64k_utilization_pct": 10.94,
+        "field_64k_utilization_pct": 6.9,
+        "type_64k_utilization_pct": 3.32,
+        "defined_methods_total": 5872,
+        "defined_fields_total": 4230,
+        "minified_classes": 932,
+        "minified_pct": 82.62,
+        "inner_classes": 77,
+        "roles": {
+          "abstract_class": 63,
+          "concrete_class": 988,
+          "synthetic": 142,
+          "interface": 76,
+          "enum": 1
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 909,
+          "Other Third-Party / Utility Libraries": 19,
+          "First-Party: ZaloPay Core": 200
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes9.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 434564,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes10.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 78204,
+        "string_ids": 920,
+        "type_ids": 461,
+        "proto_ids": 300,
+        "field_ids": 314,
+        "method_ids": 578,
+        "class_defs": 92,
+        "data_size_bytes": 58888,
+        "method_64k_utilization_pct": 0.88,
+        "field_64k_utilization_pct": 0.48,
+        "type_64k_utilization_pct": 0.7,
+        "defined_methods_total": 253,
+        "defined_fields_total": 222,
+        "minified_classes": 91,
+        "minified_pct": 98.91,
+        "inner_classes": 1,
+        "roles": {
+          "concrete_class": 71,
+          "interface": 10,
+          "synthetic": 23,
+          "abstract_class": 8,
+          "enum": 3
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 91,
+          "First-Party: ZaloPay Core": 1
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes10.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 35522,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes11.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 163420,
+        "string_ids": 1584,
+        "type_ids": 740,
+        "proto_ids": 523,
+        "field_ids": 694,
+        "method_ids": 1171,
+        "class_defs": 177,
+        "data_size_bytes": 127152,
+        "method_64k_utilization_pct": 1.79,
+        "field_64k_utilization_pct": 1.06,
+        "type_64k_utilization_pct": 1.13,
+        "defined_methods_total": 592,
+        "defined_fields_total": 521,
+        "minified_classes": 163,
+        "minified_pct": 92.09,
+        "inner_classes": 1,
+        "roles": {
+          "concrete_class": 159,
+          "synthetic": 50,
+          "interface": 6,
+          "abstract_class": 12
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 163,
+          "First-Party: ZaloPay Core": 14
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes11.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 71734,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes12.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 398276,
+        "string_ids": 3207,
+        "type_ids": 1191,
+        "proto_ids": 916,
+        "field_ids": 1723,
+        "method_ids": 2604,
+        "class_defs": 425,
+        "data_size_bytes": 321364,
+        "method_64k_utilization_pct": 3.97,
+        "field_64k_utilization_pct": 2.63,
+        "type_64k_utilization_pct": 1.82,
+        "defined_methods_total": 1560,
+        "defined_fields_total": 1497,
+        "minified_classes": 413,
+        "minified_pct": 97.18,
+        "inner_classes": 8,
+        "roles": {
+          "abstract_class": 19,
+          "concrete_class": 362,
+          "synthetic": 97,
+          "interface": 37,
+          "enum": 7
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 413,
+          "First-Party: ZaloPay Core": 12
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes12.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 171767,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes13.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 145824,
+        "string_ids": 1381,
+        "type_ids": 590,
+        "proto_ids": 420,
+        "field_ids": 561,
+        "method_ids": 997,
+        "class_defs": 139,
+        "data_size_bytes": 115876,
+        "method_64k_utilization_pct": 1.52,
+        "field_64k_utilization_pct": 0.86,
+        "type_64k_utilization_pct": 0.9,
+        "defined_methods_total": 532,
+        "defined_fields_total": 445,
+        "minified_classes": 125,
+        "minified_pct": 89.93,
+        "inner_classes": 2,
+        "roles": {
+          "abstract_class": 7,
+          "concrete_class": 124,
+          "synthetic": 39,
+          "interface": 8
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 125,
+          "First-Party: ZaloPay Core": 14
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes13.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 62687,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes14.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 81748,
+        "string_ids": 961,
+        "type_ids": 404,
+        "proto_ids": 249,
+        "field_ids": 371,
+        "method_ids": 575,
+        "class_defs": 90,
+        "data_size_bytes": 62740,
+        "method_64k_utilization_pct": 0.88,
+        "field_64k_utilization_pct": 0.57,
+        "type_64k_utilization_pct": 0.62,
+        "defined_methods_total": 256,
+        "defined_fields_total": 306,
+        "minified_classes": 87,
+        "minified_pct": 96.67,
+        "inner_classes": 1,
+        "roles": {
+          "concrete_class": 72,
+          "interface": 8,
+          "abstract_class": 10,
+          "synthetic": 18
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 87,
+          "First-Party: ZaloPay Core": 3
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes14.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 34209,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes15.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 82152,
+        "string_ids": 1005,
+        "type_ids": 436,
+        "proto_ids": 305,
+        "field_ids": 410,
+        "method_ids": 658,
+        "class_defs": 113,
+        "data_size_bytes": 60456,
+        "method_64k_utilization_pct": 1.0,
+        "field_64k_utilization_pct": 0.63,
+        "type_64k_utilization_pct": 0.67,
+        "defined_methods_total": 290,
+        "defined_fields_total": 369,
+        "minified_classes": 112,
+        "minified_pct": 99.12,
+        "inner_classes": 2,
+        "roles": {
+          "concrete_class": 98,
+          "interface": 14,
+          "synthetic": 22,
+          "abstract_class": 1
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 112,
+          "First-Party: ZaloPay Core": 1
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes15.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 35227,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes16.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 15916,
+        "string_ids": 261,
+        "type_ids": 116,
+        "proto_ids": 69,
+        "field_ids": 38,
+        "method_ids": 101,
+        "class_defs": 20,
+        "data_size_bytes": 11716,
+        "method_64k_utilization_pct": 0.15,
+        "field_64k_utilization_pct": 0.06,
+        "type_64k_utilization_pct": 0.18,
+        "defined_methods_total": 34,
+        "defined_fields_total": 29,
+        "minified_classes": 19,
+        "minified_pct": 95.0,
+        "inner_classes": 1,
+        "roles": {
+          "concrete_class": 15,
+          "interface": 5,
+          "synthetic": 1
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 19,
+          "First-Party: ZaloPay Core": 1
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes16.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 6660,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes17.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 208476,
+        "string_ids": 1847,
+        "type_ids": 848,
+        "proto_ids": 611,
+        "field_ids": 972,
+        "method_ids": 1311,
+        "class_defs": 243,
+        "data_size_bytes": 164212,
+        "method_64k_utilization_pct": 2.0,
+        "field_64k_utilization_pct": 1.48,
+        "type_64k_utilization_pct": 1.29,
+        "defined_methods_total": 629,
+        "defined_fields_total": 821,
+        "minified_classes": 238,
+        "minified_pct": 97.94,
+        "inner_classes": 3,
+        "roles": {
+          "concrete_class": 205,
+          "interface": 16,
+          "abstract_class": 16,
+          "enum": 6,
+          "synthetic": 54
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 238,
+          "VNG / Zalo Ecosystem SDKs": 5
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes17.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 93490,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes18.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 95920,
+        "string_ids": 1094,
+        "type_ids": 553,
+        "proto_ids": 373,
+        "field_ids": 428,
+        "method_ids": 668,
+        "class_defs": 115,
+        "data_size_bytes": 72296,
+        "method_64k_utilization_pct": 1.02,
+        "field_64k_utilization_pct": 0.65,
+        "type_64k_utilization_pct": 0.84,
+        "defined_methods_total": 250,
+        "defined_fields_total": 328,
+        "minified_classes": 114,
+        "minified_pct": 99.13,
+        "inner_classes": 1,
+        "roles": {
+          "concrete_class": 95,
+          "interface": 11,
+          "enum": 2,
+          "synthetic": 31,
+          "abstract_class": 7
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 114,
+          "First-Party: ZaloPay Core": 1
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes18.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 43729,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:classes19.dex",
+        "valid": true,
+        "dex_version": "038",
+        "file_size_bytes": 719548,
+        "string_ids": 4159,
+        "type_ids": 1782,
+        "proto_ids": 1445,
+        "field_ids": 2804,
+        "method_ids": 3781,
+        "class_defs": 777,
+        "data_size_bytes": 600788,
+        "method_64k_utilization_pct": 5.77,
+        "field_64k_utilization_pct": 4.28,
+        "type_64k_utilization_pct": 2.72,
+        "defined_methods_total": 2601,
+        "defined_fields_total": 2508,
+        "minified_classes": 772,
+        "minified_pct": 99.36,
+        "inner_classes": 1,
+        "roles": {
+          "abstract_class": 70,
+          "concrete_class": 607,
+          "synthetic": 194,
+          "interface": 50,
+          "enum": 50
+        },
+        "domains": {
+          "Minified / Obfuscated (R8/ProGuard)": 772,
+          "First-Party: ZaloPay Core": 5
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "classes19.dex",
+        "placement": "root_multidex",
+        "compressed_bytes": 320650,
+        "compression": "DEFLATED"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk:assets/audience_network.dex",
+        "valid": true,
+        "dex_version": "035",
+        "file_size_bytes": 4864036,
+        "string_ids": 30638,
+        "type_ids": 4504,
+        "proto_ids": 6477,
+        "field_ids": 13323,
+        "method_ids": 26792,
+        "class_defs": 3156,
+        "data_size_bytes": 4223720,
+        "method_64k_utilization_pct": 40.88,
+        "field_64k_utilization_pct": 20.33,
+        "type_64k_utilization_pct": 6.87,
+        "defined_methods_total": 22955,
+        "defined_fields_total": 13105,
+        "minified_classes": 774,
+        "minified_pct": 24.52,
+        "inner_classes": 11,
+        "roles": {
+          "abstract_class": 537,
+          "concrete_class": 2166,
+          "interface": 367,
+          "synthetic": 285,
+          "enum": 86
+        },
+        "domains": {
+          "Analytics, Attribution, Push & OEM SDKs": 3091,
+          "Google Core Libraries (Protobuf/Gson/Guava/ZXing)": 9,
+          "Media, Imaging, Lottie & WebRTC": 42,
+          "Kotlin Stdlib & Coroutines": 5,
+          "Other Third-Party / Utility Libraries": 4,
+          "Android / JVM Platform Shims": 5
+        },
+        "apk": "vn.com.vng.zalopay.apk",
+        "filename": "assets/audience_network.dex",
+        "placement": "embedded_asset_dex",
+        "compressed_bytes": 2284095,
+        "compression": "DEFLATED"
+      }
+    ]
+  },
+  "rq4_native_elf": {
+    "total_libraries": 27,
+    "total_uncompressed_bytes": 57452124,
+    "total_compressed_bytes": 24809641,
+    "total_virtual_mem_bytes": 59467311,
+    "by_abi_count": {
+      "armeabi-v7a": 27
+    },
+    "by_abi_bytes": {
+      "armeabi-v7a": 57452124
+    },
+    "by_category_count": {
+      "Domain / Vendor / Application Native Modules": 10,
+      "On-Device AI / ML / Computer Vision": 7,
+      "Media, Graphics & Image Codecs": 4,
+      "Observability & Crash Reporting": 4,
+      "Embedded Storage & KV/SQL Engines": 1,
+      "C++ Standard Runtime & Toolchain": 1
+    },
+    "by_category_bytes": {
+      "On-Device AI / ML / Computer Vision": 27477712,
+      "Domain / Vendor / Application Native Modules": 21328404,
+      "Media, Graphics & Image Codecs": 3592964,
+      "Embedded Storage & KV/SQL Engines": 3555080,
+      "C++ Standard Runtime & Toolchain": 872872,
+      "Observability & Crash Reporting": 625092
+    },
+    "elf_16kb_pt_load_aligned_count": 20,
+    "elf_4kb_only_pt_load_count": 7,
+    "elf_16kb_ready_pct": 74.07,
+    "zip_4kb_aligned_count": 0,
+    "zip_16kb_aligned_count": 0,
+    "stored_uncompressed_count": 0,
+    "stripped_symtab_count": 26,
+    "sections_total_bytes": {
+      "text": 45937960,
+      "rodata": 4657820,
+      "data": 1598656,
+      "bss": 2069362,
+      "eh_frame": 2088308,
+      "dynsym_dynstr": 790235
+    },
+    "top_dt_needed": {
+      "libm.so": 27,
+      "libdl.so": 27,
+      "libc.so": 27,
+      "liblog.so": 25,
+      "libandroid.so": 9,
+      "libjnigraphics.so": 9,
+      "libz.so": 7,
+      "libEGL.so": 3,
+      "libGLESv2.so": 2,
+      "libGLESv3.so": 1,
+      "libc++_shared.so": 1,
+      "libstdc++.so": 1,
+      "librcmefqonnx.so": 1,
+      "liblytcuhe.so": 1
+    },
+    "toolchains": {
+      "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603": 9,
+      "Unknown / Stripped": 5,
+      "Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c60": 3,
+      "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/t": 3,
+      "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/t": 2,
+      "Android (11349228, +pgo, +bolt, +lto, -mlgo, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/t": 1,
+      "Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/t": 1,
+      "Android (12027248, +pgo, -bolt, +lto, -mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/to": 1,
+      "Android (11695104, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/to": 1,
+      "Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242": 1
+    },
+    "libraries": [
+      {
+        "path": "lib/armeabi-v7a/libtaibmcf.so",
+        "filename": "libtaibmcf.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 12617752,
+        "compressed": true,
+        "compressed_size_bytes": 3076892,
+        "virtual_mem_bytes": 12644421,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 198,
+        "soname": "libtaibmcf.so",
+        "dt_needed": [
+          "libz.so",
+          "liblog.so",
+          "libandroid.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (11349228, +pgo, +bolt, +lto, -mlgo, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/t",
+        "sections_summary": {
+          "text": 11900864,
+          "rodata": 211692,
+          "data": 62908,
+          "bss": 28265,
+          "eh_frame": 333508,
+          "dynsym_dynstr": 5295
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 21693252
+      },
+      {
+        "path": "lib/armeabi-v7a/libmlkitcommonpipeline.so",
+        "filename": "libmlkitcommonpipeline.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "On-Device AI / ML / Computer Vision",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 6928228,
+        "compressed": true,
+        "compressed_size_bytes": 3675078,
+        "virtual_mem_bytes": 7679925,
+        "pt_load_alignments": [
+          4096
+        ],
+        "min_pt_load_align": 4096,
+        "max_pt_load_align": 4096,
+        "elf_16kb_aligned": false,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 368,
+        "soname": "libmlkitcommonpipeline.so",
+        "dt_needed": [
+          "liblog.so",
+          "libdl.so",
+          "libjnigraphics.so",
+          "libandroid.so",
+          "libz.so",
+          "libm.so",
+          "libEGL.so",
+          "libGLESv2.so",
+          "libc.so"
+        ],
+        "toolchain": "Unknown / Stripped",
+        "sections_summary": {
+          "text": 5275620,
+          "rodata": 686144,
+          "data": 293336,
+          "bss": 751525,
+          "eh_frame": 321544,
+          "dynsym_dynstr": 13804
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 12926202
+      },
+      {
+        "path": "lib/armeabi-v7a/libmlkit_google_ocr_pipeline.so",
+        "filename": "libmlkit_google_ocr_pipeline.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "On-Device AI / ML / Computer Vision",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 6781940,
+        "compressed": true,
+        "compressed_size_bytes": 3513116,
+        "virtual_mem_bytes": 6949017,
+        "pt_load_alignments": [
+          4096
+        ],
+        "min_pt_load_align": 4096,
+        "max_pt_load_align": 4096,
+        "elf_16kb_aligned": false,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 368,
+        "soname": "libmlkit_google_ocr_pipeline.so",
+        "dt_needed": [
+          "liblog.so",
+          "libdl.so",
+          "libjnigraphics.so",
+          "libandroid.so",
+          "libz.so",
+          "libm.so",
+          "libEGL.so",
+          "libGLESv2.so",
+          "libc.so"
+        ],
+        "toolchain": "Unknown / Stripped",
+        "sections_summary": {
+          "text": 4406008,
+          "rodata": 1205680,
+          "data": 458396,
+          "bss": 168601,
+          "eh_frame": 240780,
+          "dynsym_dynstr": 13713
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 9413015
+      },
+      {
+        "path": "lib/armeabi-v7a/libfgcpkjvqe.so",
+        "filename": "libfgcpkjvqe.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 6524160,
+        "compressed": true,
+        "compressed_size_bytes": 2394866,
+        "virtual_mem_bytes": 6551929,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 194,
+        "soname": "libfgcpkjvqe.so",
+        "dt_needed": [
+          "libz.so",
+          "liblog.so",
+          "libandroid.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/t",
+        "sections_summary": {
+          "text": 5820360,
+          "rodata": 206332,
+          "data": 61904,
+          "bss": 29009,
+          "eh_frame": 336248,
+          "dynsym_dynstr": 5184
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 6736899
+      },
+      {
+        "path": "lib/armeabi-v7a/libface_detector_v2_jni.so",
+        "filename": "libface_detector_v2_jni.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "On-Device AI / ML / Computer Vision",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 5388224,
+        "compressed": true,
+        "compressed_size_bytes": 2821904,
+        "virtual_mem_bytes": 5532333,
+        "pt_load_alignments": [
+          4096
+        ],
+        "min_pt_load_align": 4096,
+        "max_pt_load_align": 4096,
+        "elf_16kb_aligned": false,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 231,
+        "soname": "libface_detector_v2_jni.so",
+        "dt_needed": [
+          "libandroid.so",
+          "liblog.so",
+          "libjnigraphics.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Unknown / Stripped",
+        "sections_summary": {
+          "text": 4108928,
+          "rodata": 471121,
+          "data": 190304,
+          "bss": 142877,
+          "eh_frame": 280476,
+          "dynsym_dynstr": 6684
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 3914934
+      },
+      {
+        "path": "lib/armeabi-v7a/libsqlcipher.so",
+        "filename": "libsqlcipher.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Embedded Storage & KV/SQL Engines",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 3555080,
+        "compressed": true,
+        "compressed_size_bytes": 1875931,
+        "virtual_mem_bytes": 3560384,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 657,
+        "soname": "libsqlcipher.so",
+        "dt_needed": [
+          "libdl.so",
+          "liblog.so",
+          "libc.so",
+          "libm.so"
+        ],
+        "toolchain": "Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c60",
+        "sections_summary": {
+          "text": 2532016,
+          "rodata": 565833,
+          "data": 191852,
+          "bss": 7024,
+          "eh_frame": 57760,
+          "dynsym_dynstr": 24616
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 19817262
+      },
+      {
+        "path": "lib/armeabi-v7a/libbarhopper_v3.so",
+        "filename": "libbarhopper_v3.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "On-Device AI / ML / Computer Vision",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 3244440,
+        "compressed": true,
+        "compressed_size_bytes": 1787700,
+        "virtual_mem_bytes": 3384213,
+        "pt_load_alignments": [
+          4096
+        ],
+        "min_pt_load_align": 4096,
+        "max_pt_load_align": 4096,
+        "elf_16kb_aligned": false,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 212,
+        "soname": "libbarhopper_v3.so",
+        "dt_needed": [
+          "libjnigraphics.so",
+          "liblog.so",
+          "libdl.so",
+          "libm.so",
+          "libc.so"
+        ],
+        "toolchain": "Unknown / Stripped",
+        "sections_summary": {
+          "text": 2836456,
+          "rodata": 192437,
+          "data": 43496,
+          "bss": 140077,
+          "eh_frame": 101452,
+          "dynsym_dynstr": 6313
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 1455022
+      },
+      {
+        "path": "lib/armeabi-v7a/librive-android.so",
+        "filename": "librive-android.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Media, Graphics & Image Codecs",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 3225636,
+        "compressed": true,
+        "compressed_size_bytes": 1320274,
+        "virtual_mem_bytes": 3226248,
+        "pt_load_alignments": [
+          4096
+        ],
+        "min_pt_load_align": 4096,
+        "max_pt_load_align": 4096,
+        "elf_16kb_aligned": false,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 6225,
+        "soname": "librive-android.so",
+        "dt_needed": [
+          "liblog.so",
+          "libandroid.so",
+          "libEGL.so",
+          "libGLESv3.so",
+          "libjnigraphics.so",
+          "libm.so",
+          "libc++_shared.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/t",
+        "sections_summary": {
+          "text": 2209180,
+          "rodata": 230351,
+          "data": 59056,
+          "bss": 1056,
+          "eh_frame": 88864,
+          "dynsym_dynstr": 379661
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 18379265
+      },
+      {
+        "path": "lib/armeabi-v7a/libpicodet_ncnn.so",
+        "filename": "libpicodet_ncnn.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "On-Device AI / ML / Computer Vision",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 2992584,
+        "compressed": true,
+        "compressed_size_bytes": 1482877,
+        "virtual_mem_bytes": 2997949,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 2824,
+        "soname": "libpicodet_ncnn.so",
+        "dt_needed": [
+          "liblog.so",
+          "libandroid.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/t",
+        "sections_summary": {
+          "text": 2634856,
+          "rodata": 46736,
+          "data": 30864,
+          "bss": 6333,
+          "eh_frame": 69756,
+          "dynsym_dynstr": 114323
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 16823980
+      },
+      {
+        "path": "lib/armeabi-v7a/libVFaceLib.so",
+        "filename": "libVFaceLib.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "On-Device AI / ML / Computer Vision",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 1963668,
+        "compressed": true,
+        "compressed_size_bytes": 966152,
+        "virtual_mem_bytes": 2620094,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 176,
+        "soname": "libVFaceLib.so",
+        "dt_needed": [
+          "libandroid.so",
+          "liblog.so",
+          "libjnigraphics.so",
+          "libc.so",
+          "libz.so",
+          "libdl.so",
+          "libm.so"
+        ],
+        "toolchain": "Android (12027248, +pgo, -bolt, +lto, -mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/to",
+        "sections_summary": {
+          "text": 1515836,
+          "rodata": 140777,
+          "data": 87660,
+          "bss": 649798,
+          "eh_frame": 110852,
+          "dynsym_dynstr": 5032
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 569
+      },
+      {
+        "path": "lib/armeabi-v7a/liba97d.so",
+        "filename": "liba97d.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 997572,
+        "compressed": true,
+        "compressed_size_bytes": 484043,
+        "virtual_mem_bytes": 1014532,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 150,
+        "soname": "liba97d.so",
+        "dt_needed": [
+          "libc.so",
+          "libstdc++.so",
+          "libm.so",
+          "libdl.so",
+          "liblog.so"
+        ],
+        "toolchain": "Unknown / Stripped",
+        "sections_summary": {
+          "text": 878552,
+          "rodata": 1516,
+          "data": 29716,
+          "bss": 50204,
+          "eh_frame": 4484,
+          "dynsym_dynstr": 4708
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 966777
+      },
+      {
+        "path": "lib/armeabi-v7a/libc++_shared.so",
+        "filename": "libc++_shared.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "C++ Standard Runtime & Toolchain",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 872872,
+        "compressed": true,
+        "compressed_size_bytes": 349046,
+        "virtual_mem_bytes": 895278,
+        "pt_load_alignments": [
+          4096
+        ],
+        "min_pt_load_align": 4096,
+        "max_pt_load_align": 4096,
+        "elf_16kb_aligned": false,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 2499,
+        "soname": "libc++_shared.so",
+        "dt_needed": [
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "toolchain": "Android (11695104, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/to",
+        "sections_summary": {
+          "text": 411396,
+          "rodata": 145141,
+          "data": 17472,
+          "bss": 22585,
+          "eh_frame": 51940,
+          "dynsym_dynstr": 158885
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 3242784
+      },
+      {
+        "path": "lib/armeabi-v7a/libljsfrcwmw.so",
+        "filename": "libljsfrcwmw.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 600296,
+        "compressed": true,
+        "compressed_size_bytes": 193311,
+        "virtual_mem_bytes": 643720,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 19,
+        "soname": "libljsfrcwmw.so",
+        "dt_needed": [
+          "librcmefqonnx.so",
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603",
+        "sections_summary": {
+          "text": 222180,
+          "rodata": 347304,
+          "data": 15436,
+          "bss": 44900,
+          "eh_frame": 1144,
+          "dynsym_dynstr": 595
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 9147291
+      },
+      {
+        "path": "lib/armeabi-v7a/libcrashlytics-common.so",
+        "filename": "libcrashlytics-common.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Observability & Crash Reporting",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 435732,
+        "compressed": true,
+        "compressed_size_bytes": 229473,
+        "virtual_mem_bytes": 436732,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 181,
+        "soname": "libcrashlytics-common.so",
+        "dt_needed": [
+          "liblog.so",
+          "libz.so",
+          "libdl.so",
+          "libc.so",
+          "libm.so"
+        ],
+        "toolchain": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603",
+        "sections_summary": {
+          "text": 309104,
+          "rodata": 42592,
+          "data": 12732,
+          "bss": 2572,
+          "eh_frame": 35144,
+          "dynsym_dynstr": 4897
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 3591900
+      },
+      {
+        "path": "lib/armeabi-v7a/libnative-imagetranscoder.so",
+        "filename": "libnative-imagetranscoder.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Media, Graphics & Image Codecs",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 341072,
+        "compressed": true,
+        "compressed_size_bytes": 165916,
+        "virtual_mem_bytes": 340629,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 353,
+        "soname": "libnative-imagetranscoder.so",
+        "dt_needed": [
+          "liblog.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "toolchain": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/t",
+        "sections_summary": {
+          "text": 259328,
+          "rodata": 19927,
+          "data": 8000,
+          "bss": 573,
+          "eh_frame": 16788,
+          "dynsym_dynstr": 11323
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 16608442
+      },
+      {
+        "path": "lib/armeabi-v7a/liblytcuhe.so",
+        "filename": "liblytcuhe.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 178628,
+        "compressed": true,
+        "compressed_size_bytes": 72277,
+        "virtual_mem_bytes": 177757,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 339,
+        "soname": "liblytcuhe.so",
+        "dt_needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603",
+        "sections_summary": {
+          "text": 119752,
+          "rodata": 9375,
+          "data": 7072,
+          "bss": 637,
+          "eh_frame": 8532,
+          "dynsym_dynstr": 10874
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 9340661
+      },
+      {
+        "path": "lib/armeabi-v7a/librcmefqonnx.so",
+        "filename": "librcmefqonnx.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "On-Device AI / ML / Computer Vision",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 178628,
+        "compressed": true,
+        "compressed_size_bytes": 72282,
+        "virtual_mem_bytes": 177757,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 339,
+        "soname": "librcmefqonnx.so",
+        "dt_needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603",
+        "sections_summary": {
+          "text": 119752,
+          "rodata": 9375,
+          "data": 7072,
+          "bss": 637,
+          "eh_frame": 8532,
+          "dynsym_dynstr": 10874
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 18306919
+      },
+      {
+        "path": "lib/armeabi-v7a/libohxbee.so",
+        "filename": "libohxbee.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 155412,
+        "compressed": true,
+        "compressed_size_bytes": 49500,
+        "virtual_mem_bytes": 164544,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 19,
+        "soname": "libohxbee.so",
+        "dt_needed": [
+          "liblytcuhe.so",
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603",
+        "sections_summary": {
+          "text": 56960,
+          "rodata": 87804,
+          "data": 4120,
+          "bss": 10608,
+          "eh_frame": 128,
+          "dynsym_dynstr": 592
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 16774416
+      },
+      {
+        "path": "lib/armeabi-v7a/libsecurity_lite.so",
+        "filename": "libsecurity_lite.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 154840,
+        "compressed": true,
+        "compressed_size_bytes": 117597,
+        "virtual_mem_bytes": 163721,
+        "pt_load_alignments": [
+          4096
+        ],
+        "min_pt_load_align": 4096,
+        "max_pt_load_align": 4096,
+        "elf_16kb_aligned": false,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 133,
+        "soname": "libsecurity_lite.so",
+        "dt_needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242",
+        "sections_summary": {
+          "text": 120148,
+          "rodata": 11840,
+          "data": 6936,
+          "bss": 10905,
+          "eh_frame": 2332,
+          "dynsym_dynstr": 4111
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 19699604
+      },
+      {
+        "path": "lib/armeabi-v7a/libcrashlytics.so",
+        "filename": "libcrashlytics.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Observability & Crash Reporting",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 94540,
+        "compressed": true,
+        "compressed_size_bytes": 47002,
+        "virtual_mem_bytes": 93600,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 55,
+        "soname": "libcrashlytics.so",
+        "dt_needed": [
+          "liblog.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "toolchain": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603",
+        "sections_summary": {
+          "text": 58848,
+          "rodata": 9052,
+          "data": 4664,
+          "bss": 576,
+          "eh_frame": 7180,
+          "dynsym_dynstr": 1659
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 3867860
+      },
+      {
+        "path": "lib/armeabi-v7a/libcrashlytics-handler.so",
+        "filename": "libcrashlytics-handler.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Observability & Crash Reporting",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 87908,
+        "compressed": true,
+        "compressed_size_bytes": 43141,
+        "virtual_mem_bytes": 86960,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 42,
+        "soname": "libcrashlytics-handler.so",
+        "dt_needed": [
+          "liblog.so",
+          "libz.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "toolchain": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603",
+        "sections_summary": {
+          "text": 54216,
+          "rodata": 8346,
+          "data": 4632,
+          "bss": 560,
+          "eh_frame": 6792,
+          "dynsym_dynstr": 1253
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 3821444
+      },
+      {
+        "path": "lib/armeabi-v7a/libtrueidlib.so",
+        "filename": "libtrueidlib.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 79904,
+        "compressed": true,
+        "compressed_size_bytes": 41716,
+        "virtual_mem_bytes": 78428,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 81,
+        "soname": "libtrueidlib.so",
+        "dt_needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603",
+        "sections_summary": {
+          "text": 62660,
+          "rodata": 4800,
+          "data": 676,
+          "bss": 0,
+          "eh_frame": 2432,
+          "dynsym_dynstr": 2904
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 24770205
+      },
+      {
+        "path": "lib/armeabi-v7a/libimage_processing_util_jni.so",
+        "filename": "libimage_processing_util_jni.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Media, Graphics & Image Codecs",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 20380,
+        "compressed": true,
+        "compressed_size_bytes": 12586,
+        "virtual_mem_bytes": 18852,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 30,
+        "soname": "libimage_processing_util_jni.so",
+        "dt_needed": [
+          "liblog.so",
+          "libandroid.so",
+          "libjnigraphics.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c60",
+        "sections_summary": {
+          "text": 14036,
+          "rodata": 208,
+          "data": 4,
+          "bss": 4,
+          "eh_frame": 876,
+          "dynsym_dynstr": 1378
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 9131842
+      },
+      {
+        "path": "lib/armeabi-v7a/libnative-filters.so",
+        "filename": "libnative-filters.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 12588,
+        "compressed": true,
+        "compressed_size_bytes": 7022,
+        "virtual_mem_bytes": 12360,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 15,
+        "soname": "libnative-filters.so",
+        "dt_needed": [
+          "liblog.so",
+          "libjnigraphics.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "toolchain": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/t",
+        "sections_summary": {
+          "text": 6288,
+          "rodata": 2175,
+          "data": 64,
+          "bss": 12,
+          "eh_frame": 380,
+          "dynsym_dynstr": 535
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 16601346
+      },
+      {
+        "path": "lib/armeabi-v7a/libandroidx.graphics.path.so",
+        "filename": "libandroidx.graphics.path.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Domain / Vendor / Application Native Modules",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 7252,
+        "compressed": true,
+        "compressed_size_bytes": 4064,
+        "virtual_mem_bytes": 5780,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 10,
+        "soname": "libandroidx.graphics.path.so",
+        "dt_needed": [
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "toolchain": "Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c60",
+        "sections_summary": {
+          "text": 3116,
+          "rodata": 439,
+          "data": 184,
+          "bss": 8,
+          "eh_frame": 48,
+          "dynsym_dynstr": 359
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 1450894
+      },
+      {
+        "path": "lib/armeabi-v7a/libcrashlytics-trampoline.so",
+        "filename": "libcrashlytics-trampoline.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Observability & Crash Reporting",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 6912,
+        "compressed": true,
+        "compressed_size_bytes": 3138,
+        "virtual_mem_bytes": 1848,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": false,
+        "dynsym_entries": 7,
+        "soname": "",
+        "dt_needed": [
+          "liblog.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "toolchain": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603",
+        "sections_summary": {
+          "text": 280,
+          "rodata": 89,
+          "data": 0,
+          "bss": 4,
+          "eh_frame": 32,
+          "dynsym_dynstr": 219
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 3864659
+      },
+      {
+        "path": "lib/armeabi-v7a/libimagepipeline.so",
+        "filename": "libimagepipeline.so",
+        "abi": "armeabi-v7a",
+        "valid": true,
+        "category": "Media, Graphics & Image Codecs",
+        "bits": 32,
+        "machine": "ARM (32-bit)",
+        "file_size_bytes": 5876,
+        "compressed": true,
+        "compressed_size_bytes": 2737,
+        "virtual_mem_bytes": 8300,
+        "pt_load_alignments": [
+          16384
+        ],
+        "min_pt_load_align": 16384,
+        "max_pt_load_align": 16384,
+        "elf_16kb_aligned": true,
+        "zip_4kb_aligned": false,
+        "zip_16kb_aligned": false,
+        "stripped_symtab": true,
+        "dynsym_entries": 12,
+        "soname": "libimagepipeline.so",
+        "dt_needed": [
+          "liblog.so",
+          "libjnigraphics.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "toolchain": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/t",
+        "sections_summary": {
+          "text": 1220,
+          "rodata": 734,
+          "data": 100,
+          "bss": 12,
+          "eh_frame": 304,
+          "dynsym_dynstr": 444
+        },
+        "apk": "config.armeabi_v7a.apk",
+        "zip_data_offset": 9144493
+      }
+    ]
+  },
+  "rq5_resources_assets": {
+    "arsc_tables": [
+      {
+        "apk": "vn.com.vng.zalopay.apk",
+        "valid": true,
+        "file_size_bytes": 1802300,
+        "package_count": 13,
+        "global_string_count": 7763,
+        "global_string_pool_bytes": 366632,
+        "packages": [
+          {
+            "id": "0x7f",
+            "name": "vn.com.vng.zalopay",
+            "key_string_count": 14570,
+            "total_resource_ids": 21020,
+            "total_config_variants": 78,
+            "type_entry_counts": {
+              "drawable": 4434,
+              "string": 4324,
+              "id": 3460,
+              "layout": 2017,
+              "dimen": 1912,
+              "attr": 1826,
+              "color": 1411,
+              "style": 1186,
+              "anim": 126,
+              "raw": 85,
+              "integer": 69,
+              "animator": 28,
+              "bool": 28,
+              "array": 27,
+              "xml": 24,
+              "font": 17,
+              "interpolator": 17,
+              "navigation": 14,
+              "menu": 10,
+              "plurals": 3,
+              "mipmap": 2
+            },
+            "type_variant_counts": {
+              "dimen": 16,
+              "drawable": 11,
+              "style": 9,
+              "mipmap": 7,
+              "bool": 6,
+              "layout": 6,
+              "color": 4,
+              "integer": 3,
+              "anim": 2,
+              "string": 2,
+              "xml": 2,
+              "animator": 1,
+              "array": 1,
+              "attr": 1,
+              "font": 1,
+              "id": 1,
+              "interpolator": 1,
+              "menu": 1,
+              "navigation": 1,
+              "plurals": 1,
+              "raw": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [
+              "anydpi",
+              "hdpi",
+              "mdpi",
+              "xhdpi",
+              "xxhdpi",
+              "xxxhdpi"
+            ],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x80",
+            "name": "vn.com.vng.zalopay.changepin",
+            "key_string_count": 47,
+            "total_resource_ids": 47,
+            "total_config_variants": 4,
+            "type_entry_counts": {
+              "id": 19,
+              "string": 19,
+              "layout": 8,
+              "style": 1
+            },
+            "type_variant_counts": {
+              "id": 1,
+              "layout": 1,
+              "string": 1,
+              "style": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x81",
+            "name": "vn.com.vng.zalopay.resetpin",
+            "key_string_count": 103,
+            "total_resource_ids": 103,
+            "total_config_variants": 5,
+            "type_entry_counts": {
+              "id": 32,
+              "drawable": 31,
+              "string": 29,
+              "layout": 10,
+              "style": 1
+            },
+            "type_variant_counts": {
+              "drawable": 1,
+              "id": 1,
+              "layout": 1,
+              "string": 1,
+              "style": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x82",
+            "name": "vn.com.vng.zalopay.login_v2",
+            "key_string_count": 368,
+            "total_resource_ids": 486,
+            "total_config_variants": 10,
+            "type_entry_counts": {
+              "id": 173,
+              "string": 154,
+              "drawable": 84,
+              "layout": 46,
+              "style": 14,
+              "color": 7,
+              "attr": 4,
+              "anim": 2,
+              "dimen": 2
+            },
+            "type_variant_counts": {
+              "drawable": 2,
+              "anim": 1,
+              "attr": 1,
+              "color": 1,
+              "dimen": 1,
+              "id": 1,
+              "layout": 1,
+              "string": 1,
+              "style": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [
+              "xxhdpi"
+            ],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x83",
+            "name": "vn.com.vng.zalopay.cashier",
+            "key_string_count": 323,
+            "total_resource_ids": 387,
+            "total_config_variants": 7,
+            "type_entry_counts": {
+              "drawable": 240,
+              "string": 69,
+              "id": 40,
+              "color": 21,
+              "layout": 13,
+              "raw": 2,
+              "style": 2
+            },
+            "type_variant_counts": {
+              "color": 1,
+              "drawable": 1,
+              "id": 1,
+              "layout": 1,
+              "raw": 1,
+              "string": 1,
+              "style": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x84",
+            "name": "vn.com.vng.zalopay.bank_binding",
+            "key_string_count": 631,
+            "total_resource_ids": 659,
+            "total_config_variants": 11,
+            "type_entry_counts": {
+              "id": 261,
+              "string": 175,
+              "drawable": 117,
+              "layout": 59,
+              "dimen": 21,
+              "color": 11,
+              "style": 6,
+              "attr": 4,
+              "anim": 2,
+              "navigation": 2,
+              "array": 1
+            },
+            "type_variant_counts": {
+              "anim": 1,
+              "array": 1,
+              "attr": 1,
+              "color": 1,
+              "dimen": 1,
+              "drawable": 1,
+              "id": 1,
+              "layout": 1,
+              "navigation": 1,
+              "string": 1,
+              "style": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x85",
+            "name": "vn.com.vng.zalopay.updatephone",
+            "key_string_count": 24,
+            "total_resource_ids": 37,
+            "total_config_variants": 4,
+            "type_entry_counts": {
+              "id": 19,
+              "string": 12,
+              "dimen": 5,
+              "layout": 1
+            },
+            "type_variant_counts": {
+              "dimen": 1,
+              "id": 1,
+              "layout": 1,
+              "string": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x86",
+            "name": "vn.com.vng.zalopay.cash_in",
+            "key_string_count": 45,
+            "total_resource_ids": 72,
+            "total_config_variants": 5,
+            "type_entry_counts": {
+              "id": 27,
+              "drawable": 24,
+              "string": 17,
+              "layout": 3,
+              "navigation": 1
+            },
+            "type_variant_counts": {
+              "drawable": 1,
+              "id": 1,
+              "layout": 1,
+              "navigation": 1,
+              "string": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x87",
+            "name": "vn.com.vng.zalopay.resultpage",
+            "key_string_count": 40,
+            "total_resource_ids": 47,
+            "total_config_variants": 6,
+            "type_entry_counts": {
+              "drawable": 24,
+              "color": 8,
+              "id": 5,
+              "layout": 4,
+              "raw": 4,
+              "style": 2
+            },
+            "type_variant_counts": {
+              "color": 1,
+              "drawable": 1,
+              "id": 1,
+              "layout": 1,
+              "raw": 1,
+              "style": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x88",
+            "name": "vn.com.vng.zalopay.withdraw",
+            "key_string_count": 57,
+            "total_resource_ids": 61,
+            "total_config_variants": 5,
+            "type_entry_counts": {
+              "string": 23,
+              "drawable": 20,
+              "id": 16,
+              "layout": 1,
+              "navigation": 1
+            },
+            "type_variant_counts": {
+              "drawable": 1,
+              "id": 1,
+              "layout": 1,
+              "navigation": 1,
+              "string": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x89",
+            "name": "vn.com.vng.zalopay.cashier_v3",
+            "key_string_count": 70,
+            "total_resource_ids": 70,
+            "total_config_variants": 6,
+            "type_entry_counts": {
+              "drawable": 58,
+              "id": 5,
+              "layout": 2,
+              "string": 2,
+              "style": 2,
+              "raw": 1
+            },
+            "type_variant_counts": {
+              "drawable": 1,
+              "id": 1,
+              "layout": 1,
+              "raw": 1,
+              "string": 1,
+              "style": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x8a",
+            "name": "vn.com.vng.zalopay.result_page_v3",
+            "key_string_count": 31,
+            "total_resource_ids": 36,
+            "total_config_variants": 7,
+            "type_entry_counts": {
+              "id": 12,
+              "drawable": 11,
+              "color": 3,
+              "layout": 3,
+              "raw": 3,
+              "string": 2,
+              "style": 2
+            },
+            "type_variant_counts": {
+              "color": 1,
+              "drawable": 1,
+              "id": 1,
+              "layout": 1,
+              "raw": 1,
+              "string": 1,
+              "style": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x8b",
+            "name": "vn.com.vng.zalopay.liveness",
+            "key_string_count": 49,
+            "total_resource_ids": 51,
+            "total_config_variants": 3,
+            "type_entry_counts": {
+              "drawable": 33,
+              "string": 17,
+              "style": 1
+            },
+            "type_variant_counts": {
+              "drawable": 1,
+              "string": 1,
+              "style": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          }
+        ],
+        "compressed_bytes": 1802300,
+        "compression": "STORED"
+      },
+      {
+        "apk": "config.xhdpi.apk",
+        "valid": true,
+        "file_size_bytes": 141056,
+        "package_count": 2,
+        "global_string_count": 252,
+        "global_string_pool_bytes": 14036,
+        "packages": [
+          {
+            "id": "0x7f",
+            "name": "vn.com.vng.zalopay",
+            "key_string_count": 251,
+            "total_resource_ids": 5275,
+            "total_config_variants": 7,
+            "type_entry_counts": {
+              "drawable": 4438,
+              "dimen": 619,
+              "style": 218
+            },
+            "type_variant_counts": {
+              "drawable": 5,
+              "dimen": 1,
+              "style": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [
+              "anydpi",
+              "hdpi",
+              "xhdpi",
+              "xxxhdpi"
+            ],
+            "night_mode_type_chunks": 0
+          },
+          {
+            "id": "0x82",
+            "name": "vn.com.vng.zalopay.login_v2",
+            "key_string_count": 1,
+            "total_resource_ids": 57,
+            "total_config_variants": 1,
+            "type_entry_counts": {
+              "drawable": 57
+            },
+            "type_variant_counts": {
+              "drawable": 1
+            },
+            "locales_detected": [],
+            "densities_detected": [
+              "xhdpi"
+            ],
+            "night_mode_type_chunks": 0
+          }
+        ],
+        "compressed_bytes": 141056,
+        "compression": "STORED"
+      },
+      {
+        "apk": "config.vi.apk",
+        "valid": true,
+        "file_size_bytes": 75460,
+        "package_count": 1,
+        "global_string_count": 449,
+        "global_string_pool_bytes": 17260,
+        "packages": [
+          {
+            "id": "0x7f",
+            "name": "vn.com.vng.zalopay",
+            "key_string_count": 496,
+            "total_resource_ids": 4260,
+            "total_config_variants": 3,
+            "type_entry_counts": {
+              "string": 4245,
+              "array": 12,
+              "plurals": 3
+            },
+            "type_variant_counts": {
+              "array": 1,
+              "plurals": 1,
+              "string": 1
+            },
+            "locales_detected": [
+              "vi"
+            ],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          }
+        ],
+        "compressed_bytes": 75460,
+        "compression": "STORED"
+      },
+      {
+        "apk": "config.en.apk",
+        "valid": true,
+        "file_size_bytes": 61984,
+        "package_count": 1,
+        "global_string_count": 335,
+        "global_string_pool_bytes": 10968,
+        "packages": [
+          {
+            "id": "0x7f",
+            "name": "vn.com.vng.zalopay",
+            "key_string_count": 370,
+            "total_resource_ids": 4327,
+            "total_config_variants": 2,
+            "type_entry_counts": {
+              "string": 4323,
+              "array": 4
+            },
+            "type_variant_counts": {
+              "array": 1,
+              "string": 1
+            },
+            "locales_detected": [
+              "en"
+            ],
+            "densities_detected": [],
+            "night_mode_type_chunks": 0
+          }
+        ],
+        "compressed_bytes": 61984,
+        "compression": "STORED"
+      }
+    ],
+    "image_formats": {
+      "PNG Raster Image": {
+        "count": 269,
+        "uncompressed_bytes": 7586062,
+        "compressed_bytes": 7586062
+      },
+      "GIF Animation": {
+        "count": 5,
+        "uncompressed_bytes": 222888,
+        "compressed_bytes": 222888
+      },
+      "Android VectorDrawable (Binary XML)": {
+        "count": 316,
+        "uncompressed_bytes": 262764,
+        "compressed_bytes": 127304
+      },
+      "WebP Image": {
+        "count": 159,
+        "uncompressed_bytes": 1924364,
+        "compressed_bytes": 1924364
+      },
+      "JPEG Image": {
+        "count": 2,
+        "uncompressed_bytes": 52579,
+        "compressed_bytes": 52579
+      },
+      "Nine-Patch PNG (.9.png)": {
+        "count": 49,
+        "uncompressed_bytes": 23492,
+        "compressed_bytes": 23492
+      },
+      "SVG Vector Graphic": {
+        "count": 2,
+        "uncompressed_bytes": 2551186,
+        "compressed_bytes": 1903400
+      }
+    },
+    "fonts": {
+      "count": 25,
+      "total_bytes": 7412552,
+      "catalog": [
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/sf_compact_rounded_medium.ttf",
+          "size_bytes": 1785056,
+          "family": "SF Compact Rounded",
+          "subfamily": "Medium",
+          "full_name": "SF Compact Rounded Medium"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/sf_compact_rounded_bold.ttf",
+          "size_bytes": 1782560,
+          "family": "SF Compact Rounded",
+          "subfamily": "Bold",
+          "full_name": "SF Compact Rounded Bold"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/notosans_regular.ttf",
+          "size_bytes": 629024,
+          "family": "Noto Sans",
+          "subfamily": "Regular",
+          "full_name": "Noto Sans Regular"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/sf_pro_text_regular.ttf",
+          "size_bytes": 434088,
+          "family": "SF Pro Text",
+          "subfamily": "Regular",
+          "full_name": "SF Pro Text Regular"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/sf_pro_display_regular.ttf",
+          "size_bytes": 413924,
+          "family": "SF Pro Display",
+          "subfamily": "Regular",
+          "full_name": "SF Pro Display Regular"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/sf_pro_display_bold.otf",
+          "size_bytes": 334728,
+          "family": "SF Pro Display",
+          "subfamily": "Bold",
+          "full_name": "SF Pro Display Bold"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/inter_medium.otf",
+          "size_bytes": 254040,
+          "family": "Inter Medium",
+          "subfamily": "Regular",
+          "full_name": "Inter Medium"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/sf_ui_text_medium.ttf",
+          "size_bytes": 196832,
+          "family": "SF UI  Text Med",
+          "subfamily": "Regular",
+          "full_name": "SFUIText-Medium"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/sf_ui_text_regular.ttf",
+          "size_bytes": 189872,
+          "family": "SF UI Text",
+          "subfamily": "Regular",
+          "full_name": "SF UI Text Regular"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/roboto_bold.ttf",
+          "size_bytes": 170760,
+          "family": "Roboto",
+          "subfamily": "Bold",
+          "full_name": "Roboto Bold"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/fonts/Roboto-Bold.ttf",
+          "size_bytes": 170064,
+          "family": "Roboto",
+          "subfamily": "Bold",
+          "full_name": "Roboto Bold"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/fonts/true_font.ttf",
+          "size_bytes": 168644,
+          "family": "Roboto Medium",
+          "subfamily": "Regular",
+          "full_name": "Roboto Medium"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/ds_roboto_regular.ttf",
+          "size_bytes": 168260,
+          "family": "Roboto",
+          "subfamily": "Regular",
+          "full_name": "Roboto"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/ds_roboto_bold.ttf",
+          "size_bytes": 167336,
+          "family": "Roboto",
+          "subfamily": "Bold",
+          "full_name": "Roboto Bold"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/fonts/zalopay.ttf",
+          "size_bytes": 143944,
+          "family": "zalopay",
+          "subfamily": "Regular",
+          "full_name": "zalopay"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/fonts/Roboto-Medium.ttf",
+          "size_bytes": 127488,
+          "family": "Roboto",
+          "subfamily": "Medium",
+          "full_name": "Roboto Medium"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/fonts/Roboto-Regular.ttf",
+          "size_bytes": 126072,
+          "family": "Roboto",
+          "subfamily": "Regular",
+          "full_name": "Roboto Regular"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/fonts/UnisectVnu.ttf",
+          "size_bytes": 48216,
+          "family": "OCRATributeW01-RegularMono",
+          "subfamily": "Regular",
+          "full_name": "OCR A Tribute W01 Regular Mono"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/fonts/ocr-a-tribute.ttf",
+          "size_bytes": 48216,
+          "family": "OCRATributeW01-RegularMono",
+          "subfamily": "Regular",
+          "full_name": "OCR A Tribute W01 Regular Mono"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/griverIconDefault/default.ttf",
+          "size_bytes": 28000,
+          "family": "auiconfont",
+          "subfamily": "Regular",
+          "full_name": "auiconfont"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/tinyfont/iconfont.ttf",
+          "size_bytes": 9780,
+          "family": "tinyiconfont",
+          "subfamily": "Regular",
+          "full_name": "tinyiconfont"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/h5iconfont/titlebar.ttf",
+          "size_bytes": 5016,
+          "family": "_griver_icons",
+          "subfamily": "Regular",
+          "full_name": "_griver_icons"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/tinyfont/titlebar.ttf",
+          "size_bytes": 5016,
+          "family": "_griver_icons",
+          "subfamily": "Regular",
+          "full_name": "_griver_icons"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/font/roboto_medium_numbers.ttf",
+          "size_bytes": 3316,
+          "family": "Roboto Medium",
+          "subfamily": "Regular",
+          "full_name": "Roboto Medium"
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/h5iconfont/h5titlebar.ttf",
+          "size_bytes": 2300,
+          "family": "iconfont",
+          "subfamily": "Regular",
+          "full_name": "iconfont"
+        }
+      ]
+    },
+    "lottie_animations": {
+      "count": 44,
+      "total_bytes": 5389845,
+      "avg_layers": 6.34,
+      "avg_duration_sec": 3.1,
+      "top_by_size": [
+        {
+          "version": "5.12.1",
+          "fps": 24.0,
+          "width": 744,
+          "height": 676,
+          "layers": 2,
+          "assets": 2,
+          "duration_sec": 2.75,
+          "size_bytes": 1449629,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_guide_back_id_card.json"
+        },
+        {
+          "version": "5.9.6",
+          "fps": 30.0,
+          "width": 600,
+          "height": 600,
+          "layers": 68,
+          "assets": 60,
+          "duration_sec": 5.0,
+          "size_bytes": 747900,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/anim_location_profile_tab.json"
+        },
+        {
+          "version": "5.12.1",
+          "fps": 24.0,
+          "width": 750,
+          "height": 470,
+          "layers": 1,
+          "assets": 1,
+          "duration_sec": 2.0,
+          "size_bytes": 555219,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_guide_front_id_card.json"
+        },
+        {
+          "version": "5.7.12",
+          "fps": 60.0,
+          "width": 162,
+          "height": 99,
+          "layers": 8,
+          "assets": 9,
+          "duration_sec": 5.0,
+          "size_bytes": 536057,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/taxi_splash_loading.json"
+        },
+        {
+          "version": "4.8.0",
+          "fps": 24.0,
+          "width": 343,
+          "height": 220,
+          "layers": 5,
+          "assets": 16,
+          "duration_sec": 8.62,
+          "size_bytes": 452303,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_anim_fds_nfc_guidance_step1.json"
+        },
+        {
+          "version": "4.8.0",
+          "fps": 24.0,
+          "width": 343,
+          "height": 220,
+          "layers": 10,
+          "assets": 16,
+          "duration_sec": 8.5,
+          "size_bytes": 323238,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_anim_fds_nfc_guidance_step2.json"
+        },
+        {
+          "version": "4.8.0",
+          "fps": 24.0,
+          "width": 343,
+          "height": 220,
+          "layers": 5,
+          "assets": 16,
+          "duration_sec": 8.62,
+          "size_bytes": 284974,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_anim_nfc_guidance_step1.json"
+        },
+        {
+          "version": "4.8.0",
+          "fps": 24.0,
+          "width": 343,
+          "height": 220,
+          "layers": 9,
+          "assets": 15,
+          "duration_sec": 9.0,
+          "size_bytes": 237853,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_anim_fds_nfc_guidance_step3.json"
+        },
+        {
+          "version": "4.8.0",
+          "fps": 24.0,
+          "width": 343,
+          "height": 220,
+          "layers": 10,
+          "assets": 16,
+          "duration_sec": 8.5,
+          "size_bytes": 138698,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_anim_nfc_guidance_step2.json"
+        },
+        {
+          "version": "5.12.1",
+          "fps": 60.0,
+          "width": 231,
+          "height": 48,
+          "layers": 5,
+          "assets": 1,
+          "duration_sec": 6.5,
+          "size_bytes": 62928,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_anim_dynamic_text.json"
+        },
+        {
+          "version": "4.8.0",
+          "fps": 24.0,
+          "width": 343,
+          "height": 220,
+          "layers": 9,
+          "assets": 15,
+          "duration_sec": 9.0,
+          "size_bytes": 60670,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_anim_nfc_guidance_step3.json"
+        },
+        {
+          "version": "5.12.1",
+          "fps": 24.0,
+          "width": 686,
+          "height": 470,
+          "layers": 1,
+          "assets": 1,
+          "duration_sec": 3.04,
+          "size_bytes": 53947,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_scan_ocr.json"
+        },
+        {
+          "version": "5.12.1",
+          "fps": 24.0,
+          "width": 702,
+          "height": 800,
+          "layers": 1,
+          "assets": 1,
+          "duration_sec": 3.04,
+          "size_bytes": 53947,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/lottie_scan.json"
+        },
+        {
+          "version": "5.12.1",
+          "fps": 60.0,
+          "width": 108,
+          "height": 108,
+          "layers": 7,
+          "assets": 6,
+          "duration_sec": 6.5,
+          "size_bytes": 36549,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/ic_home_nav_bar_tab_scan_qr.json"
+        },
+        {
+          "version": "5.12.1",
+          "fps": 60.0,
+          "width": 108,
+          "height": 108,
+          "layers": 7,
+          "assets": 6,
+          "duration_sec": 6.5,
+          "size_bytes": 36548,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_dynamic_qrcode_anim.json"
+        },
+        {
+          "version": "5.12.1",
+          "fps": 24.0,
+          "width": 330,
+          "height": 166,
+          "layers": 3,
+          "assets": 2,
+          "duration_sec": 0.71,
+          "size_bytes": 33936,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_success_ocr.json"
+        },
+        {
+          "version": "5.12.1",
+          "fps": 24.0,
+          "width": 330,
+          "height": 166,
+          "layers": 3,
+          "assets": 2,
+          "duration_sec": 1.04,
+          "size_bytes": 33935,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/img_shield_only.json"
+        },
+        {
+          "version": "5.5.2",
+          "fps": 30.0,
+          "width": 100,
+          "height": 100,
+          "layers": 13,
+          "assets": 0,
+          "duration_sec": 1.0,
+          "size_bytes": 27062,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/ic_cashier_pay_loading.json"
+        },
+        {
+          "version": "5.5.2",
+          "fps": 30.0,
+          "width": 100,
+          "height": 100,
+          "layers": 13,
+          "assets": 0,
+          "duration_sec": 1.0,
+          "size_bytes": 27062,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/ic_cashier_pay_loading_v3.json"
+        },
+        {
+          "version": "5.7.4",
+          "fps": 60.0,
+          "width": 80,
+          "height": 80,
+          "layers": 3,
+          "assets": 0,
+          "duration_sec": 2.0,
+          "size_bytes": 23613,
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/ic_rp_pending_animate.json"
+        }
+      ]
+    },
+    "ml_ai_assets": {
+      "count": 46,
+      "total_uncompressed_bytes": 16014852,
+      "items": [
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/custom_models/object_labeler.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 3770391,
+          "compressed_bytes": 3770391
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/FastestDet.ncnn.bin",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 2420588,
+          "compressed_bytes": 2237555
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 1706957,
+          "compressed_bytes": 1706957
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 1254848,
+          "compressed_bytes": 1254848
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/contours.tfl",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 1124144,
+          "compressed_bytes": 1024542
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/LMprec_600.emd",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 1078354,
+          "compressed_bytes": 795793
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 613352,
+          "compressed_bytes": 613352
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 613080,
+          "compressed_bytes": 613080
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 390456,
+          "compressed_bytes": 390456
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/blazeface.tfl",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 347928,
+          "compressed_bytes": 308146
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 340760,
+          "compressed_bytes": 340760
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 315520,
+          "compressed_bytes": 315520
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 309568,
+          "compressed_bytes": 181609
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 276552,
+          "compressed_bytes": 276552
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 232096,
+          "compressed_bytes": 232096
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 231816,
+          "compressed_bytes": 231816
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 213880,
+          "compressed_bytes": 213880
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.lstm_model",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 161448,
+          "compressed_bytes": 119566
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+          "magic_type": "Protobuf Binary Asset",
+          "uncompressed_bytes": 153000,
+          "compressed_bytes": 2646
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 129612,
+          "compressed_bytes": 129612
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 114384,
+          "compressed_bytes": 114384
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/fonts/ocr-a-tribute.ttf",
+          "magic_type": "TrueType / OpenType Font",
+          "uncompressed_bytes": 48216,
+          "compressed_bytes": 23096
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/conv_model.fb",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 40848,
+          "compressed_bytes": 30829
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.conv_model",
+          "magic_type": "TensorFlow Lite Model (.tflite)",
+          "uncompressed_bytes": 40808,
+          "compressed_bytes": 30535
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/BCLjoy_200.emd",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 17916,
+          "compressed_bytes": 12118
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/FastestDet.ncnn.param",
+          "magic_type": "On-Device ML Model Asset",
+          "uncompressed_bytes": 15293,
+          "compressed_bytes": 2439
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 13183,
+          "compressed_bytes": 2769
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 13178,
+          "compressed_bytes": 2764
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/BCLrighteyeclosed_200.emd",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 8655,
+          "compressed_bytes": 5437
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/BCLlefteyeclosed_200.emd",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 8630,
+          "compressed_bytes": 5435
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/assets.extra/LabelMap.pb",
+          "magic_type": "Protobuf Binary Asset",
+          "uncompressed_bytes": 3809,
+          "compressed_bytes": 1521
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.bincfg",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 1118,
+          "compressed_bytes": 487
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/MFT_fssd_accgray.pb",
+          "magic_type": "Protobuf Binary Asset",
+          "uncompressed_bytes": 793,
+          "compressed_bytes": 426
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/models_bundled/MFT_fssd_fastgray.pb",
+          "magic_type": "Protobuf Binary Asset",
+          "uncompressed_bytes": 792,
+          "compressed_bytes": 426
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/taser/detector/region_proposal_text_detector_tflite_vertical_mbv2_v1.bincfg",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 452,
+          "compressed_bytes": 381
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner_ti.binarypb",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 334,
+          "compressed_bytes": 234
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 333,
+          "compressed_bytes": 259
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner.binarypb",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 331,
+          "compressed_bytes": 233
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 278,
+          "compressed_bytes": 209
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+          "magic_type": "Other Binary / Data Asset",
+          "uncompressed_bytes": 276,
+          "compressed_bytes": 208
+        }
+      ]
+    },
+    "web_hybrid_assets": {
+      "count": 37,
+      "total_uncompressed_bytes": 1920189,
+      "by_type": {
+        "JSON Data / Lottie / Config": 17,
+        "JavaScript / Hermes Bundle": 9,
+        "Web HTML / CSS Asset": 9,
+        "TrueType / OpenType Font": 2
+      },
+      "top_by_size": [
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/config/miniapp_config.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 883684,
+          "compressed_bytes": 45761
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/taxi_splash_loading.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 536057,
+          "compressed_bytes": 36322
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/client_tracking.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 146391,
+          "compressed_bytes": 7192
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/config/zalopay_config.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 105659,
+          "compressed_bytes": 16560
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/fonts/zalopay.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 70880,
+          "compressed_bytes": 6236
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/GriverErrorPage/griver_page_error.html",
+          "magic_type": "Web HTML / CSS Asset",
+          "uncompressed_bytes": 22734,
+          "compressed_bytes": 13120
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/theme/bank/ui_config.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 15430,
+          "compressed_bytes": 1292
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/GriverBridge/workerjs.js",
+          "magic_type": "JavaScript / Hermes Bundle",
+          "uncompressed_bytes": 14360,
+          "compressed_bytes": 3891
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/GriverErrorPage/mini-program-native-error.html",
+          "magic_type": "Web HTML / CSS Asset",
+          "uncompressed_bytes": 13859,
+          "compressed_bytes": 7973
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/theme/bank/config_v2.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 11573,
+          "compressed_bytes": 2551
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/theme/bank/bank_resource.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 11339,
+          "compressed_bytes": 2329
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/h5_page_error.html",
+          "magic_type": "Web HTML / CSS Asset",
+          "uncompressed_bytes": 11110,
+          "compressed_bytes": 5959
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/timezone2region_2023c.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 11067,
+          "compressed_bytes": 3620
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/containererrorpage/griver_page_error.html",
+          "magic_type": "Web HTML / CSS Asset",
+          "uncompressed_bytes": 9594,
+          "compressed_bytes": 5630
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/home_data.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 9417,
+          "compressed_bytes": 1481
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/containers/GTM-PC9W5BW.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 7702,
+          "compressed_bytes": 2064
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/h5iconfont/titlebar.ttf",
+          "magic_type": "TrueType / OpenType Font",
+          "uncompressed_bytes": 5016,
+          "compressed_bytes": 2823
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/GriverBridge/h5_bridge.js",
+          "magic_type": "JavaScript / Hermes Bundle",
+          "uncompressed_bytes": 4446,
+          "compressed_bytes": 1670
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/internaljsbridge.js",
+          "magic_type": "JavaScript / Hermes Bundle",
+          "uncompressed_bytes": 3890,
+          "compressed_bytes": 1032
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/android_jsbridge.js",
+          "magic_type": "JavaScript / Hermes Bundle",
+          "uncompressed_bytes": 3673,
+          "compressed_bytes": 1026
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/jsbridge.js",
+          "magic_type": "JavaScript / Hermes Bundle",
+          "uncompressed_bytes": 3634,
+          "compressed_bytes": 1023
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/GriverErrorPage/griver_custom_h5_page_error.html",
+          "magic_type": "Web HTML / CSS Asset",
+          "uncompressed_bytes": 3060,
+          "compressed_bytes": 1027
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/containererrorpage/griver_custom_h5_page_error.html",
+          "magic_type": "Web HTML / CSS Asset",
+          "uncompressed_bytes": 3060,
+          "compressed_bytes": 1027
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/GriverBridge/cover_component.js",
+          "magic_type": "JavaScript / Hermes Bundle",
+          "uncompressed_bytes": 2888,
+          "compressed_bytes": 778
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/h5iconfont/h5titlebar.ttf",
+          "magic_type": "TrueType / OpenType Font",
+          "uncompressed_bytes": 2300,
+          "compressed_bytes": 1308
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/Griver/appx.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 2178,
+          "compressed_bytes": 543
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/h5_bridge.js",
+          "magic_type": "JavaScript / Hermes Bundle",
+          "uncompressed_bytes": 1875,
+          "compressed_bytes": 793
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/GriverBridge/index_inline.html",
+          "magic_type": "Web HTML / CSS Asset",
+          "uncompressed_bytes": 972,
+          "compressed_bytes": 482
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/webapp.js",
+          "magic_type": "JavaScript / Hermes Bundle",
+          "uncompressed_bytes": 619,
+          "compressed_bytes": 247
+        },
+        {
+          "apk": "vn.com.vng.zalopay.apk",
+          "path": "assets/GriverTheme/theme.json",
+          "magic_type": "JSON Data / Lottie / Config",
+          "uncompressed_bytes": 584,
+          "compressed_bytes": 151
+        }
+      ]
+    },
+    "assets_subdirectories": [
+      {
+        "subdir": "<assets-root>",
+        "count": 23,
+        "uncompressed_bytes": 12717661
+      },
+      {
+        "subdir": "models_bundled",
+        "count": 14,
+        "uncompressed_bytes": 4277846
+      },
+      {
+        "subdir": "custom_models",
+        "count": 1,
+        "uncompressed_bytes": 3770391
+      },
+      {
+        "subdir": "mlkit_odt_default_classifier",
+        "count": 1,
+        "uncompressed_bytes": 1706957
+      },
+      {
+        "subdir": "mlkit-google-ocr-models",
+        "count": 21,
+        "uncompressed_bytes": 1486803
+      },
+      {
+        "subdir": "mlkit_odt_localizer",
+        "count": 3,
+        "uncompressed_bytes": 1407870
+      },
+      {
+        "subdir": "Griver",
+        "count": 4,
+        "uncompressed_bytes": 1164067
+      },
+      {
+        "subdir": "config",
+        "count": 4,
+        "uncompressed_bytes": 990143
+      },
+      {
+        "subdir": "fonts",
+        "count": 8,
+        "uncompressed_bytes": 903524
+      },
+      {
+        "subdir": "mlkit_barcode_models",
+        "count": 3,
+        "uncompressed_bytes": 880888
+      },
+      {
+        "subdir": "com",
+        "count": 8,
+        "uncompressed_bytes": 402928
+      },
+      {
+        "subdir": "taxi_images",
+        "count": 9,
+        "uncompressed_bytes": 91299
+      },
+      {
+        "subdir": "GriverErrorPage",
+        "count": 3,
+        "uncompressed_bytes": 39653
+      },
+      {
+        "subdir": "theme",
+        "count": 3,
+        "uncompressed_bytes": 38342
+      },
+      {
+        "subdir": "griverIconDefault",
+        "count": 1,
+        "uncompressed_bytes": 28000
+      },
+      {
+        "subdir": "GriverBridge",
+        "count": 7,
+        "uncompressed_bytes": 23320
+      },
+      {
+        "subdir": "dexopt",
+        "count": 2,
+        "uncompressed_bytes": 20412
+      },
+      {
+        "subdir": "dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be",
+        "count": 1,
+        "uncompressed_bytes": 17888
+      },
+      {
+        "subdir": "tinyfont",
+        "count": 2,
+        "uncompressed_bytes": 14796
+      },
+      {
+        "subdir": "containererrorpage",
+        "count": 2,
+        "uncompressed_bytes": 12654
+      },
+      {
+        "subdir": "containers",
+        "count": 1,
+        "uncompressed_bytes": 7702
+      },
+      {
+        "subdir": "h5iconfont",
+        "count": 2,
+        "uncompressed_bytes": 7316
+      },
+      {
+        "subdir": "GriverTheme",
+        "count": 1,
+        "uncompressed_bytes": 584
+      }
+    ],
+    "res_subdirectories": [
+      {
+        "subdir": "drawable",
+        "count": 3675,
+        "uncompressed_bytes": 15167913
+      },
+      {
+        "subdir": "raw",
+        "count": 56,
+        "uncompressed_bytes": 13254615
+      },
+      {
+        "subdir": "font",
+        "count": 14,
+        "uncompressed_bytes": 6530332
+      },
+      {
+        "subdir": "layout",
+        "count": 1018,
+        "uncompressed_bytes": 1664416
+      },
+      {
+        "subdir": "drawable-xhdpi-v4",
+        "count": 145,
+        "uncompressed_bytes": 956048
+      },
+      {
+        "subdir": "drawable-xxhdpi-v4",
+        "count": 49,
+        "uncompressed_bytes": 307363
+      },
+      {
+        "subdir": "layout-v33",
+        "count": 319,
+        "uncompressed_bytes": 236108
+      },
+      {
+        "subdir": "drawable-anydpi-v24",
+        "count": 55,
+        "uncompressed_bytes": 102828
+      },
+      {
+        "subdir": "drawable-anydpi-v21",
+        "count": 53,
+        "uncompressed_bytes": 93216
+      },
+      {
+        "subdir": "drawable-night-v8",
+        "count": 4,
+        "uncompressed_bytes": 91736
+      },
+      {
+        "subdir": "layout-v31",
+        "count": 150,
+        "uncompressed_bytes": 84120
+      },
+      {
+        "subdir": "anim",
+        "count": 78,
+        "uncompressed_bytes": 69684
+      },
+      {
+        "subdir": "color",
+        "count": 82,
+        "uncompressed_bytes": 51332
+      },
+      {
+        "subdir": "navigation",
+        "count": 18,
+        "uncompressed_bytes": 49848
+      },
+      {
+        "subdir": "animator",
+        "count": 17,
+        "uncompressed_bytes": 20164
+      },
+      {
+        "subdir": "mipmap-xxxhdpi-v4",
+        "count": 2,
+        "uncompressed_bytes": 17053
+      },
+      {
+        "subdir": "mipmap-xxhdpi-v4",
+        "count": 2,
+        "uncompressed_bytes": 12162
+      },
+      {
+        "subdir": "mipmap-night-v8",
+        "count": 2,
+        "uncompressed_bytes": 10466
+      },
+      {
+        "subdir": "xml",
+        "count": 13,
+        "uncompressed_bytes": 10284
+      },
+      {
+        "subdir": "mipmap-xhdpi-v4",
+        "count": 2,
+        "uncompressed_bytes": 7881
+      },
+      {
+        "subdir": "drawable-v21",
+        "count": 9,
+        "uncompressed_bytes": 7280
+      },
+      {
+        "subdir": "drawable-hdpi-v4",
+        "count": 7,
+        "uncompressed_bytes": 6190
+      },
+      {
+        "subdir": "mipmap-hdpi-v4",
+        "count": 2,
+        "uncompressed_bytes": 5838
+      },
+      {
+        "subdir": "drawable-mdpi-v4",
+        "count": 17,
+        "uncompressed_bytes": 5118
+      },
+      {
+        "subdir": "color-v23",
+        "count": 7,
+        "uncompressed_bytes": 4788
+      },
+      {
+        "subdir": "layout-land",
+        "count": 3,
+        "uncompressed_bytes": 4600
+      },
+      {
+        "subdir": "interpolator",
+        "count": 14,
+        "uncompressed_bytes": 4388
+      },
+      {
+        "subdir": "mipmap-mdpi-v4",
+        "count": 2,
+        "uncompressed_bytes": 3764
+      },
+      {
+        "subdir": "anim-v21",
+        "count": 5,
+        "uncompressed_bytes": 2828
+      },
+      {
+        "subdir": "layout-watch-v20",
+        "count": 2,
+        "uncompressed_bytes": 2560
+      }
+    ],
+    "build_metadata": {
+      "androidx_library_count": 131,
+      "androidx_versions": {
+        "androidx.activity_activity": "1.9.3",
+        "androidx.activity_activity-compose": "1.9.3",
+        "androidx.activity_activity-ktx": "1.9.3",
+        "androidx.annotation_annotation-experimental": "1.5.0",
+        "androidx.appcompat_appcompat": "1.6.1",
+        "androidx.appcompat_appcompat-resources": "1.6.1",
+        "androidx.arch.core_core-runtime": "task ':arch:core:core-runtime:writeVersionFile' property 'version'",
+        "androidx.asynclayoutinflater_asynclayoutinflater": "1.0.0",
+        "androidx.autofill_autofill": "1.0.0",
+        "androidx.biometric_biometric": "1.2.0-alpha05",
+        "androidx.browser_browser": "1.8.0",
+        "androidx.camera_camera-camera2": "1.4.0",
+        "androidx.camera_camera-core": "1.4.0",
+        "androidx.camera_camera-extensions": "1.4.0",
+        "androidx.camera_camera-lifecycle": "1.4.0",
+        "androidx.camera_camera-video": "1.4.0",
+        "androidx.camera_camera-view": "1.4.0",
+        "androidx.cardview_cardview": "1.0.0",
+        "androidx.compose.animation_animation": "1.7.2",
+        "androidx.compose.animation_animation-core": "1.7.2",
+        "androidx.compose.foundation_foundation": "1.7.2",
+        "androidx.compose.foundation_foundation-layout": "1.7.2",
+        "androidx.compose.material_material": "1.6.0",
+        "androidx.compose.material_material-icons-core": "1.6.0",
+        "androidx.compose.material_material-ripple": "1.6.0",
+        "androidx.compose.runtime_runtime": "1.7.2",
+        "androidx.compose.runtime_runtime-livedata": "1.7.2",
+        "androidx.compose.runtime_runtime-saveable": "1.7.2",
+        "androidx.compose.ui_ui": "1.7.2",
+        "androidx.compose.ui_ui-geometry": "1.7.2",
+        "androidx.compose.ui_ui-graphics": "1.7.2",
+        "androidx.compose.ui_ui-text": "1.7.2",
+        "androidx.compose.ui_ui-tooling": "1.7.2",
+        "androidx.compose.ui_ui-tooling-data": "1.7.2",
+        "androidx.compose.ui_ui-tooling-preview": "1.7.2",
+        "androidx.compose.ui_ui-unit": "1.7.2",
+        "androidx.compose.ui_ui-util": "1.7.2",
+        "androidx.constraintlayout_constraintlayout-compose": "1.1.1",
+        "androidx.coordinatorlayout_coordinatorlayout": "1.1.0",
+        "androidx.core_core": "1.16.0",
+        "androidx.core_core-ktx": "1.16.0",
+        "androidx.core_core-remoteviews": "1.1.0",
+        "androidx.core_core-splashscreen": "1.0.0",
+        "androidx.core_core-viewtree": "1.0.0",
+        "androidx.cursoradapter_cursoradapter": "1.0.0",
+        "androidx.customview_customview": "1.1.0",
+        "androidx.customview_customview-poolingcontainer": "1.0.0",
+        "androidx.databinding_baseAdapters": "8.12.3",
+        "androidx.databinding_databindingKtx": "8.12.3",
+        "androidx.databinding_library": "8.12.3",
+        "androidx.databinding_viewbinding": "8.12.3",
+        "androidx.datastore_datastore": "1.0.0",
+        "androidx.datastore_datastore-preferences": "1.0.0",
+        "androidx.documentfile_documentfile": "1.0.0",
+        "androidx.drawerlayout_drawerlayout": "1.1.1",
+        "androidx.dynamicanimation_dynamicanimation": "1.1.0-alpha03",
+        "androidx.dynamicanimation_dynamicanimation-ktx": "1.0.0-alpha03",
+        "androidx.emoji2_emoji2": "1.3.0",
+        "androidx.emoji2_emoji2-views-helper": "1.3.0",
+        "androidx.exifinterface_exifinterface": "1.3.6",
+        "androidx.fragment_fragment": "1.8.7",
+        "androidx.fragment_fragment-ktx": "1.8.7",
+        "androidx.glance_glance": "1.1.1",
+        "androidx.glance_glance-appwidget": "1.1.1",
+        "androidx.graphics_graphics-path": "1.0.1",
+        "androidx.interpolator_interpolator": "1.0.0",
+        "androidx.legacy_legacy-support-core-ui": "1.0.0",
+        "androidx.legacy_legacy-support-core-utils": "1.0.0",
+        "androidx.legacy_legacy-support-v4": "1.0.0",
+        "androidx.lifecycle_lifecycle-extensions": "2.1.0",
+        "androidx.lifecycle_lifecycle-livedata": "2.8.7",
+        "androidx.lifecycle_lifecycle-livedata-core": "2.8.7",
+        "androidx.lifecycle_lifecycle-livedata-core-ktx": "2.8.7",
+        "androidx.lifecycle_lifecycle-livedata-ktx": "2.8.7",
+        "androidx.lifecycle_lifecycle-process": "2.8.7",
+        "androidx.lifecycle_lifecycle-runtime": "2.8.7",
+        "androidx.lifecycle_lifecycle-runtime-compose": "2.8.7",
+        "androidx.lifecycle_lifecycle-runtime-ktx": "2.8.7",
+        "androidx.lifecycle_lifecycle-service": "2.8.7",
+        "androidx.lifecycle_lifecycle-viewmodel": "2.8.7",
+        "androidx.lifecycle_lifecycle-viewmodel-compose": "2.8.7",
+        "androidx.lifecycle_lifecycle-viewmodel-ktx": "2.8.7",
+        "androidx.lifecycle_lifecycle-viewmodel-savedstate": "2.8.7",
+        "androidx.loader_loader": "1.0.0",
+        "androidx.localbroadcastmanager_localbroadcastmanager": "1.0.0",
+        "androidx.media_media": "1.0.0",
+        "androidx.navigation_navigation-common": "2.8.3",
+        "androidx.navigation_navigation-common-ktx": "2.8.3",
+        "androidx.navigation_navigation-compose": "2.8.3",
+        "androidx.navigation_navigation-dynamic-features-fragment": "2.8.3",
+        "androidx.navigation_navigation-dynamic-features-runtime": "2.8.3",
+        "androidx.navigation_navigation-fragment": "2.8.3",
+        "androidx.navigation_navigation-fragment-ktx": "2.8.3",
+        "androidx.navigation_navigation-runtime": "2.8.3",
+        "androidx.navigation_navigation-runtime-ktx": "2.8.3",
+        "androidx.navigation_navigation-ui": "2.8.3",
+        "androidx.navigation_navigation-ui-ktx": "2.8.3",
+        "androidx.paging_paging-compose": "3.2.1",
+        "androidx.paging_paging-runtime": "3.2.1",
+        "androidx.paging_paging-runtime-ktx": "3.2.1",
+        "androidx.palette_palette": "1.0.0",
+        "androidx.palette_palette-ktx": "1.0.0",
+        "androidx.print_print": "1.0.0",
+        "androidx.privacysandbox.ads_ads-adservices": "1.0.0-beta05",
+        "androidx.privacysandbox.ads_ads-adservices-java": "1.0.0-beta05",
+        "androidx.profileinstaller_profileinstaller": "1.3.1",
+        "androidx.recyclerview_recyclerview": "1.3.0",
+        "androidx.room_room-ktx": "2.8.4",
+        "androidx.room_room-runtime": "2.8.4",
+        "androidx.savedstate_savedstate": "1.2.1",
+        "androidx.savedstate_savedstate-ktx": "1.2.1",
+        "androidx.security_security-crypto": "1.1.0",
+        "androidx.slidingpanelayout_slidingpanelayout": "1.2.0",
+        "androidx.sqlite_sqlite": "2.6.2",
+        "androidx.sqlite_sqlite-framework": "2.6.2",
+        "androidx.sqlite_sqlite-ktx": "2.6.2",
+        "androidx.startup_startup-runtime": "1.2.0",
+        "androidx.swiperefreshlayout_swiperefreshlayout": "1.1.0",
+        "androidx.tracing_tracing": "1.2.0",
+        "androidx.tracing_tracing-ktx": "1.2.0",
+        "androidx.transition_transition": "1.4.1",
+        "androidx.vectordrawable_vectordrawable": "1.1.0",
+        "androidx.vectordrawable_vectordrawable-animated": "1.1.0",
+        "androidx.versionedparcelable_versionedparcelable": "1.1.1",
+        "androidx.viewpager2_viewpager2": "1.0.0",
+        "androidx.viewpager_viewpager": "1.0.0",
+        "androidx.webkit_webkit": "1.11.0-alpha02",
+        "androidx.window_window": "1.0.0",
+        "androidx.work_work-runtime": "2.7.1",
+        "androidx.work_work-runtime-ktx": "2.7.1",
+        "androidx.work_work-rxjava2": "2.7.1"
+      },
+      "other_library_versions": {
+        "com.google.android.material_material": "1.4.0",
+        "com.google.dagger_dagger": "2.59.2",
+        "com.google.dagger_dagger-android": "2.59.2",
+        "com.google.dagger_dagger-android-support": "2.59.2",
+        "com.google.dagger_dagger-lint-aar": "2.59.2",
+        "kotlinx_coroutines_android": "1.8.1",
+        "kotlinx_coroutines_core": "1.8.1",
+        "kotlinx_coroutines_play_services": "1.8.1",
+        "kotlinx_coroutines_reactive": "1.8.1",
+        "kotlinx_coroutines_rx2": "1.8.1"
+      },
+      "kotlin_module_count": 11,
+      "kotlin_modules_sample": [
+        "face_release",
+        "fragment-ktx_release",
+        "kotlin-stdlib",
+        "kotlin_release",
+        "okhttp",
+        "okhttp-logging-interceptor",
+        "okio",
+        "retrofit",
+        "trueface_release",
+        "trueid_release",
+        "ui_release"
+      ]
+    }
+  }
+}
