@@ -1,0 +1,690 @@
+{
+  "claims": [
+    {
+      "evidence": [
+        "inventory.json:containers",
+        "inventory_summary.json"
+      ],
+      "id": "C01",
+      "limitations": [],
+      "statement": "The corpus is a three-layer nested container chain, not a plain APK.",
+      "value": {
+        "apk_containers": 5,
+        "outer_zip": 1,
+        "total_uncompressed_bytes": 406542608,
+        "total_zip_members": 6472,
+        "xapk": 1
+      }
+    },
+    {
+      "evidence": [
+        "inventory.json:xapk_manifest"
+      ],
+      "id": "C02",
+      "limitations": [],
+      "statement": "APKPure XAPK v2 metadata pins package, version and SDK levels.",
+      "value": {
+        "min_sdk": "26",
+        "package": "vn.com.vng.zalopay",
+        "splits": [
+          "config.armeabi_v7a",
+          "config.en",
+          "config.vi",
+          "config.xhdpi"
+        ],
+        "target_sdk": "36",
+        "version_code": "1102758",
+        "version_name": "11.17.0"
+      }
+    },
+    {
+      "evidence": [
+        "manifest.json:manifests.vn.com.vng.zalopay.apk"
+      ],
+      "id": "C03",
+      "limitations": [
+        "meta-data values are redacted; only keys and digests are published."
+      ],
+      "statement": "The base manifest declares 49 permissions and 266 exported-capable components across five component types.",
+      "value": {
+        "activities": 200,
+        "meta_data_entries": 66,
+        "permissions": 49,
+        "providers": 10,
+        "queries_packages": 10,
+        "receivers": 22,
+        "services": 34
+      }
+    },
+    {
+      "evidence": [
+        "manifest.json:axml_corpus"
+      ],
+      "id": "C04",
+      "limitations": [],
+      "statement": "Every binary XML in every APK was parsed by a chunk-level AXML reader with zero failures.",
+      "value": {
+        "attributes": 95874,
+        "axml_parsed": 5319,
+        "elements": 28072,
+        "parse_failures": 0,
+        "xml_members": 5320
+      }
+    },
+    {
+      "evidence": [
+        "resources.json:tables",
+        "resources.json:aggregate"
+      ],
+      "id": "C05",
+      "limitations": [],
+      "statement": "resources.arsc contains multiple per-feature resource packages, evidence of dynamic-feature modularisation.",
+      "value": {
+        "defined_entries_total": 17985,
+        "locales": {
+          "en": 370,
+          "vi": 496
+        },
+        "resource_packages_base": 13,
+        "top_types": {
+          "anim": 88,
+          "animator": 18,
+          "array": 19,
+          "attr": 1834,
+          "bool": 24,
+          "color": 898,
+          "dimen": 797,
+          "drawable": 4057
+        },
+        "type_chunks": 164
+      }
+    },
+    {
+      "evidence": [
+        "resources.json:tables.config.en.apk",
+        "resources.json:tables.config.vi.apk",
+        "resources.json:tables.config.xhdpi.apk"
+      ],
+      "id": "C06",
+      "limitations": [],
+      "statement": "Locale and density splits carry genuinely localised/qualified resources, not empty placeholders.",
+      "value": {
+        "en_string_entries": 370,
+        "vi_string_entries": 496,
+        "xhdpi_density_320": 143,
+        "xhdpi_entries": 255
+      }
+    },
+    {
+      "evidence": [
+        "dex.json:aggregate",
+        "dex.json:per_file"
+      ],
+      "id": "C07",
+      "limitations": [],
+      "statement": "All DEX files pass both the Adler-32 checksum and the SHA-1 signature test in their headers.",
+      "value": {
+        "classes": 63827,
+        "code_items": 265991,
+        "code_units": 17513272,
+        "dex_files": 20,
+        "field_ids": 317841,
+        "method_ids": 378040,
+        "total_dex_bytes": 69701748,
+        "verification_failures": []
+      }
+    },
+    {
+      "evidence": [
+        "dex.json:per_file"
+      ],
+      "id": "C08",
+      "limitations": [
+        "This is a structural inference from method_ids_size, not a claim about the build system configuration."
+      ],
+      "statement": "Multidex is bounded by the 65,536 method-reference limit: two DEX files reach ~60,000 method IDs.",
+      "value": {
+        "near_limit_files": [
+          {
+            "file": "vn.com.vng.zalopay.apk:classes.dex",
+            "methods": 59948
+          },
+          {
+            "file": "vn.com.vng.zalopay.apk:classes4.dex",
+            "methods": 59997
+          },
+          {
+            "file": "vn.com.vng.zalopay.apk:classes7.dex",
+            "methods": 60000
+          }
+        ]
+      }
+    },
+    {
+      "evidence": [
+        "dex.json:aggregate.counts"
+      ],
+      "id": "C09",
+      "limitations": [
+        "Single-letter final segments are a heuristic proxy for minification, not proof of a specific tool."
+      ],
+      "statement": "A large fraction of class names are single-letter, consistent with identifier minification.",
+      "value": {
+        "ratio": 0.403,
+        "short_name_classes": 25721,
+        "total_classes": 63827
+      }
+    },
+    {
+      "evidence": [
+        "supply_chain.json",
+        "dex.json:aggregate.namespace_histogram_top"
+      ],
+      "id": "C10",
+      "limitations": [
+        "Namespace presence does not establish version, licence or runtime activation."
+      ],
+      "statement": "The application embeds at least 23 identifiable third-party SDK namespaces in DEX.",
+      "value": {
+        "sdk_namespace_count": 23,
+        "top_sdks": {
+          "android.support": {
+            "description": "Android Support Library",
+            "namespace_class_count": 110
+          },
+          "androidx": {
+            "description": "Android Jetpack",
+            "namespace_class_count": 7128
+          },
+          "app.rive": {
+            "description": "Rive",
+            "namespace_class_count": 264
+          },
+          "com.airbnb.lottie": {
+            "description": "Lottie",
+            "namespace_class_count": 173
+          },
+          "com.alibaba": {
+            "description": "Alibaba / Griver",
+            "namespace_class_count": 9607
+          },
+          "com.alipay": {
+            "description": "Alipay / Griver mini-app container",
+            "namespace_class_count": 945
+          },
+          "com.appsflyer": {
+            "description": "AppsFlyer",
+            "namespace_class_count": 754
+          },
+          "com.bumptech.glide": {
+            "description": "Glide",
+            "namespace_class_count": 197
+          },
+          "com.facebook": {
+            "description": "Facebook / Audience Network",
+            "namespace_class_count": 7138
+          },
+          "com.facebook.imagepipeline": {
+            "description": "Fresco",
+            "namespace_class_count": 94
+          },
+          "com.google.firebase": {
+            "description": "Firebase",
+            "namespace_class_count": 196
+          },
+          "com.google.gson": {
+            "description": "Gson",
+            "namespace_class_count": 190
+          }
+        }
+      }
+    },
+    {
+      "evidence": [
+        "elf.json:aggregate",
+        "elf.json:per_library"
+      ],
+      "id": "C11",
+      "limitations": [],
+      "statement": "All 27 native libraries are 32-bit ARM ELF shared objects, each with a GNU build-id.",
+      "value": {
+        "build_ids": 27,
+        "dynsym_total": 15737,
+        "jni_exports": 301,
+        "libraries": 27,
+        "machines": {
+          "ARM": 27
+        },
+        "security": {
+          "full_relro_bind_now": 27,
+          "nx_stack_non_executable": 27,
+          "pie_et_dyn": 27,
+          "relro_present": 23,
+          "stripped_no_symtab": 26
+        },
+        "total_bytes": 57452124
+      }
+    },
+    {
+      "evidence": [
+        "signing.json:aggregate",
+        "signing.json:per_apk"
+      ],
+      "id": "C12",
+      "limitations": [
+        "Fingerprints are public certificate digests; no private key material exists or is published.",
+        "Signature trust-chain validation is out of scope."
+      ],
+      "statement": "All five APKs carry APK Signature Scheme v2 and v3 blocks and share exactly one signer certificate.",
+      "value": {
+        "apks_with_block": 5,
+        "base_has_v1": false,
+        "certificate_sha256": [
+          "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+        ],
+        "schemes": {
+          "APK Signature Scheme v2": 5,
+          "APK Signature Scheme v3": 5,
+          "unknown": 6,
+          "verity padding block": 5
+        },
+        "single_signer": true
+      }
+    },
+    {
+      "evidence": [
+        "signing.json:per_apk"
+      ],
+      "id": "C13",
+      "limitations": [
+        "SHA-1 in v1 manifests is a structural observation; v2/v3 provide the effective verification path."
+      ],
+      "statement": "Split APKs retain JAR v1 signatures using SHA-1 digests, while the base APK is v2/v3 only.",
+      "value": {
+        "base_v1_manifest_entries": 0,
+        "split_v1_digest_algorithms": {
+          "SHA1-Digest": 3
+        },
+        "stamp_cert_sha256": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d"
+      }
+    },
+    {
+      "evidence": [
+        "nested.json",
+        "jsbundle.json"
+      ],
+      "id": "C14",
+      "limitations": [],
+      "statement": "A React Native Metro production bundle is embedded in a nested ZIP inside assets.",
+      "value": {
+        "dependency_edges": 9783,
+        "entry_points": [
+          82,
+          0
+        ],
+        "metro_modules": 2346,
+        "nested_containers": 4,
+        "nested_members": 330
+      }
+    },
+    {
+      "evidence": [
+        "rea_javascript.json"
+      ],
+      "id": "C15",
+      "limitations": [
+        "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+        "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+        "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution."
+      ],
+      "statement": "The upstream REA tool was run on the extracted JS layer and produced an immutable evidence record.",
+      "value": {
+        "ast_nodes_visited": 2738,
+        "evidence_id": "ev_8beaecb75515717d8f071ca23b426fb0969dabdbbfb2dfc309efc5ee4f7e0d45",
+        "findings": 0,
+        "graph_edges": 8,
+        "graph_nodes": 9,
+        "tool": "REA — Reverse Engineer Anything (rea-agents)",
+        "version": "6.5.0"
+      }
+    },
+    {
+      "evidence": [
+        "assets.json:base_apk_assets",
+        "nested.json"
+      ],
+      "id": "C16",
+      "limitations": [
+        "Model purposes are inferred from file names/format, not from runtime behaviour."
+      ],
+      "statement": "The app ships on-device ML assets and a mini-program container, evidenced by format magic and asset layout.",
+      "value": {
+        "json_shapes_parsed": 17,
+        "model_media_payloads": 60,
+        "ncnn_headers": [
+          {
+            "blob_count": 198,
+            "layer_count": 172,
+            "magic_line": "7767517",
+            "path": "assets/FastestDet.ncnn.param"
+          }
+        ],
+        "payload_magic_counts": {
+          "art-baseline-profile": 1,
+          "opaque-or-text": 44,
+          "truetype-font": 12,
+          "zip": 3
+        }
+      }
+    },
+    {
+      "evidence": [
+        "library_versions.json"
+      ],
+      "id": "C17",
+      "limitations": [],
+      "statement": "Build provenance can be reconstructed from 215 version markers without reading any config values.",
+      "value": {
+        "example_count": 8,
+        "version_marker_files": 215
+      }
+    },
+    {
+      "evidence": [
+        "strings.json",
+        "assets.json",
+        "docs/ETHICS.md"
+      ],
+      "id": "C18",
+      "limitations": [],
+      "statement": "Redaction by construction: no config value, key, token, endpoint path or certificate byte is published.",
+      "value": {
+        "high_entropy_members": 178,
+        "secret_like_dex_strings_count_only": 2684,
+        "sensitive_files_recorded_as_digest_only": 11,
+        "text_url_strings_counted_not_listed": 10287
+      }
+    }
+  ],
+  "evidence_files": [
+    "assets.json",
+    "dex.json",
+    "elf.json",
+    "inventory.json",
+    "inventory_summary.json",
+    "jsbundle.json",
+    "library_versions.json",
+    "manifest.json",
+    "nested.json",
+    "rea_javascript.json",
+    "resources.json",
+    "signing.json",
+    "strings.json",
+    "supply_chain.json"
+  ],
+  "film": {
+    "claims": [
+      {
+        "id": "C01",
+        "statement": "The corpus is a three-layer nested container chain, not a plain APK."
+      },
+      {
+        "id": "C02",
+        "statement": "APKPure XAPK v2 metadata pins package, version and SDK levels."
+      },
+      {
+        "id": "C03",
+        "statement": "The base manifest declares 49 permissions and 266 exported-capable components across five component types."
+      },
+      {
+        "id": "C04",
+        "statement": "Every binary XML in every APK was parsed by a chunk-level AXML reader with zero failures."
+      },
+      {
+        "id": "C05",
+        "statement": "resources.arsc contains multiple per-feature resource packages, evidence of dynamic-feature modularisation."
+      },
+      {
+        "id": "C06",
+        "statement": "Locale and density splits carry genuinely localised/qualified resources, not empty placeholders."
+      },
+      {
+        "id": "C07",
+        "statement": "All DEX files pass both the Adler-32 checksum and the SHA-1 signature test in their headers."
+      },
+      {
+        "id": "C08",
+        "statement": "Multidex is bounded by the 65,536 method-reference limit: two DEX files reach ~60,000 method IDs."
+      },
+      {
+        "id": "C09",
+        "statement": "A large fraction of class names are single-letter, consistent with identifier minification."
+      },
+      {
+        "id": "C10",
+        "statement": "The application embeds at least 23 identifiable third-party SDK namespaces in DEX."
+      },
+      {
+        "id": "C11",
+        "statement": "All 27 native libraries are 32-bit ARM ELF shared objects, each with a GNU build-id."
+      },
+      {
+        "id": "C12",
+        "statement": "All five APKs carry APK Signature Scheme v2 and v3 blocks and share exactly one signer certificate."
+      },
+      {
+        "id": "C13",
+        "statement": "Split APKs retain JAR v1 signatures using SHA-1 digests, while the base APK is v2/v3 only."
+      },
+      {
+        "id": "C14",
+        "statement": "A React Native Metro production bundle is embedded in a nested ZIP inside assets."
+      },
+      {
+        "id": "C15",
+        "statement": "The upstream REA tool was run on the extracted JS layer and produced an immutable evidence record."
+      },
+      {
+        "id": "C16",
+        "statement": "The app ships on-device ML assets and a mini-program container, evidenced by format magic and asset layout."
+      },
+      {
+        "id": "C17",
+        "statement": "Build provenance can be reconstructed from 215 version markers without reading any config values."
+      },
+      {
+        "id": "C18",
+        "statement": "Redaction by construction: no config value, key, token, endpoint path or certificate byte is published."
+      }
+    ],
+    "numbers": [
+      {
+        "label": "ZIP MEMBERS",
+        "value": "6,472"
+      },
+      {
+        "label": "NESTED CONTAINERS",
+        "value": "7"
+      },
+      {
+        "label": "BINARY XML FILES",
+        "value": "5,319"
+      },
+      {
+        "label": "DEX CLASSES",
+        "value": "63,827"
+      },
+      {
+        "label": "METHOD IDS",
+        "value": "378,040"
+      },
+      {
+        "label": "CODE UNITS",
+        "value": "17,513,272"
+      },
+      {
+        "label": "ARM LIBRARIES",
+        "value": "27"
+      },
+      {
+        "label": "BUILD-IDS",
+        "value": "27"
+      },
+      {
+        "label": "RESOURCE ENTRIES",
+        "value": "17,985"
+      },
+      {
+        "label": "METRO MODULES",
+        "value": "2,346"
+      }
+    ],
+    "resource_types": {
+      "anim": 88,
+      "animator": 18,
+      "array": 19,
+      "attr": 1834,
+      "bool": 24,
+      "color": 898,
+      "dimen": 797,
+      "drawable": 4057,
+      "font": 14,
+      "id": 4069
+    },
+    "scenes": [
+      {
+        "detail": "ZIP → XAPK v2 → base + 4 splits + icon + manifest",
+        "headline": "ONE ZIP. SEVEN CONTAINERS.",
+        "id": "container"
+      },
+      {
+        "detail": "28,072 elements · 0 parse failures",
+        "headline": "5,319 BINARY XML FILES",
+        "id": "axml"
+      },
+      {
+        "detail": "Dynamic-feature modularisation · en/vi/xhdpi splits",
+        "headline": "13 RESOURCE PACKAGES",
+        "id": "resources"
+      },
+      {
+        "detail": "20 DEX · 378,040 method IDs · all checksums verified",
+        "headline": "63,827 CLASSES",
+        "id": "dex"
+      },
+      {
+        "detail": "57,452,124 bytes · 27 GNU build-IDs · 301 JNI exports",
+        "headline": "27 ARM LIBRARIES",
+        "id": "elf"
+      },
+      {
+        "detail": "v2 + v3 on every split · identical certificate digest",
+        "headline": "ONE SIGNER. FIVE APKs.",
+        "id": "signing"
+      },
+      {
+        "detail": "React Native bundle nested inside assets · 9,783 dependency edges",
+        "headline": "2,346 METRO MODULES",
+        "id": "js"
+      },
+      {
+        "detail": "23 SDK namespaces · 215 version markers",
+        "headline": "A SUPPLY CHAIN IN BYTES",
+        "id": "supply"
+      },
+      {
+        "detail": "Static only · redaction by construction · no secrets published",
+        "headline": "EVIDENCE, NOT EXPLOITATION",
+        "id": "ethics"
+      }
+    ],
+    "subtitle": "A static, byte-level anatomy of ZaloPay 11.17.0",
+    "title": "EVIDENCE / BOUNDARIES",
+    "top_sdks": [
+      {
+        "classes": 110,
+        "name": "android.support"
+      },
+      {
+        "classes": 7128,
+        "name": "androidx"
+      },
+      {
+        "classes": 264,
+        "name": "app.rive"
+      },
+      {
+        "classes": 173,
+        "name": "com.airbnb.lottie"
+      },
+      {
+        "classes": 9607,
+        "name": "com.alibaba"
+      },
+      {
+        "classes": 945,
+        "name": "com.alipay"
+      },
+      {
+        "classes": 754,
+        "name": "com.appsflyer"
+      },
+      {
+        "classes": 197,
+        "name": "com.bumptech.glide"
+      },
+      {
+        "classes": 7138,
+        "name": "com.facebook"
+      },
+      {
+        "classes": 94,
+        "name": "com.facebook.imagepipeline"
+      }
+    ]
+  },
+  "limitations": [
+    "Static analysis of one archived build only; no runtime behaviour is observed or claimed.",
+    "Findings are byte-level structural observations, not vulnerability assessments.",
+    "All sensitive values are redacted by construction; see docs/ETHICS.md.",
+    "Format heuristics and instruction-width tables have documented accuracy limits per reader."
+  ],
+  "metrics": {
+    "binary_formats": {
+      "apk_signing_blocks": 5,
+      "axml_elements": 28072,
+      "axml_files": 5319,
+      "dex_classes": 63827,
+      "dex_code_units": 17513272,
+      "dex_files": 20,
+      "dex_methods": 378040,
+      "elf_bytes": 57452124,
+      "elf_libraries": 27,
+      "resource_entries": 17985,
+      "resource_packages": 13
+    },
+    "corpus": {
+      "containers": 7,
+      "corpus_sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+      "corpus_zip_bytes": 98813878,
+      "uncompressed_bytes": 406542608,
+      "zip_members": 6472
+    },
+    "js_layer": {
+      "metro_dependency_edges": 9783,
+      "metro_modules": 2346,
+      "nested_containers": 4
+    },
+    "surface": {
+      "activities": 200,
+      "min_sdk": 26,
+      "permissions": 49,
+      "providers": 10,
+      "receivers": 22,
+      "services": 34,
+      "target_sdk": 36
+    }
+  },
+  "schema": "rea_lite/report@1",
+  "title": "Evidence-bounded static reverse engineering of ZaloPay 11.17.0 (APKPure XAPK)"
+}

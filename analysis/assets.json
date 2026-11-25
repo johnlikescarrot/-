@@ -1,0 +1,1834 @@
+{
+  "base_apk_assets": {
+    "files_containing_vietnamese_utf8_bytes": 39,
+    "groups_by_count": {
+      "assets/<root>": 23,
+      "assets/Griver": 4,
+      "assets/GriverBridge": 7,
+      "assets/GriverErrorPage": 3,
+      "assets/GriverTheme": 1,
+      "assets/com": 8,
+      "assets/config": 4,
+      "assets/containererrorpage": 2,
+      "assets/containers": 1,
+      "assets/custom_models": 1,
+      "assets/dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be": 1,
+      "assets/dexopt": 2,
+      "assets/fonts": 8,
+      "assets/griverIconDefault": 1,
+      "assets/h5iconfont": 2,
+      "assets/mlkit-google-ocr-models": 21,
+      "assets/mlkit_barcode_models": 3,
+      "assets/mlkit_odt_default_classifier": 1,
+      "assets/mlkit_odt_localizer": 3,
+      "assets/models_bundled": 14,
+      "assets/taxi_images": 9,
+      "assets/theme": 3,
+      "assets/tinyfont": 2
+    },
+    "json_files_parsed_as_shape": 17,
+    "json_shapes": [
+      {
+        "path": "assets/Griver/appx.json",
+        "sha256": "3b7a99da47f6f10d",
+        "shape": {
+          "array_length_buckets": {
+            "1": 7,
+            "3": 1,
+            "4": 3,
+            "8": 3
+          },
+          "key_names_top": {
+            "66666692": 1,
+            "66666693": 1,
+            "68687209": 1,
+            "appId": 3,
+            "appInfo": 3,
+            "appType": 3,
+            "container": 3,
+            "deployVersion": 3,
+            "desc": 3,
+            "downloadType": 3,
+            "extendInfo": 3,
+            "fallbackBaseUrl": 3,
+            "logo": 3,
+            "mainUrl": 3,
+            "mini": 1,
+            "name": 3,
+            "packageUrl": 3,
+            "permissions": 3
+          },
+          "max_depth": 4,
+          "nodes": 47,
+          "string_length_buckets": {
+            "0": 13,
+            "144": 1,
+            "16": 5,
+            "64": 3,
+            "80": 3,
+            "96": 2
+          },
+          "types": {
+            "number": 6,
+            "object": 14,
+            "string": 27
+          }
+        },
+        "size": 2178
+      },
+      {
+        "path": "assets/GriverTheme/theme.json",
+        "sha256": "72432cab511a423b",
+        "shape": {
+          "array_length_buckets": {
+            "2": 1,
+            "7": 2
+          },
+          "key_names_top": {
+            "backButtonColor": 2,
+            "backgroundColor": 2,
+            "closeButtonColor": 2,
+            "containerBackgroundColor": 2,
+            "dark": 1,
+            "light": 1,
+            "optionMenuColor": 2,
+            "titleBarColor": 2,
+            "titleColor": 2
+          },
+          "max_depth": 2,
+          "nodes": 17,
+          "string_length_buckets": {
+            "0": 14
+          },
+          "types": {
+            "object": 3,
+            "string": 14
+          }
+        },
+        "size": 584
+      },
+      {
+        "path": "assets/bundle.json",
+        "sha256": "21c10377141df90d",
+        "shape": {
+          "array_length_buckets": {
+            "1": 1,
+            "2": 2,
+            "6": 1
+          },
+          "key_names_top": {
+            "appid": 1,
+            "appname": 1,
+            "asset": 1,
+            "checksum": 2,
+            "external_bundle": 1,
+            "internal_bundle": 1,
+            "status": 1,
+            "version": 2
+          },
+          "max_depth": 3,
+          "nodes": 12,
+          "string_length_buckets": {
+            "0": 3,
+            "16": 3
+          },
+          "types": {
+            "array": 1,
+            "number": 2,
+            "object": 3,
+            "string": 6
+          }
+        },
+        "size": 312
+      },
+      {
+        "path": "assets/client_tracking.json",
+        "sha256": "17658dcae0a7e7a0",
+        "shape": {
+          "array_length_buckets": {
+            "1": 2,
+            "2": 604,
+            "200": 1,
+            "5": 1,
+            "6": 200,
+            "7": 1,
+            "97": 1
+          },
+          "key_names_top": {
+            "brandPhone": 1,
+            "clientLocation": 200,
+            "customerEmail": 1,
+            "customerId": 1,
+            "customerMobileNo": 1,
+            "customerName": 1,
+            "customerSessionId": 1,
+            "customerTaxAddress": 1,
+            "customerTaxName": 1,
+            "customerTaxNo": 1,
+            "driverAvatar": 1,
+            "driverCode": 1,
+            "driverMobileNo": 1,
+            "driverName": 1,
+            "id": 1,
+            "invoiceSent": 1,
+            "lastLocation": 200,
+            "lat": 602,
+            "lng": 602,
+            "orientation": 200,
+            "partnerTripId": 1,
+            "requestTime": 200,
+            "responseLocation": 200,
+            "responseTime": 200,
+            "trackingKey": 1,
+            "tripDetail": 1,
+            "tripNo": 1,
+            "tripNoRef": 1,
+            "txnId": 1,
+            "userId": 1
+          },
+          "max_depth": 5,
+          "nodes": 2720,
+          "string_length_buckets": {
+            "0": 29,
+            "112": 1,
+            "16": 9,
+            "32": 5,
+            "48": 2,
+            "64": 2,
+            "80": 3,
+            "96": 2
+          },
+          "types": {
+            "array": 4,
+            "boolean": 17,
+            "number": 1840,
+            "object": 806,
+            "string": 53
+          }
+        },
+        "size": 146391
+      },
+      {
+        "path": "assets/config/miniapp_config.json",
+        "sha256": "e69ba84631346485",
+        "shape": {
+          "array_length_buckets": {
+            "1": 7,
+            "2": 361,
+            "200": 1,
+            "22": 200,
+            "3": 6,
+            "4": 496,
+            "8": 200
+          },
+          "key_names_top": {
+            "action_type": 496,
+            "active_web_resource_url": 200,
+            "app_id": 200,
+            "app_logo": 200,
+            "app_name": 200,
+            "base_url": 200,
+            "category_name": 200,
+            "created_at": 200,
+            "deep_link": 200,
+            "description": 200,
+            "is_active": 200,
+            "is_hide_bottom_area": 200,
+            "is_open_browser": 200,
+            "is_persist_content": 200,
+            "is_show_ads": 200,
+            "is_web_v1": 200,
+            "legacy_app_id": 200,
+            "logo": 496,
+            "name": 496,
+            "nav_bar": 200,
+            "one_link": 200,
+            "page_orientation_config": 200,
+            "path": 200,
+            "show_favorite": 200,
+            "show_menu": 200,
+            "status_bar_mode": 200,
+            "title_color": 200,
+            "type": 200,
+            "updated_at": 200,
+            "value": 496
+          },
+          "max_depth": 6,
+          "nodes": 8932,
+          "string_length_buckets": {
+            "0": 2730,
+            "112": 38,
+            "128": 8,
+            "144": 1,
+            "16": 918,
+            "160": 2,
+            "176": 1,
+            "208": 2,
+            "224": 22,
+            "240": 35,
+            "256": 30,
+            "272": 17,
+            "288": 10,
+            "304": 6,
+            "32": 591,
+            "48": 57,
+            "64": 607,
+            "80": 84,
+            "96": 26
+          },
+          "types": {
+            "array": 374,
+            "boolean": 1600,
+            "null": 75,
+            "number": 801,
+            "object": 897,
+            "string": 5185
+          }
+        },
+        "size": 883684
+      },
+      {
+        "path": "assets/config/zalopay_config.json",
+        "sha256": "740c82f914bd6399",
+        "shape": {
+          "array_length_buckets": {
+            "0": 25,
+            "1": 156,
+            "10": 3,
+            "11": 1,
+            "12": 2,
+            "13": 3,
+            "14": 4,
+            "15": 3,
+            "16": 1,
+            "18": 1,
+            "2": 341,
+            "26": 1,
+            "28": 2,
+            "3": 235,
+            "4": 32,
+            "5": 28,
+            "6": 116,
+            "7": 8,
+            "8": 2,
+            "9": 4
+          },
+          "key_names_top": {
+            "account": 18,
+            "action_menu_mode": 98,
+            "app_id": 111,
+            "appid": 39,
+            "auto_switch_length": 15,
+            "bank_code": 46,
+            "bank_name_display": 43,
+            "bank_name_for_filter": 43,
+            "card": 18,
+            "close": 98,
+            "config_name": 29,
+            "favorite": 98,
+            "fsm": 98,
+            "get_app_user_info": 28,
+            "get_user_info": 28,
+            "max": 15,
+            "message": 31,
+            "method": 46,
+            "min": 16,
+            "mini_program_control": 98,
+            "more": 98,
+            "path": 98,
+            "patterns": 15,
+            "regex": 21,
+            "reload_content": 98,
+            "sender": 15,
+            "service": 46,
+            "url_regex": 15,
+            "valid_length": 15,
+            "value": 29
+          },
+          "max_depth": 8,
+          "nodes": 3349,
+          "string_length_buckets": {
+            "0": 671,
+            "112": 4,
+            "128": 1,
+            "144": 3,
+            "16": 239,
+            "160": 2,
+            "208": 1,
+            "224": 1,
+            "32": 62,
+            "48": 37,
+            "480": 1,
+            "512": 1,
+            "64": 13,
+            "80": 6,
+            "96": 1
+          },
+          "types": {
+            "array": 313,
+            "boolean": 466,
+            "number": 863,
+            "object": 664,
+            "string": 1043
+          }
+        },
+        "size": 105659
+      },
+      {
+        "path": "assets/containers/GTM-PC9W5BW.json",
+        "sha256": "5b739372c14abdb4",
+        "shape": {
+          "array_length_buckets": {
+            "1": 46,
+            "12": 1,
+            "14": 1,
+            "19": 1,
+            "2": 308,
+            "3": 194,
+            "4": 88,
+            "49": 1,
+            "5": 18,
+            "7": 5,
+            "8": 1,
+            "9": 2
+          },
+          "key_names_top": {
+            "arg0": 1,
+            "arg1": 1,
+            "fingerprint": 1,
+            "function": 7,
+            "instance_name": 5,
+            "macros": 1,
+            "once_per_event": 1,
+            "predicates": 1,
+            "resource": 1,
+            "rules": 1,
+            "runtime": 1,
+            "tag_id": 1,
+            "tags": 1,
+            "version": 1,
+            "vtp_action": 1,
+            "vtp_editParamTable": 1,
+            "vtp_eventName": 1,
+            "vtp_mergeEventParameters": 1
+          },
+          "max_depth": 15,
+          "nodes": 1842,
+          "string_length_buckets": {
+            "0": 480,
+            "16": 28,
+            "32": 3,
+            "48": 1,
+            "64": 1
+          },
+          "types": {
+            "array": 657,
+            "boolean": 12,
+            "number": 649,
+            "object": 9,
+            "string": 513
+          }
+        },
+        "size": 7702
+      },
+      {
+        "path": "assets/fonts/zalopay.json",
+        "sha256": "9af2f6bf0b740313",
+        "shape": {
+          "array_length_buckets": {
+            "0": 3,
+            "1": 676,
+            "11": 1,
+            "2": 60,
+            "200": 1,
+            "25": 1,
+            "27": 1,
+            "28": 1,
+            "3": 283,
+            "4": 49,
+            "5": 3,
+            "6": 3,
+            "7": 1,
+            "8": 2,
+            "9": 3
+          },
+          "key_names_top": {
+            "UpRace": 1,
+            "app_shopping": 1,
+            "code": 304,
+            "codes": 35,
+            "colors": 304,
+            "fee": 1,
+            "fill": 440,
+            "ic_mail": 1,
+            "ic_sendingmail": 1,
+            "ic_support_done": 1,
+            "icon_notice": 1,
+            "intro-transfer": 1,
+            "kyc_camera": 1,
+            "kyc_del": 1,
+            "kyc_zoom": 1,
+            "limit": 1,
+            "mail_box": 1,
+            "opacity": 2,
+            "question_support": 1,
+            "rawcode": 304,
+            "recharge": 1,
+            "resetpass_forget": 1,
+            "support-bank": 1,
+            "support_center": 1,
+            "token_link": 1,
+            "ttht_account": 1,
+            "ttht_arrow": 1,
+            "ttht_mail": 1,
+            "ttht_send_success": 1,
+            "ttht_trungtamhotro": 1
+          },
+          "max_depth": 4,
+          "nodes": 2320,
+          "string_length_buckets": {
+            "0": 337,
+            "16": 407
+          },
+          "types": {
+            "array": 339,
+            "number": 488,
+            "object": 749,
+            "string": 744
+          }
+        },
+        "size": 70880
+      },
+      {
+        "path": "assets/home_data.json",
+        "sha256": "0a6b0afe13690ff2",
+        "shape": {
+          "array_length_buckets": {
+            "0": 1,
+            "1": 28,
+            "12": 1,
+            "13": 1,
+            "2": 1,
+            "4": 1,
+            "5": 5,
+            "6": 29,
+            "8": 1
+          },
+          "key_names_top": {
+            "active": 4,
+            "ads_slider": 1,
+            "app_profiles": 4,
+            "avatar": 1,
+            "badge": 29,
+            "balance": 1,
+            "bottom_bar": 1,
+            "display_name": 33,
+            "header_banner_image": 1,
+            "header_banner_url": 1,
+            "highlight": 1,
+            "icon": 29,
+            "id": 33,
+            "metadata": 1,
+            "position": 4,
+            "reminder": 1,
+            "screen_id": 1,
+            "security_image": 1,
+            "shortcut_bar": 1,
+            "third_party": 1,
+            "tracking_id": 29,
+            "type": 29,
+            "url": 29,
+            "value": 1
+          },
+          "max_depth": 5,
+          "nodes": 267,
+          "string_length_buckets": {
+            "0": 91,
+            "16": 34,
+            "32": 1,
+            "48": 3,
+            "64": 25,
+            "80": 2
+          },
+          "types": {
+            "array": 4,
+            "boolean": 6,
+            "number": 37,
+            "object": 64,
+            "string": 156
+          }
+        },
+        "size": 9417
+      },
+      {
+        "path": "assets/safemode_registrator_com_iap_ac_config.json",
+        "sha256": "7369e6fce29a5658",
+        "shape": {
+          "array_length_buckets": {
+            "1": 1
+          },
+          "key_names_top": {
+            "classname": 1
+          },
+          "max_depth": 1,
+          "nodes": 2,
+          "string_length_buckets": {
+            "48": 1
+          },
+          "types": {
+            "object": 1,
+            "string": 1
+          }
+        },
+        "size": 80
+      },
+      {
+        "path": "assets/taibmcf.json",
+        "sha256": "276833c96dde3cee",
+        "shape": {
+          "array_length_buckets": {
+            "2": 1
+          },
+          "key_names_top": {
+            "en": 1,
+            "vi": 1
+          },
+          "max_depth": 1,
+          "nodes": 3,
+          "string_length_buckets": {
+            "0": 2
+          },
+          "types": {
+            "object": 1,
+            "string": 2
+          }
+        },
+        "size": 46
+      },
+      {
+        "path": "assets/taxi_splash_loading.json",
+        "sha256": "c68296d32ff394e1",
+        "shape": {
+          "array_length_buckets": {
+            "0": 1,
+            "1": 296,
+            "10": 42,
+            "11": 17,
+            "12": 278,
+            "13": 16,
+            "14": 3,
+            "16": 5,
+            "17": 13,
+            "18": 3,
+            "2": 6341,
+            "22": 6,
+            "24": 3,
+            "3": 4700,
+            "4": 1566,
+            "5": 381,
+            "6": 34,
+            "7": 232,
+            "8": 423,
+            "9": 602
+          },
+          "key_names_top": {
+            "a": 4984,
+            "ao": 280,
+            "bm": 819,
+            "c": 474,
+            "cix": 269,
+            "ddd": 281,
+            "hd": 860,
+            "i": 211,
+            "ind": 475,
+            "ip": 281,
+            "it": 269,
+            "ix": 4899,
+            "k": 4435,
+            "ks": 475,
+            "l": 840,
+            "mn": 860,
+            "nm": 1428,
+            "np": 269,
+            "o": 1039,
+            "op": 281,
+            "p": 675,
+            "r": 931,
+            "s": 682,
+            "sa": 269,
+            "shapes": 271,
+            "sk": 269,
+            "sr": 280,
+            "st": 280,
+            "ty": 1409,
+            "v": 205
+          },
+          "max_depth": 13,
+          "nodes": 52327,
+          "string_length_buckets": {
+            "0": 2459,
+            "16": 986
+          },
+          "types": {
+            "array": 8630,
+            "boolean": 1082,
+            "number": 32797,
+            "object": 6373,
+            "string": 3445
+          }
+        },
+        "size": 536057
+      },
+      {
+        "path": "assets/theme/bank/bank_resource.json",
+        "sha256": "bf584e41fde15aaf",
+        "shape": {
+          "array_length_buckets": {
+            "1": 35,
+            "2": 43,
+            "20": 1,
+            "26": 1,
+            "3": 9,
+            "37": 1,
+            "4": 15,
+            "5": 2
+          },
+          "key_names_top": {
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "_comment_1": 1,
+            "_comment_2": 1,
+            "action": 8,
+            "condition": 20,
+            "description": 8,
+            "function_url": 8,
+            "functions": 7,
+            "group_id": 22,
+            "guide": 2,
+            "item_id": 8,
+            "keys": 20,
+            "resource_bank": 1,
+            "resource_group": 1
+          },
+          "max_depth": 6,
+          "nodes": 302,
+          "string_length_buckets": {
+            "0": 137,
+            "112": 1,
+            "128": 3,
+            "144": 1,
+            "16": 9,
+            "192": 2,
+            "224": 1,
+            "240": 1,
+            "32": 3,
+            "48": 13,
+            "64": 8,
+            "80": 6,
+            "96": 2
+          },
+          "types": {
+            "array": 54,
+            "number": 8,
+            "object": 53,
+            "string": 187
+          }
+        },
+        "size": 11339
+      },
+      {
+        "path": "assets/theme/bank/config_v2.json",
+        "sha256": "258535cabe5cb6d8",
+        "shape": {
+          "array_length_buckets": {
+            "1": 38,
+            "2": 44,
+            "22": 1,
+            "26": 1,
+            "3": 7,
+            "35": 1,
+            "4": 17,
+            "5": 1
+          },
+          "key_names_top": {
+            "01": 1,
+            "02": 1,
+            "03": 1,
+            "04": 1,
+            "05": 1,
+            "06": 1,
+            "07": 1,
+            "08": 1,
+            "09": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "17": 1,
+            "_comment_1": 1,
+            "_comment_2": 1,
+            "action": 7,
+            "condition": 22,
+            "config": 1,
+            "default": 1,
+            "description": 7,
+            "function": 6,
+            "function_url": 7,
+            "group_id": 23,
+            "guide": 1,
+            "item_groups": 1,
+            "item_id": 7,
+            "key_list": 22
+          },
+          "max_depth": 6,
+          "nodes": 304,
+          "string_length_buckets": {
+            "0": 140,
+            "112": 3,
+            "128": 3,
+            "144": 1,
+            "16": 6,
+            "192": 2,
+            "224": 2,
+            "240": 1,
+            "32": 3,
+            "48": 12,
+            "64": 5,
+            "80": 7,
+            "96": 2
+          },
+          "types": {
+            "array": 55,
+            "number": 7,
+            "object": 55,
+            "string": 187
+          }
+        },
+        "size": 11573
+      },
+      {
+        "path": "assets/theme/bank/ui_config.json",
+        "sha256": "1efac77f60bba109",
+        "shape": {
+          "array_length_buckets": {
+            "119": 1,
+            "2": 1,
+            "4": 99,
+            "5": 20
+          },
+          "key_names_top": {
+            "_comment": 1,
+            "bank_styles": 1,
+            "end_color": 119,
+            "icon_name": 119,
+            "key": 119,
+            "name": 6,
+            "on_card_icon": 14,
+            "start_color": 119
+          },
+          "max_depth": 3,
+          "nodes": 618,
+          "string_length_buckets": {
+            "0": 492,
+            "16": 4,
+            "64": 1
+          },
+          "types": {
+            "array": 1,
+            "object": 120,
+            "string": 497
+          }
+        },
+        "size": 15430
+      },
+      {
+        "path": "assets/timezone2region_2023c.json",
+        "sha256": "5a8407b1dd33bdf0",
+        "shape": {
+          "array_length_buckets": {
+            "200": 1
+          },
+          "key_names_top": {
+            "Africa/Luanda": 1,
+            "America/Anguilla": 1,
+            "America/Antigua": 1,
+            "America/Argentina/Buenos_Aires": 1,
+            "America/Argentina/Catamarca": 1,
+            "America/Argentina/Cordoba": 1,
+            "America/Argentina/Jujuy": 1,
+            "America/Argentina/La_Rioja": 1,
+            "America/Argentina/Mendoza": 1,
+            "America/Argentina/Rio_Gallegos": 1,
+            "America/Argentina/Salta": 1,
+            "America/Argentina/San_Juan": 1,
+            "America/Argentina/San_Luis": 1,
+            "America/Argentina/Tucuman": 1,
+            "America/Argentina/Ushuaia": 1,
+            "Antarctica/Casey": 1,
+            "Antarctica/Davis": 1,
+            "Antarctica/DumontDUrville": 1,
+            "Antarctica/Mawson": 1,
+            "Antarctica/McMurdo": 1,
+            "Antarctica/Palmer": 1,
+            "Antarctica/Rothera": 1,
+            "Antarctica/Syowa": 1,
+            "Antarctica/Troll": 1,
+            "Antarctica/Vostok": 1,
+            "Asia/Dubai": 1,
+            "Asia/Kabul": 1,
+            "Asia/Yerevan": 1,
+            "Europe/Andorra": 1,
+            "Europe/Tirane": 1
+          },
+          "max_depth": 1,
+          "nodes": 419,
+          "string_length_buckets": {
+            "0": 418
+          },
+          "types": {
+            "object": 1,
+            "string": 418
+          }
+        },
+        "size": 11067
+      },
+      {
+        "path": "assets/vdfmoer.json",
+        "sha256": "276833c96dde3cee",
+        "shape": {
+          "array_length_buckets": {
+            "2": 1
+          },
+          "key_names_top": {
+            "en": 1,
+            "vi": 1
+          },
+          "max_depth": 1,
+          "nodes": 3,
+          "string_length_buckets": {
+            "0": 2
+          },
+          "types": {
+            "object": 1,
+            "string": 2
+          }
+        },
+        "size": 46
+      }
+    ],
+    "model_and_media_payloads": [
+      {
+        "entropy_first_64k": 7.0382,
+        "magic": "opaque-or-text",
+        "path": "assets/FastestDet.ncnn.bin",
+        "sha256": "ee8e29ed0889be18",
+        "size": 2420588
+      },
+      {
+        "entropy_first_64k": 3.451,
+        "magic": "opaque-or-text",
+        "path": "assets/FastestDet.ncnn.param",
+        "sha256": "8b659855f15bec83",
+        "size": 15293
+      },
+      {
+        "entropy_first_64k": 7.9963,
+        "magic": "zip",
+        "path": "assets/Griver/66666692_1.24.8.amr",
+        "sha256": "02b7cf32e5e71d62",
+        "size": 287535
+      },
+      {
+        "entropy_first_64k": 7.9807,
+        "magic": "zip",
+        "path": "assets/Griver/66666693_2.0.7.amr",
+        "sha256": "212c15df244230e3",
+        "size": 17380
+      },
+      {
+        "entropy_first_64k": 7.9966,
+        "magic": "zip",
+        "path": "assets/Griver/68687209_2.9.7.8.amr",
+        "sha256": "3e67a09c8d76338c",
+        "size": 856974
+      },
+      {
+        "entropy_first_64k": 7.7848,
+        "magic": "opaque-or-text",
+        "path": "assets/bshield.dat",
+        "sha256": "b1750911acee6d39",
+        "size": 929
+      },
+      {
+        "entropy_first_64k": 6.7483,
+        "magic": "opaque-or-text",
+        "path": "assets/custom_models/object_labeler.tflite",
+        "sha256": "9400671e04685f52",
+        "size": 3770391
+      },
+      {
+        "entropy_first_64k": 7.9656,
+        "magic": "art-baseline-profile",
+        "path": "assets/dexopt/baseline.prof",
+        "sha256": "bc8fc048bab81b9a",
+        "size": 18503
+      },
+      {
+        "entropy_first_64k": 7.8839,
+        "magic": "opaque-or-text",
+        "path": "assets/dexopt/baseline.profm",
+        "sha256": "614658814ea66764",
+        "size": 1909
+      },
+      {
+        "entropy_first_64k": 7.9972,
+        "magic": "opaque-or-text",
+        "path": "assets/fgcpkjvqe.dat",
+        "sha256": "cb8c0211e579f103",
+        "size": 776320
+      },
+      {
+        "entropy_first_64k": 6.5581,
+        "magic": "truetype-font",
+        "path": "assets/fonts/Roboto-Bold.ttf",
+        "sha256": "a073f449858a3f03",
+        "size": 170064
+      },
+      {
+        "entropy_first_64k": 6.8695,
+        "magic": "truetype-font",
+        "path": "assets/fonts/Roboto-Medium.ttf",
+        "sha256": "6e2ec5c5f89e4ce3",
+        "size": 127488
+      },
+      {
+        "entropy_first_64k": 6.8918,
+        "magic": "truetype-font",
+        "path": "assets/fonts/Roboto-Regular.ttf",
+        "sha256": "bde8a188e37aa936",
+        "size": 126072
+      },
+      {
+        "entropy_first_64k": 6.4726,
+        "magic": "truetype-font",
+        "path": "assets/fonts/UnisectVnu.ttf",
+        "sha256": "a53d8ae65b7ca6af",
+        "size": 48216
+      },
+      {
+        "entropy_first_64k": 6.4726,
+        "magic": "truetype-font",
+        "path": "assets/fonts/ocr-a-tribute.ttf",
+        "sha256": "a53d8ae65b7ca6af",
+        "size": 48216
+      },
+      {
+        "entropy_first_64k": 6.5795,
+        "magic": "truetype-font",
+        "path": "assets/fonts/true_font.ttf",
+        "sha256": "9d0d55a303bfd13b",
+        "size": 168644
+      },
+      {
+        "entropy_first_64k": 6.1366,
+        "magic": "truetype-font",
+        "path": "assets/fonts/zalopay.ttf",
+        "sha256": "d6b2bdd7107fcc09",
+        "size": 143944
+      },
+      {
+        "entropy_first_64k": 6.4651,
+        "magic": "truetype-font",
+        "path": "assets/griverIconDefault/default.ttf",
+        "sha256": "f0f38ae010465c44",
+        "size": 28000
+      },
+      {
+        "entropy_first_64k": 4.7608,
+        "magic": "truetype-font",
+        "path": "assets/h5iconfont/h5titlebar.ttf",
+        "sha256": "1a0a0fb4d4ffd079",
+        "size": 2300
+      },
+      {
+        "entropy_first_64k": 6.0034,
+        "magic": "truetype-font",
+        "path": "assets/h5iconfont/titlebar.ttf",
+        "sha256": "4cfed842deb4dc40",
+        "size": 5016
+      },
+      {
+        "entropy_first_64k": 5.3402,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+        "sha256": "b2963b78c7e55fdf",
+        "size": 276
+      },
+      {
+        "entropy_first_64k": 5.3311,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+        "sha256": "d448c5de8d480d49",
+        "size": 278
+      },
+      {
+        "entropy_first_64k": 5.0737,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/assets.extra/LabelMap.pb",
+        "sha256": "c6d345043a561f9d",
+        "size": 3809
+      },
+      {
+        "entropy_first_64k": 6.8034,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/conv_model.fb",
+        "sha256": "64aba719b4ed1ee5",
+        "size": 40848
+      },
+      {
+        "entropy_first_64k": 3.6378,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+        "sha256": "0ed62e4fbe0fc5c4",
+        "size": 309568
+      },
+      {
+        "entropy_first_64k": 5.4119,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+        "sha256": "a1dce9a376905a59",
+        "size": 333
+      },
+      {
+        "entropy_first_64k": 6.1476,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+        "sha256": "7f931f6f7c1dd0ec",
+        "size": 315520
+      },
+      {
+        "entropy_first_64k": 6.711,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+        "sha256": "ecda697ed244c576",
+        "size": 129612
+      },
+      {
+        "entropy_first_64k": 6.4967,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+        "sha256": "f42197e656972c33",
+        "size": 114384
+      },
+      {
+        "entropy_first_64k": 5.6294,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/taser/detector/region_proposal_text_detector_tflite_vertical_mbv2_v1.bincfg",
+        "sha256": "7ac2d4c04fb2fe0c",
+        "size": 452
+      },
+      {
+        "entropy_first_64k": 7.3566,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+        "sha256": "eb811a1290738f13",
+        "size": 340760
+      },
+      {
+        "entropy_first_64k": 4.7048,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/taser/rpn_text_detection_tflite_mobile_mbv2.binarypb",
+        "sha256": "86660be29934bdd1",
+        "size": 194
+      },
+      {
+        "entropy_first_64k": 5.4841,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.bincfg",
+        "sha256": "d4223c23cd8ee3d3",
+        "size": 1118
+      },
+      {
+        "entropy_first_64k": 4.5993,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/taser/taser_script_identification_tflite_mobile.binarypb",
+        "sha256": "a3ebf2720f86e144",
+        "size": 136
+      },
+      {
+        "entropy_first_64k": 5.6525,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+        "sha256": "78210a92ad8ff692",
+        "size": 13178
+      },
+      {
+        "entropy_first_64k": 5.6528,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+        "sha256": "bfd6e9cb8ed0536d",
+        "size": 13183
+      },
+      {
+        "entropy_first_64k": 5.0604,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_recognizer.binarypb",
+        "sha256": "e80538539371576a",
+        "size": 233
+      },
+      {
+        "entropy_first_64k": 5.1054,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner.binarypb",
+        "sha256": "32c2c1b72ba32605",
+        "size": 331
+      },
+      {
+        "entropy_first_64k": 5.101,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner_ti.binarypb",
+        "sha256": "2c8581869ebb972a",
+        "size": 334
+      },
+      {
+        "entropy_first_64k": 6.4748,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+        "sha256": "6c7b209f4256ca45",
+        "size": 390456
+      },
+      {
+        "entropy_first_64k": 5.5447,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+        "sha256": "8e07cd3b38da1ded",
+        "size": 213880
+      },
+      {
+        "entropy_first_64k": 6.541,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+        "sha256": "981c89dcca6aac10",
+        "size": 276552
+      },
+      {
+        "entropy_first_64k": 7.6943,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+        "sha256": "479cb95767462b2f",
+        "size": 1706957
+      },
+      {
+        "entropy_first_64k": 7.7825,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+        "sha256": "fb5e5188b03c3bc0",
+        "size": 1254848
+      },
+      {
+        "entropy_first_64k": 4.3394,
+        "magic": "opaque-or-text",
+        "path": "assets/mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+        "sha256": "9932a0b82471e50d",
+        "size": 153000
+      },
+      {
+        "entropy_first_64k": 6.3608,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/BCLjoy_200.emd",
+        "sha256": "f00f25644a628e73",
+        "size": 17916
+      },
+      {
+        "entropy_first_64k": 6.0569,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/BCLlefteyeclosed_200.emd",
+        "sha256": "d31213e4f25ff8b2",
+        "size": 8630
+      },
+      {
+        "entropy_first_64k": 6.0339,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/BCLrighteyeclosed_200.emd",
+        "sha256": "63ca0bd838e51977",
+        "size": 8655
+      },
+      {
+        "entropy_first_64k": 6.9222,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/LMprec_600.emd",
+        "sha256": "0ed5c85282f940d1",
+        "size": 1078354
+      },
+      {
+        "entropy_first_64k": 5.2631,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/MFT_fssd_accgray.pb",
+        "sha256": "f0adb04d7b21b4d9",
+        "size": 793
+      },
+      {
+        "entropy_first_64k": 5.2666,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/MFT_fssd_fastgray.pb",
+        "sha256": "0943425df1b350e0",
+        "size": 792
+      },
+      {
+        "entropy_first_64k": 6.9382,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+        "sha256": "57dc1f2a3b9c0c5d",
+        "size": 231816
+      },
+      {
+        "entropy_first_64k": 6.9071,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+        "sha256": "d8abae91b0e0af52",
+        "size": 232096
+      },
+      {
+        "entropy_first_64k": 3.3328,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/fssd_anchors_v2.pb",
+        "sha256": "7516ed46c04ab0fb",
+        "size": 146
+      },
+      {
+        "entropy_first_64k": 3.5691,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/fssd_anchors_v5.pb",
+        "sha256": "5390cab6b491eb32",
+        "size": 144
+      },
+      {
+        "entropy_first_64k": 6.9227,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+        "sha256": "f0590874fd3a006c",
+        "size": 613080
+      },
+      {
+        "entropy_first_64k": 6.93,
+        "magic": "opaque-or-text",
+        "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+        "sha256": "ae2fa78e29441438",
+        "size": 613352
+      },
+      {
+        "entropy_first_64k": 7.9756,
+        "magic": "opaque-or-text",
+        "path": "assets/taibmcf.dat",
+        "sha256": "392c01d84cc770b0",
+        "size": 8307
+      },
+      {
+        "entropy_first_64k": 6.2841,
+        "magic": "truetype-font",
+        "path": "assets/tinyfont/iconfont.ttf",
+        "sha256": "209f6617fdf5be8d",
+        "size": 9780
+      },
+      {
+        "entropy_first_64k": 6.0034,
+        "magic": "truetype-font",
+        "path": "assets/tinyfont/titlebar.ttf",
+        "sha256": "4cfed842deb4dc40",
+        "size": 5016
+      }
+    ],
+    "model_counts_by_magic": {
+      "art-baseline-profile": 1,
+      "opaque-or-text": 44,
+      "truetype-font": 12,
+      "zip": 3
+    },
+    "ncnn_param_headers": [
+      {
+        "blob_count": 198,
+        "layer_count": 172,
+        "magic_line": "7767517",
+        "path": "assets/FastestDet.ncnn.param"
+      }
+    ],
+    "sensitive_or_config_files": [
+      {
+        "magic": "opaque-or-text",
+        "path": "assets/bshield.dat",
+        "policy": "content deliberately not published; shape only",
+        "sha256": "b1750911acee6d39",
+        "size": 929
+      },
+      {
+        "magic": "opaque-or-text",
+        "path": "assets/config/miniapp_config.json",
+        "policy": "content deliberately not published; shape only",
+        "sha256": "e69ba84631346485",
+        "size": 883684
+      },
+      {
+        "magic": "opaque-or-text",
+        "path": "assets/config/public_key.txt",
+        "policy": "content deliberately not published; shape only",
+        "sha256": "ab63708a7b557a13",
+        "size": 450
+      },
+      {
+        "magic": "opaque-or-text",
+        "path": "assets/config/signature.txt",
+        "policy": "content deliberately not published; shape only",
+        "sha256": "fd7abb1a0d62a50a",
+        "size": 350
+      },
+      {
+        "magic": "opaque-or-text",
+        "path": "assets/config/zalopay_config.json",
+        "policy": "content deliberately not published; shape only",
+        "sha256": "740c82f914bd6399",
+        "size": 105659
+      },
+      {
+        "magic": "opaque-or-text",
+        "path": "assets/fgcpkjvqe.dat",
+        "policy": "content deliberately not published; shape only",
+        "sha256": "cb8c0211e579f103",
+        "size": 776320
+      },
+      {
+        "magic": "opaque-or-text",
+        "path": "assets/iapconnect_config_full",
+        "policy": "content deliberately not published; shape only",
+        "sha256": "b6a55625c4866bfa",
+        "size": 1688
+      },
+      {
+        "magic": "opaque-or-text",
+        "path": "assets/safemode_registrator_com_iap_ac_config.json",
+        "policy": "content deliberately not published; shape only",
+        "sha256": "7369e6fce29a5658",
+        "size": 80
+      },
+      {
+        "magic": "opaque-or-text",
+        "path": "assets/taibmcf.dat",
+        "policy": "content deliberately not published; shape only",
+        "sha256": "392c01d84cc770b0",
+        "size": 8307
+      },
+      {
+        "magic": "opaque-or-text",
+        "path": "assets/theme/bank/config_v2.json",
+        "policy": "content deliberately not published; shape only",
+        "sha256": "258535cabe5cb6d8",
+        "size": 11573
+      },
+      {
+        "magic": "opaque-or-text",
+        "path": "assets/theme/bank/ui_config.json",
+        "policy": "content deliberately not published; shape only",
+        "sha256": "1efac77f60bba109",
+        "size": 15430
+      }
+    ]
+  },
+  "limits": [
+    "JSON files are reported as key-name/type/length histograms; NO config values are published.",
+    "Config/key/opaque files appear only as path + size + SHA-256 + magic; contents are never copied.",
+    "Format identification is magic-number based, not full schema validation.",
+    "No opaque/protected payload was decrypted, executed or unpacked beyond ZIP structure."
+  ],
+  "member_classification": {
+    "by_extension": {
+      ".a": 1,
+      ".amr": 3,
+      ".apk": 5,
+      ".arsc": 4,
+      ".bin": 2,
+      ".binarypb": 10,
+      ".bincfg": 2,
+      ".c": 1,
+      ".conv_model": 1,
+      ".d": 2,
+      ".dat": 3,
+      ".dex": 20,
+      ".emd": 4,
+      ".fb": 2,
+      ".g": 1,
+      ".generatedextensionregistryloader": 1,
+      ".gif": 5,
+      ".h": 3,
+      ".html": 9,
+      ".j": 1,
+      ".jpg": 2,
+      ".js": 9,
+      ".json": 65,
+      ".kotlin_builtins": 8,
+      ".kotlin_module": 11,
+      ".l": 1,
+      ".lstm_model": 1,
+      ".m": 2,
+      ".md": 2,
+      ".mf": 4,
+      ".mp3": 2,
+      ".otf": 2,
+      ".p": 1,
+      ".param": 1,
+      ".pb": 6,
+      ".pem": 1,
+      ".png": 319,
+      ".processor": 1,
+      ".processors": 1,
+      ".prof": 1,
+      ".profm": 1,
+      ".properties": 79,
+      ".proto": 10,
+      ".provider": 1,
+      ".riv": 4,
+      ".rsa": 4,
+      ".sf": 4,
+      ".so": 28,
+      ".svg": 2,
+      ".textproto": 1,
+      ".tfl": 2,
+      ".tflite": 14,
+      ".ttf": 23,
+      ".txt": 136,
+      ".version": 141,
+      ".webp": 159,
+      ".xapk": 1,
+      ".xml": 5320,
+      ".zip": 1,
+      "<none>": 18
+    },
+    "by_top_level_path": {
+      "<root>": 115,
+      "META-INF": 192,
+      "assets": 124,
+      "google": 9,
+      "junit": 2,
+      "kotlin": 8,
+      "lib": 27,
+      "okhttp3": 2,
+      "org": 136,
+      "res": 5856,
+      "vn": 1
+    },
+    "entropy_histogram": {
+      "1.0..1.5": 5,
+      "1.5..2.0": 47,
+      "2.0..2.5": 98,
+      "2.5..3.0": 6,
+      "3.0..3.5": 388,
+      "3.5..4.0": 2372,
+      "4.0..4.5": 1427,
+      "4.5..5.0": 1489,
+      "5.0..5.5": 52,
+      "5.5..6.0": 36,
+      "6.0..6.5": 53,
+      "6.5..7.0": 65,
+      "7.0..7.5": 67,
+      "7.5..8.0": 367
+    },
+    "largest_40_members": [
+      {
+        "container": "outer-zip",
+        "entropy": 7.9925,
+        "path": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.xapk",
+        "sha256_short": "686e9459da646c18",
+        "size": 105608128
+      },
+      {
+        "container": "xapk-bundle",
+        "entropy": 7.9926,
+        "path": "vn.com.vng.zalopay.apk",
+        "sha256_short": "e289d547b45f6224",
+        "size": 79359087
+      },
+      {
+        "container": "xapk-bundle",
+        "entropy": 7.9583,
+        "path": "config.armeabi_v7a.apk",
+        "sha256_short": "456aa08f4fa2e3f9",
+        "size": 24828408
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.1478,
+        "path": "classes2.dex",
+        "sha256_short": "af4987a99dd7bb69",
+        "size": 16516960
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 3.7618,
+        "path": "lib/armeabi-v7a/libtaibmcf.so",
+        "sha256_short": "0fba080d0364fc0f",
+        "size": 12617752
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.0731,
+        "path": "classes7.dex",
+        "sha256_short": "5f356407a685dbe3",
+        "size": 10803680
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.0894,
+        "path": "classes4.dex",
+        "sha256_short": "77eb2deb3c18c0a5",
+        "size": 9418124
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.0659,
+        "path": "classes.dex",
+        "sha256_short": "4572f052124fb4eb",
+        "size": 8831004
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.0745,
+        "path": "classes6.dex",
+        "sha256_short": "1484dd8a338f8526",
+        "size": 7612432
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.1461,
+        "path": "classes5.dex",
+        "sha256_short": "c6fdc65622c1855a",
+        "size": 7357484
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 3.9742,
+        "path": "lib/armeabi-v7a/libmlkitcommonpipeline.so",
+        "sha256_short": "9ab65cd53ed8334f",
+        "size": 6928228
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 3.9682,
+        "path": "lib/armeabi-v7a/libmlkit_google_ocr_pipeline.so",
+        "sha256_short": "06b9e2f587e401c6",
+        "size": 6781940
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 3.7425,
+        "path": "lib/armeabi-v7a/libfgcpkjvqe.so",
+        "sha256_short": "5f72893936adfe71",
+        "size": 6524160
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 3.6779,
+        "path": "lib/armeabi-v7a/libface_detector_v2_jni.so",
+        "sha256_short": "21e48bd253e1c87e",
+        "size": 5388224
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.159,
+        "path": "assets/audience_network.dex",
+        "sha256_short": "10dc305fb2869db2",
+        "size": 4864036
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 7.996,
+        "path": "assets/android.1.zip",
+        "sha256_short": "e5358e94d6938eb1",
+        "size": 3913966
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 4.0078,
+        "path": "res/raw/lbfmodel.yaml",
+        "sha256_short": "fd547ca1efe6784c",
+        "size": 3778896
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.7483,
+        "path": "assets/custom_models/object_labeler.tflite",
+        "sha256_short": "9400671e04685f52",
+        "size": 3770391
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 4.7079,
+        "path": "lib/armeabi-v7a/libsqlcipher.so",
+        "sha256_short": "819c11750f332a8c",
+        "size": 3555080
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 4.2499,
+        "path": "lib/armeabi-v7a/libbarhopper_v3.so",
+        "sha256_short": "b3c162c69e4906b8",
+        "size": 3244440
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 4.5868,
+        "path": "lib/armeabi-v7a/librive-android.so",
+        "sha256_short": "ab2dd352553cafb7",
+        "size": 3225636
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 4.9295,
+        "path": "lib/armeabi-v7a/libpicodet_ncnn.so",
+        "sha256_short": "442367c2e7f3e5b5",
+        "size": 2992584
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 7.0382,
+        "path": "assets/FastestDet.ncnn.bin",
+        "sha256_short": "ee8e29ed0889be18",
+        "size": 2420588
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 3.7596,
+        "path": "lib/armeabi-v7a/libVFaceLib.so",
+        "sha256_short": "c6d04f368fe967fb",
+        "size": 1963668
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.04,
+        "path": "resources.arsc",
+        "sha256_short": "c1a88cee523bbd97",
+        "size": 1802300
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 3.1738,
+        "path": "res/raw/haarcascade_frontalface_default.xml",
+        "sha256_short": "1d794326dc222eee",
+        "size": 1788328
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.2096,
+        "path": "res/font/sf_compact_rounded_medium.ttf",
+        "sha256_short": "6d06eb43b58b9e3f",
+        "size": 1785056
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.2256,
+        "path": "res/font/sf_compact_rounded_bold.ttf",
+        "sha256_short": "67f6ac2a6598d1f4",
+        "size": 1782560
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 7.6943,
+        "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+        "sha256_short": "479cb95767462b2f",
+        "size": 1706957
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.005,
+        "path": "res/raw/img_guide_back_id_card.json",
+        "sha256_short": "23bbd0bb299f3e21",
+        "size": 1449629
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.0002,
+        "path": "res/raw/required_kyc.svg",
+        "sha256_short": "d5097b36b553b5f2",
+        "size": 1436457
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 7.7825,
+        "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+        "sha256_short": "fb5e5188b03c3bc0",
+        "size": 1254848
+      },
+      {
+        "container": "xapk-bundle",
+        "entropy": 7.9489,
+        "path": "config.xhdpi.apk",
+        "sha256_short": "f31350c3caed1509",
+        "size": 1232563
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 5.291,
+        "path": "classes9.dex",
+        "sha256_short": "e9b46539c92987be",
+        "size": 1218908
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 7.2887,
+        "path": "assets/models_bundled/contours.tfl",
+        "sha256_short": "84160bc0c4a74951",
+        "size": 1124144
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.0516,
+        "path": "res/raw/phone_pending.svg",
+        "sha256_short": "c26a9facfc37bec0",
+        "size": 1114729
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 6.9222,
+        "path": "assets/models_bundled/LMprec_600.emd",
+        "sha256_short": "0ed5c85282f940d1",
+        "size": 1078354
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 3.6592,
+        "path": "lib/armeabi-v7a/liba97d.so",
+        "sha256_short": "7fe7d830805a1e99",
+        "size": 997572
+      },
+      {
+        "container": "apk:vn.com.vng.zalopay.apk",
+        "entropy": 4.4244,
+        "path": "assets/config/miniapp_config.json",
+        "sha256_short": "e69ba84631346485",
+        "size": 883684
+      },
+      {
+        "container": "apk:config.armeabi_v7a.apk",
+        "entropy": 5.0087,
+        "path": "lib/armeabi-v7a/libc++_shared.so",
+        "sha256_short": "91b49f121b312053",
+        "size": 872872
+      }
+    ]
+  },
+  "schema": "rea_lite/assets@1"
+}

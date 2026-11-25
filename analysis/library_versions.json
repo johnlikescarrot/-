@@ -1,0 +1,1589 @@
+{
+  "count": 215,
+  "note": "Values are public SDK/version markers. Files not matching a version-shaped value are omitted.",
+  "rows": [
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.activity_activity-compose.version",
+      "values": [
+        "1.9.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.activity_activity-ktx.version",
+      "values": [
+        "1.9.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.activity_activity.version",
+      "values": [
+        "1.9.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.annotation_annotation-experimental.version",
+      "values": [
+        "1.5.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.appcompat_appcompat-resources.version",
+      "values": [
+        "1.6.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.appcompat_appcompat.version",
+      "values": [
+        "1.6.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.autofill_autofill.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.biometric_biometric.version",
+      "values": [
+        "1.2.0-alpha05"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.browser_browser.version",
+      "values": [
+        "1.8.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.camera_camera-camera2.version",
+      "values": [
+        "1.4.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.camera_camera-core.version",
+      "values": [
+        "1.4.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.camera_camera-extensions.version",
+      "values": [
+        "1.4.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.camera_camera-lifecycle.version",
+      "values": [
+        "1.4.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.camera_camera-video.version",
+      "values": [
+        "1.4.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.camera_camera-view.version",
+      "values": [
+        "1.4.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.cardview_cardview.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.animation_animation-core.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.animation_animation.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.foundation_foundation-layout.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.foundation_foundation.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.material_material-icons-core.version",
+      "values": [
+        "1.6.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.material_material-ripple.version",
+      "values": [
+        "1.6.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.material_material.version",
+      "values": [
+        "1.6.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.runtime_runtime-livedata.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.runtime_runtime-saveable.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.runtime_runtime.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.ui_ui-geometry.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.ui_ui-graphics.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.ui_ui-text.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.ui_ui-tooling-data.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.ui_ui-tooling-preview.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.ui_ui-tooling.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.ui_ui-unit.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.ui_ui-util.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.compose.ui_ui.version",
+      "values": [
+        "1.7.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.constraintlayout_constraintlayout-compose.version",
+      "values": [
+        "1.1.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.coordinatorlayout_coordinatorlayout.version",
+      "values": [
+        "1.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.core_core-ktx.version",
+      "values": [
+        "1.16.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.core_core-remoteviews.version",
+      "values": [
+        "1.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.core_core-splashscreen.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.core_core-viewtree.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.core_core.version",
+      "values": [
+        "1.16.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.cursoradapter_cursoradapter.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.customview_customview-poolingcontainer.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.customview_customview.version",
+      "values": [
+        "1.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.databinding_baseAdapters.version",
+      "values": [
+        "8.12.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.databinding_databindingKtx.version",
+      "values": [
+        "8.12.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.databinding_library.version",
+      "values": [
+        "8.12.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.databinding_viewbinding.version",
+      "values": [
+        "8.12.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.datastore_datastore-preferences.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.datastore_datastore.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.documentfile_documentfile.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.drawerlayout_drawerlayout.version",
+      "values": [
+        "1.1.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.dynamicanimation_dynamicanimation-ktx.version",
+      "values": [
+        "1.0.0-alpha03"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.dynamicanimation_dynamicanimation.version",
+      "values": [
+        "1.1.0-alpha03"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.emoji2_emoji2-views-helper.version",
+      "values": [
+        "1.3.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.emoji2_emoji2.version",
+      "values": [
+        "1.3.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.exifinterface_exifinterface.version",
+      "values": [
+        "1.3.6"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.fragment_fragment-ktx.version",
+      "values": [
+        "1.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.fragment_fragment.version",
+      "values": [
+        "1.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.glance_glance-appwidget.version",
+      "values": [
+        "1.1.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.glance_glance.version",
+      "values": [
+        "1.1.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.graphics_graphics-path.version",
+      "values": [
+        "1.0.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.interpolator_interpolator.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.legacy_legacy-support-core-ui.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.legacy_legacy-support-core-utils.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.legacy_legacy-support-v4.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-extensions.version",
+      "values": [
+        "2.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-livedata-core.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-livedata-ktx.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-livedata.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-process.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-runtime-compose.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-runtime.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-service.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel-compose.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel.version",
+      "values": [
+        "2.8.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.loader_loader.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.media_media.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.navigation_navigation-common-ktx.version",
+      "values": [
+        "2.8.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.navigation_navigation-common.version",
+      "values": [
+        "2.8.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.navigation_navigation-compose.version",
+      "values": [
+        "2.8.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.navigation_navigation-dynamic-features-fragment.version",
+      "values": [
+        "2.8.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.navigation_navigation-dynamic-features-runtime.version",
+      "values": [
+        "2.8.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.navigation_navigation-fragment-ktx.version",
+      "values": [
+        "2.8.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.navigation_navigation-fragment.version",
+      "values": [
+        "2.8.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.navigation_navigation-runtime-ktx.version",
+      "values": [
+        "2.8.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.navigation_navigation-runtime.version",
+      "values": [
+        "2.8.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.navigation_navigation-ui-ktx.version",
+      "values": [
+        "2.8.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.navigation_navigation-ui.version",
+      "values": [
+        "2.8.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.paging_paging-compose.version",
+      "values": [
+        "3.2.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.paging_paging-runtime-ktx.version",
+      "values": [
+        "3.2.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.paging_paging-runtime.version",
+      "values": [
+        "3.2.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.palette_palette-ktx.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.palette_palette.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.print_print.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.privacysandbox.ads_ads-adservices-java.version",
+      "values": [
+        "1.0.0-beta05"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.privacysandbox.ads_ads-adservices.version",
+      "values": [
+        "1.0.0-beta05"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.profileinstaller_profileinstaller.version",
+      "values": [
+        "1.3.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.recyclerview_recyclerview.version",
+      "values": [
+        "1.3.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.room_room-ktx.version",
+      "values": [
+        "2.8.4"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.room_room-runtime.version",
+      "values": [
+        "2.8.4"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.savedstate_savedstate-ktx.version",
+      "values": [
+        "1.2.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.savedstate_savedstate.version",
+      "values": [
+        "1.2.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.security_security-crypto.version",
+      "values": [
+        "1.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.slidingpanelayout_slidingpanelayout.version",
+      "values": [
+        "1.2.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.sqlite_sqlite-framework.version",
+      "values": [
+        "2.6.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.sqlite_sqlite-ktx.version",
+      "values": [
+        "2.6.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.sqlite_sqlite.version",
+      "values": [
+        "2.6.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.startup_startup-runtime.version",
+      "values": [
+        "1.2.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version",
+      "values": [
+        "1.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.tracing_tracing-ktx.version",
+      "values": [
+        "1.2.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.tracing_tracing.version",
+      "values": [
+        "1.2.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.transition_transition.version",
+      "values": [
+        "1.4.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.vectordrawable_vectordrawable-animated.version",
+      "values": [
+        "1.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.vectordrawable_vectordrawable.version",
+      "values": [
+        "1.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.versionedparcelable_versionedparcelable.version",
+      "values": [
+        "1.1.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.viewpager2_viewpager2.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.viewpager_viewpager.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.webkit_webkit.version",
+      "values": [
+        "1.11.0-alpha02"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.window_window.version",
+      "values": [
+        "1.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.work_work-runtime-ktx.version",
+      "values": [
+        "2.7.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.work_work-runtime.version",
+      "values": [
+        "2.7.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/androidx.work_work-rxjava2.version",
+      "values": [
+        "2.7.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/com/android/build/gradle/app-metadata.properties",
+      "values": [
+        "1.1",
+        "8.12.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/com.google.android.material_material.version",
+      "values": [
+        "1.4.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/com.google.dagger_dagger-android-support.version",
+      "values": [
+        "2.59.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/com.google.dagger_dagger-android.version",
+      "values": [
+        "2.59.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/com.google.dagger_dagger-lint-aar.version",
+      "values": [
+        "2.59.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/com.google.dagger_dagger.version",
+      "values": [
+        "2.59.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/kotlinx_coroutines_android.version",
+      "values": [
+        "1.8.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/kotlinx_coroutines_core.version",
+      "values": [
+        "1.8.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/kotlinx_coroutines_play_services.version",
+      "values": [
+        "1.8.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/kotlinx_coroutines_reactive.version",
+      "values": [
+        "1.8.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/kotlinx_coroutines_rx2.version",
+      "values": [
+        "1.8.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "META-INF/rxkotlin.properties",
+      "values": [
+        "1.0",
+        "2.2.0",
+        "2.14"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "barcode-scanning-common.properties",
+      "values": [
+        "17.0.0",
+        "17.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "barcode-scanning.properties",
+      "values": [
+        "17.3.0",
+        "17.3.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "billing-ktx.properties",
+      "values": [
+        "8.3.0",
+        "8.3.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "billing.properties",
+      "values": [
+        "8.3.0",
+        "8.3.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "common.properties",
+      "values": [
+        "18.11.0",
+        "18.11.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "core-common.properties",
+      "values": [
+        "2.0.4",
+        "2.0.4"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "face-detection.properties",
+      "values": [
+        "16.1.7",
+        "16.1.7"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "feature-delivery.properties",
+      "values": [
+        "2.1.0",
+        "2.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-abt.properties",
+      "values": [
+        "19.1.0",
+        "19.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-analytics-ktx.properties",
+      "values": [
+        "22.0.2",
+        "22.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-analytics.properties",
+      "values": [
+        "22.0.2",
+        "22.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-annotations.properties",
+      "values": [
+        "16.2.0",
+        "16.2.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-config.properties",
+      "values": [
+        "19.2.0",
+        "19.2.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-core.properties",
+      "values": [
+        "19.0.0",
+        "19.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-encoders-proto.properties",
+      "values": [
+        "16.0.0",
+        "16.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-encoders.properties",
+      "values": [
+        "17.0.0",
+        "17.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-iid-interop.properties",
+      "values": [
+        "17.1.0",
+        "17.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-iid.properties",
+      "values": [
+        "21.1.0",
+        "21.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-measurement-connector.properties",
+      "values": [
+        "20.0.1",
+        "20.0.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-messaging.properties",
+      "values": [
+        "23.0.0",
+        "23.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "firebase-perf.properties",
+      "values": [
+        "19.0.8",
+        "19.0.8"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "image.properties",
+      "values": [
+        "1.0.0-beta1",
+        "1.0.0-beta1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "integrity.properties",
+      "values": [
+        "1.3.0",
+        "1.3.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "object-detection-common.properties",
+      "values": [
+        "18.0.0",
+        "18.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "object-detection.properties",
+      "values": [
+        "17.0.2",
+        "17.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "org/bouncycastle/pqc/crypto/picnic/lowmcL1.bin.properties",
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "org/bouncycastle/pqc/crypto/picnic/lowmcL3.bin.properties",
+      "values": [
+        "3",
+        "9",
+        "1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "org/bouncycastle/pqc/crypto/picnic/lowmcL5.bin.properties",
+      "values": [
+        "8",
+        "5z",
+        "0ja"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "org/jacoco/core/jacoco.properties",
+      "values": [
+        "0.8.8.202204050719",
+        "5dcf34ad180c125ee3214437b0ca4f9b7b6258fc"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-ads-base.properties",
+      "values": [
+        "23.6.0",
+        "23.6.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-ads-identifier.properties",
+      "values": [
+        "18.0.1",
+        "18.0.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-ads-lite.properties",
+      "values": [
+        "23.6.0",
+        "23.6.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-ads.properties",
+      "values": [
+        "23.6.0",
+        "23.6.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-analytics-impl.properties",
+      "values": [
+        "18.0.2",
+        "18.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-appset.properties",
+      "values": [
+        "16.0.1",
+        "16.0.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-auth-api-phone.properties",
+      "values": [
+        "17.4.0",
+        "17.4.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-base.properties",
+      "values": [
+        "18.5.0",
+        "18.5.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-basement.properties",
+      "values": [
+        "18.9.0",
+        "18.9.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-clearcut.properties",
+      "values": [
+        "17.0.0",
+        "17.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-cloud-messaging.properties",
+      "values": [
+        "17.0.0",
+        "17.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-flags.properties",
+      "values": [
+        "17.0.0",
+        "17.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-identity.properties",
+      "values": [
+        "18.1.0",
+        "18.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-location.properties",
+      "values": [
+        "19.0.1",
+        "19.0.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-maps.properties",
+      "values": [
+        "18.0.2",
+        "18.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-measurement-api.properties",
+      "values": [
+        "22.0.2",
+        "22.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-measurement-base.properties",
+      "values": [
+        "22.0.2",
+        "22.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-measurement-impl.properties",
+      "values": [
+        "22.0.2",
+        "22.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-measurement-sdk-api.properties",
+      "values": [
+        "22.0.2",
+        "22.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-measurement-sdk.properties",
+      "values": [
+        "22.0.2",
+        "22.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-measurement.properties",
+      "values": [
+        "22.0.2",
+        "22.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-mlkit-barcode-scanning.properties",
+      "values": [
+        "18.3.1",
+        "18.3.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-mlkit-face-detection.properties",
+      "values": [
+        "17.1.0",
+        "17.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-mlkit-subject-segmentation.properties",
+      "values": [
+        "16.0.0-beta1",
+        "16.0.0-beta1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-mlkit-text-recognition-common.properties",
+      "values": [
+        "19.1.0",
+        "19.1.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-mlkit-text-recognition.properties",
+      "values": [
+        "19.0.1",
+        "19.0.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-phenotype.properties",
+      "values": [
+        "17.0.0",
+        "17.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-places-placereport.properties",
+      "values": [
+        "17.0.0",
+        "17.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-safetynet.properties",
+      "values": [
+        "18.0.1",
+        "18.0.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-stats.properties",
+      "values": [
+        "17.0.3",
+        "17.0.3"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-tagmanager-api.properties",
+      "values": [
+        "18.0.2",
+        "18.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-tagmanager.properties",
+      "values": [
+        "18.0.2",
+        "18.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-tasks.properties",
+      "values": [
+        "18.2.0",
+        "18.2.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-vision-common.properties",
+      "values": [
+        "19.0.0",
+        "19.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-vision.properties",
+      "values": [
+        "19.0.0",
+        "19.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "play-services-wallet.properties",
+      "values": [
+        "19.4.0",
+        "19.4.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "review-ktx.properties",
+      "values": [
+        "2.0.2",
+        "2.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "review.properties",
+      "values": [
+        "2.0.2",
+        "2.0.2"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "text-recognition-bundled-common.properties",
+      "values": [
+        "17.0.0",
+        "17.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "text-recognition.properties",
+      "values": [
+        "16.0.1",
+        "16.0.1"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "user-messaging-platform.properties",
+      "values": [
+        "3.0.0",
+        "3.0.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "vision-common.properties",
+      "values": [
+        "17.3.0",
+        "17.3.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "vision-interfaces.properties",
+      "values": [
+        "16.3.0",
+        "16.3.0"
+      ]
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "vision-internal-vkp.properties",
+      "values": [
+        "18.2.3",
+        "18.2.3"
+      ]
+    }
+  ],
+  "schema": "rea_lite/library_versions@1"
+}
