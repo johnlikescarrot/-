@@ -1,0 +1,1385 @@
+{
+  "manifest": {
+    "attrs": {
+      "android:versionCode": "1102758",
+      "android:versionName": "11.17.0",
+      "android:compileSdkVersion": "36",
+      "android:compileSdkVersionCodename": "16",
+      "android:requiredSplitTypes": "base__abi,base__density",
+      "android:splitTypes": "",
+      "package": "vn.com.vng.zalopay",
+      "platformBuildVersionCode": "36",
+      "platformBuildVersionName": "16"
+    },
+    "uses_sdk": {
+      "minSdkVersion": "26",
+      "targetSdkVersion": "36"
+    },
+    "application_attrs": {
+      "theme": "@7F14015E",
+      "label": "@7F1300D6",
+      "icon": "@7F0F0000",
+      "name": "jwbmqnsll.xvndbxlk",
+      "allowBackup": "false",
+      "hardwareAccelerated": "true",
+      "largeHeap": "true",
+      "supportsRtl": "true",
+      "extractNativeLibs": "true",
+      "fullBackupContent": "false",
+      "resizeableActivity": "false",
+      "networkSecurityConfig": "@7F16000D",
+      "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+      "requestLegacyExternalStorage": "true",
+      "dataExtractionRules": "@7F160004",
+      "enableOnBackInvokedCallback": "false"
+    },
+    "application_class": "jwbmqnsll.xvndbxlk",
+    "xml_chars": 77029,
+    "labels_resolved": {
+      "app_name": "Zalopay",
+      "note": "android:label points at @7F1300D6; resolved with stage 07"
+    }
+  },
+  "permissions": {
+    "requested": [
+      {
+        "name": "android.permission.POST_NOTIFICATIONS",
+        "short": "POST_NOTIFICATIONS",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.READ_CONTACTS",
+        "short": "READ_CONTACTS",
+        "risk": "contacts read",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.INTERNET",
+        "short": "INTERNET",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.ACCESS_WIFI_STATE",
+        "short": "ACCESS_WIFI_STATE",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.ACCESS_NETWORK_STATE",
+        "short": "ACCESS_NETWORK_STATE",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.READ_PHONE_STATE",
+        "short": "READ_PHONE_STATE",
+        "risk": "telephony identifiers",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.google.android.c2dm.permission.RECEIVE",
+        "short": "RECEIVE",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.WAKE_LOCK",
+        "short": "WAKE_LOCK",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.NFC",
+        "short": "NFC",
+        "risk": "NFC / contactless",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+        "short": "MANAGE_OVERLAY_PERMISSION",
+        "risk": "overlay (settings alias)",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+        "short": "WRITE_EXTERNAL_STORAGE",
+        "risk": null,
+        "maxSdkVersion": "28",
+        "required": null
+      },
+      {
+        "name": "android.permission.READ_EXTERNAL_STORAGE",
+        "short": "READ_EXTERNAL_STORAGE",
+        "risk": "shared storage",
+        "maxSdkVersion": "32",
+        "required": null
+      },
+      {
+        "name": "android.permission.ACCESS_COARSE_LOCATION",
+        "short": "ACCESS_COARSE_LOCATION",
+        "risk": "coarse location",
+        "maxSdkVersion": null,
+        "required": "false"
+      },
+      {
+        "name": "android.permission.ACCESS_FINE_LOCATION",
+        "short": "ACCESS_FINE_LOCATION",
+        "risk": "precise location",
+        "maxSdkVersion": null,
+        "required": "false"
+      },
+      {
+        "name": "android.permission.USE_FINGERPRINT",
+        "short": "USE_FINGERPRINT",
+        "risk": "biometric auth (legacy)",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+        "short": "WRITE_USE_APP_FEATURE_SURVEY",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.WRITE_CALENDAR",
+        "short": "WRITE_CALENDAR",
+        "risk": "calendar write",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.READ_CALENDAR",
+        "short": "READ_CALENDAR",
+        "risk": "calendar read",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.USE_BIOMETRIC",
+        "short": "USE_BIOMETRIC",
+        "risk": "biometric auth",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.RECORD_AUDIO",
+        "short": "RECORD_AUDIO",
+        "risk": "microphone",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.MODIFY_AUDIO_SETTINGS",
+        "short": "MODIFY_AUDIO_SETTINGS",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "short": "INSTALL_SHORTCUT",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+        "short": "UNINSTALL_SHORTCUT",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.android.launcher.permission.WRITE_SETTINGS",
+        "short": "WRITE_SETTINGS",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.android.launcher.permission.READ_SETTINGS",
+        "short": "READ_SETTINGS",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.bbk.launcher2.permission.READ_SETTINGS",
+        "short": "READ_SETTINGS",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.bbk.launcher2.permission.WRITE_SETTINGS",
+        "short": "WRITE_SETTINGS",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.QUERY_ALL_PACKAGES",
+        "short": "QUERY_ALL_PACKAGES",
+        "risk": "full package visibility",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.CAMERA",
+        "short": "CAMERA",
+        "risk": "camera",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.VIBRATE",
+        "short": "VIBRATE",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+        "short": "ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.CHANGE_WIFI_STATE",
+        "short": "CHANGE_WIFI_STATE",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.DETECT_SCREEN_CAPTURE",
+        "short": "DETECT_SCREEN_CAPTURE",
+        "risk": "screen-capture detection",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.google.android.gms.permission.AD_ID",
+        "short": "AD_ID",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+        "short": "ACCESS_ADSERVICES_ATTRIBUTION",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.ACCESS_ADSERVICES_AD_ID",
+        "short": "ACCESS_ADSERVICES_AD_ID",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+        "short": "ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+        "short": "RECEIVE_BOOT_COMPLETED",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.android.vending.BILLING",
+        "short": "BILLING",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        "short": "BIND_GET_INSTALL_REFERRER_SERVICE",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.ACCESS_ADSERVICES_TOPICS",
+        "short": "ACCESS_ADSERVICES_TOPICS",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.FOREGROUND_SERVICE",
+        "short": "FOREGROUND_SERVICE",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "short": "DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.REORDER_TASKS",
+        "short": "REORDER_TASKS",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+        "short": "READ_APP_INFO",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+        "short": "GET_COMMON_DATA",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.READ_BASIC_PHONE_STATE",
+        "short": "READ_BASIC_PHONE_STATE",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.WRITE_CONTACTS",
+        "short": "WRITE_CONTACTS",
+        "risk": "contacts write",
+        "maxSdkVersion": null,
+        "required": null
+      },
+      {
+        "name": "android.permission.READ_MEDIA_AUDIO",
+        "short": "READ_MEDIA_AUDIO",
+        "risk": null,
+        "maxSdkVersion": null,
+        "required": null
+      }
+    ],
+    "declared": [
+      {
+        "name": "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "protectionLevel": "0x00000002",
+        "label": null
+      }
+    ],
+    "risk_register": {
+      "contacts read": 1,
+      "telephony identifiers": 1,
+      "NFC / contactless": 1,
+      "overlay (settings alias)": 1,
+      "shared storage": 1,
+      "coarse location": 1,
+      "precise location": 1,
+      "biometric auth (legacy)": 1,
+      "calendar write": 1,
+      "calendar read": 1,
+      "biometric auth": 1,
+      "microphone": 1,
+      "full package visibility": 1,
+      "camera": 1,
+      "screen-capture detection": 1,
+      "contacts write": 1
+    },
+    "count": 49
+  },
+  "components": {
+    "counts": {
+      "activities": 200,
+      "activity_aliases": 2,
+      "services": 34,
+      "receivers": 22,
+      "providers": 9
+    },
+    "exported": {
+      "activities": [
+        "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+        "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+        "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+        "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+        "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+        "com.facebook.CustomTabActivity",
+        "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+        "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+        "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+        "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+        "androidx.compose.ui.tooling.PreviewActivity",
+        "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+        "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+        "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity"
+      ],
+      "activity_aliases": [
+        "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "vn.zalopay.apps.ZaloAppActivityAlias"
+      ],
+      "services": [
+        "vn.com.vng.zalopay.notification.MyFcmListenerService",
+        "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+        "androidx.glance.appwidget.GlanceRemoteViewsService",
+        "androidx.work.impl.background.systemjob.SystemJobService",
+        "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+        "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService"
+      ],
+      "receivers": [
+        "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+        "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+        "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+        "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+        "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+        "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+        "androidx.profileinstaller.ProfileInstallReceiver"
+      ],
+      "providers": []
+    },
+    "intent_surface": [
+      {
+        "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+        "kind": "activity",
+        "action": "android.intent.action.MAIN",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+        "kind": "activity",
+        "action": "android.intent.action.VIEW",
+        "scheme": "https",
+        "host": "go.zalopay.vn",
+        "path": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+        "kind": "activity",
+        "action": "android.intent.action.VIEW",
+        "scheme": "https",
+        "host": "onelink.zalopay.vn",
+        "path": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+        "kind": "activity",
+        "action": "android.nfc.action.NDEF_DISCOVERED",
+        "scheme": "https",
+        "host": "onelink.zalopay.vn",
+        "path": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+        "kind": "activity",
+        "action": "android.intent.action.VIEW",
+        "scheme": "https",
+        "host": "kmzalopay.onelink.me",
+        "path": "/TSui"
+      },
+      {
+        "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+        "kind": "activity",
+        "action": "android.intent.action.VIEW",
+        "scheme": "https",
+        "host": "km.zalopay.vn",
+        "path": "/TSui"
+      },
+      {
+        "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+        "kind": "activity",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay",
+        "host": "app",
+        "path": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+        "kind": "activity",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay-vnpay",
+        "host": null,
+        "path": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+        "kind": "activity",
+        "action": "com.google.android.payments.standard.AUTHENTICATE_V1",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.webview.ui.WebViewActivity",
+        "kind": "activity",
+        "action": "vn.zalopay.intent.action.WEBVIEW",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+        "kind": "activity",
+        "action": "android.intent.action.VIEW",
+        "scheme": "https",
+        "host": "go.zalopay.vn",
+        "path": "/launch/f/user-consensus-zlp-vneid"
+      },
+      {
+        "component": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+        "kind": "activity",
+        "action": "android.intent.action.SEND",
+        "scheme": null,
+        "host": null,
+        "path": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+        "kind": "activity",
+        "action": "vn.com.vng.zalopay.ACTION_OPEN_ML_EXTRACT_ID_CARD",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "com.facebook.CustomTabActivity",
+        "kind": "activity",
+        "action": "android.intent.action.VIEW",
+        "scheme": "fbconnect",
+        "host": "cct.vn.com.vng.zalopay",
+        "path": null
+      },
+      {
+        "component": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+        "kind": "activity",
+        "action": "android.intent.action.VIEW",
+        "scheme": "tagmanager.c.vn.com.vng.zalopay",
+        "host": null,
+        "path": null
+      },
+      {
+        "component": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+        "kind": "activity",
+        "action": "android.intent.action.MAIN",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+        "kind": "activity",
+        "action": "android.intent.action.MAIN",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+        "kind": "activity",
+        "action": "android.intent.action.MAIN",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay-1",
+        "host": "post",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay-1",
+        "host": "backtoapp",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay-1",
+        "host": "backtologin",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay",
+        "host": "zalopay.vn",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay",
+        "host": "otp",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay",
+        "host": "pay",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay",
+        "host": "clearing",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay",
+        "host": null,
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": null,
+        "host": "launch",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay",
+        "host": "merchant",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay",
+        "host": "events",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay.api.v2",
+        "host": "pay",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay.api.v2",
+        "host": "auth",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay.api.v2",
+        "host": "recoverpassword",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay",
+        "host": "promotions",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "android.intent.action.VIEW",
+        "scheme": "zalopay",
+        "host": "cashier",
+        "path": null
+      },
+      {
+        "component": "vn.zalopay.apps.ZaloAppActivityAlias",
+        "kind": "activity-alias",
+        "action": "vn.zalopay.intent.action.SEND_MONEY",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.notification.MyFcmListenerService",
+        "kind": "service",
+        "action": "com.google.firebase.MESSAGING_EVENT",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+        "kind": "service",
+        "action": "android.nfc.cardemulation.action.HOST_APDU_SERVICE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "com.google.firebase.messaging.FirebaseMessagingService",
+        "kind": "service",
+        "action": "com.google.firebase.MESSAGING_EVENT",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+        "kind": "service",
+        "action": "android.nfc.cardemulation.action.HOST_APDU_SERVICE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService",
+        "kind": "service",
+        "action": "android.nfc.cardemulation.action.HOST_APDU_SERVICE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+        "kind": "receiver",
+        "action": "com.android.vending.INSTALL_REFERRER",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+        "kind": "receiver",
+        "action": "android.appwidget.action.APPWIDGET_UPDATE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+        "kind": "receiver",
+        "action": "android.appwidget.action.APPWIDGET_UPDATE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+        "kind": "receiver",
+        "action": "android.appwidget.action.APPWIDGET_UPDATE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+        "kind": "receiver",
+        "action": "android.appwidget.action.APPWIDGET_UPDATE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver",
+        "kind": "receiver",
+        "action": "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+        "kind": "receiver",
+        "action": "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "kind": "receiver",
+        "action": "com.google.android.c2dm.intent.RECEIVE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.glance.appwidget.MyPackageReplacedReceiver",
+        "kind": "receiver",
+        "action": "android.intent.action.MY_PACKAGE_REPLACED",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+        "kind": "receiver",
+        "action": "android.intent.action.ACTION_POWER_CONNECTED",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+        "kind": "receiver",
+        "action": "android.intent.action.ACTION_POWER_DISCONNECTED",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+        "kind": "receiver",
+        "action": "android.intent.action.BATTERY_OKAY",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+        "kind": "receiver",
+        "action": "android.intent.action.BATTERY_LOW",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+        "kind": "receiver",
+        "action": "android.intent.action.DEVICE_STORAGE_LOW",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+        "kind": "receiver",
+        "action": "android.intent.action.DEVICE_STORAGE_OK",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+        "kind": "receiver",
+        "action": "android.net.conn.CONNECTIVITY_CHANGE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "kind": "receiver",
+        "action": "android.intent.action.BOOT_COMPLETED",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "kind": "receiver",
+        "action": "android.intent.action.TIME_SET",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "kind": "receiver",
+        "action": "android.intent.action.TIMEZONE_CHANGED",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+        "kind": "receiver",
+        "action": "androidx.work.impl.background.systemalarm.UpdateProxies",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+        "kind": "receiver",
+        "action": "androidx.work.diagnostics.REQUEST_DIAGNOSTICS",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.profileinstaller.ProfileInstallReceiver",
+        "kind": "receiver",
+        "action": "androidx.profileinstaller.action.INSTALL_PROFILE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.profileinstaller.ProfileInstallReceiver",
+        "kind": "receiver",
+        "action": "androidx.profileinstaller.action.SKIP_FILE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.profileinstaller.ProfileInstallReceiver",
+        "kind": "receiver",
+        "action": "androidx.profileinstaller.action.SAVE_PROFILE",
+        "scheme": null,
+        "host": null
+      },
+      {
+        "component": "androidx.profileinstaller.ProfileInstallReceiver",
+        "kind": "receiver",
+        "action": "androidx.profileinstaller.action.BENCHMARK_OPERATION",
+        "scheme": null,
+        "host": null
+      }
+    ],
+    "flags": {}
+  },
+  "schemes": {
+    "https": 6,
+    "zalopay": 10,
+    "zalopay-vnpay": 1,
+    "fbconnect": 1,
+    "tagmanager.c.vn.com.vng.zalopay": 1,
+    "zalopay-1": 3,
+    "zalopay.api.v2": 3
+  },
+  "queries": [
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "android.intent.action.VIEW",
+      "authority": null
+    },
+    {
+      "tag": "data",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "android.media.action.IMAGE_CAPTURE",
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "android.intent.action.GET_CONTENT",
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "android.intent.action.DIAL",
+      "authority": null
+    },
+    {
+      "tag": "data",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "android.intent.action.SEND",
+      "authority": null
+    },
+    {
+      "tag": "data",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "package",
+      "name": "com.vnid",
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "android.intent.action.VIEW",
+      "authority": null
+    },
+    {
+      "tag": "package",
+      "name": "com.zing.zalo",
+      "authority": null
+    },
+    {
+      "tag": "package",
+      "name": "com.facebook.katana",
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "com.android.vending.billing.InAppBillingService.BIND",
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND",
+      "authority": null
+    },
+    {
+      "tag": "package",
+      "name": "com.google.android.apps.maps",
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "androidx.camera.extensions.action.VENDOR_ACTION",
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "android.intent.action.VIEW",
+      "authority": null
+    },
+    {
+      "tag": "category",
+      "name": "android.intent.category.BROWSABLE",
+      "authority": null
+    },
+    {
+      "tag": "data",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "android.support.customtabs.action.CustomTabsService",
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "android.intent.action.INSERT",
+      "authority": null
+    },
+    {
+      "tag": "data",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "android.intent.action.VIEW",
+      "authority": null
+    },
+    {
+      "tag": "data",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "android.intent.action.DIAL",
+      "authority": null
+    },
+    {
+      "tag": "data",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "intent",
+      "name": null,
+      "authority": null
+    },
+    {
+      "tag": "action",
+      "name": "com.appsflyer.referrer.INSTALL_PROVIDER",
+      "authority": null
+    },
+    {
+      "tag": "package",
+      "name": "com.instagram.android",
+      "authority": null
+    },
+    {
+      "tag": "package",
+      "name": "com.facebook.lite",
+      "authority": null
+    },
+    {
+      "tag": "package",
+      "name": "com.samsung.android.mapsagent",
+      "authority": null
+    },
+    {
+      "tag": "package",
+      "name": "com.xiaomi.mipicks",
+      "authority": null
+    }
+  ],
+  "meta_data": [
+    {
+      "name": "com.google.android.gms.wallet.api.enabled",
+      "value": "true"
+    },
+    {
+      "name": "com.google.android.geo.API_KEY",
+      "value": "«redacted»",
+      "redacted": "AIza********[len=39,sha256=441f3eb6f908]",
+      "present": true
+    },
+    {
+      "name": "com.appsflyer.AF_DEV_KEY",
+      "value": "«redacted»",
+      "redacted": "k5nf********[len=22,sha256=061d8af9066c]",
+      "present": true
+    },
+    {
+      "name": "AF_STORE",
+      "value": "GooglePlay"
+    },
+    {
+      "name": "com.facebook.sdk.ApplicationId",
+      "value": "@7F13048D"
+    },
+    {
+      "name": "com.facebook.sdk.ClientToken",
+      "value": "@7F13048E"
+    },
+    {
+      "name": "com.facebook.sdk.AdvertiserIDCollectionEnabled",
+      "value": "true"
+    },
+    {
+      "name": "com.google.firebase.messaging.default_notification_channel_id",
+      "value": "@7F130304"
+    },
+    {
+      "name": "com.google.android.gms.ads.APPLICATION_ID",
+      "value": "@7F130000"
+    },
+    {
+      "name": "appID",
+      "value": "@7F1300E2"
+    },
+    {
+      "name": "com.google.firebase.ml.vision.DEPENDENCIES",
+      "value": "face"
+    },
+    {
+      "name": "asset_statements",
+      "value": "@7F130116"
+    },
+    {
+      "name": "google_analytics_deferred_deep_link_enabled",
+      "value": "true"
+    },
+    {
+      "name": "com.google.mlkit.vision.DEPENDENCIES",
+      "value": "subject_segment,barcode_ui"
+    },
+    {
+      "name": "com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION",
+      "value": "true"
+    },
+    {
+      "name": "com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING",
+      "value": "true"
+    },
+    {
+      "name": "com.google.android.gms.ads.INTEGRATION_MANAGER",
+      "value": "webview"
+    },
+    {
+      "name": "com.google.android.play.billingclient.version",
+      "value": "8.3.0"
+    },
+    {
+      "name": "com.google.android.gms.version",
+      "value": "@7F0B0014"
+    },
+    {
+      "name": "com.facebook.soloader.enabled",
+      "value": "false"
+    },
+    {
+      "name": "ariver_manifest",
+      "value": "com.alibaba.griver.GriverManifest"
+    },
+    {
+      "name": "com.android.dynamic.apk.fused.modules",
+      "value": "bank_binding,base,cash_in,cashier,cashier_v3,changepin,liveness,login_v2,resetpin,result_page_v3,resultpage,updatephone,withdraw"
+    },
+    {
+      "name": "com.android.vending.splits.required",
+      "value": "true"
+    },
+    {
+      "name": "com.android.stamp.source",
+      "value": "https://play.google.com/store"
+    },
+    {
+      "name": "com.android.stamp.type",
+      "value": "STAMP_TYPE_DISTRIBUTION_APK"
+    },
+    {
+      "name": "com.android.vending.splits",
+      "value": "@7F160017"
+    },
+    {
+      "name": "com.android.vending.derived.apk.id",
+      "value": "2"
+    }
+  ],
+  "dynamic_modules": [
+    "bank_binding",
+    "base",
+    "cash_in",
+    "cashier",
+    "cashier_v3",
+    "changepin",
+    "liveness",
+    "login_v2",
+    "resetpin",
+    "result_page_v3",
+    "resultpage",
+    "updatephone",
+    "withdraw"
+  ],
+  "signing": {
+    "magic_offset": 78815216,
+    "file_size": 79359087,
+    "schemes": [
+      "APK Signature Scheme v2"
+    ],
+    "pairs": [
+      {
+        "id": "7109871a",
+        "len": 1383,
+        "value_offset": 78807060
+      }
+    ],
+    "block_size": 8184,
+    "v2_signer_cert_sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "v2_signer_cert_der_len": 721,
+    "v2_signer_subject": [
+      {
+        "field": "CN",
+        "value": "Vu Manh Hieu"
+      },
+      {
+        "field": "CN",
+        "value": "Vu Manh Hieu"
+      }
+    ],
+    "v2_signer_issuer": [
+      {
+        "field": "CN",
+        "value": "Vu Manh Hieu"
+      },
+      {
+        "field": "CN",
+        "value": "Vu Manh Hieu"
+      }
+    ],
+    "v2_not_before": "160421154114Z",
+    "v3_signer_cert_sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+    "v3_signer_cert_der_len": 721,
+    "v3_signer_subject": [
+      {
+        "field": "CN",
+        "value": "Vu Manh Hieu"
+      },
+      {
+        "field": "CN",
+        "value": "Vu Manh Hieu"
+      }
+    ],
+    "v3_signer_issuer": [
+      {
+        "field": "CN",
+        "value": "Vu Manh Hieu"
+      },
+      {
+        "field": "CN",
+        "value": "Vu Manh Hieu"
+      }
+    ],
+    "v3_not_before": "160421154114Z",
+    "signing_scheme_span": "v2 only",
+    "v1_signature_files": [],
+    "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03"
+  }
+}

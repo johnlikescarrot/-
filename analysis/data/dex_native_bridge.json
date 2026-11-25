@@ -1,0 +1,3904 @@
+{
+  "classes_with_native": 405,
+  "detail": [
+    {
+      "class": "amcsetxek.dmayljy",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "androidx.core.app.ComponentActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "androidx.camera.core.ImageProcessingUtil",
+      "methods": [
+        "nativeConvertAndroid420ToABGR",
+        "nativeConvertAndroid420ToBitmap",
+        "nativeCopyBetweenByteBufferAndBitmap",
+        "nativeRotateYUV",
+        "nativeShiftPixel",
+        "nativeWriteJpegToSurface"
+      ],
+      "count": 6
+    },
+    {
+      "class": "androidx.glance.appwidget.action.ActionTrampolineActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "androidx.glance.appwidget.action.InvisibleActionTrampolineActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "androidx.graphics.path.ConicConverter",
+      "methods": [
+        "internalConicToQuadratics"
+      ],
+      "count": 1
+    },
+    {
+      "class": "androidx.graphics.path.PathIteratorPreApi34Impl",
+      "methods": [
+        "createInternalPathIterator",
+        "destroyInternalPathIterator",
+        "internalPathIteratorHasNext",
+        "internalPathIteratorNext",
+        "internalPathIteratorPeek",
+        "internalPathIteratorRawSize",
+        "internalPathIteratorSize"
+      ],
+      "count": 7
+    },
+    {
+      "class": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.LayerState",
+      "methods": [
+        "cppIsAnimationState",
+        "cppIsAnyState",
+        "cppIsBlendState",
+        "cppIsBlendState1D",
+        "cppIsBlendStateDirect",
+        "cppIsEntryState",
+        "cppIsExitState"
+      ],
+      "count": 7
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.AnimationState",
+      "methods": [
+        "cppName"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.Artboard",
+      "methods": [
+        "cppAdvance",
+        "cppAnimationByIndex",
+        "cppAnimationByName",
+        "cppAnimationCount",
+        "cppAnimationNameByIndex",
+        "cppBounds",
+        "cppDraw",
+        "cppDrawAligned"
+      ],
+      "count": 29
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.FileAsset",
+      "methods": [
+        "cppCDNUrl",
+        "cppDecode",
+        "cppName",
+        "cppUniqueFilename"
+      ],
+      "count": 4
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.AudioAsset",
+      "methods": [
+        "cppGetAudio",
+        "cppSetAudio"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.FileAssetLoader",
+      "methods": [
+        "cppSetRendererType",
+        "constructor",
+        "cppDelete"
+      ],
+      "count": 3
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.File",
+      "methods": [
+        "cppArtboardByName",
+        "cppArtboardCount",
+        "cppArtboardNameByIndex",
+        "cppDefaultViewModelForArtboard",
+        "cppEnums",
+        "cppViewModelByIndex",
+        "cppViewModelByName",
+        "cppViewModelCount"
+      ],
+      "count": 11
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.Helpers",
+      "methods": [
+        "cppConvertToArtboardSpace"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.LinearAnimationInstance",
+      "methods": [
+        "cppAdvance",
+        "cppAdvanceAndGetResult",
+        "cppApply",
+        "cppDuration",
+        "cppFps",
+        "cppGetDirection",
+        "cppGetLoop",
+        "cppGetTime"
+      ],
+      "count": 15
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.Rive",
+      "methods": [
+        "cppCalculateRequiredBounds",
+        "cppInitialize"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.RiveAudio$Companion",
+      "methods": [
+        "cppMakeAudio"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.RiveAudio",
+      "methods": [
+        "cppDelete"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.RiveFont$Companion",
+      "methods": [
+        "cppMakeFont"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.RiveFont",
+      "methods": [
+        "cppDelete"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.RiveOpenURLEvent",
+      "methods": [
+        "cppTarget",
+        "cppURL"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.RiveTextValueRun",
+      "methods": [
+        "cppSetText",
+        "cppText"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.SMIInput",
+      "methods": [
+        "cppIsBoolean",
+        "cppIsNumber",
+        "cppIsTrigger",
+        "cppName"
+      ],
+      "count": 4
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.SMIBoolean",
+      "methods": [
+        "cppSetValue",
+        "cppValue"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.SMINumber",
+      "methods": [
+        "cppSetValue",
+        "cppValue"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.SMITrigger",
+      "methods": [
+        "cppFire"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.StateMachineInstance",
+      "methods": [
+        "cppAdvance",
+        "cppInputCount",
+        "cppLayerCount",
+        "cppName",
+        "cppPointerDown",
+        "cppPointerMove",
+        "cppPointerUp",
+        "cppReportedEventAt"
+      ],
+      "count": 14
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.ViewModel",
+      "methods": [
+        "cppCreateBlankInstance",
+        "cppCreateDefaultInstance",
+        "cppCreateInstanceFromIndex",
+        "cppCreateInstanceFromName",
+        "cppGetProperties",
+        "cppInstanceCount",
+        "cppName",
+        "cppPropertyCount"
+      ],
+      "count": 8
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.ViewModelEnumProperty",
+      "methods": [
+        "cppGetValue",
+        "cppSetValue"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.ViewModelInstance",
+      "methods": [
+        "cppDerefInstance",
+        "cppName",
+        "cppPropertyBoolean",
+        "cppPropertyColor",
+        "cppPropertyEnum",
+        "cppPropertyInstance",
+        "cppPropertyNumber",
+        "cppPropertyString"
+      ],
+      "count": 11
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.ViewModelNumberProperty",
+      "methods": [
+        "cppGetValue",
+        "cppSetValue"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.ViewModelStringProperty",
+      "methods": [
+        "cppGetValue",
+        "cppSetValue"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.ViewModelTriggerProperty",
+      "methods": [
+        "cppTrigger"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.fonts.FontFallbackStrategy$Companion",
+      "methods": [
+        "cppResetFontCache"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.fonts.NativeFontHelper",
+      "methods": [
+        "cppRegisterFallbackFont"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.renderers.Renderer",
+      "methods": [
+        "constructor",
+        "cppAlign",
+        "cppAvgFps",
+        "cppDestroySurface",
+        "cppDoFrame",
+        "cppHeight",
+        "cppRestore",
+        "cppSave"
+      ],
+      "count": 14
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.A",
+      "methods": [
+        "a",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "count": 8
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.B$$ExternalSyntheticLambda3",
+      "methods": [
+        "applyAsInt"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.B$$ExternalSyntheticLambda4",
+      "methods": [
+        "test"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.B",
+      "methods": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h"
+      ],
+      "count": 11
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.C",
+      "methods": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "count": 7
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.E$$ExternalSyntheticLambda2",
+      "methods": [
+        "applyAsInt"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.E$$ExternalSyntheticLambda3",
+      "methods": [
+        "applyAsInt"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.E",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b",
+        "b"
+      ],
+      "count": 39
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.G$$ExternalSyntheticLambda1",
+      "methods": [
+        "compare"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.G",
+      "methods": [
+        "b",
+        "c",
+        "d",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 17
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.H",
+      "methods": [
+        "a",
+        "b",
+        "c"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.I",
+      "methods": [
+        "d",
+        "e",
+        "f",
+        "g",
+        "a",
+        "b",
+        "c"
+      ],
+      "count": 7
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.J",
+      "methods": [
+        "d",
+        "e",
+        "f",
+        "a",
+        "b",
+        "c"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.K",
+      "methods": [
+        "d",
+        "a",
+        "b",
+        "c"
+      ],
+      "count": 4
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.L",
+      "methods": [
+        "c",
+        "a",
+        "b"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.M$$ExternalSyntheticLambda0",
+      "methods": [
+        "apply"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.M$$ExternalSyntheticLambda1",
+      "methods": [
+        "apply"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.M",
+      "methods": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h"
+      ],
+      "count": 8
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.N",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 4
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.O",
+      "methods": [
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.Q",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.R",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.U",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.V",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.X$$ExternalSyntheticLambda0",
+      "methods": [
+        "apply"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.X$$ExternalSyntheticLambda1",
+      "methods": [
+        "apply"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.X",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.Y",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      "count": 38
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.a",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 14
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.aa",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      "count": 4
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.ab",
+      "methods": [
+        "f",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "equals",
+        "hashCode"
+      ],
+      "count": 8
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.ac",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "count": 7
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.ad$$ExternalSyntheticLambda0",
+      "methods": [
+        "apply"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.ad$$ExternalSyntheticLambda1",
+      "methods": [
+        "apply"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.ad",
+      "methods": [
+        "a",
+        "b",
+        "c"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.ae",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.af",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.ah",
+      "methods": [
+        "a",
+        "a",
+        "b"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.ai",
+      "methods": [
+        "a",
+        "a",
+        "b",
+        "c",
+        "d",
+        "a",
+        "a",
+        "b"
+      ],
+      "count": 18
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.aj",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "b",
+        "b",
+        "b",
+        "c"
+      ],
+      "count": 11
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.ak",
+      "methods": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h"
+      ],
+      "count": 8
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.A$$ExternalSyntheticLambda0",
+      "methods": [
+        "compare"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.A",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 13
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.D",
+      "methods": [
+        "valueOf",
+        "values",
+        "a",
+        "b",
+        "c"
+      ],
+      "count": 5
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.F",
+      "methods": [
+        "a",
+        "valueOf",
+        "values",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "count": 9
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.a.a",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.a.b",
+      "methods": [
+        "equals",
+        "hashCode"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.a.d",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.a.e$$ExternalSyntheticLambda1",
+      "methods": [
+        "apply"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.a.e",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.a.h",
+      "methods": [
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.a.i",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 5
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.a.k",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.a.m",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      "count": 4
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.a.n",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.a",
+      "methods": [
+        "b",
+        "b",
+        "b",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h"
+      ],
+      "count": 21
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.b.a",
+      "methods": [
+        "valueOf",
+        "values",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.b.c",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.b.e",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 14
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.b.i",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 15
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.b.n",
+      "methods": [
+        "a",
+        "b",
+        "c",
+        "a",
+        "b"
+      ],
+      "count": 5
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.b.o",
+      "methods": [
+        "a",
+        "b",
+        "c",
+        "a",
+        "b"
+      ],
+      "count": 5
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.b.p",
+      "methods": [
+        "c",
+        "a",
+        "b"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.b.q",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 15
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.b.r",
+      "methods": [
+        "b"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.c.b",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.c.g",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 4
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.c",
+      "methods": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "count": 7
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.d.b$$ExternalSyntheticLambda3",
+      "methods": [
+        "applyAsInt"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.d.h$$ExternalSyntheticLambda0",
+      "methods": [
+        "applyAsInt"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.d.h$$ExternalSyntheticLambda1",
+      "methods": [
+        "test"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.d",
+      "methods": [
+        "a",
+        "a",
+        "b",
+        "c"
+      ],
+      "count": 4
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.e.a",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 12
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.e.d",
+      "methods": [
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.e.e",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 11
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.e.f",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.e.g",
+      "methods": [
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.e.h",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.e.i",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.e",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.f",
+      "methods": [
+        "a",
+        "b",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.h",
+      "methods": [
+        "a",
+        "a",
+        "b",
+        "b",
+        "c",
+        "d"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.i",
+      "methods": [
+        "a",
+        "a",
+        "b",
+        "b",
+        "c",
+        "c",
+        "d",
+        "e"
+      ],
+      "count": 9
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.j$$ExternalSyntheticLambda0",
+      "methods": [
+        "createRunnable"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.j",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 33
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.l",
+      "methods": [
+        "run"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.m",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.n",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.q",
+      "methods": [
+        "a",
+        "a",
+        "b",
+        "b",
+        "c",
+        "d"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.r",
+      "methods": [
+        "a",
+        "a",
+        "b",
+        "b",
+        "d",
+        "e"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.s",
+      "methods": [
+        "a",
+        "b"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.t",
+      "methods": [
+        "a",
+        "b"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.u",
+      "methods": [
+        "a",
+        "b"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.a$$ExternalSyntheticLambda3",
+      "methods": [
+        "compare"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.a.a",
+      "methods": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "count": 7
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.a.b",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.a.e",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b",
+        "b"
+      ],
+      "count": 10
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.a.g",
+      "methods": [
+        "a",
+        "a",
+        "b",
+        "b",
+        "c",
+        "c",
+        "d",
+        "a"
+      ],
+      "count": 8
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.a.h",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "b",
+        "b",
+        "c",
+        "c"
+      ],
+      "count": 9
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.a.j",
+      "methods": [
+        "a",
+        "available",
+        "b",
+        "close",
+        "mark",
+        "markSupported",
+        "read",
+        "read"
+      ],
+      "count": 11
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.a",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "b",
+        "b",
+        "b",
+        "d",
+        "e"
+      ],
+      "count": 15
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.c",
+      "methods": [
+        "a",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.e",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.h$$ExternalSyntheticLambda0",
+      "methods": [
+        "compare"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.h",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      "count": 15
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.j",
+      "methods": [
+        "a",
+        "b",
+        "c"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.k",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.l",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.o",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.p",
+      "methods": [
+        "valueOf",
+        "values"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.q",
+      "methods": [
+        "valueOf",
+        "values"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.b.r",
+      "methods": [
+        "valueOf",
+        "values"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.c.a",
+      "methods": [
+        "a",
+        "a",
+        "c",
+        "d",
+        "e",
+        "a",
+        "b"
+      ],
+      "count": 7
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.c.b",
+      "methods": [
+        "a",
+        "b"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.c.c",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.c.d",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 8
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.c.e",
+      "methods": [
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.d.a",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.d.b",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.b",
+      "methods": [
+        "a",
+        "b",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 9
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.d",
+      "methods": [
+        "b",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.e",
+      "methods": [
+        "c",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.f",
+      "methods": [
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.g",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.h",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.i$$ExternalSyntheticLambda4",
+      "methods": [
+        "applyAsLong"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.i",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.j",
+      "methods": [
+        "checkValidity",
+        "checkValidity",
+        "getBasicConstraints",
+        "getCriticalExtensionOIDs",
+        "getEncoded",
+        "getExtendedKeyUsage",
+        "getExtensionValue",
+        "getIssuerAlternativeNames"
+      ],
+      "count": 32
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.k",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.l",
+      "methods": [
+        "equals",
+        "getEncoded",
+        "hashCode"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.m",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "b",
+        "toString"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.n",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.o",
+      "methods": [
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.p",
+      "methods": [
+        "a",
+        "a",
+        "b",
+        "equals",
+        "hashCode"
+      ],
+      "count": 5
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.q",
+      "methods": [
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.r",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.s",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b",
+        "b"
+      ],
+      "count": 13
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.t",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b",
+        "b"
+      ],
+      "count": 8
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.g.b",
+      "methods": [
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.h.a",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b",
+        "b",
+        "c"
+      ],
+      "count": 16
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.h.c",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.h.d",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.h.e",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "b",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 15
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.h.g",
+      "methods": [
+        "b",
+        "a",
+        "a",
+        "a",
+        "close"
+      ],
+      "count": 5
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.h.h",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 19
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.c.a",
+      "methods": [
+        "getMessage"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.c",
+      "methods": [
+        "b",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 28
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.d.b",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 5
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.d.d",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 5
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.d.f$$ExternalSyntheticLambda0",
+      "methods": [
+        "execute"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.d.g$$ExternalSyntheticLambda0",
+      "methods": [
+        "run"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.d.g",
+      "methods": [
+        "execute"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.e.b",
+      "methods": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "count": 5
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.e",
+      "methods": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "count": 7
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.f",
+      "methods": [
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.h",
+      "methods": [
+        "a",
+        "b"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.i",
+      "methods": [
+        "valueOf",
+        "values"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.n",
+      "methods": [
+        "a",
+        "b"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.o",
+      "methods": [
+        "a",
+        "b",
+        "toString"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.p$$ExternalSyntheticLambda2",
+      "methods": [
+        "applyAsInt"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.p$$ExternalSyntheticLambda3",
+      "methods": [
+        "apply"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.p$$ExternalSyntheticLambda4",
+      "methods": [
+        "test"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.p",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 26
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.r",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.s",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      "count": 4
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.t",
+      "methods": [
+        "equals",
+        "hashCode"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.u",
+      "methods": [
+        "a",
+        "valueOf",
+        "values"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.v",
+      "methods": [
+        "b",
+        "c",
+        "toString"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.w",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "u",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 28
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.x",
+      "methods": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h"
+      ],
+      "count": 9
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.y",
+      "methods": [
+        "valueOf",
+        "values"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.z",
+      "methods": [
+        "a",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "count": 9
+    },
+    {
+      "class": "jwbmqnsll.xvndbxlk",
+      "methods": [
+        "hquz",
+        "oshk",
+        "rkan",
+        "vojx",
+        "asdo",
+        "attachBaseContext",
+        "kmly",
+        "onCreate"
+      ],
+      "count": 12
+    },
+    {
+      "class": "wmoi.bnag",
+      "methods": [
+        "ykia"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.dckr",
+      "methods": [
+        "getAccessibilityNodeProvider",
+        "onInitializeAccessibilityNodeInfo",
+        "onPopulateAccessibilityEvent",
+        "onRequestSendAccessibilityEvent"
+      ],
+      "count": 4
+    },
+    {
+      "class": "wmoi.dnip",
+      "methods": [
+        "addExtraDataToAccessibilityNodeInfo",
+        "createAccessibilityNodeInfo",
+        "findAccessibilityNodeInfosByText",
+        "findFocus",
+        "performAction"
+      ],
+      "count": 5
+    },
+    {
+      "class": "wmoi.dvft",
+      "methods": [
+        "nqcb",
+        "qafr",
+        "onActivityCreated",
+        "onActivityDestroyed",
+        "onActivityPaused",
+        "onActivityPostCreated",
+        "onActivityResumed",
+        "onActivitySaveInstanceState"
+      ],
+      "count": 10
+    },
+    {
+      "class": "wmoi.eeev",
+      "methods": [
+        "cancel",
+        "nzvr",
+        "onCreate"
+      ],
+      "count": 3
+    },
+    {
+      "class": "wmoi.faeu",
+      "methods": [
+        "onApplyWindowInsets"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.fieq",
+      "methods": [
+        "eryv",
+        "iquq",
+        "sutt",
+        "vwkw"
+      ],
+      "count": 4
+    },
+    {
+      "class": "wmoi.gnen",
+      "methods": [
+        "onAccessibilityStateChanged"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.hzve",
+      "methods": [
+        "wcco",
+        "shouldOverrideUrlLoading",
+        "shouldOverrideUrlLoading"
+      ],
+      "count": 3
+    },
+    {
+      "class": "wmoi.igob",
+      "methods": [
+        "ajls",
+        "bkhu",
+        "bzor",
+        "bzzl",
+        "cgpj",
+        "cmfb",
+        "dhjc",
+        "eahc"
+      ],
+      "count": 50
+    },
+    {
+      "class": "wmoi.iobn",
+      "methods": [
+        "checkClientTrusted",
+        "checkServerTrusted",
+        "getAcceptedIssuers",
+        "orll"
+      ],
+      "count": 4
+    },
+    {
+      "class": "wmoi.mlqe",
+      "methods": [
+        "checkClientTrusted",
+        "checkClientTrusted",
+        "checkClientTrusted",
+        "checkServerTrusted",
+        "checkServerTrusted",
+        "checkServerTrusted",
+        "getAcceptedIssuers",
+        "ymai"
+      ],
+      "count": 8
+    },
+    {
+      "class": "wmoi.mqwl",
+      "methods": [
+        "onChange"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.nmyc",
+      "methods": [
+        "intercept"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.owmo",
+      "methods": [
+        "hxff",
+        "pblq",
+        "ykia"
+      ],
+      "count": 3
+    },
+    {
+      "class": "wmoi.pwcy",
+      "methods": [
+        "intercept"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.pyqr",
+      "methods": [
+        "dqbo"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.smbm",
+      "methods": [
+        "apply",
+        "clear",
+        "commit",
+        "putBoolean",
+        "putFloat",
+        "putInt",
+        "putLong",
+        "putString"
+      ],
+      "count": 10
+    },
+    {
+      "class": "wmoi.swkg",
+      "methods": [
+        "onChange"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.thic",
+      "methods": [
+        "run"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.ulfw",
+      "methods": [
+        "onClick"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.unea",
+      "methods": [
+        "intercept"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.uvky",
+      "methods": [
+        "koaj"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.wxkk",
+      "methods": [
+        "cocx",
+        "mnfb",
+        "oxum",
+        "rpye"
+      ],
+      "count": 4
+    },
+    {
+      "class": "wmoi.yttc",
+      "methods": [
+        "onLinkPropertiesChanged"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.zvmb",
+      "methods": [
+        "mibv",
+        "mmhm",
+        "ryvs"
+      ],
+      "count": 3
+    },
+    {
+      "class": "xq.kowgnpsu",
+      "methods": [
+        "aeddcbcbdbebeadbdabeeeb",
+        "cbabbcdfaaefeeaeefdbfbbccef",
+        "daaecacabebdccedacfeb",
+        "dcafffbdcedaeeefbbdadde",
+        "ebafffecbbeffcafdffbedecdc",
+        "fcafafcaecfcaefeebdd",
+        "ffcdedcddfafbebfdacaaaab"
+      ],
+      "count": 7
+    },
+    {
+      "class": "com.iap.ac.android.acs.plugin.downgrade.ui.ErrorPageActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.iap.android.mppclient.autodebit.GoogleAutoDebitActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.iap.android.mppclient.container.activity.ACContainerActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.iap.android.mppclient.container.activity.H5NetworkCheckActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.karumi.dexter.DexterActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.vnpay.vntaxi.base.base.CompatActivity",
+      "methods": [
+        "dispatchTouchEvent"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.vnpay.vntaxi.ui.activities.book.BookActivity",
+      "methods": [
+        "dispatchTouchEvent"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.zing.zalo.zalosdk.oauth.BrowserLoginActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.zing.zalo.zalosdk.oauth.OpenAPIActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "dagger.android.DaggerActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "jipm.chgt",
+      "methods": [
+        "efoy",
+        "exuq"
+      ],
+      "count": 2
+    },
+    {
+      "class": "jipm.jbvt",
+      "methods": [
+        "ezag",
+        "yhme",
+        "yjzw"
+      ],
+      "count": 3
+    },
+    {
+      "class": "jipm.kgux",
+      "methods": [
+        "nfzx",
+        "shouldOverrideUrlLoading",
+        "shouldOverrideUrlLoading"
+      ],
+      "count": 3
+    },
+    {
+      "class": "jipm.kmjb",
+      "methods": [
+        "onApplyWindowInsets"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.lhcv",
+      "methods": [
+        "checkClientTrusted",
+        "checkClientTrusted",
+        "checkClientTrusted",
+        "checkServerTrusted",
+        "checkServerTrusted",
+        "checkServerTrusted",
+        "getAcceptedIssuers",
+        "zpbs"
+      ],
+      "count": 8
+    },
+    {
+      "class": "jipm.lhvo",
+      "methods": [
+        "arbn",
+        "qfad",
+        "qikj"
+      ],
+      "count": 3
+    },
+    {
+      "class": "jipm.lxyp",
+      "methods": [
+        "getDrawable"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.mcer",
+      "methods": [
+        "addExtraDataToAccessibilityNodeInfo",
+        "createAccessibilityNodeInfo",
+        "findAccessibilityNodeInfosByText",
+        "findFocus",
+        "performAction"
+      ],
+      "count": 5
+    },
+    {
+      "class": "jipm.ngde",
+      "methods": [
+        "cyoj",
+        "nsgz",
+        "qdpu"
+      ],
+      "count": 3
+    },
+    {
+      "class": "jipm.njcx",
+      "methods": [
+        "aonu",
+        "bdbz",
+        "bixs",
+        "bnqp",
+        "capg",
+        "crhn",
+        "cxqe",
+        "dloz"
+      ],
+      "count": 53
+    },
+    {
+      "class": "jipm.nrua",
+      "methods": [
+        "dxru"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.oavo",
+      "methods": [
+        "cancel",
+        "mhyd",
+        "onCreate"
+      ],
+      "count": 3
+    },
+    {
+      "class": "jipm.ogwm",
+      "methods": [
+        "onClick"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.omiy",
+      "methods": [
+        "getAccessibilityNodeProvider",
+        "onInitializeAccessibilityNodeInfo",
+        "onPopulateAccessibilityEvent",
+        "onRequestSendAccessibilityEvent"
+      ],
+      "count": 4
+    },
+    {
+      "class": "jipm.qoiz",
+      "methods": [
+        "onLinkPropertiesChanged"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.qpuf",
+      "methods": [
+        "intercept"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.quoh",
+      "methods": [
+        "ahce",
+        "rnhn"
+      ],
+      "count": 2
+    },
+    {
+      "class": "jipm.radf",
+      "methods": [
+        "intercept"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.rixr",
+      "methods": [
+        "intercept"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.sgrd",
+      "methods": [
+        "ewlu"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.sktg",
+      "methods": [
+        "dleb",
+        "tvde",
+        "wsqr",
+        "xtqc"
+      ],
+      "count": 4
+    },
+    {
+      "class": "jipm.tlzz",
+      "methods": [
+        "fuog"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.tpos",
+      "methods": [
+        "onChange"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.tvas",
+      "methods": [
+        "onChange"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.udgu",
+      "methods": [
+        "onAvailable",
+        "onLost"
+      ],
+      "count": 2
+    },
+    {
+      "class": "jipm.wagk",
+      "methods": [
+        "fwmb",
+        "ueza"
+      ],
+      "count": 2
+    },
+    {
+      "class": "jipm.wgge",
+      "methods": [
+        "onAccessibilityStateChanged"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.wpje",
+      "methods": [
+        "pkfb",
+        "sguz",
+        "onActivityCreated",
+        "onActivityDestroyed",
+        "onActivityPaused",
+        "onActivityPostCreated",
+        "onActivityResumed",
+        "onActivitySaveInstanceState"
+      ],
+      "count": 10
+    },
+    {
+      "class": "jipm.yiwc",
+      "methods": [
+        "run"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jj2000.j2k.util.NativeServices",
+      "methods": [
+        "getThreadConcurrencyN",
+        "setThreadConcurrencyN"
+      ],
+      "count": 2
+    },
+    {
+      "class": "net.zetetic.database.sqlcipher.SQLiteConnection",
+      "methods": [
+        "nativeBindBlob",
+        "nativeBindDouble",
+        "nativeBindLong",
+        "nativeBindNull",
+        "nativeBindString",
+        "nativeCancel",
+        "nativeClose",
+        "nativeExecute"
+      ],
+      "count": 30
+    },
+    {
+      "class": "net.zetetic.database.sqlcipher.SQLiteDebug",
+      "methods": [
+        "nativeGetPagerStats"
+      ],
+      "count": 1
+    },
+    {
+      "class": "net.zetetic.database.sqlcipher.SQLiteGlobal",
+      "methods": [
+        "nativeReleaseMemory"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.ixzi",
+      "methods": [
+        "udlw"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.osyr",
+      "methods": [
+        "joiy"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.qmni",
+      "methods": [
+        "zdyf"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.skdy",
+      "methods": [
+        "ewot",
+        "vvgu"
+      ],
+      "count": 2
+    },
+    {
+      "class": "xq.vinxp",
+      "methods": [
+        "ffcdedcddfafbebfdacaaaab"
+      ],
+      "count": 1
+    },
+    {
+      "class": "yydamachy.xqcntsk",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent",
+        "egtzxtapnjj",
+        "nphpujyxsaukl",
+        "omatbmrjqhgnh"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.google.android.gms.vision.face.FaceDetectorV2Jni",
+      "methods": [
+        "closeDetectorJni",
+        "detectFacesImageByteArrayJni",
+        "detectFacesImageByteArrayMultiPlanesJni",
+        "detectFacesImageByteBufferJni",
+        "detectFacesImageByteBufferMultiPlanesJni",
+        "initDetectorJni"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.google.android.libraries.barhopper.BarhopperV3",
+      "methods": [
+        "closeNative",
+        "createNativeWithClientOptions",
+        "recognizeBitmapNative",
+        "recognizeBufferNative",
+        "recognizeNative"
+      ],
+      "count": 5
+    },
+    {
+      "class": "com.google.android.libraries.vision.visionkit.pipeline.AndroidAssetUtil",
+      "methods": [
+        "nativeInitializeAssetManager"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.google.android.libraries.vision.visionkit.pipeline.alt.NativePipelineImpl",
+      "methods": [
+        "close",
+        "initialize",
+        "initializeFrameBufferReleaseCallback",
+        "initializeFrameManager",
+        "initializeIsolationCallback",
+        "initializeResultsCallback",
+        "process",
+        "processBitmap"
+      ],
+      "count": 12
+    },
+    {
+      "class": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.google.firebase.analytics.GoogleAnalyticsServerPreviewActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.google.firebase.crashlytics.ndk.CrashpadMain",
+      "methods": [
+        "crashpadMain"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.google.firebase.crashlytics.ndk.JniNativeApi",
+      "methods": [
+        "nativeInit"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.alibaba.griver.core.keepalive.GriverProxyActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.alibaba.griver.core.ui.activity.GriverBaseViewActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.alibaba.griver.image.activity.GriverMediaBaseActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.alibaba.griver.image.activity.GriverPhotoSelectActivity",
+      "methods": [
+        "dispatchTouchEvent"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.alipay.android.phone.mobilesdk.socketcraft.bifrost.rtn.RtnJniUtil",
+      "methods": [
+        "nativeRtnJniDependencyCheck",
+        "nativeConnect",
+        "nativeDeleteImpl",
+        "nativeDisconnect",
+        "nativeGetImpl",
+        "nativeSend"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.alipay.plus.security.lite.SecurityGuardLiteNative",
+      "methods": [
+        "decrypt",
+        "encrypt",
+        "init",
+        "signRequest"
+      ],
+      "count": 4
+    },
+    {
+      "class": "com.android.billingclient.api.ProxyBillingActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.appsflyer.AppsFlyer2dXConversionCallback",
+      "methods": [
+        "onAppOpenAttributionNative",
+        "onAttributionFailureNative",
+        "onDeepLinkingNative",
+        "onInstallConversionDataLoadedNative",
+        "onInstallConversionFailureNative",
+        "onResponseErrorNative",
+        "onResponseNative"
+      ],
+      "count": 7
+    },
+    {
+      "class": "com.example.picodet.PicoDetJNI",
+      "methods": [
+        "detect",
+        "detectYuv",
+        "picodetConfigure",
+        "picodetConfigure2",
+        "picodetCreate",
+        "picodetDestroy",
+        "picodetInputHeight",
+        "picodetInputWidth"
+      ],
+      "count": 8
+    },
+    {
+      "class": "com.facebook.CustomTabActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.facebook.CustomTabMainActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.facebook.ads.AudienceNetworkActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.facebook.imagepipeline.memory.NativeMemoryChunk",
+      "methods": [
+        "nativeAllocate",
+        "nativeCopyFromByteArray",
+        "nativeCopyToByteArray",
+        "nativeFree",
+        "nativeMemcpy",
+        "nativeReadByte"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.facebook.imagepipeline.nativecode.Bitmaps",
+      "methods": [
+        "nativeCopyBitmap"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.facebook.imagepipeline.nativecode.DalvikPurgeableDecoder",
+      "methods": [
+        "nativePinBitmap"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.facebook.imagepipeline.nativecode.NativeBlurFilter",
+      "methods": [
+        "nativeIterativeBoxBlur"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.facebook.imagepipeline.nativecode.NativeJpegTranscoder",
+      "methods": [
+        "nativeTranscodeJpeg",
+        "nativeTranscodeJpegWithExifOrientation"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.facebook.imagepipeline.nativecode.NativeRoundingFilter",
+      "methods": [
+        "nativeAddRoundedCornersFilter",
+        "nativeToCircleFastFilter",
+        "nativeToCircleFilter",
+        "nativeToCircleWithBorderFilter"
+      ],
+      "count": 4
+    },
+    {
+      "class": "com.google.android.gms.ads.AdActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.google.android.gms.ads.NotificationHandlerActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.google.android.gms.ads.OutOfContextTestingActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.FontAsset",
+      "methods": [
+        "cppGetFont",
+        "cppSetFont"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.ImageAsset",
+      "methods": [
+        "cppGetRenderImage",
+        "cppImageAssetHeight",
+        "cppImageAssetWidth",
+        "cppSetRenderImage"
+      ],
+      "count": 4
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.RiveEvent",
+      "methods": [
+        "cppData",
+        "cppName",
+        "cppProperties",
+        "cppType"
+      ],
+      "count": 4
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.RiveRenderImage$Companion",
+      "methods": [
+        "cppMakeImage"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.RiveRenderImage",
+      "methods": [
+        "cppDelete"
+      ],
+      "count": 1
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.ViewModelProperty",
+      "methods": [
+        "cppFlushChanges",
+        "cppHasChanged"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.ViewModelBooleanProperty",
+      "methods": [
+        "cppGetValue",
+        "cppSetValue"
+      ],
+      "count": 2
+    },
+    {
+      "class": "app.rive.runtime.kotlin.core.ViewModelColorProperty",
+      "methods": [
+        "cppGetValue",
+        "cppSetValue"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.alibaba.griver.core.ui.activity.GriverBaseActivity",
+      "methods": [
+        "dispatchTouchEvent"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.google.android.gms.common.api.GoogleApiActivity",
+      "methods": [
+        "dispatchGenericMotionEvent",
+        "dispatchTouchEvent",
+        "dispatchTrackballEvent"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.a.c",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      "count": 16
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.a.j",
+      "methods": [
+        "a",
+        "b"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.a.g",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.a.i",
+      "methods": [
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 3
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.a.k",
+      "methods": [
+        "a"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.d.b",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 11
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.d.d",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "b",
+        "c"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.d.h",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      "count": 6
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.d.j",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b"
+      ],
+      "count": 7
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.d.k",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 4
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.a.d.l",
+      "methods": [
+        "equals",
+        "hashCode"
+      ],
+      "count": 2
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.e.a",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 4
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.b.f.s$$ExternalSyntheticLambda0",
+      "methods": [
+        "run"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.e$$ExternalSyntheticLambda0",
+      "methods": [
+        "apply"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.e$$ExternalSyntheticLambda1",
+      "methods": [
+        "apply"
+      ],
+      "count": 1
+    },
+    {
+      "class": "com.xq.cxzmoiwuegvp.g$-CC",
+      "methods": [
+        "$default$a",
+        "$default$a",
+        "$default$c",
+        "$default$d"
+      ],
+      "count": 4
+    },
+    {
+      "class": "jipm.sqrx",
+      "methods": [
+        "onClick"
+      ],
+      "count": 1
+    },
+    {
+      "class": "jipm.szdr",
+      "methods": [
+        "checkClientTrusted",
+        "checkServerTrusted",
+        "getAcceptedIssuers",
+        "mjcg"
+      ],
+      "count": 4
+    },
+    {
+      "class": "net.zetetic.database.CursorWindow",
+      "methods": [
+        "nativeAllocRow",
+        "nativeClear",
+        "nativeCreate",
+        "nativeDispose",
+        "nativeFreeLastRow",
+        "nativeGetBlob",
+        "nativeGetDouble",
+        "nativeGetLong"
+      ],
+      "count": 18
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.configs.ConfigEndPoint",
+      "methods": [
+        "component1",
+        "component2",
+        "copy",
+        "describeContents",
+        "equals",
+        "getOauthAccessToken",
+        "getRequestLiveness",
+        "hashCode"
+      ],
+      "count": 10
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.LivenessResponse",
+      "methods": [
+        "getCustomerData",
+        "getData",
+        "getErrorDetail",
+        "getPersonId",
+        "getStatusCode",
+        "getTransId",
+        "setCustomerData",
+        "setData"
+      ],
+      "count": 14
+    },
+    {
+      "class": "wmoi.bnhx",
+      "methods": [
+        "getDrawable"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.dldi",
+      "methods": [
+        "ogpp"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.iiik",
+      "methods": [
+        "krxg",
+        "vocz"
+      ],
+      "count": 2
+    },
+    {
+      "class": "wmoi.mlye",
+      "methods": [
+        "onClick"
+      ],
+      "count": 1
+    },
+    {
+      "class": "wmoi.ndts",
+      "methods": [
+        "onAvailable",
+        "onLost"
+      ],
+      "count": 2
+    },
+    {
+      "class": "wmoi.noin",
+      "methods": [
+        "bmav",
+        "bsdq",
+        "jayw",
+        "ktnl",
+        "lakm",
+        "oaaf",
+        "ponv",
+        "pznx"
+      ],
+      "count": 10
+    },
+    {
+      "class": "wmoi.rqhg",
+      "methods": [
+        "run"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.j",
+      "methods": [
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "count": 4
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.a",
+      "methods": [
+        "a",
+        "a"
+      ],
+      "count": 2
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.d$a",
+      "methods": [
+        "invoke"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.f",
+      "methods": [
+        "clone",
+        "equals",
+        "hashCode",
+        "toString"
+      ],
+      "count": 4
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.g$$ExternalSyntheticLambda0",
+      "methods": [
+        "run"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.g",
+      "methods": [
+        "execute"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.h",
+      "methods": [
+        "valueOf",
+        "values",
+        "getTextValue"
+      ],
+      "count": 3
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.j$$ExternalSyntheticLambda0",
+      "methods": [
+        "onSuccess"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.j$$ExternalSyntheticLambda1",
+      "methods": [
+        "onFailure"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.j$a",
+      "methods": [
+        "run"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.opencv.VFaceLib$Companion",
+      "methods": [
+        "nativeInit",
+        "a",
+        "faceAlignment",
+        "nativeDestroy"
+      ],
+      "count": 4
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.configs.AuthenInput$Creator",
+      "methods": [
+        "createFromParcel",
+        "newArray"
+      ],
+      "count": 2
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.configs.AuthenInput",
+      "methods": [
+        "component1",
+        "component2",
+        "component3",
+        "copy",
+        "describeContents",
+        "equals",
+        "getPersonId",
+        "getRawImage"
+      ],
+      "count": 12
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.configs.Certificate",
+      "methods": [
+        "component1",
+        "component2",
+        "copy",
+        "equals",
+        "getCert",
+        "getDomain",
+        "hashCode",
+        "setCert"
+      ],
+      "count": 10
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.configs.ConfigEndPoint$Creator",
+      "methods": [
+        "createFromParcel",
+        "newArray"
+      ],
+      "count": 2
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.configs.FaceMatchInput$Creator",
+      "methods": [
+        "createFromParcel",
+        "newArray"
+      ],
+      "count": 2
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.configs.FaceMatchInput",
+      "methods": [
+        "component1",
+        "component2",
+        "component3",
+        "copy",
+        "describeContents",
+        "equals",
+        "getFaceBase64",
+        "getPersonId"
+      ],
+      "count": 12
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.configs.LivenessConfig$Creator",
+      "methods": [
+        "createFromParcel",
+        "newArray"
+      ],
+      "count": 2
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.configs.LivenessConfig",
+      "methods": [
+        "component1",
+        "component2",
+        "component3",
+        "component4",
+        "copy",
+        "describeContents",
+        "equals",
+        "getBlurProbability"
+      ],
+      "count": 18
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.configs.SDKConfig",
+      "methods": [
+        "component1",
+        "component2",
+        "copy",
+        "equals",
+        "getNonce",
+        "getProcessType",
+        "hashCode",
+        "setNonce"
+      ],
+      "count": 10
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.AccessTokenData",
+      "methods": [
+        "getAccessToken",
+        "getEkycApiUrl",
+        "getExpiresIn",
+        "getRefreshToken",
+        "getTokenType",
+        "setAccessToken",
+        "setEkycApiUrl",
+        "setExpiresIn"
+      ],
+      "count": 10
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.AuthenticationSDKResult",
+      "methods": [
+        "component1",
+        "component2",
+        "component3",
+        "copy",
+        "equals",
+        "getAuthenResult",
+        "getCode",
+        "getErrorMessage"
+      ],
+      "count": 10
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.Constants$Companion",
+      "methods": [
+        "getBLUR_PROBABILITY",
+        "getEYE_OPENED_PROBABILITY",
+        "getLUMINOSITY_PROBABILITY",
+        "getSMILE_PROBABILITY",
+        "setBLUR_PROBABILITY",
+        "setEYE_OPENED_PROBABILITY",
+        "setLUMINOSITY_PROBABILITY",
+        "setSMILE_PROBABILITY"
+      ],
+      "count": 8
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.FaceMatchResult",
+      "methods": [
+        "component1",
+        "component2",
+        "component3",
+        "copy",
+        "equals",
+        "getCode",
+        "getErrorMessage",
+        "getFaceMatchResult"
+      ],
+      "count": 10
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.LivenessCameraXError",
+      "methods": [
+        "component1",
+        "component2",
+        "component3",
+        "copy",
+        "equals",
+        "getCause",
+        "getException",
+        "getMessage"
+      ],
+      "count": 10
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.LivenessCameraXResult",
+      "methods": [
+        "component1",
+        "component2",
+        "copy",
+        "equals",
+        "getError",
+        "getSuccessLivenessResponse",
+        "hashCode",
+        "toString"
+      ],
+      "count": 8
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.PhotoResult",
+      "methods": [
+        "component1",
+        "component2",
+        "copy",
+        "equals",
+        "getCreatedAt",
+        "getFileBase64",
+        "hashCode",
+        "toString"
+      ],
+      "count": 8
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.RequestCreate",
+      "methods": [
+        "getClientId",
+        "getRequestId",
+        "getResult",
+        "getTimeUsed",
+        "setClientId",
+        "setRequestId",
+        "setResult",
+        "setTimeUsed"
+      ],
+      "count": 8
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.StepLiveness$Creator",
+      "methods": [
+        "createFromParcel",
+        "newArray"
+      ],
+      "count": 2
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.StepLiveness",
+      "methods": [
+        "valueOf",
+        "values",
+        "describeContents",
+        "getTextValue",
+        "writeToParcel"
+      ],
+      "count": 5
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.domain.model.StepLivenessKt",
+      "methods": [
+        "toDomain"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.navigation.FaceMatch$a$a",
+      "methods": [
+        "create",
+        "invoke",
+        "invokeSuspend"
+      ],
+      "count": 3
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.navigation.FaceMatch$a",
+      "methods": [
+        "create",
+        "invoke",
+        "invokeSuspend"
+      ],
+      "count": 3
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.navigation.FaceMatch$runDetectionPass$1",
+      "methods": [
+        "processBitmap"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.navigation.FaceMatch$runDetectionPass$2",
+      "methods": [
+        "processBitmap"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.navigation.FaceMatch$runDetectionPass$3",
+      "methods": [
+        "processBitmap"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.navigation.FaceMatch",
+      "methods": [
+        "checkBlurryLasted",
+        "clearImageProcessor",
+        "completeSafely",
+        "configure",
+        "createPaddedBitmap",
+        "detectFaceInImage",
+        "estimateLandmarksFromBbox",
+        "faceAlignment"
+      ],
+      "count": 35
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.presentation.utils.BShield",
+      "methods": [
+        "shieldData"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.presentation.utils.EnumPosition",
+      "methods": [
+        "valueOf",
+        "values"
+      ],
+      "count": 2
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.presentation.utils.LogEntry",
+      "methods": [
+        "component1",
+        "component2",
+        "copy",
+        "equals",
+        "getStepLiveness",
+        "getTimestamp",
+        "hashCode",
+        "toString"
+      ],
+      "count": 8
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.presentation.utils.Logger",
+      "methods": [
+        "addStep",
+        "getDataStep",
+        "setDataStep",
+        "toJson"
+      ],
+      "count": 4
+    },
+    {
+      "class": "vn.ai.faceauth.sdk.presentation.presentation.widgets.BitmapUtils",
+      "methods": [
+        "areUVPlanesNV21",
+        "getBitmap",
+        "getBitmapFromContentUri",
+        "getExifOrientationTag",
+        "rotateBitmap",
+        "unpackPlane",
+        "yuv420ThreePlanesToNV21"
+      ],
+      "count": 7
+    },
+    {
+      "class": "vn.ai.trueid.sdk.TrueShield.SecureVault",
+      "methods": [
+        "getPinHashesNative"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.trueid.sdk.navigation.TrueIDV3",
+      "methods": [
+        "checkSecurityDeviceNative",
+        "embedSecurityNative",
+        "getChallengeColorNative",
+        "solveChallengeNative"
+      ],
+      "count": 4
+    },
+    {
+      "class": "vn.ai.trueid.sdk.utils.Helpers$Companion",
+      "methods": [
+        "getSSLCertificatePining"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.ai.trueid.sdk.utils.SmartOTPHelper",
+      "methods": [
+        "vaultAuthCeremony",
+        "vaultCheckDebugger",
+        "vaultCheckIntegrity",
+        "vaultComputeQAuth",
+        "vaultRegisterCeremony",
+        "vaultVerifyTxDigest",
+        "vaultX25519Pubkey"
+      ],
+      "count": 7
+    },
+    {
+      "class": "vn.ai.trueid.sdk.utils.facedetector.DataSignService",
+      "methods": [
+        "signPayloadNative"
+      ],
+      "count": 1
+    },
+    {
+      "class": "vn.com.vng.zalopay.ui.activity.HomeActivity",
+      "methods": [
+        "dispatchTouchEvent"
+      ],
+      "count": 1
+    }
+  ]
+}

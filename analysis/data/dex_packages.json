@@ -1,0 +1,2805 @@
+{
+  "count": 3399,
+  "packages": [
+    {
+      "package": "com.google.android",
+      "classes": 6507,
+      "methods": 28364,
+      "sample": "com.google.android.exoplayer2.extractor.metadata.vorbis.VorbisComment",
+      "class_share_pct": 10.195
+    },
+    {
+      "package": "com.facebook.ads",
+      "classes": 3254,
+      "methods": 23500,
+      "sample": "com.facebook.ads.redexgen.X.00",
+      "class_share_pct": 5.098
+    },
+    {
+      "package": "com.alibaba.ariver",
+      "classes": 2415,
+      "methods": 13520,
+      "sample": "com.alibaba.ariver.kernel.api.security.Accessor",
+      "class_share_pct": 3.784
+    },
+    {
+      "package": "com.alibaba.griver",
+      "classes": 2228,
+      "methods": 12449,
+      "sample": "com.alibaba.griver.FavoriteBridgeExtension",
+      "class_share_pct": 3.491
+    },
+    {
+      "package": "org.bouncycastle.jcajce",
+      "classes": 1758,
+      "methods": 4944,
+      "sample": "org.bouncycastle.jcajce.BCFKSLoadStoreParameter$1",
+      "class_share_pct": 2.754
+    },
+    {
+      "package": "com.iap.ac",
+      "classes": 1330,
+      "methods": 5575,
+      "sample": "com.iap.ac.android.acs.multilanguage.MultiLanguageKit",
+      "class_share_pct": 2.084
+    },
+    {
+      "package": "org.bouncycastle.pqc",
+      "classes": 975,
+      "methods": 5061,
+      "sample": "org.bouncycastle.pqc.asn1.CMCEPrivateKey",
+      "class_share_pct": 1.528
+    },
+    {
+      "package": "vn.com.vng",
+      "classes": 958,
+      "methods": 7112,
+      "sample": "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+      "class_share_pct": 1.501
+    },
+    {
+      "package": "com.visa.cbp",
+      "classes": 900,
+      "methods": 6876,
+      "sample": "com.visa.cbp.AidInfo",
+      "class_share_pct": 1.41
+    },
+    {
+      "package": "org.bouncycastle.crypto",
+      "classes": 836,
+      "methods": 6002,
+      "sample": "org.bouncycastle.crypto.AlphabetMapper",
+      "class_share_pct": 1.31
+    },
+    {
+      "package": "org.bouncycastle.asn1",
+      "classes": 748,
+      "methods": 5547,
+      "sample": "org.bouncycastle.asn1.ASN1Primitive",
+      "class_share_pct": 1.172
+    },
+    {
+      "package": "vn.ai.trueid",
+      "classes": 622,
+      "methods": 4632,
+      "sample": "vn.ai.trueid.lottie.FontAssetDelegate",
+      "class_share_pct": 0.975
+    },
+    {
+      "package": "androidx.media3.exoplayer",
+      "classes": 538,
+      "methods": 2170,
+      "sample": "androidx.media3.exoplayer.A0",
+      "class_share_pct": 0.843
+    },
+    {
+      "package": "q9",
+      "classes": 472,
+      "methods": 1074,
+      "sample": "q9.L7",
+      "class_share_pct": 0.739
+    },
+    {
+      "package": "p9",
+      "classes": 454,
+      "methods": 1005,
+      "sample": "p9.u7",
+      "class_share_pct": 0.711
+    },
+    {
+      "package": "com.vnpay.vntaxi",
+      "classes": 377,
+      "methods": 1855,
+      "sample": "com.vnpay.vntaxi.utils.k",
+      "class_share_pct": 0.591
+    },
+    {
+      "package": "com.appsflyer.internal",
+      "classes": 364,
+      "methods": 1953,
+      "sample": "com.appsflyer.internal.AFg1bSDK",
+      "class_share_pct": 0.57
+    },
+    {
+      "package": "com.nimbusds.jose",
+      "classes": 360,
+      "methods": 2674,
+      "sample": "com.nimbusds.jose.JOSEException",
+      "class_share_pct": 0.564
+    },
+    {
+      "package": "com.visa.visapaysdk",
+      "classes": 337,
+      "methods": 874,
+      "sample": "com.visa.visapaysdk.R",
+      "class_share_pct": 0.528
+    },
+    {
+      "package": "n9",
+      "classes": 315,
+      "methods": 737,
+      "sample": "n9.A0",
+      "class_share_pct": 0.494
+    },
+    {
+      "package": "org.bouncycastle.oer",
+      "classes": 315,
+      "methods": 1889,
+      "sample": "org.bouncycastle.oer.BitBuilder",
+      "class_share_pct": 0.494
+    },
+    {
+      "package": "m9",
+      "classes": 314,
+      "methods": 857,
+      "sample": "m9.A0",
+      "class_share_pct": 0.492
+    },
+    {
+      "package": "androidx.media3.extractor",
+      "classes": 309,
+      "methods": 1115,
+      "sample": "androidx.media3.extractor.k",
+      "class_share_pct": 0.484
+    },
+    {
+      "package": "androidx.camera.core",
+      "classes": 306,
+      "methods": 1053,
+      "sample": "androidx.camera.core.internal.j$a",
+      "class_share_pct": 0.479
+    },
+    {
+      "package": "com.google.common",
+      "classes": 304,
+      "methods": 826,
+      "sample": "com.google.common.math.ElementTypesAreNonnullByDefault",
+      "class_share_pct": 0.476
+    },
+    {
+      "package": "com.xq.cxzmoiwuegvp",
+      "classes": 299,
+      "methods": 1851,
+      "sample": "com.xq.cxzmoiwuegvp.A",
+      "class_share_pct": 0.468
+    },
+    {
+      "package": "com.iap.android",
+      "classes": 269,
+      "methods": 916,
+      "sample": "com.iap.android.mppclient.basic.callback.Callback",
+      "class_share_pct": 0.421
+    },
+    {
+      "package": "org.bouncycastle.math",
+      "classes": 264,
+      "methods": 3481,
+      "sample": "org.bouncycastle.math.Primes$1",
+      "class_share_pct": 0.414
+    },
+    {
+      "package": "androidx.compose.ui",
+      "classes": 261,
+      "methods": 1331,
+      "sample": "androidx.compose.ui.platform.o1",
+      "class_share_pct": 0.409
+    },
+    {
+      "package": "Va",
+      "classes": 253,
+      "methods": 899,
+      "sample": "Va.A2",
+      "class_share_pct": 0.396
+    },
+    {
+      "package": "io.reactivex.internal",
+      "classes": 251,
+      "methods": 1263,
+      "sample": "io.reactivex.internal.operators.flowable.a",
+      "class_share_pct": 0.393
+    },
+    {
+      "package": "org.bouncycastle.cms",
+      "classes": 240,
+      "methods": 1270,
+      "sample": "org.bouncycastle.cms.CMSProcessable",
+      "class_share_pct": 0.376
+    },
+    {
+      "package": "androidx.compose.foundation",
+      "classes": 234,
+      "methods": 966,
+      "sample": "androidx.compose.foundation.gestures.snapping.m",
+      "class_share_pct": 0.367
+    },
+    {
+      "package": "androidx.camera.camera2",
+      "classes": 234,
+      "methods": 976,
+      "sample": "androidx.camera.camera2.Camera2Config$DefaultProvider",
+      "class_share_pct": 0.367
+    },
+    {
+      "package": "com.alipay.plus",
+      "classes": 230,
+      "methods": 1236,
+      "sample": "com.alipay.plus.android.iapminiprogram.BuildConfig",
+      "class_share_pct": 0.36
+    },
+    {
+      "package": "com.google.firebase",
+      "classes": 221,
+      "methods": 1209,
+      "sample": "com.google.firebase.components.g",
+      "class_share_pct": 0.346
+    },
+    {
+      "package": "com.google.crypto",
+      "classes": 221,
+      "methods": 932,
+      "sample": "com.google.crypto.tink.d",
+      "class_share_pct": 0.346
+    },
+    {
+      "package": "com.bumptech.glide",
+      "classes": 213,
+      "methods": 718,
+      "sample": "com.bumptech.glide.load.data.d",
+      "class_share_pct": 0.334
+    },
+    {
+      "package": "n0",
+      "classes": 212,
+      "methods": 542,
+      "sample": "n0.A0",
+      "class_share_pct": 0.332
+    },
+    {
+      "package": "com.google.protobuf",
+      "classes": 209,
+      "methods": 2396,
+      "sample": "com.google.protobuf.f1",
+      "class_share_pct": 0.327
+    },
+    {
+      "package": "com.google.gson",
+      "classes": 207,
+      "methods": 1242,
+      "sample": "com.google.gson.ExclusionStrategy",
+      "class_share_pct": 0.324
+    },
+    {
+      "package": "androidx.media3.common",
+      "classes": 202,
+      "methods": 698,
+      "sample": "androidx.media3.common.util.p",
+      "class_share_pct": 0.316
+    },
+    {
+      "package": "vn.zalopay.ui",
+      "classes": 186,
+      "methods": 792,
+      "sample": "vn.zalopay.ui.edittext.AmountEditText$a",
+      "class_share_pct": 0.291
+    },
+    {
+      "package": "androidx.appcompat.widget",
+      "classes": 178,
+      "methods": 1358,
+      "sample": "androidx.appcompat.widget.Toolbar$a",
+      "class_share_pct": 0.279
+    },
+    {
+      "package": "com.airbnb.lottie",
+      "classes": 173,
+      "methods": 718,
+      "sample": "com.airbnb.lottie.B",
+      "class_share_pct": 0.271
+    },
+    {
+      "package": "androidx.glance.appwidget",
+      "classes": 170,
+      "methods": 605,
+      "sample": "androidx.glance.appwidget.protobuf.L0",
+      "class_share_pct": 0.266
+    },
+    {
+      "package": "androidx.camera.video",
+      "classes": 159,
+      "methods": 500,
+      "sample": "androidx.camera.video.A",
+      "class_share_pct": 0.249
+    },
+    {
+      "package": "org.bouncycastle.cert",
+      "classes": 158,
+      "methods": 963,
+      "sample": "org.bouncycastle.cert.AttributeCertificateIssuer",
+      "class_share_pct": 0.248
+    },
+    {
+      "package": "app.rive.runtime",
+      "classes": 157,
+      "methods": 1291,
+      "sample": "app.rive.runtime.kotlin.ChangedInput",
+      "class_share_pct": 0.246
+    },
+    {
+      "package": "org.jmrtd.lds",
+      "classes": 151,
+      "methods": 1575,
+      "sample": "org.jmrtd.lds.LDSElement",
+      "class_share_pct": 0.237
+    },
+    {
+      "package": "androidx.datastore.preferences",
+      "classes": 140,
+      "methods": 770,
+      "sample": "androidx.datastore.preferences.protobuf.A0",
+      "class_share_pct": 0.219
+    },
+    {
+      "package": "q0",
+      "classes": 137,
+      "methods": 653,
+      "sample": "q0.h1",
+      "class_share_pct": 0.215
+    },
+    {
+      "package": "org.bouncycastle.operator",
+      "classes": 135,
+      "methods": 458,
+      "sample": "org.bouncycastle.operator.ContentVerifier",
+      "class_share_pct": 0.212
+    },
+    {
+      "package": "org.bouncycastle.jce",
+      "classes": 131,
+      "methods": 1029,
+      "sample": "org.bouncycastle.jce.interfaces.PKCS12BagAttributeCarrier",
+      "class_share_pct": 0.205
+    },
+    {
+      "package": "androidx.core.view",
+      "classes": 127,
+      "methods": 420,
+      "sample": "androidx.core.view.K",
+      "class_share_pct": 0.199
+    },
+    {
+      "package": "BV",
+      "classes": 124,
+      "methods": 413,
+      "sample": "BV.G0",
+      "class_share_pct": 0.194
+    },
+    {
+      "package": "F",
+      "classes": 120,
+      "methods": 370,
+      "sample": "F.Q",
+      "class_share_pct": 0.188
+    },
+    {
+      "package": "B2",
+      "classes": 117,
+      "methods": 376,
+      "sample": "B2.A0",
+      "class_share_pct": 0.183
+    },
+    {
+      "package": "androidx.fragment.app",
+      "classes": 115,
+      "methods": 736,
+      "sample": "androidx.fragment.app.Fragment",
+      "class_share_pct": 0.18
+    },
+    {
+      "package": "uo",
+      "classes": 115,
+      "methods": 235,
+      "sample": "uo.C0",
+      "class_share_pct": 0.18
+    },
+    {
+      "package": "f8",
+      "classes": 111,
+      "methods": 564,
+      "sample": "f8.a",
+      "class_share_pct": 0.174
+    },
+    {
+      "package": "org.jsoup.parser",
+      "classes": 110,
+      "methods": 338,
+      "sample": "org.jsoup.parser.d1",
+      "class_share_pct": 0.172
+    },
+    {
+      "package": "androidx.work.impl",
+      "classes": 108,
+      "methods": 431,
+      "sample": "androidx.work.impl.foreground.a",
+      "class_share_pct": 0.169
+    },
+    {
+      "package": "s3",
+      "classes": 108,
+      "methods": 205,
+      "sample": "s3.l0",
+      "class_share_pct": 0.169
+    },
+    {
+      "package": "okhttp3",
+      "classes": 107,
+      "methods": 1226,
+      "sample": "okhttp3.EventListener$Factory",
+      "class_share_pct": 0.168
+    },
+    {
+      "package": "androidx.recyclerview.widget",
+      "classes": 106,
+      "methods": 842,
+      "sample": "androidx.recyclerview.widget.Y",
+      "class_share_pct": 0.166
+    },
+    {
+      "package": "gi",
+      "classes": 106,
+      "methods": 411,
+      "sample": "gi.s0",
+      "class_share_pct": 0.166
+    },
+    {
+      "package": "X",
+      "classes": 103,
+      "methods": 287,
+      "sample": "X.A0",
+      "class_share_pct": 0.161
+    },
+    {
+      "package": "sb",
+      "classes": 103,
+      "methods": 188,
+      "sample": "sb.A0",
+      "class_share_pct": 0.161
+    },
+    {
+      "package": "com.alibaba.exthub",
+      "classes": 102,
+      "methods": 728,
+      "sample": "com.alibaba.exthub.lifecycler.ActivityLifecycleExtension",
+      "class_share_pct": 0.16
+    },
+    {
+      "package": "h3",
+      "classes": 100,
+      "methods": 344,
+      "sample": "h3.B0",
+      "class_share_pct": 0.157
+    },
+    {
+      "package": "vn.com.zalopay",
+      "classes": 95,
+      "methods": 384,
+      "sample": "vn.com.zalopay.wallet.repository.bank.a",
+      "class_share_pct": 0.149
+    },
+    {
+      "package": "DC",
+      "classes": 95,
+      "methods": 140,
+      "sample": "DC.K0",
+      "class_share_pct": 0.149
+    },
+    {
+      "package": "com.facebook.imagepipeline",
+      "classes": 94,
+      "methods": 369,
+      "sample": "com.facebook.imagepipeline.common.TooManyBitmapsException",
+      "class_share_pct": 0.147
+    },
+    {
+      "package": "ap",
+      "classes": 93,
+      "methods": 521,
+      "sample": "ap.A0",
+      "class_share_pct": 0.146
+    },
+    {
+      "package": "com.alipay.android",
+      "classes": 92,
+      "methods": 709,
+      "sample": "com.alipay.android.phone.mobilesdk.socketcraft.WrappedByteChannel",
+      "class_share_pct": 0.144
+    },
+    {
+      "package": "S",
+      "classes": 91,
+      "methods": 376,
+      "sample": "S.y",
+      "class_share_pct": 0.143
+    },
+    {
+      "package": "com.caverock.androidsvg",
+      "classes": 91,
+      "methods": 342,
+      "sample": "com.caverock.androidsvg.A0",
+      "class_share_pct": 0.143
+    },
+    {
+      "package": "vh",
+      "classes": 89,
+      "methods": 484,
+      "sample": "vh.A",
+      "class_share_pct": 0.139
+    },
+    {
+      "package": "c1",
+      "classes": 88,
+      "methods": 653,
+      "sample": "c1.o",
+      "class_share_pct": 0.138
+    },
+    {
+      "package": "com.android.billingclient",
+      "classes": 88,
+      "methods": 183,
+      "sample": "com.android.billingclient.api.A0",
+      "class_share_pct": 0.138
+    },
+    {
+      "package": "retrofit2",
+      "classes": 88,
+      "methods": 384,
+      "sample": "retrofit2.BuiltInConverters$StreamingResponseBodyConverter",
+      "class_share_pct": 0.138
+    },
+    {
+      "package": "okio",
+      "classes": 84,
+      "methods": 1146,
+      "sample": "okio.Source",
+      "class_share_pct": 0.132
+    },
+    {
+      "package": "E8",
+      "classes": 84,
+      "methods": 340,
+      "sample": "E8.k",
+      "class_share_pct": 0.132
+    },
+    {
+      "package": "yK",
+      "classes": 84,
+      "methods": 213,
+      "sample": "yK.B0",
+      "class_share_pct": 0.132
+    },
+    {
+      "package": "a1",
+      "classes": 83,
+      "methods": 326,
+      "sample": "a1.U",
+      "class_share_pct": 0.13
+    },
+    {
+      "package": "h0",
+      "classes": 83,
+      "methods": 241,
+      "sample": "h0.W",
+      "class_share_pct": 0.13
+    },
+    {
+      "package": "androidx.lifecycle",
+      "classes": 82,
+      "methods": 289,
+      "sample": "androidx.lifecycle.F",
+      "class_share_pct": 0.128
+    },
+    {
+      "package": "T",
+      "classes": 82,
+      "methods": 253,
+      "sample": "T.A0",
+      "class_share_pct": 0.128
+    },
+    {
+      "package": "org.bouncycastle.util",
+      "classes": 82,
+      "methods": 611,
+      "sample": "org.bouncycastle.util.CollectionStore",
+      "class_share_pct": 0.128
+    },
+    {
+      "package": "com.squareup.picasso",
+      "classes": 81,
+      "methods": 511,
+      "sample": "com.squareup.picasso.Action$RequestWeakReference",
+      "class_share_pct": 0.127
+    },
+    {
+      "package": "SV",
+      "classes": 80,
+      "methods": 411,
+      "sample": "SV.A0",
+      "class_share_pct": 0.125
+    },
+    {
+      "package": "is",
+      "classes": 80,
+      "methods": 245,
+      "sample": "is.A0",
+      "class_share_pct": 0.125
+    },
+    {
+      "package": "Ho",
+      "classes": 79,
+      "methods": 202,
+      "sample": "Ho.A0",
+      "class_share_pct": 0.124
+    },
+    {
+      "package": "R",
+      "classes": 78,
+      "methods": 202,
+      "sample": "R.A",
+      "class_share_pct": 0.122
+    },
+    {
+      "package": "Rg",
+      "classes": 78,
+      "methods": 354,
+      "sample": "Rg.A0",
+      "class_share_pct": 0.122
+    },
+    {
+      "package": "ji",
+      "classes": 78,
+      "methods": 241,
+      "sample": "ji.j",
+      "class_share_pct": 0.122
+    },
+    {
+      "package": "kotlin.reflect.jvm",
+      "classes": 78,
+      "methods": 403,
+      "sample": "kotlin.reflect.jvm.internal.impl.descriptors.InvalidModuleException",
+      "class_share_pct": 0.122
+    },
+    {
+      "package": "com.alibaba.fastjson",
+      "classes": 76,
+      "methods": 665,
+      "sample": "com.alibaba.fastjson.JSONArray",
+      "class_share_pct": 0.119
+    },
+    {
+      "package": "com.tiktok.appevents",
+      "classes": 76,
+      "methods": 406,
+      "sample": "com.tiktok.appevents.ErrorData",
+      "class_share_pct": 0.119
+    },
+    {
+      "package": "jV",
+      "classes": 75,
+      "methods": 233,
+      "sample": "jV.N",
+      "class_share_pct": 0.118
+    },
+    {
+      "package": "yi",
+      "classes": 74,
+      "methods": 364,
+      "sample": "yi.j",
+      "class_share_pct": 0.116
+    },
+    {
+      "package": "fA",
+      "classes": 74,
+      "methods": 262,
+      "sample": "fA.T",
+      "class_share_pct": 0.116
+    },
+    {
+      "package": "n",
+      "classes": 73,
+      "methods": 6,
+      "sample": "n.A",
+      "class_share_pct": 0.114
+    },
+    {
+      "package": "mK",
+      "classes": 73,
+      "methods": 284,
+      "sample": "mK.a0",
+      "class_share_pct": 0.114
+    },
+    {
+      "package": "kotlin.collections",
+      "classes": 72,
+      "methods": 2220,
+      "sample": "kotlin.collections.A",
+      "class_share_pct": 0.113
+    },
+    {
+      "package": "com.visa.visapay",
+      "classes": 72,
+      "methods": 349,
+      "sample": "com.visa.visapay.common.R",
+      "class_share_pct": 0.113
+    },
+    {
+      "package": "Wy",
+      "classes": 72,
+      "methods": 215,
+      "sample": "Wy.Q",
+      "class_share_pct": 0.113
+    },
+    {
+      "package": "SM",
+      "classes": 70,
+      "methods": 245,
+      "sample": "SM.a0",
+      "class_share_pct": 0.11
+    },
+    {
+      "package": "Ro",
+      "classes": 70,
+      "methods": 203,
+      "sample": "Ro.A",
+      "class_share_pct": 0.11
+    },
+    {
+      "package": "XH",
+      "classes": 69,
+      "methods": 260,
+      "sample": "XH.c0",
+      "class_share_pct": 0.108
+    },
+    {
+      "package": "Lo",
+      "classes": 69,
+      "methods": 198,
+      "sample": "Lo.A",
+      "class_share_pct": 0.108
+    },
+    {
+      "package": "vn.ai.faceauth",
+      "classes": 67,
+      "methods": 440,
+      "sample": "vn.ai.faceauth.sdk.presentation.domain.configs.ConfigEndPoint",
+      "class_share_pct": 0.105
+    },
+    {
+      "package": "Xg",
+      "classes": 66,
+      "methods": 260,
+      "sample": "Xg.E",
+      "class_share_pct": 0.103
+    },
+    {
+      "package": "com.facebook",
+      "classes": 66,
+      "methods": 259,
+      "sample": "com.facebook.r",
+      "class_share_pct": 0.103
+    },
+    {
+      "package": "com.alipay.iap",
+      "classes": 66,
+      "methods": 323,
+      "sample": "com.alipay.iap.android.wallet.acl.base.Callback",
+      "class_share_pct": 0.103
+    },
+    {
+      "package": "com.karumi.dexter",
+      "classes": 65,
+      "methods": 257,
+      "sample": "com.karumi.dexter.AndroidPermissionService",
+      "class_share_pct": 0.102
+    },
+    {
+      "package": "Io",
+      "classes": 64,
+      "methods": 196,
+      "sample": "Io.A",
+      "class_share_pct": 0.1
+    },
+    {
+      "package": "JW",
+      "classes": 63,
+      "methods": 179,
+      "sample": "JW.F",
+      "class_share_pct": 0.099
+    },
+    {
+      "package": "w9",
+      "classes": 63,
+      "methods": 142,
+      "sample": "w9.s",
+      "class_share_pct": 0.099
+    },
+    {
+      "package": "H8",
+      "classes": 63,
+      "methods": 186,
+      "sample": "H8.l0",
+      "class_share_pct": 0.099
+    },
+    {
+      "package": "gh",
+      "classes": 62,
+      "methods": 177,
+      "sample": "gh.L",
+      "class_share_pct": 0.097
+    },
+    {
+      "package": "com.facebook.internal",
+      "classes": 62,
+      "methods": 240,
+      "sample": "com.facebook.internal.s",
+      "class_share_pct": 0.097
+    },
+    {
+      "package": "b0",
+      "classes": 61,
+      "methods": 256,
+      "sample": "b0.X",
+      "class_share_pct": 0.096
+    },
+    {
+      "package": "androidx.media3.ui",
+      "classes": 61,
+      "methods": 313,
+      "sample": "androidx.media3.ui.U",
+      "class_share_pct": 0.096
+    },
+    {
+      "package": "ng",
+      "classes": 61,
+      "methods": 159,
+      "sample": "ng.r",
+      "class_share_pct": 0.096
+    },
+    {
+      "package": "com.visa.hcesdk",
+      "classes": 61,
+      "methods": 215,
+      "sample": "com.visa.hcesdk.R",
+      "class_share_pct": 0.096
+    },
+    {
+      "package": "org.ejbca.cvc",
+      "classes": 61,
+      "methods": 383,
+      "sample": "org.ejbca.cvc.AbstractSequence",
+      "class_share_pct": 0.096
+    },
+    {
+      "package": "K0",
+      "classes": 60,
+      "methods": 345,
+      "sample": "K0.A",
+      "class_share_pct": 0.094
+    },
+    {
+      "package": "androidx.core.app",
+      "classes": 59,
+      "methods": 129,
+      "sample": "androidx.core.app.RemoteActionCompatParcelizer",
+      "class_share_pct": 0.092
+    },
+    {
+      "package": "android.support.v4",
+      "classes": 59,
+      "methods": 131,
+      "sample": "android.support.v4.app.RemoteActionCompatParcelizer",
+      "class_share_pct": 0.092
+    },
+    {
+      "package": "Pq",
+      "classes": 59,
+      "methods": 155,
+      "sample": "Pq.A",
+      "class_share_pct": 0.092
+    },
+    {
+      "package": "Z2",
+      "classes": 57,
+      "methods": 243,
+      "sample": "Z2.A",
+      "class_share_pct": 0.089
+    },
+    {
+      "package": "Rh",
+      "classes": 57,
+      "methods": 341,
+      "sample": "Rh.Z",
+      "class_share_pct": 0.089
+    },
+    {
+      "package": "net.zetetic.database",
+      "classes": 57,
+      "methods": 337,
+      "sample": "net.zetetic.database.AbstractCursor$SelfContentObserver",
+      "class_share_pct": 0.089
+    },
+    {
+      "package": "androidx.appcompat.app",
+      "classes": 56,
+      "methods": 357,
+      "sample": "androidx.appcompat.app.A",
+      "class_share_pct": 0.088
+    },
+    {
+      "package": "Wz",
+      "classes": 56,
+      "methods": 359,
+      "sample": "Wz.c$e$a",
+      "class_share_pct": 0.088
+    },
+    {
+      "package": "androidx.camera.view",
+      "classes": 55,
+      "methods": 183,
+      "sample": "androidx.camera.view.A",
+      "class_share_pct": 0.086
+    },
+    {
+      "package": "x9",
+      "classes": 55,
+      "methods": 193,
+      "sample": "x9.w",
+      "class_share_pct": 0.086
+    },
+    {
+      "package": "Yy",
+      "classes": 55,
+      "methods": 123,
+      "sample": "Yy.A",
+      "class_share_pct": 0.086
+    },
+    {
+      "package": "org.bouncycastle.its",
+      "classes": 54,
+      "methods": 240,
+      "sample": "org.bouncycastle.its.ETSIEncryptedDataBuilder",
+      "class_share_pct": 0.085
+    },
+    {
+      "package": "com.appsflyer",
+      "classes": 54,
+      "methods": 322,
+      "sample": "com.appsflyer.AFAdRevenueData",
+      "class_share_pct": 0.085
+    },
+    {
+      "package": "DB",
+      "classes": 54,
+      "methods": 312,
+      "sample": "DB.A",
+      "class_share_pct": 0.085
+    },
+    {
+      "package": "at",
+      "classes": 54,
+      "methods": 28,
+      "sample": "at.a",
+      "class_share_pct": 0.085
+    },
+    {
+      "package": "androidx.media3.datasource",
+      "classes": 53,
+      "methods": 106,
+      "sample": "androidx.media3.datasource.DataSourceException",
+      "class_share_pct": 0.083
+    },
+    {
+      "package": "b00",
+      "classes": 53,
+      "methods": 165,
+      "sample": "b00.C",
+      "class_share_pct": 0.083
+    },
+    {
+      "package": "vY",
+      "classes": 53,
+      "methods": 1,
+      "sample": "vY.A",
+      "class_share_pct": 0.083
+    },
+    {
+      "package": "org.bouncycastle.pkcs",
+      "classes": 53,
+      "methods": 277,
+      "sample": "org.bouncycastle.pkcs.DeltaCertAttributeUtils",
+      "class_share_pct": 0.083
+    },
+    {
+      "package": "Ek",
+      "classes": 53,
+      "methods": 211,
+      "sample": "Ek.A",
+      "class_share_pct": 0.083
+    },
+    {
+      "package": "JV",
+      "classes": 53,
+      "methods": 174,
+      "sample": "JV.A",
+      "class_share_pct": 0.083
+    },
+    {
+      "package": "dJ",
+      "classes": 53,
+      "methods": 204,
+      "sample": "dJ.t",
+      "class_share_pct": 0.083
+    },
+    {
+      "package": "iz",
+      "classes": 53,
+      "methods": 206,
+      "sample": "iz.A",
+      "class_share_pct": 0.083
+    },
+    {
+      "package": "androidx.camera.extensions",
+      "classes": 52,
+      "methods": 135,
+      "sample": "androidx.camera.extensions.ExtensionsManager$1",
+      "class_share_pct": 0.081
+    },
+    {
+      "package": "org.bouncycastle.openssl",
+      "classes": 52,
+      "methods": 195,
+      "sample": "org.bouncycastle.openssl.CertificateTrustBlock",
+      "class_share_pct": 0.081
+    },
+    {
+      "package": "org.bouncycastle.tsp",
+      "classes": 52,
+      "methods": 346,
+      "sample": "org.bouncycastle.tsp.TSPException",
+      "class_share_pct": 0.081
+    },
+    {
+      "package": "CA",
+      "classes": 52,
+      "methods": 164,
+      "sample": "CA.A",
+      "class_share_pct": 0.081
+    },
+    {
+      "package": "uK",
+      "classes": 52,
+      "methods": 127,
+      "sample": "uK.A",
+      "class_share_pct": 0.081
+    },
+    {
+      "package": "TJ",
+      "classes": 51,
+      "methods": 217,
+      "sample": "TJ.K",
+      "class_share_pct": 0.08
+    },
+    {
+      "package": "nM",
+      "classes": 51,
+      "methods": 132,
+      "sample": "nM.A",
+      "class_share_pct": 0.08
+    },
+    {
+      "package": "wJ",
+      "classes": 51,
+      "methods": 179,
+      "sample": "wJ.D",
+      "class_share_pct": 0.08
+    },
+    {
+      "package": "androidx.transition",
+      "classes": 50,
+      "methods": 176,
+      "sample": "androidx.transition.A",
+      "class_share_pct": 0.078
+    },
+    {
+      "package": "Cp",
+      "classes": 50,
+      "methods": 140,
+      "sample": "Cp.A",
+      "class_share_pct": 0.078
+    },
+    {
+      "package": "kotlin.jvm.internal",
+      "classes": 50,
+      "methods": 216,
+      "sample": "kotlin.jvm.internal.j",
+      "class_share_pct": 0.078
+    },
+    {
+      "package": "com.google.mlkit",
+      "classes": 50,
+      "methods": 190,
+      "sample": "com.google.mlkit.common.MlKitException$a",
+      "class_share_pct": 0.078
+    },
+    {
+      "package": "org.bouncycastle.est",
+      "classes": 50,
+      "methods": 270,
+      "sample": "org.bouncycastle.est.CACertsResponse",
+      "class_share_pct": 0.078
+    },
+    {
+      "package": "cI",
+      "classes": 50,
+      "methods": 182,
+      "sample": "cI.A",
+      "class_share_pct": 0.078
+    },
+    {
+      "package": "cV",
+      "classes": 50,
+      "methods": 181,
+      "sample": "cV.N",
+      "class_share_pct": 0.078
+    },
+    {
+      "package": "BB",
+      "classes": 50,
+      "methods": 206,
+      "sample": "BB.A",
+      "class_share_pct": 0.078
+    },
+    {
+      "package": "OS",
+      "classes": 50,
+      "methods": 152,
+      "sample": "OS.C",
+      "class_share_pct": 0.078
+    },
+    {
+      "package": "okhttp3.internal.http2",
+      "classes": 49,
+      "methods": 415,
+      "sample": "okhttp3.internal.http2.Http2Connection$Listener",
+      "class_share_pct": 0.077
+    },
+    {
+      "package": "Ux",
+      "classes": 49,
+      "methods": 131,
+      "sample": "Ux.A",
+      "class_share_pct": 0.077
+    },
+    {
+      "package": "NA",
+      "classes": 49,
+      "methods": 122,
+      "sample": "NA.A",
+      "class_share_pct": 0.077
+    },
+    {
+      "package": "ah",
+      "classes": 48,
+      "methods": 545,
+      "sample": "ah.j",
+      "class_share_pct": 0.075
+    },
+    {
+      "package": "gG",
+      "classes": 48,
+      "methods": 120,
+      "sample": "gG.O",
+      "class_share_pct": 0.075
+    },
+    {
+      "package": "gf",
+      "classes": 47,
+      "methods": 537,
+      "sample": "gf.D",
+      "class_share_pct": 0.074
+    },
+    {
+      "package": "qM",
+      "classes": 47,
+      "methods": 145,
+      "sample": "qM.D",
+      "class_share_pct": 0.074
+    },
+    {
+      "package": "Zb",
+      "classes": 46,
+      "methods": 124,
+      "sample": "Zb.A",
+      "class_share_pct": 0.072
+    },
+    {
+      "package": "org.bouncycastle.pkix",
+      "classes": 46,
+      "methods": 420,
+      "sample": "org.bouncycastle.pkix.ASN1PKIXNameConstraintValidator",
+      "class_share_pct": 0.072
+    },
+    {
+      "package": "CS",
+      "classes": 46,
+      "methods": 190,
+      "sample": "CS.A",
+      "class_share_pct": 0.072
+    },
+    {
+      "package": "MV",
+      "classes": 46,
+      "methods": 170,
+      "sample": "MV.A",
+      "class_share_pct": 0.072
+    },
+    {
+      "package": "ej",
+      "classes": 46,
+      "methods": 0,
+      "sample": "ej.A",
+      "class_share_pct": 0.072
+    },
+    {
+      "package": "butterknife",
+      "classes": 45,
+      "methods": 27,
+      "sample": "butterknife.Unbinder",
+      "class_share_pct": 0.071
+    },
+    {
+      "package": "Ae",
+      "classes": 45,
+      "methods": 157,
+      "sample": "Ae.a",
+      "class_share_pct": 0.071
+    },
+    {
+      "package": "cz",
+      "classes": 45,
+      "methods": 167,
+      "sample": "cz.A",
+      "class_share_pct": 0.071
+    },
+    {
+      "package": "Gn",
+      "classes": 45,
+      "methods": 301,
+      "sample": "Gn.A",
+      "class_share_pct": 0.071
+    },
+    {
+      "package": "B0",
+      "classes": 44,
+      "methods": 353,
+      "sample": "B0.A",
+      "class_share_pct": 0.069
+    },
+    {
+      "package": "androidx.work",
+      "classes": 44,
+      "methods": 159,
+      "sample": "androidx.work.ListenableWorker",
+      "class_share_pct": 0.069
+    },
+    {
+      "package": "kotlin.text",
+      "classes": 44,
+      "methods": 533,
+      "sample": "kotlin.text.A",
+      "class_share_pct": 0.069
+    },
+    {
+      "package": "P",
+      "classes": 43,
+      "methods": 361,
+      "sample": "P.A",
+      "class_share_pct": 0.067
+    },
+    {
+      "package": "d0",
+      "classes": 43,
+      "methods": 139,
+      "sample": "d0.A",
+      "class_share_pct": 0.067
+    },
+    {
+      "package": "BE",
+      "classes": 43,
+      "methods": 120,
+      "sample": "BE.D",
+      "class_share_pct": 0.067
+    },
+    {
+      "package": "okhttp3.internal.platform",
+      "classes": 43,
+      "methods": 258,
+      "sample": "okhttp3.internal.platform.Android10Platform$Companion",
+      "class_share_pct": 0.067
+    },
+    {
+      "package": "bJ",
+      "classes": 43,
+      "methods": 150,
+      "sample": "bJ.w",
+      "class_share_pct": 0.067
+    },
+    {
+      "package": "zJ",
+      "classes": 43,
+      "methods": 123,
+      "sample": "zJ.A",
+      "class_share_pct": 0.067
+    },
+    {
+      "package": "Pn",
+      "classes": 43,
+      "methods": 104,
+      "sample": "Pn.A",
+      "class_share_pct": 0.067
+    },
+    {
+      "package": "androidx.emoji2.text",
+      "classes": 42,
+      "methods": 158,
+      "sample": "androidx.emoji2.text.j",
+      "class_share_pct": 0.066
+    },
+    {
+      "package": "wmoi",
+      "classes": 42,
+      "methods": 231,
+      "sample": "wmoi.slpl",
+      "class_share_pct": 0.066
+    },
+    {
+      "package": "kotlin.reflect",
+      "classes": 42,
+      "methods": 104,
+      "sample": "kotlin.reflect.b",
+      "class_share_pct": 0.066
+    },
+    {
+      "package": "Xz",
+      "classes": 42,
+      "methods": 372,
+      "sample": "Xz.b$g$a",
+      "class_share_pct": 0.066
+    },
+    {
+      "package": "JF",
+      "classes": 42,
+      "methods": 175,
+      "sample": "JF.A",
+      "class_share_pct": 0.066
+    },
+    {
+      "package": "Wn",
+      "classes": 42,
+      "methods": 135,
+      "sample": "Wn.A",
+      "class_share_pct": 0.066
+    },
+    {
+      "package": "androidx.biometric",
+      "classes": 41,
+      "methods": 110,
+      "sample": "androidx.biometric.A",
+      "class_share_pct": 0.064
+    },
+    {
+      "package": "oE",
+      "classes": 41,
+      "methods": 126,
+      "sample": "oE.A",
+      "class_share_pct": 0.064
+    },
+    {
+      "package": "Zp",
+      "classes": 41,
+      "methods": 127,
+      "sample": "Zp.C",
+      "class_share_pct": 0.064
+    },
+    {
+      "package": "DZ",
+      "classes": 41,
+      "methods": 157,
+      "sample": "DZ.A",
+      "class_share_pct": 0.064
+    },
+    {
+      "package": "ZJ",
+      "classes": 41,
+      "methods": 301,
+      "sample": "ZJ.d$a",
+      "class_share_pct": 0.064
+    },
+    {
+      "package": "qJ",
+      "classes": 41,
+      "methods": 278,
+      "sample": "qJ.A",
+      "class_share_pct": 0.064
+    },
+    {
+      "package": "G1",
+      "classes": 40,
+      "methods": 88,
+      "sample": "G1.r",
+      "class_share_pct": 0.063
+    },
+    {
+      "package": "Q0",
+      "classes": 40,
+      "methods": 145,
+      "sample": "Q0.B",
+      "class_share_pct": 0.063
+    },
+    {
+      "package": "com.facebook.soloader",
+      "classes": 40,
+      "methods": 118,
+      "sample": "com.facebook.soloader.A",
+      "class_share_pct": 0.063
+    },
+    {
+      "package": "OV",
+      "classes": 40,
+      "methods": 84,
+      "sample": "OV.A",
+      "class_share_pct": 0.063
+    },
+    {
+      "package": "SP",
+      "classes": 40,
+      "methods": 167,
+      "sample": "SP.E",
+      "class_share_pct": 0.063
+    },
+    {
+      "package": "lt",
+      "classes": 40,
+      "methods": 78,
+      "sample": "lt.A",
+      "class_share_pct": 0.063
+    },
+    {
+      "package": "sH",
+      "classes": 40,
+      "methods": 90,
+      "sample": "sH.A",
+      "class_share_pct": 0.063
+    },
+    {
+      "package": "androidx.appcompat.view",
+      "classes": 39,
+      "methods": 473,
+      "sample": "androidx.appcompat.view.menu.A$a",
+      "class_share_pct": 0.061
+    },
+    {
+      "package": "n1",
+      "classes": 39,
+      "methods": 115,
+      "sample": "n1.k$a",
+      "class_share_pct": 0.061
+    },
+    {
+      "package": "androidx.media",
+      "classes": 39,
+      "methods": 70,
+      "sample": "androidx.media.A",
+      "class_share_pct": 0.061
+    },
+    {
+      "package": "com.alipay.multigateway",
+      "classes": 39,
+      "methods": 149,
+      "sample": "com.alipay.multigateway.sdk.BuildConfig",
+      "class_share_pct": 0.061
+    },
+    {
+      "package": "t7",
+      "classes": 39,
+      "methods": 102,
+      "sample": "t7.L",
+      "class_share_pct": 0.061
+    },
+    {
+      "package": "nK",
+      "classes": 39,
+      "methods": 102,
+      "sample": "nK.A",
+      "class_share_pct": 0.061
+    },
+    {
+      "package": "androidx.activity",
+      "classes": 38,
+      "methods": 169,
+      "sample": "androidx.activity.H",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "o1",
+      "classes": 38,
+      "methods": 177,
+      "sample": "o1.w",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "Z",
+      "classes": 38,
+      "methods": 197,
+      "sample": "Z.A",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "Ar",
+      "classes": 38,
+      "methods": 102,
+      "sample": "Ar.A",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "K7",
+      "classes": 38,
+      "methods": 80,
+      "sample": "K7.A",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "com.alipay.multimedia",
+      "classes": 38,
+      "methods": 234,
+      "sample": "com.alipay.multimedia.adjuster.adapter.ICdnAdapter",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "org.bouncycastle.x509",
+      "classes": 38,
+      "methods": 424,
+      "sample": "org.bouncycastle.x509.CertPathReviewerException",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "org.chromium.support_lib_boundary",
+      "classes": 38,
+      "methods": 143,
+      "sample": "org.chromium.support_lib_boundary.FeatureFlagHolderBoundaryInterface",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "Si",
+      "classes": 38,
+      "methods": 0,
+      "sample": "Si.A",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "WJ",
+      "classes": 38,
+      "methods": 102,
+      "sample": "WJ.A",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "XI",
+      "classes": 38,
+      "methods": 137,
+      "sample": "XI.C",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "nj",
+      "classes": 38,
+      "methods": 0,
+      "sample": "nj.A",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "vq",
+      "classes": 38,
+      "methods": 191,
+      "sample": "vq.A",
+      "class_share_pct": 0.06
+    },
+    {
+      "package": "a0",
+      "classes": 37,
+      "methods": 134,
+      "sample": "a0.y",
+      "class_share_pct": 0.058
+    },
+    {
+      "package": "Ap",
+      "classes": 37,
+      "methods": 101,
+      "sample": "Ap.A",
+      "class_share_pct": 0.058
+    },
+    {
+      "package": "Hp",
+      "classes": 37,
+      "methods": 121,
+      "sample": "Hp.r",
+      "class_share_pct": 0.058
+    },
+    {
+      "package": "th",
+      "classes": 37,
+      "methods": 125,
+      "sample": "th.z$c",
+      "class_share_pct": 0.058
+    },
+    {
+      "package": "M4",
+      "classes": 37,
+      "methods": 133,
+      "sample": "M4.z",
+      "class_share_pct": 0.058
+    },
+    {
+      "package": "com.android.volley",
+      "classes": 37,
+      "methods": 118,
+      "sample": "com.android.volley.u",
+      "class_share_pct": 0.058
+    },
+    {
+      "package": "Zz",
+      "classes": 37,
+      "methods": 115,
+      "sample": "Zz.A",
+      "class_share_pct": 0.058
+    },
+    {
+      "package": "bI",
+      "classes": 37,
+      "methods": 109,
+      "sample": "bI.B",
+      "class_share_pct": 0.058
+    },
+    {
+      "package": "hK",
+      "classes": 37,
+      "methods": 257,
+      "sample": "hK.a$a",
+      "class_share_pct": 0.058
+    },
+    {
+      "package": "xp",
+      "classes": 36,
+      "methods": 35,
+      "sample": "xp.J",
+      "class_share_pct": 0.056
+    },
+    {
+      "package": "kh",
+      "classes": 36,
+      "methods": 89,
+      "sample": "kh.A",
+      "class_share_pct": 0.056
+    },
+    {
+      "package": "Bk",
+      "classes": 36,
+      "methods": 167,
+      "sample": "Bk.A",
+      "class_share_pct": 0.056
+    },
+    {
+      "package": "MP",
+      "classes": 36,
+      "methods": 84,
+      "sample": "MP.A",
+      "class_share_pct": 0.056
+    },
+    {
+      "package": "RB",
+      "classes": 36,
+      "methods": 93,
+      "sample": "RB.A",
+      "class_share_pct": 0.056
+    },
+    {
+      "package": "RS",
+      "classes": 36,
+      "methods": 107,
+      "sample": "RS.C",
+      "class_share_pct": 0.056
+    },
+    {
+      "package": "Yt",
+      "classes": 36,
+      "methods": 79,
+      "sample": "Yt.z",
+      "class_share_pct": 0.056
+    },
+    {
+      "package": "nA",
+      "classes": 36,
+      "methods": 71,
+      "sample": "nA.A",
+      "class_share_pct": 0.056
+    },
+    {
+      "package": "YX",
+      "classes": 35,
+      "methods": 102,
+      "sample": "YX.A",
+      "class_share_pct": 0.055
+    },
+    {
+      "package": "i8",
+      "classes": 35,
+      "methods": 167,
+      "sample": "i8.s",
+      "class_share_pct": 0.055
+    },
+    {
+      "package": "s6",
+      "classes": 35,
+      "methods": 0,
+      "sample": "s6.A",
+      "class_share_pct": 0.055
+    },
+    {
+      "package": "jK",
+      "classes": 35,
+      "methods": 64,
+      "sample": "jK.A",
+      "class_share_pct": 0.055
+    },
+    {
+      "package": "J6",
+      "classes": 34,
+      "methods": 8,
+      "sample": "J6.A",
+      "class_share_pct": 0.053
+    },
+    {
+      "package": "k8",
+      "classes": 34,
+      "methods": 73,
+      "sample": "k8.q",
+      "class_share_pct": 0.053
+    },
+    {
+      "package": "Ew",
+      "classes": 34,
+      "methods": 105,
+      "sample": "Ew.A",
+      "class_share_pct": 0.053
+    },
+    {
+      "package": "iR",
+      "classes": 34,
+      "methods": 171,
+      "sample": "iR.A",
+      "class_share_pct": 0.053
+    },
+    {
+      "package": "W0",
+      "classes": 33,
+      "methods": 134,
+      "sample": "W0.u",
+      "class_share_pct": 0.052
+    },
+    {
+      "package": "yr",
+      "classes": 33,
+      "methods": 72,
+      "sample": "yr.A",
+      "class_share_pct": 0.052
+    },
+    {
+      "package": "Pl",
+      "classes": 33,
+      "methods": 91,
+      "sample": "Pl.A",
+      "class_share_pct": 0.052
+    },
+    {
+      "package": "pp",
+      "classes": 33,
+      "methods": 72,
+      "sample": "pp.A",
+      "class_share_pct": 0.052
+    },
+    {
+      "package": "Ai",
+      "classes": 33,
+      "methods": 431,
+      "sample": "Ai.A",
+      "class_share_pct": 0.052
+    },
+    {
+      "package": "Oh",
+      "classes": 33,
+      "methods": 99,
+      "sample": "Oh.A",
+      "class_share_pct": 0.052
+    },
+    {
+      "package": "org.bouncycastle.mime",
+      "classes": 33,
+      "methods": 145,
+      "sample": "org.bouncycastle.mime.MimeParser",
+      "class_share_pct": 0.052
+    },
+    {
+      "package": "EF",
+      "classes": 33,
+      "methods": 87,
+      "sample": "EF.G",
+      "class_share_pct": 0.052
+    },
+    {
+      "package": "z2",
+      "classes": 32,
+      "methods": 76,
+      "sample": "z2.z",
+      "class_share_pct": 0.05
+    },
+    {
+      "package": "I0",
+      "classes": 32,
+      "methods": 135,
+      "sample": "I0.r",
+      "class_share_pct": 0.05
+    },
+    {
+      "package": "VD",
+      "classes": 32,
+      "methods": 187,
+      "sample": "VD.A",
+      "class_share_pct": 0.05
+    },
+    {
+      "package": "dh",
+      "classes": 32,
+      "methods": 144,
+      "sample": "dh.C",
+      "class_share_pct": 0.05
+    },
+    {
+      "package": "jipm",
+      "classes": 32,
+      "methods": 191,
+      "sample": "jipm.chgt",
+      "class_share_pct": 0.05
+    },
+    {
+      "package": "FW",
+      "classes": 32,
+      "methods": 82,
+      "sample": "FW.A",
+      "class_share_pct": 0.05
+    },
+    {
+      "package": "US",
+      "classes": 32,
+      "methods": 86,
+      "sample": "US.D",
+      "class_share_pct": 0.05
+    },
+    {
+      "package": "gA",
+      "classes": 32,
+      "methods": 167,
+      "sample": "gA.C",
+      "class_share_pct": 0.05
+    },
+    {
+      "package": "kV",
+      "classes": 32,
+      "methods": 118,
+      "sample": "kV.E",
+      "class_share_pct": 0.05
+    },
+    {
+      "package": "r0",
+      "classes": 31,
+      "methods": 91,
+      "sample": "r0.D",
+      "class_share_pct": 0.049
+    },
+    {
+      "package": "zi",
+      "classes": 31,
+      "methods": 156,
+      "sample": "zi.h",
+      "class_share_pct": 0.049
+    },
+    {
+      "package": "li",
+      "classes": 31,
+      "methods": 120,
+      "sample": "li.i",
+      "class_share_pct": 0.049
+    },
+    {
+      "package": "L9",
+      "classes": 31,
+      "methods": 46,
+      "sample": "L9.A",
+      "class_share_pct": 0.049
+    },
+    {
+      "package": "o8",
+      "classes": 31,
+      "methods": 96,
+      "sample": "o8.A",
+      "class_share_pct": 0.049
+    },
+    {
+      "package": "EG",
+      "classes": 31,
+      "methods": 87,
+      "sample": "EG.A",
+      "class_share_pct": 0.049
+    },
+    {
+      "package": "QP",
+      "classes": 31,
+      "methods": 103,
+      "sample": "QP.A",
+      "class_share_pct": 0.049
+    },
+    {
+      "package": "ZN",
+      "classes": 31,
+      "methods": 49,
+      "sample": "ZN.E",
+      "class_share_pct": 0.049
+    },
+    {
+      "package": "jQ",
+      "classes": 31,
+      "methods": 110,
+      "sample": "jQ.A",
+      "class_share_pct": 0.049
+    },
+    {
+      "package": "E1",
+      "classes": 30,
+      "methods": 117,
+      "sample": "E1.z",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "r2",
+      "classes": 30,
+      "methods": 85,
+      "sample": "r2.i",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "androidx.constraintlayout.core",
+      "classes": 30,
+      "methods": 145,
+      "sample": "androidx.constraintlayout.core.state.i",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "L2",
+      "classes": 30,
+      "methods": 85,
+      "sample": "L2.y",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "r4",
+      "classes": 30,
+      "methods": 97,
+      "sample": "r4.z",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "net.sf.scuba",
+      "classes": 30,
+      "methods": 288,
+      "sample": "net.sf.scuba.data.Country",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "oh",
+      "classes": 30,
+      "methods": 192,
+      "sample": "oh.A",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "vf",
+      "classes": 30,
+      "methods": 104,
+      "sample": "vf.A",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "zd",
+      "classes": 30,
+      "methods": 64,
+      "sample": "zd.A",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "fz",
+      "classes": 30,
+      "methods": 114,
+      "sample": "fz.D",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "js",
+      "classes": 30,
+      "methods": 142,
+      "sample": "js.A",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "Po",
+      "classes": 30,
+      "methods": 80,
+      "sample": "Po.u",
+      "class_share_pct": 0.047
+    },
+    {
+      "package": "k0",
+      "classes": 29,
+      "methods": 182,
+      "sample": "k0.p",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "u3",
+      "classes": 29,
+      "methods": 111,
+      "sample": "u3.B",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "Tr",
+      "classes": 29,
+      "methods": 107,
+      "sample": "Tr.A",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "sL",
+      "classes": 29,
+      "methods": 73,
+      "sample": "sL.A",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "Ip",
+      "classes": 29,
+      "methods": 78,
+      "sample": "Ip.B",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "Sg",
+      "classes": 29,
+      "methods": 88,
+      "sample": "Sg.f",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "rh",
+      "classes": 29,
+      "methods": 58,
+      "sample": "rh.l",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "Qa",
+      "classes": 29,
+      "methods": 74,
+      "sample": "Qa.d",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "X7",
+      "classes": 29,
+      "methods": 70,
+      "sample": "X7.A",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "tS",
+      "classes": 29,
+      "methods": 93,
+      "sample": "tS.A",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "AA",
+      "classes": 29,
+      "methods": 117,
+      "sample": "AA.A",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "BJ",
+      "classes": 29,
+      "methods": 125,
+      "sample": "BJ.A",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "YM",
+      "classes": 29,
+      "methods": 75,
+      "sample": "YM.A",
+      "class_share_pct": 0.045
+    },
+    {
+      "package": "ZD",
+      "classes": 28,
+      "methods": 112,
+      "sample": "ZD.A",
+      "class_share_pct": 0.044
+    },
+    {
+      "package": "ii",
+      "classes": 28,
+      "methods": 125,
+      "sample": "ii.A",
+      "class_share_pct": 0.044
+    },
+    {
+      "package": "y9",
+      "classes": 28,
+      "methods": 95,
+      "sample": "y9.A",
+      "class_share_pct": 0.044
+    },
+    {
+      "package": "fy",
+      "classes": 28,
+      "methods": 198,
+      "sample": "fy.a",
+      "class_share_pct": 0.044
+    },
+    {
+      "package": "org.jmrtd.protocol",
+      "classes": 28,
+      "methods": 235,
+      "sample": "org.jmrtd.protocol.AAAPDUSender",
+      "class_share_pct": 0.044
+    },
+    {
+      "package": "BM",
+      "classes": 28,
+      "methods": 189,
+      "sample": "BM.a",
+      "class_share_pct": 0.044
+    },
+    {
+      "package": "QG",
+      "classes": 28,
+      "methods": 54,
+      "sample": "QG.A",
+      "class_share_pct": 0.044
+    },
+    {
+      "package": "iN",
+      "classes": 28,
+      "methods": 120,
+      "sample": "iN.u",
+      "class_share_pct": 0.044
+    },
+    {
+      "package": "ml",
+      "classes": 28,
+      "methods": 68,
+      "sample": "ml.A",
+      "class_share_pct": 0.044
+    },
+    {
+      "package": "xV",
+      "classes": 28,
+      "methods": 143,
+      "sample": "xV.A",
+      "class_share_pct": 0.044
+    },
+    {
+      "package": "D0",
+      "classes": 27,
+      "methods": 74,
+      "sample": "D0.a",
+      "class_share_pct": 0.042
+    },
+    {
+      "package": "z",
+      "classes": 27,
+      "methods": 46,
+      "sample": "z.A",
+      "class_share_pct": 0.042
+    },
+    {
+      "package": "DR",
+      "classes": 27,
+      "methods": 71,
+      "sample": "DR.A",
+      "class_share_pct": 0.042
+    },
+    {
+      "package": "s9",
+      "classes": 27,
+      "methods": 98,
+      "sample": "s9.h",
+      "class_share_pct": 0.042
+    },
+    {
+      "package": "ya",
+      "classes": 27,
+      "methods": 61,
+      "sample": "ya.g",
+      "class_share_pct": 0.042
+    },
+    {
+      "package": "k9",
+      "classes": 27,
+      "methods": 133,
+      "sample": "k9.a",
+      "class_share_pct": 0.042
+    },
+    {
+      "package": "o9",
+      "classes": 27,
+      "methods": 134,
+      "sample": "o9.v",
+      "class_share_pct": 0.042
+    },
+    {
+      "package": "TH",
+      "classes": 27,
+      "methods": 144,
+      "sample": "TH.A",
+      "class_share_pct": 0.042
+    },
+    {
+      "package": "Ok",
+      "classes": 27,
+      "methods": 63,
+      "sample": "Ok.A",
+      "class_share_pct": 0.042
+    },
+    {
+      "package": "jG",
+      "classes": 27,
+      "methods": 88,
+      "sample": "jG.A",
+      "class_share_pct": 0.042
+    },
+    {
+      "package": "i1",
+      "classes": 26,
+      "methods": 90,
+      "sample": "i1.m",
+      "class_share_pct": 0.041
+    },
+    {
+      "package": "Fp",
+      "classes": 26,
+      "methods": 28,
+      "sample": "Fp.e",
+      "class_share_pct": 0.041
+    },
+    {
+      "package": "oq",
+      "classes": 26,
+      "methods": 146,
+      "sample": "oq.a",
+      "class_share_pct": 0.041
+    },
+    {
+      "package": "Gh",
+      "classes": 26,
+      "methods": 75,
+      "sample": "Gh.g",
+      "class_share_pct": 0.041
+    },
+    {
+      "package": "Xh",
+      "classes": 26,
+      "methods": 68,
+      "sample": "Xh.d",
+      "class_share_pct": 0.041
+    },
+    {
+      "package": "org.bouncycastle.internal",
+      "classes": 26,
+      "methods": 66,
+      "sample": "org.bouncycastle.internal.asn1.bsi.BSIObjectIdentifiers",
+      "class_share_pct": 0.041
+    },
+    {
+      "package": "x7",
+      "classes": 26,
+      "methods": 58,
+      "sample": "x7.i",
+      "class_share_pct": 0.041
+    },
+    {
+      "package": "Az",
+      "classes": 26,
+      "methods": 83,
+      "sample": "Az.a",
+      "class_share_pct": 0.041
+    },
+    {
+      "package": "QL",
+      "classes": 26,
+      "methods": 75,
+      "sample": "QL.a",
+      "class_share_pct": 0.041
+    },
+    {
+      "package": "iV",
+      "classes": 26,
+      "methods": 78,
+      "sample": "iV.a",
+      "class_share_pct": 0.041
+    },
+    {
+      "package": "Sn",
+      "classes": 26,
+      "methods": 63,
+      "sample": "Sn.a",
+      "class_share_pct": 0.041
+    },
+    {
+      "package": "aL",
+      "classes": 25,
+      "methods": 97,
+      "sample": "aL.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "hm",
+      "classes": 25,
+      "methods": 62,
+      "sample": "hm.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "Gf",
+      "classes": 25,
+      "methods": 0,
+      "sample": "Gf.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "ki",
+      "classes": 25,
+      "methods": 84,
+      "sample": "ki.o",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "ui",
+      "classes": 25,
+      "methods": 14,
+      "sample": "ui.p",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "nY",
+      "classes": 25,
+      "methods": 76,
+      "sample": "nY.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "Ha",
+      "classes": 25,
+      "methods": 108,
+      "sample": "Ha.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "E7",
+      "classes": 25,
+      "methods": 100,
+      "sample": "E7.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "com.fasterxml.jackson",
+      "classes": 25,
+      "methods": 24,
+      "sample": "com.fasterxml.jackson.databind.introspect.b",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "d6",
+      "classes": 25,
+      "methods": 76,
+      "sample": "d6.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "RH",
+      "classes": 25,
+      "methods": 157,
+      "sample": "RH.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "Cj",
+      "classes": 25,
+      "methods": 0,
+      "sample": "Cj.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "IM",
+      "classes": 25,
+      "methods": 96,
+      "sample": "IM.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "Kk",
+      "classes": 25,
+      "methods": 58,
+      "sample": "Kk.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "Tv",
+      "classes": 25,
+      "methods": 65,
+      "sample": "Tv.m",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "bj",
+      "classes": 25,
+      "methods": 0,
+      "sample": "bj.a",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "retrofit2.http",
+      "classes": 25,
+      "methods": 27,
+      "sample": "retrofit2.http.Body",
+      "class_share_pct": 0.039
+    },
+    {
+      "package": "Tp",
+      "classes": 24,
+      "methods": 101,
+      "sample": "Tp.w",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "Uh",
+      "classes": 24,
+      "methods": 74,
+      "sample": "Uh.u",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "Hg",
+      "classes": 24,
+      "methods": 1,
+      "sample": "Hg.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "Og",
+      "classes": 24,
+      "methods": 242,
+      "sample": "Og.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "okhttp3.internal.connection",
+      "classes": 24,
+      "methods": 192,
+      "sample": "okhttp3.internal.connection.ConnectInterceptor",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "GZ",
+      "classes": 24,
+      "methods": 65,
+      "sample": "GZ.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "cb",
+      "classes": 24,
+      "methods": 0,
+      "sample": "cb.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "l9",
+      "classes": 24,
+      "methods": 141,
+      "sample": "l9.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "C8",
+      "classes": 24,
+      "methods": 83,
+      "sample": "C8.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "D7",
+      "classes": 24,
+      "methods": 106,
+      "sample": "D7.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "T8",
+      "classes": 24,
+      "methods": 20,
+      "sample": "T8.b",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "m6",
+      "classes": 24,
+      "methods": 133,
+      "sample": "m6.b",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "PV",
+      "classes": 24,
+      "methods": 79,
+      "sample": "PV.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "Ij",
+      "classes": 24,
+      "methods": 0,
+      "sample": "Ij.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "ZF",
+      "classes": 24,
+      "methods": 137,
+      "sample": "ZF.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "hW",
+      "classes": 24,
+      "methods": 65,
+      "sample": "hW.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "hz",
+      "classes": 24,
+      "methods": 90,
+      "sample": "hz.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "iG",
+      "classes": 24,
+      "methods": 116,
+      "sample": "iG.i",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "jI",
+      "classes": 24,
+      "methods": 119,
+      "sample": "jI.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "oM",
+      "classes": 24,
+      "methods": 56,
+      "sample": "oM.a",
+      "class_share_pct": 0.038
+    },
+    {
+      "package": "B4",
+      "classes": 23,
+      "methods": 79,
+      "sample": "B4.a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "N0",
+      "classes": 23,
+      "methods": 231,
+      "sample": "N0.a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "androidx.webkit.internal",
+      "classes": 23,
+      "methods": 98,
+      "sample": "androidx.webkit.internal.a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "b3",
+      "classes": 23,
+      "methods": 67,
+      "sample": "b3.f",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "p2",
+      "classes": 23,
+      "methods": 0,
+      "sample": "p2.a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "Sh",
+      "classes": 23,
+      "methods": 193,
+      "sample": "Sh.c$a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "okio.internal",
+      "classes": 23,
+      "methods": 328,
+      "sample": "okio.internal.-Buffer",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "la",
+      "classes": 23,
+      "methods": 93,
+      "sample": "la.w",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "org.bouncycastle.eac",
+      "classes": 23,
+      "methods": 93,
+      "sample": "org.bouncycastle.eac.EACCertificateHolder",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "S5",
+      "classes": 23,
+      "methods": 152,
+      "sample": "S5.d",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "com.facebook.login",
+      "classes": 23,
+      "methods": 132,
+      "sample": "com.facebook.login.m",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "com.facebook.appevents",
+      "classes": 23,
+      "methods": 90,
+      "sample": "com.facebook.appevents.a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "org.jmrtd",
+      "classes": 23,
+      "methods": 224,
+      "sample": "org.jmrtd.WrappedAPDUEvent",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "GI",
+      "classes": 23,
+      "methods": 195,
+      "sample": "GI.a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "ZV",
+      "classes": 23,
+      "methods": 110,
+      "sample": "ZV.a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "aI",
+      "classes": 23,
+      "methods": 84,
+      "sample": "aI.a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "bQ",
+      "classes": 23,
+      "methods": 94,
+      "sample": "bQ.a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "eR",
+      "classes": 23,
+      "methods": 96,
+      "sample": "eR.a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "pV",
+      "classes": 23,
+      "methods": 81,
+      "sample": "pV.a",
+      "class_share_pct": 0.036
+    },
+    {
+      "package": "A0",
+      "classes": 22,
+      "methods": 60,
+      "sample": "A0.a",
+      "class_share_pct": 0.034
+    },
+    {
+      "package": "J2",
+      "classes": 22,
+      "methods": 75,
+      "sample": "J2.a",
+      "class_share_pct": 0.034
+    },
+    {
+      "package": "MC",
+      "classes": 22,
+      "methods": 60,
+      "sample": "MC.a",
+      "class_share_pct": 0.034
+    },
+    {
+      "package": "kp",
+      "classes": 22,
+      "methods": 112,
+      "sample": "kp.a",
+      "class_share_pct": 0.034
+    }
+  ]
+}

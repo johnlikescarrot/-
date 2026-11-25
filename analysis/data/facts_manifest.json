@@ -1,0 +1,31 @@
+{
+  "package": "vn.com.vng.zalopay",
+  "versionName": "11.17.0",
+  "versionCode": "1102758",
+  "minSdk": "26",
+  "targetSdk": "36",
+  "applicationClass": "jwbmqnsll.xvndbxlk",
+  "components": {
+    "activities": 200,
+    "activity_aliases": 2,
+    "services": 34,
+    "receivers": 22,
+    "providers": 9
+  },
+  "exported": {
+    "activities": 14,
+    "activity_aliases": 2,
+    "services": 6,
+    "receivers": 8,
+    "providers": 0
+  },
+  "permissions": 49,
+  "riskyPermissions": 16,
+  "schemes": 7,
+  "modules": 13,
+  "metaData": 27,
+  "secretMetaData": 2,
+  "signingSchemes": [
+    "APK Signature Scheme v2"
+  ]
+}

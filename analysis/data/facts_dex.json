@@ -1,0 +1,109 @@
+{
+  "totals": {
+    "dex_files": 20,
+    "bytes": 69701748,
+    "classes": 63827,
+    "methods": 378040,
+    "fields": 317841,
+    "strings_unique": 269338,
+    "strings_indexed": 404914,
+    "types": 119197,
+    "protos": 105000
+  },
+  "obfuscation": {
+    "single_letter_classes": 43342,
+    "total_classes": 63827,
+    "single_letter_methods": 98429,
+    "total_methods": 287480,
+    "single_letter_class_pct": 67.91,
+    "single_letter_method_pct": 34.24,
+    "verdict": "heavily obfuscated"
+  },
+  "topPackages": [
+    {
+      "package": "com.google.android",
+      "classes": 6507,
+      "methods": 28364,
+      "sample": "com.google.android.exoplayer2.extractor.metadata.vorbis.VorbisComment",
+      "class_share_pct": 10.195
+    },
+    {
+      "package": "com.facebook.ads",
+      "classes": 3254,
+      "methods": 23500,
+      "sample": "com.facebook.ads.redexgen.X.00",
+      "class_share_pct": 5.098
+    },
+    {
+      "package": "com.alibaba.ariver",
+      "classes": 2415,
+      "methods": 13520,
+      "sample": "com.alibaba.ariver.kernel.api.security.Accessor",
+      "class_share_pct": 3.784
+    },
+    {
+      "package": "com.alibaba.griver",
+      "classes": 2228,
+      "methods": 12449,
+      "sample": "com.alibaba.griver.FavoriteBridgeExtension",
+      "class_share_pct": 3.491
+    },
+    {
+      "package": "org.bouncycastle.jcajce",
+      "classes": 1758,
+      "methods": 4944,
+      "sample": "org.bouncycastle.jcajce.BCFKSLoadStoreParameter$1",
+      "class_share_pct": 2.754
+    },
+    {
+      "package": "com.iap.ac",
+      "classes": 1330,
+      "methods": 5575,
+      "sample": "com.iap.ac.android.acs.multilanguage.MultiLanguageKit",
+      "class_share_pct": 2.084
+    },
+    {
+      "package": "org.bouncycastle.pqc",
+      "classes": 975,
+      "methods": 5061,
+      "sample": "org.bouncycastle.pqc.asn1.CMCEPrivateKey",
+      "class_share_pct": 1.528
+    },
+    {
+      "package": "vn.com.vng",
+      "classes": 958,
+      "methods": 7112,
+      "sample": "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+      "class_share_pct": 1.501
+    },
+    {
+      "package": "com.visa.cbp",
+      "classes": 900,
+      "methods": 6876,
+      "sample": "com.visa.cbp.AidInfo",
+      "class_share_pct": 1.41
+    },
+    {
+      "package": "org.bouncycastle.crypto",
+      "classes": 836,
+      "methods": 6002,
+      "sample": "org.bouncycastle.crypto.AlphabetMapper",
+      "class_share_pct": 1.31
+    },
+    {
+      "package": "org.bouncycastle.asn1",
+      "classes": 748,
+      "methods": 5547,
+      "sample": "org.bouncycastle.asn1.ASN1Primitive",
+      "class_share_pct": 1.172
+    },
+    {
+      "package": "vn.ai.trueid",
+      "classes": 622,
+      "methods": 4632,
+      "sample": "vn.ai.trueid.lottie.FontAssetDelegate",
+      "class_share_pct": 0.975
+    }
+  ],
+  "packageCount": 3399
+}
