@@ -1,0 +1,14 @@
+{
+  "name": "zalopay-re-video",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:report": "python3 ../analysis/build_report.py",
+    "generate:video": "python3 generate_video.py",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

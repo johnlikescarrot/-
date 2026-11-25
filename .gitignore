@@ -1,0 +1,17 @@
+# Large binaries / extracted artifacts
+work/
+*.apk
+*.xapk
+*.dex
+*.so
+*.jar
+*.zip
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+# keep analysis outputs and video project source
+!analysis/**
+!video/**
