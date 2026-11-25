@@ -1,0 +1,4670 @@
+{
+  "sample": {
+    "path": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+    "provenance": "container=Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip sha256=34b9b6b6735f0f73… | inner=Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.xapk",
+    "modules": [
+      {
+        "name": "config.armeabi_v7a.apk",
+        "bytes": 24828408,
+        "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b"
+      },
+      {
+        "name": "config.en.apk",
+        "bytes": 74137,
+        "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942"
+      },
+      {
+        "name": "config.vi.apk",
+        "bytes": 86425,
+        "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33"
+      },
+      {
+        "name": "config.xhdpi.apk",
+        "bytes": 1232563,
+        "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b"
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk",
+        "bytes": 79359087,
+        "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03"
+      }
+    ],
+    "base_module": "vn.com.vng.zalopay.apk",
+    "base_entries": 6162
+  },
+  "manifest": {
+    "package": "vn.com.vng.zalopay",
+    "version_code": "1102758",
+    "version_name": "11.17.0",
+    "min_sdk": "26",
+    "target_sdk": "36",
+    "compile_sdk": "",
+    "application_label": "@7F1300D6",
+    "application_name": "jwbmqnsll.xvndbxlk",
+    "allow_backup": false,
+    "debuggable": null,
+    "uses_cleartext_traffic": null,
+    "network_security_config": "@7F16000D",
+    "extract_native_libs": true,
+    "permissions_used": [
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.READ_CONTACTS",
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.READ_PHONE_STATE",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.NFC",
+      "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.USE_FINGERPRINT",
+      "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+      "android.permission.WRITE_CALENDAR",
+      "android.permission.READ_CALENDAR",
+      "android.permission.USE_BIOMETRIC",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.MODIFY_AUDIO_SETTINGS",
+      "com.android.launcher.permission.INSTALL_SHORTCUT",
+      "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+      "com.android.launcher.permission.WRITE_SETTINGS",
+      "com.android.launcher.permission.READ_SETTINGS",
+      "com.bbk.launcher2.permission.READ_SETTINGS",
+      "com.bbk.launcher2.permission.WRITE_SETTINGS",
+      "android.permission.QUERY_ALL_PACKAGES",
+      "android.permission.CAMERA",
+      "android.permission.VIBRATE",
+      "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.DETECT_SCREEN_CAPTURE",
+      "com.google.android.gms.permission.AD_ID",
+      "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "com.android.vending.BILLING",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "android.permission.ACCESS_ADSERVICES_TOPICS",
+      "android.permission.FOREGROUND_SERVICE",
+      "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "android.permission.REORDER_TASKS",
+      "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+      "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+      "android.permission.READ_BASIC_PHONE_STATE",
+      "android.permission.WRITE_CONTACTS",
+      "android.permission.READ_MEDIA_AUDIO"
+    ],
+    "permissions_declared": [
+      "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "uses_native_libraries": [],
+    "meta_data": {
+      "com.google.android.gms.wallet.api.enabled": "true",
+      "com.google.android.geo.API_KEY": "AIzaSyBBynYIi93D36Jbq9LsfLou_enqA3dbRFc",
+      "com.appsflyer.AF_DEV_KEY": "k5nfUwyL6J6Fe6jvBbPcKG",
+      "AF_STORE": "GooglePlay",
+      "com.facebook.sdk.ApplicationId": "@7F13048D",
+      "com.facebook.sdk.ClientToken": "@7F13048E",
+      "com.facebook.sdk.AdvertiserIDCollectionEnabled": "true",
+      "com.google.firebase.messaging.default_notification_channel_id": "@7F130304",
+      "com.google.android.gms.ads.APPLICATION_ID": "@7F130000",
+      "appID": "@7F1300E2",
+      "com.google.firebase.ml.vision.DEPENDENCIES": "face",
+      "asset_statements": "@7F130116",
+      "google_analytics_deferred_deep_link_enabled": "true",
+      "com.google.mlkit.vision.DEPENDENCIES": "subject_segment,barcode_ui",
+      "com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION": "true",
+      "com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING": "true",
+      "com.google.android.gms.ads.INTEGRATION_MANAGER": "webview",
+      "com.google.android.play.billingclient.version": "8.3.0",
+      "com.google.android.gms.version": "@7F0B0014",
+      "com.facebook.soloader.enabled": "false",
+      "ariver_manifest": "com.alibaba.griver.GriverManifest",
+      "com.android.dynamic.apk.fused.modules": "bank_binding,base,cash_in,cashier,cashier_v3,changepin,liveness,login_v2,resetpin,result_page_v3,resultpage,updatephone,withdraw",
+      "com.android.vending.splits.required": "true",
+      "com.android.stamp.source": "https://play.google.com/store",
+      "com.android.stamp.type": "STAMP_TYPE_DISTRIBUTION_APK",
+      "com.android.vending.splits": "@7F160017",
+      "com.android.vending.derived.apk.id": "2"
+    },
+    "components": [
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.miniapp.ui.MiniAppActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.miniapp.error.NoWebViewSdkActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.MAIN",
+          "android.intent.action.VIEW",
+          "android.nfc.action.NDEF_DISCOVERED"
+        ],
+        "categories": [
+          "android.intent.category.BROWSABLE",
+          "android.intent.category.DEFAULT",
+          "android.intent.category.LAUNCHER"
+        ],
+        "schemes": [
+          "https",
+          "zalopay",
+          "zalopay-vnpay"
+        ],
+        "hosts": [
+          "app",
+          "go.zalopay.vn",
+          "km.zalopay.vn",
+          "kmzalopay.onelink.me",
+          "onelink.zalopay.vn"
+        ]
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "com.google.android.payments.standard.AUTHENTICATE_V1"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ]
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.ui.activity.HomeActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.WebViewActivity",
+        "has_intent_filter": true,
+        "actions": [
+          "vn.zalopay.intent.action.WEBVIEW"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ]
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.ResetPinWebViewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.HomeSearchWebViewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.BalanceLiquidationWebViewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.VerificationAtBankCounterWebViewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.webview.ui.update_personal_info.UpdatePersonalInfoWebViewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.webapp.activity.UpdatePhoneWebAppActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.webapp.activity.ManualResetPinWebAppActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.webapp.activity.WebAppExternalActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.protect.ui.ProtectAccountActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.logindevice.LoginDevicesActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.clearing.ClearingAccountActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.zing.zalo.zalosdk.oauth.WebLoginActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.core.ui.activity.TutorialConnectInternetActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.lockscreen.LockScreenActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.appinfo.AppInfoActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.passport.ForceUpdatePhoneActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.behaviorguideline.LoginGuidelineActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.closeaccount.presentation.ui.CloseAccountActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.logindevice.DeviceVerificationActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.passport.LockAccountActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.reformkyc.presentation.ui.ReformKycActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.feature.ui.FeatureModuleRoutingActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.camera.CustomDefaultCamera"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.ui.balance.activity.BalanceActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.cashier.buffer.CashierBufferActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.cashier.middle.CashierMiddlePageActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vn.zalopay.upgrade_user_profile.presentation.ReformKycActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.profiledetails.ProfileDetailsActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.profiledetailv2.ProfileDetailsV2Activity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.additionalinfo.AdditionalProfileInfoActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.editheaderinfo.EditAvatarAndNameActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.camera.CameraAutoRotationImage"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.protectaccount.AccountSecurityActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.umminiapps.UMMiniAppActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.user_profile.presentation.umminiapps.DebugAuditActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.homev5.presenter.ui.routing.HomeRoutingActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.homev5.presenter.ui.home.HomeActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.homev5.presenter.ui.onboarding.OnboardingActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.homev5.presenter.ui.ekyc_intro.EkycIntroActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.homev5.presenter.ui.story_collections_player.StoryCollectionsPlayerActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.scanqr.presentation.v2.ScanQRActivityV2"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.scancode.presentation.ScanCodeActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.alipay.presentation.AlipayEmptyScanQRActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.alipay.presentation.dialog.AlipayErrorDialogActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.homev4.presentation.ui.recommendsystem.RecommendSystemActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.homev4.presentation.ui.onboarding.HomeOnBoardingActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.home_more.presentation.ui.home_more.HomeMoreActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.search.presentation.ui.search.SearchActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.ekycpro.presentation.main.MainEKycActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.ekycpro.presentation.nfc.MainNFCFeatureActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.ekycpro.presentation.guardian_consent.GuardianInfoActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.ekycpro.presentation.selfie.SelfieActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.ekycpro.presentation.bca.ui.activity.BcaActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.balance_liquidation.presentation.BalanceLiquidationActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.VIEW"
+        ],
+        "categories": [
+          "android.intent.category.BROWSABLE",
+          "android.intent.category.DEFAULT"
+        ],
+        "schemes": [
+          "https"
+        ],
+        "hosts": [
+          "go.zalopay.vn"
+        ]
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.profile_tab_v2.presentation.ui.account.AccountHostActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.profile_tab_v2.presentation.ui.privacy.PrivacyHubActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.pdfviewer.PdfViewerActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.permission.notification.presentation.NotificationPermissionActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.permission.location.presentation.LocationPermissionActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.skewface.presentation.activity.SkewFaceActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.nfc.FundingSolutionNFCActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.my_qr.MyQRActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.quickpay_native.presentation.ui.QuickPayNativeActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.pay_by_wallet_native.presentation.ui.PayByWalletReadyToPayActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.storage_management.presentation.StorageManagementActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.SEND"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ],
+        "mime_types": [
+          "image/*"
+        ]
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.receive_money.ReceiveMoneyActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.reset_pin.presentation.ui.ResetPinContainerViewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.reset_pin.presentation.pin_creation.CreatePinActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.owner_verification.presentation.ui.OVContainerViewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.auth.presentation.faceauth.components.selfdev.ui.SelfDevCameraActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.auth.presentation.faceauth.FaceAuthActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.auth.presentation.otp.OTPChallengeActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.auth.presentation.otp.popup.OTPChallengeRootActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.auth.presentation.smartotp.SmartOTPActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.auth.presentation.mfa.view.AuthUIHolderActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.ce_ticket.presentation.ui.CETicketContainerActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.livenessdetection.presentation.FaceLivenessCameraXActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.livenessdetection.presentation.face_auth_revamp.FaceLivenessRevampActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "vn.com.vng.zalopay.ACTION_OPEN_ML_EXTRACT_ID_CARD"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ]
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.livenessdetection.presentation.qrcode.QRCodeScannerActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.zalopay.nfc_sdk.nfc_in_house.BottomSheetNFC"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.tenpay.TPGPaymentActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.tenpay.image_preview.ImagePreviewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.zalopay.ui.um_custom_loading.FullScreenLoadingActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.zalopay.ui.um_custom_loading.CenterLoadingActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.zing.zalo.zalosdk.oauth.OpenAPIActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.facebook.FacebookActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.facebook.CustomTabMainActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.facebook.CustomTabActivity",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.VIEW"
+        ],
+        "categories": [
+          "android.intent.category.BROWSABLE",
+          "android.intent.category.DEFAULT"
+        ],
+        "schemes": [
+          "fbconnect"
+        ],
+        "hosts": [
+          "cct.vn.com.vng.zalopay"
+        ]
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.inapp_webview.InternalWebViewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.karumi.dexter.DexterActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.android.billingclient.api.ProxyBillingActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.android.billingclient.api.ProxyBillingActivityV2"
+      },
+      {
+        "kind": "activity",
+        "name": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.VIEW"
+        ],
+        "categories": [
+          "android.intent.category.BROWSABLE",
+          "android.intent.category.DEFAULT"
+        ],
+        "schemes": [
+          "tagmanager.c.vn.com.vng.zalopay"
+        ]
+      },
+      {
+        "kind": "activity",
+        "name": "com.google.android.gms.common.api.GoogleApiActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "androidx.glance.appwidget.action.ActionTrampolineActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "androidx.glance.appwidget.action.InvisibleActionTrampolineActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.google.android.gms.ads.AdActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.google.android.gms.ads.OutOfContextTestingActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.google.android.gms.ads.NotificationHandlerActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.MAIN"
+        ]
+      },
+      {
+        "kind": "activity",
+        "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.MAIN"
+        ]
+      },
+      {
+        "kind": "activity",
+        "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.MAIN"
+        ]
+      },
+      {
+        "kind": "activity",
+        "name": "androidx.compose.ui.tooling.PreviewActivity",
+        "exported": true
+      },
+      {
+        "kind": "activity",
+        "name": "com.facebook.ads.AudienceNetworkActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.iap.android.mppclient.container.activity.ACContainerActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.iap.android.mppclient.container.activity.H5NetworkCheckActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "yydamachy.xqcntsk"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.splash.SplashActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.SelectAddressActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.setting.DetailAddressActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.book.BookActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.search.SearchAddressActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.setting.AddressSettingActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.search.SearchOnMapActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.setting.ChooseAddressActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.DetailBookTaxiActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.history.TaxiHistoryActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.history.DetailHistoryTaxiActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.TaxiBrowserActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.TaxiWebviewLinkActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.voucher.list.VoucherListActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.voucher.detail.VoucherDetailActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.note.note.ClientNoteActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.note.invoice.ExtractInvoiceActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.airport.TaxiAirportActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.address.search.ConfirmOnMapActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.selectpartner.TaxiBrandActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.report.FastReportTaxiActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.fragments.book.TaxiHelpMethodActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.vnpay.vntaxi.ui.activities.insurance.TaxiInsuranceActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+        "exported": true
+      },
+      {
+        "kind": "activity",
+        "name": "vn.ai.trueid.sdk.activity.TrueIDActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.ai.trueid.sdk.facev3.present.presentation.LivenessCameraXActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.ai.trueid.sdk.activity.SotpConfirmActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+        "exported": true
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.ui.jsapi.picker.nebula.wheelview.multilevel.MultilevelSelectActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Main"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back1"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back2"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back3"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back4"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back5"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back6"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverFileChooserActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite1"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite2"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite3"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Main"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite1"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite2"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite3"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back1"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back2"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back3"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back4"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back5"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back6"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.core.keepalive.GriverProxyActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.image.activity.GriverPhotoSelectActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.image.activity.GriverPhotoPreviewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.image.activity.GriverVideoPreviewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.image.activity.GriverCaptureActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.image.activity.GriverCapturePreviewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.device.ui.GriverOpenSettingActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.alibaba.griver.file.ui.FileViewerActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "com.iap.ac.android.acs.plugin.downgrade.ui.ErrorPageActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.changepin.presentation.ui.activity.ChangePinActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.resetpin.presentation.ui.activity.ResetPinActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.loginv2.presentation.ui.login.LoginActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.loginv2.presentation.ui.upgradeuserk0k1.UpgradeUserK0K1Activity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.loginv2.presentation.ui.otp.OtpVerificationActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.loginv2.presentation.ui.webview.LoginWebViewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.cashier.presentation.ui.main.MainCashierV2Activity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.cashier.presentation.ui.otp.DOtpErrorActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.cashier.presentation.ui.web.activity.CashierWebActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.cashier.presentation.newui.CashierNewUIActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankBindingActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankMediaWebViewActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.FundManagementActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.updatephone.presentation.ui.UpdatePhoneActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.cashin.presentation.ui.activity.CashInActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.resultpage.presentation.ui.activity.ResultPageV2Activity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.resultpage.presentation.ui.webview.RPWebActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.resultpage.presentation.newui.ResultPageNewUIActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.resultpage.presentation.newuinative.ResultPageNativeActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.withdraw.presentation.ui.activity.WithdrawActivity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.cashier_v3.presentation.main.activity.CashierV3Activity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.result_page_v3.presentation.main.activity.ResultPageV3Activity"
+      },
+      {
+        "kind": "activity",
+        "name": "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+        "exported": true
+      },
+      {
+        "kind": "activity",
+        "name": "amcsetxek.dmayljy"
+      },
+      {
+        "kind": "activity-alias",
+        "name": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.VIEW"
+        ],
+        "categories": [
+          "android.intent.category.BROWSABLE",
+          "android.intent.category.DEFAULT"
+        ],
+        "schemes": [
+          "zalopay",
+          "zalopay-1",
+          "zalopay.api.v2"
+        ],
+        "hosts": [
+          "auth",
+          "backtoapp",
+          "backtologin",
+          "cashier",
+          "clearing",
+          "events",
+          "launch",
+          "merchant",
+          "otp",
+          "pay",
+          "post",
+          "promotions",
+          "recoverpassword",
+          "zalopay.vn"
+        ]
+      },
+      {
+        "kind": "activity-alias",
+        "name": "vn.zalopay.apps.ZaloAppActivityAlias",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "vn.zalopay.intent.action.SEND_MONEY"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ]
+      },
+      {
+        "kind": "service",
+        "name": "vn.com.vng.zalopay.notification.MyFcmListenerService",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "com.google.firebase.MESSAGING_EVENT"
+        ]
+      },
+      {
+        "kind": "service",
+        "name": "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+        "exported": true,
+        "permission": "android.permission.BIND_NFC_SERVICE",
+        "has_intent_filter": true,
+        "actions": [
+          "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ]
+      },
+      {
+        "kind": "service",
+        "name": "com.google.firebase.components.ComponentDiscoveryService"
+      },
+      {
+        "kind": "service",
+        "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+      },
+      {
+        "kind": "service",
+        "name": "com.google.android.gms.tagmanager.TagManagerService"
+      },
+      {
+        "kind": "service",
+        "name": "com.google.firebase.messaging.FirebaseMessagingService",
+        "has_intent_filter": true,
+        "actions": [
+          "com.google.firebase.MESSAGING_EVENT"
+        ]
+      },
+      {
+        "kind": "service",
+        "name": "com.google.firebase.sessions.SessionLifecycleService"
+      },
+      {
+        "kind": "service",
+        "name": "com.google.android.gms.measurement.AppMeasurementService"
+      },
+      {
+        "kind": "service",
+        "name": "com.google.android.gms.measurement.AppMeasurementJobService",
+        "permission": "android.permission.BIND_JOB_SERVICE"
+      },
+      {
+        "kind": "service",
+        "name": "androidx.camera.core.impl.MetadataHolderService"
+      },
+      {
+        "kind": "service",
+        "name": "androidx.glance.appwidget.GlanceRemoteViewsService",
+        "exported": true,
+        "permission": "android.permission.BIND_REMOTEVIEWS"
+      },
+      {
+        "kind": "service",
+        "name": "com.google.android.gms.ads.AdService"
+      },
+      {
+        "kind": "service",
+        "name": "androidx.work.impl.background.systemalarm.SystemAlarmService"
+      },
+      {
+        "kind": "service",
+        "name": "androidx.work.impl.background.systemjob.SystemJobService",
+        "exported": true,
+        "permission": "android.permission.BIND_JOB_SERVICE"
+      },
+      {
+        "kind": "service",
+        "name": "androidx.work.impl.foreground.SystemForegroundService"
+      },
+      {
+        "kind": "service",
+        "name": "androidx.room.MultiInstanceInvalidationService"
+      },
+      {
+        "kind": "service",
+        "name": "androidx.core.widget.RemoteViewsCompatService",
+        "permission": "android.permission.BIND_REMOTEVIEWS"
+      },
+      {
+        "kind": "service",
+        "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+      },
+      {
+        "kind": "service",
+        "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+        "permission": "android.permission.BIND_JOB_SERVICE"
+      },
+      {
+        "kind": "service",
+        "name": "com.vnpay.vntaxi.base.gps.FusedLocationService"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.ariver.ipc.RemoteCallService"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataMainService"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService1"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService2"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService3"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService4"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService5"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+        "exported": true,
+        "permission": "android.permission.BIND_NFC_SERVICE",
+        "has_intent_filter": true,
+        "actions": [
+          "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ]
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.griver.base.resource.predownload.AppPreDownloadJobSchedulerService",
+        "permission": "android.permission.BIND_JOB_SERVICE"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.griver.core.kernel.ipc.server.IpcMsgServerService"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite1"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite2"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite3"
+      },
+      {
+        "kind": "service",
+        "name": "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService",
+        "exported": true,
+        "permission": "android.permission.BIND_NFC_SERVICE",
+        "has_intent_filter": true,
+        "actions": [
+          "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "com.android.vending.INSTALL_REFERRER"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.appwidget.action.APPWIDGET_UPDATE"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.appwidget.action.APPWIDGET_UPDATE"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.appwidget.action.APPWIDGET_UPDATE"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+        "exported": true,
+        "has_intent_filter": true,
+        "actions": [
+          "android.appwidget.action.APPWIDGET_UPDATE"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver",
+        "has_intent_filter": true,
+        "actions": [
+          "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+        "has_intent_filter": true,
+        "actions": [
+          "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "exported": true,
+        "permission": "com.google.android.c2dm.permission.SEND",
+        "has_intent_filter": true,
+        "actions": [
+          "com.google.android.c2dm.intent.RECEIVE"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "com.google.android.gms.measurement.AppMeasurementReceiver"
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver"
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.glance.appwidget.UnmanagedSessionReceiver"
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.glance.appwidget.MyPackageReplacedReceiver",
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.MY_PACKAGE_REPLACED"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.ACTION_POWER_CONNECTED",
+          "android.intent.action.ACTION_POWER_DISCONNECTED"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.BATTERY_LOW",
+          "android.intent.action.BATTERY_OKAY"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.DEVICE_STORAGE_LOW",
+          "android.intent.action.DEVICE_STORAGE_OK"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+        "has_intent_filter": true,
+        "actions": [
+          "android.net.conn.CONNECTIVITY_CHANGE"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "has_intent_filter": true,
+        "actions": [
+          "android.intent.action.BOOT_COMPLETED",
+          "android.intent.action.TIMEZONE_CHANGED",
+          "android.intent.action.TIME_SET"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+        "has_intent_filter": true,
+        "actions": [
+          "androidx.work.impl.background.systemalarm.UpdateProxies"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+        "exported": true,
+        "permission": "android.permission.DUMP",
+        "has_intent_filter": true,
+        "actions": [
+          "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "androidx.profileinstaller.ProfileInstallReceiver",
+        "exported": true,
+        "permission": "android.permission.DUMP",
+        "has_intent_filter": true,
+        "actions": [
+          "androidx.profileinstaller.action.BENCHMARK_OPERATION",
+          "androidx.profileinstaller.action.INSTALL_PROFILE",
+          "androidx.profileinstaller.action.SAVE_PROFILE",
+          "androidx.profileinstaller.action.SKIP_FILE"
+        ]
+      },
+      {
+        "kind": "receiver",
+        "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+      },
+      {
+        "kind": "provider",
+        "name": "<unnamed>"
+      },
+      {
+        "kind": "provider",
+        "name": "androidx.core.content.FileProvider"
+      },
+      {
+        "kind": "provider",
+        "name": "com.facebook.internal.FacebookInitProvider"
+      },
+      {
+        "kind": "provider",
+        "name": "com.google.firebase.perf.provider.FirebasePerfProvider"
+      },
+      {
+        "kind": "provider",
+        "name": "com.google.mlkit.common.internal.MlKitInitProvider"
+      },
+      {
+        "kind": "provider",
+        "name": "com.google.firebase.provider.FirebaseInitProvider"
+      },
+      {
+        "kind": "provider",
+        "name": "com.google.android.gms.ads.MobileAdsInitProvider"
+      },
+      {
+        "kind": "provider",
+        "name": "androidx.startup.InitializationProvider"
+      },
+      {
+        "kind": "provider",
+        "name": "com.facebook.ads.AudienceNetworkContentProvider"
+      },
+      {
+        "kind": "provider",
+        "name": "com.alibaba.griver.file.utils.GriverFileProvider"
+      }
+    ],
+    "queries_packages": [],
+    "counts": {
+      "activities": 202,
+      "services": 34,
+      "receivers": 22,
+      "providers": 10,
+      "total": 268,
+      "explicitly_exported": 30,
+      "with_intent_filter": 35
+    }
+  },
+  "signing": {
+    "v1_present": false,
+    "v1_manifest_entries": 0,
+    "v1_signed_entries": 0,
+    "v1_coverage": 0.0,
+    "meta_inf_entries": 180,
+    "signing_block_found": true,
+    "schemes": [
+      "v2 (APK Signature Scheme v2)",
+      "v3 (APK Signature Scheme v3)",
+      "v4 (APK Signature Scheme v4)"
+    ],
+    "raw_pair_ids": [
+      "0x7109871a",
+      "0xf05368c0",
+      "0x6dff800d",
+      "0x2146444e",
+      "0x42726577"
+    ],
+    "unknown_pair_ids": [
+      "0x6dff800d",
+      "0x2146444e"
+    ],
+    "signers": [
+      {
+        "subject": "Common Name: Vu Manh Hieu",
+        "issuer": "Common Name: Vu Manh Hieu",
+        "serial": "356428285",
+        "not_before": "2016-04-21 15:41:14+00:00",
+        "not_after": "2041-04-15 15:41:14+00:00",
+        "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+        "sha1": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+        "md5": "c60c9fe687c3eedfa3ae832d25903ba9",
+        "sig_algo": "rsassa_pkcs1v15",
+        "key_algo": "rsa",
+        "key_size": 2048,
+        "is_self_signed": true
+      }
+    ],
+    "signer_source": "APK Signing Block (v2/v3 certificate chain)",
+    "block_signers": [
+      {
+        "subject": "Common Name: Vu Manh Hieu",
+        "issuer": "Common Name: Vu Manh Hieu",
+        "serial": "356428285",
+        "not_before": "2016-04-21 15:41:14+00:00",
+        "not_after": "2041-04-15 15:41:14+00:00",
+        "sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+        "sha1": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+        "md5": "c60c9fe687c3eedfa3ae832d25903ba9",
+        "sig_algo": "rsassa_pkcs1v15",
+        "key_algo": "rsa",
+        "key_size": 2048,
+        "is_self_signed": true
+      }
+    ],
+    "notes": [
+      "no v1 JAR signature (META-INF holds 180 library-metadata entries only); integrity relies entirely on the APK Signing Block schemes",
+      "no v1 signer certificate present in META-INF"
+    ]
+  },
+  "network_security_config": {
+    "present": true,
+    "path": "res/xml/network_security_config.xml",
+    "cleartext_permitted_global": "true",
+    "domain_rules": [
+      {
+        "domain": "storage.googleapis.com",
+        "cleartext": null
+      }
+    ],
+    "domain_rule_count": 1
+  },
+  "dex": {
+    "dex_count": 20,
+    "dex_bytes_total": 69701748,
+    "classes_total": 63827,
+    "methods_total": 378040,
+    "strings_total": 404914,
+    "string_printable_ratio": 0.9707,
+    "per_dex": [
+      {
+        "name": "assets/audience_network.dex",
+        "version": "035",
+        "file_size": 4864036,
+        "string_ids": 30638,
+        "type_ids": 4504,
+        "proto_ids": 6477,
+        "field_ids": 13323,
+        "method_ids": 26792,
+        "class_defs": 3156,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.997,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes.dex",
+        "version": "038",
+        "file_size": 8831004,
+        "string_ids": 61218,
+        "type_ids": 17196,
+        "proto_ids": 15953,
+        "field_ids": 46956,
+        "method_ids": 59948,
+        "class_defs": 10703,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9917,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes10.dex",
+        "version": "038",
+        "file_size": 78204,
+        "string_ids": 920,
+        "type_ids": 461,
+        "proto_ids": 300,
+        "field_ids": 314,
+        "method_ids": 578,
+        "class_defs": 92,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9815,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes11.dex",
+        "version": "038",
+        "file_size": 163420,
+        "string_ids": 1584,
+        "type_ids": 740,
+        "proto_ids": 523,
+        "field_ids": 694,
+        "method_ids": 1171,
+        "class_defs": 177,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.988,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes12.dex",
+        "version": "038",
+        "file_size": 398276,
+        "string_ids": 3207,
+        "type_ids": 1191,
+        "proto_ids": 916,
+        "field_ids": 1723,
+        "method_ids": 2604,
+        "class_defs": 425,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9819,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes13.dex",
+        "version": "038",
+        "file_size": 145824,
+        "string_ids": 1381,
+        "type_ids": 590,
+        "proto_ids": 420,
+        "field_ids": 561,
+        "method_ids": 997,
+        "class_defs": 139,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.987,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes14.dex",
+        "version": "038",
+        "file_size": 81748,
+        "string_ids": 961,
+        "type_ids": 404,
+        "proto_ids": 249,
+        "field_ids": 371,
+        "method_ids": 575,
+        "class_defs": 90,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9834,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes15.dex",
+        "version": "038",
+        "file_size": 82152,
+        "string_ids": 1005,
+        "type_ids": 436,
+        "proto_ids": 305,
+        "field_ids": 410,
+        "method_ids": 658,
+        "class_defs": 113,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9811,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes16.dex",
+        "version": "038",
+        "file_size": 15916,
+        "string_ids": 261,
+        "type_ids": 116,
+        "proto_ids": 69,
+        "field_ids": 38,
+        "method_ids": 101,
+        "class_defs": 20,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9732,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes17.dex",
+        "version": "038",
+        "file_size": 208476,
+        "string_ids": 1847,
+        "type_ids": 848,
+        "proto_ids": 611,
+        "field_ids": 972,
+        "method_ids": 1311,
+        "class_defs": 243,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9713,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes18.dex",
+        "version": "038",
+        "file_size": 95920,
+        "string_ids": 1094,
+        "type_ids": 553,
+        "proto_ids": 373,
+        "field_ids": 428,
+        "method_ids": 668,
+        "class_defs": 115,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9753,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes19.dex",
+        "version": "038",
+        "file_size": 719548,
+        "string_ids": 4159,
+        "type_ids": 1782,
+        "proto_ids": 1445,
+        "field_ids": 2804,
+        "method_ids": 3781,
+        "class_defs": 777,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.976,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes2.dex",
+        "version": "038",
+        "file_size": 16516960,
+        "string_ids": 56948,
+        "type_ids": 11243,
+        "proto_ids": 12070,
+        "field_ids": 60000,
+        "method_ids": 45527,
+        "class_defs": 7421,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.8717,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes3.dex",
+        "version": "038",
+        "file_size": 850600,
+        "string_ids": 8010,
+        "type_ids": 3827,
+        "proto_ids": 2361,
+        "field_ids": 3619,
+        "method_ids": 6354,
+        "class_defs": 1081,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.991,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes4.dex",
+        "version": "038",
+        "file_size": 9418124,
+        "string_ids": 52812,
+        "type_ids": 19105,
+        "proto_ids": 15731,
+        "field_ids": 40269,
+        "method_ids": 59997,
+        "class_defs": 11441,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.989,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes5.dex",
+        "version": "038",
+        "file_size": 7357484,
+        "string_ids": 56424,
+        "type_ids": 14079,
+        "proto_ids": 13049,
+        "field_ids": 60002,
+        "method_ids": 49055,
+        "class_defs": 7983,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9965,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes6.dex",
+        "version": "038",
+        "file_size": 7612432,
+        "string_ids": 55274,
+        "type_ids": 18399,
+        "proto_ids": 15543,
+        "field_ids": 36617,
+        "method_ids": 49201,
+        "class_defs": 5475,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9765,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes7.dex",
+        "version": "038",
+        "file_size": 10803680,
+        "string_ids": 59110,
+        "type_ids": 20633,
+        "proto_ids": 16081,
+        "field_ids": 43164,
+        "method_ids": 60000,
+        "class_defs": 12953,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9795,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes8.dex",
+        "version": "038",
+        "file_size": 239036,
+        "string_ids": 1906,
+        "type_ids": 915,
+        "proto_ids": 697,
+        "field_ids": 1056,
+        "method_ids": 1552,
+        "class_defs": 295,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9727,
+        "printable_note": "share of string-table entries that are plain text"
+      },
+      {
+        "name": "classes9.dex",
+        "version": "038",
+        "file_size": 1218908,
+        "string_ids": 6155,
+        "type_ids": 2175,
+        "proto_ids": 1827,
+        "field_ids": 4520,
+        "method_ids": 7170,
+        "class_defs": 1128,
+        "strings_decoded": 0,
+        "string_bytes": 0,
+        "extra": {},
+        "printable_ratio": 0.9633,
+        "printable_note": "share of string-table entries that are plain text"
+      }
+    ],
+    "top_packages_depth2": [
+      [
+        "com.google",
+        12163
+      ],
+      [
+        "org.bouncycastle",
+        9177
+      ],
+      [
+        "com.alibaba",
+        7333
+      ],
+      [
+        "com.facebook",
+        4127
+      ],
+      [
+        "com.iap",
+        2113
+      ],
+      [
+        "com.visa",
+        1792
+      ],
+      [
+        "androidx.media3",
+        1761
+      ],
+      [
+        "androidx.camera",
+        1629
+      ],
+      [
+        "vn.com",
+        1616
+      ],
+      [
+        "androidx.compose",
+        1287
+      ],
+      [
+        "vn.ai",
+        1114
+      ],
+      [
+        "java.util",
+        1089
+      ],
+      [
+        "java.lang",
+        967
+      ],
+      [
+        "com.alipay",
+        825
+      ],
+      [
+        "android.view",
+        738
+      ],
+      [
+        "com.vnpay",
+        672
+      ],
+      [
+        "android.graphics",
+        557
+      ],
+      [
+        "java.security",
+        556
+      ],
+      [
+        "com.appsflyer",
+        555
+      ],
+      [
+        "androidx.appcompat",
+        548
+      ],
+      [
+        "androidx.core",
+        542
+      ],
+      [
+        "com.nimbusds",
+        488
+      ],
+      [
+        "org.jmrtd",
+        421
+      ],
+      [
+        "android.content",
+        417
+      ],
+      [
+        "androidx.lifecycle",
+        388
+      ],
+      [
+        "io.reactivex",
+        385
+      ],
+      [
+        "android.os",
+        381
+      ],
+      [
+        "androidx.work",
+        373
+      ],
+      [
+        "kotlin.jvm",
+        362
+      ],
+      [
+        "android.widget",
+        361
+      ]
+    ],
+    "top_packages_depth3": [
+      [
+        "com.google.android",
+        10013
+      ],
+      [
+        "com.alibaba.ariver",
+        3640
+      ],
+      [
+        "com.facebook.ads",
+        3445
+      ],
+      [
+        "com.alibaba.griver",
+        3378
+      ],
+      [
+        "org.bouncycastle.jcajce",
+        2087
+      ],
+      [
+        "com.iap.ac",
+        1753
+      ],
+      [
+        "org.bouncycastle.crypto",
+        1547
+      ],
+      [
+        "org.bouncycastle.pqc",
+        1452
+      ],
+      [
+        "org.bouncycastle.asn1",
+        1439
+      ],
+      [
+        "vn.com.vng",
+        1417
+      ],
+      [
+        "com.visa.cbp",
+        1090
+      ],
+      [
+        "vn.ai.trueid",
+        1040
+      ],
+      [
+        "androidx.media3.exoplayer",
+        724
+      ],
+      [
+        "androidx.camera.core",
+        720
+      ],
+      [
+        "androidx.compose.foundation",
+        689
+      ],
+      [
+        "com.vnpay.vntaxi",
+        652
+      ],
+      [
+        "com.google.common",
+        582
+      ],
+      [
+        "androidx.compose.ui",
+        571
+      ],
+      [
+        "com.nimbusds.jose",
+        487
+      ],
+      [
+        "com.visa.visapaysdk",
+        476
+      ],
+      [
+        "com.appsflyer.internal",
+        457
+      ],
+      [
+        "androidx.media3.extractor",
+        454
+      ],
+      [
+        "org.bouncycastle.oer",
+        451
+      ],
+      [
+        "com.google.firebase",
+        421
+      ],
+      [
+        "androidx.camera.camera2",
+        419
+      ],
+      [
+        "org.bouncycastle.math",
+        412
+      ],
+      [
+        "androidx.media3.common",
+        374
+      ],
+      [
+        "com.google.gson",
+        360
+      ],
+      [
+        "com.iap.android",
+        359
+      ],
+      [
+        "java.util.concurrent",
+        354
+      ]
+    ],
+    "vendor_census": [
+      {
+        "vendor": "Google",
+        "classes": 18698,
+        "note": "Platform services — AndroidX"
+      },
+      {
+        "vendor": "BouncyCastle",
+        "classes": 9177,
+        "note": "Crypto — BouncyCastle provider"
+      },
+      {
+        "vendor": "Ant Group",
+        "classes": 6581,
+        "note": "Mini-app container — Ariver mini-program runtime"
+      },
+      {
+        "vendor": "Meta",
+        "classes": 4127,
+        "note": "Ads — Audience Network (redex-obfuscated)"
+      },
+      {
+        "vendor": "Alibaba",
+        "classes": 3694,
+        "note": "Utility — Alibaba OSS/utilities"
+      },
+      {
+        "vendor": "Visa",
+        "classes": 1792,
+        "note": "Payments — Visa CBP / Visa SDK"
+      },
+      {
+        "vendor": "VNG",
+        "classes": 1419,
+        "note": "First-party — ZaloPay first-party"
+      },
+      {
+        "vendor": "AppsFlyer",
+        "classes": 555,
+        "note": "Attribution — AppsFlyer SDK"
+      },
+      {
+        "vendor": "ReactiveX",
+        "classes": 385,
+        "note": "Reactive — RxJava"
+      },
+      {
+        "vendor": "Bumptech",
+        "classes": 338,
+        "note": "Images — Glide"
+      },
+      {
+        "vendor": "Airbnb",
+        "classes": 322,
+        "note": "UI/Animation — Lottie animations"
+      },
+      {
+        "vendor": "Rive",
+        "classes": 221,
+        "note": "UI/Animation — Rive runtime"
+      },
+      {
+        "vendor": "JetBrains",
+        "classes": 127,
+        "note": "Language runtime — Kotlin coroutines/serialization"
+      },
+      {
+        "vendor": "Square",
+        "classes": 116,
+        "note": "Images — Picasso"
+      },
+      {
+        "vendor": "Huawei",
+        "classes": 70,
+        "note": "Platform services — HMS"
+      },
+      {
+        "vendor": "greenrobot",
+        "classes": 54,
+        "note": "IPC/events — EventBus"
+      },
+      {
+        "vendor": "Samsung",
+        "classes": 2,
+        "note": "Platform services — Samsung SDK"
+      }
+    ],
+    "attribution": {
+      "class_descriptors_seen": 114964,
+      "attributed": 47678,
+      "unattributed": 67286,
+      "attributed_share": 0.4147,
+      "note": "unattributed descriptors are mostly R8-renamed (e.g. `LA0/d;`) and therefore carry no vendor signal"
+    },
+    "security_api_census": [
+      {
+        "category": "storage.sharedprefs",
+        "identifiers_matched": 143,
+        "examples": [
+          "Landroid/content/Context;->getSharedPreferences",
+          "Landroid/content/SharedPreferences$Editor;->apply",
+          "Landroid/content/SharedPreferences$Editor;->clear"
+        ]
+      },
+      {
+        "category": "storage.sqlitedb",
+        "identifiers_matched": 141,
+        "examples": [
+          "Landroid/database/sqlite/SQLiteDatabase;->beginTransaction",
+          "Landroid/database/sqlite/SQLiteDatabase;->beginTransactionNonExclusive",
+          "Landroid/database/sqlite/SQLiteDatabase;->delete"
+        ]
+      },
+      {
+        "category": "crypto.cipher.getInstance",
+        "identifiers_matched": 92,
+        "examples": [
+          "Ljavax/crypto/Cipher;->getInstance",
+          "Ljavax/crypto/Cipher;->init",
+          "Ljavax/crypto/CipherInputStream;-><init>"
+        ]
+      },
+      {
+        "category": "web.shouldoverrideurl",
+        "identifiers_matched": 84,
+        "examples": [
+          "Lcom/facebook/ads/redexgen/X/Ey;->shouldOverrideUrlLoading",
+          "Lcom/facebook/ads/redexgen/X/F6;->shouldOverrideUrlLoading",
+          "Landroid/webkit/WebViewClient;->shouldOverrideUrlLoading"
+        ]
+      },
+      {
+        "category": "dyn.reflection",
+        "identifiers_matched": 75,
+        "examples": [
+          "Ljava/lang/reflect/Method;->getName",
+          "Ljava/lang/reflect/Method;->getReturnType",
+          "Ljava/lang/reflect/Method;->invoke"
+        ]
+      },
+      {
+        "category": "crypto.messagedigest",
+        "identifiers_matched": 64,
+        "examples": [
+          "Ljava/security/MessageDigest;->digest",
+          "Ljava/security/MessageDigest;->getInstance",
+          "Ljava/security/MessageDigest;->reset"
+        ]
+      },
+      {
+        "category": "crypto.mac",
+        "identifiers_matched": 44,
+        "examples": [
+          "Ljavax/crypto/Mac;->doFinal",
+          "Ljavax/crypto/Mac;->getInstance",
+          "Ljavax/crypto/Mac;->init"
+        ]
+      },
+      {
+        "category": "ipc.pendingintent.mutable",
+        "identifiers_matched": 37,
+        "examples": [
+          "Landroid/app/PendingIntent;->getActivity",
+          "Landroid/app/PendingIntent;->getCreatorPackage",
+          "Landroid/app/PendingIntent;->cancel"
+        ]
+      },
+      {
+        "category": "crypto.secureRandom",
+        "identifiers_matched": 36,
+        "examples": [
+          "Ljava/security/SecureRandom;-><init>",
+          "Ljava/security/SecureRandom;->nextBytes",
+          "Ljava/security/SecureRandom;->nextLong"
+        ]
+      },
+      {
+        "category": "crypto.keypairgenerator",
+        "identifiers_matched": 33,
+        "examples": [
+          "Ljava/security/KeyPairGenerator;->genKeyPair",
+          "Ljava/security/KeyPairGenerator;->generateKeyPair",
+          "Ljava/security/KeyPairGenerator;->getInstance"
+        ]
+      },
+      {
+        "category": "crypto.keygenerator",
+        "identifiers_matched": 29,
+        "examples": [
+          "Ljavax/crypto/KeyGenerator;->generateKey",
+          "Ljavax/crypto/KeyGenerator;->getInstance",
+          "Ljavax/crypto/KeyGenerator;->init"
+        ]
+      },
+      {
+        "category": "ipc.contentprovider",
+        "identifiers_matched": 27,
+        "examples": [
+          "Landroidx/core/content/FileProvider$a;->a",
+          "Landroidx/core/content/FileProvider$a;->b",
+          "Landroidx/core/content/FileProvider;-><clinit>"
+        ]
+      },
+      {
+        "category": "device.mic",
+        "identifiers_matched": 27,
+        "examples": [
+          "Lcom/alibaba/ariver/jsapi/multimedia/audio/AudioRecordBridgeExtension;-><init>",
+          "Lcom/alibaba/ariver/jsapi/multimedia/audio/AudioRecordBridgeExtension;->getAvailableAudioSources",
+          "Lcom/alibaba/ariver/jsapi/multimedia/audio/AudioRecordBridgeExtension;->onFinalized"
+        ]
+      },
+      {
+        "category": "crypto.biometric",
+        "identifiers_matched": 25,
+        "examples": [
+          "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;-><clinit>",
+          "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;-><init>",
+          "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationResult;->getAuthenticationType"
+        ]
+      },
+      {
+        "category": "web.js_enabled",
+        "identifiers_matched": 24,
+        "examples": [
+          "Landroid/webkit/WebSettings;->setJavaScriptEnabled",
+          "Lcom/alibaba/griver/base/api/APWebSettings;->setJavaScriptEnabled",
+          "Lcom/alibaba/griver/base/api/APWebView;->setJavaScriptEnabled"
+        ]
+      },
+      {
+        "category": "device.imei_phone",
+        "identifiers_matched": 24,
+        "examples": [
+          "Landroid/content/Context;->getDeviceId",
+          "Landroid/telephony/TelephonyManager;->getDeviceId",
+          "Landroid/telephony/TelephonyManager;->getSubscriberId"
+        ]
+      },
+      {
+        "category": "crypto.hostname.verifier",
+        "identifiers_matched": 24,
+        "examples": [
+          "Ljavax/net/ssl/HostnameVerifier;->verify",
+          "Ljavax/net/ssl/HttpsURLConnection;->getDefaultHostnameVerifier",
+          "Lokhttp3/OkHttpClient$Builder;->getHostnameVerifier$okhttp"
+        ]
+      },
+      {
+        "category": "dyn.classforname",
+        "identifiers_matched": 23,
+        "examples": [
+          "Ljava/lang/Class;->forName",
+          "Ljava/nio/charset/Charset;->forName"
+        ]
+      },
+      {
+        "category": "device.nfc",
+        "identifiers_matched": 22,
+        "examples": [
+          "Landroid/nfc/NfcAdapter;->getDefaultAdapter",
+          "Landroid/nfc/NfcAdapter;->isEnabled",
+          "Landroid/nfc/NfcAdapter;->disableReaderMode"
+        ]
+      },
+      {
+        "category": "crypto.trustmanager.custom",
+        "identifiers_matched": 18,
+        "examples": [
+          "Lwmoi/iobn;->checkServerTrusted",
+          "Lwmoi/mlqe;->checkServerTrusted",
+          "LTd/g;->checkServerTrusted"
+        ]
+      },
+      {
+        "category": "web.js_interface",
+        "identifiers_matched": 17,
+        "examples": [
+          "Lcom/facebook/ads/redexgen/X/fH;->addJavascriptInterface",
+          "Lcom/facebook/ads/redexgen/X/ge;->addJavascriptInterface",
+          "Lcom/facebook/ads/redexgen/X/h9;->addJavascriptInterface"
+        ]
+      },
+      {
+        "category": "storage.external.write",
+        "identifiers_matched": 13,
+        "examples": [
+          "Landroid/os/Environment;->getExternalStorageDirectory",
+          "Landroid/os/Environment;->getExternalStoragePublicDirectory",
+          "Landroid/os/Environment;->getExternalStorageState"
+        ]
+      },
+      {
+        "category": "crypto.tls.sslcontext",
+        "identifiers_matched": 11,
+        "examples": [
+          "Ljavax/net/ssl/SSLContext;->getInstance",
+          "Ljavax/net/ssl/SSLContext;->getSocketFactory",
+          "Ljavax/net/ssl/SSLContext;->init"
+        ]
+      },
+      {
+        "category": "web.allow_file_access",
+        "identifiers_matched": 10,
+        "examples": [
+          "Landroid/webkit/WebSettings;->setAllowUniversalAccessFromFileURLs",
+          "Lcom/alibaba/griver/base/api/APWebSettings;->setAllowUniversalAccessFromFileURLs",
+          "Lcom/alibaba/griver/core/webview/AndroidWebSettings;->setAllowUniversalAccessFromFileURLs"
+        ]
+      },
+      {
+        "category": "web.mixed_content",
+        "identifiers_matched": 9,
+        "examples": [
+          "Landroid/webkit/WebSettings;->setMixedContentMode"
+        ]
+      },
+      {
+        "category": "device.location",
+        "identifiers_matched": 8,
+        "examples": [
+          "Landroid/location/LocationManager;->getLastKnownLocation",
+          "Lcom/alibaba/ariver/commonability/map/sdk/api/IFusedLocationProviderClient;->requestLocationUpdates",
+          "Lcom/alibaba/ariver/commonability/map/sdk/api/RVFusedLocationProviderClient;->requestLocationUpdates"
+        ]
+      },
+      {
+        "category": "hard.hookframework",
+        "identifiers_matched": 8,
+        "examples": [
+          "Lorg/bouncycastle/crypto/modes/CCMBlockCipher$ExposedByteArrayOutputStream;-><init>",
+          "Lorg/bouncycastle/crypto/modes/CCMBlockCipher$ExposedByteArrayOutputStream;->getBuffer",
+          "Lorg/bouncycastle/crypto/modes/KCCMBlockCipher$ExposedByteArrayOutputStream;-><init>"
+        ]
+      },
+      {
+        "category": "dyn.native.load",
+        "identifiers_matched": 6,
+        "examples": [
+          "Ljava/lang/System;->loadLibrary"
+        ]
+      },
+      {
+        "category": "device.contacts",
+        "identifiers_matched": 6,
+        "examples": [
+          "Landroid/provider/ContactsContract$Contacts;->lookupContact",
+          "Landroid/provider/ContactsContract$Contacts;->openContactPhotoInputStream",
+          "Landroid/provider/ContactsContract$CommonDataKinds$Phone;->getTypeLabel"
+        ]
+      },
+      {
+        "category": "ipc.localbroadcast",
+        "identifiers_matched": 5,
+        "examples": [
+          "Landroid/content/Context;->sendBroadcast"
+        ]
+      },
+      {
+        "category": "hard.debuggercheck",
+        "identifiers_matched": 4,
+        "examples": [
+          "Landroid/os/Debug;->isDebuggerConnected"
+        ]
+      },
+      {
+        "category": "dyn.dexclassloader",
+        "identifiers_matched": 3,
+        "examples": [
+          "Ldalvik/system/DexClassLoader;-><init>",
+          "Ldalvik/system/InMemoryDexClassLoader;-><init>"
+        ]
+      },
+      {
+        "category": "device.installed_apps",
+        "identifiers_matched": 3,
+        "examples": [
+          "Landroid/content/pm/PackageManager;->getInstalledPackages",
+          "Landroid/content/pm/PackageManager;->getInstalledApplications"
+        ]
+      }
+    ],
+    "top_hosts": [
+      [
+        "scdn.zalopay.com.vn",
+        65
+      ],
+      [
+        "simg.zalopay.com.vn",
+        45
+      ],
+      [
+        "render.alipay.com",
+        24
+      ],
+      [
+        "zalopay.vn",
+        20
+      ],
+      [
+        "api.zalopay.vn",
+        13
+      ],
+      [
+        "social.zalopay.vn",
+        13
+      ],
+      [
+        "play.google.com",
+        11
+      ],
+      [
+        "appx",
+        10
+      ],
+      [
+        "sapi.zalopay.vn",
+        10
+      ],
+      [
+        "appx-ng",
+        9
+      ],
+      [
+        "developer.android.com",
+        8
+      ],
+      [
+        "mnap-director.zalopay.vn",
+        8
+      ],
+      [
+        "www.w3.org",
+        8
+      ],
+      [
+        "www.google.com",
+        8
+      ],
+      [
+        "github.com",
+        7
+      ],
+      [
+        "firebase.google.com",
+        7
+      ],
+      [
+        "googleads.g.doubleclick.net",
+        7
+      ],
+      [
+        "issuetracker.google.com",
+        6
+      ],
+      [
+        "xml.org",
+        6
+      ],
+      [
+        "googlemobileadssdk.page.link",
+        6
+      ],
+      [
+        "xmlpull.org",
+        5
+      ],
+      [
+        "zalo.me",
+        5
+      ],
+      [
+        "upload-img.zalopay.vn",
+        5
+      ],
+      [
+        "developers.facebook.com",
+        5
+      ],
+      [
+        "uudai.zalopay.vn",
+        5
+      ],
+      [
+        "openauth.alipay.com",
+        4
+      ],
+      [
+        "schemas.android.com",
+        4
+      ],
+      [
+        "goo.gl",
+        4
+      ],
+      [
+        "app-measurement.com",
+        4
+      ],
+      [
+        "zalopay.com.vn",
+        4
+      ],
+      [
+        "openapi.zalopay.vn",
+        4
+      ],
+      [
+        "bim.zalopay.vn",
+        4
+      ],
+      [
+        "ns.adobe.com",
+        3
+      ],
+      [
+        "resource",
+        3
+      ],
+      [
+        "dala2zoom.zalopay.vn",
+        3
+      ],
+      [
+        "open-sea.alipayplus.com",
+        3
+      ],
+      [
+        "render-intl.alipay.com",
+        3
+      ],
+      [
+        "www.google-analytics.com",
+        3
+      ],
+      [
+        "facebook.com",
+        3
+      ],
+      [
+        "alipay.worker.com",
+        3
+      ]
+    ],
+    "host_count": 194,
+    "secret_classes": [],
+    "secret_samples_redacted": [],
+    "obfuscation": {
+      "classes_analysed": 63827,
+      "mean_simple_name_length": 6.881,
+      "share_simple_names_le_2_chars": 0.6791,
+      "identifier_char_entropy_bits": 5.279,
+      "verdict": "aggressive R8/ProGuard identifier minification"
+    },
+    "first_party_classes_sample": [
+      "vn.com.vng.zalopay.AndroidApplication",
+      "vn.com.vng.zalopay.AndroidApplication",
+      "vn.com.vng.zalopay.AndroidApplication",
+      "vn.com.vng.zalopay.AndroidApplication",
+      "vn.com.vng.zalopay.AndroidApplication",
+      "vn.com.vng.zalopay.AndroidApplication",
+      "vn.com.vng.zalopay.AndroidApplication",
+      "vn.com.vng.zalopay.AndroidApplication",
+      "vn.com.vng.zalopay.BaseApplication",
+      "vn.com.vng.zalopay.BaseApplication",
+      "vn.com.vng.zalopay.BaseApplication",
+      "vn.com.vng.zalopay.BaseApplication",
+      "vn.com.vng.zalopay.BaseApplication",
+      "vn.com.vng.zalopay.BaseApplication",
+      "vn.com.vng.zalopay.BaseApplication",
+      "vn.com.vng.zalopay.BaseApplication",
+      "vn.com.vng.zalopay.DataBinderMapperImpl",
+      "vn.com.vng.zalopay.account.ui.fragment.AbsPickerImageFragment",
+      "vn.com.vng.zalopay.alipay.presentation.dialog.AlipayErrorDialogActivity",
+      "vn.com.vng.zalopay.alipay.presentation.dialog.a",
+      "vn.com.vng.zalopay.alipay.service.AlipayMiniAppService",
+      "vn.com.vng.zalopay.alipay.service.MemberServiceProvider",
+      "vn.com.vng.zalopay.alipay.service.MemberServiceProvider$getPublicProfileRemote$2",
+      "vn.com.vng.zalopay.alipay.service.MemberServiceProvider$getPublicProfileRemote$2$1$1",
+      "vn.com.vng.zalopay.alipay.service.MemberServiceProvider$getPublicProfileRemote$2$1$1$1",
+      "vn.com.vng.zalopay.alipay.service.MpmServiceProvider",
+      "vn.com.vng.zalopay.alipay.service.MpmServiceProvider$Companion",
+      "vn.com.vng.zalopay.alipay.service.MpmServiceProvider$userInitiatePay$1",
+      "vn.com.vng.zalopay.alipay.service.a",
+      "vn.com.vng.zalopay.alipay.service.b",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+      "vn.com.vng.zalopay.app_widget.worker_manager.AppWidgetFetchGamesWorker",
+      "vn.com.vng.zalopay.app_widget.worker_manager.AppWidgetFetchLocalPersonQrWorker",
+      "vn.com.vng.zalopay.app_widget.worker_manager.AppWidgetFetchLocalPersonQrWorker",
+      "vn.com.vng.zalopay.app_widget.worker_manager.AppWidgetFetchMoviesWorker",
+      "vn.com.vng.zalopay.app_widget.worker_manager.AppWidgetFetchMoviesWorker",
+      "vn.com.vng.zalopay.app_widget.worker_manager.AppWidgetFetchPersonQrWorker",
+      "vn.com.vng.zalopay.authentication.AuthenticationDialog",
+      "vn.com.vng.zalopay.authentication.AuthenticationDialog_ViewBinding",
+      "vn.com.vng.zalopay.authentication.a",
+      "vn.com.vng.zalopay.authentication.b",
+      "vn.com.vng.zalopay.authentication.e",
+      "vn.com.vng.zalopay.authentication.f$a",
+      "vn.com.vng.zalopay.authentication.h",
+      "vn.com.vng.zalopay.authentication.i",
+      "vn.com.vng.zalopay.authentication.k",
+      "vn.com.vng.zalopay.authentication.secret.a",
+      "vn.com.vng.zalopay.authentication.secret.a",
+      "vn.com.vng.zalopay.authentication.secret.a",
+      "vn.com.vng.zalopay.behaviorguideline.LoginGuidelineActivity",
+      "vn.com.vng.zalopay.camera.CustomDefaultCamera",
+      "vn.com.vng.zalopay.camera.CustomDefaultCamera",
+      "vn.com.vng.zalopay.cashier.CashierActivity",
+      "vn.com.vng.zalopay.cashier.CashierActivity",
+      "vn.com.vng.zalopay.cashier.CashierActivity",
+      "vn.com.vng.zalopay.cashier.data.model.UnlockPayLaterException",
+      "vn.com.vng.zalopay.cashier.middle.CashierMiddlePageActivity",
+      "vn.com.vng.zalopay.cashier.presentation.newui.CashierNewUIActivity",
+      "vn.com.vng.zalopay.cashier.presentation.ui.main.MainCashierV2Activity",
+      "vn.com.vng.zalopay.cashier.presentation.ui.otp.DOtpErrorActivity"
+    ]
+  },
+  "native": {
+    "library_count": 28,
+    "libraries": [
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libVFaceLib.so",
+        "size": 1963668,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libVFaceLib.so",
+        "needed": [
+          "libandroid.so",
+          "liblog.so",
+          "libjnigraphics.so",
+          "libc.so",
+          "libz.so",
+          "libdl.so",
+          "libm.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [
+          "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_faceAlignment",
+          "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeDestroy",
+          "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeInit",
+          "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_getFaces"
+        ],
+        "export_count": 4,
+        "import_count": 171,
+        "notable_imports": [
+          "__open_2",
+          "dlopen",
+          "dlsym",
+          "fopen",
+          "gzopen",
+          "opendir",
+          "openlog"
+        ],
+        "section_entropy": {
+          ".text": 7.2442,
+          ".rodata": 5.6715,
+          ".data": 2.5315,
+          ".got": 4.7364
+        },
+        "text_entropy": 7.2442,
+        "symbol_density": 89.119,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "Goldfish"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/liba97d.so",
+        "size": 997572,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "liba97d.so",
+        "needed": [
+          "libc.so",
+          "libstdc++.so",
+          "libm.so",
+          "libdl.so",
+          "liblog.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 64,
+        "import_count": 85,
+        "notable_imports": [
+          "__system_property_find_nth",
+          "__system_property_foreach",
+          "__system_property_get",
+          "__system_property_read",
+          "__system_property_read_callback",
+          "dlopen",
+          "dlsym",
+          "execv",
+          "fopen",
+          "fork",
+          "opendir",
+          "prctl"
+        ],
+        "section_entropy": {
+          ".text": 6.3358,
+          ".rodata": 6.9349,
+          ".data": 6.7924,
+          ".got": 0.669
+        },
+        "text_entropy": 6.3358,
+        "symbol_density": 149.363,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "sU"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libandroidx.graphics.path.so",
+        "size": 7252,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libandroidx.graphics.path.so",
+        "needed": [
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 1,
+        "import_count": 8,
+        "notable_imports": [
+          "__system_property_get"
+        ],
+        "section_entropy": {
+          ".text": 6.6788,
+          ".rodata": 4.7063,
+          ".got": -0.0
+        },
+        "text_entropy": 6.6788,
+        "symbol_density": 1241.037,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": []
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libbarhopper_v3.so",
+        "size": 3244440,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libbarhopper_v3.so",
+        "needed": [
+          "libjnigraphics.so",
+          "liblog.so",
+          "libdl.so",
+          "libm.so",
+          "libc.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [
+          "Java_com_google_android_libraries_barhopper_BarhopperV3_closeNative",
+          "Java_com_google_android_libraries_barhopper_BarhopperV3_createNative",
+          "Java_com_google_android_libraries_barhopper_BarhopperV3_createNativeWithClientOptions",
+          "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBitmapNative",
+          "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBufferNative",
+          "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeNative",
+          "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedBufferNative",
+          "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedNative"
+        ],
+        "export_count": 12,
+        "import_count": 199,
+        "notable_imports": [
+          "OPENSSL_memory_alloc",
+          "OPENSSL_memory_free",
+          "OPENSSL_memory_get_size",
+          "__system_property_get",
+          "dlopen",
+          "dlsym",
+          "fopen",
+          "mmap",
+          "open",
+          "openlog",
+          "prctl"
+        ],
+        "section_entropy": {
+          ".text": 7.236,
+          ".rodata": 5.8446,
+          ".data": 2.7868,
+          ".got": 5.8384
+        },
+        "text_entropy": 7.236,
+        "symbol_density": 65.034,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "ANTI",
+          "Frida",
+          "SU",
+          "anti",
+          "sU"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libc++_shared.so",
+        "size": 872872,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libc++_shared.so",
+        "needed": [
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [],
+        "export_count": 2337,
+        "import_count": 161,
+        "notable_imports": [
+          "fdopendir",
+          "fopen",
+          "open",
+          "openat",
+          "opendir",
+          "openlog"
+        ],
+        "section_entropy": {
+          ".text": 7.0301,
+          ".rodata": 6.9286,
+          ".data": 3.7336,
+          ".got": 0.1203
+        },
+        "text_entropy": 7.0301,
+        "symbol_density": 2861.817,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": []
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libcrashlytics-common.so",
+        "size": 435732,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libcrashlytics-common.so",
+        "needed": [
+          "liblog.so",
+          "libz.so",
+          "libdl.so",
+          "libc.so",
+          "libm.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [],
+        "export_count": 3,
+        "import_count": 177,
+        "notable_imports": [
+          "__open_2",
+          "__system_property_get",
+          "execv",
+          "execve",
+          "fork",
+          "mmap64",
+          "open",
+          "opendir",
+          "prctl",
+          "ptrace",
+          "socket"
+        ],
+        "section_entropy": {
+          ".text": 7.0198,
+          ".rodata": 5.1291,
+          ".data": 1.7599,
+          ".got": 4.3379
+        },
+        "text_entropy": 7.0198,
+        "symbol_density": 413.098,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "/system/bin",
+          "Frida",
+          "Ptrace",
+          "ptrace"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libcrashlytics-handler.so",
+        "size": 87908,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libcrashlytics-handler.so",
+        "needed": [
+          "liblog.so",
+          "libz.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 2,
+        "import_count": 39,
+        "notable_imports": [
+          "dlopen",
+          "dlsym"
+        ],
+        "section_entropy": {
+          ".text": 6.8274,
+          ".rodata": 5.2607,
+          ".data": 1.7203,
+          ".got": 3.3703
+        },
+        "text_entropy": 6.8274,
+        "symbol_density": 466.397,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": []
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libcrashlytics-trampoline.so",
+        "size": 6912,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "",
+        "needed": [
+          "liblog.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [],
+        "export_count": 4,
+        "import_count": 12,
+        "notable_imports": [
+          "dlopen",
+          "dlsym"
+        ],
+        "section_entropy": {
+          ".text": 5.5717,
+          ".rodata": 4.571,
+          ".got": 2.0919
+        },
+        "text_entropy": 5.5717,
+        "symbol_density": 2314.815,
+        "stripped": false,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "/system/bin"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libcrashlytics.so",
+        "size": 94540,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libcrashlytics.so",
+        "needed": [
+          "liblog.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 8,
+        "import_count": 46,
+        "notable_imports": [
+          "__system_property_get",
+          "dlopen",
+          "dlsym"
+        ],
+        "section_entropy": {
+          ".text": 6.8357,
+          ".rodata": 5.2807,
+          ".data": 1.7203,
+          ".got": 3.5035
+        },
+        "text_entropy": 6.8357,
+        "symbol_density": 571.187,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": []
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libface_detector_v2_jni.so",
+        "size": 5388224,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libface_detector_v2_jni.so",
+        "needed": [
+          "libandroid.so",
+          "liblog.so",
+          "libjnigraphics.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [
+          "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_closeDetectorJni",
+          "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayJni",
+          "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayMultiPlanesJni",
+          "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferJni",
+          "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferMultiPlanesJni",
+          "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_initDetectorJni"
+        ],
+        "export_count": 10,
+        "import_count": 220,
+        "notable_imports": [
+          "AAssetManager_open",
+          "OPENSSL_memory_alloc",
+          "OPENSSL_memory_free",
+          "OPENSSL_memory_get_size",
+          "__system_property_get",
+          "dlopen",
+          "dlsym",
+          "fopen",
+          "mmap",
+          "open",
+          "openlog",
+          "prctl"
+        ],
+        "section_entropy": {
+          ".text": 7.2274,
+          ".rodata": 5.4056,
+          ".data": 2.9285,
+          ".got": 5.9738
+        },
+        "text_entropy": 7.2274,
+        "symbol_density": 42.686,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "ANTI",
+          "Frida",
+          "Integrity",
+          "SU",
+          "antI",
+          "anti",
+          "su",
+          "xposed"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libfgcpkjvqe.so",
+        "size": 6524160,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libfgcpkjvqe.so",
+        "needed": [
+          "libz.so",
+          "liblog.so",
+          "libandroid.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 2,
+        "import_count": 191,
+        "notable_imports": [
+          "AAssetManager_open",
+          "OPENSSL_memory_alloc",
+          "OPENSSL_memory_free",
+          "OPENSSL_memory_get_size",
+          "__open_2",
+          "__system_property_get",
+          "dlopen",
+          "dlsym",
+          "fdopen",
+          "fopen",
+          "mmap",
+          "mmap64",
+          "open",
+          "openat",
+          "opendir",
+          "openlog",
+          "popen"
+        ],
+        "section_entropy": {
+          ".text": 6.0871,
+          ".rodata": 7.2787,
+          ".data": 4.4163,
+          ".got": 5.486
+        },
+        "text_entropy": 6.0871,
+        "symbol_density": 29.582,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "HMAC",
+          "SU",
+          "anti",
+          "evp_",
+          "hmac",
+          "rsa_",
+          "sU",
+          "su"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libimage_processing_util_jni.so",
+        "size": 20380,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libimage_processing_util_jni.so",
+        "needed": [
+          "liblog.so",
+          "libandroid.so",
+          "libjnigraphics.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [
+          "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToABGR",
+          "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToBitmap",
+          "Java_androidx_camera_core_ImageProcessingUtil_nativeCopyBetweenByteBufferAndBitmap",
+          "Java_androidx_camera_core_ImageProcessingUtil_nativeRotateYUV",
+          "Java_androidx_camera_core_ImageProcessingUtil_nativeShiftPixel",
+          "Java_androidx_camera_core_ImageProcessingUtil_nativeWriteJpegToSurface"
+        ],
+        "export_count": 6,
+        "import_count": 23,
+        "notable_imports": [
+          "fopen"
+        ],
+        "section_entropy": {
+          ".text": 6.9691,
+          ".rodata": 5.1486,
+          ".got": 3.6569
+        },
+        "text_entropy": 6.9691,
+        "symbol_density": 1422.964,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": []
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libimagepipeline.so",
+        "size": 5876,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libimagepipeline.so",
+        "needed": [
+          "liblog.so",
+          "libjnigraphics.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 1,
+        "import_count": 10,
+        "notable_imports": [],
+        "section_entropy": {
+          ".text": 6.2101,
+          ".rodata": 4.8442,
+          ".data": 3.1701,
+          ".got": -0.0
+        },
+        "text_entropy": 6.2101,
+        "symbol_density": 1872.022,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": []
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libljsfrcwmw.so",
+        "size": 600296,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libljsfrcwmw.so",
+        "needed": [
+          "librcmefqonnx.so",
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 1,
+        "import_count": 17,
+        "notable_imports": [],
+        "section_entropy": {
+          ".text": 6.3775,
+          ".rodata": 5.8976,
+          ".got": -0.0
+        },
+        "text_entropy": 6.3775,
+        "symbol_density": 29.985,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "RSA_",
+          "SU",
+          "Su",
+          "anti",
+          "su"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/liblytcuhe.so",
+        "size": 178628,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "liblytcuhe.so",
+        "needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [],
+        "export_count": 303,
+        "import_count": 35,
+        "notable_imports": [],
+        "section_entropy": {
+          ".text": 6.8278,
+          ".rodata": 5.2904,
+          ".data": 4.9992,
+          ".got": 0.6154
+        },
+        "text_entropy": 6.8278,
+        "symbol_density": 1892.201,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": []
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libmlkit_google_ocr_pipeline.so",
+        "size": 6781940,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libmlkit_google_ocr_pipeline.so",
+        "needed": [
+          "liblog.so",
+          "libdl.so",
+          "libjnigraphics.so",
+          "libandroid.so",
+          "libz.so",
+          "libm.so",
+          "libEGL.so",
+          "libGLESv2.so",
+          "libc.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_AndroidAssetUtil_nativeInitializeAssetManager",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_close",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_disableSubpipeline",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_enableSubpipeline",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_experimentalRotateResults",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_flushAndClearMobileIqSamples",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_getAnalyticsLogs",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initialize",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameManager",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeIsolationCallback",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeResultsCallback",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_process",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processBitmap",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processYuvFrame",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveAudioData",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDepthMap",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDetections",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceContext",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceState",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveFaces",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrame",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrameWithStreamName",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveProcessContext",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveRgbFrame",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveSensorEvent",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveYuvFrame",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetOcr",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetSchedulingOptimizerOptions",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetTrackedObjects",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_start",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_stop",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_waitUntilIdle"
+        ],
+        "export_count": 37,
+        "import_count": 330,
+        "notable_imports": [
+          "AAssetManager_open",
+          "__mmap2",
+          "__system_property_get",
+          "dlopen",
+          "dlsym",
+          "fopen",
+          "mmap",
+          "open",
+          "openlog",
+          "prctl"
+        ],
+        "section_entropy": {
+          ".text": 7.1973,
+          ".rodata": 6.188,
+          ".data": 3.5032,
+          ".got": 6.0692
+        },
+        "text_entropy": 7.1973,
+        "symbol_density": 54.114,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "ANTI",
+          "Anti",
+          "Frida",
+          "Goldfish",
+          "SU",
+          "Su",
+          "antI",
+          "anti",
+          "emulator",
+          "pTrace",
+          "sU",
+          "su",
+          "xposed"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libmlkitcommonpipeline.so",
+        "size": 6928228,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libmlkitcommonpipeline.so",
+        "needed": [
+          "liblog.so",
+          "libdl.so",
+          "libjnigraphics.so",
+          "libandroid.so",
+          "libz.so",
+          "libm.so",
+          "libEGL.so",
+          "libGLESv2.so",
+          "libc.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [
+          "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeIsProcessInBackground",
+          "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeNotifyProcessLifecycleState",
+          "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetDeviceInfo",
+          "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetGPUInfo",
+          "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetNNAPIInfo",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_close",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_disableSubpipeline",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_enableSubpipeline",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_experimentalRotateResults",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_flushAndClearMobileIqSamples",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_getAnalyticsLogs",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initialize",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameManager",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeIsolationCallback",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeResultsCallback",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_process",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processBitmap",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processYuvFrame",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveAudioData",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDepthMap",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDetections",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceContext",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceState",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveFaces",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receivePreviewFrame",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receivePreviewFrameWithStreamName",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveProcessContext",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveRgbFrame",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveSensorEvent",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveYuvFrame",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetOcr",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetSchedulingOptimizerOptions",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetTrackedObjects",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_start",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_stop",
+          "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_waitUntilIdle",
+          "Java_org_tensorflow_lite_acceleration_validation_entrypoint"
+        ],
+        "export_count": 42,
+        "import_count": 325,
+        "notable_imports": [
+          "__mmap2",
+          "__system_property_get",
+          "dlopen",
+          "dlsym",
+          "fopen",
+          "mmap",
+          "open",
+          "openlog",
+          "popen",
+          "prctl"
+        ],
+        "section_entropy": {
+          ".text": 7.2504,
+          ".rodata": 5.8235,
+          ".data": 3.4495,
+          ".got": 6.0255
+        },
+        "text_entropy": 7.2504,
+        "symbol_density": 52.972,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "/system/bin",
+          "ANTI",
+          "Emulator",
+          "Frida",
+          "Goldfish",
+          "SU",
+          "Su",
+          "antI",
+          "anti",
+          "emulator",
+          "goldfish",
+          "ranchu",
+          "su",
+          "xposed"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libnative-filters.so",
+        "size": 12588,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libnative-filters.so",
+        "needed": [
+          "liblog.so",
+          "libjnigraphics.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 1,
+        "import_count": 13,
+        "notable_imports": [],
+        "section_entropy": {
+          ".text": 6.8179,
+          ".rodata": 4.6923,
+          ".data": 3.1616,
+          ".got": -0.0
+        },
+        "text_entropy": 6.8179,
+        "symbol_density": 1112.17,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": []
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libnative-imagetranscoder.so",
+        "size": 341072,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libnative-imagetranscoder.so",
+        "needed": [
+          "liblog.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 299,
+        "import_count": 53,
+        "notable_imports": [
+          "openlog"
+        ],
+        "section_entropy": {
+          ".text": 7.1167,
+          ".rodata": 5.8246,
+          ".data": 2.502,
+          ".got": 3.9859
+        },
+        "text_entropy": 7.1167,
+        "symbol_density": 1032.04,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "anti"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libohxbee.so",
+        "size": 155412,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libohxbee.so",
+        "needed": [
+          "liblytcuhe.so",
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 1,
+        "import_count": 17,
+        "notable_imports": [],
+        "section_entropy": {
+          ".text": 6.2553,
+          ".rodata": 5.6021,
+          ".got": -0.0
+        },
+        "text_entropy": 6.2553,
+        "symbol_density": 115.821,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": []
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libpicodet_ncnn.so",
+        "size": 2992584,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libpicodet_ncnn.so",
+        "needed": [
+          "liblog.so",
+          "libandroid.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [
+          "Java_com_example_picodet_PicoDetJNI_detect",
+          "Java_com_example_picodet_PicoDetJNI_detectYuv",
+          "Java_com_example_picodet_PicoDetJNI_picodetConfigure",
+          "Java_com_example_picodet_PicoDetJNI_picodetConfigure2",
+          "Java_com_example_picodet_PicoDetJNI_picodetCreate",
+          "Java_com_example_picodet_PicoDetJNI_picodetDestroy",
+          "Java_com_example_picodet_PicoDetJNI_picodetInputHeight",
+          "Java_com_example_picodet_PicoDetJNI_picodetInputWidth"
+        ],
+        "export_count": 2648,
+        "import_count": 175,
+        "notable_imports": [
+          "__register_atfork",
+          "dlopen",
+          "dlsym",
+          "fopen",
+          "open",
+          "opendir",
+          "openlog"
+        ],
+        "section_entropy": {
+          ".text": 7.2069,
+          ".rodata": 5.5087,
+          ".data": 3.8307,
+          ".got": 0.2826
+        },
+        "text_entropy": 7.2069,
+        "symbol_density": 943.332,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "SU",
+          "anti"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/librcmefqonnx.so",
+        "size": 178628,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "librcmefqonnx.so",
+        "needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [],
+        "export_count": 303,
+        "import_count": 35,
+        "notable_imports": [],
+        "section_entropy": {
+          ".text": 6.8281,
+          ".rodata": 5.2904,
+          ".data": 4.9992,
+          ".got": 0.6154
+        },
+        "text_entropy": 6.8281,
+        "symbol_density": 1892.201,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": []
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/librive-android.so",
+        "size": 3225636,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "librive-android.so",
+        "needed": [
+          "liblog.so",
+          "libandroid.so",
+          "libEGL.so",
+          "libGLESv3.so",
+          "libjnigraphics.so",
+          "libm.so",
+          "libc++_shared.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [
+          "Java_app_rive_runtime_kotlin_RiveTextureView_cppGetAverageFps",
+          "Java_app_rive_runtime_kotlin_core_AnimationState_cppName",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppAdvance",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByIndex",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByName",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationCount",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationNameByIndex",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppBounds",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppDelete",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppDraw",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppDrawAligned",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppFindTextValueRun",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppFindTextValueRunAtPath",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppFindValueOfTextValueRun",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppFindValueOfTextValueRunAtPath",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppGetArtboardHeight",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppGetArtboardWidth",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppGetVolume",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppInputByNameAtPath",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppName",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppResetArtboardSize",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppSetArtboardHeight",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppSetArtboardWidth",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppSetValueOfTextValueRun",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppSetValueOfTextValueRunAtPath",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppSetViewModelInstance",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppSetVolume",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByIndex",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByName",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineCount",
+          "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineNameByIndex",
+          "Java_app_rive_runtime_kotlin_core_AudioAsset_cppGetAudio",
+          "Java_app_rive_runtime_kotlin_core_AudioAsset_cppSetAudio",
+          "Java_app_rive_runtime_kotlin_core_FileAssetLoader_constructor",
+          "Java_app_rive_runtime_kotlin_core_FileAssetLoader_cppDelete",
+          "Java_app_rive_runtime_kotlin_core_FileAssetLoader_cppSetRendererType",
+          "Java_app_rive_runtime_kotlin_core_FileAsset_cppCDNUrl",
+          "Java_app_rive_runtime_kotlin_core_FileAsset_cppDecode",
+          "Java_app_rive_runtime_kotlin_core_FileAsset_cppName",
+          "Java_app_rive_runtime_kotlin_core_FileAsset_cppUniqueFilename"
+        ],
+        "export_count": 5948,
+        "import_count": 276,
+        "notable_imports": [
+          "_ZNSt6__ndk120__throw_system_errorEiPKc",
+          "__system_property_get",
+          "dlopen",
+          "dlsym",
+          "fopen"
+        ],
+        "section_entropy": {
+          ".text": 6.196,
+          ".rodata": 6.5016,
+          ".data": 2.8206,
+          ".got": -0.0
+        },
+        "text_entropy": 6.196,
+        "symbol_density": 1929.542,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "Anti",
+          "SU",
+          "antI",
+          "pTrace",
+          "sU",
+          "su"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libsecurity_lite.so",
+        "size": 154840,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libsecurity_lite.so",
+        "needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": false,
+        "java_exports": [
+          "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+          "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+          "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+          "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest"
+        ],
+        "export_count": 97,
+        "import_count": 35,
+        "notable_imports": [
+          "fopen"
+        ],
+        "section_entropy": {
+          ".text": 7.3316,
+          ".rodata": 7.9094,
+          ".data": 7.1353,
+          ".got": 0.9843
+        },
+        "text_entropy": 7.3316,
+        "symbol_density": 852.493,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "AES_",
+          "aes_",
+          "rsa_"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libsqlcipher.so",
+        "size": 3555080,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libsqlcipher.so",
+        "needed": [
+          "libdl.so",
+          "liblog.so",
+          "libc.so",
+          "libm.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 480,
+        "import_count": 176,
+        "notable_imports": [
+          "dlopen",
+          "dlsym",
+          "fopen",
+          "mmap",
+          "mmap64",
+          "open",
+          "opendir",
+          "socket"
+        ],
+        "section_entropy": {
+          ".text": 6.5678,
+          ".rodata": 7.2881,
+          ".data": 3.5988,
+          ".got": 5.0176
+        },
+        "text_entropy": 6.5678,
+        "symbol_density": 184.525,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "EVP_",
+          "HMAC",
+          "Integrity",
+          "RSA_",
+          "SU",
+          "Su",
+          "aes_",
+          "anti",
+          "evp_",
+          "hmac",
+          "integrity",
+          "rsa_",
+          "su"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libtaibmcf.so",
+        "size": 12617752,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libtaibmcf.so",
+        "needed": [
+          "libz.so",
+          "liblog.so",
+          "libandroid.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [],
+        "export_count": 2,
+        "import_count": 195,
+        "notable_imports": [
+          "AAssetManager_open",
+          "OPENSSL_memory_alloc",
+          "OPENSSL_memory_free",
+          "OPENSSL_memory_get_size",
+          "__open_2",
+          "__system_property_get",
+          "dlopen",
+          "dlsym",
+          "fdopen",
+          "fopen",
+          "mmap",
+          "mmap64",
+          "open",
+          "openat",
+          "opendir",
+          "openlog",
+          "popen"
+        ],
+        "section_entropy": {
+          ".text": 6.0778,
+          ".rodata": 7.2703,
+          ".data": 4.4091,
+          ".got": 5.8905
+        },
+        "text_entropy": 6.0778,
+        "symbol_density": 15.613,
+        "stripped": true,
+        "packed_likelihood": "medium",
+        "interesting_strings": [
+          "HMAC",
+          "SU",
+          "Su",
+          "anti",
+          "evp_",
+          "hmac",
+          "rsa_",
+          "sU",
+          "su"
+        ]
+      },
+      {
+        "name": "config.armeabi_v7a.apk!lib/armeabi-v7a/libtrueidlib.so",
+        "size": 79904,
+        "machine": "EM_ARM",
+        "elf_class": 32,
+        "elf_type": "ET_DYN",
+        "soname": "libtrueidlib.so",
+        "needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "jni_onload": true,
+        "java_exports": [
+          "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_genSignature",
+          "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_getNonce",
+          "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultAuthCeremony",
+          "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckDebugger",
+          "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckIntegrity",
+          "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQAuth",
+          "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQReg",
+          "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultRegisterCeremony",
+          "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultVerifyTxDigest",
+          "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey"
+        ],
+        "export_count": 40,
+        "import_count": 40,
+        "notable_imports": [
+          "__system_property_get",
+          "fopen",
+          "popen"
+        ],
+        "section_entropy": {
+          ".text": 7.0421,
+          ".rodata": 6.1736,
+          ".data": 3.4434,
+          ".got": -0.0
+        },
+        "text_entropy": 7.0421,
+        "symbol_density": 1001.201,
+        "stripped": true,
+        "packed_likelihood": "low",
+        "interesting_strings": [
+          "/proc/self/maps",
+          "/proc/self/status",
+          "/system/bin",
+          "Emulator",
+          "Integrity",
+          "Superuser",
+          "TracerPid",
+          "Xposed",
+          "frida",
+          "goldfish",
+          "hmac",
+          "integrity",
+          "magisk",
+          "ranchu",
+          "su"
+        ]
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk!assets/trueidlib.so",
+        "error": "Magic number does not match"
+      }
+    ],
+    "jni_capable": 22,
+    "packed_candidates": [
+      "config.armeabi_v7a.apk!lib/armeabi-v7a/libtaibmcf.so"
+    ],
+    "total_bytes": 57452124
+  },
+  "assets": {
+    "asset_count": 124,
+    "asset_bytes_total": 30011044,
+    "by_extension": [
+      [
+        ".json",
+        17
+      ],
+      [
+        ".tflite",
+        14
+      ],
+      [
+        ".ttf",
+        12
+      ],
+      [
+        "<none>",
+        11
+      ],
+      [
+        ".binarypb",
+        10
+      ],
+      [
+        ".png",
+        9
+      ],
+      [
+        ".js",
+        8
+      ],
+      [
+        ".html",
+        8
+      ],
+      [
+        ".pb",
+        6
+      ],
+      [
+        ".emd",
+        4
+      ],
+      [
+        ".amr",
+        3
+      ],
+      [
+        ".dat",
+        3
+      ],
+      [
+        ".txt",
+        2
+      ],
+      [
+        ".fb",
+        2
+      ],
+      [
+        ".bincfg",
+        2
+      ],
+      [
+        ".tfl",
+        2
+      ],
+      [
+        ".bin",
+        1
+      ],
+      [
+        ".param",
+        1
+      ],
+      [
+        ".zip",
+        1
+      ],
+      [
+        ".dex",
+        1
+      ],
+      [
+        ".prof",
+        1
+      ],
+      [
+        ".profm",
+        1
+      ],
+      [
+        ".conv_model",
+        1
+      ],
+      [
+        ".lstm_model",
+        1
+      ],
+      [
+        ".pem",
+        1
+      ]
+    ],
+    "largest": [
+      {
+        "path": "assets/audience_network.dex",
+        "bytes": 4864036
+      },
+      {
+        "path": "assets/android.1.zip",
+        "bytes": 3913966
+      },
+      {
+        "path": "assets/custom_models/object_labeler.tflite",
+        "bytes": 3770391
+      },
+      {
+        "path": "assets/FastestDet.ncnn.bin",
+        "bytes": 2420588
+      },
+      {
+        "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+        "bytes": 1706957
+      },
+      {
+        "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+        "bytes": 1254848
+      },
+      {
+        "path": "assets/models_bundled/contours.tfl",
+        "bytes": 1124144
+      },
+      {
+        "path": "assets/models_bundled/LMprec_600.emd",
+        "bytes": 1078354
+      },
+      {
+        "path": "assets/config/miniapp_config.json",
+        "bytes": 883684
+      },
+      {
+        "path": "assets/Griver/68687209_2.9.7.8.amr",
+        "bytes": 856974
+      },
+      {
+        "path": "assets/fgcpkjvqe.dat",
+        "bytes": 776320
+      },
+      {
+        "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+        "bytes": 613352
+      },
+      {
+        "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+        "bytes": 613080
+      },
+      {
+        "path": "assets/taxi_splash_loading.json",
+        "bytes": 536057
+      },
+      {
+        "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+        "bytes": 390456
+      },
+      {
+        "path": "assets/models_bundled/blazeface.tfl",
+        "bytes": 347928
+      },
+      {
+        "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+        "bytes": 340760
+      },
+      {
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+        "bytes": 315520
+      },
+      {
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+        "bytes": 309568
+      },
+      {
+        "path": "assets/Griver/66666692_1.24.8.amr",
+        "bytes": 287535
+      }
+    ],
+    "js_and_html": [
+      "assets/GriverBridge/appx_inline_bootstrap_min.js",
+      "assets/GriverBridge/cover_component.js",
+      "assets/GriverBridge/create_worker.html",
+      "assets/GriverBridge/h5_bridge.js",
+      "assets/GriverBridge/index_inline.html",
+      "assets/GriverBridge/worker.html",
+      "assets/GriverBridge/workerjs.js",
+      "assets/GriverErrorPage/griver_custom_h5_page_error.html",
+      "assets/GriverErrorPage/griver_page_error.html",
+      "assets/GriverErrorPage/mini-program-native-error.html",
+      "assets/android_jsbridge.js",
+      "assets/containererrorpage/griver_custom_h5_page_error.html",
+      "assets/containererrorpage/griver_page_error.html",
+      "assets/internaljsbridge.js",
+      "assets/jsbridge.js",
+      "assets/webapp.js"
+    ],
+    "js_html_count": 16,
+    "ml_models": [
+      "assets/FastestDet.ncnn.bin",
+      "assets/FastestDet.ncnn.param",
+      "assets/custom_models/object_labeler.tflite",
+      "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+      "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+      "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+      "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+      "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+      "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+      "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+      "assets/mlkit-google-ocr-models/taser/rpn_text_detection_tflite_mobile_mbv2.binarypb",
+      "assets/mlkit-google-ocr-models/taser/taser_script_identification_tflite_mobile.binarypb",
+      "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+      "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+      "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_recognizer.binarypb",
+      "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner.binarypb",
+      "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner_ti.binarypb",
+      "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+      "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+      "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+      "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+      "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+      "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+      "assets/models_bundled/fssd_25_8bit_v2.tflite",
+      "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+      "assets/models_bundled/fssd_medium_8bit_v5.tflite"
+    ],
+    "json_configs": {
+      "assets/Griver/appx.json": {
+        "top_level_keys": [
+          "mini"
+        ],
+        "key_count": 1
+      },
+      "assets/GriverTheme/theme.json": {
+        "top_level_keys": [
+          "light",
+          "dark"
+        ],
+        "key_count": 2
+      },
+      "assets/bundle.json": {
+        "top_level_keys": [
+          "external_bundle",
+          "internal_bundle"
+        ],
+        "key_count": 2
+      },
+      "assets/client_tracking.json": {
+        "top_level_keys": [
+          "tripDetail",
+          "trackingItems"
+        ],
+        "key_count": 2
+      },
+      "assets/config/zalopay_config.json": {
+        "top_level_keys": [
+          "general",
+          "zpc",
+          "api",
+          "webapp",
+          "tab_me",
+          "notification",
+          "tab_home",
+          "promotion",
+          "promotion_handler",
+          "bank_integration",
+          "bank",
+          "profile",
+          "transfer_history",
+          "transfer_via_zalo",
+          "kvs",
+          "z",
+          "omniP",
+          "serverlog",
+          "sdk",
+          "social",
+          "red_packet",
+          "payment_app_policy",
+          "bank_kyc",
+          "kyc",
+          "network_config",
+          "update_profile_level",
+          "otp",
+          "qrcode_emv",
+          "ibft",
+          "reset_passcode",
+          "bill_split",
+          "zpi",
+          "grpc",
+          "banks_information",
+          "app_resource_policy",
+          "remote_config",
+          "tracking_location_flow",
+          "theming",
+          "merchant_token",
+          "merchant_integration_info"
+        ],
+        "key_count": 56
+      },
+      "assets/containers/GTM-PC9W5BW.json": {
+        "top_level_keys": [
+          "fingerprint",
+          "resource",
+          "runtime"
+        ],
+        "key_count": 3
+      },
+      "assets/fonts/zalopay.json": {
+        "top_level_keys": [
+          "support_center",
+          "token_link",
+          "mail_box",
+          "question_support",
+          "ttht_arrow",
+          "ttht_account",
+          "ttht_mail",
+          "ttht_send_success",
+          "ttht_trungtamhotro",
+          "icon_notice",
+          "recharge",
+          "ic_sendingmail",
+          "ic_support_done",
+          "ic_mail",
+          "fee",
+          "intro-transfer",
+          "limit",
+          "support-bank",
+          "app_shopping",
+          "resetpass_forget",
+          "UpRace",
+          "kyc_camera",
+          "kyc_del",
+          "kyc_zoom",
+          "edit",
+          "app_bill_split",
+          "money_group",
+          "money_personal",
+          "edit_money",
+          "history_share_bill",
+          "key_admin",
+          "app_zingcard",
+          "ticket_history",
+          "balance_history_noti",
+          "mt_infor_arow",
+          "info_arow",
+          "app_22_cf",
+          "tranfer_bank_acc",
+          "tranfer_bank_num",
+          "bullet_blue"
+        ],
+        "key_count": 304
+      },
+      "assets/home_data.json": {
+        "top_level_keys": [
+          "screen_id",
+          "header_banner_image",
+          "header_banner_url",
+          "shortcut_bar",
+          "reminder",
+          "highlight",
+          "ads_slider",
+          "third_party",
+          "security_image",
+          "bottom_bar",
+          "avatar",
+          "balance",
+          "metadata"
+        ],
+        "key_count": 13
+      },
+      "assets/safemode_registrator_com_iap_ac_config.json": {
+        "top_level_keys": [
+          "classname"
+        ],
+        "key_count": 1
+      },
+      "assets/taibmcf.json": {
+        "top_level_keys": [
+          "vi",
+          "en"
+        ],
+        "key_count": 2
+      },
+      "assets/theme/bank/bank_resource.json": {
+        "top_level_keys": [
+          "_comment_1",
+          "_comment_2",
+          "resource_bank",
+          "resource_group",
+          "resource_item"
+        ],
+        "key_count": 5
+      },
+      "assets/theme/bank/config_v2.json": {
+        "top_level_keys": [
+          "_comment_1",
+          "_comment_2",
+          "config",
+          "item_groups",
+          "item_resources"
+        ],
+        "key_count": 5
+      },
+      "assets/theme/bank/ui_config.json": {
+        "top_level_keys": [
+          "_comment",
+          "bank_styles"
+        ],
+        "key_count": 2
+      },
+      "assets/timezone2region_2023c.json": {
+        "top_level_keys": [
+          "Europe/Andorra",
+          "Asia/Dubai",
+          "Asia/Kabul",
+          "America/Antigua",
+          "America/Anguilla",
+          "Europe/Tirane",
+          "Asia/Yerevan",
+          "Africa/Luanda",
+          "Antarctica/McMurdo",
+          "Antarctica/Casey",
+          "Antarctica/Davis",
+          "Antarctica/DumontDUrville",
+          "Antarctica/Mawson",
+          "Antarctica/Palmer",
+          "Antarctica/Rothera",
+          "Antarctica/Syowa",
+          "Antarctica/Troll",
+          "Antarctica/Vostok",
+          "America/Argentina/Buenos_Aires",
+          "America/Argentina/Cordoba",
+          "America/Argentina/Salta",
+          "America/Argentina/Jujuy",
+          "America/Argentina/Tucuman",
+          "America/Argentina/Catamarca",
+          "America/Argentina/La_Rioja",
+          "America/Argentina/San_Juan",
+          "America/Argentina/Mendoza",
+          "America/Argentina/San_Luis",
+          "America/Argentina/Rio_Gallegos",
+          "America/Argentina/Ushuaia",
+          "Pacific/Pago_Pago",
+          "Europe/Vienna",
+          "Australia/Lord_Howe",
+          "Antarctica/Macquarie",
+          "Australia/Hobart",
+          "Australia/Melbourne",
+          "Australia/Sydney",
+          "Australia/Broken_Hill",
+          "Australia/Brisbane",
+          "Australia/Lindeman"
+        ],
+        "key_count": 418
+      },
+      "assets/vdfmoer.json": {
+        "top_level_keys": [
+          "vi",
+          "en"
+        ],
+        "key_count": 2
+      }
+    },
+    "secret_classes": [],
+    "secret_samples_redacted": []
+  },
+  "masvs_mapping": [
+    {
+      "control_group": "MASVS-CRYPTO",
+      "categories_with_evidence": 10,
+      "identifiers_matched": 376,
+      "evidence": {
+        "crypto.cipher.getInstance": 92,
+        "crypto.messagedigest": 64,
+        "crypto.mac": 44,
+        "crypto.secureRandom": 36,
+        "crypto.keypairgenerator": 33,
+        "crypto.keygenerator": 29,
+        "crypto.biometric": 25,
+        "crypto.hostname.verifier": 24,
+        "crypto.trustmanager.custom": 18,
+        "crypto.tls.sslcontext": 11
+      }
+    },
+    {
+      "control_group": "MASVS-STORAGE",
+      "categories_with_evidence": 3,
+      "identifiers_matched": 297,
+      "evidence": {
+        "storage.sharedprefs": 143,
+        "storage.sqlitedb": 141,
+        "storage.external.write": 13
+      }
+    },
+    {
+      "control_group": "MASVS-PLATFORM",
+      "categories_with_evidence": 9,
+      "identifiers_matched": 216,
+      "evidence": {
+        "web.shouldoverrideurl": 84,
+        "ipc.pendingintent.mutable": 37,
+        "ipc.contentprovider": 27,
+        "web.js_enabled": 24,
+        "web.js_interface": 17,
+        "web.allow_file_access": 10,
+        "web.mixed_content": 9,
+        "ipc.localbroadcast": 5,
+        "device.installed_apps": 3
+      }
+    },
+    {
+      "control_group": "MASVS-CODE",
+      "categories_with_evidence": 4,
+      "identifiers_matched": 107,
+      "evidence": {
+        "dyn.reflection": 75,
+        "dyn.classforname": 23,
+        "dyn.native.load": 6,
+        "dyn.dexclassloader": 3
+      }
+    },
+    {
+      "control_group": "MASVS-PRIVACY",
+      "categories_with_evidence": 5,
+      "identifiers_matched": 87,
+      "evidence": {
+        "device.mic": 27,
+        "device.imei_phone": 24,
+        "device.nfc": 22,
+        "device.location": 8,
+        "device.contacts": 6
+      }
+    },
+    {
+      "control_group": "MASVS-NETWORK",
+      "categories_with_evidence": 3,
+      "identifiers_matched": 53,
+      "evidence": {
+        "crypto.hostname.verifier": 24,
+        "crypto.trustmanager.custom": 18,
+        "crypto.tls.sslcontext": 11
+      }
+    },
+    {
+      "control_group": "MASVS-AUTH",
+      "categories_with_evidence": 1,
+      "identifiers_matched": 25,
+      "evidence": {
+        "crypto.biometric": 25
+      }
+    },
+    {
+      "control_group": "MASVS-RESILIENCE",
+      "categories_with_evidence": 2,
+      "identifiers_matched": 12,
+      "evidence": {
+        "hard.hookframework": 8,
+        "hard.debuggercheck": 4
+      }
+    }
+  ],
+  "headline": {
+    "package": "vn.com.vng.zalopay",
+    "version_name": "11.17.0",
+    "version_code": "1102758",
+    "min_sdk": "26",
+    "target_sdk": "36",
+    "dex_count": 20,
+    "classes": 63827,
+    "methods": 378040,
+    "native_libraries": 28,
+    "permissions": 49,
+    "components": 268,
+    "exported_components": 30,
+    "asset_count": 124,
+    "distinct_hosts": 194,
+    "vendors_detected": 17,
+    "obfuscation_verdict": "aggressive R8/ProGuard identifier minification",
+    "string_printable_ratio": 0.9707
+  }
+}
