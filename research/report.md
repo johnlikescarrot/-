@@ -41,7 +41,7 @@ Bằng chứng có thể đọc bằng máy: [`inventory-summary.json`](inventor
 
 Manifest Android chính và manifest XAPK đều ghi package `vn.com.vng.zalopay`, version name `11.17.0`, version code `1102758`; manifest chính ghi min SDK 26 và target SDK 36. Bốn split là `config.armeabi_v7a`, `config.en`, `config.vi` và `config.xhdpi`. Đây là thông tin **mẫu**, không phải xác thực nguồn phân phối. Không thể suy từ split ABI được cung cấp rằng sản phẩm không có bản 64-bit ở nơi khác.
 
-`apksigner` CLI `0.9` (JAR SHA-256 `eefdd6aed9db9fb849e4c98a50d8741e19d1b674ba6547220bcb9c3ed152123a`) báo `Verifies` cho cả 5 APK, với v2 và v3 được xác minh. Bốn split cũng báo v1 được xác minh; APK chính báo v1 là false. Không có sidecar v4 trong gói được cung cấp. Vân tay SHA-256 của chứng thư ký mà công cụ báo là như nhau ở cả năm APK:
+`apksigner` CLI `0.9` (JAR lấy từ gói npm cộng đồng `@postar/apktool-node@0.3.4`, không tải trực tiếp từ Android SDK; SHA-256 `eefdd6aed9db9fb849e4c98a50d8741e19d1b674ba6547220bcb9c3ed152123a`) báo `Verifies` cho cả 5 APK, với v2 và v3 được xác minh. Việc ghim băm định danh JAR đã dùng, không tự xác thực nguồn gốc JAR; nên đối chiếu thêm bằng Android SDK đáng tin cậy. Bốn split cũng báo v1 được xác minh; APK chính báo v1 là false. Không có sidecar v4 trong gói được cung cấp. Vân tay SHA-256 của chứng thư ký mà công cụ báo là như nhau ở cả năm APK:
 
 `59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae`
 

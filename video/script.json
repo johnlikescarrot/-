@@ -1,0 +1,72 @@
+[
+  {
+    "id": "mo-dau",
+    "chapter": "01 / HỒ SƠ",
+    "title": "BÊN TRONG MỘT\nBẢN PHÂN PHỐI",
+    "source": "MẪU ĐẦU VÀO • SHA-256 34b9b6b6…4b4610a",
+    "narration": "Trong một ứng dụng tài chính, điều quan trọng không phải là nhìn thấy nhiều dữ liệu, mà là biết bằng chứng thực sự nói gì. Đây là hành trình phân tích tĩnh một mẫu Zalopay phiên bản mười một chấm mười bảy. Chúng ta không cài ứng dụng, không đăng nhập và không thực hiện giao dịch."
+  },
+  {
+    "id": "lop-luu-tru",
+    "chapter": "02 / KIỂM KÊ",
+    "title": "Đi từ vỏ ngoài\nđến từng tệp",
+    "source": "NGUỒN: research/inventory-summary.json • scripts/inventory.py",
+    "narration": "Tệp do người dùng cung cấp là một lớp ZIP chứa XAPK. Bên trong XAPK có một APK chính và bốn gói cấu hình. Tiếp tục đi sâu vào các kho ZIP và TAR nhận dạng được, chúng tôi đọc và băm sáu nghìn tám trăm ba mươi hai lượt tệp. Con số này gồm cả kho chứa con, và không có nghĩa là đã hiểu toàn bộ hành vi."
+  },
+  {
+    "id": "kho-an",
+    "chapter": "03 / CẤU TRÚC ẨN",
+    "title": "Đừng tin\nphần mở rộng",
+    "source": "NGUỒN: APK CHÍNH / assets/Griver/*.amr • inventory.jsonl.gz",
+    "narration": "Ba tệp có đuôi a m r thực ra bắt đầu bằng chữ ký ZIP, mỗi tệp chứa một kho TAR. Bên trong là HTML, JavaScript, CSS và cấu hình. Nếu chỉ dựa vào phần mở rộng, những lớp này dễ bị bỏ qua. Dấu băm gắn với từng đường dẫn giúp người khác kiểm tra lại kết quả."
+  },
+  {
+    "id": "chu-ky",
+    "chapter": "04 / CHỮ KÝ",
+    "title": "Toàn vẹn\nkhông phải danh tính",
+    "source": "NGUỒN: research/signatures.json • signature-negative-control.json",
+    "narration": "Cả năm APK đều được apksigner xác minh chữ ký phiên bản hai và ba, và cùng mang một vân tay chứng thư. REA kiểm tra riêng sự nhất quán của digest, nhưng phép kiểm tra đó không tự xác minh chữ ký. Một bản sao bị đổi một bit đã bị apksigner từ chối. Điều quan trọng: chữ ký hợp lệ không tự chứng minh danh tính nhà phát hành."
+  },
+  {
+    "id": "manifest",
+    "chapter": "05 / MANIFEST",
+    "title": "Khai báo\nkhông phải hành vi",
+    "source": "NGUỒN: APK CHÍNH / AndroidManifest.xml • android-analysis.json",
+    "narration": "Manifest của APK chính ghi bốn mươi chín tên quyền khác nhau và hai trăm sáu mươi bảy thành phần, trong đó ba mươi thành phần khai báo exported bằng true. Có các tên quyền liên quan camera, âm thanh, danh bạ và vị trí. Khai báo không đồng nghĩa quyền đã được cấp, thành phần thực sự hoạt động hay tồn tại lỗ hổng."
+  },
+  {
+    "id": "mang",
+    "chapter": "06 / CHÍNH SÁCH MẠNG",
+    "title": "Một cấu hình\ncần kiểm chứng",
+    "source": "NGUỒN: res/xml/network_security_config.xml • ANDROID DEVELOPERS [4]",
+    "narration": "Cấu hình an ninh mạng được manifest tham chiếu cho phép truyền cleartext ở cấu hình cơ sở. Đây là một điểm cần kiểm tra với các ngăn xếp mạng có tuân thủ chính sách Android. Nó không chứng minh đã có lưu lượng không mã hóa, càng không chứng minh dữ liệu nhạy cảm bị lộ. Cấu hình tin cậy dành cho debug cũng không đồng nghĩa áp dụng trong bản phát hành."
+  },
+  {
+    "id": "ma-va-native",
+    "chapter": "07 / MÃ & NATIVE",
+    "title": "Những lớp mã\nkhông đồng nhất",
+    "source": "NGUỒN: classes*.dex • assets/audience_network.dex • config.armeabi_v7a.apk",
+    "narration": "Gói chứa hai mươi tệp DEX: mười chín ở gốc APK và một trong thư mục tài nguyên. Các bảng ghi tổng cộng sáu mươi ba nghìn tám trăm hai mươi bảy định nghĩa lớp, tính cả tệp trong assets và không khử trùng lặp. Split kiến trúc chứa hai mươi bảy thư viện ELF ba mươi hai bit cho ARM. Tên API hay thư viện chỉ là dấu vết tĩnh, không phải bằng chứng chúng đã chạy."
+  },
+  {
+    "id": "qr",
+    "chapter": "08 / MỘT LÁT CẮT",
+    "title": "Theo dấu một\nluồng chia sẻ ảnh",
+    "source": "NGUỒN: AndroidManifest.xml • classes7.dex • JADX 1.1.0, CÓ LỖI GIẢI MÃ",
+    "narration": "Một ví dụ cụ thể là thành phần nhận ảnh chia sẻ để xử lý mã QR. Manifest khai báo thành phần này có thể xuất ra ngoài và nhận ảnh qua bộ lọc SEND. Mã giả dịch ngược cho thấy nhánh lấy URI và tạo ảnh đầu vào cho bộ xử lý mã vạch. Kết quả này cần đối chiếu bytecode và kiểm thử có ủy quyền; tự nó không xác nhận lỗ hổng."
+  },
+  {
+    "id": "javascript",
+    "chapter": "09 / GIỚI HẠN",
+    "title": "Điều gì còn\nchưa được biết?",
+    "source": "NGUỒN: assets/android.1.zip/main.jsbundle • tool-limitations.json",
+    "narration": "Trong một kho tài nguyên còn có bundle JavaScript dài hơn ba triệu byte, với nhiều dấu hiệu của React Native. Đây chỉ là các marker văn bản, không phải số module được thực thi. Phân tích ngữ nghĩa bằng REA đã chạm giới hạn thời gian và chỉ cho kết quả từng phần. Mã native, phản chiếu và nội dung tải từ xa vẫn là những vùng chưa được bao phủ đầy đủ."
+  },
+  {
+    "id": "ket-luan",
+    "chapter": "10 / TÁI TẠO",
+    "title": "Bằng chứng\ncó thể kiểm tra",
+    "source": "BÁO CÁO: research/report.md • TÀI LIỆU: research/references.bib",
+    "narration": "Giá trị của một nghiên cứu không nằm ở lời khẳng định mạnh nhất, mà ở việc người khác có thể kiểm tra và bác bỏ nó. Hồ sơ đi kèm có dấu băm, kiểm kê từng tệp, mã phân tích, đối chứng âm, tài liệu tham khảo và giới hạn rõ ràng. Đây là nền tảng cho nghiên cứu tiếp theo, không phải chứng nhận an toàn hay cam kết về số lượt trích dẫn."
+  }
+]

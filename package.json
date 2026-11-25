@@ -1,0 +1,22 @@
+{
+  "name": "android-evidence-film",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible TypeScript motion-graphics documentary for an Android static-analysis study",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "preview": "tsx video/render.ts --preview",
+    "render": "tsx video/render.ts",
+    "check:video": "tsx video/validate.ts"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "engines": { "node": ">=22" }
+}
