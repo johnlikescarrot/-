@@ -1,0 +1,566 @@
+{
+  "apks": {
+    "work/extract/xapk/config.armeabi_v7a.apk": {
+      "signing_block_present": true,
+      "schemes_found": [
+        "APK Signature Scheme v2",
+        "APK Signature Scheme v3",
+        "Source Stamp v2",
+        "Verity padding block"
+      ],
+      "offsets": {
+        "eocd": 24828386,
+        "central_directory_offset": 24825856,
+        "block_start": 24817664,
+        "block_end": 24825856,
+        "block_size": 8184
+      },
+      "detail": [
+        {
+          "id": "0x7109871a",
+          "name": "APK Signature Scheme v2",
+          "value_bytes": 1379,
+          "sha256_of_value": "24019e624580726dcf7507d7bfc8d840271e69b99147755a6d9aabfc4e12bf26",
+          "certificates": [
+            {
+              "sha256": "316f918b32136e2a86be586d4559f78702d34badd900f97d4aa74cb8740888cb",
+              "sha1": "8e8e2d256404f95a33f8704ab00a2689e0bb7f96",
+              "md5": "5047ac0291b5beadae0078603240a0b0",
+              "size_bytes": 44,
+              "first_bytes": "2800000003010000"
+            },
+            {
+              "sha256": "71726cbab20e8e36632b5da30db3c2c12728c469b0693e4e9441e8ce24d0f37b",
+              "sha1": "079abff6087e26f39d06c26bd7a26533f2308b68",
+              "md5": "ac57ac8d94d81cfdaecd1fba63c85970",
+              "size_bytes": 725,
+              "first_bytes": "d1020000308202cd"
+            },
+            {
+              "sha256": "2c8ecc7567a9aa8710846484878499d6658ed2cf7240b0dfc70747437d578982",
+              "sha1": "5402a29b8b5d1da81e8b911a425bfda00f0ef733",
+              "md5": "7b225c1028c962d6207c2bbaf73570ab",
+              "size_bytes": 12,
+              "first_bytes": "080000000df0efbe"
+            }
+          ]
+        },
+        {
+          "id": "0xf05368c0",
+          "name": "APK Signature Scheme v3",
+          "value_bytes": 1379,
+          "sha256_of_value": "86acf6c9cd86f79491aa3fe458eb2a0d6bfd043088c3ffc121912a5596fb7ecc",
+          "certificates": [
+            {
+              "sha256": "316f918b32136e2a86be586d4559f78702d34badd900f97d4aa74cb8740888cb",
+              "sha1": "8e8e2d256404f95a33f8704ab00a2689e0bb7f96",
+              "md5": "5047ac0291b5beadae0078603240a0b0",
+              "size_bytes": 44,
+              "first_bytes": "2800000003010000"
+            },
+            {
+              "sha256": "71726cbab20e8e36632b5da30db3c2c12728c469b0693e4e9441e8ce24d0f37b",
+              "sha1": "079abff6087e26f39d06c26bd7a26533f2308b68",
+              "md5": "ac57ac8d94d81cfdaecd1fba63c85970",
+              "size_bytes": 725,
+              "first_bytes": "d1020000308202cd"
+            },
+            {
+              "sha256": "9631152503ce388f77a182d009a33902d77e0ee6d7629ddccb05b4199132d9cc",
+              "sha1": "c0b8cde953cc3637c9e04178dbaff1e902c1733c",
+              "md5": "a5d8d2ce19d4e15b39347b3f4d223988",
+              "size_bytes": 24,
+              "first_bytes": "ffffff7f00000000"
+            },
+            {
+              "sha256": "a084b4e87eeffb58674f433ee9e5896fc1e01cedcf98d9c6cf95493e1d6ebdc6",
+              "sha1": "d44e36afc2fab88f2cd57c3e337ec41a12070d39",
+              "md5": "d457e7e408d8f41791d00343176992af",
+              "size_bytes": 259,
+              "first_bytes": "0001000085ad5f51"
+            },
+            {
+              "sha256": "db843a60769cb0e18e362ea13e08050988e43441c84e3f74e6476a2b24464008",
+              "sha1": "15de53eee36eaad721ab063f7502ffef7ae89af3",
+              "md5": "0b2881a08957459e61eb065c2d6fc7d7",
+              "size_bytes": 295,
+              "first_bytes": "0030820122300d06"
+            }
+          ]
+        },
+        {
+          "id": "0x6dff800d",
+          "name": "Source Stamp v2",
+          "value_bytes": 3593,
+          "sha256_of_value": "61cf06c5069fca6c739413b159688d999d939fa369e18b456b574b42bc0cbefd",
+          "certificates": [
+            {
+              "sha256": "218317cb8814f7905fc2a4841b7a48bf09a840fbd4d4fca4eeefd683adfba50e",
+              "sha1": "de718680bc0556c5970677a62c76505db666469a",
+              "md5": "b2c3570b40f0741ecaadf5ea2cb8c41c",
+              "size_bytes": 3577,
+              "first_bytes": "a003020102021500"
+            }
+          ]
+        },
+        {
+          "id": "0x42726577",
+          "name": "Verity padding block",
+          "value_bytes": 1761,
+          "sha256_of_value": "d152e28f32dc55c02f9852767076656b57a02a9fd9708ca7722639dfbb9f5cfb"
+        }
+      ]
+    },
+    "work/extract/xapk/config.en.apk": {
+      "signing_block_present": true,
+      "schemes_found": [
+        "APK Signature Scheme v2",
+        "APK Signature Scheme v3",
+        "Source Stamp v2",
+        "Verity padding block"
+      ],
+      "offsets": {
+        "eocd": 74115,
+        "central_directory_offset": 73728,
+        "block_start": 65536,
+        "block_end": 73728,
+        "block_size": 8184
+      },
+      "detail": [
+        {
+          "id": "0x7109871a",
+          "name": "APK Signature Scheme v2",
+          "value_bytes": 1379,
+          "sha256_of_value": "7682134289dc05b1411efae026f31153047ef65aa4bcc8ec5b60ce530178588c",
+          "certificates": [
+            {
+              "sha256": "9f19d06bce453a4b93d4e052e09880ba33fb9a0c77cb78700b939b862baaf8ba",
+              "sha1": "5f4032e17132753aa9aa37fafd32c7c83636afad",
+              "md5": "f147e5ec3c77758c39f22e210f7d88b2",
+              "size_bytes": 44,
+              "first_bytes": "2800000003010000"
+            },
+            {
+              "sha256": "71726cbab20e8e36632b5da30db3c2c12728c469b0693e4e9441e8ce24d0f37b",
+              "sha1": "079abff6087e26f39d06c26bd7a26533f2308b68",
+              "md5": "ac57ac8d94d81cfdaecd1fba63c85970",
+              "size_bytes": 725,
+              "first_bytes": "d1020000308202cd"
+            },
+            {
+              "sha256": "2c8ecc7567a9aa8710846484878499d6658ed2cf7240b0dfc70747437d578982",
+              "sha1": "5402a29b8b5d1da81e8b911a425bfda00f0ef733",
+              "md5": "7b225c1028c962d6207c2bbaf73570ab",
+              "size_bytes": 12,
+              "first_bytes": "080000000df0efbe"
+            }
+          ]
+        },
+        {
+          "id": "0xf05368c0",
+          "name": "APK Signature Scheme v3",
+          "value_bytes": 1379,
+          "sha256_of_value": "99ec04de65987c81514e6821fa3a574b15c845261234a7e8c991b51130aad334",
+          "certificates": [
+            {
+              "sha256": "9f19d06bce453a4b93d4e052e09880ba33fb9a0c77cb78700b939b862baaf8ba",
+              "sha1": "5f4032e17132753aa9aa37fafd32c7c83636afad",
+              "md5": "f147e5ec3c77758c39f22e210f7d88b2",
+              "size_bytes": 44,
+              "first_bytes": "2800000003010000"
+            },
+            {
+              "sha256": "71726cbab20e8e36632b5da30db3c2c12728c469b0693e4e9441e8ce24d0f37b",
+              "sha1": "079abff6087e26f39d06c26bd7a26533f2308b68",
+              "md5": "ac57ac8d94d81cfdaecd1fba63c85970",
+              "size_bytes": 725,
+              "first_bytes": "d1020000308202cd"
+            },
+            {
+              "sha256": "9631152503ce388f77a182d009a33902d77e0ee6d7629ddccb05b4199132d9cc",
+              "sha1": "c0b8cde953cc3637c9e04178dbaff1e902c1733c",
+              "md5": "a5d8d2ce19d4e15b39347b3f4d223988",
+              "size_bytes": 24,
+              "first_bytes": "ffffff7f00000000"
+            },
+            {
+              "sha256": "89fd39ea38947192cf8e1f36d9f8cc758ed5a8db1b78c53dd90ce0351ae5f527",
+              "sha1": "ecec2ec498c139cfe0137210367083823f105188",
+              "md5": "f947611234c44a093e6d4647917eb31e",
+              "size_bytes": 259,
+              "first_bytes": "00010000848cce9b"
+            },
+            {
+              "sha256": "db843a60769cb0e18e362ea13e08050988e43441c84e3f74e6476a2b24464008",
+              "sha1": "15de53eee36eaad721ab063f7502ffef7ae89af3",
+              "md5": "0b2881a08957459e61eb065c2d6fc7d7",
+              "size_bytes": 295,
+              "first_bytes": "0030820122300d06"
+            }
+          ]
+        },
+        {
+          "id": "0x6dff800d",
+          "name": "Source Stamp v2",
+          "value_bytes": 3593,
+          "sha256_of_value": "4e58aa5422837e541f079db8f920f0bdfd620bbfe45b9977fd7b8a38a2d47096",
+          "certificates": [
+            {
+              "sha256": "4764d2502d97abeec5950cc560365f8433051be8793d53415d2dc3bac7007dfe",
+              "sha1": "df6578b0555351241f7473cbc5d6a13cbdcb5131",
+              "md5": "9fcdea8e8c9ec85c01cac1180869f86b",
+              "size_bytes": 3577,
+              "first_bytes": "a003020102021500"
+            }
+          ]
+        },
+        {
+          "id": "0x42726577",
+          "name": "Verity padding block",
+          "value_bytes": 1761,
+          "sha256_of_value": "d152e28f32dc55c02f9852767076656b57a02a9fd9708ca7722639dfbb9f5cfb"
+        }
+      ]
+    },
+    "work/extract/xapk/config.vi.apk": {
+      "signing_block_present": true,
+      "schemes_found": [
+        "APK Signature Scheme v2",
+        "APK Signature Scheme v3",
+        "Source Stamp v2",
+        "Verity padding block"
+      ],
+      "offsets": {
+        "eocd": 86403,
+        "central_directory_offset": 86016,
+        "block_start": 77824,
+        "block_end": 86016,
+        "block_size": 8184
+      },
+      "detail": [
+        {
+          "id": "0x7109871a",
+          "name": "APK Signature Scheme v2",
+          "value_bytes": 1379,
+          "sha256_of_value": "fcc08274419a8b4adbdc7c4dc2ab60a4129d92e062fec2bccf85cd8fe07dd67d",
+          "certificates": [
+            {
+              "sha256": "1a727b205e5e7092c87cbcce345baa583dad949ddb408af0e24402e3fbe7514d",
+              "sha1": "87f9a83bf2169efb805ab9044c9cf8895808d6b9",
+              "md5": "13d6f971e71098151076956426eb5812",
+              "size_bytes": 44,
+              "first_bytes": "2800000003010000"
+            },
+            {
+              "sha256": "71726cbab20e8e36632b5da30db3c2c12728c469b0693e4e9441e8ce24d0f37b",
+              "sha1": "079abff6087e26f39d06c26bd7a26533f2308b68",
+              "md5": "ac57ac8d94d81cfdaecd1fba63c85970",
+              "size_bytes": 725,
+              "first_bytes": "d1020000308202cd"
+            },
+            {
+              "sha256": "2c8ecc7567a9aa8710846484878499d6658ed2cf7240b0dfc70747437d578982",
+              "sha1": "5402a29b8b5d1da81e8b911a425bfda00f0ef733",
+              "md5": "7b225c1028c962d6207c2bbaf73570ab",
+              "size_bytes": 12,
+              "first_bytes": "080000000df0efbe"
+            }
+          ]
+        },
+        {
+          "id": "0xf05368c0",
+          "name": "APK Signature Scheme v3",
+          "value_bytes": 1379,
+          "sha256_of_value": "29d42f8b6286142b3e8f280e458007f663f6d105563b9f27e033f7c2805b039d",
+          "certificates": [
+            {
+              "sha256": "1a727b205e5e7092c87cbcce345baa583dad949ddb408af0e24402e3fbe7514d",
+              "sha1": "87f9a83bf2169efb805ab9044c9cf8895808d6b9",
+              "md5": "13d6f971e71098151076956426eb5812",
+              "size_bytes": 44,
+              "first_bytes": "2800000003010000"
+            },
+            {
+              "sha256": "71726cbab20e8e36632b5da30db3c2c12728c469b0693e4e9441e8ce24d0f37b",
+              "sha1": "079abff6087e26f39d06c26bd7a26533f2308b68",
+              "md5": "ac57ac8d94d81cfdaecd1fba63c85970",
+              "size_bytes": 725,
+              "first_bytes": "d1020000308202cd"
+            },
+            {
+              "sha256": "9631152503ce388f77a182d009a33902d77e0ee6d7629ddccb05b4199132d9cc",
+              "sha1": "c0b8cde953cc3637c9e04178dbaff1e902c1733c",
+              "md5": "a5d8d2ce19d4e15b39347b3f4d223988",
+              "size_bytes": 24,
+              "first_bytes": "ffffff7f00000000"
+            },
+            {
+              "sha256": "eb08af05d22c289dc3d0c65975845289dd1019016f2bba48de97c24376fc78e4",
+              "sha1": "45c0da869c9f680899199557ba6e4ce0f8295c09",
+              "md5": "7a42b81c7a7cb83ffe98aa4099ef904c",
+              "size_bytes": 259,
+              "first_bytes": "000100006a8b36bb"
+            },
+            {
+              "sha256": "db843a60769cb0e18e362ea13e08050988e43441c84e3f74e6476a2b24464008",
+              "sha1": "15de53eee36eaad721ab063f7502ffef7ae89af3",
+              "md5": "0b2881a08957459e61eb065c2d6fc7d7",
+              "size_bytes": 295,
+              "first_bytes": "0030820122300d06"
+            }
+          ]
+        },
+        {
+          "id": "0x6dff800d",
+          "name": "Source Stamp v2",
+          "value_bytes": 3593,
+          "sha256_of_value": "fa344180e842a05c791d8beeb325d51f2152070c409e39fdbe2cdf5dc11c2da6",
+          "certificates": [
+            {
+              "sha256": "f3aade7fe3d4782d345b959ffa44970255f9ab1f86775e471bc6a5afb274e155",
+              "sha1": "2dbadf80bfec4949239bbf510903a93ccf869650",
+              "md5": "2be1abdc94ed679ed9a57599e203910c",
+              "size_bytes": 3577,
+              "first_bytes": "a003020102021500"
+            }
+          ]
+        },
+        {
+          "id": "0x42726577",
+          "name": "Verity padding block",
+          "value_bytes": 1761,
+          "sha256_of_value": "d152e28f32dc55c02f9852767076656b57a02a9fd9708ca7722639dfbb9f5cfb"
+        }
+      ]
+    },
+    "work/extract/xapk/config.xhdpi.apk": {
+      "signing_block_present": true,
+      "schemes_found": [
+        "APK Signature Scheme v2",
+        "APK Signature Scheme v3",
+        "Source Stamp v2",
+        "Verity padding block"
+      ],
+      "offsets": {
+        "eocd": 1232541,
+        "central_directory_offset": 1208320,
+        "block_start": 1200128,
+        "block_end": 1208320,
+        "block_size": 8184
+      },
+      "detail": [
+        {
+          "id": "0x7109871a",
+          "name": "APK Signature Scheme v2",
+          "value_bytes": 1379,
+          "sha256_of_value": "47dc234b75a3b3898777e70495f245ef6211fdad607e07e4ae78b3d8d5778576",
+          "certificates": [
+            {
+              "sha256": "1e6bb3c9f820091704dd3e2680b19fa6972b0978f630950a5eacf5d2b7510099",
+              "sha1": "03fced4710e0a36ea05b63fb153259adca2419ca",
+              "md5": "f51cc015200da613abbbf936f1b3e7da",
+              "size_bytes": 44,
+              "first_bytes": "2800000003010000"
+            },
+            {
+              "sha256": "71726cbab20e8e36632b5da30db3c2c12728c469b0693e4e9441e8ce24d0f37b",
+              "sha1": "079abff6087e26f39d06c26bd7a26533f2308b68",
+              "md5": "ac57ac8d94d81cfdaecd1fba63c85970",
+              "size_bytes": 725,
+              "first_bytes": "d1020000308202cd"
+            },
+            {
+              "sha256": "2c8ecc7567a9aa8710846484878499d6658ed2cf7240b0dfc70747437d578982",
+              "sha1": "5402a29b8b5d1da81e8b911a425bfda00f0ef733",
+              "md5": "7b225c1028c962d6207c2bbaf73570ab",
+              "size_bytes": 12,
+              "first_bytes": "080000000df0efbe"
+            }
+          ]
+        },
+        {
+          "id": "0xf05368c0",
+          "name": "APK Signature Scheme v3",
+          "value_bytes": 1379,
+          "sha256_of_value": "8dfdb243bd6da83509b04dbcff945463e805978c774f4f073adb6df09361448a",
+          "certificates": [
+            {
+              "sha256": "1e6bb3c9f820091704dd3e2680b19fa6972b0978f630950a5eacf5d2b7510099",
+              "sha1": "03fced4710e0a36ea05b63fb153259adca2419ca",
+              "md5": "f51cc015200da613abbbf936f1b3e7da",
+              "size_bytes": 44,
+              "first_bytes": "2800000003010000"
+            },
+            {
+              "sha256": "71726cbab20e8e36632b5da30db3c2c12728c469b0693e4e9441e8ce24d0f37b",
+              "sha1": "079abff6087e26f39d06c26bd7a26533f2308b68",
+              "md5": "ac57ac8d94d81cfdaecd1fba63c85970",
+              "size_bytes": 725,
+              "first_bytes": "d1020000308202cd"
+            },
+            {
+              "sha256": "9631152503ce388f77a182d009a33902d77e0ee6d7629ddccb05b4199132d9cc",
+              "sha1": "c0b8cde953cc3637c9e04178dbaff1e902c1733c",
+              "md5": "a5d8d2ce19d4e15b39347b3f4d223988",
+              "size_bytes": 24,
+              "first_bytes": "ffffff7f00000000"
+            },
+            {
+              "sha256": "29c9b216d728226834bbf267cb7e421fa743963eeb08f95f1163e09133338d68",
+              "sha1": "e93fa58ec0eecf50bac20af8556c0d5f61734d51",
+              "md5": "fae8f7a0fa96ffbc3ff549c8723ef8f7",
+              "size_bytes": 259,
+              "first_bytes": "0001000070b5197b"
+            },
+            {
+              "sha256": "db843a60769cb0e18e362ea13e08050988e43441c84e3f74e6476a2b24464008",
+              "sha1": "15de53eee36eaad721ab063f7502ffef7ae89af3",
+              "md5": "0b2881a08957459e61eb065c2d6fc7d7",
+              "size_bytes": 295,
+              "first_bytes": "0030820122300d06"
+            }
+          ]
+        },
+        {
+          "id": "0x6dff800d",
+          "name": "Source Stamp v2",
+          "value_bytes": 3593,
+          "sha256_of_value": "cdced1874596790aa2a2ff726cb5e07b48aa67681ad7c7f4699358aa72061248",
+          "certificates": [
+            {
+              "sha256": "10a77d67e5e29b67dfca5534768b8a4a7befcb57233405a5d7b537b8ee04a262",
+              "sha1": "7791bb27f5c2cb5d66bc082f027385ebfd58abdd",
+              "md5": "6dcdc9c8e6ba2bbe543c8d4c8742aa4b",
+              "size_bytes": 3577,
+              "first_bytes": "a003020102021500"
+            }
+          ]
+        },
+        {
+          "id": "0x42726577",
+          "name": "Verity padding block",
+          "value_bytes": 1761,
+          "sha256_of_value": "d152e28f32dc55c02f9852767076656b57a02a9fd9708ca7722639dfbb9f5cfb"
+        }
+      ]
+    },
+    "work/extract/xapk/vn.com.vng.zalopay.apk": {
+      "signing_block_present": true,
+      "schemes_found": [
+        "APK Signature Scheme v2",
+        "APK Signature Scheme v3",
+        "Source Stamp v2",
+        "Google Play Frosting (Play-signed)",
+        "Verity padding block"
+      ],
+      "offsets": {
+        "eocd": 79359065,
+        "central_directory_offset": 78815232,
+        "block_start": 78807040,
+        "block_end": 78815232,
+        "block_size": 8184
+      },
+      "detail": [
+        {
+          "id": "0x7109871a",
+          "name": "APK Signature Scheme v2",
+          "value_bytes": 1379,
+          "sha256_of_value": "4350a16e214c4d712ef53870b609e2a2bd4aec945e6fbbd642f4ee800aff3e11",
+          "certificates": [
+            {
+              "sha256": "4819efc547ccf077542da342ee7f26e78ba488ad0880221d56301e79686bd884",
+              "sha1": "a8d4acb0ee05fe978763df7beb37f1ae1dcccde4",
+              "md5": "194ff4991772e2339b20ad19fd5fc66a",
+              "size_bytes": 44,
+              "first_bytes": "2800000003010000"
+            },
+            {
+              "sha256": "71726cbab20e8e36632b5da30db3c2c12728c469b0693e4e9441e8ce24d0f37b",
+              "sha1": "079abff6087e26f39d06c26bd7a26533f2308b68",
+              "md5": "ac57ac8d94d81cfdaecd1fba63c85970",
+              "size_bytes": 725,
+              "first_bytes": "d1020000308202cd"
+            },
+            {
+              "sha256": "2c8ecc7567a9aa8710846484878499d6658ed2cf7240b0dfc70747437d578982",
+              "sha1": "5402a29b8b5d1da81e8b911a425bfda00f0ef733",
+              "md5": "7b225c1028c962d6207c2bbaf73570ab",
+              "size_bytes": 12,
+              "first_bytes": "080000000df0efbe"
+            }
+          ]
+        },
+        {
+          "id": "0xf05368c0",
+          "name": "APK Signature Scheme v3",
+          "value_bytes": 1379,
+          "sha256_of_value": "5e7dc0b2ec6dc526703b4772928078d3774579316214f5d2cf87ba3031116bf7",
+          "certificates": [
+            {
+              "sha256": "4819efc547ccf077542da342ee7f26e78ba488ad0880221d56301e79686bd884",
+              "sha1": "a8d4acb0ee05fe978763df7beb37f1ae1dcccde4",
+              "md5": "194ff4991772e2339b20ad19fd5fc66a",
+              "size_bytes": 44,
+              "first_bytes": "2800000003010000"
+            },
+            {
+              "sha256": "71726cbab20e8e36632b5da30db3c2c12728c469b0693e4e9441e8ce24d0f37b",
+              "sha1": "079abff6087e26f39d06c26bd7a26533f2308b68",
+              "md5": "ac57ac8d94d81cfdaecd1fba63c85970",
+              "size_bytes": 725,
+              "first_bytes": "d1020000308202cd"
+            },
+            {
+              "sha256": "9631152503ce388f77a182d009a33902d77e0ee6d7629ddccb05b4199132d9cc",
+              "sha1": "c0b8cde953cc3637c9e04178dbaff1e902c1733c",
+              "md5": "a5d8d2ce19d4e15b39347b3f4d223988",
+              "size_bytes": 24,
+              "first_bytes": "ffffff7f00000000"
+            },
+            {
+              "sha256": "6da67cd869be4d07a8666c4f0b7aadb84ff4ebc6fe727f29779b9fbff917b7a8",
+              "sha1": "1b9efbe2f7905794739cc5a87b44abd9ba3d4be5",
+              "md5": "e459e16760eb6ad763a4ee35b0317635",
+              "size_bytes": 259,
+              "first_bytes": "00010000000088c2"
+            },
+            {
+              "sha256": "db843a60769cb0e18e362ea13e08050988e43441c84e3f74e6476a2b24464008",
+              "sha1": "15de53eee36eaad721ab063f7502ffef7ae89af3",
+              "md5": "0b2881a08957459e61eb065c2d6fc7d7",
+              "size_bytes": 295,
+              "first_bytes": "0030820122300d06"
+            }
+          ]
+        },
+        {
+          "id": "0x6dff800d",
+          "name": "Source Stamp v2",
+          "value_bytes": 3057,
+          "sha256_of_value": "5c35e4d894b24cccaaa9d6b8e97169e9c6d93e285dafc5c5f150c41c400cac23",
+          "certificates": [
+            {
+              "sha256": "e0d5511eda58fb10724e973293e8c95b13256c8e5438014883d847ba026e4def",
+              "sha1": "36291489e081cd58f53d7d04fc8f56e6870b409f",
+              "md5": "6322f668528628b97ef402b90d00d747",
+              "size_bytes": 3041,
+              "first_bytes": "a003020102021500"
+            }
+          ]
+        },
+        {
+          "id": "0x2146444e",
+          "name": "Google Play Frosting (Play-signed)",
+          "value_bytes": 687,
+          "sha256_of_value": "80ea2c031d1ab65ee91425d33106c38a09bd7bb8b35b1ad0b258e7fa7ea84890"
+        },
+        {
+          "id": "0x42726577",
+          "name": "Verity padding block",
+          "value_bytes": 1598,
+          "sha256_of_value": "e2524d150f570a5a68bcad40b06eb4a7ffbe667c4e6fe14ceb55433c1260889f"
+        }
+      ]
+    }
+  }
+}

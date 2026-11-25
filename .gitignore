@@ -1,0 +1,5 @@
+# Build / scratch output that must never enter Git
+/work/
+/node_modules/
+*.log
+.DS_Store

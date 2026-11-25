@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1102758" android:splitTypes="base__density" package="vn.com.vng.zalopay" split="config.xhdpi">
+  <application android:hasCode="false" android:extractNativeLibs="true">
+    <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+  </application>
+</manifest>
