@@ -18,6 +18,18 @@
     "containererrorpage/griver_custom_h5_page_error.html has 2 inline JavaScript bodies starting at lines 40, 52 that were not analyzed; endpoints, storage, imports and other facts in them are absent from the evidence.",
     "containererrorpage/griver_page_error.html has 1 inline JavaScript body starting at line 153 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence."
   ],
+  "statistics": {
+    "relevant_files": 33,
+    "nested_asar_containers": 0,
+    "text_bytes_read": 1899888,
+    "invalid_utf8_files": 0,
+    "parsed_javascript_files": 8,
+    "skipped_javascript_files": 0,
+    "visited_ast_nodes": 5361,
+    "findings": 13,
+    "modules": 0,
+    "parse_failures": 0
+  },
   "discovered_sources": [
     {
       "id": "jss:dd67374f6678319372e6048bab6a3a27",
@@ -117,28 +129,640 @@
     }
   ],
   "application_graph_summary": {
-    "module_count": null,
-    "edge_count": null,
-    "entrypoints": null,
-    "electron_boundaries": null
+    "graph_id": "jag_2711c8b59c0f868ab4667422e0797c315b459149265d3ebd05cad7b6b90801fc",
+    "node_count": 49,
+    "edge_count": 51,
+    "coverage": {
+      "status": "partial",
+      "truncated": false,
+      "omitted_count": null,
+      "limits": []
+    }
   },
   "semantic_graph_summary": {
-    "families": [],
-    "endpoints": null,
-    "storage": null
-  },
-  "normalized_keys": [
-    "input_path",
-    "format",
-    "root_artifact_sha256",
-    "inventory_manifest_id",
-    "inventory_graph_sha256",
-    "integrity_contradictions",
-    "graph",
-    "summary",
-    "statistics",
-    "limitations",
-    "semantic_graph",
-    "route_inventory"
-  ]
+    "graph_id": "jag_2711c8b59c0f868ab4667422e0797c315b459149265d3ebd05cad7b6b90801fc",
+    "node_count": 3881,
+    "relation_count": 2942,
+    "fingerprint_count": 88,
+    "families": [
+      {
+        "family": "boundary",
+        "status": "partial",
+        "retained_relations": 7,
+        "omitted_relations": 0,
+        "unknown_count": 0
+      },
+      {
+        "family": "call-flow",
+        "status": "partial",
+        "retained_relations": 41,
+        "omitted_relations": 0,
+        "unknown_count": 226
+      },
+      {
+        "family": "child-process",
+        "status": "partial",
+        "retained_relations": 0,
+        "omitted_relations": 0,
+        "unknown_count": 0
+      },
+      {
+        "family": "closure",
+        "status": "partial",
+        "retained_relations": 141,
+        "omitted_relations": 0,
+        "unknown_count": 0
+      },
+      {
+        "family": "configuration",
+        "status": "partial",
+        "retained_relations": 0,
+        "omitted_relations": 0,
+        "unknown_count": 0
+      },
+      {
+        "family": "data-flow",
+        "status": "partial",
+        "retained_relations": 2489,
+        "omitted_relations": 0,
+        "unknown_count": 1418
+      },
+      {
+        "family": "event",
+        "status": "partial",
+        "retained_relations": 0,
+        "omitted_relations": 0,
+        "unknown_count": 0
+      },
+      {
+        "family": "object-flow",
+        "status": "partial",
+        "retained_relations": 257,
+        "omitted_relations": 0,
+        "unknown_count": 710
+      },
+      {
+        "family": "promise-ownership",
+        "status": "partial",
+        "retained_relations": 0,
+        "omitted_relations": 0,
+        "unknown_count": 0
+      },
+      {
+        "family": "request",
+        "status": "partial",
+        "retained_relations": 0,
+        "omitted_relations": 0,
+        "unknown_count": 0
+      },
+      {
+        "family": "resource-lifecycle",
+        "status": "partial",
+        "retained_relations": 0,
+        "omitted_relations": 0,
+        "unknown_count": 0
+      },
+      {
+        "family": "timer",
+        "status": "partial",
+        "retained_relations": 7,
+        "omitted_relations": 0,
+        "unknown_count": 0
+      }
+    ],
+    "sample_relations": [
+      {
+        "source_node_id": "jsrg_node_0c090f8d799f18ac86beb545773a45d889a1ab813615b4707079fe233d0fe675",
+        "target_node_id": "jsrg_node_c9aca55d88d3aea23152d66c2534f247ac0e6df657b563f9d59a6a88879f6957",
+        "relation": "defines",
+        "resolution": "resolved",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_cb6008d101944fe18b14b0493dd7b1fd18f7cb339f0859f2be7396e3c62e0e7a",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 19,
+                "column": 8
+              },
+              "end": {
+                "line": 19,
+                "column": 16
+              },
+              "kind": "source-range",
+              "source": "jsbridge.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_0008399af7ceabd5b78c208c15e5f39253dc2ce93aa444837465c80d67b2730f"
+      },
+      {
+        "source_node_id": "jsrg_node_82fbf34b932e97115075366c2830c6e6259d4e239e103899cb6ae5c08c2337e4",
+        "target_node_id": "jsrg_node_44e8c984e13244c16385e23d54319ac7492e5a425db5d1e0cb3b84fdac7a768e",
+        "relation": "reads",
+        "resolution": "resolved",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_4740cdd6b94e824d8f0fe6076662a482e84baf4d0b06bd3dcd2edc70eb7ad7a7",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 406,
+                "column": 22
+              },
+              "end": {
+                "line": 406,
+                "column": 24
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/workerjs.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_000a5d42f5a9616cff70b5acd4955b6c2fac1c18633638c2a4adb9acbe3e5b5e"
+      },
+      {
+        "source_node_id": "jsrg_node_c07e1059d59b4618e32f85a90f4e12af9d3d25bbb30c9e6cfec6bc634cb0f285",
+        "target_node_id": "jsrg_node_8814cb458bd62961a5901bc7fd4698256f9c75c99a4f19efb1bf097c8938e813",
+        "relation": "reads",
+        "resolution": "resolved",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_4740cdd6b94e824d8f0fe6076662a482e84baf4d0b06bd3dcd2edc70eb7ad7a7",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 128,
+                "column": 14
+              },
+              "end": {
+                "line": 128,
+                "column": 27
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/workerjs.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_0016b54ca926aae0e4b43c2f78dc0625ddb66fc5b3ec01f3354cd9161c696fe8"
+      },
+      {
+        "source_node_id": "jsrg_node_318b3d98fd6dc13cd38e05c203e4bb1ec2ad8f113925138506847e4d29931675",
+        "target_node_id": "jsrg_node_3d62955fec741d779d11de413123ce7c1faab3051b156c8cace73ab4a21b3f10",
+        "relation": "defines",
+        "resolution": "resolved",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_4740cdd6b94e824d8f0fe6076662a482e84baf4d0b06bd3dcd2edc70eb7ad7a7",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 30,
+                "column": 8
+              },
+              "end": {
+                "line": 30,
+                "column": 14
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/workerjs.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_003af345853dbcf7e5f6e158f9087572d361899d54cf54de28cb3d394bdfdf59"
+      },
+      {
+        "source_node_id": "jsrg_node_817daec88c32c53fe5c27280ff38eab14f92a7b1ac0c39d9d5bd43be23bc52a8",
+        "target_node_id": "jsrg_node_a31d6d8a68f50e5b539d13b36ab701a475a9bbff8f5490d9d57a84bd9ddb2ed0",
+        "relation": "influences",
+        "resolution": "resolved",
+        "properties": {
+          "conditional": false
+        },
+        "evidence": {
+          "context_id": "jsrg_evidence_cb6008d101944fe18b14b0493dd7b1fd18f7cb339f0859f2be7396e3c62e0e7a",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 103,
+                "column": 23
+              },
+              "end": {
+                "line": 103,
+                "column": 71
+              },
+              "kind": "source-range",
+              "source": "jsbridge.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_00538a8c0f85a54b01dabe7268ed3908f76db2a62c0af32eb8ff5fa4dd4626b2"
+      },
+      {
+        "source_node_id": "jsrg_node_cb04b61dab5f952ce5667fdf7e4da4c0f82452a1b7f8f5373c88a9a61735e6af",
+        "target_node_id": "jsrg_node_dca41c771204b6aadfefcbdae07422ac592f820cf11162c3b446d277f1d3f5bb",
+        "relation": "aliases",
+        "resolution": "candidate",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_40c92ddf826b4df6db1f394ce93096adfa2c7029b2a606b33e69088dd4eaa14a",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 1,
+                "column": 3084
+              },
+              "end": {
+                "line": 1,
+                "column": 3085
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/h5_bridge.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_006731c16fdea7b09e00ff5c1aa937a3172195b30e1575130f1cab4d3098ba5a"
+      },
+      {
+        "source_node_id": "jsrg_node_d4bd40c143d78d46c20e4925431f29497e4c76de8837abc73b6ae9e28cbf795c",
+        "target_node_id": "jsrg_node_e4e5d0c32a9d41d1e22f0dc0171cda459df34d40fe674e12d51e73c609b26e47",
+        "relation": "defines",
+        "resolution": "candidate",
+        "properties": {
+          "assignment_operator": "="
+        },
+        "evidence": {
+          "context_id": "jsrg_evidence_4740cdd6b94e824d8f0fe6076662a482e84baf4d0b06bd3dcd2edc70eb7ad7a7",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 228,
+                "column": 52
+              },
+              "end": {
+                "line": 228,
+                "column": 62
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/workerjs.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_0096f59926f3f60c43346ea01575b218cda94b1e87d3da1036d57b1e6e477507"
+      },
+      {
+        "source_node_id": "jsrg_node_f11fab3e8201129c502e36a1aa30ccf12a5191765341c5edac2d7b52cea58c9b",
+        "target_node_id": "jsrg_node_a60e85f84cd66058da914decf841cdee2bd5a1099d1fef2112d26f28c1313631",
+        "relation": "argument-to-parameter",
+        "resolution": "resolved",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_4740cdd6b94e824d8f0fe6076662a482e84baf4d0b06bd3dcd2edc70eb7ad7a7",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 343,
+                "column": 53
+              },
+              "end": {
+                "line": 343,
+                "column": 56
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/workerjs.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_00a69019f47edd9ef2a1e9bed54a6adc5ce6787372fb0da6d02bfbbea98bbc79"
+      },
+      {
+        "source_node_id": "jsrg_node_31412e23dd243dcebb9715a044e05e76dd8da232f11a28f6372906081013c3e2",
+        "target_node_id": "jsrg_node_e0841d4625439f0bf9c7fc5baa0ef9dc2910268f76e3a9180d9a5dbf2e968b0c",
+        "relation": "influences",
+        "resolution": "resolved",
+        "properties": {
+          "conditional": true
+        },
+        "evidence": {
+          "context_id": "jsrg_evidence_d4a71db5fa0f660c8996533f62a43ec6e478f6830439a1a4b1f3272467c176d4",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 103,
+                "column": 74
+              },
+              "end": {
+                "line": 103,
+                "column": 79
+              },
+              "kind": "source-range",
+              "source": "internaljsbridge.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_00bff42495f95848f442f4602f3d5784cf4c8d9488f7e5a22021b385f9596314"
+      },
+      {
+        "source_node_id": "jsrg_node_ec4297a06f9e18a3031b17e8ff42e046b54f47552ae2198fc3e6a7493d0fa581",
+        "target_node_id": "jsrg_node_b6cebde090ac21ec7fc356e7f69ed29747a08148f66a51fcc517595cb1502530",
+        "relation": "influences",
+        "resolution": "resolved",
+        "properties": {
+          "conditional": true
+        },
+        "evidence": {
+          "context_id": "jsrg_evidence_40c92ddf826b4df6db1f394ce93096adfa2c7029b2a606b33e69088dd4eaa14a",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 1,
+                "column": 2339
+              },
+              "end": {
+                "line": 1,
+                "column": 2347
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/h5_bridge.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_010b773d6ee3c795f01178b526434bc64cbe1f7039c9914b97b24f62fc2e78c2"
+      },
+      {
+        "source_node_id": "jsrg_node_2a97dd9cde7abd84886d34794e4a46a0256eae2c2266d7adf7933cbb7a04d4f1",
+        "target_node_id": "jsrg_node_c5f41e2833264f77b73e4ba813dd07138069abdd939c7751d62ddc0164e25b7f",
+        "relation": "influences",
+        "resolution": "resolved",
+        "properties": {
+          "conditional": false
+        },
+        "evidence": {
+          "context_id": "jsrg_evidence_40c92ddf826b4df6db1f394ce93096adfa2c7029b2a606b33e69088dd4eaa14a",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 1,
+                "column": 399
+              },
+              "end": {
+                "line": 1,
+                "column": 400
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/h5_bridge.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_0117d02223d2994bc9f28ff4784ebe75bad6c21e0b8fc20d57b948e7f8d78044"
+      },
+      {
+        "source_node_id": "jsrg_node_03d65fe59256d090ee5d9656840fdd0b23d95fdf12bb0e6aa291cd8fe844b54c",
+        "target_node_id": "jsrg_node_d0d9bc7287a136c4b2e8a9e3057c4b352851b377ce7c61126c096dd46792733c",
+        "relation": "reads-property",
+        "resolution": "candidate",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_e005c8d1c09950759bd391d9da65b64a77f06c9a2cab8c22329a5541e6a28996",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 7,
+                "column": 27
+              },
+              "end": {
+                "line": 7,
+                "column": 41
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/cover_component.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_011c4b5197ee755930d67fbc58ec7436f8a3071e2cde1112d6791eabda5e5e71"
+      },
+      {
+        "source_node_id": "jsrg_node_4115700f90b3145c7be193e48f75a937df93e8049717b99b4892f35ce13e30de",
+        "target_node_id": "jsrg_node_15427368771c3f2a988497f061d823a866cffc374457249518a4d556065a2fe3",
+        "relation": "aliases",
+        "resolution": "resolved",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_40c92ddf826b4df6db1f394ce93096adfa2c7029b2a606b33e69088dd4eaa14a",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 1,
+                "column": 2901
+              },
+              "end": {
+                "line": 1,
+                "column": 2902
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/h5_bridge.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_0137959d547c1deb6586a80b11d563fbbb27ae8243d46d5f95a0501818c42388"
+      },
+      {
+        "source_node_id": "jsrg_node_2f4a9f7f4992def27b115391576cb91c1c5f8c71be28884db130b05be346fdd9",
+        "target_node_id": "jsrg_node_a3cf11a2d4e0fbb435ea3b3f20f9c62a3e9a8c5b6aef27c43c9a354fe12375d3",
+        "relation": "parses",
+        "resolution": "resolved",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_e005c8d1c09950759bd391d9da65b64a77f06c9a2cab8c22329a5541e6a28996",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 31,
+                "column": 12
+              },
+              "end": {
+                "line": 31,
+                "column": 16
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/cover_component.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_0140144ca4a6c4ec46d032721b305855b0ec4cb3c5d04a6c2dd44012f487092e"
+      },
+      {
+        "source_node_id": "jsrg_node_53cae5d0d9fe02e2a865a14eaa2e8d02ea0e4b1d6fab4a83647fa651bac7b26f",
+        "target_node_id": "jsrg_node_a793660faaf2c51ae501d3abc28ac288f3d7a7330a3f943fc272aa63842326dc",
+        "relation": "reads",
+        "resolution": "resolved",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_4740cdd6b94e824d8f0fe6076662a482e84baf4d0b06bd3dcd2edc70eb7ad7a7",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 293,
+                "column": 32
+              },
+              "end": {
+                "line": 293,
+                "column": 33
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/workerjs.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_0147d1ccd4d8b88b006c576e0fcfad922f228fa2557ffdbd46783564db0f645f"
+      },
+      {
+        "source_node_id": "jsrg_node_864571700c9d627f4ec0295fa554ada1c0faa7768aac8d4282c282263b67b08d",
+        "target_node_id": "jsrg_node_903b03e0587039a4f1884f7dcb68ad7111ae4045f6427ac970ab6755f5c94faa",
+        "relation": "influences",
+        "resolution": "resolved",
+        "properties": {
+          "conditional": false
+        },
+        "evidence": {
+          "context_id": "jsrg_evidence_40c92ddf826b4df6db1f394ce93096adfa2c7029b2a606b33e69088dd4eaa14a",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 1,
+                "column": 3166
+              },
+              "end": {
+                "line": 1,
+                "column": 3167
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/h5_bridge.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_014ba8c17f8af8e39fd735999de8ff1d31e091a33fa8c83837a6e0be8cb6ec88"
+      },
+      {
+        "source_node_id": "jsrg_node_4bb68eaec891212d24ad93f0f96fbd94b32782fcb66fb08d8eb4e7e330cb2b7d",
+        "target_node_id": "jsrg_node_e260782afbcbd8e79728eae1c48c96c9fc2c4506cfbd9af899277e315d49e248",
+        "relation": "aliases",
+        "resolution": "candidate",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_4c782efadabd0192a68894edd7ab586471cf88cb252e1a4260c86cd24044ffd1",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 82,
+                "column": 43
+              },
+              "end": {
+                "line": 82,
+                "column": 47
+              },
+              "kind": "source-range",
+              "source": "android_jsbridge.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_01ee80391a85c24f9680b581d03a28a7e798070713dd9f79ad18d5bb989ce2c7"
+      },
+      {
+        "source_node_id": "jsrg_node_5caac62f70082be4b70f7b8a9617e3cef63eb42e362038b976a5a1068a870472",
+        "target_node_id": "jsrg_node_998e860caa4307b66aa052531d65b7b6f8be31db80fd17bc746cdee8f4cc0f31",
+        "relation": "defines",
+        "resolution": "resolved",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_d4a71db5fa0f660c8996533f62a43ec6e478f6830439a1a4b1f3272467c176d4",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 19,
+                "column": 8
+              },
+              "end": {
+                "line": 19,
+                "column": 16
+              },
+              "kind": "source-range",
+              "source": "internaljsbridge.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_01f1c20c40378e07da0d7034b8ee3c64c9faf97f57de27bfb3c5cc5c3368c1a7"
+      },
+      {
+        "source_node_id": "jsrg_node_c425fa6009ad05a8b04230154881c905a7006f613bdf50f73ee13fac0f08fe95",
+        "target_node_id": "jsrg_node_c3cacd7d740ccb7932821c200b5fcbda569c5534585cc47d242e280028e354f1",
+        "relation": "defines",
+        "resolution": "resolved",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_4740cdd6b94e824d8f0fe6076662a482e84baf4d0b06bd3dcd2edc70eb7ad7a7",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 125,
+                "column": 15
+              },
+              "end": {
+                "line": 125,
+                "column": 16
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/workerjs.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_020bf905ba4c9d99692d956c4757974244f6d6c1031d14c66300502c86ebc3b5"
+      },
+      {
+        "source_node_id": "jsrg_node_1f7b42552292ee0c03cb4fb5438aea583211b8d07847cffe7b0d3dfd0f79517d",
+        "target_node_id": "jsrg_node_18d683d209a249d855dcda2adc122a23d5cb7abe51c1471a6e9ad3b7de8e7a12",
+        "relation": "reads",
+        "resolution": "resolved",
+        "properties": {},
+        "evidence": {
+          "context_id": "jsrg_evidence_4740cdd6b94e824d8f0fe6076662a482e84baf4d0b06bd3dcd2edc70eb7ad7a7",
+          "location": {
+            "available": true,
+            "value": {
+              "start": {
+                "line": 266,
+                "column": 55
+              },
+              "end": {
+                "line": 266,
+                "column": 63
+              },
+              "kind": "source-range",
+              "source": "GriverBridge/workerjs.js"
+            }
+          }
+        },
+        "relation_id": "jsrg_relation_021f33aa6b4a85f7f6d23f0120c1039ba7641d413b3e7e59d99ec2a882d206ea"
+      }
+    ]
+  }
 }

@@ -1,0 +1,607 @@
+{
+  "react_native_hybrid_analysis": {
+    "archive_bytes": 3913966,
+    "member_file_count": 321,
+    "main_jsbundle_bytes": 3613478,
+    "metro_module_definitions_detected": 2346,
+    "max_metro_module_id": 2345,
+    "entry_require_ids": [
+      82,
+      0
+    ],
+    "timestamp_sample": "2022-03-08",
+    "drawable_buckets": {
+      "drawable-hdpi": 2,
+      "drawable-mdpi": 110,
+      "drawable-xhdpi": 103,
+      "drawable-xxhdpi": 103,
+      "drawable-xxxhdpi": 2
+    },
+    "top_asset_feature_prefixes": {
+      "notifications": 108,
+      "node": 64,
+      "transactionhistoryv2": 60,
+      "about": 41,
+      "clearingaccount": 27,
+      "registeronlinebanking": 15,
+      "components": 2
+    },
+    "bundle_json": {
+      "external_bundle": [
+        {
+          "appid": 1,
+          "appname": "Internal Application",
+          "asset": "android.1.zip",
+          "checksum": "An3SoswJ6ujv2Qk6UqYxcw",
+          "version": "1.0.0",
+          "status": 1
+        }
+      ],
+      "internal_bundle": {
+        "checksum": "ba910kal",
+        "version": "1.0.20160523.001"
+      }
+    },
+    "facebook_packages_in_dex_top150": [
+      {
+        "package": "com.facebook.ads.redexgen.X",
+        "classes": 3072,
+        "methods": 22280,
+        "native_methods": 0,
+        "obfuscated_classes": 2065,
+        "dex_count": 1
+      },
+      {
+        "package": "com.facebook.ads",
+        "classes": 96,
+        "methods": 569,
+        "native_methods": 3,
+        "obfuscated_classes": 7,
+        "dex_count": 2
+      },
+      {
+        "package": "com.facebook",
+        "classes": 66,
+        "methods": 259,
+        "native_methods": 6,
+        "obfuscated_classes": 51,
+        "dex_count": 1
+      },
+      {
+        "package": "com.facebook.imagepipeline.producers",
+        "classes": 64,
+        "methods": 274,
+        "native_methods": 0,
+        "obfuscated_classes": 53,
+        "dex_count": 2
+      },
+      {
+        "package": "com.facebook.internal",
+        "classes": 62,
+        "methods": 240,
+        "native_methods": 0,
+        "obfuscated_classes": 51,
+        "dex_count": 1
+      }
+    ],
+    "has_facebook_react_prefix_in_dex": false
+  },
+  "griver_alipay_superapp": {
+    "rea_js_evidence_id": "ev_298bef734cb5421e4c6b841cb3e010bcac71a823a8d6dff078e1b3b750a067d6",
+    "rea_js_sources_analyzed": [
+      "GriverBridge/appx_inline_bootstrap_min.js",
+      "GriverBridge/cover_component.js",
+      "GriverBridge/h5_bridge.js",
+      "GriverBridge/workerjs.js",
+      "android_jsbridge.js",
+      "internaljsbridge.js",
+      "jsbridge.js",
+      "webapp.js"
+    ],
+    "rea_js_graph": {
+      "module_count": null,
+      "edge_count": null,
+      "entrypoints": null,
+      "electron_boundaries": null
+    },
+    "rea_js_semantic_families": [],
+    "appx_config": {
+      "mini": {
+        "66666692": {
+          "appInfo": {
+            "appId": "66666692",
+            "deployVersion": "1.24.8",
+            "fallbackBaseUrl": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/",
+            "packageUrl": "https://cdn.marmot-cloud.com/storage/gmpop/5b39bcb7-85be-471c-aeaf-55ee5c4437a5/66666692_1.24.8.amr",
+            "mainUrl": "/index.html#pages/index/index",
+            "name": "appx framework",
+            "desc": "appx framework",
+            "logo": "http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg"
+          },
+          "container": {
+            "downloadType": 1
+          },
+          "extendInfo": {
+            "appType": 2
+          },
+          "permissions": ""
+        },
+        "66666693": {
+          "appInfo": {
+            "appId": "66666693",
+            "deployVersion": "2.0.7",
+            "fallbackBaseUrl": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/",
+            "packageUrl": "https://cdn.marmot-cloud.com/storage/gmpop/3df2716f-7e19-45cb-9083-c23cd88d8240/66666693_2.0.7.amr",
+            "mainUrl": "/index.html#pages/index/index",
+            "name": "h5 embedded app",
+            "desc": "h5 embedded app",
+            "logo": "http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg"
+          },
+          "container": {
+            "downloadType": 1
+          },
+          "extendInfo": {
+            "appType": 2
+          },
+          "permissions": ""
+        },
+        "68687209": {
+          "appInfo": {
+            "appId": "68687209",
+            "deployVersion": "2.9.7.8",
+            "fallbackBaseUrl": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/",
+            "packageUrl": "https://oss-local-nightly-dev.marmot-cloud.com/storage/marmot-cli/appx-griver/2024/10/17/0aa4bcbc-f137-407e-89e1-3ee3df13f299/68687209_2.9.7.8.amr",
+            "mainUrl": "/index.html#pages/index/index",
+            "name": "appx ng framework",
+            "desc": "appx ng framework",
+            "logo": "http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg"
+          },
+          "container": {
+            "downloadType": 1
+          },
+          "extendInfo": {
+            "appType": 2
+          },
+          "permissions": ""
+        }
+      }
+    },
+    "amr_containers": [
+      {
+        "file": "66666692_1.24.8.amr",
+        "zip_bytes": 287535,
+        "cert_signed_entries": [
+          "66666692.tar",
+          "Manifest.xml"
+        ],
+        "cert_sig_b64_length": 344,
+        "manifest_xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<package>\n  <uid>66666692</uid>\n  <name>66666692</name>\n  <version>1.24.8</version>\n</package>",
+        "tar_member_count": 10,
+        "tar_uncompressed_bytes": 968941,
+        "tar_members": [
+          {
+            "path": "hpmfile.json",
+            "bytes": 202
+          },
+          {
+            "path": "appx/af-appx.min.css",
+            "bytes": 21912
+          },
+          {
+            "path": "appx/af-appx.min.js",
+            "bytes": 501944
+          },
+          {
+            "path": "appx/af-appx.worker.min.js",
+            "bytes": 403620
+          },
+          {
+            "path": "appx/es6-promise.min.js",
+            "bytes": 6367
+          },
+          {
+            "path": "appx/index.html",
+            "bytes": 1440
+          },
+          {
+            "path": "appx/security-patch.min.js",
+            "bytes": 731
+          },
+          {
+            "path": "appx/web-view.min.js",
+            "bytes": 9095
+          },
+          {
+            "path": "appx/worker.min.js",
+            "bytes": 23363
+          },
+          {
+            "path": "bugme.cfg",
+            "bytes": 267
+          }
+        ]
+      },
+      {
+        "file": "66666693_2.0.7.amr",
+        "zip_bytes": 17380,
+        "cert_signed_entries": [
+          "66666693.tar",
+          "Manifest.xml"
+        ],
+        "cert_sig_b64_length": 344,
+        "manifest_xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<package>\n  <uid>66666693</uid>\n  <name>66666693</name>\n  <version>2.0.7</version>\n</package>",
+        "tar_member_count": 7,
+        "tar_uncompressed_bytes": 56382,
+        "tar_members": [
+          {
+            "path": "api_permission",
+            "bytes": 2
+          },
+          {
+            "path": "appConfig.json",
+            "bytes": 134
+          },
+          {
+            "path": "index.html",
+            "bytes": 4439
+          },
+          {
+            "path": "index.js",
+            "bytes": 22462
+          },
+          {
+            "path": "index.worker.js",
+            "bytes": 29252
+          },
+          {
+            "path": "manifest.json",
+            "bytes": 74
+          },
+          {
+            "path": "package.json",
+            "bytes": 19
+          }
+        ]
+      },
+      {
+        "file": "68687209_2.9.7.8.amr",
+        "zip_bytes": 856974,
+        "cert_signed_entries": [
+          "68687209.tar",
+          "Manifest.xml"
+        ],
+        "cert_sig_b64_length": 344,
+        "manifest_xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<package>\n  <uid>68687209</uid>\n  <name>68687209</name>\n  <version>2.9.7.8</version>\n</package>",
+        "tar_member_count": 13,
+        "tar_uncompressed_bytes": 3292617,
+        "tar_members": [
+          {
+            "path": "bugme.cfg",
+            "bytes": 267
+          },
+          {
+            "path": "appx-ng/af-appx.min.css",
+            "bytes": 52368
+          },
+          {
+            "path": "appx-ng/af-appx.min.js",
+            "bytes": 1667588
+          },
+          {
+            "path": "appx-ng/af-appx.worker.min.js",
+            "bytes": 1371101
+          },
+          {
+            "path": "appx-ng/appx-portal.min.js",
+            "bytes": 61935
+          },
+          {
+            "path": "appx-ng/appx-portal.worker.min.js",
+            "bytes": 57703
+          },
+          {
+            "path": "appx-ng/appx-prerender.min.js",
+            "bytes": 6058
+          },
+          {
+            "path": "appx-ng/es6-promise.min.js",
+            "bytes": 6367
+          },
+          {
+            "path": "appx-ng/index.html",
+            "bytes": 1521
+          },
+          {
+            "path": "appx-ng/index.prerender.html",
+            "bytes": 3393
+          },
+          {
+            "path": "appx-ng/security-patch.min.js",
+            "bytes": 731
+          },
+          {
+            "path": "appx-ng/web-view.min.js",
+            "bytes": 39939
+          },
+          {
+            "path": "appx-ng/worker.min.js",
+            "bytes": 23646
+          }
+        ]
+      }
+    ],
+    "miniapp_catalog": {
+      "config_file_bytes": 883684,
+      "miniapp_count": 373,
+      "categories": {
+        "D\u1ecbch v\u1ee5 ph\u1ed5 bi\u1ebfn": 88,
+        "Gi\u1ea3i tr\u00ed - C\u1ed9ng \u0111\u1ed3ng": 77,
+        "T\u00e0i ch\u00ednh": 65,
+        "\u0102n u\u1ed1ng": 32,
+        "D\u1ecbch v\u1ee5 \u0111\u1ed1i t\u00e1c": 18,
+        "Mua s\u1eafm": 15,
+        "Giao th\u00f4ng - V\u1eadn chuy\u1ec3n": 14,
+        "Thanh to\u00e1n ho\u00e1 \u0111\u01a1n": 12,
+        "Du l\u1ecbch - \u0110i l\u1ea1i": 9,
+        "\u0110i\u1ec7n tho\u1ea1i": 8,
+        "Kh\u00e1m ph\u00e1 Zalopay": 8,
+        "T\u00edch \u0111i\u1ec3m th\u00e0nh vi\u00ean \u0111\u1ed1i t\u00e1c": 7,
+        "Chuy\u1ec3n - Nh\u1eadn ti\u1ec1n": 6,
+        "V\u00ed c\u1ee7a t\u00f4i": 5,
+        "B\u1ea3o hi\u1ec3m": 4,
+        "Gi\u00e1o d\u1ee5c": 2,
+        "\u01afu \u0111\u00e3i khuy\u1ebfn m\u00e3i": 1,
+        "D\u1ecbch v\u1ee5 kh\u00e1c": 1,
+        "D\u1ecbch v\u1ee5 y t\u1ebf": 1
+      },
+      "top_base_hosts": {
+        "social.zalopay.vn": 316,
+        "mnap-director.zalopay.vn": 38,
+        "mc.zalopay.vn": 1,
+        "uudai.zalopay.vn": 1,
+        "ti.ki": 1,
+        "lzd.co": 1,
+        "zalo.me": 1,
+        "scard.zalopay.vn": 1,
+        "app2-zl.unipass.vn": 1,
+        "elsazalopay.onstudy.vn": 1,
+        "vieon.vn": 1,
+        "m.choingay.vn": 1
+      }
+    }
+  },
+  "ml_and_computer_vision": {
+    "tflite_model_count": 14,
+    "tflite_total_bytes": 10203704,
+    "tflite_models": [
+      {
+        "path": "assets/custom_models/object_labeler.tflite",
+        "bytes": 3770391,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "TFL3",
+          "TFLITE_METADATA"
+        ]
+      },
+      {
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+        "bytes": 315520,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "TFL3"
+        ]
+      },
+      {
+        "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+        "bytes": 129612,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "CONVERSION_METADATA",
+          "TFL3"
+        ]
+      },
+      {
+        "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+        "bytes": 114384,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "CONVERSION_METADATA",
+          "TFL3"
+        ]
+      },
+      {
+        "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+        "bytes": 340760,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "TFL3"
+        ]
+      },
+      {
+        "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+        "bytes": 390456,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "TFL3"
+        ]
+      },
+      {
+        "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+        "bytes": 213880,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "TFL3"
+        ]
+      },
+      {
+        "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+        "bytes": 276552,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "TFL3"
+        ]
+      },
+      {
+        "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+        "bytes": 1706957,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "CONVERSION_METADATA",
+          "TFL3",
+          "TFLITE_METADATA"
+        ]
+      },
+      {
+        "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+        "bytes": 1254848,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "BADDBCB",
+          "CONVERSION_METADATA",
+          "EBADD",
+          "HG5DCGCF3BADDBCDEAEKAKSF",
+          "TFL3",
+          "TFLITE_METADATA"
+        ]
+      },
+      {
+        "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+        "bytes": 231816,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "LMULZ",
+          "TFL3"
+        ]
+      },
+      {
+        "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+        "bytes": 232096,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "TFL3"
+        ]
+      },
+      {
+        "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+        "bytes": 613080,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "TFL3"
+        ]
+      },
+      {
+        "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+        "bytes": 613352,
+        "magic": "TFL3",
+        "detected_op_tokens": [
+          "TFL3"
+        ]
+      }
+    ],
+    "ncnn_fastestdet": {
+      "bin_bytes": 2420588,
+      "param_bytes": 15293,
+      "declared_layers": 172,
+      "declared_blobs": 198,
+      "layer_type_counts": {
+        "Convolution": 52,
+        "Split": 23,
+        "HardSwish": 18,
+        "BinaryOp": 18,
+        "Pooling": 15,
+        "ConvolutionDepthWise": 14,
+        "Reshape": 11,
+        "HardSigmoid": 9,
+        "Concat": 4,
+        "Swish": 2,
+        "Reduction": 2,
+        "Input": 1,
+        "Interp": 1,
+        "Sigmoid": 1,
+        "Softmax": 1
+      }
+    },
+    "opencv_classical_models": [
+      {
+        "path": "res/raw/haarcascade_frontalface_default.xml",
+        "bytes": 1788328
+      },
+      {
+        "path": "res/raw/lbfmodel.yaml",
+        "bytes": 3778896
+      }
+    ]
+  },
+  "res_raw_multimedia": {
+    "lottie_json_count": 44,
+    "rive_count": 4,
+    "rive_files": [
+      "failure.riv",
+      "loading.riv",
+      "tap2pay_payment_guide.riv",
+      "user_guide.riv"
+    ],
+    "audio_count": 2,
+    "audio_files": [
+      "pay_success_sound.mp3",
+      "zalopay_sound.mp3"
+    ],
+    "svg_count": 2,
+    "svg_files": [
+      "phone_pending.svg",
+      "required_kyc.svg"
+    ]
+  },
+  "public_key_assets": [
+    {
+      "file": "public.pem",
+      "bytes": 460,
+      "key_type": "RSAPublicKey",
+      "key_size_bits": 2048
+    },
+    {
+      "file": "zoom.public",
+      "bytes": 450,
+      "key_type": "RSAPublicKey",
+      "key_size_bits": 2048
+    }
+  ],
+  "companion_shield_assets": [
+    {
+      "path": "assets/fgcpkjvqe.dat",
+      "bytes": 776320,
+      "head_hex": "a6eb0ca49c7510a63d179733bdf2afd8",
+      "is_ascii_json": false
+    },
+    {
+      "path": "assets/taibmcf.dat",
+      "bytes": 8307,
+      "head_hex": "3b0d47fc99267516b71214dbc03fdf8f",
+      "is_ascii_json": false
+    },
+    {
+      "path": "assets/bshield.dat",
+      "bytes": 929,
+      "head_hex": "082510a40d1a9907a434c6a46dc8b616",
+      "is_ascii_json": false
+    },
+    {
+      "path": "assets/trueidlib.so",
+      "bytes": 392,
+      "head_hex": "d89a8523c6afb3c063a622ac7786ea1d",
+      "is_ascii_json": false
+    },
+    {
+      "path": "assets/taibmcf.json",
+      "bytes": 46,
+      "head_hex": "7b227669223a224de1bb9f2063c3a069",
+      "is_ascii_json": true
+    },
+    {
+      "path": "assets/vdfmoer.json",
+      "bytes": 46,
+      "head_hex": "7b227669223a224de1bb9f2063c3a069",
+      "is_ascii_json": true
+    }
+  ]
+}
