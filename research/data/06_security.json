@@ -1,0 +1,106 @@
+{
+ "signing_block": {
+  "central_directory_offset": 78815232,
+  "signing_block": {
+   "offset": 78807040,
+   "declared_size": 8184,
+   "magic_at": 78815216
+  },
+  "pairs": [
+   {
+    "id": "0x7109871a",
+    "declared_length": 1383,
+    "offset": 78807048,
+    "aligned": true,
+    "plausible": true
+   },
+   {
+    "id": "0x15000005",
+    "declared_length": 6557241080535864168,
+    "offset": 78808448,
+    "aligned": true,
+    "plausible": false
+   }
+  ],
+  "canonical_layout": false,
+  "v3_pair_canonical": false
+ },
+ "scheme": {
+  "v1_jar": true,
+  "v2_present": true,
+  "v3_present": false,
+  "v3_pair_is_non_canonical_artifact": true
+ },
+ "signed_data": {
+  "length": 797,
+  "signers_len": 1375,
+  "signer_len": 1371,
+  "digests": [
+   {
+    "alg": "0x0103",
+    "digest": "978979daae85083cf7a4b555557275b44fa57f8cdf577c5761e62b8944774e07"
+   }
+  ],
+  "sha256_of_blob": "9ff8f3d4fb9f2c064fbce4c26df10cb11748b64b5a6f00ebf80f527d47ba015c"
+ },
+ "certificate": {
+  "scheme": [
+   "v1 (JAR)",
+   "v2"
+  ],
+  "v3_present": false,
+  "subject": "CN=Vu Manh Hieu",
+  "issuer": "CN=Vu Manh Hieu",
+  "self_signed": true,
+  "serial": "0x153ea9fd",
+  "not_before": "2016-04-21 15:41:14+00:00",
+  "not_after": "2041-04-15 15:41:14+00:00",
+  "key": {
+   "type": "RSAPublicKey",
+   "bits": 2048
+  },
+  "signature_algorithm": "sha256WithRSAEncryption",
+  "cert_sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+  "spki_sha256": "3ed316c8ee1524a8b1d224f52d6c132c8f29d69392544ed1ae3c8e6c6929036d"
+ },
+ "verification": {
+  "certificate_parsed": true,
+  "signature_verified": false,
+  "reason": "APK Signing Block pair framing is non-canonical in this repackaged XAPK; the RSA signature could not be reproduced against any contiguous signed-data window (exhaustive scan of 78 MiB at 256-byte RSA blocks + hash re-derivation). Reported as unverified, not as valid.",
+  "content_digest_verified": false
+ },
+ "hardening_inventory": {
+  "root_and_tamper": [
+   "RootBeer",
+   "Play Integrity API",
+   "Alibaba Security Guard (libtaibmcf.so, libfgcpkjvqe.so)",
+   "assets/bshield.dat",
+   "trueidlib.so SmartOTP debugger/integrity checks"
+  ],
+  "keystore": [
+   "AndroidKeyStore",
+   "StrongBox (1 string ref)",
+   "KeyGenParameterSpec",
+   "BiometricPrompt"
+  ],
+  "crypto_in_use": [
+   "AES/GCM/NoPadding",
+   "RSA/ECB/OAEPWithSHA-256AndMGF1Padding",
+   "HmacSHA256",
+   "PBKDF2WithHmacSHA256",
+   "ECDH",
+   "ECIES",
+   "X25519",
+   "Ed25519",
+   "Bouncy Castle PQC: Kyber/ML-KEM, Dilithium, SPHINCS+, Picnic, BIKE, HQC, FrodoKEM"
+  ],
+  "screen_protection": [
+   "DETECT_SCREEN_CAPTURE permission",
+   "FLAG_SECURE handling"
+  ],
+  "device_attestation": [
+   "Play Integrity (StandardIntegrityManager)",
+   "SafetyNet legacy strings"
+  ]
+ }
+}

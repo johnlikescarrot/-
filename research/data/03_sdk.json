@@ -1,0 +1,1525 @@
+{
+ "sdks": [
+  {
+   "sdk": "Firebase / Google Play services",
+   "vendor": "Google · platform",
+   "signatures": [
+    "com/google/firebase",
+    "com/google/android/gms"
+   ],
+   "evidence_strings": 9870,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Bouncy Castle",
+   "vendor": "crypto · library",
+   "signatures": [
+    "org/bouncycastle"
+   ],
+   "evidence_strings": 9448,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Alibaba mPaaS / ARiver (mini-app runtime)",
+   "vendor": "super-app runtime",
+   "signatures": [
+    "com/alibaba/ariver"
+   ],
+   "evidence_strings": 3836,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Visa SDK",
+   "vendor": "card tokenization",
+   "signatures": [
+    "com/visa"
+   ],
+   "evidence_strings": 1848,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "ExoPlayer / Media3",
+   "vendor": "media",
+   "signatures": [
+    "androidx/media3"
+   ],
+   "evidence_strings": 1827,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "CameraX",
+   "vendor": "media",
+   "signatures": [
+    "androidx/camera"
+   ],
+   "evidence_strings": 1669,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Jetpack Compose",
+   "vendor": "UI",
+   "signatures": [
+    "androidx/compose"
+   ],
+   "evidence_strings": 1362,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "TrueID eKYC",
+   "vendor": "KYC · VN",
+   "signatures": [
+    "ai/trueid",
+    "trueidlib"
+   ],
+   "evidence_strings": 1270,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "VNPAY QR / tokenization",
+   "vendor": "payments · VN",
+   "signatures": [
+    "vnpay"
+   ],
+   "evidence_strings": 700,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "AppsFlyer",
+   "vendor": "attribution",
+   "signatures": [
+    "com/appsflyer"
+   ],
+   "evidence_strings": 685,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Kotlin stdlib",
+   "vendor": "language",
+   "signatures": [
+    "kotlin/jvm/internal",
+    "kotlin/collections"
+   ],
+   "evidence_strings": 597,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "AndroidX core",
+   "vendor": "platform",
+   "signatures": [
+    "androidx/core"
+   ],
+   "evidence_strings": 555,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "JWT (jjwt / nimbus)",
+   "vendor": "crypto · tokens",
+   "signatures": [
+    "com/nimbusds"
+   ],
+   "evidence_strings": 553,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "OkHttp 4",
+   "vendor": "networking",
+   "signatures": [
+    "okhttp3/OkHttpClient",
+    "okhttp3/internal"
+   ],
+   "evidence_strings": 474,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Glide / Picasso",
+   "vendor": "UI · imaging",
+   "signatures": [
+    "com/bumptech/glide",
+    "com/squareup/picasso"
+   ],
+   "evidence_strings": 467,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Moshi / Gson",
+   "vendor": "serialization",
+   "signatures": [
+    "com/google/gson"
+   ],
+   "evidence_strings": 401,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "RxJava 2",
+   "vendor": "async",
+   "signatures": [
+    "io/reactivex"
+   ],
+   "evidence_strings": 399,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "WorkManager",
+   "vendor": "background",
+   "signatures": [
+    "androidx/work"
+   ],
+   "evidence_strings": 382,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Protocol Buffers",
+   "vendor": "serialization",
+   "signatures": [
+    "com/google/protobuf"
+   ],
+   "evidence_strings": 372,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Rive",
+   "vendor": "UI · animation",
+   "signatures": [
+    "app/rive"
+   ],
+   "evidence_strings": 341,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Lottie",
+   "vendor": "UI · animation",
+   "signatures": [
+    "com/airbnb/lottie"
+   ],
+   "evidence_strings": 331,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "jsoup (HTML parsing)",
+   "vendor": "data",
+   "signatures": [
+    "org/jsoup"
+   ],
+   "evidence_strings": 311,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Tink",
+   "vendor": "crypto · library",
+   "signatures": [
+    "com/google/crypto/tink"
+   ],
+   "evidence_strings": 291,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Meta Audience Network",
+   "vendor": "Meta · ads",
+   "signatures": [
+    "com/facebook/ads"
+   ],
+   "evidence_strings": 205,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "DataStore (Preferences/Proto)",
+   "vendor": "persistence",
+   "signatures": [
+    "androidx/datastore"
+   ],
+   "evidence_strings": 154,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "TikTok / Pangle ads",
+   "vendor": "ByteDance · ads",
+   "signatures": [
+    "com/tiktok/"
+   ],
+   "evidence_strings": 148,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Kotlin coroutines",
+   "vendor": "async",
+   "signatures": [
+    "kotlinx/coroutines"
+   ],
+   "evidence_strings": 140,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Google Play Billing",
+   "vendor": "Google · payments",
+   "signatures": [
+    "com/android/billingclient"
+   ],
+   "evidence_strings": 138,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Alipay SDK",
+   "vendor": "payments · CN",
+   "signatures": [
+    "com/alipay/android"
+   ],
+   "evidence_strings": 131,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Google Play Integrity",
+   "vendor": "Google · anti-tamper",
+   "signatures": [
+    "com/google/android/play/core/integrity",
+    "StandardIntegrityManager"
+   ],
+   "evidence_strings": 118,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "ML Kit (barcode, OCR, face, object)",
+   "vendor": "Google · on-device ML",
+   "signatures": [
+    "com/google/mlkit",
+    "com/google/android/gms/vision"
+   ],
+   "evidence_strings": 117,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Crashlytics",
+   "vendor": "observability",
+   "signatures": [
+    "com/google/firebase/crashlytics"
+   ],
+   "evidence_strings": 115,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Dagger / Hilt",
+   "vendor": "DI",
+   "signatures": [
+    "dagger/internal"
+   ],
+   "evidence_strings": 112,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "AdMob / GMA",
+   "vendor": "Google · ads",
+   "signatures": [
+    "com/google/android/gms/ads"
+   ],
+   "evidence_strings": 93,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "BiometricPrompt",
+   "vendor": "identity · local auth",
+   "signatures": [
+    "androidx/biometric",
+    "BiometricPrompt"
+   ],
+   "evidence_strings": 73,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "SQLCipher",
+   "vendor": "persistence · encrypted",
+   "signatures": [
+    "net/zetetic"
+   ],
+   "evidence_strings": 72,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Huawei HMS / Push",
+   "vendor": "push · OEM",
+   "signatures": [
+    "com/huawei/hms"
+   ],
+   "evidence_strings": 66,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Facebook Login / Graph",
+   "vendor": "Meta · identity",
+   "signatures": [
+    "com/facebook/login"
+   ],
+   "evidence_strings": 62,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Facebook App Events",
+   "vendor": "Meta · analytics",
+   "signatures": [
+    "com/facebook/appevents"
+   ],
+   "evidence_strings": 60,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Google Maps / Places",
+   "vendor": "maps",
+   "signatures": [
+    "com/google/android/gms/maps"
+   ],
+   "evidence_strings": 30,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Retrofit 2",
+   "vendor": "networking",
+   "signatures": [
+    "retrofit2/Retrofit"
+   ],
+   "evidence_strings": 28,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Play Integrity + SafetyNet legacy",
+   "vendor": "security",
+   "signatures": [
+    "SafetyNet"
+   ],
+   "evidence_strings": 24,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "NFC / HCE host card emulation",
+   "vendor": "payments · NFC",
+   "signatures": [
+    "HostApduService",
+    "android/nfc/cardemulation"
+   ],
+   "evidence_strings": 21,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "PaddlePaddle Lite / PicoDet (NCNN)",
+   "vendor": "on-device ML",
+   "signatures": [
+    "picodet"
+   ],
+   "evidence_strings": 17,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Zalo SDK (ZaloLogin / ZaloPay share)",
+   "vendor": "identity · VN",
+   "signatures": [
+    "com/zing/zalo"
+   ],
+   "evidence_strings": 12,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Google Analytics 4 (Firebase)",
+   "vendor": "product analytics",
+   "signatures": [
+    "app-measurement.com",
+    "google_app_measurement"
+   ],
+   "evidence_strings": 10,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "TensorFlow Lite",
+   "vendor": "on-device ML",
+   "signatures": [
+    "tflite"
+   ],
+   "evidence_strings": 9,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Navigation Compose",
+   "vendor": "UI",
+   "signatures": [
+    "androidx/navigation"
+   ],
+   "evidence_strings": 8,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Google Play In-App Update / Review",
+   "vendor": "Google · lifecycle",
+   "signatures": [
+    "com/google/android/play/core/review"
+   ],
+   "evidence_strings": 4,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Accompanist / Coil",
+   "vendor": "UI · imaging",
+   "signatures": [
+    "coil/"
+   ],
+   "evidence_strings": 4,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Conscrypt",
+   "vendor": "crypto · TLS",
+   "signatures": [
+    "org/conscrypt"
+   ],
+   "evidence_strings": 3,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "NCNN",
+   "vendor": "on-device ML",
+   "signatures": [
+    "ncnn"
+   ],
+   "evidence_strings": 3,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "FIDO / WebAuthn / passkeys",
+   "vendor": "identity · standard",
+   "signatures": [
+    "fido"
+   ],
+   "evidence_strings": 3,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Apache Commons",
+   "vendor": "utility",
+   "signatures": [
+    "org/apache/commons"
+   ],
+   "evidence_strings": 3,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "Room",
+   "vendor": "persistence",
+   "signatures": [
+    "androidx/room"
+   ],
+   "evidence_strings": 2,
+   "present": true,
+   "confidence": "medium"
+  },
+  {
+   "sdk": "TrueFace liveness",
+   "vendor": "KYC · liveness",
+   "signatures": [
+    "trueface"
+   ],
+   "evidence_strings": 2,
+   "present": true,
+   "confidence": "medium"
+  }
+ ],
+ "sdk_count": 56,
+ "endpoints": {
+  "unique_hosts": 168,
+  "by_class": {
+   "first-party · ZaloPay": [
+    {
+     "host": "scdn.zalopay.com.vn",
+     "hits": 65
+    },
+    {
+     "host": "simg.zalopay.com.vn",
+     "hits": 45
+    },
+    {
+     "host": "zalopay.vn",
+     "hits": 20
+    },
+    {
+     "host": "api.zalopay.vn",
+     "hits": 15
+    },
+    {
+     "host": "social.zalopay.vn",
+     "hits": 13
+    },
+    {
+     "host": "sapi.zalopay.vn",
+     "hits": 10
+    },
+    {
+     "host": "mnap-director.zalopay.vn",
+     "hits": 8
+    },
+    {
+     "host": "zalo.me",
+     "hits": 5
+    },
+    {
+     "host": "upload-img.zalopay.vn",
+     "hits": 5
+    },
+    {
+     "host": "openapi.zalopay.vn",
+     "hits": 5
+    },
+    {
+     "host": "uudai.zalopay.vn",
+     "hits": 5
+    },
+    {
+     "host": "zalopay.com.vn",
+     "hits": 4
+    },
+    {
+     "host": "bim.zalopay.vn",
+     "hits": 4
+    },
+    {
+     "host": "dala2zoom.zalopay.vn",
+     "hits": 3
+    },
+    {
+     "host": "user-life-cycle-public.zalopay.vn",
+     "hits": 3
+    },
+    {
+     "host": "bank-profile.zalopay.vn",
+     "hits": 3
+    },
+    {
+     "host": "mmf-redemption.zalopay.vn",
+     "hits": 3
+    },
+    {
+     "host": "scard.zalopay.vn",
+     "hits": 3
+    },
+    {
+     "host": "support.zalopay.vn",
+     "hits": 3
+    },
+    {
+     "host": "zlp-ofp-emvco-gateway.zalopay.vn",
+     "hits": 3
+    },
+    {
+     "host": "zlp-ofp-zpa-camera-config-be.zalopay.vn",
+     "hits": 3
+    },
+    {
+     "host": "cps.zalopay.com.vn",
+     "hits": 3
+    },
+    {
+     "host": "mmf-user.zalopay.vn",
+     "hits": 3
+    },
+    {
+     "host": "tracking.zalopay.vn",
+     "hits": 3
+    },
+    {
+     "host": "rdx.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "upload.zalopay.com.vn",
+     "hits": 2
+    },
+    {
+     "host": "log.zalopay.com.vn",
+     "hits": 2
+    },
+    {
+     "host": "zpm.zalopay.com.vn",
+     "hits": 2
+    },
+    {
+     "host": "token.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "partners.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "zlp-ofp-integration-hub.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "campaign.zalopay.com.vn",
+     "hits": 2
+    },
+    {
+     "host": "loyalty.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "mp.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "onelink.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "miniprogram.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "zlp-ofp-qp-public-api.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "rar-um.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "fin-installment.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "bnpl-gateway.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "sse.zalopay.vn",
+     "hits": 2
+    },
+    {
+     "host": "atlas.zalopay.vn",
+     "hits": 1
+    },
+    {
+     "host": "html.zapps.vn",
+     "hits": 1
+    },
+    {
+     "host": "qrpay.zalopay.vn",
+     "hits": 1
+    },
+    {
+     "host": "zlp-movie-api.zalopay.vn",
+     "hits": 1
+    }
+   ],
+   "unclassified": [
+    {
+     "host": "appx",
+     "hits": 10
+    },
+    {
+     "host": "appx-ng",
+     "hits": 9
+    },
+    {
+     "host": "developer.android.com",
+     "hits": 8
+    },
+    {
+     "host": "www.w3.org",
+     "hits": 8
+    },
+    {
+     "host": "xml.org",
+     "hits": 6
+    },
+    {
+     "host": "xmlpull.org",
+     "hits": 5
+    },
+    {
+     "host": "schemas.android.com",
+     "hits": 4
+    },
+    {
+     "host": "goo.gl",
+     "hits": 4
+    },
+    {
+     "host": "ns.adobe.com",
+     "hits": 3
+    },
+    {
+     "host": "resource",
+     "hits": 3
+    },
+    {
+     "host": "github.com",
+     "hits": 3
+    },
+    {
+     "host": "vngzalopay.freshdesk.com",
+     "hits": 3
+    },
+    {
+     "host": "g.co",
+     "hits": 2
+    },
+    {
+     "host": "shared",
+     "hits": 2
+    },
+    {
+     "host": "usr",
+     "hits": 2
+    },
+    {
+     "host": "oauth.zaloapp.com",
+     "hits": 2
+    },
+    {
+     "host": "visapay.as1.juspay.io",
+     "hits": 2
+    },
+    {
+     "host": "www.visa.com",
+     "hits": 2
+    },
+    {
+     "host": "ebank.bidv.com.vn",
+     "hits": 2
+    },
+    {
+     "host": "weremit-static.tenpay.com",
+     "hits": 2
+    },
+    {
+     "host": "yuque.antfin-inc.com",
+     "hits": 1
+    },
+    {
+     "host": "www.bouncycastle.org",
+     "hits": 1
+    },
+    {
+     "host": "youtrack.jetbrains.com",
+     "hits": 1
+    },
+    {
+     "host": "...",
+     "hits": 1
+    },
+    {
+     "host": "dpe.aacert.consumerapi.digital.visa.com",
+     "hits": 1
+    },
+    {
+     "host": "dpe.consumerapi.digital.visa.com",
+     "hits": 1
+    },
+    {
+     "host": "dpe.qa.consumerapi.digital.visa.com",
+     "hits": 1
+    },
+    {
+     "host": "dpe.sandbox.consumerapi.digital.visa.com",
+     "hits": 1
+    },
+    {
+     "host": "graph.zaloapp.com",
+     "hits": 1
+    },
+    {
+     "host": "gw.zamcs.com",
+     "hits": 1
+    },
+    {
+     "host": "icl.visa.com",
+     "hits": 1
+    },
+    {
+     "host": "mp3.zing.vn",
+     "hits": 1
+    },
+    {
+     "host": "n.zing.vn",
+     "hits": 1
+    },
+    {
+     "host": "news.zing.vn",
+     "hits": 1
+    },
+    {
+     "host": "srv.mp3.zing.vn",
+     "hits": 1
+    },
+    {
+     "host": "zaloapp.com",
+     "hits": 1
+    },
+    {
+     "host": "ztevents.zaloapp.com",
+     "hits": 1
+    },
+    {
+     "host": ".",
+     "hits": 1
+    },
+    {
+     "host": "www.example.com",
+     "hits": 1
+    },
+    {
+     "host": "admob-gmats.uc.r.appspot.com",
+     "hits": 1
+    },
+    {
+     "host": "dummy",
+     "hits": 1
+    },
+    {
+     "host": "www.android.com",
+     "hits": 1
+    },
+    {
+     "host": "graph-video.",
+     "hits": 1
+    },
+    {
+     "host": "graph.",
+     "hits": 1
+    },
+    {
+     "host": "mock.saas.mini-program.com",
+     "hits": 1
+    },
+    {
+     "host": "www.",
+     "hits": 1
+    },
+    {
+     "host": "goo.gle",
+     "hits": 1
+    },
+    {
+     "host": "127.0.0.1",
+     "hits": 1
+    },
+    {
+     "host": "hostname",
+     "hits": 1
+    },
+    {
+     "host": "aomedia.org",
+     "hits": 1
+    },
+    {
+     "host": "developer.apple.com",
+     "hits": 1
+    },
+    {
+     "host": "universal.vneid.gov.vn",
+     "hits": 1
+    },
+    {
+     "host": "https",
+     "hits": 1
+    },
+    {
+     "host": "localhost",
+     "hits": 1
+    },
+    {
+     "host": "symbols.vn",
+     "hits": 1
+    },
+    {
+     "host": "uat.tenpayglobal.com",
+     "hits": 1
+    },
+    {
+     "host": "www.tenpayglobal.com",
+     "hits": 1
+    },
+    {
+     "host": "abc.com",
+     "hits": 1
+    }
+   ],
+   "third-party · Alipay": [
+    {
+     "host": "render.alipay.com",
+     "hits": 24
+    },
+    {
+     "host": "openauth.alipay.com",
+     "hits": 4
+    },
+    {
+     "host": "open-sea.alipayplus.com",
+     "hits": 3
+    },
+    {
+     "host": "render-intl.alipay.com",
+     "hits": 3
+    },
+    {
+     "host": "alipay.worker.com",
+     "hits": 3
+    },
+    {
+     "host": "alipay.kylinbridge",
+     "hits": 2
+    },
+    {
+     "host": "mobilegw.alipay.com",
+     "hits": 2
+    },
+    {
+     "host": "ds.alipay.com.",
+     "hits": 2
+    },
+    {
+     "host": "d.alipay.com.",
+     "hits": 2
+    },
+    {
+     "host": "ulink.alipay.com.",
+     "hits": 2
+    },
+    {
+     "host": "iopengw-280.sggz00b.dev.alipay.net",
+     "hits": 2
+    },
+    {
+     "host": "imdap-sea.alipay.com",
+     "hits": 2
+    },
+    {
+     "host": "imgs-ac.alipay.com",
+     "hits": 2
+    },
+    {
+     "host": "miniprogram.alipay-eco.com",
+     "hits": 2
+    },
+    {
+     "host": "a.alipayobjects.com",
+     "hits": 1
+    },
+    {
+     "host": "alipay.com",
+     "hits": 1
+    },
+    {
+     "host": "gw.alipayobjects.com",
+     "hits": 1
+    },
+    {
+     "host": "hpmweb.alipay.com",
+     "hits": 1
+    },
+    {
+     "host": "opendocs.alipay.com",
+     "hits": 1
+    },
+    {
+     "host": "tfsimg.alipay.com",
+     "hits": 1
+    },
+    {
+     "host": "imgs-ac-amcs.dl.alipaydev.com",
+     "hits": 1
+    },
+    {
+     "host": "imgs-ac-saas.dl.alipaydev.com",
+     "hits": 1
+    },
+    {
+     "host": "imgs-sea-pre.alipay.com",
+     "hits": 1
+    },
+    {
+     "host": "imgs-sit-sg.dl.alipaydev.com",
+     "hits": 1
+    },
+    {
+     "host": "mdgw.alipay.com",
+     "hits": 1
+    },
+    {
+     "host": "mdgwdev.alipay.net",
+     "hits": 1
+    },
+    {
+     "host": "mdn.alipayobjects.com",
+     "hits": 1
+    }
+   ],
+   "third-party · Google": [
+    {
+     "host": "play.google.com",
+     "hits": 11
+    },
+    {
+     "host": "www.google.com",
+     "hits": 8
+    },
+    {
+     "host": "firebase.google.com",
+     "hits": 7
+    },
+    {
+     "host": "googleads.g.doubleclick.net",
+     "hits": 7
+    },
+    {
+     "host": "issuetracker.google.com",
+     "hits": 6
+    },
+    {
+     "host": "googlemobileadssdk.page.link",
+     "hits": 6
+    },
+    {
+     "host": "www.google-analytics.com",
+     "hits": 3
+    },
+    {
+     "host": "developers.google.com",
+     "hits": 2
+    },
+    {
+     "host": "csi.gstatic.com",
+     "hits": 2
+    },
+    {
+     "host": "pagead2.googlesyndication.com",
+     "hits": 2
+    },
+    {
+     "host": "googletng.dl.alipaydev.com",
+     "hits": 1
+    },
+    {
+     "host": "support.google.com",
+     "hits": 1
+    },
+    {
+     "host": "firebaseinstallations.googleapis.com",
+     "hits": 1
+    },
+    {
+     "host": "firebaseremoteconfig.googleapis.com",
+     "hits": 1
+    },
+    {
+     "host": "imasdk.googleapis.com",
+     "hits": 1
+    },
+    {
+     "host": "ssl.google-analytics.com",
+     "hits": 1
+    },
+    {
+     "host": "www.googleadservices.com",
+     "hits": 1
+    },
+    {
+     "host": "google.com",
+     "hits": 1
+    },
+    {
+     "host": "clients3.google.com",
+     "hits": 1
+    },
+    {
+     "host": "connectivitycheck.gstatic.com",
+     "hits": 1
+    }
+   ],
+   "third-party · Meta": [
+    {
+     "host": "developers.facebook.com",
+     "hits": 5
+    },
+    {
+     "host": "facebook.com",
+     "hits": 2
+    },
+    {
+     "host": "www.facebook.com",
+     "hits": 2
+    },
+    {
+     "host": ".facebook.com",
+     "hits": 1
+    }
+   ],
+   "third-party · Google Analytics": [
+    {
+     "host": "app-measurement.com",
+     "hits": 4
+    }
+   ],
+   "third-party · FPT Smart Cloud (VN eKYC)": [
+    {
+     "host": "api.fpt.ai",
+     "hits": 2
+    },
+    {
+     "host": "ekyc-dev.fpt.ai",
+     "hits": 1
+    },
+    {
+     "host": "web-ekyc-uat.fpt.ai",
+     "hits": 1
+    }
+   ],
+   "third-party · VNPAY": [
+    {
+     "host": "vnpay.vn",
+     "hits": 1
+    },
+    {
+     "host": "demomb.vnpaytest.vn",
+     "hits": 1
+    },
+    {
+     "host": "design.vnpay.vn",
+     "hits": 1
+    }
+   ],
+   "third-party · Marmot (Alibaba mini-program CDN)": [
+    {
+     "host": "cdn.marmot-cloud.com",
+     "hits": 2
+    }
+   ],
+   "third-party · TrueID (VN eKYC)": [
+    {
+     "host": "trueid.net",
+     "hits": 1
+    },
+    {
+     "host": "api.trueid.vn",
+     "hits": 1
+    }
+   ],
+   "third-party · Alibaba": [
+    {
+     "host": "activityservice.alibaba.com",
+     "hits": 1
+    }
+   ],
+   "third-party · ByteDance": [
+    {
+     "host": "analytics.us.tiktok.com",
+     "hits": 1
+    }
+   ],
+   "third-party · AppsFlyer": [
+    {
+     "host": "privacy-sandbox.appsflyersdk.com",
+     "hits": 1
+    }
+   ],
+   "third-party · Crashlytics": [
+    {
+     "host": "firebase-settings.crashlytics.com",
+     "hits": 1
+    }
+   ]
+  }
+ },
+ "api_paths": {
+  "unique": 290,
+  "top": [
+   [
+    "/v2/user/public-key",
+    2
+   ],
+   [
+    "/v2/user/salt",
+    2
+   ],
+   [
+    "/v2/user/pin/pre-check-update-pin",
+    2
+   ],
+   [
+    "/v1/loyalty/cashier-earned-point",
+    2
+   ],
+   [
+    "/v3/cashier/state/set",
+    2
+   ],
+   [
+    "/v2/ekyc/upload/trueid/face-liveness",
+    2
+   ],
+   [
+    "/v2/ekyc/upload/trueid/face-liveness/v3",
+    2
+   ],
+   [
+    "/v2/ekyc/upload/trueid/sdk-create",
+    2
+   ],
+   [
+    "/v2/bank-mapping-pci/web/relink-unconfirmed-bank",
+    2
+   ],
+   [
+    "/v2/agreement/confirm",
+    1
+   ],
+   [
+    "/v2/user-liveness/submit/form",
+    1
+   ],
+   [
+    "/v2/user-liveness/trueid/face-liveness",
+    1
+   ],
+   [
+    "/v2/user-liveness/trueid/face-liveness/v3",
+    1
+   ],
+   [
+    "/v2/user/face-authen/trueid/sdk-create",
+    1
+   ],
+   [
+    "v2/user-liveness/create",
+    1
+   ],
+   [
+    "v2/user-liveness/status",
+    1
+   ],
+   [
+    "v2/user-liveness/submit",
+    1
+   ],
+   [
+    "/v2/topup-withdraw/topup-order",
+    1
+   ],
+   [
+    "/v2/account/guest/login",
+    1
+   ],
+   [
+    "/v2/account/history/recents",
+    1
+   ],
+   [
+    "/v2/account/history/remove",
+    1
+   ],
+   [
+    "/v2/account/landing/banner",
+    1
+   ],
+   [
+    "/v2/account/logindevice",
+    1
+   ],
+   [
+    "/v2/account/otp",
+    1
+   ],
+   [
+    "/v2/account/otp-verification",
+    1
+   ],
+   [
+    "/v2/account/otp/status",
+    1
+   ],
+   [
+    "/v2/account/outapp-ticket/create",
+    1
+   ],
+   [
+    "/v2/account/phone/forgot-pin-session",
+    1
+   ],
+   [
+    "/v2/account/phone/recycle/status",
+    1
+   ],
+   [
+    "/v2/account/phone/registration",
+    1
+   ],
+   [
+    "/v2/account/phone/session",
+    1
+   ],
+   [
+    "/v2/account/phone/status",
+    1
+   ],
+   [
+    "/v2/account/zalo/phone-and-pin-setting",
+    1
+   ],
+   [
+    "/v2/account/zalo/registration",
+    1
+   ],
+   [
+    "/v2/account/zalo/session",
+    1
+   ],
+   [
+    "/v2/account/zalo/status",
+    1
+   ],
+   [
+    "/v2/user-consent/v2/consent/register/info",
+    1
+   ],
+   [
+    "/v2/user-consent/v2/consent/register/update",
+    1
+   ],
+   [
+    "/v2/user/pin/pre-check-create-pin",
+    1
+   ],
+   [
+    "/v2/topup-withdraw/withdraw-order",
+    1
+   ],
+   [
+    "/v2/user/pin/pin-reset",
+    1
+   ],
+   [
+    "/v2/user/pin/pin-reset/kba-questions",
+    1
+   ],
+   [
+    "/v2/user/pin/pin-reset/kba-questions/verification",
+    1
+   ],
+   [
+    "/v2/user/pin/pin-reset/otp",
+    1
+   ],
+   [
+    "/v2/user/pin/pin-reset/otp-verification",
+    1
+   ],
+   [
+    "/v2/user/pin/pin-reset/submission",
+    1
+   ],
+   [
+    "/v2/cashier/order/payment",
+    1
+   ],
+   [
+    "/v2/cashier/result",
+    1
+   ],
+   [
+    "/v2/cashier/result-page/params",
+    1
+   ],
+   [
+    "/v3/cashier/result",
+    1
+   ],
+   [
+    "/api/app/v2/accounts/unlock",
+    1
+   ],
+   [
+    "/api/v1/private/orders/status",
+    1
+   ],
+   [
+    "/v2/cashier/precheck-pay",
+    1
+   ],
+   [
+    "/v2/cashier/promotion-pages",
+    1
+   ],
+   [
+    "/v2/cashier/sources-of-fund",
+    1
+   ],
+   [
+    "v2/cashier/assets",
+    1
+   ],
+   [
+    "v2/cashier/change-assets",
+    1
+   ],
+   [
+    "v2/cashier/order/status",
+    1
+   ],
+   [
+    "v2/cashier/pay",
+    1
+   ],
+   [
+    "v2/cashier/promotions",
+    1
+   ]
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "zalopay-re-static-analysis-film",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static reverse-engineering study of the ZaloPay 11.17.0 XAPK and a TypeScript-rendered research film (MP4).",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc -p video/tsconfig.json",
+    "render": "npm run build && node video/dist/main.js",
+    "render:audio": "node video/dist/audio.js",
+    "typecheck": "tsc -p video/tsconfig.json --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@napi-rs/canvas": "^0.1.80",
+    "@resvg/resvg-js": "^2.6.2",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.7.5"
+  }
+}

@@ -1,0 +1,215 @@
+{
+ "arsc": {
+  "bytes": 1802300,
+  "packages": 13,
+  "type_ids": 21,
+  "configurations": 4,
+  "top_configs": [
+   [
+    "default",
+    82
+   ],
+   [
+    "default+84dpi",
+    9
+   ],
+   [
+    " ",
+    1
+   ],
+   [
+    "\u0011",
+    1
+   ]
+  ],
+  "global_strings": 7763
+ },
+ "locale_splits": {
+  "config.en.apk": "English resources split",
+  "config.vi.apk": "Vietnamese resources split",
+  "note": "base APK ships both; 5,209 XML layouts/drawables in base"
+ },
+ "on_device_ml": {
+  "count": 22,
+  "total_bytes": 15225212,
+  "models": [
+   {
+    "asset": "assets/custom_models/object_labeler.tflite",
+    "bytes": 3770391
+   },
+   {
+    "asset": "assets/FastestDet.ncnn.bin",
+    "bytes": 2420588
+   },
+   {
+    "asset": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+    "bytes": 1706957
+   },
+   {
+    "asset": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+    "bytes": 1254848
+   },
+   {
+    "asset": "assets/models_bundled/contours.tfl",
+    "bytes": 1124144
+   },
+   {
+    "asset": "assets/models_bundled/LMprec_600.emd",
+    "bytes": 1078354
+   },
+   {
+    "asset": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+    "bytes": 613352
+   },
+   {
+    "asset": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+    "bytes": 613080
+   },
+   {
+    "asset": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+    "bytes": 390456
+   },
+   {
+    "asset": "assets/models_bundled/blazeface.tfl",
+    "bytes": 347928
+   },
+   {
+    "asset": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+    "bytes": 340760
+   },
+   {
+    "asset": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+    "bytes": 315520
+   },
+   {
+    "asset": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+    "bytes": 276552
+   },
+   {
+    "asset": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+    "bytes": 232096
+   },
+   {
+    "asset": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+    "bytes": 231816
+   },
+   {
+    "asset": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+    "bytes": 213880
+   },
+   {
+    "asset": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+    "bytes": 129612
+   },
+   {
+    "asset": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+    "bytes": 114384
+   },
+   {
+    "asset": "assets/models_bundled/BCLjoy_200.emd",
+    "bytes": 17916
+   },
+   {
+    "asset": "assets/FastestDet.ncnn.param",
+    "bytes": 15293
+   },
+   {
+    "asset": "assets/models_bundled/BCLrighteyeclosed_200.emd",
+    "bytes": 8655
+   },
+   {
+    "asset": "assets/models_bundled/BCLlefteyeclosed_200.emd",
+    "bytes": 8630
+   }
+  ],
+  "note": "models are the byte payloads; the runtime code lives in lib/*.so"
+ },
+ "kyc_security_assets": {
+  "count": 12,
+  "assets": [
+   {
+    "asset": "assets/bshield.dat",
+    "bytes": 929
+   },
+   {
+    "asset": "assets/containererrorpage/griver_custom_h5_page_error.html",
+    "bytes": 3060
+   },
+   {
+    "asset": "assets/containererrorpage/griver_page_error.html",
+    "bytes": 9594
+   },
+   {
+    "asset": "assets/dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be/9f979174-fb94-f7f5-21c5-afddb32d1e32",
+    "bytes": 17888
+   },
+   {
+    "asset": "assets/fgcpkjvqe.dat",
+    "bytes": 776320
+   },
+   {
+    "asset": "assets/iapconnect_config_full",
+    "bytes": 1688
+   },
+   {
+    "asset": "assets/public.pem",
+    "bytes": 460
+   },
+   {
+    "asset": "assets/safemode_registrator_com_iap_ac_config.json",
+    "bytes": 80
+   },
+   {
+    "asset": "assets/taibmcf.dat",
+    "bytes": 8307
+   },
+   {
+    "asset": "assets/taibmcf.json",
+    "bytes": 46
+   },
+   {
+    "asset": "assets/vdfmoer.json",
+    "bytes": 46
+   },
+   {
+    "asset": "assets/zoom.public",
+    "bytes": 450
+   }
+  ]
+ },
+ "kyc_ui_resources": {
+  "count": 538,
+  "sample": [
+   "res/anim/face_in_down.xml",
+   "res/anim/face_in_up.xml",
+   "res/anim/mtrl_card_lowers_interpolator.xml",
+   "res/animator/mtrl_card_state_list_anim.xml",
+   "res/color-night-v8/material_timepicker_clockface.xml",
+   "res/color/material_on_surface_disabled.xml",
+   "res/color/material_on_surface_emphasis_high_type.xml",
+   "res/color/material_on_surface_emphasis_medium.xml",
+   "res/color/material_on_surface_stroke.xml",
+   "res/color/material_timepicker_clockface.xml",
+   "res/color/mtrl_card_view_foreground.xml",
+   "res/color/mtrl_card_view_ripple.xml",
+   "res/color/mtrl_chip_surface_color.xml",
+   "res/color/mtrl_on_surface_ripple_color.xml",
+   "res/drawable-xxhdpi-v4/img_check_front_back_card.png",
+   "res/drawable/$ic_art_work_notification_kyc_sending__0.xml",
+   "res/drawable/$ic_banner_ibft_kyc__0.xml",
+   "res/drawable/$ic_banner_ibft_kyc__1.xml",
+   "res/drawable/$ic_banner_ibft_kyc__2.xml",
+   "res/drawable/$ic_banner_ibft_kyc__3.xml",
+   "res/drawable/$ic_card_hdb__0.xml",
+   "res/drawable/$ic_card_hdb__1.xml",
+   "res/drawable/$ic_card_hdb__10.xml",
+   "res/drawable/$ic_card_hdb__11.xml",
+   "res/drawable/$ic_card_hdb__12.xml",
+   "res/drawable/$ic_card_hdb__13.xml",
+   "res/drawable/$ic_card_hdb__14.xml",
+   "res/drawable/$ic_card_hdb__15.xml",
+   "res/drawable/$ic_card_hdb__16.xml",
+   "res/drawable/$ic_card_hdb__17.xml"
+  ]
+ }
+}

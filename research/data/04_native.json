@@ -1,0 +1,1090 @@
+{
+ "abi": "armeabi-v7a (32-bit, split delivered by XAPK)",
+ "count": 27,
+ "total_bytes": 57452124,
+ "categories": {
+  "ml": 6,
+  "obfuscated": 5,
+  "ui": 4,
+  "observability": 3,
+  "kyc": 2,
+  "unknown": 2,
+  "security": 2,
+  "runtime": 1,
+  "media": 1,
+  "storage": 1
+ },
+ "libraries": [
+  {
+   "lib": "libVFaceLib.so",
+   "bytes": 1963668,
+   "purpose": "TrueID eKYC liveness/face",
+   "category": "kyc",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 28,
+    "segments": 9
+   },
+   "dynamic_symbols": 175,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "AndroidBitmap_getInfo",
+    "AndroidBitmap_lockPixels",
+    "__aeabi_memcpy4",
+    "__android_log_print",
+    "AndroidBitmap_unlockPixels",
+    "__aeabi_memmove",
+    "__aeabi_memclr4",
+    "strlen"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 7.112,
+   "stripped": true
+  },
+  {
+   "lib": "liba97d.so",
+   "bytes": 997572,
+   "purpose": "Randomised-name support library",
+   "category": "obfuscated",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 24,
+    "segments": 10
+   },
+   "dynamic_symbols": 149,
+   "symbol_sample": [
+    "__cxa_atexit",
+    "__cxa_finalize",
+    "JNI_OnLoad",
+    "__aeabi_idiv",
+    "__aeabi_idivmod",
+    "__aeabi_lasr",
+    "__aeabi_llsl",
+    "__aeabi_llsr",
+    "__aeabi_memclr",
+    "__aeabi_memclr4",
+    "__aeabi_memcpy",
+    "__aeabi_memcpy8"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.221,
+   "stripped": true
+  },
+  {
+   "lib": "libandroidx.graphics.path.so",
+   "bytes": 7252,
+   "purpose": "AndroidX path native",
+   "category": "ui",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 25,
+    "segments": 9
+   },
+   "dynamic_symbols": 9,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "__system_property_get",
+    "atoi",
+    "malloc",
+    "free",
+    "JNI_OnLoad"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 5.767,
+   "stripped": true
+  },
+  {
+   "lib": "libbarhopper_v3.so",
+   "bytes": 3244440,
+   "purpose": "ML Kit barcode scanning (barhopper)",
+   "category": "ml",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 30,
+    "segments": 9
+   },
+   "dynamic_symbols": 211,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "AndroidBitmap_getInfo",
+    "AndroidBitmap_lockPixels",
+    "AndroidBitmap_unlockPixels",
+    "strlen",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "__aeabi_memclr",
+    "__aeabi_memcpy",
+    "__aeabi_memclr8",
+    "__aeabi_memset4"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 7.215,
+   "stripped": true
+  },
+  {
+   "lib": "libc++_shared.so",
+   "bytes": 872872,
+   "purpose": "libc++ runtime",
+   "category": "runtime",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 28,
+    "segments": 10
+   },
+   "dynamic_symbols": 2498,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "free",
+    "pthread_mutex_lock",
+    "pthread_cond_wait",
+    "pthread_mutex_unlock",
+    "pthread_cond_broadcast",
+    "fwrite",
+    "vfprintf",
+    "fputc",
+    "vasprintf",
+    "android_set_abort_message"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": false
+   },
+   "entropy_bits_per_byte": 6.884,
+   "stripped": true
+  },
+  {
+   "lib": "libcrashlytics-common.so",
+   "bytes": 435732,
+   "purpose": "Crashlytics native handler",
+   "category": "observability",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 27,
+    "segments": 7
+   },
+   "dynamic_symbols": 180,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__aeabi_memclr8",
+    "strrchr",
+    "__memcpy_chk",
+    "strlen",
+    "__aeabi_memcpy",
+    "abort",
+    "write",
+    "__strlen_chk",
+    "open",
+    "fsync"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.906,
+   "stripped": true
+  },
+  {
+   "lib": "libcrashlytics-handler.so",
+   "bytes": 87908,
+   "purpose": "Crashlytics native handler",
+   "category": "observability",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 26,
+    "segments": 7
+   },
+   "dynamic_symbols": 41,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__android_log_print",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "__aeabi_memcpy",
+    "dlopen",
+    "dlsym",
+    "malloc",
+    "free",
+    "posix_memalign",
+    "__aeabi_memmove"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.516,
+   "stripped": true
+  },
+  {
+   "lib": "libcrashlytics-trampoline.so",
+   "bytes": 6912,
+   "purpose": "unclassified",
+   "category": "unknown",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 34,
+    "segments": 8
+   },
+   "dynamic_symbols": 6,
+   "symbol_sample": [
+    "__libc_init",
+    "__cxa_atexit",
+    "dlopen",
+    "dlsym",
+    "dlerror",
+    "__android_log_print"
+   ],
+   "hardening": {
+    "relro": false,
+    "bind_now": true,
+    "nx": true,
+    "pie": false,
+    "stack_canary": false
+   },
+   "entropy_bits_per_byte": 4.658,
+   "stripped": false
+  },
+  {
+   "lib": "libcrashlytics.so",
+   "bytes": 94540,
+   "purpose": "Crashlytics native handler",
+   "category": "observability",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 26,
+    "segments": 7
+   },
+   "dynamic_symbols": 54,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__android_log_print",
+    "getpid",
+    "__aeabi_memclr8",
+    "__system_property_get",
+    "atoi",
+    "__aeabi_memcpy",
+    "strlen",
+    "dladdr",
+    "dlopen",
+    "dlsym"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.557,
+   "stripped": true
+  },
+  {
+   "lib": "libface_detector_v2_jni.so",
+   "bytes": 5388224,
+   "purpose": "ML Kit face detection",
+   "category": "ml",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 30,
+    "segments": 9
+   },
+   "dynamic_symbols": 230,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "AAssetManager_open",
+    "AAsset_getBuffer",
+    "AAsset_getLength",
+    "AAsset_close",
+    "AAssetManager_fromJava",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "__aeabi_memclr8",
+    "strlen",
+    "memcmp"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 7.149,
+   "stripped": true
+  },
+  {
+   "lib": "libfgcpkjvqe.so",
+   "bytes": 6524160,
+   "purpose": "Randomised-name obfuscated payload (paired with assets/fgcpkjvqe.dat)",
+   "category": "obfuscated",
+   "randomised_name": true,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 30,
+    "segments": 9
+   },
+   "dynamic_symbols": 193,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "__memcpy_chk",
+    "deflate",
+    "deflateEnd",
+    "inflateEnd",
+    "deflateInit2_",
+    "crc32",
+    "inflate",
+    "inflateInit2_"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.266,
+   "stripped": true
+  },
+  {
+   "lib": "libimage_processing_util_jni.so",
+   "bytes": 20380,
+   "purpose": "CameraX image processing",
+   "category": "media",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 26,
+    "segments": 9
+   },
+   "dynamic_symbols": 29,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "AndroidBitmap_lockPixels",
+    "AndroidBitmap_unlockPixels",
+    "ANativeWindow_fromSurface",
+    "__android_log_print",
+    "ANativeWindow_setBuffersGeometry",
+    "ANativeWindow_lock",
+    "ANativeWindow_release",
+    "ANativeWindow_unlockAndPost",
+    "malloc",
+    "free"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.574,
+   "stripped": true
+  },
+  {
+   "lib": "libimagepipeline.so",
+   "bytes": 5876,
+   "purpose": "unclassified",
+   "category": "unknown",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 27,
+    "segments": 9
+   },
+   "dynamic_symbols": 11,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__android_log_print",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "AndroidBitmap_lockPixels",
+    "__aeabi_memcpy",
+    "AndroidBitmap_unlockPixels",
+    "malloc",
+    "free",
+    "JNI_OnLoad"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 5.158,
+   "stripped": true
+  },
+  {
+   "lib": "libljsfrcwmw.so",
+   "bytes": 600296,
+   "purpose": "Randomised-name support library",
+   "category": "obfuscated",
+   "randomised_name": true,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 25,
+    "segments": 9
+   },
+   "dynamic_symbols": 18,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "malloc",
+    "free",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "etoooh",
+    "pthread_mutex_lock",
+    "pthread_mutex_unlock",
+    "jjajwd",
+    "__strlen_chk",
+    "__strncpy_chk"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.433,
+   "stripped": true
+  },
+  {
+   "lib": "liblytcuhe.so",
+   "bytes": 178628,
+   "purpose": "Randomised-name support library",
+   "category": "obfuscated",
+   "randomised_name": true,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 26,
+    "segments": 9
+   },
+   "dynamic_symbols": 338,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__vsnprintf_chk",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "__memcpy_chk",
+    "abort",
+    "fmodf",
+    "fmod",
+    "malloc",
+    "free",
+    "vfprintf"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.629,
+   "stripped": true
+  },
+  {
+   "lib": "libmlkit_google_ocr_pipeline.so",
+   "bytes": 6781940,
+   "purpose": "ML Kit Google OCR pipeline",
+   "category": "ml",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 32,
+    "segments": 9
+   },
+   "dynamic_symbols": 367,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "strlen",
+    "__aeabi_memmove4",
+    "__aeabi_memcpy",
+    "memcmp",
+    "__aeabi_memset",
+    "__aeabi_memclr8",
+    "free",
+    "__aeabi_memmove8"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.98,
+   "stripped": true
+  },
+  {
+   "lib": "libmlkitcommonpipeline.so",
+   "bytes": 6928228,
+   "purpose": "ML Kit shared pipeline",
+   "category": "ml",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 32,
+    "segments": 9
+   },
+   "dynamic_symbols": 367,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "strlen",
+    "free",
+    "__aeabi_memcpy",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "malloc",
+    "posix_memalign",
+    "__aeabi_memcpy4",
+    "pthread_join",
+    "pthread_cond_destroy"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 7.158,
+   "stripped": true
+  },
+  {
+   "lib": "libnative-filters.so",
+   "bytes": 12588,
+   "purpose": "Fresco filters",
+   "category": "ui",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 27,
+    "segments": 9
+   },
+   "dynamic_symbols": 14,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__stack_chk_fail",
+    "__android_log_print",
+    "__stack_chk_guard",
+    "AndroidBitmap_getInfo",
+    "AndroidBitmap_lockPixels",
+    "malloc",
+    "__aeabi_memcpy",
+    "free",
+    "AndroidBitmap_unlockPixels",
+    "__aeabi_memclr"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.327,
+   "stripped": true
+  },
+  {
+   "lib": "libnative-imagetranscoder.so",
+   "bytes": 341072,
+   "purpose": "Fresco image transcoder",
+   "category": "ui",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 27,
+    "segments": 9
+   },
+   "dynamic_symbols": 352,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__android_log_print",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "setjmp",
+    "__aeabi_memclr4",
+    "__aeabi_memclr8",
+    "longjmp",
+    "__aeabi_memmove",
+    "__aeabi_memclr",
+    "__aeabi_memcpy"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.959,
+   "stripped": true
+  },
+  {
+   "lib": "libohxbee.so",
+   "bytes": 155412,
+   "purpose": "Randomised-name support library",
+   "category": "obfuscated",
+   "randomised_name": true,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 25,
+    "segments": 9
+   },
+   "dynamic_symbols": 18,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__memset_chk",
+    "malloc",
+    "free",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "fayjpsel",
+    "calloc",
+    "kxffetq",
+    "__strlen_chk",
+    "__strncpy_chk"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.246,
+   "stripped": true
+  },
+  {
+   "lib": "libpicodet_ncnn.so",
+   "bytes": 2992584,
+   "purpose": "PicoDet detector on NCNN (card/document localisation)",
+   "category": "ml",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 29,
+    "segments": 10
+   },
+   "dynamic_symbols": 2823,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__register_atfork",
+    "__android_log_print",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "dlsym",
+    "free",
+    "powf",
+    "malloc",
+    "fopen",
+    "fgets"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 7.181,
+   "stripped": true
+  },
+  {
+   "lib": "librcmefqonnx.so",
+   "bytes": 178628,
+   "purpose": "ONNX Runtime shim (randomised name)",
+   "category": "ml",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 26,
+    "segments": 9
+   },
+   "dynamic_symbols": 338,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__vsnprintf_chk",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "__memcpy_chk",
+    "abort",
+    "fmodf",
+    "fmod",
+    "malloc",
+    "free",
+    "vfprintf"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.63,
+   "stripped": true
+  },
+  {
+   "lib": "librive-android.so",
+   "bytes": 3225636,
+   "purpose": "Rive animation runtime",
+   "category": "ui",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 28,
+    "segments": 9
+   },
+   "dynamic_symbols": 6224,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "_ZdlPv",
+    "memcmp",
+    "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+    "ANativeWindow_getWidth",
+    "ANativeWindow_getHeight",
+    "_Znwj",
+    "_ZNSt6__ndk122__libcpp_verbose_abortEPKcz",
+    "malloc",
+    "free",
+    "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.417,
+   "stripped": true
+  },
+  {
+   "lib": "libsecurity_lite.so",
+   "bytes": 154840,
+   "purpose": "Vendor security lite",
+   "category": "security",
+   "randomised_name": false,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 27,
+    "segments": 8
+   },
+   "dynamic_symbols": 132,
+   "symbol_sample": [
+    "__cxa_atexit",
+    "__cxa_finalize",
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+    "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest",
+    "_Z14throwExceptionP7_JNIEnvPKc",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "decryptByAes",
+    "encryptByAes",
+    "free"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 7.303,
+   "stripped": true
+  },
+  {
+   "lib": "libsqlcipher.so",
+   "bytes": 3555080,
+   "purpose": "SQLCipher encrypted database",
+   "category": "storage",
+   "randomised_name": true,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 27,
+    "segments": 9
+   },
+   "dynamic_symbols": 656,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__android_log_print",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "strlen",
+    "malloc",
+    "strcat",
+    "free",
+    "usleep",
+    "memcmp",
+    "strtoll"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.694,
+   "stripped": true
+  },
+  {
+   "lib": "libtaibmcf.so",
+   "bytes": 12617752,
+   "purpose": "Alibaba Security Guard (mcf) — risk & anti-fraud engine",
+   "category": "security",
+   "randomised_name": true,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 27,
+    "segments": 9
+   },
+   "dynamic_symbols": 197,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "__memcpy_chk",
+    "deflate",
+    "deflateEnd",
+    "inflateEnd",
+    "deflateInit2_",
+    "crc32",
+    "inflate",
+    "inflateInit2_"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.124,
+   "stripped": true
+  },
+  {
+   "lib": "libtrueidlib.so",
+   "bytes": 79904,
+   "purpose": "TrueID eKYC SDK",
+   "category": "kyc",
+   "randomised_name": true,
+   "elf": {
+    "class": 32,
+    "type": "ET_DYN",
+    "machine": "EM_ARM",
+    "sections": 25,
+    "segments": 9
+   },
+   "dynamic_symbols": 80,
+   "symbol_sample": [
+    "__cxa_finalize",
+    "__cxa_atexit",
+    "free",
+    "malloc",
+    "__stack_chk_fail",
+    "__stack_chk_guard",
+    "__system_property_get",
+    "strstr",
+    "syscall",
+    "fopen",
+    "fgets",
+    "fclose"
+   ],
+   "hardening": {
+    "relro": true,
+    "bind_now": true,
+    "nx": true,
+    "pie": true,
+    "stack_canary": true
+   },
+   "entropy_bits_per_byte": 6.948,
+   "stripped": true
+  }
+ ],
+ "hardening_summary": {
+  "relro": 26,
+  "bind_now": 27,
+  "nx": 27,
+  "pie": 26,
+  "stack_canary": 25
+ },
+ "stripped_pct": 96.3,
+ "entropy_max": {
+  "lib": "libsecurity_lite.so",
+  "bytes": 154840,
+  "purpose": "Vendor security lite",
+  "category": "security",
+  "randomised_name": false,
+  "elf": {
+   "class": 32,
+   "type": "ET_DYN",
+   "machine": "EM_ARM",
+   "sections": 27,
+   "segments": 8
+  },
+  "dynamic_symbols": 132,
+  "symbol_sample": [
+   "__cxa_atexit",
+   "__cxa_finalize",
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest",
+   "_Z14throwExceptionP7_JNIEnvPKc",
+   "__stack_chk_fail",
+   "__stack_chk_guard",
+   "decryptByAes",
+   "encryptByAes",
+   "free"
+  ],
+  "hardening": {
+   "relro": true,
+   "bind_now": true,
+   "nx": true,
+   "pie": true,
+   "stack_canary": true
+  },
+  "entropy_bits_per_byte": 7.303,
+  "stripped": true
+ },
+ "randomised_names": [
+  "libfgcpkjvqe.so",
+  "libljsfrcwmw.so",
+  "liblytcuhe.so",
+  "libohxbee.so",
+  "libsqlcipher.so",
+  "libtaibmcf.so",
+  "libtrueidlib.so"
+ ]
+}
