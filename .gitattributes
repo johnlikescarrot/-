@@ -1,0 +1,7 @@
+*.dex   binary
+*.so    binary
+*.apk   binary
+*.xapk  binary
+*.zip   binary
+data/*.jsonl linguist-generated=true
+data/*.csv   linguist-generated=true

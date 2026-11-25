@@ -1,0 +1,25 @@
+# --- analysis scratch space (never committed) -------------------------------
+work/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# --- large source artifact --------------------------------------------------
+# The 98 MB APKPure ZIP is the study *input*; it is already tracked on main.
+# Extracted splits / DEX / .so trees are rebuilt by `re/run_all.py`.
+work/xapk/
+work/base/
+work/splits/
+
+# --- media intermediates ----------------------------------------------------
+video/.cache/
+video/out/audio/
+video/out/frames/
+video/out/*.wav
+video/out/*.log
+
+# --- python venv artefacts --------------------------------------------------
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/

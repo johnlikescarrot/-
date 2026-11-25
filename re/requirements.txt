@@ -1,0 +1,7 @@
+# Pure-Python static RE stack (no JVM required).
+androguard==4.1.4     # DEX / AXML / ARSC / certificate parsing
+pyelftools>=0.31      # ELF headers, sections, dynamic symbols for lib*.so
+cryptography>=44      # X.509 fingerprint verification for v1/v2 signers
+pillow>=11            # resource thumbnails, figures, video frames
+numpy>=1.26           # numeric summaries, entropy, spectra
+imageio-ffmpeg>=0.5   # static ffmpeg binary (video muxing)
