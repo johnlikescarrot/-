@@ -1,0 +1,144 @@
+{
+  "tool": "rea-agents@6.10.1",
+  "evidence_id": "ev_298bef734cb5421e4c6b841cb3e010bcac71a823a8d6dff078e1b3b750a067d6",
+  "confidence": "derived",
+  "limitations": [
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+    "GriverBridge/create_worker.html has 1 inline JavaScript body starting at line 5 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "GriverBridge/index_inline.html has 1 inline JavaScript body starting at line 16 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "GriverBridge/worker.html has 1 inline JavaScript body starting at line 4 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "GriverErrorPage/griver_custom_h5_page_error.html has 2 inline JavaScript bodies starting at lines 40, 52 that were not analyzed; endpoints, storage, imports and other facts in them are absent from the evidence.",
+    "GriverErrorPage/griver_page_error.html has 1 inline JavaScript body starting at line 184 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "GriverErrorPage/mini-program-native-error.html has 3 inline JavaScript bodies starting at lines 9, 10, 96 that were not analyzed; endpoints, storage, imports and other facts in them are absent from the evidence.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+    "containererrorpage/griver_custom_h5_page_error.html has 2 inline JavaScript bodies starting at lines 40, 52 that were not analyzed; endpoints, storage, imports and other facts in them are absent from the evidence.",
+    "containererrorpage/griver_page_error.html has 1 inline JavaScript body starting at line 153 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence."
+  ],
+  "discovered_sources": [
+    {
+      "id": "jss:dd67374f6678319372e6048bab6a3a27",
+      "key": "GriverBridge/appx_inline_bootstrap_min.js",
+      "path": "GriverBridge/appx_inline_bootstrap_min.js",
+      "url": null,
+      "sha256": "98e536752ad1eb0cc92c0342636c25562d40ce1c13a7b94ac10dc8416190a452",
+      "container_sha256": "8a12c048d3a81729adf3887ac402eaf7e2dfa307d1cd7130df0f697f5b422be1",
+      "status": "complete",
+      "reported_route_capacity": null,
+      "reason": null,
+      "base_path": null
+    },
+    {
+      "id": "jss:845e555995cbf2a01e22c57d16d1a063",
+      "key": "GriverBridge/cover_component.js",
+      "path": "GriverBridge/cover_component.js",
+      "url": null,
+      "sha256": "0bfb0f20cb72e23a1c1b43c2aaf5b49e692e7f5660bab3a0a0544d129486d08b",
+      "container_sha256": "8a12c048d3a81729adf3887ac402eaf7e2dfa307d1cd7130df0f697f5b422be1",
+      "status": "complete",
+      "reported_route_capacity": null,
+      "reason": null,
+      "base_path": null
+    },
+    {
+      "id": "jss:01770bbf1a761f5f7262b8ae52652479",
+      "key": "GriverBridge/h5_bridge.js",
+      "path": "GriverBridge/h5_bridge.js",
+      "url": null,
+      "sha256": "e0f37c8b1163a14fce982c09afbded0249e18a6eca11c97225269d1edd63ec73",
+      "container_sha256": "8a12c048d3a81729adf3887ac402eaf7e2dfa307d1cd7130df0f697f5b422be1",
+      "status": "complete",
+      "reported_route_capacity": null,
+      "reason": null,
+      "base_path": null
+    },
+    {
+      "id": "jss:d39c7fb897de4a12801ae71e2cf2e0ba",
+      "key": "GriverBridge/workerjs.js",
+      "path": "GriverBridge/workerjs.js",
+      "url": null,
+      "sha256": "47c076ffe63168d2164625e6ef533ceec5132fb60803c0193afabf4f13da728c",
+      "container_sha256": "8a12c048d3a81729adf3887ac402eaf7e2dfa307d1cd7130df0f697f5b422be1",
+      "status": "complete",
+      "reported_route_capacity": null,
+      "reason": null,
+      "base_path": null
+    },
+    {
+      "id": "jss:d7431f9c79c614116b8ea19f676a53f7",
+      "key": "android_jsbridge.js",
+      "path": "android_jsbridge.js",
+      "url": null,
+      "sha256": "79d13b8a360b1290af9e1ab640c0686e72cc7cc219f2f927ae1ddf83dd6b3388",
+      "container_sha256": "8a12c048d3a81729adf3887ac402eaf7e2dfa307d1cd7130df0f697f5b422be1",
+      "status": "complete",
+      "reported_route_capacity": null,
+      "reason": null,
+      "base_path": null
+    },
+    {
+      "id": "jss:7dd15ad8aa3028e1fc578d206494db84",
+      "key": "internaljsbridge.js",
+      "path": "internaljsbridge.js",
+      "url": null,
+      "sha256": "0587ef4cfda3ab69dca564bac71d7ac8b6efe02b15f88f979a7374ce3f17ef74",
+      "container_sha256": "8a12c048d3a81729adf3887ac402eaf7e2dfa307d1cd7130df0f697f5b422be1",
+      "status": "complete",
+      "reported_route_capacity": null,
+      "reason": null,
+      "base_path": null
+    },
+    {
+      "id": "jss:b3fc5fb6e977b8dd1770dcdc5b9c78ba",
+      "key": "jsbridge.js",
+      "path": "jsbridge.js",
+      "url": null,
+      "sha256": "2dfe8f8ba6a70ff37d3f2665913532917e6c0fb914fd87dbe198fea3c26d0736",
+      "container_sha256": "8a12c048d3a81729adf3887ac402eaf7e2dfa307d1cd7130df0f697f5b422be1",
+      "status": "complete",
+      "reported_route_capacity": null,
+      "reason": null,
+      "base_path": null
+    },
+    {
+      "id": "jss:ad78201b04522d66d01528485e085821",
+      "key": "webapp.js",
+      "path": "webapp.js",
+      "url": null,
+      "sha256": "73242fce8a393809de4768c505848e8c6f053634cfda379c7ca95ac601b43c15",
+      "container_sha256": "8a12c048d3a81729adf3887ac402eaf7e2dfa307d1cd7130df0f697f5b422be1",
+      "status": "complete",
+      "reported_route_capacity": null,
+      "reason": null,
+      "base_path": null
+    }
+  ],
+  "application_graph_summary": {
+    "module_count": null,
+    "edge_count": null,
+    "entrypoints": null,
+    "electron_boundaries": null
+  },
+  "semantic_graph_summary": {
+    "families": [],
+    "endpoints": null,
+    "storage": null
+  },
+  "normalized_keys": [
+    "input_path",
+    "format",
+    "root_artifact_sha256",
+    "inventory_manifest_id",
+    "inventory_graph_sha256",
+    "integrity_contradictions",
+    "graph",
+    "summary",
+    "statistics",
+    "limitations",
+    "semantic_graph",
+    "route_inventory"
+  ]
+}

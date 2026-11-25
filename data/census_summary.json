@@ -1,0 +1,1993 @@
+{
+  "outer_zip": {
+    "filename": "Zalopay-Thanh+to\u00e1n+&+T\u00e0i+ch\u00ednh_11.17.0_APKPure.zip",
+    "bytes": 98813878,
+    "sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a"
+  },
+  "totals": {
+    "all_indexed_member_files_including_nested": 6832,
+    "xapk_direct_members": 7,
+    "apk_member_files_across_5_apks": 6464,
+    "apk_member_uncompressed_bytes": 195327309,
+    "apk_member_compressed_bytes": 104477912,
+    "nested_asset_archive_members": 360,
+    "nested_asset_archive_uncompressed_bytes": 18543311,
+    "unique_sha256_hashes_all_layers": 6321,
+    "duplicate_content_groups": 314,
+    "duplicate_redundant_bytes": 1121814
+  },
+  "by_container": {
+    "outer_zip": {
+      "file_count": 1,
+      "uncompressed_bytes": 105608128,
+      "compressed_bytes": 98813516
+    },
+    "inner_xapk": {
+      "file_count": 7,
+      "uncompressed_bytes": 105607171,
+      "compressed_bytes": 105607171
+    },
+    "config.armeabi_v7a.apk": {
+      "file_count": 32,
+      "uncompressed_bytes": 57459525,
+      "compressed_bytes": 24813347
+    },
+    "config.en.apk": {
+      "file_count": 6,
+      "uncompressed_bytes": 64699,
+      "compressed_bytes": 63915
+    },
+    "config.vi.apk": {
+      "file_count": 6,
+      "uncompressed_bytes": 78175,
+      "compressed_bytes": 77394
+    },
+    "config.xhdpi.apk": {
+      "file_count": 258,
+      "uncompressed_bytes": 1329300,
+      "compressed_bytes": 1178129
+    },
+    "vn.com.vng.zalopay.apk": {
+      "file_count": 6162,
+      "uncompressed_bytes": 136395610,
+      "compressed_bytes": 78345127
+    },
+    "amr:66666692_1.24.8.amr": {
+      "file_count": 13,
+      "uncompressed_bytes": 1947719,
+      "compressed_bytes": 1256160
+    },
+    "amr:66666693_2.0.7.amr": {
+      "file_count": 10,
+      "uncompressed_bytes": 120727,
+      "compressed_bytes": 73446
+    },
+    "amr:68687209_2.9.7.8.amr": {
+      "file_count": 16,
+      "uncompressed_bytes": 6597412,
+      "compressed_bytes": 4149275
+    },
+    "assets/android.1.zip": {
+      "file_count": 321,
+      "uncompressed_bytes": 9877453,
+      "compressed_bytes": 3830160
+    }
+  },
+  "by_magic_type_across_apks": {
+    "dex_038": {
+      "file_count": 19,
+      "uncompressed_bytes": 64837712
+    },
+    "elf32": {
+      "file_count": 27,
+      "uncompressed_bytes": 57452124
+    },
+    "tflite_flatbuffer": {
+      "file_count": 20,
+      "uncompressed_bytes": 12228448
+    },
+    "android_binary_xml": {
+      "file_count": 5319,
+      "uncompressed_bytes": 9434400
+    },
+    "png": {
+      "file_count": 318,
+      "uncompressed_bytes": 7609554
+    },
+    "truetype_font": {
+      "file_count": 23,
+      "uncompressed_bytes": 6823784
+    },
+    "json_or_text": {
+      "file_count": 64,
+      "uncompressed_bytes": 6677077
+    },
+    "zip_container": {
+      "file_count": 4,
+      "uncompressed_bytes": 5075855
+    },
+    "dex_035": {
+      "file_count": 1,
+      "uncompressed_bytes": 4864036
+    },
+    "yaml_text": {
+      "file_count": 1,
+      "uncompressed_bytes": 3778896
+    },
+    "svg": {
+      "file_count": 2,
+      "uncompressed_bytes": 2551186
+    },
+    "opaque_binary": {
+      "file_count": 39,
+      "uncompressed_bytes": 2453410
+    },
+    "ncnn_weights_bin": {
+      "file_count": 1,
+      "uncompressed_bytes": 2420588
+    },
+    "android_arsc_table": {
+      "file_count": 4,
+      "uncompressed_bytes": 2080800
+    },
+    "webp": {
+      "file_count": 159,
+      "uncompressed_bytes": 1924364
+    },
+    "xml_text": {
+      "file_count": 1,
+      "uncompressed_bytes": 1788328
+    },
+    "gzip": {
+      "file_count": 4,
+      "uncompressed_bytes": 1262453
+    },
+    "opentype_font": {
+      "file_count": 2,
+      "uncompressed_bytes": 588768
+    },
+    "utf8_ascii_text": {
+      "file_count": 317,
+      "uncompressed_bytes": 493222
+    },
+    "gif": {
+      "file_count": 5,
+      "uncompressed_bytes": 222888
+    },
+    "rive_animation": {
+      "file_count": 4,
+      "uncompressed_bytes": 160014
+    },
+    "protobuf_bin": {
+      "file_count": 6,
+      "uncompressed_bytes": 158684
+    },
+    "mp3_audio": {
+      "file_count": 2,
+      "uncompressed_bytes": 103132
+    },
+    "java_properties": {
+      "file_count": 74,
+      "uncompressed_bytes": 92181
+    },
+    "html": {
+      "file_count": 9,
+      "uncompressed_bytes": 64751
+    },
+    "kotlin_metadata_bin": {
+      "file_count": 19,
+      "uncompressed_bytes": 52814
+    },
+    "jpeg": {
+      "file_count": 2,
+      "uncompressed_bytes": 52579
+    },
+    "javascript": {
+      "file_count": 9,
+      "uncompressed_bytes": 35677
+    },
+    "android_art_profile": {
+      "file_count": 1,
+      "uncompressed_bytes": 18503
+    },
+    "ncnn_graph_param": {
+      "file_count": 1,
+      "uncompressed_bytes": 15293
+    },
+    "der_asn1_pkcs7": {
+      "file_count": 4,
+      "uncompressed_bytes": 4428
+    },
+    "pem_encoded": {
+      "file_count": 3,
+      "uncompressed_bytes": 1360
+    }
+  },
+  "by_subsystem_across_apks": {
+    "primary_multidex_bytecode": {
+      "file_count": 19,
+      "uncompressed_bytes": 64837712,
+      "compressed_bytes": 28923785
+    },
+    "native_elf_library": {
+      "file_count": 27,
+      "uncompressed_bytes": 57452124,
+      "compressed_bytes": 24809641
+    },
+    "assets_on_device_ml_cv": {
+      "file_count": 45,
+      "uncompressed_bytes": 15966636,
+      "compressed_bytes": 14970884
+    },
+    "res_raster_image": {
+      "file_count": 473,
+      "uncompressed_bytes": 9716239,
+      "compressed_bytes": 9716239
+    },
+    "res_compiled_xml": {
+      "file_count": 5314,
+      "uncompressed_bytes": 9304416,
+      "compressed_bytes": 3605385
+    },
+    "res_font": {
+      "file_count": 13,
+      "uncompressed_bytes": 6529796,
+      "compressed_bytes": 2780261
+    },
+    "res_raw_opencv_cv_models": {
+      "file_count": 2,
+      "uncompressed_bytes": 5567224,
+      "compressed_bytes": 2000784
+    },
+    "res_raw_lottie_rive_json": {
+      "file_count": 48,
+      "uncompressed_bytes": 5020088,
+      "compressed_bytes": 2806727
+    },
+    "assets_secondary_dex": {
+      "file_count": 1,
+      "uncompressed_bytes": 4864036,
+      "compressed_bytes": 2284095
+    },
+    "assets_react_native_zip": {
+      "file_count": 1,
+      "uncompressed_bytes": 3913966,
+      "compressed_bytes": 3851147
+    },
+    "res_other": {
+      "file_count": 4,
+      "uncompressed_bytes": 2564171,
+      "compressed_bytes": 1910152
+    },
+    "resource_table": {
+      "file_count": 4,
+      "uncompressed_bytes": 2080800,
+      "compressed_bytes": 2080800
+    },
+    "assets_config_media_other": {
+      "file_count": 29,
+      "uncompressed_bytes": 1882298,
+      "compressed_bytes": 262358
+    },
+    "assets_griver_miniapp_engine": {
+      "file_count": 16,
+      "uncompressed_bytes": 1255624,
+      "compressed_bytes": 1209188
+    },
+    "bouncycastle_pqc_table": {
+      "file_count": 3,
+      "uncompressed_bytes": 1221059,
+      "compressed_bytes": 1214815
+    },
+    "assets_fonts": {
+      "file_count": 12,
+      "uncompressed_bytes": 925636,
+      "compressed_bytes": 457692
+    },
+    "assets_shield_or_companion_blob": {
+      "file_count": 6,
+      "uncompressed_bytes": 786040,
+      "compressed_bytes": 786040
+    },
+    "java_classpath_resource": {
+      "file_count": 147,
+      "uncompressed_bytes": 511144,
+      "compressed_bytes": 188110
+    },
+    "assets_visa_cbp_hce_nfc": {
+      "file_count": 4,
+      "uncompressed_bytes": 371016,
+      "compressed_bytes": 371016
+    },
+    "signing_and_meta_inf": {
+      "file_count": 192,
+      "uncompressed_bytes": 202897,
+      "compressed_bytes": 70144
+    },
+    "manifest": {
+      "file_count": 5,
+      "uncompressed_bytes": 129984,
+      "compressed_bytes": 21204
+    },
+    "res_raw_audio": {
+      "file_count": 2,
+      "uncompressed_bytes": 103132,
+      "compressed_bytes": 103132
+    },
+    "kotlin_runtime_metadata": {
+      "file_count": 10,
+      "uncompressed_bytes": 53490,
+      "compressed_bytes": 13121
+    },
+    "assets_art_baseline_profile": {
+      "file_count": 2,
+      "uncompressed_bytes": 20412,
+      "compressed_bytes": 20412
+    },
+    "root_misc": {
+      "file_count": 8,
+      "uncompressed_bytes": 16435,
+      "compressed_bytes": 6443
+    },
+    "assets_miniapp_error_pages": {
+      "file_count": 2,
+      "uncompressed_bytes": 12654,
+      "compressed_bytes": 6657
+    },
+    "assets_js_bridge": {
+      "file_count": 4,
+      "uncompressed_bytes": 11816,
+      "compressed_bytes": 3328
+    },
+    "maven_version_properties": {
+      "file_count": 69,
+      "uncompressed_bytes": 5554,
+      "compressed_bytes": 3617
+    },
+    "assets_crypto_public_key": {
+      "file_count": 2,
+      "uncompressed_bytes": 910,
+      "compressed_bytes": 735
+    }
+  },
+  "compression_methods_across_apks": {
+    "DEFLATED": 5784,
+    "STORED": 680
+  },
+  "top_40_largest_apk_files": [
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "classes2.dex",
+      "extension": ".dex",
+      "uncompressed_bytes": 16516960,
+      "compressed_bytes": 8342327,
+      "compression": "DEFLATED",
+      "crc32": "96cc4f2b",
+      "sha256": "af4987a99dd7bb69a835933be5e6ee5ec412de051bb0958fb253742b3fd462d9",
+      "magic_type": "dex_038",
+      "shannon_entropy": 6.8181,
+      "subsystem": "primary_multidex_bytecode"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/libtaibmcf.so",
+      "extension": ".so",
+      "uncompressed_bytes": 12617752,
+      "compressed_bytes": 3076892,
+      "compression": "DEFLATED",
+      "crc32": "62df92e7",
+      "sha256": "0fba080d0364fc0f7a8f61611551ef3b231c8ad0c95113446916099f8112d650",
+      "magic_type": "elf32",
+      "shannon_entropy": 6.1236,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "classes7.dex",
+      "extension": ".dex",
+      "uncompressed_bytes": 10803680,
+      "compressed_bytes": 4622753,
+      "compression": "DEFLATED",
+      "crc32": "013c24c6",
+      "sha256": "5f356407a685dbe335719b9c8b34d1e47870b15634cc6f856e3bc12401726ff2",
+      "magic_type": "dex_038",
+      "shannon_entropy": 6.3721,
+      "subsystem": "primary_multidex_bytecode"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "classes4.dex",
+      "extension": ".dex",
+      "uncompressed_bytes": 9418124,
+      "compressed_bytes": 4132672,
+      "compression": "DEFLATED",
+      "crc32": "21254419",
+      "sha256": "77eb2deb3c18c0a56742d2fc5b7974a791b2b31298961c65dc9b3db8427602af",
+      "magic_type": "dex_038",
+      "shannon_entropy": 6.3641,
+      "subsystem": "primary_multidex_bytecode"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "classes.dex",
+      "extension": ".dex",
+      "uncompressed_bytes": 8831004,
+      "compressed_bytes": 3797844,
+      "compression": "DEFLATED",
+      "crc32": "52e99be2",
+      "sha256": "4572f052124fb4ebe9859e7311dd08251487ef258e6e39215456fe2918ceb9eb",
+      "magic_type": "dex_038",
+      "shannon_entropy": 6.3492,
+      "subsystem": "primary_multidex_bytecode"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "classes6.dex",
+      "extension": ".dex",
+      "uncompressed_bytes": 7612432,
+      "compressed_bytes": 3412313,
+      "compression": "DEFLATED",
+      "crc32": "e7464992",
+      "sha256": "1484dd8a338f8526b21d375325f5cb2aa4f596e471758e36e3d142ebf0ec3518",
+      "magic_type": "dex_038",
+      "shannon_entropy": 6.5447,
+      "subsystem": "primary_multidex_bytecode"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "classes5.dex",
+      "extension": ".dex",
+      "uncompressed_bytes": 7357484,
+      "compressed_bytes": 2816380,
+      "compression": "DEFLATED",
+      "crc32": "0f8eea8a",
+      "sha256": "c6fdc65622c1855a53a7e86ef695a7575f9fe27284e6e6555d52017a122fa9b4",
+      "magic_type": "dex_038",
+      "shannon_entropy": 6.2987,
+      "subsystem": "primary_multidex_bytecode"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/libmlkitcommonpipeline.so",
+      "extension": ".so",
+      "uncompressed_bytes": 6928228,
+      "compressed_bytes": 3675078,
+      "compression": "DEFLATED",
+      "crc32": "f066c592",
+      "sha256": "9ab65cd53ed8334fc0fcd09fe3c442f2a9bb6653e1392bc0ff4a1c1381aba7db",
+      "magic_type": "elf32",
+      "shannon_entropy": 7.1582,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/libmlkit_google_ocr_pipeline.so",
+      "extension": ".so",
+      "uncompressed_bytes": 6781940,
+      "compressed_bytes": 3513116,
+      "compression": "DEFLATED",
+      "crc32": "264f5dd0",
+      "sha256": "06b9e2f587e401c6446aa0db344bb31b622957a2d04aa4eac03cde8b3a6ed78a",
+      "magic_type": "elf32",
+      "shannon_entropy": 6.98,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/libfgcpkjvqe.so",
+      "extension": ".so",
+      "uncompressed_bytes": 6524160,
+      "compressed_bytes": 2394866,
+      "compression": "DEFLATED",
+      "crc32": "7e3349d5",
+      "sha256": "5f72893936adfe712e8355c33c6f453c45396c7f58c8f05c9acc9c8f83c15b39",
+      "magic_type": "elf32",
+      "shannon_entropy": 6.2658,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/libface_detector_v2_jni.so",
+      "extension": ".so",
+      "uncompressed_bytes": 5388224,
+      "compressed_bytes": 2821904,
+      "compression": "DEFLATED",
+      "crc32": "c0dc2e9d",
+      "sha256": "21e48bd253e1c87edee42bce9a51048ac3082d681446d0d05a79c4ad0f5e187b",
+      "magic_type": "elf32",
+      "shannon_entropy": 7.1486,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/audience_network.dex",
+      "extension": ".dex",
+      "uncompressed_bytes": 4864036,
+      "compressed_bytes": 2284095,
+      "compression": "DEFLATED",
+      "crc32": "947a8ef8",
+      "sha256": "10dc305fb2869db288bec2e114b32303dd627190dd6b23126d5e7aa610e44938",
+      "magic_type": "dex_035",
+      "shannon_entropy": 6.465,
+      "subsystem": "assets_secondary_dex"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/android.1.zip",
+      "extension": ".zip",
+      "uncompressed_bytes": 3913966,
+      "compressed_bytes": 3851147,
+      "compression": "DEFLATED",
+      "crc32": "99dc9268",
+      "sha256": "e5358e94d6938eb1502857a78dfdb6fae7095e6859103abad9017127cd82cbda",
+      "magic_type": "zip_container",
+      "shannon_entropy": 7.9955,
+      "subsystem": "assets_react_native_zip"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/raw/lbfmodel.yaml",
+      "extension": ".yaml",
+      "uncompressed_bytes": 3778896,
+      "compressed_bytes": 1858134,
+      "compression": "DEFLATED",
+      "crc32": "0ca75501",
+      "sha256": "fd547ca1efe6784cefdd9d4026c674e96c622681d3f9fa46c9499d5cee9c76cf",
+      "magic_type": "yaml_text",
+      "shannon_entropy": 5.1917,
+      "subsystem": "res_raw_opencv_cv_models"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/custom_models/object_labeler.tflite",
+      "extension": ".tflite",
+      "uncompressed_bytes": 3770391,
+      "compressed_bytes": 3770391,
+      "compression": "STORED",
+      "crc32": "c7712634",
+      "sha256": "9400671e04685f5277edd3052a311cc51533de9da94255c52ebde1e18484c77c",
+      "magic_type": "tflite_flatbuffer",
+      "shannon_entropy": 5.9658,
+      "subsystem": "assets_on_device_ml_cv"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/libsqlcipher.so",
+      "extension": ".so",
+      "uncompressed_bytes": 3555080,
+      "compressed_bytes": 1875931,
+      "compression": "DEFLATED",
+      "crc32": "61154916",
+      "sha256": "819c11750f332a8ca0d88f251d0d22d664f559b8ed10f7a4c61cc90be49f3f44",
+      "magic_type": "elf32",
+      "shannon_entropy": 6.6941,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/libbarhopper_v3.so",
+      "extension": ".so",
+      "uncompressed_bytes": 3244440,
+      "compressed_bytes": 1787700,
+      "compression": "DEFLATED",
+      "crc32": "18cb29e5",
+      "sha256": "b3c162c69e4906b816227ae116bfd8b9ff19cfdd58a3de0c9a9b110e030063e9",
+      "magic_type": "elf32",
+      "shannon_entropy": 7.2147,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/librive-android.so",
+      "extension": ".so",
+      "uncompressed_bytes": 3225636,
+      "compressed_bytes": 1320274,
+      "compression": "DEFLATED",
+      "crc32": "ce859d40",
+      "sha256": "ab2dd352553cafb7b7f1a686df8bf33c814b977e7c1cdf1e65d8c99c5cb0e782",
+      "magic_type": "elf32",
+      "shannon_entropy": 6.4175,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/libpicodet_ncnn.so",
+      "extension": ".so",
+      "uncompressed_bytes": 2992584,
+      "compressed_bytes": 1482877,
+      "compression": "DEFLATED",
+      "crc32": "301472e0",
+      "sha256": "442367c2e7f3e5b5f70ed8164f375d6306720eb1d3ddba4fdd936e569214230e",
+      "magic_type": "elf32",
+      "shannon_entropy": 7.1811,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/FastestDet.ncnn.bin",
+      "extension": ".bin",
+      "uncompressed_bytes": 2420588,
+      "compressed_bytes": 2237555,
+      "compression": "DEFLATED",
+      "crc32": "94bc3960",
+      "sha256": "ee8e29ed0889be186336751d4ff1db13d8bd087fef45c116c2298a8859822e10",
+      "magic_type": "ncnn_weights_bin",
+      "shannon_entropy": 7.5305,
+      "subsystem": "assets_on_device_ml_cv"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/libVFaceLib.so",
+      "extension": ".so",
+      "uncompressed_bytes": 1963668,
+      "compressed_bytes": 966152,
+      "compression": "DEFLATED",
+      "crc32": "5319b71c",
+      "sha256": "c6d04f368fe967fb1fd2666519f78cf8fa5fdc3a95a1ffbb0095370483592329",
+      "magic_type": "elf32",
+      "shannon_entropy": 7.1116,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "resources.arsc",
+      "extension": ".arsc",
+      "uncompressed_bytes": 1802300,
+      "compressed_bytes": 1802300,
+      "compression": "STORED",
+      "crc32": "f0183a1c",
+      "sha256": "c1a88cee523bbd9744597311d557984a8e3cf16d3c9646332f86abd8498bee56",
+      "magic_type": "android_arsc_table",
+      "shannon_entropy": 4.7505,
+      "subsystem": "resource_table"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/raw/haarcascade_frontalface_default.xml",
+      "extension": ".xml",
+      "uncompressed_bytes": 1788328,
+      "compressed_bytes": 142650,
+      "compression": "DEFLATED",
+      "crc32": "e4949e4d",
+      "sha256": "1d794326dc222eee809fc14e7b58bf7f139721e6a33d4ad2c2449bc56ca5f567",
+      "magic_type": "xml_text",
+      "shannon_entropy": 2.5664,
+      "subsystem": "res_raw_opencv_cv_models"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/font/sf_compact_rounded_medium.ttf",
+      "extension": ".ttf",
+      "uncompressed_bytes": 1785056,
+      "compressed_bytes": 742588,
+      "compression": "DEFLATED",
+      "crc32": "c908e0a2",
+      "sha256": "6d06eb43b58b9e3f1350e0bcf8a629be81e49f5dedea3bafa10242569956f5f7",
+      "magic_type": "truetype_font",
+      "shannon_entropy": 6.9531,
+      "subsystem": "res_font"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/font/sf_compact_rounded_bold.ttf",
+      "extension": ".ttf",
+      "uncompressed_bytes": 1782560,
+      "compressed_bytes": 744220,
+      "compression": "DEFLATED",
+      "crc32": "4e00ecfe",
+      "sha256": "67f6ac2a6598d1f4b1d59baec36011cb32bb6ed85e8513c11be52b2a5f921c54",
+      "magic_type": "truetype_font",
+      "shannon_entropy": 6.9664,
+      "subsystem": "res_font"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+      "extension": ".tflite",
+      "uncompressed_bytes": 1706957,
+      "compressed_bytes": 1706957,
+      "compression": "STORED",
+      "crc32": "400b0f2f",
+      "sha256": "479cb95767462b2fd9dd6df75702c7cc25dc6cfd5e0394a77fce31a4dbadf970",
+      "magic_type": "tflite_flatbuffer",
+      "shannon_entropy": 6.5768,
+      "subsystem": "assets_on_device_ml_cv"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/raw/img_guide_back_id_card.json",
+      "extension": ".json",
+      "uncompressed_bytes": 1449629,
+      "compressed_bytes": 1097025,
+      "compression": "DEFLATED",
+      "crc32": "68d78217",
+      "sha256": "23bbd0bb299f3e21cba1532574f70970bff265fc51366407b8b50bed8b36a442",
+      "magic_type": "json_or_text",
+      "shannon_entropy": 6.0039,
+      "subsystem": "res_raw_lottie_rive_json"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/raw/required_kyc.svg",
+      "extension": ".svg",
+      "uncompressed_bytes": 1436457,
+      "compressed_bytes": 1073608,
+      "compression": "DEFLATED",
+      "crc32": "daa4df4c",
+      "sha256": "d5097b36b553b5f201b1141cc89420f28b552d54a301608557d321319adb0cf2",
+      "magic_type": "svg",
+      "shannon_entropy": 6.0016,
+      "subsystem": "res_other"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+      "extension": ".tflite",
+      "uncompressed_bytes": 1254848,
+      "compressed_bytes": 1254848,
+      "compression": "STORED",
+      "crc32": "d4fddb8b",
+      "sha256": "fb5e5188b03c3bc0f12b797d7e1a7ffe76f405f06e9f7e33258705fc8c9f465e",
+      "magic_type": "tflite_flatbuffer",
+      "shannon_entropy": 6.8944,
+      "subsystem": "assets_on_device_ml_cv"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "classes9.dex",
+      "extension": ".dex",
+      "uncompressed_bytes": 1218908,
+      "compressed_bytes": 434564,
+      "compression": "DEFLATED",
+      "crc32": "a5931db1",
+      "sha256": "e9b46539c92987be18e840d9ffdc338e00505d52a04e117cc79ccbd8337522f5",
+      "magic_type": "dex_038",
+      "shannon_entropy": 6.0609,
+      "subsystem": "primary_multidex_bytecode"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/models_bundled/contours.tfl",
+      "extension": ".tfl",
+      "uncompressed_bytes": 1124144,
+      "compressed_bytes": 1024542,
+      "compression": "DEFLATED",
+      "crc32": "5f577dba",
+      "sha256": "84160bc0c4a749517e62f93cb2c68ab8ff49de571f70eb6d160254ca9a0789c0",
+      "magic_type": "tflite_flatbuffer",
+      "shannon_entropy": 7.4272,
+      "subsystem": "assets_on_device_ml_cv"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/raw/phone_pending.svg",
+      "extension": ".svg",
+      "uncompressed_bytes": 1114729,
+      "compressed_bytes": 829792,
+      "compression": "DEFLATED",
+      "crc32": "1c1456a5",
+      "sha256": "c26a9facfc37bec006e25fba62d04a15285e5db60ebff1253322e4a9c6159e57",
+      "magic_type": "svg",
+      "shannon_entropy": 6.0056,
+      "subsystem": "res_other"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/models_bundled/LMprec_600.emd",
+      "extension": ".emd",
+      "uncompressed_bytes": 1078354,
+      "compressed_bytes": 795793,
+      "compression": "DEFLATED",
+      "crc32": "81781dec",
+      "sha256": "0ed5c85282f940d14a5723a6c0af05f9c2abd4e930c3c4f0be5a07236d374111",
+      "magic_type": "opaque_binary",
+      "shannon_entropy": 6.6241,
+      "subsystem": "assets_on_device_ml_cv"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/liba97d.so",
+      "extension": ".so",
+      "uncompressed_bytes": 997572,
+      "compressed_bytes": 484043,
+      "compression": "DEFLATED",
+      "crc32": "b7e308e4",
+      "sha256": "7fe7d830805a1e99f0d3661a99fdad20e5ea3f4998c65b3565fde4602ce2181e",
+      "magic_type": "elf32",
+      "shannon_entropy": 6.2211,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/config/miniapp_config.json",
+      "extension": ".json",
+      "uncompressed_bytes": 883684,
+      "compressed_bytes": 45761,
+      "compression": "DEFLATED",
+      "crc32": "dae8375a",
+      "sha256": "e69ba84631346485681a5e70e17d5fd1874c064f66a5736525597a50a4206cc7",
+      "magic_type": "json_or_text",
+      "shannon_entropy": 4.4226,
+      "subsystem": "assets_config_media_other"
+    },
+    {
+      "container": "config.armeabi_v7a.apk",
+      "path": "lib/armeabi-v7a/libc++_shared.so",
+      "extension": ".so",
+      "uncompressed_bytes": 872872,
+      "compressed_bytes": 349046,
+      "compression": "DEFLATED",
+      "crc32": "fb70dd1e",
+      "sha256": "91b49f121b3120538faff020fcf535ade1d945e65ccd793fc0b815b5799bbdf0",
+      "magic_type": "elf32",
+      "shannon_entropy": 6.8845,
+      "subsystem": "native_elf_library"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/Griver/68687209_2.9.7.8.amr",
+      "extension": ".amr",
+      "uncompressed_bytes": 856974,
+      "compressed_bytes": 856974,
+      "compression": "STORED",
+      "crc32": "3146e1d0",
+      "sha256": "3e67a09c8d76338cebf8cd495adbf72f26f5aecb7362e4ace4ce5dd6d0c2ad22",
+      "magic_type": "zip_container",
+      "shannon_entropy": 7.9994,
+      "subsystem": "assets_griver_miniapp_engine"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "classes3.dex",
+      "extension": ".dex",
+      "uncompressed_bytes": 850600,
+      "compressed_bytes": 383547,
+      "compression": "DEFLATED",
+      "crc32": "17626600",
+      "sha256": "7e84baa2c50fd46554628176ee7a802bb13f36e7cfe1278efbed2739a4d14881",
+      "magic_type": "dex_038",
+      "shannon_entropy": 6.1321,
+      "subsystem": "primary_multidex_bytecode"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/fgcpkjvqe.dat",
+      "extension": ".dat",
+      "uncompressed_bytes": 776320,
+      "compressed_bytes": 776320,
+      "compression": "STORED",
+      "crc32": "e5b2d10a",
+      "sha256": "cb8c0211e579f1039fbc4a5fc6d22a24c28812e701f0d7b378f7b6a4bbafe226",
+      "magic_type": "opaque_binary",
+      "shannon_entropy": 7.9998,
+      "subsystem": "assets_shield_or_companion_blob"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "org/bouncycastle/pqc/crypto/picnic/lowmcL5.bin.properties",
+      "extension": ".properties",
+      "uncompressed_bytes": 752652,
+      "compressed_bytes": 749257,
+      "compression": "DEFLATED",
+      "crc32": "9bd60093",
+      "sha256": "b2b3a0e90d15133f7371eb796299fc1f8ccf5bca7a760ccb7b5b3111cc8e4b9a",
+      "magic_type": "gzip",
+      "shannon_entropy": 7.9966,
+      "subsystem": "bouncycastle_pqc_table"
+    }
+  ],
+  "top_35_highest_entropy_apk_files_ge_512b": [
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/fgcpkjvqe.dat",
+      "extension": ".dat",
+      "uncompressed_bytes": 776320,
+      "compressed_bytes": 776320,
+      "compression": "STORED",
+      "crc32": "e5b2d10a",
+      "sha256": "cb8c0211e579f1039fbc4a5fc6d22a24c28812e701f0d7b378f7b6a4bbafe226",
+      "magic_type": "opaque_binary",
+      "shannon_entropy": 7.9998,
+      "subsystem": "assets_shield_or_companion_blob"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/Griver/68687209_2.9.7.8.amr",
+      "extension": ".amr",
+      "uncompressed_bytes": 856974,
+      "compressed_bytes": 856974,
+      "compression": "STORED",
+      "crc32": "3146e1d0",
+      "sha256": "3e67a09c8d76338cebf8cd495adbf72f26f5aecb7362e4ace4ce5dd6d0c2ad22",
+      "magic_type": "zip_container",
+      "shannon_entropy": 7.9994,
+      "subsystem": "assets_griver_miniapp_engine"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/com/visa/cbp/74e13961eb6489ab-",
+      "extension": "(none)",
+      "uncompressed_bytes": 265304,
+      "compressed_bytes": 265304,
+      "compression": "STORED",
+      "crc32": "f6d32e0e",
+      "sha256": "317ed670fbd62a0c82d7771f30a1b52343492efa8bcbcf5090e17685e35c0c85",
+      "magic_type": "opaque_binary",
+      "shannon_entropy": 7.9993,
+      "subsystem": "assets_visa_cbp_hce_nfc"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/Griver/66666692_1.24.8.amr",
+      "extension": ".amr",
+      "uncompressed_bytes": 287535,
+      "compressed_bytes": 287535,
+      "compression": "STORED",
+      "crc32": "eeab48da",
+      "sha256": "02b7cf32e5e71d62667ed8bcc24c9c2c4eb7e644f49e487fd06e1cba19290e31",
+      "magic_type": "zip_container",
+      "shannon_entropy": 7.9989,
+      "subsystem": "assets_griver_miniapp_engine"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/com/visa/cbp/a2687fec63dbeebcd-",
+      "extension": "(none)",
+      "uncompressed_bytes": 80308,
+      "compressed_bytes": 80308,
+      "compression": "STORED",
+      "crc32": "806d4fed",
+      "sha256": "62b9e4ee0bba0dae62d7d5ce780f42158954828d5e6badc2dfd8ba8c2322d612",
+      "magic_type": "opaque_binary",
+      "shannon_entropy": 7.9977,
+      "subsystem": "assets_visa_cbp_hce_nfc"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/img_content_popup_vneid.webp",
+      "extension": ".webp",
+      "uncompressed_bytes": 182426,
+      "compressed_bytes": 182426,
+      "compression": "STORED",
+      "crc32": "7502f1ff",
+      "sha256": "ff5eada961584f32aebe05c098187e94586feb63cae58651888e08ed08ca459e",
+      "magic_type": "webp",
+      "shannon_entropy": 7.9974,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/vietqr_promotion_banner.png",
+      "extension": ".png",
+      "uncompressed_bytes": 283031,
+      "compressed_bytes": 283031,
+      "compression": "STORED",
+      "crc32": "891a37c4",
+      "sha256": "5d73dd833a66bab95d49c2701c390edd159dcb2ea82e60471b08cba089c0964f",
+      "magic_type": "png",
+      "shannon_entropy": 7.9972,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "org/bouncycastle/pqc/crypto/picnic/lowmcL5.bin.properties",
+      "extension": ".properties",
+      "uncompressed_bytes": 752652,
+      "compressed_bytes": 749257,
+      "compression": "DEFLATED",
+      "crc32": "9bd60093",
+      "sha256": "b2b3a0e90d15133f7371eb796299fc1f8ccf5bca7a760ccb7b5b3111cc8e4b9a",
+      "magic_type": "gzip",
+      "shannon_entropy": 7.9966,
+      "subsystem": "bouncycastle_pqc_table"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/img_id_card_sample.webp",
+      "extension": ".webp",
+      "uncompressed_bytes": 63228,
+      "compressed_bytes": 63228,
+      "compression": "STORED",
+      "crc32": "7ffcd884",
+      "sha256": "164f5424e326cbe40bfa366be6273516f1f5f1c148f5dddfbf088869a5107c93",
+      "magic_type": "webp",
+      "shannon_entropy": 7.9963,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable-xxhdpi-v4/img_check_front_back_card.png",
+      "extension": ".png",
+      "uncompressed_bytes": 117834,
+      "compressed_bytes": 117834,
+      "compression": "STORED",
+      "crc32": "dede95b8",
+      "sha256": "6364e2b15888ba1730a4a02dfc46899737c2bac84d696c752b4a27ddb3ac09ee",
+      "magic_type": "png",
+      "shannon_entropy": 7.9962,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/facesdk_ic_success.png",
+      "extension": ".png",
+      "uncompressed_bytes": 244058,
+      "compressed_bytes": 244058,
+      "compression": "STORED",
+      "crc32": "984d9b06",
+      "sha256": "246df0b69c01f6b44ff3646a0e945ba067cead1a66de1eb56f1a0beb2ef7b9b1",
+      "magic_type": "png",
+      "shannon_entropy": 7.9961,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/ic_place_id_cccd_pro_guidance.webp",
+      "extension": ".webp",
+      "uncompressed_bytes": 59320,
+      "compressed_bytes": 59320,
+      "compression": "STORED",
+      "crc32": "07691251",
+      "sha256": "a2695d3f7e1d4f61764870c07807e54146009c5a52d52b8ce544187814e487c5",
+      "magic_type": "webp",
+      "shannon_entropy": 7.9958,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/img_id_card_error.png",
+      "extension": ".png",
+      "uncompressed_bytes": 188064,
+      "compressed_bytes": 188064,
+      "compression": "STORED",
+      "crc32": "cef9d030",
+      "sha256": "ffe1e1c196e3cda12d6f20e300e830a20630fac34d83e11618825f4c290721ad",
+      "magic_type": "png",
+      "shannon_entropy": 7.9957,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "assets/android.1.zip",
+      "extension": ".zip",
+      "uncompressed_bytes": 3913966,
+      "compressed_bytes": 3851147,
+      "compression": "DEFLATED",
+      "crc32": "99dc9268",
+      "sha256": "e5358e94d6938eb1502857a78dfdb6fae7095e6859103abad9017127cd82cbda",
+      "magic_type": "zip_container",
+      "shannon_entropy": 7.9955,
+      "subsystem": "assets_react_native_zip"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "org/bouncycastle/pqc/crypto/picnic/lowmcL1.bin.properties",
+      "extension": ".properties",
+      "uncompressed_bytes": 118306,
+      "compressed_bytes": 117380,
+      "compression": "DEFLATED",
+      "crc32": "2343a779",
+      "sha256": "4f4ae14c89cbd0410c44edfb9b34ddf3f77fc04f2824f2c402bb35ac6d45e133",
+      "magic_type": "gzip",
+      "shannon_entropy": 7.9954,
+      "subsystem": "bouncycastle_pqc_table"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/ic_home_vouchers_component_header_suffix.png",
+      "extension": ".png",
+      "uncompressed_bytes": 66828,
+      "compressed_bytes": 66828,
+      "compression": "STORED",
+      "crc32": "6a09d8e7",
+      "sha256": "1377a7f813db3e9929f9674a305d0f2fac1ea492895b4d6b5d7e2372e950424e",
+      "magic_type": "png",
+      "shannon_entropy": 7.9946,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "org/bouncycastle/pqc/crypto/picnic/lowmcL3.bin.properties",
+      "extension": ".properties",
+      "uncompressed_bytes": 350101,
+      "compressed_bytes": 348178,
+      "compression": "DEFLATED",
+      "crc32": "a96787d9",
+      "sha256": "2f513e6c9a33a9ef8a810f21da187eeae3ff989e458cffaa829d0103a0f3d734",
+      "magic_type": "gzip",
+      "shannon_entropy": 7.9945,
+      "subsystem": "bouncycastle_pqc_table"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/preview_movie_app_widget.png",
+      "extension": ".png",
+      "uncompressed_bytes": 248179,
+      "compressed_bytes": 248179,
+      "compression": "STORED",
+      "crc32": "5f8073ce",
+      "sha256": "97f9f5197c4d720265dcd3e8ffda8935d581b42607b6bbde6b3a2aa64824002b",
+      "magic_type": "png",
+      "shannon_entropy": 7.9945,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/bg_cashier_new_ui_header.png",
+      "extension": ".png",
+      "uncompressed_bytes": 99295,
+      "compressed_bytes": 99295,
+      "compression": "STORED",
+      "crc32": "8e7f47ba",
+      "sha256": "77cca31de49fd714143b7a7d2eaeaef7173f81cd576e85d2412b500df96b77a3",
+      "magic_type": "png",
+      "shannon_entropy": 7.9945,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/bg_rp_new_ui_header.png",
+      "extension": ".png",
+      "uncompressed_bytes": 99295,
+      "compressed_bytes": 99295,
+      "compression": "STORED",
+      "crc32": "8e7f47ba",
+      "sha256": "77cca31de49fd714143b7a7d2eaeaef7173f81cd576e85d2412b500df96b77a3",
+      "magic_type": "png",
+      "shannon_entropy": 7.9945,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "config.xhdpi.apk",
+      "path": "res/drawable-xhdpi-v4/mascot_toro_face_sad.png",
+      "extension": ".png",
+      "uncompressed_bytes": 287748,
+      "compressed_bytes": 287748,
+      "compression": "STORED",
+      "crc32": "4f7996ad",
+      "sha256": "65e55263d206e57fd685951e5f26beaa15a2c1c06b34f725bb0c852b70dd220e",
+      "magic_type": "png",
+      "shannon_entropy": 7.9943,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/img_nfc_on_behafl.png",
+      "extension": ".png",
+      "uncompressed_bytes": 134866,
+      "compressed_bytes": 134866,
+      "compression": "STORED",
+      "crc32": "99b22391",
+      "sha256": "335fad5bc45221f40b3d09ae3b78af4bfd91ac1eb69f529c802bf47259377970",
+      "magic_type": "png",
+      "shannon_entropy": 7.9943,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/preview_game_app_widget.png",
+      "extension": ".png",
+      "uncompressed_bytes": 251098,
+      "compressed_bytes": 251098,
+      "compression": "STORED",
+      "crc32": "a39aa74b",
+      "sha256": "76ee66ea13b90ad828f0677a521496711c8cf045cb5958ecd3be1ecdbd844a6a",
+      "magic_type": "png",
+      "shannon_entropy": 7.9941,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/moonbase_qr_success.png",
+      "extension": ".png",
+      "uncompressed_bytes": 172086,
+      "compressed_bytes": 172086,
+      "compression": "STORED",
+      "crc32": "82b0a8c1",
+      "sha256": "cad4de4baa03bf42a43f81afd1d701be4aca3ac3c902cb6297783d39e4d6cbf4",
+      "magic_type": "png",
+      "shannon_entropy": 7.9941,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/img_nfc_max_retry.png",
+      "extension": ".png",
+      "uncompressed_bytes": 80517,
+      "compressed_bytes": 80517,
+      "compression": "STORED",
+      "crc32": "2c810211",
+      "sha256": "1bd2bbb8ece30ca2fe5ae31b492a5f7a5957cb04b8384b6e67a8a6e2daa5dfe2",
+      "magic_type": "png",
+      "shannon_entropy": 7.9936,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/img_id_card_issue_date_guide.webp",
+      "extension": ".webp",
+      "uncompressed_bytes": 38110,
+      "compressed_bytes": 38110,
+      "compression": "STORED",
+      "crc32": "793cc8d7",
+      "sha256": "3d644c23e2aac70edf697c2fbdddd9e41e8a392771e3624b0f6e8de8428b62db",
+      "magic_type": "webp",
+      "shannon_entropy": 7.9936,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/empty_promo.png",
+      "extension": ".png",
+      "uncompressed_bytes": 86123,
+      "compressed_bytes": 86123,
+      "compression": "STORED",
+      "crc32": "ad1cb3b4",
+      "sha256": "e9ffdc3270cfcac4224a8f42d7cb7f4092e2c65c2d83f8413c50cd66e988f1ca",
+      "magic_type": "png",
+      "shannon_entropy": 7.9933,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/img_guide_scan_qr.png",
+      "extension": ".png",
+      "uncompressed_bytes": 170919,
+      "compressed_bytes": 170919,
+      "compression": "STORED",
+      "crc32": "88de3b21",
+      "sha256": "1b2872b088ceb1da335ab8303a4dabbfd3b328104eb567f51702ada4509a35b4",
+      "magic_type": "png",
+      "shannon_entropy": 7.9931,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/pbw_static_landing.png",
+      "extension": ".png",
+      "uncompressed_bytes": 98117,
+      "compressed_bytes": 98117,
+      "compression": "STORED",
+      "crc32": "3117587f",
+      "sha256": "7c3d9aa5a4334ff2d22fc90ba4761961023064546922bf0e9e3d176f548cd3dd",
+      "magic_type": "png",
+      "shannon_entropy": 7.993,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "okhttp3/internal/publicsuffix/publicsuffixes.gz",
+      "extension": ".gz",
+      "uncompressed_bytes": 41394,
+      "compressed_bytes": 41394,
+      "compression": "STORED",
+      "crc32": "f59fa4f6",
+      "sha256": "9af43e9995ec749e7a30eec4e5a87770d7e2027847084a07cca82060eff0c791",
+      "magic_type": "gzip",
+      "shannon_entropy": 7.9929,
+      "subsystem": "java_classpath_resource"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/img_error_popup_otp.png",
+      "extension": ".png",
+      "uncompressed_bytes": 105685,
+      "compressed_bytes": 105685,
+      "compression": "STORED",
+      "crc32": "39a60c8a",
+      "sha256": "077178b23503a77ceb28ba8a917a1e8327c275394e39a437ef50f775ad00cc76",
+      "magic_type": "png",
+      "shannon_entropy": 7.9928,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/ic_newsfeed_stock_indicator.png",
+      "extension": ".png",
+      "uncompressed_bytes": 71005,
+      "compressed_bytes": 71005,
+      "compression": "STORED",
+      "crc32": "7d740bff",
+      "sha256": "554964eb95d97026663ebee6e89e8fefbe61e9ef001330c70a4bc5e7594c42e7",
+      "magic_type": "png",
+      "shannon_entropy": 7.9927,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/ic_newsfeed_ota_service_bg.png",
+      "extension": ".png",
+      "uncompressed_bytes": 269730,
+      "compressed_bytes": 269730,
+      "compression": "STORED",
+      "crc32": "efc6e5a3",
+      "sha256": "80119352b6755093ee3c3d86736a1c037cbef1e7ca2bcc879e80480fabbf2ec3",
+      "magic_type": "png",
+      "shannon_entropy": 7.9925,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/moonbase_onboarding_done.png",
+      "extension": ".png",
+      "uncompressed_bytes": 231831,
+      "compressed_bytes": 231831,
+      "compression": "STORED",
+      "crc32": "cc5ff0a6",
+      "sha256": "11dd580e0c941a657e691c37841e037be7015cd7bf4b87df1874a66702c3cf23",
+      "magic_type": "png",
+      "shannon_entropy": 7.9922,
+      "subsystem": "res_raster_image"
+    },
+    {
+      "container": "vn.com.vng.zalopay.apk",
+      "path": "res/drawable/img_onboarding_2.webp",
+      "extension": ".webp",
+      "uncompressed_bytes": 34240,
+      "compressed_bytes": 34240,
+      "compression": "STORED",
+      "crc32": "6f14eb08",
+      "sha256": "40c9df9f31aae7bc31f02091f691b2573775e5b39639a792a04a883f4410f1bb",
+      "magic_type": "webp",
+      "shannon_entropy": 7.9918,
+      "subsystem": "res_raster_image"
+    }
+  ],
+  "top_30_duplicate_sha256_groups": [
+    {
+      "sha256": "80077ec8b0e5c51e5ddd2308052f7ce5dde2f9f1f83a042ce0a189687d50ab4d",
+      "bytes": 106396,
+      "occurrences": 2,
+      "wasted_bytes": 106396,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/img_fds_nfc_guidance.png",
+          "bytes": 106396
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/img_nfc_pro_guidance.png",
+          "bytes": 106396
+        }
+      ]
+    },
+    {
+      "sha256": "77cca31de49fd714143b7a7d2eaeaef7173f81cd576e85d2412b500df96b77a3",
+      "bytes": 99295,
+      "occurrences": 2,
+      "wasted_bytes": 99295,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/bg_cashier_new_ui_header.png",
+          "bytes": 99295
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/bg_rp_new_ui_header.png",
+          "bytes": 99295
+        }
+      ]
+    },
+    {
+      "sha256": "1e5085ab80e415564b4fd7b40d73361c89a81bea6c6f2608b03eb900fd03c28f",
+      "bytes": 49608,
+      "occurrences": 2,
+      "wasted_bytes": 49608,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/bouncycastle/pkix/CertPathReviewerMessages_de.properties",
+          "bytes": 49608
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/bouncycastle/x509/CertPathReviewerMessages_de.properties",
+          "bytes": 49608
+        }
+      ]
+    },
+    {
+      "sha256": "a53d8ae65b7ca6afc09faac7cc3f63d6b6b61cacc0828eb1dafb409440962e68",
+      "bytes": 48216,
+      "occurrences": 2,
+      "wasted_bytes": 48216,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "assets/fonts/UnisectVnu.ttf",
+          "bytes": 48216
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "assets/fonts/ocr-a-tribute.ttf",
+          "bytes": 48216
+        }
+      ]
+    },
+    {
+      "sha256": "57d388f5b3c9db6ff5d18222a5f84b579796c240eb255592c68825def1b39d09",
+      "bytes": 47254,
+      "occurrences": 2,
+      "wasted_bytes": 47254,
+      "locations": [
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-xxhdpi/notifications_images_header_header2022x.png",
+          "bytes": 47254
+        },
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_components_header_images_header2022x.png",
+          "bytes": 47254
+        }
+      ]
+    },
+    {
+      "sha256": "9fbb991695b174b3e21b91705cfef4146a7028e142d7262f936839281b374ba3",
+      "bytes": 42868,
+      "occurrences": 2,
+      "wasted_bytes": 42868,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/bouncycastle/pkix/CertPathReviewerMessages.properties",
+          "bytes": 42868
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/bouncycastle/x509/CertPathReviewerMessages.properties",
+          "bytes": 42868
+        }
+      ]
+    },
+    {
+      "sha256": "b29e3ac9f92ba670a5d46bc07c4cbc0854b5c15cc3b0cd744a394c52026560f9",
+      "bytes": 42154,
+      "occurrences": 2,
+      "wasted_bytes": 42154,
+      "locations": [
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-xxhdpi/transactionhistoryv2_src_components_header_images_header2022.png",
+          "bytes": 42154
+        },
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-xxhdpi/notifications_images_header_header2022.png",
+          "bytes": 42154
+        }
+      ]
+    },
+    {
+      "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+      "bytes": 10175,
+      "occurrences": 5,
+      "wasted_bytes": 40700,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "META-INF/androidx/annotation/annotation/LICENSE.txt",
+          "bytes": 10175
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "META-INF/androidx/collection/collection/LICENSE.txt",
+          "bytes": 10175
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "META-INF/androidx/collection/collection-ktx/LICENSE.txt",
+          "bytes": 10175
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "META-INF/androidx/constraintlayout/constraintlayout-core/LICENSE.txt",
+          "bytes": 10175
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "META-INF/androidx/room/room-common/LICENSE.txt",
+          "bytes": 10175
+        }
+      ]
+    },
+    {
+      "sha256": "518974b32586bffb5fac929fda035b38d18cad98b6fa82d8b81fb3c274da7161",
+      "bytes": 38275,
+      "occurrences": 2,
+      "wasted_bytes": 38275,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable-xxhdpi-v4/img_profile_v2_privacy_hub.png",
+          "bytes": 38275
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable-xxhdpi-v4/img_register_consent_shield.png",
+          "bytes": 38275
+        }
+      ]
+    },
+    {
+      "sha256": "fce958b20050b8f21797b8827d3b3f09574079f5bb420833fbac036e42bf42ed",
+      "bytes": 27062,
+      "occurrences": 2,
+      "wasted_bytes": 27062,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/ic_cashier_pay_loading.json",
+          "bytes": 27062
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/ic_cashier_pay_loading_v3.json",
+          "bytes": 27062
+        }
+      ]
+    },
+    {
+      "sha256": "68e377afd40cd7f7f6bb48fbfea7526c41841b288c40480c8265268999009468",
+      "bytes": 25279,
+      "occurrences": 2,
+      "wasted_bytes": 25279,
+      "locations": [
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-xhdpi/notifications_images_header_header2022x.png",
+          "bytes": 25279
+        },
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_components_header_images_header2022x.png",
+          "bytes": 25279
+        }
+      ]
+    },
+    {
+      "sha256": "0f06f7bbe45d56209a28e140577486fa82cf0458d0eb95fb1ef4de0bce5d366c",
+      "bytes": 11988,
+      "occurrences": 3,
+      "wasted_bytes": 23976,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_account_varb.xml",
+          "bytes": 11988
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_card_varb.xml",
+          "bytes": 11988
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_varb.xml",
+          "bytes": 11988
+        }
+      ]
+    },
+    {
+      "sha256": "07b9411e8a7d7b000ec8d0d922241fd946b24aff0ef6a15ecbc01523a7edab4f",
+      "bytes": 22132,
+      "occurrences": 2,
+      "wasted_bytes": 22132,
+      "locations": [
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-xhdpi/transactionhistoryv2_src_components_header_images_header2022.png",
+          "bytes": 22132
+        },
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-xhdpi/notifications_images_header_header2022.png",
+          "bytes": 22132
+        }
+      ]
+    },
+    {
+      "sha256": "ce4a1989362b098f5e5135514c92274e43d367bc70bf964a0f5d6687d29528a6",
+      "bytes": 20470,
+      "occurrences": 2,
+      "wasted_bytes": 20470,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_kyc_protection_info.webp",
+          "bytes": 20470
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_reform_kyc_protection_info.webp",
+          "bytes": 20470
+        }
+      ]
+    },
+    {
+      "sha256": "20182646b4664a83f0f6052c4df068e51c9429657e76f888bf0aca988ac11d53",
+      "bytes": 6184,
+      "occurrences": 4,
+      "wasted_bytes": 18552,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_account_bidv.xml",
+          "bytes": 6184
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_bidv.xml",
+          "bytes": 6184
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_bidv_card_logo.xml",
+          "bytes": 6184
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_card_bidv.xml",
+          "bytes": 6184
+        }
+      ]
+    },
+    {
+      "sha256": "57f8ad1f2f37d191c15a973834dbd6af2562dc197b50cbc8f56d18e66ee6d143",
+      "bytes": 18308,
+      "occurrences": 2,
+      "wasted_bytes": 18308,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_cashier_secure.xml",
+          "bytes": 18308
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_rp_secure.xml",
+          "bytes": 18308
+        }
+      ]
+    },
+    {
+      "sha256": "b04465b2053a42fbe3d3eea0d4aa90db461435f3a7805100c77de0eda4399362",
+      "bytes": 15952,
+      "occurrences": 2,
+      "wasted_bytes": 15952,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_sgcb_card_logo.xml",
+          "bytes": 15952
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_sgcb_full_brand.xml",
+          "bytes": 15952
+        }
+      ]
+    },
+    {
+      "sha256": "d54f26f806ec83a34beaa033cbd110a9204f853045bf9050a3050146b52ec50b",
+      "bytes": 812,
+      "occurrences": 18,
+      "wasted_bytes": 13804,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/ash_approx_hebrew.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/ash_exact_hebrew.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/gen_approx_hebrew.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/gen_exact_dutch.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/gen_exact_french.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/gen_exact_greek.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/gen_exact_hebrew.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/gen_exact_hungarian.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/gen_exact_italian.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/gen_exact_portuguese.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/gen_exact_romanian.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/gen_exact_turkish.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/sep_approx_french.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/sep_approx_hebrew.txt",
+          "bytes": 812
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "org/apache/commons/codec/language/bm/sep_exact_hebrew.txt",
+          "bytes": 812
+        }
+      ]
+    },
+    {
+      "sha256": "af54f81e34c6c82eae01d8ec452d4b5a954306d67a195564420acc1ec9505de2",
+      "bytes": 11696,
+      "occurrences": 2,
+      "wasted_bytes": 11696,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/img_error_popup_ce.webp",
+          "bytes": 11696
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/img_profile_v2_privacy_load_error.webp",
+          "bytes": 11696
+        }
+      ]
+    },
+    {
+      "sha256": "add7eaf89642ea731438062efd9d5916c89a2504d93955bb42d617baedf30ce5",
+      "bytes": 11004,
+      "occurrences": 2,
+      "wasted_bytes": 11004,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_master_debit.xml",
+          "bytes": 11004
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_master_debit_full_brand.xml",
+          "bytes": 11004
+        }
+      ]
+    },
+    {
+      "sha256": "b3b458b838182416a85e7299a303e8e616daf752b472e706e57f20aa10f938b7",
+      "bytes": 10018,
+      "occurrences": 2,
+      "wasted_bytes": 10018,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/mipmap-night-v8/ic_launcher_foreground.png",
+          "bytes": 10018
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/mipmap-xxxhdpi-v4/ic_launcher_foreground.png",
+          "bytes": 10018
+        }
+      ]
+    },
+    {
+      "sha256": "dd3220f7d5c45981c4c669a4bfb0eb6df4639be77e8e29b136ea9ff3b8aa7958",
+      "bytes": 9508,
+      "occurrences": 2,
+      "wasted_bytes": 9508,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_cashier_pcidss.xml",
+          "bytes": 9508
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_rp_pcidss.xml",
+          "bytes": 9508
+        }
+      ]
+    },
+    {
+      "sha256": "78d3f7b80ce1088519e8545a54c708f81332909e98f9bd59bb3ce523b0036231",
+      "bytes": 3032,
+      "occurrences": 4,
+      "wasted_bytes": 9096,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/ic_anim_zlp_loading_auth_state.json",
+          "bytes": 3032
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/ic_anim_zlp_loading_common_state.json",
+          "bytes": 3032
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/ic_anim_zlp_loading_state.json",
+          "bytes": 3032
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/raw/ic_cashier_loading.json",
+          "bytes": 3032
+        }
+      ]
+    },
+    {
+      "sha256": "11558209046fee4b3bb18b5deb3a6841493e000e1cf577c9e42008954714ed42",
+      "bytes": 8953,
+      "occurrences": 2,
+      "wasted_bytes": 8953,
+      "locations": [
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-mdpi/notifications_images_header_header2022x.png",
+          "bytes": 8953
+        },
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-mdpi/transactionhistoryv2_src_components_header_images_header2022x.png",
+          "bytes": 8953
+        }
+      ]
+    },
+    {
+      "sha256": "4cae5fdf16136700478d5f392a34f4285e34d6be760398c028975d8b0efe9aa3",
+      "bytes": 7712,
+      "occurrences": 2,
+      "wasted_bytes": 7712,
+      "locations": [
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-mdpi/transactionhistoryv2_src_components_header_images_header2022.png",
+          "bytes": 7712
+        },
+        {
+          "container": "assets/android.1.zip",
+          "path": "drawable-mdpi/notifications_images_header_header2022.png",
+          "bytes": 7712
+        }
+      ]
+    },
+    {
+      "sha256": "6ce3387474ed02efc77ee7f3fffe7b6ce84d841618885733fe2868f9de6901f3",
+      "bytes": 2228,
+      "occurrences": 4,
+      "wasted_bytes": 6684,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_voucher_unselected.xml",
+          "bytes": 2228
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/sdk_taxi_icon_voucher_unchecked_00.xml",
+          "bytes": 2228
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/sdk_taxi_icon_voucher_unchecked_01.xml",
+          "bytes": 2228
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/sdk_taxi_icon_voucher_unchecked_02.xml",
+          "bytes": 2228
+        }
+      ]
+    },
+    {
+      "sha256": "6ef19c1e23c4c670cc4ec716aec7686191e0ce98ca6479d35f5f6d8c667cb480",
+      "bytes": 6544,
+      "occurrences": 2,
+      "wasted_bytes": 6544,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_mb.xml",
+          "bytes": 6544
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/ic_mb_card_logo.xml",
+          "bytes": 6544
+        }
+      ]
+    },
+    {
+      "sha256": "c0e9849f5a195abee01fb0c70da42c232c6cc0ec226f67d54ab31975f2eedf9a",
+      "bytes": 6367,
+      "occurrences": 2,
+      "wasted_bytes": 6367,
+      "locations": [
+        {
+          "container": "amr:66666692_1.24.8.amr",
+          "path": "66666692.tar::appx/es6-promise.min.js",
+          "bytes": 6367
+        },
+        {
+          "container": "amr:68687209_2.9.7.8.amr",
+          "path": "68687209.tar::appx-ng/es6-promise.min.js",
+          "bytes": 6367
+        }
+      ]
+    },
+    {
+      "sha256": "7019cd957723f2f728dd2d9bfa99dd5663018ea0d09df2dab36d271dad2a90a6",
+      "bytes": 5304,
+      "occurrences": 2,
+      "wasted_bytes": 5304,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/_24_px_vnpay.xml",
+          "bytes": 5304
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "res/drawable/taxi_24_px_vnpay.xml",
+          "bytes": 5304
+        }
+      ]
+    },
+    {
+      "sha256": "4cfed842deb4dc40fd0572cf3e87bd10e43673f2c0877173565b88125925ee20",
+      "bytes": 5016,
+      "occurrences": 2,
+      "wasted_bytes": 5016,
+      "locations": [
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "assets/h5iconfont/titlebar.ttf",
+          "bytes": 5016
+        },
+        {
+          "container": "vn.com.vng.zalopay.apk",
+          "path": "assets/tinyfont/titlebar.ttf",
+          "bytes": 5016
+        }
+      ]
+    }
+  ]
+}

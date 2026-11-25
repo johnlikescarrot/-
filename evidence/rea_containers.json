@@ -1,0 +1,3851 @@
+{
+  "tool": "rea-agents@6.10.1",
+  "containers": [
+    {
+      "label": "outer_zip",
+      "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+      "inspect_artifact": {
+        "evidence_id": "ev_9279eb5318ee8da2d4fae35e38ffab34f3b4e03017d204f3e831ca722c682302",
+        "subject_sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+        "manifest": {
+          "manifest_id": "agm_2f12d0f09aa57c04ef64fd7ddec73ae9c71fb1100bd0ae2f555e263a184f9165",
+          "root_artifact_id": "art_c682f0875f22067c76b3ed5b9b5593c6ed1be046f1b13cc7aa520408f6281c68",
+          "root_sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+          "root_format": "zip",
+          "graph_sha256": "53270f8afc9310c709e94e9e00bbec71d66fca0c303925d575c2e5d8f6639bd7",
+          "node_count": 2,
+          "occurrence_count": 2,
+          "edge_count": 1
+        },
+        "occurrence_count": 2,
+        "sample_occurrences": [
+          {
+            "path": ".",
+            "size": 98813878,
+            "format": "zip"
+          },
+          {
+            "path": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.xapk",
+            "size": 105608128,
+            "format": "zip"
+          }
+        ],
+        "limitations": [
+          "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+          "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+        ]
+      },
+      "release_exposure": {
+        "evidence_id": "ev_833fc4772418bb026471a395ea95b030d949c5713c51e5bc96b4160b34247743",
+        "normalized_result": {
+          "target": {
+            "selected_path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+            "kind": "file",
+            "format": "zip",
+            "sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a"
+          },
+          "checks": [
+            {
+              "id": "javascript.source_map_sources",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 1
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Ship the release without sourcesContent. Remove the source maps or omit sourcesContent from maps that ship.",
+              "next_probe": null
+            },
+            {
+              "id": "javascript.source_maps",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 1
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Do not ship source maps beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "electron.run_as_node",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Set FuseV1Options.RunAsNode to false with @electron/fuses before packaging.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.asar_integrity",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableEmbeddedAsarIntegrityValidation to true with @electron/fuses. Electron compiles this check for macOS and Windows; an ELF byte stays unknown.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.only_load_from_asar",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Set FuseV1Options.OnlyLoadAppFromAsar to true with @electron/fuses so the packaged app loads application code from app.asar.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.node_cli_inspect",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableNodeCliInspectArguments to false with @electron/fuses so the packaged app ignores --inspect.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "packaging.extractable_payload",
+              "status": "not_observed",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "readable_members": 0,
+                  "unreadable_members": 0,
+                  "formats": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Readable members are part of this package format. Treat packaged sources as public. This check does not rewrite the artifact.",
+              "next_probe": "inspect_artifact"
+            },
+            {
+              "id": "native.debug_companions",
+              "status": "not_observed",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "companions": 0,
+                  "skipped": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Do not ship .pdb, .dSYM, .debug, or linker map files beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "native.pdb_path",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "examined": 0,
+                  "paths": 0,
+                  "failed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Rebuild without a CodeView PDB path, or accept that the path string is recoverable from the PE. The PDB file itself is a separate check.",
+              "next_probe": null
+            },
+            {
+              "id": "go.build_paths",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "paths": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Rebuild with -trimpath so file paths are not written into the binary. Module names can remain.",
+              "next_probe": "inspect_go_binary"
+            },
+            {
+              "id": "rust.dependency_metadata",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "packages": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Omit cargo-auditable metadata from the release if the crate list should not ship.",
+              "next_probe": "inspect_rust_binary"
+            },
+            {
+              "id": "text.credential_markers",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "scanned_members": 0,
+                  "skipped_members": 1,
+                  "omitted_hits": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "Remove the provider-prefixed credential from the shipped text and rotate it if it is real. This check reports the rule id and location only.",
+              "next_probe": null
+            },
+            {
+              "id": "native.hardening",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "This audit does not assess native hardening. Use inspect_binary_hardening when that tool is available.",
+              "next_probe": "inspect_binary_hardening"
+            },
+            {
+              "id": "macho.hardened_runtime",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "This audit does not assess the Mach-O hardened runtime. inspect_signature reads code signatures and would change this tool's effects, so it stays a next probe.",
+              "next_probe": "inspect_signature"
+            },
+            {
+              "id": "android.manifest",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip"
+                }
+              ],
+              "remediation": "This audit does not read Android manifests. Use inspect_android_package, which needs JADX.",
+              "next_probe": "inspect_android_package"
+            }
+          ],
+          "summary": {
+            "by_status": {
+              "exposed": 0,
+              "not_observed": 2,
+              "not_applicable": 7,
+              "unknown": 3,
+              "not_assessed": 3
+            },
+            "by_severity": {
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "info": 0
+            },
+            "highest_exposed_severity": null,
+            "no_exposure_observed_in_assessed_checks": true
+          },
+          "coverage": {
+            "allowances": [
+              "Selected file reads stop at 268435456 bytes.",
+              "Text member scans read at most 262144 bytes each and 4194304 bytes in total.",
+              "HTML script targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Local source map targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Source map scans read at most 32 maps and 1048576 bytes each. sourcesContent text is counted and then dropped.",
+              "Other files and package members are identified from their first 4096 bytes, and those without a NUL byte in that prefix are scanned as text. Up to 64 packaged PE images are read for debug records, 262144 bytes each.",
+              "Packaged ELF, Mach-O, and PE images are read in full and copied to a temporary file to probe for an embedded package. They share one max_file_bytes allowance, and an image that does not fit is not probed.",
+              "Go, Rust, and Electron fuse readers run on at most 4 native images."
+            ],
+            "omitted": [
+              {
+                "subject": "source maps",
+                "count": 1,
+                "reason": "A source map exceeded the map count or byte allowance, could not be read, was a link that is not followed, was past the package entry cap or the HTML inline script limit, was declared but not found, or sat in a script that could not be fully decoded or examined as one; inline CSS source-map directives are not inspected."
+              },
+              {
+                "subject": "text members",
+                "count": 1,
+                "reason": "A text member exceeded the text byte allowance, could not be read or fully decoded, or was past the package entry cap."
+              }
+            ]
+          },
+          "limitations": [
+            "This report states what static analysis of the selected artifact recovered. It does not establish that the application is secure.",
+            "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+          ]
+        }
+      }
+    },
+    {
+      "label": "inner_xapk",
+      "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk",
+      "inspect_artifact": {
+        "evidence_id": "ev_c97d2bc8a636fdc8c9c2a157329a9445654c74c0c80ffbe04c0beb587aef48b9",
+        "subject_sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d",
+        "manifest": {
+          "manifest_id": "agm_b87f9dcbc88907b726b069660f1a3e2d512694347ad9d5723f507e7a9e07f7d9",
+          "root_artifact_id": "art_0138d1dda8bd20c374bc7240faba8c38e334bb5ee1c897563693e63b122490dd",
+          "root_sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d",
+          "root_format": "zip",
+          "graph_sha256": "f33902d9baf14909236f87939855519052527b4e8e7676e4ebb5ca25e7a5cc29",
+          "node_count": 8,
+          "occurrence_count": 8,
+          "edge_count": 7
+        },
+        "occurrence_count": 8,
+        "sample_occurrences": [
+          {
+            "path": ".",
+            "size": 105608128,
+            "format": "zip"
+          },
+          {
+            "path": "config.armeabi_v7a.apk",
+            "size": 24828408,
+            "format": "apk"
+          },
+          {
+            "path": "config.en.apk",
+            "size": 74137,
+            "format": "apk"
+          },
+          {
+            "path": "config.vi.apk",
+            "size": 86425,
+            "format": "apk"
+          },
+          {
+            "path": "config.xhdpi.apk",
+            "size": 1232563,
+            "format": "apk"
+          },
+          {
+            "path": "icon.png",
+            "size": 23841,
+            "format": "file"
+          },
+          {
+            "path": "manifest.json",
+            "size": 2710,
+            "format": "file"
+          },
+          {
+            "path": "vn.com.vng.zalopay.apk",
+            "size": 79359087,
+            "format": "apk"
+          }
+        ],
+        "limitations": [
+          "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+          "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+        ]
+      },
+      "release_exposure": {
+        "evidence_id": "ev_914dfd7d47bfb1f917ab877f4bee83cd8f8615066f0087d81c48928bb89999c1",
+        "normalized_result": {
+          "target": {
+            "selected_path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk",
+            "kind": "file",
+            "format": "zip",
+            "sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d"
+          },
+          "checks": [
+            {
+              "id": "javascript.source_map_sources",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 7
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Ship the release without sourcesContent. Remove the source maps or omit sourcesContent from maps that ship.",
+              "next_probe": null
+            },
+            {
+              "id": "javascript.source_maps",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 7
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Do not ship source maps beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "electron.run_as_node",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.RunAsNode to false with @electron/fuses before packaging.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.asar_integrity",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableEmbeddedAsarIntegrityValidation to true with @electron/fuses. Electron compiles this check for macOS and Windows; an ELF byte stays unknown.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.only_load_from_asar",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.OnlyLoadAppFromAsar to true with @electron/fuses so the packaged app loads application code from app.asar.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.node_cli_inspect",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableNodeCliInspectArguments to false with @electron/fuses so the packaged app ignores --inspect.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "packaging.extractable_payload",
+              "status": "not_observed",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "readable_members": 0,
+                  "unreadable_members": 0,
+                  "formats": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Readable members are part of this package format. Treat packaged sources as public. This check does not rewrite the artifact.",
+              "next_probe": "inspect_artifact"
+            },
+            {
+              "id": "native.debug_companions",
+              "status": "not_observed",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "companions": 0,
+                  "skipped": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Do not ship .pdb, .dSYM, .debug, or linker map files beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "native.pdb_path",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "examined": 0,
+                  "paths": 0,
+                  "failed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Rebuild without a CodeView PDB path, or accept that the path string is recoverable from the PE. The PDB file itself is a separate check.",
+              "next_probe": null
+            },
+            {
+              "id": "go.build_paths",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "paths": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Rebuild with -trimpath so file paths are not written into the binary. Module names can remain.",
+              "next_probe": "inspect_go_binary"
+            },
+            {
+              "id": "rust.dependency_metadata",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "packages": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Omit cargo-auditable metadata from the release if the crate list should not ship.",
+              "next_probe": "inspect_rust_binary"
+            },
+            {
+              "id": "text.credential_markers",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "scanned_members": 0,
+                  "skipped_members": 7,
+                  "omitted_hits": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "Remove the provider-prefixed credential from the shipped text and rotate it if it is real. This check reports the rule id and location only.",
+              "next_probe": null
+            },
+            {
+              "id": "native.hardening",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "This audit does not assess native hardening. Use inspect_binary_hardening when that tool is available.",
+              "next_probe": "inspect_binary_hardening"
+            },
+            {
+              "id": "macho.hardened_runtime",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "This audit does not assess the Mach-O hardened runtime. inspect_signature reads code signatures and would change this tool's effects, so it stays a next probe.",
+              "next_probe": "inspect_signature"
+            },
+            {
+              "id": "android.manifest",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk"
+                }
+              ],
+              "remediation": "This audit does not read Android manifests. Use inspect_android_package, which needs JADX.",
+              "next_probe": "inspect_android_package"
+            }
+          ],
+          "summary": {
+            "by_status": {
+              "exposed": 0,
+              "not_observed": 2,
+              "not_applicable": 7,
+              "unknown": 3,
+              "not_assessed": 3
+            },
+            "by_severity": {
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "info": 0
+            },
+            "highest_exposed_severity": null,
+            "no_exposure_observed_in_assessed_checks": true
+          },
+          "coverage": {
+            "allowances": [
+              "Selected file reads stop at 268435456 bytes.",
+              "Text member scans read at most 262144 bytes each and 4194304 bytes in total.",
+              "HTML script targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Local source map targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Source map scans read at most 32 maps and 1048576 bytes each. sourcesContent text is counted and then dropped.",
+              "Other files and package members are identified from their first 4096 bytes, and those without a NUL byte in that prefix are scanned as text. Up to 64 packaged PE images are read for debug records, 262144 bytes each.",
+              "Packaged ELF, Mach-O, and PE images are read in full and copied to a temporary file to probe for an embedded package. They share one max_file_bytes allowance, and an image that does not fit is not probed.",
+              "Go, Rust, and Electron fuse readers run on at most 4 native images."
+            ],
+            "omitted": [
+              {
+                "subject": "source maps",
+                "count": 7,
+                "reason": "A source map exceeded the map count or byte allowance, could not be read, was a link that is not followed, was past the package entry cap or the HTML inline script limit, was declared but not found, or sat in a script that could not be fully decoded or examined as one; inline CSS source-map directives are not inspected."
+              },
+              {
+                "subject": "text members",
+                "count": 7,
+                "reason": "A text member exceeded the text byte allowance, could not be read or fully decoded, or was past the package entry cap."
+              }
+            ]
+          },
+          "limitations": [
+            "This report states what static analysis of the selected artifact recovered. It does not establish that the application is secure.",
+            "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+          ]
+        }
+      }
+    },
+    {
+      "label": "config.armeabi_v7a.apk",
+      "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk",
+      "inspect_artifact": {
+        "evidence_id": "ev_b327c69061f77ac4a2d67dbde5a188fcfb36876ccfc83d43e6bb0be8d720ce4a",
+        "subject_sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+        "manifest": {
+          "manifest_id": "agm_25030e7817ec94c2df75f999bead9c64e461b7617b809ae771a8c57932a60c13",
+          "root_artifact_id": "art_9b7ffe524a60f520fb72b932d50162d53d7c08b346fc93dd63755875131e6489",
+          "root_sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+          "root_format": "apk",
+          "graph_sha256": "e15c41c399f894aed1ee0bb62fdbe878ab186254f738eb19d3fe3b2a9dc0cfda",
+          "node_count": 33,
+          "occurrence_count": 33,
+          "edge_count": 32
+        },
+        "occurrence_count": 33,
+        "sample_occurrences": [
+          {
+            "path": ".",
+            "size": 24828408,
+            "format": "apk"
+          },
+          {
+            "path": "AndroidManifest.xml",
+            "size": 1036,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/BNDLTOOL.RSA",
+            "size": 1107,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/BNDLTOOL.SF",
+            "size": 2667,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/MANIFEST.MF",
+            "size": 2559,
+            "format": "file"
+          },
+          {
+            "path": "lib/armeabi-v7a/libVFaceLib.so",
+            "size": 1963668,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/liba97d.so",
+            "size": 997572,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libandroidx.graphics.path.so",
+            "size": 7252,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libbarhopper_v3.so",
+            "size": 3244440,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libc++_shared.so",
+            "size": 872872,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libcrashlytics-common.so",
+            "size": 435732,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libcrashlytics-handler.so",
+            "size": 87908,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libcrashlytics-trampoline.so",
+            "size": 6912,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libcrashlytics.so",
+            "size": 94540,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libface_detector_v2_jni.so",
+            "size": 5388224,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libfgcpkjvqe.so",
+            "size": 6524160,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libimage_processing_util_jni.so",
+            "size": 20380,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libimagepipeline.so",
+            "size": 5876,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libljsfrcwmw.so",
+            "size": 600296,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/liblytcuhe.so",
+            "size": 178628,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libmlkit_google_ocr_pipeline.so",
+            "size": 6781940,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libmlkitcommonpipeline.so",
+            "size": 6928228,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libnative-filters.so",
+            "size": 12588,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libnative-imagetranscoder.so",
+            "size": 341072,
+            "format": "elf"
+          },
+          {
+            "path": "lib/armeabi-v7a/libohxbee.so",
+            "size": 155412,
+            "format": "elf"
+          }
+        ],
+        "limitations": [
+          "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+          "ZIP central directory does not account for 2299 byte(s) in 1 range(s) before it, first at offset 24815365; local entries it does not list may exist there.",
+          "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+        ]
+      },
+      "release_exposure": {
+        "evidence_id": "ev_8ca6d06e5ad07254a5493c24e90fac9ef598000479a8d5a5839e96f0a59a7fd0",
+        "normalized_result": {
+          "target": {
+            "selected_path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk",
+            "kind": "file",
+            "format": "apk",
+            "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b"
+          },
+          "checks": [
+            {
+              "id": "javascript.source_map_sources",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 5
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Ship the release without sourcesContent. Remove the source maps or omit sourcesContent from maps that ship.",
+              "next_probe": null
+            },
+            {
+              "id": "javascript.source_maps",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 5
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Do not ship source maps beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "electron.run_as_node",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.RunAsNode to false with @electron/fuses before packaging.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.asar_integrity",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableEmbeddedAsarIntegrityValidation to true with @electron/fuses. Electron compiles this check for macOS and Windows; an ELF byte stays unknown.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.only_load_from_asar",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.OnlyLoadAppFromAsar to true with @electron/fuses so the packaged app loads application code from app.asar.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.node_cli_inspect",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableNodeCliInspectArguments to false with @electron/fuses so the packaged app ignores --inspect.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "packaging.extractable_payload",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "readable_members": 0,
+                  "unreadable_members": 0,
+                  "formats": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Readable members are part of this package format. Treat packaged sources as public. This check does not rewrite the artifact.",
+              "next_probe": "inspect_artifact"
+            },
+            {
+              "id": "native.debug_companions",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "companions": 0,
+                  "skipped": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Do not ship .pdb, .dSYM, .debug, or linker map files beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "native.pdb_path",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "examined": 0,
+                  "paths": 0,
+                  "failed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Rebuild without a CodeView PDB path, or accept that the path string is recoverable from the PE. The PDB file itself is a separate check.",
+              "next_probe": null
+            },
+            {
+              "id": "go.build_paths",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "paths": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Rebuild with -trimpath so file paths are not written into the binary. Module names can remain.",
+              "next_probe": "inspect_go_binary"
+            },
+            {
+              "id": "rust.dependency_metadata",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "packages": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Omit cargo-auditable metadata from the release if the crate list should not ship.",
+              "next_probe": "inspect_rust_binary"
+            },
+            {
+              "id": "text.credential_markers",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "scanned_members": 0,
+                  "skipped_members": 5,
+                  "omitted_hits": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "Remove the provider-prefixed credential from the shipped text and rotate it if it is real. This check reports the rule id and location only.",
+              "next_probe": null
+            },
+            {
+              "id": "native.hardening",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "This audit does not assess native hardening. Use inspect_binary_hardening when that tool is available.",
+              "next_probe": "inspect_binary_hardening"
+            },
+            {
+              "id": "macho.hardened_runtime",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "This audit does not assess the Mach-O hardened runtime. inspect_signature reads code signatures and would change this tool's effects, so it stays a next probe.",
+              "next_probe": "inspect_signature"
+            },
+            {
+              "id": "android.manifest",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.armeabi_v7a.apk"
+                }
+              ],
+              "remediation": "This audit does not read Android manifests. Use inspect_android_package, which needs JADX.",
+              "next_probe": "inspect_android_package"
+            }
+          ],
+          "summary": {
+            "by_status": {
+              "exposed": 0,
+              "not_observed": 0,
+              "not_applicable": 0,
+              "unknown": 12,
+              "not_assessed": 3
+            },
+            "by_severity": {
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "info": 0
+            },
+            "highest_exposed_severity": null,
+            "no_exposure_observed_in_assessed_checks": true
+          },
+          "coverage": {
+            "allowances": [
+              "Selected file reads stop at 268435456 bytes.",
+              "Text member scans read at most 262144 bytes each and 4194304 bytes in total.",
+              "HTML script targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Local source map targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Source map scans read at most 32 maps and 1048576 bytes each. sourcesContent text is counted and then dropped.",
+              "Other files and package members are identified from their first 4096 bytes, and those without a NUL byte in that prefix are scanned as text. Up to 64 packaged PE images are read for debug records, 262144 bytes each.",
+              "Packaged ELF, Mach-O, and PE images are read in full and copied to a temporary file to probe for an embedded package. They share one max_file_bytes allowance, and an image that does not fit is not probed.",
+              "Go, Rust, and Electron fuse readers run on at most 4 native images."
+            ],
+            "omitted": [
+              {
+                "subject": "source maps",
+                "count": 5,
+                "reason": "A source map exceeded the map count or byte allowance, could not be read, was a link that is not followed, was past the package entry cap or the HTML inline script limit, was declared but not found, or sat in a script that could not be fully decoded or examined as one; inline CSS source-map directives are not inspected."
+              },
+              {
+                "subject": "text members",
+                "count": 5,
+                "reason": "A text member exceeded the text byte allowance, could not be read or fully decoded, or was past the package entry cap."
+              }
+            ]
+          },
+          "limitations": [
+            "This report states what static analysis of the selected artifact recovered. It does not establish that the application is secure.",
+            "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences.",
+            "ZIP central directory does not account for 2299 byte(s) in 1 range(s) before it, first at offset 24815365; local entries it does not list may exist there."
+          ]
+        }
+      }
+    },
+    {
+      "label": "config.en.apk",
+      "path": "/tmp/zalopay_corpus/xapk/config.en.apk",
+      "inspect_artifact": {
+        "evidence_id": "ev_94409b6ae2a2b20a3c48a43b09178adcb0765cd0d8db30870ae8566cc499ad52",
+        "subject_sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+        "manifest": {
+          "manifest_id": "agm_097ff1c4ca4f481d60a9281c5104a072688929497e0ac71fb524940a06710c10",
+          "root_artifact_id": "art_aea2f793e28935c72649822e664705fbaed916263abf22ed5b2a313fb36818a6",
+          "root_sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+          "root_format": "apk",
+          "graph_sha256": "635465cb666f5b955bbcc1b4dc9d548adaf46d8562820db7c2356bebe7057604",
+          "node_count": 7,
+          "occurrence_count": 7,
+          "edge_count": 6
+        },
+        "occurrence_count": 7,
+        "sample_occurrences": [
+          {
+            "path": ".",
+            "size": 74137,
+            "format": "apk"
+          },
+          {
+            "path": "AndroidManifest.xml",
+            "size": 1000,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/BNDLTOOL.RSA",
+            "size": 1107,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/BNDLTOOL.SF",
+            "size": 342,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/MANIFEST.MF",
+            "size": 234,
+            "format": "file"
+          },
+          {
+            "path": "resources.arsc",
+            "size": 61984,
+            "format": "file"
+          },
+          {
+            "path": "stamp-cert-sha256",
+            "size": 32,
+            "format": "file"
+          }
+        ],
+        "limitations": [
+          "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+          "ZIP central directory does not account for 1327 byte(s) in 1 range(s) before it, first at offset 64209; local entries it does not list may exist there.",
+          "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+        ]
+      },
+      "release_exposure": {
+        "evidence_id": "ev_3a2c88d16eb183c02515bf8cede8754833c48161e1b5e277124bd93cdc9b2932",
+        "normalized_result": {
+          "target": {
+            "selected_path": "/tmp/zalopay_corpus/xapk/config.en.apk",
+            "kind": "file",
+            "format": "apk",
+            "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942"
+          },
+          "checks": [
+            {
+              "id": "javascript.source_map_sources",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 6
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Ship the release without sourcesContent. Remove the source maps or omit sourcesContent from maps that ship.",
+              "next_probe": null
+            },
+            {
+              "id": "javascript.source_maps",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 6
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Do not ship source maps beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "electron.run_as_node",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.RunAsNode to false with @electron/fuses before packaging.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.asar_integrity",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableEmbeddedAsarIntegrityValidation to true with @electron/fuses. Electron compiles this check for macOS and Windows; an ELF byte stays unknown.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.only_load_from_asar",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.OnlyLoadAppFromAsar to true with @electron/fuses so the packaged app loads application code from app.asar.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.node_cli_inspect",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableNodeCliInspectArguments to false with @electron/fuses so the packaged app ignores --inspect.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "packaging.extractable_payload",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "readable_members": 0,
+                  "unreadable_members": 0,
+                  "formats": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Readable members are part of this package format. Treat packaged sources as public. This check does not rewrite the artifact.",
+              "next_probe": "inspect_artifact"
+            },
+            {
+              "id": "native.debug_companions",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "companions": 0,
+                  "skipped": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Do not ship .pdb, .dSYM, .debug, or linker map files beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "native.pdb_path",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "examined": 0,
+                  "paths": 0,
+                  "failed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Rebuild without a CodeView PDB path, or accept that the path string is recoverable from the PE. The PDB file itself is a separate check.",
+              "next_probe": null
+            },
+            {
+              "id": "go.build_paths",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "paths": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Rebuild with -trimpath so file paths are not written into the binary. Module names can remain.",
+              "next_probe": "inspect_go_binary"
+            },
+            {
+              "id": "rust.dependency_metadata",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "packages": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Omit cargo-auditable metadata from the release if the crate list should not ship.",
+              "next_probe": "inspect_rust_binary"
+            },
+            {
+              "id": "text.credential_markers",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "scanned_members": 0,
+                  "skipped_members": 6,
+                  "omitted_hits": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "Remove the provider-prefixed credential from the shipped text and rotate it if it is real. This check reports the rule id and location only.",
+              "next_probe": null
+            },
+            {
+              "id": "native.hardening",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "This audit does not assess native hardening. Use inspect_binary_hardening when that tool is available.",
+              "next_probe": "inspect_binary_hardening"
+            },
+            {
+              "id": "macho.hardened_runtime",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "This audit does not assess the Mach-O hardened runtime. inspect_signature reads code signatures and would change this tool's effects, so it stays a next probe.",
+              "next_probe": "inspect_signature"
+            },
+            {
+              "id": "android.manifest",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.en.apk"
+                }
+              ],
+              "remediation": "This audit does not read Android manifests. Use inspect_android_package, which needs JADX.",
+              "next_probe": "inspect_android_package"
+            }
+          ],
+          "summary": {
+            "by_status": {
+              "exposed": 0,
+              "not_observed": 0,
+              "not_applicable": 0,
+              "unknown": 12,
+              "not_assessed": 3
+            },
+            "by_severity": {
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "info": 0
+            },
+            "highest_exposed_severity": null,
+            "no_exposure_observed_in_assessed_checks": true
+          },
+          "coverage": {
+            "allowances": [
+              "Selected file reads stop at 268435456 bytes.",
+              "Text member scans read at most 262144 bytes each and 4194304 bytes in total.",
+              "HTML script targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Local source map targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Source map scans read at most 32 maps and 1048576 bytes each. sourcesContent text is counted and then dropped.",
+              "Other files and package members are identified from their first 4096 bytes, and those without a NUL byte in that prefix are scanned as text. Up to 64 packaged PE images are read for debug records, 262144 bytes each.",
+              "Packaged ELF, Mach-O, and PE images are read in full and copied to a temporary file to probe for an embedded package. They share one max_file_bytes allowance, and an image that does not fit is not probed.",
+              "Go, Rust, and Electron fuse readers run on at most 4 native images."
+            ],
+            "omitted": [
+              {
+                "subject": "source maps",
+                "count": 6,
+                "reason": "A source map exceeded the map count or byte allowance, could not be read, was a link that is not followed, was past the package entry cap or the HTML inline script limit, was declared but not found, or sat in a script that could not be fully decoded or examined as one; inline CSS source-map directives are not inspected."
+              },
+              {
+                "subject": "text members",
+                "count": 6,
+                "reason": "A text member exceeded the text byte allowance, could not be read or fully decoded, or was past the package entry cap."
+              }
+            ]
+          },
+          "limitations": [
+            "This report states what static analysis of the selected artifact recovered. It does not establish that the application is secure.",
+            "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences.",
+            "ZIP central directory does not account for 1327 byte(s) in 1 range(s) before it, first at offset 64209; local entries it does not list may exist there."
+          ]
+        }
+      }
+    },
+    {
+      "label": "config.vi.apk",
+      "path": "/tmp/zalopay_corpus/xapk/config.vi.apk",
+      "inspect_artifact": {
+        "evidence_id": "ev_efae45876bbbb411109525e82f477de3a97364aca2eee48ea495e303f608b0fc",
+        "subject_sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+        "manifest": {
+          "manifest_id": "agm_d56f91d808ce6df6296fbb934f67c477a4bb3b12e9d5cf62457b4560c01966d7",
+          "root_artifact_id": "art_a8a5a35809743d1c319ba38303a9ee2f3861e22d8d930ca3ecb6ff0026856aef",
+          "root_sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+          "root_format": "apk",
+          "graph_sha256": "08b9602b1dc92d3d6a638a246214d2f939276236c995f0c8cc297bedddd1464a",
+          "node_count": 7,
+          "occurrence_count": 7,
+          "edge_count": 6
+        },
+        "occurrence_count": 7,
+        "sample_occurrences": [
+          {
+            "path": ".",
+            "size": 86425,
+            "format": "apk"
+          },
+          {
+            "path": "AndroidManifest.xml",
+            "size": 1000,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/BNDLTOOL.RSA",
+            "size": 1107,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/BNDLTOOL.SF",
+            "size": 342,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/MANIFEST.MF",
+            "size": 234,
+            "format": "file"
+          },
+          {
+            "path": "resources.arsc",
+            "size": 75460,
+            "format": "file"
+          },
+          {
+            "path": "stamp-cert-sha256",
+            "size": 32,
+            "format": "file"
+          }
+        ],
+        "limitations": [
+          "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+          "ZIP central directory does not account for 137 byte(s) in 1 range(s) before it, first at offset 77687; local entries it does not list may exist there.",
+          "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+        ]
+      },
+      "release_exposure": {
+        "evidence_id": "ev_da6bc6e28a3c28333f4f7235ad3ec49b72cf66d88e57a0ad4b8eb6f587ab04d0",
+        "normalized_result": {
+          "target": {
+            "selected_path": "/tmp/zalopay_corpus/xapk/config.vi.apk",
+            "kind": "file",
+            "format": "apk",
+            "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33"
+          },
+          "checks": [
+            {
+              "id": "javascript.source_map_sources",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 6
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Ship the release without sourcesContent. Remove the source maps or omit sourcesContent from maps that ship.",
+              "next_probe": null
+            },
+            {
+              "id": "javascript.source_maps",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 6
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Do not ship source maps beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "electron.run_as_node",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.RunAsNode to false with @electron/fuses before packaging.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.asar_integrity",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableEmbeddedAsarIntegrityValidation to true with @electron/fuses. Electron compiles this check for macOS and Windows; an ELF byte stays unknown.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.only_load_from_asar",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.OnlyLoadAppFromAsar to true with @electron/fuses so the packaged app loads application code from app.asar.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.node_cli_inspect",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableNodeCliInspectArguments to false with @electron/fuses so the packaged app ignores --inspect.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "packaging.extractable_payload",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "readable_members": 0,
+                  "unreadable_members": 0,
+                  "formats": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Readable members are part of this package format. Treat packaged sources as public. This check does not rewrite the artifact.",
+              "next_probe": "inspect_artifact"
+            },
+            {
+              "id": "native.debug_companions",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "companions": 0,
+                  "skipped": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Do not ship .pdb, .dSYM, .debug, or linker map files beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "native.pdb_path",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "examined": 0,
+                  "paths": 0,
+                  "failed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Rebuild without a CodeView PDB path, or accept that the path string is recoverable from the PE. The PDB file itself is a separate check.",
+              "next_probe": null
+            },
+            {
+              "id": "go.build_paths",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "paths": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Rebuild with -trimpath so file paths are not written into the binary. Module names can remain.",
+              "next_probe": "inspect_go_binary"
+            },
+            {
+              "id": "rust.dependency_metadata",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "packages": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Omit cargo-auditable metadata from the release if the crate list should not ship.",
+              "next_probe": "inspect_rust_binary"
+            },
+            {
+              "id": "text.credential_markers",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "scanned_members": 0,
+                  "skipped_members": 6,
+                  "omitted_hits": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "Remove the provider-prefixed credential from the shipped text and rotate it if it is real. This check reports the rule id and location only.",
+              "next_probe": null
+            },
+            {
+              "id": "native.hardening",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "This audit does not assess native hardening. Use inspect_binary_hardening when that tool is available.",
+              "next_probe": "inspect_binary_hardening"
+            },
+            {
+              "id": "macho.hardened_runtime",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "This audit does not assess the Mach-O hardened runtime. inspect_signature reads code signatures and would change this tool's effects, so it stays a next probe.",
+              "next_probe": "inspect_signature"
+            },
+            {
+              "id": "android.manifest",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.vi.apk"
+                }
+              ],
+              "remediation": "This audit does not read Android manifests. Use inspect_android_package, which needs JADX.",
+              "next_probe": "inspect_android_package"
+            }
+          ],
+          "summary": {
+            "by_status": {
+              "exposed": 0,
+              "not_observed": 0,
+              "not_applicable": 0,
+              "unknown": 12,
+              "not_assessed": 3
+            },
+            "by_severity": {
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "info": 0
+            },
+            "highest_exposed_severity": null,
+            "no_exposure_observed_in_assessed_checks": true
+          },
+          "coverage": {
+            "allowances": [
+              "Selected file reads stop at 268435456 bytes.",
+              "Text member scans read at most 262144 bytes each and 4194304 bytes in total.",
+              "HTML script targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Local source map targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Source map scans read at most 32 maps and 1048576 bytes each. sourcesContent text is counted and then dropped.",
+              "Other files and package members are identified from their first 4096 bytes, and those without a NUL byte in that prefix are scanned as text. Up to 64 packaged PE images are read for debug records, 262144 bytes each.",
+              "Packaged ELF, Mach-O, and PE images are read in full and copied to a temporary file to probe for an embedded package. They share one max_file_bytes allowance, and an image that does not fit is not probed.",
+              "Go, Rust, and Electron fuse readers run on at most 4 native images."
+            ],
+            "omitted": [
+              {
+                "subject": "source maps",
+                "count": 6,
+                "reason": "A source map exceeded the map count or byte allowance, could not be read, was a link that is not followed, was past the package entry cap or the HTML inline script limit, was declared but not found, or sat in a script that could not be fully decoded or examined as one; inline CSS source-map directives are not inspected."
+              },
+              {
+                "subject": "text members",
+                "count": 6,
+                "reason": "A text member exceeded the text byte allowance, could not be read or fully decoded, or was past the package entry cap."
+              }
+            ]
+          },
+          "limitations": [
+            "This report states what static analysis of the selected artifact recovered. It does not establish that the application is secure.",
+            "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences.",
+            "ZIP central directory does not account for 137 byte(s) in 1 range(s) before it, first at offset 77687; local entries it does not list may exist there."
+          ]
+        }
+      }
+    },
+    {
+      "label": "config.xhdpi.apk",
+      "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk",
+      "inspect_artifact": {
+        "evidence_id": "ev_d7507096d10b35b79c4d54f17c82bf646dd7c358de9f6d9545e9a751050fae4b",
+        "subject_sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+        "manifest": {
+          "manifest_id": "agm_f9009f20af1ef1e3229f0cdee3530934cab37fbdd40f732b15fbaf506c20eb07",
+          "root_artifact_id": "art_36acb9f80a14b41ab8487e3d0074c29c9e97bd78444e151a2274dabe09fb021f",
+          "root_sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+          "root_format": "apk",
+          "graph_sha256": "08cb9cefdc4e7aa14bc990ead41b59699c1d3245975d42644d65e4d5aac9b8e1",
+          "node_count": 256,
+          "occurrence_count": 259,
+          "edge_count": 258
+        },
+        "occurrence_count": 259,
+        "sample_occurrences": [
+          {
+            "path": ".",
+            "size": 1232563,
+            "format": "apk"
+          },
+          {
+            "path": "AndroidManifest.xml",
+            "size": 1032,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/BNDLTOOL.RSA",
+            "size": 1107,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/BNDLTOOL.SF",
+            "size": 25958,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/MANIFEST.MF",
+            "size": 25850,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_edit_mode_logo.xml",
+            "size": 4112,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_audiotrack.xml",
+            "size": 1120,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_check.xml",
+            "size": 700,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_chevron_left.xml",
+            "size": 596,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_chevron_right.xml",
+            "size": 596,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_forward.xml",
+            "size": 880,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_fullscreen_enter.xml",
+            "size": 644,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_fullscreen_exit.xml",
+            "size": 644,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_pause_circle_filled.xml",
+            "size": 656,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_play_circle_filled.xml",
+            "size": 640,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_rewind.xml",
+            "size": 880,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_settings.xml",
+            "size": 1420,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_skip_next.xml",
+            "size": 584,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_skip_previous.xml",
+            "size": 584,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_speed.xml",
+            "size": 1148,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_subtitle_off.xml",
+            "size": 1212,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_ic_subtitle_on.xml",
+            "size": 960,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_icon_fastforward.xml",
+            "size": 588,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_icon_repeat_all.xml",
+            "size": 620,
+            "format": "file"
+          },
+          {
+            "path": "res/drawable-anydpi-v21/exo_icon_repeat_off.xml",
+            "size": 620,
+            "format": "file"
+          }
+        ],
+        "limitations": [
+          "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+          "ZIP central directory does not account for 1679 byte(s) in 1 range(s) before it, first at offset 1198449; local entries it does not list may exist there.",
+          "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+        ]
+      },
+      "release_exposure": {
+        "evidence_id": "ev_fa1b923c98f584bea1f88001fef89aedb05229883d7b3b507feea720407f29a4",
+        "normalized_result": {
+          "target": {
+            "selected_path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk",
+            "kind": "file",
+            "format": "apk",
+            "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b"
+          },
+          "checks": [
+            {
+              "id": "javascript.source_map_sources",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 258
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Ship the release without sourcesContent. Remove the source maps or omit sourcesContent from maps that ship.",
+              "next_probe": null
+            },
+            {
+              "id": "javascript.source_maps",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 258
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Do not ship source maps beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "electron.run_as_node",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.RunAsNode to false with @electron/fuses before packaging.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.asar_integrity",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableEmbeddedAsarIntegrityValidation to true with @electron/fuses. Electron compiles this check for macOS and Windows; an ELF byte stays unknown.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.only_load_from_asar",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.OnlyLoadAppFromAsar to true with @electron/fuses so the packaged app loads application code from app.asar.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.node_cli_inspect",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableNodeCliInspectArguments to false with @electron/fuses so the packaged app ignores --inspect.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "packaging.extractable_payload",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "readable_members": 0,
+                  "unreadable_members": 0,
+                  "formats": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Readable members are part of this package format. Treat packaged sources as public. This check does not rewrite the artifact.",
+              "next_probe": "inspect_artifact"
+            },
+            {
+              "id": "native.debug_companions",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "companions": 0,
+                  "skipped": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Do not ship .pdb, .dSYM, .debug, or linker map files beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "native.pdb_path",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "examined": 0,
+                  "paths": 0,
+                  "failed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Rebuild without a CodeView PDB path, or accept that the path string is recoverable from the PE. The PDB file itself is a separate check.",
+              "next_probe": null
+            },
+            {
+              "id": "go.build_paths",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "paths": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Rebuild with -trimpath so file paths are not written into the binary. Module names can remain.",
+              "next_probe": "inspect_go_binary"
+            },
+            {
+              "id": "rust.dependency_metadata",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "packages": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Omit cargo-auditable metadata from the release if the crate list should not ship.",
+              "next_probe": "inspect_rust_binary"
+            },
+            {
+              "id": "text.credential_markers",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "scanned_members": 0,
+                  "skipped_members": 258,
+                  "omitted_hits": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "Remove the provider-prefixed credential from the shipped text and rotate it if it is real. This check reports the rule id and location only.",
+              "next_probe": null
+            },
+            {
+              "id": "native.hardening",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "This audit does not assess native hardening. Use inspect_binary_hardening when that tool is available.",
+              "next_probe": "inspect_binary_hardening"
+            },
+            {
+              "id": "macho.hardened_runtime",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "This audit does not assess the Mach-O hardened runtime. inspect_signature reads code signatures and would change this tool's effects, so it stays a next probe.",
+              "next_probe": "inspect_signature"
+            },
+            {
+              "id": "android.manifest",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/config.xhdpi.apk"
+                }
+              ],
+              "remediation": "This audit does not read Android manifests. Use inspect_android_package, which needs JADX.",
+              "next_probe": "inspect_android_package"
+            }
+          ],
+          "summary": {
+            "by_status": {
+              "exposed": 0,
+              "not_observed": 0,
+              "not_applicable": 0,
+              "unknown": 12,
+              "not_assessed": 3
+            },
+            "by_severity": {
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "info": 0
+            },
+            "highest_exposed_severity": null,
+            "no_exposure_observed_in_assessed_checks": true
+          },
+          "coverage": {
+            "allowances": [
+              "Selected file reads stop at 268435456 bytes.",
+              "Text member scans read at most 262144 bytes each and 4194304 bytes in total.",
+              "HTML script targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Local source map targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Source map scans read at most 32 maps and 1048576 bytes each. sourcesContent text is counted and then dropped.",
+              "Other files and package members are identified from their first 4096 bytes, and those without a NUL byte in that prefix are scanned as text. Up to 64 packaged PE images are read for debug records, 262144 bytes each.",
+              "Packaged ELF, Mach-O, and PE images are read in full and copied to a temporary file to probe for an embedded package. They share one max_file_bytes allowance, and an image that does not fit is not probed.",
+              "Go, Rust, and Electron fuse readers run on at most 4 native images."
+            ],
+            "omitted": [
+              {
+                "subject": "source maps",
+                "count": 258,
+                "reason": "A source map exceeded the map count or byte allowance, could not be read, was a link that is not followed, was past the package entry cap or the HTML inline script limit, was declared but not found, or sat in a script that could not be fully decoded or examined as one; inline CSS source-map directives are not inspected."
+              },
+              {
+                "subject": "text members",
+                "count": 258,
+                "reason": "A text member exceeded the text byte allowance, could not be read or fully decoded, or was past the package entry cap."
+              }
+            ]
+          },
+          "limitations": [
+            "This report states what static analysis of the selected artifact recovered. It does not establish that the application is secure.",
+            "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences.",
+            "ZIP central directory does not account for 1679 byte(s) in 1 range(s) before it, first at offset 1198449; local entries it does not list may exist there."
+          ]
+        }
+      }
+    },
+    {
+      "label": "vn.com.vng.zalopay.apk",
+      "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk",
+      "inspect_artifact": {
+        "evidence_id": "ev_9473056a410b1afe4aa2e677a575130d5549ce18b900c50040710006bbb29b57",
+        "subject_sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+        "manifest": {
+          "manifest_id": "agm_bd1da3b2b782648e2cfe041dbd197edabed61838e7fc53ed88e0a392f6d4b1df",
+          "root_artifact_id": "art_049b131a8d1bc53f77efab123eb48477a99a29472355e0624afe674edf181136",
+          "root_sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+          "root_format": "apk",
+          "graph_sha256": "5997480983492ed39d702dbd6997ef1c0939b93230709f31ddaebed2f960a27e",
+          "node_count": 5675,
+          "occurrence_count": 6163,
+          "edge_count": 6162
+        },
+        "occurrence_count": 6163,
+        "sample_occurrences": [
+          {
+            "path": ".",
+            "size": 79359087,
+            "format": "apk"
+          },
+          {
+            "path": "AndroidManifest.xml",
+            "size": 125916,
+            "format": "file"
+          },
+          {
+            "path": "DebugProbesKt.bin",
+            "size": 1738,
+            "format": "file"
+          },
+          {
+            "path": "LICENSE-junit.txt",
+            "size": 11376,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/CHANGES",
+            "size": 81618,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/NOTICE.md",
+            "size": 1074,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/README.md",
+            "size": 2902,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.activity_activity-compose.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.activity_activity-ktx.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.activity_activity.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.annotation_annotation-experimental.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.appcompat_appcompat-resources.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.appcompat_appcompat.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.arch.core_core-runtime.version",
+            "size": 67,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.autofill_autofill.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.biometric_biometric.version",
+            "size": 14,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.browser_browser.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.camera_camera-camera2.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.camera_camera-core.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.camera_camera-extensions.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.camera_camera-lifecycle.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.camera_camera-video.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.camera_camera-view.version",
+            "size": 6,
+            "format": "file"
+          },
+          {
+            "path": "META-INF/androidx.cardview_cardview.version",
+            "size": 6,
+            "format": "file"
+          }
+        ],
+        "limitations": [
+          "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+          "ZIP central directory does not account for 3090 byte(s) in 1 range(s) before it, first at offset 78803950; local entries it does not list may exist there.",
+          "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+        ]
+      },
+      "release_exposure": {
+        "evidence_id": "ev_d745bc2f0538d3b8df5bcf9f35c6f169cd8ac94295b37a61cb3452a2d5304931",
+        "normalized_result": {
+          "target": {
+            "selected_path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk",
+            "kind": "file",
+            "format": "apk",
+            "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03"
+          },
+          "checks": [
+            {
+              "id": "javascript.source_map_sources",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 6162
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Ship the release without sourcesContent. Remove the source maps or omit sourcesContent from maps that ship.",
+              "next_probe": null
+            },
+            {
+              "id": "javascript.source_maps",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 6162
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Do not ship source maps beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "electron.run_as_node",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.RunAsNode to false with @electron/fuses before packaging.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.asar_integrity",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableEmbeddedAsarIntegrityValidation to true with @electron/fuses. Electron compiles this check for macOS and Windows; an ELF byte stays unknown.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.only_load_from_asar",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.OnlyLoadAppFromAsar to true with @electron/fuses so the packaged app loads application code from app.asar.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.node_cli_inspect",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableNodeCliInspectArguments to false with @electron/fuses so the packaged app ignores --inspect.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "packaging.extractable_payload",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "readable_members": 0,
+                  "unreadable_members": 0,
+                  "formats": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Readable members are part of this package format. Treat packaged sources as public. This check does not rewrite the artifact.",
+              "next_probe": "inspect_artifact"
+            },
+            {
+              "id": "native.debug_companions",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "companions": 0,
+                  "skipped": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Do not ship .pdb, .dSYM, .debug, or linker map files beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "native.pdb_path",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "examined": 0,
+                  "paths": 0,
+                  "failed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Rebuild without a CodeView PDB path, or accept that the path string is recoverable from the PE. The PDB file itself is a separate check.",
+              "next_probe": null
+            },
+            {
+              "id": "go.build_paths",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "paths": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Rebuild with -trimpath so file paths are not written into the binary. Module names can remain.",
+              "next_probe": "inspect_go_binary"
+            },
+            {
+              "id": "rust.dependency_metadata",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "packages": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Omit cargo-auditable metadata from the release if the crate list should not ship.",
+              "next_probe": "inspect_rust_binary"
+            },
+            {
+              "id": "text.credential_markers",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "scanned_members": 0,
+                  "skipped_members": 6162,
+                  "omitted_hits": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "Remove the provider-prefixed credential from the shipped text and rotate it if it is real. This check reports the rule id and location only.",
+              "next_probe": null
+            },
+            {
+              "id": "native.hardening",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "This audit does not assess native hardening. Use inspect_binary_hardening when that tool is available.",
+              "next_probe": "inspect_binary_hardening"
+            },
+            {
+              "id": "macho.hardened_runtime",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "This audit does not assess the Mach-O hardened runtime. inspect_signature reads code signatures and would change this tool's effects, so it stays a next probe.",
+              "next_probe": "inspect_signature"
+            },
+            {
+              "id": "android.manifest",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/xapk/vn.com.vng.zalopay.apk"
+                }
+              ],
+              "remediation": "This audit does not read Android manifests. Use inspect_android_package, which needs JADX.",
+              "next_probe": "inspect_android_package"
+            }
+          ],
+          "summary": {
+            "by_status": {
+              "exposed": 0,
+              "not_observed": 0,
+              "not_applicable": 0,
+              "unknown": 12,
+              "not_assessed": 3
+            },
+            "by_severity": {
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "info": 0
+            },
+            "highest_exposed_severity": null,
+            "no_exposure_observed_in_assessed_checks": true
+          },
+          "coverage": {
+            "allowances": [
+              "Selected file reads stop at 268435456 bytes.",
+              "Text member scans read at most 262144 bytes each and 4194304 bytes in total.",
+              "HTML script targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Local source map targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Source map scans read at most 32 maps and 1048576 bytes each. sourcesContent text is counted and then dropped.",
+              "Other files and package members are identified from their first 4096 bytes, and those without a NUL byte in that prefix are scanned as text. Up to 64 packaged PE images are read for debug records, 262144 bytes each.",
+              "Packaged ELF, Mach-O, and PE images are read in full and copied to a temporary file to probe for an embedded package. They share one max_file_bytes allowance, and an image that does not fit is not probed.",
+              "Go, Rust, and Electron fuse readers run on at most 4 native images."
+            ],
+            "omitted": [
+              {
+                "subject": "source maps",
+                "count": 6162,
+                "reason": "A source map exceeded the map count or byte allowance, could not be read, was a link that is not followed, was past the package entry cap or the HTML inline script limit, was declared but not found, or sat in a script that could not be fully decoded or examined as one; inline CSS source-map directives are not inspected."
+              },
+              {
+                "subject": "text members",
+                "count": 6162,
+                "reason": "A text member exceeded the text byte allowance, could not be read or fully decoded, or was past the package entry cap."
+              }
+            ]
+          },
+          "limitations": [
+            "This report states what static analysis of the selected artifact recovered. It does not establish that the application is secure.",
+            "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences.",
+            "ZIP central directory does not account for 3090 byte(s) in 1 range(s) before it, first at offset 78803950; local entries it does not list may exist there."
+          ]
+        }
+      }
+    },
+    {
+      "label": "assets/android.1.zip",
+      "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip",
+      "inspect_artifact": {
+        "evidence_id": "ev_9561a828a245c4d6df9ae2223bc2552f86b50eeebb2ccd07747bb21a5bf6e9c2",
+        "subject_sha256": "e5358e94d6938eb1502857a78dfdb6fae7095e6859103abad9017127cd82cbda",
+        "manifest": {
+          "manifest_id": "agm_090ed66da02c10c1d8415e7eac17b15543d8798bf6a3790de124fcf3ad42a533",
+          "root_artifact_id": "art_3da77cf7af45a530a7a522e4e0822a44f4700b50265e0dd9f222acda7ad466c7",
+          "root_sha256": "e5358e94d6938eb1502857a78dfdb6fae7095e6859103abad9017127cd82cbda",
+          "root_format": "zip",
+          "graph_sha256": "aa5c5c3bea60c10873adeaa5165061cf28525e146522490303826639939ec40f",
+          "node_count": 315,
+          "occurrence_count": 327,
+          "edge_count": 326
+        },
+        "occurrence_count": 327,
+        "sample_occurrences": [
+          {
+            "path": ".",
+            "size": 3913966,
+            "format": "zip"
+          },
+          {
+            "path": "drawable-hdpi",
+            "size": null,
+            "format": "directory"
+          },
+          {
+            "path": "drawable-hdpi/node_modules_miniapps_navigation_src_libs_stack_dist_views_assets_backicon.png",
+            "size": 134,
+            "format": "file"
+          },
+          {
+            "path": "drawable-hdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png",
+            "size": 134,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi",
+            "size": null,
+            "format": "directory"
+          },
+          {
+            "path": "drawable-mdpi/about_images_arrowright.png",
+            "size": 350,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_images_iconfeatured.png",
+            "size": 756,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_images_iconoperation.png",
+            "size": 985,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_images_iconpolicy.png",
+            "size": 893,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_images_iconrating.png",
+            "size": 1059,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_images_logoccdv.png",
+            "size": 5555,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_images_logosquare.png",
+            "size": 2829,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_intro_images_01_dt.png",
+            "size": 21646,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_intro_images_01_dt_ipx.png",
+            "size": 67451,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_intro_images_02_dt.png",
+            "size": 28589,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_intro_images_02_dt_ipx.png",
+            "size": 66767,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_intro_images_03_dt.png",
+            "size": 27825,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_intro_images_03_dt_ipx.png",
+            "size": 75357,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_intro_images_04_dt.png",
+            "size": 46005,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_intro_images_04_dt_ipx.png",
+            "size": 140341,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_intro_images_05_dt.png",
+            "size": 33272,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_intro_images_05_dt_ipx.png",
+            "size": 83840,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/about_intro_images_bg1.jpg",
+            "size": 38272,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/clearingaccount_images_icon_123pbidv.png",
+            "size": 852,
+            "format": "file"
+          },
+          {
+            "path": "drawable-mdpi/clearingaccount_images_icon_123peib.png",
+            "size": 930,
+            "format": "file"
+          }
+        ],
+        "limitations": [
+          "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+          "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+        ]
+      },
+      "release_exposure": {
+        "evidence_id": "ev_671d2f7e70658db42b5b529a7aa7b4524f5781fefab5fd4cb46482a779dd1e87",
+        "normalized_result": {
+          "target": {
+            "selected_path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip",
+            "kind": "file",
+            "format": "zip",
+            "sha256": "e5358e94d6938eb1502857a78dfdb6fae7095e6859103abad9017127cd82cbda"
+          },
+          "checks": [
+            {
+              "id": "javascript.source_map_sources",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 321
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Ship the release without sourcesContent. Remove the source maps or omit sourcesContent from maps that ship.",
+              "next_probe": null
+            },
+            {
+              "id": "javascript.source_maps",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "embedded": 0,
+                  "without_sources": 0,
+                  "unparsed": 0,
+                  "skipped": 321
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Do not ship source maps beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "electron.run_as_node",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Set FuseV1Options.RunAsNode to false with @electron/fuses before packaging.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.asar_integrity",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableEmbeddedAsarIntegrityValidation to true with @electron/fuses. Electron compiles this check for macOS and Windows; an ELF byte stays unknown.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.only_load_from_asar",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Set FuseV1Options.OnlyLoadAppFromAsar to true with @electron/fuses so the packaged app loads application code from app.asar.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "electron.node_cli_inspect",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "implications": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Set FuseV1Options.EnableNodeCliInspectArguments to false with @electron/fuses so the packaged app ignores --inspect.",
+              "next_probe": "inspect_electron_fuses"
+            },
+            {
+              "id": "packaging.extractable_payload",
+              "status": "not_observed",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "readable_members": 0,
+                  "unreadable_members": 0,
+                  "formats": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Readable members are part of this package format. Treat packaged sources as public. This check does not rewrite the artifact.",
+              "next_probe": "inspect_artifact"
+            },
+            {
+              "id": "native.debug_companions",
+              "status": "not_observed",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "companions": 0,
+                  "skipped": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Do not ship .pdb, .dSYM, .debug, or linker map files beside the release.",
+              "next_probe": null
+            },
+            {
+              "id": "native.pdb_path",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "examined": 0,
+                  "paths": 0,
+                  "failed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Rebuild without a CodeView PDB path, or accept that the path string is recoverable from the PE. The PDB file itself is a separate check.",
+              "next_probe": null
+            },
+            {
+              "id": "go.build_paths",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "paths": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Rebuild with -trimpath so file paths are not written into the binary. Module names can remain.",
+              "next_probe": "inspect_go_binary"
+            },
+            {
+              "id": "rust.dependency_metadata",
+              "status": "not_applicable",
+              "severity": null,
+              "confidence": "observed",
+              "observation": {
+                "counts": {
+                  "images": 0,
+                  "packages": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Omit cargo-auditable metadata from the release if the crate list should not ship.",
+              "next_probe": "inspect_rust_binary"
+            },
+            {
+              "id": "text.credential_markers",
+              "status": "unknown",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "scanned_members": 0,
+                  "skipped_members": 321,
+                  "omitted_hits": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "Remove the provider-prefixed credential from the shipped text and rotate it if it is real. This check reports the rule id and location only.",
+              "next_probe": null
+            },
+            {
+              "id": "native.hardening",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "This audit does not assess native hardening. Use inspect_binary_hardening when that tool is available.",
+              "next_probe": "inspect_binary_hardening"
+            },
+            {
+              "id": "macho.hardened_runtime",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "This audit does not assess the Mach-O hardened runtime. inspect_signature reads code signatures and would change this tool's effects, so it stays a next probe.",
+              "next_probe": "inspect_signature"
+            },
+            {
+              "id": "android.manifest",
+              "status": "not_assessed",
+              "severity": null,
+              "confidence": "inferred",
+              "observation": {
+                "counts": {
+                  "assessed": 0
+                },
+                "samples": []
+              },
+              "locations": [
+                {
+                  "kind": "artifact-path",
+                  "path": "/tmp/zalopay_corpus/apks/vn.com.vng.zalopay/assets/android.1.zip"
+                }
+              ],
+              "remediation": "This audit does not read Android manifests. Use inspect_android_package, which needs JADX.",
+              "next_probe": "inspect_android_package"
+            }
+          ],
+          "summary": {
+            "by_status": {
+              "exposed": 0,
+              "not_observed": 2,
+              "not_applicable": 7,
+              "unknown": 3,
+              "not_assessed": 3
+            },
+            "by_severity": {
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "info": 0
+            },
+            "highest_exposed_severity": null,
+            "no_exposure_observed_in_assessed_checks": true
+          },
+          "coverage": {
+            "allowances": [
+              "Selected file reads stop at 268435456 bytes.",
+              "Text member scans read at most 262144 bytes each and 4194304 bytes in total.",
+              "HTML script targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Local source map targets keep at most 1048576 bytes of resolved paths. Later targets stay unassessed.",
+              "Source map scans read at most 32 maps and 1048576 bytes each. sourcesContent text is counted and then dropped.",
+              "Other files and package members are identified from their first 4096 bytes, and those without a NUL byte in that prefix are scanned as text. Up to 64 packaged PE images are read for debug records, 262144 bytes each.",
+              "Packaged ELF, Mach-O, and PE images are read in full and copied to a temporary file to probe for an embedded package. They share one max_file_bytes allowance, and an image that does not fit is not probed.",
+              "Go, Rust, and Electron fuse readers run on at most 4 native images."
+            ],
+            "omitted": [
+              {
+                "subject": "source maps",
+                "count": 321,
+                "reason": "A source map exceeded the map count or byte allowance, could not be read, was a link that is not followed, was past the package entry cap or the HTML inline script limit, was declared but not found, or sat in a script that could not be fully decoded or examined as one; inline CSS source-map directives are not inspected."
+              },
+              {
+                "subject": "text members",
+                "count": 321,
+                "reason": "A text member exceeded the text byte allowance, could not be read or fully decoded, or was past the package entry cap."
+              }
+            ]
+          },
+          "limitations": [
+            "This report states what static analysis of the selected artifact recovered. It does not establish that the application is secure.",
+            "ZIP inventory lists central-directory entries only. Non-entry bytes, including leading bytes before the first entry such as a self-extractor stub, an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+          ]
+        }
+      }
+    }
+  ]
+}
