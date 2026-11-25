@@ -1,0 +1,242 @@
+{
+ "counts": {
+  "provider": 10,
+  "activity": 200,
+  "activity-alias": 2,
+  "receiver": 22,
+  "service": 34
+ },
+ "exported": [
+  {
+   "type": "activity",
+   "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "com.facebook.CustomTabActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "androidx.compose.ui.tooling.PreviewActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity-alias",
+   "name": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "activity-alias",
+   "name": "vn.zalopay.apps.ZaloAppActivityAlias",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "receiver",
+   "name": "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "receiver",
+   "name": "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "receiver",
+   "name": "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "receiver",
+   "name": "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "receiver",
+   "name": "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "receiver",
+   "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+   "permission": "com.google.android.c2dm.permission.SEND",
+   "enabled": null
+  },
+  {
+   "type": "receiver",
+   "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+   "permission": "android.permission.DUMP",
+   "enabled": "true"
+  },
+  {
+   "type": "receiver",
+   "name": "androidx.profileinstaller.ProfileInstallReceiver",
+   "permission": "android.permission.DUMP",
+   "enabled": "true"
+  },
+  {
+   "type": "service",
+   "name": "vn.com.vng.zalopay.notification.MyFcmListenerService",
+   "permission": null,
+   "enabled": null
+  },
+  {
+   "type": "service",
+   "name": "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+   "permission": "android.permission.BIND_NFC_SERVICE",
+   "enabled": null
+  },
+  {
+   "type": "service",
+   "name": "androidx.glance.appwidget.GlanceRemoteViewsService",
+   "permission": "android.permission.BIND_REMOTEVIEWS",
+   "enabled": null
+  },
+  {
+   "type": "service",
+   "name": "androidx.work.impl.background.systemjob.SystemJobService",
+   "permission": "android.permission.BIND_JOB_SERVICE",
+   "enabled": "0x7f050007"
+  },
+  {
+   "type": "service",
+   "name": "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+   "permission": "android.permission.BIND_NFC_SERVICE",
+   "enabled": null
+  },
+  {
+   "type": "service",
+   "name": "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService",
+   "permission": "android.permission.BIND_NFC_SERVICE",
+   "enabled": null
+  }
+ ],
+ "permissions": [
+  "android.permission.ACCESS_ADSERVICES_AD_ID",
+  "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+  "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+  "android.permission.ACCESS_ADSERVICES_TOPICS",
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.ACCESS_FINE_LOCATION",
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.CAMERA",
+  "android.permission.CHANGE_WIFI_STATE",
+  "android.permission.DETECT_SCREEN_CAPTURE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.INTERNET",
+  "android.permission.MODIFY_AUDIO_SETTINGS",
+  "android.permission.NFC",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.READ_BASIC_PHONE_STATE",
+  "android.permission.READ_CALENDAR",
+  "android.permission.READ_CONTACTS",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.READ_MEDIA_AUDIO",
+  "android.permission.READ_PHONE_STATE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.RECORD_AUDIO",
+  "android.permission.REORDER_TASKS",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_CALENDAR",
+  "android.permission.WRITE_CONTACTS",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+  "com.android.launcher.permission.INSTALL_SHORTCUT",
+  "com.android.launcher.permission.READ_SETTINGS",
+  "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+  "com.android.launcher.permission.WRITE_SETTINGS",
+  "com.android.vending.BILLING",
+  "com.bbk.launcher2.permission.READ_SETTINGS",
+  "com.bbk.launcher2.permission.WRITE_SETTINGS",
+  "com.google.android.c2dm.permission.RECEIVE",
+  "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+  "com.google.android.gms.permission.AD_ID",
+  "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+  "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+  "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+  "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+  "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ]
+}

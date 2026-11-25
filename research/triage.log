@@ -1,0 +1,415 @@
+== hashes ==
+outer Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip 34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a
+xapk /home/user/-/work/extracted/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk 686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d
+{
+ "xapk_version": 2,
+ "package_name": "vn.com.vng.zalopay",
+ "name": "Zalopay",
+ "version_code": "1102758",
+ "version_name": "11.17.0",
+ "min_sdk_version": "26",
+ "target_sdk_version": "36",
+ "permissions": [
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.READ_CONTACTS",
+  "android.permission.INTERNET",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.READ_PHONE_STATE",
+  "com.google.android.c2dm.permission.RECEIVE",
+  "android.permission.WAKE_LOCK",
+  "android.permission.NFC",
+  "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.ACCESS_FINE_LOCATION",
+  "android.permission.USE_FINGERPRINT",
+  "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+  "android.permission.WRITE_CALENDAR",
+  "android.permission.READ_CALENDAR",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.RECORD_AUDIO",
+  "android.permission.MODIFY_AUDIO_SETTINGS",
+  "com.android.launcher.permission.INSTALL_SHORTCUT",
+  "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+  "com.android.launcher.permission.WRITE_SETTINGS",
+  "com.android.launcher.permission.READ_SETTINGS",
+  "com.bbk.launcher2.permission.READ_SETTINGS",
+  "com.bbk.launcher2.permission.WRITE_SETTINGS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.CAMERA",
+  "android.permission.VIBRATE",
+  "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+  "android.permission.CHANGE_WIFI_STATE",
+  "android.permission.DETECT_SCREEN_CAPTURE",
+  "com.google.android.gms.permission.AD_ID",
+  "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+  "android.permission.ACCESS_ADSERVICES_AD_ID",
+  "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "com.android.vending.BILLING",
+  "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+  "android.permission.ACCESS_ADSERVICES_TOPICS",
+  "android.permission.FOREGROUND_SERVICE",
+  "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "android.permission.REORDER_TASKS",
+  "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+  "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+  "android.permission.READ_BASIC_PHONE_STATE",
+  "android.permission.WRITE_CONTACTS",
+  "android.permission.READ_MEDIA_AUDIO"
+ ],
+ "split_configs": [
+  "config.armeabi_v7a",
+  "config.en",
+  "config.vi",
+  "config.xhdpi"
+ ],
+ "total_size": 105580620,
+ "icon": "icon.png",
+ "split_apks": [
+  {
+   "file": "vn.com.vng.zalopay.apk",
+   "id": "base"
+  },
+  {
+   "file": "config.armeabi_v7a.apk",
+   "id": "config.armeabi_v7a"
+  },
+  {
+   "file": "config.en.apk",
+   "id": "config.en"
+  },
+  {
+   "file": "config.vi.apk",
+   "id": "config.vi"
+  },
+  {
+   "file": "config.xhdpi.apk",
+   "id": "config.xhdpi"
+  }
+ ]
+}
+  vn.com.vng.zalopay.apk: 79359087 bytes sha256=e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03
+  config.armeabi_v7a.apk: 24828408 bytes sha256=456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b
+  config.en.apk: 74137 bytes sha256=87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942
+  config.vi.apk: 86425 bytes sha256=985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33
+  config.xhdpi.apk: 1232563 bytes sha256=f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b
+base apk entries: 6162
+META-INF: {}
+AXML: 627 strings, 608 elements
+manifest {'versionCode': '1102758', 'versionName': '11.17.0', 'compileSdkVersion': '36', 'compileSdkVersionCodename': '16', 'requiredSplitTypes': 'base__abi,base__density', 'splitTypes': '', 'package': 'vn.com.vng.zalopay', 'platformBuildVersionCode': '36', 'platformBuildVersionName': '16'}
+uses-sdk {'minSdkVersion': '26', 'targetSdkVersion': '36'}
+package {'name': 'com.vnid'}
+package {'name': 'com.zing.zalo'}
+package {'name': 'com.facebook.katana'}
+package {'name': 'com.google.android.apps.maps'}
+package {'name': 'com.instagram.android'}
+package {'name': 'com.facebook.lite'}
+package {'name': 'com.samsung.android.mapsagent'}
+package {'name': 'com.xiaomi.mipicks'}
+package {'name': 'com.zing.zalo'}
+package {'name': 'com.vnid'}
+permissions (49):
+   android.permission.ACCESS_ADSERVICES_AD_ID
+   android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+   android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE
+   android.permission.ACCESS_ADSERVICES_TOPICS
+   android.permission.ACCESS_COARSE_LOCATION
+   android.permission.ACCESS_FINE_LOCATION
+   android.permission.ACCESS_NETWORK_STATE
+   android.permission.ACCESS_WIFI_STATE
+   android.permission.CAMERA
+   android.permission.CHANGE_WIFI_STATE
+   android.permission.DETECT_SCREEN_CAPTURE
+   android.permission.FOREGROUND_SERVICE
+   android.permission.INTERNET
+   android.permission.MODIFY_AUDIO_SETTINGS
+   android.permission.NFC
+   android.permission.POST_NOTIFICATIONS
+   android.permission.QUERY_ALL_PACKAGES
+   android.permission.READ_BASIC_PHONE_STATE
+   android.permission.READ_CALENDAR
+   android.permission.READ_CONTACTS
+   android.permission.READ_EXTERNAL_STORAGE
+   android.permission.READ_MEDIA_AUDIO
+   android.permission.READ_PHONE_STATE
+   android.permission.RECEIVE_BOOT_COMPLETED
+   android.permission.RECORD_AUDIO
+   android.permission.REORDER_TASKS
+   android.permission.USE_BIOMETRIC
+   android.permission.USE_FINGERPRINT
+   android.permission.VIBRATE
+   android.permission.WAKE_LOCK
+   android.permission.WRITE_CALENDAR
+   android.permission.WRITE_CONTACTS
+   android.permission.WRITE_EXTERNAL_STORAGE
+   android.settings.action.MANAGE_OVERLAY_PERMISSION
+   com.android.launcher.permission.INSTALL_SHORTCUT
+   com.android.launcher.permission.READ_SETTINGS
+   com.android.launcher.permission.UNINSTALL_SHORTCUT
+   com.android.launcher.permission.WRITE_SETTINGS
+   com.android.vending.BILLING
+   com.bbk.launcher2.permission.READ_SETTINGS
+   com.bbk.launcher2.permission.WRITE_SETTINGS
+   com.google.android.c2dm.permission.RECEIVE
+   com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+   com.google.android.gms.permission.AD_ID
+   com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+   com.samsung.android.mapsagent.permission.READ_APP_INFO
+   com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+   com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION
+   vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+provider: 10 (exported=0)
+activity: 200 (exported=14)
+activity-alias: 2 (exported=2)
+receiver: 22 (exported=8)
+service: 34 (exported=6)
+exported components: 30
+   {'type': 'activity', 'name': 'vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'com.facebook.CustomTabActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'com.google.android.gms.tagmanager.TagManagerPreviewActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'androidx.compose.ui.tooling.PreviewActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'com.fpt.fci.ekycfull.presentation.view.EkycActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity', 'name': 'vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity', 'permission': None, 'enabled': None}
+   {'type': 'activity-alias', 'name': 'vn.zalopay.apps.ThirdPartyAppActivityAlias', 'permission': None, 'enabled': None}
+   {'type': 'activity-alias', 'name': 'vn.zalopay.apps.ZaloAppActivityAlias', 'permission': None, 'enabled': None}
+   {'type': 'receiver', 'name': 'vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver', 'permission': None, 'enabled': None}
+   {'type': 'receiver', 'name': 'vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver', 'permission': None, 'enabled': None}
+   {'type': 'receiver', 'name': 'vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver', 'permission': None, 'enabled': None}
+   {'type': 'receiver', 'name': 'vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver', 'permission': None, 'enabled': None}
+   {'type': 'receiver', 'name': 'vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver', 'permission': None, 'enabled': None}
+   {'type': 'receiver', 'name': 'com.google.firebase.iid.FirebaseInstanceIdReceiver', 'permission': 'com.google.android.c2dm.permission.SEND', 'enabled': None}
+   {'type': 'receiver', 'name': 'androidx.work.impl.diagnostics.DiagnosticsReceiver', 'permission': 'android.permission.DUMP', 'enabled': 'true'}
+   {'type': 'receiver', 'name': 'androidx.profileinstaller.ProfileInstallReceiver', 'permission': 'android.permission.DUMP', 'enabled': 'true'}
+   {'type': 'service', 'name': 'vn.com.vng.zalopay.notification.MyFcmListenerService', 'permission': None, 'enabled': None}
+   {'type': 'service', 'name': 'vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService', 'permission': 'android.permission.BIND_NFC_SERVICE', 'enabled': None}
+   {'type': 'service', 'name': 'androidx.glance.appwidget.GlanceRemoteViewsService', 'permission': 'android.permission.BIND_REMOTEVIEWS', 'enabled': None}
+   {'type': 'service', 'name': 'androidx.work.impl.background.systemjob.SystemJobService', 'permission': 'android.permission.BIND_JOB_SERVICE', 'enabled': '0x7f050007'}
+   {'type': 'service', 'name': 'com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService', 'permission': 'android.permission.BIND_NFC_SERVICE', 'enabled': None}
+   {'type': 'service', 'name': 'com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService', 'permission': 'android.permission.BIND_NFC_SERVICE', 'enabled': None}
+DEX files: ['classes.dex', 'classes10.dex', 'classes11.dex', 'classes12.dex', 'classes13.dex', 'classes14.dex', 'classes15.dex', 'classes16.dex', 'classes17.dex', 'classes18.dex', 'classes19.dex', 'classes2.dex', 'classes3.dex', 'classes4.dex', 'classes5.dex', 'classes6.dex', 'classes7.dex', 'classes8.dex', 'classes9.dex']
+  classes.dex: {'strings': 61218, 'types': 17196, 'methods': 59948, 'classes': 16686}
+  classes10.dex: {'strings': 920, 'types': 461, 'methods': 578, 'classes': 446}
+  classes11.dex: {'strings': 1584, 'types': 740, 'methods': 1171, 'classes': 721}
+  classes12.dex: {'strings': 3207, 'types': 1191, 'methods': 2604, 'classes': 1160}
+  classes13.dex: {'strings': 1381, 'types': 590, 'methods': 997, 'classes': 572}
+  classes14.dex: {'strings': 961, 'types': 404, 'methods': 575, 'classes': 390}
+  classes15.dex: {'strings': 1005, 'types': 436, 'methods': 658, 'classes': 426}
+  classes16.dex: {'strings': 261, 'types': 116, 'methods': 101, 'classes': 111}
+  classes17.dex: {'strings': 1847, 'types': 848, 'methods': 1311, 'classes': 807}
+  classes18.dex: {'strings': 1094, 'types': 553, 'methods': 668, 'classes': 530}
+  classes19.dex: {'strings': 4159, 'types': 1782, 'methods': 3781, 'classes': 1658}
+  classes2.dex: {'strings': 56948, 'types': 11243, 'methods': 45527, 'classes': 10797}
+  classes3.dex: {'strings': 8010, 'types': 3827, 'methods': 6354, 'classes': 3744}
+  classes4.dex: {'strings': 52812, 'types': 19105, 'methods': 59997, 'classes': 18426}
+  classes5.dex: {'strings': 56424, 'types': 14079, 'methods': 49055, 'classes': 13631}
+  classes6.dex: {'strings': 55274, 'types': 18399, 'methods': 49201, 'classes': 17892}
+  classes7.dex: {'strings': 59110, 'types': 20633, 'methods': 60000, 'classes': 19810}
+  classes8.dex: {'strings': 1906, 'types': 915, 'methods': 1552, 'classes': 858}
+  classes9.dex: {'strings': 6155, 'types': 2175, 'methods': 7170, 'classes': 2012}
+TOTAL classes=110677 strings=374276 methods=351248
+top packages:
+   11780  com/google
+    9177  org/bouncycastle
+    7333  com/alibaba
+    2113  com/iap
+    1792  com/visa
+    1761  androidx/media3
+    1629  androidx/camera
+    1616  vn/com
+    1287  androidx/compose
+    1114  vn/ai
+     994  java/util
+     893  java/lang
+     866  com/facebook
+     825  com/alipay
+     680  android/view
+     672  com/vnpay
+     555  com/appsflyer
+     548  androidx/appcompat
+     543  java/security
+     541  androidx/core
+     515  android/graphics
+     488  com/nimbusds
+     421  org/jmrtd
+     388  androidx/lifecycle
+     385  android/content
+     385  io/reactivex
+     373  androidx/work
+     359  kotlin/jvm
+     354  android/os
+     341  android/widget
+     338  com/bumptech
+     328  com/xq
+     322  com/airbnb
+     305  org/jsoup
+     299  kotlin/reflect
+     290  okhttp3/internal
+     280  android/text
+     275  java/io
+     260  vn/zalopay
+     257  kotlin/collections
+     252  androidx/fragment
+     243  com/android
+     236  android/media
+     225  android/app
+     221  app/rive
+     218  androidx/recyclerview
+     203  android/webkit
+     185  androidx/glance
+     165  com/caverock
+     162  android/hardware
+native libs (0):
+assets (124):
+     4864036  assets/audience_network.dex
+     3913966  assets/android.1.zip
+     3770391  assets/custom_models/object_labeler.tflite
+     2420588  assets/FastestDet.ncnn.bin
+     1706957  assets/mlkit_odt_default_classifier/labeler_with_validation.tflite
+     1254848  assets/mlkit_odt_localizer/localizer_with_validation.tflite
+     1124144  assets/models_bundled/contours.tfl
+     1078354  assets/models_bundled/LMprec_600.emd
+      883684  assets/config/miniapp_config.json
+      856974  assets/Griver/68687209_2.9.7.8.amr
+      776320  assets/fgcpkjvqe.dat
+      613352  assets/models_bundled/fssd_medium_8bit_v5.tflite
+      613080  assets/models_bundled/fssd_medium_8bit_gray_v5.tflite
+      536057  assets/taxi_splash_loading.json
+      390456  assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite
+      347928  assets/models_bundled/blazeface.tfl
+      340760  assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite
+      315520  assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite
+      309568  assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb
+      287535  assets/Griver/66666692_1.24.8.amr
+      276552  assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite
+      265304  assets/com/visa/cbp/74e13961eb6489ab-
+      232096  assets/models_bundled/fssd_25_8bit_v2.tflite
+      231816  assets/models_bundled/fssd_25_8bit_gray_v2.tflite
+      213880  assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite
+      170064  assets/fonts/Roboto-Bold.ttf
+      168644  assets/fonts/true_font.ttf
+      161448  assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.lstm_model
+      153000  assets/mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb
+      146391  assets/client_tracking.json
+      143944  assets/fonts/zalopay.ttf
+      129612  assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite
+      127488  assets/fonts/Roboto-Medium.ttf
+      126072  assets/fonts/Roboto-Regular.ttf
+      114384  assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite
+      105659  assets/config/zalopay_config.json
+       80308  assets/com/visa/cbp/a2687fec63dbeebcd-
+       70880  assets/fonts/zalopay.json
+       48216  assets/fonts/UnisectVnu.ttf
+       48216  assets/fonts/ocr-a-tribute.ttf
+       42205  assets/taxi_images/Layer_5_loading.png
+       40848  assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/conv_model.fb
+       40808  assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.conv_model
+       28000  assets/griverIconDefault/default.ttf
+       22734  assets/GriverErrorPage/griver_page_error.html
+       18503  assets/dexopt/baseline.prof
+       17916  assets/models_bundled/BCLjoy_200.emd
+       17888  assets/dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be/9f979174-fb94-f7f5-21c5-afddb32d1e32
+       17380  assets/Griver/66666693_2.0.7.amr
+       15736  assets/com/visa/cbp/8c12f33e01f2a597a-
+       15430  assets/theme/bank/ui_config.json
+       15293  assets/FastestDet.ncnn.param
+       14652  assets/taxi_images/Layer_4_loading.png
+       14360  assets/GriverBridge/workerjs.js
+       13859  assets/GriverErrorPage/mini-program-native-error.html
+       13692  assets/com/appsflyer/internal/3e6e8a8a85e1aaa2b-
+       13183  assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb
+       13178  assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb
+       11573  assets/theme/bank/config_v2.json
+       11339  assets/theme/bank/bank_resource.json
+unique urls in DEX strings: 443
+    10  https://render.alipay.com/p/yuyan/180020010001253580/exception_no_support.html?errorType=UNMARKED_MOVING_PINS
+     8  https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay
+     7  https://zalopay.vn/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu-hop-nhat
+     6  https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/error.png
+     6  https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/toro_information.png
+     6  https://api.zalopay.vn/,
+     5  https://firebase.google.com/support/privacy/init-options.
+     5  https://sapi.zalopay.vn/,
+     4  https://api.zalopay.vn/
+     3  http://xmlpull.org/v1/doc/features.html#process-namespaces
+     3  https://appx-ng/
+     3  https://appx/
+     3  https://appx/af-appx.min.js
+     3  https://resource/
+     3  https://zalo.me/s/3888182390069527250/?
+     3  https://social.zalopay.vn/spa/v2
+     3  http://schemas.android.com/apk/res/android
+     3  https://play.google.com/store/apps/details?id=
+     3  https://upload-img.zalopay.vn/
+     3  https://uudai.zalopay.vn/,
+     2  https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread
+     2  https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted
+     2  https://issuetracker.google.com/issues/new?component=413106
+     2  http://g.co/dev/packagevisibility.
+     2  http://ns.adobe.com/xap/1.0/
+     2  https://alipay.kylinBridge
+     2  https://appx
+     2  https://appx-ng/af-appx.min.js
+     2  https://appx-ng/af-appx.worker.min.js
+     2  https://appx-ng/index.prerender.html
+     2  https://appx/af-appx.worker.min.js
+     2  https://mobilegw.alipay.com/mgw.htm
+     2  https://play.google.com/store/apps/details?id=vn.com.vng.zalopay
+     2  https://shared
+     2  https://usr/
+     2  https://api.zalopay.vn
+     2  https://play.google.com/store/apps/details?id=com.zing.zalo
+     2  https://zalo.me/4046405574025332160
+     2  https://user-life-cycle-public.zalopay.vn
+     2  https://mnap-director.zalopay.vn/redir/-2003
+     2  https://social.zalopay.vn/spa/v2/cashier-payment-complete
+     2  https://render.alipay.com/p/w/ac-fe-adaptor/
+     2  http://openauth.alipay.com/
+     2  https://openauth.alipay.com/
+     2  https://render.alipay.com/p/s/i.*scheme=alipays.*
+     2  https://ds.alipay.com.*scheme=alipays.*
+     2  https://d.alipay.com.*scheme=alipays.*
+     2  https://ulink.alipay.com.*scheme=alipays.*
+     2  https://render.alipay.com/p/s/i.*scheme=.*
+     2  http://iopengw-280.sggz00b.dev.alipay.net/
+     2  https://imdap-sea.alipay.com/loggw/logUpload.do
+     2  https://imgs-ac.alipay.com/imgw.htm
+     2  https://open-sea.alipayplus.com/
+     2  https://render.alipay.com/p/w/ac-fe-adaptor
+     2  http://www.w3.org/1999/xlink
+     2  http://www.w3.org/2000/svg
+     2  http://www.w3.org/TR/SVG11/feature#
+     2  http://xml.org/sax/features/external-general-entities
+     2  http://xml.org/sax/features/external-parameter-entities
+     2  http://xml.org/sax/properties/lexical-handler
+     2  http://xmlpull.org/v1/doc/features.html#process-docdecl
+     2  https://issuetracker.google.com/issues/new?component=618491&template=1257717
+     2  https://googlemobileadssdk.page.link/admob-interstitial-policies
+     2  http://www.google.com
+     2  http://www.w3.org/ns/ttml#parameter
+     2  https://app-measurement.com/a
+     2  https://app-measurement.com/s
+     2  https://csi.gstatic.com/csi
+     2  https://simg.zalopay.com.vn/zst/zpi-spa/um/images/confirm_icon.png
+     2  https://alipay.worker.com/worker
+     2  https://googlemobileadssdk.page.link/admob-android-update-manifest
+     2  https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+     2  https://bank-profile.zalopay.vn/
+     2  https://mmf-redemption.zalopay.vn/
+     2  https://mnap-director.zalopay.vn/redir/-1000?type=standalone
+     2  https://openapi.zalopay.vn
+     2  https://play.google.com/store/apps/details?id=com.vnid
+     2  https://sapi.zalopay.vn/
+     2  https://sapi.zalopay.vn/scan360/
+     2  https://scard.zalopay.vn/
+wrote dex-strings.txt (243782 unique)
