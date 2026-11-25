@@ -1,0 +1,1147 @@
+[
+  {
+    "file": "config.armeabi_v7a__libVFaceLib.so",
+    "string_lines": 6620,
+    "java_symbols": [
+      "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_faceAlignment",
+      "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeDestroy",
+      "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeInit",
+      "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_getFaces"
+    ],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        3
+      ],
+      [
+        "https://github.com/opencv/opencv/issues/16739",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "tls",
+        24
+      ],
+      [
+        "root",
+        3
+      ],
+      [
+        "/proc/self",
+        1
+      ]
+    ],
+    "interesting": [
+      "/data/data/com.intel.vtune/perfrun/lib32/runtime/libittnotify.so",
+      "/sys/devices/system/cpu/possible",
+      "/sys/devices/system/cpu/present"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__liba97d.so",
+    "string_lines": 724,
+    "java_symbols": [],
+    "urls": [],
+    "crypto_tamper_kw": [
+      [
+        "tls",
+        2
+      ],
+      [
+        "__system_property_get",
+        1
+      ]
+    ],
+    "interesting": []
+  },
+  {
+    "file": "config.armeabi_v7a__libandroidx.graphics.path.so",
+    "string_lines": 60,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "__system_property_get",
+        1
+      ]
+    ],
+    "interesting": []
+  },
+  {
+    "file": "config.armeabi_v7a__libbarhopper_v3.so",
+    "string_lines": 12041,
+    "java_symbols": [
+      "Java_com_google_android_libraries_barhopper_BarhopperV3_closeNative",
+      "Java_com_google_android_libraries_barhopper_BarhopperV3_createNative",
+      "Java_com_google_android_libraries_barhopper_BarhopperV3_createNativeWithClientOptions",
+      "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBitmapNative",
+      "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBufferNative",
+      "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeNative",
+      "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedBufferNative",
+      "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedNative"
+    ],
+    "urls": [
+      [
+        "https://www.tensorflow.org/lite/guide/ops_select",
+        1
+      ],
+      [
+        "http://http",
+        1
+      ],
+      [
+        "https://www.tensorflow.org/lite/guide/ops_custom",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "ssl",
+        15
+      ],
+      [
+        "root",
+        5
+      ],
+      [
+        "__system_property_get",
+        1
+      ],
+      [
+        "/proc/self",
+        1
+      ],
+      [
+        "tls",
+        1
+      ],
+      [
+        "frida",
+        1
+      ]
+    ],
+    "interesting": [
+      "/sys/devices/system/cpu/kernel_max",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_min_freq",
+      "/sys/devices/system/cpu/cpu%u/topology/physical_package_id",
+      "/sys/devices/system/cpu/cpu%u/topology/core_siblings_list",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_max_freq",
+      "Asked to mmap '%d' bytes from fd '%d' at offset '%d'. This is over the length of file '%d'.",
+      "kTfLiteMmapRo",
+      "XNNPack weight cache: could not mmap file (%s): %s.",
+      "XNNPack weight cache: could not open file to mmap ('%s'): %s.",
+      "/sys/devices/system/cpu/possible",
+      "Mmap of '%d' at offset '%d' failed with error '%d'.",
+      "mmap error: %d",
+      "/sys/devices/system/cpu/cpu%u/topology/cluster_cpus_list",
+      "MallocHook::RemovePreMmapHook(&InitialPreMMapHook)",
+      "/sys/devices/system/cpu/present"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libc++_shared.so",
+    "string_lines": 4169,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        2
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "root",
+        4
+      ],
+      [
+        "tls",
+        2
+      ],
+      [
+        "rsa",
+        1
+      ]
+    ],
+    "interesting": [
+      "openat",
+      "/data/local/tmp"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libcrashlytics-common.so",
+    "string_lines": 2379,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://crashpad.chromium.org/",
+        1
+      ],
+      [
+        "https://crashpad.chromium.org/bug/new",
+        1
+      ],
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "ptrace",
+        13
+      ],
+      [
+        "ssl",
+        2
+      ],
+      [
+        "__system_property_get",
+        1
+      ],
+      [
+        "/proc/self",
+        1
+      ],
+      [
+        "frida",
+        1
+      ]
+    ],
+    "interesting": [
+      "__cmsg_nxthdr",
+      "mmap64",
+      "/system/bin/linker",
+      "/system/bin/linker64",
+      "/sys/devices/system/cpu/cpu%d/cpufreq/scaling_cur_freq",
+      "/home/runner/work/firebase-android-sdk/firebase-android-sdk/firebase-crashlytics-ndk/src/main/jni/crashpad/crashpad_util/../../../../third_party/crashpad/util/p",
+      "/system/bin",
+      "/sys/devices/system/cpu/online",
+      "/sys/devices/system/cpu/cpu%d/cpufreq/scaling_max_freq",
+      "/system/bin/app_process32"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libcrashlytics-handler.so",
+    "string_lines": 689,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [],
+    "interesting": []
+  },
+  {
+    "file": "config.armeabi_v7a__libcrashlytics-trampoline.so",
+    "string_lines": 104,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "root",
+        1
+      ]
+    ],
+    "interesting": [
+      "/system/bin/linker"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libcrashlytics.so",
+    "string_lines": 754,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "__system_property_get",
+        1
+      ]
+    ],
+    "interesting": []
+  },
+  {
+    "file": "config.armeabi_v7a__libface_detector_v2_jni.so",
+    "string_lines": 27318,
+    "java_symbols": [
+      "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_closeDetectorJni",
+      "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayJni",
+      "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayMultiPlanesJni",
+      "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferJni",
+      "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferMultiPlanesJni",
+      "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_initDetectorJni"
+    ],
+    "urls": [
+      [
+        "https://www.tensorflow.org/lite/guide/ops_select",
+        1
+      ],
+      [
+        "https://www.tensorflow.org/lite/guide/ops_custom",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "root",
+        7
+      ],
+      [
+        "ssl",
+        5
+      ],
+      [
+        "__system_property_get",
+        1
+      ],
+      [
+        "/proc/self",
+        1
+      ],
+      [
+        "tls",
+        1
+      ],
+      [
+        "frida",
+        1
+      ],
+      [
+        "xposed",
+        1
+      ]
+    ],
+    "interesting": [
+      "void vmm_LogSizeSimMap::checkConsistency() const",
+      "ebs_Object& vmm_ModelSimMap::operator=( const ebs_Object& objectA ) : cannot convert class '%s&' into '%s&'",
+      "const char* evc_name( evc_SimMapType typeA ): unhandled type value '%u'",
+      "/sys/devices/system/cpu/kernel_max",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_min_freq",
+      "vmm_LogSizeSimMap",
+      "/sys/devices/system/cpu/cpu%u/topology/physical_package_id",
+      "vmm_ModelSimMap",
+      "/sys/devices/system/cpu/cpu%u/topology/core_siblings_list",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_max_freq",
+      "void vfr_SimMapClusterRelator::checkConsistency() const",
+      "Asked to mmap '%d' bytes from fd '%d' at offset '%d'. This is over the length of file '%d'.",
+      "kTfLiteMmapRo",
+      "XNNPack weight cache: could not mmap file (%s): %s.",
+      "vfr_SimMapClusterRelator"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libfgcpkjvqe.so",
+    "string_lines": 3594,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "ssl",
+        72
+      ],
+      [
+        "aes",
+        70
+      ],
+      [
+        "rsa",
+        53
+      ],
+      [
+        "hmac",
+        21
+      ],
+      [
+        "tls",
+        15
+      ],
+      [
+        "sha256",
+        9
+      ],
+      [
+        "root",
+        5
+      ],
+      [
+        "__system_property_get",
+        1
+      ],
+      [
+        "/proc/self",
+        1
+      ]
+    ],
+    "interesting": [
+      "openat",
+      "mmap64",
+      "/sys/devices/system/cpu/kernel_max",
+      "/sys/devices/system/cpu/cpu%u/cache/index%u/level",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_min_freq",
+      "/sys/devices/system/cpu/cpu%u/topology/physical_package_id",
+      "/sys/devices/system/cpu/cpu%u/topology/core_siblings_list",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_max_freq",
+      "/sys/devices/system/cpu/cpu%u/cache/index%u/size",
+      "/sys/devices/system/cpu/cpu%u/cache/index2/shared_cpu_list",
+      "/sys/devices/system/cpu/possible",
+      "/sys/devices/system/cpu/cpu%u/topology/cluster_cpus_list",
+      "/sys/devices/system/cpu/present"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libimage_processing_util_jni.so",
+    "string_lines": 142,
+    "java_symbols": [
+      "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToABGR",
+      "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToBitmap",
+      "Java_androidx_camera_core_ImageProcessingUtil_nativeCopyBetweenByteBufferAndBitmap",
+      "Java_androidx_camera_core_ImageProcessingUtil_nativeRotateYUV",
+      "Java_androidx_camera_core_ImageProcessingUtil_nativeShiftPixel",
+      "Java_androidx_camera_core_ImageProcessingUtil_nativeWriteJpegToSurface"
+    ],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [],
+    "interesting": []
+  },
+  {
+    "file": "config.armeabi_v7a__libimagepipeline.so",
+    "string_lines": 76,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [],
+    "interesting": []
+  },
+  {
+    "file": "config.armeabi_v7a__libljsfrcwmw.so",
+    "string_lines": 4303,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "ssl",
+        41
+      ],
+      [
+        "sha256",
+        20
+      ],
+      [
+        "rsa",
+        14
+      ],
+      [
+        "root",
+        2
+      ],
+      [
+        "aes",
+        1
+      ]
+    ],
+    "interesting": [
+      "Lvn/com/vng/zalopay/ui/activity/HomeActivity;",
+      "Lvn/com/vng/zalopay/user/UserBaseActivity;",
+      "vn/com/vng/zalopay/ui/activity/HomeActivity",
+      "vn/com/vng/zalopay/user/UserBaseActivity",
+      "Ljava/util/EnumMap;",
+      "Lvn/com/vng/zalopay/AndroidApplication;",
+      "vn/com/vng/zalopay/AndroidApplication",
+      "java/util/EnumMap"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__liblytcuhe.so",
+    "string_lines": 1069,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "tls",
+        1
+      ]
+    ],
+    "interesting": []
+  },
+  {
+    "file": "config.armeabi_v7a__libmlkit_google_ocr_pipeline.so",
+    "string_lines": 36621,
+    "java_symbols": [
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_AndroidAssetUtil_nativeInitializeAssetManager",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_close",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_disableSubpipeline",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_enableSubpipeline",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_experimentalRotateResults",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_flushAndClearMobileIqSamples",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_getAnalyticsLogs",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initialize",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameManager",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeIsolationCallback",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeResultsCallback",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_process",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processBitmap",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processYuvFrame",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveAudioData",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDepthMap",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDetections",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceContext",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceState",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveFaces",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrame",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrameWithStreamName",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveProcessContext",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveRgbFrame"
+    ],
+    "urls": [
+      [
+        "https://www.tensorflow.org/lite/guide/ops_select",
+        1
+      ],
+      [
+        "http://b/24559754.",
+        1
+      ],
+      [
+        "https://www.tensorflow.org/lite/guide/ops_custom",
+        1
+      ],
+      [
+        "https://developer.android.com/reference/android/content/Context.html#getFilesDir",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "ssl",
+        24
+      ],
+      [
+        "rsa",
+        18
+      ],
+      [
+        "root",
+        10
+      ],
+      [
+        "tls",
+        6
+      ],
+      [
+        "aes",
+        5
+      ],
+      [
+        "/proc/self",
+        3
+      ],
+      [
+        "__system_property_get",
+        1
+      ],
+      [
+        "xposed",
+        1
+      ],
+      [
+        "emulator",
+        1
+      ],
+      [
+        "frida",
+        1
+      ],
+      [
+        "ptrace",
+        1
+      ]
+    ],
+    "interesting": [
+      "__mmap2",
+      "/sys/devices/system/cpu/kernel_max",
+      "/data/local/tmp",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_min_freq",
+      "/sys/devices/system/cpu/cpu%u/topology/physical_package_id",
+      "mmap for alternate signal stack: %s",
+      "/sys/devices/system/cpu/cpu%u/topology/core_siblings_list",
+      "/data/misc/zoneinfo/current/tzdata",
+      "/data/local/tmp/mobileiq.pb",
+      "/config/data/tzdata/",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_max_freq",
+      "msg_catalog",
+      "/system/usr/share/zoneinfo/tzdata",
+      "/pkg/data/tzdata/",
+      "kTfLiteMmapRo"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libmlkitcommonpipeline.so",
+    "string_lines": 29077,
+    "java_symbols": [
+      "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeIsProcessInBackground",
+      "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeNotifyProcessLifecycleState",
+      "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetDeviceInfo",
+      "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetGPUInfo",
+      "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetNNAPIInfo",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_close",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_disableSubpipeline",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_enableSubpipeline",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_experimentalRotateResults",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_flushAndClearMobileIqSamples",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_getAnalyticsLogs",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initialize",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameManager",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeIsolationCallback",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeResultsCallback",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_process",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processBitmap",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processYuvFrame",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveAudioData",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDepthMap",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDetections",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceContext",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceState",
+      "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveFaces"
+    ],
+    "urls": [
+      [
+        "https://www.tensorflow.org/lite/guide/ops_select",
+        1
+      ],
+      [
+        "https://github.com/opencv/opencv/issues/16739",
+        1
+      ],
+      [
+        "http://b/24559754.",
+        1
+      ],
+      [
+        "https://www.tensorflow.org/lite/guide/ops_custom",
+        1
+      ],
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ],
+      [
+        "https://developer.android.com/reference/android/content/Context.html#getFilesDir",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "tls",
+        26
+      ],
+      [
+        "root",
+        10
+      ],
+      [
+        "rsa",
+        10
+      ],
+      [
+        "aes",
+        5
+      ],
+      [
+        "emulator",
+        3
+      ],
+      [
+        "/proc/self",
+        3
+      ],
+      [
+        "ssl",
+        2
+      ],
+      [
+        "__system_property_get",
+        1
+      ],
+      [
+        "xposed",
+        1
+      ],
+      [
+        "frida",
+        1
+      ]
+    ],
+    "interesting": [
+      "__mmap2",
+      "/sys/devices/system/cpu/online",
+      "/sys/devices/system/cpu/kernel_max",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_min_freq",
+      "/sys/devices/system/cpu/cpu%u/topology/physical_package_id",
+      "mmap for alternate signal stack: %s",
+      "/system/bin/linker",
+      "/sys/devices/system/cpu/cpu%u/topology/core_siblings_list",
+      "/data/misc/zoneinfo/current/tzdata",
+      "/data/local/tmp/mobileiq.pb",
+      "/config/data/tzdata/",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_max_freq",
+      "msg_catalog",
+      "/system/usr/share/zoneinfo/tzdata",
+      "/pkg/data/tzdata/"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libnative-filters.so",
+    "string_lines": 104,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [],
+    "interesting": []
+  },
+  {
+    "file": "config.armeabi_v7a__libnative-imagetranscoder.so",
+    "string_lines": 1487,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "tls",
+        1
+      ]
+    ],
+    "interesting": []
+  },
+  {
+    "file": "config.armeabi_v7a__libohxbee.so",
+    "string_lines": 1442,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "ssl",
+        51
+      ]
+    ],
+    "interesting": []
+  },
+  {
+    "file": "config.armeabi_v7a__libpicodet_ncnn.so",
+    "string_lines": 9747,
+    "java_symbols": [
+      "Java_com_example_picodet_PicoDetJNI_detect",
+      "Java_com_example_picodet_PicoDetJNI_detectYuv",
+      "Java_com_example_picodet_PicoDetJNI_picodetConfigure",
+      "Java_com_example_picodet_PicoDetJNI_picodetConfigure2",
+      "Java_com_example_picodet_PicoDetJNI_picodetCreate",
+      "Java_com_example_picodet_PicoDetJNI_picodetDestroy",
+      "Java_com_example_picodet_PicoDetJNI_picodetInputHeight",
+      "Java_com_example_picodet_PicoDetJNI_picodetInputWidth"
+    ],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        3
+      ],
+      [
+        "https://github.com/llvm/llvm-project/issues/.",
+        1
+      ],
+      [
+        "http://openmp.llvm.org/",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "tls",
+        6
+      ],
+      [
+        "root",
+        4
+      ],
+      [
+        "/proc/self",
+        2
+      ]
+    ],
+    "interesting": [
+      "__kmp_msg_format",
+      "__kmp_msg_null",
+      "__kmp_msg_error_code",
+      "__kmp_msg_error_mesg",
+      "/sys/devices/system/cpu/cpu%d/topology/core_cpus_list",
+      "/sys/devices/system/cpu/cpu%u/topology/core_id",
+      "/sys/devices/system/cpu/cpu%d/cache/index%d/size",
+      "/sys/devices/system/cpu/offline",
+      "/sys/devices/system/cpu/cpu%d/cpufreq/cpuinfo_max_freq",
+      "/sys/devices/system/cpu/cpu%u/topology/physical_package_id",
+      "/sys/devices/system/cpu/cpu%d/cache/index%d/type",
+      "/sys/devices/system/cpu/cpu%d/topology/thread_siblings_list",
+      "/sys/devices/system/cpu/cpu%d/cache/index%d/level",
+      "/sys/devices/system/cpu/cpu%d/cache/index%d/shared_cpu_map",
+      "/sys/devices/system/cpu/cpu%d/topology/thread_siblings"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__librcmefqonnx.so",
+    "string_lines": 1069,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "tls",
+        1
+      ]
+    ],
+    "interesting": []
+  },
+  {
+    "file": "config.armeabi_v7a__librive-android.so",
+    "string_lines": 9306,
+    "java_symbols": [
+      "Java_app_rive_runtime_kotlin_RiveTextureView_cppGetAverageFps",
+      "Java_app_rive_runtime_kotlin_core_AnimationState_cppName",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppAdvance",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByIndex",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByName",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationCount",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationNameByIndex",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppBounds",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppDelete",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppDraw",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppDrawAligned",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppFindTextValueRun",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppFindTextValueRunAtPath",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppFindValueOfTextValueRun",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppFindValueOfTextValueRunAtPath",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppGetArtboardHeight",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppGetArtboardWidth",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppGetVolume",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppInputByNameAtPath",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppName",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppResetArtboardSize",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppSetArtboardHeight",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppSetArtboardWidth",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppSetValueOfTextValueRun",
+      "Java_app_rive_runtime_kotlin_core_Artboard_cppSetValueOfTextValueRunAtPath"
+    ],
+    "urls": [
+      [
+        "https://public.rive.app/cdn/uuid",
+        1
+      ],
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "root",
+        10
+      ],
+      [
+        "ptrace",
+        4
+      ],
+      [
+        "ssl",
+        4
+      ],
+      [
+        "__system_property_get",
+        1
+      ]
+    ],
+    "interesting": [
+      "dalvik/system/VMDebug"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libsecurity_lite.so",
+    "string_lines": 819,
+    "java_symbols": [
+      "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+      "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+      "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+      "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest"
+    ],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/clang",
+        1
+      ],
+      [
+        "https://android.googlesource.com/toolchain/llvm",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "aes",
+        10
+      ],
+      [
+        "rsa",
+        6
+      ]
+    ],
+    "interesting": [
+      "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+      "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+      "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+      "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest",
+      "Alipay clang version 7.0.1 (based on LLVM 7.0.1.Alipay.Obfuscator build220224)"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libsqlcipher.so",
+    "string_lines": 13788,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        2
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "ssl",
+        440
+      ],
+      [
+        "rsa",
+        289
+      ],
+      [
+        "aes",
+        201
+      ],
+      [
+        "hmac",
+        100
+      ],
+      [
+        "tls",
+        82
+      ],
+      [
+        "root",
+        36
+      ],
+      [
+        "sha256",
+        22
+      ]
+    ],
+    "interesting": [
+      "mmap64",
+      "DEFAULT_MMAP_SIZE=0",
+      "sm2_compute_msg_hash",
+      "MAX_MMAP_SIZE=0x7fff0000",
+      "mmap_size"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libtaibmcf.so",
+    "string_lines": 3539,
+    "java_symbols": [],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "ssl",
+        72
+      ],
+      [
+        "aes",
+        70
+      ],
+      [
+        "rsa",
+        53
+      ],
+      [
+        "hmac",
+        21
+      ],
+      [
+        "tls",
+        15
+      ],
+      [
+        "sha256",
+        9
+      ],
+      [
+        "root",
+        5
+      ],
+      [
+        "__system_property_get",
+        1
+      ],
+      [
+        "/proc/self",
+        1
+      ]
+    ],
+    "interesting": [
+      "openat",
+      "mmap64",
+      "/sys/devices/system/cpu/cpu%u/cache/index2/shared_cpu_list",
+      "/sys/devices/system/cpu/possible",
+      "/sys/devices/system/cpu/cpu%u/topology/cluster_cpus_list",
+      "/sys/devices/system/cpu/cpu%u/cache/index%u/level",
+      "/sys/devices/system/cpu/cpu%u/cache/index%u/size",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_min_freq",
+      "/sys/devices/system/cpu/present",
+      "/sys/devices/system/cpu/cpu%u/cpufreq/cpuinfo_max_freq",
+      "/sys/devices/system/cpu/cpu%u/topology/physical_package_id",
+      "/sys/devices/system/cpu/kernel_max",
+      "/sys/devices/system/cpu/cpu%u/topology/core_siblings_list"
+    ]
+  },
+  {
+    "file": "config.armeabi_v7a__libtrueidlib.so",
+    "string_lines": 526,
+    "java_symbols": [
+      "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_genSignature",
+      "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_getNonce",
+      "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultAuthCeremony",
+      "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckDebugger",
+      "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckIntegrity",
+      "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQAuth",
+      "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQReg",
+      "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultRegisterCeremony",
+      "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultVerifyTxDigest",
+      "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey"
+    ],
+    "urls": [
+      [
+        "https://android.googlesource.com/toolchain/llvm-project",
+        1
+      ]
+    ],
+    "crypto_tamper_kw": [
+      [
+        "sha256",
+        9
+      ],
+      [
+        "/proc/self",
+        2
+      ],
+      [
+        "frida",
+        2
+      ],
+      [
+        "hmac",
+        1
+      ],
+      [
+        "__system_property_get",
+        1
+      ],
+      [
+        "xposed",
+        1
+      ],
+      [
+        "emulator",
+        1
+      ]
+    ],
+    "interesting": [
+      "/data/adb/ksud",
+      "/system/app/Superuser.apk",
+      "/data/local/bin/su",
+      "/data/adb/magisk.db",
+      "/data/adb/ksu",
+      "/system/bin/su",
+      "/data/adb/magisk",
+      "/data/local/su",
+      "/data/local/xbin/su",
+      "/system/bin/failsafe/su",
+      "/system/xbin/su",
+      "/system/sd/xbin/su",
+      "/data/adb/modules"
+    ]
+  },
+  {
+    "file": "vn.com.vng.zalopay__trueidlib.so",
+    "string_lines": 1,
+    "java_symbols": [],
+    "urls": [],
+    "crypto_tamper_kw": [],
+    "interesting": []
+  }
+]

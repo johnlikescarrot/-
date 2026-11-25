@@ -1,0 +1,430 @@
+{
+  "assets/config/zalopay_config.json": {
+    "present": true,
+    "bytes": 105659,
+    "sha256": "740c82f914bd6399ed2db46804accb33f4dd48306f3fcccf095838a38315f3a3",
+    "json_type": "dict",
+    "top_keys": [
+      "general",
+      "zpc",
+      "api",
+      "webapp",
+      "tab_me",
+      "notification",
+      "tab_home",
+      "promotion",
+      "promotion_handler",
+      "bank_integration",
+      "bank",
+      "profile",
+      "transfer_history",
+      "transfer_via_zalo",
+      "kvs",
+      "z",
+      "omniP",
+      "serverlog",
+      "sdk",
+      "social",
+      "red_packet",
+      "payment_app_policy",
+      "bank_kyc",
+      "kyc",
+      "network_config",
+      "update_profile_level",
+      "otp",
+      "qrcode_emv",
+      "ibft",
+      "reset_passcode",
+      "bill_split",
+      "zpi",
+      "grpc",
+      "banks_information",
+      "app_resource_policy",
+      "remote_config",
+      "tracking_location_flow",
+      "theming",
+      "merchant_token",
+      "merchant_integration_info"
+    ],
+    "top_key_count": 56,
+    "url_count": 20,
+    "url_hosts": [
+      [
+        "vngzalopay.freshdesk.com",
+        3
+      ],
+      [
+        "social.zalopay.vn",
+        2
+      ],
+      [
+        "zalo.me",
+        2
+      ],
+      [
+        "ebank.bidv.com.vn",
+        2
+      ],
+      [
+        "seal.controlcase.com",
+        1
+      ],
+      [
+        "mnap-director.zalopay.vn",
+        1
+      ],
+      [
+        "bit.ly",
+        1
+      ],
+      [
+        "www.sacombank.com.vn",
+        1
+      ],
+      [
+        "ebanking.vietinbank.vn",
+        1
+      ],
+      [
+        "zalopay.vn",
+        1
+      ],
+      [
+        "html.zapps.vn",
+        1
+      ],
+      [
+        "scard.zalopay.vn",
+        1
+      ],
+      [
+        "www.facebook.com",
+        1
+      ],
+      [
+        "www.vietcombank.com.vn",
+        1
+      ],
+      [
+        "pay.google.com",
+        1
+      ]
+    ],
+    "head": "{\n  \"general\": {\n    \"phone_format\": {\n      \"min_length\": 9,\n      \"max_length\": 12,\n      \"patterns\": [\n        \"^(840|84|0|)8(1|2|3|4|5|6|7|8|9)\\\\d{7}$\",\n        \"(840|84|0|)9\\\\d{8}\",\n        \"^(840|84|0|)5(2|5|6|8|9)\\\\d{7}$\",\n        \"(840|84|0|)7(0|6|7|8|9)\\\\d{7}\",\n        \"(840|84|0|)3[2-9]\\\\d{7}\"\n      ],\n      \"invalid_length_message\": \"Số điện thoại cần từ 9 đến 12 chữ số\",\n      \"general_message\": \"Số điện thoại không hợp lệ\"\n    },\n    \"click_timeout\": 1000,\n    \"api_timeout\": 10000,\n    \"cskh_phonenumber\": \"1900545436\",\n    \"pcidss\": \"https://seal.controlcase.com/index.php?page=showCert&cId=3654794347\",\n    \"otp_sender\": \"ZaloPay\"\n  },\n  \"zpc\": {\n    \"enable_merge_contact_name\": 1,\n    \"friend_favorite\": 0,\n    \"interval_sync_contact\": 259200,\n    \"time_reload\": 300,\n    \"max_life_time_millis\": 300000,\n    \"enable_send_invite_friend_zalo\": 1,\n    \"enable_custom_keypad\": 1,\n    \"max_search_text_length\": 26,\n    \"max_request_status_for_client\": 3,\n    \"time_delay_request_status_for_client\": 3000,\n    \"max_phone_list_size_request\": 20,\n    \"timeout_request_friend\": 10\n  },\n  \"api\": {\n    \"api_route\": \"https\",\n    \"connector_mode\": \"grpc\",\n    \"api_names\": [\n      \"um/listcardinfoforclient\",\n      \"um/listbankaccountforclient\",\n      \"um/removeaccesstoken\",\n      \"um/getuserinfo\",\n      \"um/updateprofile\",\n      \"um/verifyotpprofile\",\n      \"um/recoverypin\",\n      \"umupload/preupdateprofilelevel3\",\n      \"um/getuserinfobyzalopayid\",\n      \"um/verifyaccesstoken\",\n     "
+  },
+  "assets/config/miniapp_config.json": {
+    "present": true,
+    "bytes": 883684,
+    "sha256": "e69ba84631346485681a5e70e17d5fd1874c064f66a5736525597a50a4206cc7",
+    "json_type": "dict",
+    "top_keys": [
+      "code",
+      "data",
+      "msg"
+    ],
+    "top_key_count": 3,
+    "url_count": 2470,
+    "url_hosts": [
+      [
+        "simg.zalopay.com.vn",
+        1275
+      ],
+      [
+        "onelink.zalopay.vn",
+        537
+      ],
+      [
+        "social.zalopay.vn",
+        341
+      ],
+      [
+        "scdn.zalopay.com.vn",
+        225
+      ],
+      [
+        "mnap-director.zalopay.vn",
+        38
+      ],
+      [
+        "sjs.zalopay.com.vn",
+        26
+      ],
+      [
+        "socialdev.zalopay.vn",
+        7
+      ],
+      [
+        "mc.zalopay.vn",
+        1
+      ],
+      [
+        "s3-advertising.zalopay.vn",
+        1
+      ],
+      [
+        "uudai.zalopay.vn",
+        1
+      ],
+      [
+        "s3-loyalty.zalopay.vn",
+        1
+      ],
+      [
+        "ti.ki",
+        1
+      ],
+      [
+        "lzd.co",
+        1
+      ],
+      [
+        "zalo.me",
+        1
+      ],
+      [
+        "scard.zalopay.vn",
+        1
+      ]
+    ],
+    "head": "{\n    \"code\": 200,\n    \"data\": [\n        {\n            \"app_id\": \"9588434516294069\",\n            \"app_name\": \"Zalopay\",\n            \"app_logo\": \"https://simg.zalopay.com.vn/zst/zpi/images/mini-app-info/logozalopay_square.jpg\",\n            \"path\": \"spa/v2/quick-pay-binding/multigo/tnc\",\n            \"category_name\": \"Tài chính\",\n            \"base_url\": \"https://social.zalopay.vn\",\n            \"one_link\": \"https://onelink.zalopay.vn/d/9588434516294069\",\n            \"deep_link\": \"zalopay://launch/app/9588434516294069\",\n            \"is_web_v1\": false,\n            \"is_persist_content\": false,\n            \"is_active\": true,\n            \"created_at\": 1794902427,\n            \"updated_at\": 1794902427,\n            \"legacy_app_id\": 0,\n            \"is_open_browser\": false,\n            \"page_orientation_config\": 0,\n            \"active_web_resource_url\": \"\",\n            \"description\": \"\",\n            \"is_hide_bottom_area\": true,\n            \"is_show_ads\": false,\n            \"nav_bar\": {\n                \"type\": \"FULLSCREEN\",\n                \"status_bar_mode\": \"LIGHT\",\n                \"show_menu\": false,\n                \"show_favorite\": false,\n                \"title_color\": \"#FFFFFF\",\n                \"container_bg_color\": \"#0033C9\",\n                \"controller_bg_color\": \"WHITE\",\n                \"back_btn_color\": \"#FFFFFF\"\n            },\n            \"groups\": null\n        },\n        {\n            \"app_id\": \"4938188290522793\",\n            \"app_name\": \"Nhà bán hàng Zalopay\",\n            \"app_lo"
+  },
+  "assets/client_tracking.json": {
+    "present": true,
+    "bytes": 146391,
+    "sha256": "17658dcae0a7e7a0dabefe67843e9ed856a1fdde7241eed8a3a786214b104b0a",
+    "json_type": "dict",
+    "top_keys": [
+      "tripDetail",
+      "trackingItems"
+    ],
+    "top_key_count": 2,
+    "url_count": 6,
+    "url_hosts": [
+      [
+        "15828440.cloud.edgevnpay.vn",
+        5
+      ],
+      [
+        "storage.googleapis.com",
+        1
+      ]
+    ],
+    "head": "{\r\n\t\"tripDetail\": {\r\n\t\t\"id\": \"672974f2af8c4f101ed3d86f\",\r\n\t\t\"userId\": \"575184139519795200\",\r\n\t\t\"trackingKey\": \"f6:32:f8:47:87:eb|\",\r\n\t\t\"partnerTripId\": \"637478535\",\r\n\t\t\"tripNoRef\": \"ALLM33RV8I8\",\r\n\t\t\"tripNo\": \"BKPM33RVFCI\",\r\n\t\t\"txnId\": 1730770162820,\r\n\t\t\"customerId\": \"64e00d40f944a412c73d678e\",\r\n\t\t\"customerSessionId\": \"6c1b7d9aeee1457e9bfbf1d6db616759\",\r\n\t\t\"customerName\": \"NGUYỄN MẠNH HIẾU\",\r\n\t\t\"customerMobileNo\": \"0984086431\",\r\n\t\t\"customerEmail\": \"Manhhiu0509@gmail.com\",\r\n\t\t\"customerTaxName\": \"CÔNG TY CỔ PHẦN  GIẢI PHÁP THANH TOÁN VIỆT NAM\",\r\n\t\t\"customerTaxAddress\": \"Tầng 8, Số 22, phố Láng Hạ, Phường Láng Hạ, Quận Đống Đa, Thành phố Hà Nội\",\r\n\t\t\"customerTaxNo\": \"0102182292\",\r\n\t\t\"invoiceSent\": true,\r\n\t\t\"driverCode\": \"BE-14917300\",\r\n\t\t\"driverName\": \"Nguyễn Văn Toàn\",\r\n\t\t\"driverAvatar\": \"https://storage.googleapis.com/veep-production-drivers/documents/Ảnh đại diện/document_14917300_17_1_1712204510.jpg\",\r\n\t\t\"driverMobileNo\": \"0975635387\",\r\n\t\t\"brandPhone\": \"*6789\",\r\n\t\t\"brandCode\": \"BE_HN\",\r\n\t\t\"brandName\": \"be Group\",\r\n\t\t\"brandLogo\": \"https://15828440.cloud.edgevnpay.vn/content/thumbs/20240404/sa9o0iiz0gy96npkdsw_icon_app.png\",\r\n\t\t\"driverLocation\": [\r\n\t\t\t20.988965188153089,\r\n\t\t\t105.80829134210944\r\n\t\t],\r\n\t\t\"driverDistance\": 418.0,\r\n\t\t\"driverRating\": 5,\r\n\t\t\"rating\": 0,\r\n\t\t\"vehicleLicensePlate\": \"19U1-3402\",\r\n\t\t\"vehicleModel\": \"Honda\",\r\n\t\t\"vehicleTypeName\": \"beBike\",\r\n\t\t\"vehicleType\": 6,\r\n\t\t\"vntaxiVehicleType\": 1,\r\n\t\t\"serviceType\": 1,\r\n\t\t\"distance\": 4.2,\r\n\t\t\"duration\": 11.0,\r\n\t\t\"mov"
+  },
+  "assets/config/public_key.txt": {
+    "present": true,
+    "bytes": 450,
+    "sha256": "ab63708a7b557a1332c316667a9d568e34a7a646a1383f8a33811948b081d52c",
+    "head": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnYJ6OPaYnmyYWxptmgE5\np+I8bSTFhaRgrf5wPBUfvwTe2DWRwnTZAonmegyCzvI3s2yySwGCctSFYkXcQREu\nkwf4qKnx3XYSmuIuZEjqJK9pZGYIszysEJHUHQiAQc943sw3/kGp8ITE3zbLaiQ4\nnq5yk8Aocqv1p1X5d4huks+UW/9O/fhJipuiHqz7Pq+40mOcmdTBSQ9eMw9xIHLJ\n9jMp3cVuBMSjeNt+oh52XO67tKEs8oSRt4yIMkoBAbYcSuAG4r/VGfjv80M6eGMb\n2BOvbH+2O29DkX8oT5KK7k88yLE0zzT2x2w6etfWQZounmmT6dCBzLRRbtO/+zFK\nowIDAQAB\n-----END PUBLIC KEY-----"
+  },
+  "assets/config/signature.txt": {
+    "present": true,
+    "bytes": 350,
+    "sha256": "fd7abb1a0d62a50ab42e53ab161be6a2229fabfa1558bda1ed0b5e47a3651750",
+    "head": "XDTr8K2Oexe+RXIJKT2MYVBCASnn0zUL1trV8Rk9a7a2vDBMsP2uTtMZdB8KOQmb\ngYZUqrqmW00pNgjftTNLMddQjZ6ci4h2AZLF/1D+oGzLUEcQa9IwI0WjfZNEfDJX\nSdINu6m1JEl02uJynC1dZQuATU4umXoLfl5p8w9ExYgAVIbORaJLs28ihuskqLKH\n7BTXOk5e6/rYshJPifcs09ST7i54ACfHlevb+JPCaJqm3W8LN1eh7RJjejpG1Lnr\ngbC+h0ANqI+2n/n06PUqKtzO9gusIy+eSvAUsAaLOV/ZJSzQPGQFLKlPFm+7PJRZ\no8j5X+0fOsdYhl1GSSAfYQ==\n"
+  },
+  "assets/bundle.json": {
+    "present": true,
+    "bytes": 312,
+    "sha256": "21c10377141df90d078b62dfaf9b042821d5cdb0cbf26df6fbb8b9b187eaae0d",
+    "json_type": "dict",
+    "top_keys": [
+      "external_bundle",
+      "internal_bundle"
+    ],
+    "top_key_count": 2,
+    "url_count": 0,
+    "url_hosts": [],
+    "head": "{\n  \"external_bundle\": [\n    {\n      \"appid\": 1,\n      \"appname\": \"Internal Application\",\n      \"asset\": \"android.1.zip\",\n      \"checksum\": \"An3SoswJ6ujv2Qk6UqYxcw\",\n      \"version\": \"1.0.0\",\n      \"status\": 1\n    }\n  ],\n  \"internal_bundle\": {\n    \"checksum\": \"ba910kal\",\n    \"version\": \"1.0.20160523.001\"\n  }\n}\n"
+  },
+  "assets/Griver/appx.json": {
+    "present": true,
+    "bytes": 2178,
+    "sha256": "3b7a99da47f6f10db498d5582e0255de17786531f0c7f090b56f24591be70090",
+    "json_type": "dict",
+    "top_keys": [
+      "mini"
+    ],
+    "top_key_count": 1,
+    "url_count": 9,
+    "url_hosts": [
+      [
+        "gw.alipayobjects.com",
+        3
+      ],
+      [
+        "alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com",
+        3
+      ],
+      [
+        "cdn.marmot-cloud.com",
+        2
+      ],
+      [
+        "oss-local-nightly-dev.marmot-cloud.com",
+        1
+      ]
+    ],
+    "head": "{\n  \"mini\":{\n    \"66666692\": {\n      \"appInfo\": {\n        \"appId\": \"66666692\",\n        \"deployVersion\": \"1.24.8\",\n        \"fallbackBaseUrl\": \"https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/\",\n        \"packageUrl\": \"https://cdn.marmot-cloud.com/storage/gmpop/5b39bcb7-85be-471c-aeaf-55ee5c4437a5/66666692_1.24.8.amr\",\n        \"mainUrl\": \"/index.html#pages/index/index\",\n        \"name\": \"appx framework\",\n        \"desc\": \"appx framework\",\n        \"logo\": \"http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg\"\n      },\n      \"container\": {\n        \"downloadType\": 1\n      },\n      \"extendInfo\": {\n        \"appType\": 2\n      },\n      \"permissions\": \"\"\n    },\n    \"66666693\": {\n      \"appInfo\": {\n        \"appId\": \"66666693\",\n        \"deployVersion\": \"2.0.7\",\n        \"fallbackBaseUrl\": \"https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/\",\n        \"packageUrl\": \"https://cdn.marmot-cloud.com/storage/gmpop/3df2716f-7e19-45cb-9083-c23cd88d8240/66666693_2.0.7.amr\",\n        \"mainUrl\": \"/index.html#pages/index/index\",\n        \"name\": \"h5 embedded app\",\n        \"desc\": \"h5 embedded app\",\n        \"logo\": \"http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg\"\n      },\n      \"container\": {\n        \"downloadType\": 1\n      },\n      \"extendInfo\": {\n        \"appType\": 2\n      },\n      \"permissions\": \"\"\n    },\n    \"68687209\": {\n      \"appInfo\": {\n        \"appId\": \"68687209\",\n        \"deployVe"
+  },
+  "assets/theme/bank/config_v2.json": {
+    "present": true,
+    "bytes": 11573,
+    "sha256": "258535cabe5cb6d87e7b66c9cca71e50bfcaa03c38d4af210e21d1ef3c9ab430",
+    "json_type": "dict",
+    "top_keys": [
+      "_comment_1",
+      "_comment_2",
+      "config",
+      "item_groups",
+      "item_resources"
+    ],
+    "top_key_count": 5,
+    "url_count": 7,
+    "url_hosts": [
+      [
+        "zalopay.vn",
+        1
+      ],
+      [
+        "cutt.ly",
+        1
+      ],
+      [
+        "social.zalopay.vn",
+        1
+      ],
+      [
+        "neo.vpbank.com.vn",
+        1
+      ],
+      [
+        "taikhoan.vpbank.com.vn",
+        1
+      ],
+      [
+        "bit.ly",
+        1
+      ],
+      [
+        "digibank.vietcapitalbank.com.vn",
+        1
+      ]
+    ],
+    "head": "{\n  \"_comment_1\": \"action: 1- START_WEB_VIEW, 2-START_REGISTER_BANK\",\n  \"_comment_2\": \"vtb:1:0: `vtb` is bankCode, 1 is bank link type (1- Link Card, 2- Link Account), 0 is trans type (0- transtype default, 2 is Top up)\",\n  \"config\": [\n    {\n      \"key_list\": [\n        \"_default:1\",\n        \"_default:2\"\n      ],\n      \"condition\": {\n        \"group_id\": \"default\"\n      }\n    },\n    {\n      \"key_list\": [\n        \"_napas:1:3\"\n      ],\n      \"condition\": {\n        \"group_id\": \"13\"\n      }\n    },\n    {\n      \"key_list\": [\n        \"_napas:1:2\",\n        \"_napas:1:1\"\n      ],\n      \"condition\": {\n        \"group_id\": \"14\"\n      }\n    },\n    {\n      \"key_list\": [\n        \"vcb:2\"\n      ],\n      \"condition\": {\n        \"group_id\": \"03\"\n      }\n    },\n    {\n      \"key_list\": [\n        \"vcb:1\"\n      ],\n      \"condition\": {\n        \"group_id\": \"15\",\n        \"function\": [\n          {\n            \"item_id\": \"item_27\",\n            \"function_url\": \"https://zalopay.vn/faq/vcb\",\n            \"description\": \"Nhấn để xem chi tiết\",\n            \"action\": 1\n          }\n        ]\n      }\n    },\n    {\n      \"key_list\": [\n        \"vib:1\",\n        \"vib:2\"\n      ],\n      \"condition\": {\n        \"group_id\": \"04\",\n        \"function\": [\n          {\n            \"item_id\": \"item_10\",\n            \"function_url\": \"https://cutt.ly/EybhBcc\",\n            \"description\": \"Đăng ký ngay\",\n            \"action\": 1\n          }\n        ]\n      }\n    },\n    {\n      \"key_list\": [\n        \"tpb:1\"\n      ],\n      \"condition\": {\n  "
+  },
+  "assets/theme/bank/ui_config.json": {
+    "present": true,
+    "bytes": 15430,
+    "sha256": "1efac77f60bba10946346b40d79a57f50638d47481d84fd872c9f668ca19793a",
+    "json_type": "dict",
+    "top_keys": [
+      "_comment",
+      "bank_styles"
+    ],
+    "top_key_count": 2,
+    "url_count": 0,
+    "url_hosts": [],
+    "head": "{\n  \"_comment\": \"1: thẻ   2: Tài khoản  //this is comment, please not to get this value!\",\n  \"bank_styles\": [\n    {\n      \"key\": \"cc_visa_1\",\n      \"start_color\": \"#e4ab2c\",\n      \"end_color\": \"#fad050\",\n      \"icon_name\": \"visa\"\n    },\n    {\n      \"key\": \"cc_visa\",\n      \"start_color\": \"#e4ab2c\",\n      \"end_color\": \"#fad050\",\n      \"icon_name\": \"visa\"\n    },\n    {\n      \"key\": \"cc_master_1\",\n      \"start_color\": \"#403b62\",\n      \"end_color\": \"#555177\",\n      \"icon_name\": \"master\",\n      \"on_card_icon\": \"master_card_logo\"\n    },\n    {\n      \"key\": \"cc_master\",\n      \"start_color\": \"#403b62\",\n      \"end_color\": \"#555177\",\n      \"icon_name\": \"master\",\n      \"on_card_icon\": \"master_card_logo\"\n    },\n    {\n      \"key\": \"cc_jcb_1\",\n      \"start_color\": \"#033b7b\",\n      \"end_color\": \"#0051af\",\n      \"icon_name\": \"jcb\"\n    },\n    {\n      \"key\": \"cc_jcb\",\n      \"start_color\": \"#033b7b\",\n      \"end_color\": \"#0051af\",\n      \"icon_name\": \"jcb\"\n    },\n    {\n      \"key\": \"ccdb_visa_1\",\n      \"start_color\": \"#e4ab2c\",\n      \"end_color\": \"#fad050\",\n      \"icon_name\": \"visa_debit\"\n    },\n    {\n      \"key\": \"ccdb_visa\",\n      \"start_color\": \"#e4ab2c\",\n      \"end_color\": \"#fad050\",\n      \"icon_name\": \"visa_debit\"\n    },\n    {\n      \"key\": \"ccdb_master_1\",\n      \"start_color\": \"#403b62\",\n      \"end_color\": \"#555177\",\n      \"icon_name\": \"master_debit\",\n      \"on_card_icon\": \"master_debit_card_logo\"\n    },\n    {\n      \"key\": \"ccdb_master\",\n      \"start_color\": \"#403b62\",\n      \"end_color\": \"#5551"
+  },
+  "assets/theme/bank/bank_resource.json": {
+    "present": true,
+    "bytes": 11339,
+    "sha256": "bf584e41fde15aaf3b3b9b9d2f9f08c5b417d877a8da89d43269555876d1d2b7",
+    "json_type": "dict",
+    "top_keys": [
+      "_comment_1",
+      "_comment_2",
+      "resource_bank",
+      "resource_group",
+      "resource_item"
+    ],
+    "top_key_count": 5,
+    "url_count": 8,
+    "url_hosts": [
+      [
+        "zalopay.vn",
+        2
+      ],
+      [
+        "bit.ly",
+        2
+      ],
+      [
+        "cutt.ly",
+        1
+      ],
+      [
+        "tiny.cc",
+        1
+      ],
+      [
+        "digibank.vietcapitalbank.com.vn",
+        1
+      ],
+      [
+        "dl.bidvsmartbanking.vn",
+        1
+      ]
+    ],
+    "head": "{\n  \"_comment_1\": \"action: 1- START_WEB_VIEW, 2-START_REGISTER_BANK\",\n  \"_comment_2\": \"vtb:301: `vtb` is bankCode, 301 is bank function code\",\n  \"resource_bank\": [\n    {\n      \"keys\": [\n        \"vcb:302\"\n      ],\n      \"condition\": {\n        \"group_id\": \"03\"\n      },\n      \"guide\": {\n        \"group_id\": \"23\",\n        \"functions\": [\n          {\n            \"item_id\": \"item_34\",\n            \"function_url\": \"https://zalopay.vn/faq/vcb\",\n            \"description\": \"tại đây\",\n            \"action\": 1\n          }\n        ]\n      }\n    },\n    {\n      \"keys\": [\n        \"vcb:301\",\n        \"vcb:303\"\n      ],\n      \"condition\": {\n        \"group_id\": \"15\",\n        \"functions\": [\n          {\n            \"item_id\": \"item_27\",\n            \"function_url\": \"https://zalopay.vn/faq/vcb\",\n            \"description\": \"Nhấn để xem chi tiết\",\n            \"action\": 1\n          }\n        ]\n      }\n    },\n    {\n      \"keys\": [\n        \"vcb:305\"\n      ],\n      \"condition\": {\n        \"group_id\": \"24\"\n      }\n    },\n    {\n      \"keys\": [\n        \"vib:301\",\n        \"vib:302\"\n      ],\n      \"condition\": {\n        \"group_id\": \"04\",\n        \"functions\": [\n          {\n            \"item_id\": \"item_10\",\n            \"function_url\": \"https://cutt.ly/EybhBcc\",\n            \"description\": \"Đăng ký ngay\",\n            \"action\": 1\n          }\n        ]\n      }\n    },\n    {\n      \"keys\": [\n        \"tpb:301\"\n      ],\n      \"condition\": {\n        \"group_id\": \"05\"\n      }\n    },\n    {\n      \"keys\": [\n        \"tpb:302\"\n      "
+  },
+  "assets/home_data.json": {
+    "present": true,
+    "bytes": 9417,
+    "sha256": "0a6b0afe13690ff2408403be6907ba666bc0bf1b7fef4ec8e4dfecd28a56d73f",
+    "json_type": "dict",
+    "top_keys": [
+      "screen_id",
+      "header_banner_image",
+      "header_banner_url",
+      "shortcut_bar",
+      "reminder",
+      "highlight",
+      "ads_slider",
+      "third_party",
+      "security_image",
+      "bottom_bar",
+      "avatar",
+      "balance",
+      "metadata"
+    ],
+    "top_key_count": 13,
+    "url_count": 6,
+    "url_hosts": [
+      [
+        "simg.zalopay.com.vn",
+        6
+      ]
+    ],
+    "head": "{\n  \"screen_id\": \"1000\",\n  \"header_banner_image\": \"\",\n  \"header_banner_url\": \"\",\n  \"shortcut_bar\": {\n    \"id\": 31,\n    \"display_name\": \"Shortcut apps\",\n    \"position\": -1,\n    \"active\": true,\n    \"app_profiles\": [\n      {\n        \"id\": 7,\n        \"display_name\": \"Chuyển tiền\",\n        \"icon\": \"android.resource://vn.com.vng.zalopay/drawable/ic40_homeshortcut_transfermoney\",\n        \"tracking_id\": \"101\",\n        \"badge\": {\n          \"type\": \"NONE\"\n        },\n        \"url\": \"zalopay://launch/f/transfer\"\n      },\n      {\n        \"id\": 4,\n        \"display_name\": \"Ngân hàng\",\n        \"icon\": \"android.resource://vn.com.vng.zalopay/drawable/ic40_homeshortcut_linkbank\",\n        \"tracking_id\": \"102\",\n        \"badge\": {\n          \"type\": \"NONE\"\n        },\n        \"url\": \"zalopay://launch/f/linkcard\"\n      },\n      {\n        \"id\": 103,\n        \"display_name\": \"Nạp/Rút\",\n        \"icon\": \"android.resource://vn.com.vng.zalopay/drawable/ic40_homeshortcut_chargewithdraw\",\n        \"tracking_id\": \"103\",\n        \"badge\": {\n          \"type\": \"NONE\"\n        },\n        \"url\": \"zalopay://launch/f/wallet\"\n      },\n      {\n        \"id\": 1,\n        \"display_name\": \"Ưu đãi\",\n        \"icon\": \"android.resource://vn.com.vng.zalopay/drawable/ic40_homeshortcut_promotion\",\n        \"tracking_id\": \"104\",\n        \"badge\": {\n          \"type\": \"NONE\"\n        },\n        \"url\": \"zalopay://launch/app/1653\"\n      }\n    ]\n  },\n  \"reminder\": true,\n  \"highlight\": {\n    \"id\": 34,\n    \"display_name\": \"Highlight apps\",\n    "
+  },
+  "assets/taibmcf.json": {
+    "present": true,
+    "bytes": 46,
+    "sha256": "276833c96dde3ceefa9a894a4612f09ffdc6b22538ea5e1891e1155dc7355172",
+    "json_type": "dict",
+    "top_keys": [
+      "vi",
+      "en"
+    ],
+    "top_key_count": 2,
+    "url_count": 0,
+    "url_hosts": [],
+    "head": "{\"vi\":\"Mở cài đặt\",\"en\":\"Open settings\"}"
+  },
+  "assets/vdfmoer.json": {
+    "present": true,
+    "bytes": 46,
+    "sha256": "276833c96dde3ceefa9a894a4612f09ffdc6b22538ea5e1891e1155dc7355172",
+    "json_type": "dict",
+    "top_keys": [
+      "vi",
+      "en"
+    ],
+    "top_key_count": 2,
+    "url_count": 0,
+    "url_hosts": [],
+    "head": "{\"vi\":\"Mở cài đặt\",\"en\":\"Open settings\"}"
+  }
+}

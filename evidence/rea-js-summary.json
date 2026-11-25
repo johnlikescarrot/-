@@ -1,0 +1,88 @@
+{
+  "evidence_id": "ev_717bb3cffd1779a7bbafed8233864771346edde741c7e257c000af1a5f0dc1f7",
+  "subject_sha256": "8236100e2c4ccfd1ea978e9ffae10ceee4a97d9a2075f19a2f9235c3fca47bc2",
+  "provider": {
+    "id": "rea-javascript-application",
+    "name": "REA JavaScript application analyzer",
+    "version": "1"
+  },
+  "operation": "analyze_javascript_application",
+  "summary": {
+    "browser_windows": 0,
+    "explicit_web_preferences": 0,
+    "preload_entrypoints": 0,
+    "context_bridge_apis": 0,
+    "exposed_api_members": 0,
+    "ipc": {
+      "operations": 0,
+      "literal_channels": 0,
+      "dynamic_channel_operations": 0,
+      "renderer_transmissions": 0,
+      "renderer_listeners": 0,
+      "main_handlers": 0,
+      "paired_renderer_transmissions": 0,
+      "ambiguous_renderer_transmissions": 0,
+      "unpaired_literal_renderer_transmissions": 0
+    },
+    "sender_validation_observations": 0,
+    "utility_processes": 0,
+    "resolved_utility_entrypoints": 0,
+    "native_addon_bindings": 0,
+    "resolved_native_addon_bindings": 0
+  },
+  "statistics": {
+    "relevant_files": 18,
+    "nested_asar_containers": 0,
+    "text_bytes_read": 100428,
+    "invalid_utf8_files": 0,
+    "parsed_javascript_files": 9,
+    "visited_ast_nodes": 5860,
+    "findings": 14,
+    "modules": 0,
+    "parse_failures": 0
+  },
+  "limitations": [
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+    "assets__GriverBridge__create_worker.html has 1 inline JavaScript body starting at line 5 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "assets__GriverBridge__index_inline.html has 1 inline JavaScript body starting at line 16 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "assets__GriverBridge__worker.html has 1 inline JavaScript body starting at line 4 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "assets__GriverErrorPage__griver_custom_h5_page_error.html has 2 inline JavaScript bodies starting at lines 40, 52 that were not analyzed; endpoints, storage, imports and other facts in them are absent from the evidence."
+  ],
+  "graph_id": "jag_61e8726bbbffde31d4d20a65058b365bbcbbd32fd0ae638d2c9a5fca29a6ea0a",
+  "node_count": 37,
+  "edge_count": 38,
+  "node_kinds": {
+    "javascript-module": 9,
+    "javascript-asset": 9,
+    "unknown": 9,
+    "artifact": 9,
+    "electron-renderer": 1
+  },
+  "node_locations_top": {
+    "": 37
+  },
+  "coverage": {
+    "status": "partial",
+    "truncated": false,
+    "omitted_count": null,
+    "limits": []
+  },
+  "relationship_coverage": null,
+  "rea_limitations": [
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+    "assets__GriverBridge__create_worker.html has 1 inline JavaScript body starting at line 5 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "assets__GriverBridge__index_inline.html has 1 inline JavaScript body starting at line 16 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "assets__GriverBridge__worker.html has 1 inline JavaScript body starting at line 4 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "assets__GriverErrorPage__griver_custom_h5_page_error.html has 2 inline JavaScript bodies starting at lines 40, 52 that were not analyzed; endpoints, storage, imports and other facts in them are absent from the evidence."
+  ]
+}

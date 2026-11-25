@@ -1,0 +1,315 @@
+{
+  "application": {
+    "theme": "@7F14015E",
+    "label": "@7F1300D6",
+    "icon": "@7F0F0000",
+    "name": "jwbmqnsll.xvndbxlk",
+    "allowBackup": "false",
+    "hardwareAccelerated": "true",
+    "largeHeap": "true",
+    "supportsRtl": "true",
+    "extractNativeLibs": "true",
+    "fullBackupContent": "false",
+    "resizeableActivity": "false",
+    "networkSecurityConfig": "@7F16000D",
+    "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+    "requestLegacyExternalStorage": "true",
+    "dataExtractionRules": "@7F160004",
+    "enableOnBackInvokedCallback": "false"
+  },
+  "exported": {
+    "activity": [
+      "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+      "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+      "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+      "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+      "com.facebook.CustomTabActivity",
+      "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+      "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+      "androidx.compose.ui.tooling.PreviewActivity",
+      "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+      "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+      "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity"
+    ],
+    "activity-alias": [
+      "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "vn.zalopay.apps.ZaloAppActivityAlias"
+    ],
+    "service": [
+      "vn.com.vng.zalopay.notification.MyFcmListenerService",
+      "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+      "androidx.glance.appwidget.GlanceRemoteViewsService",
+      "androidx.work.impl.background.systemjob.SystemJobService",
+      "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+      "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService"
+    ],
+    "receiver": [
+      "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+      "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+      "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+      "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+      "androidx.profileinstaller.ProfileInstallReceiver"
+    ],
+    "provider": []
+  },
+  "deeplinks": [
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "tag": "activity",
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "data": [
+        {
+          "scheme": "https",
+          "host": "go.zalopay.vn"
+        }
+      ]
+    },
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "tag": "activity",
+      "actions": [
+        "android.intent.action.VIEW",
+        "android.nfc.action.NDEF_DISCOVERED"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "data": [
+        {
+          "scheme": "https",
+          "host": "onelink.zalopay.vn"
+        }
+      ]
+    },
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "tag": "activity",
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "data": [
+        {
+          "scheme": "https",
+          "host": "kmzalopay.onelink.me",
+          "pathPrefix": "/TSui"
+        }
+      ]
+    },
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "tag": "activity",
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "data": [
+        {
+          "scheme": "https",
+          "host": "km.zalopay.vn",
+          "pathPrefix": "/TSui"
+        }
+      ]
+    },
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "tag": "activity",
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "data": [
+        {
+          "scheme": "zalopay",
+          "host": "app"
+        }
+      ]
+    },
+    {
+      "component": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "tag": "activity",
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT",
+        "android.intent.category.BROWSABLE"
+      ],
+      "data": [
+        {
+          "scheme": "zalopay-vnpay"
+        }
+      ]
+    },
+    {
+      "component": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+      "tag": "activity",
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT",
+        "android.intent.category.BROWSABLE"
+      ],
+      "data": [
+        {
+          "scheme": "https",
+          "host": "go.zalopay.vn",
+          "pathPrefix": "/launch/f/user-consensus-zlp-vneid"
+        }
+      ]
+    },
+    {
+      "component": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+      "tag": "activity",
+      "actions": [
+        "android.intent.action.SEND"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "data": [
+        {
+          "mimeType": "image/*"
+        }
+      ]
+    },
+    {
+      "component": "com.facebook.CustomTabActivity",
+      "tag": "activity",
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT",
+        "android.intent.category.BROWSABLE"
+      ],
+      "data": [
+        {
+          "scheme": "fbconnect",
+          "host": "cct.vn.com.vng.zalopay"
+        }
+      ]
+    },
+    {
+      "component": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+      "tag": "activity",
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT",
+        "android.intent.category.BROWSABLE"
+      ],
+      "data": [
+        {
+          "scheme": "tagmanager.c.vn.com.vng.zalopay"
+        }
+      ]
+    },
+    {
+      "component": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+      "tag": "activity-alias",
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "data": [
+        {
+          "scheme": "zalopay-1",
+          "host": "post"
+        },
+        {
+          "scheme": "zalopay-1",
+          "host": "backtoapp"
+        },
+        {
+          "scheme": "zalopay-1",
+          "host": "backtologin"
+        },
+        {
+          "scheme": "zalopay",
+          "host": "zalopay.vn"
+        },
+        {
+          "scheme": "zalopay",
+          "host": "otp"
+        },
+        {
+          "scheme": "zalopay",
+          "host": "pay"
+        },
+        {
+          "scheme": "zalopay",
+          "host": "clearing"
+        },
+        {
+          "scheme": "zalopay"
+        },
+        {
+          "host": "launch"
+        },
+        {
+          "scheme": "zalopay",
+          "host": "merchant"
+        },
+        {
+          "scheme": "zalopay",
+          "host": "events"
+        },
+        {
+          "scheme": "zalopay.api.v2",
+          "host": "pay"
+        },
+        {
+          "scheme": "zalopay.api.v2",
+          "host": "auth"
+        },
+        {
+          "scheme": "zalopay.api.v2",
+          "host": "recoverpassword"
+        },
+        {
+          "scheme": "zalopay",
+          "host": "promotions"
+        },
+        {
+          "scheme": "zalopay",
+          "host": "cashier"
+        }
+      ]
+    }
+  ],
+  "intent_filters": {
+    "activity": 11,
+    "activity-alias": 2,
+    "service": 5,
+    "receiver": 17,
+    "provider": 0
+  }
+}

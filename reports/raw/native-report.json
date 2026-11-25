@@ -1,0 +1,754 @@
+[
+  {
+    "file": "config.armeabi_v7a__libVFaceLib.so",
+    "bytes": 1963668,
+    "sha256": "c6d04f368fe967fb1fd2666519f78cf8fa5fdc3a95a1ffbb0095370483592329",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libVFaceLib.so"
+    ],
+    "needed": [
+      "libandroid.so",
+      "liblog.so",
+      "libjnigraphics.so",
+      "libc.so",
+      "libz.so",
+      "libdl.so",
+      "libm.so"
+    ],
+    "dynamic_symbol_count": 173,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__liba97d.so",
+    "bytes": 997572,
+    "sha256": "7fe7d830805a1e99f0d3661a99fdad20e5ea3f4998c65b3565fde4602ce2181e",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "liba97d.so"
+    ],
+    "needed": [
+      "libc.so",
+      "libstdc++.so",
+      "libm.so",
+      "libdl.so",
+      "liblog.so"
+    ],
+    "dynamic_symbol_count": 143,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libandroidx.graphics.path.so",
+    "bytes": 7252,
+    "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libandroidx.graphics.path.so"
+    ],
+    "needed": [
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 8,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libbarhopper_v3.so",
+    "bytes": 3244440,
+    "sha256": "b3c162c69e4906b816227ae116bfd8b9ff19cfdd58a3de0c9a9b110e030063e9",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libbarhopper_v3.so"
+    ],
+    "needed": [
+      "libjnigraphics.so",
+      "liblog.so",
+      "libdl.so",
+      "libm.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 196,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libc++_shared.so",
+    "bytes": 872872,
+    "sha256": "91b49f121b3120538faff020fcf535ade1d945e65ccd793fc0b815b5799bbdf0",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libc++_shared.so"
+    ],
+    "needed": [
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "dynamic_symbol_count": 1742,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libcrashlytics-common.so",
+    "bytes": 435732,
+    "sha256": "4b8bcec5c0464d7b1741386e30eef9308c43d4ca8f57501ae6734fa48e1c55d2",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libcrashlytics-common.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libz.so",
+      "libdl.so",
+      "libc.so",
+      "libm.so"
+    ],
+    "dynamic_symbol_count": 172,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": false,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libcrashlytics-handler.so",
+    "bytes": 87908,
+    "sha256": "f58fca61975d2450e8bef2bc4b0ea68e5e181cdd0aff3693b04e469c1c6ccdb6",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libcrashlytics-handler.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libz.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "dynamic_symbol_count": 39,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": false,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libcrashlytics-trampoline.so",
+    "bytes": 6912,
+    "sha256": "5366393c1292cfb5c8b49bf846e644f8ce24e683e8c0e97566124b29f89eb722",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [],
+    "needed": [
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "dynamic_symbol_count": 6,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": false,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libcrashlytics.so",
+    "bytes": 94540,
+    "sha256": "be0dedcd52a35e717ec0eeb832108e42c8d62552bc7005fef55ca233d0679260",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libcrashlytics.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "dynamic_symbol_count": 52,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": false,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libface_detector_v2_jni.so",
+    "bytes": 5388224,
+    "sha256": "21e48bd253e1c87edee42bce9a51048ac3082d681446d0d05a79c4ad0f5e187b",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libface_detector_v2_jni.so"
+    ],
+    "needed": [
+      "libandroid.so",
+      "liblog.so",
+      "libjnigraphics.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 215,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libfgcpkjvqe.so",
+    "bytes": 6524160,
+    "sha256": "5f72893936adfe712e8355c33c6f453c45396c7f58c8f05c9acc9c8f83c15b39",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libfgcpkjvqe.so"
+    ],
+    "needed": [
+      "libz.so",
+      "liblog.so",
+      "libandroid.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 187,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libimage_processing_util_jni.so",
+    "bytes": 20380,
+    "sha256": "e48e356bbe1902ae9a66178a4a0141c993b82ee9f70dde52ad83e4af3eca984f",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libimage_processing_util_jni.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libandroid.so",
+      "libjnigraphics.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 28,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libimagepipeline.so",
+    "bytes": 5876,
+    "sha256": "2049c770f0dcca26b20d211f6113ae02eb7c3af48c784c28fd24c320d70d7cc9",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libimagepipeline.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libjnigraphics.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "dynamic_symbol_count": 10,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libljsfrcwmw.so",
+    "bytes": 600296,
+    "sha256": "12a389806114a18ff57d341e740108ebfe9b07d39abe2775a652f193cb99ac84",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libljsfrcwmw.so"
+    ],
+    "needed": [
+      "librcmefqonnx.so",
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 16,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__liblytcuhe.so",
+    "bytes": 178628,
+    "sha256": "a8e59c1d4922f6bce9814667c1566bb1a2ea39700fe312625a29a7cbe6ef4629",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "liblytcuhe.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 127,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libmlkit_google_ocr_pipeline.so",
+    "bytes": 6781940,
+    "sha256": "06b9e2f587e401c6446aa0db344bb31b622957a2d04aa4eac03cde8b3a6ed78a",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libmlkit_google_ocr_pipeline.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libdl.so",
+      "libjnigraphics.so",
+      "libandroid.so",
+      "libz.so",
+      "libm.so",
+      "libEGL.so",
+      "libGLESv2.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 324,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libmlkitcommonpipeline.so",
+    "bytes": 6928228,
+    "sha256": "9ab65cd53ed8334fc0fcd09fe3c442f2a9bb6653e1392bc0ff4a1c1381aba7db",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libmlkitcommonpipeline.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libdl.so",
+      "libjnigraphics.so",
+      "libandroid.so",
+      "libz.so",
+      "libm.so",
+      "libEGL.so",
+      "libGLESv2.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 336,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libnative-filters.so",
+    "bytes": 12588,
+    "sha256": "b8a2da1df4f33eb83adf9596e5e68c9633067a2826385e495ed47f02497b5995",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libnative-filters.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libjnigraphics.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "dynamic_symbol_count": 13,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libnative-imagetranscoder.so",
+    "bytes": 341072,
+    "sha256": "43280a8f3f33529d3558b1f3283fec9b855ca28e7b8d7883ae7a64762f148dad",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libnative-imagetranscoder.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libc.so",
+      "libm.so",
+      "libdl.so"
+    ],
+    "dynamic_symbol_count": 143,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libohxbee.so",
+    "bytes": 155412,
+    "sha256": "2d54a2aa85d81dbfef1e8d01726b1ffd74004ead9d15d861e2323f54ffc01a74",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libohxbee.so"
+    ],
+    "needed": [
+      "liblytcuhe.so",
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 16,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libpicodet_ncnn.so",
+    "bytes": 2992584,
+    "sha256": "442367c2e7f3e5b5f70ed8164f375d6306720eb1d3ddba4fdd936e569214230e",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libpicodet_ncnn.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libandroid.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 2324,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__librcmefqonnx.so",
+    "bytes": 178628,
+    "sha256": "9120dd02a8d94659ea178c0b73b4d02954915d8432c74b04a05d1583f69099af",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "librcmefqonnx.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 127,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__librive-android.so",
+    "bytes": 3225636,
+    "sha256": "ab2dd352553cafb7b7f1a686df8bf33c814b977e7c1cdf1e65d8c99c5cb0e782",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "librive-android.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libandroid.so",
+      "libEGL.so",
+      "libGLESv3.so",
+      "libjnigraphics.so",
+      "libm.so",
+      "libc++_shared.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 5658,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libsecurity_lite.so",
+    "bytes": 154840,
+    "sha256": "75c5d69621c5dce9a64e4466ae011ba5a22e16b35246b39941883d424df6c786",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libsecurity_lite.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 96,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libsqlcipher.so",
+    "bytes": 3555080,
+    "sha256": "819c11750f332a8ca0d88f251d0d22d664f559b8ed10f7a4c61cc90be49f3f44",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libsqlcipher.so"
+    ],
+    "needed": [
+      "libdl.so",
+      "liblog.so",
+      "libc.so",
+      "libm.so"
+    ],
+    "dynamic_symbol_count": 599,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libtaibmcf.so",
+    "bytes": 12617752,
+    "sha256": "0fba080d0364fc0f7a8f61611551ef3b231c8ad0c95113446916099f8112d650",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libtaibmcf.so"
+    ],
+    "needed": [
+      "libz.so",
+      "liblog.so",
+      "libandroid.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 191,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "config.armeabi_v7a__libtrueidlib.so",
+    "bytes": 79904,
+    "sha256": "e1a98166f637ebebf814a375ec147461229ff18314dd669ebbf07eabefdfdd06",
+    "class": "ELF32",
+    "machine": "ARM",
+    "soname": [
+      "libtrueidlib.so"
+    ],
+    "needed": [
+      "liblog.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "dynamic_symbol_count": 79,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": true,
+      "BIND_NOW": true,
+      "RELRO": true,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  },
+  {
+    "file": "vn.com.vng.zalopay__trueidlib.so",
+    "bytes": 392,
+    "sha256": "055e573dbee6ee9d078b9856cb0e76ed34eb1b60e601ecae114068044fb95cc5",
+    "class": null,
+    "machine": null,
+    "soname": [],
+    "needed": [],
+    "dynamic_symbol_count": 0,
+    "java_or_jni_exports": [],
+    "java_or_jni_count": 0,
+    "flags": {
+      "PIE": false,
+      "BIND_NOW": false,
+      "RELRO": false,
+      "STACK_EXEC": false
+    },
+    "build_id": null
+  }
+]

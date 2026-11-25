@@ -1,0 +1,219 @@
+[
+  {
+    "file": "assets__GriverBridge__appx_inline_bootstrap_min.js",
+    "bytes": 292,
+    "functions": [],
+    "bridges": [
+      "AlipayJSBridge"
+    ],
+    "urls": [],
+    "lines": 2
+  },
+  {
+    "file": "assets__GriverBridge__cover_component.js",
+    "bytes": 2888,
+    "functions": [],
+    "bridges": [
+      "androidEmbedViewManager"
+    ],
+    "urls": [],
+    "lines": 74
+  },
+  {
+    "file": "assets__GriverBridge__create_worker.html",
+    "bytes": 159,
+    "functions": [],
+    "bridges": [],
+    "urls": [],
+    "lines": 9
+  },
+  {
+    "file": "assets__GriverBridge__h5_bridge.js",
+    "bytes": 4446,
+    "functions": [],
+    "bridges": [
+      "AlipayJSBridge",
+      "androidEmbedViewManager"
+    ],
+    "urls": [],
+    "lines": 2
+  },
+  {
+    "file": "assets__GriverBridge__index_inline.html",
+    "bytes": 972,
+    "functions": [],
+    "bridges": [],
+    "urls": [
+      "https://appx/af-appx.min.css",
+      "https://appx/af-appx.min.js#nebula-addcors",
+      "https://appx/es6-promise.min.js",
+      "https://gw.alipayobjects.com/as/g/appx_release/deps/1.0.0/es6-set-map.js"
+    ],
+    "lines": 30
+  },
+  {
+    "file": "assets__GriverBridge__worker.html",
+    "bytes": 203,
+    "functions": [],
+    "bridges": [
+      "AlipayJSBridge"
+    ],
+    "urls": [],
+    "lines": 10
+  },
+  {
+    "file": "assets__GriverBridge__workerjs.js",
+    "bytes": 14360,
+    "functions": [
+      "Event",
+      "add",
+      "arrayBufferToBase64",
+      "base64ToArrayBuffer",
+      "createEvent",
+      "dispatchEvent",
+      "remove",
+      "removeWindowEvent",
+      "transformCallParam",
+      "transformResponseData",
+      "trasMsgPort",
+      "trigger",
+      "windowAddEvent"
+    ],
+    "bridges": [
+      "AlipayJSBridge"
+    ],
+    "urls": [],
+    "lines": 474
+  },
+  {
+    "file": "assets__GriverErrorPage__griver_custom_h5_page_error.html",
+    "bytes": 3060,
+    "functions": [],
+    "bridges": [
+      "AlipayJSBridge"
+    ],
+    "urls": [],
+    "lines": 58
+  },
+  {
+    "file": "assets__GriverErrorPage__griver_page_error.html",
+    "bytes": 22734,
+    "functions": [
+      "call"
+    ],
+    "bridges": [
+      "AlipayJSBridge"
+    ],
+    "urls": [],
+    "lines": 275
+  },
+  {
+    "file": "assets__GriverErrorPage__mini-program-native-error.html",
+    "bytes": 13859,
+    "functions": [],
+    "bridges": [
+      "AlipayJSBridge"
+    ],
+    "urls": [],
+    "lines": 148
+  },
+  {
+    "file": "assets__android_jsbridge.js",
+    "bytes": 3673,
+    "functions": [
+      "initializeWebBridge"
+    ],
+    "bridges": [
+      "ZaloPayJSBridge",
+      "ZaloPayJSBridgeReady"
+    ],
+    "urls": [],
+    "lines": 117
+  },
+  {
+    "file": "assets__containererrorpage__griver_custom_h5_page_error.html",
+    "bytes": 3060,
+    "functions": [],
+    "bridges": [
+      "AlipayJSBridge"
+    ],
+    "urls": [],
+    "lines": 58
+  },
+  {
+    "file": "assets__containererrorpage__griver_page_error.html",
+    "bytes": 9594,
+    "functions": [],
+    "bridges": [
+      "AlipayJSBridge"
+    ],
+    "urls": [],
+    "lines": 179
+  },
+  {
+    "file": "assets__internaljsbridge.js",
+    "bytes": 3890,
+    "functions": [
+      "initializeInternalWebBridge"
+    ],
+    "bridges": [
+      "ZaloPayInternalJSBridge",
+      "ZaloPayInternalJSBridgeReady"
+    ],
+    "urls": [],
+    "lines": 116
+  },
+  {
+    "file": "assets__jsbridge.js",
+    "bytes": 3634,
+    "functions": [
+      "initializeWebBridge"
+    ],
+    "bridges": [
+      "ZaloPayInternalJSBridge",
+      "ZaloPayJSBridge",
+      "ZaloPayJSBridgeReady"
+    ],
+    "urls": [],
+    "lines": 116
+  },
+  {
+    "file": "assets__webapp.js",
+    "bytes": 619,
+    "functions": [
+      "webapp_getNavigation",
+      "webapp_hideHeaderZalo"
+    ],
+    "bridges": [],
+    "urls": [],
+    "lines": 35
+  },
+  {
+    "file": "assets__zoom.public",
+    "bytes": 450,
+    "functions": [],
+    "bridges": [],
+    "urls": [],
+    "lines": 9
+  },
+  {
+    "file": "res__raw__h5_bridge.js",
+    "bytes": 1875,
+    "functions": [],
+    "bridges": [
+      "AlipayJSBridge"
+    ],
+    "urls": [],
+    "lines": 3
+  },
+  {
+    "file": "res__raw__h5_page_error.html",
+    "bytes": 11110,
+    "functions": [],
+    "bridges": [
+      "AlipayJSBridge"
+    ],
+    "urls": [],
+    "lines": 210
+  }
+]
