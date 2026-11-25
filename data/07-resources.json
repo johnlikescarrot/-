@@ -1,0 +1,1239 @@
+{
+  "resource_tables_per_apk": {
+    "config.en.apk": {
+      "bytes": 61984,
+      "packages": [
+        "vn.com.vng.zalopay"
+      ],
+      "types": {
+        "vn.com.vng.zalopay": {
+          "string": 4323,
+          "array": 4
+        }
+      },
+      "locales": {
+        "vn.com.vng.zalopay": {
+          "en": 2
+        }
+      },
+      "entries": 4327,
+      "configs": 2
+    },
+    "config.vi.apk": {
+      "bytes": 75460,
+      "packages": [
+        "vn.com.vng.zalopay"
+      ],
+      "types": {
+        "vn.com.vng.zalopay": {
+          "string": 4245,
+          "array": 12,
+          "plurals": 3
+        }
+      },
+      "locales": {
+        "vn.com.vng.zalopay": {
+          "vi": 3
+        }
+      },
+      "entries": 4260,
+      "configs": 3
+    },
+    "config.xhdpi.apk": {
+      "bytes": 141056,
+      "packages": [
+        "vn.com.vng.zalopay",
+        "vn.com.vng.zalopay.login_v2"
+      ],
+      "types": {
+        "vn.com.vng.zalopay": {
+          "drawable": 22190,
+          "dimen": 619,
+          "style": 218
+        },
+        "vn.com.vng.zalopay.login_v2": {
+          "drawable": 57
+        }
+      },
+      "locales": {
+        "vn.com.vng.zalopay": {
+          "default": 7
+        },
+        "vn.com.vng.zalopay.login_v2": {
+          "default": 1
+        }
+      },
+      "entries": 23084,
+      "configs": 8
+    },
+    "vn.com.vng.zalopay.apk": {
+      "bytes": 1802300,
+      "packages": [
+        "vn.com.vng.zalopay",
+        "vn.com.vng.zalopay.changepin",
+        "vn.com.vng.zalopay.resetpin",
+        "vn.com.vng.zalopay.login_v2",
+        "vn.com.vng.zalopay.cashier",
+        "vn.com.vng.zalopay.bank_binding",
+        "vn.com.vng.zalopay.updatephone",
+        "vn.com.vng.zalopay.cash_in",
+        "vn.com.vng.zalopay.resultpage",
+        "vn.com.vng.zalopay.withdraw",
+        "vn.com.vng.zalopay.cashier_v3",
+        "vn.com.vng.zalopay.result_page_v3",
+        "vn.com.vng.zalopay.liveness"
+      ],
+      "types": {
+        "vn.com.vng.zalopay": {
+          "drawable": 48774,
+          "dimen": 30592,
+          "layout": 12102,
+          "style": 10674,
+          "string": 8648,
+          "color": 5644,
+          "id": 3460,
+          "attr": 1826,
+          "anim": 252,
+          "integer": 207,
+          "bool": 168,
+          "raw": 85,
+          "xml": 48,
+          "animator": 28,
+          "array": 27,
+          "font": 17,
+          "interpolator": 17,
+          "mipmap": 14,
+          "navigation": 14,
+          "menu": 10,
+          "plurals": 3
+        },
+        "vn.com.vng.zalopay.changepin": {
+          "id": 19,
+          "string": 19,
+          "layout": 8,
+          "style": 1
+        },
+        "vn.com.vng.zalopay.resetpin": {
+          "id": 32,
+          "drawable": 31,
+          "string": 29,
+          "layout": 10,
+          "style": 1
+        },
+        "vn.com.vng.zalopay.login_v2": {
+          "id": 173,
+          "drawable": 168,
+          "string": 154,
+          "layout": 46,
+          "style": 14,
+          "color": 7,
+          "attr": 4,
+          "anim": 2,
+          "dimen": 2
+        },
+        "vn.com.vng.zalopay.cashier": {
+          "drawable": 240,
+          "string": 69,
+          "id": 40,
+          "color": 21,
+          "layout": 13,
+          "raw": 2,
+          "style": 2
+        },
+        "vn.com.vng.zalopay.bank_binding": {
+          "id": 261,
+          "string": 175,
+          "drawable": 117,
+          "layout": 59,
+          "dimen": 21,
+          "color": 11,
+          "style": 6,
+          "attr": 4,
+          "anim": 2,
+          "navigation": 2,
+          "array": 1
+        },
+        "vn.com.vng.zalopay.updatephone": {
+          "id": 19,
+          "string": 12,
+          "dimen": 5,
+          "layout": 1
+        },
+        "vn.com.vng.zalopay.cash_in": {
+          "id": 27,
+          "drawable": 24,
+          "string": 17,
+          "layout": 3,
+          "navigation": 1
+        },
+        "vn.com.vng.zalopay.resultpage": {
+          "drawable": 24,
+          "color": 8,
+          "id": 5,
+          "layout": 4,
+          "raw": 4,
+          "style": 2
+        },
+        "vn.com.vng.zalopay.withdraw": {
+          "string": 23,
+          "drawable": 20,
+          "id": 16,
+          "layout": 1,
+          "navigation": 1
+        },
+        "vn.com.vng.zalopay.cashier_v3": {
+          "drawable": 58,
+          "id": 5,
+          "layout": 2,
+          "string": 2,
+          "style": 2,
+          "raw": 1
+        },
+        "vn.com.vng.zalopay.result_page_v3": {
+          "id": 12,
+          "drawable": 11,
+          "color": 3,
+          "layout": 3,
+          "raw": 3,
+          "string": 2,
+          "style": 2
+        },
+        "vn.com.vng.zalopay.liveness": {
+          "drawable": 33,
+          "string": 17,
+          "style": 1
+        }
+      },
+      "locales": {
+        "vn.com.vng.zalopay": {
+          "default": 78
+        },
+        "vn.com.vng.zalopay.changepin": {
+          "default": 4
+        },
+        "vn.com.vng.zalopay.resetpin": {
+          "default": 5
+        },
+        "vn.com.vng.zalopay.login_v2": {
+          "default": 10
+        },
+        "vn.com.vng.zalopay.cashier": {
+          "default": 7
+        },
+        "vn.com.vng.zalopay.bank_binding": {
+          "default": 11
+        },
+        "vn.com.vng.zalopay.updatephone": {
+          "default": 4
+        },
+        "vn.com.vng.zalopay.cash_in": {
+          "default": 5
+        },
+        "vn.com.vng.zalopay.resultpage": {
+          "default": 6
+        },
+        "vn.com.vng.zalopay.withdraw": {
+          "default": 5
+        },
+        "vn.com.vng.zalopay.cashier_v3": {
+          "default": 6
+        },
+        "vn.com.vng.zalopay.result_page_v3": {
+          "default": 7
+        },
+        "vn.com.vng.zalopay.liveness": {
+          "default": 3
+        }
+      },
+      "entries": 124750,
+      "configs": 151
+    }
+  },
+  "resource_table": {
+    "packages": [
+      "vn.com.vng.zalopay",
+      "vn.com.vng.zalopay",
+      "vn.com.vng.zalopay",
+      "vn.com.vng.zalopay.login_v2",
+      "vn.com.vng.zalopay",
+      "vn.com.vng.zalopay.changepin",
+      "vn.com.vng.zalopay.resetpin",
+      "vn.com.vng.zalopay.login_v2",
+      "vn.com.vng.zalopay.cashier",
+      "vn.com.vng.zalopay.bank_binding",
+      "vn.com.vng.zalopay.updatephone",
+      "vn.com.vng.zalopay.cash_in",
+      "vn.com.vng.zalopay.resultpage",
+      "vn.com.vng.zalopay.withdraw",
+      "vn.com.vng.zalopay.cashier_v3",
+      "vn.com.vng.zalopay.result_page_v3",
+      "vn.com.vng.zalopay.liveness"
+    ],
+    "locale_count": 3,
+    "locales": [
+      "default",
+      "vi",
+      "en"
+    ],
+    "type_counts": {
+      "drawable": 71747,
+      "dimen": 31239,
+      "string": 17735,
+      "layout": 12252,
+      "style": 10923,
+      "color": 5694,
+      "id": 4069,
+      "attr": 1834,
+      "anim": 256,
+      "integer": 207,
+      "bool": 168,
+      "raw": 95,
+      "xml": 48,
+      "array": 44,
+      "animator": 28,
+      "navigation": 18,
+      "font": 17,
+      "interpolator": 17,
+      "mipmap": 14,
+      "menu": 10,
+      "plurals": 6
+    },
+    "entry_total": 156421,
+    "arsc_bytes": 1802300
+  },
+  "composition": {
+    "base_apk": {
+      "res": {
+        "bytes": 37670801,
+        "files": 5604
+      },
+      "assets": {
+        "bytes": 30011044,
+        "files": 124
+      },
+      "classes2.dex": {
+        "bytes": 16516960,
+        "files": 1
+      },
+      "classes7.dex": {
+        "bytes": 10803680,
+        "files": 1
+      },
+      "classes4.dex": {
+        "bytes": 9418124,
+        "files": 1
+      },
+      "classes.dex": {
+        "bytes": 8831004,
+        "files": 1
+      },
+      "classes6.dex": {
+        "bytes": 7612432,
+        "files": 1
+      },
+      "classes5.dex": {
+        "bytes": 7357484,
+        "files": 1
+      },
+      "resources.arsc": {
+        "bytes": 1802300,
+        "files": 1
+      },
+      "org": {
+        "bytes": 1640008,
+        "files": 136
+      },
+      "classes9.dex": {
+        "bytes": 1218908,
+        "files": 1
+      },
+      "classes3.dex": {
+        "bytes": 850600,
+        "files": 1
+      },
+      "classes19.dex": {
+        "bytes": 719548,
+        "files": 1
+      },
+      "classes12.dex": {
+        "bytes": 398276,
+        "files": 1
+      },
+      "classes8.dex": {
+        "bytes": 239036,
+        "files": 1
+      },
+      "classes17.dex": {
+        "bytes": 208476,
+        "files": 1
+      },
+      "classes11.dex": {
+        "bytes": 163420,
+        "files": 1
+      },
+      "classes13.dex": {
+        "bytes": 145824,
+        "files": 1
+      },
+      "META-INF": {
+        "bytes": 140283,
+        "files": 180
+      },
+      "AndroidManifest.xml": {
+        "bytes": 125916,
+        "files": 1
+      },
+      "classes18.dex": {
+        "bytes": 95920,
+        "files": 1
+      },
+      "classes15.dex": {
+        "bytes": 82152,
+        "files": 1
+      },
+      "classes14.dex": {
+        "bytes": 81748,
+        "files": 1
+      },
+      "classes10.dex": {
+        "bytes": 78204,
+        "files": 1
+      },
+      "kotlin": {
+        "bytes": 51125,
+        "files": 8
+      },
+      "google": {
+        "bytes": 46722,
+        "files": 9
+      },
+      "okhttp3": {
+        "bytes": 41612,
+        "files": 2
+      },
+      "classes16.dex": {
+        "bytes": 15916,
+        "files": 1
+      },
+      "LICENSE-junit.txt": {
+        "bytes": 11376,
+        "files": 1
+      },
+      "client_analytics.proto": {
+        "bytes": 2982,
+        "files": 1
+      },
+      "vn": {
+        "bytes": 2014,
+        "files": 1
+      },
+      "getbanklist_zpm_success.json": {
+        "bytes": 1917,
+        "files": 1
+      },
+      "junit": {
+        "bytes": 1847,
+        "files": 2
+      },
+      "DebugProbesKt.bin": {
+        "bytes": 1738,
+        "files": 1
+      },
+      "kotlin-tooling-metadata.json": {
+        "bytes": 627,
+        "files": 1
+      },
+      "play-services-mlkit-subject-segmentation.properties": {
+        "bytes": 130,
+        "files": 1
+      },
+      "play-services-mlkit-text-recognition-common.properties": {
+        "bytes": 124,
+        "files": 1
+      },
+      "play-services-mlkit-barcode-scanning.properties": {
+        "bytes": 110,
+        "files": 1
+      },
+      "play-services-mlkit-text-recognition.properties": {
+        "bytes": 110,
+        "files": 1
+      },
+      "play-services-mlkit-face-detection.properties": {
+        "bytes": 106,
+        "files": 1
+      },
+      "play-services-measurement-sdk-api.properties": {
+        "bytes": 104,
+        "files": 1
+      },
+      "play-services-places-placereport.properties": {
+        "bytes": 102,
+        "files": 1
+      },
+      "text-recognition-bundled-common.properties": {
+        "bytes": 100,
+        "files": 1
+      },
+      "firebase-measurement-connector.properties": {
+        "bytes": 98,
+        "files": 1
+      },
+      "play-services-measurement-base.properties": {
+        "bytes": 98,
+        "files": 1
+      },
+      "play-services-measurement-impl.properties": {
+        "bytes": 98,
+        "files": 1
+      },
+      "play-services-cloud-messaging.properties": {
+        "bytes": 96,
+        "files": 1
+      },
+      "play-services-measurement-api.properties": {
+        "bytes": 96,
+        "files": 1
+      },
+      "play-services-measurement-sdk.properties": {
+        "bytes": 96,
+        "files": 1
+      },
+      "play-services-ads-identifier.properties": {
+        "bytes": 94,
+        "files": 1
+      },
+      "play-services-analytics-impl.properties": {
+        "bytes": 94,
+        "files": 1
+      },
+      "play-services-auth-api-phone.properties": {
+        "bytes": 94,
+        "files": 1
+      },
+      "play-services-tagmanager-api.properties": {
+        "bytes": 94,
+        "files": 1
+      },
+      "play-services-vision-common.properties": {
+        "bytes": 92,
+        "files": 1
+      },
+      "play-services-measurement.properties": {
+        "bytes": 88,
+        "files": 1
+      },
+      "play-services-tagmanager.properties": {
+        "bytes": 86,
+        "files": 1
+      },
+      "barcode-scanning-common.properties": {
+        "bytes": 84,
+        "files": 1
+      },
+      "firebase-encoders-proto.properties": {
+        "bytes": 84,
+        "files": 1
+      },
+      "object-detection-common.properties": {
+        "bytes": 84,
+        "files": 1
+      },
+      "play-services-phenotype.properties": {
+        "bytes": 84,
+        "files": 1
+      },
+      "play-services-safetynet.properties": {
+        "bytes": 84,
+        "files": 1
+      },
+      "firebase-analytics-ktx.properties": {
+        "bytes": 82,
+        "files": 1
+      },
+      "play-services-ads-base.properties": {
+        "bytes": 82,
+        "files": 1
+      },
+      "play-services-ads-lite.properties": {
+        "bytes": 82,
+        "files": 1
+      },
+      "play-services-basement.properties": {
+        "bytes": 82,
+        "files": 1
+      },
+      "play-services-clearcut.properties": {
+        "bytes": 82,
+        "files": 1
+      },
+      "play-services-identity.properties": {
+        "bytes": 82,
+        "files": 1
+      },
+      "play-services-location.properties": {
+        "bytes": 82,
+        "files": 1
+      },
+      "user-messaging-platform.properties": {
+        "bytes": 82,
+        "files": 1
+      },
+      "firebase-annotations.properties": {
+        "bytes": 78,
+        "files": 1
+      },
+      "firebase-iid-interop.properties": {
+        "bytes": 78,
+        "files": 1
+      },
+      "play-services-appset.properties": {
+        "bytes": 78,
+        "files": 1
+      },
+      "play-services-vision.properties": {
+        "bytes": 78,
+        "files": 1
+      },
+      "play-services-wallet.properties": {
+        "bytes": 78,
+        "files": 1
+      },
+      "play-services-flags.properties": {
+        "bytes": 76,
+        "files": 1
+      },
+      "play-services-stats.properties": {
+        "bytes": 76,
+        "files": 1
+      },
+      "play-services-tasks.properties": {
+        "bytes": 76,
+        "files": 1
+      },
+      "vision-internal-vkp.properties": {
+        "bytes": 76,
+        "files": 1
+      },
+      "firebase-analytics.properties": {
+        "bytes": 74,
+        "files": 1
+      },
+      "firebase-messaging.properties": {
+        "bytes": 74,
+        "files": 1
+      },
+      "play-services-base.properties": {
+        "bytes": 74,
+        "files": 1
+      },
+      "play-services-maps.properties": {
+        "bytes": 74,
+        "files": 1
+      },
+      "firebase-encoders.properties": {
+        "bytes": 72,
+        "files": 1
+      },
+      "play-services-ads.properties": {
+        "bytes": 72,
+        "files": 1
+      },
+      "vision-interfaces.properties": {
+        "bytes": 72,
+        "files": 1
+      },
+      "barcode-scanning.properties": {
+        "bytes": 70,
+        "files": 1
+      },
+      "object-detection.properties": {
+        "bytes": 70,
+        "files": 1
+      },
+      "text-recognition.properties": {
+        "bytes": 70,
+        "files": 1
+      },
+      "feature-delivery.properties": {
+        "bytes": 68,
+        "files": 1
+      },
+      "firebase-config.properties": {
+        "bytes": 68,
+        "files": 1
+      },
+      "face-detection.properties": {
+        "bytes": 66,
+        "files": 1
+      },
+      "firebase-core.properties": {
+        "bytes": 64,
+        "files": 1
+      },
+      "firebase-perf.properties": {
+        "bytes": 64,
+        "files": 1
+      },
+      "vision-common.properties": {
+        "bytes": 64,
+        "files": 1
+      },
+      "firebase-abt.properties": {
+        "bytes": 62,
+        "files": 1
+      },
+      "firebase-iid.properties": {
+        "bytes": 62,
+        "files": 1
+      },
+      "billing-ktx.properties": {
+        "bytes": 58,
+        "files": 1
+      },
+      "core-common.properties": {
+        "bytes": 58,
+        "files": 1
+      },
+      "image.properties": {
+        "bytes": 58,
+        "files": 1
+      },
+      "review-ktx.properties": {
+        "bytes": 56,
+        "files": 1
+      },
+      "integrity.properties": {
+        "bytes": 54,
+        "files": 1
+      },
+      "common.properties": {
+        "bytes": 52,
+        "files": 1
+      },
+      "billing.properties": {
+        "bytes": 50,
+        "files": 1
+      },
+      "review.properties": {
+        "bytes": 48,
+        "files": 1
+      },
+      "stamp-cert-sha256": {
+        "bytes": 32,
+        "files": 1
+      }
+    },
+    "config.armeabi_v7a.apk": {
+      "bytes": 57459525
+    },
+    "config.en.apk": {
+      "bytes": 64699
+    },
+    "config.vi.apk": {
+      "bytes": 78175
+    },
+    "config.xhdpi.apk": {
+      "bytes": 1329300
+    }
+  },
+  "assets": {
+    "count": 124,
+    "total_bytes": 30011044,
+    "models": [
+      {
+        "path": "custom_models/object_labeler.tflite",
+        "bytes": 3770391,
+        "sha256": "9400671e04685f52",
+        "kind": "ml-model"
+      },
+      {
+        "path": "FastestDet.ncnn.bin",
+        "bytes": 2420588,
+        "sha256": "ee8e29ed0889be18",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit_odt_default_classifier/labeler_with_validation.tflite",
+        "bytes": 1706957,
+        "sha256": "479cb95767462b2f",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit_odt_localizer/localizer_with_validation.tflite",
+        "bytes": 1254848,
+        "sha256": "fb5e5188b03c3bc0",
+        "kind": "ml-model"
+      },
+      {
+        "path": "models_bundled/fssd_medium_8bit_v5.tflite",
+        "bytes": 613352,
+        "sha256": "ae2fa78e29441438",
+        "kind": "ml-model"
+      },
+      {
+        "path": "models_bundled/fssd_medium_8bit_gray_v5.tflite",
+        "bytes": 613080,
+        "sha256": "f0590874fd3a006c",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+        "bytes": 390456,
+        "sha256": "6c7b209f4256ca45",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+        "bytes": 340760,
+        "sha256": "eb811a1290738f13",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+        "bytes": 315520,
+        "sha256": "7f931f6f7c1dd0ec",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+        "bytes": 276552,
+        "sha256": "981c89dcca6aac10",
+        "kind": "ml-model"
+      },
+      {
+        "path": "models_bundled/fssd_25_8bit_v2.tflite",
+        "bytes": 232096,
+        "sha256": "d8abae91b0e0af52",
+        "kind": "ml-model"
+      },
+      {
+        "path": "models_bundled/fssd_25_8bit_gray_v2.tflite",
+        "bytes": 231816,
+        "sha256": "57dc1f2a3b9c0c5d",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+        "bytes": 213880,
+        "sha256": "8e07cd3b38da1ded",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+        "bytes": 129612,
+        "sha256": "ecda697ed244c576",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+        "bytes": 114384,
+        "sha256": "f42197e656972c33",
+        "kind": "ml-model"
+      },
+      {
+        "path": "FastestDet.ncnn.param",
+        "bytes": 15293,
+        "sha256": "8b659855f15bec83",
+        "kind": "ml-model"
+      }
+    ],
+    "js_bundles": [
+      {
+        "path": "GriverBridge/workerjs.js",
+        "bytes": 14360,
+        "sha256": "47c076ffe63168d2",
+        "kind": "js-bundle"
+      },
+      {
+        "path": "GriverBridge/h5_bridge.js",
+        "bytes": 4446,
+        "sha256": "e0f37c8b1163a14f",
+        "kind": "js-bundle"
+      },
+      {
+        "path": "internaljsbridge.js",
+        "bytes": 3890,
+        "sha256": "0587ef4cfda3ab69",
+        "kind": "js-bundle"
+      },
+      {
+        "path": "android_jsbridge.js",
+        "bytes": 3673,
+        "sha256": "79d13b8a360b1290",
+        "kind": "js-bundle"
+      },
+      {
+        "path": "jsbridge.js",
+        "bytes": 3634,
+        "sha256": "2dfe8f8ba6a70ff3",
+        "kind": "js-bundle"
+      },
+      {
+        "path": "GriverBridge/cover_component.js",
+        "bytes": 2888,
+        "sha256": "0bfb0f20cb72e23a",
+        "kind": "js-bundle"
+      },
+      {
+        "path": "webapp.js",
+        "bytes": 619,
+        "sha256": "73242fce8a393809",
+        "kind": "js-bundle"
+      },
+      {
+        "path": "GriverBridge/appx_inline_bootstrap_min.js",
+        "bytes": 292,
+        "sha256": "98e536752ad1eb0c",
+        "kind": "js-bundle"
+      }
+    ],
+    "top": [
+      {
+        "path": "audience_network.dex",
+        "bytes": 4864036,
+        "sha256": "10dc305fb2869db2",
+        "kind": "other"
+      },
+      {
+        "path": "android.1.zip",
+        "bytes": 3913966,
+        "sha256": "e5358e94d6938eb1",
+        "kind": "other"
+      },
+      {
+        "path": "custom_models/object_labeler.tflite",
+        "bytes": 3770391,
+        "sha256": "9400671e04685f52",
+        "kind": "ml-model"
+      },
+      {
+        "path": "FastestDet.ncnn.bin",
+        "bytes": 2420588,
+        "sha256": "ee8e29ed0889be18",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit_odt_default_classifier/labeler_with_validation.tflite",
+        "bytes": 1706957,
+        "sha256": "479cb95767462b2f",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit_odt_localizer/localizer_with_validation.tflite",
+        "bytes": 1254848,
+        "sha256": "fb5e5188b03c3bc0",
+        "kind": "ml-model"
+      },
+      {
+        "path": "models_bundled/contours.tfl",
+        "bytes": 1124144,
+        "sha256": "84160bc0c4a74951",
+        "kind": "other"
+      },
+      {
+        "path": "models_bundled/LMprec_600.emd",
+        "bytes": 1078354,
+        "sha256": "0ed5c85282f940d1",
+        "kind": "other"
+      },
+      {
+        "path": "config/miniapp_config.json",
+        "bytes": 883684,
+        "sha256": "e69ba84631346485",
+        "kind": "config"
+      },
+      {
+        "path": "Griver/68687209_2.9.7.8.amr",
+        "bytes": 856974,
+        "sha256": "3e67a09c8d76338c",
+        "kind": "other"
+      },
+      {
+        "path": "fgcpkjvqe.dat",
+        "bytes": 776320,
+        "sha256": "cb8c0211e579f103",
+        "kind": "config"
+      },
+      {
+        "path": "models_bundled/fssd_medium_8bit_v5.tflite",
+        "bytes": 613352,
+        "sha256": "ae2fa78e29441438",
+        "kind": "ml-model"
+      },
+      {
+        "path": "models_bundled/fssd_medium_8bit_gray_v5.tflite",
+        "bytes": 613080,
+        "sha256": "f0590874fd3a006c",
+        "kind": "ml-model"
+      },
+      {
+        "path": "taxi_splash_loading.json",
+        "bytes": 536057,
+        "sha256": "c68296d32ff394e1",
+        "kind": "config"
+      },
+      {
+        "path": "mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+        "bytes": 390456,
+        "sha256": "6c7b209f4256ca45",
+        "kind": "ml-model"
+      },
+      {
+        "path": "models_bundled/blazeface.tfl",
+        "bytes": 347928,
+        "sha256": "4f25cc142e96b5f2",
+        "kind": "other"
+      },
+      {
+        "path": "mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+        "bytes": 340760,
+        "sha256": "eb811a1290738f13",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+        "bytes": 315520,
+        "sha256": "7f931f6f7c1dd0ec",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+        "bytes": 309568,
+        "sha256": "0ed62e4fbe0fc5c4",
+        "kind": "other"
+      },
+      {
+        "path": "Griver/66666692_1.24.8.amr",
+        "bytes": 287535,
+        "sha256": "02b7cf32e5e71d62",
+        "kind": "other"
+      },
+      {
+        "path": "mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+        "bytes": 276552,
+        "sha256": "981c89dcca6aac10",
+        "kind": "ml-model"
+      },
+      {
+        "path": "com/visa/cbp/74e13961eb6489ab-",
+        "bytes": 265304,
+        "sha256": "317ed670fbd62a0c",
+        "kind": "other"
+      },
+      {
+        "path": "models_bundled/fssd_25_8bit_v2.tflite",
+        "bytes": 232096,
+        "sha256": "d8abae91b0e0af52",
+        "kind": "ml-model"
+      },
+      {
+        "path": "models_bundled/fssd_25_8bit_gray_v2.tflite",
+        "bytes": 231816,
+        "sha256": "57dc1f2a3b9c0c5d",
+        "kind": "ml-model"
+      },
+      {
+        "path": "mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+        "bytes": 213880,
+        "sha256": "8e07cd3b38da1ded",
+        "kind": "ml-model"
+      }
+    ],
+    "hash_named_dirs": {
+      "dabc8a718ce8...": {
+        "bytes": 17888,
+        "files": 1,
+        "names": [
+          "9f979174-fb94-f7f5-21c5-afddb32d1e32"
+        ]
+      }
+    },
+    "all_paths": [
+      "audience_network.dex",
+      "android.1.zip",
+      "custom_models/object_labeler.tflite",
+      "FastestDet.ncnn.bin",
+      "mlkit_odt_default_classifier/labeler_with_validation.tflite",
+      "mlkit_odt_localizer/localizer_with_validation.tflite",
+      "models_bundled/contours.tfl",
+      "models_bundled/LMprec_600.emd",
+      "config/miniapp_config.json",
+      "Griver/68687209_2.9.7.8.amr",
+      "fgcpkjvqe.dat",
+      "models_bundled/fssd_medium_8bit_v5.tflite",
+      "models_bundled/fssd_medium_8bit_gray_v5.tflite",
+      "taxi_splash_loading.json",
+      "mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+      "models_bundled/blazeface.tfl",
+      "mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+      "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+      "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+      "Griver/66666692_1.24.8.amr",
+      "mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+      "com/visa/cbp/74e13961eb6489ab-",
+      "models_bundled/fssd_25_8bit_v2.tflite",
+      "models_bundled/fssd_25_8bit_gray_v2.tflite",
+      "mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+      "fonts/Roboto-Bold.ttf",
+      "fonts/true_font.ttf",
+      "mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.lstm_model",
+      "mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+      "client_tracking.json",
+      "fonts/zalopay.ttf",
+      "mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+      "fonts/Roboto-Medium.ttf",
+      "fonts/Roboto-Regular.ttf",
+      "mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+      "config/zalopay_config.json",
+      "com/visa/cbp/a2687fec63dbeebcd-",
+      "fonts/zalopay.json",
+      "fonts/UnisectVnu.ttf",
+      "fonts/ocr-a-tribute.ttf",
+      "taxi_images/Layer_5_loading.png",
+      "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/conv_model.fb",
+      "mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.conv_model",
+      "griverIconDefault/default.ttf",
+      "GriverErrorPage/griver_page_error.html",
+      "dexopt/baseline.prof",
+      "models_bundled/BCLjoy_200.emd",
+      "dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be/9f979174-fb94-f7f5-21c5-afddb32d1e32",
+      "Griver/66666693_2.0.7.amr",
+      "com/visa/cbp/8c12f33e01f2a597a-",
+      "theme/bank/ui_config.json",
+      "FastestDet.ncnn.param",
+      "taxi_images/Layer_4_loading.png",
+      "GriverBridge/workerjs.js",
+      "GriverErrorPage/mini-program-native-error.html",
+      "com/appsflyer/internal/3e6e8a8a85e1aaa2b-",
+      "mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+      "mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+      "theme/bank/config_v2.json",
+      "theme/bank/bank_resource.json",
+      "timezone2region_2023c.json",
+      "tinyfont/iconfont.ttf",
+      "com/visa/cbp/f3f564a2648dc019c-",
+      "containererrorpage/griver_page_error.html",
+      "home_data.json",
+      "models_bundled/BCLrighteyeclosed_200.emd",
+      "models_bundled/BCLlefteyeclosed_200.emd",
+      "taibmcf.dat",
+      "com/appsflyer/internal/cc32cb866f63cd58a-",
+      "containers/GTM-PC9W5BW.json",
+      "taxi_images/Artboard_1.png",
+      "com/appsflyer/internal/1a7e8023f147cacac-",
+      "taxi_images/Artboard_2.png",
+      "taxi_images/_____1_loading.png",
+      "taxi_images/Layer_3_loading.png",
+      "taxi_images/Layer_2_loading.png",
+      "h5iconfont/titlebar.ttf",
+      "tinyfont/titlebar.ttf",
+      "GriverBridge/h5_bridge.js",
+      "internaljsbridge.js",
+      "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/assets.extra/LabelMap.pb",
+      "android_jsbridge.js",
+      "jsbridge.js",
+      "com/appsflyer/internal/cf2b565222edadded-",
+      "GriverErrorPage/griver_custom_h5_page_error.html",
+      "containererrorpage/griver_custom_h5_page_error.html",
+      "GriverBridge/cover_component.js",
+      "taxi_images/Layer_8_loading.png",
+      "h5iconfont/h5titlebar.ttf",
+      "Griver/appx.json",
+      "dexopt/baseline.profm",
+      "iapconnect_config_full",
+      "mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.bincfg",
+      "GriverBridge/index_inline.html",
+      "bshield.dat",
+      "models_bundled/MFT_fssd_accgray.pb",
+      "models_bundled/MFT_fssd_fastgray.pb",
+      "webapp.js",
+      "GriverTheme/theme.json",
+      "taxi_images/Layer_7_loading.png",
+      "public.pem",
+      "mlkit-google-ocr-models/taser/detector/region_proposal_text_detector_tflite_vertical_mbv2_v1.bincfg",
+      "zoom.public",
+      "config/public_key.txt",
+      "trueidlib.so",
+      "config/signature.txt",
+      "mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner_ti.binarypb",
+      "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+      "mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner.binarypb",
+      "bundle.json",
+      "GriverBridge/appx_inline_bootstrap_min.js",
+      "mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+      "mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+      "mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_recognizer.binarypb",
+      "GriverBridge/worker.html",
+      "mlkit-google-ocr-models/taser/rpn_text_detection_tflite_mobile_mbv2.binarypb",
+      "GriverBridge/create_worker.html",
+      "models_bundled/fssd_anchors_v2.pb",
+      "models_bundled/fssd_anchors_v5.pb",
+      "mlkit-google-ocr-models/taser/taser_script_identification_tflite_mobile.binarypb",
+      "safemode_registrator_com_iap_ac_config.json",
+      "taibmcf.json",
+      "vdfmoer.json",
+      "mlkit_odt_localizer/mobile_object_localizer_labelmap"
+    ]
+  },
+  "res_raw": [
+    "anim_done_unlink_bank.json",
+    "anim_loading_resume.json",
+    "anim_loading_unlink_bank.json",
+    "anim_location_profile_tab.json",
+    "anim_otp_popup_verifying.json",
+    "animation_s5_turn_left.json",
+    "animation_s5_turn_right.json",
+    "failure.riv",
+    "googlemaps.json",
+    "h5_bridge.js",
+    "h5_page_error.html",
+    "haarcascade_frontalface_default.xml",
+    "ic_anim_zlp_loading_auth_state.json",
+    "ic_anim_zlp_loading_common_state.json",
+    "ic_anim_zlp_loading_state.json",
+    "ic_cashier_loading.json",
+    "ic_cashier_pay_loading.json",
+    "ic_cashier_pay_loading_v3.json",
+    "ic_home_nav_bar_tab_scan_qr.json",
+    "ic_rp_fail_v3.json",
+    "ic_rp_failed_animate.json",
+    "ic_rp_pending_animate.json",
+    "ic_rp_processing_animate.json",
+    "ic_rp_processing_v3.json",
+    "ic_rp_success_animate.json",
+    "ic_rp_success_v3.json",
+    "img_anim_dynamic_text.json",
+    "img_anim_fds_nfc_guidance_step1.json",
+    "img_anim_fds_nfc_guidance_step2.json",
+    "img_anim_fds_nfc_guidance_step3.json",
+    "img_anim_loading_state.json",
+    "img_anim_nfc_guidance_step1.json",
+    "img_anim_nfc_guidance_step2.json",
+    "img_anim_nfc_guidance_step3.json",
+    "img_anim_right_arrow.json",
+    "img_dynamic_qrcode_anim.json",
+    "img_flash_capture.json",
+    "img_guide_back_id_card.json",
+    "img_guide_front_id_card.json",
+    "img_scan_ocr.json",
+    "img_shield_only.json",
+    "img_success_ocr.json",
+    "lbfmodel.yaml",
+    "loading.riv",
+    "lottie_loading_shield.json",
+    "lottie_scan.json",
+    "lottie_shield.json",
+    "lottie_success.json",
+    "onboarding_selected_category_marker_lottie.json",
+    "onboarding_selecting_categories_guide_lottie.json",
+    "pay_success_sound.mp3",
+    "phone_pending.svg",
+    "required_kyc.svg",
+    "tap2pay_payment_guide.riv",
+    "user_guide.riv",
+    "zalopay_sound.mp3"
+  ],
+  "drawable_count": 3675,
+  "layout_count": 1018
+}

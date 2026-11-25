@@ -1,0 +1,1776 @@
+{
+  "lib_count": 27,
+  "hardening": {
+    "all_pie": true,
+    "all_nx_stack": true,
+    "relro_count": 23,
+    "bind_now_count": 27,
+    "stripped_count": 26,
+    "debug_info_count": 1,
+    "textrel_count": 0,
+    "total_bytes": 57452124,
+    "with_jni_exports": 10,
+    "protect_marker_union": [
+      "frida",
+      "magisk",
+      "shield"
+    ],
+    "tech_marker_union": [
+      "barhopper",
+      "boringssl",
+      "crashlytics",
+      "ffmpeg",
+      "firebase",
+      "freetype",
+      "libc++",
+      "mlkit",
+      "ncnn",
+      "openssl",
+      "protobuf",
+      "rive",
+      "sqlcipher",
+      "sqlite",
+      "tensorflow",
+      "v8"
+    ]
+  },
+  "libs": [
+    {
+      "name": "libtaibmcf.so",
+      "bytes": 12617752,
+      "sha256": "0fba080d0364fc0f7a8f61611551ef3b231c8ad0c95113446916099f8112d650",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 27,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libtaibmcf.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 2,
+      "jni_exports": [],
+      "build_id": "a26a37e9cce21f2a486aa9f8b6abd7d06bb975b2",
+      "comment": "Android (11349228, +pgo, +bolt, +lto, -mlgo, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362) | Linker: LLD 17",
+      "needed_libs": [
+        "libz.so",
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 3521,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "boringssl",
+        "openssl",
+        "protobuf"
+      ],
+      "build_path_leaks": [
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/a_bitstr.cc",
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/a_gentm.cc",
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/a_int.cc",
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/a_object.cc",
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/a_time.cc",
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/a_type.cc",
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/a_utctm.cc",
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/asn1_lib.cc",
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/tasn_dec.cc",
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/tasn_enc.cc",
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/tasn_new.cc",
+        "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/tasn_utl.cc"
+      ],
+      "build_path_leak_count": 67,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libmlkitcommonpipeline.so",
+      "bytes": 6928228,
+      "sha256": "9ab65cd53ed8334fc0fcd09fe3c442f2a9bb6653e1392bc0ff4a1c1381aba7db",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 32,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libmlkitcommonpipeline.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 42,
+      "jni_exports": [
+        "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetNNAPIInfo",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeResultsCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveRgbFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_experimentalRotateResults",
+        "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeNotifyProcessLifecycleState",
+        "Java_org_tensorflow_lite_acceleration_validation_entrypoint",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameManager",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processBitmap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processYuvFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceState",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveAudioData",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_getAnalyticsLogs",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetOcr",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_start",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_stop",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receivePreviewFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDetections",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetSchedulingOptimizerOptions",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_close",
+        "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeIsProcessInBackground",
+        "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetDeviceInfo",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeIsolationCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_waitUntilIdle",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receivePreviewFrameWithStreamName",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveSensorEvent",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveProcessContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetTrackedObjects",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initialize",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDepthMap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveYuvFrame",
+        "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetGPUInfo",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_process",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveFaces",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_enableSubpipeline",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_flushAndClearMobileIqSamples",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_disableSubpipeline"
+      ],
+      "build_id": "474e5500bae2bbb57b89bcf1710fd197774512ab",
+      "comment": null,
+      "needed_libs": [
+        "liblog.so",
+        "libdl.so",
+        "libjnigraphics.so",
+        "libandroid.so",
+        "libz.so",
+        "libm.so",
+        "libEGL.so",
+        "libGLESv2.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 27650,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "ffmpeg",
+        "firebase",
+        "freetype",
+        "libc++",
+        "mlkit",
+        "protobuf",
+        "tensorflow"
+      ],
+      "build_path_leaks": [
+        "/home/build/nonconf/google3/ocr/photo/detection/testdata",
+        "/home/vrabaud/opencv/src/opencv_contrib/modules"
+      ],
+      "build_path_leak_count": 3,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.google.android.libraries.vision.visionkit.pipeline",
+        "com.google.android.libraries.vision.visionkit.pipeline.PipelineException",
+        "com.google.android.libraries.vision.visionkit.pipeline.jni.pipeline_jni",
+        "com.google.android.libraries.vision.visionkit.pipeline.libmlkitcommonpipeline",
+        "com.google.mediapipe.framework.jni.jni_util",
+        "com.mediapipe",
+        "com.opencv.opencv.issues.16739",
+        "com.reference.android.content.Context",
+        "com.toolchain.llvm",
+        "io.PrintWriter",
+        "io.StringWriter",
+        "io.Writer",
+        "io.coded_stream",
+        "io.internal.expvar",
+        "io.zero_copy_stream",
+        "io.zero_copy_stream_impl_lite",
+        "org.lite.guide.ops_custom",
+        "org.lite.guide.ops_select"
+      ]
+    },
+    {
+      "name": "libmlkit_google_ocr_pipeline.so",
+      "bytes": 6781940,
+      "sha256": "06b9e2f587e401c6446aa0db344bb31b622957a2d04aa4eac03cde8b3a6ed78a",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 32,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libmlkit_google_ocr_pipeline.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 37,
+      "jni_exports": [
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_stop",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceState",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveProcessContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initialize",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeIsolationCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processBitmap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveFaces",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_disableSubpipeline",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameManager",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_waitUntilIdle",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveRgbFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDetections",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_flushAndClearMobileIqSamples",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_start",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveYuvFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveAudioData",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_close",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_AndroidAssetUtil_nativeInitializeAssetManager",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrameWithStreamName",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_getAnalyticsLogs",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_process",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processYuvFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_experimentalRotateResults",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetTrackedObjects",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeResultsCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDepthMap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveSensorEvent",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetSchedulingOptimizerOptions",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_enableSubpipeline",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetOcr"
+      ],
+      "build_id": "474e5500347eda0d518cde27617454728d109a5c",
+      "comment": null,
+      "needed_libs": [
+        "liblog.so",
+        "libdl.so",
+        "libjnigraphics.so",
+        "libandroid.so",
+        "libz.so",
+        "libm.so",
+        "libEGL.so",
+        "libGLESv2.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 35096,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "firebase",
+        "libc++",
+        "mlkit",
+        "protobuf",
+        "tensorflow"
+      ],
+      "build_path_leaks": [
+        "/home/build/nonconf/google3/ocr/photo/detection/testdata",
+        "/home/build/nonconf/google3/ocr/photo/segmentation/testdata"
+      ],
+      "build_path_leak_count": 4,
+      "compiler_hints": [],
+      "jni_class_refs": [
+        "com.google.android.libraries.vision.visionkit.pipeline",
+        "com.google.android.libraries.vision.visionkit.pipeline.alt.PipelineException",
+        "com.google.android.libraries.vision.visionkit.pipeline.jni.alt.pipeline_jni",
+        "com.google.android.libraries.vision.visionkit.pipeline.libmlkit_google_ocr_pipeline",
+        "com.google.mediapipe.framework.jni.jni_util",
+        "com.mediapipe",
+        "com.reference.android.content.Context",
+        "io.coded_stream",
+        "io.internal.expvar",
+        "io.zero_copy_stream",
+        "io.zero_copy_stream_impl_lite",
+        "org.lite.guide.ops_custom",
+        "org.lite.guide.ops_select"
+      ]
+    },
+    {
+      "name": "libfgcpkjvqe.so",
+      "bytes": 6524160,
+      "sha256": "5f72893936adfe712e8355c33c6f453c45396c7f58c8f05c9acc9c8f83c15b39",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 30,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libfgcpkjvqe.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 2,
+      "jni_exports": [],
+      "build_id": "f9826ee5d5243ae7091701e7593e50523a3d32d2",
+      "comment": "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349) |  | Linker: LLD",
+      "needed_libs": [
+        "libz.so",
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 3551,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "boringssl",
+        "openssl",
+        "protobuf"
+      ],
+      "build_path_leaks": [
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/a_bitstr.cc",
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/a_gentm.cc",
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/a_int.cc",
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/a_object.cc",
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/a_time.cc",
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/a_type.cc",
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/a_utctm.cc",
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/asn1_lib.cc",
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/tasn_dec.cc",
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/tasn_enc.cc",
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/tasn_new.cc",
+        "/home/vsts/work/1/s/libs/boringssl/crypto/asn1/tasn_utl.cc"
+      ],
+      "build_path_leak_count": 67,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libface_detector_v2_jni.so",
+      "bytes": 5388224,
+      "sha256": "21e48bd253e1c87edee42bce9a51048ac3082d681446d0d05a79c4ad0f5e187b",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 30,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libface_detector_v2_jni.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 10,
+      "jni_exports": [
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayMultiPlanesJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_initDetectorJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferMultiPlanesJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_closeDetectorJni"
+      ],
+      "build_id": "474e55002e94324788620fed426ff7412aa62bbb",
+      "comment": null,
+      "needed_libs": [
+        "libandroid.so",
+        "liblog.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 26524,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "boringssl",
+        "firebase",
+        "libc++",
+        "mlkit",
+        "openssl",
+        "protobuf",
+        "tensorflow"
+      ],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [],
+      "jni_class_refs": [
+        "com.google.android.libraries.vision.visionkit.jni.recognition.face_detector",
+        "com.google.android.libraries.vision.visionkit.jni.recognition.face_detector.face_detector_v2_jni",
+        "com.google.android.libraries.vision.visionkit.jni.recognition.face_detector.libface_detector_v2_jni",
+        "io.zero_copy_stream",
+        "io.zero_copy_stream_impl_lite",
+        "org.lite.guide.ops_custom",
+        "org.lite.guide.ops_select"
+      ]
+    },
+    {
+      "name": "libsqlcipher.so",
+      "bytes": 3555080,
+      "sha256": "819c11750f332a8ca0d88f251d0d22d664f559b8ed10f7a4c61cc90be49f3f44",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 27,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libsqlcipher.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 480,
+      "jni_exports": [],
+      "build_id": "0d71ed4fed60c71213942c74e976b97330df2cf5",
+      "comment": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Android (7284624, b",
+      "needed_libs": [
+        "libdl.so",
+        "liblog.so",
+        "libc.so",
+        "libm.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 12821,
+      "protect_markers": [
+        "shield"
+      ],
+      "protect_marker_samples": {
+        "shield": "%s: failed to allocate shield mask"
+      },
+      "tech_markers": [
+        "openssl",
+        "sqlcipher",
+        "sqlite"
+      ],
+      "build_path_leaks": [
+        "/buildbot/src/android/ndk-r25-release/toolchain/llvm-project/libcxx/../../../toolchain/llvm-project/libcxxabi/src/abort_"
+      ],
+      "build_path_leak_count": 1,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.llvm",
+        "io.ErrnoException",
+        "io.FileDescriptor",
+        "io.GaiException",
+        "io.IOException",
+        "io.InputStream",
+        "io.OutputStream",
+        "io.PrintWriter",
+        "io.StringWriter",
+        "io.StructAddrinfo",
+        "io.StructFlock",
+        "io.StructGroupReq",
+        "io.StructLinger",
+        "io.StructPasswd",
+        "io.StructPollfd",
+        "io.StructStat",
+        "io.StructStatVfs",
+        "io.StructTimeval",
+        "io.StructUcred",
+        "io.StructUtsname",
+        "io.Writer",
+        "io.bf_buff",
+        "io.bf_prefix",
+        "io.bf_readbuff",
+        "io.bio_addr"
+      ]
+    },
+    {
+      "name": "libbarhopper_v3.so",
+      "bytes": 3244440,
+      "sha256": "b3c162c69e4906b816227ae116bfd8b9ff19cfdd58a3de0c9a9b110e030063e9",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 30,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libbarhopper_v3.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 12,
+      "jni_exports": [
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_closeNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBufferNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_createNativeWithClientOptions",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBitmapNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedBufferNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_createNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedNative"
+      ],
+      "build_id": "474e55002f828d569993ab52e65a7c056d4bb095",
+      "comment": null,
+      "needed_libs": [
+        "libjnigraphics.so",
+        "liblog.so",
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 11571,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "barhopper",
+        "boringssl",
+        "firebase",
+        "libc++",
+        "mlkit",
+        "openssl",
+        "protobuf",
+        "tensorflow"
+      ],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [],
+      "jni_class_refs": [
+        "com.google.android.libraries.barhopper.MultiScaleDecodingOptions",
+        "com.google.android.libraries.barhopper.MultiScaleDetectionOptions",
+        "com.google.android.libraries.barhopper.OnedRecognitionOptions",
+        "com.google.android.libraries.barhopper.jni",
+        "com.google.android.libraries.barhopper.jni.libbarhopper_v3",
+        "io.zero_copy_stream",
+        "io.zero_copy_stream_impl_lite",
+        "org.lite.guide.ops_custom",
+        "org.lite.guide.ops_select"
+      ]
+    },
+    {
+      "name": "librive-android.so",
+      "bytes": 3225636,
+      "sha256": "ab2dd352553cafb7b7f1a686df8bf33c814b977e7c1cdf1e65d8c99c5cb0e782",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 28,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "librive-android.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 5948,
+      "jni_exports": [
+        "Java_app_rive_runtime_kotlin_core_FileAsset_cppUniqueFilename",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppGetArtboardWidth",
+        "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppWorkEnd",
+        "Java_app_rive_runtime_kotlin_core_ImageAsset_cppGetRenderImage",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByIndex",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineNameByIndex",
+        "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppPointerMove",
+        "Java_app_rive_runtime_kotlin_core_ViewModelNumberProperty_cppGetValue",
+        "Java_app_rive_runtime_kotlin_core_File_cppViewModelByIndex",
+        "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppSetTime",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByName",
+        "Java_app_rive_runtime_kotlin_core_SMIInput_cppIsTrigger",
+        "Java_app_rive_runtime_kotlin_core_SMIBoolean_cppValue",
+        "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppAdvance",
+        "Java_app_rive_runtime_kotlin_core_FileAsset_cppDecode",
+        "Java_app_rive_runtime_kotlin_core_ViewModelBooleanProperty_cppSetValue",
+        "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppGetTime",
+        "Java_app_rive_runtime_kotlin_renderers_Renderer_cppRestore",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppSetViewModelInstance",
+        "Java_app_rive_runtime_kotlin_core_ViewModelStringProperty_cppSetValue",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppFindTextValueRunAtPath",
+        "Java_app_rive_runtime_kotlin_core_ViewModel_cppCreateInstanceFromIndex",
+        "Java_app_rive_runtime_kotlin_core_LayerState_cppIsBlendStateDirect",
+        "Java_app_rive_runtime_kotlin_core_RiveTextValueRun_cppSetText",
+        "Java_app_rive_runtime_kotlin_core_FileAsset_cppCDNUrl",
+        "Java_app_rive_runtime_kotlin_core_File_cppArtboardNameByIndex",
+        "Java_app_rive_runtime_kotlin_RiveTextureView_cppGetAverageFps",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppSetArtboardHeight",
+        "Java_app_rive_runtime_kotlin_core_SMIInput_cppIsBoolean",
+        "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppSetViewModelInstance",
+        "Java_app_rive_runtime_kotlin_fonts_FontFallbackStrategy_00024Companion_cppResetFontCache",
+        "Java_app_rive_runtime_kotlin_core_ViewModelBooleanProperty_cppGetValue",
+        "Java_app_rive_runtime_kotlin_core_SMIInput_cppName",
+        "Java_app_rive_runtime_kotlin_core_File_import",
+        "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppSetLoop",
+        "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppSMIInputByIndex",
+        "Java_app_rive_runtime_kotlin_core_ViewModelStringProperty_cppGetValue",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppDraw",
+        "Java_app_rive_runtime_kotlin_core_LayerState_cppIsBlendState",
+        "Java_app_rive_runtime_kotlin_core_SMITrigger_cppFire"
+      ],
+      "build_id": "847ffc7d5f813c1920c7661652406f7297196a28",
+      "comment": "Linker: LLD 18.0.3 | Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b",
+      "needed_libs": [
+        "liblog.so",
+        "libandroid.so",
+        "libEGL.so",
+        "libGLESv3.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 9349,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "libc++",
+        "rive",
+        "v8"
+      ],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libpicodet_ncnn.so",
+      "bytes": 2992584,
+      "sha256": "442367c2e7f3e5b5f70ed8164f375d6306720eb1d3ddba4fdd936e569214230e",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 29,
+      "program_header_count": 10,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libpicodet_ncnn.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 2648,
+      "jni_exports": [
+        "Java_com_example_picodet_PicoDetJNI_picodetConfigure2",
+        "Java_com_example_picodet_PicoDetJNI_picodetCreate",
+        "Java_com_example_picodet_PicoDetJNI_picodetDestroy",
+        "Java_com_example_picodet_PicoDetJNI_picodetConfigure",
+        "Java_com_example_picodet_PicoDetJNI_picodetInputWidth",
+        "Java_com_example_picodet_PicoDetJNI_detect",
+        "Java_com_example_picodet_PicoDetJNI_picodetInputHeight",
+        "Java_com_example_picodet_PicoDetJNI_detectYuv"
+      ],
+      "build_id": "f061f9654f9171d7506dd04633bb6ef15af2eb1c",
+      "comment": "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349) | Android (12027",
+      "needed_libs": [
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 7175,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "libc++",
+        "ncnn"
+      ],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "LLVM",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.llvm.llvm",
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libVFaceLib.so",
+      "bytes": 1963668,
+      "sha256": "c6d04f368fe967fb1fd2666519f78cf8fa5fdc3a95a1ffbb0095370483592329",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 28,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libVFaceLib.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 4,
+      "jni_exports": [
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_getFaces",
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_faceAlignment",
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeInit",
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeDestroy"
+      ],
+      "build_id": "6c38a6f45674970536c5de358bb9dec440f4f89b",
+      "comment": "Android (12027248, +pgo, -bolt, +lto, -mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) |  | Android (136",
+      "needed_libs": [
+        "libandroid.so",
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libz.so",
+        "libdl.so",
+        "libm.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 5595,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "protobuf"
+      ],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.opencv.opencv.issues.16739",
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "liba97d.so",
+      "bytes": 997572,
+      "sha256": "7fe7d830805a1e99f0d3661a99fdad20e5ea3f4998c65b3565fde4602ce2181e",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x10000",
+      "abi_version": 83886592,
+      "section_count": 24,
+      "program_header_count": 10,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "liba97d.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 64,
+      "jni_exports": [],
+      "build_id": "0800000003000000474e5500def3740891ad48ab",
+      "comment": null,
+      "needed_libs": [
+        "libc.so",
+        "libstdc++.so",
+        "libm.so",
+        "libdl.so",
+        "liblog.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 717,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [],
+      "jni_class_refs": []
+    },
+    {
+      "name": "libc++_shared.so",
+      "bytes": 872872,
+      "sha256": "91b49f121b3120538faff020fcf535ade1d945e65ccd793fc0b815b5799bbdf0",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 28,
+      "program_header_count": 10,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libc++_shared.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 2337,
+      "jni_exports": [],
+      "build_id": "a760c680b329de8439f344bcfd47a1b7f0fdb446",
+      "comment": "Android (11695104, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) |  | Linker: LLD ",
+      "needed_libs": [
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 4099,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "libc++"
+      ],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libljsfrcwmw.so",
+      "bytes": 600296,
+      "sha256": "12a389806114a18ff57d341e740108ebfe9b07d39abe2775a652f193cb99ac84",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 25,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libljsfrcwmw.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 1,
+      "jni_exports": [],
+      "build_id": "1d8a1a4e69d37070ac1087184e145fb378e8bb0f",
+      "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "needed_libs": [
+        "librcmefqonnx.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 4288,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "firebase"
+      ],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.alibaba.ariver.app.activity.ActivityHelper",
+        "com.alibaba.griver.api.common.activity.ActivityHelperExtension",
+        "com.alibaba.griver.core.keepalive.GriverProxyActivity",
+        "com.alibaba.griver.core.ui.activity.GriverBaseActivity",
+        "com.alibaba.griver.core.ui.activity.GriverBaseViewActivity",
+        "com.alibaba.griver.image.activity.GriverMediaBaseActivity",
+        "com.alibaba.griver.image.activity.GriverPhotoSelectActivity",
+        "com.alibaba.griver.image.photo.PhotoContext",
+        "com.alibaba.griver.image.photo.PhotoResolver",
+        "com.alibaba.griver.image.photo.adapter.BucketAdapter",
+        "com.alibaba.griver.image.photo.adapter.GridAdapter",
+        "com.alibaba.griver.image.photo.adapter.GridAdapter$OnGridListener",
+        "com.alibaba.griver.image.photo.meta.PhotoItem",
+        "com.alibaba.griver.image.photo.widget.PhotoGridView",
+        "com.alibaba.griver.image.photo.widget.PhotoGridView$OnOverScrolledListener",
+        "com.alibaba.griver.uimode.callback.ConfigurationCallback",
+        "com.android.billingclient.api.ProxyBillingActivity",
+        "com.android.billingclient.api.c0",
+        "com.facebook.CustomTabActivity",
+        "com.facebook.CustomTabActivity$onActivityResult$closeReceiver$1",
+        "com.facebook.CustomTabMainActivity",
+        "com.facebook.CustomTabMainActivity$onCreate$redirectReceiver$1",
+        "com.facebook.ads.AudienceNetworkActivity",
+        "com.facebook.ads.internal.api.AudienceNetworkActivityApi",
+        "com.google.android.gms.ads.AdActivity"
+      ]
+    },
+    {
+      "name": "libcrashlytics-common.so",
+      "bytes": 435732,
+      "sha256": "4b8bcec5c0464d7b1741386e30eef9308c43d4ca8f57501ae6734fa48e1c55d2",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 27,
+      "program_header_count": 7,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libcrashlytics-common.so"
+      },
+      "relro": false,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 3,
+      "jni_exports": [],
+      "build_id": "0a3dbcd586db47ff982af5b0d84abecf3dc275eb",
+      "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "needed_libs": [
+        "liblog.so",
+        "libz.so",
+        "libdl.so",
+        "libc.so",
+        "libm.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 1769,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "crashlytics",
+        "firebase"
+      ],
+      "build_path_leaks": [
+        "/buildbot/src/android/ndk-r25-release/toolchain/llvm-project/libcxx/../../../toolchain/llvm-project/libcxxabi/src/abort_",
+        "/home/runner/work/firebase-android-sdk/firebase-android-sdk/firebase-crashlytics-ndk/src/main/jni/crashpad/crashpad_clie",
+        "/home/runner/work/firebase-android-sdk/firebase-android-sdk/firebase-crashlytics-ndk/src/main/jni/crashpad/crashpad_hand",
+        "/home/runner/work/firebase-android-sdk/firebase-android-sdk/firebase-crashlytics-ndk/src/main/jni/crashpad/crashpad_mini",
+        "/home/runner/work/firebase-android-sdk/firebase-android-sdk/firebase-crashlytics-ndk/src/main/jni/crashpad/crashpad_snap",
+        "/home/runner/work/firebase-android-sdk/firebase-android-sdk/firebase-crashlytics-ndk/src/main/jni/crashpad/crashpad_util",
+        "/home/runner/work/firebase-android-sdk/firebase-android-sdk/firebase-crashlytics-ndk/src/main/jni/crashpad/mini_chromium"
+      ],
+      "build_path_leak_count": 85,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.google.firebase.crashlytics.ndk.CrashpadMain",
+        "com.toolchain.llvm",
+        "net.http_body_gzip",
+        "net.http_multipart_builder",
+        "net.http_transport_socket",
+        "org.bug.new"
+      ]
+    },
+    {
+      "name": "libnative-imagetranscoder.so",
+      "bytes": 341072,
+      "sha256": "43280a8f3f33529d3558b1f3283fec9b855ca28e7b8d7883ae7a64762f148dad",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 27,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libnative-imagetranscoder.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 299,
+      "jni_exports": [],
+      "build_id": "0800000003000000474e5500028a8b28da0d9c4d",
+      "comment": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18",
+      "needed_libs": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 1385,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "libc++"
+      ],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.facebook.imagepipeline.nativecode.NativeJpegTranscoder",
+        "com.toolchain.llvm",
+        "io.InputStream",
+        "io.OutputStream"
+      ]
+    },
+    {
+      "name": "liblytcuhe.so",
+      "bytes": 178628,
+      "sha256": "a8e59c1d4922f6bce9814667c1566bb1a2ea39700fe312625a29a7cbe6ef4629",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 26,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "liblytcuhe.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 303,
+      "jni_exports": [],
+      "build_id": "24dd9d8341a2d978131be79560cf5684f2a9d50f",
+      "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "needed_libs": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 845,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [],
+      "build_path_leaks": [
+        "/buildbot/src/android/ndk-r25-release/toolchain/llvm-project/libcxx/../../../toolchain/llvm-project/libcxxabi/src/abort_"
+      ],
+      "build_path_leak_count": 1,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "librcmefqonnx.so",
+      "bytes": 178628,
+      "sha256": "9120dd02a8d94659ea178c0b73b4d02954915d8432c74b04a05d1583f69099af",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 26,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "librcmefqonnx.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 303,
+      "jni_exports": [],
+      "build_id": "0ee25e5c158c05fe6a60830fbf658003775b3ed1",
+      "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "needed_libs": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 845,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [],
+      "build_path_leaks": [
+        "/buildbot/src/android/ndk-r25-release/toolchain/llvm-project/libcxx/../../../toolchain/llvm-project/libcxxabi/src/abort_"
+      ],
+      "build_path_leak_count": 1,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libohxbee.so",
+      "bytes": 155412,
+      "sha256": "2d54a2aa85d81dbfef1e8d01726b1ffd74004ead9d15d861e2323f54ffc01a74",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 25,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libohxbee.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 1,
+      "jni_exports": [],
+      "build_id": "a34bec9e3f8ee63ea7ea5c36d40465e87819ee86",
+      "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "needed_libs": [
+        "liblytcuhe.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 1439,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "mlkit"
+      ],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.google.android.gms.tasks.OnFailureListener",
+        "com.google.android.gms.tasks.OnSuccessListener",
+        "com.google.android.gms.tasks.Task",
+        "com.google.gson.Gson",
+        "com.google.mlkit.vision.common.InputImage",
+        "com.google.mlkit.vision.face.Face",
+        "com.google.mlkit.vision.face.FaceDetector",
+        "com.google.mlkit.vision.face.FaceLandmark",
+        "com.toolchain.llvm",
+        "io.Buffer",
+        "io.ByteArrayOutputStream",
+        "io.ByteBuffer",
+        "io.ByteStreamsKt",
+        "io.Closeable",
+        "io.CloseableKt",
+        "io.FileInputStream",
+        "io.FileOutputStream",
+        "io.FilesKt",
+        "io.IOException",
+        "io.InputStream",
+        "io.OutputStream",
+        "io.charset.Charset",
+        "net.ConnectivityManager$NetworkCallback",
+        "net.LinkProperties",
+        "net.Network"
+      ]
+    },
+    {
+      "name": "libsecurity_lite.so",
+      "bytes": 154840,
+      "sha256": "75c5d69621c5dce9a64e4466ae011ba5a22e16b35246b39941883d424df6c786",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 27,
+      "program_header_count": 8,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libsecurity_lite.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 97,
+      "jni_exports": [
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest"
+      ],
+      "build_id": "7b306bd587489659c60c29ebe609d9b434a897fa",
+      "comment": "Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d73",
+      "needed_libs": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 745,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [],
+      "build_path_leaks": [
+        "/buildbot/src/android/ndk-release-r18/external/libcxx/../../external/libunwind_llvm/src/Registers.hpp",
+        "/buildbot/src/android/ndk-release-r18/external/libcxx/../../external/libunwind_llvm/src/Unwind-EHABI.cpp",
+        "/buildbot/src/android/ndk-release-r18/external/libcxx/../../external/libunwind_llvm/src/UnwindCursor.hpp"
+      ],
+      "build_path_leak_count": 3,
+      "compiler_hints": [
+        "Android (",
+        "GCC:",
+        "LLVM",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.clang"
+      ]
+    },
+    {
+      "name": "libcrashlytics.so",
+      "bytes": 94540,
+      "sha256": "be0dedcd52a35e717ec0eeb832108e42c8d62552bc7005fef55ca233d0679260",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 26,
+      "program_header_count": 7,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libcrashlytics.so"
+      },
+      "relro": false,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 8,
+      "jni_exports": [],
+      "build_id": "5e64ab61bdc0fc0292344c878691de20f1f84d61",
+      "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "needed_libs": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 555,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "crashlytics",
+        "firebase"
+      ],
+      "build_path_leaks": [
+        "/buildbot/src/android/ndk-r25-release/toolchain/llvm-project/libcxx/../../../toolchain/llvm-project/libcxxabi/src/abort_"
+      ],
+      "build_path_leak_count": 1,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.google.firebase.crashlytics.FirebaseCrashlytics",
+        "com.google.firebase.crashlytics.ndk.JniNativeApi",
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libcrashlytics-handler.so",
+      "bytes": 87908,
+      "sha256": "f58fca61975d2450e8bef2bc4b0ea68e5e181cdd0aff3693b04e469c1c6ccdb6",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 26,
+      "program_header_count": 7,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libcrashlytics-handler.so"
+      },
+      "relro": false,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 2,
+      "jni_exports": [],
+      "build_id": "6ba77dbb7533b0d39295bf0b298fdc35477d4d0d",
+      "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "needed_libs": [
+        "liblog.so",
+        "libz.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 491,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "crashlytics",
+        "firebase"
+      ],
+      "build_path_leaks": [
+        "/buildbot/src/android/ndk-r25-release/toolchain/llvm-project/libcxx/../../../toolchain/llvm-project/libcxxabi/src/abort_"
+      ],
+      "build_path_leak_count": 1,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.google.firebase.crashlytics.ndk.CrashpadMain",
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libtrueidlib.so",
+      "bytes": 79904,
+      "sha256": "e1a98166f637ebebf814a375ec147461229ff18314dd669ebbf07eabefdfdd06",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 25,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libtrueidlib.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 40,
+      "jni_exports": [
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQReg",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultAuthCeremony",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckIntegrity",
+        "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_getNonce",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultVerifyTxDigest",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultRegisterCeremony",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQAuth",
+        "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_genSignature",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckDebugger"
+      ],
+      "build_id": "af880e9ff3b456cb7ea5337d8d87dad8f3e85d52",
+      "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "needed_libs": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 445,
+      "protect_markers": [
+        "frida",
+        "magisk",
+        "shield"
+      ],
+      "protect_marker_samples": {
+        "shield": "TrueID_Shield_2026_Secure_Vault_TrueID_Shield_V6",
+        "frida": "re.frida.server",
+        "magisk": "magisk"
+      },
+      "tech_markers": [],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.llvm",
+        "vn.ai.trueid.sdk.TrueShield.SecureVault",
+        "vn.ai.trueid.sdk.navigation.TrueIDV3",
+        "vn.ai.trueid.sdk.utils.Helpers",
+        "vn.ai.trueid.sdk.utils.Helpers$Companion",
+        "vn.ai.trueid.sdk.utils.facedetector.DataSignService",
+        "vn.trueid.sotp.crypto.TrueIDSOTPNative"
+      ]
+    },
+    {
+      "name": "libimage_processing_util_jni.so",
+      "bytes": 20380,
+      "sha256": "e48e356bbe1902ae9a66178a4a0141c993b82ee9f70dde52ad83e4af3eca984f",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 26,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libimage_processing_util_jni.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 6,
+      "jni_exports": [
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeCopyBetweenByteBufferAndBitmap",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeShiftPixel",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeWriteJpegToSurface",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToABGR",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToBitmap",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeRotateYUV"
+      ],
+      "build_id": "12e91d3874791a1d92920ec94bc2690acebe48aa",
+      "comment": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)",
+      "needed_libs": [
+        "liblog.so",
+        "libandroid.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 132,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libnative-filters.so",
+      "bytes": 12588,
+      "sha256": "b8a2da1df4f33eb83adf9596e5e68c9633067a2826385e495ed47f02497b5995",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 27,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libnative-filters.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 1,
+      "jni_exports": [],
+      "build_id": "0800000003000000474e550015dee69efb9bdd03",
+      "comment": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18",
+      "needed_libs": [
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 98,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.facebook.imagepipeline.nativecode.NativeBlurFilter",
+        "com.facebook.imagepipeline.nativecode.NativeRoundingFilter",
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libandroidx.graphics.path.so",
+      "bytes": 7252,
+      "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 25,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libandroidx.graphics.path.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 1,
+      "jni_exports": [],
+      "build_id": "fa98a997cdd9b43f190a4bd20f3dad441b4062f0",
+      "comment": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)",
+      "needed_libs": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 57,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libcrashlytics-trampoline.so",
+      "bytes": 6912,
+      "sha256": "5366393c1292cfb5c8b49bf846e644f8ce24e683e8c0e97566124b29f89eb722",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x454",
+      "abi_version": 83886592,
+      "section_count": 34,
+      "program_header_count": 8,
+      "has_symtab": true,
+      "has_debug_info": true,
+      "dynamic": {},
+      "relro": false,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 0,
+      "jni_exports": [],
+      "build_id": "bc860efe07caf057f84f5a5507e1a3fee7bfbe88",
+      "comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "needed_libs": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "pie": true,
+      "stripped": false,
+      "string_count_ascii6": 104,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [
+        "crashlytics",
+        "firebase",
+        "libc++"
+      ],
+      "build_path_leaks": [
+        "/home/runner/work/firebase-android-sdk/firebase-android-sdk/firebase-crashlytics-ndk",
+        "/home/runner/work/firebase-android-sdk/firebase-android-sdk/firebase-crashlytics-ndk/src/main/jni/libcrashlytics-trampol"
+      ],
+      "build_path_leak_count": 2,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.toolchain.llvm"
+      ]
+    },
+    {
+      "name": "libimagepipeline.so",
+      "bytes": 5876,
+      "sha256": "2049c770f0dcca26b20d211f6113ae02eb7c3af48c784c28fd24c320d70d7cc9",
+      "elf_class": 32,
+      "endian": "little",
+      "type": "ET_DYN",
+      "machine": "EM_ARM",
+      "entry": "0x0",
+      "abi_version": 83886592,
+      "section_count": 27,
+      "program_header_count": 9,
+      "has_symtab": false,
+      "has_debug_info": false,
+      "dynamic": {
+        "soname": "libimagepipeline.so"
+      },
+      "relro": true,
+      "bind_now": true,
+      "nx_stack": true,
+      "textrel": false,
+      "exported_symbols": 1,
+      "jni_exports": [],
+      "build_id": "0800000003000000474e5500b79df1565cdf601d",
+      "comment": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18",
+      "needed_libs": [
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "pie": true,
+      "stripped": true,
+      "string_count_ascii6": 74,
+      "protect_markers": [],
+      "protect_marker_samples": {},
+      "tech_markers": [],
+      "build_path_leaks": [],
+      "build_path_leak_count": 0,
+      "compiler_hints": [
+        "Android (",
+        "clang version"
+      ],
+      "jni_class_refs": [
+        "com.facebook.imagepipeline.memory.NativeMemoryChunk",
+        "com.facebook.imagepipeline.nativecode.Bitmaps",
+        "com.facebook.imagepipeline.nativecode.DalvikPurgeableDecoder",
+        "com.toolchain.llvm"
+      ]
+    }
+  ]
+}

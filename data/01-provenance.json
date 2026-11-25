@@ -1,0 +1,387 @@
+{
+  "generated_at": "2026-11-25T14:45:15.352734+00:00",
+  "container": {
+    "zip": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+    "zip_sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+    "xapk_sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d",
+    "xapk_bytes": 105608128,
+    "xapk_is_zip": true
+  },
+  "xapk_inventory": {
+    "entries": 7,
+    "uncompressed_bytes": 105607171,
+    "compressed_bytes": 105607171,
+    "compression_ratio": 1.0,
+    "by_extension": {
+      ".apk": {
+        "count": 5,
+        "bytes": 105580620
+      },
+      ".png": {
+        "count": 1,
+        "bytes": 23841
+      },
+      ".json": {
+        "count": 1,
+        "bytes": 2710
+      }
+    },
+    "first_entries": [
+      "vn.com.vng.zalopay.apk",
+      "icon.png",
+      "config.armeabi_v7a.apk",
+      "config.en.apk",
+      "config.vi.apk",
+      "config.xhdpi.apk",
+      "manifest.json"
+    ],
+    "has_stored_manifest_first": false,
+    "duplicate_names": 0
+  },
+  "artifacts": [
+    {
+      "path": "config.armeabi_v7a.apk",
+      "bytes": 24828408,
+      "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+      "md5": "07fd78a1145cfd5135f665d14545022b"
+    },
+    {
+      "path": "config.en.apk",
+      "bytes": 74137,
+      "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+      "md5": "4fcd23348731d475643f95052ad2332e"
+    },
+    {
+      "path": "config.vi.apk",
+      "bytes": 86425,
+      "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+      "md5": "43f5d101edbf08b4e6b7093c9411616b"
+    },
+    {
+      "path": "config.xhdpi.apk",
+      "bytes": 1232563,
+      "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+      "md5": "1517a2f0a071e59ebf3db98221c125a0"
+    },
+    {
+      "path": "icon.png",
+      "bytes": 23841,
+      "sha256": "f0b9d7d1a6144ca550e4d326bc3b6cf93696549675bc624d7774c9879c33d3f0",
+      "md5": "847b73cbeeb02b73c17a1d5656bcfb98"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 2710,
+      "sha256": "1382fb85261a3f58699396b832c4c68e0b206e8188ca835727c4f1f84b511ca0",
+      "md5": "120f1caa763c35ceb167c86b68a8254a"
+    },
+    {
+      "path": "vn.com.vng.zalopay.apk",
+      "bytes": 79359087,
+      "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+      "md5": "2555d5c64b9136c2e1e1e7583c0ef947"
+    }
+  ],
+  "base_apk": {
+    "zip": {
+      "entries": 6162,
+      "uncompressed_bytes": 136395610,
+      "compressed_bytes": 78345127,
+      "compression_ratio": 0.5744,
+      "by_extension": {
+        ".dex": {
+          "count": 20,
+          "bytes": 69701748
+        },
+        ".xml": {
+          "count": 5209,
+          "bytes": 11023504
+        },
+        ".tflite": {
+          "count": 14,
+          "bytes": 10203704
+        },
+        ".png": {
+          "count": 221,
+          "bytes": 6883387
+        },
+        ".ttf": {
+          "count": 23,
+          "bytes": 6823784
+        },
+        ".json": {
+          "count": 64,
+          "bytes": 6677077
+        },
+        ".zip": {
+          "count": 1,
+          "bytes": 3913966
+        },
+        ".yaml": {
+          "count": 1,
+          "bytes": 3778896
+        },
+        ".svg": {
+          "count": 2,
+          "bytes": 2551186
+        },
+        ".bin": {
+          "count": 2,
+          "bytes": 2422326
+        },
+        ".arsc": {
+          "count": 1,
+          "bytes": 1802300
+        },
+        ".webp": {
+          "count": 111,
+          "bytes": 1711422
+        },
+        ".tfl": {
+          "count": 2,
+          "bytes": 1472072
+        },
+        ".properties": {
+          "count": 79,
+          "bytes": 1412456
+        },
+        ".amr": {
+          "count": 3,
+          "bytes": 1161889
+        },
+        ".emd": {
+          "count": 4,
+          "bytes": 1113555
+        },
+        ".dat": {
+          "count": 3,
+          "bytes": 785556
+        },
+        ".otf": {
+          "count": 2,
+          "bytes": 588768
+        },
+        "<none>": {
+          "count": 14,
+          "bytes": 504394
+        },
+        ".fb": {
+          "count": 2,
+          "bytes": 350416
+        }
+      },
+      "first_entries": [
+        "AndroidManifest.xml",
+        "DebugProbesKt.bin",
+        "LICENSE-junit.txt",
+        "META-INF/CHANGES",
+        "META-INF/NOTICE.md",
+        "META-INF/README.md",
+        "META-INF/androidx/annotation/annotation/LICENSE.txt",
+        "META-INF/androidx/collection/collection/LICENSE.txt"
+      ],
+      "has_stored_manifest_first": true,
+      "duplicate_names": 0
+    },
+    "signing_block": {
+      "scheme_blocks": [
+        {
+          "id": "v2",
+          "length": 1383,
+          "sha256": "4350a16e214c4d712ef53870b609e2a2bd4aec945e6fbbd642f4ee800aff3e11",
+          "signer_count": 1,
+          "signers": [
+            {
+              "digests": [
+                {
+                  "algorithm": "RSASSA-PKCS1v1.5-SHA256",
+                  "digest_bytes": 32
+                }
+              ],
+              "signatures": [
+                {
+                  "algorithm": "RSASSA-PKCS1v1.5-SHA256",
+                  "sig_bytes": 256
+                }
+              ],
+              "public_key_bytes": 294,
+              "key_bits": 2352,
+              "certificates": [
+                {
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial": "0x153ea9fd",
+                  "not_before": "2016-04-21T15:41:14+00:00",
+                  "not_after": "2041-04-15T15:41:14+00:00",
+                  "key_algorithm": "RSAPublicKey",
+                  "signature_algorithm": "sha256WithRSAEncryption",
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "sha1_fingerprint": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+                  "der_sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "self_signed": true
+                }
+              ],
+              "sdk_range_on_signer": {},
+              "sdk_range_in_signed_data": {},
+              "attr_bytes": [
+                12,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "id": "v3",
+          "length": 1383,
+          "sha256": "5e7dc0b2ec6dc526703b4772928078d3774579316214f5d2cf87ba3031116bf7",
+          "signer_count": 1,
+          "signers": [
+            {
+              "digests": [
+                {
+                  "algorithm": "RSASSA-PKCS1v1.5-SHA256",
+                  "digest_bytes": 32
+                }
+              ],
+              "signatures": [
+                {
+                  "algorithm": "RSASSA-PKCS1v1.5-SHA256",
+                  "sig_bytes": 256
+                }
+              ],
+              "public_key_bytes": 294,
+              "key_bits": 2352,
+              "certificates": [
+                {
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial": "0x153ea9fd",
+                  "not_before": "2016-04-21T15:41:14+00:00",
+                  "not_after": "2041-04-15T15:41:14+00:00",
+                  "key_algorithm": "RSAPublicKey",
+                  "signature_algorithm": "sha256WithRSAEncryption",
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "sha1_fingerprint": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+                  "der_sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "self_signed": true
+                }
+              ],
+              "sdk_range_on_signer": {
+                "min_sdk": 24,
+                "max_sdk": 2147483647
+              },
+              "sdk_range_in_signed_data": {
+                "min_sdk": 24,
+                "max_sdk": 2147483647
+              },
+              "attr_bytes": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "id": "source-stamp",
+          "length": 3061,
+          "sha256": "5c35e4d894b24cccaaa9d6b8e97169e9c6d93e285dafc5c5f150c41c400cac23",
+          "head_hex": "ed0b00008d0500003082058930820371a003020102021500bf53fabb0b4e907f",
+          "signature_bytes": 1072,
+          "certificate": {
+            "subject": "CN=Android,OU=Android,O=Google Inc.,L=Mountain View,ST=California,C=US",
+            "issuer": "CN=Android,OU=Android,O=Google Inc.,L=Mountain View,ST=California,C=US",
+            "serial": "0xbf53fabb0b4e907f8f2a22a1b0e0d77f6def1060",
+            "not_before": "2020-05-19T10:35:21+00:00",
+            "not_after": "2050-05-19T10:35:21+00:00",
+            "key_algorithm": "RSAPublicKey",
+            "signature_algorithm": "sha256WithRSAEncryption",
+            "sha256_fingerprint": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+            "sha1_fingerprint": "b1af3a0bf998aeede1a8716a539e5a59da1d86d6",
+            "der_sha256": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+            "self_signed": true
+          }
+        },
+        {
+          "id": "0x2146444e",
+          "length": 691,
+          "sha256": "80ea2c031d1ab65ee91425d33106c38a09bd7bb8b35b1ad0b258e7fa7ea84890",
+          "head_hex": "e404be0408011001180020e3c8abbfbc342aa8043a02100142080a02081a3003"
+        },
+        {
+          "id": "padding",
+          "length": 1602,
+          "sha256": "e2524d150f570a5a68bcad40b06eb4a7ffbe667c4e6fe14ceb55433c1260889f",
+          "all_zero": true
+        }
+      ],
+      "central_directory_offset": 78815232,
+      "block_size": 8192,
+      "size_fields_match": true
+    },
+    "v1_signature": {
+      "pkcs7_files": [],
+      "certificates": []
+    }
+  },
+  "split_apks": {
+    "config.armeabi_v7a.apk": {
+      "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+      "signing_block_ids": [
+        "v2",
+        "v3",
+        "source-stamp",
+        "padding"
+      ],
+      "v1_certs": [
+        "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+      ]
+    },
+    "config.en.apk": {
+      "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+      "signing_block_ids": [
+        "v2",
+        "v3",
+        "source-stamp",
+        "padding"
+      ],
+      "v1_certs": [
+        "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+      ]
+    },
+    "config.vi.apk": {
+      "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+      "signing_block_ids": [
+        "v2",
+        "v3",
+        "source-stamp",
+        "padding"
+      ],
+      "v1_certs": [
+        "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+      ]
+    },
+    "config.xhdpi.apk": {
+      "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+      "signing_block_ids": [
+        "v2",
+        "v3",
+        "source-stamp",
+        "padding"
+      ],
+      "v1_certs": [
+        "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+      ]
+    },
+    "vn.com.vng.zalopay.apk": {
+      "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+      "signing_block_ids": [
+        "v2",
+        "v3",
+        "source-stamp",
+        "0x2146444e",
+        "padding"
+      ],
+      "v1_certs": []
+    }
+  }
+}

@@ -1,0 +1,814 @@
+{
+  "inventory": [
+    {
+      "vendor": "BouncyCastle",
+      "category": "Cryptography",
+      "evidence": {
+        "class_prefixes": [
+          "Lorg/bouncycastle/"
+        ],
+        "class_count": 6112,
+        "markers": [
+          "BouncyCastle"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Google Play services / GMS",
+      "category": "Platform",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/google/android/gms/"
+        ],
+        "class_count": 5933,
+        "markers": [
+          "com.google.android.gms.version"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Alibaba ARouter / mPaaS",
+      "category": "Modularisation",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/alibaba/"
+        ],
+        "class_count": 4821,
+        "markers": []
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "AndroidX / Jetpack",
+      "category": "AndroidX",
+      "evidence": {
+        "class_prefixes": [
+          "Landroidx/"
+        ],
+        "class_count": 4250,
+        "markers": [
+          "androidx"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "UC/Griver WebView container",
+      "category": "WebView",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/alibaba/griver/"
+        ],
+        "class_count": 2228,
+        "markers": [
+          "GriverBridge",
+          "jsbridge.js"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "IAP (VNG in-app purchase)",
+      "category": "Payments",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/iap/"
+        ],
+        "class_count": 1599,
+        "markers": [
+          "iapconnect"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Media3 / ExoPlayer",
+      "category": "Media",
+      "evidence": {
+        "class_prefixes": [
+          "Landroidx/media3/"
+        ],
+        "class_count": 1198,
+        "markers": [
+          "media3"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Visa CyberSource (CBP)",
+      "category": "Payments",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/visa/cbp/"
+        ],
+        "class_count": 900,
+        "markers": [
+          "visa"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "CameraX",
+      "category": "Camera",
+      "evidence": {
+        "class_prefixes": [
+          "Landroidx/camera/"
+        ],
+        "class_count": 813,
+        "markers": [
+          "camerax"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Facebook SDK",
+      "category": "Social/Analytics",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/facebook/"
+        ],
+        "class_count": 531,
+        "markers": [
+          "fbconnect"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Jetpack Compose",
+      "category": "UI toolkit",
+      "evidence": {
+        "class_prefixes": [
+          "Landroidx/compose/"
+        ],
+        "class_count": 504,
+        "markers": [
+          "androidx.compose"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Alipay SDK",
+      "category": "Payments",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/alipay/"
+        ],
+        "class_count": 493,
+        "markers": [
+          "alipay"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "OkHttp 3/4",
+      "category": "Networking",
+      "evidence": {
+        "class_prefixes": [
+          "Lokhttp3/",
+          "Lokio/"
+        ],
+        "class_count": 442,
+        "markers": [
+          "okhttp3"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "AppsFlyer",
+      "category": "Attribution",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/appsflyer/"
+        ],
+        "class_count": 430,
+        "markers": [
+          "appsflyer"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "VNPAY SDK",
+      "category": "Payments",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/vnpay/"
+        ],
+        "class_count": 388,
+        "markers": [
+          "vnpay"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Kotlin stdlib/coroutines",
+      "category": "Language runtime",
+      "evidence": {
+        "class_prefixes": [
+          "Lkotlin/",
+          "Lkotlinx/"
+        ],
+        "class_count": 369,
+        "markers": [
+          "kotlin.Metadata"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Nimbus JOSE+JWT",
+      "category": "Cryptography",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/nimbusds/"
+        ],
+        "class_count": 361,
+        "markers": [
+          "nimbusds"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "RxJava",
+      "category": "Async",
+      "evidence": {
+        "class_prefixes": [
+          "Lio/reactivex/"
+        ],
+        "class_count": 266,
+        "markers": [
+          "rxjava"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Google Firebase",
+      "category": "Analytics/Backend",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/google/firebase/"
+        ],
+        "class_count": 221,
+        "markers": [
+          "firebase"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Glide",
+      "category": "Imaging",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/bumptech/glide/"
+        ],
+        "class_count": 213,
+        "markers": [
+          "glide"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "gRPC / Protobuf",
+      "category": "RPC",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/google/protobuf/"
+        ],
+        "class_count": 209,
+        "markers": []
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Lottie",
+      "category": "Animation",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/airbnb/lottie/"
+        ],
+        "class_count": 173,
+        "markers": [
+          "lottie"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Rive",
+      "category": "Animation",
+      "evidence": {
+        "class_prefixes": [
+          "Lapp/rive/"
+        ],
+        "class_count": 157,
+        "markers": []
+      },
+      "confidence": "medium"
+    },
+    {
+      "vendor": "Play Core (split/asset delivery)",
+      "category": "Platform",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/google/android/play/core/"
+        ],
+        "class_count": 156,
+        "markers": [
+          "play.core"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Retrofit",
+      "category": "Networking",
+      "evidence": {
+        "class_prefixes": [
+          "Lretrofit2/"
+        ],
+        "class_count": 137,
+        "markers": [
+          "retrofit2"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Fresco / ImagePipeline",
+      "category": "Imaging",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/facebook/imagepipeline/"
+        ],
+        "class_count": 94,
+        "markers": []
+      },
+      "confidence": "medium"
+    },
+    {
+      "vendor": "Google Play Billing",
+      "category": "Commerce",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/android/billingclient/"
+        ],
+        "class_count": 88,
+        "markers": [
+          "com.android.vending.BILLING"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Firebase Crashlytics",
+      "category": "Crash reporting",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/google/firebase/crashlytics/"
+        ],
+        "class_count": 66,
+        "markers": [
+          "crashlytics"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "ML Kit (barcode/OCR/face)",
+      "category": "On-device ML",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/google/mlkit/",
+          "Lcom/google/android/gms/vision/"
+        ],
+        "class_count": 60,
+        "markers": [
+          "mlkit-google-ocr-models"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "SQLCipher",
+      "category": "Storage encryption",
+      "evidence": {
+        "class_prefixes": [
+          "Lnet/zetetic/"
+        ],
+        "class_count": 57,
+        "markers": []
+      },
+      "confidence": "medium"
+    },
+    {
+      "vendor": "Dagger/Hilt",
+      "category": "DI",
+      "evidence": {
+        "class_prefixes": [
+          "Ldagger/"
+        ],
+        "class_count": 51,
+        "markers": [
+          "dagger"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "ZXing",
+      "category": "Barcode",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/google/zxing/"
+        ],
+        "class_count": 17,
+        "markers": [
+          "zxing"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "JUnit / test artifacts leaked",
+      "category": "Build hygiene",
+      "evidence": {
+        "class_prefixes": [
+          "Lorg/junit/"
+        ],
+        "class_count": 15,
+        "markers": []
+      },
+      "confidence": "medium"
+    },
+    {
+      "vendor": "Zalo (Zing) third-party auth",
+      "category": "Social/Payments",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/zing/"
+        ],
+        "class_count": 9,
+        "markers": [
+          "com.zing.zalo"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Google Maps / Places",
+      "category": "Maps",
+      "evidence": {
+        "class_prefixes": [
+          "Lcom/google/android/gms/maps/"
+        ],
+        "class_count": 5,
+        "markers": [
+          "maps"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Apache Commons Codec",
+      "category": "Utilities",
+      "evidence": {
+        "class_prefixes": [
+          "Lorg/apache/commons/codec/"
+        ],
+        "class_count": 2,
+        "markers": [
+          "commons"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Room / SQLite",
+      "category": "Storage",
+      "evidence": {
+        "class_prefixes": [
+          "Landroidx/room/"
+        ],
+        "class_count": 1,
+        "markers": [
+          "room"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "vendor": "Bangcle/SecNeo-style app shielding",
+      "category": "App hardening",
+      "evidence": {
+        "class_prefixes": [],
+        "class_count": 0,
+        "markers": [
+          "bshield.dat"
+        ]
+      },
+      "confidence": "medium"
+    }
+  ],
+  "sdk_count": 38,
+  "host_domain_count": 151,
+  "top_hosts": [
+    [
+      "simg.zalopay.com.vn",
+      34
+    ],
+    [
+      "zalopay.vn",
+      10
+    ],
+    [
+      "social.zalopay.vn",
+      10
+    ],
+    [
+      "render.alipay.com",
+      8
+    ],
+    [
+      "www.google.com",
+      7
+    ],
+    [
+      "googleads.g.doubleclick.net",
+      7
+    ],
+    [
+      "play.google.com",
+      6
+    ],
+    [
+      "developer.android.com",
+      6
+    ],
+    [
+      "mnap-director.zalopay.vn",
+      6
+    ],
+    [
+      "issuetracker.google.com",
+      6
+    ],
+    [
+      "firebase.google.com",
+      5
+    ],
+    [
+      "developers.facebook.com",
+      5
+    ],
+    [
+      "api.zalopay.vn",
+      4
+    ],
+    [
+      "www.w3.org",
+      4
+    ],
+    [
+      "openapi.zalopay.vn",
+      4
+    ],
+    [
+      "scdn.zalopay.com.vn",
+      4
+    ],
+    [
+      "goo.gl",
+      4
+    ],
+    [
+      "googlemobileadssdk.page.link",
+      4
+    ],
+    [
+      "zalopay.com.vn",
+      4
+    ],
+    [
+      "xml.org",
+      3
+    ],
+    [
+      "github.com",
+      3
+    ],
+    [
+      "render-intl.alipay.com",
+      3
+    ],
+    [
+      "www.google-analytics.com",
+      3
+    ],
+    [
+      "support.zalopay.vn",
+      3
+    ],
+    [
+      "cps.zalopay.com.vn",
+      3
+    ],
+    [
+      "vngzalopay.freshdesk.com",
+      3
+    ],
+    [
+      "xmlpull.org",
+      2
+    ],
+    [
+      "zalo.me",
+      2
+    ],
+    [
+      "schemas.android.com",
+      2
+    ],
+    [
+      "ns.adobe.com",
+      2
+    ],
+    [
+      "open-sea.alipayplus.com",
+      2
+    ],
+    [
+      "app-measurement.com",
+      2
+    ],
+    [
+      "alipay.worker.com",
+      2
+    ],
+    [
+      "sapi.zalopay.vn",
+      2
+    ],
+    [
+      "cdn.marmot-cloud.com",
+      2
+    ],
+    [
+      "oauth.zaloapp.com",
+      2
+    ],
+    [
+      "visapay.as1.juspay.io",
+      2
+    ],
+    [
+      "www.visa.com",
+      2
+    ],
+    [
+      "rdx.zalopay.vn",
+      2
+    ],
+    [
+      "developers.google.com",
+      2
+    ],
+    [
+      "pagead2.googlesyndication.com",
+      2
+    ],
+    [
+      "facebook.com",
+      2
+    ],
+    [
+      "miniprogram.alipay-eco.com",
+      2
+    ],
+    [
+      "www.facebook.com",
+      2
+    ],
+    [
+      "api.fpt.ai",
+      2
+    ],
+    [
+      "upload.zalopay.com.vn",
+      2
+    ],
+    [
+      "log.zalopay.com.vn",
+      2
+    ],
+    [
+      "zpm.zalopay.com.vn",
+      2
+    ],
+    [
+      "token.zalopay.vn",
+      2
+    ],
+    [
+      "bim.zalopay.vn",
+      2
+    ],
+    [
+      "dala2zoom.zalopay.vn",
+      2
+    ],
+    [
+      "ebank.bidv.com.vn",
+      2
+    ],
+    [
+      "mmf-user.zalopay.vn",
+      2
+    ],
+    [
+      "tracking.zalopay.vn",
+      2
+    ],
+    [
+      "weremit-static.tenpay.com",
+      2
+    ],
+    [
+      "upload-img.zalopay.vn",
+      1
+    ],
+    [
+      "g.co",
+      1
+    ],
+    [
+      "alipay.kylinbridge",
+      1
+    ],
+    [
+      "mobilegw.alipay.com",
+      1
+    ],
+    [
+      "openauth.alipay.com",
+      1
+    ]
+  ],
+  "assets_entries": 45,
+  "assets_sample": [
+    "FastestDet.ncnn.bin",
+    "FastestDet.ncnn.param",
+    "Griver",
+    "GriverBridge",
+    "GriverErrorPage",
+    "GriverTheme",
+    "android.1.zip",
+    "android_jsbridge.js",
+    "audience_network.dex",
+    "bshield.dat",
+    "bundle.json",
+    "client_tracking.json",
+    "com",
+    "config",
+    "containererrorpage",
+    "containers",
+    "custom_models",
+    "dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be",
+    "dexopt",
+    "fgcpkjvqe.dat",
+    "fonts",
+    "griverIconDefault",
+    "h5iconfont",
+    "home_data.json",
+    "iapconnect_config_full",
+    "internaljsbridge.js",
+    "jsbridge.js",
+    "mlkit-google-ocr-models",
+    "mlkit_barcode_models",
+    "mlkit_odt_default_classifier",
+    "mlkit_odt_localizer",
+    "models_bundled",
+    "public.pem",
+    "safemode_registrator_com_iap_ac_config.json",
+    "taibmcf.dat",
+    "taibmcf.json",
+    "taxi_images",
+    "taxi_splash_loading.json",
+    "theme",
+    "timezone2region_2023c.json"
+  ],
+  "native_libs": []
+}

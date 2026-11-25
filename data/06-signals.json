@@ -1,0 +1,1387 @@
+{
+  "string_universe": 284801,
+  "signals": {
+    "tls_pinning": {
+      "markers": {
+        "CertificatePinner": {
+          "count": 15,
+          "samples": [
+            "Lokhttp3/CertificatePinner;",
+            "Lokhttp3/CertificatePinner$Builder;",
+            "Lokhttp3/CertificatePinner$check$1;"
+          ]
+        },
+        "sha256/": {
+          "count": 8,
+          "samples": [
+            "pins must start with 'sha256/' or 'sha1/': ",
+            "sha256/",
+            "sha256/IQBnNBEiFuhj+8x6X8XLgh01V9Ic5/V3IRQLNFFc7v4="
+          ]
+        },
+        "sha1/": {
+          "count": 2,
+          "samples": [
+            "pins must start with 'sha256/' or 'sha1/': ",
+            "sha1/"
+          ]
+        },
+        "pinning": {
+          "count": 5,
+          "samples": [
+            "Cannot find certificatest. Disable ssl pinning.",
+            "Certificate pinning failure!",
+            "Certificate pinning requires X509 certificates"
+          ]
+        },
+        "pin-set": {
+          "count": 1,
+          "samples": [
+            "/v2/account/zalo/phone-and-pin-setting"
+          ]
+        }
+      },
+      "total_hits": 31,
+      "present": true
+    },
+    "trust_manager_overrides": {
+      "markers": {
+        "checkServerTrusted": {
+          "count": 1,
+          "samples": [
+            "checkServerTrusted"
+          ]
+        },
+        "X509TrustManager": {
+          "count": 18,
+          "samples": [
+            "Ljavax/net/ssl/X509TrustManager;",
+            "Landroid/net/http/X509TrustManagerExtensions;",
+            "()Ljavax/net/ssl/X509TrustManager;"
+          ]
+        },
+        "getAcceptedIssuers": {
+          "count": 1,
+          "samples": [
+            "getAcceptedIssuers"
+          ]
+        }
+      },
+      "total_hits": 20,
+      "present": true
+    },
+    "ssl_error_handling": {
+      "markers": {
+        "onReceivedSslError": {
+          "count": 2,
+          "samples": [
+            "onReceivedSslError",
+            "[TopUp][WebView][Error] onReceivedSslError: "
+          ]
+        },
+        "SslErrorHandler": {
+          "count": 11,
+          "samples": [
+            "Landroid/webkit/SslErrorHandler;",
+            "Lcom/alibaba/griver/base/api/APSslErrorHandler;",
+            "Lcom/alipay/plus/android/miniprogram/engine/api/APSslErrorHandler;"
+          ]
+        },
+        "proceed()": {
+          "count": 1,
+          "samples": [
+            " must call proceed() exactly once"
+          ]
+        },
+        "cancel()": {
+          "count": 4,
+          "samples": [
+            "Future.cancel() was called.",
+            "'awaitClose { yourCallbackOrListener.cancel() }' should be used in the end of callbackFlow block.",
+            "getBtnCancel()Landroid/widget/ImageView;"
+          ]
+        }
+      },
+      "total_hits": 18,
+      "note": "presence alone is not a bypass; needs control-flow proof",
+      "present": true
+    },
+    "keystore_hardware": {
+      "markers": {
+        "AndroidKeyStore": {
+          "count": 3,
+          "samples": [
+            "AndroidKeyStore",
+            "Couldn't load keystore instance of type: AndroidKeyStore",
+            "������️ Wiped PIN_DEK from AndroidKeyStore"
+          ]
+        },
+        "KeyGenParameterSpec": {
+          "count": 11,
+          "samples": [
+            "Landroid/security/keystore/KeyGenParameterSpec$Builder;",
+            "Landroid/security/keystore/KeyGenParameterSpec;",
+            "Ljava/security/spec/RSAKeyGenParameterSpec;"
+          ]
+        },
+        "setUserAuthenticationRequired": {
+          "count": 1,
+          "samples": [
+            "setUserAuthenticationRequired"
+          ]
+        },
+        "setIsStrongBoxBacked": {
+          "count": 1,
+          "samples": [
+            "setIsStrongBoxBacked"
+          ]
+        },
+        "StrongBox": {
+          "count": 1,
+          "samples": [
+            "setIsStrongBoxBacked"
+          ]
+        },
+        "TEE": {
+          "count": 3,
+          "samples": [
+            ": TEE is unavailable",
+            "TEE",
+            "TEE is unavailable"
+          ]
+        }
+      },
+      "total_hits": 20,
+      "present": true
+    },
+    "biometrics": {
+      "markers": {
+        "BiometricPrompt": {
+          "count": 6,
+          "samples": [
+            "Landroid/hardware/biometrics/BiometricPrompt$CryptoObject;",
+            "BiometricPromptCompat",
+            "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;"
+          ]
+        },
+        "BiometricManager": {
+          "count": 3,
+          "samples": [
+            "Landroid/hardware/biometrics/BiometricManager;",
+            "BiometricManager",
+            "Failure in canAuthenticate(). BiometricManager was null."
+          ]
+        },
+        "setAllowedAuthenticators": {
+          "count": 1,
+          "samples": [
+            "setAllowedAuthenticators"
+          ]
+        },
+        "FingerprintManager": {
+          "count": 8,
+          "samples": [
+            "Landroid/hardware/fingerprint/FingerprintManager;",
+            "Landroid/hardware/fingerprint/FingerprintManager$AuthenticationCallback;",
+            "Landroid/hardware/fingerprint/FingerprintManager$AuthenticationResult;"
+          ]
+        },
+        "CryptoObject": {
+          "count": 7,
+          "samples": [
+            "Landroid/hardware/biometrics/BiometricPrompt$CryptoObject;",
+            "CryptoObjectUtils",
+            "Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;"
+          ]
+        }
+      },
+      "total_hits": 25,
+      "present": true
+    },
+    "crypto_primitives": {
+      "markers": {
+        "AES/GCM/NoPadding": {
+          "count": 4,
+          "samples": [
+            "AES/GCM/NoPadding",
+            "AES/GCM/NoPadding decryption failed: ",
+            "Couldn't create AES/GCM/NoPadding cipher: "
+          ]
+        },
+        "AES/CBC/PKCS5Padding": {
+          "count": 2,
+          "samples": [
+            "AES/CBC/PKCS5Padding",
+            "Unsupported AES/CBC/PKCS5Padding/HMAC-SHA2 key length, must be 256, 384 or 512 bits"
+          ]
+        },
+        "AES/CBC/PKCS7Padding": {
+          "count": 1,
+          "samples": [
+            "AES/CBC/PKCS7Padding"
+          ]
+        },
+        "RSA/ECB/PKCS1Padding": {
+          "count": 1,
+          "samples": [
+            "RSA/ECB/PKCS1Padding"
+          ]
+        },
+        "RSA/ECB/OAEPWithSHA-256AndMGF1Padding": {
+          "count": 2,
+          "samples": [
+            "RSA/ECB/OAEPWithSHA-256AndMGF1Padding",
+            "RSA/ECB/OAEPwithSHA-256andMGF1Padding"
+          ]
+        },
+        "HmacSHA256": {
+          "count": 16,
+          "samples": [
+            "HmacSHA256",
+            "HMACSHA256",
+            "HmacSha256"
+          ]
+        },
+        "HmacSHA512": {
+          "count": 24,
+          "samples": [
+            "HMACSHA512",
+            "HmacSHA512",
+            "HmacSha512"
+          ]
+        },
+        "PBKDF2WithHmacSHA256": {
+          "count": 5,
+          "samples": [
+            "PBKDF2withHMACSHA256",
+            "PBKDF2WITHHMACSHA256",
+            "SecretKeyFactory.PBKDF2WITHHMACSHA256"
+          ]
+        },
+        "AES/GCM": {
+          "count": 5,
+          "samples": [
+            "AES/GCM/NoPadding",
+            "AES/GCM-SIV/NoPadding",
+            "AES/GCM/NoPadding decryption failed: "
+          ]
+        },
+        "SHA-256": {
+          "count": 30,
+          "samples": [
+            "SHA-256",
+            "RSA/ECB/OAEPWithSHA-256AndMGF1Padding",
+            "sha-256"
+          ]
+        },
+        "SHA-1": {
+          "count": 27,
+          "samples": [
+            "SHA-1",
+            "RSA/ECB/OAEPWithSHA-1AndMGF1Padding",
+            "sha-1"
+          ]
+        },
+        "MD5": {
+          "count": 19,
+          "samples": [
+            "MD5",
+            "md5",
+            "MD5 with RSA"
+          ]
+        },
+        "ECIES": {
+          "count": 7,
+          "samples": [
+            "invalid ECIES private key",
+            "AlgorithmParameters.ECIES",
+            "Cipher.ECIES"
+          ]
+        },
+        "SM4": {
+          "count": 22,
+          "samples": [
+            "SM4",
+            "SM4 not initialised",
+            "SM4 requires a 128 bit key"
+          ]
+        },
+        "SM2": {
+          "count": 9,
+          "samples": [
+            "SM2",
+            "SM2 private key out of range",
+            "SM2 user ID must be less than 2^13 bits long"
+          ]
+        },
+        "SM3": {
+          "count": 9,
+          "samples": [
+            "SM3",
+            "sm3",
+            "Alg.Alias.MessageDigest.SM3"
+          ]
+        },
+        "ChaCha20": {
+          "count": 14,
+          "samples": [
+            "ChaCha20",
+            "ChaCha20 uses 96-bit nonces, but got a %d-bit nonce",
+            "ChaCha20-Poly1305"
+          ]
+        }
+      },
+      "total_hits": 197,
+      "present": true
+    },
+    "integrity_attestation": {
+      "markers": {
+        "SafetyNet": {
+          "count": 50,
+          "samples": [
+            "Lcom/google/android/gms/safetynet/HarmfulAppsData;",
+            "Lcom/google/android/gms/safetynet/SafetyNetApi$HarmfulAppsResponse;",
+            "Lcom/google/android/gms/safetynet/SafetyNetApi$VerifyAppsUserResponse;"
+          ]
+        },
+        "PlayIntegrity": {
+          "count": 2,
+          "samples": [
+            "getPlayIntegrityUrl",
+            "getUrlForPlayIntegrityReporting"
+          ]
+        },
+        "IntegrityManager": {
+          "count": 10,
+          "samples": [
+            "Lcom/google/android/play/core/integrity/IntegrityManager;",
+            "Lcom/google/android/play/core/integrity/IntegrityManagerFactory;",
+            "Lcom/google/android/play/core/integrity/StandardIntegrityManager$StandardIntegrityToken;"
+          ]
+        },
+        "Attestation": {
+          "count": 29,
+          "samples": [
+            "Lcom/visa/cbp/sdk/facade/DASService$DeviceAttestationCallback;",
+            "Lcom/visa/cbp/sdk/facade/JwsAttestationResult;",
+            "deviceAttestation"
+          ]
+        },
+        "requestIntegrityToken": {
+          "count": 4,
+          "samples": [
+            "OnRequestIntegrityTokenCallback",
+            "onRequestIntegrityToken",
+            "requestIntegrityToken"
+          ]
+        },
+        "attest": {
+          "count": 1,
+          "samples": [
+            "attest"
+          ]
+        }
+      },
+      "total_hits": 96,
+      "present": true
+    },
+    "root_detection": {
+      "markers": {
+        "/system/bin/su": {
+          "count": 1,
+          "samples": [
+            "/system/bin/su"
+          ]
+        },
+        "/system/xbin/su": {
+          "count": 1,
+          "samples": [
+            "/system/xbin/su"
+          ]
+        },
+        "superuser": {
+          "count": 1,
+          "samples": [
+            "/system/app/Superuser.apk"
+          ]
+        },
+        "Superuser.apk": {
+          "count": 1,
+          "samples": [
+            "/system/app/Superuser.apk"
+          ]
+        },
+        "test-keys": {
+          "count": 2,
+          "samples": [
+            "test-keys",
+            "Test-keys aren't accepted on this build."
+          ]
+        },
+        "isRooted": {
+          "count": 2,
+          "samples": [
+            "isRooted",
+            ", isRooted="
+          ]
+        },
+        "ro.debuggable": {
+          "count": 1,
+          "samples": [
+            "ro.debuggable"
+          ]
+        },
+        "Magisk": {
+          "count": 1,
+          "samples": [
+            "/magisk"
+          ]
+        },
+        "/sbin/su": {
+          "count": 1,
+          "samples": [
+            "/sbin/su"
+          ]
+        }
+      },
+      "total_hits": 11,
+      "present": true
+    },
+    "hook_debug_detection": {
+      "markers": {
+        "frida": {
+          "count": 5,
+          "samples": [
+            "frida",
+            "FRIDA",
+            "frida detection error"
+          ]
+        },
+        "xposed": {
+          "count": 4,
+          "samples": [
+            "de.robv.android.xposed.installer",
+            "XPOSED",
+            "de.robv.android.xposed"
+          ]
+        },
+        "substrate": {
+          "count": 1,
+          "samples": [
+            "substrate"
+          ]
+        },
+        "TracerPid": {
+          "count": 1,
+          "samples": [
+            "TracerPid"
+          ]
+        },
+        "isDebuggerConnected": {
+          "count": 1,
+          "samples": [
+            "isDebuggerConnected"
+          ]
+        },
+        "de.robv.android": {
+          "count": 2,
+          "samples": [
+            "de.robv.android.xposed.installer",
+            "de.robv.android.xposed"
+          ]
+        }
+      },
+      "total_hits": 14,
+      "present": true
+    },
+    "emulator_detection": {
+      "markers": {
+        "goldfish": {
+          "count": 1,
+          "samples": [
+            "goldfish"
+          ]
+        },
+        "qemu": {
+          "count": 2,
+          "samples": [
+            "ro.kernel.qemu",
+            "qemu.hw.mainkeys"
+          ]
+        },
+        "Genymotion": {
+          "count": 1,
+          "samples": [
+            "Genymotion"
+          ]
+        },
+        "ro.kernel.qemu": {
+          "count": 1,
+          "samples": [
+            "ro.kernel.qemu"
+          ]
+        },
+        "emulator": {
+          "count": 9,
+          "samples": [
+            "Emulator",
+            "EMULATOR",
+            "Android Emulator (AVD) detected (+10) current score = "
+          ]
+        },
+        "sdk_gphone": {
+          "count": 3,
+          "samples": [
+            "google/sdk_gphone64_",
+            "google/sdk_gphone_",
+            "sdk_gphone_"
+          ]
+        }
+      },
+      "total_hits": 17,
+      "present": true
+    },
+    "screenshot_protection": {
+      "markers": {
+        "setFlags": {
+          "count": 1,
+          "samples": [
+            "setFlags"
+          ]
+        },
+        "setRecentsScreenshotEnabled": {
+          "count": 1,
+          "samples": [
+            "setRecentsScreenshotEnabled"
+          ]
+        }
+      },
+      "total_hits": 2,
+      "present": true
+    },
+    "overlay_abuse_controls": {
+      "markers": {
+        "canDrawOverlays": {
+          "count": 1,
+          "samples": [
+            "canDrawOverlays"
+          ]
+        }
+      },
+      "total_hits": 1,
+      "present": true
+    },
+    "accessibility_surface": {
+      "markers": {
+        "AccessibilityService": {
+          "count": 1,
+          "samples": [
+            "getEnabledAccessibilityServiceList"
+          ]
+        },
+        "AccessibilityNodeInfo": {
+          "count": 23,
+          "samples": [
+            "Landroid/view/accessibility/AccessibilityNodeInfo;",
+            "onInitializeAccessibilityNodeInfo",
+            "Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;"
+          ]
+        },
+        "performAction": {
+          "count": 3,
+          "samples": [
+            "performAction",
+            "performAction(Lvn/com/vng/zalopay/user_profile/presentation/protectaccount/ProtectAccountEvent;)V",
+            "performAction(Lvn/com/zalopay/ekycpro/presentation/guardian_consent/UserConsentEvent;)V"
+          ]
+        }
+      },
+      "total_hits": 27,
+      "present": true
+    },
+    "webview_surface": {
+      "markers": {
+        "addJavascriptInterface": {
+          "count": 1,
+          "samples": [
+            "addJavascriptInterface"
+          ]
+        },
+        "setJavaScriptEnabled": {
+          "count": 2,
+          "samples": [
+            "setJavaScriptEnabled",
+            "SetJavaScriptEnabled"
+          ]
+        },
+        "shouldOverrideUrlLoading": {
+          "count": 4,
+          "samples": [
+            "shouldOverrideUrlLoading",
+            "shouldOverrideUrlLoadingForUC",
+            "AdWebView shouldOverrideUrlLoading: "
+          ]
+        },
+        "onPageStarted": {
+          "count": 4,
+          "samples": [
+            "onPageStarted",
+            "onPageStarted flush pageReadyListener size: ",
+            "onPageStarted url == "
+          ]
+        },
+        "WebViewClient": {
+          "count": 51,
+          "samples": [
+            "Landroid/webkit/WebViewClient;",
+            "setWebViewClient",
+            "Lcom/alibaba/griver/base/api/APWebViewClient;"
+          ]
+        },
+        "WebChromeClient": {
+          "count": 50,
+          "samples": [
+            "Landroid/webkit/WebChromeClient;",
+            "setWebChromeClient",
+            "Landroid/webkit/WebChromeClient$FileChooserParams;"
+          ]
+        },
+        "setAllowFileAccess": {
+          "count": 2,
+          "samples": [
+            "setAllowFileAccess",
+            "setAllowFileAccessFromFileURLs"
+          ]
+        },
+        "setAllowUniversalAccessFromFileURLs": {
+          "count": 1,
+          "samples": [
+            "setAllowUniversalAccessFromFileURLs"
+          ]
+        },
+        "evaluateJavascript": {
+          "count": 1,
+          "samples": [
+            "evaluateJavascript"
+          ]
+        }
+      },
+      "total_hits": 116,
+      "present": true
+    },
+    "jsbridge": {
+      "markers": {
+        "JSBridge": {
+          "count": 2,
+          "samples": [
+            "result for jsbridge: ",
+            "jsbridge.js"
+          ]
+        },
+        "jsbridge": {
+          "count": 2,
+          "samples": [
+            "result for jsbridge: ",
+            "jsbridge.js"
+          ]
+        },
+        "Griver": {
+          "count": 2485,
+          "samples": [
+            "Lcom/alibaba/griver/ui/titlebar/a;",
+            "Lcom/alibaba/griver/api/common/GriverExtension;",
+            "Lcom/alibaba/griver/api/common/menu/GRVMPMoreMenuItem$ItemInfo;"
+          ]
+        },
+        "postMessage": {
+          "count": 29,
+          "samples": [
+            "postMessage",
+            "');\";worker.postMessage({action:'exec',data:__workerjs});",
+            "onPostMessage"
+          ]
+        },
+        "webViewBridge": {
+          "count": 5,
+          "samples": [
+            "AriverAPI:EmbedWebViewBridgeExtension",
+            "com.alibaba.griver.core.jsapi.embedview.EmbedWebViewBridgeExtension",
+            "Lcom/alibaba/griver/core/jsapi/embedview/EmbedWebViewBridgeExtension;"
+          ]
+        }
+      },
+      "total_hits": 2523,
+      "present": true
+    },
+    "data_collection": {
+      "markers": {
+        "getDeviceId": {
+          "count": 7,
+          "samples": [
+            "getDeviceId",
+            "getDeviceID",
+            "Lcom/visa/cbp/getDeviceIDType;"
+          ]
+        },
+        "getImei": {
+          "count": 2,
+          "samples": [
+            "getIMEI",
+            "getIMEI interface is deprecated, please use the other interface instead, it will return null"
+          ]
+        },
+        "getSubscriberId": {
+          "count": 2,
+          "samples": [
+            " from getSubscriberId no name.",
+            "getSubscriberId"
+          ]
+        },
+        "getMacAddress": {
+          "count": 1,
+          "samples": [
+            "getMacAddress"
+          ]
+        },
+        "getAccounts": {
+          "count": 3,
+          "samples": [
+            "getAccountStatus",
+            "Lcom/visa/cbp/getAccountStatus;",
+            "getAccountsByTypeAndFeatures"
+          ]
+        },
+        "ContactsContract": {
+          "count": 4,
+          "samples": [
+            "Landroid/provider/ContactsContract$Contacts;",
+            "Landroid/provider/ContactsContract$CommonDataKinds$Phone;",
+            "Landroid/provider/ContactsContract$Data;"
+          ]
+        },
+        "getLastKnownLocation": {
+          "count": 1,
+          "samples": [
+            "getLastKnownLocation"
+          ]
+        },
+        "ClipboardManager": {
+          "count": 4,
+          "samples": [
+            "Landroid/content/ClipboardManager;",
+            "Landroid/text/ClipboardManager;",
+            "LocalClipboardManager"
+          ]
+        },
+        "getInstalledPackages": {
+          "count": 1,
+          "samples": [
+            "getInstalledPackages"
+          ]
+        },
+        "getAdvertisingId": {
+          "count": 6,
+          "samples": [
+            "getAdvertisingIdInfo",
+            "getAdvertisingId",
+            "getAdvertisingIdWithGps"
+          ]
+        }
+      },
+      "total_hits": 31,
+      "present": true
+    },
+    "payment_sensitive": {
+      "markers": {
+        "cvv": {
+          "count": 5,
+          "samples": [
+            "CVV",
+            "cvv",
+            "cvv is required"
+          ]
+        },
+        "cardNumber": {
+          "count": 41,
+          "samples": [
+            "cardNumber",
+            "firstCardNumber",
+            "lastCardNumber"
+          ]
+        },
+        "PAN": {
+          "count": 4,
+          "samples": [
+            "PAN",
+            "gads:pan:experiment_id",
+            "/generate-pan"
+          ]
+        },
+        "expiryDate": {
+          "count": 17,
+          "samples": [
+            ", expiryDate=",
+            "expiryDate",
+            "getExpiryDate"
+          ]
+        },
+        "otp": {
+          "count": 112,
+          "samples": [
+            "otp",
+            ", otp=",
+            "Lvn/com/zalopay/auth/presentation/otp/popup/OTPChallengeRootActivity;"
+          ]
+        },
+        "PIN": {
+          "count": 109,
+          "samples": [
+            "pin",
+            "PIN",
+            ", pin="
+          ]
+        },
+        "CVV": {
+          "count": 5,
+          "samples": [
+            "CVV",
+            "cvv",
+            "cvv is required"
+          ]
+        },
+        "tokenization": {
+          "count": 5,
+          "samples": [
+            "Lcom/visa/visapay/common/service/response/TokenizationResponse;",
+            "Unknown Tokenization Response",
+            "VisaTokenizationResult(cardReferenceId="
+          ]
+        }
+      },
+      "total_hits": 298,
+      "present": true
+    },
+    "jwt_oauth": {
+      "markers": {
+        "Bearer ": {
+          "count": 1,
+          "samples": [
+            "Bearer "
+          ]
+        },
+        "refresh_token": {
+          "count": 2,
+          "samples": [
+            "ig_refresh_token",
+            "refresh_token"
+          ]
+        },
+        "access_token": {
+          "count": 17,
+          "samples": [
+            "access_token",
+            "com.facebook.platform.extra.ACCESS_TOKEN",
+            "maccess_token"
+          ]
+        },
+        "id_token": {
+          "count": 3,
+          "samples": [
+            "id_token",
+            "com.facebook.platform.extra.ID_TOKEN",
+            "id_token,token,signed_request,graph_domain"
+          ]
+        },
+        "JWT": {
+          "count": 11,
+          "samples": [
+            "JWT",
+            "Lcom/nimbusds/jwt/proc/BadJWTException;",
+            "Lcom/google/crypto/tink/jwt/JwtInvalidException;"
+          ]
+        },
+        "jose": {
+          "count": 421,
+          "samples": [
+            "Lcom/nimbusds/jose/Algorithm;",
+            "Lcom/nimbusds/jose/AlgorithmFamily;",
+            "Lcom/nimbusds/jose/AlgorithmFamily<"
+          ]
+        },
+        "openid": {
+          "count": 8,
+          "samples": [
+            "openId",
+            "can not get the openId",
+            ", openId: "
+          ]
+        },
+        "oauth2": {
+          "count": 3,
+          "samples": [
+            "/apn/dpe/oauth2/token",
+            "oauth2.zalopay.vn",
+            "/apn/dpe/oauth2/token/"
+          ]
+        }
+      },
+      "total_hits": 466,
+      "present": true
+    },
+    "hardening_vendor": {
+      "markers": {
+        "bshield": {
+          "count": 2,
+          "samples": [
+            "BShield",
+            "Lvn/ai/faceauth/sdk/presentation/presentation/utils/BShield;"
+          ]
+        },
+        "Bshield": {
+          "count": 2,
+          "samples": [
+            "BShield",
+            "Lvn/ai/faceauth/sdk/presentation/presentation/utils/BShield;"
+          ]
+        },
+        "taibmcf": {
+          "count": 3,
+          "samples": [
+            "taibmcf",
+            "taibmcf.dat",
+            "taibmcf.json"
+          ]
+        }
+      },
+      "total_hits": 7,
+      "present": true
+    },
+    "anti_tamper_packaging": {
+      "markers": {
+        "getPackageInfo": {
+          "count": 2,
+          "samples": [
+            "getPackageInfo",
+            "getPackageInfos"
+          ]
+        },
+        "signatures": {
+          "count": 594,
+          "samples": [
+            "signatures",
+            "Lorg/bouncycastle/jcajce/provider/asymmetric/compositesignatures/CompositeIndex;",
+            "Ljava/security/SignatureSpi;"
+          ]
+        },
+        "PackageManager": {
+          "count": 24,
+          "samples": [
+            "Landroid/content/pm/PackageManager;",
+            "getPackageManager",
+            "Landroid/content/pm/PackageManager$NameNotFoundException;"
+          ]
+        },
+        "checkSignature": {
+          "count": 2,
+          "samples": [
+            "checkSignatures",
+            "checkSignature"
+          ]
+        }
+      },
+      "total_hits": 622,
+      "present": true
+    },
+    "network_stack": {
+      "markers": {
+        "okhttp3": {
+          "count": 29,
+          "samples": [
+            "okhttp3.OkHttpClient",
+            "okhttp3/internal/cache/DiskLruCache$cleanupTask$1",
+            "okhttp3/internal/concurrent/TaskQueue$execute$1"
+          ]
+        },
+        "OkHttpClient": {
+          "count": 45,
+          "samples": [
+            "Lokhttp3/OkHttpClient;",
+            "Lokhttp3/OkHttpClient$Builder;",
+            "Lcom/google/firebase/perf/network/FirebasePerfOkHttpClient;"
+          ]
+        },
+        "HttpURLConnection": {
+          "count": 8,
+          "samples": [
+            "Ljava/net/HttpURLConnection;",
+            "Could not retrieve response code from HttpUrlConnection.",
+            "HttpUrlConnectionNetworkClient: Error when closing http input stream: "
+          ]
+        },
+        "quic": {
+          "count": 2,
+          "samples": [
+            "QUIC",
+            "quic"
+          ]
+        },
+        "HTTP/2": {
+          "count": 4,
+          "samples": [
+            "HTTP/2",
+            "ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?",
+            "HTTP/2.0"
+          ]
+        },
+        "h2": {
+          "count": 33,
+          "samples": [
+            "h2",
+            "H2",
+            "LVa/H2;"
+          ]
+        },
+        "TLSv1.2": {
+          "count": 1,
+          "samples": [
+            "TLSv1.2"
+          ]
+        },
+        "TLSv1.3": {
+          "count": 1,
+          "samples": [
+            "TLSv1.3"
+          ]
+        }
+      },
+      "total_hits": 123,
+      "present": true
+    }
+  },
+  "secrets": {
+    "google_api_key": {
+      "count": 0,
+      "unique": 0,
+      "examples_masked": []
+    },
+    "aws_access_key": {
+      "count": 0,
+      "unique": 0,
+      "examples_masked": []
+    },
+    "private_key_block": {
+      "count": 0,
+      "unique": 0,
+      "examples_masked": []
+    },
+    "jwt_token": {
+      "count": 0,
+      "unique": 0,
+      "examples_masked": []
+    },
+    "firebase_url": {
+      "count": 0,
+      "unique": 0,
+      "examples_masked": []
+    },
+    "slack_token": {
+      "count": 0,
+      "unique": 0,
+      "examples_masked": []
+    },
+    "stripe_live": {
+      "count": 0,
+      "unique": 0,
+      "examples_masked": []
+    },
+    "basic_auth_url": {
+      "count": 0,
+      "unique": 0,
+      "examples_masked": []
+    }
+  },
+  "domains": {
+    "unique_hosts": 151,
+    "by_class": {
+      "ZaloPay first-party": {
+        "host_count": 43,
+        "refs": 122,
+        "top": [
+          [
+            "simg.zalopay.com.vn",
+            33
+          ],
+          [
+            "zalopay.vn",
+            10
+          ],
+          [
+            "social.zalopay.vn",
+            10
+          ],
+          [
+            "mnap-director.zalopay.vn",
+            6
+          ],
+          [
+            "api.zalopay.vn",
+            4
+          ],
+          [
+            "openapi.zalopay.vn",
+            4
+          ],
+          [
+            "zalopay.com.vn",
+            4
+          ],
+          [
+            "support.zalopay.vn",
+            3
+          ],
+          [
+            "cps.zalopay.com.vn",
+            3
+          ],
+          [
+            "sapi.zalopay.vn",
+            2
+          ]
+        ]
+      },
+      "Other/unclassified": {
+        "host_count": 53,
+        "refs": 71,
+        "top": [
+          [
+            "goo.gl",
+            4
+          ],
+          [
+            "vngzalopay.freshdesk.com",
+            3
+          ],
+          [
+            "xmlpull.org",
+            2
+          ],
+          [
+            "ns.adobe.com",
+            2
+          ],
+          [
+            "open-sea.alipayplus.com",
+            2
+          ],
+          [
+            "alipay.worker.com",
+            2
+          ],
+          [
+            "cdn.marmot-cloud.com",
+            2
+          ],
+          [
+            "oauth.zaloapp.com",
+            2
+          ],
+          [
+            "visapay.as1.juspay.io",
+            2
+          ],
+          [
+            "googlemobileadssdk.page.link",
+            2
+          ]
+        ]
+      },
+      "Google": {
+        "host_count": 21,
+        "refs": 54,
+        "top": [
+          [
+            "www.google.com",
+            7
+          ],
+          [
+            "googleads.g.doubleclick.net",
+            7
+          ],
+          [
+            "play.google.com",
+            6
+          ],
+          [
+            "developer.android.com",
+            5
+          ],
+          [
+            "firebase.google.com",
+            5
+          ],
+          [
+            "issuetracker.google.com",
+            4
+          ],
+          [
+            "www.google-analytics.com",
+            3
+          ],
+          [
+            "schemas.android.com",
+            2
+          ],
+          [
+            "app-measurement.com",
+            2
+          ],
+          [
+            "developers.google.com",
+            2
+          ]
+        ]
+      },
+      "Payment scheme / PSP": {
+        "host_count": 20,
+        "refs": 30,
+        "top": [
+          [
+            "render.alipay.com",
+            8
+          ],
+          [
+            "render-intl.alipay.com",
+            3
+          ],
+          [
+            "www.visa.com",
+            2
+          ],
+          [
+            "mobilegw.alipay.com",
+            1
+          ],
+          [
+            "openauth.alipay.com",
+            1
+          ],
+          [
+            "imdap-sea.alipay.com",
+            1
+          ],
+          [
+            "imgs-ac.alipay.com",
+            1
+          ],
+          [
+            "alipay.com",
+            1
+          ],
+          [
+            "hpmweb.alipay.com",
+            1
+          ],
+          [
+            "opendocs.alipay.com",
+            1
+          ]
+        ]
+      },
+      "Developer/docs noise": {
+        "host_count": 4,
+        "refs": 11,
+        "top": [
+          [
+            "www.w3.org",
+            4
+          ],
+          [
+            "xml.org",
+            3
+          ],
+          [
+            "github.com",
+            3
+          ],
+          [
+            "www.example.com",
+            1
+          ]
+        ]
+      },
+      "Facebook/Meta": {
+        "host_count": 4,
+        "refs": 10,
+        "top": [
+          [
+            "developers.facebook.com",
+            5
+          ],
+          [
+            "facebook.com",
+            2
+          ],
+          [
+            "www.facebook.com",
+            2
+          ],
+          [
+            ".facebook.com",
+            1
+          ]
+        ]
+      },
+      "VNG group": {
+        "host_count": 5,
+        "refs": 6,
+        "top": [
+          [
+            "zalo.me",
+            2
+          ],
+          [
+            "mp3.zing.vn",
+            1
+          ],
+          [
+            "n.zing.vn",
+            1
+          ],
+          [
+            "news.zing.vn",
+            1
+          ],
+          [
+            "srv.mp3.zing.vn",
+            1
+          ]
+        ]
+      },
+      "Ads": {
+        "host_count": 1,
+        "refs": 1,
+        "top": [
+          [
+            "analytics.us.tiktok.com",
+            1
+          ]
+        ]
+      }
+    },
+    "cleartext_http_refs": 18,
+    "cleartext_samples": [
+      "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+      "Package in android.resource:// URI not found. Check http://g.co/dev/packagevisibility.",
+      "[{\"hookType\":\"DECODE_URL\",\"mappingParams\":\"{\\\"codeParamKey\\\":\\\"ACCodeValue\\\",\\\"loadingUrl\\\":\\\"loadin",
+      "http://iopengw-280.sggz00b.dev.alipay.net/",
+      "http://xmlpull.org/v1/doc/features.html#process-docdecl",
+      "http://www.google.com",
+      "http://tfsimg.alipay.com/images/partner/T1IVXXXb0bXXXXXXXX",
+      "http://vnpay.vn",
+      "Hit delivery not possible. Missing network permissions. See http://goo.gl/8Rd3yj for instructions",
+      "http://www.example.com"
+    ]
+  },
+  "vietnamese_strings": 1899,
+  "vietnamese_string_pct": 0.67
+}
