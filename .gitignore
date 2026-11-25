@@ -1,0 +1,9 @@
+# Build & analysis artifacts (large, reproducible)
+node_modules/
+work/
+dist/
+build/
+out/
+artifacts/tmp/
+*.log
+.DS_Store
