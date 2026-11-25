@@ -1,0 +1,2773 @@
+{
+ "bundle": {
+  "xapk_version": 2,
+  "package_name": "vn.com.vng.zalopay",
+  "name": "Zalopay",
+  "version_code": "1102758",
+  "version_name": "11.17.0",
+  "min_sdk_version": "26",
+  "target_sdk_version": "36",
+  "permissions": [
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.READ_CONTACTS",
+   "android.permission.INTERNET",
+   "android.permission.ACCESS_WIFI_STATE",
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.READ_PHONE_STATE",
+   "com.google.android.c2dm.permission.RECEIVE",
+   "android.permission.WAKE_LOCK",
+   "android.permission.NFC",
+   "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+   "android.permission.WRITE_EXTERNAL_STORAGE",
+   "android.permission.READ_EXTERNAL_STORAGE",
+   "android.permission.ACCESS_COARSE_LOCATION",
+   "android.permission.ACCESS_FINE_LOCATION",
+   "android.permission.USE_FINGERPRINT",
+   "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+   "android.permission.WRITE_CALENDAR",
+   "android.permission.READ_CALENDAR",
+   "android.permission.USE_BIOMETRIC",
+   "android.permission.RECORD_AUDIO",
+   "android.permission.MODIFY_AUDIO_SETTINGS",
+   "com.android.launcher.permission.INSTALL_SHORTCUT",
+   "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+   "com.android.launcher.permission.WRITE_SETTINGS",
+   "com.android.launcher.permission.READ_SETTINGS",
+   "com.bbk.launcher2.permission.READ_SETTINGS",
+   "com.bbk.launcher2.permission.WRITE_SETTINGS",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.CAMERA",
+   "android.permission.VIBRATE",
+   "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+   "android.permission.CHANGE_WIFI_STATE",
+   "android.permission.DETECT_SCREEN_CAPTURE",
+   "com.google.android.gms.permission.AD_ID",
+   "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+   "android.permission.ACCESS_ADSERVICES_AD_ID",
+   "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "com.android.vending.BILLING",
+   "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+   "android.permission.ACCESS_ADSERVICES_TOPICS",
+   "android.permission.FOREGROUND_SERVICE",
+   "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+   "android.permission.REORDER_TASKS",
+   "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+   "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+   "android.permission.READ_BASIC_PHONE_STATE",
+   "android.permission.WRITE_CONTACTS",
+   "android.permission.READ_MEDIA_AUDIO"
+  ],
+  "split_configs": [
+   "config.armeabi_v7a",
+   "config.en",
+   "config.vi",
+   "config.xhdpi"
+  ],
+  "total_size": 105580620,
+  "icon": "icon.png",
+  "split_apks": [
+   {
+    "file": "vn.com.vng.zalopay.apk",
+    "id": "base"
+   },
+   {
+    "file": "config.armeabi_v7a.apk",
+    "id": "config.armeabi_v7a"
+   },
+   {
+    "file": "config.en.apk",
+    "id": "config.en"
+   },
+   {
+    "file": "config.vi.apk",
+    "id": "config.vi"
+   },
+   {
+    "file": "config.xhdpi.apk",
+    "id": "config.xhdpi"
+   }
+  ]
+ },
+ "totals": {
+  "entries": 6466,
+  "uncompressed_bytes": 195353860,
+  "compressed_bytes": 104504463,
+  "categories": 23,
+  "formats": 23,
+  "distinct_sha256": 5970,
+  "duplicate_files": 496
+ },
+ "categories": {
+  "code:dex": {
+   "files": 20,
+   "bytes": 69701748,
+   "compressed": 31207880,
+   "mean_entropy": 6.031
+  },
+  "native:elf": {
+   "files": 27,
+   "bytes": 57452124,
+   "compressed": 24809641,
+   "mean_entropy": 6.56
+  },
+  "res:other": {
+   "files": 55,
+   "bytes": 11466287,
+   "compressed": 6678145,
+   "mean_entropy": 4.963
+  },
+  "res:xml": {
+   "files": 5315,
+   "bytes": 11092744,
+   "compressed": 3748035,
+   "mean_entropy": 4.11
+  },
+  "asset:ml-model": {
+   "files": 30,
+   "bytes": 10390864,
+   "compressed": 10215990,
+   "mean_entropy": 5.782
+  },
+  "res:image": {
+   "files": 473,
+   "bytes": 9716239,
+   "compressed": 9716239,
+   "mean_entropy": 7.381
+  },
+  "res:font": {
+   "files": 13,
+   "bytes": 6529796,
+   "compressed": 2780261,
+   "mean_entropy": 6.316
+  },
+  "asset:archive": {
+   "files": 1,
+   "bytes": 3913966,
+   "compressed": 3851147,
+   "mean_entropy": 7.996
+  },
+  "asset:other": {
+   "files": 47,
+   "bytes": 3729849,
+   "compressed": 3079902,
+   "mean_entropy": 6.81
+  },
+  "asset:ml-ncnn": {
+   "files": 2,
+   "bytes": 2435881,
+   "compressed": 2239994,
+   "mean_entropy": 5.491
+  },
+  "resources:table": {
+   "files": 4,
+   "bytes": 2080800,
+   "compressed": 2080800,
+   "mean_entropy": 3.688
+  },
+  "asset:config-json": {
+   "files": 17,
+   "bytes": 1812445,
+   "compressed": 126453,
+   "mean_entropy": 4.49
+  },
+  "build:metadata": {
+   "files": 231,
+   "bytes": 1415100,
+   "compressed": 1246688,
+   "mean_entropy": 3.052
+  },
+  "asset:audio": {
+   "files": 3,
+   "bytes": 1161889,
+   "compressed": 1161889,
+   "mean_entropy": 7.993
+  },
+  "asset:font": {
+   "files": 12,
+   "bytes": 882756,
+   "compressed": 468682,
+   "mean_entropy": 6.234
+  },
+  "asset:opaque-dat": {
+   "files": 3,
+   "bytes": 785556,
+   "compressed": 785556,
+   "mean_entropy": 7.92
+  },
+  "root:other": {
+   "files": 155,
+   "bytes": 395791,
+   "compressed": 181815,
+   "mean_entropy": 4.709
+  },
+  "meta-inf:other": {
+   "files": 14,
+   "bytes": 165459,
+   "compressed": 53415,
+   "mean_entropy": 4.837
+  },
+  "manifest:axml": {
+   "files": 5,
+   "bytes": 129984,
+   "compressed": 21204,
+   "mean_entropy": 3.414
+  },
+  "asset:javascript": {
+   "files": 8,
+   "bytes": 33802,
+   "compressed": 9844,
+   "mean_entropy": 4.805
+  },
+  "signature:v1": {
+   "files": 8,
+   "bytes": 33737,
+   "compressed": 13902,
+   "mean_entropy": 6.593
+  },
+  "build:spi-registry": {
+   "files": 16,
+   "bytes": 332,
+   "compressed": 255,
+   "mean_entropy": 2.577
+  },
+  "signature:sourcestamp": {
+   "files": 5,
+   "bytes": 160,
+   "compressed": 175,
+   "mean_entropy": 4.938
+  }
+ },
+ "formats": {
+  "axml": 5319,
+  "text": 395,
+  "png": 318,
+  "webp": 159,
+  "other": 76,
+  "json": 64,
+  "elf": 27,
+  "font-ttf": 23,
+  "dex": 20,
+  "tflite": 20,
+  "binary": 10,
+  "gif": 5,
+  "arsc": 4,
+  "zip": 4,
+  "gzip": 4,
+  "rive": 4,
+  "pem": 3,
+  "jpeg": 2,
+  "font-otf": 2,
+  "image?.svg": 2,
+  "java-class": 1,
+  "elf?": 1,
+  "xml": 1
+ },
+ "top_files": [
+  {
+   "path": "vn.com.vng.zalopay.apk:classes2.dex",
+   "size": 16516960,
+   "category": "code:dex",
+   "entropy": 6.7
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/libtaibmcf.so",
+   "size": 12617752,
+   "category": "native:elf",
+   "entropy": 6.284
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:classes7.dex",
+   "size": 10803680,
+   "category": "code:dex",
+   "entropy": 6.368
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:classes4.dex",
+   "size": 9418124,
+   "category": "code:dex",
+   "entropy": 6.29
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:classes.dex",
+   "size": 8831004,
+   "category": "code:dex",
+   "entropy": 6.329
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:classes6.dex",
+   "size": 7612432,
+   "category": "code:dex",
+   "entropy": 6.44
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:classes5.dex",
+   "size": 7357484,
+   "category": "code:dex",
+   "entropy": 6.297
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/libmlkitcommonpipeline.so",
+   "size": 6928228,
+   "category": "native:elf",
+   "entropy": 7.144
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/libmlkit_google_ocr_pipeline.so",
+   "size": 6781940,
+   "category": "native:elf",
+   "entropy": 6.945
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/libfgcpkjvqe.so",
+   "size": 6524160,
+   "category": "native:elf",
+   "entropy": 6.3
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/libface_detector_v2_jni.so",
+   "size": 5388224,
+   "category": "native:elf",
+   "entropy": 7.108
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/audience_network.dex",
+   "size": 4864036,
+   "category": "code:dex",
+   "entropy": 6.398
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/android.1.zip",
+   "size": 3913966,
+   "category": "asset:archive",
+   "entropy": 7.996
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/raw/lbfmodel.yaml",
+   "size": 3778896,
+   "category": "res:other",
+   "entropy": 5.192
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/custom_models/object_labeler.tflite",
+   "size": 3770391,
+   "category": "asset:ml-model",
+   "entropy": 5.966
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/libsqlcipher.so",
+   "size": 3555080,
+   "category": "native:elf",
+   "entropy": 6.694
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/libbarhopper_v3.so",
+   "size": 3244440,
+   "category": "native:elf",
+   "entropy": 7.215
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/librive-android.so",
+   "size": 3225636,
+   "category": "native:elf",
+   "entropy": 6.417
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/libpicodet_ncnn.so",
+   "size": 2992584,
+   "category": "native:elf",
+   "entropy": 7.181
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/FastestDet.ncnn.bin",
+   "size": 2420588,
+   "category": "asset:ml-ncnn",
+   "entropy": 7.53
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/libVFaceLib.so",
+   "size": 1963668,
+   "category": "native:elf",
+   "entropy": 7.112
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:resources.arsc",
+   "size": 1802300,
+   "category": "resources:table",
+   "entropy": 4.751
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/raw/haarcascade_frontalface_default.xml",
+   "size": 1788328,
+   "category": "res:xml",
+   "entropy": 2.566
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/font/sf_compact_rounded_medium.ttf",
+   "size": 1785056,
+   "category": "res:font",
+   "entropy": 6.953
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/font/sf_compact_rounded_bold.ttf",
+   "size": 1782560,
+   "category": "res:font",
+   "entropy": 6.966
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+   "size": 1706957,
+   "category": "asset:ml-model",
+   "entropy": 6.577
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/raw/img_guide_back_id_card.json",
+   "size": 1449629,
+   "category": "res:other",
+   "entropy": 6.004
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/raw/required_kyc.svg",
+   "size": 1436457,
+   "category": "res:other",
+   "entropy": 6.002
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+   "size": 1254848,
+   "category": "asset:ml-model",
+   "entropy": 6.894
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:classes9.dex",
+   "size": 1218908,
+   "category": "code:dex",
+   "entropy": 6.061
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/models_bundled/contours.tfl",
+   "size": 1124144,
+   "category": "asset:other",
+   "entropy": 7.427
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/raw/phone_pending.svg",
+   "size": 1114729,
+   "category": "res:other",
+   "entropy": 6.006
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/models_bundled/LMprec_600.emd",
+   "size": 1078354,
+   "category": "asset:other",
+   "entropy": 6.624
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/liba97d.so",
+   "size": 997572,
+   "category": "native:elf",
+   "entropy": 6.221
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/config/miniapp_config.json",
+   "size": 883684,
+   "category": "asset:config-json",
+   "entropy": 4.423
+  },
+  {
+   "path": "config.armeabi_v7a.apk:lib/armeabi-v7a/libc++_shared.so",
+   "size": 872872,
+   "category": "native:elf",
+   "entropy": 6.884
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/Griver/68687209_2.9.7.8.amr",
+   "size": 856974,
+   "category": "asset:audio",
+   "entropy": 7.999
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:classes3.dex",
+   "size": 850600,
+   "category": "code:dex",
+   "entropy": 6.132
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/fgcpkjvqe.dat",
+   "size": 776320,
+   "category": "asset:opaque-dat",
+   "entropy": 8.0
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:org/bouncycastle/pqc/crypto/picnic/lowmcL5.bin.properties",
+   "size": 752652,
+   "category": "build:metadata",
+   "entropy": 7.997
+  }
+ ],
+ "magic_disagreements": [
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/Griver/66666692_1.24.8.amr",
+   "fmt": "zip",
+   "size": 287535
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/Griver/66666693_2.0.7.amr",
+   "fmt": "zip",
+   "size": 17380
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/Griver/68687209_2.9.7.8.amr",
+   "fmt": "zip",
+   "size": 856974
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/raw/haarcascade_frontalface_default.xml",
+   "fmt": "xml",
+   "size": 1788328
+  }
+ ],
+ "n_magic_disagreements": 4,
+ "high_entropy_files": [
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/android.1.zip",
+   "entropy": 7.996,
+   "size": 3913966,
+   "category": "asset:archive",
+   "format": "zip"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/FastestDet.ncnn.bin",
+   "entropy": 7.53,
+   "size": 2420588,
+   "category": "asset:ml-ncnn",
+   "format": "binary"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/Griver/68687209_2.9.7.8.amr",
+   "entropy": 7.999,
+   "size": 856974,
+   "category": "asset:audio",
+   "format": "zip"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/fgcpkjvqe.dat",
+   "entropy": 8.0,
+   "size": 776320,
+   "category": "asset:opaque-dat",
+   "format": "binary"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:org/bouncycastle/pqc/crypto/picnic/lowmcL5.bin.properties",
+   "entropy": 7.997,
+   "size": 752652,
+   "category": "build:metadata",
+   "format": "gzip"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:org/bouncycastle/pqc/crypto/picnic/lowmcL3.bin.properties",
+   "entropy": 7.994,
+   "size": 350101,
+   "category": "build:metadata",
+   "format": "gzip"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+   "entropy": 7.843,
+   "size": 315520,
+   "category": "asset:ml-model",
+   "format": "tflite"
+  },
+  {
+   "path": "config.xhdpi.apk:res/drawable-xhdpi-v4/mascot_toro_face_sad.png",
+   "entropy": 7.994,
+   "size": 287748,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/Griver/66666692_1.24.8.amr",
+   "entropy": 7.999,
+   "size": 287535,
+   "category": "asset:audio",
+   "format": "zip"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/vietqr_promotion_banner.png",
+   "entropy": 7.997,
+   "size": 283031,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/ic_newsfeed_ota_service_bg.png",
+   "entropy": 7.993,
+   "size": 269730,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:assets/com/visa/cbp/74e13961eb6489ab-",
+   "entropy": 7.999,
+   "size": 265304,
+   "category": "asset:other",
+   "format": "other"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/preview_game_app_widget.png",
+   "entropy": 7.994,
+   "size": 251098,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/preview_movie_app_widget.png",
+   "entropy": 7.994,
+   "size": 248179,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/facesdk_ic_success.png",
+   "entropy": 7.996,
+   "size": 244058,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/moonbase_onboarding_done.png",
+   "entropy": 7.992,
+   "size": 231831,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/moonbase_ic_camera.png",
+   "entropy": 7.99,
+   "size": 230032,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/moonbase_qr_card.png",
+   "entropy": 7.976,
+   "size": 225750,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/nfc_local_default_guilde.png",
+   "entropy": 7.979,
+   "size": 222457,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/img_id_card_error.png",
+   "entropy": 7.996,
+   "size": 188064,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/ic_toro_soon.png",
+   "entropy": 7.99,
+   "size": 187647,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/rectangle_16488.png",
+   "entropy": 7.967,
+   "size": 184664,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/img_content_popup_vneid.webp",
+   "entropy": 7.997,
+   "size": 182426,
+   "category": "res:image",
+   "format": "webp"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/moonbase_qr_success.png",
+   "entropy": 7.994,
+   "size": 172086,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/img_guide_scan_qr.png",
+   "entropy": 7.993,
+   "size": 170919,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/pbw_authentication.png",
+   "entropy": 7.861,
+   "size": 155545,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/img_nfc_on_behafl.png",
+   "entropy": 7.994,
+   "size": 134866,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "config.xhdpi.apk:res/drawable-xhdpi-v4/guidance_illustration.png",
+   "entropy": 7.99,
+   "size": 122885,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/img_nfc_behalf_experied.png",
+   "entropy": 7.99,
+   "size": 122139,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:org/bouncycastle/pqc/crypto/picnic/lowmcL1.bin.properties",
+   "entropy": 7.995,
+   "size": 118306,
+   "category": "build:metadata",
+   "format": "gzip"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable-xxhdpi-v4/img_check_front_back_card.png",
+   "entropy": 7.996,
+   "size": 117834,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/background_ellipse_2.png",
+   "entropy": 7.973,
+   "size": 106605,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/img_fds_nfc_guidance.png",
+   "entropy": 7.984,
+   "size": 106396,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/img_nfc_pro_guidance.png",
+   "entropy": 7.984,
+   "size": 106396,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/img_error_popup_otp.png",
+   "entropy": 7.993,
+   "size": 105685,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/tidv3_nfc_animatiton.gif",
+   "entropy": 7.908,
+   "size": 105646,
+   "category": "res:image",
+   "format": "gif"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/ic_mascot_confuse.webp",
+   "entropy": 7.99,
+   "size": 99740,
+   "category": "res:image",
+   "format": "webp"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/bg_cashier_new_ui_header.png",
+   "entropy": 7.994,
+   "size": 99295,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/bg_rp_new_ui_header.png",
+   "entropy": 7.994,
+   "size": 99295,
+   "category": "res:image",
+   "format": "png"
+  },
+  {
+   "path": "vn.com.vng.zalopay.apk:res/drawable/pbw_static_landing.png",
+   "entropy": 7.993,
+   "size": 98117,
+   "category": "res:image",
+   "format": "png"
+  }
+ ],
+ "n_high_entropy": 173,
+ "domains": [
+  {
+   "host": "schemas.android.com",
+   "hits": 7582,
+   "seen_in": []
+  },
+  {
+   "host": "simg.zalopay.com.vn",
+   "hits": 1326,
+   "seen_in": []
+  },
+  {
+   "host": "onelink.zalopay.vn",
+   "hits": 539,
+   "seen_in": []
+  },
+  {
+   "host": "social.zalopay.vn",
+   "hits": 357,
+   "seen_in": []
+  },
+  {
+   "host": "scdn.zalopay.com.vn",
+   "hits": 290,
+   "seen_in": []
+  },
+  {
+   "host": "www.apache.org",
+   "hits": 129,
+   "seen_in": []
+  },
+  {
+   "host": "mnap-director.zalopay.vn",
+   "hits": 47,
+   "seen_in": []
+  },
+  {
+   "host": "android.googlesource.com",
+   "hits": 29,
+   "seen_in": []
+  },
+  {
+   "host": "sjs.zalopay.com.vn",
+   "hits": 26,
+   "seen_in": []
+  },
+  {
+   "host": "zalopay.vn",
+   "hits": 24,
+   "seen_in": []
+  },
+  {
+   "host": "render.alipay.com",
+   "hits": 24,
+   "seen_in": []
+  },
+  {
+   "host": "api.zalopay.vn",
+   "hits": 15,
+   "seen_in": []
+  },
+  {
+   "host": "www.w3.org",
+   "hits": 12,
+   "seen_in": []
+  },
+  {
+   "host": "developers.google.com",
+   "hits": 12,
+   "seen_in": []
+  },
+  {
+   "host": "github.com",
+   "hits": 11,
+   "seen_in": []
+  },
+  {
+   "host": "play.google.com",
+   "hits": 11,
+   "seen_in": []
+  },
+  {
+   "host": "developer.android.com",
+   "hits": 10,
+   "seen_in": []
+  },
+  {
+   "host": "sapi.zalopay.vn",
+   "hits": 10,
+   "seen_in": []
+  },
+  {
+   "host": "www.tensorflow.org",
+   "hits": 8,
+   "seen_in": []
+  },
+  {
+   "host": "zalo.me",
+   "hits": 8,
+   "seen_in": []
+  },
+  {
+   "host": "www.google.com",
+   "hits": 8,
+   "seen_in": []
+  },
+  {
+   "host": "socialdev.zalopay.vn",
+   "hits": 7,
+   "seen_in": []
+  },
+  {
+   "host": "firebase.google.com",
+   "hits": 7,
+   "seen_in": []
+  },
+  {
+   "host": "googleads.g.doubleclick.net",
+   "hits": 7,
+   "seen_in": []
+  },
+  {
+   "host": "uudai.zalopay.vn",
+   "hits": 6,
+   "seen_in": []
+  },
+  {
+   "host": "vngzalopay.freshdesk.com",
+   "hits": 6,
+   "seen_in": []
+  },
+  {
+   "host": "issuetracker.google.com",
+   "hits": 6,
+   "seen_in": []
+  },
+  {
+   "host": "xml.org",
+   "hits": 6,
+   "seen_in": []
+  },
+  {
+   "host": "googlemobileadssdk.page.link",
+   "hits": 6,
+   "seen_in": []
+  },
+  {
+   "host": "gw.alipayobjects.com",
+   "hits": 5,
+   "seen_in": []
+  },
+  {
+   "host": "15828440.cloud.edgevnpay.vn",
+   "hits": 5,
+   "seen_in": []
+  },
+  {
+   "host": "scard.zalopay.vn",
+   "hits": 5,
+   "seen_in": []
+  },
+  {
+   "host": "xmlpull.org",
+   "hits": 5,
+   "seen_in": []
+  },
+  {
+   "host": "upload-img.zalopay.vn",
+   "hits": 5,
+   "seen_in": []
+  },
+  {
+   "host": "developers.facebook.com",
+   "hits": 5,
+   "seen_in": []
+  },
+  {
+   "host": "openapi.zalopay.vn",
+   "hits": 5,
+   "seen_in": []
+  },
+  {
+   "host": "cdn.marmot-cloud.com",
+   "hits": 4,
+   "seen_in": []
+  },
+  {
+   "host": "bit.ly",
+   "hits": 4,
+   "seen_in": []
+  },
+  {
+   "host": "ebank.bidv.com.vn",
+   "hits": 4,
+   "seen_in": []
+  },
+  {
+   "host": "openauth.alipay.com",
+   "hits": 4,
+   "seen_in": []
+  },
+  {
+   "host": "goo.gl",
+   "hits": 4,
+   "seen_in": []
+  },
+  {
+   "host": "app-measurement.com",
+   "hits": 4,
+   "seen_in": []
+  },
+  {
+   "host": "zalopay.com.vn",
+   "hits": 4,
+   "seen_in": []
+  },
+  {
+   "host": "bim.zalopay.vn",
+   "hits": 4,
+   "seen_in": []
+  },
+  {
+   "host": "alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "www.facebook.com",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "ns.adobe.com",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "dala2zoom.zalopay.vn",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "user-life-cycle-public.zalopay.vn",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "open-sea.alipayplus.com",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "render-intl.alipay.com",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "www.google-analytics.com",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "alipay.worker.com",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "bank-profile.zalopay.vn",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "mmf-redemption.zalopay.vn",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "support.zalopay.vn",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "zlp-ofp-emvco-gateway.zalopay.vn",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "zlp-ofp-zpa-camera-config-be.zalopay.vn",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "cps.zalopay.com.vn",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "mmf-user.zalopay.vn",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "tracking.zalopay.vn",
+   "hits": 3,
+   "seen_in": []
+  },
+  {
+   "host": "crashpad.chromium.org",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "html.zapps.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "cutt.ly",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "digibank.vietcapitalbank.com.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "g.co",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "alipay.kylinbridge",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "mobilegw.alipay.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "youtrack.jetbrains.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "ds.alipay.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "d.alipay.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "ulink.alipay.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "iopengw-280.sggz00b.dev.alipay.net",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "imdap-sea.alipay.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "imgs-ac.alipay.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "oauth.zaloapp.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "visapay.as1.juspay.io",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "www.visa.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "rdx.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "csi.gstatic.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "pagead2.googlesyndication.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "facebook.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "miniprogram.alipay-eco.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "api.fpt.ai",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "upload.zalopay.com.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "log.zalopay.com.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "zpm.zalopay.com.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "token.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "partners.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "zlp-ofp-integration-hub.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "campaign.zalopay.com.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "loyalty.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "mp.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "miniprogram.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "zlp-ofp-qp-public-api.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "rar-um.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "fin-installment.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "bnpl-gateway.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "sse.zalopay.vn",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "weremit-static.tenpay.com",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "www.ietf.org",
+   "hits": 2,
+   "seen_in": []
+  },
+  {
+   "host": "openmp.llvm.org",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "public.rive.app",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "oss-local-nightly-dev.marmot-cloud.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "storage.googleapis.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "mc.zalopay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "s3-advertising.zalopay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "s3-loyalty.zalopay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "ti.ki",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "lzd.co",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "app2-zl.unipass.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "elsazalopay.onstudy.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "vieon.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "m.choingay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "monkeyzalopay.onstudy.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "zlp-gotit.zalopay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "app.ahamove.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "order.thecoffeehouse.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "loship.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "zlpqc-voice.zalopay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "zlp-offline-store.zalopay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "napthe.zalopay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "pay.zing.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "seal.controlcase.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "www.sacombank.com.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "ebanking.vietinbank.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "www.vietcombank.com.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "pay.google.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "tiny.cc",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "dl.bidvsmartbanking.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "neo.vpbank.com.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "taikhoan.vpbank.com.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "a.alipayobjects.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "alipay.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "hpmweb.alipay.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "opendocs.alipay.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "yuque.antfin-inc.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "www.bouncycastle.org",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "tfsimg.alipay.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "vnpay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "activityservice.alibaba.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "analytics.us.tiktok.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "demomb.vnpaytest.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "design.vnpay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "dpe.aacert.consumerapi.digital.visa.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "dpe.consumerapi.digital.visa.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "dpe.qa.consumerapi.digital.visa.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "dpe.sandbox.consumerapi.digital.visa.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "googletng.dl.alipaydev.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "graph.zaloapp.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "gw.zamcs.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "icl.visa.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "imgs-ac-amcs.dl.alipaydev.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "imgs-ac-saas.dl.alipaydev.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "imgs-sea-pre.alipay.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "imgs-sit-sg.dl.alipaydev.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "mp3.zing.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "n.zing.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "news.zing.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "srv.mp3.zing.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "support.google.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "zaloapp.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "ztevents.zaloapp.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "www.example.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "admob-gmats.uc.r.appspot.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "firebaseinstallations.googleapis.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "firebaseremoteconfig.googleapis.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "imasdk.googleapis.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "ssl.google-analytics.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "www.googleadservices.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "www.android.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "google.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "mdgw.alipay.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "mdgwdev.alipay.net",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "mdn.alipayobjects.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "mock.saas.mini-program.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "privacy-sandbox.appsflyersdk.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "goo.gle",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "aomedia.org",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "atlas.zalopay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "developer.apple.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "ekyc-dev.fpt.ai",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "universal.vneid.gov.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "web-ekyc-uat.fpt.ai",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "trueid.net",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "api.trueid.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "clients3.google.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "connectivitycheck.gstatic.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "firebase-settings.crashlytics.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "qrpay.zalopay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "symbols.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "uat.tenpayglobal.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "www.tenpayglobal.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "zlp-movie-api.zalopay.vn",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "abc.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "cloud.google.com",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "semver.org",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "developer.mozilla.org",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "docs.python.org",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "www.joda.org",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "publicsuffix.org",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "mozilla.org",
+   "hits": 1,
+   "seen_in": []
+  },
+  {
+   "host": "www.jacoco.org",
+   "hits": 1,
+   "seen_in": []
+  }
+ ],
+ "n_domains": 203,
+ "secrets": [],
+ "secrets_by_kind": {},
+ "native_summary": {
+  "count": 27,
+  "total_bytes": 57452124,
+  "jni_exports": 284,
+  "stripped_all": false,
+  "nx_all": true,
+  "relro_all": false,
+  "pie_all": true,
+  "with_build_id": 27,
+  "obfuscated_names": [
+   "lib/armeabi-v7a/libVFaceLib.so",
+   "lib/armeabi-v7a/libcrashlytics.so",
+   "lib/armeabi-v7a/libfgcpkjvqe.so",
+   "lib/armeabi-v7a/libljsfrcwmw.so",
+   "lib/armeabi-v7a/liblytcuhe.so",
+   "lib/armeabi-v7a/libohxbee.so",
+   "lib/armeabi-v7a/librcmefqonnx.so",
+   "lib/armeabi-v7a/libsqlcipher.so",
+   "lib/armeabi-v7a/libtaibmcf.so",
+   "lib/armeabi-v7a/libtrueidlib.so"
+  ]
+ },
+ "assets_models": [
+  {
+   "path": "assets/FastestDet.ncnn.param",
+   "size": 15293,
+   "ncnn": {
+    "magic_ok": true,
+    "declared_layers": null,
+    "observed_layers": 172,
+    "layer_types": [
+     "BinaryOp",
+     "Concat",
+     "Convolution",
+     "ConvolutionDepthWise",
+     "HardSigmoid",
+     "HardSwish",
+     "Input",
+     "Interp",
+     "Pooling",
+     "Reduction",
+     "Reshape",
+     "Sigmoid",
+     "Softmax",
+     "Split",
+     "Swish"
+    ]
+   }
+  },
+  {
+   "path": "assets/custom_models/object_labeler.tflite",
+   "size": 3770391,
+   "sha256": "9400671e04685f52",
+   "magic_ok": true,
+   "format_version": 1179648,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "ASxQ",
+    "AU_E",
+    "A_Tj",
+    "AaplkH",
+    "Admm",
+    "Ahckjkkkkikfkklkgjkmk_aekgigkkemec",
+    "AhvU",
+    "Anoz",
+    "Ap5aw",
+    "Apache",
+    "AqYw",
+    "Awplc",
+    "BHsK_TS",
+    "BIYqNd",
+    "BQetu",
+    "BU3p",
+    "BZCh",
+    "BZHy",
+    "BaQEZyaEXAVKtQO",
+    "BgXF",
+    "BkdXb",
+    "Bkhkukksk",
+    "BkkMhkkkkdRckgikkfed",
+    "Bkww",
+    "BnAT/ew"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+   "size": 276,
+   "sha256": "b2963b78c7e55fdf",
+   "magic": "0a3e747970652e67",
+   "strings": [
+    ">type.googleapis.com/google_ocr.PageLayoutAnalysisMutatorConfig",
+    "333333",
+    "7./../gocr/layout/line_splitting_custom_ops/model.tflite0",
+    "8./../gocr/layout/line_clustering_custom_ops/model.tflite0"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+   "size": 278,
+   "sha256": "d448c5de8d480d49",
+   "magic": "0a3e747970652e67",
+   "strings": [
+    ">type.googleapis.com/google_ocr.PageLayoutAnalysisMutatorConfig",
+    "333333",
+    "7./../gocr/layout/line_splitting_custom_ops/model.tflite0",
+    "8./../gocr/layout/line_clustering_custom_ops/model.tflite0"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/assets.extra/LabelMap.pb",
+   "size": 3809,
+   "sha256": "c6d345043a561f9d",
+   "magic": "0a030a01200a050a",
+   "strings": []
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+   "size": 333,
+   "sha256": "a1dce9a376905a59",
+   "magic": "0a16476f63725465",
+   "strings": [
+    "GocrTextLineRecognizer",
+    "7type.googleapis.com/google_ocr.GocrLineRecognizerConfig",
+    "gocr_text_line_recognizer0",
+    " ./Latn_ctc/optical/conv_model.fb",
+    "\" ./Latn_ctc/optical/lstm_model.fb(",
+    "r+./Latn_ctc/optical/assets.extra/LabelMap.pbz",
+    "MobileLangIdV2",
+    "./tflite_langid.tflite"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+   "size": 315520,
+   "sha256": "7f931f6f7c1dd0ec",
+   "magic_ok": true,
+   "format_version": 0,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "AJtAN",
+    "AMVw",
+    "AOJZ",
+    "APBy",
+    "ATbx",
+    "AtV.",
+    "B4gwR",
+    "B4tKz",
+    "B51F",
+    "B8AA",
+    "BCBb",
+    "BCTi",
+    "BDTz",
+    "BHTt",
+    "BICE",
+    "BL0F",
+    "BNcww",
+    "Ba9KR",
+    "BlI85",
+    "BlW/",
+    "Borh",
+    "ByBfuF",
+    "C3lB",
+    "CBDb",
+    "CBJu"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+   "size": 129612,
+   "sha256": "ecda697ed244c576",
+   "magic_ok": true,
+   "format_version": 2097172,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "Add_1",
+    "Add_2",
+    "Add_3",
+    "Add_4",
+    "ArgMax",
+    "ArgMax/dimension",
+    "Bincount",
+    "CONVERSION_METADATA",
+    "Converted.",
+    "GatherV2",
+    "GatherV2/axis",
+    "GatherV2_10",
+    "GatherV2_11",
+    "GatherV2_11/axis",
+    "GatherV2_12",
+    "GatherV2_13",
+    "GatherV2_2",
+    "GatherV2_3",
+    "GatherV2_4",
+    "GatherV2_5",
+    "GatherV2_6",
+    "GatherV2_7",
+    "GatherV2_8",
+    "GatherV2_9",
+    "MLIR"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+   "size": 114384,
+   "sha256": "f42197e656972c33",
+   "magic_ok": true,
+   "format_version": 2097172,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "Add_1",
+    "ArgMax",
+    "ArgMax/dimension",
+    "Bincount",
+    "CONVERSION_METADATA",
+    "Converted.",
+    "GatherV2",
+    "GatherV2/axis",
+    "GatherV2_2",
+    "GatherV2_3",
+    "GatherV2_4",
+    "GatherV2_5",
+    "GatherV2_6",
+    "GatherV2_7",
+    "GatherV2_8",
+    "GatherV2_9",
+    "MLIR",
+    "RaggedFromValueRowIds/RowPartitionFromVal",
+    "RaggedGetItem/strided_slice",
+    "RaggedGetItem/strided_slice/stack",
+    "RaggedGetItem/strided_slice/stack_1",
+    "RaggedGetItem/strided_slice/stack_2",
+    "RaggedGetItem_1/strided_slice",
+    "RaggedGetItem_1/strided_slice/stack_1",
+    "RaggedRowStarts/strided_slice"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+   "size": 340760,
+   "sha256": "eb811a1290738f13",
+   "magic_ok": true,
+   "format_version": 1179648,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "A9PIH9",
+    "ACd8",
+    "AGTF",
+    "AIX9",
+    "AT38",
+    "Ac80",
+    "C8OJ",
+    "C8i.",
+    "Converted.",
+    "D8Bu",
+    "DE91",
+    "DEk8",
+    "DQ_A0",
+    "DR8B",
+    "DV8i",
+    "Dg49",
+    "Dl5d",
+    "E18C",
+    "E6S48",
+    "E8oA",
+    "E9LO",
+    "Ei81",
+    "FP88i",
+    "FW8v",
+    "Fb8N"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/taser/rpn_text_detection_tflite_mobile_mbv2.binarypb",
+   "size": 194,
+   "sha256": "86660be29934bdd1",
+   "magic": "0a41747970652e67",
+   "strings": [
+    "Atype.googleapis.com/google_ocr.PhotoOcrTextDetectionMutatorConfig",
+    " TfliteRegionProposalTextDetector",
+    "G./detector/region_proposal_text_detector_tflite_vertical_mbv2_v1.bincfg",
+    "./detector "
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/taser/taser_script_identification_tflite_mobile.binarypb",
+   "size": 136,
+   "sha256": "a3ebf2720f86e144",
+   "magic": "0a48747970652e67",
+   "strings": [
+    "Htype.googleapis.com/google_ocr.PhotoOcrScriptIdentificationMutatorConfig",
+    "-./segmenter/tflite_script_detector_0.3.bincfg",
+    "./segmenter"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+   "size": 13178,
+   "sha256": "78210a92ad8ff692",
+   "magic": "0aac2c0a68121e49",
+   "strings": [
+    "ImageFrameExtractionCalculator",
+    "CONTEXT:sampled_frames",
+    "LAYOUT:debug_layouts\"",
+    "IMAGE:image_from_context",
+    "ImageFrameToGpuBufferCalculator",
+    "sampled_frames",
+    "image_from_context\"",
+    "gpu_buffer:",
+    "context1",
+    "ToImageCalculator",
+    "IMAGE_GPU:gpu_buffer\"",
+    "IMAGE:image_gpu"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+   "size": 13183,
+   "sha256": "bfd6e9cb8ed0536d",
+   "magic": "0aac2c0a68121e49",
+   "strings": [
+    "ImageFrameExtractionCalculator",
+    "CONTEXT:sampled_frames",
+    "LAYOUT:debug_layouts\"",
+    "IMAGE:image_from_context",
+    "ImageFrameToGpuBufferCalculator",
+    "sampled_frames",
+    "image_from_context\"",
+    "gpu_buffer:",
+    "context1",
+    "ToImageCalculator",
+    "IMAGE_GPU:gpu_buffer\"",
+    "IMAGE:image_gpu"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_recognizer.binarypb",
+   "size": 233,
+   "sha256": "e80538539371576a",
+   "magic": "0a44747970652e67",
+   "strings": [
+    "Dtype.googleapis.com/google_ocr.MultiPassLineRecognitionMutatorConfig",
+    "G./gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+    ")LanguageBasedLineRecognizerConfigSelector"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner.binarypb",
+   "size": 331,
+   "sha256": "32c2c1b72ba32605",
+   "magic": "0a95021217676f6f",
+   "strings": [
+    "google_ocr::OcrSubgraph",
+    "sampled_frames\"",
+    "sampled_layouts*",
+    "runtime_options:",
+    "ocr_subgraph_template",
+    "Mtaser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+    "data_dir",
+    "init_image_width",
+    "init_image_height",
+    "sampled_framesz",
+    "sampled_layouts",
+    "runtime_options"
+   ]
+  },
+  {
+   "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner_ti.binarypb",
+   "size": 334,
+   "sha256": "2c8581869ebb972a",
+   "magic": "0a98021217676f6f",
+   "strings": [
+    "google_ocr::OcrSubgraph",
+    "sampled_frames\"",
+    "sampled_layouts*",
+    "runtime_options:",
+    "ocr_subgraph_template",
+    "Ptaser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+    "data_dir",
+    "init_image_width",
+    "init_image_height",
+    "sampled_framesz",
+    "sampled_layouts",
+    "runtime_options"
+   ]
+  },
+  {
+   "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+   "size": 390456,
+   "sha256": "6c7b209f4256ca45",
+   "magic_ok": true,
+   "format_version": 917504,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "AKYmPPr",
+    "AOVgc",
+    "AZe.n",
+    "AehXJpZarfqS",
+    "Ajkl",
+    "Anijy",
+    "AnoqY",
+    "AnrWk",
+    "AsEt",
+    "Aswbslzkv",
+    "AuXCn4mU",
+    "Av4s",
+    "Axdt",
+    "BBfXb",
+    "BEZqucs",
+    "BHxh",
+    "BHyt_pjo",
+    "BRiqmtaSVx",
+    "BUGF",
+    "BZqjsr",
+    "BcTmZu",
+    "BdPg",
+    "BduWVnKkZzdnDaUfl_XOraidEjbol",
+    "Bgsx",
+    "Bk0Y"
+   ]
+  },
+  {
+   "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+   "size": 213880,
+   "sha256": "8e07cd3b38da1ded",
+   "magic_ok": true,
+   "format_version": 1179648,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "AJZJ6F",
+    "ANfecM",
+    "ARVOvkj",
+    "AYSxhbfUWctQegDUem",
+    "AlmGk",
+    "Avqvtppvuuqsrvustpsssstptusppsrprssssssss",
+    "BCoY",
+    "BFXj",
+    "BQCeYRmCAj",
+    "Bbqr",
+    "BnGiJzcIch",
+    "CG2Q",
+    "CJ0Ek/OB",
+    "CRs5",
+    "CaOb",
+    "Cauj9V",
+    "Cjgq",
+    "Converted.",
+    "Cqwrqnrquvnyrxpomnypsrsyotvxnootsssssssss",
+    "CufQb",
+    "DC1kqu4A",
+    "DKFDV9C",
+    "DSVFbz",
+    "DXaz",
+    "DcMQGZ7FNMbOW"
+   ]
+  },
+  {
+   "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+   "size": 276552,
+   "sha256": "981c89dcca6aac10",
+   "magic_ok": true,
+   "format_version": 1179648,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "ATNxqzNi",
+    "AUyi",
+    "AXdYo",
+    "AYvq",
+    "AZe_",
+    "AZjlsWFcacPeXt",
+    "Af_en_dl",
+    "Afpct",
+    "AhcN",
+    "AiVq",
+    "Amrc",
+    "ArVa",
+    "Argm",
+    "AtsrL",
+    "AupQo",
+    "AxcNg",
+    "Axnj",
+    "BLoxcKr",
+    "BPxxcripalXVe",
+    "BTP_UnSkZboT",
+    "BXalNVmncRi",
+    "BXcaboVgglffeP",
+    "B_YZmfbw",
+    "BcMasijc",
+    "Bcnmrq_fk"
+   ]
+  },
+  {
+   "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+   "size": 1706957,
+   "sha256": "479cb95767462b2f",
+   "magic_ok": true,
+   "format_version": 2097172,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "A.HW",
+    "A1MDOVFjcNbCWHqIEnNT",
+    "A2OfH9",
+    "A9Jc",
+    "ACZplMj_ZYMsbdalS_YqULVTlujXP",
+    "AE5S",
+    "AGWEHs",
+    "AJEJV",
+    "AJVRO",
+    "AJnqR",
+    "ALYTf",
+    "ALc6",
+    "APcXj",
+    "AQ9K8InNUY",
+    "AUxiYGFJoz",
+    "AWUVnMd_",
+    "AXTAiZW",
+    "AYEbxwaJ",
+    "AZNK",
+    "A_wXXf",
+    "AaAP",
+    "AbecKcktgaTfmtRns",
+    "AbfRMWmbPmKIH_w",
+    "AcTfZ",
+    "AfiMIYCZN"
+   ]
+  },
+  {
+   "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+   "size": 1254848,
+   "sha256": "fb5e5188b03c3bc0",
+   "magic_ok": true,
+   "format_version": 2097172,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "A149",
+    "AUqD",
+    "Ab4c",
+    "AeUj",
+    "Afxx",
+    "Aizv",
+    "Aljw",
+    "Amfd",
+    "Apkf",
+    "ArSa",
+    "Avla",
+    "Avqs",
+    "AwodQw",
+    "AxaoP",
+    "B7JG_",
+    "BPKr",
+    "BQls",
+    "BVkrq",
+    "BYem",
+    "B_JI",
+    "B_Ze",
+    "Baso",
+    "Bb0e",
+    "Bgur",
+    "Bif2nx"
+   ]
+  },
+  {
+   "path": "assets/mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+   "size": 153000,
+   "sha256": "9932a0b82471e50d",
+   "magic": "0da8aaaa3c0dacaa",
+   "strings": []
+  },
+  {
+   "path": "assets/models_bundled/MFT_fssd_accgray.pb",
+   "size": 793,
+   "sha256": "f0adb04d7b21b4d9",
+   "magic": "2d000080bf62c001",
+   "strings": [
+    "fssd_100_8bit_gray_v1.tflite"
+   ]
+  },
+  {
+   "path": "assets/models_bundled/MFT_fssd_fastgray.pb",
+   "size": 792,
+   "sha256": "0943425df1b350e0",
+   "magic": "2d000080bf62bf01",
+   "strings": [
+    "fssd_25_8bit_gray_v1.tflite"
+   ]
+  },
+  {
+   "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+   "size": 231816,
+   "sha256": "57dc1f2a3b9c0c5d",
+   "magic_ok": true,
+   "format_version": 0,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "ATjW",
+    "A_fe",
+    "AfdpbtnV",
+    "AgEM",
+    "Agmimc_",
+    "AiD_",
+    "Akre",
+    "AxgnPP5lfY1T",
+    "Azgm",
+    "BWFqJJrPyYdCVXTKYmB",
+    "B_larUOSWeLUYX",
+    "BaWe",
+    "BciLtrLVsvi",
+    "Bgyv",
+    "Blab",
+    "Bmgf9",
+    "BoxPredictor_0/BoxEncodingPredictor/Conv2",
+    "BoxPredictor_0/BoxEncodingPredictor/act_q",
+    "BoxPredictor_0/BoxEncodingPredictor/weigh",
+    "BoxPredictor_0/BoxEncodingPredictor_depth",
+    "BoxPredictor_0/ClassPredictor/Conv2D_bias",
+    "BoxPredictor_0/ClassPredictor/act_quant/F",
+    "BoxPredictor_0/ClassPredictor/weights_qua",
+    "BoxPredictor_0/ClassPredictor_depthwise/R",
+    "BoxPredictor_0/ClassPredictor_depthwise/d"
+   ]
+  },
+  {
+   "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+   "size": 232096,
+   "sha256": "d8abae91b0e0af52",
+   "magic_ok": true,
+   "format_version": 0,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "ADvc",
+    "AUvD",
+    "Ay6DtO",
+    "BISWTSW8VlQNQPRRRRRYQUSPQTNRSSRXRZ",
+    "Bkxj",
+    "BoxPredictor_0/BoxEncodingPredictor/Conv2",
+    "BoxPredictor_0/BoxEncodingPredictor/act_q",
+    "BoxPredictor_0/BoxEncodingPredictor/weigh",
+    "BoxPredictor_0/BoxEncodingPredictor_depth",
+    "BoxPredictor_0/ClassPredictor/Conv2D_bias",
+    "BoxPredictor_0/ClassPredictor/act_quant/F",
+    "BoxPredictor_0/ClassPredictor/weights_qua",
+    "BoxPredictor_0/ClassPredictor_depthwise/R",
+    "BoxPredictor_0/ClassPredictor_depthwise/d",
+    "BoxPredictor_0/ClassPredictor_depthwise/w",
+    "BoxPredictor_1/BoxEncodingPredictor/Conv2",
+    "BoxPredictor_1/BoxEncodingPredictor/act_q",
+    "BoxPredictor_1/BoxEncodingPredictor/weigh",
+    "BoxPredictor_1/BoxEncodingPredictor_depth",
+    "BoxPredictor_1/ClassPredictor/Conv2D_bias",
+    "BoxPredictor_1/ClassPredictor/act_quant/F",
+    "BoxPredictor_1/ClassPredictor/weights_qua",
+    "BoxPredictor_1/ClassPredictor_depthwise/R",
+    "BoxPredictor_1/ClassPredictor_depthwise/d",
+    "BoxPredictor_1/ClassPredictor_depthwise/w"
+   ]
+  },
+  {
+   "path": "assets/models_bundled/fssd_anchors_v2.pb",
+   "size": 146,
+   "sha256": "7516ed46c04ab0fb",
+   "magic": "0a220d0000c0410d",
+   "strings": []
+  },
+  {
+   "path": "assets/models_bundled/fssd_anchors_v5.pb",
+   "size": 144,
+   "sha256": "5390cab6b491eb32",
+   "magic": "0a220d000020410d",
+   "strings": []
+  },
+  {
+   "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+   "size": 613080,
+   "sha256": "f0590874fd3a006c",
+   "magic_ok": true,
+   "format_version": 0,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "AKyt",
+    "ATRq",
+    "AZLFutV",
+    "AbXUopli",
+    "AbbXVnv",
+    "AcEAx",
+    "AiOcxuYkbxcm",
+    "Aifn",
+    "Algr",
+    "Anhqc",
+    "AnjmnSX",
+    "Anwrz",
+    "Aozm",
+    "Apusu",
+    "AsYmr",
+    "AwYPt",
+    "Awv2",
+    "AyzlHpuofXhE",
+    "BBmpr",
+    "BJkT",
+    "BKNjHqtub",
+    "BLmm",
+    "BSyl",
+    "BWH2l",
+    "BXcs"
+   ]
+  },
+  {
+   "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+   "size": 613352,
+   "sha256": "ae2fa78e29441438",
+   "magic_ok": true,
+   "format_version": 0,
+   "operators": [],
+   "n_operators": 0,
+   "tensor_names_sample": [
+    "A5LE",
+    "AGxo",
+    "AHxaSpi",
+    "AJlMx",
+    "AYODlbHLsc",
+    "A_jfgbl",
+    "Aa_A_",
+    "AbEp",
+    "AeuYdm",
+    "AilfZbpWn",
+    "AinyU",
+    "Akcv",
+    "AlLP",
+    "AlWEU2bu",
+    "Anmhb",
+    "Aq07/",
+    "AqmH",
+    "Aspk",
+    "AtZcTVbqVdW_u",
+    "Audf",
+    "Avchphngk",
+    "Avci",
+    "AyrWyh",
+    "AzedOca",
+    "B0aVKX"
+   ]
+  }
+ ],
+ "resources": {
+  "size": 1802300,
+  "packages": [
+   {
+    "id": 127,
+    "name": "vn.com.vng.zalopay",
+    "types": 78,
+    "type_specs": 21,
+    "keys": 22,
+    "strings": 14570,
+    "entries": 122610,
+    "aliases": 0
+   },
+   {
+    "id": 128,
+    "name": "vn.com.vng.zalopay.changepin",
+    "types": 4,
+    "type_specs": 4,
+    "keys": 4,
+    "strings": 47,
+    "entries": 47,
+    "aliases": 1
+   },
+   {
+    "id": 129,
+    "name": "vn.com.vng.zalopay.resetpin",
+    "types": 5,
+    "type_specs": 5,
+    "keys": 5,
+    "strings": 103,
+    "entries": 103,
+    "aliases": 1
+   },
+   {
+    "id": 130,
+    "name": "vn.com.vng.zalopay.login_v2",
+    "types": 10,
+    "type_specs": 9,
+    "keys": 9,
+    "strings": 368,
+    "entries": 570,
+    "aliases": 1
+   },
+   {
+    "id": 131,
+    "name": "vn.com.vng.zalopay.cashier",
+    "types": 7,
+    "type_specs": 7,
+    "keys": 7,
+    "strings": 323,
+    "entries": 387,
+    "aliases": 1
+   },
+   {
+    "id": 132,
+    "name": "vn.com.vng.zalopay.bank_binding",
+    "types": 11,
+    "type_specs": 11,
+    "keys": 11,
+    "strings": 631,
+    "entries": 659,
+    "aliases": 1
+   },
+   {
+    "id": 133,
+    "name": "vn.com.vng.zalopay.updatephone",
+    "types": 4,
+    "type_specs": 4,
+    "keys": 6,
+    "strings": 24,
+    "entries": 37,
+    "aliases": 1
+   },
+   {
+    "id": 134,
+    "name": "vn.com.vng.zalopay.cash_in",
+    "types": 5,
+    "type_specs": 5,
+    "keys": 5,
+    "strings": 45,
+    "entries": 72,
+    "aliases": 1
+   },
+   {
+    "id": 135,
+    "name": "vn.com.vng.zalopay.resultpage",
+    "types": 6,
+    "type_specs": 6,
+    "keys": 7,
+    "strings": 40,
+    "entries": 47,
+    "aliases": 1
+   },
+   {
+    "id": 136,
+    "name": "vn.com.vng.zalopay.withdraw",
+    "types": 5,
+    "type_specs": 5,
+    "keys": 5,
+    "strings": 57,
+    "entries": 61,
+    "aliases": 1
+   },
+   {
+    "id": 137,
+    "name": "vn.com.vng.zalopay.cashier_v3",
+    "types": 6,
+    "type_specs": 6,
+    "keys": 7,
+    "strings": 70,
+    "entries": 70,
+    "aliases": 1
+   },
+   {
+    "id": 138,
+    "name": "vn.com.vng.zalopay.result_page_v3",
+    "types": 7,
+    "type_specs": 7,
+    "keys": 7,
+    "strings": 31,
+    "entries": 36,
+    "aliases": 1
+   },
+   {
+    "id": 139,
+    "name": "vn.com.vng.zalopay.liveness",
+    "types": 3,
+    "type_specs": 3,
+    "keys": 3,
+    "strings": 49,
+    "entries": 51,
+    "aliases": 1
+   }
+  ],
+  "chunk_histogram": {
+   "string_pool": 27,
+   "package": 13,
+   "type_spec": 93,
+   "type": 151,
+   "library": 12
+  },
+  "n_type_chunks": 151,
+  "n_type_spec": 93,
+  "locales": {},
+  "n_locales": 0,
+  "type_names": {
+   "anim": 4,
+   "animator": 1,
+   "array": 2,
+   "attr": 3,
+   "bool": 6,
+   "color": 9,
+   "dimen": 19,
+   "drawable": 22,
+   "font": 1,
+   "id": 12,
+   "integer": 3,
+   "interpolator": 1,
+   "layout": 17,
+   "menu": 1,
+   "mipmap": 7,
+   "navigation": 4,
+   "plurals": 1,
+   "raw": 5,
+   "string": 13,
+   "style": 18,
+   "xml": 2
+  },
+  "key_count": 98,
+  "string_pool": {
+   "count": 7763,
+   "utf8": true
+  },
+  "density_buckets": {
+   "default": 137,
+   "hdpi": 3,
+   "mdpi": 2,
+   "xhdpi": 2,
+   "xxhdpi": 3,
+   "xxxhdpi": 2,
+   "anydpi": 2
+  },
+  "package_count_header": 13,
+  "apk": "vn.com.vng.zalopay.apk"
+ }
+}

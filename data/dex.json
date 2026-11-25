@@ -1,0 +1,2936 @@
+{
+ "per_dex": [
+  {
+   "file": "classes2.dex",
+   "size": 16516960,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 56948,
+   "types": 11243,
+   "protos": 12070,
+   "fields": 60000,
+   "methods": 45527,
+   "classes": 7421,
+   "code_bytes": 11612196,
+   "tries": 23273,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8194,
+    4097,
+    8197,
+    8196,
+    4099,
+    4098,
+    8198,
+    8195,
+    8193,
+    8192,
+    4096
+   ]
+  },
+  {
+   "file": "classes7.dex",
+   "size": 10803680,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 59110,
+   "types": 20633,
+   "protos": 16081,
+   "fields": 43164,
+   "methods": 60000,
+   "classes": 12953,
+   "code_bytes": 6299404,
+   "tries": 4223,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8194,
+    4097,
+    8197,
+    8196,
+    4099,
+    4098,
+    8198,
+    8195,
+    8193,
+    8192,
+    4096
+   ]
+  },
+  {
+   "file": "classes4.dex",
+   "size": 9418124,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 52812,
+   "types": 19105,
+   "protos": 15731,
+   "fields": 40269,
+   "methods": 59997,
+   "classes": 11441,
+   "code_bytes": 5468676,
+   "tries": 9250,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8194,
+    4097,
+    8197,
+    8196,
+    4099,
+    4098,
+    8198,
+    8195,
+    8193,
+    8192,
+    4096
+   ]
+  },
+  {
+   "file": "classes.dex",
+   "size": 8831004,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 61218,
+   "types": 17196,
+   "protos": 15953,
+   "fields": 46956,
+   "methods": 59948,
+   "classes": 10703,
+   "code_bytes": 4430992,
+   "tries": 6233,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8194,
+    4097,
+    8197,
+    8196,
+    4099,
+    4098,
+    8198,
+    8195,
+    8193,
+    8192,
+    4096
+   ]
+  },
+  {
+   "file": "classes6.dex",
+   "size": 7612432,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 55274,
+   "types": 18399,
+   "protos": 15543,
+   "fields": 36617,
+   "methods": 49201,
+   "classes": 5475,
+   "code_bytes": 4001700,
+   "tries": 6340,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8194,
+    4097,
+    8197,
+    8196,
+    4099,
+    4098,
+    8198,
+    8195,
+    8193,
+    8192,
+    4096
+   ]
+  },
+  {
+   "file": "classes5.dex",
+   "size": 7357484,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 56424,
+   "types": 14079,
+   "protos": 13049,
+   "fields": 60002,
+   "methods": 49055,
+   "classes": 7983,
+   "code_bytes": 3150970,
+   "tries": 7072,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8194,
+    4097,
+    8197,
+    8196,
+    4099,
+    4098,
+    8198,
+    8195,
+    8193,
+    8192,
+    4096
+   ]
+  },
+  {
+   "file": "audience_network.dex",
+   "size": 4864036,
+   "version": "035",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 30638,
+   "types": 4504,
+   "protos": 6477,
+   "fields": 13323,
+   "methods": 26792,
+   "classes": 3156,
+   "code_bytes": 2079902,
+   "tries": 2065,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8197,
+    4097,
+    8194,
+    8193,
+    8192,
+    8196,
+    4099,
+    4098,
+    8198,
+    8195,
+    4096
+   ]
+  },
+  {
+   "file": "classes9.dex",
+   "size": 1218908,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 6155,
+   "types": 2175,
+   "protos": 1827,
+   "fields": 4520,
+   "methods": 7170,
+   "classes": 1128,
+   "code_bytes": 625858,
+   "tries": 90,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    8195,
+    4097,
+    8194,
+    8196,
+    8192,
+    8197,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  },
+  {
+   "file": "classes3.dex",
+   "size": 850600,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 8010,
+   "types": 3827,
+   "protos": 2361,
+   "fields": 3619,
+   "methods": 6354,
+   "classes": 1081,
+   "code_bytes": 431718,
+   "tries": 278,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8194,
+    4097,
+    8197,
+    8196,
+    4099,
+    4098,
+    8198,
+    8195,
+    8193,
+    8192,
+    4096
+   ]
+  },
+  {
+   "file": "classes19.dex",
+   "size": 719548,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 4159,
+   "types": 1782,
+   "protos": 1445,
+   "fields": 2804,
+   "methods": 3781,
+   "classes": 777,
+   "code_bytes": 452398,
+   "tries": 90,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    8195,
+    4097,
+    8194,
+    8196,
+    8192,
+    8197,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  },
+  {
+   "file": "classes12.dex",
+   "size": 398276,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 3207,
+   "types": 1191,
+   "protos": 916,
+   "fields": 1723,
+   "methods": 2604,
+   "classes": 425,
+   "code_bytes": 213256,
+   "tries": 72,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    8195,
+    4097,
+    8194,
+    8196,
+    8192,
+    8197,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  },
+  {
+   "file": "classes8.dex",
+   "size": 239036,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 1906,
+   "types": 915,
+   "protos": 697,
+   "fields": 1056,
+   "methods": 1552,
+   "classes": 295,
+   "code_bytes": 126146,
+   "tries": 5,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    8195,
+    4097,
+    8194,
+    8196,
+    8192,
+    8197,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  },
+  {
+   "file": "classes17.dex",
+   "size": 208476,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 1847,
+   "types": 848,
+   "protos": 611,
+   "fields": 972,
+   "methods": 1311,
+   "classes": 243,
+   "code_bytes": 104792,
+   "tries": 8,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    8195,
+    4097,
+    8194,
+    8196,
+    8192,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  },
+  {
+   "file": "classes11.dex",
+   "size": 163420,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 1584,
+   "types": 740,
+   "protos": 523,
+   "fields": 694,
+   "methods": 1171,
+   "classes": 177,
+   "code_bytes": 77336,
+   "tries": 20,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    8195,
+    4097,
+    8194,
+    8196,
+    8192,
+    8197,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  },
+  {
+   "file": "classes13.dex",
+   "size": 145824,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 1381,
+   "types": 590,
+   "protos": 420,
+   "fields": 561,
+   "methods": 997,
+   "classes": 139,
+   "code_bytes": 68090,
+   "tries": 13,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    8195,
+    4097,
+    8194,
+    8196,
+    8192,
+    8197,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  },
+  {
+   "file": "classes18.dex",
+   "size": 95920,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 1094,
+   "types": 553,
+   "protos": 373,
+   "fields": 428,
+   "methods": 668,
+   "classes": 115,
+   "code_bytes": 40032,
+   "tries": 0,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    8195,
+    4097,
+    8194,
+    8196,
+    8192,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  },
+  {
+   "file": "classes15.dex",
+   "size": 82152,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 1005,
+   "types": 436,
+   "protos": 305,
+   "fields": 410,
+   "methods": 658,
+   "classes": 113,
+   "code_bytes": 30292,
+   "tries": 13,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    8195,
+    4097,
+    8194,
+    8196,
+    8192,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  },
+  {
+   "file": "classes14.dex",
+   "size": 81748,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 961,
+   "types": 404,
+   "protos": 249,
+   "fields": 371,
+   "methods": 575,
+   "classes": 90,
+   "code_bytes": 33702,
+   "tries": 12,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    8195,
+    4097,
+    8194,
+    8196,
+    8192,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  },
+  {
+   "file": "classes10.dex",
+   "size": 78204,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 920,
+   "types": 461,
+   "protos": 300,
+   "fields": 314,
+   "methods": 578,
+   "classes": 92,
+   "code_bytes": 32450,
+   "tries": 11,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    8195,
+    4097,
+    8194,
+    8196,
+    8192,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  },
+  {
+   "file": "classes16.dex",
+   "size": 15916,
+   "version": "038",
+   "sha1_ok": true,
+   "adler32_ok": true,
+   "strings": 261,
+   "types": 116,
+   "protos": 69,
+   "fields": 38,
+   "methods": 101,
+   "classes": 20,
+   "code_bytes": 2490,
+   "tries": 0,
+   "map_types": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8193,
+    4097,
+    8194,
+    8196,
+    8192,
+    4099,
+    4098,
+    8198,
+    4096
+   ]
+  }
+ ],
+ "totals": {
+  "classes": 63827,
+  "methods": 287480,
+  "fields": 286224,
+  "code_bytes": 39282400,
+  "native_methods": 2026,
+  "abstract_methods": 19463,
+  "tries": 59068,
+  "dex_files": 20,
+  "dex_bytes": 69701748,
+  "interfaces": 11251,
+  "enums": 1558,
+  "abstract_class_ish": 5056,
+  "synthetic_classes": 4029,
+  "inner_classes": 7856,
+  "native_classes": 405,
+  "all_sha1_ok": true,
+  "all_adler32_ok": true
+ },
+ "owners": [
+  {
+   "owner": "R8-obfuscated (relocated)",
+   "classes": 28915,
+   "methods": 98231,
+   "pct_classes": 45.3
+  },
+  {
+   "owner": "Google (AndroidX/GMS/Firebase)",
+   "classes": 7761,
+   "methods": 35338,
+   "pct_classes": 12.16
+  },
+  {
+   "owner": "Bouncy Castle",
+   "classes": 6112,
+   "methods": 33931,
+   "pct_classes": 9.58
+  },
+  {
+   "owner": "Alibaba (Griver/ARiver)",
+   "classes": 4821,
+   "methods": 27362,
+   "pct_classes": 7.55
+  },
+  {
+   "owner": "AndroidX",
+   "classes": 4250,
+   "methods": 18320,
+   "pct_classes": 6.66
+  },
+  {
+   "owner": "Meta SDK",
+   "classes": 3622,
+   "methods": 24903,
+   "pct_classes": 5.67
+  },
+  {
+   "owner": "Alipay IAPConnect",
+   "classes": 1599,
+   "methods": 6491,
+   "pct_classes": 2.51
+  },
+  {
+   "owner": "Visa CBP",
+   "classes": 1370,
+   "methods": 8314,
+   "pct_classes": 2.15
+  },
+  {
+   "owner": "ZaloPay (first-party)",
+   "classes": 1053,
+   "methods": 7496,
+   "pct_classes": 1.65
+  },
+  {
+   "owner": "TrueID eKYC",
+   "classes": 622,
+   "methods": 4632,
+   "pct_classes": 0.97
+  },
+  {
+   "owner": "Alipay",
+   "classes": 493,
+   "methods": 2701,
+   "pct_classes": 0.77
+  },
+  {
+   "owner": "AppsFlyer",
+   "classes": 430,
+   "methods": 2349,
+   "pct_classes": 0.67
+  },
+  {
+   "owner": "VNPAY",
+   "classes": 388,
+   "methods": 1866,
+   "pct_classes": 0.61
+  },
+  {
+   "owner": "Kotlin stdlib",
+   "classes": 378,
+   "methods": 3721,
+   "pct_classes": 0.59
+  },
+  {
+   "owner": "Nimbus JOSE+JWT",
+   "classes": 361,
+   "methods": 2674,
+   "pct_classes": 0.57
+  },
+  {
+   "owner": "OkHttp",
+   "classes": 335,
+   "methods": 2861,
+   "pct_classes": 0.52
+  },
+  {
+   "owner": "RxJava",
+   "classes": 266,
+   "methods": 1328,
+   "pct_classes": 0.42
+  },
+  {
+   "owner": "Glide",
+   "classes": 213,
+   "methods": 718,
+   "pct_classes": 0.33
+  },
+  {
+   "owner": "Lottie",
+   "classes": 173,
+   "methods": 718,
+   "pct_classes": 0.27
+  },
+  {
+   "owner": "third-party (other)",
+   "classes": 137,
+   "methods": 694,
+   "pct_classes": 0.21
+  },
+  {
+   "owner": "Retrofit",
+   "classes": 137,
+   "methods": 487,
+   "pct_classes": 0.21
+  },
+  {
+   "owner": "Okio",
+   "classes": 107,
+   "methods": 1474,
+   "pct_classes": 0.17
+  },
+  {
+   "owner": "Square (Moshi/OkHttp/LeakCanary)",
+   "classes": 81,
+   "methods": 511,
+   "pct_classes": 0.13
+  },
+  {
+   "owner": "Android platform",
+   "classes": 79,
+   "methods": 151,
+   "pct_classes": 0.12
+  },
+  {
+   "owner": "Dagger",
+   "classes": 51,
+   "methods": 40,
+   "pct_classes": 0.08
+  },
+  {
+   "owner": "Chromium/WebView",
+   "classes": 38,
+   "methods": 143,
+   "pct_classes": 0.06
+  },
+  {
+   "owner": "Jackson",
+   "classes": 25,
+   "methods": 24,
+   "pct_classes": 0.04
+  },
+  {
+   "owner": "Java EE",
+   "classes": 5,
+   "methods": 0,
+   "pct_classes": 0.01
+  },
+  {
+   "owner": "Apache Commons/HTTP",
+   "classes": 3,
+   "methods": 2,
+   "pct_classes": 0.0
+  },
+  {
+   "owner": "JetBrains (Kotlin tooling)",
+   "classes": 2,
+   "methods": 0,
+   "pct_classes": 0.0
+  }
+ ],
+ "pkg_depth1": [
+  [
+   "com",
+   22091
+  ],
+  [
+   "org",
+   6672
+  ],
+  [
+   "androidx",
+   4250
+  ],
+  [
+   "vn",
+   1936
+  ],
+  [
+   "q9",
+   472
+  ],
+  [
+   "p9",
+   454
+  ],
+  [
+   "kotlin",
+   355
+  ],
+  [
+   "okhttp3",
+   335
+  ],
+  [
+   "n9",
+   315
+  ],
+  [
+   "m9",
+   314
+  ],
+  [
+   "io",
+   285
+  ],
+  [
+   "Va",
+   253
+  ],
+  [
+   "n0",
+   212
+  ],
+  [
+   "app",
+   157
+  ],
+  [
+   "retrofit2",
+   137
+  ],
+  [
+   "q0",
+   137
+  ],
+  [
+   "F",
+   127
+  ],
+  [
+   "BV",
+   124
+  ],
+  [
+   "B2",
+   117
+  ],
+  [
+   "uo",
+   115
+  ],
+  [
+   "f8",
+   111
+  ],
+  [
+   "s3",
+   108
+  ],
+  [
+   "okio",
+   107
+  ],
+  [
+   "gi",
+   106
+  ],
+  [
+   "X",
+   104
+  ],
+  [
+   "sb",
+   103
+  ],
+  [
+   "h3",
+   100
+  ],
+  [
+   "S",
+   98
+  ],
+  [
+   "DC",
+   95
+  ],
+  [
+   "ap",
+   93
+  ],
+  [
+   "vh",
+   89
+  ],
+  [
+   "c1",
+   88
+  ],
+  [
+   "net",
+   87
+  ],
+  [
+   "T",
+   84
+  ],
+  [
+   "yK",
+   84
+  ],
+  [
+   "E8",
+   84
+  ],
+  [
+   "a1",
+   83
+  ],
+  [
+   "h0",
+   83
+  ],
+  [
+   "R",
+   80
+  ],
+  [
+   "SV",
+   80
+  ],
+  [
+   "is",
+   80
+  ],
+  [
+   "android",
+   79
+  ],
+  [
+   "Ho",
+   79
+  ],
+  [
+   "Rg",
+   78
+  ],
+  [
+   "ji",
+   78
+  ],
+  [
+   "jV",
+   75
+  ],
+  [
+   "n",
+   75
+  ],
+  [
+   "yi",
+   74
+  ],
+  [
+   "fA",
+   74
+  ],
+  [
+   "mK",
+   73
+  ],
+  [
+   "Wy",
+   72
+  ],
+  [
+   "o",
+   72
+  ],
+  [
+   "SM",
+   70
+  ],
+  [
+   "Ro",
+   70
+  ],
+  [
+   "XH",
+   69
+  ],
+  [
+   "Xg",
+   66
+  ],
+  [
+   "Io",
+   64
+  ],
+  [
+   "JW",
+   63
+  ],
+  [
+   "w9",
+   63
+  ],
+  [
+   "H8",
+   63
+  ]
+ ],
+ "pkg_depth2": [
+  [
+   "com.google",
+   7761
+  ],
+  [
+   "org.bouncycastle",
+   6112
+  ],
+  [
+   "com.alibaba",
+   4821
+  ],
+  [
+   "com.facebook",
+   3622
+  ],
+  [
+   "com.iap",
+   1599
+  ],
+  [
+   "com.visa",
+   1370
+  ],
+  [
+   "androidx.media3",
+   1198
+  ],
+  [
+   "vn.com",
+   1054
+  ],
+  [
+   "androidx.camera",
+   813
+  ],
+  [
+   "vn.ai",
+   689
+  ],
+  [
+   "androidx.compose",
+   504
+  ],
+  [
+   "com.alipay",
+   493
+  ],
+  [
+   "com.appsflyer",
+   430
+  ],
+  [
+   "com.vnpay",
+   388
+  ],
+  [
+   "com.nimbusds",
+   361
+  ],
+  [
+   "com.xq",
+   299
+  ],
+  [
+   "androidx.appcompat",
+   273
+  ],
+  [
+   "io.reactivex",
+   266
+  ],
+  [
+   "androidx.core",
+   258
+  ],
+  [
+   "org.jmrtd",
+   237
+  ],
+  [
+   "okhttp3.internal",
+   216
+  ],
+  [
+   "com.bumptech",
+   213
+  ],
+  [
+   "vn.zalopay",
+   186
+  ],
+  [
+   "org.jsoup",
+   175
+  ],
+  [
+   "com.airbnb",
+   173
+  ],
+  [
+   "androidx.glance",
+   173
+  ],
+  [
+   "app.rive",
+   157
+  ],
+  [
+   "androidx.work",
+   152
+  ],
+  [
+   "androidx.datastore",
+   141
+  ],
+  [
+   "com.android",
+   137
+  ],
+  [
+   "kotlin.reflect",
+   123
+  ],
+  [
+   "androidx.fragment",
+   115
+  ],
+  [
+   "com.tiktok",
+   109
+  ],
+  [
+   "androidx.recyclerview",
+   106
+  ],
+  [
+   "com.caverock",
+   91
+  ],
+  [
+   "androidx.lifecycle",
+   82
+  ],
+  [
+   "com.squareup",
+   81
+  ],
+  [
+   "kotlin.collections",
+   72
+  ],
+  [
+   "com.karumi",
+   65
+  ],
+  [
+   "org.ejbca",
+   61
+  ],
+  [
+   "android.support",
+   59
+  ],
+  [
+   "net.zetetic",
+   57
+  ],
+  [
+   "kotlin.jvm",
+   55
+  ],
+  [
+   "androidx.activity",
+   52
+  ],
+  [
+   "androidx.constraintlayout",
+   50
+  ],
+  [
+   "androidx.transition",
+   50
+  ],
+  [
+   "kotlin.text",
+   44
+  ],
+  [
+   "androidx.emoji2",
+   42
+  ],
+  [
+   "androidx.biometric",
+   41
+  ],
+  [
+   "androidx.media",
+   40
+  ],
+  [
+   "org.chromium",
+   38
+  ],
+  [
+   "net.sf",
+   30
+  ],
+  [
+   "androidx.test",
+   30
+  ],
+  [
+   "retrofit2.http",
+   25
+  ],
+  [
+   "androidx.webkit",
+   25
+  ],
+  [
+   "com.fasterxml",
+   25
+  ],
+  [
+   "okio.internal",
+   23
+  ],
+  [
+   "org.greenrobot",
+   22
+  ],
+  [
+   "androidx.databinding",
+   22
+  ],
+  [
+   "com.fpt",
+   21
+  ]
+ ],
+ "pkg_depth3": [
+  [
+   "com.google.android",
+   6507
+  ],
+  [
+   "com.facebook.ads",
+   3254
+  ],
+  [
+   "com.alibaba.ariver",
+   2415
+  ],
+  [
+   "com.alibaba.griver",
+   2228
+  ],
+  [
+   "org.bouncycastle.jcajce",
+   1758
+  ],
+  [
+   "com.iap.ac",
+   1330
+  ],
+  [
+   "org.bouncycastle.pqc",
+   975
+  ],
+  [
+   "vn.com.vng",
+   958
+  ],
+  [
+   "com.visa.cbp",
+   900
+  ],
+  [
+   "org.bouncycastle.crypto",
+   836
+  ],
+  [
+   "org.bouncycastle.asn1",
+   748
+  ],
+  [
+   "vn.ai.trueid",
+   622
+  ],
+  [
+   "androidx.media3.exoplayer",
+   538
+  ],
+  [
+   "com.vnpay.vntaxi",
+   377
+  ],
+  [
+   "com.appsflyer.internal",
+   364
+  ],
+  [
+   "com.nimbusds.jose",
+   360
+  ],
+  [
+   "com.visa.visapaysdk",
+   337
+  ],
+  [
+   "org.bouncycastle.oer",
+   315
+  ],
+  [
+   "androidx.media3.extractor",
+   309
+  ],
+  [
+   "androidx.camera.core",
+   306
+  ],
+  [
+   "com.google.common",
+   304
+  ],
+  [
+   "com.xq.cxzmoiwuegvp",
+   299
+  ],
+  [
+   "com.iap.android",
+   269
+  ],
+  [
+   "org.bouncycastle.math",
+   264
+  ],
+  [
+   "androidx.compose.ui",
+   261
+  ],
+  [
+   "io.reactivex.internal",
+   251
+  ],
+  [
+   "org.bouncycastle.cms",
+   240
+  ],
+  [
+   "androidx.compose.foundation",
+   234
+  ],
+  [
+   "androidx.camera.camera2",
+   234
+  ],
+  [
+   "com.alipay.plus",
+   230
+  ],
+  [
+   "com.google.firebase",
+   221
+  ],
+  [
+   "com.google.crypto",
+   221
+  ],
+  [
+   "com.bumptech.glide",
+   213
+  ],
+  [
+   "com.google.protobuf",
+   209
+  ],
+  [
+   "com.google.gson",
+   207
+  ],
+  [
+   "androidx.media3.common",
+   202
+  ],
+  [
+   "vn.zalopay.ui",
+   186
+  ],
+  [
+   "androidx.appcompat.widget",
+   178
+  ],
+  [
+   "com.airbnb.lottie",
+   173
+  ],
+  [
+   "androidx.glance.appwidget",
+   170
+  ],
+  [
+   "androidx.camera.video",
+   159
+  ],
+  [
+   "org.bouncycastle.cert",
+   158
+  ],
+  [
+   "app.rive.runtime",
+   157
+  ],
+  [
+   "org.jmrtd.lds",
+   151
+  ],
+  [
+   "androidx.datastore.preferences",
+   140
+  ],
+  [
+   "org.bouncycastle.operator",
+   135
+  ],
+  [
+   "org.bouncycastle.jce",
+   131
+  ],
+  [
+   "androidx.core.view",
+   127
+  ],
+  [
+   "androidx.fragment.app",
+   115
+  ],
+  [
+   "org.jsoup.parser",
+   110
+  ],
+  [
+   "androidx.work.impl",
+   108
+  ],
+  [
+   "androidx.recyclerview.widget",
+   106
+  ],
+  [
+   "com.alibaba.exthub",
+   102
+  ],
+  [
+   "vn.com.zalopay",
+   95
+  ],
+  [
+   "com.facebook.imagepipeline",
+   94
+  ],
+  [
+   "com.alipay.android",
+   92
+  ],
+  [
+   "com.caverock.androidsvg",
+   91
+  ],
+  [
+   "com.android.billingclient",
+   88
+  ],
+  [
+   "org.bouncycastle.util",
+   82
+  ],
+  [
+   "com.squareup.picasso",
+   81
+  ]
+ ],
+ "obfuscation": {
+  "single_letter_pkg_classes": 29190,
+  "single_letter_pkg_pct": 45.73,
+  "nonframework_roots": [
+   [
+    "vn",
+    1936
+   ],
+   [
+    "q9",
+    472
+   ],
+   [
+    "p9",
+    454
+   ],
+   [
+    "n9",
+    315
+   ],
+   [
+    "m9",
+    314
+   ],
+   [
+    "Va",
+    253
+   ],
+   [
+    "n0",
+    212
+   ],
+   [
+    "app",
+    157
+   ],
+   [
+    "q0",
+    137
+   ],
+   [
+    "F",
+    127
+   ],
+   [
+    "BV",
+    124
+   ],
+   [
+    "B2",
+    117
+   ],
+   [
+    "uo",
+    115
+   ],
+   [
+    "f8",
+    111
+   ],
+   [
+    "s3",
+    108
+   ],
+   [
+    "gi",
+    106
+   ],
+   [
+    "X",
+    104
+   ],
+   [
+    "sb",
+    103
+   ],
+   [
+    "h3",
+    100
+   ],
+   [
+    "S",
+    98
+   ],
+   [
+    "DC",
+    95
+   ],
+   [
+    "ap",
+    93
+   ],
+   [
+    "vh",
+    89
+   ],
+   [
+    "c1",
+    88
+   ],
+   [
+    "T",
+    84
+   ],
+   [
+    "yK",
+    84
+   ],
+   [
+    "E8",
+    84
+   ],
+   [
+    "a1",
+    83
+   ],
+   [
+    "h0",
+    83
+   ],
+   [
+    "R",
+    80
+   ],
+   [
+    "SV",
+    80
+   ],
+   [
+    "is",
+    80
+   ],
+   [
+    "Ho",
+    79
+   ],
+   [
+    "Rg",
+    78
+   ],
+   [
+    "ji",
+    78
+   ],
+   [
+    "jV",
+    75
+   ],
+   [
+    "n",
+    75
+   ],
+   [
+    "yi",
+    74
+   ],
+   [
+    "fA",
+    74
+   ],
+   [
+    "mK",
+    73
+   ]
+  ],
+  "real_root_classes": 34500,
+  "synthetic_pct": 6.31,
+  "inner_class_pct": 12.31,
+  "note": "single-letter top-level packages are the R8 relocation pool; their share is the best available static proxy for how much first-party code was renamed."
+ },
+ "superclass_roots": [
+  [
+   "Ljava/lang/Object;",
+   43146
+  ],
+  [
+   "Ljava/lang/Enum;",
+   1405
+  ],
+  [
+   "Lkotlin/jvm/internal/Lambda;",
+   1040
+  ],
+  [
+   "Lwg/c;",
+   1032
+  ],
+  [
+   "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
+   780
+  ],
+  [
+   "Lorg/bouncycastle/asn1/ASN1Object;",
+   546
+  ],
+  [
+   "Lcom/google/android/gms/internal/mlkit_vision_text_bundled_common/C5;",
+   330
+  ],
+  [
+   "Ljava/lang/Exception;",
+   256
+  ],
+  [
+   "LJ8/a;",
+   242
+  ],
+  [
+   "Lcom/google/android/gms/internal/mlkit_vision_internal_vkp/C0;",
+   174
+  ],
+  [
+   "Lc9/a;",
+   159
+  ],
+  [
+   "Landroidx/lifecycle/ViewModel;",
+   154
+  ],
+  [
+   "Ljava/lang/RuntimeException;",
+   145
+  ],
+  [
+   "Lorg/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher;",
+   139
+  ],
+  [
+   "Lcom/google/android/gms/internal/ads/CE;",
+   132
+  ],
+  [
+   "Lorg/bouncycastle/jcajce/provider/symmetric/util/BaseMac;",
+   132
+  ],
+  [
+   "Lorg/json/JSONObject;",
+   130
+  ],
+  [
+   "Lorg/bouncycastle/asn1/x9/X9ECParametersHolder;",
+   112
+  ],
+  [
+   "Lorg/bouncycastle/jcajce/provider/symmetric/util/BaseKeyGenerator;",
+   112
+  ],
+  [
+   "Lcom/google/gson/reflect/TypeToken;",
+   111
+  ],
+  [
+   "Ljava/io/IOException;",
+   105
+  ],
+  [
+   "Landroid/content/BroadcastReceiver;",
+   85
+  ],
+  [
+   "Lcom/facebook/ads/redexgen/X/BY;",
+   84
+  ],
+  [
+   "Lkotlin/jvm/internal/q;",
+   82
+  ],
+  [
+   "Lcom/google/android/gms/internal/ads/d5;",
+   79
+  ],
+  [
+   "Lc1/b0;",
+   78
+  ],
+  [
+   "Lcom/google/crypto/tink/shaded/protobuf/W;",
+   76
+  ],
+  [
+   "Lcom/google/crypto/tink/shaded/protobuf/Z;",
+   76
+  ],
+  [
+   "Landroid/widget/FrameLayout;",
+   75
+  ],
+  [
+   "LD0/r;",
+   74
+  ],
+  [
+   "Lcom/google/android/gms/internal/ads/AE;",
+   72
+  ],
+  [
+   "Lorg/jsoup/parser/d1;",
+   67
+  ],
+  [
+   "Lcom/google/android/gms/internal/mlkit_vision_barcode_bundled/l0;",
+   62
+  ],
+  [
+   "LSV/s0;",
+   58
+  ],
+  [
+   "Landroidx/recyclerview/widget/y0;",
+   57
+  ],
+  [
+   "Landroid/widget/LinearLayout;",
+   55
+  ],
+  [
+   "LTd/a;",
+   54
+  ],
+  [
+   "Landroidx/appcompat/app/AppCompatActivity;",
+   51
+  ],
+  [
+   "LBV/r0;",
+   51
+  ],
+  [
+   "Lcom/google/gson/TypeAdapter;",
+   51
+  ]
+ ],
+ "source_files": {
+  "count": 12,
+  "extensions": [
+   [
+    "(none)",
+    52713
+   ],
+   [
+    ".java",
+    15
+   ]
+  ],
+  "sample": [
+   [
+    "SourceFile",
+    52713
+   ],
+   [
+    "ApkSignerEngine.java",
+    5
+   ],
+   [
+    "SignerEngine.java",
+    1
+   ],
+   [
+    "RunnablesProvider.java",
+    1
+   ],
+   [
+    "BerDataValueReader.java",
+    1
+   ],
+   [
+    "Asn1Class.java",
+    1
+   ],
+   [
+    "Asn1Field.java",
+    1
+   ],
+   [
+    "DataSink.java",
+    1
+   ],
+   [
+    "DataSource.java",
+    1
+   ],
+   [
+    "ReadableDataSink.java",
+    1
+   ],
+   [
+    "KmsSignerEngineProvider.java",
+    1
+   ],
+   [
+    "RunnablesExecutor.java",
+    1
+   ]
+  ],
+  "first_party_sample": []
+ },
+ "security": {
+  "family_class_counts": {
+   "tls_pinning": 10,
+   "crypto": 2691,
+   "payments": 1381,
+   "miniapp": 4754,
+   "webview_bridge": 32,
+   "analytics": 909,
+   "device_id": 16,
+   "nfc": 167,
+   "tamper": 141,
+   "root_detection": 1,
+   "biometric": 183,
+   "db_encryption": 44,
+   "qr": 681
+  },
+  "examples": {
+   "crypto": [
+    "Lcom/iap/ac/android/acs/operation/biz/region/utils/SignatureUtils;",
+    "Lcom/iap/ac/android/biz/common/utils/SignatureUtils;",
+    "Lcom/iap/ac/android/common/utils/security/RSAHelper;",
+    "Lcom/iap/ac/config/lite/storage/ISecurityEncryptor;",
+    "Lcom/iap/ac/config/lite/storage/ISecurityEncryptor$Mock;",
+    "Lcom/iap/ac/config/lite/storage/SimpleSecurityEncryptor;",
+    "Lcom/iap/ac/config/lite/utils/AesUtils;",
+    "Lcom/iap/ac/config/lite/utils/RsaUtils;",
+    "Lcom/nimbusds/jose/JWECryptoParts;",
+    "Lcom/nimbusds/jose/crypto/impl/BaseJWEProvider;",
+    "Lcom/nimbusds/jose/crypto/impl/AESCryptoProvider;",
+    "Lcom/nimbusds/jose/crypto/AESDecrypter;",
+    "Lcom/nimbusds/jose/crypto/AESEncrypter$AlgFamily;",
+    "Lcom/nimbusds/jose/crypto/AESEncrypter;",
+    "Lcom/nimbusds/jose/crypto/impl/DirectCryptoProvider;",
+    "Lcom/nimbusds/jose/crypto/DirectEncrypter;",
+    "Lcom/nimbusds/jose/crypto/ECDHDecrypter;",
+    "Lcom/nimbusds/jose/crypto/ECDHEncrypter;",
+    "Lcom/nimbusds/jose/crypto/impl/BaseJWSProvider;",
+    "Lcom/nimbusds/jose/crypto/impl/ECDSAProvider;",
+    "Lcom/nimbusds/jose/crypto/ECDSASigner;",
+    "Lcom/nimbusds/jose/crypto/ECDSAVerifier;",
+    "Lcom/nimbusds/jose/crypto/impl/EdDSAProvider;",
+    "Lcom/nimbusds/jose/crypto/Ed25519Signer;",
+    "Lcom/nimbusds/jose/crypto/Ed25519Verifier;"
+   ],
+   "tls_pinning": [
+    "Lcom/iap/ac/android/common/rpc/interfaces/SslPinningPlugin;",
+    "Lcom/iap/ac/android/biz/common/rpc/ssl/IAPSslPinner;",
+    "Lokhttp3/CertificatePinner$Builder;",
+    "Lokhttp3/CertificatePinner$Companion;",
+    "Lokhttp3/CertificatePinner$Pin;",
+    "Lokhttp3/CertificatePinner;",
+    "Lokhttp3/internal/platform/ConscryptPlatform$DisabledHostnameVerifier;",
+    "Lokhttp3/internal/tls/OkHostnameVerifier;",
+    "Lokhttp3/CertificatePinner$check$1;",
+    "Lvn/ai/trueid/sdk/models/sotp/TrueIDSSLPinningConfig;"
+   ],
+   "root_detection": [
+    "Lcom/visa/cbp/sdk/facade/exception/RootDetectException;"
+   ],
+   "tamper": [
+    "Lcom/visa/cbp/sdk/facade/DASService$DeviceAttestationCallback;",
+    "Lcom/visa/cbp/getVisaIntegrityCertId;",
+    "Lcom/visa/cbp/sdk/facade/DeviceAttestationCallback;",
+    "Lcom/visa/cbp/sdk/facade/JwsAttestationResult;",
+    "Lcom/visa/cbp/setVisaIntegrityCertId;",
+    "Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface$WebViewMediaIntegrityApiStatus;",
+    "Lvn/ai/faceauth/sdk/presentation/presentation/utils/BShield;",
+    "Lcom/google/android/gms/safetynet/HarmfulAppsData;",
+    "Lcom/google/android/gms/safetynet/R;",
+    "Lcom/google/android/gms/safetynet/SafeBrowsingData;",
+    "Lcom/google/android/gms/safetynet/SafeBrowsingThreat;",
+    "Lcom/google/android/gms/safetynet/SafetyNet;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$AttestationResponse;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$HarmfulAppsResponse;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$HarmfulAppsResult;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$RecaptchaTokenResponse;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$SafeBrowsingResult;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$VerifyAppsUserResponse;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$VerifyAppsUserResult;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi;",
+    "Lcom/google/android/gms/safetynet/SafetyNetClient;",
+    "Lcom/google/android/gms/safetynet/SafetyNetStatusCodes;",
+    "Lcom/google/android/gms/safetynet/VerifyAppsConstants;",
+    "Lcom/google/android/gms/safetynet/zza;",
+    "Lcom/google/android/gms/safetynet/zzb;"
+   ],
+   "obfuscation": [],
+   "biometric": [
+    "Lcom/visa/cbp/sdk/facade/CryptoCredentialClaimSet;",
+    "Lcom/visa/cbp/sdk/facade/CryptoCredentialHeader;",
+    "Lvn/ai/trueid/sdk/liveness/networks/e;",
+    "Lorg/jmrtd/cbeff/BiometricDataBlock;",
+    "Lorg/jmrtd/cbeff/BiometricDataBlockDecoder;",
+    "Lorg/jmrtd/cbeff/BiometricDataBlockEncoder;",
+    "Lorg/jmrtd/cbeff/BiometricEncodingType;",
+    "Lorg/jmrtd/lds/iso19794/IrisBiometricSubtypeInfo;",
+    "Lvn/ai/trueid/sdk/liveness/networks/j;",
+    "Lvn/ai/faceauth/sdk/presentation/domain/configs/LivenessConfig$Creator;",
+    "Lvn/ai/faceauth/sdk/presentation/domain/configs/LivenessConfig;",
+    "Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXError;",
+    "Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXResult;",
+    "Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness$Creator;",
+    "Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;",
+    "Lvn/ai/faceauth/sdk/presentation/domain/model/StepLivenessKt$WhenMappings;",
+    "Lvn/ai/faceauth/sdk/presentation/domain/model/StepLivenessKt;",
+    "Lvn/ai/faceauth/sdk/presentation/navigation/LivenessNavigationKt;",
+    "Lvn/ai/trueid/sdk/face/present/presentation/LivenessCameraXActivity;",
+    "Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException;",
+    "Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$MaxLimitTryAgain;",
+    "Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$NetworkErrorException;",
+    "Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$PermissionDenied;",
+    "Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$PermissionUnknown;",
+    "Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$StartCameraException;"
+   ],
+   "nfc": [
+    "Lcom/visa/cbp/HceData;",
+    "Lcom/visa/cbp/HceDataReperso;",
+    "Lcom/visa/cbp/external/common/HceData;",
+    "Lcom/visa/cbp/external/common/HceDataReperso;",
+    "Lcom/visa/cbp/getHceData;",
+    "Lcom/visa/cbp/sdk/facade/data/ApduResponse;",
+    "Lcom/visa/cbp/setHceData;",
+    "Lcom/visa/hcesdk/R;",
+    "Lcom/visa/hcesdk/service/enrolment/EnrolmentService;",
+    "Lcom/visa/hcesdk/sdk/OooO00o;",
+    "Lcom/visa/hcesdk/sdk/OooO0O0;",
+    "Lcom/visa/hcesdk/sdk/OooO0OO;",
+    "Lcom/visa/hcesdk/sdk/OooO0o;",
+    "Lcom/visa/hcesdk/sdk/OooO;",
+    "Lcom/visa/hcesdk/sdk/OooOO0;",
+    "Lcom/visa/hcesdk/sdk/OooOO0O;",
+    "Lcom/visa/hcesdk/sdk/OooOOO0;",
+    "Lcom/visa/hcesdk/service/HCEService;",
+    "Lcom/visa/hcesdk/sdk/OooOOO;",
+    "Lcom/visa/hcesdk/service/management/ManagementService;",
+    "Lcom/visa/hcesdk/sdk/OooOOOO;",
+    "Lcom/visa/hcesdk/sdk/OooOo00;",
+    "Lcom/visa/hcesdk/service/payment/PaymentService;",
+    "Lcom/visa/hcesdk/sdk/OooOo;",
+    "Lcom/visa/hcesdk/sdk/Oooo000;"
+   ],
+   "payments": [
+    "Lcom/iap/ac/android/acs/operation/downgrade/resource/MobilePaymentJSAPIMode;",
+    "Lcom/iap/ac/android/acs/plugin/downgrade/resource/MobilePaymentJSAPIMode;",
+    "Lcom/iap/ac/android/biz/common/callback/IPaymentCodeListener;",
+    "Lcom/iap/ac/android/biz/common/rpc/facade/MobilePaymentConfigRpcFacade;",
+    "Lcom/iap/ac/android/biz/common/rpc/facade/MobilePaymentHoldLoginRpcFacade;",
+    "Lcom/iap/ac/android/biz/common/rpc/facade/MobilePaymentInquireQuoteRpcFacade;",
+    "Lcom/iap/ac/android/biz/common/rpc/facade/MobilePaymentLoginRpcFacade;",
+    "Lcom/iap/ac/android/biz/common/rpc/facade/MobilePaymentLogoutRpcFacade;",
+    "Lcom/iap/ac/android/biz/common/rpc/facade/MobilePaymentTokenIdPostFacade;",
+    "Lcom/iap/ac/android/biz/common/rpc/request/MobilePaymentFetchConfigsRequest;",
+    "Lcom/iap/ac/android/biz/common/rpc/request/MobilePaymentHoldLoginRequest;",
+    "Lcom/iap/ac/android/biz/common/rpc/request/MobilePaymentInquireQuoteRequest;",
+    "Lcom/iap/ac/android/biz/common/rpc/request/MobilePaymentLoginRequest;",
+    "Lcom/iap/ac/android/biz/common/rpc/request/MobilePaymentLogoutRequest;",
+    "Lcom/iap/ac/android/biz/common/rpc/request/MobilePaymentTokenIdPostRequest;",
+    "Lcom/iap/ac/android/biz/common/rpc/result/MobilePaymentFetchConfigsResult;",
+    "Lcom/iap/ac/android/biz/common/rpc/result/MobilePaymentHoldLoginResult;",
+    "Lcom/iap/ac/android/biz/common/rpc/result/MobilePaymentInquireQuoteResult;",
+    "Lcom/iap/ac/android/biz/common/rpc/result/MobilePaymentLoginResult;",
+    "Lcom/iap/ac/android/biz/common/rpc/result/MobilePaymentLogoutResult;",
+    "Lcom/iap/ac/android/biz/common/rpc/result/MobilePaymentTokenIdPostResult;",
+    "Lcom/iap/ac/android/region/cdp/WalletCdpKit$1;",
+    "Lcom/iap/ac/android/region/cdp/WalletCdpKit;",
+    "Lcom/visa/cbp/PaymentDataRequest;",
+    "Lcom/visa/cbp/PaymentInstrument;"
+   ],
+   "miniapp": [
+    "Lcom/iap/ac/android/biz/common/configcenter/GriverReginConfigCenter$1;",
+    "Lcom/iap/ac/android/biz/common/configcenter/GriverReginConfigCenter;",
+    "Lcom/iap/ac/android/container/adapter/griver/BuildConfig;",
+    "Lcom/iap/ac/android/container/adapter/griver/DataProcessor;",
+    "Lcom/iap/ac/android/container/adapter/griver/GriverContainerAuthImpl;",
+    "Lcom/iap/ac/android/container/adapter/griver/GriverContainerImpl$1;",
+    "Lcom/iap/ac/android/container/adapter/griver/GriverContainerImpl$2;",
+    "Lcom/iap/ac/android/container/adapter/griver/GriverContainerImpl$3;",
+    "Lcom/iap/ac/android/container/adapter/griver/GriverContainerImpl;",
+    "Lcom/iap/ac/android/container/adapter/griver/GriverContainerPresenter;",
+    "Lcom/iap/ac/android/container/adapter/griver/IAPBridgeCallbackAdapter;",
+    "Lcom/iap/ac/android/container/adapter/griver/MonitorUtil;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$array;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$attr;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$bool;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$color;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$dimen;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$drawable;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$id;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$integer;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$layout;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$plurals;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$raw;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$style;",
+    "Lcom/iap/ac/android/container/adapter/griver/R$styleable;"
+   ],
+   "analytics": [
+    "Lcom/iap/ac/android/loglite/api/AnalyticsConfig;",
+    "Lcom/iap/ac/android/loglite/api/AnalyticsHelper;",
+    "Lcom/iap/ac/android/loglite/api/CommonAnalyticsAgent;",
+    "Lcom/iap/ac/android/loglite/storage/AnalyticsStorage;",
+    "Lcom/iap/ac/android/loglite/storage/AnalyticsFileStorage;",
+    "Lcom/iap/ac/android/loglite/core/AnalyticsContext$a;",
+    "Lcom/iap/ac/android/loglite/core/AnalyticsContext;",
+    "Lcom/iap/ac/android/loglite/core/AnalyticsService;",
+    "Lcom/iap/ac/android/loglite/storage/AnalyticsStorageManager;",
+    "Lcom/iap/ac/android/loglite/upload/AnalyticsUploader;",
+    "Lcom/vnpay/tracking/TrackFieldName;",
+    "Lcom/vnpay/tracking/a;",
+    "Lcom/vnpay/tracking/b;",
+    "Lcom/vnpay/tracking/c;",
+    "Lcom/vnpay/tracking/d;",
+    "Lcom/vnpay/tracking/e;",
+    "Lcom/vnpay/tracking/f;",
+    "Ldevelopers/mobile/abt/FirebaseAbt$ExperimentLite;",
+    "Ldevelopers/mobile/abt/FirebaseAbt$ExperimentPayload;",
+    "Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface$AttributionBehavior;",
+    "Lvn/com/vng/zalopay/data/cache/global/GoogleAnalyticsDao$Properties;",
+    "Lvn/com/vng/zalopay/data/cache/global/GoogleAnalyticsDao;",
+    "Lvn/com/vng/zalopay/search/presentation/analytics/z;",
+    "Lvn/com/vng/zalopay/workers/AppTrackingWorker;",
+    "Lcom/google/firebase/components/g;"
+   ],
+   "webview_bridge": [
+    "Lcom/iap/ac/android/common/container/js/model/JSBridgeMessageToNative;",
+    "Lcom/iap/android/mppclient/container/js/ACJSBridge;",
+    "Lcom/iap/android/mppclient/container/js/model/JSBridgeMessageToNative;",
+    "Lcom/iap/android/mppclient/container/presenter/ACWebViewClient$1;",
+    "Lcom/iap/android/mppclient/container/presenter/ACWebViewClient$HttpRequestRecord;",
+    "Lcom/iap/android/mppclient/container/presenter/ACWebViewClient;",
+    "Landroidx/webkit/WebViewClientCompat$a;",
+    "Landroidx/webkit/WebViewClientCompat;",
+    "Lcom/alibaba/ariver/app/api/Page$JsBridgeReadyListener;",
+    "Lcom/alibaba/ariver/app/api/point/page/OnJsBridgeReadyPoint;",
+    "Lcom/alibaba/griver/base/api/APWebViewClient;",
+    "Lcom/alibaba/griver/base/api/NXH5WebViewClientAdapter;",
+    "Lcom/alipay/plus/android/miniprogram/engine/webview/AndroidWebViewClient;",
+    "Lcom/alipay/plus/android/miniprogram/engine/worker/WorkerWebViewClient;",
+    "Lcom/iap/ac/android/common/container/js/model/JSBridgeMessageToWeb;",
+    "Lcom/iap/android/mppclient/container/js/ACJSBridge$1;",
+    "Lcom/iap/android/mppclient/container/js/model/JSBridgeMessageToWeb;",
+    "Lorg/chromium/support_lib_boundary/WebViewClientBoundaryInterface;",
+    "Lcom/alibaba/griver/core/render/GriverWebViewClient;",
+    "Lcom/alibaba/griver/core/render/GriverWebViewClient$1;",
+    "Lcom/alibaba/griver/core/render/GriverWebViewClient$2;",
+    "Lcom/alibaba/griver/core/render/GriverWebViewClient$3;",
+    "Lcom/alibaba/griver/core/render/GriverWebViewClient$4;",
+    "Lcom/alibaba/griver/core/render/LegacyNXH5WebViewClientAdapter;",
+    "Lcom/alibaba/griver/core/webview/AndroidWebViewClient;"
+   ],
+   "db_encryption": [
+    "Lnet/zetetic/database/sqlcipher/CloseGuard$Reporter;",
+    "Lnet/zetetic/database/sqlcipher/CloseGuard$DefaultReporter;",
+    "Lnet/zetetic/database/sqlcipher/CloseGuard;",
+    "Lnet/zetetic/database/sqlcipher/DatabaseObjectNotClosedException;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteClosable;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnection$Operation;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnection$OperationLog;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnection$PreparedStatement;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnection$PreparedStatementCache;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnection;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnectionPool$1;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnectionPool$AcquiredConnectionStatus;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnectionPool$ConnectionWaiter;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnectionPool;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteCursor;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteCursorDriver;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteCustomFunction;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteDatabase$1;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteTransactionListener;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteDatabase$2;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteDatabase$3;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteDatabase$4;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteDatabase$CursorFactory;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteDatabase$CustomFunction;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteDatabase;"
+   ],
+   "device_id": [
+    "Lcom/visa/cbp/DeviceInfo$DeviceIDType;",
+    "Lcom/visa/cbp/external/common/DeviceInfo$DeviceIDType;",
+    "Lcom/visa/cbp/getClientDeviceID;",
+    "Lcom/visa/cbp/getDeviceIDType;",
+    "Lcom/visa/cbp/sdk/facade/exception/DeviceIDValidationException;",
+    "Lcom/visa/cbp/setClientDeviceID;",
+    "Lcom/visa/cbp/setDeviceIDType;",
+    "Lcom/visa/cbp/setDeviceId;",
+    "Lcom/visa/cbp/setHostDeviceID;",
+    "Lvn/ai/trueid/sdk/navigation/TrueIDFaceEnrollCaptureListener;",
+    "Lvn/ai/trueid/sdk/navigation/TrueIDV3$revokeSOTPCredentialByDeviceId$1;",
+    "Lcom/alibaba/ariver/jsapi/AppRunTimeInfoBridgeExtension;",
+    "Lcom/visa/cbp/DeviceInfoDeviceIDType;",
+    "Lcom/visa/cbp/getDeviceId;",
+    "Lcom/visa/cbp/getHostDeviceID;",
+    "Lorg/bouncycastle/mime/MimeIOException;"
+   ],
+   "qr": [
+    "Lvn/com/vng/zalopay/livenessdetection/presentation/qrcode/QRCodeScannerActivity;",
+    "Lvn/com/vng/zalopay/receive_money/data/model/transform/SharedPreferencesTransformKt$toQRCodeEntity$$inlined$parseJsonSafely$1;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/Z;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode_bundled/G0;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode_bundled/F0;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode_bundled/J;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode_bundled/l0;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode_bundled/E0;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode_bundled/h0;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/X6;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/Y6;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode_bundled/p0;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/Y4;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/A0;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/A1;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/A2;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/A3;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/A4;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/A5;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/A6;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/A7;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/A8;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/u;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/A;",
+    "Lcom/google/android/gms/internal/mlkit_vision_barcode/B0;"
+   ]
+  }
+ },
+ "indicators": {
+  "tls_pinning": [
+   "()Lokhttp3/CertificatePinner;",
+   "(Ljava/lang/String;ILokhttp3/Dns;Ljavax/net/SocketFactory;Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/HostnameVerifier;Lokhttp3/CertificatePinner;Lokhttp3/Authenticator;Ljava/net/Proxy;Ljava/util/List;Ljava/util/List;Ljava/net/ProxySelector;)V",
+   "(Ljava/lang/String;[Ljava/lang/String;)Lokhttp3/CertificatePinner$Builder;",
+   "(Lokhttp3/CertificatePinner;)Lokhttp3/OkHttpClient$Builder;",
+   "(Lokhttp3/CertificatePinner;)V",
+   "-deprecated_certificatePinner",
+   "Lokhttp3/CertificatePinner$Builder;",
+   "Lokhttp3/CertificatePinner$Companion;",
+   "Lokhttp3/CertificatePinner$Pin;",
+   "Lokhttp3/CertificatePinner$check$1;",
+   "Lokhttp3/CertificatePinner;",
+   "Lokhttp3/internal/tls/OkHostnameVerifier;",
+   "certificatePinner",
+   "getCertificatePinner$okhttp",
+   "setCertificatePinner$okhttp",
+   "sha256/IQBnNBEiFuhj+8x6X8XLgh01V9Ic5/V3IRQLNFFc7v4=",
+   "sha256/J/wnrAPb3FQ+KTFggj9eUnmgbViz2v6n1rbcSb5cSxU=",
+   "sha256/K87oWBWM9UZfyddvDfoxL+8lpNyoUB2ptGtn0fv6G2Q=",
+   "sha256/cGuxAXyFXFkWm61cF4HPWX8S0srS9j0aSqN0k4AP+4A=",
+   "sha256/hETpgVvaLC0bvcGG3t0cuqiHvr4XyP2MTwCiqhgRWwU=",
+   "sha256/no52SqBw9jS9XLTEKQAoP+qVY8V93l8lwze7X6WLR4U=",
+   "$certificatePinner"
+  ],
+  "root_checks": [
+   "/magisk",
+   "/system/bin/su",
+   "/system/xbin/su",
+   "ro.debuggable",
+   "/su/bin/",
+   "/system/app/Superuser.apk",
+   "test-keys",
+   "Test-keys aren't accepted on this build."
+  ],
+  "emulator_checks": [
+   "Genymotion",
+   "buildPropsMatch isEmulator: strong build property indicator matched (+5) current score = ",
+   "goldfish",
+   "isEmulator",
+   "ranchu",
+   "ro.kernel.qemu",
+   ", isEmulator=",
+   "gads:emulator:ranchu_check_enabled",
+   "Lcom/alipay/mobile/quinox/utils/ContextHolder;",
+   "THD_QUINOX",
+   "com.alipay.mobile.quinox.startup.StartupSafeguard",
+   "getQuinoxOptAsynctask",
+   "quinox_asynctask_keepalive_time",
+   "qemu.hw.mainkeys",
+   "bdlnox",
+   "22uUhJ3etkiChBnOXQGZ31CB4WVKfXWA",
+   "8hGTWRVePtIxVw2NOXuq9knVHvw3DPvW",
+   "HSYkgNOxIO60XV4ngpdc16Z8wmTOtZr1",
+   "dggRIwntGnoxWZ7BDQUg45Sl6NQgoMuN",
+   "kcwn0HZtMTZNOx",
+   "lnnJwj9Jy1Fdr4Eb8hkoGrInOxKcj",
+   "nOxceDp",
+   "xy0Ab8m7NOX4ZRxTfyGPwRY1TRrgVPC4"
+  ],
+  "hook_checks": [
+   "de.robv.android.xposed.installer",
+   "/proc/self/maps",
+   "TracerPid",
+   "frida-agent",
+   "de.robv.android.xposed"
+  ],
+  "pinning_impl": [
+   "()Ljavax/net/ssl/X509TrustManager;",
+   "()Lokhttp3/CertificatePinner;",
+   "(Ljava/lang/String;ILokhttp3/Dns;Ljavax/net/SocketFactory;Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/HostnameVerifier;Lokhttp3/CertificatePinner;Lokhttp3/Authenticator;Ljava/net/Proxy;Ljava/util/List;Ljava/util/List;Ljava/net/ProxySelector;)V",
+   "(Ljava/lang/String;[Ljava/lang/String;)Lokhttp3/CertificatePinner$Builder;",
+   "(Ljavax/net/ssl/SSLSocketFactory;)Ljavax/net/ssl/X509TrustManager;",
+   "(Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/X509TrustManager;)Lokhttp3/OkHttpClient$Builder;",
+   "(Ljavax/net/ssl/X509TrustManager;)Ljavax/net/ssl/SSLSocketFactory;",
+   "(Ljavax/net/ssl/X509TrustManager;)Lokhttp3/internal/tls/CertificateChainCleaner;",
+   "(Ljavax/net/ssl/X509TrustManager;)Lokhttp3/internal/tls/TrustRootIndex;",
+   "(Ljavax/net/ssl/X509TrustManager;)V",
+   "(Ljavax/net/ssl/X509TrustManager;Landroid/net/http/X509TrustManagerExtensions;)V",
+   "(Ljavax/net/ssl/X509TrustManager;Ljava/lang/reflect/Method;)V",
+   "(Lokhttp3/CertificatePinner;)Lokhttp3/OkHttpClient$Builder;",
+   "(Lokhttp3/CertificatePinner;)V",
+   "-deprecated_certificatePinner",
+   "EVENT_SSLPINNING_ADD_CERTS_FAIL",
+   "EVENT_SSLPINNING_CHECK_FAIL",
+   "KEY_TOGGLE_SSL_PINNING",
+   "Landroid/net/http/X509TrustManagerExtensions;",
+   "Lcom/iap/ac/android/common/rpc/interfaces/SslPinningPlugin;",
+   "Lcom/iap/ac/android/rpc/ssl/SSLPinningManager;",
+   "Ljavax/net/ssl/X509TrustManager;",
+   "Lokhttp3/CertificatePinner$Builder;",
+   "Lokhttp3/CertificatePinner$Companion;",
+   "Lokhttp3/CertificatePinner$Pin;",
+   "Lokhttp3/CertificatePinner$check$1;",
+   "Lokhttp3/CertificatePinner;",
+   "TOGGLE_SSL_PINNING_DEFAULT",
+   "ac_common_sslpinning_add_certs_fail",
+   "ac_common_sslpinning_check_fail",
+   "certificatePinner",
+   "checkServerTrusted",
+   "disableSslPinning",
+   "disableSslPinning...",
+   "enableSslPinning",
+   "enableSslPinning...",
+   "getCertificatePinner$okhttp",
+   "getSslPinningPlugin",
+   "getSslPinningToggle",
+   "getX509TrustManagerOrNull$okhttp",
+   "mSslPinningPlugin",
+   "setCertificatePinner$okhttp",
+   "setSslPinningPlugin",
+   "setX509TrustManagerOrNull$okhttp",
+   "toggle_ssl_pinning",
+   "x509TrustManager",
+   "x509TrustManager == null",
+   "x509TrustManagerExtensions",
+   "x509TrustManagerOrNull",
+   "()Lvn/ai/trueid/sdk/models/sotp/TrueIDSSLPinningConfig;",
+   "(Lvn/ai/trueid/sdk/models/sotp/TrueIDSSLPinningConfig;)V",
+   "Lvn/ai/trueid/sdk/models/sotp/TrueIDSSLPinningConfig;",
+   "getSslPinningConfig",
+   "setSslPinningConfig",
+   "sslPinningConfig",
+   "[Ljavax/net/ssl/X509TrustManager;",
+   "$certificatePinner"
+  ],
+  "attestation": [
+   "DeviceAttestationCallback",
+   "Lcom/google/android/gms/safetynet/HarmfulAppsData;",
+   "Lcom/google/android/gms/safetynet/SafetyNetApi$HarmfulAppsResponse;",
+   "Lcom/google/android/gms/safetynet/SafetyNetApi$VerifyAppsUserResponse;",
+   "Lcom/visa/cbp/sdk/facade/DASService$DeviceAttestationCallback;",
+   "Lcom/visa/cbp/sdk/facade/DeviceAttestationCallback;",
+   "Lcom/visa/cbp/sdk/facade/JwsAttestationResult;",
+   "ON_ERROR_DEVICE_ATTESTATION",
+   "ON_SUCCESS_DEVICE_ATTESTATION",
+   "deviceAttestation",
+   "getKeyAttestationSupport",
+   "keyAttestationSupport",
+   "performDeviceAttestation",
+   "setAttestationChallenge",
+   "setKeyAttestationSupport",
+   "BSHIELD_DAT",
+   "BShield",
+   "Lvn/ai/faceauth/sdk/presentation/presentation/utils/BShield;",
+   "AttestationResponse",
+   "Lcom/google/android/gms/safetynet/R;",
+   "Lcom/google/android/gms/safetynet/SafeBrowsingData;",
+   "Lcom/google/android/gms/safetynet/SafeBrowsingThreat;",
+   "Lcom/google/android/gms/safetynet/SafetyNet;",
+   "Lcom/google/android/gms/safetynet/SafetyNetApi$AttestationResponse;",
+   "Lcom/google/android/gms/safetynet/SafetyNetApi$AttestationResult;",
+   "Lcom/google/android/gms/safetynet/SafetyNetApi$HarmfulAppsResult;",
+   "Lcom/google/android/gms/safetynet/SafetyNetApi$RecaptchaTokenResponse;",
+   "Lcom/google/android/gms/safetynet/SafetyNetApi$RecaptchaTokenResult;",
+   "Lcom/google/android/gms/safetynet/SafetyNetApi$SafeBrowsingResponse;",
+   "Lcom/google/android/gms/safetynet/SafetyNetApi$SafeBrowsingResult;",
+   "Lcom/google/android/gms/safetynet/SafetyNetApi$VerifyAppsUserResult;",
+   "Lcom/google/android/gms/safetynet/SafetyNetApi;",
+   "Lcom/google/android/gms/safetynet/SafetyNetClient;",
+   "Lcom/google/android/gms/safetynet/SafetyNetStatusCodes;",
+   "Lcom/google/android/gms/safetynet/VerifyAppsConstants;",
+   "Lcom/google/android/gms/safetynet/zza;",
+   "Lcom/google/android/gms/safetynet/zzb;",
+   "Lcom/google/android/gms/safetynet/zzc;",
+   "Lcom/google/android/gms/safetynet/zzd;",
+   "Lcom/google/android/gms/safetynet/zze;",
+   "Lcom/google/android/gms/safetynet/zzf;",
+   "Lcom/google/android/gms/safetynet/zzg;",
+   "Lcom/google/android/gms/safetynet/zzh;",
+   "Lcom/google/android/gms/safetynet/zzi;",
+   "Lcom/google/android/gms/safetynet/zzj;",
+   "Lcom/google/android/gms/safetynet/zzk;",
+   "Lcom/google/android/gms/safetynet/zzl;",
+   "Lcom/google/android/gms/safetynet/zzm;",
+   "Lcom/google/android/gms/safetynet/zzn;",
+   "Lcom/google/android/gms/safetynet/zzo;",
+   "Lcom/google/android/gms/safetynet/zzp;",
+   "Lcom/google/android/play/core/integrity/IntegrityManager;",
+   "Lcom/google/android/play/core/integrity/IntegrityManagerFactory;",
+   "Lcom/google/android/play/core/integrity/StandardIntegrityManager$PrepareIntegrityTokenRequest$Builder;",
+   "Lcom/google/android/play/core/integrity/StandardIntegrityManager$PrepareIntegrityTokenRequest;",
+   "Lcom/google/android/play/core/integrity/StandardIntegrityManager$StandardIntegrityToken;",
+   "Lcom/google/android/play/core/integrity/StandardIntegrityManager$StandardIntegrityTokenProvider;",
+   "Lcom/google/android/play/core/integrity/StandardIntegrityManager$StandardIntegrityTokenRequest$Builder;",
+   "Lcom/google/android/play/core/integrity/StandardIntegrityManager$StandardIntegrityTokenRequest;",
+   "Lcom/google/android/play/core/integrity/StandardIntegrityManager;",
+   "SafetyNet.API",
+   "SafetyNetApi",
+   "[Lcom/google/android/gms/safetynet/HarmfulAppsData;",
+   "[Lcom/google/android/gms/safetynet/SafeBrowsingData;",
+   "[Lcom/google/android/gms/safetynet/zza;",
+   "[Lcom/google/android/gms/safetynet/zzd;",
+   "[Lcom/google/android/gms/safetynet/zzf;",
+   "[Lcom/google/android/gms/safetynet/zzh;",
+   "com.google.android.gms.safetynet.action.HARMFUL_APPS_FOUND",
+   "com.google.android.gms.safetynet.action.HARMFUL_APP_BLOCKED",
+   "com.google.android.gms.safetynet.action.HARMFUL_APP_INSTALLED",
+   "com.google.android.gms.safetynet.internal.ISafetyNetService",
+   "com.google.android.gms.safetynet.service.START",
+   "com.google.android.safetynet.API_KEY",
+   "com.google.android.safetynet.ATTEST_API_KEY",
+   "gads:attestation_token:enabled",
+   "gads:gma_attestation:click:enable",
+   "gads:gma_attestation:click:enable_dynamite_version",
+   "gads:gma_attestation:click:macro_string",
+   "gads:gma_attestation:click:qualification:enable"
+  ],
+  "emulator_impl": [
+   "Genymotion",
+   "Lcom/visa/cbp/sdk/facade/exception/EmulatorDetectException;",
+   "buildPropsMatch isEmulator: strong build property indicator matched (+5) current score = ",
+   "goldfish",
+   "isEmulator",
+   "ranchu",
+   "ro.kernel.qemu",
+   ", isEmulator=",
+   "gads:emulator:ranchu_check_enabled"
+  ],
+  "crypto_suites": [
+   "AES/CBC/PKCS5Padding",
+   "AES/GCM/NoPadding",
+   "AES/GCM/NoPadding decryption failed: ",
+   "Couldn't create AES/GCM/NoPadding cipher: ",
+   "Couldn't encrypt with AES/GCM/NoPadding: ",
+   "Ed25519",
+   "Ed25519Signer only supports OctetKeyPairs with crv=Ed25519",
+   "Ed25519Signer requires alg=EdDSA in JWSHeader",
+   "Ed25519Verifier only supports OctetKeyPairs with crv=Ed25519",
+   "Ed25519Verifier requires a public key, use OctetKeyPair.toPublicJWK()",
+   "Ed25519Verifier requires alg=EdDSA in JWSHeader",
+   "HMACSHA256",
+   "HmacSHA256",
+   "HmacSha256",
+   "Lcom/nimbusds/jose/crypto/Ed25519Signer;",
+   "Lcom/nimbusds/jose/crypto/Ed25519Verifier;",
+   "RSA/ECB/OAEPWithSHA-256AndMGF1Padding",
+   "RSA/ECB/OAEPwithSHA-256andMGF1Padding",
+   "RSA/ECB/PKCS1Padding",
+   "SHA-256",
+   "Unsupported AES/CBC/PKCS5Padding/HMAC-SHA2 key length, must be 256, 384 or 512 bits",
+   "can not generate terminal identifier cause of sha-256 algorithm not found.",
+   "hmacSha256",
+   "secp256r1",
+   "NIST P-256 (secp256r1)",
+   "PBKDF2WithHmacSHA256",
+   "Unsupported cipher algorithm, expected \"SHA-1\" or \"SHA-256\", found \"",
+   "id-TA-ECDSA-SHA-256",
+   "id-TA-RSA-PSS-SHA-256",
+   "id-TA-RSA-v1-5-SHA-256",
+   "Can not use Ed25519 in FIPS-mode.",
+   "ED25519",
+   "ED25519WithRawOutput",
+   "ED25519_RAW",
+   "EOF encountered in middle of Ed25519 public key",
+   "Ed25519Converter",
+   "Ed25519KeyGen",
+   "Ed25519Signer not initialised for signature generation.",
+   "Ed25519Signer not initialised for verification",
+   "Ed25519ctxSigner not initialised for signature generation.",
+   "Ed25519ctxSigner not initialised for verification",
+   "Ed25519phSigner not initialised for signature generation.",
+   "Ed25519phSigner not initialised for verification",
+   "HASHMLDSA44-ED25519-SHA512",
+   "HASHMLDSA65-ED25519-SHA512",
+   "Lorg/bouncycastle/crypto/generators/Ed25519KeyPairGenerator;",
+   "Lorg/bouncycastle/crypto/params/Ed25519KeyGenerationParameters;",
+   "Lorg/bouncycastle/crypto/params/Ed25519PrivateKeyParameters;",
+   "Lorg/bouncycastle/crypto/params/Ed25519PublicKeyParameters;",
+   "Lorg/bouncycastle/crypto/signers/Ed25519Signer$1;",
+   "Lorg/bouncycastle/crypto/signers/Ed25519Signer$Buffer;",
+   "Lorg/bouncycastle/crypto/signers/Ed25519Signer;",
+   "Lorg/bouncycastle/crypto/signers/Ed25519ctxSigner$1;",
+   "Lorg/bouncycastle/crypto/signers/Ed25519ctxSigner$Buffer;",
+   "Lorg/bouncycastle/crypto/signers/Ed25519ctxSigner;",
+   "Lorg/bouncycastle/crypto/signers/Ed25519phSigner;",
+   "Lorg/bouncycastle/crypto/util/PublicKeyFactory$Ed25519Converter;",
+   "Lorg/bouncycastle/math/ec/custom/sec/SecP256R1Curve;",
+   "Lorg/bouncycastle/math/ec/rfc8032/Ed25519$PublicPoint;",
+   "Lorg/bouncycastle/math/ec/rfc8032/Ed25519;",
+   "MLDSA44-ED25519-SHA512",
+   "MLDSA65-ED25519-SHA512",
+   "MLDSA65-Ed25519-SHA512",
+   "PBKDF2withHMACSHA256",
+   "id_Ed25519",
+   "id_HashMLDSA44_Ed25519_SHA512",
+   "id_HashMLDSA65_Ed25519_SHA512",
+   "id_MLDSA44_Ed25519_SHA512",
+   "id_MLDSA65_Ed25519_SHA512",
+   "invalid Ed25519 private key: incorrect key length",
+   "invalid Ed25519 public key: incorrect key length",
+   "sk-ssh-ed25519@openssh.com",
+   "ssh-ed25519",
+   "type.googleapis.com/google.crypto.tink.Ed25519PrivateKey",
+   "type.googleapis.com/google.crypto.tink.Ed25519PublicKey",
+   "SHA-256 with DSA",
+   "SHA-256 with ECDSA",
+   "SHA-256 with RSA",
+   "mldsa44_ed25519",
+   "mldsa65_ed25519"
+  ],
+  "grpc": [],
+  "graphql": [],
+  "firebase": [
+   "FCM Exception",
+   "FirebaseCrashlytics",
+   "FirebaseHeartBeat",
+   "FirebaseInstanceId",
+   "FirebaseMessaging",
+   "Lcom/google/android/gms/internal/firebase-perf/D;",
+   "Lcom/google/android/gms/internal/firebase-perf/H;",
+   "Lcom/google/android/gms/internal/firebase-perf/I;",
+   "Lcom/google/android/gms/internal/firebase-perf/J0;",
+   "Lcom/google/android/gms/internal/firebase-perf/J;",
+   "Lcom/google/android/gms/internal/firebase-perf/K;",
+   "Lcom/google/android/gms/internal/firebase-perf/L0;",
+   "Lcom/google/android/gms/internal/firebase-perf/N;",
+   "Lcom/google/android/gms/internal/firebase-perf/P;",
+   "Lcom/google/android/gms/internal/firebase-perf/g;",
+   "Lcom/google/android/gms/internal/firebase-perf/z;",
+   "Lcom/google/firebase/components/c;",
+   "Lcom/google/firebase/components/g;",
+   "Lcom/google/firebase/components/s;",
+   "Lcom/google/firebase/components/u;",
+   "Lcom/google/firebase/crashlytics/internal/metadata/j;",
+   "Lcom/google/firebase/encoders/EncodingException;",
+   "Lcom/google/firebase/encoders/d;",
+   "Lcom/google/firebase/iid/FirebaseInstanceId;",
+   "Lcom/google/firebase/iid/i;",
+   "Lcom/google/firebase/installations/d;",
+   "Lcom/google/firebase/installations/e;",
+   "Lcom/google/firebase/messaging/FirebaseMessaging;",
+   "Lcom/google/firebase/messaging/p;",
+   "Lcom/google/firebase/perf/internal/RemoteConfigManager;",
+   "Lcom/google/firebase/perf/metrics/AppStartTrace;",
+   "Lcom/google/firebase/perf/network/FirebasePerfUrlConnection;",
+   "Lcom/visa/visapay/common/service/response/TokenStatusFCMResponse;",
+   "Lcom/visa/visapaysdk/service/VisaPayFCMService;",
+   "Ldevelopers/mobile/abt/FirebaseAbt$ExperimentLite;",
+   "Ldevelopers/mobile/abt/FirebaseAbt$ExperimentPayload;",
+   "getVisaPayFCMService",
+   "FIREBASE_APPQUALITY_SESSION",
+   "Firebase Analytics",
+   "Firebase Installations Service is unavailable. Please try again later.",
+   "Firebase Installations can not communicate with Firebase server APIs due to invalid configuration. Please update your Firebase initialization process and set valid Firebase options (API key, Project ID, Application ID) when initializing Firebase.",
+   "Firebase-Installations",
+   "FirebaseSessionsRepo",
+   "InitNfcModel(mrz=",
+   "Landroid/nfc/NfcManager;",
+   "Lcom/google/android/gms/internal/firebase-perf/C;",
+   "Lcom/google/firebase/FirebaseException;",
+   "Lcom/google/firebase/analytics/FirebaseAnalytics;",
+   "Lcom/google/firebase/concurrent/f;",
+   "Lcom/google/firebase/crashlytics/CrashlyticsRegistrar;",
+   "Lcom/google/firebase/crashlytics/FirebaseCrashlytics;",
+   "Lcom/google/firebase/crashlytics/internal/common/a;",
+   "Lcom/google/firebase/crashlytics/internal/common/d;",
+   "Lcom/google/firebase/crashlytics/internal/common/f;",
+   "Lcom/google/firebase/crashlytics/internal/common/h;",
+   "Lcom/google/firebase/crashlytics/internal/common/j;",
+   "Lcom/google/firebase/crashlytics/internal/common/k;",
+   "Lcom/google/firebase/crashlytics/internal/common/l;",
+   "Lcom/google/firebase/crashlytics/internal/common/n;",
+   "Lcom/google/firebase/crashlytics/internal/common/o;",
+   "Lcom/google/firebase/crashlytics/internal/common/r;",
+   "Lcom/google/firebase/crashlytics/internal/common/u;",
+   "Lcom/google/firebase/crashlytics/internal/common/z;",
+   "Lcom/google/firebase/crashlytics/internal/metadata/d;",
+   "Lcom/google/firebase/crashlytics/internal/metadata/f;",
+   "Lcom/google/firebase/crashlytics/internal/settings/a;",
+   "Lcom/google/firebase/crashlytics/internal/settings/b;",
+   "Lcom/google/firebase/crashlytics/internal/settings/c;",
+   "Lcom/google/firebase/crashlytics/internal/settings/e;",
+   "Lcom/google/firebase/crashlytics/internal/settings/f;",
+   "Lcom/google/firebase/installations/FirebaseInstallationsException;",
+   "Lcom/google/firebase/messaging/f;",
+   "Lcom/google/firebase/perf/metrics/Trace;",
+   "Lcom/google/firebase/perf/network/FirebasePerfOkHttpClient;",
+   "Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigFetchThrottledException;",
+   "The Crashlytics build ID is missing. This occurs when the Crashlytics Gradle plugin is missing from your app's build configuration. Please review the Firebase Crashlytics onboarding instructions at https://firebase.google.com/docs/crashlytics/get-started?platform=android#add-plugin",
+   "TokenFcmRefreshEvent(currentToken=",
+   "Tracking with Firebase fail",
+   "UpdateFcmTokenRequest(fcmToken=",
+   "[Lcom/google/firebase/perf/metrics/Trace;"
+  ],
+  "deep_links": [
+   "OpenDeeplink(deeplink=zalopay://launch/f/update-phone-number?source=otp_framework)",
+   "^zalopay://launch/f/alipay(/.*|\\?.*)?$",
+   "^zalopay://launch/f/alipay/mini(/.*|\\?.*)?$",
+   "zalopay://close-webview-action",
+   "zalopay://launch",
+   "zalopay://launch/app/",
+   "zalopay://launch/app/%d",
+   "zalopay://launch/app/%s",
+   "zalopay://launch/app/-22",
+   "zalopay://launch/app/-969",
+   "zalopay://launch/app/-969?trans_id=",
+   "zalopay://launch/app/-969?trans_id=%s&type=%s&src=deeplink",
+   "zalopay://launch/app/-969?type=1&src=deeplink&trans_id=",
+   "zalopay://launch/app/-97",
+   "zalopay://launch/app/-97?from_source=homepage",
+   "zalopay://launch/app/1313",
+   "zalopay://launch/app/1317",
+   "zalopay://launch/app/1390?utm_source=fundmana&direct_to=deposit",
+   "zalopay://launch/app/1550?from_source=zlp_home",
+   "zalopay://launch/app/1550?open_cbp=1&from_source=receive_qr",
+   "zalopay://launch/app/1841?utm_source=config_balance&balance_type_show=PO",
+   "zalopay://launch/app/189",
+   "zalopay://launch/app/19",
+   "zalopay://launch/app/19?from_source=home_zlp&from_menu=movie_icon",
+   "zalopay://launch/app/2112",
+   "zalopay://launch/app/2217?utm_source=home",
+   "zalopay://launch/app/2218?qr=",
+   "zalopay://launch/app/2261?utm_source=home_suggestion",
+   "zalopay://launch/app/2264",
+   "zalopay://launch/app/2319?keep_amount=true&topup-appid=zlp",
+   "zalopay://launch/app/2319?keep_amount=true&topup-appid=zlp&amount=",
+   "zalopay://launch/app/2319?redirect=true&redirect-path=/spa/v2/topup-withdraw",
+   "zalopay://launch/app/2319?redirect=true&redirect-path=/spa/v2/topup-withdraw&from-source=home",
+   "zalopay://launch/app/2319?redirect=true&redirect-path=/spa/v2/topup-withdraw&from-source=taptopay&topup-appid=zlp",
+   "zalopay://launch/app/2319?redirect=true&redirect-path=/spa/v2/topup-withdraw&from-source=taptopay&topup-appid=zlp&amount=",
+   "zalopay://launch/app/2319?redirect=true&redirect-path=/spa/v2/topup-withdraw/topup",
+   "zalopay://launch/app/2319?redirect=true&redirect-path=/spa/v2/topup-withdraw/withdraw",
+   "zalopay://launch/app/2319?redirect=true&redirect-path=/spa/v2/topup-withdraw/withdraw&from-source=topupwithdraw",
+   "zalopay://launch/app/2320?redirect=true&redirect-path=/spa/v2/bank&scroll-type=SDSL&from-source=new_home",
+   "zalopay://launch/app/2320?redirect=true&redirect-path=/spa/v2/bank&scroll-type=ZLP&from-source=new_home",
+   "zalopay://launch/app/2320?redirect=true&redirect-path=/spa/v2/bank/form-binding/unlink-status",
+   "zalopay://launch/app/316",
+   "zalopay://launch/app/362",
+   "zalopay://launch/app/4033906055389775/close-account",
+   "zalopay://launch/app/4218462229074471?from_source=personal_qr",
+   "zalopay://launch/app/441",
+   "zalopay://launch/app/4791909634223954",
+   "zalopay://launch/app/4938188290522793",
+   "zalopay://launch/app/5047622320751855?from_source=scan_qr",
+   "zalopay://launch/app/5629253135866783?utm_source=home_ZLP",
+   "zalopay://launch/app/61?from_source=HomeZLP_icon",
+   "zalopay://launch/app/6487260247702941?platform=zpa&os=android&app_version=",
+   "zalopay://launch/app/69?from_source=home_zlp&from_menu=ota_icon",
+   "zalopay://launch/app/730?view=authorize",
+   "zalopay://launch/app/730?view=authorize&b=",
+   "zalopay://launch/app/731?view=authorize&forwardResult=true",
+   "zalopay://launch/app/731?view=authorize&forwardResult=true&gspAuthenticationRequest=",
+   "zalopay://launch/app/7419021155426396",
+   "zalopay://launch/app/7419021155426396/quick-pay",
+   "zalopay://launch/app/7419021155426396/receive-money?from_source=scanner",
+   "zalopay://launch/app/8577517608384592?from_source=home",
+   "zalopay://launch/f/adjust-kyc",
+   "zalopay://launch/f/adjust-kyc?source=",
+   "zalopay://launch/f/adjust-kyc?source=107&skip_result_mode=success_only",
+   "zalopay://launch/f/adjust-kyc?source=49",
+   "zalopay://launch/f/app-info",
+   "zalopay://launch/f/auth-challenge?source=2&auth_type=5&skip_consent_mmf=false&skip_consent_fd=true&skip_result_mode=skip_all",
+   "zalopay://launch/f/auth-challenge?source=2&auth_type=5&skip_consent_mmf=true&skip_consent_fd=false&skip_result_mode=skip_all",
+   "zalopay://launch/f/auth-challenge?source=2&auth_type=5&skip_consent_mmf=true&skip_consent_fd=true&skip_result_mode=skip_all",
+   "zalopay://launch/f/auth-challenge?source=2&auth_type=5&skip_result_mode=success_only",
+   "zalopay://launch/f/balance-liquidation",
+   "zalopay://launch/f/bank-routing?source=OAO&entrypoint=OAO&tracking_source=home",
+   "zalopay://launch/f/banksupport",
+   "zalopay://launch/f/banksupport?fragment_tag=",
+   "zalopay://launch/f/changepin?source=1",
+   "zalopay://launch/f/debug-tracker-audit",
+   "zalopay://launch/f/face-authentication",
+   "zalopay://launch/f/face-authentication?source=99",
+   "zalopay://launch/f/face-liveness-detection",
+   "zalopay://launch/f/identity-verification"
+  ],
+  "deeplink_https": []
+ },
+ "biggest_classes": [
+  {
+   "code_bytes": 636216,
+   "class": "Lcom/visa/cbp/setEmail;",
+   "dex": "classes2.dex"
+  },
+  {
+   "code_bytes": 597088,
+   "class": "Lcom/visa/cbp/getLastName;",
+   "dex": "classes2.dex"
+  },
+  {
+   "code_bytes": 93292,
+   "class": "Lkotlin/collections/y;",
+   "dex": "classes2.dex"
+  },
+  {
+   "code_bytes": 45870,
+   "class": "Lcom/visa/cbp/getPhone;",
+   "dex": "classes2.dex"
+  },
+  {
+   "code_bytes": 43506,
+   "class": "Lcom/google/android/gms/measurement/internal/x1;",
+   "dex": "classes6.dex"
+  },
+  {
+   "code_bytes": 43206,
+   "class": "Lcom/visa/cbp/setEncExpo;",
+   "dex": "classes6.dex"
+  },
+  {
+   "code_bytes": 40870,
+   "class": "Lcom/visa/cbp/getCardHolderNameVCPCS;",
+   "dex": "classes2.dex"
+  },
+  {
+   "code_bytes": 40708,
+   "class": "Lcom/visa/cbp/setAppExpDate;",
+   "dex": "classes2.dex"
+  }
+ ],
+ "native_classes_sample": [
+  "Lcom/iap/ac/android/acs/plugin/downgrade/ui/ErrorPageActivity;",
+  "Lcom/iap/android/mppclient/autodebit/GoogleAutoDebitActivity;",
+  "Lcom/iap/android/mppclient/container/activity/ACContainerActivity;",
+  "Lcom/iap/android/mppclient/container/activity/H5NetworkCheckActivity;",
+  "Lcom/karumi/dexter/DexterActivity;",
+  "Lcom/vnpay/vntaxi/base/base/CompatActivity;",
+  "Lcom/vnpay/vntaxi/ui/activities/book/BookActivity;",
+  "Lcom/zing/zalo/zalosdk/oauth/BrowserLoginActivity;",
+  "Lcom/zing/zalo/zalosdk/oauth/OpenAPIActivity;",
+  "Ldagger/android/DaggerActivity;",
+  "Ljipm/chgt;",
+  "Ljipm/jbvt;",
+  "Ljipm/kgux;",
+  "Ljipm/kmjb;",
+  "Ljipm/lhcv;",
+  "Ljipm/lhvo;",
+  "Ljipm/lxyp;",
+  "Ljipm/mcer;",
+  "Ljipm/ngde;",
+  "Ljipm/njcx;",
+  "Ljipm/nrua;",
+  "Ljipm/oavo;",
+  "Ljipm/ogwm;",
+  "Ljipm/omiy;",
+  "Ljipm/qoiz;",
+  "Ljipm/qpuf;",
+  "Ljipm/quoh;",
+  "Ljipm/radf;",
+  "Ljipm/rixr;",
+  "Ljipm/sgrd;",
+  "Ljipm/sktg;",
+  "Ljipm/tlzz;",
+  "Ljipm/tpos;",
+  "Ljipm/tvas;",
+  "Ljipm/udgu;",
+  "Ljipm/wagk;",
+  "Ljipm/wgge;",
+  "Ljipm/wpje;",
+  "Ljipm/yiwc;",
+  "Ljj2000/j2k/util/NativeServices;",
+  "Lnet/zetetic/database/sqlcipher/SQLiteConnection;",
+  "Lnet/zetetic/database/sqlcipher/SQLiteDebug;",
+  "Lnet/zetetic/database/sqlcipher/SQLiteGlobal;",
+  "Lwmoi/ixzi;",
+  "Lwmoi/osyr;",
+  "Lwmoi/qmni;",
+  "Lwmoi/skdy;",
+  "Lvn/ai/faceauth/sdk/j;",
+  "Lvn/ai/faceauth/sdk/a;",
+  "Lvn/ai/faceauth/sdk/d$a;",
+  "Lvn/ai/faceauth/sdk/f;",
+  "Lvn/ai/faceauth/sdk/g$$ExternalSyntheticLambda0;",
+  "Lvn/ai/faceauth/sdk/g;",
+  "Lvn/ai/faceauth/sdk/h;",
+  "Lvn/ai/faceauth/sdk/j$$ExternalSyntheticLambda0;",
+  "Lvn/ai/faceauth/sdk/j$$ExternalSyntheticLambda1;",
+  "Lvn/ai/faceauth/sdk/j$a;",
+  "Lvn/ai/faceauth/sdk/opencv/VFaceLib$Companion;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/configs/AuthenInput$Creator;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/configs/AuthenInput;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/configs/Certificate;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/configs/ConfigEndPoint$Creator;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/configs/FaceMatchInput$Creator;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/configs/FaceMatchInput;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/configs/LivenessConfig$Creator;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/configs/LivenessConfig;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/configs/SDKConfig;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/model/AccessTokenData;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/model/AuthenticationSDKResult;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/model/Constants$Companion;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/model/FaceMatchResult;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXError;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXResult;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/model/PhotoResult;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/model/RequestCreate;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness$Creator;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;",
+  "Lvn/ai/faceauth/sdk/presentation/domain/model/StepLivenessKt;",
+  "Lvn/ai/faceauth/sdk/presentation/navigation/FaceMatch$a$a;",
+  "Lvn/ai/faceauth/sdk/presentation/navigation/FaceMatch$a;"
+ ]
+}
