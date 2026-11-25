@@ -89,6 +89,83 @@
    }
   ]
  },
+ "dedupe": {
+  "duplicate_groups": 299,
+  "entries_in_duplicate_groups": 795,
+  "reclaimable_bytes": 0,
+  "reclaimable_bytes_estimated": 1280609,
+  "tautological_entries": {
+   "play_source_stamp": 5,
+   "androidx_version_marker": 129
+  },
+  "multiplicity_histogram": {
+   "5": 6,
+   "2": 214,
+   "3": 57,
+   "23": 1,
+   "7": 2,
+   "16": 1,
+   "4": 11,
+   "13": 1,
+   "11": 1,
+   "18": 1,
+   "6": 3,
+   "9": 1
+  },
+  "largest_groups": [
+   {
+    "count": 2,
+    "bytes_each": 106396,
+    "sample": "vn.com.vng.zalopay.apk:res/drawable/img_fds_nfc_guidance.png"
+   },
+   {
+    "count": 2,
+    "bytes_each": 99295,
+    "sample": "vn.com.vng.zalopay.apk:res/drawable/bg_cashier_new_ui_header.png"
+   },
+   {
+    "count": 2,
+    "bytes_each": 49608,
+    "sample": "vn.com.vng.zalopay.apk:org/bouncycastle/pkix/CertPathReviewerMessages_de.properties"
+   },
+   {
+    "count": 2,
+    "bytes_each": 48216,
+    "sample": "vn.com.vng.zalopay.apk:assets/fonts/UnisectVnu.ttf"
+   },
+   {
+    "count": 2,
+    "bytes_each": 42868,
+    "sample": "vn.com.vng.zalopay.apk:org/bouncycastle/pkix/CertPathReviewerMessages.properties"
+   },
+   {
+    "count": 2,
+    "bytes_each": 38275,
+    "sample": "vn.com.vng.zalopay.apk:res/drawable-xxhdpi-v4/img_profile_v2_privacy_hub.png"
+   },
+   {
+    "count": 2,
+    "bytes_each": 27062,
+    "sample": "vn.com.vng.zalopay.apk:res/raw/ic_cashier_pay_loading.json"
+   },
+   {
+    "count": 5,
+    "bytes_each": 10175,
+    "sample": "vn.com.vng.zalopay.apk:META-INF/androidx/annotation/annotation/LICENSE.txt"
+   },
+   {
+    "count": 2,
+    "bytes_each": 20470,
+    "sample": "vn.com.vng.zalopay.apk:res/drawable/ic_kyc_protection_info.webp"
+   },
+   {
+    "count": 2,
+    "bytes_each": 18308,
+    "sample": "vn.com.vng.zalopay.apk:res/drawable/ic_cashier_secure.xml"
+   }
+  ],
+  "note": "dedupe across splits is impossible by construction (each split has its own ZIP namespace); the only true cross-split duplicate is the Play SourceStamp digest, which is supposed to be identical."
+ },
  "totals": {
   "entries": 6466,
   "uncompressed_bytes": 195353860,

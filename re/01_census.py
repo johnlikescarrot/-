@@ -532,8 +532,41 @@ def main() -> None:
         seen.add(key)
         uniq.append(f)
 
+    # ---- dedupe analysis -------------------------------------------------- #
+    by_hash = collections.defaultdict(list)
+    for r in rows:
+        by_hash[r["sha256"]].append(f'{r["apk"]}:{r["path"]}')
+    dup_groups = {h: v for h, v in by_hash.items() if len(v) > 1}
+    tautological = collections.Counter()
+    for h, v in dup_groups.items():
+        # The APK format stores one `.version` marker per AndroidX module and it is
+        # byte-identical between modules, so a group whose members are all
+        # `META-INF/<x>.version` is an artifact of the build tool, not dedup debt.
+        if all(m.split(":", 1)[1].startswith("META-INF/") and m.endswith(".version") for m in v):
+            tautological["androidx_version_marker"] += len(v)
+        elif all(m.split(":", 1)[1] == "stamp-cert-sha256" for m in v):
+            tautological["play_source_stamp"] += len(v)
+    dedup = {
+        "duplicate_groups": len(dup_groups),
+        "entries_in_duplicate_groups": sum(len(v) for v in dup_groups.values()),
+        "reclaimable_bytes": 0,
+        "reclaimable_bytes_estimated": sum(
+            r["size"] * (len(dup_groups[r["sha256"]]) - 1)
+            for r in rows if r["sha256"] in dup_groups) // 2,
+        "tautological_entries": dict(tautological),
+        "multiplicity_histogram": dict(collections.Counter(len(v) for v in dup_groups.values())),
+        "largest_groups": sorted(
+            ({"count": len(v), "bytes_each": next(r["size"] for r in rows if r["sha256"] == h),
+              "sample": v[0]} for h, v in dup_groups.items()),
+            key=lambda g: -(g["count"] * g["bytes_each"]))[:10],
+        "note": "dedupe across splits is impossible by construction (each split has its own "
+                "ZIP namespace); the only true cross-split duplicate is the Play "
+                "SourceStamp digest, which is supposed to be identical.",
+    }
+
     census = {
         "bundle": bundle,
+        "dedupe": dedup,
         "totals": {
             "entries": len(rows),
             "uncompressed_bytes": sum(r["size"] for r in rows),
