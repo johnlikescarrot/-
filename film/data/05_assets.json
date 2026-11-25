@@ -1,0 +1,169 @@
+{
+ "assets_count": 124,
+ "assets_bytes": 30011044,
+ "assets_by_ext": {
+  ".json": 17,
+  ".tflite": 14,
+  ".ttf": 12,
+  "(none)": 11,
+  ".binarypb": 10,
+  ".png": 9,
+  ".js": 8,
+  ".html": 8,
+  ".pb": 6,
+  ".emd": 4,
+  ".amr": 3,
+  ".dat": 3,
+  ".txt": 2,
+  ".fb": 2,
+  ".bincfg": 2,
+  ".tfl": 2,
+  ".bin": 1,
+  ".param": 1,
+  ".zip": 1,
+  ".dex": 1,
+  ".prof": 1,
+  ".profm": 1,
+  ".conv_model": 1,
+  ".lstm_model": 1,
+  ".pem": 1,
+  ".so": 1,
+  ".public": 1
+ },
+ "largest_assets": [
+  {
+   "path": "audience_network.dex",
+   "bytes": 4864036
+  },
+  {
+   "path": "android.1.zip",
+   "bytes": 3913966
+  },
+  {
+   "path": "custom_models/object_labeler.tflite",
+   "bytes": 3770391
+  },
+  {
+   "path": "FastestDet.ncnn.bin",
+   "bytes": 2420588
+  },
+  {
+   "path": "mlkit_odt_default_classifier/labeler_with_validation.tflite",
+   "bytes": 1706957
+  },
+  {
+   "path": "mlkit_odt_localizer/localizer_with_validation.tflite",
+   "bytes": 1254848
+  },
+  {
+   "path": "models_bundled/contours.tfl",
+   "bytes": 1124144
+  },
+  {
+   "path": "models_bundled/LMprec_600.emd",
+   "bytes": 1078354
+  },
+  {
+   "path": "config/miniapp_config.json",
+   "bytes": 883684
+  },
+  {
+   "path": "Griver/68687209_2.9.7.8.amr",
+   "bytes": 856974
+  },
+  {
+   "path": "fgcpkjvqe.dat",
+   "bytes": 776320
+  },
+  {
+   "path": "models_bundled/fssd_medium_8bit_v5.tflite",
+   "bytes": 613352
+  },
+  {
+   "path": "models_bundled/fssd_medium_8bit_gray_v5.tflite",
+   "bytes": 613080
+  },
+  {
+   "path": "taxi_splash_loading.json",
+   "bytes": 536057
+  },
+  {
+   "path": "mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+   "bytes": 390456
+  },
+  {
+   "path": "models_bundled/blazeface.tfl",
+   "bytes": 347928
+  },
+  {
+   "path": "mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+   "bytes": 340760
+  },
+  {
+   "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+   "bytes": 315520
+  },
+  {
+   "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+   "bytes": 309568
+  },
+  {
+   "path": "Griver/66666692_1.24.8.amr",
+   "bytes": 287535
+  },
+  {
+   "path": "mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+   "bytes": 276552
+  },
+  {
+   "path": "com/visa/cbp/74e13961eb6489ab-",
+   "bytes": 265304
+  },
+  {
+   "path": "models_bundled/fssd_25_8bit_v2.tflite",
+   "bytes": 232096
+  },
+  {
+   "path": "models_bundled/fssd_25_8bit_gray_v2.tflite",
+   "bytes": 231816
+  },
+  {
+   "path": "mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+   "bytes": 213880
+  }
+ ],
+ "res_files": 5604,
+ "res_by_ext": {
+  ".xml": 5208,
+  ".png": 212,
+  ".webp": 111,
+  ".json": 44,
+  ".ttf": 11,
+  ".riv": 4,
+  ".gif": 3,
+  ".jpg": 2,
+  ".otf": 2,
+  ".mp3": 2,
+  ".svg": 2,
+  ".js": 1,
+  ".html": 1,
+  ".yaml": 1
+ },
+ "arsc_bytes": 1802300,
+ "total_files_in_base_apk": 6192,
+ "config_quotes": {
+  "config/zalopay_config.json": "{\n  \"general\": {\n    \"phone_format\": {\n      \"min_length\": 9,\n      \"max_length\": 12,\n      \"patterns\": [\n        \"^(840|84|0|)8(1|2|3|4|5|6|7|8|9)\\\\d{7}$\",\n        \"(840|84|0|)9\\\\d{8}\",\n        \"^(840|84|0|)5(2|5|6|8|9)\\\\d{7}$\",\n        \"(840|84|0|)7(0|6|7|8|9)\\\\d{7}\",\n        \"(840|84|0|)3[2-9]\\\\d{7}\"\n      ],\n      \"invalid_length_message\": \"Số điện thoại cần từ 9 đến 12 chữ số\",\n      \"general",
+  "config/miniapp_config.json": "{\n    \"code\": 200,\n    \"data\": [\n        {\n            \"app_id\": \"9588434516294069\",\n            \"app_name\": \"Zalopay\",\n            \"app_logo\": \"https://simg.zalopay.com.vn/zst/zpi/images/mini-app-info/logozalopay_square.jpg\",\n            \"path\": \"spa/v2/quick-pay-binding/multigo/tnc\",\n            \"category_name\": \"Tài chính\",\n            \"base_url\": \"https://social.zalopay.vn\",\n            \"one_l",
+  "safemode_registrator_com_iap_ac_config.json": "{\n  \"classname\": \"com.iap.ac.config.lite.safemodehandler.ConfigurationHandler\"\n}",
+  "Griver/appx.json": "{\n  \"mini\":{\n    \"66666692\": {\n      \"appInfo\": {\n        \"appId\": \"66666692\",\n        \"deployVersion\": \"1.24.8\",\n        \"fallbackBaseUrl\": \"https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/\",\n        \"packageUrl\": \"https://cdn.marmot-cloud.com/storage/gmpop/5b39bcb7-85be-471c-aeaf-55ee5c4437a5/66666692_1.24.8.amr\",\n        \"mainUrl\": \"/index.html#pages/index/index\",\n        \"nam",
+  "bundle.json": "{\n  \"external_bundle\": [\n    {\n      \"appid\": 1,\n      \"appname\": \"Internal Application\",\n      \"asset\": \"android.1.zip\",\n      \"checksum\": \"An3SoswJ6ujv2Qk6UqYxcw\",\n      \"version\": \"1.0.0\",\n      \"status\": 1\n    }\n  ],\n  \"internal_bundle\": {\n    \"checksum\": \"ba910kal\",\n    \"version\": \"1.0.20160523.001\"\n  }\n}\n",
+  "taibmcf.json": "{\"vi\":\"Mở cài đặt\",\"en\":\"Open settings\"}",
+  "vdfmoer.json": "{\"vi\":\"Mở cài đặt\",\"en\":\"Open settings\"}"
+ },
+ "config_public_key": {
+  "pem_head": "-----BEGIN PUBLIC KEY-----",
+  "pem_tail": "-----END PUBLIC KEY-----",
+  "lines": 9,
+  "declared_bits": 2048
+ }
+}

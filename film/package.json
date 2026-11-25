@@ -1,0 +1,22 @@
+{
+  "name": "zalopay-re-film",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Forensic documentary film on the static reverse engineering of Zalopay 11.17.0 (APKPure XAPK), authored in TypeScript.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "analyze": "node dist/analyze/collect.js",
+    "film": "node dist/film/main.js"
+  },
+  "dependencies": {
+    "@expo-google-fonts/inter": "^0.4.2",
+    "@expo-google-fonts/jetbrains-mono": "^0.4.1",
+    "@expo-google-fonts/space-grotesk": "^0.4.1",
+    "@napi-rs/canvas": "^0.1.60"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}

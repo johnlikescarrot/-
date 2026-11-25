@@ -1,0 +1,419 @@
+{
+ "count": 69,
+ "sdks": [
+  {
+   "artifact": "barcode-scanning",
+   "version": "17.3.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "barcode-scanning-common",
+   "version": "17.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "billing",
+   "version": "8.3.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "billing-ktx",
+   "version": "8.3.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "common",
+   "version": "18.11.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "core-common",
+   "version": "2.0.4",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "face-detection",
+   "version": "16.1.7",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "feature-delivery",
+   "version": "2.1.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-abt",
+   "version": "19.1.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-analytics",
+   "version": "22.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-analytics-ktx",
+   "version": "22.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-annotations",
+   "version": "16.2.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-config",
+   "version": "19.2.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-core",
+   "version": "19.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-encoders",
+   "version": "17.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-encoders-proto",
+   "version": "16.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-iid",
+   "version": "21.1.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-iid-interop",
+   "version": "17.1.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-measurement-connector",
+   "version": "20.0.1",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-messaging",
+   "version": "23.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "firebase-perf",
+   "version": "19.0.8",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "image",
+   "version": "1.0.0-beta1",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "integrity",
+   "version": "1.3.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "object-detection",
+   "version": "17.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "object-detection-common",
+   "version": "18.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-ads",
+   "version": "23.6.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-ads-base",
+   "version": "23.6.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-ads-identifier",
+   "version": "18.0.1",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-ads-lite",
+   "version": "23.6.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-analytics-impl",
+   "version": "18.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-appset",
+   "version": "16.0.1",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-auth-api-phone",
+   "version": "17.4.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-base",
+   "version": "18.5.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-basement",
+   "version": "18.9.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-clearcut",
+   "version": "17.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-cloud-messaging",
+   "version": "17.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-flags",
+   "version": "17.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-identity",
+   "version": "18.1.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-location",
+   "version": "19.0.1",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-maps",
+   "version": "18.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-measurement",
+   "version": "22.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-measurement-api",
+   "version": "22.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-measurement-base",
+   "version": "22.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-measurement-impl",
+   "version": "22.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-measurement-sdk",
+   "version": "22.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-measurement-sdk-api",
+   "version": "22.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-mlkit-barcode-scanning",
+   "version": "18.3.1",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-mlkit-face-detection",
+   "version": "17.1.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-mlkit-subject-segmentation",
+   "version": "16.0.0-beta1",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-mlkit-text-recognition",
+   "version": "19.0.1",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-mlkit-text-recognition-common",
+   "version": "19.1.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-phenotype",
+   "version": "17.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-places-placereport",
+   "version": "17.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-safetynet",
+   "version": "18.0.1",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-stats",
+   "version": "17.0.3",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-tagmanager",
+   "version": "18.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-tagmanager-api",
+   "version": "18.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-tasks",
+   "version": "18.2.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-vision",
+   "version": "19.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-vision-common",
+   "version": "19.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "play-services-wallet",
+   "version": "19.4.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "review",
+   "version": "2.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "review-ktx",
+   "version": "2.0.2",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "text-recognition",
+   "version": "16.0.1",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "text-recognition-bundled-common",
+   "version": "17.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "user-messaging-platform",
+   "version": "3.0.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "vision-common",
+   "version": "17.3.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "vision-interfaces",
+   "version": "16.3.0",
+   "group": null,
+   "name": null
+  },
+  {
+   "artifact": "vision-internal-vkp",
+   "version": "18.2.3",
+   "group": null,
+   "name": null
+  }
+ ]
+}

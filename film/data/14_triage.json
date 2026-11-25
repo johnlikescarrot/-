@@ -1,0 +1,692 @@
+{
+ "code_capabilities": {
+  "biometric_auth": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 53,
+   "defined_in_apk": 42,
+   "referencing_classes": 37,
+   "attribution": {
+    "obfuscated": 10,
+    "sdk": 43
+   },
+   "examples": [
+    "Ai.f",
+    "CS.L",
+    "CS.b",
+    "android.hardware.biometrics.BiometricPrompt$AuthenticationCallback"
+   ]
+  },
+  "keystore_hardware": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 43,
+   "defined_in_apk": 0,
+   "referencing_classes": 43,
+   "attribution": {
+    "obfuscated": 4,
+    "sdk": 38,
+    "first_party": 1
+   },
+   "examples": [
+    "vn.com.vng.zalopay.authentication.secret.c"
+   ]
+  },
+  "symmetric_crypto": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 60,
+   "defined_in_apk": 0,
+   "referencing_classes": 60,
+   "attribution": {
+    "obfuscated": 13,
+    "sdk": 45,
+    "first_party": 2
+   },
+   "examples": [
+    "vn.com.vng.zalopay.authentication.secret.a",
+    "vn.com.vng.zalopay.authentication.secret.c"
+   ]
+  },
+  "hmac": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 34,
+   "defined_in_apk": 0,
+   "referencing_classes": 34,
+   "attribution": {
+    "obfuscated": 7,
+    "sdk": 27
+   },
+   "examples": [
+    "O5.b",
+    "Za.a",
+    "androidx.biometric.F",
+    "com.facebook.applinks.b"
+   ]
+  },
+  "db_encryption_sqlcipher": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 49,
+   "defined_in_apk": 44,
+   "referencing_classes": 33,
+   "attribution": {
+    "sdk": 48,
+    "obfuscated": 1
+   },
+   "examples": [
+    "net.zetetic.database.CursorWindow",
+    "net.zetetic.database.DatabaseErrorHandler",
+    "net.zetetic.database.DatabaseUtils$InsertHelper",
+    "net.zetetic.database.DefaultDatabaseErrorHandler"
+   ]
+  },
+  "certificate_pinning": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 25,
+   "defined_in_apk": 5,
+   "referencing_classes": 23,
+   "attribution": {
+    "obfuscated": 16,
+    "sdk": 9
+   },
+   "examples": [
+    "CC.b",
+    "CC.f",
+    "CC.g",
+    "CC.k"
+   ]
+  },
+  "custom_trust_chain": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 32,
+   "defined_in_apk": 0,
+   "referencing_classes": 32,
+   "attribution": {
+    "obfuscated": 5,
+    "sdk": 27
+   },
+   "examples": [
+    "Td.g",
+    "com.visa.cbp.sdk.facade.DASServiceManager$UnsafeOkHttpClient$1",
+    "jipm.jbvt",
+    "jipm.szdr"
+   ]
+  },
+  "dynamic_code_loading": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 2,
+   "defined_in_apk": 0,
+   "referencing_classes": 2,
+   "attribution": {
+    "sdk": 2
+   },
+   "examples": [
+    "com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory",
+    "com.google.android.gms.internal.ads.F4"
+   ]
+  },
+  "reflection": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 280,
+   "defined_in_apk": 0,
+   "referencing_classes": 280,
+   "attribution": {
+    "obfuscated": 79,
+    "sdk": 200,
+    "first_party": 1
+   },
+   "examples": [
+    "vn.zalopay.ui.androidsvg.E0"
+   ]
+  },
+  "process_execution": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 2,
+   "defined_in_apk": 0,
+   "referencing_classes": 2,
+   "attribution": {
+    "obfuscated": 1,
+    "sdk": 1
+   },
+   "examples": [
+    "Qb.n",
+    "com.google.android.gms.internal.firebase-perf.B"
+   ]
+  },
+  "accessibility_service": {
+   "evidence": "class_definition",
+   "present": false,
+   "classes": 0,
+   "defined_in_apk": 0,
+   "referencing_classes": 0,
+   "attribution": {},
+   "examples": []
+  },
+  "device_admin": {
+   "evidence": "class_definition",
+   "present": false,
+   "classes": 0,
+   "defined_in_apk": 0,
+   "referencing_classes": 0,
+   "attribution": {},
+   "examples": []
+  },
+  "notification_listener": {
+   "evidence": "class_definition",
+   "present": false,
+   "classes": 0,
+   "defined_in_apk": 0,
+   "referencing_classes": 0,
+   "attribution": {},
+   "examples": []
+  },
+  "nfc_hce_payment": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 23,
+   "defined_in_apk": 0,
+   "referencing_classes": 23,
+   "attribution": {
+    "obfuscated": 12,
+    "sdk": 9,
+    "first_party": 2
+   },
+   "examples": [
+    "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+    "vn.com.vng.zalopay.nfc.FundingSolutionNFCActivity"
+   ]
+  },
+  "qr_barcode_scanning": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 15,
+   "defined_in_apk": 10,
+   "referencing_classes": 10,
+   "attribution": {
+    "obfuscated": 4,
+    "sdk": 11
+   },
+   "examples": [
+    "F.d0",
+    "P3.f",
+    "cV.W",
+    "com.google.android.gms.internal.mlkit_vision_barcode.c6"
+   ]
+  },
+  "ocr_document": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 16,
+   "defined_in_apk": 13,
+   "referencing_classes": 8,
+   "attribution": {
+    "obfuscated": 2,
+    "sdk": 14
+   },
+   "examples": [
+    "F.S",
+    "Rk.c",
+    "com.google.android.gms.internal.mlkit_vision_barcode.k5",
+    "com.google.mlkit.vision.text.bundled.common.BundledTextRecognizerCreator"
+   ]
+  },
+  "face_detection": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 803,
+   "defined_in_apk": 704,
+   "referencing_classes": 611,
+   "attribution": {
+    "obfuscated": 779,
+    "sdk": 24
+   },
+   "examples": [
+    "Bk.G",
+    "Bk.b",
+    "Bk.n",
+    "Bk.o"
+   ]
+  },
+  "liveness_native": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 402,
+   "defined_in_apk": 316,
+   "referencing_classes": 311,
+   "attribution": {
+    "obfuscated": 394,
+    "sdk": 8
+   },
+   "examples": [
+    "CS.b",
+    "Dk.e",
+    "Dk.f",
+    "Ek.W"
+   ]
+  },
+  "miniapp_container": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 4777,
+   "defined_in_apk": 4643,
+   "referencing_classes": 3671,
+   "attribution": {
+    "obfuscated": 70,
+    "sdk": 4707
+   },
+   "examples": [
+    "Ae.o",
+    "Dm.a",
+    "androidx.fragment.app.a",
+    "com.alibaba.ariver.ExtHubInitializer"
+   ]
+  },
+  "ads_sdk": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 313,
+   "defined_in_apk": 206,
+   "referencing_classes": 239,
+   "attribution": {
+    "obfuscated": 23,
+    "sdk": 290
+   },
+   "examples": [
+    "AH.c",
+    "Ae.o",
+    "Bm.d",
+    "O5.b"
+   ]
+  },
+  "analytics_firebase": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 1558,
+   "defined_in_apk": 221,
+   "referencing_classes": 1476,
+   "attribution": {
+    "obfuscated": 846,
+    "sdk": 705,
+    "first_party": 7
+   },
+   "examples": [
+    "vn.com.vng.zalopay.core.ui.activity.BaseActivity",
+    "vn.com.vng.zalopay.core.ui.activity.BaseBindingActivity",
+    "vn.com.vng.zalopay.core.ui.activity.BaseOldActivity",
+    "vn.com.vng.zalopay.notification.MyFcmListenerService"
+   ]
+  },
+  "appsflyer_attribution": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 434,
+   "defined_in_apk": 430,
+   "referencing_classes": 286,
+   "attribution": {
+    "sdk": 430,
+    "obfuscated": 3,
+    "first_party": 1
+   },
+   "examples": [
+    "vn.com.vng.zalopay.internal.e"
+   ]
+  },
+  "visa_src": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 939,
+   "defined_in_apk": 900,
+   "referencing_classes": 296,
+   "attribution": {
+    "sdk": 939
+   },
+   "examples": [
+    "com.visa.cbp.AidInfo",
+    "com.visa.cbp.Base64",
+    "com.visa.cbp.Base64Encoder",
+    "com.visa.cbp.Base64Url"
+   ]
+  },
+  "alipay_plus": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 1450,
+   "defined_in_apk": 1419,
+   "referencing_classes": 880,
+   "attribution": {
+    "sdk": 1217,
+    "obfuscated": 233
+   },
+   "examples": [
+    "com.alibaba.griver.base.utils.LanguageHeaderInterceptor",
+    "com.alibaba.griver.core.jsapi.diagnostic.DiagnosticBridgeExtension$1",
+    "com.alibaba.griver.init.IAPIntegrationHelper$5",
+    "com.alibaba.griver.init.monitor.GriverIAPLiteMonitor"
+   ]
+  },
+  "vnpay_sdk": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 488,
+   "defined_in_apk": 388,
+   "referencing_classes": 304,
+   "attribution": {
+    "obfuscated": 89,
+    "sdk": 398,
+    "first_party": 1
+   },
+   "examples": [
+    "vn.com.vng.zalopay.internal.e"
+   ]
+  },
+  "nfc_emvco": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 320,
+   "defined_in_apk": 298,
+   "referencing_classes": 257,
+   "attribution": {
+    "obfuscated": 22,
+    "sdk": 298
+   },
+   "examples": [
+    "Z4.a",
+    "b5.a",
+    "b5.b",
+    "e4.a"
+   ]
+  },
+  "bouncycastle_provider": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 13,
+   "defined_in_apk": 4,
+   "referencing_classes": 12,
+   "attribution": {
+    "sdk": 6,
+    "obfuscated": 7
+   },
+   "examples": [
+    "com.nimbusds.jose.crypto.bc.BouncyCastleProviderSingleton",
+    "e4.e",
+    "f4.a",
+    "f4.b"
+   ]
+  },
+  "compose_ui": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 485,
+   "defined_in_apk": 264,
+   "referencing_classes": 350,
+   "attribution": {
+    "obfuscated": 202,
+    "sdk": 277,
+    "first_party": 6
+   },
+   "examples": [
+    "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankBindingActivity",
+    "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankMediaWebViewActivity",
+    "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.FundManagementActivity",
+    "vn.com.vng.zalopay.cashin.presentation.ui.activity.CashInActivity"
+   ]
+  },
+  "webview_bridge": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 122,
+   "defined_in_apk": 0,
+   "referencing_classes": 122,
+   "attribution": {
+    "obfuscated": 62,
+    "sdk": 53,
+    "first_party": 7
+   },
+   "examples": [
+    "vn.com.vng.zalopay.cashin.presentation.ui.view.TopUpWebView",
+    "vn.com.vng.zalopay.pdfviewer.PdfRendererView",
+    "vn.com.vng.zalopay.pdfviewer.a",
+    "vn.com.vng.zalopay.webview.ui.a"
+   ]
+  },
+  "package_inventory": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 18,
+   "defined_in_apk": 1,
+   "referencing_classes": 17,
+   "attribution": {
+    "obfuscated": 7,
+    "sdk": 11
+   },
+   "examples": [
+    "Ok.e",
+    "Ok.j",
+    "ZD.d",
+    "android.content.pm.PackageManager$OnChecksumsReadyListener"
+   ]
+  },
+  "clipboard": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 2,
+   "defined_in_apk": 0,
+   "referencing_classes": 2,
+   "attribution": {
+    "sdk": 1,
+    "obfuscated": 1
+   },
+   "examples": [
+    "androidx.compose.ui.platform.h",
+    "n9.J2"
+   ]
+  },
+  "location": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 67,
+   "defined_in_apk": 36,
+   "referencing_classes": 44,
+   "attribution": {
+    "obfuscated": 16,
+    "sdk": 51
+   },
+   "examples": [
+    "Ai.f",
+    "E8.f",
+    "Fd.b",
+    "MD.g"
+   ]
+  },
+  "audio_capture": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 2,
+   "defined_in_apk": 0,
+   "referencing_classes": 2,
+   "attribution": {
+    "obfuscated": 2
+   },
+   "examples": [
+    "x7.n",
+    "x7.w"
+   ]
+  },
+  "camera2": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 720,
+   "defined_in_apk": 306,
+   "referencing_classes": 595,
+   "attribution": {
+    "obfuscated": 132,
+    "sdk": 584,
+    "first_party": 4
+   },
+   "examples": [
+    "vn.com.vng.zalopay.camera.CustomDefaultCamera",
+    "vn.com.vng.zalopay.miniapp.api.v2.device.DeviceModule",
+    "vn.zalopay.ui.camera.h",
+    "vn.zalopay.ui.camera.k"
+   ]
+  },
+  "plaintext_sqlite": {
+   "evidence": "platform_api_reference",
+   "present": true,
+   "classes": 13,
+   "defined_in_apk": 0,
+   "referencing_classes": 13,
+   "attribution": {
+    "obfuscated": 2,
+    "sdk": 11
+   },
+   "examples": [
+    "D3.g",
+    "com.alibaba.griver.base.resource.appcenter.storage.GriverAbstractDBHelper",
+    "com.google.android.datatransport.runtime.scheduling.persistence.q",
+    "com.google.android.gms.internal.ads.Xv"
+   ]
+  },
+  "nimbus_jose": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 363,
+   "defined_in_apk": 360,
+   "referencing_classes": 296,
+   "attribution": {
+    "sdk": 361,
+    "obfuscated": 2
+   },
+   "examples": [
+    "com.nimbusds.jose.ActionRequiredForJWSCompletionException",
+    "com.nimbusds.jose.Algorithm",
+    "com.nimbusds.jose.AlgorithmFamily",
+    "com.nimbusds.jose.CommonSEHeader"
+   ]
+  },
+  "griver_permission": {
+   "evidence": "class_definition",
+   "present": true,
+   "classes": 59,
+   "defined_in_apk": 56,
+   "referencing_classes": 7,
+   "attribution": {
+    "sdk": 59
+   },
+   "examples": [
+    "com.alibaba.griver.base.common.utils.AOMPDeviceUtils",
+    "com.alibaba.griver.base.common.utils.AOMPFileTinyAppUtils",
+    "com.alibaba.griver.base.common.utils.APIContextUtils",
+    "com.alibaba.griver.base.common.utils.AndroidVersionUtils"
+   ]
+  }
+ },
+ "string_capabilities": {
+  "sms_send": {
+   "evidence": "string_literal",
+   "present": false,
+   "tokens": {}
+  },
+  "contacts_read": {
+   "evidence": "string_literal",
+   "present": true,
+   "tokens": {
+    "ContactsContract": 4
+   }
+  },
+  "attestation_play_integrity": {
+   "evidence": "string_literal",
+   "present": true,
+   "tokens": {
+    "com.google.android.play.core.integrity": 6,
+    "IntegrityManager": 11,
+    "SafetyNet": 17
+   }
+  },
+  "ssl_pinning_literals": {
+   "evidence": "string_literal",
+   "present": true,
+   "tokens": {
+    "ssl_pinning": 1
+   }
+  },
+  "root_indicators": {
+   "evidence": "string_literal",
+   "present": true,
+   "tokens": {
+    "/system/app/Superuser.apk": 1,
+    "test-keys": 1,
+    "/system/xbin/su": 1
+   }
+  },
+  "hook_indicators": {
+   "evidence": "string_literal",
+   "present": true,
+   "tokens": {
+    "frida": 4,
+    "de.robv.android.xposed.installer": 1
+   }
+  },
+  "emulator_indicators": {
+   "evidence": "string_literal",
+   "present": true,
+   "tokens": {
+    "goldfish": 1,
+    "ranchu": 2,
+    "ro.kernel.qemu": 1,
+    "Genymotion": 1
+   }
+  },
+  "debugger_indicators": {
+   "evidence": "string_literal",
+   "present": true,
+   "tokens": {
+    "isDebuggerConnected": 1
+   }
+  },
+  "tamper_indicators": {
+   "evidence": "string_literal",
+   "present": true,
+   "tokens": {
+    "tamper": 5
+   }
+  },
+  "screen_capture_guard": {
+   "evidence": "string_literal",
+   "present": false,
+   "tokens": {}
+  },
+  "crypto_algorithms": {
+   "evidence": "string_literal",
+   "present": true,
+   "tokens": {
+    "AES/GCM/NoPadding": 4,
+    "HmacSHA256": 3,
+    "RSA/ECB/OAEPWithSHA-256AndMGF1Padding": 1
+   }
+  }
+ },
+ "verdict": {
+  "classes_defined": 60671,
+  "string_literals": 243786,
+  "capabilities_present": 34,
+  "capabilities_total": 37,
+  "absent_code_capabilities": [
+   "accessibility_service",
+   "device_admin",
+   "notification_listener"
+  ],
+  "absent_string_capabilities": [
+   "screen_capture_guard",
+   "sms_send"
+  ],
+  "statement": "No SmsManager call path, no AccessibilityService subclass, no device-admin receiver, no NotificationListenerService and no plaintext-SQLite helper is defined in the 19 DEX graphs. The high-risk capabilities that are present each map to a documented product function: eKYC (camera2, ML Kit OCR/barcode, face + liveness), NFC/EMVCo top-up, the Alipay+ miniapp container, ad/analytics SDKs, and SQLCipher-encrypted wallet storage."
+ }
+}

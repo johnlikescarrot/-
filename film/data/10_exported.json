@@ -1,0 +1,307 @@
+{
+ "count": 30,
+ "by_type": {
+  "activity": 14,
+  "activity-alias": 2,
+  "service": 6,
+  "receiver": 8
+ },
+ "components": [
+  {
+   "type": "activity",
+   "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+   "permission": null,
+   "actions": [
+    "android.intent.action.MAIN",
+    "android.intent.action.VIEW",
+    "android.nfc.action.NDEF_DISCOVERED",
+    "scheme:https",
+    "scheme:zalopay",
+    "scheme:zalopay-vnpay"
+   ],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+   "permission": null,
+   "actions": [
+    "com.google.android.payments.standard.AUTHENTICATE_V1"
+   ],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+   "permission": null,
+   "actions": [
+    "android.intent.action.VIEW",
+    "scheme:https"
+   ],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+   "permission": null,
+   "actions": [
+    "android.intent.action.SEND"
+   ],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+   "permission": null,
+   "actions": [
+    "vn.com.vng.zalopay.ACTION_OPEN_ML_EXTRACT_ID_CARD"
+   ],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "com.facebook.CustomTabActivity",
+   "permission": null,
+   "actions": [
+    "android.intent.action.VIEW",
+    "scheme:fbconnect"
+   ],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+   "permission": null,
+   "actions": [
+    "android.intent.action.VIEW",
+    "scheme:tagmanager.c.vn.com.vng.zalopay"
+   ],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+   "permission": null,
+   "actions": [
+    "android.intent.action.MAIN"
+   ],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+   "permission": null,
+   "actions": [
+    "android.intent.action.MAIN"
+   ],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+   "permission": null,
+   "actions": [
+    "android.intent.action.MAIN"
+   ],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "androidx.compose.ui.tooling.PreviewActivity",
+   "permission": null,
+   "actions": [],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+   "permission": null,
+   "actions": [],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+   "permission": null,
+   "actions": [],
+   "priority": null
+  },
+  {
+   "type": "activity",
+   "name": "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+   "permission": null,
+   "actions": [],
+   "priority": null
+  },
+  {
+   "type": "activity-alias",
+   "name": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+   "permission": null,
+   "actions": [
+    "android.intent.action.VIEW",
+    "scheme:zalopay",
+    "scheme:zalopay-1",
+    "scheme:zalopay.api.v2"
+   ],
+   "priority": null
+  },
+  {
+   "type": "activity-alias",
+   "name": "vn.zalopay.apps.ZaloAppActivityAlias",
+   "permission": null,
+   "actions": [
+    "vn.zalopay.intent.action.SEND_MONEY"
+   ],
+   "priority": null
+  },
+  {
+   "type": "service",
+   "name": "vn.com.vng.zalopay.notification.MyFcmListenerService",
+   "permission": null,
+   "actions": [
+    "com.google.firebase.MESSAGING_EVENT"
+   ],
+   "priority": null
+  },
+  {
+   "type": "service",
+   "name": "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+   "permission": "android.permission.BIND_NFC_SERVICE",
+   "actions": [
+    "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+   ],
+   "priority": null
+  },
+  {
+   "type": "service",
+   "name": "androidx.glance.appwidget.GlanceRemoteViewsService",
+   "permission": "android.permission.BIND_REMOTEVIEWS",
+   "actions": [],
+   "priority": null
+  },
+  {
+   "type": "service",
+   "name": "androidx.work.impl.background.systemjob.SystemJobService",
+   "permission": "android.permission.BIND_JOB_SERVICE",
+   "actions": [],
+   "priority": null
+  },
+  {
+   "type": "service",
+   "name": "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+   "permission": "android.permission.BIND_NFC_SERVICE",
+   "actions": [
+    "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+   ],
+   "priority": null
+  },
+  {
+   "type": "service",
+   "name": "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService",
+   "permission": "android.permission.BIND_NFC_SERVICE",
+   "actions": [
+    "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+   ],
+   "priority": null
+  },
+  {
+   "type": "receiver",
+   "name": "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+   "permission": null,
+   "actions": [
+    "com.android.vending.INSTALL_REFERRER"
+   ],
+   "priority": null
+  },
+  {
+   "type": "receiver",
+   "name": "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+   "permission": null,
+   "actions": [
+    "android.appwidget.action.APPWIDGET_UPDATE"
+   ],
+   "priority": null
+  },
+  {
+   "type": "receiver",
+   "name": "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+   "permission": null,
+   "actions": [
+    "android.appwidget.action.APPWIDGET_UPDATE"
+   ],
+   "priority": null
+  },
+  {
+   "type": "receiver",
+   "name": "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+   "permission": null,
+   "actions": [
+    "android.appwidget.action.APPWIDGET_UPDATE"
+   ],
+   "priority": null
+  },
+  {
+   "type": "receiver",
+   "name": "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+   "permission": null,
+   "actions": [
+    "android.appwidget.action.APPWIDGET_UPDATE"
+   ],
+   "priority": null
+  },
+  {
+   "type": "receiver",
+   "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+   "permission": "com.google.android.c2dm.permission.SEND",
+   "actions": [
+    "com.google.android.c2dm.intent.RECEIVE"
+   ],
+   "priority": null
+  },
+  {
+   "type": "receiver",
+   "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+   "permission": "android.permission.DUMP",
+   "actions": [
+    "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+   ],
+   "priority": null
+  },
+  {
+   "type": "receiver",
+   "name": "androidx.profileinstaller.ProfileInstallReceiver",
+   "permission": "android.permission.DUMP",
+   "actions": [
+    "androidx.profileinstaller.action.BENCHMARK_OPERATION",
+    "androidx.profileinstaller.action.INSTALL_PROFILE",
+    "androidx.profileinstaller.action.SAVE_PROFILE",
+    "androidx.profileinstaller.action.SKIP_FILE"
+   ],
+   "priority": null
+  }
+ ],
+ "unprotected": [
+  "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+  "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+  "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+  "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+  "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+  "com.facebook.CustomTabActivity",
+  "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+  "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+  "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+  "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+  "androidx.compose.ui.tooling.PreviewActivity",
+  "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+  "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+  "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+  "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+  "vn.zalopay.apps.ZaloAppActivityAlias",
+  "vn.com.vng.zalopay.notification.MyFcmListenerService",
+  "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+  "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+  "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+  "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+  "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver"
+ ]
+}

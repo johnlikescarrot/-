@@ -1,0 +1,466 @@
+{
+ "total": 49,
+ "dangerous": 25,
+ "vendor_specific": 7,
+ "groups": {
+  "advertising-id": 4,
+  "storage": 3,
+  "location": 2,
+  "telephony": 2,
+  "calendar": 2,
+  "contacts": 2,
+  "biometrics": 2,
+  "camera": 1,
+  "screen-protection": 1,
+  "foreground-service": 1,
+  "nfc": 1,
+  "notifications": 1,
+  "package-visibility": 1,
+  "boot": 1,
+  "microphone": 1
+ },
+ "verified": 8,
+ "rows": [
+  {
+   "permission": "android.permission.ACCESS_ADSERVICES_AD_ID",
+   "short": "ACCESS_ADSERVICES_AD_ID",
+   "group": "advertising-id",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+   "short": "ACCESS_ADSERVICES_ATTRIBUTION",
+   "group": "advertising-id",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+   "short": "ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+   "group": "advertising-id",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.ACCESS_ADSERVICES_TOPICS",
+   "short": "ACCESS_ADSERVICES_TOPICS",
+   "group": "advertising-id",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.ACCESS_COARSE_LOCATION",
+   "short": "ACCESS_COARSE_LOCATION",
+   "group": "location",
+   "dangerous": true,
+   "probe_capability": "location",
+   "verified_in_code": true,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.ACCESS_FINE_LOCATION",
+   "short": "ACCESS_FINE_LOCATION",
+   "group": "location",
+   "dangerous": true,
+   "probe_capability": "location",
+   "verified_in_code": true,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.ACCESS_NETWORK_STATE",
+   "short": "ACCESS_NETWORK_STATE",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.ACCESS_WIFI_STATE",
+   "short": "ACCESS_WIFI_STATE",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.CAMERA",
+   "short": "CAMERA",
+   "group": "camera",
+   "dangerous": true,
+   "probe_capability": "camera2",
+   "verified_in_code": true,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.CHANGE_WIFI_STATE",
+   "short": "CHANGE_WIFI_STATE",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.DETECT_SCREEN_CAPTURE",
+   "short": "DETECT_SCREEN_CAPTURE",
+   "group": "screen-protection",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.FOREGROUND_SERVICE",
+   "short": "FOREGROUND_SERVICE",
+   "group": "foreground-service",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.INTERNET",
+   "short": "INTERNET",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.MODIFY_AUDIO_SETTINGS",
+   "short": "MODIFY_AUDIO_SETTINGS",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.NFC",
+   "short": "NFC",
+   "group": "nfc",
+   "dangerous": true,
+   "probe_capability": "nfc_hce_payment",
+   "verified_in_code": true,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.POST_NOTIFICATIONS",
+   "short": "POST_NOTIFICATIONS",
+   "group": "notifications",
+   "dangerous": true,
+   "probe_capability": "analytics_firebase",
+   "verified_in_code": true,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.QUERY_ALL_PACKAGES",
+   "short": "QUERY_ALL_PACKAGES",
+   "group": "package-visibility",
+   "dangerous": true,
+   "probe_capability": "package_inventory",
+   "verified_in_code": true,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.READ_BASIC_PHONE_STATE",
+   "short": "READ_BASIC_PHONE_STATE",
+   "group": "telephony",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.READ_CALENDAR",
+   "short": "READ_CALENDAR",
+   "group": "calendar",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": false,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.READ_CONTACTS",
+   "short": "READ_CONTACTS",
+   "group": "contacts",
+   "dangerous": true,
+   "probe_capability": "contacts_read",
+   "verified_in_code": false,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.READ_EXTERNAL_STORAGE",
+   "short": "READ_EXTERNAL_STORAGE",
+   "group": "storage",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.READ_MEDIA_AUDIO",
+   "short": "READ_MEDIA_AUDIO",
+   "group": "storage",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.READ_PHONE_STATE",
+   "short": "READ_PHONE_STATE",
+   "group": "telephony",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.RECEIVE_BOOT_COMPLETED",
+   "short": "RECEIVE_BOOT_COMPLETED",
+   "group": "boot",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.RECORD_AUDIO",
+   "short": "RECORD_AUDIO",
+   "group": "microphone",
+   "dangerous": true,
+   "probe_capability": "audio_capture",
+   "verified_in_code": true,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.REORDER_TASKS",
+   "short": "REORDER_TASKS",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.USE_BIOMETRIC",
+   "short": "USE_BIOMETRIC",
+   "group": "biometrics",
+   "dangerous": true,
+   "probe_capability": "biometric_auth",
+   "verified_in_code": true,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.USE_FINGERPRINT",
+   "short": "USE_FINGERPRINT",
+   "group": "biometrics",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.VIBRATE",
+   "short": "VIBRATE",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.WAKE_LOCK",
+   "short": "WAKE_LOCK",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.WRITE_CALENDAR",
+   "short": "WRITE_CALENDAR",
+   "group": "calendar",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": false,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.WRITE_CONTACTS",
+   "short": "WRITE_CONTACTS",
+   "group": "contacts",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.permission.WRITE_EXTERNAL_STORAGE",
+   "short": "WRITE_EXTERNAL_STORAGE",
+   "group": "storage",
+   "dangerous": true,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+   "short": "MANAGE_OVERLAY_PERMISSION",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "com.android.launcher.permission.INSTALL_SHORTCUT",
+   "short": "INSTALL_SHORTCUT",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "com.android.launcher.permission.READ_SETTINGS",
+   "short": "READ_SETTINGS",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+   "short": "UNINSTALL_SHORTCUT",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "com.android.launcher.permission.WRITE_SETTINGS",
+   "short": "WRITE_SETTINGS",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "com.android.vending.BILLING",
+   "short": "BILLING",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "com.bbk.launcher2.permission.READ_SETTINGS",
+   "short": "READ_SETTINGS",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": true
+  },
+  {
+   "permission": "com.bbk.launcher2.permission.WRITE_SETTINGS",
+   "short": "WRITE_SETTINGS",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": true
+  },
+  {
+   "permission": "com.google.android.c2dm.permission.RECEIVE",
+   "short": "RECEIVE",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+   "short": "BIND_GET_INSTALL_REFERRER_SERVICE",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "com.google.android.gms.permission.AD_ID",
+   "short": "AD_ID",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": false
+  },
+  {
+   "permission": "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+   "short": "GET_COMMON_DATA",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": true
+  },
+  {
+   "permission": "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+   "short": "READ_APP_INFO",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": true
+  },
+  {
+   "permission": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+   "short": "WRITE_USE_APP_FEATURE_SURVEY",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": true
+  },
+  {
+   "permission": "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+   "short": "ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": true
+  },
+  {
+   "permission": "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+   "short": "DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+   "group": null,
+   "dangerous": false,
+   "probe_capability": null,
+   "verified_in_code": null,
+   "vendor_specific": true
+  }
+ ]
+}

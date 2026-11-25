@@ -1,0 +1,19 @@
+{
+ "raw_xml": "<network-security-config>\n  <domain-config>\n    <domain includeSubdomains=\"true\">storage.googleapis.com</domain>\n  </domain-config>\n  <base-config cleartextTrafficPermitted=\"true\">\n    <trust-anchors>\n      <certificates src=\"system\"/>\n    </trust-anchors>\n  </base-config>\n  <debug-overrides cleartextTrafficPermitted=\"true\">\n    <trust-anchors>\n      <certificates src=\"system\"/>\n      <certificates src=\"user\"/>\n    </trust-anchors>\n  </debug-overrides>\n</network-security-config>\n",
+ "domains": [
+  "storage.googleapis.com"
+ ],
+ "cleartext_flags": [
+  "true",
+  "true"
+ ],
+ "trust_anchors": [
+  "system",
+  "system",
+  "user"
+ ],
+ "has_pin_set": false,
+ "cleartext_global": true,
+ "user_ca_trusted": true,
+ "finding": "base-config permits cleartext application-wide; debug-overrides trusts user-installed CAs; no <pin-set> declared (pinning is therefore enforced only in code / native layers)"
+}

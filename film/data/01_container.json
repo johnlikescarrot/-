@@ -1,0 +1,776 @@
+{
+ "xapk_path": "work/xapk/vn.com.vng.zalopay.apk",
+ "xapk_size": 79359087,
+ "xapk_sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+ "xapk_entries": [
+  {
+   "name": "classes2.dex",
+   "size": 16516960,
+   "compressed": 8342327,
+   "ratio": 0.5051,
+   "method": 8,
+   "crc": "96cc4f2b"
+  },
+  {
+   "name": "classes7.dex",
+   "size": 10803680,
+   "compressed": 4622753,
+   "ratio": 0.4279,
+   "method": 8,
+   "crc": "013c24c6"
+  },
+  {
+   "name": "classes4.dex",
+   "size": 9418124,
+   "compressed": 4132672,
+   "ratio": 0.4388,
+   "method": 8,
+   "crc": "21254419"
+  },
+  {
+   "name": "classes.dex",
+   "size": 8831004,
+   "compressed": 3797844,
+   "ratio": 0.4301,
+   "method": 8,
+   "crc": "52e99be2"
+  },
+  {
+   "name": "classes6.dex",
+   "size": 7612432,
+   "compressed": 3412313,
+   "ratio": 0.4483,
+   "method": 8,
+   "crc": "e7464992"
+  },
+  {
+   "name": "classes5.dex",
+   "size": 7357484,
+   "compressed": 2816380,
+   "ratio": 0.3828,
+   "method": 8,
+   "crc": "0f8eea8a"
+  },
+  {
+   "name": "assets/audience_network.dex",
+   "size": 4864036,
+   "compressed": 2284095,
+   "ratio": 0.4696,
+   "method": 8,
+   "crc": "947a8ef8"
+  },
+  {
+   "name": "assets/android.1.zip",
+   "size": 3913966,
+   "compressed": 3851147,
+   "ratio": 0.984,
+   "method": 8,
+   "crc": "99dc9268"
+  },
+  {
+   "name": "res/raw/lbfmodel.yaml",
+   "size": 3778896,
+   "compressed": 1858134,
+   "ratio": 0.4917,
+   "method": 8,
+   "crc": "0ca75501"
+  },
+  {
+   "name": "assets/custom_models/object_labeler.tflite",
+   "size": 3770391,
+   "compressed": 3770391,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "c7712634"
+  },
+  {
+   "name": "assets/FastestDet.ncnn.bin",
+   "size": 2420588,
+   "compressed": 2237555,
+   "ratio": 0.9244,
+   "method": 8,
+   "crc": "94bc3960"
+  },
+  {
+   "name": "resources.arsc",
+   "size": 1802300,
+   "compressed": 1802300,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "f0183a1c"
+  },
+  {
+   "name": "res/raw/haarcascade_frontalface_default.xml",
+   "size": 1788328,
+   "compressed": 142650,
+   "ratio": 0.0798,
+   "method": 8,
+   "crc": "e4949e4d"
+  },
+  {
+   "name": "res/font/sf_compact_rounded_medium.ttf",
+   "size": 1785056,
+   "compressed": 742588,
+   "ratio": 0.416,
+   "method": 8,
+   "crc": "c908e0a2"
+  },
+  {
+   "name": "res/font/sf_compact_rounded_bold.ttf",
+   "size": 1782560,
+   "compressed": 744220,
+   "ratio": 0.4175,
+   "method": 8,
+   "crc": "4e00ecfe"
+  },
+  {
+   "name": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+   "size": 1706957,
+   "compressed": 1706957,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "400b0f2f"
+  },
+  {
+   "name": "res/raw/img_guide_back_id_card.json",
+   "size": 1449629,
+   "compressed": 1097025,
+   "ratio": 0.7568,
+   "method": 8,
+   "crc": "68d78217"
+  },
+  {
+   "name": "res/raw/required_kyc.svg",
+   "size": 1436457,
+   "compressed": 1073608,
+   "ratio": 0.7474,
+   "method": 8,
+   "crc": "daa4df4c"
+  },
+  {
+   "name": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+   "size": 1254848,
+   "compressed": 1254848,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "d4fddb8b"
+  },
+  {
+   "name": "classes9.dex",
+   "size": 1218908,
+   "compressed": 434564,
+   "ratio": 0.3565,
+   "method": 8,
+   "crc": "a5931db1"
+  },
+  {
+   "name": "assets/models_bundled/contours.tfl",
+   "size": 1124144,
+   "compressed": 1024542,
+   "ratio": 0.9114,
+   "method": 8,
+   "crc": "5f577dba"
+  },
+  {
+   "name": "res/raw/phone_pending.svg",
+   "size": 1114729,
+   "compressed": 829792,
+   "ratio": 0.7444,
+   "method": 8,
+   "crc": "1c1456a5"
+  },
+  {
+   "name": "assets/models_bundled/LMprec_600.emd",
+   "size": 1078354,
+   "compressed": 795793,
+   "ratio": 0.738,
+   "method": 8,
+   "crc": "81781dec"
+  },
+  {
+   "name": "assets/config/miniapp_config.json",
+   "size": 883684,
+   "compressed": 45761,
+   "ratio": 0.0518,
+   "method": 8,
+   "crc": "dae8375a"
+  },
+  {
+   "name": "assets/Griver/68687209_2.9.7.8.amr",
+   "size": 856974,
+   "compressed": 856974,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "3146e1d0"
+  },
+  {
+   "name": "classes3.dex",
+   "size": 850600,
+   "compressed": 383547,
+   "ratio": 0.4509,
+   "method": 8,
+   "crc": "17626600"
+  },
+  {
+   "name": "assets/fgcpkjvqe.dat",
+   "size": 776320,
+   "compressed": 776320,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "e5b2d10a"
+  },
+  {
+   "name": "org/bouncycastle/pqc/crypto/picnic/lowmcL5.bin.properties",
+   "size": 752652,
+   "compressed": 749257,
+   "ratio": 0.9955,
+   "method": 8,
+   "crc": "9bd60093"
+  },
+  {
+   "name": "res/raw/anim_location_profile_tab.json",
+   "size": 747900,
+   "compressed": 536554,
+   "ratio": 0.7174,
+   "method": 8,
+   "crc": "5d526e0e"
+  },
+  {
+   "name": "classes19.dex",
+   "size": 719548,
+   "compressed": 320650,
+   "ratio": 0.4456,
+   "method": 8,
+   "crc": "3a3d7e7c"
+  },
+  {
+   "name": "res/font/notosans_regular.ttf",
+   "size": 629024,
+   "compressed": 295650,
+   "ratio": 0.47,
+   "method": 8,
+   "crc": "dc7afb63"
+  },
+  {
+   "name": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+   "size": 613352,
+   "compressed": 613352,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "7dd3bbd6"
+  },
+  {
+   "name": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+   "size": 613080,
+   "compressed": 613080,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "2c6c69e1"
+  },
+  {
+   "name": "res/raw/img_guide_front_id_card.json",
+   "size": 555219,
+   "compressed": 419818,
+   "ratio": 0.7561,
+   "method": 8,
+   "crc": "25060ab2"
+  },
+  {
+   "name": "assets/taxi_splash_loading.json",
+   "size": 536057,
+   "compressed": 36322,
+   "ratio": 0.0678,
+   "method": 8,
+   "crc": "95377825"
+  },
+  {
+   "name": "res/raw/img_anim_fds_nfc_guidance_step1.json",
+   "size": 452303,
+   "compressed": 186536,
+   "ratio": 0.4124,
+   "method": 8,
+   "crc": "0a9abe4f"
+  },
+  {
+   "name": "res/font/sf_pro_text_regular.ttf",
+   "size": 434088,
+   "compressed": 155522,
+   "ratio": 0.3583,
+   "method": 8,
+   "crc": "92b0a6b4"
+  },
+  {
+   "name": "res/font/sf_pro_display_regular.ttf",
+   "size": 413924,
+   "compressed": 144334,
+   "ratio": 0.3487,
+   "method": 8,
+   "crc": "afcdbe6f"
+  },
+  {
+   "name": "classes12.dex",
+   "size": 398276,
+   "compressed": 171767,
+   "ratio": 0.4313,
+   "method": 8,
+   "crc": "02a10d9f"
+  },
+  {
+   "name": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+   "size": 390456,
+   "compressed": 390456,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "317efcad"
+  },
+  {
+   "name": "org/bouncycastle/pqc/crypto/picnic/lowmcL3.bin.properties",
+   "size": 350101,
+   "compressed": 348178,
+   "ratio": 0.9945,
+   "method": 8,
+   "crc": "a96787d9"
+  },
+  {
+   "name": "assets/models_bundled/blazeface.tfl",
+   "size": 347928,
+   "compressed": 308146,
+   "ratio": 0.8857,
+   "method": 8,
+   "crc": "00ac4bdf"
+  },
+  {
+   "name": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+   "size": 340760,
+   "compressed": 340760,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "9e027a15"
+  },
+  {
+   "name": "res/font/sf_pro_display_bold.otf",
+   "size": 334728,
+   "compressed": 137791,
+   "ratio": 0.4117,
+   "method": 8,
+   "crc": "53ccc7b0"
+  },
+  {
+   "name": "res/raw/img_anim_fds_nfc_guidance_step2.json",
+   "size": 323238,
+   "compressed": 71502,
+   "ratio": 0.2212,
+   "method": 8,
+   "crc": "71e0b4f6"
+  },
+  {
+   "name": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+   "size": 315520,
+   "compressed": 315520,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "394e5f6d"
+  },
+  {
+   "name": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+   "size": 309568,
+   "compressed": 181609,
+   "ratio": 0.5867,
+   "method": 8,
+   "crc": "56d84482"
+  },
+  {
+   "name": "assets/Griver/66666692_1.24.8.amr",
+   "size": 287535,
+   "compressed": 287535,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "eeab48da"
+  },
+  {
+   "name": "res/raw/img_anim_nfc_guidance_step1.json",
+   "size": 284974,
+   "compressed": 183232,
+   "ratio": 0.643,
+   "method": 8,
+   "crc": "96c19cbe"
+  },
+  {
+   "name": "res/drawable/vietqr_promotion_banner.png",
+   "size": 283031,
+   "compressed": 283031,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "891a37c4"
+  },
+  {
+   "name": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+   "size": 276552,
+   "compressed": 276552,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "74dac6b0"
+  },
+  {
+   "name": "res/drawable/sdk_taxi_ic_confirm_cancel_trip.xml",
+   "size": 272972,
+   "compressed": 30662,
+   "ratio": 0.1123,
+   "method": 8,
+   "crc": "53d970d9"
+  },
+  {
+   "name": "res/drawable/ic_newsfeed_ota_service_bg.png",
+   "size": 269730,
+   "compressed": 269730,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "efc6e5a3"
+  },
+  {
+   "name": "assets/com/visa/cbp/74e13961eb6489ab-",
+   "size": 265304,
+   "compressed": 265304,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "f6d32e0e"
+  },
+  {
+   "name": "res/font/inter_medium.otf",
+   "size": 254040,
+   "compressed": 140456,
+   "ratio": 0.5529,
+   "method": 8,
+   "crc": "1df9d09b"
+  },
+  {
+   "name": "res/drawable/preview_game_app_widget.png",
+   "size": 251098,
+   "compressed": 251098,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "a39aa74b"
+  },
+  {
+   "name": "res/drawable/preview_movie_app_widget.png",
+   "size": 248179,
+   "compressed": 248179,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "5f8073ce"
+  },
+  {
+   "name": "res/drawable/facesdk_ic_success.png",
+   "size": 244058,
+   "compressed": 244058,
+   "ratio": 1.0,
+   "method": 0,
+   "crc": "984d9b06"
+  },
+  {
+   "name": "classes8.dex",
+   "size": 239036,
+   "compressed": 105710,
+   "ratio": 0.4422,
+   "method": 8,
+   "crc": "7f8e5b47"
+  },
+  {
+   "name": "res/raw/img_anim_fds_nfc_guidance_step3.json",
+   "size": 237853,
+   "compressed": 14829,
+   "ratio": 0.0623,
+   "method": 8,
+   "crc": "33fdd2b9"
+  }
+ ],
+ "outer": {
+  "name": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+  "size": 98813878,
+  "sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+  "entries": [
+   {
+    "name": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.xapk",
+    "size": 105608128,
+    "compressed": 98813516
+   }
+  ]
+ },
+ "entry_count": 6162,
+ "by_top_level": {
+  "(root)": {
+   "files": 96,
+   "bytes": 66790154
+  },
+  "assets": {
+   "files": 124,
+   "bytes": 30011044
+  },
+  "res": {
+   "files": 5604,
+   "bytes": 37670801
+  },
+  "org": {
+   "files": 136,
+   "bytes": 1640008
+  },
+  "META-INF": {
+   "files": 180,
+   "bytes": 140283
+  },
+  "okhttp3": {
+   "files": 2,
+   "bytes": 41612
+  },
+  "kotlin": {
+   "files": 8,
+   "bytes": 51125
+  },
+  "google": {
+   "files": 9,
+   "bytes": 46722
+  },
+  "vn": {
+   "files": 1,
+   "bytes": 2014
+  },
+  "junit": {
+   "files": 2,
+   "bytes": 1847
+  }
+ },
+ "by_extension": {
+  ".dex": {
+   "files": 20,
+   "bytes": 69701748
+  },
+  ".zip": {
+   "files": 1,
+   "bytes": 3913966
+  },
+  ".yaml": {
+   "files": 1,
+   "bytes": 3778896
+  },
+  ".tflite": {
+   "files": 14,
+   "bytes": 10203704
+  },
+  ".bin": {
+   "files": 2,
+   "bytes": 2422326
+  },
+  ".arsc": {
+   "files": 1,
+   "bytes": 1802300
+  },
+  ".xml": {
+   "files": 5209,
+   "bytes": 11023504
+  },
+  ".ttf": {
+   "files": 23,
+   "bytes": 6823784
+  },
+  ".json": {
+   "files": 64,
+   "bytes": 6677077
+  },
+  ".svg": {
+   "files": 2,
+   "bytes": 2551186
+  },
+  ".tfl": {
+   "files": 2,
+   "bytes": 1472072
+  },
+  ".emd": {
+   "files": 4,
+   "bytes": 1113555
+  },
+  ".amr": {
+   "files": 3,
+   "bytes": 1161889
+  },
+  ".dat": {
+   "files": 3,
+   "bytes": 785556
+  },
+  ".properties": {
+   "files": 79,
+   "bytes": 1412456
+  },
+  ".otf": {
+   "files": 2,
+   "bytes": 588768
+  },
+  ".fb": {
+   "files": 2,
+   "bytes": 350416
+  },
+  ".png": {
+   "files": 221,
+   "bytes": 6883387
+  },
+  "(none)": {
+   "files": 14,
+   "bytes": 504394
+  },
+  ".webp": {
+   "files": 111,
+   "bytes": 1711422
+  },
+  ".lstm_model": {
+   "files": 1,
+   "bytes": 161448
+  },
+  ".pb": {
+   "files": 6,
+   "bytes": 158684
+  },
+  ".gif": {
+   "files": 5,
+   "bytes": 222888
+  },
+  ".riv": {
+   "files": 4,
+   "bytes": 160014
+  },
+  ".mp3": {
+   "files": 2,
+   "bytes": 103132
+  },
+  ".jpg": {
+   "files": 2,
+   "bytes": 52579
+  },
+  ".gz": {
+   "files": 1,
+   "bytes": 41394
+  },
+  ".conv_model": {
+   "files": 1,
+   "bytes": 40808
+  },
+  ".kotlin_builtins": {
+   "files": 8,
+   "bytes": 51125
+  },
+  ".html": {
+   "files": 9,
+   "bytes": 64751
+  },
+  ".prof": {
+   "files": 1,
+   "bytes": 18503
+  },
+  ".param": {
+   "files": 1,
+   "bytes": 15293
+  },
+  ".js": {
+   "files": 9,
+   "bytes": 35677
+  },
+  ".binarypb": {
+   "files": 10,
+   "bytes": 28476
+  },
+  ".txt": {
+   "files": 136,
+   "bytes": 296882
+  },
+  ".proto": {
+   "files": 10,
+   "bytes": 49704
+  },
+  ".md": {
+   "files": 2,
+   "bytes": 3976
+  },
+  ".profm": {
+   "files": 1,
+   "bytes": 1909
+  },
+  ".bincfg": {
+   "files": 2,
+   "bytes": 1570
+  },
+  ".pem": {
+   "files": 1,
+   "bytes": 460
+  },
+  ".public": {
+   "files": 1,
+   "bytes": 450
+  },
+  ".so": {
+   "files": 1,
+   "bytes": 392
+  },
+  ".kotlin_module": {
+   "files": 11,
+   "bytes": 1689
+  },
+  ".generatedextensionregistryloader": {
+   "files": 1,
+   "bytes": 140
+  },
+  ".provider": {
+   "files": 1,
+   "bytes": 112
+  },
+  ".version": {
+   "files": 141,
+   "bytes": 955
+  },
+  ".processors": {
+   "files": 1,
+   "bytes": 67
+  },
+  ".textproto": {
+   "files": 1,
+   "bytes": 46
+  },
+  ".g": {
+   "files": 1,
+   "bytes": 15
+  },
+  ".d": {
+   "files": 2,
+   "bytes": 10
+  },
+  ".h": {
+   "files": 3,
+   "bytes": 15
+  },
+  ".c": {
+   "files": 1,
+   "bytes": 5
+  },
+  ".j": {
+   "files": 1,
+   "bytes": 5
+  },
+  ".l": {
+   "files": 1,
+   "bytes": 5
+  },
+  ".m": {
+   "files": 2,
+   "bytes": 10
+  },
+  ".p": {
+   "files": 1,
+   "bytes": 5
+  },
+  ".processor": {
+   "files": 1,
+   "bytes": 5
+  },
+  ".a": {
+   "files": 1,
+   "bytes": 5
+  }
+ }
+}

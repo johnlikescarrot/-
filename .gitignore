@@ -1,0 +1,18 @@
+# --- bulky, reproducible artifacts (never in git) ---
+work/
+film/node_modules/
+node_modules/
+*.log
+
+# --- generated video / audio media ---
+film/out/
+film/frames/
+*.mp4
+*.wav
+*.mp3
+!research/assets/**/*.mp3
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
