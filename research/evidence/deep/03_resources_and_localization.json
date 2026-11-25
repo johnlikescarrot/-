@@ -1,0 +1,413 @@
+{
+  "decoded_res_xml": {
+    "res/xml-v31/game_app_widget_info.xml": "<appwidget-provider xmlns:android=\"http://schemas.android.com/apk/res/android\" android:minWidth=\"@7F070747\" android:minHeight=\"@7F070746\" android:initialLayout=\"@7F0D027C\" android:previewImage=\"@7F080F9C\" android:resizeMode=\"0x00000001\" android:minResizeWidth=\"@7F070747\" android:minResizeHeight=\"@7F070746\" android:targetCellWidth=\"4\" android:targetCellHeight=\"3\"/>\n",
+    "res/xml-v31/movie_app_widget_info.xml": "<appwidget-provider xmlns:android=\"http://schemas.android.com/apk/res/android\" android:minWidth=\"@7F070747\" android:minHeight=\"@7F070746\" android:initialLayout=\"@7F0D027C\" android:previewImage=\"@7F080F9D\" android:resizeMode=\"0x00000001\" android:minResizeWidth=\"@7F070747\" android:minResizeHeight=\"@7F070746\" android:widgetCategory=\"0x00000001\" android:targetCellWidth=\"4\" android:targetCellHeight=\"3\"/>\n",
+    "res/xml-v31/personal_qr_app_widget_info.xml": "<appwidget-provider xmlns:android=\"http://schemas.android.com/apk/res/android\" android:minWidth=\"@7F070749\" android:minHeight=\"@7F070748\" android:initialLayout=\"@7F0D01C1\" android:previewImage=\"@7F080F9E\" android:resizeMode=\"0x00000000\" android:targetCellWidth=\"4\" android:targetCellHeight=\"2\"/>\n",
+    "res/xml-v31/standard_app_widget_info.xml": "<appwidget-provider xmlns:android=\"http://schemas.android.com/apk/res/android\" android:minWidth=\"@7F070749\" android:minHeight=\"@7F070748\" android:initialLayout=\"@7F0D01C2\" android:previewImage=\"@7F080F9F\" android:resizeMode=\"0x00000000\" android:targetCellWidth=\"4\" android:targetCellHeight=\"2\"/>\n",
+    "res/xml/apdu_service.xml": "<host-apdu-service xmlns:android=\"http://schemas.android.com/apk/res/android\" android:description=\"@7F1300C3\" android:requireDeviceUnlock=\"false\" android:apduServiceBanner=\"@7F080456\">\n  <aid-group android:description=\"@7F131027\" android:category=\"payment\">\n    <aid-filter android:name=\"325041592E5359532E4444463031\"/>\n    <aid-filter android:name=\"A0000000980840\"/>\n    <aid-filter android:name=\"A0000000032020\"/>\n    <aid-filter android:name=\"A0000000032010\"/>\n    <aid-filter android:name=\"A0000000033010\"/>\n    <aid-filter android:name=\"A0000000031010\"/>\n    <aid-filter android:name=\"A000000003\"/>\n  </aid-group>\n</host-apdu-service>\n",
+    "res/xml/app_shortcuts.xml": "<shortcuts xmlns:android=\"http://schemas.android.com/apk/res/android\">\n  <shortcut android:icon=\"@7F081058\" android:enabled=\"true\" android:shortcutId=\"scanQr\" android:shortcutShortLabel=\"@7F1300DB\" android:shortcutLongLabel=\"@7F1300DB\" android:shortcutDisabledMessage=\"@7F1300DB\">\n    <intent android:targetPackage=\"vn.com.vng.zalopay\" android:action=\"android.intent.action.VIEW\" android:data=\"zalopay://launch/f/qrcode\" android:targetClass=\"vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2\"/>\n  </shortcut>\n  <shortcut android:icon=\"@7F08105A\" android:enabled=\"true\" android:shortcutId=\"telcoTopup\" android:shortcutShortLabel=\"@7F1300DC\" android:shortcutLongLabel=\"@7F1300DC\" android:shortcutDisabledMessage=\"@7F1300DC\">\n    <intent android:targetPackage=\"vn.com.vng.zalopay\" android:action=\"android.intent.action.VIEW\" android:data=\"zalopay://launch/app/61\" android:targetClass=\"vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2\"/>\n  </shortcut>\n  <shortcut android:icon=\"@7F08105B\" android:enabled=\"true\" android:shortcutId=\"moneyTransfer\" android:shortcutShortLabel=\"@7F1300DA\" android:shortcutLongLabel=\"@7F1300DA\" android:shortcutDisabledMessage=\"@7F1300DA\">\n    <intent android:targetPackage=\"vn.com.vng.zalopay\" android:action=\"android.intent.action.VIEW\" android:data=\"zalopay://launch/f/transfer\" android:targetClass=\"vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2\"/>\n  </shortcut>\n  <shortcut android:icon=\"@7F081059\" android:enabled=\"true\" android:shortcutId=\"billElectric\" android:shortcutShortLabel=\"@7F1300D9\" android:shortcutLongLabel=\"@7F1300D9\" android:shortcutDisabledMessage=\"@7F1300D9\">\n    <intent android:targetPackage=\"vn.com.vng.zalopay\" android:action=\"android.intent.action.VIEW\" android:data=\"zalopay://launch/app/17\" android:targetClass=\"vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2\"/>\n  </shortcut>\n</shortcuts>\n",
+    "res/xml/appsflyer_data_extraction_rules.xml": "<data-extraction-rules>\n  <cloud-backup>\n    <exclude domain=\"sharedpref\" path=\"appsflyer-data\"/>\n    <exclude domain=\"sharedpref\" path=\"appsflyer-purchase-data\"/>\n    <exclude domain=\"database\" path=\"afpurchases.db\"/>\n  </cloud-backup>\n  <device-transfer>\n    <exclude domain=\"sharedpref\" path=\"appsflyer-purchase-data\"/>\n    <exclude domain=\"sharedpref\" path=\"appsflyer-data\"/>\n    <exclude domain=\"database\" path=\"afpurchases.db\"/>\n  </device-transfer>\n</data-extraction-rules>\n",
+    "res/xml/file_paths.xml": "<paths>\n  <cache-path name=\"zpimages\" path=\"images/\"/>\n  <cache-path name=\"data\" path=\"data/\"/>\n  <cache-path name=\"scan360\" path=\"scan360/\"/>\n  <cache-path name=\"cache\" path=\"/\"/>\n  <external-cache-path name=\"files_share\" path=\".\"/>\n  <files-path name=\"files\" path=\"images/\"/>\n  <external-files-path name=\"my_images\" path=\"Pictures\"/>\n  <external-files-path name=\"external_files\" path=\"tracker_audit/\"/>\n</paths>\n",
+    "res/xml/game_app_widget_info.xml": "<appwidget-provider xmlns:android=\"http://schemas.android.com/apk/res/android\" android:minWidth=\"@7F070747\" android:minHeight=\"@7F070746\" android:initialLayout=\"@7F0D027C\" android:previewImage=\"@7F080F9C\" android:resizeMode=\"0x00000001\" android:minResizeWidth=\"@7F070747\" android:minResizeHeight=\"@7F070746\"/>\n",
+    "res/xml/gma_ad_services_config.xml": "<ad-services-config>\n  <attribution allowAllToAccess=\"true\"/>\n  <topics allowAllToAccess=\"true\"/>\n</ad-services-config>\n",
+    "res/xml/griverfilepath.xml": "<paths>\n  <external-cache-path name=\"griver_cache\" path=\"/griver\"/>\n</paths>\n",
+    "res/xml/movie_app_widget_info.xml": "<appwidget-provider xmlns:android=\"http://schemas.android.com/apk/res/android\" android:minWidth=\"@7F070747\" android:minHeight=\"@7F070746\" android:initialLayout=\"@7F0D027C\" android:previewImage=\"@7F080F9D\" android:resizeMode=\"0x00000001\" android:minResizeWidth=\"@7F070747\" android:minResizeHeight=\"@7F070746\" android:widgetCategory=\"0x00000001\"/>\n",
+    "res/xml/network_security_config.xml": "<network-security-config>\n  <domain-config>\n    <domain includeSubdomains=\"true\">storage.googleapis.com</domain>\n  </domain-config>\n  <base-config cleartextTrafficPermitted=\"true\">\n    <trust-anchors>\n      <certificates src=\"system\"/>\n    </trust-anchors>\n  </base-config>\n  <debug-overrides cleartextTrafficPermitted=\"true\">\n    <trust-anchors>\n      <certificates src=\"system\"/>\n      <certificates src=\"user\"/>\n    </trust-anchors>\n  </debug-overrides>\n</network-security-config>\n",
+    "res/xml/personal_qr_app_widget_info.xml": "<appwidget-provider xmlns:android=\"http://schemas.android.com/apk/res/android\" android:minWidth=\"@7F070749\" android:minHeight=\"@7F070748\" android:initialLayout=\"@7F0D01C1\" android:previewImage=\"@7F080F9E\" android:resizeMode=\"0x00000000\"/>\n",
+    "res/xml/splits0.xml": "<splits>\n  <module name=\"\">\n    <language>\n      <entry key=\"en\" split=\"config.en\"/>\n      <entry key=\"vi\" split=\"config.vi\"/>\n    </language>\n  </module>\n</splits>\n",
+    "res/xml/standard_app_widget_info.xml": "<appwidget-provider xmlns:android=\"http://schemas.android.com/apk/res/android\" android:minWidth=\"@7F070749\" android:minHeight=\"@7F070748\" android:initialLayout=\"@7F0D01C2\" android:previewImage=\"@7F080F9F\" android:resizeMode=\"0x00000000\"/>\n",
+    "res/xml/tiny_app_apdu_service.xml": "<host-apdu-service xmlns:android=\"http://schemas.android.com/apk/res/android\" android:description=\"@7F130DDD\" android:requireDeviceUnlock=\"false\"/>\n"
+  },
+  "res_raw_inventory": [
+    {
+      "name": "res/raw/lbfmodel.yaml",
+      "bytes": 3778896
+    },
+    {
+      "name": "res/raw/haarcascade_frontalface_default.xml",
+      "bytes": 1788328
+    },
+    {
+      "name": "res/raw/img_guide_back_id_card.json",
+      "bytes": 1449629
+    },
+    {
+      "name": "res/raw/required_kyc.svg",
+      "bytes": 1436457
+    },
+    {
+      "name": "res/raw/phone_pending.svg",
+      "bytes": 1114729
+    },
+    {
+      "name": "res/raw/anim_location_profile_tab.json",
+      "bytes": 747900
+    },
+    {
+      "name": "res/raw/img_guide_front_id_card.json",
+      "bytes": 555219
+    },
+    {
+      "name": "res/raw/img_anim_fds_nfc_guidance_step1.json",
+      "bytes": 452303
+    },
+    {
+      "name": "res/raw/img_anim_fds_nfc_guidance_step2.json",
+      "bytes": 323238
+    },
+    {
+      "name": "res/raw/img_anim_nfc_guidance_step1.json",
+      "bytes": 284974
+    },
+    {
+      "name": "res/raw/img_anim_fds_nfc_guidance_step3.json",
+      "bytes": 237853
+    },
+    {
+      "name": "res/raw/img_anim_nfc_guidance_step2.json",
+      "bytes": 138698
+    },
+    {
+      "name": "res/raw/tap2pay_payment_guide.riv",
+      "bytes": 92845
+    },
+    {
+      "name": "res/raw/zalopay_sound.mp3",
+      "bytes": 70163
+    },
+    {
+      "name": "res/raw/user_guide.riv",
+      "bytes": 63992
+    },
+    {
+      "name": "res/raw/img_anim_dynamic_text.json",
+      "bytes": 62928
+    },
+    {
+      "name": "res/raw/img_anim_nfc_guidance_step3.json",
+      "bytes": 60670
+    },
+    {
+      "name": "res/raw/img_scan_ocr.json",
+      "bytes": 53947
+    },
+    {
+      "name": "res/raw/lottie_scan.json",
+      "bytes": 53947
+    },
+    {
+      "name": "res/raw/ic_home_nav_bar_tab_scan_qr.json",
+      "bytes": 36549
+    },
+    {
+      "name": "res/raw/img_dynamic_qrcode_anim.json",
+      "bytes": 36548
+    },
+    {
+      "name": "res/raw/img_success_ocr.json",
+      "bytes": 33936
+    },
+    {
+      "name": "res/raw/img_shield_only.json",
+      "bytes": 33935
+    },
+    {
+      "name": "res/raw/pay_success_sound.mp3",
+      "bytes": 32969
+    },
+    {
+      "name": "res/raw/ic_cashier_pay_loading.json",
+      "bytes": 27062
+    },
+    {
+      "name": "res/raw/ic_cashier_pay_loading_v3.json",
+      "bytes": 27062
+    },
+    {
+      "name": "res/raw/ic_rp_pending_animate.json",
+      "bytes": 23613
+    },
+    {
+      "name": "res/raw/lottie_success.json",
+      "bytes": 23273
+    },
+    {
+      "name": "res/raw/lottie_shield.json",
+      "bytes": 20643
+    },
+    {
+      "name": "res/raw/onboarding_selecting_categories_guide_lottie.json",
+      "bytes": 20112
+    },
+    {
+      "name": "res/raw/ic_rp_success_animate.json",
+      "bytes": 18893
+    },
+    {
+      "name": "res/raw/lottie_loading_shield.json",
+      "bytes": 16290
+    },
+    {
+      "name": "res/raw/onboarding_selected_category_marker_lottie.json",
+      "bytes": 15458
+    },
+    {
+      "name": "res/raw/ic_rp_processing_animate.json",
+      "bytes": 13500
+    },
+    {
+      "name": "res/raw/ic_rp_failed_animate.json",
+      "bytes": 11844
+    },
+    {
+      "name": "res/raw/h5_page_error.html",
+      "bytes": 11110
+    },
+    {
+      "name": "res/raw/ic_rp_processing_v3.json",
+      "bytes": 10774
+    },
+    {
+      "name": "res/raw/img_anim_loading_state.json",
+      "bytes": 8143
+    },
+    {
+      "name": "res/raw/anim_done_unlink_bank.json",
+      "bytes": 6604
+    },
+    {
+      "name": "res/raw/anim_loading_unlink_bank.json",
+      "bytes": 6602
+    },
+    {
+      "name": "res/raw/googlemaps.json",
+      "bytes": 6286
+    },
+    {
+      "name": "res/raw/animation_s5_turn_right.json",
+      "bytes": 5896
+    },
+    {
+      "name": "res/raw/animation_s5_turn_left.json",
+      "bytes": 5892
+    },
+    {
+      "name": "res/raw/ic_rp_fail_v3.json",
+      "bytes": 4681
+    },
+    {
+      "name": "res/raw/anim_otp_popup_verifying.json",
+      "bytes": 4051
+    },
+    {
+      "name": "res/raw/anim_loading_resume.json",
+      "bytes": 3063
+    },
+    {
+      "name": "res/raw/ic_anim_zlp_loading_auth_state.json",
+      "bytes": 3032
+    },
+    {
+      "name": "res/raw/ic_anim_zlp_loading_common_state.json",
+      "bytes": 3032
+    },
+    {
+      "name": "res/raw/ic_anim_zlp_loading_state.json",
+      "bytes": 3032
+    },
+    {
+      "name": "res/raw/ic_cashier_loading.json",
+      "bytes": 3032
+    },
+    {
+      "name": "res/raw/ic_rp_success_v3.json",
+      "bytes": 2959
+    },
+    {
+      "name": "res/raw/h5_bridge.js",
+      "bytes": 1875
+    },
+    {
+      "name": "res/raw/loading.riv",
+      "bytes": 1729
+    },
+    {
+      "name": "res/raw/img_anim_right_arrow.json",
+      "bytes": 1630
+    },
+    {
+      "name": "res/raw/failure.riv",
+      "bytes": 1448
+    },
+    {
+      "name": "res/raw/img_flash_capture.json",
+      "bytes": 1341
+    }
+  ],
+  "resources_arsc": {
+    "vn.com.vng.zalopay.apk": {
+      "present": true,
+      "bytes": 1802300,
+      "packages": [
+        "vn.com.vng.zalopay",
+        "vn.com.vng.zalopay.changepin",
+        "vn.com.vng.zalopay.resetpin",
+        "vn.com.vng.zalopay.login_v2",
+        "vn.com.vng.zalopay.cashier",
+        "vn.com.vng.zalopay.bank_binding",
+        "vn.com.vng.zalopay.updatephone",
+        "vn.com.vng.zalopay.cash_in",
+        "vn.com.vng.zalopay.resultpage",
+        "vn.com.vng.zalopay.withdraw",
+        "vn.com.vng.zalopay.cashier_v3",
+        "vn.com.vng.zalopay.result_page_v3",
+        "vn.com.vng.zalopay.liveness"
+      ],
+      "locales": [
+        "default"
+      ],
+      "resource_types_counts": {
+        "anim": 81,
+        "animator": 18,
+        "array": 16,
+        "attr": 1826,
+        "bool": 19,
+        "color": 782,
+        "dimen": 688,
+        "drawable": 3199,
+        "font": 14,
+        "id": 3460,
+        "integer": 42,
+        "interpolator": 17,
+        "layout": 1616,
+        "menu": 3,
+        "mipmap": 2,
+        "navigation": 14,
+        "plurals": 3,
+        "raw": 46,
+        "string": 2100,
+        "style": 721,
+        "xml": 13
+      },
+      "total_resource_keys": 14680
+    },
+    "config.vi.apk": {
+      "present": true,
+      "bytes": 75460,
+      "packages": [
+        "vn.com.vng.zalopay"
+      ],
+      "locales": [
+        "vi"
+      ],
+      "resource_types_counts": {
+        "array": 1,
+        "plurals": 3,
+        "string": 492
+      },
+      "total_resource_keys": 496
+    },
+    "config.en.apk": {
+      "present": true,
+      "bytes": 61984,
+      "packages": [
+        "vn.com.vng.zalopay"
+      ],
+      "locales": [
+        "en"
+      ],
+      "resource_types_counts": {
+        "array": 1,
+        "string": 369
+      },
+      "total_resource_keys": 370
+    },
+    "config.xhdpi.apk": {
+      "present": true,
+      "bytes": 141056,
+      "packages": [
+        "vn.com.vng.zalopay",
+        "vn.com.vng.zalopay.login_v2"
+      ],
+      "locales": [
+        "default"
+      ],
+      "resource_types_counts": {
+        "dimen": 2,
+        "drawable": 248,
+        "style": 1
+      },
+      "total_resource_keys": 251
+    }
+  },
+  "localization_splits_comparison": {
+    "config.vi.apk": {
+      "vi": {
+        "count": 492,
+        "sample": {
+          "2131951699": "Di chuyển lên",
+          "2131951701": "Xong",
+          "2131951704": "TẮT",
+          "2131951705": "BẬT",
+          "2131951706": "Alt+",
+          "2131951707": "Ctrl+",
+          "2131951708": "delete",
+          "2131951709": "enter",
+          "2131951710": "Function+",
+          "2131951711": "Meta+",
+          "2131951712": "Shift+",
+          "2131951713": "space",
+          "2131951714": "Sym+",
+          "2131951715": "Menu+",
+          "2131951716": "Tìm kiếm…"
+        }
+      }
+    },
+    "config.en.apk": {
+      "en": {
+        "count": 369,
+        "sample": {
+          "2131951686": "There is no promotion code",
+          "2131951688": "Search",
+          "2131951689": "Online",
+          "2131951697": "VNPAY E-WALLET",
+          "2131951786": "Add new address",
+          "2131951787": "Surcharge",
+          "2131951788": "Add home",
+          "2131951789": "Add work",
+          "2131951790": "Address",
+          "2131951791": "Book a Taxi",
+          "2131951794": "Fare after promotion",
+          "2131951796": "Agree",
+          "2131951812": "System permission is not granted",
+          "2131951843": "Apply",
+          "2131951844": "Applying condition"
+        }
+      }
+    }
+  },
+  "config_xhdpi_directories": {
+    "drawable-xhdpi-v4": 140,
+    "drawable-anydpi-v24": 54,
+    "drawable-anydpi-v21": 53,
+    "drawable-hdpi-v4": 2,
+    "drawable-xxxhdpi-v4": 2,
+    "AndroidManifest.xml": 1,
+    "drawable-ldrtl-xhdpi-v17": 1,
+    "resources.arsc": 1,
+    "stamp-cert-sha256": 1,
+    "META-INF/BNDLTOOL.SF": 1,
+    "META-INF/BNDLTOOL.RSA": 1,
+    "META-INF/MANIFEST.MF": 1
+  },
+  "config_xhdpi_extensions": {
+    ".xml": 108,
+    ".png": 97,
+    ".webp": 48,
+    ".arsc": 1,
+    "(none)": 1,
+    ".sf": 1,
+    ".rsa": 1,
+    ".mf": 1
+  }
+}

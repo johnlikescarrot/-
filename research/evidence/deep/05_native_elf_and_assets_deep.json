@@ -1,0 +1,5460 @@
+{
+  "native_libraries_count": 27,
+  "native_libraries": {
+    "libVFaceLib.so": {
+      "bytes": 1963668,
+      "sha256": "c6d04f368fe967fb1fd2666519f78cf8fa5fdc3a95a1ffbb0095370483592329",
+      "overall_entropy": 7.1116,
+      "section_count": 28,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 1515836,
+          "entropy": 7.2442,
+          "flags": 6
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 649798,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 140777,
+          "entropy": 5.6715,
+          "flags": 50
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 93352,
+          "entropy": 3.7209,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 86796,
+          "entropy": 5.5348,
+          "flags": 2
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 53368,
+          "entropy": 2.5315,
+          "flags": 3
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 34292,
+          "entropy": 5.4424,
+          "flags": 3
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 24056,
+          "entropy": 5.7674,
+          "flags": 130
+        },
+        {
+          "name": ".relro_padding",
+          "type": "SHT_NOBITS",
+          "size": 8648,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 2816,
+          "entropy": 1.6416,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 2736,
+          "entropy": 3.9671,
+          "flags": 6
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 2216,
+          "entropy": 4.5562,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 4,
+      "jni_exports": [
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_getFaces",
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_faceAlignment",
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeInit",
+        "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeDestroy"
+      ],
+      "imported_functions_count": 169,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__stack_chk_fail",
+        "AndroidBitmap_getInfo",
+        "AndroidBitmap_lockPixels",
+        "__aeabi_memcpy4",
+        "__android_log_print",
+        "AndroidBitmap_unlockPixels",
+        "__aeabi_memmove",
+        "__aeabi_memclr4",
+        "strlen",
+        "__aeabi_memcpy",
+        "printf",
+        "malloc",
+        "free",
+        "puts",
+        "memcmp",
+        "__memset_chk",
+        "posix_memalign",
+        "__vsnprintf_chk",
+        "sched_yield",
+        "sysconf",
+        "sscanf",
+        "stat",
+        "__strchr_chk"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 11,
+          "control_flow": 8,
+          "memory_load_store": 3,
+          "neon_vfp_simd": 3
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 8748,
+        "keyword_hits": {
+          "VFace": 6,
+          "OpenCV": 26,
+          "NDK": 4
+        },
+        "sample_markers": {
+          "VFace": "Java_vn_ai_faceauth_sdk_opencv_VFaceLib_getFaces",
+          "OpenCV": "OpenCV(%s) %s:%d: error: (%d:%s) %s in function '%s'",
+          "NDK": "  Android NDK:                   /opt/android-sdk-linux/ndk/27.3.13750724 (ver 27.3.13750724)"
+        }
+      }
+    },
+    "liba97d.so": {
+      "bytes": 997572,
+      "sha256": "7fe7d830805a1e99f0d3661a99fdad20e5ea3f4998c65b3565fde4602ce2181e",
+      "overall_entropy": 6.2211,
+      "section_count": 24,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 878552,
+          "entropy": 6.3358,
+          "flags": 6
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 50204,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 41088,
+          "entropy": 3.5843,
+          "flags": 2
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 29680,
+          "entropy": 6.7924,
+          "flags": 3
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 2976,
+          "entropy": 5.1519,
+          "flags": 130
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 2400,
+          "entropy": 2.626,
+          "flags": 2
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 2308,
+          "entropy": 4.652,
+          "flags": 2
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 1516,
+          "entropy": 6.9349,
+          "flags": 50
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 1508,
+          "entropy": 3.2466,
+          "flags": 2
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 1208,
+          "entropy": 1.4467,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 1072,
+          "entropy": 3.8555,
+          "flags": 6
+        },
+        {
+          "name": ".rel.plt",
+          "type": "SHT_REL",
+          "size": 520,
+          "entropy": 3.91,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 64,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "imported_functions_count": 79,
+      "imported_sample": [
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__aeabi_memclr",
+        "__aeabi_memclr4",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy8",
+        "__aeabi_memmove",
+        "__aeabi_memset",
+        "__aeabi_memset4",
+        "__errno",
+        "__pthread_cleanup_push",
+        "__stack_chk_fail",
+        "__system_property_find_nth",
+        "__system_property_foreach",
+        "__system_property_get",
+        "__system_property_read",
+        "_exit",
+        "atoi",
+        "basename",
+        "calloc",
+        "close",
+        "closedir",
+        "dladdr",
+        "dlerror",
+        "dlopen"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 11,
+          "control_flow": 8,
+          "memory_load_store": 3,
+          "neon_vfp_simd": 3
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 4,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 2
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 1146,
+        "keyword_hits": {
+          "JNI_OnLoad": 1
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad"
+        }
+      }
+    },
+    "libandroidx.graphics.path.so": {
+      "bytes": 7252,
+      "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b",
+      "overall_entropy": 5.7671,
+      "section_count": 25,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 3116,
+          "entropy": 6.6788,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 439,
+          "entropy": 4.7063,
+          "flags": 50
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 392,
+          "entropy": 2.3748,
+          "flags": 2
+        },
+        {
+          "name": ".shstrtab",
+          "type": "SHT_STRTAB",
+          "size": 240,
+          "entropy": 4.2642,
+          "flags": 0
+        },
+        {
+          "name": ".dynamic",
+          "type": "SHT_DYNAMIC",
+          "size": 224,
+          "entropy": 2.9083,
+          "flags": 3
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 199,
+          "entropy": 4.8847,
+          "flags": 2
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 184,
+          "entropy": 3.0986,
+          "flags": 3
+        },
+        {
+          "name": ".comment",
+          "type": "SHT_PROGBITS",
+          "size": 178,
+          "entropy": 5.1029,
+          "flags": 48
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 160,
+          "entropy": 1.0692,
+          "flags": 2
+        },
+        {
+          "name": ".note.android.ident",
+          "type": "SHT_NOTE",
+          "size": 152,
+          "entropy": 1.1712,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 144,
+          "entropy": 3.6393,
+          "flags": 6
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 88,
+          "entropy": 0.9533,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 1,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "imported_functions_count": 7,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__stack_chk_fail",
+        "__system_property_get",
+        "atoi",
+        "malloc",
+        "free"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 3116,
+        "dominant_isa_mode": "arm32",
+        "thumb_decoded_ins": 8,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 5,
+          "control_flow": 2,
+          "neon_vfp_simd": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 4,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 2
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 69,
+        "keyword_hits": {
+          "JNI_OnLoad": 1
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad"
+        }
+      }
+    },
+    "libbarhopper_v3.so": {
+      "bytes": 3244440,
+      "sha256": "b3c162c69e4906b816227ae116bfd8b9ff19cfdd58a3de0c9a9b110e030063e9",
+      "overall_entropy": 7.2147,
+      "section_count": 30,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 2836456,
+          "entropy": 7.236,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 192437,
+          "entropy": 5.8446,
+          "flags": 2097202
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 140077,
+          "entropy": 0.0,
+          "flags": 2097155
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 85480,
+          "entropy": 5.722,
+          "flags": 130
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 47808,
+          "entropy": 3.6418,
+          "flags": 2
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 22988,
+          "entropy": 2.7868,
+          "flags": 3
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 20508,
+          "entropy": 5.606,
+          "flags": 3
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 15972,
+          "entropy": 4.7351,
+          "flags": 2
+        },
+        {
+          "name": ".relro_padding",
+          "type": "SHT_NOBITS",
+          "size": 3672,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 3392,
+          "entropy": 1.79,
+          "flags": 2
+        },
+        {
+          "name": ".got",
+          "type": "SHT_PROGBITS",
+          "size": 3360,
+          "entropy": 5.8384,
+          "flags": 3
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 3168,
+          "entropy": 3.9858,
+          "flags": 6
+        }
+      ],
+      "exported_functions_count": 8,
+      "jni_exports": [
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_closeNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBufferNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_createNativeWithClientOptions",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBitmapNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedBufferNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_createNative",
+        "Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedNative"
+      ],
+      "imported_functions_count": 188,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "AndroidBitmap_getInfo",
+        "AndroidBitmap_lockPixels",
+        "AndroidBitmap_unlockPixels",
+        "strlen",
+        "__stack_chk_fail",
+        "__aeabi_memclr",
+        "__aeabi_memcpy",
+        "__aeabi_memclr8",
+        "__aeabi_memset4",
+        "__aeabi_memmove4",
+        "__aeabi_memmove",
+        "sincosf",
+        "__aeabi_memclr4",
+        "malloc",
+        "free",
+        "__aeabi_memset",
+        "strncmp",
+        "expf",
+        "logf",
+        "fmin",
+        "roundf",
+        "exp",
+        "atan2f"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 11,
+          "control_flow": 10,
+          "neon_vfp_simd": 3,
+          "memory_load_store": 1
+        },
+        "arm_decoded_ins": 3,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 1,
+          "arithmetic": 1,
+          "control_flow": 1
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 19623,
+        "keyword_hits": {
+          "Barhopper": 15,
+          "TensorFlow": 6
+        },
+        "sample_markers": {
+          "Barhopper": "Java_com_google_android_libraries_barhopper_BarhopperV3_createNative",
+          "TensorFlow": "Failed to apply the default TensorFlow Lite delegate indexed at %zu."
+        }
+      }
+    },
+    "libc++_shared.so": {
+      "bytes": 872872,
+      "sha256": "91b49f121b3120538faff020fcf535ade1d945e65ccd793fc0b815b5799bbdf0",
+      "overall_entropy": 6.8845,
+      "section_count": 28,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 411396,
+          "entropy": 7.0301,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 145141,
+          "entropy": 6.9286,
+          "flags": 50
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 118901,
+          "entropy": 4.9926,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 39984,
+          "entropy": 4.4738,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 37132,
+          "entropy": 5.0244,
+          "flags": 2
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 30472,
+          "entropy": 4.7179,
+          "flags": 2
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 22585,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 20000,
+          "entropy": 2.3494,
+          "flags": 2
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 17228,
+          "entropy": 3.0198,
+          "flags": 3
+        },
+        {
+          "name": ".gnu.hash",
+          "type": "SHT_GNU_HASH",
+          "size": 15796,
+          "entropy": 6.984,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 14808,
+          "entropy": 5.3916,
+          "flags": 130
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 7600,
+          "entropy": 4.0224,
+          "flags": 6
+        }
+      ],
+      "exported_functions_count": 1583,
+      "jni_exports": [],
+      "imported_functions_count": 159,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "free",
+        "pthread_mutex_lock",
+        "pthread_cond_wait",
+        "pthread_mutex_unlock",
+        "pthread_cond_broadcast",
+        "fwrite",
+        "vfprintf",
+        "fputc",
+        "vasprintf",
+        "android_set_abort_message",
+        "openlog",
+        "syslog",
+        "closelog",
+        "abort",
+        "posix_memalign",
+        "__aeabi_memclr",
+        "strcmp",
+        "strlen",
+        "memcmp",
+        "malloc",
+        "realloc",
+        "fprintf",
+        "__aeabi_memcpy4"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 11,
+          "control_flow": 8,
+          "memory_load_store": 3,
+          "neon_vfp_simd": 3
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 4,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 2
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 5550,
+        "keyword_hits": {},
+        "sample_markers": {}
+      }
+    },
+    "libcrashlytics-common.so": {
+      "bytes": 435732,
+      "sha256": "4b8bcec5c0464d7b1741386e30eef9308c43d4ca8f57501ae6734fa48e1c55d2",
+      "overall_entropy": 6.906,
+      "section_count": 27,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 309104,
+          "entropy": 7.0198,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 42592,
+          "entropy": 5.1291,
+          "flags": 50
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 21768,
+          "entropy": 3.3944,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 20640,
+          "entropy": 4.3197,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 14504,
+          "entropy": 5.3057,
+          "flags": 130
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 12660,
+          "entropy": 4.9677,
+          "flags": 3
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 2896,
+          "entropy": 1.5841,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 2736,
+          "entropy": 3.9152,
+          "flags": 6
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 2572,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 2001,
+          "entropy": 4.4625,
+          "flags": 2
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 1456,
+          "entropy": 1.4807,
+          "flags": 2
+        },
+        {
+          "name": ".rel.plt",
+          "type": "SHT_REL",
+          "size": 1352,
+          "entropy": 4.1516,
+          "flags": 66
+        }
+      ],
+      "exported_functions_count": 3,
+      "jni_exports": [],
+      "imported_functions_count": 169,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__aeabi_memclr8",
+        "strrchr",
+        "__memcpy_chk",
+        "strlen",
+        "__aeabi_memcpy",
+        "abort",
+        "write",
+        "__strlen_chk",
+        "open",
+        "fsync",
+        "close",
+        "__open_2",
+        "__errno",
+        "sysconf",
+        "statfs",
+        "strtol",
+        "memcmp",
+        "lseek",
+        "atoll",
+        "__aeabi_memclr",
+        "__read_chk",
+        "strchr",
+        "getopt_long"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 13,
+          "control_flow": 8,
+          "neon_vfp_simd": 3,
+          "memory_load_store": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 2900,
+        "keyword_hits": {
+          "Crashpad": 8,
+          "ptrace": 9,
+          "Breakpad": 1
+        },
+        "sample_markers": {
+          "Crashpad": "INFOCrashpad",
+          "ptrace": "ptrace",
+          "Breakpad": "      --url=URL               send crash reports to this Breakpad server URL,"
+        }
+      }
+    },
+    "libcrashlytics-handler.so": {
+      "bytes": 87908,
+      "sha256": "f58fca61975d2450e8bef2bc4b0ea68e5e181cdd0aff3693b04e469c1c6ccdb6",
+      "overall_entropy": 6.5162,
+      "section_count": 26,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 54216,
+          "entropy": 6.8274,
+          "flags": 6
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 8752,
+          "entropy": 3.2433,
+          "flags": 2
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 8346,
+          "entropy": 5.2607,
+          "flags": 50
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 4604,
+          "entropy": 3.9602,
+          "flags": 3
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 3640,
+          "entropy": 3.8948,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 3152,
+          "entropy": 4.389,
+          "flags": 130
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 672,
+          "entropy": 1.2858,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 624,
+          "entropy": 3.7923,
+          "flags": 6
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 581,
+          "entropy": 4.5422,
+          "flags": 2
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 560,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 344,
+          "entropy": 1.216,
+          "flags": 2
+        },
+        {
+          "name": ".rel.plt",
+          "type": "SHT_REL",
+          "size": 296,
+          "entropy": 3.6752,
+          "flags": 66
+        }
+      ],
+      "exported_functions_count": 2,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "imported_functions_count": 37,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__android_log_print",
+        "__stack_chk_fail",
+        "__aeabi_memcpy",
+        "dlopen",
+        "dlsym",
+        "malloc",
+        "free",
+        "posix_memalign",
+        "__aeabi_memmove",
+        "strlen",
+        "memchr",
+        "__aeabi_memclr",
+        "vfprintf",
+        "fputc",
+        "vasprintf",
+        "__assert2",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "realloc",
+        "__strlen_chk",
+        "__vsnprintf_chk",
+        "abort",
+        "pthread_mutex_lock"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 54216,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 11,
+          "control_flow": 8,
+          "arithmetic": 3,
+          "neon_vfp_simd": 3
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 770,
+        "keyword_hits": {
+          "JNI_OnLoad": 1,
+          "Crashpad": 3
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad",
+          "Crashpad": "Could not find CrashpadHandlerMain in libcrashlytics-common.so"
+        }
+      }
+    },
+    "libcrashlytics-trampoline.so": {
+      "bytes": 6912,
+      "sha256": "5366393c1292cfb5c8b49bf846e644f8ce24e683e8c0e97566124b29f89eb722",
+      "overall_entropy": 4.6584,
+      "section_count": 34,
+      "sections_top": [
+        {
+          "name": ".symtab",
+          "type": "SHT_SYMTAB",
+          "size": 736,
+          "entropy": 2.315,
+          "flags": 0
+        },
+        {
+          "name": ".debug_line",
+          "type": "SHT_PROGBITS",
+          "size": 595,
+          "entropy": 5.319,
+          "flags": 0
+        },
+        {
+          "name": ".debug_str",
+          "type": "SHT_PROGBITS",
+          "size": 584,
+          "entropy": 5.1589,
+          "flags": 48
+        },
+        {
+          "name": ".debug_info",
+          "type": "SHT_PROGBITS",
+          "size": 390,
+          "entropy": 3.8291,
+          "flags": 0
+        },
+        {
+          "name": ".strtab",
+          "type": "SHT_STRTAB",
+          "size": 350,
+          "entropy": 4.6476,
+          "flags": 0
+        },
+        {
+          "name": ".shstrtab",
+          "type": "SHT_STRTAB",
+          "size": 347,
+          "entropy": 4.3337,
+          "flags": 0
+        },
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 280,
+          "entropy": 5.5717,
+          "flags": 6
+        },
+        {
+          "name": ".debug_abbrev",
+          "type": "SHT_PROGBITS",
+          "size": 254,
+          "entropy": 4.4242,
+          "flags": 0
+        },
+        {
+          "name": ".dynamic",
+          "type": "SHT_DYNAMIC",
+          "size": 248,
+          "entropy": 2.7332,
+          "flags": 3
+        },
+        {
+          "name": ".comment",
+          "type": "SHT_PROGBITS",
+          "size": 177,
+          "entropy": 5.0717,
+          "flags": 48
+        },
+        {
+          "name": ".debug_loc",
+          "type": "SHT_PROGBITS",
+          "size": 156,
+          "entropy": 1.9867,
+          "flags": 0
+        },
+        {
+          "name": ".note.android.ident",
+          "type": "SHT_NOTE",
+          "size": 152,
+          "entropy": 1.1712,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 1,
+      "jni_exports": [],
+      "imported_functions_count": 12,
+      "imported_sample": [
+        "__libc_init",
+        "__cxa_atexit",
+        "dlopen",
+        "dlsym",
+        "dlerror",
+        "__android_log_print",
+        "__libc_init",
+        "__cxa_atexit",
+        "dlopen",
+        "dlsym",
+        "dlerror",
+        "__android_log_print"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 280,
+        "dominant_isa_mode": "arm32",
+        "thumb_decoded_ins": 6,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "arithmetic": 1,
+          "control_flow": 4,
+          "logic_move_cmp": 1
+        },
+        "arm_decoded_ins": 34,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "logic_move_cmp": 11,
+          "control_flow": 5,
+          "memory_load_store": 14,
+          "arithmetic": 4
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 114,
+        "keyword_hits": {
+          "Crashpad": 1
+        },
+        "sample_markers": {
+          "Crashpad": "CrashpadHandlerMain"
+        }
+      }
+    },
+    "libcrashlytics.so": {
+      "bytes": 94540,
+      "sha256": "be0dedcd52a35e717ec0eeb832108e42c8d62552bc7005fef55ca233d0679260",
+      "overall_entropy": 6.5569,
+      "section_count": 26,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 58848,
+          "entropy": 6.8357,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 9052,
+          "entropy": 5.2807,
+          "flags": 50
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 8848,
+          "entropy": 3.2433,
+          "flags": 2
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 4636,
+          "entropy": 3.9804,
+          "flags": 3
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 3900,
+          "entropy": 3.9458,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 3280,
+          "entropy": 4.4618,
+          "flags": 130
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 880,
+          "entropy": 1.6412,
+          "flags": 2
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 779,
+          "entropy": 4.4829,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 736,
+          "entropy": 3.8291,
+          "flags": 6
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 576,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 448,
+          "entropy": 1.265,
+          "flags": 2
+        },
+        {
+          "name": ".rel.plt",
+          "type": "SHT_REL",
+          "size": 352,
+          "entropy": 3.7694,
+          "flags": 66
+        }
+      ],
+      "exported_functions_count": 8,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "imported_functions_count": 44,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__android_log_print",
+        "getpid",
+        "__aeabi_memclr8",
+        "__system_property_get",
+        "atoi",
+        "__aeabi_memcpy",
+        "strlen",
+        "dladdr",
+        "dlopen",
+        "dlsym",
+        "abort",
+        "malloc",
+        "free",
+        "posix_memalign",
+        "__stack_chk_fail",
+        "__aeabi_memmove",
+        "memchr",
+        "__aeabi_memclr",
+        "pthread_cond_wait",
+        "pthread_mutex_lock",
+        "syscall",
+        "pthread_mutex_unlock",
+        "pthread_cond_broadcast"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 58848,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 64,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 18,
+          "control_flow": 16,
+          "arithmetic": 13,
+          "neon_vfp_simd": 4,
+          "memory_load_store": 11,
+          "other": 2
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 4,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 2
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 856,
+        "keyword_hits": {
+          "JNI_OnLoad": 1,
+          "Crashpad": 2,
+          "Crashlytics": 2
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad",
+          "Crashpad": "CrashpadHandlerMain",
+          "Crashlytics": "()Lcom/google/firebase/crashlytics/FirebaseCrashlytics;"
+        }
+      }
+    },
+    "libface_detector_v2_jni.so": {
+      "bytes": 5388224,
+      "sha256": "21e48bd253e1c87edee42bce9a51048ac3082d681446d0d05a79c4ad0f5e187b",
+      "overall_entropy": 7.1486,
+      "section_count": 30,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 4108928,
+          "entropy": 7.2227,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 471121,
+          "entropy": 5.4056,
+          "flags": 2097202
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 309480,
+          "entropy": 3.7995,
+          "flags": 2
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 162356,
+          "entropy": 5.8497,
+          "flags": 3
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 148880,
+          "entropy": 5.8374,
+          "flags": 130
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 142877,
+          "entropy": 0.0,
+          "flags": 2097155
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 131596,
+          "entropy": 5.6377,
+          "flags": 2
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 27948,
+          "entropy": 2.9285,
+          "flags": 3
+        },
+        {
+          "name": ".got",
+          "type": "SHT_PROGBITS",
+          "size": 9412,
+          "entropy": 5.9738,
+          "flags": 3
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 3696,
+          "entropy": 1.7659,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 3520,
+          "entropy": 3.9373,
+          "flags": 6
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 2988,
+          "entropy": 4.6694,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 6,
+      "jni_exports": [
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayMultiPlanesJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_initDetectorJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferMultiPlanesJni",
+        "Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_closeDetectorJni"
+      ],
+      "imported_functions_count": 209,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "AAssetManager_open",
+        "AAsset_getBuffer",
+        "AAsset_getLength",
+        "AAsset_close",
+        "AAssetManager_fromJava",
+        "__stack_chk_fail",
+        "__aeabi_memclr8",
+        "strlen",
+        "memcmp",
+        "__aeabi_memcpy",
+        "strncpy",
+        "__aeabi_memmove",
+        "strncat",
+        "vsnprintf",
+        "strcpy",
+        "atol",
+        "malloc",
+        "free",
+        "__aeabi_memset",
+        "floorf",
+        "lrintf",
+        "floor",
+        "exp2"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 11,
+          "control_flow": 8,
+          "arithmetic": 2,
+          "neon_vfp_simd": 3,
+          "other": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 42389,
+        "keyword_hits": {
+          "TensorFlow": 6,
+          "OpenCV": 1,
+          "xposed": 1
+        },
+        "sample_markers": {
+          "TensorFlow": "Failed to apply the default TensorFlow Lite delegate indexed at %zu.",
+          "OpenCV": "v_OpenCV",
+          "xposed": "under_exposed"
+        }
+      }
+    },
+    "libfgcpkjvqe.so": {
+      "bytes": 6524160,
+      "sha256": "5f72893936adfe712e8355c33c6f453c45396c7f58c8f05c9acc9c8f83c15b39",
+      "overall_entropy": 6.2658,
+      "section_count": 30,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 5820360,
+          "entropy": 6.1394,
+          "flags": 6
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 286600,
+          "entropy": 5.9813,
+          "flags": 2
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 206332,
+          "entropy": 7.2787,
+          "flags": 2097202
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 79936,
+          "entropy": 3.7028,
+          "flags": 2
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 55724,
+          "entropy": 4.9671,
+          "flags": 3
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 49648,
+          "entropy": 6.1155,
+          "flags": 130
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 29009,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 6180,
+          "entropy": 4.4163,
+          "flags": 3
+        },
+        {
+          "name": ".got",
+          "type": "SHT_PROGBITS",
+          "size": 3804,
+          "entropy": 5.486,
+          "flags": 3
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 3104,
+          "entropy": 1.5752,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 3024,
+          "entropy": 3.9788,
+          "flags": 6
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 2080,
+          "entropy": 4.5294,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 2,
+      "jni_exports": [
+        "JNI_OnUnload",
+        "JNI_OnLoad"
+      ],
+      "imported_functions_count": 185,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__stack_chk_fail",
+        "__memcpy_chk",
+        "deflate",
+        "deflateEnd",
+        "inflateEnd",
+        "deflateInit2_",
+        "crc32",
+        "inflate",
+        "inflateInit2_",
+        "memchr",
+        "memcmp",
+        "strlen",
+        "strchr",
+        "strtoull",
+        "read",
+        "wmemchr",
+        "atoi",
+        "malloc",
+        "free",
+        "__errno",
+        "mprotect",
+        "fprintf",
+        "abort"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "arm32",
+        "thumb_decoded_ins": 1,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "memory_load_store": 1
+        },
+        "arm_decoded_ins": 29,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 14,
+          "logic_move_cmp": 7,
+          "arithmetic": 4,
+          "control_flow": 4
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 4440,
+        "keyword_hits": {
+          "JNI_OnLoad": 1,
+          "X25519": 3,
+          "Visa": 1
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad",
+          "X25519": "X25519MLKEM768",
+          "Visa": "set-brand-Visa"
+        }
+      }
+    },
+    "libimage_processing_util_jni.so": {
+      "bytes": 20380,
+      "sha256": "e48e356bbe1902ae9a66178a4a0141c993b82ee9f70dde52ad83e4af3eca984f",
+      "overall_entropy": 6.5741,
+      "section_count": 26,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 14036,
+          "entropy": 6.9691,
+          "flags": 6
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 898,
+          "entropy": 4.7942,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 480,
+          "entropy": 1.724,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 444,
+          "entropy": 3.2425,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 432,
+          "entropy": 4.036,
+          "flags": 130
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 384,
+          "entropy": 3.7158,
+          "flags": 6
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 296,
+          "entropy": 2.3733,
+          "flags": 2
+        },
+        {
+          "name": ".shstrtab",
+          "type": "SHT_STRTAB",
+          "size": 251,
+          "entropy": 4.288,
+          "flags": 0
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 248,
+          "entropy": 1.1548,
+          "flags": 2
+        },
+        {
+          "name": ".dynamic",
+          "type": "SHT_DYNAMIC",
+          "size": 248,
+          "entropy": 3.0345,
+          "flags": 3
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 208,
+          "entropy": 5.1486,
+          "flags": 50
+        },
+        {
+          "name": ".comment",
+          "type": "SHT_PROGBITS",
+          "size": 178,
+          "entropy": 5.1029,
+          "flags": 48
+        }
+      ],
+      "exported_functions_count": 6,
+      "jni_exports": [
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeCopyBetweenByteBufferAndBitmap",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeShiftPixel",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeWriteJpegToSurface",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToABGR",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToBitmap",
+        "Java_androidx_camera_core_ImageProcessingUtil_nativeRotateYUV"
+      ],
+      "imported_functions_count": 22,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "AndroidBitmap_lockPixels",
+        "AndroidBitmap_unlockPixels",
+        "ANativeWindow_fromSurface",
+        "__android_log_print",
+        "ANativeWindow_setBuffersGeometry",
+        "ANativeWindow_lock",
+        "ANativeWindow_release",
+        "ANativeWindow_unlockAndPost",
+        "malloc",
+        "free",
+        "fopen",
+        "fgets",
+        "strstr",
+        "memcmp",
+        "fclose",
+        "__stack_chk_fail",
+        "__memcpy_chk",
+        "memcpy",
+        "__aeabi_memmove",
+        "memset"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 14036,
+        "dominant_isa_mode": "arm32",
+        "thumb_decoded_ins": 8,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 5,
+          "control_flow": 2,
+          "neon_vfp_simd": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 170,
+        "keyword_hits": {},
+        "sample_markers": {}
+      }
+    },
+    "libimagepipeline.so": {
+      "bytes": 5876,
+      "sha256": "2049c770f0dcca26b20d211f6113ae02eb7c3af48c784c28fd24c320d70d7cc9",
+      "overall_entropy": 5.1578,
+      "section_count": 27,
+      "sections_top": [
+        {
+          "name": ".relro_padding",
+          "type": "SHT_NOBITS",
+          "size": 4016,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 1220,
+          "entropy": 6.2101,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 734,
+          "entropy": 4.8442,
+          "flags": 50
+        },
+        {
+          "name": ".shstrtab",
+          "type": "SHT_STRTAB",
+          "size": 257,
+          "entropy": 4.2803,
+          "flags": 0
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 252,
+          "entropy": 4.5769,
+          "flags": 2
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 224,
+          "entropy": 2.2682,
+          "flags": 2
+        },
+        {
+          "name": ".dynamic",
+          "type": "SHT_DYNAMIC",
+          "size": 224,
+          "entropy": 2.7624,
+          "flags": 3
+        },
+        {
+          "name": ".comment",
+          "type": "SHT_PROGBITS",
+          "size": 204,
+          "entropy": 5.1125,
+          "flags": 48
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 192,
+          "entropy": 1.0356,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 176,
+          "entropy": 3.637,
+          "flags": 6
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 160,
+          "entropy": 2.8574,
+          "flags": 130
+        },
+        {
+          "name": ".note.android.ident",
+          "type": "SHT_NOTE",
+          "size": 152,
+          "entropy": 1.2137,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 1,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "imported_functions_count": 9,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__android_log_print",
+        "__stack_chk_fail",
+        "AndroidBitmap_lockPixels",
+        "__aeabi_memcpy",
+        "AndroidBitmap_unlockPixels",
+        "malloc",
+        "free"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 1220,
+        "dominant_isa_mode": "arm32",
+        "thumb_decoded_ins": 8,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 5,
+          "control_flow": 2,
+          "neon_vfp_simd": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 89,
+        "keyword_hits": {
+          "JNI_OnLoad": 1
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad"
+        }
+      }
+    },
+    "libljsfrcwmw.so": {
+      "bytes": 600296,
+      "sha256": "12a389806114a18ff57d341e740108ebfe9b07d39abe2775a652f193cb99ac84",
+      "overall_entropy": 6.4332,
+      "section_count": 25,
+      "sections_top": [
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 347304,
+          "entropy": 5.8976,
+          "flags": 50
+        },
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 222180,
+          "entropy": 6.3775,
+          "flags": 6
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 44900,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 15436,
+          "entropy": 4.6439,
+          "flags": 3
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 10664,
+          "entropy": 3.4175,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 736,
+          "entropy": 4.8794,
+          "flags": 130
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 408,
+          "entropy": 2.9953,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 304,
+          "entropy": 1.0761,
+          "flags": 2
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 291,
+          "entropy": 4.655,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 272,
+          "entropy": 3.731,
+          "flags": 6
+        },
+        {
+          "name": ".shstrtab",
+          "type": "SHT_STRTAB",
+          "size": 236,
+          "entropy": 4.2805,
+          "flags": 0
+        },
+        {
+          "name": ".dynamic",
+          "type": "SHT_DYNAMIC",
+          "size": 224,
+          "entropy": 2.9533,
+          "flags": 3
+        }
+      ],
+      "exported_functions_count": 1,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "imported_functions_count": 15,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "malloc",
+        "free",
+        "__stack_chk_fail",
+        "etoooh",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock",
+        "jjajwd",
+        "__strlen_chk",
+        "__strncpy_chk",
+        "__strncpy_chk2",
+        "__memset_chk",
+        "calloc",
+        "ztrihxmuqw"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 222180,
+        "dominant_isa_mode": "arm32",
+        "thumb_decoded_ins": 8,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 4,
+          "control_flow": 3,
+          "neon_vfp_simd": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 4497,
+        "keyword_hits": {
+          "JNI_OnLoad": 1,
+          "Griver": 10
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad",
+          "Griver": "Lcom/alibaba/griver/core/keepalive/GriverProxyActivity;"
+        }
+      }
+    },
+    "liblytcuhe.so": {
+      "bytes": 178628,
+      "sha256": "a8e59c1d4922f6bce9814667c1566bb1a2ea39700fe312625a29a7cbe6ef4629",
+      "overall_entropy": 6.6293,
+      "section_count": 26,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 119752,
+          "entropy": 6.8278,
+          "flags": 6
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 13184,
+          "entropy": 3.7671,
+          "flags": 2
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 9375,
+          "entropy": 5.2904,
+          "flags": 50
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 6020,
+          "entropy": 3.506,
+          "flags": 3
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 5450,
+          "entropy": 4.9343,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 5424,
+          "entropy": 3.6837,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 4756,
+          "entropy": 4.2787,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 3776,
+          "entropy": 4.8184,
+          "flags": 130
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 2720,
+          "entropy": 1.7175,
+          "flags": 2
+        },
+        {
+          "name": ".gnu.hash",
+          "type": "SHT_GNU_HASH",
+          "size": 2040,
+          "entropy": 6.1689,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 1104,
+          "entropy": 3.8541,
+          "flags": 6
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 1052,
+          "entropy": 4.9992,
+          "flags": 3
+        }
+      ],
+      "exported_functions_count": 94,
+      "jni_exports": [],
+      "imported_functions_count": 33,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__vsnprintf_chk",
+        "__stack_chk_fail",
+        "__memcpy_chk",
+        "abort",
+        "fmodf",
+        "fmod",
+        "malloc",
+        "free",
+        "vfprintf",
+        "fputc",
+        "vasprintf",
+        "__assert2",
+        "strlen",
+        "realloc",
+        "__strlen_chk",
+        "memchr",
+        "posix_memalign",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock",
+        "strcmp",
+        "pthread_getspecific",
+        "memset",
+        "pthread_once"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 119752,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 11,
+          "control_flow": 8,
+          "memory_load_store": 3,
+          "neon_vfp_simd": 3
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 1267,
+        "keyword_hits": {},
+        "sample_markers": {}
+      }
+    },
+    "libmlkit_google_ocr_pipeline.so": {
+      "bytes": 6781940,
+      "sha256": "06b9e2f587e401c6446aa0db344bb31b622957a2d04aa4eac03cde8b3a6ed78a",
+      "overall_entropy": 6.98,
+      "section_count": 32,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 4406008,
+          "entropy": 7.1852,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 1205680,
+          "entropy": 6.188,
+          "flags": 2097202
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 423112,
+          "entropy": 3.9065,
+          "flags": 2
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 279112,
+          "entropy": 5.1561,
+          "flags": 3
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 218120,
+          "entropy": 5.7305,
+          "flags": 130
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 179284,
+          "entropy": 3.5032,
+          "flags": 3
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 168601,
+          "entropy": 0.0,
+          "flags": 2097155
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 22660,
+          "entropy": 4.6895,
+          "flags": 2
+        },
+        {
+          "name": ".got",
+          "type": "SHT_PROGBITS",
+          "size": 15376,
+          "entropy": 6.0692,
+          "flags": 3
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 7825,
+          "entropy": 4.6362,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 5888,
+          "entropy": 1.9992,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 4992,
+          "entropy": 3.9659,
+          "flags": 6
+        }
+      ],
+      "exported_functions_count": 33,
+      "jni_exports": [
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_stop",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceState",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveProcessContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initialize",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeIsolationCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processBitmap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveFaces",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_disableSubpipeline",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameManager",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_waitUntilIdle",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveRgbFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDetections",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_flushAndClearMobileIqSamples",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_start",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveYuvFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveAudioData",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_close",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_AndroidAssetUtil_nativeInitializeAssetManager",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrameWithStreamName",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDeviceContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_getAnalyticsLogs",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_process",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_processYuvFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_experimentalRotateResults",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetTrackedObjects",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeResultsCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveDepthMap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receiveSensorEvent",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetSchedulingOptimizerOptions",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_receivePreviewFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_enableSubpipeline",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_resetOcr"
+      ],
+      "imported_functions_count": 291,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__stack_chk_fail",
+        "strlen",
+        "__aeabi_memmove4",
+        "__aeabi_memcpy",
+        "memcmp",
+        "__aeabi_memset",
+        "__aeabi_memclr8",
+        "free",
+        "__aeabi_memmove8",
+        "memchr",
+        "round",
+        "malloc",
+        "posix_memalign",
+        "__aeabi_memclr4",
+        "atan2",
+        "atan2f",
+        "trunc",
+        "sincos",
+        "__aeabi_memmove",
+        "lrintf",
+        "remainderf",
+        "expf",
+        "ceilf"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 11,
+          "control_flow": 8,
+          "memory_load_store": 3,
+          "neon_vfp_simd": 3
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 4,
+          "control_flow": 6,
+          "logic_move_cmp": 2
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 52037,
+        "keyword_hits": {
+          "TensorFlow": 34,
+          "Barhopper": 8,
+          "xposed": 1,
+          "MediaPipe": 1,
+          "Drishti": 35,
+          "Rive": 1
+        },
+        "sample_markers": {
+          "TensorFlow": "Invalid TensorFlowModelRunnerConfig.",
+          "Barhopper": "BarhopperV2",
+          "xposed": "demote::calculators::exposed_testing",
+          "MediaPipe": "Timestamps in playback not in recording: (possibly dropped by MediaPipe)",
+          "Drishti": "DrishtiInternalSidePacketToPacketStreamCalculator",
+          "Rive": "America:Rainy_River"
+        }
+      }
+    },
+    "libmlkitcommonpipeline.so": {
+      "bytes": 6928228,
+      "sha256": "9ab65cd53ed8334fc0fcd09fe3c442f2a9bb6653e1392bc0ff4a1c1381aba7db",
+      "overall_entropy": 7.1582,
+      "section_count": 32,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 5275620,
+          "entropy": 7.2127,
+          "flags": 6
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 751525,
+          "entropy": 0.0,
+          "flags": 2097155
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 686144,
+          "entropy": 5.8235,
+          "flags": 2097202
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 304536,
+          "entropy": 3.8451,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 232040,
+          "entropy": 5.8236,
+          "flags": 130
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 151620,
+          "entropy": 5.7988,
+          "flags": 3
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 141716,
+          "entropy": 3.4495,
+          "flags": 3
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 89504,
+          "entropy": 5.6602,
+          "flags": 2
+        },
+        {
+          "name": ".got",
+          "type": "SHT_PROGBITS",
+          "size": 15768,
+          "entropy": 6.0255,
+          "flags": 3
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 7916,
+          "entropy": 4.6327,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 5888,
+          "entropy": 2.0532,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 5104,
+          "entropy": 4.0218,
+          "flags": 6
+        }
+      ],
+      "exported_functions_count": 38,
+      "jni_exports": [
+        "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetNNAPIInfo",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeResultsCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveRgbFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_experimentalRotateResults",
+        "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeNotifyProcessLifecycleState",
+        "Java_org_tensorflow_lite_acceleration_validation_entrypoint",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameManager",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processBitmap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_processYuvFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceState",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveAudioData",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_getAnalyticsLogs",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetOcr",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_start",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_stop",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receivePreviewFrame",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeFrameBufferReleaseCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDetections",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetSchedulingOptimizerOptions",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_close",
+        "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeIsProcessInBackground",
+        "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetDeviceInfo",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initializeIsolationCallback",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_waitUntilIdle",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receivePreviewFrameWithStreamName",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveSensorEvent",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveProcessContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_resetTrackedObjects",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_initialize",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDepthMap",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveYuvFrame",
+        "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetGPUInfo",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_process",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveFaces",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_enableSubpipeline",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_flushAndClearMobileIqSamples",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_receiveDeviceContext",
+        "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_disableSubpipeline"
+      ],
+      "imported_functions_count": 298,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "strlen",
+        "free",
+        "__aeabi_memcpy",
+        "__stack_chk_fail",
+        "malloc",
+        "posix_memalign",
+        "__aeabi_memcpy4",
+        "pthread_join",
+        "pthread_cond_destroy",
+        "pthread_mutex_destroy",
+        "pthread_mutex_lock",
+        "pthread_cond_broadcast",
+        "pthread_mutex_unlock",
+        "abort",
+        "strncmp",
+        "__aeabi_memset",
+        "__aeabi_memmove4",
+        "expf",
+        "memcmp",
+        "__aeabi_memclr8",
+        "strcpy",
+        "vsnprintf",
+        "__android_log_print"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 14,
+          "control_flow": 8,
+          "neon_vfp_simd": 3
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 4,
+          "control_flow": 6,
+          "logic_move_cmp": 2
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 45673,
+        "keyword_hits": {
+          "OpenCV": 152,
+          "TensorFlow": 6,
+          "Barhopper": 8,
+          "xposed": 1,
+          "MediaPipe": 1,
+          "Drishti": 35
+        },
+        "sample_markers": {
+          "OpenCV": "third_party/OpenCV/public/modules/calib3d/src/ippe.cpp",
+          "TensorFlow": "Failed to apply the default TensorFlow Lite delegate indexed at %zu.",
+          "Barhopper": "BarhopperV2",
+          "xposed": "demote::calculators::exposed_testing",
+          "MediaPipe": "Timestamps in playback not in recording: (possibly dropped by MediaPipe)",
+          "Drishti": "DrishtiInternalSidePacketToPacketStreamCalculator"
+        }
+      }
+    },
+    "libnative-filters.so": {
+      "bytes": 12588,
+      "sha256": "b8a2da1df4f33eb83adf9596e5e68c9633067a2826385e495ed47f02497b5995",
+      "overall_entropy": 6.3272,
+      "section_count": 27,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 6288,
+          "entropy": 6.8179,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 2175,
+          "entropy": 4.6923,
+          "flags": 50
+        },
+        {
+          "name": ".relro_padding",
+          "type": "SHT_NOBITS",
+          "size": 1364,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 295,
+          "entropy": 4.6025,
+          "flags": 2
+        },
+        {
+          "name": ".shstrtab",
+          "type": "SHT_STRTAB",
+          "size": 257,
+          "entropy": 4.2803,
+          "flags": 0
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 240,
+          "entropy": 1.0244,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 224,
+          "entropy": 3.6591,
+          "flags": 6
+        },
+        {
+          "name": ".dynamic",
+          "type": "SHT_DYNAMIC",
+          "size": 224,
+          "entropy": 2.7874,
+          "flags": 3
+        },
+        {
+          "name": ".comment",
+          "type": "SHT_PROGBITS",
+          "size": 204,
+          "entropy": 5.1125,
+          "flags": 48
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 192,
+          "entropy": 3.2549,
+          "flags": 130
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 188,
+          "entropy": 3.3666,
+          "flags": 2
+        },
+        {
+          "name": ".note.android.ident",
+          "type": "SHT_NOTE",
+          "size": 152,
+          "entropy": 1.2137,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 1,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "imported_functions_count": 12,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__stack_chk_fail",
+        "__android_log_print",
+        "AndroidBitmap_getInfo",
+        "AndroidBitmap_lockPixels",
+        "malloc",
+        "__aeabi_memcpy",
+        "free",
+        "AndroidBitmap_unlockPixels",
+        "__aeabi_memclr",
+        "ceil"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 6288,
+        "dominant_isa_mode": "arm32",
+        "thumb_decoded_ins": 8,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 5,
+          "control_flow": 2,
+          "neon_vfp_simd": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 117,
+        "keyword_hits": {
+          "JNI_OnLoad": 1
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad"
+        }
+      }
+    },
+    "libnative-imagetranscoder.so": {
+      "bytes": 341072,
+      "sha256": "43280a8f3f33529d3558b1f3283fec9b855ca28e7b8d7883ae7a64762f148dad",
+      "overall_entropy": 6.9594,
+      "section_count": 27,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 259328,
+          "entropy": 7.1167,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 19927,
+          "entropy": 5.8246,
+          "flags": 50
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 14880,
+          "entropy": 3.7634,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 9628,
+          "entropy": 4.0287,
+          "flags": 2
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 7916,
+          "entropy": 4.2302,
+          "flags": 3
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 7160,
+          "entropy": 5.1816,
+          "flags": 130
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 5675,
+          "entropy": 4.9341,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 5648,
+          "entropy": 3.6603,
+          "flags": 2
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 2832,
+          "entropy": 1.7349,
+          "flags": 2
+        },
+        {
+          "name": ".gnu.hash",
+          "type": "SHT_GNU_HASH",
+          "size": 2020,
+          "entropy": 6.1152,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 1424,
+          "entropy": 3.87,
+          "flags": 6
+        },
+        {
+          "name": ".gnu.version",
+          "type": "SHT_GNU_versym",
+          "size": 706,
+          "entropy": 1.2848,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 92,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "imported_functions_count": 51,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__android_log_print",
+        "__stack_chk_fail",
+        "setjmp",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "longjmp",
+        "__aeabi_memmove",
+        "__aeabi_memclr",
+        "__aeabi_memcpy",
+        "exit",
+        "fprintf",
+        "__vsnprintf_chk",
+        "getenv",
+        "strlen",
+        "strncpy",
+        "__strlen_chk",
+        "sscanf",
+        "malloc",
+        "free",
+        "__memcpy_chk",
+        "memset",
+        "openlog",
+        "pthread_setspecific"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 259328,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 24,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 9,
+          "control_flow": 9,
+          "other": 2,
+          "arithmetic": 1,
+          "neon_vfp_simd": 3
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 2108,
+        "keyword_hits": {
+          "JNI_OnLoad": 1
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad"
+        }
+      }
+    },
+    "libohxbee.so": {
+      "bytes": 155412,
+      "sha256": "2d54a2aa85d81dbfef1e8d01726b1ffd74004ead9d15d861e2323f54ffc01a74",
+      "overall_entropy": 6.2457,
+      "section_count": 25,
+      "sections_top": [
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 87804,
+          "entropy": 5.6021,
+          "flags": 50
+        },
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 56960,
+          "entropy": 6.2553,
+          "flags": 6
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 10608,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 4120,
+          "entropy": 4.5881,
+          "flags": 3
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 2832,
+          "entropy": 3.2165,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 304,
+          "entropy": 1.0761,
+          "flags": 2
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 288,
+          "entropy": 4.6062,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 272,
+          "entropy": 3.7149,
+          "flags": 6
+        },
+        {
+          "name": ".shstrtab",
+          "type": "SHT_STRTAB",
+          "size": 236,
+          "entropy": 4.2805,
+          "flags": 0
+        },
+        {
+          "name": ".dynamic",
+          "type": "SHT_DYNAMIC",
+          "size": 224,
+          "entropy": 2.8894,
+          "flags": 3
+        },
+        {
+          "name": ".comment",
+          "type": "SHT_PROGBITS",
+          "size": 177,
+          "entropy": 5.0717,
+          "flags": 48
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 160,
+          "entropy": 1.0713,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 1,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "imported_functions_count": 15,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__memset_chk",
+        "malloc",
+        "free",
+        "__stack_chk_fail",
+        "fayjpsel",
+        "calloc",
+        "kxffetq",
+        "__strlen_chk",
+        "__strncpy_chk",
+        "__strncpy_chk2",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock",
+        "sgsmdzzsfi"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 56960,
+        "dominant_isa_mode": "arm32",
+        "thumb_decoded_ins": 8,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 4,
+          "control_flow": 2,
+          "arithmetic": 1,
+          "neon_vfp_simd": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 1509,
+        "keyword_hits": {
+          "JNI_OnLoad": 1,
+          "VFace": 4,
+          "OpenCV": 2
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad",
+          "VFace": "Lvn/ai/faceauth/sdk/opencv/VFaceLib$Companion;",
+          "OpenCV": "startOpenCV"
+        }
+      }
+    },
+    "libpicodet_ncnn.so": {
+      "bytes": 2992584,
+      "sha256": "442367c2e7f3e5b5f70ed8164f375d6306720eb1d3ddba4fdd936e569214230e",
+      "overall_entropy": 7.1811,
+      "section_count": 29,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 2634856,
+          "entropy": 7.2069,
+          "flags": 6
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 69139,
+          "entropy": 5.1656,
+          "flags": 2
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 46736,
+          "entropy": 5.5087,
+          "flags": 50
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 45184,
+          "entropy": 4.4142,
+          "flags": 2
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 43992,
+          "entropy": 4.1348,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 41512,
+          "entropy": 3.8246,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 28200,
+          "entropy": 5.6612,
+          "flags": 130
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 25324,
+          "entropy": 3.994,
+          "flags": 3
+        },
+        {
+          "name": ".gnu.hash",
+          "type": "SHT_GNU_HASH",
+          "size": 17352,
+          "entropy": 7.1311,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 13488,
+          "entropy": 4.0542,
+          "flags": 6
+        },
+        {
+          "name": ".rel.plt",
+          "type": "SHT_REL",
+          "size": 6728,
+          "entropy": 5.0037,
+          "flags": 66
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 6333,
+          "entropy": 0.0,
+          "flags": 3
+        }
+      ],
+      "exported_functions_count": 2152,
+      "jni_exports": [
+        "Java_com_example_picodet_PicoDetJNI_picodetConfigure2",
+        "Java_com_example_picodet_PicoDetJNI_picodetCreate",
+        "Java_com_example_picodet_PicoDetJNI_picodetDestroy",
+        "Java_com_example_picodet_PicoDetJNI_picodetConfigure",
+        "Java_com_example_picodet_PicoDetJNI_picodetInputWidth",
+        "Java_com_example_picodet_PicoDetJNI_detect",
+        "Java_com_example_picodet_PicoDetJNI_picodetInputHeight",
+        "Java_com_example_picodet_PicoDetJNI_detectYuv"
+      ],
+      "imported_functions_count": 172,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__register_atfork",
+        "__android_log_print",
+        "__stack_chk_fail",
+        "dlsym",
+        "free",
+        "powf",
+        "malloc",
+        "fopen",
+        "fgets",
+        "memcmp",
+        "strstr",
+        "fclose",
+        "memchr",
+        "strlen",
+        "strpbrk",
+        "strtok",
+        "strcmp",
+        "__memcpy_chk",
+        "setenv",
+        "feof",
+        "fscanf",
+        "fprintf",
+        "fputc"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 100,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 49,
+          "control_flow": 23,
+          "neon_vfp_simd": 5,
+          "arithmetic": 6,
+          "memory_load_store": 16,
+          "other": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 10221,
+        "keyword_hits": {
+          "ncnn": 1,
+          "NCNN": 1
+        },
+        "sample_markers": {
+          "ncnn": "libpicodet_ncnn.so",
+          "NCNN": "id < NCNN_MAX_PARAM_COUNT failed (id=%d, NCNN_MAX_PARAM_COUNT=%d)"
+        }
+      }
+    },
+    "librcmefqonnx.so": {
+      "bytes": 178628,
+      "sha256": "9120dd02a8d94659ea178c0b73b4d02954915d8432c74b04a05d1583f69099af",
+      "overall_entropy": 6.6295,
+      "section_count": 26,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 119752,
+          "entropy": 6.8281,
+          "flags": 6
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 13184,
+          "entropy": 3.7656,
+          "flags": 2
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 9375,
+          "entropy": 5.2904,
+          "flags": 50
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 6020,
+          "entropy": 3.506,
+          "flags": 3
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 5450,
+          "entropy": 4.9342,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 5424,
+          "entropy": 3.693,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 4756,
+          "entropy": 4.2787,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 3776,
+          "entropy": 4.8184,
+          "flags": 130
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 2720,
+          "entropy": 1.7175,
+          "flags": 2
+        },
+        {
+          "name": ".gnu.hash",
+          "type": "SHT_GNU_HASH",
+          "size": 2040,
+          "entropy": 6.1637,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 1104,
+          "entropy": 3.8541,
+          "flags": 6
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 1052,
+          "entropy": 4.9992,
+          "flags": 3
+        }
+      ],
+      "exported_functions_count": 94,
+      "jni_exports": [],
+      "imported_functions_count": 33,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__vsnprintf_chk",
+        "__stack_chk_fail",
+        "__memcpy_chk",
+        "abort",
+        "fmodf",
+        "fmod",
+        "malloc",
+        "free",
+        "vfprintf",
+        "fputc",
+        "vasprintf",
+        "__assert2",
+        "strlen",
+        "realloc",
+        "__strlen_chk",
+        "memchr",
+        "posix_memalign",
+        "pthread_mutex_lock",
+        "pthread_mutex_unlock",
+        "strcmp",
+        "pthread_getspecific",
+        "memset",
+        "pthread_once"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 119752,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 11,
+          "control_flow": 8,
+          "memory_load_store": 3,
+          "neon_vfp_simd": 3
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 1267,
+        "keyword_hits": {},
+        "sample_markers": {}
+      }
+    },
+    "librive-android.so": {
+      "bytes": 3225636,
+      "sha256": "ab2dd352553cafb7b7f1a686df8bf33c814b977e7c1cdf1e65d8c99c5cb0e782",
+      "overall_entropy": 6.4175,
+      "section_count": 28,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 2209180,
+          "entropy": 6.196,
+          "flags": 6
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 280061,
+          "entropy": 5.1726,
+          "flags": 2
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 230351,
+          "entropy": 6.5016,
+          "flags": 50
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 105992,
+          "entropy": 4.5776,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 99600,
+          "entropy": 4.645,
+          "flags": 2
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 57420,
+          "entropy": 3.6506,
+          "flags": 3
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 49808,
+          "entropy": 2.5316,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 47760,
+          "entropy": 5.8251,
+          "flags": 130
+        },
+        {
+          "name": ".gnu.hash",
+          "type": "SHT_GNU_HASH",
+          "size": 46140,
+          "entropy": 6.541,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 41104,
+          "entropy": 3.2558,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 22800,
+          "entropy": 4.0857,
+          "flags": 6
+        },
+        {
+          "name": ".gnu.version",
+          "type": "SHT_GNU_versym",
+          "size": 12450,
+          "entropy": 1.0714,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 5390,
+      "jni_exports": [
+        "Java_app_rive_runtime_kotlin_core_FileAsset_cppUniqueFilename",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppGetArtboardWidth",
+        "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppWorkEnd",
+        "Java_app_rive_runtime_kotlin_core_ImageAsset_cppGetRenderImage",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByIndex",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineNameByIndex",
+        "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppPointerMove",
+        "Java_app_rive_runtime_kotlin_core_ViewModelNumberProperty_cppGetValue",
+        "Java_app_rive_runtime_kotlin_core_File_cppViewModelByIndex",
+        "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppSetTime",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppStateMachineByName",
+        "Java_app_rive_runtime_kotlin_core_SMIInput_cppIsTrigger",
+        "Java_app_rive_runtime_kotlin_core_SMIBoolean_cppValue",
+        "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppAdvance",
+        "Java_app_rive_runtime_kotlin_core_FileAsset_cppDecode",
+        "Java_app_rive_runtime_kotlin_core_ViewModelBooleanProperty_cppSetValue",
+        "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppGetTime",
+        "Java_app_rive_runtime_kotlin_renderers_Renderer_cppRestore",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppSetViewModelInstance",
+        "Java_app_rive_runtime_kotlin_core_ViewModelStringProperty_cppSetValue",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppFindTextValueRunAtPath",
+        "Java_app_rive_runtime_kotlin_core_ViewModel_cppCreateInstanceFromIndex",
+        "Java_app_rive_runtime_kotlin_core_LayerState_cppIsBlendStateDirect",
+        "Java_app_rive_runtime_kotlin_core_RiveTextValueRun_cppSetText",
+        "Java_app_rive_runtime_kotlin_core_FileAsset_cppCDNUrl",
+        "Java_app_rive_runtime_kotlin_core_File_cppArtboardNameByIndex",
+        "Java_app_rive_runtime_kotlin_RiveTextureView_cppGetAverageFps",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppSetArtboardHeight",
+        "Java_app_rive_runtime_kotlin_core_SMIInput_cppIsBoolean",
+        "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppSetViewModelInstance",
+        "Java_app_rive_runtime_kotlin_fonts_FontFallbackStrategy_00024Companion_cppResetFontCache",
+        "Java_app_rive_runtime_kotlin_core_ViewModelBooleanProperty_cppGetValue",
+        "Java_app_rive_runtime_kotlin_core_SMIInput_cppName",
+        "Java_app_rive_runtime_kotlin_core_File_import",
+        "Java_app_rive_runtime_kotlin_core_LinearAnimationInstance_cppSetLoop",
+        "Java_app_rive_runtime_kotlin_core_StateMachineInstance_cppSMIInputByIndex",
+        "Java_app_rive_runtime_kotlin_core_ViewModelStringProperty_cppGetValue",
+        "Java_app_rive_runtime_kotlin_core_Artboard_cppDraw",
+        "Java_app_rive_runtime_kotlin_core_LayerState_cppIsBlendState",
+        "Java_app_rive_runtime_kotlin_core_SMITrigger_cppFire"
+      ],
+      "imported_functions_count": 268,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "_ZdlPv",
+        "memcmp",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+        "ANativeWindow_getWidth",
+        "ANativeWindow_getHeight",
+        "_Znwj",
+        "_ZNSt6__ndk122__libcpp_verbose_abortEPKcz",
+        "malloc",
+        "free",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc",
+        "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcj",
+        "_ZNSt6__ndk15mutex4lockEv",
+        "_ZNSt6__ndk15mutex6unlockEv",
+        "ANativeWindow_fromSurface",
+        "ANativeWindow_release",
+        "_Znaj",
+        "_ZdaPv",
+        "pthread_self",
+        "_ZNSt6__ndk118condition_variable10notify_oneEv",
+        "_ZNSt6__ndk118condition_variable4waitERNS_11unique_lockINS_5mutexEEE",
+        "_ZNSt6__ndk119__shared_weak_count14__release_weakEv",
+        "_ZNSt6__ndk120__throw_system_errorEiPKc",
+        "ceilf"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "arm32",
+        "thumb_decoded_ins": 8,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 4,
+          "control_flow": 2,
+          "memory_load_store": 1,
+          "neon_vfp_simd": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 10001,
+        "keyword_hits": {
+          "Rive": 96
+        },
+        "sample_markers": {
+          "Rive": "Java_app_rive_runtime_kotlin_core_RiveRenderImage_00024Companion_cppMakeImage"
+        }
+      }
+    },
+    "libsecurity_lite.so": {
+      "bytes": 154840,
+      "sha256": "75c5d69621c5dce9a64e4466ae011ba5a22e16b35246b39941883d424df6c786",
+      "overall_entropy": 7.3025,
+      "section_count": 27,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 120148,
+          "entropy": 7.3316,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 11840,
+          "entropy": 7.9094,
+          "flags": 2
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 10905,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 5512,
+          "entropy": 7.1353,
+          "flags": 3
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 3592,
+          "entropy": 3.4315,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 2128,
+          "entropy": 3.4901,
+          "flags": 2
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 1983,
+          "entropy": 5.0248,
+          "flags": 2
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 1424,
+          "entropy": 4.2994,
+          "flags": 3
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 1188,
+          "entropy": 3.1999,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 1144,
+          "entropy": 4.8333,
+          "flags": 130
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 1064,
+          "entropy": 1.4342,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 620,
+          "entropy": 4.0055,
+          "flags": 6
+        }
+      ],
+      "exported_functions_count": 63,
+      "jni_exports": [
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+        "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest"
+      ],
+      "imported_functions_count": 33,
+      "imported_sample": [
+        "__cxa_atexit",
+        "__cxa_finalize",
+        "__stack_chk_fail",
+        "free",
+        "malloc",
+        "sprintf",
+        "__aeabi_memclr4",
+        "__aeabi_memclr8",
+        "lrand48",
+        "srand48",
+        "time",
+        "__aeabi_memclr",
+        "__aeabi_memcpy",
+        "__aeabi_memcpy4",
+        "fclose",
+        "fileno",
+        "fopen",
+        "fstat",
+        "strcat",
+        "strcmp",
+        "strcpy",
+        "strlen",
+        "strncpy",
+        "isalnum",
+        "realloc"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 120148,
+        "dominant_isa_mode": "arm32",
+        "thumb_decoded_ins": 4,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 2,
+          "control_flow": 2
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 1231,
+        "keyword_hits": {
+          "SecurityGuard": 4,
+          "Alipay": 1,
+          "GCC:": 1
+        },
+        "sample_markers": {
+          "SecurityGuard": "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+          "Alipay": "Alipay clang version 7.0.1 (based on LLVM 7.0.1.Alipay.Obfuscator build220224)",
+          "GCC:": "GCC: (GNU) 4.9.x 20150123 (prerelease)"
+        }
+      }
+    },
+    "libsqlcipher.so": {
+      "bytes": 3555080,
+      "sha256": "819c11750f332a8ca0d88f251d0d22d664f559b8ed10f7a4c61cc90be49f3f44",
+      "overall_entropy": 6.6941,
+      "section_count": 27,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 2532016,
+          "entropy": 6.5678,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 565833,
+          "entropy": 7.2881,
+          "flags": 50
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 180504,
+          "entropy": 3.9039,
+          "flags": 3
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 157520,
+          "entropy": 3.8652,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 31880,
+          "entropy": 3.443,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 25880,
+          "entropy": 5.4795,
+          "flags": 130
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 14104,
+          "entropy": 4.7923,
+          "flags": 2
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 11348,
+          "entropy": 3.5988,
+          "flags": 3
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 10512,
+          "entropy": 3.6587,
+          "flags": 2
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 7024,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 6352,
+          "entropy": 3.9953,
+          "flags": 6
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 5264,
+          "entropy": 1.9738,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 426,
+      "jni_exports": [
+        "JNI_OnLoad"
+      ],
+      "imported_functions_count": 173,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__android_log_print",
+        "__stack_chk_fail",
+        "strlen",
+        "malloc",
+        "strcat",
+        "free",
+        "usleep",
+        "memcmp",
+        "strtoll",
+        "strtod",
+        "__vsnprintf_chk",
+        "asprintf",
+        "vsnprintf",
+        "strerror_r",
+        "__android_log_write",
+        "abort",
+        "strdup",
+        "__aeabi_memclr",
+        "realloc",
+        "__aeabi_memcpy",
+        "strcmp",
+        "__aeabi_memclr8",
+        "getenv"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 177,
+        "thumb_svc_count": 1,
+        "thumb_categories": {
+          "logic_move_cmp": 54,
+          "control_flow": 42,
+          "arithmetic": 36,
+          "neon_vfp_simd": 5,
+          "other": 5,
+          "memory_load_store": 34,
+          "syscall_svc": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 16251,
+        "keyword_hits": {
+          "SQLite": 40,
+          "JNI_OnLoad": 1,
+          "X25519": 5,
+          "OpenSSL": 41,
+          "libcrypto": 1,
+          "Visa": 1
+        },
+        "sample_markers": {
+          "SQLite": "_ZN7android42register_android_database_SQLiteConnectionEP7_JNIEnv",
+          "JNI_OnLoad": "JNI_OnLoad",
+          "X25519": "ossl_i2d_X25519_PUBKEY",
+          "OpenSSL": "OpenSSL RSA implementation",
+          "libcrypto": "common libcrypto routines",
+          "Visa": "set-brand-Visa"
+        }
+      }
+    },
+    "libtaibmcf.so": {
+      "bytes": 12617752,
+      "sha256": "0fba080d0364fc0f7a8f61611551ef3b231c8ad0c95113446916099f8112d650",
+      "overall_entropy": 6.1236,
+      "section_count": 27,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 11900864,
+          "entropy": 6.039,
+          "flags": 6
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 268620,
+          "entropy": 5.8795,
+          "flags": 2
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 211692,
+          "entropy": 7.2703,
+          "flags": 50
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 87376,
+          "entropy": 3.7116,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 64888,
+          "entropy": 6.0598,
+          "flags": 130
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 56812,
+          "entropy": 5.0059,
+          "flags": 3
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "size": 28265,
+          "entropy": 0.0,
+          "flags": 3
+        },
+        {
+          "name": ".got",
+          "type": "SHT_PROGBITS",
+          "size": 6228,
+          "entropy": 5.8905,
+          "flags": 3
+        },
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "size": 6096,
+          "entropy": 4.4091,
+          "flags": 3
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 3168,
+          "entropy": 1.5821,
+          "flags": 2
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 2784,
+          "entropy": 3.9649,
+          "flags": 6
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 2127,
+          "entropy": 4.5169,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 2,
+      "jni_exports": [
+        "JNI_OnLoad",
+        "JNI_OnUnload"
+      ],
+      "imported_functions_count": 189,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "__stack_chk_fail",
+        "__memcpy_chk",
+        "deflate",
+        "deflateEnd",
+        "inflateEnd",
+        "deflateInit2_",
+        "crc32",
+        "inflate",
+        "inflateInit2_",
+        "atoi",
+        "strlen",
+        "memchr",
+        "memcmp",
+        "__errno",
+        "strchr",
+        "strtoull",
+        "malloc",
+        "free",
+        "fprintf",
+        "abort",
+        "clock_gettime",
+        "fread",
+        "fopen"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 262144,
+        "dominant_isa_mode": "thumb2",
+        "thumb_decoded_ins": 25,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 8,
+          "control_flow": 11,
+          "memory_load_store": 3,
+          "neon_vfp_simd": 3
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "other": 1,
+          "logic_move_cmp": 2
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 4386,
+        "keyword_hits": {
+          "JNI_OnLoad": 1,
+          "X25519": 3,
+          "Visa": 1
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad",
+          "X25519": "X25519Kyber768Draft00",
+          "Visa": "set-brand-Visa"
+        }
+      }
+    },
+    "libtrueidlib.so": {
+      "bytes": 79904,
+      "sha256": "e1a98166f637ebebf814a375ec147461229ff18314dd669ebbf07eabefdfdd06",
+      "overall_entropy": 6.9485,
+      "section_count": 25,
+      "sections_top": [
+        {
+          "name": ".text",
+          "type": "SHT_PROGBITS",
+          "size": 62660,
+          "entropy": 7.0421,
+          "flags": 6
+        },
+        {
+          "name": ".rodata",
+          "type": "SHT_PROGBITS",
+          "size": 4800,
+          "entropy": 6.1736,
+          "flags": 50
+        },
+        {
+          "name": ".dynstr",
+          "type": "SHT_STRTAB",
+          "size": 1608,
+          "entropy": 4.7833,
+          "flags": 2
+        },
+        {
+          "name": ".rel.dyn",
+          "type": "SHT_REL",
+          "size": 1376,
+          "entropy": 2.9744,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.extab",
+          "type": "SHT_PROGBITS",
+          "size": 1352,
+          "entropy": 3.3541,
+          "flags": 2
+        },
+        {
+          "name": ".dynsym",
+          "type": "SHT_DYNSYM",
+          "size": 1296,
+          "entropy": 2.5677,
+          "flags": 2
+        },
+        {
+          "name": ".ARM.exidx",
+          "type": "SHT_ARM_EXIDX",
+          "size": 1080,
+          "entropy": 4.2404,
+          "flags": 130
+        },
+        {
+          "name": ".plt",
+          "type": "SHT_PROGBITS",
+          "size": 960,
+          "entropy": 3.8163,
+          "flags": 6
+        },
+        {
+          "name": ".hash",
+          "type": "SHT_HASH",
+          "size": 656,
+          "entropy": 1.3352,
+          "flags": 2
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "SHT_PROGBITS",
+          "size": 580,
+          "entropy": 3.7853,
+          "flags": 3
+        },
+        {
+          "name": ".rel.plt",
+          "type": "SHT_REL",
+          "size": 464,
+          "entropy": 3.7998,
+          "flags": 66
+        },
+        {
+          "name": ".gnu.hash",
+          "type": "SHT_GNU_HASH",
+          "size": 280,
+          "entropy": 6.0315,
+          "flags": 2
+        }
+      ],
+      "exported_functions_count": 40,
+      "jni_exports": [
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQReg",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultAuthCeremony",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckIntegrity",
+        "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_getNonce",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultVerifyTxDigest",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultRegisterCeremony",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQAuth",
+        "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_genSignature",
+        "JNI_OnLoad",
+        "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckDebugger"
+      ],
+      "imported_functions_count": 39,
+      "imported_sample": [
+        "__cxa_finalize",
+        "__cxa_atexit",
+        "free",
+        "malloc",
+        "__stack_chk_fail",
+        "__system_property_get",
+        "strstr",
+        "syscall",
+        "fopen",
+        "fgets",
+        "fclose",
+        "strdup",
+        "strlen",
+        "strcmp",
+        "__strcpy_chk",
+        "memcmp",
+        "atoi",
+        "strchr",
+        "__strlen_chk",
+        "strncpy",
+        "__strchr_chk",
+        "__vsnprintf_chk",
+        "__vsprintf_chk",
+        "strcpy",
+        "strtok"
+      ],
+      "capstone_text_profile": {
+        "sampled_bytes": 62660,
+        "dominant_isa_mode": "arm32",
+        "thumb_decoded_ins": 8,
+        "thumb_svc_count": 0,
+        "thumb_categories": {
+          "logic_move_cmp": 4,
+          "control_flow": 2,
+          "arithmetic": 1,
+          "neon_vfp_simd": 1
+        },
+        "arm_decoded_ins": 15,
+        "arm_svc_count": 0,
+        "arm_categories": {
+          "memory_load_store": 3,
+          "arithmetic": 3,
+          "control_flow": 6,
+          "logic_move_cmp": 3
+        }
+      },
+      "toolchain_and_telemetry_markers": {
+        "total_printable_strings_ge5": 658,
+        "keyword_hits": {
+          "JNI_OnLoad": 1,
+          "X25519": 1,
+          "ro.debuggable": 2,
+          "TrueID": 4,
+          "magisk": 6,
+          "frida": 2,
+          "/proc/self/maps": 1
+        },
+        "sample_markers": {
+          "JNI_OnLoad": "JNI_OnLoad",
+          "X25519": "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey",
+          "ro.debuggable": "getprop ro.debuggable",
+          "TrueID": "vn/ai/trueid/sdk/navigation/TrueIDV3",
+          "magisk": "magisk",
+          "frida": "re.frida.server",
+          "/proc/self/maps": "/proc/self/maps"
+        }
+      }
+    }
+  },
+  "assets_count": 124,
+  "assets_inventory": [
+    {
+      "path": "assets/FastestDet.ncnn.bin",
+      "bytes": 2420588,
+      "sha256": "ee8e29ed0889be186336751d4ff1db13d8bd087fef45c116c2298a8859822e10",
+      "entropy": 7.5305,
+      "magic_hex": "476b30018e28cd281a28b628ca28ba27"
+    },
+    {
+      "path": "assets/FastestDet.ncnn.param",
+      "bytes": 15293,
+      "sha256": "8b659855f15bec83808c33f520f276cd22544dc21298c7f1b46dd62150f8dcb1",
+      "entropy": 3.451,
+      "magic_hex": "373736373531370a313732203139380a"
+    },
+    {
+      "path": "assets/Griver/66666692_1.24.8.amr",
+      "bytes": 287535,
+      "sha256": "02b7cf32e5e71d62667ed8bcc24c9c2c4eb7e644f49e487fd06e1cba19290e31",
+      "entropy": 7.9989,
+      "magic_hex": "504b0304140000080800768a5a53e686"
+    },
+    {
+      "path": "assets/Griver/66666693_2.0.7.amr",
+      "bytes": 17380,
+      "sha256": "212c15df244230e33b820b2b831b7c05b2a4a0ffcf9d878495598294e7451127",
+      "entropy": 7.9807,
+      "magic_hex": "504b0304140000080800a250985352af"
+    },
+    {
+      "path": "assets/Griver/68687209_2.9.7.8.amr",
+      "bytes": 856974,
+      "sha256": "3e67a09c8d76338cebf8cd495adbf72f26f5aecb7362e4ace4ce5dd6d0c2ad22",
+      "entropy": 7.9994,
+      "magic_hex": "504b0304140000080800844351594e1f"
+    },
+    {
+      "path": "assets/Griver/appx.json",
+      "bytes": 2178,
+      "sha256": "3b7a99da47f6f10db498d5582e0255de17786531f0c7f090b56f24591be70090",
+      "entropy": 4.8643,
+      "magic_hex": "7b0a2020226d696e69223a7b0a202020"
+    },
+    {
+      "path": "assets/GriverBridge/appx_inline_bootstrap_min.js",
+      "bytes": 292,
+      "sha256": "98e536752ad1eb0cc92c0342636c25562d40ce1c13a7b94ac10dc8416190a452",
+      "entropy": 5.0385,
+      "magic_hex": "2166756e6374696f6e28297b22757365"
+    },
+    {
+      "path": "assets/GriverBridge/cover_component.js",
+      "bytes": 2888,
+      "sha256": "0bfb0f20cb72e23a1c1b43c2aaf5b49e692e7f5660bab3a0a0544d129486d08b",
+      "entropy": 4.3198,
+      "magic_hex": "646f63756d656e742e616e64726f6964"
+    },
+    {
+      "path": "assets/GriverBridge/create_worker.html",
+      "bytes": 159,
+      "sha256": "c4737f85a1c7ea5784b5c82f4a64173640e46367ea8f77000f812eacb9467b0a",
+      "entropy": 4.8486,
+      "magic_hex": "3c686561643e0a0a3c2f686561643e0a"
+    },
+    {
+      "path": "assets/GriverBridge/h5_bridge.js",
+      "bytes": 4446,
+      "sha256": "e0f37c8b1163a14fce982c09afbded0249e18a6eca11c97225269d1edd63ec73",
+      "entropy": 5.2735,
+      "magic_hex": "76617220756356657273696f6e3b7472"
+    },
+    {
+      "path": "assets/GriverBridge/index_inline.html",
+      "bytes": 972,
+      "sha256": "a48d9cd2f6d00022acd666a5e274087725938a5fca7d9961a5eedf265883254e",
+      "entropy": 5.08,
+      "magic_hex": "3c21444f43545950452068746d6c3e0a"
+    },
+    {
+      "path": "assets/GriverBridge/worker.html",
+      "bytes": 203,
+      "sha256": "92a87b5c6be964c75359b0124a6a4ffcb8e281c298963eedc47ca68eb41f2ed6",
+      "entropy": 4.9763,
+      "magic_hex": "3c68746d6c3e0a3c686561643e3c2f68"
+    },
+    {
+      "path": "assets/GriverBridge/workerjs.js",
+      "bytes": 14360,
+      "sha256": "47c076ffe63168d2164625e6ef533ceec5132fb60803c0193afabf4f13da728c",
+      "entropy": 4.8197,
+      "magic_hex": "76617220646f63756d656e742c20416c"
+    },
+    {
+      "path": "assets/GriverErrorPage/griver_custom_h5_page_error.html",
+      "bytes": 3060,
+      "sha256": "8483fdbc2245aba16ed4f6ef8a2831cf0f23fd3cacb7e28196f6bd6b748e35cd",
+      "entropy": 5.7835,
+      "magic_hex": "3c21444f43545950452068746d6c3e0a"
+    },
+    {
+      "path": "assets/GriverErrorPage/griver_page_error.html",
+      "bytes": 22734,
+      "sha256": "b897eefc552cc6e1d3b33d923196d62bc860633a4f474d73bbd86a04c36bfc9f",
+      "entropy": 6.0809,
+      "magic_hex": "3c21444f43545950452068746d6c3e0a"
+    },
+    {
+      "path": "assets/GriverErrorPage/mini-program-native-error.html",
+      "bytes": 13859,
+      "sha256": "53eda0cc349ead89918908a12f3c98cd551eaf11f36c1e56161881d50d00cf7e",
+      "entropy": 6.1036,
+      "magic_hex": "3c21444f43545950452068746d6c3e0a"
+    },
+    {
+      "path": "assets/GriverTheme/theme.json",
+      "bytes": 584,
+      "sha256": "72432cab511a423bebc6c4d46b2149e9de5cd394c37a5cadba724c3fceda1670",
+      "entropy": 4.1418,
+      "magic_hex": "7b0a20202020226c69676874223a207b"
+    },
+    {
+      "path": "assets/android.1.zip",
+      "bytes": 3913966,
+      "sha256": "e5358e94d6938eb1502857a78dfdb6fae7095e6859103abad9017127cd82cbda",
+      "entropy": 7.9955,
+      "magic_hex": "504b0304140000000800029b6854184e"
+    },
+    {
+      "path": "assets/android_jsbridge.js",
+      "bytes": 3673,
+      "sha256": "79d13b8a360b1290af9e1ab640c0686e72cc7cc219f2f927ae1ddf83dd6b3388",
+      "entropy": 4.8622,
+      "magic_hex": "66756e6374696f6e20696e697469616c"
+    },
+    {
+      "path": "assets/audience_network.dex",
+      "bytes": 4864036,
+      "sha256": "10dc305fb2869db288bec2e114b32303dd627190dd6b23126d5e7aa610e44938",
+      "entropy": 6.465,
+      "magic_hex": "6465780a303335007857c22663a809cd"
+    },
+    {
+      "path": "assets/bshield.dat",
+      "bytes": 929,
+      "sha256": "b1750911acee6d39622970b5210221a4f1027a4000614ea3bd5bc41d297af292",
+      "entropy": 7.7848,
+      "magic_hex": "082510a40d1a9907a434c6a46dc8b616"
+    },
+    {
+      "path": "assets/bundle.json",
+      "bytes": 312,
+      "sha256": "21c10377141df90d078b62dfaf9b042821d5cdb0cbf26df6fbb8b9b187eaae0d",
+      "entropy": 4.6001,
+      "magic_hex": "7b0a20202265787465726e616c5f6275"
+    },
+    {
+      "path": "assets/client_tracking.json",
+      "bytes": 146391,
+      "sha256": "17658dcae0a7e7a0dabefe67843e9ed856a1fdde7241eed8a3a786214b104b0a",
+      "entropy": 4.8238,
+      "magic_hex": "7b0d0a09227472697044657461696c22"
+    },
+    {
+      "path": "assets/com/appsflyer/internal/1a7e8023f147cacac-",
+      "bytes": 7142,
+      "sha256": "6a24e0a7ae6967ec182988007d90c1ab0fab639d3d97417f4a8e22958fca9f2d",
+      "entropy": 7.974,
+      "magic_hex": "6a6176612f6c616e672f537472696e67"
+    },
+    {
+      "path": "assets/com/appsflyer/internal/3e6e8a8a85e1aaa2b-",
+      "bytes": 13692,
+      "sha256": "3de7a0db70eddb66cb2322a03f47942c84182777a9187e1d490164d8cd3e8bc0",
+      "entropy": 7.9844,
+      "magic_hex": "6a6176612f6c616e672f4f626a656374"
+    },
+    {
+      "path": "assets/com/appsflyer/internal/cc32cb866f63cd58a-",
+      "bytes": 7936,
+      "sha256": "d0efacf3f7f1d64d3a6549075dd37b370b51d8518093dd37374a51e9a2e411c7",
+      "entropy": 7.9755,
+      "magic_hex": "6a6176612f6c616e672f4f626a656374"
+    },
+    {
+      "path": "assets/com/appsflyer/internal/cf2b565222edadded-",
+      "bytes": 3142,
+      "sha256": "2bc0ed047defe818531cf297b0a29d1f314544e3939cdf984f886e6645fa85cc",
+      "entropy": 7.9402,
+      "magic_hex": "6a6176612f6c616e672f537472696e67"
+    },
+    {
+      "path": "assets/com/visa/cbp/74e13961eb6489ab-",
+      "bytes": 265304,
+      "sha256": "317ed670fbd62a0c82d7771f30a1b52343492efa8bcbcf5090e17685e35c0c85",
+      "entropy": 7.9993,
+      "magic_hex": "6a6176612f6c616e672f4f626a656374"
+    },
+    {
+      "path": "assets/com/visa/cbp/8c12f33e01f2a597a-",
+      "bytes": 15736,
+      "sha256": "65f56669c23d88f57bb842640819ad789f560ce1997c4e178384de3875e37f49",
+      "entropy": 7.9896,
+      "magic_hex": "6a6176612f6c616e672f4f626a656374"
+    },
+    {
+      "path": "assets/com/visa/cbp/a2687fec63dbeebcd-",
+      "bytes": 80308,
+      "sha256": "62b9e4ee0bba0dae62d7d5ce780f42158954828d5e6badc2dfd8ba8c2322d612",
+      "entropy": 7.9977,
+      "magic_hex": "6a6176612f696f2f53657269616c697a"
+    },
+    {
+      "path": "assets/com/visa/cbp/f3f564a2648dc019c-",
+      "bytes": 9668,
+      "sha256": "3c99236cf065fdac60362022b92a1dd85f3a1f727e42af4fd7bf6de97baa5acf",
+      "entropy": 7.9815,
+      "magic_hex": "6a6176612f696f2f53657269616c697a"
+    },
+    {
+      "path": "assets/config/miniapp_config.json",
+      "bytes": 883684,
+      "sha256": "e69ba84631346485681a5e70e17d5fd1874c064f66a5736525597a50a4206cc7",
+      "entropy": 4.4226,
+      "magic_hex": "7b0a2020202022636f6465223a203230"
+    },
+    {
+      "path": "assets/config/public_key.txt",
+      "bytes": 450,
+      "sha256": "ab63708a7b557a1332c316667a9d568e34a7a646a1383f8a33811948b081d52c",
+      "entropy": 5.8965,
+      "magic_hex": "2d2d2d2d2d424547494e205055424c49"
+    },
+    {
+      "path": "assets/config/signature.txt",
+      "bytes": 350,
+      "sha256": "fd7abb1a0d62a50ab42e53ab161be6a2229fabfa1558bda1ed0b5e47a3651750",
+      "entropy": 5.9237,
+      "magic_hex": "58445472384b324f6578652b5258494a"
+    },
+    {
+      "path": "assets/config/zalopay_config.json",
+      "bytes": 105659,
+      "sha256": "740c82f914bd6399ed2db46804accb33f4dd48306f3fcccf095838a38315f3a3",
+      "entropy": 4.3702,
+      "magic_hex": "7b0a20202267656e6572616c223a207b"
+    },
+    {
+      "path": "assets/containererrorpage/griver_custom_h5_page_error.html",
+      "bytes": 3060,
+      "sha256": "8483fdbc2245aba16ed4f6ef8a2831cf0f23fd3cacb7e28196f6bd6b748e35cd",
+      "entropy": 5.7835,
+      "magic_hex": "3c21444f43545950452068746d6c3e0a"
+    },
+    {
+      "path": "assets/containererrorpage/griver_page_error.html",
+      "bytes": 9594,
+      "sha256": "568380640a97753f5b7561784a41789b1bd940d9cfedb4e6997d718a1fdca699",
+      "entropy": 5.9272,
+      "magic_hex": "3c21444f43545950452068746d6c3e0a"
+    },
+    {
+      "path": "assets/containers/GTM-PC9W5BW.json",
+      "bytes": 7702,
+      "sha256": "5b739372c14abdb42bb77af63077d0fc613b253afc59a8b70747c679bbc0b20b",
+      "entropy": 4.6062,
+      "magic_hex": "7b0a0a2266696e6765727072696e7422"
+    },
+    {
+      "path": "assets/custom_models/object_labeler.tflite",
+      "bytes": 3770391,
+      "sha256": "9400671e04685f5277edd3052a311cc51533de9da94255c52ebde1e18484c77c",
+      "entropy": 5.9658,
+      "magic_hex": "1c00000054464c33000012001c001800"
+    },
+    {
+      "path": "assets/dabc8a718ce8084d304bab46923b374602a37c02804a1938f5200c73dcc9b2be/9f979174-fb94-f7f5-21c5-afddb32d1e32",
+      "bytes": 17888,
+      "sha256": "19008a8f7b59738f1db911d79cd2f215aafb3c126a8e53b6ebdbdbc8fbb49855",
+      "entropy": 7.9895,
+      "magic_hex": "ac445168adfb8425e42080040d9b8bfb"
+    },
+    {
+      "path": "assets/dexopt/baseline.prof",
+      "bytes": 18503,
+      "sha256": "bc8fc048bab81b9a17aeb5a807727d1ae494592a815f833b8ea0c8bd0842a6cc",
+      "entropy": 7.9656,
+      "magic_hex": "70726f003031300006fc1c0200364800"
+    },
+    {
+      "path": "assets/dexopt/baseline.profm",
+      "bytes": 1909,
+      "sha256": "614658814ea66764bada07a7971d1f13af0b273fdbc6a177f2bf5f721c038480",
+      "entropy": 7.8839,
+      "magic_hex": "70726d003030320006005d1e00006307"
+    },
+    {
+      "path": "assets/fgcpkjvqe.dat",
+      "bytes": 776320,
+      "sha256": "cb8c0211e579f1039fbc4a5fc6d22a24c28812e701f0d7b378f7b6a4bbafe226",
+      "entropy": 7.9998,
+      "magic_hex": "a6eb0ca49c7510a63d179733bdf2afd8"
+    },
+    {
+      "path": "assets/fonts/Roboto-Bold.ttf",
+      "bytes": 170064,
+      "sha256": "a073f449858a3f0389b2378c8a7c6011bc37065c9147e661b33bbe8180a53150",
+      "entropy": 6.4604,
+      "magic_hex": "00010000001201000004002047444546"
+    },
+    {
+      "path": "assets/fonts/Roboto-Medium.ttf",
+      "bytes": 127488,
+      "sha256": "6e2ec5c5f89e4ce302bb93b46cb7cc336236501de17348e284878914c5e0e723",
+      "entropy": 6.6085,
+      "magic_hex": "00010000000e00800003006047444546"
+    },
+    {
+      "path": "assets/fonts/Roboto-Regular.ttf",
+      "bytes": 126072,
+      "sha256": "bde8a188e37aa936b167aecc5e5a3da40262f6e51fd54c584f2cf2b6b99d96ca",
+      "entropy": 6.6212,
+      "magic_hex": "00010000000e00800003006047444546"
+    },
+    {
+      "path": "assets/fonts/UnisectVnu.ttf",
+      "bytes": 48216,
+      "sha256": "a53d8ae65b7ca6afc09faac7cc3f63d6b6b61cacc0828eb1dafb409440962e68",
+      "entropy": 6.4726,
+      "magic_hex": "0001000000100100000400004646544d"
+    },
+    {
+      "path": "assets/fonts/ocr-a-tribute.ttf",
+      "bytes": 48216,
+      "sha256": "a53d8ae65b7ca6afc09faac7cc3f63d6b6b61cacc0828eb1dafb409440962e68",
+      "entropy": 6.4726,
+      "magic_hex": "0001000000100100000400004646544d"
+    },
+    {
+      "path": "assets/fonts/true_font.ttf",
+      "bytes": 168644,
+      "sha256": "9d0d55a303bfd13b79a87721f65185e93f235e2d77fe398b2dca67ac519915f5",
+      "entropy": 6.5087,
+      "magic_hex": "00010000001201000004002047444546"
+    },
+    {
+      "path": "assets/fonts/zalopay.json",
+      "bytes": 70880,
+      "sha256": "9af2f6bf0b740313dbcc64eeca1598bdc7ea0bde53065f7b968aae7ac7796d12",
+      "entropy": 3.4597,
+      "magic_hex": "7b0a2020202022737570706f72745f63"
+    },
+    {
+      "path": "assets/fonts/zalopay.ttf",
+      "bytes": 143944,
+      "sha256": "d6b2bdd7107fcc098a44e2a3ad6103264fe0336de504a7d3cf6feb6ba1a4a333",
+      "entropy": 6.1484,
+      "magic_hex": "00010000000b0080000300304f532f32"
+    },
+    {
+      "path": "assets/griverIconDefault/default.ttf",
+      "bytes": 28000,
+      "sha256": "f0f38ae010465c446b4c4df7798c3177a0e591c76b78cd0a96b718976c283e51",
+      "entropy": 6.4651,
+      "magic_hex": "00010000000b00800003003047535542"
+    },
+    {
+      "path": "assets/h5iconfont/h5titlebar.ttf",
+      "bytes": 2300,
+      "sha256": "1a0a0fb4d4ffd079db2e8f19c0e96d1d23267c46108578cb12e5c2d7332a8671",
+      "entropy": 4.7608,
+      "magic_hex": "00010000000b00800003003047535542"
+    },
+    {
+      "path": "assets/h5iconfont/titlebar.ttf",
+      "bytes": 5016,
+      "sha256": "4cfed842deb4dc40fd0572cf3e87bd10e43673f2c0877173565b88125925ee20",
+      "entropy": 6.0034,
+      "magic_hex": "00010000000b0080000300304f532f32"
+    },
+    {
+      "path": "assets/home_data.json",
+      "bytes": 9417,
+      "sha256": "0a6b0afe13690ff2408403be6907ba666bc0bf1b7fef4ec8e4dfecd28a56d73f",
+      "entropy": 4.5278,
+      "magic_hex": "7b0a20202273637265656e5f6964223a"
+    },
+    {
+      "path": "assets/iapconnect_config_full",
+      "bytes": 1688,
+      "sha256": "b6a55625c4866bfa13aec1d2716f0cce12e8d5021d5bc0f80e83f7e77d66a870",
+      "entropy": 5.7021,
+      "magic_hex": "65794a6a623231746232356659323975"
+    },
+    {
+      "path": "assets/internaljsbridge.js",
+      "bytes": 3890,
+      "sha256": "0587ef4cfda3ab69dca564bac71d7ac8b6efe02b15f88f979a7374ce3f17ef74",
+      "entropy": 4.8451,
+      "magic_hex": "66756e6374696f6e20696e697469616c"
+    },
+    {
+      "path": "assets/jsbridge.js",
+      "bytes": 3634,
+      "sha256": "2dfe8f8ba6a70ff37d3f2665913532917e6c0fb914fd87dbe198fea3c26d0736",
+      "entropy": 4.8549,
+      "magic_hex": "66756e6374696f6e20696e697469616c"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+      "bytes": 276,
+      "sha256": "b2963b78c7e55fdfd5ed82ca60f045aace7a7e373b5d93254e9ac979dcb5bb67",
+      "entropy": 5.3402,
+      "magic_hex": "0a3e747970652e676f6f676c65617069"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+      "bytes": 278,
+      "sha256": "d448c5de8d480d491ac128657926e6253a770baa90afb0e97a67740c93c1e9f3",
+      "entropy": 5.3311,
+      "magic_hex": "0a3e747970652e676f6f676c65617069"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/assets.extra/LabelMap.pb",
+      "bytes": 3809,
+      "sha256": "c6d345043a561f9dfdb1472cfca7cdda0128b19cb6909c67032c5783077c92b3",
+      "entropy": 5.0737,
+      "magic_hex": "0a030a01200a050a012110010a050a01"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/conv_model.fb",
+      "bytes": 40848,
+      "sha256": "64aba719b4ed1ee5b3d4886c5aaf0b1ac051bf5879e9b08e861e0e29e20a08a7",
+      "entropy": 6.8034,
+      "magic_hex": "1c00000054464c330000000000000e00"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+      "bytes": 309568,
+      "sha256": "0ed62e4fbe0fc5c4090aec473b136e188f828590765c028382358daddb3ccb6e",
+      "entropy": 5.3661,
+      "magic_hex": "1c00000054464c330000000000000e00"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+      "bytes": 333,
+      "sha256": "a1dce9a376905a597366f6c9a0b3723205486880e176869e1ad65e92d68e068b",
+      "entropy": 5.4119,
+      "magic_hex": "0a16476f6372546578744c696e655265"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+      "bytes": 315520,
+      "sha256": "7f931f6f7c1dd0ec591ace7780df91645a450fafc83505f3ff45ce5ef7c8441b",
+      "entropy": 7.8427,
+      "magic_hex": "2000000054464c330000000000001200"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+      "bytes": 129612,
+      "sha256": "ecda697ed244c5762410e0497878eabcda5f8b0682fb7c3800cd88a7f45dd8e6",
+      "entropy": 6.6079,
+      "magic_hex": "1c00000054464c33140020001c001800"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+      "bytes": 114384,
+      "sha256": "f42197e656972c330bb9f092edbe298b4a6c2fcd808ff6d614381311f8dd22a7",
+      "entropy": 6.0726,
+      "magic_hex": "1c00000054464c33140020001c001800"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/detector/region_proposal_text_detector_tflite_vertical_mbv2_v1.bincfg",
+      "bytes": 452,
+      "sha256": "7ac2d4c04fb2fe0cd5c33e3030d9276c40286c73f97c2daa3ab94ea8c3f314c3",
+      "entropy": 5.6294,
+      "magic_hex": "08801015cdcc0c3f1819256666663f2d"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+      "bytes": 340760,
+      "sha256": "eb811a1290738f131e4005d8a1d63ef21770866414b847190a932f0b56c0d18f",
+      "entropy": 6.5905,
+      "magic_hex": "1c00000054464c33000012001c001800"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/rpn_text_detection_tflite_mobile_mbv2.binarypb",
+      "bytes": 194,
+      "sha256": "86660be29934bdd123a65ea30ec09eaa66481a7ac2def8e8f376e78484f8774a",
+      "entropy": 4.7048,
+      "magic_hex": "0a41747970652e676f6f676c65617069"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.bincfg",
+      "bytes": 1118,
+      "sha256": "d4223c23cd8ee3d3d4999d4e10bb16ec0b8119f8812e5e66e64e907c5508f21b",
+      "entropy": 5.4841,
+      "magic_hex": "0a1454666c69746554657874436c6173"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.conv_model",
+      "bytes": 40808,
+      "sha256": "16be9fc0c0c9429cc3714d5d2e8662c53bd28cf0031375e237db288dc8da8d5f",
+      "entropy": 6.7035,
+      "magic_hex": "1c00000054464c330000000000000e00"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.lstm_model",
+      "bytes": 161448,
+      "sha256": "2281a01686f9ff9164f2a12ed743818e2b8e0af6ae7c73240924d70342d3f2cb",
+      "entropy": 6.3164,
+      "magic_hex": "1c00000054464c330000000000000e00"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser/taser_script_identification_tflite_mobile.binarypb",
+      "bytes": 136,
+      "sha256": "a3ebf2720f86e1440e42604f8bd48194111e152fa93886f987655f01a9336d32",
+      "entropy": 4.5993,
+      "magic_hex": "0a48747970652e676f6f676c65617069"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine.binarypb",
+      "bytes": 13178,
+      "sha256": "78210a92ad8ff692898e15d37718094c179149c9546a8fd53759b22939d39348",
+      "entropy": 5.6525,
+      "magic_hex": "0aac2c0a68121e496d6167654672616d"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_engine_ti.binarypb",
+      "bytes": 13183,
+      "sha256": "bfd6e9cb8ed0536d03fc9c06a31bc79de3996bc7dcfbe9f4cc19f819231b7d0a",
+      "entropy": 5.6528,
+      "magic_hex": "0aac2c0a68121e496d6167654672616d"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_recognizer.binarypb",
+      "bytes": 233,
+      "sha256": "e80538539371576a5ad7dd58ed314a4f4d9fd9fca7ad73efdac476a6c3eb1ab4",
+      "entropy": 5.0604,
+      "magic_hex": "0a44747970652e676f6f676c65617069"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner.binarypb",
+      "bytes": 331,
+      "sha256": "32c2c1b72ba32605c23a96a8b7bf4ebf8f5a916df6cd672724556a17d3d6c59e",
+      "entropy": 5.1054,
+      "magic_hex": "0a95021217676f6f676c655f6f63723a"
+    },
+    {
+      "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrlatin_mbv2_scriptid_aksara_layout_gcn_mobile_runner_ti.binarypb",
+      "bytes": 334,
+      "sha256": "2c8581869ebb972a2d82403c9cd871a1d4c8d6419ae371fc1d859ad2bce2d5dc",
+      "entropy": 5.101,
+      "magic_hex": "0a98021217676f6f676c655f6f63723a"
+    },
+    {
+      "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+      "bytes": 390456,
+      "sha256": "6c7b209f4256ca4521d86f83d00904ada1a6a443010698463b750d757fae15a4",
+      "entropy": 6.7447,
+      "magic_hex": "1800000054464c3300000e0018000400"
+    },
+    {
+      "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+      "bytes": 213880,
+      "sha256": "8e07cd3b38da1ded3c07d6c81d06990cbdfa284c214557b94e106372e0497442",
+      "entropy": 6.3753,
+      "magic_hex": "1c00000054464c33000012001c000400"
+    },
+    {
+      "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+      "bytes": 276552,
+      "sha256": "981c89dcca6aac10c7ff7304933747f6936292b6395d02ee944e6fbc73b3c92b",
+      "entropy": 6.7877,
+      "magic_hex": "1c00000054464c33000012001c000400"
+    },
+    {
+      "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+      "bytes": 1706957,
+      "sha256": "479cb95767462b2fd9dd6df75702c7cc25dc6cfd5e0394a77fce31a4dbadf970",
+      "entropy": 6.5768,
+      "magic_hex": "1c00000054464c331400200004000800"
+    },
+    {
+      "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+      "bytes": 1254848,
+      "sha256": "fb5e5188b03c3bc0f12b797d7e1a7ffe76f405f06e9f7e33258705fc8c9f465e",
+      "entropy": 6.8944,
+      "magic_hex": "1c00000054464c331400200004000800"
+    },
+    {
+      "path": "assets/mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+      "bytes": 153000,
+      "sha256": "9932a0b82471e50deff0f926209b08474e86f0281ab90d07276b778ee606cf40",
+      "entropy": 5.1517,
+      "magic_hex": "0da8aaaa3c0dacaaaa3c0daaaaaa3c0d"
+    },
+    {
+      "path": "assets/mlkit_odt_localizer/mobile_object_localizer_labelmap",
+      "bytes": 22,
+      "sha256": "ae7d4f4c2e989dce779df71ad604ca81ec9334d6826eef168eab0ee919f0c437",
+      "entropy": 4.1867,
+      "magic_hex": "0a140a082f6d2f30626c396610012206"
+    },
+    {
+      "path": "assets/models_bundled/BCLjoy_200.emd",
+      "bytes": 17916,
+      "sha256": "f00f25644a628e738c155f493d072af143f253cbf99f08bf4829cbe5d4f4351c",
+      "entropy": 6.3608,
+      "magic_hex": "000302a04200c9000000000000000064"
+    },
+    {
+      "path": "assets/models_bundled/BCLlefteyeclosed_200.emd",
+      "bytes": 8630,
+      "sha256": "d31213e4f25ff8b21781e786fd89cede5917ef9b3fbe50bdf55d483af136eded",
+      "entropy": 6.0569,
+      "magic_hex": "000302a04200c9000000000000000064"
+    },
+    {
+      "path": "assets/models_bundled/BCLrighteyeclosed_200.emd",
+      "bytes": 8655,
+      "sha256": "63ca0bd838e51977489adadb80a0be016c5aa0b7b690fbc389a0645aaccfe4ff",
+      "entropy": 6.0339,
+      "magic_hex": "000302a04200c9000000000000000064"
+    },
+    {
+      "path": "assets/models_bundled/LMprec_600.emd",
+      "bytes": 1078354,
+      "sha256": "0ed5c85282f940d14a5723a6c0af05f9c2abd4e930c3c4f0be5a07236d374111",
+      "entropy": 6.6241,
+      "magic_hex": "000314f04100c9000000580200000067"
+    },
+    {
+      "path": "assets/models_bundled/MFT_fssd_accgray.pb",
+      "bytes": 793,
+      "sha256": "f0adb04d7b21b4d9889932a62f0eff127eedb27d2f85342a90144153ca0b81b1",
+      "entropy": 5.2631,
+      "magic_hex": "2d000080bf62c0010a110de0f39fc015"
+    },
+    {
+      "path": "assets/models_bundled/MFT_fssd_fastgray.pb",
+      "bytes": 792,
+      "sha256": "0943425df1b350e0c58a7be668be1f942eac338c198e1a4f16859ca3e1227f45",
+      "entropy": 5.2666,
+      "magic_hex": "2d000080bf62bf010a110de0f39fc015"
+    },
+    {
+      "path": "assets/models_bundled/blazeface.tfl",
+      "bytes": 347928,
+      "sha256": "4f25cc142e96b5f21b3236d2166c2e662920681f1d23942d2510e98c8af6ecdc",
+      "entropy": 7.4674,
+      "magic_hex": "1800000054464c3310001c0004000800"
+    },
+    {
+      "path": "assets/models_bundled/contours.tfl",
+      "bytes": 1124144,
+      "sha256": "84160bc0c4a749517e62f93cb2c68ab8ff49de571f70eb6d160254ca9a0789c0",
+      "entropy": 7.4272,
+      "magic_hex": "1800000054464c3310001c0004000800"
+    },
+    {
+      "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+      "bytes": 231816,
+      "sha256": "57dc1f2a3b9c0c5d949f21e86767d2bf319f10b09281c04005d82fef7c972fbd",
+      "entropy": 6.8239,
+      "magic_hex": "1c00000054464c330000000000000e00"
+    },
+    {
+      "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+      "bytes": 232096,
+      "sha256": "d8abae91b0e0af52573c38cbb0a39e34905d4a36cfe54ad59a2fe98351c7f3b4",
+      "entropy": 6.7029,
+      "magic_hex": "1c00000054464c330000000000000e00"
+    },
+    {
+      "path": "assets/models_bundled/fssd_anchors_v2.pb",
+      "bytes": 146,
+      "sha256": "7516ed46c04ab0fb850357b306c4c57f10af6f8ae44d6836318e7b872fc21ff6",
+      "entropy": 3.3328,
+      "magic_hex": "0a220d0000c0410d000000420d000020"
+    },
+    {
+      "path": "assets/models_bundled/fssd_anchors_v5.pb",
+      "bytes": 144,
+      "sha256": "5390cab6b491eb3274b7acaa68e3bcb623eb2c7f9fccde1c97a858befbae110a",
+      "entropy": 3.5691,
+      "magic_hex": "0a220d000020410d000070410d0000a0"
+    },
+    {
+      "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+      "bytes": 613080,
+      "sha256": "f0590874fd3a006cb7853796a5217bc8f1b712dc904ae7a680957ff284619372",
+      "entropy": 6.9215,
+      "magic_hex": "2000000054464c330000000014002000"
+    },
+    {
+      "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+      "bytes": 613352,
+      "sha256": "ae2fa78e29441438e16104b815522660afb139ebf683e51672cadf88d6089ff8",
+      "entropy": 6.9518,
+      "magic_hex": "2000000054464c330000000014002000"
+    },
+    {
+      "path": "assets/public.pem",
+      "bytes": 460,
+      "sha256": "0d4383c52c0f29e7cfee4dc179fba1181fe9313decc8973f884eca9e073890e3",
+      "entropy": 5.9152,
+      "magic_hex": "2d2d2d2d2d424547494e205055424c49"
+    },
+    {
+      "path": "assets/safemode_registrator_com_iap_ac_config.json",
+      "bytes": 80,
+      "sha256": "7369e6fce29a565885fc40dbc4682f716fe083c08fc6b2b8644516d311a02097",
+      "entropy": 4.4185,
+      "magic_hex": "7b0a202022636c6173736e616d65223a"
+    },
+    {
+      "path": "assets/taibmcf.dat",
+      "bytes": 8307,
+      "sha256": "392c01d84cc770b0a9e2c273ed6bf6ef5625fcd2a7b678e94464489691b96108",
+      "entropy": 7.9756,
+      "magic_hex": "3b0d47fc99267516b71214dbc03fdf8f"
+    },
+    {
+      "path": "assets/taibmcf.json",
+      "bytes": 46,
+      "sha256": "276833c96dde3ceefa9a894a4612f09ffdc6b22538ea5e1891e1155dc7355172",
+      "entropy": 4.3546,
+      "magic_hex": "7b227669223a224de1bb9f2063c3a069"
+    },
+    {
+      "path": "assets/taxi_images/Artboard_1.png",
+      "bytes": 7292,
+      "sha256": "ea18e4e573cdd5ccc93ffe94e7bf0c2a7470869489cccb9cedab0dc63910c0bc",
+      "entropy": 7.8176,
+      "magic_hex": "89504e470d0a1a0a0000000d49484452"
+    },
+    {
+      "path": "assets/taxi_images/Artboard_2.png",
+      "bytes": 6430,
+      "sha256": "a3d3fa854f60359b2a125b35a9bb687694842ab44b408ef6b42c609d6239c233",
+      "entropy": 7.8166,
+      "magic_hex": "89504e470d0a1a0a0000000d49484452"
+    },
+    {
+      "path": "assets/taxi_images/Layer_2_loading.png",
+      "bytes": 5649,
+      "sha256": "9c93e8097b6fd8b780c3a0e531f836c4231027e13891f87caad248a0cb7edc29",
+      "entropy": 7.9395,
+      "magic_hex": "89504e470d0a1a0a0000000d49484452"
+    },
+    {
+      "path": "assets/taxi_images/Layer_3_loading.png",
+      "bytes": 5792,
+      "sha256": "55d1cacd105bfb583ccac799a48e01ed0be93a9db4255b86df7a3081bd5fad54",
+      "entropy": 7.9475,
+      "magic_hex": "89504e470d0a1a0a0000000d49484452"
+    },
+    {
+      "path": "assets/taxi_images/Layer_4_loading.png",
+      "bytes": 14652,
+      "sha256": "fb9f0d4c58a3f97826af3d63ec7bc7ef0446c0335e3635f48fc617fddacb930a",
+      "entropy": 7.9753,
+      "magic_hex": "89504e470d0a1a0a0000000d49484452"
+    },
+    {
+      "path": "assets/taxi_images/Layer_5_loading.png",
+      "bytes": 42205,
+      "sha256": "9397331f2b99689e9c51d9feaf9b8317458bc61807b79bff36475a71a2b40e4f",
+      "entropy": 7.9271,
+      "magic_hex": "89504e470d0a1a0a0000000d49484452"
+    },
+    {
+      "path": "assets/taxi_images/Layer_7_loading.png",
+      "bytes": 520,
+      "sha256": "d50afb8a8f662e77769149f17000fe918d24fbd90c1343858bfd94cd1c7b03d1",
+      "entropy": 7.2985,
+      "magic_hex": "89504e470d0a1a0a0000000d49484452"
+    },
+    {
+      "path": "assets/taxi_images/Layer_8_loading.png",
+      "bytes": 2636,
+      "sha256": "1869e8557bc9422b38c42252d557d8f41196709bb5402ccd78b64217196d34e4",
+      "entropy": 7.8784,
+      "magic_hex": "89504e470d0a1a0a0000000d49484452"
+    },
+    {
+      "path": "assets/taxi_images/_____1_loading.png",
+      "bytes": 6123,
+      "sha256": "0836fdd3b102764c4350894be9842edec59dd7f5ce1bbddcef820fed7589adc5",
+      "entropy": 7.9321,
+      "magic_hex": "89504e470d0a1a0a0000000d49484452"
+    },
+    {
+      "path": "assets/taxi_splash_loading.json",
+      "bytes": 536057,
+      "sha256": "c68296d32ff394e1f4b040a72644119a5235cdb6044633323229805e9de82952",
+      "entropy": 4.5847,
+      "magic_hex": "7b2276223a22352e372e3132222c2266"
+    },
+    {
+      "path": "assets/theme/bank/bank_resource.json",
+      "bytes": 11339,
+      "sha256": "bf584e41fde15aaf3b3b9b9d2f9f08c5b417d877a8da89d43269555876d1d2b7",
+      "entropy": 4.874,
+      "magic_hex": "7b0a2020225f636f6d6d656e745f3122"
+    },
+    {
+      "path": "assets/theme/bank/config_v2.json",
+      "bytes": 11573,
+      "sha256": "258535cabe5cb6d87e7b66c9cca71e50bfcaa03c38d4af210e21d1ef3c9ab430",
+      "entropy": 4.9095,
+      "magic_hex": "7b0a2020225f636f6d6d656e745f3122"
+    },
+    {
+      "path": "assets/theme/bank/ui_config.json",
+      "bytes": 15430,
+      "sha256": "1efac77f60bba10946346b40d79a57f50638d47481d84fd872c9f668ca19793a",
+      "entropy": 4.1562,
+      "magic_hex": "7b0a2020225f636f6d6d656e74223a20"
+    },
+    {
+      "path": "assets/timezone2region_2023c.json",
+      "bytes": 11067,
+      "sha256": "5a8407b1dd33bdf0d44812c8f0394def555418558fa4c1b8074cc1925d5517a3",
+      "entropy": 4.8615,
+      "magic_hex": "7b0a2020224575726f70652f416e646f"
+    },
+    {
+      "path": "assets/tinyfont/iconfont.ttf",
+      "bytes": 9780,
+      "sha256": "209f6617fdf5be8d44ff11fc06a2c7b6e91bf5c4a6be02d0d60ddcb9c60f6caa",
+      "entropy": 6.2841,
+      "magic_hex": "00010000000b00800003003047535542"
+    },
+    {
+      "path": "assets/tinyfont/titlebar.ttf",
+      "bytes": 5016,
+      "sha256": "4cfed842deb4dc40fd0572cf3e87bd10e43673f2c0877173565b88125925ee20",
+      "entropy": 6.0034,
+      "magic_hex": "00010000000b0080000300304f532f32"
+    },
+    {
+      "path": "assets/trueidlib.so",
+      "bytes": 392,
+      "sha256": "055e573dbee6ee9d078b9856cb0e76ed34eb1b60e601ecae114068044fb95cc5",
+      "entropy": 7.5008,
+      "magic_hex": "d89a8523c6afb3c063a622ac7786ea1d"
+    },
+    {
+      "path": "assets/vdfmoer.json",
+      "bytes": 46,
+      "sha256": "276833c96dde3ceefa9a894a4612f09ffdc6b22538ea5e1891e1155dc7355172",
+      "entropy": 4.3546,
+      "magic_hex": "7b227669223a224de1bb9f2063c3a069"
+    },
+    {
+      "path": "assets/webapp.js",
+      "bytes": 619,
+      "sha256": "73242fce8a393809de4768c505848e8c6f053634cfda379c7ca95ac601b43c15",
+      "entropy": 4.4243,
+      "magic_hex": "2775736520737472696374273b0a0a66"
+    },
+    {
+      "path": "assets/zoom.public",
+      "bytes": 450,
+      "sha256": "d8f31eca4380e7cd9de16e81ad9fbf262ecd552ef7d82849f514c2a2ade8965e",
+      "entropy": 5.8653,
+      "magic_hex": "2d2d2d2d2d424547494e205055424c49"
+    }
+  ],
+  "griver_amr_inspection": {
+    "assets/Griver/66666692_1.24.8.amr": {
+      "bytes": 287535,
+      "entropy": 7.9989,
+      "magic_hex": "504b0304140000080800768a5a53e686",
+      "format": "zip",
+      "members_count": 3,
+      "members": [
+        {
+          "name": "66666692.tar",
+          "size": 977920
+        },
+        {
+          "name": "CERT.json",
+          "size": 725
+        },
+        {
+          "name": "Manifest.xml",
+          "size": 133
+        }
+      ]
+    },
+    "assets/Griver/66666693_2.0.7.amr": {
+      "bytes": 17380,
+      "entropy": 7.9807,
+      "magic_hex": "504b0304140000080800a250985352af",
+      "format": "zip",
+      "members_count": 3,
+      "members": [
+        {
+          "name": "66666693.tar",
+          "size": 63488
+        },
+        {
+          "name": "CERT.json",
+          "size": 725
+        },
+        {
+          "name": "Manifest.xml",
+          "size": 132
+        }
+      ]
+    },
+    "assets/Griver/68687209_2.9.7.8.amr": {
+      "bytes": 856974,
+      "entropy": 7.9994,
+      "magic_hex": "504b0304140000080800844351594e1f",
+      "format": "zip",
+      "members_count": 3,
+      "members": [
+        {
+          "name": "68687209.tar",
+          "size": 3303936
+        },
+        {
+          "name": "CERT.json",
+          "size": 725
+        },
+        {
+          "name": "Manifest.xml",
+          "size": 134
+        }
+      ]
+    }
+  },
+  "android_1_zip_inspection": {
+    "format": "zip",
+    "entry_count": 326,
+    "entries_sample": [
+      {
+        "name": "main.jsbundle",
+        "size": 3613478
+      },
+      {
+        "name": "drawable-hdpi/",
+        "size": 0
+      },
+      {
+        "name": "drawable-hdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png",
+        "size": 134
+      },
+      {
+        "name": "drawable-hdpi/node_modules_miniapps_navigation_src_libs_stack_dist_views_assets_backicon.png",
+        "size": 134
+      },
+      {
+        "name": "drawable-mdpi/",
+        "size": 0
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_educationfee.png",
+        "size": 1788
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_postpaid.png",
+        "size": 9365
+      },
+      {
+        "name": "drawable-mdpi/node_modules_reactnativecheckbox_img_ic_indeterminate_check_box.png",
+        "size": 118
+      },
+      {
+        "name": "drawable-mdpi/about_intro_images_02_dt.png",
+        "size": 28589
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_reminder.png",
+        "size": 9365
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_refund.png",
+        "size": 9365
+      },
+      {
+        "name": "drawable-mdpi/about_images_logoccdv.png",
+        "size": 5555
+      },
+      {
+        "name": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_disconnect.png",
+        "size": 10896
+      },
+      {
+        "name": "drawable-mdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_vinaphone.png",
+        "size": 1639
+      },
+      {
+        "name": "drawable-mdpi/about_intro_images_05_dt_ipx.png",
+        "size": 83840
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_receive.png",
+        "size": 9365
+      },
+      {
+        "name": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_errorcloud.png",
+        "size": 4444
+      },
+      {
+        "name": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nobill.png",
+        "size": 2799
+      },
+      {
+        "name": "drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_mobilecard_images_bgcard.png",
+        "size": 7759
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_internet.png",
+        "size": 9365
+      },
+      {
+        "name": "drawable-mdpi/clearingaccount_images_icon_123pjcb.png",
+        "size": 1399
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_servicescards.png",
+        "size": 9365
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_travelticket.png",
+        "size": 9365
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_water.png",
+        "size": 9365
+      },
+      {
+        "name": "drawable-mdpi/registeronlinebanking_image_smsregistericon.png",
+        "size": 841
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_homestay.png",
+        "size": 9365
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_recharge.png",
+        "size": 1596
+      },
+      {
+        "name": "drawable-mdpi/about_images_arrowright.png",
+        "size": 350
+      },
+      {
+        "name": "drawable-mdpi/about_images_iconpolicy.png",
+        "size": 893
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_travel.png",
+        "size": 9365
+      },
+      {
+        "name": "drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_success.png",
+        "size": 306
+      },
+      {
+        "name": "drawable-mdpi/clearingaccount_images_icon_123pscb.png",
+        "size": 883
+      },
+      {
+        "name": "drawable-mdpi/notifications_images_iconcheck.png",
+        "size": 471
+      },
+      {
+        "name": "drawable-mdpi/registeronlinebanking_image_icomapcard.png",
+        "size": 2720
+      },
+      {
+        "name": "drawable-mdpi/clearingaccount_images_icon_123pvisa.png",
+        "size": 860
+      },
+      {
+        "name": "drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_emptybill.png",
+        "size": 3148
+      },
+      {
+        "name": "drawable-mdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_mobifone.png",
+        "size": 975
+      },
+      {
+        "name": "drawable-mdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png",
+        "size": 100
+      },
+      {
+        "name": "drawable-mdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_vietnamobile.png",
+        "size": 1585
+      },
+      {
+        "name": "drawable-mdpi/about_images_logosquare.png",
+        "size": 2829
+      }
+    ]
+  },
+  "ncnn_model_inspection": {
+    "magic": "7767517",
+    "layer_and_blob_counts": "172 198",
+    "total_lines": 174,
+    "layer_type_histogram": {
+      "Convolution": 52,
+      "Split": 23,
+      "HardSwish": 18,
+      "BinaryOp": 18,
+      "Pooling": 15,
+      "ConvolutionDepthWise": 14,
+      "Reshape": 11,
+      "HardSigmoid": 9,
+      "Concat": 4,
+      "Swish": 2,
+      "Reduction": 2,
+      "Input": 1,
+      "Interp": 1,
+      "Sigmoid": 1,
+      "Softmax": 1
+    }
+  },
+  "config_json_schemas": {
+    "assets/Griver/appx.json": {
+      "type": "object",
+      "top_keys": [
+        "mini"
+      ],
+      "key_count": 1
+    },
+    "assets/GriverTheme/theme.json": {
+      "type": "object",
+      "top_keys": [
+        "light",
+        "dark"
+      ],
+      "key_count": 2
+    },
+    "assets/bundle.json": {
+      "type": "object",
+      "top_keys": [
+        "external_bundle",
+        "internal_bundle"
+      ],
+      "key_count": 2
+    },
+    "assets/config/miniapp_config.json": {
+      "type": "object",
+      "top_keys": [
+        "code",
+        "data",
+        "msg"
+      ],
+      "key_count": 3
+    },
+    "assets/config/zalopay_config.json": {
+      "type": "object",
+      "top_keys": [
+        "general",
+        "zpc",
+        "api",
+        "webapp",
+        "tab_me",
+        "notification",
+        "tab_home",
+        "promotion",
+        "promotion_handler",
+        "bank_integration",
+        "bank",
+        "profile",
+        "transfer_history",
+        "transfer_via_zalo",
+        "kvs",
+        "z",
+        "omniP",
+        "serverlog",
+        "sdk",
+        "social",
+        "red_packet",
+        "payment_app_policy",
+        "bank_kyc",
+        "kyc",
+        "network_config",
+        "update_profile_level",
+        "otp",
+        "qrcode_emv",
+        "ibft",
+        "reset_passcode",
+        "bill_split",
+        "zpi",
+        "grpc",
+        "banks_information",
+        "app_resource_policy",
+        "remote_config",
+        "tracking_location_flow",
+        "theming",
+        "merchant_token",
+        "merchant_integration_info"
+      ],
+      "key_count": 56
+    }
+  }
+}

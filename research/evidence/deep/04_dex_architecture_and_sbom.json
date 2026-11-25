@@ -1,0 +1,1936 @@
+{
+  "kotlin_tooling_metadata": {
+    "schemaVersion": "1.1.0",
+    "buildSystem": "Gradle",
+    "buildSystemVersion": "8.14.5",
+    "buildPlugin": "org.jetbrains.kotlin.gradle.plugin.KotlinAndroidPluginWrapper",
+    "buildPluginVersion": "2.2.10",
+    "projectSettings": {
+      "isHmppEnabled": true,
+      "isCompatibilityMetadataVariantEnabled": false,
+      "isKPMEnabled": false
+    },
+    "projectTargets": [
+      {
+        "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinAndroidTarget",
+        "platformType": "androidJvm",
+        "extras": {
+          "android": {
+            "sourceCompatibility": "17",
+            "targetCompatibility": "17"
+          }
+        }
+      }
+    ]
+  },
+  "app_dex_aggregate": {
+    "dex_count": 19,
+    "totals": {
+      "string_ids": 374276,
+      "type_ids": 114693,
+      "proto_ids": 98523,
+      "field_ids": 304518,
+      "method_ids": 351248,
+      "class_defs": 60671,
+      "defined_methods": 264525,
+      "methods_with_code": 244537,
+      "total_dalvik_instructions": 8711522,
+      "total_dex_bytes": 64837712,
+      "short_class_names_le2": 41374,
+      "obfuscated_root_pkg_classes": 29210,
+      "short_method_names_le2": 73786
+    },
+    "obfuscation_rates": {
+      "short_class_name_pct": 68.19,
+      "obfuscated_root_pkg_pct": 48.14,
+      "short_method_name_pct": 27.89
+    },
+    "root_packages_top25": {
+      "com": 18949,
+      "org": 6672,
+      "androidx": 4250,
+      "vn": 1936,
+      "q9": 472,
+      "p9": 454,
+      "kotlin": 346,
+      "okhttp3": 335,
+      "n9": 315,
+      "m9": 314,
+      "io": 285,
+      "Va": 253,
+      "n0": 212,
+      "app": 157,
+      "q0": 137,
+      "retrofit2": 137,
+      "BV": 124,
+      "F": 120,
+      "B2": 117,
+      "uo": 115,
+      "f8": 111,
+      "s3": 108,
+      "okio": 107,
+      "gi": 106,
+      "X": 103
+    },
+    "sub_packages_top60": {
+      "com/google/android": 6465,
+      "com/alibaba/ariver": 2415,
+      "com/alibaba/griver": 2228,
+      "org/bouncycastle/jcajce": 1758,
+      "com/iap/ac": 1330,
+      "org/bouncycastle/pqc": 975,
+      "vn/com/vng": 954,
+      "com/visa/cbp": 900,
+      "org/bouncycastle/crypto": 836,
+      "org/bouncycastle/asn1": 748,
+      "vn/ai/trueid": 622,
+      "androidx/media3/exoplayer": 538,
+      "com/vnpay/vntaxi": 377,
+      "com/appsflyer/internal": 364,
+      "com/nimbusds/jose": 360,
+      "com/visa/visapaysdk": 337,
+      "org/bouncycastle/oer": 315,
+      "androidx/media3/extractor": 309,
+      "androidx/camera/core": 306,
+      "com/xq/cxzmoiwuegvp": 299,
+      "com/google/common": 296,
+      "com/iap/android": 269,
+      "org/bouncycastle/math": 264,
+      "androidx/compose/ui": 261,
+      "io/reactivex/internal": 251,
+      "androidx/camera/camera2": 234,
+      "androidx/compose/foundation": 234,
+      "org/bouncycastle/cms": 231,
+      "com/alipay/plus": 230,
+      "com/google/crypto": 221,
+      "com/google/firebase": 221,
+      "com/google/protobuf": 209,
+      "com/google/gson": 207,
+      "androidx/media3/common": 202,
+      "com/bumptech/glide": 197,
+      "vn/zalopay/ui": 186,
+      "androidx/appcompat/widget": 178,
+      "com/airbnb/lottie": 173,
+      "androidx/glance/appwidget": 168,
+      "com/facebook/ads": 162,
+      "androidx/camera/video": 159,
+      "app/rive/runtime": 157,
+      "org/jmrtd/lds": 151,
+      "org/bouncycastle/cert": 149,
+      "androidx/datastore/preferences": 140,
+      "androidx/core/view": 127,
+      "org/bouncycastle/jce": 124,
+      "org/bouncycastle/operator": 123,
+      "androidx/fragment/app": 113,
+      "com/alibaba/exthub": 102,
+      "androidx/recyclerview/widget": 99,
+      "androidx/work/impl": 97,
+      "com/facebook/imagepipeline": 94,
+      "org/jsoup/parser": 93,
+      "com/android/billingclient": 88,
+      "com/alipay/android": 87,
+      "com/caverock/androidsvg": 87,
+      "vn/com/zalopay": 86,
+      "com/squareup/picasso": 73,
+      "org/bouncycastle/util": 73
+    },
+    "security_and_framework_classes": {
+      "rive_lottie_motion": 330,
+      "jetpack_compose": 504,
+      "biometric_auth": 42,
+      "alipay_griver_miniapp": 5136,
+      "vng_zalopay_first_party": 961,
+      "coroutines_kotlin": 363,
+      "visa_cbp_nfc_hce": 1370,
+      "sqlcipher_encrypted_db": 57,
+      "tls_pinning_trust": 5,
+      "google_mlkit_vision": 140,
+      "play_integrity_safetynet": 129,
+      "appsflyer_attribution": 430,
+      "trueid_faceauth_ekyc": 689
+    },
+    "security_and_framework_type_refs": {
+      "biometric_auth": 82,
+      "tls_pinning_trust": 34,
+      "visa_cbp_nfc_hce": 1799,
+      "android_keystore": 52,
+      "jetpack_compose": 1287,
+      "rive_lottie_motion": 543,
+      "alipay_griver_miniapp": 7843,
+      "appsflyer_attribution": 555,
+      "google_mlkit_vision": 184,
+      "jca_crypto": 152,
+      "coroutines_kotlin": 1482,
+      "trueid_faceauth_ekyc": 1114,
+      "vng_zalopay_first_party": 1419,
+      "play_integrity_safetynet": 144,
+      "sqlcipher_encrypted_db": 70
+    },
+    "opcode_families": {
+      "invoke_call": 1639273,
+      "move_and_result": 1392103,
+      "binary_arithmetic_logic": 1145705,
+      "const_load": 1136005,
+      "instance_field_get_put": 694167,
+      "type_check_and_array": 649873,
+      "branch_if": 498766,
+      "return": 369765,
+      "unary_conversion": 369408,
+      "throw_goto_switch_cmp": 306094,
+      "array_get_put": 234074,
+      "static_field_get_put": 233705,
+      "monitor_sync": 20988,
+      "other": 15041,
+      "nop": 6555
+    },
+    "top_opcodes": {
+      "invoke-virtual": 617585,
+      "move-result-object": 581994,
+      "invoke-static": 518997,
+      "const/4": 383860,
+      "iget-object": 354267,
+      "move-result": 338758,
+      "const/16": 286220,
+      "check-cast": 261823,
+      "invoke-direct": 256609,
+      "const-string": 206869,
+      "if-eqz": 202512,
+      "goto": 200828,
+      "const": 191181,
+      "new-instance": 187004,
+      "or-int/2addr": 166377,
+      "not-int": 148923,
+      "invoke-interface": 142864,
+      "sget-object": 130704,
+      "move-object/from16": 122126,
+      "return-void": 121532,
+      "return-object": 121258,
+      "iput-object": 114185,
+      "if-nez": 104504,
+      "move/from16": 89231,
+      "add-int/2addr": 84896,
+      "move-object": 82679,
+      "iget": 79584,
+      "and-int/2addr": 74795,
+      "return": 73052,
+      "add-int/lit8": 71880
+    }
+  },
+  "audience_network_dynamic_dex": {
+    "dex_name": "assets/audience_network.dex",
+    "magic": "dex\n035",
+    "file_size": 4864036,
+    "sha1": "63a809cdb22fec218e3c17cd2fd62e35efac8088",
+    "counts": {
+      "string_ids": 30638,
+      "type_ids": 4504,
+      "proto_ids": 6477,
+      "field_ids": 13323,
+      "method_ids": 26792,
+      "class_defs": 3156,
+      "defined_methods": 22955,
+      "methods_with_code": 21454,
+      "total_dalvik_instructions": 420370
+    },
+    "obfuscation": {
+      "total_classes": 3156,
+      "short_class_names_le2": 3072,
+      "obfuscated_root_pkg_classes": 0,
+      "short_method_names_le2": 0
+    },
+    "root_packages": {
+      "com": 3142,
+      "kotlin": 9,
+      "javax": 5
+    },
+    "sub_packages_top": {
+      "com/facebook/ads": 3088,
+      "com/google/android": 42,
+      "com/google/common": 7,
+      "com/facebook/video": 2,
+      "javax/annotation/meta": 2,
+      "com/google/errorprone": 2,
+      "com/facebook/kotlin": 1,
+      "kotlin/jvm/JvmStatic": 1,
+      "kotlin/jvm/JvmInline": 1,
+      "kotlin/annotation/Target": 1,
+      "kotlin/annotation/Retention": 1,
+      "kotlin/annotation/MustBeDocumented": 1,
+      "kotlin/ReplaceWith": 1,
+      "kotlin/Metadata": 1,
+      "kotlin/DeprecatedSinceKotlin": 1,
+      "kotlin/Deprecated": 1,
+      "javax/annotation/Nullable": 1,
+      "javax/annotation/Nonnull": 1,
+      "javax/annotation/CheckForNull": 1
+    },
+    "security_and_framework_classes": {
+      "coroutines_kotlin": 9
+    },
+    "security_and_framework_type_refs": {
+      "tls_pinning_trust": 1,
+      "jca_crypto": 7,
+      "coroutines_kotlin": 12
+    },
+    "opcode_families": {
+      "const_load": 82832,
+      "type_check_and_array": 20645,
+      "array_get_put": 21096,
+      "static_field_get_put": 17711,
+      "invoke_call": 87792,
+      "return": 26288,
+      "move_and_result": 58203,
+      "branch_if": 26067,
+      "binary_arithmetic_logic": 12742,
+      "throw_goto_switch_cmp": 13044,
+      "unary_conversion": 3189,
+      "other": 1391,
+      "instance_field_get_put": 47860,
+      "nop": 327,
+      "monitor_sync": 1183
+    },
+    "top_opcodes": {
+      "const/4": 38411,
+      "invoke-virtual": 37270,
+      "move-result-object": 32087,
+      "const/16": 29239,
+      "iget-object": 24752,
+      "invoke-static": 24208,
+      "move-result": 18421,
+      "invoke-direct": 17742,
+      "return-void": 13196,
+      "aput-object": 13179,
+      "sget-object": 11628,
+      "new-instance": 11564,
+      "const-string": 11545,
+      "if-eqz": 10099,
+      "goto": 7772,
+      "return-object": 7066,
+      "invoke-interface": 6637,
+      "iput-object": 6512,
+      "iget": 6117,
+      "return": 5463,
+      "aget-object": 4539,
+      "if-nez": 4426,
+      "sput-object": 3838,
+      "if-eq": 3830,
+      "add-int/lit8": 3582,
+      "throw": 3580,
+      "iput": 3486,
+      "new-array": 3066,
+      "check-cast": 2937,
+      "if-ne": 2232
+    }
+  },
+  "per_dex_summary": [
+    {
+      "dex_name": "assets/audience_network.dex",
+      "magic": "dex\n035",
+      "file_size": 4864036,
+      "sha1": "63a809cdb22fec218e3c17cd2fd62e35efac8088",
+      "counts": {
+        "string_ids": 30638,
+        "type_ids": 4504,
+        "proto_ids": 6477,
+        "field_ids": 13323,
+        "method_ids": 26792,
+        "class_defs": 3156,
+        "defined_methods": 22955,
+        "methods_with_code": 21454,
+        "total_dalvik_instructions": 420370
+      },
+      "obfuscation": {
+        "total_classes": 3156,
+        "short_class_names_le2": 3072,
+        "obfuscated_root_pkg_classes": 0,
+        "short_method_names_le2": 0
+      },
+      "security_and_framework_classes": {
+        "coroutines_kotlin": 9
+      },
+      "security_and_framework_type_refs": {
+        "tls_pinning_trust": 1,
+        "jca_crypto": 7,
+        "coroutines_kotlin": 12
+      },
+      "opcode_families": {
+        "const_load": 82832,
+        "type_check_and_array": 20645,
+        "array_get_put": 21096,
+        "static_field_get_put": 17711,
+        "invoke_call": 87792,
+        "return": 26288,
+        "move_and_result": 58203,
+        "branch_if": 26067,
+        "binary_arithmetic_logic": 12742,
+        "throw_goto_switch_cmp": 13044,
+        "unary_conversion": 3189,
+        "other": 1391,
+        "instance_field_get_put": 47860,
+        "nop": 327,
+        "monitor_sync": 1183
+      }
+    },
+    {
+      "dex_name": "classes.dex",
+      "magic": "dex\n038",
+      "file_size": 8831004,
+      "sha1": "e33a1a84d7cdda6b774adfae7e547510539b52b3",
+      "counts": {
+        "string_ids": 61218,
+        "type_ids": 17196,
+        "proto_ids": 15953,
+        "field_ids": 46956,
+        "method_ids": 59948,
+        "class_defs": 10703,
+        "defined_methods": 47228,
+        "methods_with_code": 40624,
+        "total_dalvik_instructions": 965968
+      },
+      "obfuscation": {
+        "total_classes": 10703,
+        "short_class_names_le2": 7146,
+        "obfuscated_root_pkg_classes": 3382,
+        "short_method_names_le2": 15633
+      },
+      "security_and_framework_classes": {
+        "rive_lottie_motion": 261,
+        "jetpack_compose": 379,
+        "biometric_auth": 42,
+        "alipay_griver_miniapp": 2638
+      },
+      "security_and_framework_type_refs": {
+        "biometric_auth": 51,
+        "tls_pinning_trust": 2,
+        "visa_cbp_nfc_hce": 30,
+        "android_keystore": 4,
+        "jetpack_compose": 448,
+        "rive_lottie_motion": 305,
+        "alipay_griver_miniapp": 3161,
+        "appsflyer_attribution": 8,
+        "google_mlkit_vision": 13,
+        "jca_crypto": 8,
+        "coroutines_kotlin": 126,
+        "trueid_faceauth_ekyc": 55,
+        "vng_zalopay_first_party": 48
+      },
+      "opcode_families": {
+        "instance_field_get_put": 132246,
+        "const_load": 103768,
+        "invoke_call": 222160,
+        "return": 58693,
+        "move_and_result": 166832,
+        "throw_goto_switch_cmp": 48132,
+        "type_check_and_array": 66528,
+        "binary_arithmetic_logic": 33681,
+        "branch_if": 87039,
+        "static_field_get_put": 23523,
+        "nop": 875,
+        "other": 2007,
+        "monitor_sync": 3862,
+        "unary_conversion": 6544,
+        "array_get_put": 10078
+      }
+    },
+    {
+      "dex_name": "classes10.dex",
+      "magic": "dex\n038",
+      "file_size": 78204,
+      "sha1": "18ffea7fa2cd9d1c51cbb343123dfa270a340b7a",
+      "counts": {
+        "string_ids": 920,
+        "type_ids": 461,
+        "proto_ids": 300,
+        "field_ids": 314,
+        "method_ids": 578,
+        "class_defs": 92,
+        "defined_methods": 253,
+        "methods_with_code": 239,
+        "total_dalvik_instructions": 7237
+      },
+      "obfuscation": {
+        "total_classes": 92,
+        "short_class_names_le2": 91,
+        "obfuscated_root_pkg_classes": 92,
+        "short_method_names_le2": 52
+      },
+      "security_and_framework_classes": {
+        "vng_zalopay_first_party": 1
+      },
+      "security_and_framework_type_refs": {
+        "jetpack_compose": 24,
+        "jca_crypto": 2,
+        "coroutines_kotlin": 32,
+        "tls_pinning_trust": 1,
+        "vng_zalopay_first_party": 2
+      },
+      "opcode_families": {
+        "invoke_call": 1847,
+        "return": 371,
+        "type_check_and_array": 615,
+        "const_load": 931,
+        "instance_field_get_put": 762,
+        "branch_if": 434,
+        "move_and_result": 1433,
+        "binary_arithmetic_logic": 119,
+        "throw_goto_switch_cmp": 295,
+        "nop": 24,
+        "other": 31,
+        "static_field_get_put": 339,
+        "unary_conversion": 34,
+        "array_get_put": 2
+      }
+    },
+    {
+      "dex_name": "classes11.dex",
+      "magic": "dex\n038",
+      "file_size": 163420,
+      "sha1": "283f489decdd2d7b0821e4bffafc9e8d407c2612",
+      "counts": {
+        "string_ids": 1584,
+        "type_ids": 740,
+        "proto_ids": 523,
+        "field_ids": 694,
+        "method_ids": 1171,
+        "class_defs": 177,
+        "defined_methods": 592,
+        "methods_with_code": 578,
+        "total_dalvik_instructions": 17277
+      },
+      "obfuscation": {
+        "total_classes": 177,
+        "short_class_names_le2": 163,
+        "obfuscated_root_pkg_classes": 177,
+        "short_method_names_le2": 121
+      },
+      "security_and_framework_classes": {
+        "vng_zalopay_first_party": 14
+      },
+      "security_and_framework_type_refs": {
+        "tls_pinning_trust": 1,
+        "jetpack_compose": 30,
+        "rive_lottie_motion": 1,
+        "coroutines_kotlin": 39,
+        "vng_zalopay_first_party": 29
+      },
+      "opcode_families": {
+        "instance_field_get_put": 2139,
+        "invoke_call": 4330,
+        "return": 936,
+        "type_check_and_array": 1385,
+        "throw_goto_switch_cmp": 748,
+        "const_load": 2199,
+        "move_and_result": 3134,
+        "static_field_get_put": 575,
+        "nop": 43,
+        "other": 70,
+        "branch_if": 1209,
+        "binary_arithmetic_logic": 459,
+        "unary_conversion": 38,
+        "array_get_put": 6,
+        "monitor_sync": 6
+      }
+    },
+    {
+      "dex_name": "classes12.dex",
+      "magic": "dex\n038",
+      "file_size": 398276,
+      "sha1": "c2d319f8257c927d69481b67d9dabd90aeab6f1e",
+      "counts": {
+        "string_ids": 3207,
+        "type_ids": 1191,
+        "proto_ids": 916,
+        "field_ids": 1723,
+        "method_ids": 2604,
+        "class_defs": 425,
+        "defined_methods": 1560,
+        "methods_with_code": 1502,
+        "total_dalvik_instructions": 47593
+      },
+      "obfuscation": {
+        "total_classes": 425,
+        "short_class_names_le2": 413,
+        "obfuscated_root_pkg_classes": 425,
+        "short_method_names_le2": 439
+      },
+      "security_and_framework_classes": {
+        "vng_zalopay_first_party": 12
+      },
+      "security_and_framework_type_refs": {
+        "tls_pinning_trust": 2,
+        "jetpack_compose": 33,
+        "appsflyer_attribution": 1,
+        "vng_zalopay_first_party": 20,
+        "jca_crypto": 2,
+        "coroutines_kotlin": 48
+      },
+      "opcode_families": {
+        "type_check_and_array": 4383,
+        "invoke_call": 12132,
+        "static_field_get_put": 1628,
+        "return": 2727,
+        "const_load": 5645,
+        "branch_if": 3075,
+        "instance_field_get_put": 6219,
+        "throw_goto_switch_cmp": 1614,
+        "move_and_result": 8510,
+        "other": 137,
+        "binary_arithmetic_logic": 1066,
+        "unary_conversion": 131,
+        "nop": 76,
+        "array_get_put": 247,
+        "monitor_sync": 3
+      }
+    },
+    {
+      "dex_name": "classes13.dex",
+      "magic": "dex\n038",
+      "file_size": 145824,
+      "sha1": "b7f4a070b5b76faa0160d537dedb91cde840b052",
+      "counts": {
+        "string_ids": 1381,
+        "type_ids": 590,
+        "proto_ids": 420,
+        "field_ids": 561,
+        "method_ids": 997,
+        "class_defs": 139,
+        "defined_methods": 532,
+        "methods_with_code": 524,
+        "total_dalvik_instructions": 15207
+      },
+      "obfuscation": {
+        "total_classes": 139,
+        "short_class_names_le2": 125,
+        "obfuscated_root_pkg_classes": 139,
+        "short_method_names_le2": 89
+      },
+      "security_and_framework_classes": {
+        "vng_zalopay_first_party": 14
+      },
+      "security_and_framework_type_refs": {
+        "tls_pinning_trust": 1,
+        "jetpack_compose": 28,
+        "rive_lottie_motion": 1,
+        "coroutines_kotlin": 32,
+        "vng_zalopay_first_party": 26
+      },
+      "opcode_families": {
+        "move_and_result": 2773,
+        "const_load": 2022,
+        "invoke_call": 3792,
+        "branch_if": 1041,
+        "throw_goto_switch_cmp": 632,
+        "binary_arithmetic_logic": 487,
+        "static_field_get_put": 492,
+        "type_check_and_array": 1081,
+        "instance_field_get_put": 1927,
+        "return": 836,
+        "unary_conversion": 51,
+        "other": 47,
+        "nop": 26
+      }
+    },
+    {
+      "dex_name": "classes14.dex",
+      "magic": "dex\n038",
+      "file_size": 81748,
+      "sha1": "17189f34c1ac48caecfa9d793e03c8ef17a8c8ff",
+      "counts": {
+        "string_ids": 961,
+        "type_ids": 404,
+        "proto_ids": 249,
+        "field_ids": 371,
+        "method_ids": 575,
+        "class_defs": 90,
+        "defined_methods": 256,
+        "methods_with_code": 247,
+        "total_dalvik_instructions": 7383
+      },
+      "obfuscation": {
+        "total_classes": 90,
+        "short_class_names_le2": 87,
+        "obfuscated_root_pkg_classes": 90,
+        "short_method_names_le2": 54
+      },
+      "security_and_framework_classes": {
+        "vng_zalopay_first_party": 3
+      },
+      "security_and_framework_type_refs": {
+        "jetpack_compose": 4,
+        "coroutines_kotlin": 38,
+        "vng_zalopay_first_party": 8
+      },
+      "opcode_families": {
+        "invoke_call": 1844,
+        "const_load": 958,
+        "instance_field_get_put": 1029,
+        "return": 439,
+        "branch_if": 393,
+        "type_check_and_array": 852,
+        "move_and_result": 1057,
+        "binary_arithmetic_logic": 52,
+        "throw_goto_switch_cmp": 287,
+        "static_field_get_put": 287,
+        "nop": 44,
+        "other": 63,
+        "array_get_put": 70,
+        "unary_conversion": 2,
+        "monitor_sync": 6
+      }
+    },
+    {
+      "dex_name": "classes15.dex",
+      "magic": "dex\n038",
+      "file_size": 82152,
+      "sha1": "2368477abed7b81e21f9aab841587e3163911adf",
+      "counts": {
+        "string_ids": 1005,
+        "type_ids": 436,
+        "proto_ids": 305,
+        "field_ids": 410,
+        "method_ids": 658,
+        "class_defs": 113,
+        "defined_methods": 290,
+        "methods_with_code": 274,
+        "total_dalvik_instructions": 6409
+      },
+      "obfuscation": {
+        "total_classes": 113,
+        "short_class_names_le2": 112,
+        "obfuscated_root_pkg_classes": 113,
+        "short_method_names_le2": 91
+      },
+      "security_and_framework_classes": {
+        "vng_zalopay_first_party": 1
+      },
+      "security_and_framework_type_refs": {
+        "jca_crypto": 4,
+        "coroutines_kotlin": 34,
+        "tls_pinning_trust": 1,
+        "vng_zalopay_first_party": 5
+      },
+      "opcode_families": {
+        "invoke_call": 1652,
+        "type_check_and_array": 772,
+        "const_load": 760,
+        "instance_field_get_put": 972,
+        "return": 406,
+        "static_field_get_put": 175,
+        "branch_if": 327,
+        "throw_goto_switch_cmp": 222,
+        "move_and_result": 950,
+        "nop": 30,
+        "other": 41,
+        "binary_arithmetic_logic": 30,
+        "array_get_put": 68,
+        "unary_conversion": 4
+      }
+    },
+    {
+      "dex_name": "classes16.dex",
+      "magic": "dex\n038",
+      "file_size": 15916,
+      "sha1": "a68f8986215b09d0cadb00fbbf0de157735ffc99",
+      "counts": {
+        "string_ids": 261,
+        "type_ids": 116,
+        "proto_ids": 69,
+        "field_ids": 38,
+        "method_ids": 101,
+        "class_defs": 20,
+        "defined_methods": 34,
+        "methods_with_code": 32,
+        "total_dalvik_instructions": 476
+      },
+      "obfuscation": {
+        "total_classes": 20,
+        "short_class_names_le2": 19,
+        "obfuscated_root_pkg_classes": 20,
+        "short_method_names_le2": 5
+      },
+      "security_and_framework_classes": {
+        "vng_zalopay_first_party": 1
+      },
+      "security_and_framework_type_refs": {
+        "coroutines_kotlin": 12,
+        "tls_pinning_trust": 1,
+        "vng_zalopay_first_party": 4
+      },
+      "opcode_families": {
+        "invoke_call": 150,
+        "const_load": 49,
+        "instance_field_get_put": 74,
+        "return": 48,
+        "branch_if": 9,
+        "type_check_and_array": 63,
+        "move_and_result": 64,
+        "binary_arithmetic_logic": 2,
+        "throw_goto_switch_cmp": 4,
+        "nop": 3,
+        "other": 3,
+        "static_field_get_put": 5,
+        "unary_conversion": 2
+      }
+    },
+    {
+      "dex_name": "classes17.dex",
+      "magic": "dex\n038",
+      "file_size": 208476,
+      "sha1": "d208393fae313040429471f55a48fc8dcc4ffff3",
+      "counts": {
+        "string_ids": 1847,
+        "type_ids": 848,
+        "proto_ids": 611,
+        "field_ids": 972,
+        "method_ids": 1311,
+        "class_defs": 243,
+        "defined_methods": 629,
+        "methods_with_code": 619,
+        "total_dalvik_instructions": 24054
+      },
+      "obfuscation": {
+        "total_classes": 243,
+        "short_class_names_le2": 238,
+        "obfuscated_root_pkg_classes": 243,
+        "short_method_names_le2": 226
+      },
+      "security_and_framework_classes": {},
+      "security_and_framework_type_refs": {
+        "jetpack_compose": 39,
+        "rive_lottie_motion": 1,
+        "coroutines_kotlin": 43,
+        "vng_zalopay_first_party": 6
+      },
+      "opcode_families": {
+        "invoke_call": 6280,
+        "instance_field_get_put": 2539,
+        "return": 934,
+        "const_load": 3127,
+        "binary_arithmetic_logic": 295,
+        "branch_if": 1479,
+        "move_and_result": 5259,
+        "throw_goto_switch_cmp": 987,
+        "type_check_and_array": 1790,
+        "static_field_get_put": 1032,
+        "other": 85,
+        "nop": 44,
+        "unary_conversion": 192,
+        "array_get_put": 11
+      }
+    },
+    {
+      "dex_name": "classes18.dex",
+      "magic": "dex\n038",
+      "file_size": 95920,
+      "sha1": "759252551d3bd6b13fd4e95fe14d6675b6ef788e",
+      "counts": {
+        "string_ids": 1094,
+        "type_ids": 553,
+        "proto_ids": 373,
+        "field_ids": 428,
+        "method_ids": 668,
+        "class_defs": 115,
+        "defined_methods": 250,
+        "methods_with_code": 241,
+        "total_dalvik_instructions": 9111
+      },
+      "obfuscation": {
+        "total_classes": 115,
+        "short_class_names_le2": 114,
+        "obfuscated_root_pkg_classes": 115,
+        "short_method_names_le2": 94
+      },
+      "security_and_framework_classes": {
+        "vng_zalopay_first_party": 1
+      },
+      "security_and_framework_type_refs": {
+        "jetpack_compose": 29,
+        "rive_lottie_motion": 1,
+        "coroutines_kotlin": 37,
+        "vng_zalopay_first_party": 5
+      },
+      "opcode_families": {
+        "invoke_call": 2366,
+        "instance_field_get_put": 915,
+        "const_load": 1231,
+        "return": 331,
+        "type_check_and_array": 715,
+        "move_and_result": 1909,
+        "static_field_get_put": 418,
+        "branch_if": 577,
+        "throw_goto_switch_cmp": 397,
+        "nop": 20,
+        "other": 35,
+        "array_get_put": 5,
+        "binary_arithmetic_logic": 119,
+        "unary_conversion": 73
+      }
+    },
+    {
+      "dex_name": "classes19.dex",
+      "magic": "dex\n038",
+      "file_size": 719548,
+      "sha1": "93a82bc81280988975f9ae81244074496ac3fb66",
+      "counts": {
+        "string_ids": 4159,
+        "type_ids": 1782,
+        "proto_ids": 1445,
+        "field_ids": 2804,
+        "method_ids": 3781,
+        "class_defs": 777,
+        "defined_methods": 2601,
+        "methods_with_code": 2479,
+        "total_dalvik_instructions": 104660
+      },
+      "obfuscation": {
+        "total_classes": 777,
+        "short_class_names_le2": 772,
+        "obfuscated_root_pkg_classes": 777,
+        "short_method_names_le2": 976
+      },
+      "security_and_framework_classes": {
+        "vng_zalopay_first_party": 5
+      },
+      "security_and_framework_type_refs": {
+        "tls_pinning_trust": 1,
+        "jetpack_compose": 43,
+        "rive_lottie_motion": 2,
+        "coroutines_kotlin": 55,
+        "vng_zalopay_first_party": 16
+      },
+      "opcode_families": {
+        "invoke_call": 26412,
+        "type_check_and_array": 7641,
+        "const_load": 14602,
+        "move_and_result": 22328,
+        "instance_field_get_put": 10277,
+        "return": 4132,
+        "branch_if": 7000,
+        "throw_goto_switch_cmp": 4384,
+        "static_field_get_put": 4550,
+        "other": 288,
+        "nop": 162,
+        "binary_arithmetic_logic": 2053,
+        "unary_conversion": 749,
+        "array_get_put": 75,
+        "monitor_sync": 7
+      }
+    },
+    {
+      "dex_name": "classes2.dex",
+      "magic": "dex\n038",
+      "file_size": 16516960,
+      "sha1": "a46d2f5bf1720cbb6e7b33426e58509621c6f504",
+      "counts": {
+        "string_ids": 56948,
+        "type_ids": 11243,
+        "proto_ids": 12070,
+        "field_ids": 60000,
+        "method_ids": 45527,
+        "class_defs": 7421,
+        "defined_methods": 38472,
+        "methods_with_code": 35733,
+        "total_dalvik_instructions": 3055827
+      },
+      "obfuscation": {
+        "total_classes": 7421,
+        "short_class_names_le2": 3564,
+        "obfuscated_root_pkg_classes": 2790,
+        "short_method_names_le2": 7680
+      },
+      "security_and_framework_classes": {
+        "coroutines_kotlin": 324,
+        "visa_cbp_nfc_hce": 1246,
+        "vng_zalopay_first_party": 9,
+        "sqlcipher_encrypted_db": 56,
+        "tls_pinning_trust": 4
+      },
+      "security_and_framework_type_refs": {
+        "tls_pinning_trust": 8,
+        "android_keystore": 12,
+        "biometric_auth": 7,
+        "jetpack_compose": 23,
+        "rive_lottie_motion": 5,
+        "alipay_griver_miniapp": 124,
+        "appsflyer_attribution": 1,
+        "play_integrity_safetynet": 1,
+        "google_mlkit_vision": 1,
+        "visa_cbp_nfc_hce": 1310,
+        "vng_zalopay_first_party": 32,
+        "jca_crypto": 20,
+        "coroutines_kotlin": 350,
+        "sqlcipher_encrypted_db": 57,
+        "trueid_faceauth_ekyc": 35
+      },
+      "opcode_families": {
+        "const_load": 452548,
+        "type_check_and_array": 227001,
+        "static_field_get_put": 51797,
+        "return": 50494,
+        "other": 3217,
+        "invoke_call": 360040,
+        "instance_field_get_put": 70050,
+        "move_and_result": 393121,
+        "branch_if": 95907,
+        "monitor_sync": 2943,
+        "throw_goto_switch_cmp": 62988,
+        "binary_arithmetic_logic": 832662,
+        "nop": 1206,
+        "array_get_put": 157006,
+        "unary_conversion": 294847
+      }
+    },
+    {
+      "dex_name": "classes3.dex",
+      "magic": "dex\n038",
+      "file_size": 850600,
+      "sha1": "121e18d91853b7d28812d98f5e05d1f0881030c8",
+      "counts": {
+        "string_ids": 8010,
+        "type_ids": 3827,
+        "proto_ids": 2361,
+        "field_ids": 3619,
+        "method_ids": 6354,
+        "class_defs": 1081,
+        "defined_methods": 2980,
+        "methods_with_code": 2758,
+        "total_dalvik_instructions": 98011
+      },
+      "obfuscation": {
+        "total_classes": 1081,
+        "short_class_names_le2": 978,
+        "obfuscated_root_pkg_classes": 954,
+        "short_method_names_le2": 978
+      },
+      "security_and_framework_classes": {},
+      "security_and_framework_type_refs": {
+        "tls_pinning_trust": 1,
+        "jetpack_compose": 49,
+        "rive_lottie_motion": 3,
+        "alipay_griver_miniapp": 3,
+        "appsflyer_attribution": 1,
+        "google_mlkit_vision": 2,
+        "visa_cbp_nfc_hce": 2,
+        "jca_crypto": 2,
+        "coroutines_kotlin": 72,
+        "trueid_faceauth_ekyc": 7,
+        "vng_zalopay_first_party": 38
+      },
+      "opcode_families": {
+        "move_and_result": 18894,
+        "binary_arithmetic_logic": 2467,
+        "const_load": 12965,
+        "branch_if": 7360,
+        "throw_goto_switch_cmp": 4324,
+        "static_field_get_put": 3412,
+        "invoke_call": 23459,
+        "return": 4722,
+        "instance_field_get_put": 11366,
+        "type_check_and_array": 7426,
+        "unary_conversion": 835,
+        "array_get_put": 340,
+        "other": 225,
+        "nop": 100,
+        "monitor_sync": 116
+      }
+    },
+    {
+      "dex_name": "classes4.dex",
+      "magic": "dex\n038",
+      "file_size": 9418124,
+      "sha1": "e2427129aaa32831742b3f5259fecdbe50118f67",
+      "counts": {
+        "string_ids": 52812,
+        "type_ids": 19105,
+        "proto_ids": 15731,
+        "field_ids": 40269,
+        "method_ids": 59997,
+        "class_defs": 11441,
+        "defined_methods": 47711,
+        "methods_with_code": 44083,
+        "total_dalvik_instructions": 1188936
+      },
+      "obfuscation": {
+        "total_classes": 11441,
+        "short_class_names_le2": 9387,
+        "obfuscated_root_pkg_classes": 3060,
+        "short_method_names_le2": 21082
+      },
+      "security_and_framework_classes": {
+        "google_mlkit_vision": 131,
+        "play_integrity_safetynet": 123
+      },
+      "security_and_framework_type_refs": {
+        "biometric_auth": 5,
+        "tls_pinning_trust": 3,
+        "android_keystore": 5,
+        "jetpack_compose": 78,
+        "rive_lottie_motion": 28,
+        "alipay_griver_miniapp": 2,
+        "play_integrity_safetynet": 129,
+        "google_mlkit_vision": 135,
+        "visa_cbp_nfc_hce": 6,
+        "jca_crypto": 22,
+        "coroutines_kotlin": 97,
+        "sqlcipher_encrypted_db": 4,
+        "trueid_faceauth_ekyc": 59,
+        "vng_zalopay_first_party": 45
+      },
+      "opcode_families": {
+        "const_load": 143473,
+        "invoke_call": 262660,
+        "return": 67437,
+        "instance_field_get_put": 120023,
+        "throw_goto_switch_cmp": 58200,
+        "type_check_and_array": 94069,
+        "other": 2942,
+        "move_and_result": 205159,
+        "branch_if": 84085,
+        "binary_arithmetic_logic": 67776,
+        "static_field_get_put": 41124,
+        "nop": 1058,
+        "array_get_put": 23864,
+        "monitor_sync": 7037,
+        "unary_conversion": 10029
+      }
+    },
+    {
+      "dex_name": "classes5.dex",
+      "magic": "dex\n038",
+      "file_size": 7357484,
+      "sha1": "56b852f27eea29aecbf247fc2a5f2c1cb60a79bd",
+      "counts": {
+        "string_ids": 56424,
+        "type_ids": 14079,
+        "proto_ids": 13049,
+        "field_ids": 60002,
+        "method_ids": 49055,
+        "class_defs": 7983,
+        "defined_methods": 37294,
+        "methods_with_code": 34755,
+        "total_dalvik_instructions": 654241
+      },
+      "obfuscation": {
+        "total_classes": 7983,
+        "short_class_names_le2": 2592,
+        "obfuscated_root_pkg_classes": 1636,
+        "short_method_names_le2": 5395
+      },
+      "security_and_framework_classes": {
+        "alipay_griver_miniapp": 1822,
+        "appsflyer_attribution": 407
+      },
+      "security_and_framework_type_refs": {
+        "biometric_auth": 9,
+        "tls_pinning_trust": 1,
+        "visa_cbp_nfc_hce": 17,
+        "android_keystore": 9,
+        "jetpack_compose": 52,
+        "rive_lottie_motion": 9,
+        "alipay_griver_miniapp": 2585,
+        "appsflyer_attribution": 434,
+        "play_integrity_safetynet": 3,
+        "google_mlkit_vision": 9,
+        "jca_crypto": 39,
+        "coroutines_kotlin": 69,
+        "trueid_faceauth_ekyc": 37,
+        "vng_zalopay_first_party": 20
+      },
+      "opcode_families": {
+        "invoke_call": 170351,
+        "instance_field_get_put": 66361,
+        "return": 46712,
+        "move_and_result": 114394,
+        "type_check_and_array": 46292,
+        "static_field_get_put": 21627,
+        "const_load": 72202,
+        "throw_goto_switch_cmp": 24492,
+        "branch_if": 43183,
+        "other": 1069,
+        "monitor_sync": 3316,
+        "binary_arithmetic_logic": 26457,
+        "unary_conversion": 7352,
+        "nop": 281,
+        "array_get_put": 10152
+      }
+    },
+    {
+      "dex_name": "classes6.dex",
+      "magic": "dex\n038",
+      "file_size": 7612432,
+      "sha1": "c84425e45007dae63e3741924ce1e80d6cc089ac",
+      "counts": {
+        "string_ids": 55274,
+        "type_ids": 18399,
+        "proto_ids": 15543,
+        "field_ids": 36617,
+        "method_ids": 49201,
+        "class_defs": 5475,
+        "defined_methods": 29029,
+        "methods_with_code": 27818,
+        "total_dalvik_instructions": 934576
+      },
+      "obfuscation": {
+        "total_classes": 5475,
+        "short_class_names_le2": 3619,
+        "obfuscated_root_pkg_classes": 2445,
+        "short_method_names_le2": 7990
+      },
+      "security_and_framework_classes": {
+        "coroutines_kotlin": 39,
+        "jetpack_compose": 125,
+        "rive_lottie_motion": 69,
+        "alipay_griver_miniapp": 676,
+        "appsflyer_attribution": 23,
+        "play_integrity_safetynet": 6,
+        "google_mlkit_vision": 9,
+        "visa_cbp_nfc_hce": 124,
+        "sqlcipher_encrypted_db": 1,
+        "tls_pinning_trust": 1,
+        "trueid_faceauth_ekyc": 81,
+        "vng_zalopay_first_party": 86
+      },
+      "security_and_framework_type_refs": {
+        "tls_pinning_trust": 5,
+        "visa_cbp_nfc_hce": 367,
+        "android_keystore": 11,
+        "biometric_auth": 1,
+        "jetpack_compose": 223,
+        "rive_lottie_motion": 164,
+        "alipay_griver_miniapp": 1937,
+        "appsflyer_attribution": 102,
+        "play_integrity_safetynet": 11,
+        "google_mlkit_vision": 15,
+        "jca_crypto": 26,
+        "coroutines_kotlin": 187,
+        "sqlcipher_encrypted_db": 4,
+        "trueid_faceauth_ekyc": 238,
+        "vng_zalopay_first_party": 202
+      },
+      "opcode_families": {
+        "invoke_call": 175173,
+        "move_and_result": 144782,
+        "binary_arithmetic_logic": 129645,
+        "return": 40757,
+        "instance_field_get_put": 80454,
+        "type_check_and_array": 65220,
+        "const_load": 115993,
+        "branch_if": 55385,
+        "throw_goto_switch_cmp": 33928,
+        "unary_conversion": 39885,
+        "static_field_get_put": 25415,
+        "array_get_put": 23325,
+        "nop": 703,
+        "other": 1467,
+        "monitor_sync": 2444
+      }
+    },
+    {
+      "dex_name": "classes7.dex",
+      "magic": "dex\n038",
+      "file_size": 10803680,
+      "sha1": "ea9b70bd8fcf55b7144d1eac5d9cd0c2da844636",
+      "counts": {
+        "string_ids": 59110,
+        "type_ids": 20633,
+        "proto_ids": 16081,
+        "field_ids": 43164,
+        "method_ids": 60000,
+        "class_defs": 12953,
+        "defined_methods": 48030,
+        "methods_with_code": 45361,
+        "total_dalvik_instructions": 1410100
+      },
+      "obfuscation": {
+        "total_classes": 12953,
+        "short_class_names_le2": 10728,
+        "obfuscated_root_pkg_classes": 11329,
+        "short_method_names_le2": 11653
+      },
+      "security_and_framework_classes": {
+        "trueid_faceauth_ekyc": 608,
+        "vng_zalopay_first_party": 613
+      },
+      "security_and_framework_type_refs": {
+        "biometric_auth": 9,
+        "tls_pinning_trust": 4,
+        "visa_cbp_nfc_hce": 67,
+        "android_keystore": 11,
+        "jetpack_compose": 119,
+        "rive_lottie_motion": 18,
+        "alipay_griver_miniapp": 31,
+        "appsflyer_attribution": 8,
+        "google_mlkit_vision": 9,
+        "vng_zalopay_first_party": 691,
+        "jca_crypto": 27,
+        "coroutines_kotlin": 121,
+        "sqlcipher_encrypted_db": 5,
+        "trueid_faceauth_ekyc": 683
+      },
+      "opcode_families": {
+        "move_and_result": 271498,
+        "const_load": 185320,
+        "invoke_call": 324114,
+        "binary_arithmetic_logic": 43919,
+        "branch_if": 98703,
+        "throw_goto_switch_cmp": 58126,
+        "static_field_get_put": 53565,
+        "type_check_and_array": 110367,
+        "instance_field_get_put": 163017,
+        "unary_conversion": 8252,
+        "return": 78662,
+        "other": 2899,
+        "nop": 1627,
+        "array_get_put": 8786,
+        "monitor_sync": 1245
+      }
+    },
+    {
+      "dex_name": "classes8.dex",
+      "magic": "dex\n038",
+      "file_size": 239036,
+      "sha1": "48a8082dd8fe9d40400b9e6a945795d89c855560",
+      "counts": {
+        "string_ids": 1906,
+        "type_ids": 915,
+        "proto_ids": 697,
+        "field_ids": 1056,
+        "method_ids": 1552,
+        "class_defs": 295,
+        "defined_methods": 912,
+        "methods_with_code": 889,
+        "total_dalvik_instructions": 28392
+      },
+      "obfuscation": {
+        "total_classes": 295,
+        "short_class_names_le2": 294,
+        "obfuscated_root_pkg_classes": 295,
+        "short_method_names_le2": 321
+      },
+      "security_and_framework_classes": {
+        "vng_zalopay_first_party": 1
+      },
+      "security_and_framework_type_refs": {
+        "tls_pinning_trust": 1,
+        "jetpack_compose": 33,
+        "rive_lottie_motion": 2,
+        "coroutines_kotlin": 40,
+        "vng_zalopay_first_party": 6
+      },
+      "opcode_families": {
+        "invoke_call": 7208,
+        "instance_field_get_put": 2911,
+        "return": 1279,
+        "type_check_and_array": 2311,
+        "const_load": 3873,
+        "static_field_get_put": 1221,
+        "move_and_result": 5784,
+        "throw_goto_switch_cmp": 1240,
+        "branch_if": 1823,
+        "binary_arithmetic_logic": 352,
+        "other": 118,
+        "nop": 65,
+        "unary_conversion": 201,
+        "array_get_put": 6
+      }
+    },
+    {
+      "dex_name": "classes9.dex",
+      "magic": "dex\n038",
+      "file_size": 1218908,
+      "sha1": "92d32c9d7bc8e48e225cac49b17876907476ef7d",
+      "counts": {
+        "string_ids": 6155,
+        "type_ids": 2175,
+        "proto_ids": 1827,
+        "field_ids": 4520,
+        "method_ids": 7170,
+        "class_defs": 1128,
+        "defined_methods": 5872,
+        "methods_with_code": 5781,
+        "total_dalvik_instructions": 136064
+      },
+      "obfuscation": {
+        "total_classes": 1128,
+        "short_class_names_le2": 932,
+        "obfuscated_root_pkg_classes": 1128,
+        "short_method_names_le2": 907
+      },
+      "security_and_framework_classes": {
+        "vng_zalopay_first_party": 200
+      },
+      "security_and_framework_type_refs": {
+        "tls_pinning_trust": 1,
+        "jetpack_compose": 32,
+        "rive_lottie_motion": 3,
+        "coroutines_kotlin": 50,
+        "vng_zalopay_first_party": 216
+      },
+      "opcode_families": {
+        "invoke_call": 33303,
+        "move_and_result": 24222,
+        "const_load": 14339,
+        "branch_if": 9737,
+        "throw_goto_switch_cmp": 5094,
+        "type_check_and_array": 11362,
+        "static_field_get_put": 2520,
+        "return": 9849,
+        "instance_field_get_put": 20886,
+        "binary_arithmetic_logic": 4064,
+        "nop": 168,
+        "other": 297,
+        "unary_conversion": 187,
+        "array_get_put": 33,
+        "monitor_sync": 3
+      }
+    }
+  ],
+  "sbom": {
+    "meta_inf_version_count": 141,
+    "meta_inf_versions": {
+      "androidx.activity_activity-compose": "1.9.3",
+      "androidx.activity_activity-ktx": "1.9.3",
+      "androidx.activity_activity": "1.9.3",
+      "androidx.annotation_annotation-experimental": "1.5.0",
+      "androidx.appcompat_appcompat-resources": "1.6.1",
+      "androidx.appcompat_appcompat": "1.6.1",
+      "androidx.arch.core_core-runtime": "task ':arch:core:core-runtime:writeVersionFile' property 'version'",
+      "androidx.asynclayoutinflater_asynclayoutinflater": "1.0.0",
+      "androidx.autofill_autofill": "1.0.0",
+      "androidx.biometric_biometric": "1.2.0-alpha05",
+      "androidx.browser_browser": "1.8.0",
+      "androidx.camera_camera-camera2": "1.4.0",
+      "androidx.camera_camera-core": "1.4.0",
+      "androidx.camera_camera-extensions": "1.4.0",
+      "androidx.camera_camera-lifecycle": "1.4.0",
+      "androidx.camera_camera-video": "1.4.0",
+      "androidx.camera_camera-view": "1.4.0",
+      "androidx.cardview_cardview": "1.0.0",
+      "androidx.compose.animation_animation-core": "1.7.2",
+      "androidx.compose.animation_animation": "1.7.2",
+      "androidx.compose.foundation_foundation-layout": "1.7.2",
+      "androidx.compose.foundation_foundation": "1.7.2",
+      "androidx.compose.material_material-icons-core": "1.6.0",
+      "androidx.compose.material_material-ripple": "1.6.0",
+      "androidx.compose.material_material": "1.6.0",
+      "androidx.compose.runtime_runtime-livedata": "1.7.2",
+      "androidx.compose.runtime_runtime-saveable": "1.7.2",
+      "androidx.compose.runtime_runtime": "1.7.2",
+      "androidx.compose.ui_ui-geometry": "1.7.2",
+      "androidx.compose.ui_ui-graphics": "1.7.2",
+      "androidx.compose.ui_ui-text": "1.7.2",
+      "androidx.compose.ui_ui-tooling-data": "1.7.2",
+      "androidx.compose.ui_ui-tooling-preview": "1.7.2",
+      "androidx.compose.ui_ui-tooling": "1.7.2",
+      "androidx.compose.ui_ui-unit": "1.7.2",
+      "androidx.compose.ui_ui-util": "1.7.2",
+      "androidx.compose.ui_ui": "1.7.2",
+      "androidx.constraintlayout_constraintlayout-compose": "1.1.1",
+      "androidx.coordinatorlayout_coordinatorlayout": "1.1.0",
+      "androidx.core_core-ktx": "1.16.0",
+      "androidx.core_core-remoteviews": "1.1.0",
+      "androidx.core_core-splashscreen": "1.0.0",
+      "androidx.core_core-viewtree": "1.0.0",
+      "androidx.core_core": "1.16.0",
+      "androidx.cursoradapter_cursoradapter": "1.0.0",
+      "androidx.customview_customview-poolingcontainer": "1.0.0",
+      "androidx.customview_customview": "1.1.0",
+      "androidx.databinding_baseAdapters": "8.12.3",
+      "androidx.databinding_databindingKtx": "8.12.3",
+      "androidx.databinding_library": "8.12.3",
+      "androidx.databinding_viewbinding": "8.12.3",
+      "androidx.datastore_datastore-preferences": "1.0.0",
+      "androidx.datastore_datastore": "1.0.0",
+      "androidx.documentfile_documentfile": "1.0.0",
+      "androidx.drawerlayout_drawerlayout": "1.1.1",
+      "androidx.dynamicanimation_dynamicanimation-ktx": "1.0.0-alpha03",
+      "androidx.dynamicanimation_dynamicanimation": "1.1.0-alpha03",
+      "androidx.emoji2_emoji2-views-helper": "1.3.0",
+      "androidx.emoji2_emoji2": "1.3.0",
+      "androidx.exifinterface_exifinterface": "1.3.6",
+      "androidx.fragment_fragment-ktx": "1.8.7",
+      "androidx.fragment_fragment": "1.8.7",
+      "androidx.glance_glance-appwidget": "1.1.1",
+      "androidx.glance_glance": "1.1.1",
+      "androidx.graphics_graphics-path": "1.0.1",
+      "androidx.interpolator_interpolator": "1.0.0",
+      "androidx.legacy_legacy-support-core-ui": "1.0.0",
+      "androidx.legacy_legacy-support-core-utils": "1.0.0",
+      "androidx.legacy_legacy-support-v4": "1.0.0",
+      "androidx.lifecycle_lifecycle-extensions": "2.1.0",
+      "androidx.lifecycle_lifecycle-livedata-core-ktx": "2.8.7",
+      "androidx.lifecycle_lifecycle-livedata-core": "2.8.7",
+      "androidx.lifecycle_lifecycle-livedata-ktx": "2.8.7",
+      "androidx.lifecycle_lifecycle-livedata": "2.8.7",
+      "androidx.lifecycle_lifecycle-process": "2.8.7",
+      "androidx.lifecycle_lifecycle-runtime-compose": "2.8.7",
+      "androidx.lifecycle_lifecycle-runtime-ktx": "2.8.7",
+      "androidx.lifecycle_lifecycle-runtime": "2.8.7",
+      "androidx.lifecycle_lifecycle-service": "2.8.7",
+      "androidx.lifecycle_lifecycle-viewmodel-compose": "2.8.7",
+      "androidx.lifecycle_lifecycle-viewmodel-ktx": "2.8.7",
+      "androidx.lifecycle_lifecycle-viewmodel-savedstate": "2.8.7",
+      "androidx.lifecycle_lifecycle-viewmodel": "2.8.7",
+      "androidx.loader_loader": "1.0.0",
+      "androidx.localbroadcastmanager_localbroadcastmanager": "1.0.0",
+      "androidx.media_media": "1.0.0",
+      "androidx.navigation_navigation-common-ktx": "2.8.3",
+      "androidx.navigation_navigation-common": "2.8.3",
+      "androidx.navigation_navigation-compose": "2.8.3",
+      "androidx.navigation_navigation-dynamic-features-fragment": "2.8.3",
+      "androidx.navigation_navigation-dynamic-features-runtime": "2.8.3",
+      "androidx.navigation_navigation-fragment-ktx": "2.8.3",
+      "androidx.navigation_navigation-fragment": "2.8.3",
+      "androidx.navigation_navigation-runtime-ktx": "2.8.3",
+      "androidx.navigation_navigation-runtime": "2.8.3",
+      "androidx.navigation_navigation-ui-ktx": "2.8.3",
+      "androidx.navigation_navigation-ui": "2.8.3",
+      "androidx.paging_paging-compose": "3.2.1",
+      "androidx.paging_paging-runtime-ktx": "3.2.1",
+      "androidx.paging_paging-runtime": "3.2.1",
+      "androidx.palette_palette-ktx": "1.0.0",
+      "androidx.palette_palette": "1.0.0",
+      "androidx.print_print": "1.0.0",
+      "androidx.privacysandbox.ads_ads-adservices-java": "1.0.0-beta05",
+      "androidx.privacysandbox.ads_ads-adservices": "1.0.0-beta05",
+      "androidx.profileinstaller_profileinstaller": "1.3.1",
+      "androidx.recyclerview_recyclerview": "1.3.0",
+      "androidx.room_room-ktx": "2.8.4",
+      "androidx.room_room-runtime": "2.8.4",
+      "androidx.savedstate_savedstate-ktx": "1.2.1",
+      "androidx.savedstate_savedstate": "1.2.1",
+      "androidx.security_security-crypto": "1.1.0",
+      "androidx.slidingpanelayout_slidingpanelayout": "1.2.0",
+      "androidx.sqlite_sqlite-framework": "2.6.2",
+      "androidx.sqlite_sqlite-ktx": "2.6.2",
+      "androidx.sqlite_sqlite": "2.6.2",
+      "androidx.startup_startup-runtime": "1.2.0",
+      "androidx.swiperefreshlayout_swiperefreshlayout": "1.1.0",
+      "androidx.tracing_tracing-ktx": "1.2.0",
+      "androidx.tracing_tracing": "1.2.0",
+      "androidx.transition_transition": "1.4.1",
+      "androidx.vectordrawable_vectordrawable-animated": "1.1.0",
+      "androidx.vectordrawable_vectordrawable": "1.1.0",
+      "androidxedparcelable_versionedparcelable": "1.1.1",
+      "androidx.viewpager2_viewpager2": "1.0.0",
+      "androidx.viewpager_viewpager": "1.0.0",
+      "androidx.webkit_webkit": "1.11.0-alpha02",
+      "androidx.window_window": "1.0.0",
+      "androidx.work_work-runtime-ktx": "2.7.1",
+      "androidx.work_work-runtime": "2.7.1",
+      "androidx.work_work-rxjava2": "2.7.1",
+      "com.google.android.material_material": "1.4.0",
+      "com.google.dagger_dagger-android-support": "2.59.2",
+      "com.google.dagger_dagger-android": "2.59.2",
+      "com.google.dagger_dagger-lint-aar": "2.59.2",
+      "com.google.dagger_dagger": "2.59.2",
+      "kotlinx_coroutines_android": "1.8.1",
+      "kotlinx_coroutines_core": "1.8.1",
+      "kotlinx_coroutines_play_services": "1.8.1",
+      "kotlinx_coroutines_reactive": "1.8.1",
+      "kotlinx_coroutines_rx2": "1.8.1"
+    },
+    "root_properties_count": 69,
+    "root_properties": {
+      "barcode-scanning-common.properties": {
+        "version": "17.0.0",
+        "client": "barcode-scanning-common",
+        "barcode-scanning-common_client": "17.0.0"
+      },
+      "barcode-scanning.properties": {
+        "version": "17.3.0",
+        "client": "barcode-scanning",
+        "barcode-scanning_client": "17.3.0"
+      },
+      "billing-ktx.properties": {
+        "version": "8.3.0",
+        "client": "billing-ktx",
+        "billing-ktx_client": "8.3.0"
+      },
+      "billing.properties": {
+        "version": "8.3.0",
+        "client": "billing",
+        "billing_client": "8.3.0"
+      },
+      "common.properties": {
+        "version": "18.11.0",
+        "client": "common",
+        "common_client": "18.11.0"
+      },
+      "core-common.properties": {
+        "version": "2.0.4",
+        "client": "core-common",
+        "core-common_client": "2.0.4"
+      },
+      "face-detection.properties": {
+        "version": "16.1.7",
+        "client": "face-detection",
+        "face-detection_client": "16.1.7"
+      },
+      "feature-delivery.properties": {
+        "version": "2.1.0",
+        "client": "feature-delivery",
+        "feature-delivery_client": "2.1.0"
+      },
+      "firebase-abt.properties": {
+        "version": "19.1.0",
+        "client": "firebase-abt",
+        "firebase-abt_client": "19.1.0"
+      },
+      "firebase-analytics-ktx.properties": {
+        "version": "22.0.2",
+        "client": "firebase-analytics-ktx",
+        "firebase-analytics-ktx_client": "22.0.2"
+      },
+      "firebase-analytics.properties": {
+        "version": "22.0.2",
+        "client": "firebase-analytics",
+        "firebase-analytics_client": "22.0.2"
+      },
+      "firebase-annotations.properties": {
+        "version": "16.2.0",
+        "client": "firebase-annotations",
+        "firebase-annotations_client": "16.2.0"
+      },
+      "firebase-config.properties": {
+        "version": "19.2.0",
+        "client": "firebase-config",
+        "firebase-config_client": "19.2.0"
+      },
+      "firebase-core.properties": {
+        "version": "19.0.0",
+        "client": "firebase-core",
+        "firebase-core_client": "19.0.0"
+      },
+      "firebase-encoders-proto.properties": {
+        "version": "16.0.0",
+        "client": "firebase-encoders-proto",
+        "firebase-encoders-proto_client": "16.0.0"
+      },
+      "firebase-encoders.properties": {
+        "version": "17.0.0",
+        "client": "firebase-encoders",
+        "firebase-encoders_client": "17.0.0"
+      },
+      "firebase-iid-interop.properties": {
+        "version": "17.1.0",
+        "client": "firebase-iid-interop",
+        "firebase-iid-interop_client": "17.1.0"
+      },
+      "firebase-iid.properties": {
+        "version": "21.1.0",
+        "client": "firebase-iid",
+        "firebase-iid_client": "21.1.0"
+      },
+      "firebase-measurement-connector.properties": {
+        "version": "20.0.1",
+        "client": "firebase-measurement-connector",
+        "firebase-measurement-connector_client": "20.0.1"
+      },
+      "firebase-messaging.properties": {
+        "version": "23.0.0",
+        "client": "firebase-messaging",
+        "firebase-messaging_client": "23.0.0"
+      },
+      "firebase-perf.properties": {
+        "version": "19.0.8",
+        "client": "firebase-perf",
+        "firebase-perf_client": "19.0.8"
+      },
+      "image.properties": {
+        "version": "1.0.0-beta1",
+        "client": "image",
+        "image_client": "1.0.0-beta1"
+      },
+      "integrity.properties": {
+        "version": "1.3.0",
+        "client": "integrity",
+        "integrity_client": "1.3.0"
+      },
+      "object-detection-common.properties": {
+        "version": "18.0.0",
+        "client": "object-detection-common",
+        "object-detection-common_client": "18.0.0"
+      },
+      "object-detection.properties": {
+        "version": "17.0.2",
+        "client": "object-detection",
+        "object-detection_client": "17.0.2"
+      },
+      "play-services-ads-base.properties": {
+        "version": "23.6.0",
+        "client": "play-services-ads-base",
+        "play-services-ads-base_client": "23.6.0"
+      },
+      "play-services-ads-identifier.properties": {
+        "version": "18.0.1",
+        "client": "play-services-ads-identifier",
+        "play-services-ads-identifier_client": "18.0.1"
+      },
+      "play-services-ads-lite.properties": {
+        "version": "23.6.0",
+        "client": "play-services-ads-lite",
+        "play-services-ads-lite_client": "23.6.0"
+      },
+      "play-services-ads.properties": {
+        "version": "23.6.0",
+        "client": "play-services-ads",
+        "play-services-ads_client": "23.6.0"
+      },
+      "play-services-analytics-impl.properties": {
+        "version": "18.0.2",
+        "client": "play-services-analytics-impl",
+        "play-services-analytics-impl_client": "18.0.2"
+      },
+      "play-services-appset.properties": {
+        "version": "16.0.1",
+        "client": "play-services-appset",
+        "play-services-appset_client": "16.0.1"
+      },
+      "play-services-auth-api-phone.properties": {
+        "version": "17.4.0",
+        "client": "play-services-auth-api-phone",
+        "play-services-auth-api-phone_client": "17.4.0"
+      },
+      "play-services-base.properties": {
+        "version": "18.5.0",
+        "client": "play-services-base",
+        "play-services-base_client": "18.5.0"
+      },
+      "play-services-basement.properties": {
+        "version": "18.9.0",
+        "client": "play-services-basement",
+        "play-services-basement_client": "18.9.0"
+      },
+      "play-services-clearcut.properties": {
+        "version": "17.0.0",
+        "client": "play-services-clearcut",
+        "play-services-clearcut_client": "17.0.0"
+      },
+      "play-services-cloud-messaging.properties": {
+        "version": "17.0.0",
+        "client": "play-services-cloud-messaging",
+        "play-services-cloud-messaging_client": "17.0.0"
+      },
+      "play-services-flags.properties": {
+        "version": "17.0.0",
+        "client": "play-services-flags",
+        "play-services-flags_client": "17.0.0"
+      },
+      "play-services-identity.properties": {
+        "version": "18.1.0",
+        "client": "play-services-identity",
+        "play-services-identity_client": "18.1.0"
+      },
+      "play-services-location.properties": {
+        "version": "19.0.1",
+        "client": "play-services-location",
+        "play-services-location_client": "19.0.1"
+      },
+      "play-services-maps.properties": {
+        "version": "18.0.2",
+        "client": "play-services-maps",
+        "play-services-maps_client": "18.0.2"
+      },
+      "play-services-measurement-api.properties": {
+        "version": "22.0.2",
+        "client": "play-services-measurement-api",
+        "play-services-measurement-api_client": "22.0.2"
+      },
+      "play-services-measurement-base.properties": {
+        "version": "22.0.2",
+        "client": "play-services-measurement-base",
+        "play-services-measurement-base_client": "22.0.2"
+      },
+      "play-services-measurement-impl.properties": {
+        "version": "22.0.2",
+        "client": "play-services-measurement-impl",
+        "play-services-measurement-impl_client": "22.0.2"
+      },
+      "play-services-measurement-sdk-api.properties": {
+        "version": "22.0.2",
+        "client": "play-services-measurement-sdk-api",
+        "play-services-measurement-sdk-api_client": "22.0.2"
+      },
+      "play-services-measurement-sdk.properties": {
+        "version": "22.0.2",
+        "client": "play-services-measurement-sdk",
+        "play-services-measurement-sdk_client": "22.0.2"
+      },
+      "play-services-measurement.properties": {
+        "version": "22.0.2",
+        "client": "play-services-measurement",
+        "play-services-measurement_client": "22.0.2"
+      },
+      "play-services-mlkit-barcode-scanning.properties": {
+        "version": "18.3.1",
+        "client": "play-services-mlkit-barcode-scanning",
+        "play-services-mlkit-barcode-scanning_client": "18.3.1"
+      },
+      "play-services-mlkit-face-detection.properties": {
+        "version": "17.1.0",
+        "client": "play-services-mlkit-face-detection",
+        "play-services-mlkit-face-detection_client": "17.1.0"
+      },
+      "play-services-mlkit-subject-segmentation.properties": {
+        "version": "16.0.0-beta1",
+        "client": "play-services-mlkit-subject-segmentation",
+        "play-services-mlkit-subject-segmentation_client": "16.0.0-beta1"
+      },
+      "play-services-mlkit-text-recognition-common.properties": {
+        "version": "19.1.0",
+        "client": "play-services-mlkit-text-recognition-common",
+        "play-services-mlkit-text-recognition-common_client": "19.1.0"
+      },
+      "play-services-mlkit-text-recognition.properties": {
+        "version": "19.0.1",
+        "client": "play-services-mlkit-text-recognition",
+        "play-services-mlkit-text-recognition_client": "19.0.1"
+      },
+      "play-services-phenotype.properties": {
+        "version": "17.0.0",
+        "client": "play-services-phenotype",
+        "play-services-phenotype_client": "17.0.0"
+      },
+      "play-services-places-placereport.properties": {
+        "version": "17.0.0",
+        "client": "play-services-places-placereport",
+        "play-services-places-placereport_client": "17.0.0"
+      },
+      "play-services-safetynet.properties": {
+        "version": "18.0.1",
+        "client": "play-services-safetynet",
+        "play-services-safetynet_client": "18.0.1"
+      },
+      "play-services-stats.properties": {
+        "version": "17.0.3",
+        "client": "play-services-stats",
+        "play-services-stats_client": "17.0.3"
+      },
+      "play-services-tagmanager-api.properties": {
+        "version": "18.0.2",
+        "client": "play-services-tagmanager-api",
+        "play-services-tagmanager-api_client": "18.0.2"
+      },
+      "play-services-tagmanager.properties": {
+        "version": "18.0.2",
+        "client": "play-services-tagmanager",
+        "play-services-tagmanager_client": "18.0.2"
+      },
+      "play-services-tasks.properties": {
+        "version": "18.2.0",
+        "client": "play-services-tasks",
+        "play-services-tasks_client": "18.2.0"
+      },
+      "play-services-vision-common.properties": {
+        "version": "19.0.0",
+        "client": "play-services-vision-common",
+        "play-services-vision-common_client": "19.0.0"
+      },
+      "play-services-vision.properties": {
+        "version": "19.0.0",
+        "client": "play-services-vision",
+        "play-services-vision_client": "19.0.0"
+      },
+      "play-services-wallet.properties": {
+        "version": "19.4.0",
+        "client": "play-services-wallet",
+        "play-services-wallet_client": "19.4.0"
+      },
+      "review-ktx.properties": {
+        "version": "2.0.2",
+        "client": "review-ktx",
+        "review-ktx_client": "2.0.2"
+      },
+      "review.properties": {
+        "version": "2.0.2",
+        "client": "review",
+        "review_client": "2.0.2"
+      },
+      "text-recognition-bundled-common.properties": {
+        "version": "17.0.0",
+        "client": "text-recognition-bundled-common",
+        "text-recognition-bundled-common_client": "17.0.0"
+      },
+      "text-recognition.properties": {
+        "version": "16.0.1",
+        "client": "text-recognition",
+        "text-recognition_client": "16.0.1"
+      },
+      "user-messaging-platform.properties": {
+        "version": "3.0.0",
+        "client": "user-messaging-platform",
+        "user-messaging-platform_client": "3.0.0"
+      },
+      "vision-common.properties": {
+        "version": "17.3.0",
+        "client": "vision-common",
+        "vision-common_client": "17.3.0"
+      },
+      "vision-interfaces.properties": {
+        "version": "16.3.0",
+        "client": "vision-interfaces",
+        "vision-interfaces_client": "16.3.0"
+      },
+      "vision-internal-vkp.properties": {
+        "version": "18.2.3",
+        "client": "vision-internal-vkp",
+        "vision-internal-vkp_client": "18.2.3"
+      }
+    },
+    "meta_inf_services_count": 16,
+    "meta_inf_services": {
+      "Eh.g": [
+        "kh.k",
+        "kh.i",
+        "kh.s"
+      ],
+      "K6.d": [
+        "K6.d"
+      ],
+      "K6.h": [
+        "Q6.k"
+      ],
+      "Ug.c": [
+        "Ph.b"
+      ],
+      "com.google.protobuf.GeneratedExtensionRegistryLoader": [
+        "com.google.protobuf.java_com_google_android_gmscore_sdk_target_granule__proguard_group_gtm_N1281923064GeneratedExtensionRegistryLite$Loader"
+      ],
+      "gi.H": [
+        "hi.b"
+      ],
+      "hx.d": [
+        "Mr.a"
+      ],
+      "hx.h": [
+        "IC.a"
+      ],
+      "hx.j": [
+        "gE.a"
+      ],
+      "hx.l": [
+        "qC.e"
+      ],
+      "hx.m": [
+        "gE.b"
+      ],
+      "ih.p": [
+        "jh.d"
+      ],
+      "java.security.Provider": [
+        "org.bouncycastle.jce.provider.BouncyCastleProvider",
+        "org.bouncycastle.pqc.jcajce.provider.BouncyCastlePQCProvider"
+      ],
+      "javax.annotation.processing.Processor": [
+        "Ca.a"
+      ],
+      "li.m": [
+        "hi.a"
+      ],
+      "px.a": [
+        "iP.a"
+      ]
+    }
+  }
+}

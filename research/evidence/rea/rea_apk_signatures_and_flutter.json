@@ -1,0 +1,1138 @@
+{
+  "config.armeabi_v7a.apk": {
+    "signature": {
+      "evidence_id": "ev_14e03b9dbc64cb02f90dd638987dc6c2d6d4f4e9930e2ead09a6bf1137adaa89",
+      "evidence_format": 2,
+      "subject": {
+        "identity": {
+          "kind": "file",
+          "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+          "selection": null,
+          "format": "apk",
+          "architecture": null
+        },
+        "name": "config.armeabi_v7a.apk",
+        "local_path": "/tmp/zalopay_re/xapk/config.armeabi_v7a.apk"
+      },
+      "provider": {
+        "id": "apk-signature",
+        "name": "REA APK signature reader",
+        "version": null
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_apk_signature",
+      "parameters": {
+        "path": "/tmp/zalopay_re/xapk/config.armeabi_v7a.apk"
+      },
+      "raw_result": null,
+      "normalized_result": {
+        "artifact": {
+          "path": "/tmp/zalopay_re/xapk/config.armeabi_v7a.apk",
+          "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+          "bytes": 24828408
+        },
+        "schemes": {
+          "v1": {
+            "present": true,
+            "has_manifest": true,
+            "signature_files": [
+              "META-INF/BNDLTOOL.SF"
+            ],
+            "block_files": [
+              "META-INF/BNDLTOOL.RSA"
+            ],
+            "signers": [
+              {
+                "signature_file": "META-INF/BNDLTOOL.SF",
+                "block_file": "META-INF/BNDLTOOL.RSA",
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "certificates": [
+                  {
+                    "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                    "subject": "CN=Vu Manh Hieu"
+                  }
+                ],
+                "signer_infos": [
+                  {
+                    "identified_by": "issuer-and-serial",
+                    "certificate_sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                    "digest_algorithm_oid": "1.3.14.3.2.26",
+                    "signature_algorithm_oid": "1.2.840.113549.1.1.1"
+                  }
+                ],
+                "decode_error": null
+              }
+            ]
+          },
+          "v2": {
+            "present": true,
+            "signers": [
+              {
+                "uninterpreted_signed_data_bytes": 4,
+                "uninterpreted_signer_bytes": 0,
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "digests": [
+                  {
+                    "uninterpreted_bytes": 0,
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "declared_digest_hex": "70d374e6f5b4bb26b50d3834d7fde5645828654a72ac9852456fe7dbc36dfc03",
+                    "matches_apk": true
+                  }
+                ],
+                "signatures": [
+                  {
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "signature_bytes": 256,
+                    "uninterpreted_bytes": 0
+                  }
+                ],
+                "public_key_bytes": 294,
+                "min_sdk": null,
+                "max_sdk": null
+              }
+            ],
+            "uninterpreted_bytes": 0
+          },
+          "v3": {
+            "present": true,
+            "signers": [
+              {
+                "uninterpreted_signed_data_bytes": 0,
+                "uninterpreted_signer_bytes": 0,
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "digests": [
+                  {
+                    "uninterpreted_bytes": 0,
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "declared_digest_hex": "70d374e6f5b4bb26b50d3834d7fde5645828654a72ac9852456fe7dbc36dfc03",
+                    "matches_apk": true
+                  }
+                ],
+                "signatures": [
+                  {
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "signature_bytes": 256,
+                    "uninterpreted_bytes": 0
+                  }
+                ],
+                "public_key_bytes": 294,
+                "min_sdk": 24,
+                "max_sdk": 2147483647,
+                "rotation": {
+                  "present": false,
+                  "lineage": [],
+                  "decode_error": null
+                }
+              }
+            ],
+            "uninterpreted_bytes": 0
+          },
+          "v3.1": {
+            "present": false,
+            "signers": [],
+            "uninterpreted_bytes": 0
+          }
+        },
+        "source_stamp": {
+          "present": true,
+          "certificate": {
+            "sha256_fingerprint": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+            "subject": "C=US\nST=California\nL=Mountain View\nO=Google Inc.\nOU=Android\nCN=Android",
+            "issuer": "C=US\nST=California\nL=Mountain View\nO=Google Inc.\nOU=Android\nCN=Android",
+            "serial_number": "BF53FABB0B4E907F8F2A22A1B0E0D77F6DEF1060",
+            "not_before": "2020-05-19T10:35:21.000Z",
+            "not_after": "2050-05-19T10:35:21.000Z",
+            "public_key_algorithm": "rsa"
+          },
+          "decode_error": null
+        },
+        "posture": {
+          "v1_only": false,
+          "schemes_agree_on_signer": true,
+          "signer_change_declared_by_rotation": false,
+          "v1_signers_match_block_signers": true,
+          "rotation_present": false,
+          "source_stamp_present": true,
+          "strongest_scheme": "v3",
+          "self_consistent": true
+        },
+        "runtime_execution": "not-performed"
+      },
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "4 bytes outside known signing fields were not interpreted; suffixes do not by themselves establish malformed signing.",
+        "Static structural inspection only. No Android code executes, no device or adb is involved, and odex/vdex/oat/cdex are not read.",
+        "No signature is verified: signer, rotation-lineage and source-stamp signatures are NOT cryptographically checked, and certificate chains, revocation and authenticity are NOT evaluated. Certificates and lineages are what the APK declares.",
+        "matches_apk and self_consistent only show that the declared content digest equals the digest of the current bytes. This is not a signature verification: anyone who changes the bytes can recompute the digest and write it into the signed data. SHA-256 identifies the exact bytes, not the producer.",
+        "v1 signers are what each signature block's outer PKCS#7 SignedData declares. Signer unsigned attributes, including nested signatures and timestamps, are not decoded; signatures, the .SF and MANIFEST.MF digests and entry coverage are NOT verified.",
+        "Not read: v4 .apk.idsig, verity digests (matches_apk null), and the v1 X-Android-APK-Signed marker, so v1_only cannot distinguish a v1-only APK from one whose v2/v3 block was removed."
+      ],
+      "relationship_coverage": null,
+      "locations": [
+        {
+          "kind": "artifact-path",
+          "path": "/tmp/zalopay_re/xapk/config.armeabi_v7a.apk"
+        }
+      ],
+      "evidence_links": [],
+      "caller_input_path": "/tmp/zalopay_re/xapk/config.armeabi_v7a.apk"
+    },
+    "flutter": {
+      "evidence_id": "ev_2595ea05965785dca4ee11ca939f8ba14b807b8f5565a6394df90fb43c1da827",
+      "evidence_format": 2,
+      "subject": {
+        "identity": {
+          "kind": "file",
+          "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+          "selection": null,
+          "format": "apk",
+          "architecture": null
+        },
+        "name": "config.armeabi_v7a.apk",
+        "local_path": "/tmp/zalopay_re/xapk/config.armeabi_v7a.apk"
+      },
+      "provider": {
+        "id": "flutter",
+        "name": "Flutter build identification",
+        "version": null
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "identify_flutter_build",
+      "parameters": {
+        "path": "/tmp/zalopay_re/xapk/config.armeabi_v7a.apk"
+      },
+      "raw_result": null,
+      "normalized_result": {
+        "target": {
+          "path": "/tmp/zalopay_re/xapk/config.armeabi_v7a.apk",
+          "bytes": 24828408,
+          "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b"
+        },
+        "flutter_detected": false,
+        "abis": [],
+        "coverage": "complete"
+      },
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "The APK is read through an owned read-only snapshot; concurrent changes to the original cannot mix into this observation",
+        "The snapshot hash identifies a Dart SDK build only against an external mapping dataset; REA performs no lookup",
+        "Unlabeled Dart version values are identified by their printable-string shape, not a symbol or other source identity; a matching unrelated string may be reported and a null value means no supported pattern was found",
+        "Engine build IDs come only from ELF-declared PT_NOTE/SHT_NOTE records; conflicting or incompletely examined notes preserve candidates and report partial coverage",
+        "The snapshot hash sits 20 bytes after each snapshot magic in the AOT payload; findings are observations of that layout",
+        "ELF header validity checks the supported header layout and declared table extents; identification does not resolve symbols or validate table contents",
+        "No lib/*/libapp.so was found; the target does not carry a Flutter AOT payload"
+      ],
+      "relationship_coverage": null,
+      "locations": [
+        {
+          "kind": "artifact-path",
+          "path": "/tmp/zalopay_re/xapk/config.armeabi_v7a.apk"
+        }
+      ],
+      "evidence_links": [],
+      "caller_input_path": "/tmp/zalopay_re/xapk/config.armeabi_v7a.apk"
+    }
+  },
+  "config.en.apk": {
+    "signature": {
+      "evidence_id": "ev_e7e6ca76464309f23578109969fbbb4905a9ebf18e47ad35fdcb383c315dcc3a",
+      "evidence_format": 2,
+      "subject": {
+        "identity": {
+          "kind": "file",
+          "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+          "selection": null,
+          "format": "apk",
+          "architecture": null
+        },
+        "name": "config.en.apk",
+        "local_path": "/tmp/zalopay_re/xapk/config.en.apk"
+      },
+      "provider": {
+        "id": "apk-signature",
+        "name": "REA APK signature reader",
+        "version": null
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_apk_signature",
+      "parameters": {
+        "path": "/tmp/zalopay_re/xapk/config.en.apk"
+      },
+      "raw_result": null,
+      "normalized_result": {
+        "artifact": {
+          "path": "/tmp/zalopay_re/xapk/config.en.apk",
+          "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+          "bytes": 74137
+        },
+        "schemes": {
+          "v1": {
+            "present": true,
+            "has_manifest": true,
+            "signature_files": [
+              "META-INF/BNDLTOOL.SF"
+            ],
+            "block_files": [
+              "META-INF/BNDLTOOL.RSA"
+            ],
+            "signers": [
+              {
+                "signature_file": "META-INF/BNDLTOOL.SF",
+                "block_file": "META-INF/BNDLTOOL.RSA",
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "certificates": [
+                  {
+                    "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                    "subject": "CN=Vu Manh Hieu"
+                  }
+                ],
+                "signer_infos": [
+                  {
+                    "identified_by": "issuer-and-serial",
+                    "certificate_sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                    "digest_algorithm_oid": "1.3.14.3.2.26",
+                    "signature_algorithm_oid": "1.2.840.113549.1.1.1"
+                  }
+                ],
+                "decode_error": null
+              }
+            ]
+          },
+          "v2": {
+            "present": true,
+            "signers": [
+              {
+                "uninterpreted_signed_data_bytes": 4,
+                "uninterpreted_signer_bytes": 0,
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "digests": [
+                  {
+                    "uninterpreted_bytes": 0,
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "declared_digest_hex": "fca62d69a6619b64adf09ca116b37bb0702b7989053bdbb2894c458a9bac1d2d",
+                    "matches_apk": true
+                  }
+                ],
+                "signatures": [
+                  {
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "signature_bytes": 256,
+                    "uninterpreted_bytes": 0
+                  }
+                ],
+                "public_key_bytes": 294,
+                "min_sdk": null,
+                "max_sdk": null
+              }
+            ],
+            "uninterpreted_bytes": 0
+          },
+          "v3": {
+            "present": true,
+            "signers": [
+              {
+                "uninterpreted_signed_data_bytes": 0,
+                "uninterpreted_signer_bytes": 0,
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "digests": [
+                  {
+                    "uninterpreted_bytes": 0,
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "declared_digest_hex": "fca62d69a6619b64adf09ca116b37bb0702b7989053bdbb2894c458a9bac1d2d",
+                    "matches_apk": true
+                  }
+                ],
+                "signatures": [
+                  {
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "signature_bytes": 256,
+                    "uninterpreted_bytes": 0
+                  }
+                ],
+                "public_key_bytes": 294,
+                "min_sdk": 24,
+                "max_sdk": 2147483647,
+                "rotation": {
+                  "present": false,
+                  "lineage": [],
+                  "decode_error": null
+                }
+              }
+            ],
+            "uninterpreted_bytes": 0
+          },
+          "v3.1": {
+            "present": false,
+            "signers": [],
+            "uninterpreted_bytes": 0
+          }
+        },
+        "source_stamp": {
+          "present": true,
+          "certificate": {
+            "sha256_fingerprint": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+            "subject": "C=US\nST=California\nL=Mountain View\nO=Google Inc.\nOU=Android\nCN=Android",
+            "issuer": "C=US\nST=California\nL=Mountain View\nO=Google Inc.\nOU=Android\nCN=Android",
+            "serial_number": "BF53FABB0B4E907F8F2A22A1B0E0D77F6DEF1060",
+            "not_before": "2020-05-19T10:35:21.000Z",
+            "not_after": "2050-05-19T10:35:21.000Z",
+            "public_key_algorithm": "rsa"
+          },
+          "decode_error": null
+        },
+        "posture": {
+          "v1_only": false,
+          "schemes_agree_on_signer": true,
+          "signer_change_declared_by_rotation": false,
+          "v1_signers_match_block_signers": true,
+          "rotation_present": false,
+          "source_stamp_present": true,
+          "strongest_scheme": "v3",
+          "self_consistent": true
+        },
+        "runtime_execution": "not-performed"
+      },
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "4 bytes outside known signing fields were not interpreted; suffixes do not by themselves establish malformed signing.",
+        "Static structural inspection only. No Android code executes, no device or adb is involved, and odex/vdex/oat/cdex are not read.",
+        "No signature is verified: signer, rotation-lineage and source-stamp signatures are NOT cryptographically checked, and certificate chains, revocation and authenticity are NOT evaluated. Certificates and lineages are what the APK declares.",
+        "matches_apk and self_consistent only show that the declared content digest equals the digest of the current bytes. This is not a signature verification: anyone who changes the bytes can recompute the digest and write it into the signed data. SHA-256 identifies the exact bytes, not the producer.",
+        "v1 signers are what each signature block's outer PKCS#7 SignedData declares. Signer unsigned attributes, including nested signatures and timestamps, are not decoded; signatures, the .SF and MANIFEST.MF digests and entry coverage are NOT verified.",
+        "Not read: v4 .apk.idsig, verity digests (matches_apk null), and the v1 X-Android-APK-Signed marker, so v1_only cannot distinguish a v1-only APK from one whose v2/v3 block was removed."
+      ],
+      "relationship_coverage": null,
+      "locations": [
+        {
+          "kind": "artifact-path",
+          "path": "/tmp/zalopay_re/xapk/config.en.apk"
+        }
+      ],
+      "evidence_links": [],
+      "caller_input_path": "/tmp/zalopay_re/xapk/config.en.apk"
+    },
+    "flutter": null
+  },
+  "config.vi.apk": {
+    "signature": {
+      "evidence_id": "ev_54d649650777a439cfdb0a0448659472b18f7718e064b14c31bc0dd826bf4fb9",
+      "evidence_format": 2,
+      "subject": {
+        "identity": {
+          "kind": "file",
+          "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+          "selection": null,
+          "format": "apk",
+          "architecture": null
+        },
+        "name": "config.vi.apk",
+        "local_path": "/tmp/zalopay_re/xapk/config.vi.apk"
+      },
+      "provider": {
+        "id": "apk-signature",
+        "name": "REA APK signature reader",
+        "version": null
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_apk_signature",
+      "parameters": {
+        "path": "/tmp/zalopay_re/xapk/config.vi.apk"
+      },
+      "raw_result": null,
+      "normalized_result": {
+        "artifact": {
+          "path": "/tmp/zalopay_re/xapk/config.vi.apk",
+          "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+          "bytes": 86425
+        },
+        "schemes": {
+          "v1": {
+            "present": true,
+            "has_manifest": true,
+            "signature_files": [
+              "META-INF/BNDLTOOL.SF"
+            ],
+            "block_files": [
+              "META-INF/BNDLTOOL.RSA"
+            ],
+            "signers": [
+              {
+                "signature_file": "META-INF/BNDLTOOL.SF",
+                "block_file": "META-INF/BNDLTOOL.RSA",
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "certificates": [
+                  {
+                    "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                    "subject": "CN=Vu Manh Hieu"
+                  }
+                ],
+                "signer_infos": [
+                  {
+                    "identified_by": "issuer-and-serial",
+                    "certificate_sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                    "digest_algorithm_oid": "1.3.14.3.2.26",
+                    "signature_algorithm_oid": "1.2.840.113549.1.1.1"
+                  }
+                ],
+                "decode_error": null
+              }
+            ]
+          },
+          "v2": {
+            "present": true,
+            "signers": [
+              {
+                "uninterpreted_signed_data_bytes": 4,
+                "uninterpreted_signer_bytes": 0,
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "digests": [
+                  {
+                    "uninterpreted_bytes": 0,
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "declared_digest_hex": "4ca4ea9f9e7b8153d418b580d4dfd6de5f5c57770b662ccec0aac07fcaf40ed5",
+                    "matches_apk": true
+                  }
+                ],
+                "signatures": [
+                  {
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "signature_bytes": 256,
+                    "uninterpreted_bytes": 0
+                  }
+                ],
+                "public_key_bytes": 294,
+                "min_sdk": null,
+                "max_sdk": null
+              }
+            ],
+            "uninterpreted_bytes": 0
+          },
+          "v3": {
+            "present": true,
+            "signers": [
+              {
+                "uninterpreted_signed_data_bytes": 0,
+                "uninterpreted_signer_bytes": 0,
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "digests": [
+                  {
+                    "uninterpreted_bytes": 0,
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "declared_digest_hex": "4ca4ea9f9e7b8153d418b580d4dfd6de5f5c57770b662ccec0aac07fcaf40ed5",
+                    "matches_apk": true
+                  }
+                ],
+                "signatures": [
+                  {
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "signature_bytes": 256,
+                    "uninterpreted_bytes": 0
+                  }
+                ],
+                "public_key_bytes": 294,
+                "min_sdk": 24,
+                "max_sdk": 2147483647,
+                "rotation": {
+                  "present": false,
+                  "lineage": [],
+                  "decode_error": null
+                }
+              }
+            ],
+            "uninterpreted_bytes": 0
+          },
+          "v3.1": {
+            "present": false,
+            "signers": [],
+            "uninterpreted_bytes": 0
+          }
+        },
+        "source_stamp": {
+          "present": true,
+          "certificate": {
+            "sha256_fingerprint": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+            "subject": "C=US\nST=California\nL=Mountain View\nO=Google Inc.\nOU=Android\nCN=Android",
+            "issuer": "C=US\nST=California\nL=Mountain View\nO=Google Inc.\nOU=Android\nCN=Android",
+            "serial_number": "BF53FABB0B4E907F8F2A22A1B0E0D77F6DEF1060",
+            "not_before": "2020-05-19T10:35:21.000Z",
+            "not_after": "2050-05-19T10:35:21.000Z",
+            "public_key_algorithm": "rsa"
+          },
+          "decode_error": null
+        },
+        "posture": {
+          "v1_only": false,
+          "schemes_agree_on_signer": true,
+          "signer_change_declared_by_rotation": false,
+          "v1_signers_match_block_signers": true,
+          "rotation_present": false,
+          "source_stamp_present": true,
+          "strongest_scheme": "v3",
+          "self_consistent": true
+        },
+        "runtime_execution": "not-performed"
+      },
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "4 bytes outside known signing fields were not interpreted; suffixes do not by themselves establish malformed signing.",
+        "Static structural inspection only. No Android code executes, no device or adb is involved, and odex/vdex/oat/cdex are not read.",
+        "No signature is verified: signer, rotation-lineage and source-stamp signatures are NOT cryptographically checked, and certificate chains, revocation and authenticity are NOT evaluated. Certificates and lineages are what the APK declares.",
+        "matches_apk and self_consistent only show that the declared content digest equals the digest of the current bytes. This is not a signature verification: anyone who changes the bytes can recompute the digest and write it into the signed data. SHA-256 identifies the exact bytes, not the producer.",
+        "v1 signers are what each signature block's outer PKCS#7 SignedData declares. Signer unsigned attributes, including nested signatures and timestamps, are not decoded; signatures, the .SF and MANIFEST.MF digests and entry coverage are NOT verified.",
+        "Not read: v4 .apk.idsig, verity digests (matches_apk null), and the v1 X-Android-APK-Signed marker, so v1_only cannot distinguish a v1-only APK from one whose v2/v3 block was removed."
+      ],
+      "relationship_coverage": null,
+      "locations": [
+        {
+          "kind": "artifact-path",
+          "path": "/tmp/zalopay_re/xapk/config.vi.apk"
+        }
+      ],
+      "evidence_links": [],
+      "caller_input_path": "/tmp/zalopay_re/xapk/config.vi.apk"
+    },
+    "flutter": null
+  },
+  "config.xhdpi.apk": {
+    "signature": {
+      "evidence_id": "ev_57707b27e35911cbdfbf867334c5be5ff17fb5cb7400222426cd1d7893404562",
+      "evidence_format": 2,
+      "subject": {
+        "identity": {
+          "kind": "file",
+          "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+          "selection": null,
+          "format": "apk",
+          "architecture": null
+        },
+        "name": "config.xhdpi.apk",
+        "local_path": "/tmp/zalopay_re/xapk/config.xhdpi.apk"
+      },
+      "provider": {
+        "id": "apk-signature",
+        "name": "REA APK signature reader",
+        "version": null
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_apk_signature",
+      "parameters": {
+        "path": "/tmp/zalopay_re/xapk/config.xhdpi.apk"
+      },
+      "raw_result": null,
+      "normalized_result": {
+        "artifact": {
+          "path": "/tmp/zalopay_re/xapk/config.xhdpi.apk",
+          "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+          "bytes": 1232563
+        },
+        "schemes": {
+          "v1": {
+            "present": true,
+            "has_manifest": true,
+            "signature_files": [
+              "META-INF/BNDLTOOL.SF"
+            ],
+            "block_files": [
+              "META-INF/BNDLTOOL.RSA"
+            ],
+            "signers": [
+              {
+                "signature_file": "META-INF/BNDLTOOL.SF",
+                "block_file": "META-INF/BNDLTOOL.RSA",
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "certificates": [
+                  {
+                    "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                    "subject": "CN=Vu Manh Hieu"
+                  }
+                ],
+                "signer_infos": [
+                  {
+                    "identified_by": "issuer-and-serial",
+                    "certificate_sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                    "digest_algorithm_oid": "1.3.14.3.2.26",
+                    "signature_algorithm_oid": "1.2.840.113549.1.1.1"
+                  }
+                ],
+                "decode_error": null
+              }
+            ]
+          },
+          "v2": {
+            "present": true,
+            "signers": [
+              {
+                "uninterpreted_signed_data_bytes": 4,
+                "uninterpreted_signer_bytes": 0,
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "digests": [
+                  {
+                    "uninterpreted_bytes": 0,
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "declared_digest_hex": "067c75b55ee0f7b8e06a0793f41636d2806e7846c70e6f32aaf54b1be6bd6cbe",
+                    "matches_apk": true
+                  }
+                ],
+                "signatures": [
+                  {
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "signature_bytes": 256,
+                    "uninterpreted_bytes": 0
+                  }
+                ],
+                "public_key_bytes": 294,
+                "min_sdk": null,
+                "max_sdk": null
+              }
+            ],
+            "uninterpreted_bytes": 0
+          },
+          "v3": {
+            "present": true,
+            "signers": [
+              {
+                "uninterpreted_signed_data_bytes": 0,
+                "uninterpreted_signer_bytes": 0,
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "digests": [
+                  {
+                    "uninterpreted_bytes": 0,
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "declared_digest_hex": "067c75b55ee0f7b8e06a0793f41636d2806e7846c70e6f32aaf54b1be6bd6cbe",
+                    "matches_apk": true
+                  }
+                ],
+                "signatures": [
+                  {
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "signature_bytes": 256,
+                    "uninterpreted_bytes": 0
+                  }
+                ],
+                "public_key_bytes": 294,
+                "min_sdk": 24,
+                "max_sdk": 2147483647,
+                "rotation": {
+                  "present": false,
+                  "lineage": [],
+                  "decode_error": null
+                }
+              }
+            ],
+            "uninterpreted_bytes": 0
+          },
+          "v3.1": {
+            "present": false,
+            "signers": [],
+            "uninterpreted_bytes": 0
+          }
+        },
+        "source_stamp": {
+          "present": true,
+          "certificate": {
+            "sha256_fingerprint": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+            "subject": "C=US\nST=California\nL=Mountain View\nO=Google Inc.\nOU=Android\nCN=Android",
+            "issuer": "C=US\nST=California\nL=Mountain View\nO=Google Inc.\nOU=Android\nCN=Android",
+            "serial_number": "BF53FABB0B4E907F8F2A22A1B0E0D77F6DEF1060",
+            "not_before": "2020-05-19T10:35:21.000Z",
+            "not_after": "2050-05-19T10:35:21.000Z",
+            "public_key_algorithm": "rsa"
+          },
+          "decode_error": null
+        },
+        "posture": {
+          "v1_only": false,
+          "schemes_agree_on_signer": true,
+          "signer_change_declared_by_rotation": false,
+          "v1_signers_match_block_signers": true,
+          "rotation_present": false,
+          "source_stamp_present": true,
+          "strongest_scheme": "v3",
+          "self_consistent": true
+        },
+        "runtime_execution": "not-performed"
+      },
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "4 bytes outside known signing fields were not interpreted; suffixes do not by themselves establish malformed signing.",
+        "Static structural inspection only. No Android code executes, no device or adb is involved, and odex/vdex/oat/cdex are not read.",
+        "No signature is verified: signer, rotation-lineage and source-stamp signatures are NOT cryptographically checked, and certificate chains, revocation and authenticity are NOT evaluated. Certificates and lineages are what the APK declares.",
+        "matches_apk and self_consistent only show that the declared content digest equals the digest of the current bytes. This is not a signature verification: anyone who changes the bytes can recompute the digest and write it into the signed data. SHA-256 identifies the exact bytes, not the producer.",
+        "v1 signers are what each signature block's outer PKCS#7 SignedData declares. Signer unsigned attributes, including nested signatures and timestamps, are not decoded; signatures, the .SF and MANIFEST.MF digests and entry coverage are NOT verified.",
+        "Not read: v4 .apk.idsig, verity digests (matches_apk null), and the v1 X-Android-APK-Signed marker, so v1_only cannot distinguish a v1-only APK from one whose v2/v3 block was removed."
+      ],
+      "relationship_coverage": null,
+      "locations": [
+        {
+          "kind": "artifact-path",
+          "path": "/tmp/zalopay_re/xapk/config.xhdpi.apk"
+        }
+      ],
+      "evidence_links": [],
+      "caller_input_path": "/tmp/zalopay_re/xapk/config.xhdpi.apk"
+    },
+    "flutter": null
+  },
+  "vn.com.vng.zalopay.apk": {
+    "signature": {
+      "evidence_id": "ev_82bcddaf0c47e7d1acfb5e44a31bc9a8fafb4708a7c3efa970f92f3fd4455d47",
+      "evidence_format": 2,
+      "subject": {
+        "identity": {
+          "kind": "file",
+          "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+          "selection": null,
+          "format": "apk",
+          "architecture": null
+        },
+        "name": "vn.com.vng.zalopay.apk",
+        "local_path": "/tmp/zalopay_re/xapk/vn.com.vng.zalopay.apk"
+      },
+      "provider": {
+        "id": "apk-signature",
+        "name": "REA APK signature reader",
+        "version": null
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_apk_signature",
+      "parameters": {
+        "path": "/tmp/zalopay_re/xapk/vn.com.vng.zalopay.apk"
+      },
+      "raw_result": null,
+      "normalized_result": {
+        "artifact": {
+          "path": "/tmp/zalopay_re/xapk/vn.com.vng.zalopay.apk",
+          "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+          "bytes": 79359087
+        },
+        "schemes": {
+          "v1": {
+            "present": false,
+            "has_manifest": false,
+            "signature_files": [],
+            "block_files": [],
+            "signers": []
+          },
+          "v2": {
+            "present": true,
+            "signers": [
+              {
+                "uninterpreted_signed_data_bytes": 4,
+                "uninterpreted_signer_bytes": 0,
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "digests": [
+                  {
+                    "uninterpreted_bytes": 0,
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "declared_digest_hex": "978979daae85083cf7a4b555557275b44fa57f8cdf577c5761e62b8944774e07",
+                    "matches_apk": true
+                  }
+                ],
+                "signatures": [
+                  {
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "signature_bytes": 256,
+                    "uninterpreted_bytes": 0
+                  }
+                ],
+                "public_key_bytes": 294,
+                "min_sdk": null,
+                "max_sdk": null
+              }
+            ],
+            "uninterpreted_bytes": 0
+          },
+          "v3": {
+            "present": true,
+            "signers": [
+              {
+                "uninterpreted_signed_data_bytes": 0,
+                "uninterpreted_signer_bytes": 0,
+                "certificate": {
+                  "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+                  "subject": "CN=Vu Manh Hieu",
+                  "issuer": "CN=Vu Manh Hieu",
+                  "serial_number": "153EA9FD",
+                  "not_before": "2016-04-21T15:41:14.000Z",
+                  "not_after": "2041-04-15T15:41:14.000Z",
+                  "public_key_algorithm": "rsa"
+                },
+                "digests": [
+                  {
+                    "uninterpreted_bytes": 0,
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "declared_digest_hex": "978979daae85083cf7a4b555557275b44fa57f8cdf577c5761e62b8944774e07",
+                    "matches_apk": true
+                  }
+                ],
+                "signatures": [
+                  {
+                    "signature_algorithm_id": 259,
+                    "algorithm": "sha256",
+                    "signature_bytes": 256,
+                    "uninterpreted_bytes": 0
+                  }
+                ],
+                "public_key_bytes": 294,
+                "min_sdk": 24,
+                "max_sdk": 2147483647,
+                "rotation": {
+                  "present": false,
+                  "lineage": [],
+                  "decode_error": null
+                }
+              }
+            ],
+            "uninterpreted_bytes": 0
+          },
+          "v3.1": {
+            "present": false,
+            "signers": [],
+            "uninterpreted_bytes": 0
+          }
+        },
+        "source_stamp": {
+          "present": true,
+          "certificate": {
+            "sha256_fingerprint": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d",
+            "subject": "C=US\nST=California\nL=Mountain View\nO=Google Inc.\nOU=Android\nCN=Android",
+            "issuer": "C=US\nST=California\nL=Mountain View\nO=Google Inc.\nOU=Android\nCN=Android",
+            "serial_number": "BF53FABB0B4E907F8F2A22A1B0E0D77F6DEF1060",
+            "not_before": "2020-05-19T10:35:21.000Z",
+            "not_after": "2050-05-19T10:35:21.000Z",
+            "public_key_algorithm": "rsa"
+          },
+          "decode_error": null
+        },
+        "posture": {
+          "v1_only": false,
+          "schemes_agree_on_signer": true,
+          "signer_change_declared_by_rotation": false,
+          "v1_signers_match_block_signers": null,
+          "rotation_present": false,
+          "source_stamp_present": true,
+          "strongest_scheme": "v3",
+          "self_consistent": true
+        },
+        "runtime_execution": "not-performed"
+      },
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "4 bytes outside known signing fields were not interpreted; suffixes do not by themselves establish malformed signing.",
+        "Static structural inspection only. No Android code executes, no device or adb is involved, and odex/vdex/oat/cdex are not read.",
+        "No signature is verified: signer, rotation-lineage and source-stamp signatures are NOT cryptographically checked, and certificate chains, revocation and authenticity are NOT evaluated. Certificates and lineages are what the APK declares.",
+        "matches_apk and self_consistent only show that the declared content digest equals the digest of the current bytes. This is not a signature verification: anyone who changes the bytes can recompute the digest and write it into the signed data. SHA-256 identifies the exact bytes, not the producer.",
+        "v1 signers are what each signature block's outer PKCS#7 SignedData declares. Signer unsigned attributes, including nested signatures and timestamps, are not decoded; signatures, the .SF and MANIFEST.MF digests and entry coverage are NOT verified.",
+        "Not read: v4 .apk.idsig, verity digests (matches_apk null), and the v1 X-Android-APK-Signed marker, so v1_only cannot distinguish a v1-only APK from one whose v2/v3 block was removed."
+      ],
+      "relationship_coverage": null,
+      "locations": [
+        {
+          "kind": "artifact-path",
+          "path": "/tmp/zalopay_re/xapk/vn.com.vng.zalopay.apk"
+        }
+      ],
+      "evidence_links": [],
+      "caller_input_path": "/tmp/zalopay_re/xapk/vn.com.vng.zalopay.apk"
+    },
+    "flutter": {
+      "evidence_id": "ev_5a2d5c93fb7a163126274d79c3052e1fe794e9e08dcefce74e43933076292d87",
+      "evidence_format": 2,
+      "subject": {
+        "identity": {
+          "kind": "file",
+          "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+          "selection": null,
+          "format": "apk",
+          "architecture": null
+        },
+        "name": "vn.com.vng.zalopay.apk",
+        "local_path": "/tmp/zalopay_re/xapk/vn.com.vng.zalopay.apk"
+      },
+      "provider": {
+        "id": "flutter",
+        "name": "Flutter build identification",
+        "version": null
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "identify_flutter_build",
+      "parameters": {
+        "path": "/tmp/zalopay_re/xapk/vn.com.vng.zalopay.apk"
+      },
+      "raw_result": null,
+      "normalized_result": {
+        "target": {
+          "path": "/tmp/zalopay_re/xapk/vn.com.vng.zalopay.apk",
+          "bytes": 79359087,
+          "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03"
+        },
+        "flutter_detected": false,
+        "abis": [],
+        "coverage": "complete"
+      },
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "The APK is read through an owned read-only snapshot; concurrent changes to the original cannot mix into this observation",
+        "The snapshot hash identifies a Dart SDK build only against an external mapping dataset; REA performs no lookup",
+        "Unlabeled Dart version values are identified by their printable-string shape, not a symbol or other source identity; a matching unrelated string may be reported and a null value means no supported pattern was found",
+        "Engine build IDs come only from ELF-declared PT_NOTE/SHT_NOTE records; conflicting or incompletely examined notes preserve candidates and report partial coverage",
+        "The snapshot hash sits 20 bytes after each snapshot magic in the AOT payload; findings are observations of that layout",
+        "ELF header validity checks the supported header layout and declared table extents; identification does not resolve symbols or validate table contents",
+        "No lib/*/libapp.so was found; the target does not carry a Flutter AOT payload"
+      ],
+      "relationship_coverage": null,
+      "locations": [
+        {
+          "kind": "artifact-path",
+          "path": "/tmp/zalopay_re/xapk/vn.com.vng.zalopay.apk"
+        }
+      ],
+      "evidence_links": [],
+      "caller_input_path": "/tmp/zalopay_re/xapk/vn.com.vng.zalopay.apk"
+    }
+  }
+}

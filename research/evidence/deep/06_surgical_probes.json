@@ -1,0 +1,4499 @@
+{
+  "js_and_griver": {
+    "react_native_bundle": {
+      "main_jsbundle_bytes": 3613478,
+      "sha256": "c6a70c55c4f99567db2911c13ec63359b80c526261d19882a5837444e4970ca1",
+      "metro_module_define_count": 2346,
+      "header_preview": "var __DEV__=false,__BUNDLE_START_TIME__=this.nativePerformanceNow?nativePerformanceNow():Date.now(),process=this.process||{};process.env=process.env||{};process.env.NODE_ENV=\"production\";\n!(function(r){\"use strict\";r.__r=o,r.__d=function(r,n,i){if(null!=e[n])return;e[n]={dependencyMap:i,factory:r,hasError:!1,importedAll:t,importedDefault:t,isInitialized:!1,publicModule:{exports:{}}}},r.__c=i,r.__r",
+      "node_modules_hints_sample": [
+        "@mini-apps/navigation",
+        "fbjs/.",
+        "fbjs/lib",
+        "fbjs/node_modules",
+        "jest-cli",
+        "react",
+        "react-native-check-box/img",
+        "react-navigation-stack/dist",
+        "react/dist",
+        "react/lib",
+        "react/node_modules",
+        "zalopay-components/src"
+      ]
+    },
+    "griver_amrs_unpacked": {
+      "66666692_1.24.8.amr": {
+        "cert_files": {
+          "files_signed": [
+            "66666692.tar",
+            "Manifest.xml"
+          ],
+          "count": 2
+        },
+        "manifest_xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<package>\n  <uid>66666692</uid>\n  <name>66666692</name>\n  <version>1.24.8</version>\n</package>",
+        "tar_members": [
+          {
+            "name": "hpmfile.json",
+            "size": 202
+          },
+          {
+            "name": "appx",
+            "size": 0
+          },
+          {
+            "name": "appx/af-appx.min.css",
+            "size": 21912
+          },
+          {
+            "name": "appx/af-appx.min.js",
+            "size": 501944
+          },
+          {
+            "name": "appx/af-appx.worker.min.js",
+            "size": 403620
+          },
+          {
+            "name": "appx/es6-promise.min.js",
+            "size": 6367
+          },
+          {
+            "name": "appx/index.html",
+            "size": 1440
+          },
+          {
+            "name": "appx/security-patch.min.js",
+            "size": 731
+          },
+          {
+            "name": "appx/web-view.min.js",
+            "size": 9095
+          },
+          {
+            "name": "appx/worker.min.js",
+            "size": 23363
+          },
+          {
+            "name": "bugme.cfg",
+            "size": 267
+          }
+        ],
+        "tar_member_count": 11
+      },
+      "66666693_2.0.7.amr": {
+        "cert_files": {
+          "files_signed": [
+            "66666693.tar",
+            "Manifest.xml"
+          ],
+          "count": 2
+        },
+        "manifest_xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<package>\n  <uid>66666693</uid>\n  <name>66666693</name>\n  <version>2.0.7</version>\n</package>",
+        "tar_members": [
+          {
+            "name": "api_permission",
+            "size": 2
+          },
+          {
+            "name": "appConfig.json",
+            "size": 134
+          },
+          {
+            "name": "index.html",
+            "size": 4439
+          },
+          {
+            "name": "index.js",
+            "size": 22462
+          },
+          {
+            "name": "index.worker.js",
+            "size": 29252
+          },
+          {
+            "name": "manifest.json",
+            "size": 74
+          },
+          {
+            "name": "package.json",
+            "size": 19
+          }
+        ],
+        "tar_member_count": 7
+      },
+      "68687209_2.9.7.8.amr": {
+        "cert_files": {
+          "files_signed": [
+            "68687209.tar",
+            "Manifest.xml"
+          ],
+          "count": 2
+        },
+        "manifest_xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<package>\n  <uid>68687209</uid>\n  <name>68687209</name>\n  <version>2.9.7.8</version>\n</package>",
+        "tar_members": [
+          {
+            "name": "appx-ng",
+            "size": 0
+          },
+          {
+            "name": "bugme.cfg",
+            "size": 267
+          },
+          {
+            "name": "appx-ng/af-appx.min.css",
+            "size": 52368
+          },
+          {
+            "name": "appx-ng/af-appx.min.js",
+            "size": 1667588
+          },
+          {
+            "name": "appx-ng/af-appx.worker.min.js",
+            "size": 1371101
+          },
+          {
+            "name": "appx-ng/appx-portal.min.js",
+            "size": 61935
+          },
+          {
+            "name": "appx-ng/appx-portal.worker.min.js",
+            "size": 57703
+          },
+          {
+            "name": "appx-ng/appx-prerender.min.js",
+            "size": 6058
+          },
+          {
+            "name": "appx-ng/es6-promise.min.js",
+            "size": 6367
+          },
+          {
+            "name": "appx-ng/index.html",
+            "size": 1521
+          },
+          {
+            "name": "appx-ng/index.prerender.html",
+            "size": 3393
+          },
+          {
+            "name": "appx-ng/security-patch.min.js",
+            "size": 731
+          },
+          {
+            "name": "appx-ng/web-view.min.js",
+            "size": 39939
+          },
+          {
+            "name": "appx-ng/worker.min.js",
+            "size": 23646
+          }
+        ],
+        "tar_member_count": 14
+      }
+    }
+  },
+  "native_and_dex_links": {
+    "so_section_profiles": {
+      "libtaibmcf.so": {
+        "bytes": 12617752,
+        "sha256": "0fba080d0364fc0f7a8f61611551ef3b231c8ad0c95113446916099f8112d650",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.2137
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 36,
+            "entropy": 4.1916
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 3168,
+            "entropy": 1.5821
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 396,
+            "entropy": 1.3352
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 64,
+            "entropy": 2.1303
+          },
+          {
+            "name": ".gnu.hash",
+            "type": "SHT_GNU_HASH",
+            "size": 32,
+            "entropy": 2.7035
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 1592,
+            "entropy": 1.4969
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 2127,
+            "entropy": 4.5169
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 87376,
+            "entropy": 3.7116
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 64888,
+            "entropy": 6.0598
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 1376,
+            "entropy": 4.118
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 268620,
+            "entropy": 5.8795
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 211692,
+            "entropy": 7.2703
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 11900864,
+            "entropy": 6.039
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 2784,
+            "entropy": 3.9649
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 56812,
+            "entropy": 5.0059
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 8,
+            "entropy": 2.25
+          },
+          {
+            "name": ".init_array",
+            "type": "SHT_INIT_ARRAY",
+            "size": 520,
+            "entropy": 6.182
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 248,
+            "entropy": 3.1803
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 6228,
+            "entropy": 5.8905
+          },
+          {
+            "name": ".got.plt",
+            "type": "SHT_PROGBITS",
+            "size": 700,
+            "entropy": 1.9994
+          },
+          {
+            "name": ".data",
+            "type": "SHT_PROGBITS",
+            "size": 6096,
+            "entropy": 4.4091
+          },
+          {
+            "name": ".bss",
+            "type": "SHT_NOBITS",
+            "size": 28265,
+            "entropy": 0.0
+          },
+          {
+            "name": ".comment",
+            "type": "SHT_PROGBITS",
+            "size": 204,
+            "entropy": 5.1643
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 60,
+            "entropy": 4.587
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 254,
+            "entropy": 4.2632
+          }
+        ]
+      },
+      "libfgcpkjvqe.so": {
+        "bytes": 6524160,
+        "sha256": "5f72893936adfe712e8355c33c6f453c45396c7f58c8f05c9acc9c8f83c15b39",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.1893
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 36,
+            "entropy": 4.1361
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 3104,
+            "entropy": 1.5752
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 388,
+            "entropy": 1.3399
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 64,
+            "entropy": 2.1616
+          },
+          {
+            "name": ".gnu.hash",
+            "type": "SHT_GNU_HASH",
+            "size": 32,
+            "entropy": 2.7035
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 1560,
+            "entropy": 1.4932
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 2080,
+            "entropy": 4.5294
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 79936,
+            "entropy": 3.7028
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 49648,
+            "entropy": 6.1155
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 1496,
+            "entropy": 4.1814
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 286600,
+            "entropy": 5.9813
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 206332,
+            "entropy": 7.2787
+          },
+          {
+            "name": ".ARM.extab__lcxx_override",
+            "type": "SHT_PROGBITS",
+            "size": 24,
+            "entropy": 3.1368
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 5820360,
+            "entropy": 6.1394
+          },
+          {
+            "name": "__lcxx_override",
+            "type": "SHT_PROGBITS",
+            "size": 212,
+            "entropy": 5.7631
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 3024,
+            "entropy": 3.9788
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 55724,
+            "entropy": 4.9671
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 8,
+            "entropy": 1.9056
+          },
+          {
+            "name": ".init_array",
+            "type": "SHT_INIT_ARRAY",
+            "size": 136,
+            "entropy": 5.332
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 248,
+            "entropy": 3.1864
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 3804,
+            "entropy": 5.486
+          },
+          {
+            "name": ".got.plt",
+            "type": "SHT_PROGBITS",
+            "size": 760,
+            "entropy": 1.9995
+          },
+          {
+            "name": ".relro_padding",
+            "type": "SHT_NOBITS",
+            "size": 648,
+            "entropy": 0.0
+          },
+          {
+            "name": ".data",
+            "type": "SHT_PROGBITS",
+            "size": 6180,
+            "entropy": 4.4163
+          },
+          {
+            "name": ".bss",
+            "type": "SHT_NOBITS",
+            "size": 29009,
+            "entropy": 0.0
+          },
+          {
+            "name": ".comment",
+            "type": "SHT_PROGBITS",
+            "size": 335,
+            "entropy": 5.1706
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 60,
+            "entropy": 4.587
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 295,
+            "entropy": 4.3317
+          }
+        ]
+      },
+      "liba97d.so": {
+        "bytes": 997572,
+        "sha256": "7fe7d830805a1e99f0d3661a99fdad20e5ea3f4998c65b3565fde4602ce2181e",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.1712
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 24,
+            "entropy": 3.1175
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 2400,
+            "entropy": 2.626
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 300,
+            "entropy": 1.5711
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 64,
+            "entropy": 2.1616
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 1208,
+            "entropy": 1.4467
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 2308,
+            "entropy": 4.652
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 41088,
+            "entropy": 3.5843
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 2976,
+            "entropy": 5.1519
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 520,
+            "entropy": 3.91
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 1508,
+            "entropy": 3.2466
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 1516,
+            "entropy": 6.9349
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 878552,
+            "entropy": 6.3358
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 1072,
+            "entropy": 3.8555
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 36,
+            "entropy": 2.9088
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 8,
+            "entropy": 1.2988
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 216,
+            "entropy": 2.5508
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 40,
+            "entropy": 0.669
+          },
+          {
+            "name": ".got.plt",
+            "type": "SHT_PROGBITS",
+            "size": 272,
+            "entropy": 1.9959
+          },
+          {
+            "name": ".data",
+            "type": "SHT_PROGBITS",
+            "size": 29680,
+            "entropy": 6.7924
+          },
+          {
+            "name": ".bss",
+            "type": "SHT_NOBITS",
+            "size": 50204,
+            "entropy": 0.0
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 44,
+            "entropy": 4.2763
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 229,
+            "entropy": 4.2472
+          }
+        ]
+      },
+      "libljsfrcwmw.so": {
+        "bytes": 600296,
+        "sha256": "12a389806114a18ff57d341e740108ebfe9b07d39abe2775a652f193cb99ac84",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.1155
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 36,
+            "entropy": 4.004
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 304,
+            "entropy": 1.0761
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 38,
+            "entropy": 1.4018
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 32,
+            "entropy": 1.6862
+          },
+          {
+            "name": ".gnu.hash",
+            "type": "SHT_GNU_HASH",
+            "size": 28,
+            "entropy": 1.9838
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 160,
+            "entropy": 1.0713
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 291,
+            "entropy": 4.655
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 10664,
+            "entropy": 3.4175
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 736,
+            "entropy": 4.8794
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 120,
+            "entropy": 3.3342
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 347304,
+            "entropy": 5.8976
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 408,
+            "entropy": 2.9953
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 222180,
+            "entropy": 6.3775
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 272,
+            "entropy": 3.731
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 15436,
+            "entropy": 4.6439
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 8,
+            "entropy": 2.25
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 224,
+            "entropy": 2.9533
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 8,
+            "entropy": -0.0
+          },
+          {
+            "name": ".got.plt",
+            "type": "SHT_PROGBITS",
+            "size": 72,
+            "entropy": 1.945
+          },
+          {
+            "name": ".bss",
+            "type": "SHT_NOBITS",
+            "size": 44900,
+            "entropy": 0.0
+          },
+          {
+            "name": ".comment",
+            "type": "SHT_PROGBITS",
+            "size": 177,
+            "entropy": 5.0717
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 60,
+            "entropy": 4.587
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 236,
+            "entropy": 4.2805
+          }
+        ]
+      },
+      "liblytcuhe.so": {
+        "bytes": 178628,
+        "sha256": "a8e59c1d4922f6bce9814667c1566bb1a2ea39700fe312625a29a7cbe6ef4629",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.1155
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 36,
+            "entropy": 4.2472
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 5424,
+            "entropy": 3.6837
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 678,
+            "entropy": 1.2652
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 96,
+            "entropy": 2.2249
+          },
+          {
+            "name": ".gnu.hash",
+            "type": "SHT_GNU_HASH",
+            "size": 2040,
+            "entropy": 6.1689
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 2720,
+            "entropy": 1.7175
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 5450,
+            "entropy": 4.9343
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 13184,
+            "entropy": 3.7671
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 3776,
+            "entropy": 4.8184
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 536,
+            "entropy": 3.9616
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 4756,
+            "entropy": 4.2787
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 9375,
+            "entropy": 5.2904
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 119752,
+            "entropy": 6.8278
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 1104,
+            "entropy": 3.8541
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 6020,
+            "entropy": 3.506
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 8,
+            "entropy": 1.75
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 216,
+            "entropy": 3.1589
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 108,
+            "entropy": 0.6154
+          },
+          {
+            "name": ".got.plt",
+            "type": "SHT_PROGBITS",
+            "size": 280,
+            "entropy": 1.9961
+          },
+          {
+            "name": ".data",
+            "type": "SHT_PROGBITS",
+            "size": 1052,
+            "entropy": 4.9992
+          },
+          {
+            "name": ".bss",
+            "type": "SHT_NOBITS",
+            "size": 637,
+            "entropy": 0.0
+          },
+          {
+            "name": ".comment",
+            "type": "SHT_PROGBITS",
+            "size": 177,
+            "entropy": 5.0717
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 60,
+            "entropy": 4.587
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 242,
+            "entropy": 4.2665
+          }
+        ]
+      },
+      "libohxbee.so": {
+        "bytes": 155412,
+        "sha256": "2d54a2aa85d81dbfef1e8d01726b1ffd74004ead9d15d861e2323f54ffc01a74",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.1155
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 36,
+            "entropy": 4.1916
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 304,
+            "entropy": 1.0761
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 38,
+            "entropy": 1.4018
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 32,
+            "entropy": 1.6862
+          },
+          {
+            "name": ".gnu.hash",
+            "type": "SHT_GNU_HASH",
+            "size": 28,
+            "entropy": 1.9838
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 160,
+            "entropy": 1.0713
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 288,
+            "entropy": 4.6062
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 2832,
+            "entropy": 3.2165
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 104,
+            "entropy": 3.5678
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 120,
+            "entropy": 3.3374
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 24,
+            "entropy": 2.7516
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 87804,
+            "entropy": 5.6021
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 56960,
+            "entropy": 6.2553
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 272,
+            "entropy": 3.7149
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 4120,
+            "entropy": 4.5881
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 8,
+            "entropy": 1.9056
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 224,
+            "entropy": 2.8894
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 8,
+            "entropy": -0.0
+          },
+          {
+            "name": ".got.plt",
+            "type": "SHT_PROGBITS",
+            "size": 72,
+            "entropy": 1.945
+          },
+          {
+            "name": ".bss",
+            "type": "SHT_NOBITS",
+            "size": 10608,
+            "entropy": 0.0
+          },
+          {
+            "name": ".comment",
+            "type": "SHT_PROGBITS",
+            "size": 177,
+            "entropy": 5.0717
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 60,
+            "entropy": 4.587
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 236,
+            "entropy": 4.2805
+          }
+        ]
+      },
+      "librcmefqonnx.so": {
+        "bytes": 178628,
+        "sha256": "9120dd02a8d94659ea178c0b73b4d02954915d8432c74b04a05d1583f69099af",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.1155
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 36,
+            "entropy": 4.1916
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 5424,
+            "entropy": 3.693
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 678,
+            "entropy": 1.2652
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 96,
+            "entropy": 2.2249
+          },
+          {
+            "name": ".gnu.hash",
+            "type": "SHT_GNU_HASH",
+            "size": 2040,
+            "entropy": 6.1637
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 2720,
+            "entropy": 1.7175
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 5450,
+            "entropy": 4.9342
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 13184,
+            "entropy": 3.7656
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 3776,
+            "entropy": 4.8184
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 536,
+            "entropy": 3.9742
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 4756,
+            "entropy": 4.2787
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 9375,
+            "entropy": 5.2904
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 119752,
+            "entropy": 6.8281
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 1104,
+            "entropy": 3.8541
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 6020,
+            "entropy": 3.506
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 8,
+            "entropy": 1.75
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 216,
+            "entropy": 3.1461
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 108,
+            "entropy": 0.6154
+          },
+          {
+            "name": ".got.plt",
+            "type": "SHT_PROGBITS",
+            "size": 280,
+            "entropy": 1.9961
+          },
+          {
+            "name": ".data",
+            "type": "SHT_PROGBITS",
+            "size": 1052,
+            "entropy": 4.9992
+          },
+          {
+            "name": ".bss",
+            "type": "SHT_NOBITS",
+            "size": 637,
+            "entropy": 0.0
+          },
+          {
+            "name": ".comment",
+            "type": "SHT_PROGBITS",
+            "size": 177,
+            "entropy": 5.0717
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 60,
+            "entropy": 4.587
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 242,
+            "entropy": 4.2665
+          }
+        ]
+      },
+      "libsecurity_lite.so": {
+        "bytes": 154840,
+        "sha256": "75c5d69621c5dce9a64e4466ae011ba5a22e16b35246b39941883d424df6c786",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.1893
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 36,
+            "entropy": 4.2472
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 2128,
+            "entropy": 3.4901
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 1983,
+            "entropy": 5.0248
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 1064,
+            "entropy": 1.4342
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 266,
+            "entropy": 1.3814
+          },
+          {
+            "name": ".gnu.version_d",
+            "type": "SHT_GNU_verdef",
+            "size": 28,
+            "entropy": 1.841
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 64,
+            "entropy": 1.9654
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 3592,
+            "entropy": 3.4315
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 400,
+            "entropy": 3.7639
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 620,
+            "entropy": 4.0055
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 120148,
+            "entropy": 7.3316
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 1144,
+            "entropy": 4.8333
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 1188,
+            "entropy": 3.1999
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 11840,
+            "entropy": 7.9094
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 8,
+            "entropy": 1.75
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 1424,
+            "entropy": 4.2994
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 264,
+            "entropy": 2.6609
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 576,
+            "entropy": 0.9843
+          },
+          {
+            "name": ".data",
+            "type": "SHT_PROGBITS",
+            "size": 5512,
+            "entropy": 7.1353
+          },
+          {
+            "name": ".llvm",
+            "type": "SHT_PROGBITS",
+            "size": 54,
+            "entropy": 4.7103
+          },
+          {
+            "name": ".bss",
+            "type": "SHT_NOBITS",
+            "size": 10905,
+            "entropy": 0.0
+          },
+          {
+            "name": ".comment",
+            "type": "SHT_PROGBITS",
+            "size": 382,
+            "entropy": 5.16
+          },
+          {
+            "name": ".note.gnu.gold-version",
+            "type": "SHT_NOTE",
+            "size": 28,
+            "entropy": 2.9464
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 52,
+            "entropy": 4.5627
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 273,
+            "entropy": 4.2921
+          }
+        ]
+      },
+      "libtrueidlib.so": {
+        "bytes": 79904,
+        "sha256": "e1a98166f637ebebf814a375ec147461229ff18314dd669ebbf07eabefdfdd06",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.1712
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 36,
+            "entropy": 4.1916
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 1296,
+            "entropy": 2.5677
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 162,
+            "entropy": 1.4937
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 32,
+            "entropy": 1.93
+          },
+          {
+            "name": ".gnu.hash",
+            "type": "SHT_GNU_HASH",
+            "size": 280,
+            "entropy": 6.0315
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 656,
+            "entropy": 1.3352
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 1608,
+            "entropy": 4.7833
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 1376,
+            "entropy": 2.9744
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 1080,
+            "entropy": 4.2404
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 464,
+            "entropy": 3.7998
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 1352,
+            "entropy": 3.3541
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 4800,
+            "entropy": 6.1736
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 62660,
+            "entropy": 7.0421
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 960,
+            "entropy": 3.8163
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 580,
+            "entropy": 3.7853
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 8,
+            "entropy": 1.75
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 216,
+            "entropy": 3.034
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 4,
+            "entropy": -0.0
+          },
+          {
+            "name": ".got.plt",
+            "type": "SHT_PROGBITS",
+            "size": 244,
+            "entropy": 1.9949
+          },
+          {
+            "name": ".data",
+            "type": "SHT_PROGBITS",
+            "size": 96,
+            "entropy": 3.4434
+          },
+          {
+            "name": ".comment",
+            "type": "SHT_PROGBITS",
+            "size": 177,
+            "entropy": 5.0717
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 60,
+            "entropy": 4.587
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 237,
+            "entropy": 4.2669
+          }
+        ]
+      },
+      "libVFaceLib.so": {
+        "bytes": 1963668,
+        "sha256": "c6d04f368fe967fb1fd2666519f78cf8fa5fdc3a95a1ffbb0095370483592329",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.1498
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 36,
+            "entropy": 4.1361
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 2816,
+            "entropy": 1.6416
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 352,
+            "entropy": 1.5667
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 96,
+            "entropy": 2.2249
+          },
+          {
+            "name": ".gnu.hash",
+            "type": "SHT_GNU_HASH",
+            "size": 44,
+            "entropy": 3.4887
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 1416,
+            "entropy": 1.4756
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 2216,
+            "entropy": 4.5562
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 93352,
+            "entropy": 3.7209
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 24056,
+            "entropy": 5.7674
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 1352,
+            "entropy": 4.1504
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 86796,
+            "entropy": 5.5348
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 140777,
+            "entropy": 5.6715
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 1515836,
+            "entropy": 7.2442
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 2736,
+            "entropy": 3.9671
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 34292,
+            "entropy": 5.4424
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 8,
+            "entropy": 2.25
+          },
+          {
+            "name": ".init_array",
+            "type": "SHT_INIT_ARRAY",
+            "size": 56,
+            "entropy": 3.7659
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 256,
+            "entropy": 3.1542
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 596,
+            "entropy": 4.7364
+          },
+          {
+            "name": ".got.plt",
+            "type": "SHT_PROGBITS",
+            "size": 688,
+            "entropy": 1.9993
+          },
+          {
+            "name": ".relro_padding",
+            "type": "SHT_NOBITS",
+            "size": 8648,
+            "entropy": 0.0
+          },
+          {
+            "name": ".data",
+            "type": "SHT_PROGBITS",
+            "size": 53368,
+            "entropy": 2.5315
+          },
+          {
+            "name": ".bss",
+            "type": "SHT_NOBITS",
+            "size": 649798,
+            "entropy": 0.0
+          },
+          {
+            "name": ".comment",
+            "type": "SHT_PROGBITS",
+            "size": 570,
+            "entropy": 5.1004
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 60,
+            "entropy": 4.587
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 269,
+            "entropy": 4.2749
+          }
+        ]
+      },
+      "librive-android.so": {
+        "bytes": 3225636,
+        "sha256": "ab2dd352553cafb7b7f1a686df8bf33c814b977e7c1cdf1e65d8c99c5cb0e782",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.2318
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 36,
+            "entropy": 4.1916
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 99600,
+            "entropy": 4.645
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 12450,
+            "entropy": 1.0714
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 96,
+            "entropy": 2.4764
+          },
+          {
+            "name": ".gnu.hash",
+            "type": "SHT_GNU_HASH",
+            "size": 46140,
+            "entropy": 6.541
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 49808,
+            "entropy": 2.5316
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 280061,
+            "entropy": 5.1726
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 105992,
+            "entropy": 4.5776
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 47760,
+            "entropy": 5.8251
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 11384,
+            "entropy": 5.1367
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 230351,
+            "entropy": 6.5016
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 41104,
+            "entropy": 3.2558
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 2209180,
+            "entropy": 6.196
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 22800,
+            "entropy": 4.0857
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 57420,
+            "entropy": 3.6506
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 8,
+            "entropy": 2.25
+          },
+          {
+            "name": ".init_array",
+            "type": "SHT_INIT_ARRAY",
+            "size": 32,
+            "entropy": 3.3903
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 272,
+            "entropy": 3.5264
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 1640,
+            "entropy": -0.0
+          },
+          {
+            "name": ".got.plt",
+            "type": "SHT_PROGBITS",
+            "size": 5704,
+            "entropy": 1.4989
+          },
+          {
+            "name": ".relro_padding",
+            "type": "SHT_NOBITS",
+            "size": 1212,
+            "entropy": 0.0
+          },
+          {
+            "name": ".data",
+            "type": "SHT_PROGBITS",
+            "size": 1636,
+            "entropy": 2.8206
+          },
+          {
+            "name": ".bss",
+            "type": "SHT_NOBITS",
+            "size": 1056,
+            "entropy": 0.0
+          },
+          {
+            "name": ".comment",
+            "type": "SHT_PROGBITS",
+            "size": 204,
+            "entropy": 5.1551
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 60,
+            "entropy": 4.587
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 269,
+            "entropy": 4.2749
+          }
+        ]
+      },
+      "libsqlcipher.so": {
+        "bytes": 3555080,
+        "sha256": "819c11750f332a8ca0d88f251d0d22d664f559b8ed10f7a4c61cc90be49f3f44",
+        "sections": [
+          {
+            "name": "",
+            "type": "SHT_NULL",
+            "size": 0,
+            "entropy": 0.0
+          },
+          {
+            "name": ".note.android.ident",
+            "type": "SHT_NOTE",
+            "size": 152,
+            "entropy": 1.1712
+          },
+          {
+            "name": ".note.gnu.build-id",
+            "type": "SHT_NOTE",
+            "size": 36,
+            "entropy": 4.1361
+          },
+          {
+            "name": ".dynsym",
+            "type": "SHT_DYNSYM",
+            "size": 10512,
+            "entropy": 3.6587
+          },
+          {
+            "name": ".gnu.version",
+            "type": "SHT_GNU_versym",
+            "size": 1314,
+            "entropy": 1.4337
+          },
+          {
+            "name": ".gnu.version_r",
+            "type": "SHT_GNU_verneed",
+            "size": 96,
+            "entropy": 2.2249
+          },
+          {
+            "name": ".gnu.hash",
+            "type": "SHT_GNU_HASH",
+            "size": 3440,
+            "entropy": 6.736
+          },
+          {
+            "name": ".hash",
+            "type": "SHT_HASH",
+            "size": 5264,
+            "entropy": 1.9738
+          },
+          {
+            "name": ".dynstr",
+            "type": "SHT_STRTAB",
+            "size": 14104,
+            "entropy": 4.7923
+          },
+          {
+            "name": ".rel.dyn",
+            "type": "SHT_REL",
+            "size": 157520,
+            "entropy": 3.8652
+          },
+          {
+            "name": ".ARM.exidx",
+            "type": "SHT_ARM_EXIDX",
+            "size": 25880,
+            "entropy": 5.4795
+          },
+          {
+            "name": ".rel.plt",
+            "type": "SHT_REL",
+            "size": 3160,
+            "entropy": 4.5883
+          },
+          {
+            "name": ".ARM.extab",
+            "type": "SHT_PROGBITS",
+            "size": 31880,
+            "entropy": 3.443
+          },
+          {
+            "name": ".rodata",
+            "type": "SHT_PROGBITS",
+            "size": 565833,
+            "entropy": 7.2881
+          },
+          {
+            "name": ".text",
+            "type": "SHT_PROGBITS",
+            "size": 2532016,
+            "entropy": 6.5678
+          },
+          {
+            "name": ".plt",
+            "type": "SHT_PROGBITS",
+            "size": 6352,
+            "entropy": 3.9953
+          },
+          {
+            "name": ".data.rel.ro",
+            "type": "SHT_PROGBITS",
+            "size": 180504,
+            "entropy": 3.9039
+          },
+          {
+            "name": ".fini_array",
+            "type": "SHT_FINI_ARRAY",
+            "size": 12,
+            "entropy": 2.8554
+          },
+          {
+            "name": ".init_array",
+            "type": "SHT_INIT_ARRAY",
+            "size": 4,
+            "entropy": 2.0
+          },
+          {
+            "name": ".dynamic",
+            "type": "SHT_DYNAMIC",
+            "size": 232,
+            "entropy": 3.2495
+          },
+          {
+            "name": ".got",
+            "type": "SHT_PROGBITS",
+            "size": 1448,
+            "entropy": 5.0176
+          },
+          {
+            "name": ".got.plt",
+            "type": "SHT_PROGBITS",
+            "size": 1592,
+            "entropy": 1.9999
+          },
+          {
+            "name": ".data",
+            "type": "SHT_PROGBITS",
+            "size": 11348,
+            "entropy": 3.5988
+          },
+          {
+            "name": ".bss",
+            "type": "SHT_NOBITS",
+            "size": 7024,
+            "entropy": 0.0
+          },
+          {
+            "name": ".comment",
+            "type": "SHT_PROGBITS",
+            "size": 335,
+            "entropy": 5.1095
+          },
+          {
+            "name": ".ARM.attributes",
+            "type": "SHT_ARM_ATTRIBUTES",
+            "size": 60,
+            "entropy": 4.587
+          },
+          {
+            "name": ".shstrtab",
+            "type": "SHT_STRTAB",
+            "size": 254,
+            "entropy": 4.2632
+          }
+        ]
+      }
+    },
+    "liblytcuhe_vs_librcmefqonnx_diff_bytes": 8799,
+    "dex_library_string_hits": {
+      "fgcpkjvqe": [
+        "classes.dex"
+      ],
+      "ljsfrcwmw": [
+        "classes.dex"
+      ],
+      "rive-android": [
+        "classes.dex",
+        "classes4.dex"
+      ],
+      "class:Lcom/alibaba/griver/base/common/utils/SecurityGuardUtils;": [
+        "classes.dex"
+      ],
+      "class:Ljwbmqnsll/xvndbxlk;": [
+        "classes.dex"
+      ],
+      "class:Lcom/iap/ac/android/biz/common/encrypt/SecurityGuardEncrypt;": [
+        "classes2.dex"
+      ],
+      "class:Lcom/iap/ac/android/biz/common/encrypt/SecurityGuardLiteEncrypt;": [
+        "classes2.dex"
+      ],
+      "taibmcf": [
+        "classes3.dex"
+      ],
+      "ohxbee": [
+        "classes3.dex"
+      ],
+      "class:Lvn/com/zalopay/identity_verification/presentation/face_auth/FaceAuthActivity;": [
+        "classes4.dex"
+      ],
+      "security_lite": [
+        "classes5.dex"
+      ],
+      "picodet_ncnn": [
+        "classes5.dex"
+      ],
+      "class:Lcom/alipay/plus/security/lite/ISecurityGuardLiteManager;": [
+        "classes5.dex"
+      ],
+      "class:Lcom/alipay/plus/security/lite/SecurityGuardLiteManager;": [
+        "classes5.dex"
+      ],
+      "class:Lcom/alipay/plus/security/lite/SecurityGuardLiteNative;": [
+        "classes5.dex"
+      ],
+      "class:Lcom/alipay/plus/security/lite/SecurityGuardLiteParamContext;": [
+        "classes5.dex"
+      ],
+      "class:Lcom/alipay/plus/security/lite/utils/SecurityGuardLiteSecretInfo$ISecurityGuardLiteSecretInfo;": [
+        "classes5.dex"
+      ],
+      "class:Lcom/alipay/plus/security/lite/utils/SecurityGuardLiteSecretInfo$a;": [
+        "classes5.dex"
+      ],
+      "class:Lcom/alipay/plus/security/lite/utils/SecurityGuardLiteSecretInfo$b;": [
+        "classes5.dex"
+      ],
+      "class:Lcom/alipay/plus/security/lite/utils/SecurityGuardLiteSecretInfo;": [
+        "classes5.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/configs/ConfigEndPoint;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessResponse;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/FontAssetDelegate;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieAnimationView$WeakSuccessListener;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieConfig$Builder$1;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieConfig$Builder$2;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieDrawable$OnVisibleAction;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/RenderMode;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/LPaint;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/FillContent;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/ColorKeyframeAnimation;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/TextKeyframeAnimation$1;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/Marker;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatablePointValue;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/PolystarShape$Type;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/Repeater;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/ShapeStroke$LineCapType;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/TextRangeUnits;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/TextLayer;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/ContentModelParser;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/FontCharacterParser;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/FontParser;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/GradientStrokeParser;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/IntegerParser;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/ScaleXYParser;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/JsonReader$Token;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/JsonScope;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/Logger;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/MiscUtils;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/OffscreenLayer$RenderStrategy;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/LottieInterpolatedFloatValue;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/BuildConfig;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/C;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/D;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/R;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/a;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/b;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/c;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/d;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/e;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/f;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/g;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/i;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/j;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/k;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/l;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/m;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/n;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/o;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/p;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/present/presentation/widgets/GifDrawableView;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/q;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/r;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/s;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/t;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/u;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/v;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/w0;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/w1;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/w;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/x0;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/x1;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/x;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/y1;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/y;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/z0;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/z1;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/z;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$ContextSwitchException;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/CitizenInfo;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/EkycConfig;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/FaceAuthenConfig;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/FaceLivenessResult;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/TrueIDSSLPinningConfig;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/AuthenticationID$WhenMappings;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/AuthenticationID$startFaceAuthen$1;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/FaceLiveness$startFaceSDKCapture$1;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDV3$handleSmartOtpPush$1;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/Helpers;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/TrueIDExifData;": [
+        "classes6.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/views/CardMRZMaskView;": [
+        "classes6.dex"
+      ],
+      "trueidlib": [
+        "classes7.dex"
+      ],
+      "sqlcipher": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/r;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/C;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/s;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/j;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/k;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/navigation/SDKCallback;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/V;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/t;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/S;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/e;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/L;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/W;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/j;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/D;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/T;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/BuildConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/R$color;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/R$dimen;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/R$drawable;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/R$id;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/R$layout;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/R$raw;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/R$string;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/R$style;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/R;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/i;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/j;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/a;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/b;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/c;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/d$a;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/d;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/e;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/f;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/g$$ExternalSyntheticLambda0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/g;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/h;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/j$$ExternalSyntheticLambda0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/j$$ExternalSyntheticLambda1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/j$a;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/opencv/VFaceLib$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/opencv/VFaceLib;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/configs/AuthenInput$Creator;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/configs/AuthenInput;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/configs/Certificate;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/configs/ConfigEndPoint$Creator;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/configs/FaceMatchInput$Creator;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/configs/FaceMatchInput;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/configs/LivenessConfig$Creator;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/configs/LivenessConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/configs/SDKConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/AccessTokenData;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/AuthenticationSDKResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/Constants$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/Constants;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/FaceMatchResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXError;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/PhotoResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/RequestCreate;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness$Creator;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/StepLivenessKt$WhenMappings;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/domain/model/StepLivenessKt;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/navigation/FaceMatch$a$a;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/navigation/FaceMatch$a;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/navigation/FaceMatch$runDetectionPass$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/navigation/FaceMatch$runDetectionPass$2;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/navigation/FaceMatch$runDetectionPass$3;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/navigation/FaceMatch;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/navigation/FaceMatchKt;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/navigation/LivenessNavigationKt;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/navigation/SDKCallback$DefaultImpls;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/presentation/utils/BShield;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/presentation/utils/EnumPosition;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/presentation/utils/LogEntry;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/presentation/utils/Logger;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/presentation/widgets/BitmapUtils$$ExternalSyntheticBackport0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/faceauth/sdk/presentation/presentation/widgets/BitmapUtils;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/AsyncUpdates;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/Cancellable;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/ImageAssetDelegate;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/L;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/Lottie;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/LottieValueCallback;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieAnimationView$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieAnimationView$SavedState$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieAnimationView$SavedState;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieAnimationView$UserActionTaken;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieAnimationView$WeakFailureListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieAnimationView;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieComposition$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieComposition$Factory$ListenerAdapter;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieComposition$Factory;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieComposition;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieCompositionFactory;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieConfig$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieConfig$Builder;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieDrawable$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieDrawable$LazyCompositionTask;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieDrawable$RepeatMode;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieDrawable;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieFeatureFlag;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieFeatureFlags;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieImageAsset;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieLogger;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieOnCompositionLoadedListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieProperty;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieTask$LottieFutureTask;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieTask;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/LottieTaskIdleListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/OnCompositionLoadedListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/PerformanceTracker$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/PerformanceTracker$FrameListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/PerformanceTracker;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/RenderMode$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/SimpleColorFilter;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/TextDelegate;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/network/LottieNetworkCacheProvider;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/a;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/BaseStrokeContent$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/BaseStrokeContent$PathGroup;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/BaseKeyframeAnimation$AnimationListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/KeyPathElement;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/Content;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/KeyPathElementContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/DrawingContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/BaseStrokeContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/CompoundTrimPathContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/PathContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/ContentGroup;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/EllipseContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/GradientFillContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/GradientStrokeContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/GreedyContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/MergePathsContent$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/MergePathsContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/ModifierContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/PolystarContent$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/PolystarContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/RectangleContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/RepeaterContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/ShapeModifierContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/RoundedCornersContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/ShapeContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/StrokeContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/TrimPathContent;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/content/package-info;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/BaseKeyframeAnimation$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/BaseKeyframeAnimation$KeyframesWrapper;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/BaseKeyframeAnimation$EmptyKeyframeWrapper;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/BaseKeyframeAnimation$KeyframesWrapperImpl;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/BaseKeyframeAnimation$SingleKeyframeWrapper;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/BaseKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/DropShadowKeyframeAnimation$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/DropShadowKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/KeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/FloatKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/GradientColorKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/IntegerKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/MaskKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/Keyframe;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/PathKeyframe;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/PathKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/PointKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/ScaleKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/ShapeKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/SplitDimensionPathKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/TextKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/TransformKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/ValueCallbackKeyframeAnimation;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/a;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/keyframe/package-info;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/animation/package-info;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/b;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/c;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/configurations/reducemotion/ReducedMotionOption;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/configurations/reducemotion/IgnoreDisabledSystemAnimationsOption;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/configurations/reducemotion/ReducedMotionMode;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/configurations/reducemotion/SystemReducedMotionOption;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/d;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/e;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/f;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/g;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/h;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/i;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/j;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/k;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/l;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/m;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/manager/FontAssetManager;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/manager/ImageAssetManager;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/manager/package-info;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/CubicCurveData;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/DocumentData$Justification;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/DocumentData;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/Font;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/FontCharacter;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/KeyPath;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/LottieCompositionCache;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/MutablePair;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/BaseAnimatableValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableColorValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableFloatValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableGradientColorValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableIntegerValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatablePathValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableScaleValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableShapeValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableSplitDimensionPathValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableTextFrame;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableTextProperties;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableTextRangeSelector;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableTextStyle;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/ContentModel;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/AnimatableTransform;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/animatable/package-info;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/BlurEffect;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/CircleShape;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/GradientColor;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/GradientFill;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/GradientStroke;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/GradientType;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/LBlendMode$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/LBlendMode;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/Mask$MaskMode;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/Mask;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/MergePaths$MergePathsMode;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/MergePaths;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/PolystarShape;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/RectangleShape;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/RoundedCorners;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/ShapeData;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/ShapeFill;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/ShapeGroup;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/ShapePath;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/ShapeStroke$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/ShapeStroke$LineJoinType;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/ShapeStroke;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/ShapeTrimPath$Type;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/ShapeTrimPath;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/content/package-info;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/BaseLayer$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/BaseLayer;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/CompositionLayer$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/CompositionLayer;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/ImageLayer;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/Layer$LayerType;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/Layer$MatteType;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/Layer;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/NullLayer;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/ShapeLayer;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/SolidLayer;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/TextLayer$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/TextLayer$2;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/TextLayer$3;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/TextLayer$TextSubLine;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/model/layer/package-info;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/n;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/network/LottieFetchResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/network/DefaultLottieFetchResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/network/LottieNetworkFetcher;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/network/DefaultLottieNetworkFetcher;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/network/FileExtension;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/network/NetworkCache;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/network/NetworkFetcher$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/network/NetworkFetcher;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/o;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/p;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/AnimatablePathValueParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/AnimatableTextPropertiesParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/AnimatableTransformParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/AnimatableValueParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/BlurEffectParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/CircleShapeParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/ValueParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/ColorParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/DocumentDataParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/DropShadowEffect;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/DropShadowEffectParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/FloatParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/GradientColorParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/GradientFillParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/JsonUtils$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/JsonUtils;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/KeyframeParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/KeyframesParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/LayerParser$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/LayerParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/LottieCompositionMoshiParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/MaskParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/MergePathsParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/PathKeyframeParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/PathParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/PointFParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/PolystarShapeParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/RectangleShapeParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/RepeaterParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/RoundedCornersParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/ShapeDataParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/ShapeFillParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/ShapeGroupParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/ShapePathParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/ShapeStrokeParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/ShapeTrimPathParser;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/JsonDataException;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/JsonEncodingException;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/JsonReader$Options;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/JsonReader;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/JsonUtf8Reader;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/LinkedHashTreeMap$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/LinkedHashTreeMap$AvlBuilder;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/LinkedHashTreeMap$AvlIterator;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/LinkedHashTreeMap$LinkedTreeMapIterator;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/LinkedHashTreeMap$EntrySet$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/LinkedHashTreeMap$EntrySet;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/LinkedHashTreeMap$KeySet$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/LinkedHashTreeMap$KeySet;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/LinkedHashTreeMap$Node;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/LinkedHashTreeMap;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/moshi/package-info;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/parser/package-info;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/q;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/r;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/s;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/BaseLottieAnimator;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/DropShadow;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/GammaEvaluator;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/LogcatLogger;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/LottieThreadFactory;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/LottieTrace;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/LottieValueAnimator;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/MeanCalculator;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/OffscreenLayer$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/OffscreenLayer$ComposeOp;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/OffscreenLayer;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/Transform3D;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/Utils$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/Utils$2;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/Utils$3;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/Utils$4;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/Utils;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/utils/package-info;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/LottieFrameInfo;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/LottieInterpolatedValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/LottieInterpolatedIntegerValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/LottieInterpolatedPointValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/LottieRelativeFloatValueCallback;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/LottieRelativeIntegerValueCallback;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/LottieRelativePointValueCallback;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/ScaleXY;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/lottie/value/SimpleLottieValueCallback;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/TrueShield/ChallengeManager$WhenMappings;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/TrueShield/ChallengeManager;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/TrueShield/ImageType;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/TrueShield/SecureVault$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/TrueShield/SecureVault;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/activity/BaseActivity;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/activity/SotpConfirmActivity;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/activity/TrueIDActivity;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/A;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/B;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/R$attr;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/R$bool;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/R$color;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/R$dimen;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/R$drawable;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/R$id;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/R$layout;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/R$string;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/R$style;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/R$styleable;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/a0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/a1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/u0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/a2;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/b0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/b1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/b2;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/c0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/c1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/camera/CameraXImpl;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/d0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/d1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/e0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/e1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/f0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/f1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/g0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/g1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/h0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/h1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/h;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/i0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/i1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/j0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/j1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/n0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/k0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/k1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/l0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/l1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/m0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/m1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/n1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/navigation/FaceSDK;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/navigation/SDKCallback;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/o0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/o1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/p0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/p1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/present/domain/configs/SDKConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/present/domain/model/FaceSDKResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/y0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/present/presentation/LivenessCameraXActivity;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/present/presentation/utils/LocaleHelper;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/present/presentation/utils/Utils;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/present/presentation/utils/UtilsKt;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/present/presentation/widgets/GraphicOverlay;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/present/presentation/widgets/OverlayView;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/q0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/q1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/r0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/r1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/s0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/s1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/t0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/t1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/u1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/v0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/face/v1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$MaxLimitTryAgain;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$NetworkErrorException;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$PermissionDenied;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$PermissionUnknown;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$StartCameraException;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$TimeOutFace;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$UserCanceledException;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/domain/model/exceptions/LivenessCameraXException$UserRunEmulatorException;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/present/CameraXApplication;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/present/presentation/LivenessCameraXActivity;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/present/presentation/widgets/GifDrawableView;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/present/presentation/widgets/GraphicOverlay;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/present/presentation/widgets/OverlayView;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/facev3/present/presentation/widgets/TrueIDAspectRatioFrameLayout;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/Helpers$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/a;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/b;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/c;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/d;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/f;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/g;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/h;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/i;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/k;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/l;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/liveness/networks/m;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/CheckingRecord;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/CheckingState;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/ConfigEndPoint;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/DG13File$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/DG13File;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/Decision;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/DetectionType;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/DeviceInfo;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/DocType;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/EkycConfigKt;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/FaceAuthenInput;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/FaceAuthenResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/FaceEnrollConfig$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/FaceEnrollConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/FaceEnrollInput;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/FaceEnrollResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/FaceLivenessConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/FaceLivenessInput;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/FaceMatching;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/LivenessDetectionMode;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/MRZdata;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/NFCConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/NFCInput;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/NfcInfo;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/NfcResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/Person;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/RawImage$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/RawImage;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/Record;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/ResultValue;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/Timeline;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/TrueError$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/TrueError;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/TrueIDVaultStatus;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/VerificationResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/DisplayField;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/FieldStyle;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/TransactionDisplayModel$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/TransactionDisplayModel;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/TransactionType$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/TransactionType;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/TrueIdSmartOTPConfig$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/TrueIdSmartOTPConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/TrueIdSmartOTPPinPolicy;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/TrueIdSmartOTPResult;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/models/sotp/TrueIdSmartOTPUIConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/AuthenListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/e;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/AuthenticationID$startFaceSDK$1$complete$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/AuthenticationID$startFaceSDK$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/AuthenticationID;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/AuthenticationIDKt;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/FaceEnrollListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/FaceLiveness$WhenMappings;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/FaceLiveness$startFaceLiveness$2;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/K;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/FaceLiveness$startFaceSDK$1$complete$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/FaceLiveness$startFaceSDK$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/FaceLiveness;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/FaceLivenessListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/NFCListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDEKYCCaptureConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDEKYCCaptureListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDFaceEnrollCaptureListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDLivenessCaptureConfig;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDLivenessCaptureInput;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDLivenessCaptureListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDLivenessCaptureStepCallback;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDLogger;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDV3$checkSOTPCredentialStatus$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDV3$generateOtpOCRA$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDV3$presentPinKeypadDialog$1$11$WhenMappings;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDV3$presentPinKeypadDialog$1$startRetryCountdown$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDV3$registerSeed$2;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDV3$revokeSOTPCredentialByDeviceId$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDV3$revokeSmartOtpDevice$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDV3$scanNFCWithRAR$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDV3$verifyOtpOCRA$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIDV3;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/navigation/TrueIdSmartOTPListener;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/A;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/B;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/E;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/F;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/G;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/H;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/I;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/J;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/M;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/N;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/O;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/P;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/Q;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/U;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/X;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/Y;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/Z;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/a0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/a;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/b0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/f;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/b;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/c0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/c;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/d0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/d;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/e0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/f0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/g0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/g;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/h0;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/h;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/i;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/l;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/m;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/n;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/o;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/p;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/q;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/u;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/v;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/w;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/x;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/y;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/networks/z;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/Helpers$Companion;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/SmartOTPHelper;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/TrueIDCaptureMetadata;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/TrueIDExifWriter;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/a;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/b;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/c;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/d;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/e;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/f;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/facedetector/DataSignService;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/g;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/h;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/i;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/j;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/utils/mlkit/GraphicOverlay;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/views/CardMaskView;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/views/CardQRMaskView;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/views/GifDrawableView;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/ai/trueid/sdk/views/SelfieDetectionView;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/com/zalopay/auth/presentation/faceauth/FaceAuthActivity$getExtraParamRequest$type$1;": [
+        "classes7.dex"
+      ],
+      "class:Lvn/com/zalopay/auth/presentation/faceauth/FaceAuthActivity;": [
+        "classes7.dex"
+      ]
+    },
+    "top_classes_with_native_methods": {
+      "Ljipm/njcx;": 53,
+      "Lwmoi/igob;": 50,
+      "Lcom/xq/cxzmoiwuegvp/E;": 39,
+      "Lcom/xq/cxzmoiwuegvp/Y;": 38,
+      "Lvn/ai/faceauth/sdk/presentation/navigation/FaceMatch;": 35,
+      "Lcom/xq/cxzmoiwuegvp/b/a/j;": 33,
+      "Lcom/xq/cxzmoiwuegvp/b/f/j;": 32,
+      "Lnet/zetetic/database/sqlcipher/SQLiteConnection;": 30,
+      "Lapp/rive/runtime/kotlin/core/Artboard;": 29,
+      "Lcom/xq/cxzmoiwuegvp/c;": 28,
+      "Lcom/xq/cxzmoiwuegvp/w;": 28,
+      "Lcom/xq/cxzmoiwuegvp/p;": 26,
+      "Lcom/xq/cxzmoiwuegvp/b/a/a;": 21,
+      "Lcom/xq/cxzmoiwuegvp/b/h/h;": 19,
+      "Lcom/xq/cxzmoiwuegvp/ai;": 18,
+      "Lnet/zetetic/database/CursorWindow;": 18,
+      "Lvn/ai/faceauth/sdk/presentation/domain/configs/LivenessConfig;": 18,
+      "Lcom/xq/cxzmoiwuegvp/G;": 17,
+      "Lcom/xq/cxzmoiwuegvp/b/h/a;": 16,
+      "Lcom/xq/cxzmoiwuegvp/a/c;": 16,
+      "Lapp/rive/runtime/kotlin/core/LinearAnimationInstance;": 15,
+      "Lcom/xq/cxzmoiwuegvp/b/a/b/i;": 15,
+      "Lcom/xq/cxzmoiwuegvp/b/a/b/q;": 15,
+      "Lcom/xq/cxzmoiwuegvp/b/b/a;": 15,
+      "Lcom/xq/cxzmoiwuegvp/b/b/h;": 15,
+      "Lcom/xq/cxzmoiwuegvp/b/h/e;": 15,
+      "Lapp/rive/runtime/kotlin/core/StateMachineInstance;": 14,
+      "Lapp/rive/runtime/kotlin/renderers/Renderer;": 14,
+      "Lcom/xq/cxzmoiwuegvp/a;": 14,
+      "Lcom/xq/cxzmoiwuegvp/b/a/b/e;": 14,
+      "Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessResponse;": 14,
+      "Lcom/xq/cxzmoiwuegvp/b/a/A;": 13,
+      "Lcom/xq/cxzmoiwuegvp/b/f/s;": 13,
+      "Lcom/xq/cxzmoiwuegvp/b/a/e/a;": 12,
+      "Ljwbmqnsll/xvndbxlk;": 12,
+      "Lcom/google/android/libraries/vision/visionkit/pipeline/alt/NativePipelineImpl;": 12,
+      "Lvn/ai/faceauth/sdk/presentation/domain/configs/AuthenInput;": 12,
+      "Lvn/ai/faceauth/sdk/presentation/domain/configs/FaceMatchInput;": 12,
+      "Lapp/rive/runtime/kotlin/core/File;": 11,
+      "Lapp/rive/runtime/kotlin/core/ViewModelInstance;": 11,
+      "Lcom/xq/cxzmoiwuegvp/B;": 11,
+      "Lcom/xq/cxzmoiwuegvp/aj;": 11,
+      "Lcom/xq/cxzmoiwuegvp/b/a/e/e;": 11,
+      "Lcom/xq/cxzmoiwuegvp/b/b/a/j;": 11,
+      "Lcom/xq/cxzmoiwuegvp/b/a/d/b;": 11
+    },
+    "total_classes_with_native_methods": 405,
+    "total_native_methods": 2026
+  },
+  "special_assets": {
+    "assets/trueidlib.so": {
+      "bytes": 392,
+      "sha256": "055e573dbee6ee9d078b9856cb0e76ed34eb1b60e601ecae114068044fb95cc5",
+      "entropy": 7.5008,
+      "head_hex": "d89a8523c6afb3c063a622ac7786ea1d199a84bccba00c76b86eaa2a5cc399df6f6049b0cac64ea987583b1daa3c037e",
+      "ascii_preview": null
+    },
+    "assets/bshield.dat": {
+      "bytes": 929,
+      "sha256": "b1750911acee6d39622970b5210221a4f1027a4000614ea3bd5bc41d297af292",
+      "entropy": 7.7848,
+      "head_hex": "082510a40d1a9907a434c6a46dc8b61611e100c61e2204fd046823df5105a512bfae7a5c0eef4c025de213f79d386043",
+      "ascii_preview": null
+    },
+    "assets/fgcpkjvqe.dat": {
+      "bytes": 776320,
+      "sha256": "cb8c0211e579f1039fbc4a5fc6d22a24c28812e701f0d7b378f7b6a4bbafe226",
+      "entropy": 7.9998,
+      "head_hex": "a6eb0ca49c7510a63d179733bdf2afd8043ff1943e25dd850ac3c9200f94db910ef65594dd5a241b2f4831dce5d19cfb",
+      "ascii_preview": null
+    },
+    "assets/config/public_key.txt": {
+      "bytes": 450,
+      "sha256": "ab63708a7b557a1332c316667a9d568e34a7a646a1383f8a33811948b081d52c",
+      "entropy": 5.8965,
+      "head_hex": "2d2d2d2d2d424547494e205055424c4943204b45592d2d2d2d2d0a4d494942496a414e42676b71686b69473977304241",
+      "ascii_preview": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnYJ6OPaYnmyYWxptmgE5\np+I8bSTFhaRgrf5wPBUfvwTe2DWR"
+    },
+    "assets/config/signature.txt": {
+      "bytes": 350,
+      "sha256": "fd7abb1a0d62a50ab42e53ab161be6a2229fabfa1558bda1ed0b5e47a3651750",
+      "entropy": 5.9237,
+      "head_hex": "58445472384b324f6578652b5258494a4b54324d5956424341536e6e307a554c3174725638526b39613761327644424d",
+      "ascii_preview": "XDTr8K2Oexe+RXIJKT2MYVBCASnn0zUL1trV8Rk9a7a2vDBMsP2uTtMZdB8KOQmb\ngYZUqrqmW00pNgjftTNLMddQjZ6ci4h2AZLF/1D+oGzLUEcQa9IwI0W"
+    },
+    "tflite_object_labeler": {
+      "bytes": 3770391,
+      "magic_offset4": "TFL3",
+      "embedded_strings_sample": [
+        "TFL3",
+        "TFLITE_METADATA",
+        "min_runtime_version",
+        "M001",
+        "1.0.0",
+        "Apache-2.0",
+        "Google",
+        "probability-labels-en.txt",
+        "probability-labels.txt",
+        "Probabilities of the outputs classes.",
+        "probability",
+        "Input image to be classified. The expect",
+        "ed image is 224 x 224 with 3 channels pe",
+        "r pixel",
+        " with each value in ",
+        "255.0",
+        "image",
+        "Mobile",
+        "google",
+        "object_detection",
+        "mobile_object_labeler_V1",
+        "1.14.0",
+        "H7db",
+        "XRTw",
+        "sO_x",
+        "xxncUQ",
+        "LzTvxoh",
+        "ix_P",
+        "SrqL",
+        "Usz_"
+      ]
+    },
+    "visa_cbp": [
+      {
+        "name": "74e13961eb6489ab-",
+        "bytes": 265304,
+        "entropy": 7.9993,
+        "magic_hex": "6a6176612f6c616e672f4f626a656374"
+      },
+      {
+        "name": "8c12f33e01f2a597a-",
+        "bytes": 15736,
+        "entropy": 7.9896,
+        "magic_hex": "6a6176612f6c616e672f4f626a656374"
+      },
+      {
+        "name": "a2687fec63dbeebcd-",
+        "bytes": 80308,
+        "entropy": 7.9977,
+        "magic_hex": "6a6176612f696f2f53657269616c697a"
+      },
+      {
+        "name": "f3f564a2648dc019c-",
+        "bytes": 9668,
+        "entropy": 7.9815,
+        "magic_hex": "6a6176612f696f2f53657269616c697a"
+      }
+    ],
+    "appsflyer_internal": [
+      {
+        "name": "1a7e8023f147cacac-",
+        "bytes": 7142,
+        "entropy": 7.974,
+        "magic_hex": "6a6176612f6c616e672f537472696e67"
+      },
+      {
+        "name": "3e6e8a8a85e1aaa2b-",
+        "bytes": 13692,
+        "entropy": 7.9844,
+        "magic_hex": "6a6176612f6c616e672f4f626a656374"
+      },
+      {
+        "name": "cc32cb866f63cd58a-",
+        "bytes": 7936,
+        "entropy": 7.9755,
+        "magic_hex": "6a6176612f6c616e672f4f626a656374"
+      },
+      {
+        "name": "cf2b565222edadded-",
+        "bytes": 3142,
+        "entropy": 7.9402,
+        "magic_hex": "6a6176612f6c616e672f537472696e67"
+      }
+    ],
+    "baseline_prof": {
+      "bytes": 18503,
+      "magic_ascii": "pro\u0000010\u0000",
+      "magic_hex": "70726f003031300006fc1c0200364800"
+    }
+  }
+}

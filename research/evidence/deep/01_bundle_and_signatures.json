@@ -1,0 +1,661 @@
+{
+  "outer_zip": {
+    "filename": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+    "bytes": 98813878,
+    "sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+    "members": [
+      {
+        "filename": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.xapk",
+        "file_size": 105608128,
+        "compress_size": 98813516,
+        "compress_type": 8,
+        "crc32": "0x20d4e30a"
+      }
+    ]
+  },
+  "xapk": {
+    "filename": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.xapk",
+    "bytes": 105608128,
+    "sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d",
+    "members": [
+      {
+        "filename": "vn.com.vng.zalopay.apk",
+        "file_size": 79359087,
+        "compress_size": 79359087,
+        "compress_type": 0,
+        "crc32": "0x67a6e855",
+        "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03"
+      },
+      {
+        "filename": "icon.png",
+        "file_size": 23841,
+        "compress_size": 23841,
+        "compress_type": 0,
+        "crc32": "0x2ce025d5",
+        "sha256": "f0b9d7d1a6144ca550e4d326bc3b6cf93696549675bc624d7774c9879c33d3f0"
+      },
+      {
+        "filename": "config.armeabi_v7a.apk",
+        "file_size": 24828408,
+        "compress_size": 24828408,
+        "compress_type": 0,
+        "crc32": "0xaf883e23",
+        "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b"
+      },
+      {
+        "filename": "config.en.apk",
+        "file_size": 74137,
+        "compress_size": 74137,
+        "compress_type": 0,
+        "crc32": "0x2a9c4768",
+        "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942"
+      },
+      {
+        "filename": "config.vi.apk",
+        "file_size": 86425,
+        "compress_size": 86425,
+        "compress_type": 0,
+        "crc32": "0x5eb37c77",
+        "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33"
+      },
+      {
+        "filename": "config.xhdpi.apk",
+        "file_size": 1232563,
+        "compress_size": 1232563,
+        "compress_type": 0,
+        "crc32": "0x0bbeb37a",
+        "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b"
+      },
+      {
+        "filename": "manifest.json",
+        "file_size": 2710,
+        "compress_size": 2710,
+        "compress_type": 0,
+        "crc32": "0x61db5423",
+        "sha256": "1382fb85261a3f58699396b832c4c68e0b206e8188ca835727c4f1f84b511ca0"
+      }
+    ],
+    "manifest_json": {
+      "xapk_version": 2,
+      "package_name": "vn.com.vng.zalopay",
+      "name": "Zalopay",
+      "version_code": "1102758",
+      "version_name": "11.17.0",
+      "min_sdk_version": "26",
+      "target_sdk_version": "36",
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.READ_CONTACTS",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_WIFI_STATE",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.READ_PHONE_STATE",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "android.permission.WAKE_LOCK",
+        "android.permission.NFC",
+        "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.USE_FINGERPRINT",
+        "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.READ_CALENDAR",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+        "com.android.launcher.permission.WRITE_SETTINGS",
+        "com.android.launcher.permission.READ_SETTINGS",
+        "com.bbk.launcher2.permission.READ_SETTINGS",
+        "com.bbk.launcher2.permission.WRITE_SETTINGS",
+        "android.permission.QUERY_ALL_PACKAGES",
+        "android.permission.CAMERA",
+        "android.permission.VIBRATE",
+        "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+        "android.permission.CHANGE_WIFI_STATE",
+        "android.permission.DETECT_SCREEN_CAPTURE",
+        "com.google.android.gms.permission.AD_ID",
+        "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+        "android.permission.ACCESS_ADSERVICES_AD_ID",
+        "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "com.android.vending.BILLING",
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        "android.permission.ACCESS_ADSERVICES_TOPICS",
+        "android.permission.FOREGROUND_SERVICE",
+        "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "android.permission.REORDER_TASKS",
+        "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+        "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+        "android.permission.READ_BASIC_PHONE_STATE",
+        "android.permission.WRITE_CONTACTS",
+        "android.permission.READ_MEDIA_AUDIO"
+      ],
+      "split_configs": [
+        "config.armeabi_v7a",
+        "config.en",
+        "config.vi",
+        "config.xhdpi"
+      ],
+      "total_size": 105580620,
+      "icon": "icon.png",
+      "split_apks": [
+        {
+          "file": "vn.com.vng.zalopay.apk",
+          "id": "base"
+        },
+        {
+          "file": "config.armeabi_v7a.apk",
+          "id": "config.armeabi_v7a"
+        },
+        {
+          "file": "config.en.apk",
+          "id": "config.en"
+        },
+        {
+          "file": "config.vi.apk",
+          "id": "config.vi"
+        },
+        {
+          "file": "config.xhdpi.apk",
+          "id": "config.xhdpi"
+        }
+      ]
+    },
+    "icon_png": {
+      "bytes": 23841,
+      "sha256": "f0b9d7d1a6144ca550e4d326bc3b6cf93696549675bc624d7774c9879c33d3f0",
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        512,
+        512
+      ],
+      "png_chunks": [
+        {
+          "type": "IHDR",
+          "length": 13
+        },
+        {
+          "type": "IDAT",
+          "length": 23784
+        },
+        {
+          "type": "IEND",
+          "length": 0
+        }
+      ]
+    }
+  },
+  "apks": {
+    "config.armeabi_v7a.apk": {
+      "bytes": 24828408,
+      "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+      "entry_count": 32,
+      "total_uncompressed": 57459525,
+      "total_compressed": 24813347,
+      "compression_methods": {
+        "DEFLATED": 32
+      },
+      "top_directories": [
+        {
+          "dir": "lib",
+          "count": 27,
+          "uncompressed_bytes": 57452124
+        },
+        {
+          "dir": "META-INF",
+          "count": 3,
+          "uncompressed_bytes": 6333
+        },
+        {
+          "dir": "(root)",
+          "count": 2,
+          "uncompressed_bytes": 1068
+        }
+      ],
+      "top_extensions": [
+        {
+          "ext": ".so",
+          "count": 27,
+          "uncompressed_bytes": 57452124
+        },
+        {
+          "ext": ".sf",
+          "count": 1,
+          "uncompressed_bytes": 2667
+        },
+        {
+          "ext": ".mf",
+          "count": 1,
+          "uncompressed_bytes": 2559
+        },
+        {
+          "ext": ".rsa",
+          "count": 1,
+          "uncompressed_bytes": 1107
+        },
+        {
+          "ext": ".xml",
+          "count": 1,
+          "uncompressed_bytes": 1036
+        },
+        {
+          "ext": "(none)",
+          "count": 1,
+          "uncompressed_bytes": 32
+        }
+      ],
+      "v1_certificates": [
+        {
+          "file": "META-INF/BNDLTOOL.RSA",
+          "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+          "sha1_fingerprint": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+          "subject": "Common Name: Vu Manh Hieu",
+          "issuer": "Common Name: Vu Manh Hieu",
+          "serial_hex": "0x153ea9fd",
+          "not_before": "2016-04-21 15:41:14+00:00",
+          "not_after": "2041-04-15 15:41:14+00:00",
+          "signature_algo": "sha256_rsa",
+          "public_key_algo": "rsa"
+        }
+      ],
+      "stamp_cert_sha256_hex": null
+    },
+    "config.en.apk": {
+      "bytes": 74137,
+      "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+      "entry_count": 6,
+      "total_uncompressed": 64699,
+      "total_compressed": 63915,
+      "compression_methods": {
+        "DEFLATED": 5,
+        "STORED": 1
+      },
+      "top_directories": [
+        {
+          "dir": "(root)",
+          "count": 3,
+          "uncompressed_bytes": 63016
+        },
+        {
+          "dir": "META-INF",
+          "count": 3,
+          "uncompressed_bytes": 1683
+        }
+      ],
+      "top_extensions": [
+        {
+          "ext": ".arsc",
+          "count": 1,
+          "uncompressed_bytes": 61984
+        },
+        {
+          "ext": ".rsa",
+          "count": 1,
+          "uncompressed_bytes": 1107
+        },
+        {
+          "ext": ".xml",
+          "count": 1,
+          "uncompressed_bytes": 1000
+        },
+        {
+          "ext": ".sf",
+          "count": 1,
+          "uncompressed_bytes": 342
+        },
+        {
+          "ext": ".mf",
+          "count": 1,
+          "uncompressed_bytes": 234
+        },
+        {
+          "ext": "(none)",
+          "count": 1,
+          "uncompressed_bytes": 32
+        }
+      ],
+      "v1_certificates": [
+        {
+          "file": "META-INF/BNDLTOOL.RSA",
+          "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+          "sha1_fingerprint": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+          "subject": "Common Name: Vu Manh Hieu",
+          "issuer": "Common Name: Vu Manh Hieu",
+          "serial_hex": "0x153ea9fd",
+          "not_before": "2016-04-21 15:41:14+00:00",
+          "not_after": "2041-04-15 15:41:14+00:00",
+          "signature_algo": "sha256_rsa",
+          "public_key_algo": "rsa"
+        }
+      ],
+      "stamp_cert_sha256_hex": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d"
+    },
+    "config.vi.apk": {
+      "bytes": 86425,
+      "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+      "entry_count": 6,
+      "total_uncompressed": 78175,
+      "total_compressed": 77394,
+      "compression_methods": {
+        "DEFLATED": 5,
+        "STORED": 1
+      },
+      "top_directories": [
+        {
+          "dir": "(root)",
+          "count": 3,
+          "uncompressed_bytes": 76492
+        },
+        {
+          "dir": "META-INF",
+          "count": 3,
+          "uncompressed_bytes": 1683
+        }
+      ],
+      "top_extensions": [
+        {
+          "ext": ".arsc",
+          "count": 1,
+          "uncompressed_bytes": 75460
+        },
+        {
+          "ext": ".rsa",
+          "count": 1,
+          "uncompressed_bytes": 1107
+        },
+        {
+          "ext": ".xml",
+          "count": 1,
+          "uncompressed_bytes": 1000
+        },
+        {
+          "ext": ".sf",
+          "count": 1,
+          "uncompressed_bytes": 342
+        },
+        {
+          "ext": ".mf",
+          "count": 1,
+          "uncompressed_bytes": 234
+        },
+        {
+          "ext": "(none)",
+          "count": 1,
+          "uncompressed_bytes": 32
+        }
+      ],
+      "v1_certificates": [
+        {
+          "file": "META-INF/BNDLTOOL.RSA",
+          "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+          "sha1_fingerprint": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+          "subject": "Common Name: Vu Manh Hieu",
+          "issuer": "Common Name: Vu Manh Hieu",
+          "serial_hex": "0x153ea9fd",
+          "not_before": "2016-04-21 15:41:14+00:00",
+          "not_after": "2041-04-15 15:41:14+00:00",
+          "signature_algo": "sha256_rsa",
+          "public_key_algo": "rsa"
+        }
+      ],
+      "stamp_cert_sha256_hex": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d"
+    },
+    "config.xhdpi.apk": {
+      "bytes": 1232563,
+      "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+      "entry_count": 258,
+      "total_uncompressed": 1329300,
+      "total_compressed": 1178129,
+      "compression_methods": {
+        "DEFLATED": 112,
+        "STORED": 146
+      },
+      "top_directories": [
+        {
+          "dir": "res",
+          "count": 252,
+          "uncompressed_bytes": 1134265
+        },
+        {
+          "dir": "(root)",
+          "count": 3,
+          "uncompressed_bytes": 142120
+        },
+        {
+          "dir": "META-INF",
+          "count": 3,
+          "uncompressed_bytes": 52915
+        }
+      ],
+      "top_extensions": [
+        {
+          "ext": ".png",
+          "count": 97,
+          "uncompressed_bytes": 726167
+        },
+        {
+          "ext": ".webp",
+          "count": 48,
+          "uncompressed_bytes": 212942
+        },
+        {
+          "ext": ".xml",
+          "count": 108,
+          "uncompressed_bytes": 196188
+        },
+        {
+          "ext": ".arsc",
+          "count": 1,
+          "uncompressed_bytes": 141056
+        },
+        {
+          "ext": ".sf",
+          "count": 1,
+          "uncompressed_bytes": 25958
+        },
+        {
+          "ext": ".mf",
+          "count": 1,
+          "uncompressed_bytes": 25850
+        },
+        {
+          "ext": ".rsa",
+          "count": 1,
+          "uncompressed_bytes": 1107
+        },
+        {
+          "ext": "(none)",
+          "count": 1,
+          "uncompressed_bytes": 32
+        }
+      ],
+      "v1_certificates": [
+        {
+          "file": "META-INF/BNDLTOOL.RSA",
+          "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+          "sha1_fingerprint": "502195a8d3e7c05c6086db45e943b16efcd24e5d",
+          "subject": "Common Name: Vu Manh Hieu",
+          "issuer": "Common Name: Vu Manh Hieu",
+          "serial_hex": "0x153ea9fd",
+          "not_before": "2016-04-21 15:41:14+00:00",
+          "not_after": "2041-04-15 15:41:14+00:00",
+          "signature_algo": "sha256_rsa",
+          "public_key_algo": "rsa"
+        }
+      ],
+      "stamp_cert_sha256_hex": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d"
+    },
+    "vn.com.vng.zalopay.apk": {
+      "bytes": 79359087,
+      "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+      "entry_count": 6162,
+      "total_uncompressed": 136395610,
+      "total_compressed": 78345127,
+      "compression_methods": {
+        "DEFLATED": 5630,
+        "STORED": 532
+      },
+      "top_directories": [
+        {
+          "dir": "(root)",
+          "count": 96,
+          "uncompressed_bytes": 66790154
+        },
+        {
+          "dir": "res",
+          "count": 5604,
+          "uncompressed_bytes": 37670801
+        },
+        {
+          "dir": "assets",
+          "count": 124,
+          "uncompressed_bytes": 30011044
+        },
+        {
+          "dir": "org",
+          "count": 136,
+          "uncompressed_bytes": 1640008
+        },
+        {
+          "dir": "META-INF",
+          "count": 180,
+          "uncompressed_bytes": 140283
+        },
+        {
+          "dir": "kotlin",
+          "count": 8,
+          "uncompressed_bytes": 51125
+        },
+        {
+          "dir": "google",
+          "count": 9,
+          "uncompressed_bytes": 46722
+        },
+        {
+          "dir": "okhttp3",
+          "count": 2,
+          "uncompressed_bytes": 41612
+        },
+        {
+          "dir": "vn",
+          "count": 1,
+          "uncompressed_bytes": 2014
+        },
+        {
+          "dir": "junit",
+          "count": 2,
+          "uncompressed_bytes": 1847
+        }
+      ],
+      "top_extensions": [
+        {
+          "ext": ".dex",
+          "count": 20,
+          "uncompressed_bytes": 69701748
+        },
+        {
+          "ext": ".xml",
+          "count": 5209,
+          "uncompressed_bytes": 11023504
+        },
+        {
+          "ext": ".tflite",
+          "count": 14,
+          "uncompressed_bytes": 10203704
+        },
+        {
+          "ext": ".png",
+          "count": 221,
+          "uncompressed_bytes": 6883387
+        },
+        {
+          "ext": ".ttf",
+          "count": 23,
+          "uncompressed_bytes": 6823784
+        },
+        {
+          "ext": ".json",
+          "count": 64,
+          "uncompressed_bytes": 6677077
+        },
+        {
+          "ext": ".zip",
+          "count": 1,
+          "uncompressed_bytes": 3913966
+        },
+        {
+          "ext": ".yaml",
+          "count": 1,
+          "uncompressed_bytes": 3778896
+        },
+        {
+          "ext": ".svg",
+          "count": 2,
+          "uncompressed_bytes": 2551186
+        },
+        {
+          "ext": ".bin",
+          "count": 2,
+          "uncompressed_bytes": 2422326
+        },
+        {
+          "ext": ".arsc",
+          "count": 1,
+          "uncompressed_bytes": 1802300
+        },
+        {
+          "ext": ".webp",
+          "count": 111,
+          "uncompressed_bytes": 1711422
+        },
+        {
+          "ext": ".tfl",
+          "count": 2,
+          "uncompressed_bytes": 1472072
+        },
+        {
+          "ext": ".properties",
+          "count": 79,
+          "uncompressed_bytes": 1412456
+        },
+        {
+          "ext": ".amr",
+          "count": 3,
+          "uncompressed_bytes": 1161889
+        },
+        {
+          "ext": ".emd",
+          "count": 4,
+          "uncompressed_bytes": 1113555
+        },
+        {
+          "ext": ".dat",
+          "count": 3,
+          "uncompressed_bytes": 785556
+        },
+        {
+          "ext": ".otf",
+          "count": 2,
+          "uncompressed_bytes": 588768
+        },
+        {
+          "ext": "(none)",
+          "count": 14,
+          "uncompressed_bytes": 504394
+        },
+        {
+          "ext": ".fb",
+          "count": 2,
+          "uncompressed_bytes": 350416
+        }
+      ],
+      "v1_certificates": [],
+      "stamp_cert_sha256_hex": "3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d"
+    }
+  }
+}
