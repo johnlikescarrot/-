@@ -1,0 +1,14 @@
+# extracted artifacts
+analysis/extracted/
+# python
+__pycache__/
+*.pyc
+.venv/
+# node
+node_modules/
+# os
+.DS_Store
+# large binaries not needed in git
+*.apk
+*.xapk
+*.aab
