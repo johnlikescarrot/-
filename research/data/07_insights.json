@@ -1,0 +1,220 @@
+{
+ "obfuscation": {
+  "classes": 60671,
+  "packages": 5476,
+  "obfuscated_packages": 1558,
+  "obfuscated_package_pct": 28.5,
+  "classes_in_obfuscated_packages": 15713,
+  "classes_in_obfuscated_pct": 25.9,
+  "sample": [
+   "A",
+   "Aa",
+   "Ab",
+   "Ac",
+   "Ad",
+   "Ae",
+   "Af",
+   "Ag",
+   "Ah",
+   "Ai",
+   "Aj",
+   "Ak",
+   "Al",
+   "Am",
+   "An",
+   "Ao",
+   "Ap",
+   "Aq",
+   "Ar",
+   "As",
+   "At",
+   "Au",
+   "Av",
+   "Ax",
+   "Ay"
+  ],
+  "toolchain_evidence": {
+   "kotlin_modules": 11,
+   "source_file_attribute": "normalised to 'SourceFile' for 100% of classes (R8 without line/attribute retention)",
+   "griver_assets": 15
+  }
+ },
+ "mini_apps": {
+  "count": 373,
+  "categories": [
+   [
+    "Dịch vụ phổ biến",
+    88
+   ],
+   [
+    "Giải trí - Cộng đồng",
+    77
+   ],
+   [
+    "Tài chính",
+    65
+   ],
+   [
+    "Ăn uống",
+    32
+   ],
+   [
+    "Dịch vụ đối tác",
+    18
+   ],
+   [
+    "Mua sắm",
+    15
+   ],
+   [
+    "Giao thông - Vận chuyển",
+    14
+   ],
+   [
+    "Thanh toán hoá đơn",
+    12
+   ],
+   [
+    "Du lịch - Đi lại",
+    9
+   ],
+   [
+    "Điện thoại",
+    8
+   ],
+   [
+    "Khám phá Zalopay",
+    8
+   ],
+   [
+    "Tích điểm thành viên đối tác",
+    7
+   ],
+   [
+    "Chuyển - Nhận tiền",
+    6
+   ],
+   [
+    "Ví của tôi",
+    5
+   ],
+   [
+    "Bảo hiểm",
+    4
+   ],
+   [
+    "Giáo dục",
+    2
+   ],
+   [
+    "Ưu đãi khuyến mãi",
+    1
+   ],
+   [
+    "Dịch vụ khác",
+    1
+   ],
+   [
+    "Dịch vụ y tế",
+    1
+   ]
+  ],
+  "base_url_hosts": [
+   [
+    "social.zalopay.vn",
+    316
+   ],
+   [
+    "mnap-director.zalopay.vn",
+    38
+   ],
+   [
+    "mc.zalopay.vn",
+    1
+   ],
+   [
+    "uudai.zalopay.vn",
+    1
+   ],
+   [
+    "ti.ki",
+    1
+   ],
+   [
+    "lzd.co",
+    1
+   ],
+   [
+    "zalo.me",
+    1
+   ],
+   [
+    "scard.zalopay.vn",
+    1
+   ],
+   [
+    "app2-zl.unipass.vn",
+    1
+   ],
+   [
+    "elsazalopay.onstudy.vn",
+    1
+   ]
+  ],
+  "deep_link_pattern": "zalopay://launch/app/9588434516294069",
+  "source": "assets/config/miniapp_config.json",
+  "home_shortcuts": 4
+ },
+ "pin_envelope_surface": {
+  "note": "Endpoint names are evidence of protocol *shape* only; no keys, PINs or payloads are recovered in this study.",
+  "key_discovery": [
+   "/v2/user/public-key",
+   "/v2/user/salt",
+   "/v2/user/pin/pre-check-update-pin"
+  ],
+  "session_and_otp": [
+   "/v2/account/logindevice",
+   "/v2/account/otp",
+   "/v2/account/otp-verification",
+   "/v2/account/otp/status",
+   "/v2/account/phone/forgot-pin-session",
+   "/v2/account/phone/session",
+   "/v2/account/zalo/session",
+   "/v2/user/pin/pin-reset/otp",
+   "/v2/user/pin/pin-reset/otp-verification"
+  ],
+  "ekyc": [
+   "/v2/ekyc/upload/trueid/face-liveness",
+   "/v2/ekyc/upload/trueid/face-liveness/v3",
+   "/v2/ekyc/upload/trueid/sdk-create",
+   "/v2/user-liveness/submit/form",
+   "/v2/user-liveness/trueid/face-liveness",
+   "/v2/user-liveness/trueid/face-liveness/v3",
+   "/v2/user/face-authen/trueid/sdk-create",
+   "v2/user-liveness/create",
+   "v2/user-liveness/status",
+   "v2/user-liveness/submit"
+  ],
+  "cashier": [
+   "/v1/loyalty/cashier-earned-point",
+   "/v3/cashier/state/set",
+   "/v2/agreement/confirm",
+   "/v2/topup-withdraw/topup-order",
+   "/v2/cashier/order/payment",
+   "/v2/cashier/result",
+   "/v2/cashier/result-page/params",
+   "/v3/cashier/result",
+   "/v2/cashier/precheck-pay",
+   "/v2/cashier/promotion-pages",
+   "/v2/cashier/sources-of-fund",
+   "v2/cashier/assets",
+   "v2/cashier/change-assets",
+   "v2/cashier/order/status",
+   "v2/cashier/pay",
+   "v2/cashier/promotions"
+  ],
+  "pci": [
+   "/v2/bank-mapping-pci/web/relink-unconfirmed-bank"
+  ]
+ }
+}

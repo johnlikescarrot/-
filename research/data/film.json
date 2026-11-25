@@ -1,0 +1,831 @@
+{
+ "subject": {
+  "app": "ZaloPay",
+  "package": "vn.com.vng.zalopay",
+  "version": "11.17.0",
+  "version_code": "1102758",
+  "min_sdk": "26",
+  "target_sdk": "36",
+  "main_activity": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+  "sha256_xapk": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d",
+  "sha256_outer": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+  "bytes_outer": 98813878,
+  "bytes_xapk": 105608128
+ },
+ "container": {
+  "splits": 5,
+  "entries": 6464,
+  "uncompressed": 195327309,
+  "dex_files": 20,
+  "native_libs": 28,
+  "xml": 5320,
+  "split_names": [
+   "config.armeabi_v7a.apk",
+   "config.en.apk",
+   "config.vi.apk",
+   "config.xhdpi.apk",
+   "vn.com.vng.zalopay.apk"
+  ],
+  "misaligned_base": 4249
+ },
+ "code": {
+  "classes": 60671,
+  "methods": 351248,
+  "strings": 374276,
+  "types": 114693,
+  "dex_bytes": 64837712,
+  "dex": 19,
+  "method_limit_dexes": [
+   "classes.dex",
+   "classes4.dex",
+   "classes7.dex"
+  ],
+  "largest_dex": {
+   "dex": "classes2.dex",
+   "bytes": 16516960,
+   "version": "038",
+   "checksum": "92cab890",
+   "sha1": "a46d2f5bf1720cbb6e7b33426e58509621c6f504",
+   "strings": 56948,
+   "types": 11243,
+   "methods": 45527,
+   "classes": 7421
+  },
+  "obf_pkg_pct": 28.5,
+  "obf_class_pct": 25.9,
+  "native_methods": 2026,
+  "sections": [
+   {
+    "dex": "classes.dex",
+    "bytes": 8831004,
+    "code": 7128072,
+    "index_bytes": 1702932,
+    "method_capacity_used": 91.47
+   },
+   {
+    "dex": "classes10.dex",
+    "bytes": 78204,
+    "code": 58888,
+    "index_bytes": 19316,
+    "method_capacity_used": 0.88
+   },
+   {
+    "dex": "classes11.dex",
+    "bytes": 163420,
+    "code": 127152,
+    "index_bytes": 36268,
+    "method_capacity_used": 1.79
+   },
+   {
+    "dex": "classes12.dex",
+    "bytes": 398276,
+    "code": 321364,
+    "index_bytes": 76912,
+    "method_capacity_used": 3.97
+   },
+   {
+    "dex": "classes13.dex",
+    "bytes": 145824,
+    "code": 115876,
+    "index_bytes": 29948,
+    "method_capacity_used": 1.52
+   },
+   {
+    "dex": "classes14.dex",
+    "bytes": 81748,
+    "code": 62740,
+    "index_bytes": 19008,
+    "method_capacity_used": 0.88
+   },
+   {
+    "dex": "classes15.dex",
+    "bytes": 82152,
+    "code": 60456,
+    "index_bytes": 21696,
+    "method_capacity_used": 1.0
+   },
+   {
+    "dex": "classes16.dex",
+    "bytes": 15916,
+    "code": 11716,
+    "index_bytes": 4200,
+    "method_capacity_used": 0.15
+   },
+   {
+    "dex": "classes17.dex",
+    "bytes": 208476,
+    "code": 164212,
+    "index_bytes": 44264,
+    "method_capacity_used": 2.0
+   },
+   {
+    "dex": "classes18.dex",
+    "bytes": 95920,
+    "code": 72296,
+    "index_bytes": 23624,
+    "method_capacity_used": 1.02
+   },
+   {
+    "dex": "classes19.dex",
+    "bytes": 719548,
+    "code": 600788,
+    "index_bytes": 118760,
+    "method_capacity_used": 5.77
+   },
+   {
+    "dex": "classes2.dex",
+    "bytes": 16516960,
+    "code": 15017556,
+    "index_bytes": 1499404,
+    "method_capacity_used": 69.47
+   },
+   {
+    "dex": "classes3.dex",
+    "bytes": 850600,
+    "code": 660432,
+    "index_bytes": 190168,
+    "method_capacity_used": 9.7
+   },
+   {
+    "dex": "classes4.dex",
+    "bytes": 9418124,
+    "code": 7773332,
+    "index_bytes": 1644792,
+    "method_capacity_used": 91.55
+   },
+   {
+    "dex": "classes5.dex",
+    "bytes": 7357484,
+    "code": 5790860,
+    "index_bytes": 1566624,
+    "method_capacity_used": 74.85
+   },
+   {
+    "dex": "classes6.dex",
+    "bytes": 7612432,
+    "code": 6269368,
+    "index_bytes": 1343064,
+    "method_capacity_used": 75.07
+   },
+   {
+    "dex": "classes7.dex",
+    "bytes": 10803680,
+    "code": 9051816,
+    "index_bytes": 1751864,
+    "method_capacity_used": 91.55
+   },
+   {
+    "dex": "classes8.dex",
+    "bytes": 239036,
+    "code": 188972,
+    "index_bytes": 50064,
+    "method_capacity_used": 2.37
+   },
+   {
+    "dex": "classes9.dex",
+    "bytes": 1218908,
+    "code": 1033936,
+    "index_bytes": 184972,
+    "method_capacity_used": 10.94
+   }
+  ]
+ },
+ "manifest": {
+  "activities": 200,
+  "services": 34,
+  "receivers": 22,
+  "providers": 9,
+  "permissions": 49,
+  "dangerous": [
+   "android.permission.ACCESS_COARSE_LOCATION",
+   "android.permission.ACCESS_FINE_LOCATION",
+   "android.permission.CAMERA",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.READ_BASIC_PHONE_STATE",
+   "android.permission.READ_CALENDAR",
+   "android.permission.READ_CONTACTS",
+   "android.permission.READ_EXTERNAL_STORAGE",
+   "android.permission.READ_MEDIA_AUDIO",
+   "android.permission.READ_PHONE_STATE",
+   "android.permission.RECORD_AUDIO",
+   "android.permission.WRITE_CALENDAR",
+   "android.permission.WRITE_CONTACTS",
+   "android.permission.WRITE_EXTERNAL_STORAGE"
+  ],
+  "features": [
+   "android.hardware.nfc.hce",
+   "android.hardware.bluetooth_le",
+   "android.hardware.location.gps",
+   "android.hardware.camera.autofocus",
+   "android.hardware.camera",
+   "android.hardware.nfc",
+   "android.hardware.camera.any"
+  ]
+ },
+ "sdks": [
+  {
+   "sdk": "Firebase / Google Play services",
+   "vendor": "Google · platform",
+   "evidence": 9870
+  },
+  {
+   "sdk": "Bouncy Castle",
+   "vendor": "crypto · library",
+   "evidence": 9448
+  },
+  {
+   "sdk": "Alibaba mPaaS / ARiver (mini-app runtime)",
+   "vendor": "super-app runtime",
+   "evidence": 3836
+  },
+  {
+   "sdk": "Visa SDK",
+   "vendor": "card tokenization",
+   "evidence": 1848
+  },
+  {
+   "sdk": "ExoPlayer / Media3",
+   "vendor": "media",
+   "evidence": 1827
+  },
+  {
+   "sdk": "CameraX",
+   "vendor": "media",
+   "evidence": 1669
+  },
+  {
+   "sdk": "Jetpack Compose",
+   "vendor": "UI",
+   "evidence": 1362
+  },
+  {
+   "sdk": "TrueID eKYC",
+   "vendor": "KYC · VN",
+   "evidence": 1270
+  },
+  {
+   "sdk": "VNPAY QR / tokenization",
+   "vendor": "payments · VN",
+   "evidence": 700
+  },
+  {
+   "sdk": "AppsFlyer",
+   "vendor": "attribution",
+   "evidence": 685
+  },
+  {
+   "sdk": "Kotlin stdlib",
+   "vendor": "language",
+   "evidence": 597
+  },
+  {
+   "sdk": "AndroidX core",
+   "vendor": "platform",
+   "evidence": 555
+  },
+  {
+   "sdk": "JWT (jjwt / nimbus)",
+   "vendor": "crypto · tokens",
+   "evidence": 553
+  },
+  {
+   "sdk": "OkHttp 4",
+   "vendor": "networking",
+   "evidence": 474
+  },
+  {
+   "sdk": "Glide / Picasso",
+   "vendor": "UI · imaging",
+   "evidence": 467
+  },
+  {
+   "sdk": "Moshi / Gson",
+   "vendor": "serialization",
+   "evidence": 401
+  },
+  {
+   "sdk": "RxJava 2",
+   "vendor": "async",
+   "evidence": 399
+  },
+  {
+   "sdk": "WorkManager",
+   "vendor": "background",
+   "evidence": 382
+  }
+ ],
+ "sdk_count": 56,
+ "endpoints": {
+  "hosts": 168,
+  "first_party": [
+   {
+    "host": "scdn.zalopay.com.vn",
+    "hits": 65
+   },
+   {
+    "host": "simg.zalopay.com.vn",
+    "hits": 45
+   },
+   {
+    "host": "zalopay.vn",
+    "hits": 20
+   },
+   {
+    "host": "api.zalopay.vn",
+    "hits": 15
+   },
+   {
+    "host": "social.zalopay.vn",
+    "hits": 13
+   },
+   {
+    "host": "sapi.zalopay.vn",
+    "hits": 10
+   },
+   {
+    "host": "mnap-director.zalopay.vn",
+    "hits": 8
+   },
+   {
+    "host": "zalo.me",
+    "hits": 5
+   },
+   {
+    "host": "upload-img.zalopay.vn",
+    "hits": 5
+   },
+   {
+    "host": "openapi.zalopay.vn",
+    "hits": 5
+   }
+  ],
+  "first_party_count": 45,
+  "classes": {
+   "first-party · ZaloPay": 45,
+   "unclassified": 58,
+   "third-party · Alipay": 27,
+   "third-party · Google": 20,
+   "third-party · Meta": 4,
+   "third-party · Google Analytics": 1,
+   "third-party · FPT Smart Cloud (VN eKYC)": 3,
+   "third-party · VNPAY": 3,
+   "third-party · Marmot (Alibaba mini-program CDN)": 1,
+   "third-party · TrueID (VN eKYC)": 2,
+   "third-party · Alibaba": 1,
+   "third-party · ByteDance": 1,
+   "third-party · AppsFlyer": 1,
+   "third-party · Crashlytics": 1
+  },
+  "api_paths": 290
+ },
+ "native": {
+  "count": 27,
+  "bytes": 57452124,
+  "stripped_pct": 96.3,
+  "hardening": {
+   "relro": 26,
+   "bind_now": 27,
+   "nx": 27,
+   "pie": 26,
+   "stack_canary": 25
+  },
+  "randomised_names": [
+   "libfgcpkjvqe.so",
+   "libljsfrcwmw.so",
+   "liblytcuhe.so",
+   "libohxbee.so",
+   "libsqlcipher.so",
+   "libtaibmcf.so",
+   "libtrueidlib.so"
+  ],
+  "libraries": [
+   {
+    "lib": "libVFaceLib.so",
+    "bytes": 1963668,
+    "cat": "kyc",
+    "entropy": 7.112
+   },
+   {
+    "lib": "liba97d.so",
+    "bytes": 997572,
+    "cat": "obfuscated",
+    "entropy": 6.221
+   },
+   {
+    "lib": "libandroidx.graphics.path.so",
+    "bytes": 7252,
+    "cat": "ui",
+    "entropy": 5.767
+   },
+   {
+    "lib": "libbarhopper_v3.so",
+    "bytes": 3244440,
+    "cat": "ml",
+    "entropy": 7.215
+   },
+   {
+    "lib": "libc++_shared.so",
+    "bytes": 872872,
+    "cat": "runtime",
+    "entropy": 6.884
+   },
+   {
+    "lib": "libcrashlytics-common.so",
+    "bytes": 435732,
+    "cat": "observability",
+    "entropy": 6.906
+   },
+   {
+    "lib": "libcrashlytics-handler.so",
+    "bytes": 87908,
+    "cat": "observability",
+    "entropy": 6.516
+   },
+   {
+    "lib": "libcrashlytics-trampoline.so",
+    "bytes": 6912,
+    "cat": "unknown",
+    "entropy": 4.658
+   },
+   {
+    "lib": "libcrashlytics.so",
+    "bytes": 94540,
+    "cat": "observability",
+    "entropy": 6.557
+   },
+   {
+    "lib": "libface_detector_v2_jni.so",
+    "bytes": 5388224,
+    "cat": "ml",
+    "entropy": 7.149
+   },
+   {
+    "lib": "libfgcpkjvqe.so",
+    "bytes": 6524160,
+    "cat": "obfuscated",
+    "entropy": 6.266
+   },
+   {
+    "lib": "libimage_processing_util_jni.so",
+    "bytes": 20380,
+    "cat": "media",
+    "entropy": 6.574
+   },
+   {
+    "lib": "libimagepipeline.so",
+    "bytes": 5876,
+    "cat": "unknown",
+    "entropy": 5.158
+   },
+   {
+    "lib": "libljsfrcwmw.so",
+    "bytes": 600296,
+    "cat": "obfuscated",
+    "entropy": 6.433
+   },
+   {
+    "lib": "liblytcuhe.so",
+    "bytes": 178628,
+    "cat": "obfuscated",
+    "entropy": 6.629
+   },
+   {
+    "lib": "libmlkit_google_ocr_pipeline.so",
+    "bytes": 6781940,
+    "cat": "ml",
+    "entropy": 6.98
+   },
+   {
+    "lib": "libmlkitcommonpipeline.so",
+    "bytes": 6928228,
+    "cat": "ml",
+    "entropy": 7.158
+   },
+   {
+    "lib": "libnative-filters.so",
+    "bytes": 12588,
+    "cat": "ui",
+    "entropy": 6.327
+   },
+   {
+    "lib": "libnative-imagetranscoder.so",
+    "bytes": 341072,
+    "cat": "ui",
+    "entropy": 6.959
+   },
+   {
+    "lib": "libohxbee.so",
+    "bytes": 155412,
+    "cat": "obfuscated",
+    "entropy": 6.246
+   },
+   {
+    "lib": "libpicodet_ncnn.so",
+    "bytes": 2992584,
+    "cat": "ml",
+    "entropy": 7.181
+   },
+   {
+    "lib": "librcmefqonnx.so",
+    "bytes": 178628,
+    "cat": "ml",
+    "entropy": 6.63
+   },
+   {
+    "lib": "librive-android.so",
+    "bytes": 3225636,
+    "cat": "ui",
+    "entropy": 6.417
+   },
+   {
+    "lib": "libsecurity_lite.so",
+    "bytes": 154840,
+    "cat": "security",
+    "entropy": 7.303
+   },
+   {
+    "lib": "libsqlcipher.so",
+    "bytes": 3555080,
+    "cat": "storage",
+    "entropy": 6.694
+   },
+   {
+    "lib": "libtaibmcf.so",
+    "bytes": 12617752,
+    "cat": "security",
+    "entropy": 6.124
+   },
+   {
+    "lib": "libtrueidlib.so",
+    "bytes": 79904,
+    "cat": "kyc",
+    "entropy": 6.948
+   }
+  ],
+  "max_entropy": {
+   "lib": "libsecurity_lite.so",
+   "value": 7.303
+  }
+ },
+ "resources": {
+  "arsc_bytes": 1802300,
+  "arsc_strings": 7763,
+  "ml_models": 22,
+  "ml_bytes": 15225212,
+  "ml_list": [
+   "object_labeler.tflite",
+   "FastestDet.ncnn.bin",
+   "labeler_with_validation.tflite",
+   "localizer_with_validation.tflite",
+   "contours.tfl",
+   "LMprec_600.emd",
+   "fssd_medium_8bit_v5.tflite",
+   "fssd_medium_8bit_gray_v5.tflite",
+   "barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+   "blazeface.tfl",
+   "rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+   "tflite_langid.tflite",
+   "oned_feature_extractor_mobile.tflite",
+   "fssd_25_8bit_v2.tflite",
+   "fssd_25_8bit_gray_v2.tflite",
+   "oned_auto_regressor_mobile.tflite",
+   "model.tflite",
+   "model.tflite",
+   "BCLjoy_200.emd",
+   "FastestDet.ncnn.param",
+   "BCLrighteyeclosed_200.emd",
+   "BCLlefteyeclosed_200.emd"
+  ],
+  "security_assets": 12
+ },
+ "security": {
+  "cert_subject": "CN=Vu Manh Hieu",
+  "cert_sha256": "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+  "cert_not_before": "2016-04-21",
+  "cert_not_after": "2041-04-15",
+  "key": {
+   "type": "RSAPublicKey",
+   "bits": 2048
+  },
+  "sig_verified": false,
+  "v2_pair_length": 1383,
+  "block_size": 8184,
+  "hardening": {
+   "root_and_tamper": [
+    "RootBeer",
+    "Play Integrity API",
+    "Alibaba Security Guard (libtaibmcf.so, libfgcpkjvqe.so)",
+    "assets/bshield.dat",
+    "trueidlib.so SmartOTP debugger/integrity checks"
+   ],
+   "keystore": [
+    "AndroidKeyStore",
+    "StrongBox (1 string ref)",
+    "KeyGenParameterSpec",
+    "BiometricPrompt"
+   ],
+   "crypto_in_use": [
+    "AES/GCM/NoPadding",
+    "RSA/ECB/OAEPWithSHA-256AndMGF1Padding",
+    "HmacSHA256",
+    "PBKDF2WithHmacSHA256",
+    "ECDH",
+    "ECIES",
+    "X25519",
+    "Ed25519",
+    "Bouncy Castle PQC: Kyber/ML-KEM, Dilithium, SPHINCS+, Picnic, BIKE, HQC, FrodoKEM"
+   ],
+   "screen_protection": [
+    "DETECT_SCREEN_CAPTURE permission",
+    "FLAG_SECURE handling"
+   ],
+   "device_attestation": [
+    "Play Integrity (StandardIntegrityManager)",
+    "SafetyNet legacy strings"
+   ]
+  },
+  "pqc": [
+   "Kyber/ML-KEM",
+   "Dilithium",
+   "SPHINCS+",
+   "Picnic",
+   "BIKE",
+   "HQC",
+   "FrodoKEM"
+  ],
+  "hex": {
+   "block_offset": 78807040,
+   "head": "f8 1f 00 00 00 00 00 00 67 05 00 00 00 00 00 00 1a 87 09 71 5f 05 00 00 5b 05 00 00 1d 03 00 00 2c 00 00 00 28 00 00 00 03 01 00 00 20 00 00 00",
+   "pair_offset": 78807048,
+   "pair_tail": "99 47 15 4e 16 b0 ac 79 c7 82 bf 02 03 01 00 01 67 05 00 00 00 00 00 00 c0 68 53 f0 5f 05 00 00",
+   "declared_vs_actual": [
+    1383,
+    1387
+   ]
+  }
+ },
+ "miniapps": {
+  "count": 373,
+  "categories": [
+   [
+    "Dịch vụ phổ biến",
+    88
+   ],
+   [
+    "Giải trí - Cộng đồng",
+    77
+   ],
+   [
+    "Tài chính",
+    65
+   ],
+   [
+    "Ăn uống",
+    32
+   ],
+   [
+    "Dịch vụ đối tác",
+    18
+   ],
+   [
+    "Mua sắm",
+    15
+   ],
+   [
+    "Giao thông - Vận chuyển",
+    14
+   ],
+   [
+    "Thanh toán hoá đơn",
+    12
+   ]
+  ],
+  "deep_link": "zalopay://launch/app/9588434516294069",
+  "hosts": [
+   [
+    "social.zalopay.vn",
+    316
+   ],
+   [
+    "mnap-director.zalopay.vn",
+    38
+   ],
+   [
+    "mc.zalopay.vn",
+    1
+   ],
+   [
+    "uudai.zalopay.vn",
+    1
+   ],
+   [
+    "ti.ki",
+    1
+   ],
+   [
+    "lzd.co",
+    1
+   ]
+  ]
+ },
+ "pin_surface": {
+  "note": "Endpoint names are evidence of protocol *shape* only; no keys, PINs or payloads are recovered in this study.",
+  "key_discovery": [
+   "/v2/user/public-key",
+   "/v2/user/salt",
+   "/v2/user/pin/pre-check-update-pin"
+  ],
+  "session_and_otp": [
+   "/v2/account/logindevice",
+   "/v2/account/otp",
+   "/v2/account/otp-verification",
+   "/v2/account/otp/status",
+   "/v2/account/phone/forgot-pin-session",
+   "/v2/account/phone/session",
+   "/v2/account/zalo/session",
+   "/v2/user/pin/pin-reset/otp",
+   "/v2/user/pin/pin-reset/otp-verification"
+  ],
+  "ekyc": [
+   "/v2/ekyc/upload/trueid/face-liveness",
+   "/v2/ekyc/upload/trueid/face-liveness/v3",
+   "/v2/ekyc/upload/trueid/sdk-create",
+   "/v2/user-liveness/submit/form",
+   "/v2/user-liveness/trueid/face-liveness",
+   "/v2/user-liveness/trueid/face-liveness/v3",
+   "/v2/user/face-authen/trueid/sdk-create",
+   "v2/user-liveness/create",
+   "v2/user-liveness/status",
+   "v2/user-liveness/submit"
+  ],
+  "cashier": [
+   "/v1/loyalty/cashier-earned-point",
+   "/v3/cashier/state/set",
+   "/v2/agreement/confirm",
+   "/v2/topup-withdraw/topup-order",
+   "/v2/cashier/order/payment",
+   "/v2/cashier/result",
+   "/v2/cashier/result-page/params",
+   "/v3/cashier/result",
+   "/v2/cashier/precheck-pay",
+   "/v2/cashier/promotion-pages",
+   "/v2/cashier/sources-of-fund",
+   "v2/cashier/assets",
+   "v2/cashier/change-assets",
+   "v2/cashier/order/status",
+   "v2/cashier/pay",
+   "v2/cashier/promotions"
+  ],
+  "pci": [
+   "/v2/bank-mapping-pci/web/relink-unconfirmed-bank"
+  ]
+ },
+ "families": [
+  [
+   "third-party (other)",
+   55505
+  ],
+  [
+   "AndroidX / Jetpack",
+   4250
+  ],
+  [
+   "Kotlin stdlib",
+   346
+  ],
+  [
+   "OkHttp",
+   335
+  ],
+  [
+   "Retrofit",
+   137
+  ],
+  [
+   "Dagger / Hilt DI",
+   51
+  ],
+  [
+   "(root)",
+   24
+  ],
+  [
+   "kotlinx (coroutines)",
+   23
+  ]
+ ],
+ "provenance": {
+  "outer_zip": "Zalopay-Thanh toán & Tài chính_11.17.0_APKPure.zip",
+  "xapk_sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d",
+  "stages": 8,
+  "tooling": [
+   "custom DEX parser (no third-party decompiler)",
+   "pyelftools (ELF)",
+   "androguard (AXML)",
+   "custom ARSC reader",
+   "cryptography (X.509)",
+   "FFmpeg 9.0.2",
+   "TypeScript 5 / @resvg + Skia"
+  ]
+ }
+}
