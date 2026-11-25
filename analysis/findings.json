@@ -1,0 +1,2040 @@
+{
+  "generated_at": "2026-11-25T15:00:07+00:00",
+  "tools": {
+    "androguard": "4.1.4",
+    "python": "3.11",
+    "method": "static-only"
+  },
+  "outer_archive": {
+    "file": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+    "bytes": 98813878,
+    "sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a"
+  },
+  "xapk": {
+    "file": "app.xapk",
+    "bytes": 105608128,
+    "sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d"
+  },
+  "inventory": [
+    {
+      "name": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.xapk",
+      "bytes": 105608128,
+      "compressed": 98813516,
+      "sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d"
+    },
+    {
+      "name": "vn.com.vng.zalopay.apk",
+      "bytes": 79359087,
+      "compressed": 79359087,
+      "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03"
+    },
+    {
+      "name": "icon.png",
+      "bytes": 23841,
+      "compressed": 23841,
+      "sha256": "f0b9d7d1a6144ca550e4d326bc3b6cf93696549675bc624d7774c9879c33d3f0"
+    },
+    {
+      "name": "config.armeabi_v7a.apk",
+      "bytes": 24828408,
+      "compressed": 24828408,
+      "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b"
+    },
+    {
+      "name": "config.en.apk",
+      "bytes": 74137,
+      "compressed": 74137,
+      "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942"
+    },
+    {
+      "name": "config.vi.apk",
+      "bytes": 86425,
+      "compressed": 86425,
+      "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33"
+    },
+    {
+      "name": "config.xhdpi.apk",
+      "bytes": 1232563,
+      "compressed": 1232563,
+      "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b"
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 2710,
+      "compressed": 2710,
+      "sha256": "1382fb85261a3f58699396b832c4c68e0b206e8188ca835727c4f1f84b511ca0"
+    }
+  ],
+  "aggregate": {
+    "apk_count": 5,
+    "dex_count": 19,
+    "class_defs": 60671,
+    "method_ids": 351248,
+    "string_ids": 374276,
+    "native_count": 28,
+    "native_bytes": 57452516,
+    "unique_permissions": 49
+  },
+  "base_apk": {
+    "file": "vn.com.vng.zalopay.apk",
+    "bytes": 79359087,
+    "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+    "manifest": {
+      "package": "vn.com.vng.zalopay",
+      "version_name": "11.17.0",
+      "version_code": "1102758",
+      "min_sdk": "26",
+      "target_sdk": "36",
+      "compile_sdk": "36",
+      "split_name": null,
+      "split_types": "",
+      "required_split_types": "base__abi,base__density"
+    },
+    "permissions": {
+      "total": 49,
+      "dangerous_count": 16,
+      "all": [
+        "android.permission.ACCESS_ADSERVICES_AD_ID",
+        "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+        "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+        "android.permission.ACCESS_ADSERVICES_TOPICS",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.ACCESS_WIFI_STATE",
+        "android.permission.CAMERA",
+        "android.permission.CHANGE_WIFI_STATE",
+        "android.permission.DETECT_SCREEN_CAPTURE",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.INTERNET",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.NFC",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.QUERY_ALL_PACKAGES",
+        "android.permission.READ_BASIC_PHONE_STATE",
+        "android.permission.READ_CALENDAR",
+        "android.permission.READ_CONTACTS",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.READ_PHONE_STATE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.REORDER_TASKS",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT",
+        "android.permission.VIBRATE",
+        "android.permission.WAKE_LOCK",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.WRITE_CONTACTS",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "com.android.launcher.permission.READ_SETTINGS",
+        "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+        "com.android.launcher.permission.WRITE_SETTINGS",
+        "com.android.vending.BILLING",
+        "com.bbk.launcher2.permission.READ_SETTINGS",
+        "com.bbk.launcher2.permission.WRITE_SETTINGS",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        "com.google.android.gms.permission.AD_ID",
+        "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+        "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+        "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+        "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+        "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+      ]
+    },
+    "components": {
+      "application_flags": {
+        "allowBackup": "false",
+        "debuggable": null,
+        "usesCleartextTraffic": null,
+        "requestLegacyExternalStorage": "true",
+        "largeHeap": "true",
+        "networkSecurityConfig": "@7F16000D"
+      },
+      "activity": {
+        "total": 200,
+        "exported_or_implicit": 14,
+        "with_intent_filter": 11
+      },
+      "service": {
+        "total": 34,
+        "exported_or_implicit": 6,
+        "with_intent_filter": 5
+      },
+      "receiver": {
+        "total": 22,
+        "exported_or_implicit": 8,
+        "with_intent_filter": 17
+      },
+      "provider": {
+        "total": 9,
+        "exported_or_implicit": 0,
+        "with_intent_filter": 0
+      },
+      "intent_filters": {
+        "top_actions": [
+          [
+            "VIEW",
+            10
+          ],
+          [
+            "MAIN",
+            4
+          ],
+          [
+            "APPWIDGET_UPDATE",
+            4
+          ],
+          [
+            "HOST_APDU_SERVICE",
+            3
+          ],
+          [
+            "MESSAGING_EVENT",
+            2
+          ],
+          [
+            "NDEF_DISCOVERED",
+            1
+          ],
+          [
+            "SEND_MONEY",
+            1
+          ],
+          [
+            "AUTHENTICATE_V1",
+            1
+          ],
+          [
+            "WEBVIEW",
+            1
+          ],
+          [
+            "INSTALL_REFERRER",
+            1
+          ],
+          [
+            "SEND",
+            1
+          ],
+          [
+            "ACTION_OPEN_ML_EXTRACT_ID_CARD",
+            1
+          ]
+        ],
+        "top_categories": [
+          [
+            "DEFAULT",
+            18
+          ],
+          [
+            "BROWSABLE",
+            10
+          ],
+          [
+            "LAUNCHER",
+            1
+          ]
+        ],
+        "schemes": [
+          [
+            "zalopay",
+            10
+          ],
+          [
+            "https",
+            5
+          ],
+          [
+            "zalopay-1",
+            3
+          ],
+          [
+            "zalopay.api.v2",
+            3
+          ],
+          [
+            "zalopay-vnpay",
+            1
+          ],
+          [
+            "fbconnect",
+            1
+          ],
+          [
+            "tagmanager.c.vn.com.vng.zalopay",
+            1
+          ]
+        ],
+        "distinct_hosts": 20,
+        "top_hosts": [
+          [
+            "go.zalopay.vn",
+            2
+          ],
+          [
+            "pay",
+            2
+          ],
+          [
+            "onelink.zalopay.vn",
+            1
+          ],
+          [
+            "kmzalopay.onelink.me",
+            1
+          ],
+          [
+            "km.zalopay.vn",
+            1
+          ],
+          [
+            "app",
+            1
+          ],
+          [
+            "post",
+            1
+          ],
+          [
+            "backtoapp",
+            1
+          ],
+          [
+            "backtologin",
+            1
+          ],
+          [
+            "zalopay.vn",
+            1
+          ]
+        ]
+      }
+    },
+    "dex": {
+      "count": 19,
+      "bytes": 64837712,
+      "class_defs": 60671,
+      "method_ids": 351248,
+      "string_ids": 374276,
+      "files": [
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 8831004,
+          "string_ids_size": 61218,
+          "type_ids_size": 17196,
+          "proto_ids_size": 15953,
+          "field_ids_size": 46956,
+          "method_ids_size": 59948,
+          "class_defs_size": 10703,
+          "name": "classes.dex",
+          "bytes": 8831004
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 78204,
+          "string_ids_size": 920,
+          "type_ids_size": 461,
+          "proto_ids_size": 300,
+          "field_ids_size": 314,
+          "method_ids_size": 578,
+          "class_defs_size": 92,
+          "name": "classes10.dex",
+          "bytes": 78204
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 163420,
+          "string_ids_size": 1584,
+          "type_ids_size": 740,
+          "proto_ids_size": 523,
+          "field_ids_size": 694,
+          "method_ids_size": 1171,
+          "class_defs_size": 177,
+          "name": "classes11.dex",
+          "bytes": 163420
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 398276,
+          "string_ids_size": 3207,
+          "type_ids_size": 1191,
+          "proto_ids_size": 916,
+          "field_ids_size": 1723,
+          "method_ids_size": 2604,
+          "class_defs_size": 425,
+          "name": "classes12.dex",
+          "bytes": 398276
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 145824,
+          "string_ids_size": 1381,
+          "type_ids_size": 590,
+          "proto_ids_size": 420,
+          "field_ids_size": 561,
+          "method_ids_size": 997,
+          "class_defs_size": 139,
+          "name": "classes13.dex",
+          "bytes": 145824
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 81748,
+          "string_ids_size": 961,
+          "type_ids_size": 404,
+          "proto_ids_size": 249,
+          "field_ids_size": 371,
+          "method_ids_size": 575,
+          "class_defs_size": 90,
+          "name": "classes14.dex",
+          "bytes": 81748
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 82152,
+          "string_ids_size": 1005,
+          "type_ids_size": 436,
+          "proto_ids_size": 305,
+          "field_ids_size": 410,
+          "method_ids_size": 658,
+          "class_defs_size": 113,
+          "name": "classes15.dex",
+          "bytes": 82152
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 15916,
+          "string_ids_size": 261,
+          "type_ids_size": 116,
+          "proto_ids_size": 69,
+          "field_ids_size": 38,
+          "method_ids_size": 101,
+          "class_defs_size": 20,
+          "name": "classes16.dex",
+          "bytes": 15916
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 208476,
+          "string_ids_size": 1847,
+          "type_ids_size": 848,
+          "proto_ids_size": 611,
+          "field_ids_size": 972,
+          "method_ids_size": 1311,
+          "class_defs_size": 243,
+          "name": "classes17.dex",
+          "bytes": 208476
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 95920,
+          "string_ids_size": 1094,
+          "type_ids_size": 553,
+          "proto_ids_size": 373,
+          "field_ids_size": 428,
+          "method_ids_size": 668,
+          "class_defs_size": 115,
+          "name": "classes18.dex",
+          "bytes": 95920
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 719548,
+          "string_ids_size": 4159,
+          "type_ids_size": 1782,
+          "proto_ids_size": 1445,
+          "field_ids_size": 2804,
+          "method_ids_size": 3781,
+          "class_defs_size": 777,
+          "name": "classes19.dex",
+          "bytes": 719548
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 16516960,
+          "string_ids_size": 56948,
+          "type_ids_size": 11243,
+          "proto_ids_size": 12070,
+          "field_ids_size": 60000,
+          "method_ids_size": 45527,
+          "class_defs_size": 7421,
+          "name": "classes2.dex",
+          "bytes": 16516960
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 850600,
+          "string_ids_size": 8010,
+          "type_ids_size": 3827,
+          "proto_ids_size": 2361,
+          "field_ids_size": 3619,
+          "method_ids_size": 6354,
+          "class_defs_size": 1081,
+          "name": "classes3.dex",
+          "bytes": 850600
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 9418124,
+          "string_ids_size": 52812,
+          "type_ids_size": 19105,
+          "proto_ids_size": 15731,
+          "field_ids_size": 40269,
+          "method_ids_size": 59997,
+          "class_defs_size": 11441,
+          "name": "classes4.dex",
+          "bytes": 9418124
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 7357484,
+          "string_ids_size": 56424,
+          "type_ids_size": 14079,
+          "proto_ids_size": 13049,
+          "field_ids_size": 60002,
+          "method_ids_size": 49055,
+          "class_defs_size": 7983,
+          "name": "classes5.dex",
+          "bytes": 7357484
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 7612432,
+          "string_ids_size": 55274,
+          "type_ids_size": 18399,
+          "proto_ids_size": 15543,
+          "field_ids_size": 36617,
+          "method_ids_size": 49201,
+          "class_defs_size": 5475,
+          "name": "classes6.dex",
+          "bytes": 7612432
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 10803680,
+          "string_ids_size": 59110,
+          "type_ids_size": 20633,
+          "proto_ids_size": 16081,
+          "field_ids_size": 43164,
+          "method_ids_size": 60000,
+          "class_defs_size": 12953,
+          "name": "classes7.dex",
+          "bytes": 10803680
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 239036,
+          "string_ids_size": 1906,
+          "type_ids_size": 915,
+          "proto_ids_size": 697,
+          "field_ids_size": 1056,
+          "method_ids_size": 1552,
+          "class_defs_size": 295,
+          "name": "classes8.dex",
+          "bytes": 239036
+        },
+        {
+          "valid": true,
+          "magic": "dex\n038\u0000",
+          "file_size_declared": 1218908,
+          "string_ids_size": 6155,
+          "type_ids_size": 2175,
+          "proto_ids_size": 1827,
+          "field_ids_size": 4520,
+          "method_ids_size": 7170,
+          "class_defs_size": 1128,
+          "name": "classes9.dex",
+          "bytes": 1218908
+        }
+      ]
+    },
+    "native_libraries": {
+      "count": 1,
+      "bytes": 392,
+      "names": [
+        "trueidlib.so"
+      ]
+    },
+    "resources": {
+      "entries": 6162,
+      "by_count": [
+        [
+          ".xml",
+          5209
+        ],
+        [
+          ".png",
+          221
+        ],
+        [
+          ".version",
+          141
+        ],
+        [
+          ".txt",
+          136
+        ],
+        [
+          ".webp",
+          111
+        ],
+        [
+          ".properties",
+          79
+        ],
+        [
+          ".json",
+          64
+        ],
+        [
+          ".ttf",
+          23
+        ],
+        [
+          ".dex",
+          20
+        ],
+        [
+          "(none)",
+          14
+        ],
+        [
+          ".tflite",
+          14
+        ],
+        [
+          ".kotlin_module",
+          11
+        ],
+        [
+          ".binarypb",
+          10
+        ],
+        [
+          ".proto",
+          10
+        ],
+        [
+          ".js",
+          9
+        ]
+      ],
+      "by_bytes": [
+        [
+          ".dex",
+          69701748
+        ],
+        [
+          ".xml",
+          11023504
+        ],
+        [
+          ".tflite",
+          10203704
+        ],
+        [
+          ".png",
+          6883387
+        ],
+        [
+          ".ttf",
+          6823784
+        ],
+        [
+          ".json",
+          6677077
+        ],
+        [
+          ".zip",
+          3913966
+        ],
+        [
+          ".yaml",
+          3778896
+        ],
+        [
+          ".svg",
+          2551186
+        ],
+        [
+          ".bin",
+          2422326
+        ],
+        [
+          ".arsc",
+          1802300
+        ],
+        [
+          ".webp",
+          1711422
+        ],
+        [
+          ".tfl",
+          1472072
+        ],
+        [
+          ".properties",
+          1412456
+        ],
+        [
+          ".amr",
+          1161889
+        ]
+      ]
+    },
+    "technology_markers": {
+      "Google Play services": 9434,
+      "WebView / Chromium": 8649,
+      "AndroidX": 8335,
+      "Kotlin stdlib": 2060,
+      "Facebook SDK": 927,
+      "OkHttp": 924,
+      "Firebase": 429,
+      "Gson": 400,
+      "RxJava": 399,
+      "WorkManager": 382,
+      "Protobuf": 372,
+      "Retrofit": 366,
+      "Glide": 345,
+      "Dagger / Hilt": 202,
+      "Kotlin coroutines": 140,
+      "Crashlytics": 115,
+      "Biometric prompt": 64,
+      "Zalo SDK": 12,
+      "Coil": 3,
+      "Room": 2
+    },
+    "dex_descriptor_metrics": {
+      "descriptor_matches": 121099,
+      "very_short_descriptors": 7402,
+      "short_descriptor_ratio": 0.0611
+    },
+    "signing": {
+      "v1_signature_names": [],
+      "certificates": [
+        {
+          "subject": "Common Name: Vu Manh Hieu",
+          "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac3",
+          "not_valid_before": "2016-04-21 15:41:14+00:00",
+          "not_valid_after": "2041-04-15 15:41:14+00:00"
+        }
+      ]
+    }
+  },
+  "apks": [
+    {
+      "file": "config.armeabi_v7a.apk",
+      "bytes": 24828408,
+      "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+      "manifest": {
+        "package": "vn.com.vng.zalopay",
+        "version_name": null,
+        "version_code": "1102758",
+        "min_sdk": null,
+        "target_sdk": null,
+        "compile_sdk": null,
+        "split_name": null,
+        "split_types": "base__abi",
+        "required_split_types": null
+      },
+      "permissions": {
+        "total": 0,
+        "dangerous_count": 0,
+        "all": []
+      },
+      "components": {
+        "application_flags": {
+          "allowBackup": null,
+          "debuggable": null,
+          "usesCleartextTraffic": null,
+          "requestLegacyExternalStorage": null,
+          "largeHeap": null,
+          "networkSecurityConfig": null
+        },
+        "activity": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "service": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "receiver": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "provider": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "intent_filters": {
+          "top_actions": [],
+          "top_categories": [],
+          "schemes": [],
+          "distinct_hosts": 0,
+          "top_hosts": []
+        }
+      },
+      "dex": {
+        "count": 0,
+        "bytes": 0,
+        "class_defs": 0,
+        "method_ids": 0,
+        "string_ids": 0,
+        "files": []
+      },
+      "native_libraries": {
+        "count": 27,
+        "bytes": 57452124,
+        "names": [
+          "libVFaceLib.so",
+          "liba97d.so",
+          "libandroidx.graphics.path.so",
+          "libbarhopper_v3.so",
+          "libc++_shared.so",
+          "libcrashlytics-common.so",
+          "libcrashlytics-handler.so",
+          "libcrashlytics-trampoline.so",
+          "libcrashlytics.so",
+          "libface_detector_v2_jni.so",
+          "libfgcpkjvqe.so",
+          "libimage_processing_util_jni.so",
+          "libimagepipeline.so",
+          "libljsfrcwmw.so",
+          "liblytcuhe.so",
+          "libmlkit_google_ocr_pipeline.so",
+          "libmlkitcommonpipeline.so",
+          "libnative-filters.so",
+          "libnative-imagetranscoder.so",
+          "libohxbee.so",
+          "libpicodet_ncnn.so",
+          "librcmefqonnx.so",
+          "librive-android.so",
+          "libsecurity_lite.so",
+          "libsqlcipher.so",
+          "libtaibmcf.so",
+          "libtrueidlib.so"
+        ]
+      },
+      "resources": {
+        "entries": 32,
+        "by_count": [
+          [
+            ".so",
+            27
+          ],
+          [
+            ".xml",
+            1
+          ],
+          [
+            "(none)",
+            1
+          ],
+          [
+            ".sf",
+            1
+          ],
+          [
+            ".rsa",
+            1
+          ],
+          [
+            ".mf",
+            1
+          ]
+        ],
+        "by_bytes": [
+          [
+            ".so",
+            57452124
+          ],
+          [
+            ".sf",
+            2667
+          ],
+          [
+            ".mf",
+            2559
+          ],
+          [
+            ".rsa",
+            1107
+          ],
+          [
+            ".xml",
+            1036
+          ],
+          [
+            "(none)",
+            32
+          ]
+        ]
+      },
+      "technology_markers": {},
+      "dex_descriptor_metrics": {
+        "descriptor_matches": 0,
+        "very_short_descriptors": 0,
+        "short_descriptor_ratio": 0
+      },
+      "signing": {
+        "v1_signature_names": [
+          "META-INF/BNDLTOOL.RSA"
+        ],
+        "certificates": [
+          {
+            "subject": "Common Name: Vu Manh Hieu",
+            "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac3",
+            "not_valid_before": "2016-04-21 15:41:14+00:00",
+            "not_valid_after": "2041-04-15 15:41:14+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "file": "config.en.apk",
+      "bytes": 74137,
+      "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+      "manifest": {
+        "package": "vn.com.vng.zalopay",
+        "version_name": null,
+        "version_code": "1102758",
+        "min_sdk": null,
+        "target_sdk": null,
+        "compile_sdk": null,
+        "split_name": null,
+        "split_types": "",
+        "required_split_types": null
+      },
+      "permissions": {
+        "total": 0,
+        "dangerous_count": 0,
+        "all": []
+      },
+      "components": {
+        "application_flags": {
+          "allowBackup": null,
+          "debuggable": null,
+          "usesCleartextTraffic": null,
+          "requestLegacyExternalStorage": null,
+          "largeHeap": null,
+          "networkSecurityConfig": null
+        },
+        "activity": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "service": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "receiver": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "provider": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "intent_filters": {
+          "top_actions": [],
+          "top_categories": [],
+          "schemes": [],
+          "distinct_hosts": 0,
+          "top_hosts": []
+        }
+      },
+      "dex": {
+        "count": 0,
+        "bytes": 0,
+        "class_defs": 0,
+        "method_ids": 0,
+        "string_ids": 0,
+        "files": []
+      },
+      "native_libraries": {
+        "count": 0,
+        "bytes": 0,
+        "names": []
+      },
+      "resources": {
+        "entries": 6,
+        "by_count": [
+          [
+            ".xml",
+            1
+          ],
+          [
+            ".arsc",
+            1
+          ],
+          [
+            "(none)",
+            1
+          ],
+          [
+            ".sf",
+            1
+          ],
+          [
+            ".rsa",
+            1
+          ],
+          [
+            ".mf",
+            1
+          ]
+        ],
+        "by_bytes": [
+          [
+            ".arsc",
+            61984
+          ],
+          [
+            ".rsa",
+            1107
+          ],
+          [
+            ".xml",
+            1000
+          ],
+          [
+            ".sf",
+            342
+          ],
+          [
+            ".mf",
+            234
+          ],
+          [
+            "(none)",
+            32
+          ]
+        ]
+      },
+      "technology_markers": {},
+      "dex_descriptor_metrics": {
+        "descriptor_matches": 0,
+        "very_short_descriptors": 0,
+        "short_descriptor_ratio": 0
+      },
+      "signing": {
+        "v1_signature_names": [
+          "META-INF/BNDLTOOL.RSA"
+        ],
+        "certificates": [
+          {
+            "subject": "Common Name: Vu Manh Hieu",
+            "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac3",
+            "not_valid_before": "2016-04-21 15:41:14+00:00",
+            "not_valid_after": "2041-04-15 15:41:14+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "file": "config.vi.apk",
+      "bytes": 86425,
+      "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+      "manifest": {
+        "package": "vn.com.vng.zalopay",
+        "version_name": null,
+        "version_code": "1102758",
+        "min_sdk": null,
+        "target_sdk": null,
+        "compile_sdk": null,
+        "split_name": null,
+        "split_types": "",
+        "required_split_types": null
+      },
+      "permissions": {
+        "total": 0,
+        "dangerous_count": 0,
+        "all": []
+      },
+      "components": {
+        "application_flags": {
+          "allowBackup": null,
+          "debuggable": null,
+          "usesCleartextTraffic": null,
+          "requestLegacyExternalStorage": null,
+          "largeHeap": null,
+          "networkSecurityConfig": null
+        },
+        "activity": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "service": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "receiver": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "provider": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "intent_filters": {
+          "top_actions": [],
+          "top_categories": [],
+          "schemes": [],
+          "distinct_hosts": 0,
+          "top_hosts": []
+        }
+      },
+      "dex": {
+        "count": 0,
+        "bytes": 0,
+        "class_defs": 0,
+        "method_ids": 0,
+        "string_ids": 0,
+        "files": []
+      },
+      "native_libraries": {
+        "count": 0,
+        "bytes": 0,
+        "names": []
+      },
+      "resources": {
+        "entries": 6,
+        "by_count": [
+          [
+            ".xml",
+            1
+          ],
+          [
+            ".arsc",
+            1
+          ],
+          [
+            "(none)",
+            1
+          ],
+          [
+            ".sf",
+            1
+          ],
+          [
+            ".rsa",
+            1
+          ],
+          [
+            ".mf",
+            1
+          ]
+        ],
+        "by_bytes": [
+          [
+            ".arsc",
+            75460
+          ],
+          [
+            ".rsa",
+            1107
+          ],
+          [
+            ".xml",
+            1000
+          ],
+          [
+            ".sf",
+            342
+          ],
+          [
+            ".mf",
+            234
+          ],
+          [
+            "(none)",
+            32
+          ]
+        ]
+      },
+      "technology_markers": {},
+      "dex_descriptor_metrics": {
+        "descriptor_matches": 0,
+        "very_short_descriptors": 0,
+        "short_descriptor_ratio": 0
+      },
+      "signing": {
+        "v1_signature_names": [
+          "META-INF/BNDLTOOL.RSA"
+        ],
+        "certificates": [
+          {
+            "subject": "Common Name: Vu Manh Hieu",
+            "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac3",
+            "not_valid_before": "2016-04-21 15:41:14+00:00",
+            "not_valid_after": "2041-04-15 15:41:14+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "file": "config.xhdpi.apk",
+      "bytes": 1232563,
+      "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+      "manifest": {
+        "package": "vn.com.vng.zalopay",
+        "version_name": null,
+        "version_code": "1102758",
+        "min_sdk": null,
+        "target_sdk": null,
+        "compile_sdk": null,
+        "split_name": null,
+        "split_types": "base__density",
+        "required_split_types": null
+      },
+      "permissions": {
+        "total": 0,
+        "dangerous_count": 0,
+        "all": []
+      },
+      "components": {
+        "application_flags": {
+          "allowBackup": null,
+          "debuggable": null,
+          "usesCleartextTraffic": null,
+          "requestLegacyExternalStorage": null,
+          "largeHeap": null,
+          "networkSecurityConfig": null
+        },
+        "activity": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "service": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "receiver": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "provider": {
+          "total": 0,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "intent_filters": {
+          "top_actions": [],
+          "top_categories": [],
+          "schemes": [],
+          "distinct_hosts": 0,
+          "top_hosts": []
+        }
+      },
+      "dex": {
+        "count": 0,
+        "bytes": 0,
+        "class_defs": 0,
+        "method_ids": 0,
+        "string_ids": 0,
+        "files": []
+      },
+      "native_libraries": {
+        "count": 0,
+        "bytes": 0,
+        "names": []
+      },
+      "resources": {
+        "entries": 258,
+        "by_count": [
+          [
+            ".xml",
+            108
+          ],
+          [
+            ".png",
+            97
+          ],
+          [
+            ".webp",
+            48
+          ],
+          [
+            ".arsc",
+            1
+          ],
+          [
+            "(none)",
+            1
+          ],
+          [
+            ".sf",
+            1
+          ],
+          [
+            ".rsa",
+            1
+          ],
+          [
+            ".mf",
+            1
+          ]
+        ],
+        "by_bytes": [
+          [
+            ".png",
+            726167
+          ],
+          [
+            ".webp",
+            212942
+          ],
+          [
+            ".xml",
+            196188
+          ],
+          [
+            ".arsc",
+            141056
+          ],
+          [
+            ".sf",
+            25958
+          ],
+          [
+            ".mf",
+            25850
+          ],
+          [
+            ".rsa",
+            1107
+          ],
+          [
+            "(none)",
+            32
+          ]
+        ]
+      },
+      "technology_markers": {},
+      "dex_descriptor_metrics": {
+        "descriptor_matches": 0,
+        "very_short_descriptors": 0,
+        "short_descriptor_ratio": 0
+      },
+      "signing": {
+        "v1_signature_names": [
+          "META-INF/BNDLTOOL.RSA"
+        ],
+        "certificates": [
+          {
+            "subject": "Common Name: Vu Manh Hieu",
+            "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac3",
+            "not_valid_before": "2016-04-21 15:41:14+00:00",
+            "not_valid_after": "2041-04-15 15:41:14+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "file": "vn.com.vng.zalopay.apk",
+      "bytes": 79359087,
+      "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+      "manifest": {
+        "package": "vn.com.vng.zalopay",
+        "version_name": "11.17.0",
+        "version_code": "1102758",
+        "min_sdk": "26",
+        "target_sdk": "36",
+        "compile_sdk": "36",
+        "split_name": null,
+        "split_types": "",
+        "required_split_types": "base__abi,base__density"
+      },
+      "permissions": {
+        "total": 49,
+        "dangerous_count": 16,
+        "all": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.DETECT_SCREEN_CAPTURE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_BASIC_PHONE_STATE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_AUDIO",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REORDER_TASKS",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_CONTACTS",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.android.launcher.permission.READ_SETTINGS",
+          "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+          "com.android.launcher.permission.WRITE_SETTINGS",
+          "com.android.vending.BILLING",
+          "com.bbk.launcher2.permission.READ_SETTINGS",
+          "com.bbk.launcher2.permission.WRITE_SETTINGS",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+          "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+          "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+          "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+          "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ]
+      },
+      "components": {
+        "application_flags": {
+          "allowBackup": "false",
+          "debuggable": null,
+          "usesCleartextTraffic": null,
+          "requestLegacyExternalStorage": "true",
+          "largeHeap": "true",
+          "networkSecurityConfig": "@7F16000D"
+        },
+        "activity": {
+          "total": 200,
+          "exported_or_implicit": 14,
+          "with_intent_filter": 11
+        },
+        "service": {
+          "total": 34,
+          "exported_or_implicit": 6,
+          "with_intent_filter": 5
+        },
+        "receiver": {
+          "total": 22,
+          "exported_or_implicit": 8,
+          "with_intent_filter": 17
+        },
+        "provider": {
+          "total": 9,
+          "exported_or_implicit": 0,
+          "with_intent_filter": 0
+        },
+        "intent_filters": {
+          "top_actions": [
+            [
+              "VIEW",
+              10
+            ],
+            [
+              "MAIN",
+              4
+            ],
+            [
+              "APPWIDGET_UPDATE",
+              4
+            ],
+            [
+              "HOST_APDU_SERVICE",
+              3
+            ],
+            [
+              "MESSAGING_EVENT",
+              2
+            ],
+            [
+              "NDEF_DISCOVERED",
+              1
+            ],
+            [
+              "SEND_MONEY",
+              1
+            ],
+            [
+              "AUTHENTICATE_V1",
+              1
+            ],
+            [
+              "WEBVIEW",
+              1
+            ],
+            [
+              "INSTALL_REFERRER",
+              1
+            ],
+            [
+              "SEND",
+              1
+            ],
+            [
+              "ACTION_OPEN_ML_EXTRACT_ID_CARD",
+              1
+            ]
+          ],
+          "top_categories": [
+            [
+              "DEFAULT",
+              18
+            ],
+            [
+              "BROWSABLE",
+              10
+            ],
+            [
+              "LAUNCHER",
+              1
+            ]
+          ],
+          "schemes": [
+            [
+              "zalopay",
+              10
+            ],
+            [
+              "https",
+              5
+            ],
+            [
+              "zalopay-1",
+              3
+            ],
+            [
+              "zalopay.api.v2",
+              3
+            ],
+            [
+              "zalopay-vnpay",
+              1
+            ],
+            [
+              "fbconnect",
+              1
+            ],
+            [
+              "tagmanager.c.vn.com.vng.zalopay",
+              1
+            ]
+          ],
+          "distinct_hosts": 20,
+          "top_hosts": [
+            [
+              "go.zalopay.vn",
+              2
+            ],
+            [
+              "pay",
+              2
+            ],
+            [
+              "onelink.zalopay.vn",
+              1
+            ],
+            [
+              "kmzalopay.onelink.me",
+              1
+            ],
+            [
+              "km.zalopay.vn",
+              1
+            ],
+            [
+              "app",
+              1
+            ],
+            [
+              "post",
+              1
+            ],
+            [
+              "backtoapp",
+              1
+            ],
+            [
+              "backtologin",
+              1
+            ],
+            [
+              "zalopay.vn",
+              1
+            ]
+          ]
+        }
+      },
+      "dex": {
+        "count": 19,
+        "bytes": 64837712,
+        "class_defs": 60671,
+        "method_ids": 351248,
+        "string_ids": 374276,
+        "files": [
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 8831004,
+            "string_ids_size": 61218,
+            "type_ids_size": 17196,
+            "proto_ids_size": 15953,
+            "field_ids_size": 46956,
+            "method_ids_size": 59948,
+            "class_defs_size": 10703,
+            "name": "classes.dex",
+            "bytes": 8831004
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 78204,
+            "string_ids_size": 920,
+            "type_ids_size": 461,
+            "proto_ids_size": 300,
+            "field_ids_size": 314,
+            "method_ids_size": 578,
+            "class_defs_size": 92,
+            "name": "classes10.dex",
+            "bytes": 78204
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 163420,
+            "string_ids_size": 1584,
+            "type_ids_size": 740,
+            "proto_ids_size": 523,
+            "field_ids_size": 694,
+            "method_ids_size": 1171,
+            "class_defs_size": 177,
+            "name": "classes11.dex",
+            "bytes": 163420
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 398276,
+            "string_ids_size": 3207,
+            "type_ids_size": 1191,
+            "proto_ids_size": 916,
+            "field_ids_size": 1723,
+            "method_ids_size": 2604,
+            "class_defs_size": 425,
+            "name": "classes12.dex",
+            "bytes": 398276
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 145824,
+            "string_ids_size": 1381,
+            "type_ids_size": 590,
+            "proto_ids_size": 420,
+            "field_ids_size": 561,
+            "method_ids_size": 997,
+            "class_defs_size": 139,
+            "name": "classes13.dex",
+            "bytes": 145824
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 81748,
+            "string_ids_size": 961,
+            "type_ids_size": 404,
+            "proto_ids_size": 249,
+            "field_ids_size": 371,
+            "method_ids_size": 575,
+            "class_defs_size": 90,
+            "name": "classes14.dex",
+            "bytes": 81748
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 82152,
+            "string_ids_size": 1005,
+            "type_ids_size": 436,
+            "proto_ids_size": 305,
+            "field_ids_size": 410,
+            "method_ids_size": 658,
+            "class_defs_size": 113,
+            "name": "classes15.dex",
+            "bytes": 82152
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 15916,
+            "string_ids_size": 261,
+            "type_ids_size": 116,
+            "proto_ids_size": 69,
+            "field_ids_size": 38,
+            "method_ids_size": 101,
+            "class_defs_size": 20,
+            "name": "classes16.dex",
+            "bytes": 15916
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 208476,
+            "string_ids_size": 1847,
+            "type_ids_size": 848,
+            "proto_ids_size": 611,
+            "field_ids_size": 972,
+            "method_ids_size": 1311,
+            "class_defs_size": 243,
+            "name": "classes17.dex",
+            "bytes": 208476
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 95920,
+            "string_ids_size": 1094,
+            "type_ids_size": 553,
+            "proto_ids_size": 373,
+            "field_ids_size": 428,
+            "method_ids_size": 668,
+            "class_defs_size": 115,
+            "name": "classes18.dex",
+            "bytes": 95920
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 719548,
+            "string_ids_size": 4159,
+            "type_ids_size": 1782,
+            "proto_ids_size": 1445,
+            "field_ids_size": 2804,
+            "method_ids_size": 3781,
+            "class_defs_size": 777,
+            "name": "classes19.dex",
+            "bytes": 719548
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 16516960,
+            "string_ids_size": 56948,
+            "type_ids_size": 11243,
+            "proto_ids_size": 12070,
+            "field_ids_size": 60000,
+            "method_ids_size": 45527,
+            "class_defs_size": 7421,
+            "name": "classes2.dex",
+            "bytes": 16516960
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 850600,
+            "string_ids_size": 8010,
+            "type_ids_size": 3827,
+            "proto_ids_size": 2361,
+            "field_ids_size": 3619,
+            "method_ids_size": 6354,
+            "class_defs_size": 1081,
+            "name": "classes3.dex",
+            "bytes": 850600
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 9418124,
+            "string_ids_size": 52812,
+            "type_ids_size": 19105,
+            "proto_ids_size": 15731,
+            "field_ids_size": 40269,
+            "method_ids_size": 59997,
+            "class_defs_size": 11441,
+            "name": "classes4.dex",
+            "bytes": 9418124
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 7357484,
+            "string_ids_size": 56424,
+            "type_ids_size": 14079,
+            "proto_ids_size": 13049,
+            "field_ids_size": 60002,
+            "method_ids_size": 49055,
+            "class_defs_size": 7983,
+            "name": "classes5.dex",
+            "bytes": 7357484
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 7612432,
+            "string_ids_size": 55274,
+            "type_ids_size": 18399,
+            "proto_ids_size": 15543,
+            "field_ids_size": 36617,
+            "method_ids_size": 49201,
+            "class_defs_size": 5475,
+            "name": "classes6.dex",
+            "bytes": 7612432
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 10803680,
+            "string_ids_size": 59110,
+            "type_ids_size": 20633,
+            "proto_ids_size": 16081,
+            "field_ids_size": 43164,
+            "method_ids_size": 60000,
+            "class_defs_size": 12953,
+            "name": "classes7.dex",
+            "bytes": 10803680
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 239036,
+            "string_ids_size": 1906,
+            "type_ids_size": 915,
+            "proto_ids_size": 697,
+            "field_ids_size": 1056,
+            "method_ids_size": 1552,
+            "class_defs_size": 295,
+            "name": "classes8.dex",
+            "bytes": 239036
+          },
+          {
+            "valid": true,
+            "magic": "dex\n038\u0000",
+            "file_size_declared": 1218908,
+            "string_ids_size": 6155,
+            "type_ids_size": 2175,
+            "proto_ids_size": 1827,
+            "field_ids_size": 4520,
+            "method_ids_size": 7170,
+            "class_defs_size": 1128,
+            "name": "classes9.dex",
+            "bytes": 1218908
+          }
+        ]
+      },
+      "native_libraries": {
+        "count": 1,
+        "bytes": 392,
+        "names": [
+          "trueidlib.so"
+        ]
+      },
+      "resources": {
+        "entries": 6162,
+        "by_count": [
+          [
+            ".xml",
+            5209
+          ],
+          [
+            ".png",
+            221
+          ],
+          [
+            ".version",
+            141
+          ],
+          [
+            ".txt",
+            136
+          ],
+          [
+            ".webp",
+            111
+          ],
+          [
+            ".properties",
+            79
+          ],
+          [
+            ".json",
+            64
+          ],
+          [
+            ".ttf",
+            23
+          ],
+          [
+            ".dex",
+            20
+          ],
+          [
+            "(none)",
+            14
+          ],
+          [
+            ".tflite",
+            14
+          ],
+          [
+            ".kotlin_module",
+            11
+          ],
+          [
+            ".binarypb",
+            10
+          ],
+          [
+            ".proto",
+            10
+          ],
+          [
+            ".js",
+            9
+          ]
+        ],
+        "by_bytes": [
+          [
+            ".dex",
+            69701748
+          ],
+          [
+            ".xml",
+            11023504
+          ],
+          [
+            ".tflite",
+            10203704
+          ],
+          [
+            ".png",
+            6883387
+          ],
+          [
+            ".ttf",
+            6823784
+          ],
+          [
+            ".json",
+            6677077
+          ],
+          [
+            ".zip",
+            3913966
+          ],
+          [
+            ".yaml",
+            3778896
+          ],
+          [
+            ".svg",
+            2551186
+          ],
+          [
+            ".bin",
+            2422326
+          ],
+          [
+            ".arsc",
+            1802300
+          ],
+          [
+            ".webp",
+            1711422
+          ],
+          [
+            ".tfl",
+            1472072
+          ],
+          [
+            ".properties",
+            1412456
+          ],
+          [
+            ".amr",
+            1161889
+          ]
+        ]
+      },
+      "technology_markers": {
+        "Google Play services": 9434,
+        "WebView / Chromium": 8649,
+        "AndroidX": 8335,
+        "Kotlin stdlib": 2060,
+        "Facebook SDK": 927,
+        "OkHttp": 924,
+        "Firebase": 429,
+        "Gson": 400,
+        "RxJava": 399,
+        "WorkManager": 382,
+        "Protobuf": 372,
+        "Retrofit": 366,
+        "Glide": 345,
+        "Dagger / Hilt": 202,
+        "Kotlin coroutines": 140,
+        "Crashlytics": 115,
+        "Biometric prompt": 64,
+        "Zalo SDK": 12,
+        "Coil": 3,
+        "Room": 2
+      },
+      "dex_descriptor_metrics": {
+        "descriptor_matches": 121099,
+        "very_short_descriptors": 7402,
+        "short_descriptor_ratio": 0.0611
+      },
+      "signing": {
+        "v1_signature_names": [],
+        "certificates": [
+          {
+            "subject": "Common Name: Vu Manh Hieu",
+            "sha256_fingerprint": "59dd31fdf36070a0d7f8c8cde843fac3",
+            "not_valid_before": "2016-04-21 15:41:14+00:00",
+            "not_valid_after": "2041-04-15 15:41:14+00:00"
+          }
+        ]
+      }
+    }
+  ]
+}
