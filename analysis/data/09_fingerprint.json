@@ -1,0 +1,57 @@
+{
+ "kotlin": true,
+ "kotlin_version": [],
+ "coroutines": true,
+ "compose": true,
+ "r8_proguard": true,
+ "okhttp_version_hint": [
+  "4.12.0"
+ ],
+ "retrofit": true,
+ "moshi_gson": [
+  true,
+  false
+ ],
+ "graphql": false,
+ "grpc": false,
+ "websocket": true,
+ "firebase_products": [
+  "firebase-analytics",
+  "firebase-crashlytics",
+  "firebase-iid",
+  "firebase-installations",
+  "firebase-messaging",
+  "firebase-perf"
+ ],
+ "ml_kit_modules": [
+  "barcode-scanning",
+  "face-detection",
+  "object-detection",
+  "subject-segmentation",
+  "text-recognition"
+ ],
+ "payment_schemes": [
+  "alipay",
+  "alipayplus",
+  "jcb",
+  "mastercard",
+  "unionpay",
+  "visa",
+  "vnpay",
+  "wechat"
+ ],
+ "ekyc_vendors": [
+  "FPT.AI",
+  "ML Kit face",
+  "VISA CBP",
+  "Zoloz",
+  "trueID"
+ ],
+ "gov_integration": [
+  "CCCD",
+  "NFC",
+  "VNeID"
+ ],
+ "minified_rn": false,
+ "js_bridge": true
+}

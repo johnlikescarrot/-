@@ -1,0 +1,654 @@
+{
+ "xapk_dir": "xapk",
+ "splits": [
+  {
+   "file": "config.armeabi_v7a.apk",
+   "size": 24828408,
+   "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b",
+   "entropy": 7.9942,
+   "role": "config.armeabi_v7a"
+  },
+  {
+   "file": "config.en.apk",
+   "size": 74137,
+   "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942",
+   "entropy": 4.2516,
+   "role": "config.en"
+  },
+  {
+   "file": "config.vi.apk",
+   "size": 86425,
+   "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33",
+   "entropy": 4.792,
+   "role": "config.vi"
+  },
+  {
+   "file": "config.xhdpi.apk",
+   "size": 1232563,
+   "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b",
+   "entropy": 7.9811,
+   "role": "config.xhdpi"
+  },
+  {
+   "file": "vn.com.vng.zalopay.apk",
+   "size": 79359087,
+   "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+   "entropy": 7.9964,
+   "role": "base"
+  }
+ ],
+ "base_zip": {
+  "entries": 6162,
+  "stored": 532,
+  "deflated": 5630,
+  "comment_len": 0,
+  "total_uncompressed": 136395610,
+  "total_compressed": 78345127,
+  "extension_census": [
+   {
+    "ext": "xml",
+    "count": 5209,
+    "bytes": 11023504
+   },
+   {
+    "ext": "png",
+    "count": 221,
+    "bytes": 6883387
+   },
+   {
+    "ext": "version",
+    "count": 141,
+    "bytes": 955
+   },
+   {
+    "ext": "txt",
+    "count": 136,
+    "bytes": 296882
+   },
+   {
+    "ext": "webp",
+    "count": 111,
+    "bytes": 1711422
+   },
+   {
+    "ext": "properties",
+    "count": 79,
+    "bytes": 1412456
+   },
+   {
+    "ext": "json",
+    "count": 64,
+    "bytes": 6677077
+   },
+   {
+    "ext": "ttf",
+    "count": 23,
+    "bytes": 6823784
+   },
+   {
+    "ext": "dex",
+    "count": 20,
+    "bytes": 69701748
+   },
+   {
+    "ext": "(none)",
+    "count": 14,
+    "bytes": 504394
+   },
+   {
+    "ext": "tflite",
+    "count": 14,
+    "bytes": 10203704
+   },
+   {
+    "ext": "kotlin_module",
+    "count": 11,
+    "bytes": 1689
+   },
+   {
+    "ext": "binarypb",
+    "count": 10,
+    "bytes": 28476
+   },
+   {
+    "ext": "proto",
+    "count": 10,
+    "bytes": 49704
+   },
+   {
+    "ext": "js",
+    "count": 9,
+    "bytes": 35677
+   },
+   {
+    "ext": "html",
+    "count": 9,
+    "bytes": 64751
+   },
+   {
+    "ext": "kotlin_builtins",
+    "count": 8,
+    "bytes": 51125
+   },
+   {
+    "ext": "pb",
+    "count": 6,
+    "bytes": 158684
+   },
+   {
+    "ext": "gif",
+    "count": 5,
+    "bytes": 222888
+   },
+   {
+    "ext": "emd",
+    "count": 4,
+    "bytes": 1113555
+   },
+   {
+    "ext": "riv",
+    "count": 4,
+    "bytes": 160014
+   },
+   {
+    "ext": "h",
+    "count": 3,
+    "bytes": 15
+   },
+   {
+    "ext": "amr",
+    "count": 3,
+    "bytes": 1161889
+   },
+   {
+    "ext": "dat",
+    "count": 3,
+    "bytes": 785556
+   },
+   {
+    "ext": "bin",
+    "count": 2,
+    "bytes": 2422326
+   },
+   {
+    "ext": "md",
+    "count": 2,
+    "bytes": 3976
+   },
+   {
+    "ext": "d",
+    "count": 2,
+    "bytes": 10
+   },
+   {
+    "ext": "m",
+    "count": 2,
+    "bytes": 10
+   },
+   {
+    "ext": "fb",
+    "count": 2,
+    "bytes": 350416
+   },
+   {
+    "ext": "bincfg",
+    "count": 2,
+    "bytes": 1570
+   },
+   {
+    "ext": "tfl",
+    "count": 2,
+    "bytes": 1472072
+   },
+   {
+    "ext": "jpg",
+    "count": 2,
+    "bytes": 52579
+   },
+   {
+    "ext": "otf",
+    "count": 2,
+    "bytes": 588768
+   },
+   {
+    "ext": "mp3",
+    "count": 2,
+    "bytes": 103132
+   },
+   {
+    "ext": "svg",
+    "count": 2,
+    "bytes": 2551186
+   },
+   {
+    "ext": "processors",
+    "count": 1,
+    "bytes": 67
+   },
+   {
+    "ext": "g",
+    "count": 1,
+    "bytes": 15
+   },
+   {
+    "ext": "c",
+    "count": 1,
+    "bytes": 5
+   },
+   {
+    "ext": "generatedextensionregistryloader",
+    "count": 1,
+    "bytes": 140
+   },
+   {
+    "ext": "j",
+    "count": 1,
+    "bytes": 5
+   }
+  ],
+  "aligned_probe": [
+   {
+    "name": "AndroidManifest.xml",
+    "data_off": 49,
+    "mod4": 1,
+    "mod4096": 49
+   },
+   {
+    "name": "DebugProbesKt.bin",
+    "data_off": 19508,
+    "mod4": 0,
+    "mod4096": 3124
+   },
+   {
+    "name": "LICENSE-junit.txt",
+    "data_off": 20337,
+    "mod4": 1,
+    "mod4096": 3953
+   },
+   {
+    "name": "META-INF/CHANGES",
+    "data_off": 24565,
+    "mod4": 1,
+    "mod4096": 4085
+   },
+   {
+    "name": "META-INF/NOTICE.md",
+    "data_off": 48780,
+    "mod4": 0,
+    "mod4096": 3724
+   },
+   {
+    "name": "META-INF/README.md",
+    "data_off": 49340,
+    "mod4": 0,
+    "mod4096": 188
+   },
+   {
+    "name": "META-INF/androidx/annotation/annotation/LICENSE.txt",
+    "data_off": 50828,
+    "mod4": 0,
+    "mod4096": 1676
+   },
+   {
+    "name": "META-INF/androidx/collection/collection/LICENSE.txt",
+    "data_off": 54472,
+    "mod4": 0,
+    "mod4096": 1224
+   },
+   {
+    "name": "META-INF/androidx/collection/collection-ktx/LICENSE.txt",
+    "data_off": 58120,
+    "mod4": 0,
+    "mod4096": 776
+   },
+   {
+    "name": "META-INF/androidx/constraintlayout/constraintlayout-core/LICENSE.txt",
+    "data_off": 61781,
+    "mod4": 1,
+    "mod4096": 341
+   },
+   {
+    "name": "META-INF/androidx/room/room-common/LICENSE.txt",
+    "data_off": 65420,
+    "mod4": 0,
+    "mod4096": 3980
+   },
+   {
+    "name": "META-INF/androidx.activity_activity-compose.version",
+    "data_off": 69064,
+    "mod4": 0,
+    "mod4096": 3528
+   },
+   {
+    "name": "META-INF/androidx.activity_activity-ktx.version",
+    "data_off": 69148,
+    "mod4": 0,
+    "mod4096": 3612
+   },
+   {
+    "name": "META-INF/androidx.activity_activity.version",
+    "data_off": 69228,
+    "mod4": 0,
+    "mod4096": 3692
+   },
+   {
+    "name": "META-INF/androidx.annotation_annotation-experimental.version",
+    "data_off": 69324,
+    "mod4": 0,
+    "mod4096": 3788
+   },
+   {
+    "name": "META-INF/androidx.appcompat_appcompat-resources.version",
+    "data_off": 69416,
+    "mod4": 0,
+    "mod4096": 3880
+   },
+   {
+    "name": "META-INF/androidx.appcompat_appcompat.version",
+    "data_off": 69500,
+    "mod4": 0,
+    "mod4096": 3964
+   },
+   {
+    "name": "META-INF/androidx.arch.core_core-runtime.version",
+    "data_off": 69584,
+    "mod4": 0,
+    "mod4096": 4048
+   },
+   {
+    "name": "META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version",
+    "data_off": 69740,
+    "mod4": 0,
+    "mod4096": 108
+   },
+   {
+    "name": "META-INF/androidx.autofill_autofill.version",
+    "data_off": 69820,
+    "mod4": 0,
+    "mod4096": 188
+   },
+   {
+    "name": "META-INF/androidx.biometric_biometric.version",
+    "data_off": 69904,
+    "mod4": 0,
+    "mod4096": 272
+   },
+   {
+    "name": "META-INF/androidx.browser_browser.version",
+    "data_off": 69992,
+    "mod4": 0,
+    "mod4096": 360
+   },
+   {
+    "name": "META-INF/androidx.camera_camera-camera2.version",
+    "data_off": 70076,
+    "mod4": 0,
+    "mod4096": 444
+   },
+   {
+    "name": "META-INF/androidx.camera_camera-core.version",
+    "data_off": 70156,
+    "mod4": 0,
+    "mod4096": 524
+   },
+   {
+    "name": "META-INF/androidx.camera_camera-extensions.version",
+    "data_off": 70244,
+    "mod4": 0,
+    "mod4096": 612
+   },
+   {
+    "name": "META-INF/androidx.camera_camera-lifecycle.version",
+    "data_off": 70332,
+    "mod4": 0,
+    "mod4096": 700
+   },
+   {
+    "name": "META-INF/androidx.camera_camera-video.version",
+    "data_off": 70416,
+    "mod4": 0,
+    "mod4096": 784
+   },
+   {
+    "name": "META-INF/androidx.camera_camera-view.version",
+    "data_off": 70496,
+    "mod4": 0,
+    "mod4096": 864
+   },
+   {
+    "name": "META-INF/androidx.cardview_cardview.version",
+    "data_off": 70576,
+    "mod4": 0,
+    "mod4096": 944
+   },
+   {
+    "name": "META-INF/androidx.compose.animation_animation-core.version",
+    "data_off": 70672,
+    "mod4": 0,
+    "mod4096": 1040
+   },
+   {
+    "name": "META-INF/androidx.compose.animation_animation.version",
+    "data_off": 70764,
+    "mod4": 0,
+    "mod4096": 1132
+   },
+   {
+    "name": "META-INF/androidx.compose.foundation_foundation-layout.version",
+    "data_off": 70864,
+    "mod4": 0,
+    "mod4096": 1232
+   },
+   {
+    "name": "META-INF/androidx.compose.foundation_foundation.version",
+    "data_off": 70956,
+    "mod4": 0,
+    "mod4096": 1324
+   },
+   {
+    "name": "META-INF/androidx.compose.material_material-icons-core.version",
+    "data_off": 71056,
+    "mod4": 0,
+    "mod4096": 1424
+   },
+   {
+    "name": "META-INF/androidx.compose.material_material-ripple.version",
+    "data_off": 71152,
+    "mod4": 0,
+    "mod4096": 1520
+   },
+   {
+    "name": "META-INF/androidx.compose.material_material.version",
+    "data_off": 71240,
+    "mod4": 0,
+    "mod4096": 1608
+   },
+   {
+    "name": "META-INF/androidx.compose.runtime_runtime-livedata.version",
+    "data_off": 71336,
+    "mod4": 0,
+    "mod4096": 1704
+   },
+   {
+    "name": "META-INF/androidx.compose.runtime_runtime-saveable.version",
+    "data_off": 71432,
+    "mod4": 0,
+    "mod4096": 1800
+   },
+   {
+    "name": "META-INF/androidx.compose.runtime_runtime.version",
+    "data_off": 71520,
+    "mod4": 0,
+    "mod4096": 1888
+   },
+   {
+    "name": "META-INF/androidx.compose.ui_ui-geometry.version",
+    "data_off": 71604,
+    "mod4": 0,
+    "mod4096": 1972
+   },
+   {
+    "name": "META-INF/androidx.compose.ui_ui-graphics.version",
+    "data_off": 71688,
+    "mod4": 0,
+    "mod4096": 2056
+   },
+   {
+    "name": "META-INF/androidx.compose.ui_ui-text.version",
+    "data_off": 71768,
+    "mod4": 0,
+    "mod4096": 2136
+   },
+   {
+    "name": "META-INF/androidx.compose.ui_ui-tooling-data.version",
+    "data_off": 71856,
+    "mod4": 0,
+    "mod4096": 2224
+   },
+   {
+    "name": "META-INF/androidx.compose.ui_ui-tooling-preview.version",
+    "data_off": 71948,
+    "mod4": 0,
+    "mod4096": 2316
+   },
+   {
+    "name": "META-INF/androidx.compose.ui_ui-tooling.version",
+    "data_off": 72032,
+    "mod4": 0,
+    "mod4096": 2400
+   },
+   {
+    "name": "META-INF/androidx.compose.ui_ui-unit.version",
+    "data_off": 72112,
+    "mod4": 0,
+    "mod4096": 2480
+   },
+   {
+    "name": "META-INF/androidx.compose.ui_ui-util.version",
+    "data_off": 72192,
+    "mod4": 0,
+    "mod4096": 2560
+   },
+   {
+    "name": "META-INF/androidx.compose.ui_ui.version",
+    "data_off": 72268,
+    "mod4": 0,
+    "mod4096": 2636
+   },
+   {
+    "name": "META-INF/androidx.constraintlayout_constraintlayout-compose.version",
+    "data_off": 72372,
+    "mod4": 0,
+    "mod4096": 2740
+   },
+   {
+    "name": "META-INF/androidx.coordinatorlayout_coordinatorlayout.version",
+    "data_off": 72472,
+    "mod4": 0,
+    "mod4096": 2840
+   },
+   {
+    "name": "META-INF/androidx.core_core-ktx.version",
+    "data_off": 72548,
+    "mod4": 0,
+    "mod4096": 2916
+   },
+   {
+    "name": "META-INF/androidx.core_core-remoteviews.version",
+    "data_off": 72632,
+    "mod4": 0,
+    "mod4096": 3000
+   },
+   {
+    "name": "META-INF/androidx.core_core-splashscreen.version",
+    "data_off": 72716,
+    "mod4": 0,
+    "mod4096": 3084
+   },
+   {
+    "name": "META-INF/androidx.core_core-viewtree.version",
+    "data_off": 72796,
+    "mod4": 0,
+    "mod4096": 3164
+   },
+   {
+    "name": "META-INF/androidx.core_core.version",
+    "data_off": 72868,
+    "mod4": 0,
+    "mod4096": 3236
+   },
+   {
+    "name": "META-INF/androidx.cursoradapter_cursoradapter.version",
+    "data_off": 72960,
+    "mod4": 0,
+    "mod4096": 3328
+   },
+   {
+    "name": "META-INF/androidx.customview_customview-poolingcontainer.version",
+    "data_off": 73060,
+    "mod4": 0,
+    "mod4096": 3428
+   },
+   {
+    "name": "META-INF/androidx.customview_customview.version",
+    "data_off": 73144,
+    "mod4": 0,
+    "mod4096": 3512
+   },
+   {
+    "name": "META-INF/androidx.databinding_baseAdapters.version",
+    "data_off": 73232,
+    "mod4": 0,
+    "mod4096": 3600
+   },
+   {
+    "name": "META-INF/androidx.databinding_databindingKtx.version",
+    "data_off": 73320,
+    "mod4": 0,
+    "mod4096": 3688
+   }
+  ]
+ },
+ "dex_multidex": {
+  "count": 19,
+  "files": [
+   "classes.dex",
+   "classes2.dex",
+   "classes3.dex",
+   "classes4.dex",
+   "classes5.dex",
+   "classes6.dex",
+   "classes7.dex",
+   "classes8.dex",
+   "classes9.dex",
+   "classes10.dex",
+   "classes11.dex",
+   "classes12.dex",
+   "classes13.dex",
+   "classes14.dex",
+   "classes15.dex",
+   "classes16.dex",
+   "classes17.dex",
+   "classes18.dex",
+   "classes19.dex"
+  ]
+ },
+ "signing": {
+  "v1": false,
+  "v2": true,
+  "v3": true,
+  "certs": [
+   {
+    "subject": "Common Name: Vu Manh Hieu",
+    "issuer": "Common Name: Vu Manh Hieu",
+    "serial": "356428285",
+    "sha1": "502195A8D3E7C05C6086DB45E943B16EFCD24E5D",
+    "sha256": "59DD31FDF36070A0D7F8C8CDE843FAC371DF7F1A915C0136C9C9B55992E8CDAE",
+    "not_before": "2016-04-21 15:41:14+00:00",
+    "not_after": "2041-04-15 15:41:14+00:00",
+    "signature_algo": "sha256_rsa",
+    "pubkey_algo": "rsa"
+   }
+  ]
+ }
+}

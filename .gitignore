@@ -1,0 +1,15 @@
+# The 98.8 MB APK payload and all intermediate extraction stay out of Git.
+*.zip
+*.xapk
+*.apk
+*.dex
+*.so
+work/
+node_modules/
+# Video render cache (frames/audio) stays local; only the final MP4 + sources are committed.
+video/.cache/
+video/out/frames/
+video/dist/
+__pycache__/
+*.pyc
+.venv/

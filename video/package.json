@@ -1,0 +1,19 @@
+{
+  "name": "zalopay-re-video",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "TypeScript/Node renderer that turns the ZaloPay reverse-engineering dataset into a 1080p MP4 documentary.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "render": "node dist/render.js",
+    "audio": "node dist/audio.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.80"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^22.7.5"
+  }
+}

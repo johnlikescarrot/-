@@ -1,0 +1,488 @@
+{
+ "react_native": {
+  "container": "assets/android.1.zip",
+  "container_bytes": 3913966,
+  "entries": 326,
+  "bundle": "main.jsbundle",
+  "bundle_bytes": 3613478,
+  "bundle_sha256": "c6a70c55c4f99567db2911c13ec63359b80c526261d19882a5837444e4970ca1",
+  "bundle_lines": 2357,
+  "modules_referenced": 7,
+  "packages": [
+   "@mini-apps/navigation",
+   "fbjs",
+   "jest-cli",
+   "react",
+   "react-native-check-box",
+   "react-navigation-stack",
+   "zalopay-components"
+  ],
+  "minified": true,
+  "hermes_bytecode": false,
+  "drawable_density_dirs": [
+   "hdpi",
+   "mdpi",
+   "xhdpi",
+   "xxhdpi",
+   "xxxhdpi"
+  ]
+ },
+ "griver": {
+  "bundles": [
+   {
+    "file": "66666692_1.24.8.amr",
+    "bytes": 287535,
+    "sha256": "02b7cf32e5e71d62667ed8bcc24c9c2c4eb7e644f49e487fd06e1cba19290e31",
+    "entries": [
+     "66666692.tar",
+     "CERT.json",
+     "Manifest.xml"
+    ],
+    "payload_entries": 11,
+    "payload_uncompressed": 968941,
+    "payload_files": [
+     "hpmfile.json",
+     "appx/af-appx.min.css",
+     "appx/af-appx.min.js",
+     "appx/af-appx.worker.min.js",
+     "appx/es6-promise.min.js",
+     "appx/index.html",
+     "appx/security-patch.min.js",
+     "appx/web-view.min.js",
+     "appx/worker.min.js",
+     "bugme.cfg"
+    ],
+    "signature_manifest": true,
+    "cert_entries": [
+     "66666692.tar",
+     "Manifest.xml"
+    ],
+    "appx_manifest": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<package>\n  <uid>66666692</uid>\n  <name>66666692</name>\n  <version>1.24.8</version>\n</package>"
+   },
+   {
+    "file": "66666693_2.0.7.amr",
+    "bytes": 17380,
+    "sha256": "212c15df244230e33b820b2b831b7c05b2a4a0ffcf9d878495598294e7451127",
+    "entries": [
+     "66666693.tar",
+     "CERT.json",
+     "Manifest.xml"
+    ],
+    "payload_entries": 7,
+    "payload_uncompressed": 56382,
+    "payload_files": [
+     "api_permission",
+     "appConfig.json",
+     "index.html",
+     "index.js",
+     "index.worker.js",
+     "manifest.json",
+     "package.json"
+    ],
+    "signature_manifest": true,
+    "cert_entries": [
+     "66666693.tar",
+     "Manifest.xml"
+    ],
+    "appx_manifest": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<package>\n  <uid>66666693</uid>\n  <name>66666693</name>\n  <version>2.0.7</version>\n</package>"
+   },
+   {
+    "file": "68687209_2.9.7.8.amr",
+    "bytes": 856974,
+    "sha256": "3e67a09c8d76338cebf8cd495adbf72f26f5aecb7362e4ace4ce5dd6d0c2ad22",
+    "entries": [
+     "68687209.tar",
+     "CERT.json",
+     "Manifest.xml"
+    ],
+    "payload_entries": 14,
+    "payload_uncompressed": 3292617,
+    "payload_files": [
+     "bugme.cfg",
+     "appx-ng/af-appx.min.css",
+     "appx-ng/af-appx.min.js",
+     "appx-ng/af-appx.worker.min.js",
+     "appx-ng/appx-portal.min.js",
+     "appx-ng/appx-portal.worker.min.js",
+     "appx-ng/appx-prerender.min.js",
+     "appx-ng/es6-promise.min.js",
+     "appx-ng/index.html",
+     "appx-ng/index.prerender.html",
+     "appx-ng/security-patch.min.js",
+     "appx-ng/web-view.min.js",
+     "appx-ng/worker.min.js"
+    ],
+    "signature_manifest": true,
+    "cert_entries": [
+     "68687209.tar",
+     "Manifest.xml"
+    ],
+    "appx_manifest": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<package>\n  <uid>68687209</uid>\n  <name>68687209</name>\n  <version>2.9.7.8</version>\n</package>"
+   }
+  ],
+  "catalogue_present": true,
+  "catalogue_keys": [
+   "66666692",
+   "66666693",
+   "68687209"
+  ],
+  "catalogue": {
+   "mini": {
+    "66666692": {
+     "appInfo": {
+      "appId": "66666692",
+      "deployVersion": "1.24.8",
+      "fallbackBaseUrl": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/",
+      "packageUrl": "https://cdn.marmot-cloud.com/storage/gmpop/5b39bcb7-85be-471c-aeaf-55ee5c4437a5/66666692_1.24.8.amr",
+      "mainUrl": "/index.html#pages/index/index",
+      "name": "appx framework",
+      "desc": "appx framework",
+      "logo": "http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg"
+     },
+     "container": {
+      "downloadType": 1
+     },
+     "extendInfo": {
+      "appType": 2
+     },
+     "permissions": ""
+    },
+    "66666693": {
+     "appInfo": {
+      "appId": "66666693",
+      "deployVersion": "2.0.7",
+      "fallbackBaseUrl": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/",
+      "packageUrl": "https://cdn.marmot-cloud.com/storage/gmpop/3df2716f-7e19-45cb-9083-c23cd88d8240/66666693_2.0.7.amr",
+      "mainUrl": "/index.html#pages/index/index",
+      "name": "h5 embedded app",
+      "desc": "h5 embedded app",
+      "logo": "http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg"
+     },
+     "container": {
+      "downloadType": 1
+     },
+     "extendInfo": {
+      "appType": 2
+     },
+     "permissions": ""
+    },
+    "68687209": {
+     "appInfo": {
+      "appId": "68687209",
+      "deployVersion": "2.9.7.8",
+      "fallbackBaseUrl": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/",
+      "packageUrl": "https://oss-local-nightly-dev.marmot-cloud.com/storage/marmot-cli/appx-griver/2024/10/17/0aa4bcbc-f137-407e-89e1-3ee3df13f299/68687209_2.9.7.8.amr",
+      "mainUrl": "/index.html#pages/index/index",
+      "name": "appx ng framework",
+      "desc": "appx ng framework",
+      "logo": "http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg"
+     },
+     "container": {
+      "downloadType": 1
+     },
+     "extendInfo": {
+      "appType": 2
+     },
+     "permissions": ""
+    }
+   }
+  }
+ },
+ "web_bridge": {
+  "jsbridge.js": {
+   "bytes": 3634,
+   "sha256": "2dfe8f8ba6a70ff37d3f2665913532917e6c0fb914fd87dbe198fea3c26d0736",
+   "bridge_symbols": [
+    "_invokeJS",
+    "call",
+    "callNativeFunction",
+    "callback",
+    "callbackPool",
+    "fire",
+    "subscribe",
+    "subscriberId",
+    "subscribers",
+    "trigger",
+    "unsubscribe"
+   ],
+   "has_promise": false,
+   "has_eval": false,
+   "has_postmessage": false
+  },
+  "internaljsbridge.js": {
+   "bytes": 3890,
+   "sha256": "0587ef4cfda3ab69dca564bac71d7ac8b6efe02b15f88f979a7374ce3f17ef74",
+   "bridge_symbols": [],
+   "has_promise": false,
+   "has_eval": false,
+   "has_postmessage": false
+  },
+  "android_jsbridge.js": {
+   "bytes": 3673,
+   "sha256": "79d13b8a360b1290af9e1ab640c0686e72cc7cc219f2f927ae1ddf83dd6b3388",
+   "bridge_symbols": [
+    "_invokeJS",
+    "call",
+    "callNativeFunction",
+    "callback",
+    "callbackPool",
+    "fire",
+    "subscribe",
+    "subscriberId",
+    "subscribers",
+    "trigger",
+    "unsubscribe"
+   ],
+   "has_promise": false,
+   "has_eval": false,
+   "has_postmessage": false
+  }
+ },
+ "miniapp_catalogue": {
+  "file": "assets/config/miniapp_config.json",
+  "bytes": 883684,
+  "apps": 373,
+  "categories": [
+   [
+    "Dịch vụ phổ biến",
+    88
+   ],
+   [
+    "Giải trí - Cộng đồng",
+    77
+   ],
+   [
+    "Tài chính",
+    65
+   ],
+   [
+    "Ăn uống",
+    32
+   ],
+   [
+    "Dịch vụ đối tác",
+    18
+   ],
+   [
+    "Mua sắm",
+    15
+   ],
+   [
+    "Giao thông - Vận chuyển",
+    14
+   ],
+   [
+    "Thanh toán hoá đơn",
+    12
+   ],
+   [
+    "Du lịch - Đi lại",
+    9
+   ],
+   [
+    "Điện thoại",
+    8
+   ],
+   [
+    "Khám phá Zalopay",
+    8
+   ],
+   [
+    "Tích điểm thành viên đối tác",
+    7
+   ],
+   [
+    "Chuyển - Nhận tiền",
+    6
+   ],
+   [
+    "Ví của tôi",
+    5
+   ],
+   [
+    "Bảo hiểm",
+    4
+   ],
+   [
+    "Giáo dục",
+    2
+   ],
+   [
+    "Ưu đãi khuyến mãi",
+    1
+   ],
+   [
+    "Dịch vụ khác",
+    1
+   ],
+   [
+    "Dịch vụ y tế",
+    1
+   ]
+  ],
+  "distinct_hosts": 21,
+  "top_hosts": [
+   [
+    "social.zalopay.vn",
+    316
+   ],
+   [
+    "mnap-director.zalopay.vn",
+    38
+   ],
+   [
+    "mc.zalopay.vn",
+    1
+   ],
+   [
+    "uudai.zalopay.vn",
+    1
+   ],
+   [
+    "ti.ki",
+    1
+   ],
+   [
+    "lzd.co",
+    1
+   ],
+   [
+    "zalo.me",
+    1
+   ],
+   [
+    "scard.zalopay.vn",
+    1
+   ],
+   [
+    "app2-zl.unipass.vn",
+    1
+   ],
+   [
+    "elsazalopay.onstudy.vn",
+    1
+   ],
+   [
+    "vieon.vn",
+    1
+   ],
+   [
+    "m.choingay.vn",
+    1
+   ]
+  ],
+  "sample": [
+   {
+    "name": "Zalopay",
+    "category": "Tài chính",
+    "base_url": "https://social.zalopay.vn",
+    "deep_link": "zalopay://launch/app/9588434516294069"
+   },
+   {
+    "name": "Nhà bán hàng Zalopay",
+    "category": "Dịch vụ phổ biến",
+    "base_url": "https://mc.zalopay.vn/app",
+    "deep_link": "zalopay://launch/app/4938188290522793"
+   },
+   {
+    "name": "Security center",
+    "category": "Dịch vụ phổ biến",
+    "base_url": "https://social.zalopay.vn",
+    "deep_link": "zalopay://launch/app/6228112469543198"
+   },
+   {
+    "name": "Binding",
+    "category": "Dịch vụ phổ biến",
+    "base_url": "https://social.zalopay.vn",
+    "deep_link": "zalopay://launch/app/8942078171900534"
+   },
+   {
+    "name": "Dịch vụ đối tác",
+    "category": "Dịch vụ phổ biến",
+    "base_url": "https://social.zalopay.vn",
+    "deep_link": "zalopay://launch/app/8379963487753330"
+   },
+   {
+    "name": "MM Mega Market",
+    "category": "Tích điểm thành viên đối tác",
+    "base_url": "https://social.zalopay.vn",
+    "deep_link": "zalopay://launch/app/6999842721975496"
+   },
+   {
+    "name": "Vay tiền nhanh",
+    "category": "Dịch vụ phổ biến",
+    "base_url": "https://social.zalopay.vn",
+    "deep_link": "zalopay://launch/app/8555271139235307"
+   },
+   {
+    "name": "Zalopay",
+    "category": "Tài chính",
+    "base_url": "https://social.zalopay.vn",
+    "deep_link": "zalopay://launch/app/5183370829229954"
+   },
+   {
+    "name": "Loyalty Chang Thai",
+    "category": "Ăn uống",
+    "base_url": "https://social.zalopay.vn",
+    "deep_link": "zalopay://launch/app/2690800549335332"
+   },
+   {
+    "name": "GreenSM",
+    "category": "Giao thông - Vận chuyển",
+    "base_url": "https://social.zalopay.vn",
+    "deep_link": "zalopay://launch/app/8240084704562252"
+   }
+  ]
+ },
+ "shipped_assets": [
+  {
+   "path": "config/public_key.txt",
+   "bytes": 450,
+   "sha256": "ab63708a7b557a1332c316667a9d568e34a7a646a1383f8a33811948b081d52c",
+   "note": "RSA public key shipped for asset/signature verification"
+  },
+  {
+   "path": "config/signature.txt",
+   "bytes": 350,
+   "sha256": "fd7abb1a0d62a50ab42e53ab161be6a2229fabfa1558bda1ed0b5e47a3651750",
+   "note": "detached signature over a shipped config asset"
+  },
+  {
+   "path": "public.pem",
+   "bytes": 460,
+   "sha256": "0d4383c52c0f29e7cfee4dc179fba1181fe9313decc8973f884eca9e073890e3",
+   "note": "second RSA public key (asset bundle signing)"
+  },
+  {
+   "path": "bundle.json",
+   "bytes": 312,
+   "sha256": "21c10377141df90d078b62dfaf9b042821d5cdb0cbf26df6fbb8b9b187eaae0d",
+   "note": "bundle manifest with MD5-style checksums (An3SoswJ6ujv2Qk6UqYxcw)"
+  },
+  {
+   "path": "bshield.dat",
+   "bytes": 929,
+   "sha256": "b1750911acee6d39622970b5210221a4f1027a4000614ea3bd5bc41d297af292",
+   "note": "opaque shield payload (929 B, high-entropy) loaded by native code"
+  },
+  {
+   "path": "taibmcf.dat",
+   "bytes": 8307,
+   "sha256": "392c01d84cc770b0a9e2c273ed6bf6ef5625fcd2a7b678e94464489691b96108",
+   "note": "opaque payload (8,307 B) paired with libtaibmcf.so"
+  },
+  {
+   "path": "fgcpkjvqe.dat",
+   "bytes": 776320,
+   "sha256": "cb8c0211e579f1039fbc4a5fc6d22a24c28812e701f0d7b378f7b6a4bbafe226",
+   "note": "opaque payload (776,320 B) paired with libfgcpkjvqe.so"
+  },
+  {
+   "path": "audience_network.dex",
+   "bytes": 4864036,
+   "sha256": "10dc305fb2869db288bec2e114b32303dd627190dd6b23126d5e7aa610e44938",
+   "note": "secondary DEX shipped as an asset (Meta Audience Network)"
+  }
+ ],
+ "runtime_count": 4
+}

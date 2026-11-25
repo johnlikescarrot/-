@@ -1,0 +1,2679 @@
+{
+ "multidex": [
+  {
+   "file": "classes.dex",
+   "bytes": 8831004,
+   "classes": 10703,
+   "methods": 59948,
+   "fields": 46956,
+   "strings": 61218,
+   "code_bytes": 7128072,
+   "checksum": 76214840,
+   "dex_version": 38
+  },
+  {
+   "file": "classes2.dex",
+   "bytes": 16516960,
+   "classes": 7421,
+   "methods": 45527,
+   "fields": 60000,
+   "strings": 56948,
+   "code_bytes": 15017556,
+   "checksum": 2462759056,
+   "dex_version": 38
+  },
+  {
+   "file": "classes3.dex",
+   "bytes": 850600,
+   "classes": 1081,
+   "methods": 6354,
+   "fields": 3619,
+   "strings": 8010,
+   "code_bytes": 660432,
+   "checksum": 3976423250,
+   "dex_version": 38
+  },
+  {
+   "file": "classes4.dex",
+   "bytes": 9418124,
+   "classes": 11441,
+   "methods": 59997,
+   "fields": 40269,
+   "strings": 52812,
+   "code_bytes": 7773332,
+   "checksum": 2418901683,
+   "dex_version": 38
+  },
+  {
+   "file": "classes5.dex",
+   "bytes": 7357484,
+   "classes": 7983,
+   "methods": 49055,
+   "fields": 60002,
+   "strings": 56424,
+   "code_bytes": 5790860,
+   "checksum": 1918119908,
+   "dex_version": 38
+  },
+  {
+   "file": "classes6.dex",
+   "bytes": 7612432,
+   "classes": 5475,
+   "methods": 49201,
+   "fields": 36617,
+   "strings": 55274,
+   "code_bytes": 6269368,
+   "checksum": 2502548540,
+   "dex_version": 38
+  },
+  {
+   "file": "classes7.dex",
+   "bytes": 10803680,
+   "classes": 12953,
+   "methods": 60000,
+   "fields": 43164,
+   "strings": 59110,
+   "code_bytes": 9051816,
+   "checksum": 1512057952,
+   "dex_version": 38
+  },
+  {
+   "file": "classes8.dex",
+   "bytes": 239036,
+   "classes": 295,
+   "methods": 1552,
+   "fields": 1056,
+   "strings": 1906,
+   "code_bytes": 188972,
+   "checksum": 1479500057,
+   "dex_version": 38
+  },
+  {
+   "file": "classes9.dex",
+   "bytes": 1218908,
+   "classes": 1128,
+   "methods": 7170,
+   "fields": 4520,
+   "strings": 6155,
+   "code_bytes": 1033936,
+   "checksum": 1047613368,
+   "dex_version": 38
+  },
+  {
+   "file": "classes10.dex",
+   "bytes": 78204,
+   "classes": 92,
+   "methods": 578,
+   "fields": 314,
+   "strings": 920,
+   "code_bytes": 58888,
+   "checksum": 2123260652,
+   "dex_version": 38
+  },
+  {
+   "file": "classes11.dex",
+   "bytes": 163420,
+   "classes": 177,
+   "methods": 1171,
+   "fields": 694,
+   "strings": 1584,
+   "code_bytes": 127152,
+   "checksum": 4230412112,
+   "dex_version": 38
+  },
+  {
+   "file": "classes12.dex",
+   "bytes": 398276,
+   "classes": 425,
+   "methods": 2604,
+   "fields": 1723,
+   "strings": 3207,
+   "code_bytes": 321364,
+   "checksum": 635112202,
+   "dex_version": 38
+  },
+  {
+   "file": "classes13.dex",
+   "bytes": 145824,
+   "classes": 139,
+   "methods": 997,
+   "fields": 561,
+   "strings": 1381,
+   "code_bytes": 115876,
+   "checksum": 1561659406,
+   "dex_version": 38
+  },
+  {
+   "file": "classes14.dex",
+   "bytes": 81748,
+   "classes": 90,
+   "methods": 575,
+   "fields": 371,
+   "strings": 961,
+   "code_bytes": 62740,
+   "checksum": 4275582611,
+   "dex_version": 38
+  },
+  {
+   "file": "classes15.dex",
+   "bytes": 82152,
+   "classes": 113,
+   "methods": 658,
+   "fields": 410,
+   "strings": 1005,
+   "code_bytes": 60456,
+   "checksum": 3923175090,
+   "dex_version": 38
+  },
+  {
+   "file": "classes16.dex",
+   "bytes": 15916,
+   "classes": 20,
+   "methods": 101,
+   "fields": 38,
+   "strings": 261,
+   "code_bytes": 11716,
+   "checksum": 2749544118,
+   "dex_version": 38
+  },
+  {
+   "file": "classes17.dex",
+   "bytes": 208476,
+   "classes": 243,
+   "methods": 1311,
+   "fields": 972,
+   "strings": 1847,
+   "code_bytes": 164212,
+   "checksum": 1215123209,
+   "dex_version": 38
+  },
+  {
+   "file": "classes18.dex",
+   "bytes": 95920,
+   "classes": 115,
+   "methods": 668,
+   "fields": 428,
+   "strings": 1094,
+   "code_bytes": 72296,
+   "checksum": 1309248278,
+   "dex_version": 38
+  },
+  {
+   "file": "classes19.dex",
+   "bytes": 719548,
+   "classes": 777,
+   "methods": 3781,
+   "fields": 2804,
+   "strings": 4159,
+   "code_bytes": 600788,
+   "checksum": 895252414,
+   "dex_version": 38
+  }
+ ],
+ "totals": {
+  "classes": 60671,
+  "methods": 351248,
+  "fields": 304518,
+  "strings": 374276
+ },
+ "namespace_tree": [
+  {
+   "pkg": "Lcom.google.android.gms.internal.ads",
+   "classes": 2570
+  },
+  {
+   "pkg": "Lcom.visa.cbp",
+   "classes": 622
+  },
+  {
+   "pkg": "Lorg.bouncycastle.jcajce.provider.symmetric",
+   "classes": 551
+  },
+  {
+   "pkg": "Lcom.google.android.gms.internal.mlkit_vision_face_bundled",
+   "classes": 542
+  },
+  {
+   "pkg": "Lcom.google.android.gms.internal.mlkit_vision_barcode",
+   "classes": 499
+  },
+  {
+   "pkg": "Lq9",
+   "classes": 472
+  },
+  {
+   "pkg": "Lp9",
+   "classes": 454
+  },
+  {
+   "pkg": "Lcom.google.android.gms.internal.mlkit_vision_text_bundled_common",
+   "classes": 421
+  },
+  {
+   "pkg": "Lcom.appsflyer.internal",
+   "classes": 358
+  },
+  {
+   "pkg": "Ln9",
+   "classes": 315
+  },
+  {
+   "pkg": "Lm9",
+   "classes": 314
+  },
+  {
+   "pkg": "Lcom.google.android.gms.internal.measurement",
+   "classes": 306
+  },
+  {
+   "pkg": "Lcom.visa.visapaysdk.sdk",
+   "classes": 289
+  },
+  {
+   "pkg": "Lcom.google.android.gms.internal.mlkit_vision_internal_vkp",
+   "classes": 279
+  },
+  {
+   "pkg": "Lorg.bouncycastle.jcajce.provider.digest",
+   "classes": 268
+  },
+  {
+   "pkg": "LVa",
+   "classes": 253
+  },
+  {
+   "pkg": "Lio.reactivex.internal.operators.observable",
+   "classes": 232
+  },
+  {
+   "pkg": "Ln0",
+   "classes": 212
+  },
+  {
+   "pkg": "Lcom.google.protobuf",
+   "classes": 209
+  },
+  {
+   "pkg": "Landroidx.appcompat.widget",
+   "classes": 178
+  },
+  {
+   "pkg": "Lcom.google.android.gms.internal.firebase-perf",
+   "classes": 171
+  },
+  {
+   "pkg": "Lcom.google.android.gms.internal.gtm",
+   "classes": 165
+  },
+  {
+   "pkg": "Lcom.google.android.gms.internal.play_billing",
+   "classes": 164
+  },
+  {
+   "pkg": "Landroidx.glance.appwidget.protobuf",
+   "classes": 163
+  },
+  {
+   "pkg": "Lorg.bouncycastle.asn1",
+   "classes": 146
+  },
+  {
+   "pkg": "Lorg.bouncycastle.jcajce.provider.asymmetric.ec",
+   "classes": 146
+  },
+  {
+   "pkg": "Lcom.google.android.gms.internal.mlkit_vision_barcode_bundled",
+   "classes": 145
+  },
+  {
+   "pkg": "Lorg.bouncycastle.crypto.engines",
+   "classes": 145
+  },
+  {
+   "pkg": "Landroidx.camera.core.impl",
+   "classes": 144
+  },
+  {
+   "pkg": "Landroidx.datastore.preferences.protobuf",
+   "classes": 140
+  },
+  {
+   "pkg": "Lcom.google.android.gms.measurement.internal",
+   "classes": 139
+  },
+  {
+   "pkg": "Lorg.bouncycastle.pqc.jcajce.provider.snova",
+   "classes": 138
+  },
+  {
+   "pkg": "Lq0",
+   "classes": 137
+  },
+  {
+   "pkg": "Landroidx.compose.ui.platform",
+   "classes": 136
+  },
+  {
+   "pkg": "Lcom.google.crypto.tink.shaded.protobuf",
+   "classes": 133
+  },
+  {
+   "pkg": "Lcom.google.android.gms.internal.vision",
+   "classes": 130
+  },
+  {
+   "pkg": "Lorg.bouncycastle.math.ec.custom.sec",
+   "classes": 130
+  },
+  {
+   "pkg": "LBV",
+   "classes": 124
+  },
+  {
+   "pkg": "Landroidx.compose.foundation.layout",
+   "classes": 123
+  },
+  {
+   "pkg": "Landroidx.media3.common",
+   "classes": 123
+  },
+  {
+   "pkg": "Lorg.bouncycastle.cms",
+   "classes": 121
+  },
+  {
+   "pkg": "Landroidx.core.view",
+   "classes": 120
+  },
+  {
+   "pkg": "LF",
+   "classes": 120
+  },
+  {
+   "pkg": "Landroidx.camera.camera2.internal",
+   "classes": 120
+  },
+  {
+   "pkg": "LB2",
+   "classes": 117
+  },
+  {
+   "pkg": "Luo",
+   "classes": 115
+  },
+  {
+   "pkg": "Lf8",
+   "classes": 111
+  },
+  {
+   "pkg": "Lvn.com.vng.zalopay.homev5.presenter.ui.home_page",
+   "classes": 111
+  },
+  {
+   "pkg": "Lorg.jsoup.parser",
+   "classes": 110
+  },
+  {
+   "pkg": "Lcom.google.android.gms.internal.clearcut",
+   "classes": 109
+  },
+  {
+   "pkg": "Ls3",
+   "classes": 108
+  },
+  {
+   "pkg": "Lokhttp3",
+   "classes": 107
+  },
+  {
+   "pkg": "Lorg.bouncycastle.crypto.params",
+   "classes": 107
+  },
+  {
+   "pkg": "Landroidx.recyclerview.widget",
+   "classes": 106
+  },
+  {
+   "pkg": "Lgi",
+   "classes": 106
+  },
+  {
+   "pkg": "Lorg.bouncycastle.oer.its.ieee1609dot2.basetypes",
+   "classes": 106
+  },
+  {
+   "pkg": "Landroidx.media3.exoplayer",
+   "classes": 104
+  },
+  {
+   "pkg": "LX",
+   "classes": 103
+  },
+  {
+   "pkg": "Lsb",
+   "classes": 103
+  },
+  {
+   "pkg": "Landroidx.fragment.app",
+   "classes": 102
+  }
+ ],
+ "namespace_rollup": [
+  {
+   "root": "Lcom.google",
+   "classes": 7710
+  },
+  {
+   "root": "Lorg.bouncycastle",
+   "classes": 6112
+  },
+  {
+   "root": "Lcom.alibaba",
+   "classes": 4821
+  },
+  {
+   "root": "Lcom.iap",
+   "classes": 1599
+  },
+  {
+   "root": "Lcom.visa",
+   "classes": 1370
+  },
+  {
+   "root": "Landroidx.media3",
+   "classes": 1198
+  },
+  {
+   "root": "Lvn.com",
+   "classes": 1054
+  },
+  {
+   "root": "Landroidx.camera",
+   "classes": 813
+  },
+  {
+   "root": "Lvn.ai",
+   "classes": 689
+  },
+  {
+   "root": "Lcom.facebook",
+   "classes": 531
+  },
+  {
+   "root": "Landroidx.compose",
+   "classes": 504
+  },
+  {
+   "root": "Lcom.alipay",
+   "classes": 493
+  },
+  {
+   "root": "Lq9",
+   "classes": 472
+  },
+  {
+   "root": "Lp9",
+   "classes": 454
+  },
+  {
+   "root": "Lcom.appsflyer",
+   "classes": 430
+  },
+  {
+   "root": "Lcom.vnpay",
+   "classes": 388
+  },
+  {
+   "root": "Lcom.nimbusds",
+   "classes": 361
+  },
+  {
+   "root": "Ln9",
+   "classes": 315
+  },
+  {
+   "root": "Lm9",
+   "classes": 314
+  },
+  {
+   "root": "Lcom.xq",
+   "classes": 299
+  },
+  {
+   "root": "Landroidx.appcompat",
+   "classes": 273
+  },
+  {
+   "root": "Lio.reactivex",
+   "classes": 266
+  },
+  {
+   "root": "Landroidx.core",
+   "classes": 258
+  },
+  {
+   "root": "LVa",
+   "classes": 253
+  },
+  {
+   "root": "Lorg.jmrtd",
+   "classes": 237
+  },
+  {
+   "root": "Lokhttp3.internal",
+   "classes": 216
+  },
+  {
+   "root": "Lcom.bumptech",
+   "classes": 213
+  },
+  {
+   "root": "Ln0",
+   "classes": 212
+  },
+  {
+   "root": "Lvn.zalopay",
+   "classes": 186
+  },
+  {
+   "root": "Lorg.jsoup",
+   "classes": 175
+  },
+  {
+   "root": "Lcom.airbnb",
+   "classes": 173
+  },
+  {
+   "root": "Landroidx.glance",
+   "classes": 173
+  },
+  {
+   "root": "Lapp.rive",
+   "classes": 157
+  },
+  {
+   "root": "Landroidx.work",
+   "classes": 152
+  },
+  {
+   "root": "Landroidx.datastore",
+   "classes": 141
+  },
+  {
+   "root": "Lq0",
+   "classes": 137
+  },
+  {
+   "root": "Lcom.android",
+   "classes": 137
+  },
+  {
+   "root": "LBV",
+   "classes": 124
+  },
+  {
+   "root": "Lkotlin.reflect",
+   "classes": 123
+  },
+  {
+   "root": "LF",
+   "classes": 120
+  }
+ ],
+ "sdk_inventory": [
+  {
+   "product": "Alipay SDK",
+   "vendor": "Ant Group",
+   "dex_files": [
+    "classes5.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "AndroidX/Jetpack",
+   "vendor": "Google",
+   "dex_files": [
+    "classes.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Apache Commons / HttpClient",
+   "vendor": "Apache",
+   "dex_files": [
+    "classes2.dex"
+   ]
+  },
+  {
+   "product": "BouncyCastle / Tink / Conscrypt",
+   "vendor": "Crypto",
+   "dex_files": [
+    "classes.dex",
+    "classes2.dex",
+    "classes4.dex",
+    "classes5.dex",
+    "classes6.dex",
+    "classes7.dex"
+   ]
+  },
+  {
+   "product": "Coil image loader",
+   "vendor": "OSS",
+   "dex_files": [
+    "classes.dex"
+   ]
+  },
+  {
+   "product": "Dagger / javax.inject",
+   "vendor": "Google",
+   "dex_files": [
+    "classes2.dex"
+   ]
+  },
+  {
+   "product": "Dexter permissions",
+   "vendor": "OSS",
+   "dex_files": [
+    "classes2.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "FPT.AI eKYC / trueID",
+   "vendor": "FPT",
+   "dex_files": [
+    "classes5.dex",
+    "classes6.dex",
+    "classes7.dex"
+   ]
+  },
+  {
+   "product": "Facebook SDK",
+   "vendor": "Meta",
+   "dex_files": [
+    "classes5.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Glide image loader",
+   "vendor": "OSS",
+   "dex_files": [
+    "classes5.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Google Firebase / Play Services",
+   "vendor": "Google",
+   "dex_files": [
+    "classes4.dex",
+    "classes5.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Gson / org.json",
+   "vendor": "Google",
+   "dex_files": [
+    "classes4.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "JOSE/JWT stack",
+   "vendor": "OSS",
+   "dex_files": [
+    "classes2.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "JetBrains annotations/compose compiler",
+   "vendor": "JetBrains",
+   "dex_files": [
+    "classes7.dex"
+   ]
+  },
+  {
+   "product": "Kotlin stdlib & coroutines",
+   "vendor": "JetBrains",
+   "dex_files": [
+    "classes2.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Lottie",
+   "vendor": "Airbnb",
+   "dex_files": [
+    "classes.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "ML Kit (barcode/OCR/face)",
+   "vendor": "Google",
+   "dex_files": [
+    "classes4.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Material Components",
+   "vendor": "Google",
+   "dex_files": [
+    "classes4.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Mobile attribution",
+   "vendor": "AppsFlyer/Adjust",
+   "dex_files": [
+    "classes5.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "OkHttp / Okio",
+   "vendor": "Square",
+   "dex_files": [
+    "classes2.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Play Core",
+   "vendor": "Google",
+   "dex_files": [
+    "classes4.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Retrofit",
+   "vendor": "Square",
+   "dex_files": [
+    "classes6.dex",
+    "classes7.dex"
+   ]
+  },
+  {
+   "product": "RxJava",
+   "vendor": "ReactiveX",
+   "dex_files": [
+    "classes2.dex",
+    "classes6.dex",
+    "classes7.dex"
+   ]
+  },
+  {
+   "product": "SQLCipher",
+   "vendor": "Zetetic",
+   "dex_files": [
+    "classes2.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Serialization (proto/flatbuf/wire)",
+   "vendor": "Google/Square",
+   "dex_files": [
+    "classes4.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Square libraries (Moshi / LeakCanary / Wire)",
+   "vendor": "Square",
+   "dex_files": [
+    "classes2.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "VNPAY",
+   "vendor": "VNPAY",
+   "dex_files": [
+    "classes2.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "Visa / Mastercard",
+   "vendor": "Card networks",
+   "dex_files": [
+    "classes2.dex",
+    "classes6.dex"
+   ]
+  },
+  {
+   "product": "ZXing / MLKit barcode",
+   "vendor": "OSS/Google",
+   "dex_files": [
+    "classes4.dex"
+   ]
+  },
+  {
+   "product": "Zalo SDK / Zalo OAuth",
+   "vendor": "VNG",
+   "dex_files": [
+    "classes2.dex"
+   ]
+  }
+ ],
+ "obfuscation": {
+  "classes_total": 60671,
+  "short_identifier_classes": 1294,
+  "short_identifier_ratio": 0.0213,
+  "mean_name_entropy_bits": 1.838,
+  "median_name_entropy_bits": 1.0,
+  "first_party_prefix": "vn.com.vng.zalopay"
+ },
+ "security_control_markers": {
+  "hashing/MAC": {
+   "hits": 441,
+   "examples": [
+    "AES_CBC_HMAC_SHA",
+    "Can not use HMAC in FIPS-mode, as BoringCrypto module is not available.",
+    "HMACSHA",
+    "Ljava/security/MessageDigest;",
+    "Ljavax/crypto/Mac;",
+    "Ljavax/crypto/spec/SecretKeySpec;",
+    "Parsing HmacKey failed",
+    "Wrong type URL in call to HmacProtoSerialization.parseKey"
+   ]
+  },
+  "symmetric-cipher": {
+   "hits": 2,
+   "examples": [
+    "Ljavax/crypto/Cipher;",
+    "Ljavax/crypto/spec/IvParameterSpec;"
+   ]
+  },
+  "asymmetric": {
+   "hits": 4,
+   "examples": [
+    "Ljava/security/KeyPairGenerator;",
+    "Ljava/security/Signature;",
+    "Ljava/security/interfaces/RSAPublicKey;",
+    "Ljava/security/spec/X509EncodedKeySpec;"
+   ]
+  },
+  "keystore": {
+   "hits": 3,
+   "examples": [
+    "Landroid/security/keystore/KeyGenParameterSpec$Builder;",
+    "Landroid/security/keystore/KeyGenParameterSpec;",
+    "Ljava/security/KeyStore;"
+   ]
+  },
+  "biometric": {
+   "hits": 20,
+   "examples": [
+    "BiometricPromptCompat",
+    "Identity credential is not supported by FingerprintManager.",
+    "Landroid/hardware/biometrics/BiometricManager;",
+    "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;",
+    "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationResult;",
+    "Landroid/hardware/biometrics/BiometricPrompt$Builder;",
+    "Landroid/hardware/biometrics/BiometricPrompt$CryptoObject;",
+    "Landroid/hardware/biometrics/BiometricPrompt;"
+   ]
+  },
+  "ssl-pinning": {
+   "hits": 52,
+   "examples": [
+    "()Lokhttp3/CertificatePinner;",
+    "(Ljava/lang/String;ILokhttp3/Dns;Ljavax/net/SocketFactory;Ljavax/net/ssl/SSLSocketFactory;Ljavax/net/ssl/HostnameVerifie",
+    "(Ljava/lang/String;[Ljava/lang/String;)Lokhttp3/CertificatePinner$Builder;",
+    "(Lokhttp3/CertificatePinner;)Lokhttp3/OkHttpClient$Builder;",
+    "(Lokhttp3/CertificatePinner;)V",
+    "-deprecated_certificatePinner",
+    "Cannot find certificatest. Disable ssl pinning.",
+    "Certificate pinning failure!\n  Peer certificate chain:"
+   ]
+  },
+  "root-detection": {
+   "hits": 4,
+   "examples": [
+    "/system/app/Superuser.apk",
+    "/system/xbin/su",
+    "Test-keys aren't accepted on this build.",
+    "test-keys"
+   ]
+  },
+  "emulator-detection": {
+   "hits": 6,
+   "examples": [
+    ", isEmulator=",
+    "buildPropsMatch isEmulator: strong build property indicator matched (+5) current score = ",
+    "gads:emulator:ranchu_check_enabled",
+    "goldfish",
+    "isEmulator",
+    "ranchu"
+   ]
+  },
+  "frida-detection": {
+   "hits": 6,
+   "examples": [
+    "/proc/self/maps",
+    "FRIDA",
+    "frida",
+    "frida detection error",
+    "frida-agent",
+    "re.frida.server"
+   ]
+  },
+  "debugger-detection": {
+   "hits": 4,
+   "examples": [
+    "Landroid/os/Debug$MemoryInfo;",
+    "Landroid/os/Debug;",
+    "[Landroid/os/Debug$MemoryInfo;",
+    "isDebuggerConnected"
+   ]
+  },
+  "integrity": {
+   "hits": 73,
+   "examples": [
+    " signature did not verify",
+    "%1$s signature over signed-data did not verify",
+    "JAR signature %1$s did not verify against %2$s",
+    "Lcom/google/android/gms/safetynet/HarmfulAppsData;",
+    "Lcom/google/android/gms/safetynet/R;",
+    "Lcom/google/android/gms/safetynet/SafeBrowsingData;",
+    "Lcom/google/android/gms/safetynet/SafeBrowsingThreat;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$HarmfulAppsResponse;"
+   ]
+  }
+ },
+ "hosts": [
+  {
+   "host": "scdn.zalopay.com.vn",
+   "count": 65
+  },
+  {
+   "host": "simg.zalopay.com.vn",
+   "count": 45
+  },
+  {
+   "host": "render.alipay.com",
+   "count": 24
+  },
+  {
+   "host": "zalopay.vn",
+   "count": 20
+  },
+  {
+   "host": "social.zalopay.vn",
+   "count": 13
+  },
+  {
+   "host": "play.google.com",
+   "count": 11
+  },
+  {
+   "host": "api.zalopay.vn",
+   "count": 11
+  },
+  {
+   "host": "mnap-director.zalopay.vn",
+   "count": 10
+  },
+  {
+   "host": "sapi.zalopay.vn",
+   "count": 10
+  },
+  {
+   "host": "appx-ng",
+   "count": 9
+  },
+  {
+   "host": "developer.android.com",
+   "count": 8
+  },
+  {
+   "host": "appx",
+   "count": 8
+  },
+  {
+   "host": "www.w3.org",
+   "count": 8
+  },
+  {
+   "host": "firebase.google.com",
+   "count": 7
+  },
+  {
+   "host": "issuetracker.google.com",
+   "count": 6
+  },
+  {
+   "host": "zalo.me",
+   "count": 6
+  },
+  {
+   "host": "xml.org",
+   "count": 6
+  },
+  {
+   "host": "googlemobileadssdk.page.link",
+   "count": 6
+  },
+  {
+   "host": "app-measurement.com",
+   "count": 6
+  },
+  {
+   "host": "googleads.g.doubleclick.net",
+   "count": 6
+  },
+  {
+   "host": "www.google.com",
+   "count": 6
+  },
+  {
+   "host": "uudai.zalopay.vn",
+   "count": 6
+  },
+  {
+   "host": "xmlpull.org",
+   "count": 5
+  },
+  {
+   "host": "upload-img.zalopay.vn",
+   "count": 5
+  },
+  {
+   "host": "developers.facebook.com",
+   "count": 5
+  },
+  {
+   "host": "openauth.alipay.com",
+   "count": 4
+  },
+  {
+   "host": "schemas.android.com",
+   "count": 4
+  },
+  {
+   "host": "open-sea.alipayplus.com",
+   "count": 4
+  },
+  {
+   "host": "goo.gl",
+   "count": 4
+  },
+  {
+   "host": "bim.zalopay.vn",
+   "count": 4
+  },
+  {
+   "host": "hpmweb.alipay.com",
+   "count": 3
+  },
+  {
+   "host": "ns.adobe.com",
+   "count": 3
+  },
+  {
+   "host": "resource",
+   "count": 3
+  },
+  {
+   "host": "github.com",
+   "count": 3
+  },
+  {
+   "host": "render-intl.alipay.com",
+   "count": 3
+  },
+  {
+   "host": "alipay.worker.com",
+   "count": 3
+  },
+  {
+   "host": "facebook.com",
+   "count": 3
+  },
+  {
+   "host": "www.facebook.com",
+   "count": 3
+  },
+  {
+   "host": "bank-profile.zalopay.vn",
+   "count": 3
+  },
+  {
+   "host": "mmf-redemption.zalopay.vn",
+   "count": 3
+  },
+  {
+   "host": "scard.zalopay.vn",
+   "count": 3
+  },
+  {
+   "host": "support.zalopay.vn",
+   "count": 3
+  },
+  {
+   "host": "zlp-ofp-emvco-gateway.zalopay.vn",
+   "count": 3
+  },
+  {
+   "host": "zlp-ofp-zpa-camera-config-be.zalopay.vn",
+   "count": 3
+  },
+  {
+   "host": "zalopay.com.vn",
+   "count": 3
+  },
+  {
+   "host": "cps.zalopay.com.vn",
+   "count": 3
+  },
+  {
+   "host": "onelink.zalopay.vn",
+   "count": 3
+  },
+  {
+   "host": "vngzalopay.freshdesk.com",
+   "count": 3
+  },
+  {
+   "host": "g.co",
+   "count": 2
+  },
+  {
+   "host": "fb.gg",
+   "count": 2
+  },
+  {
+   "host": "firebase-settings.crashlytics.com",
+   "count": 2
+  },
+  {
+   "host": "cdn.marmot-cloud.com",
+   "count": 2
+  },
+  {
+   "host": "mobilegw.alipay.com",
+   "count": 2
+  },
+  {
+   "host": "usr",
+   "count": 2
+  },
+  {
+   "host": "analytics.us.tiktok.com",
+   "count": 2
+  },
+  {
+   "host": "iopengw-280.sggz00b.dev.alipay.net",
+   "count": 2
+  },
+  {
+   "host": "imdap-sea.alipay.com",
+   "count": 2
+  },
+  {
+   "host": "imgs-ac.alipay.com",
+   "count": 2
+  },
+  {
+   "host": "visapay.as1.juspay.io",
+   "count": 2
+  },
+  {
+   "host": "developers.google.com",
+   "count": 2
+  },
+  {
+   "host": "com.chrome.dev",
+   "count": 2
+  },
+  {
+   "host": "debug.firebase.analytics.app",
+   "count": 2
+  },
+  {
+   "host": "google-analytics.com",
+   "count": 2
+  },
+  {
+   "host": "csi.gstatic.com",
+   "count": 2
+  },
+  {
+   "host": "pagead2.googlesyndication.com",
+   "count": 2
+  },
+  {
+   "host": "www.google-analytics.com",
+   "count": 2
+  },
+  {
+   "host": "www.googleadservices.com",
+   "count": 2
+  },
+  {
+   "host": "%sars.%s",
+   "count": 2
+  },
+  {
+   "host": "%smonitorsdk.%s",
+   "count": 2
+  },
+  {
+   "host": "%svalidate-and-log.%s",
+   "count": 2
+  },
+  {
+   "host": "%sviap.%s",
+   "count": 2
+  },
+  {
+   "host": "api.fpt.ai",
+   "count": 2
+  },
+  {
+   "host": "upload.zalopay.com.vn",
+   "count": 2
+  },
+  {
+   "host": "log.zalopay.com.vn",
+   "count": 2
+  },
+  {
+   "host": "zpm.zalopay.com.vn",
+   "count": 2
+  },
+  {
+   "host": "token.zalopay.vn",
+   "count": 2
+  },
+  {
+   "host": "openapi.zalopay.vn",
+   "count": 2
+  },
+  {
+   "host": "partners.zalopay.vn",
+   "count": 2
+  },
+  {
+   "host": "dala2zoom.zalopay.vn",
+   "count": 2
+  },
+  {
+   "host": "campaign.zalopay.com.vn",
+   "count": 2
+  },
+  {
+   "host": "fin-installment.zalopay.vn",
+   "count": 2
+  },
+  {
+   "host": "sse.zalopay.vn",
+   "count": 2
+  },
+  {
+   "host": "ebank.bidv.com.vn",
+   "count": 2
+  },
+  {
+   "host": "oauth.zaloapp.com",
+   "count": 2
+  },
+  {
+   "host": "weremit-static.tenpay.com",
+   "count": 2
+  },
+  {
+   "host": "oauth2.zalopay.vn",
+   "count": 2
+  },
+  {
+   "host": "androidx.compose.ui.semantics.id",
+   "count": 1
+  },
+  {
+   "host": "androidx.work.util.id",
+   "count": 1
+  },
+  {
+   "host": "com.alibaba.ariver.app",
+   "count": 1
+  },
+  {
+   "host": "com.alibaba.ariver.app.api.app",
+   "count": 1
+  },
+  {
+   "host": "a.alipayobjects.com",
+   "count": 1
+  },
+  {
+   "host": "alipay.com",
+   "count": 1
+  },
+  {
+   "host": "gw.alipayobjects.com",
+   "count": 1
+  },
+  {
+   "host": "opendocs.alipay.com",
+   "count": 1
+  },
+  {
+   "host": "yuque.antfin-inc.com",
+   "count": 1
+  },
+  {
+   "host": "dispatchers.io",
+   "count": 1
+  },
+  {
+   "host": "youtrack.jetbrains.com",
+   "count": 1
+  },
+  {
+   "host": "tfsimg.alipay.com",
+   "count": 1
+  },
+  {
+   "host": "activityservice.alibaba.com",
+   "count": 1
+  },
+  {
+   "host": "demomb.vnpaytest.vn",
+   "count": 1
+  },
+  {
+   "host": "design.vnpay.vn",
+   "count": 1
+  },
+  {
+   "host": "dpe.qa.consumerapi.digital.visa.com",
+   "count": 1
+  },
+  {
+   "host": "googletng.dl.alipaydev.com",
+   "count": 1
+  },
+  {
+   "host": "gw.zamcs.com",
+   "count": 1
+  },
+  {
+   "host": "imgs-ac-amcs.dl.alipaydev.com",
+   "count": 1
+  },
+  {
+   "host": "imgs-ac-saas.dl.alipaydev.com",
+   "count": 1
+  },
+  {
+   "host": "imgs-sea-pre.alipay.com",
+   "count": 1
+  },
+  {
+   "host": "imgs-sit-sg.dl.alipaydev.com",
+   "count": 1
+  },
+  {
+   "host": "mp3.zing.vn",
+   "count": 1
+  },
+  {
+   "host": "n.zing.vn",
+   "count": 1
+  },
+  {
+   "host": "news.zing.vn",
+   "count": 1
+  },
+  {
+   "host": "srv.mp3.zing.vn",
+   "count": 1
+  },
+  {
+   "host": "support.google.com",
+   "count": 1
+  },
+  {
+   "host": "www.visa.com",
+   "count": 1
+  },
+  {
+   "host": "zaloapp.com",
+   "count": 1
+  },
+  {
+   "host": "java.io",
+   "count": 1
+  },
+  {
+   "host": "rdx.zalopay.vn",
+   "count": 1
+  },
+  {
+   "host": ".*.zalopay.vn",
+   "count": 1
+  },
+  {
+   "host": "ad.doubleclick.net",
+   "count": 1
+  },
+  {
+   "host": "crashlytics.installation.id",
+   "count": 1
+  }
+ ],
+ "domain_rollup": [
+  {
+   "domain": "com.vn",
+   "count": 127
+  },
+  {
+   "domain": "zalopay.vn",
+   "count": 124
+  },
+  {
+   "domain": "alipay.com",
+   "count": 44
+  },
+  {
+   "domain": "google.com",
+   "count": 36
+  },
+  {
+   "domain": "android.com",
+   "count": 13
+  },
+  {
+   "domain": "facebook.com",
+   "count": 11
+  },
+  {
+   "domain": "appx-ng",
+   "count": 9
+  },
+  {
+   "domain": "appx",
+   "count": 8
+  },
+  {
+   "domain": "w3.org",
+   "count": 8
+  },
+  {
+   "domain": "zalo.me",
+   "count": 7
+  },
+  {
+   "domain": "doubleclick.net",
+   "count": 7
+  },
+  {
+   "domain": "xml.org",
+   "count": 6
+  },
+  {
+   "domain": "page.link",
+   "count": 6
+  },
+  {
+   "domain": "app-measurement.com",
+   "count": 6
+  },
+  {
+   "domain": "xmlpull.org",
+   "count": 5
+  },
+  {
+   "domain": "alipayobjects.com",
+   "count": 5
+  },
+  {
+   "domain": "alipaydev.com",
+   "count": 4
+  },
+  {
+   "domain": "zing.vn",
+   "count": 4
+  },
+  {
+   "domain": "alipayplus.com",
+   "count": 4
+  },
+  {
+   "domain": "zaloapp.com",
+   "count": 4
+  },
+  {
+   "domain": "goo.gl",
+   "count": 4
+  },
+  {
+   "domain": "google-analytics.com",
+   "count": 4
+  },
+  {
+   "domain": "googleapis.com",
+   "count": 4
+  },
+  {
+   "domain": "fpt.ai",
+   "count": 4
+  },
+  {
+   "domain": "adobe.com",
+   "count": 3
+  },
+  {
+   "domain": "resource",
+   "count": 3
+  },
+  {
+   "domain": "github.com",
+   "count": 3
+  },
+  {
+   "domain": "gstatic.com",
+   "count": 3
+  },
+  {
+   "domain": "worker.com",
+   "count": 3
+  },
+  {
+   "domain": "freshdesk.com",
+   "count": 3
+  },
+  {
+   "domain": "g.co",
+   "count": 2
+  },
+  {
+   "domain": "fb.gg",
+   "count": 2
+  },
+  {
+   "domain": "crashlytics.com",
+   "count": 2
+  },
+  {
+   "domain": "marmot-cloud.com",
+   "count": 2
+  },
+  {
+   "domain": "usr",
+   "count": 2
+  },
+  {
+   "domain": "tiktok.com",
+   "count": 2
+  },
+  {
+   "domain": "alipay.net",
+   "count": 2
+  },
+  {
+   "domain": "visa.com",
+   "count": 2
+  },
+  {
+   "domain": "juspay.io",
+   "count": 2
+  },
+  {
+   "domain": "chrome.dev",
+   "count": 2
+  }
+ ],
+ "urls": [
+  {
+   "url": "https://render.alipay.com/p/yuyan/180020010001253580/exception_no_support.html?errorType=UNMARKED_MOVING_PINS",
+   "count": 10
+  },
+  {
+   "url": "https://api.zalopay.vn/",
+   "count": 10
+  },
+  {
+   "url": "https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay",
+   "count": 8
+  },
+  {
+   "url": "https://zalopay.vn/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu-hop-nhat",
+   "count": 7
+  },
+  {
+   "url": "https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/toro_information.png",
+   "count": 7
+  },
+  {
+   "url": "https://sapi.zalopay.vn/",
+   "count": 7
+  },
+  {
+   "url": "https://simg.zalopay.com.vn/zst/zpi-spa/um/kyc/images/error.png",
+   "count": 6
+  },
+  {
+   "url": "https://firebase.google.com/support/privacy/init-options",
+   "count": 5
+  },
+  {
+   "url": "https://upload-img.zalopay.vn/",
+   "count": 5
+  },
+  {
+   "url": "https://uudai.zalopay.vn/",
+   "count": 5
+  },
+  {
+   "url": "https://play.google.com/store/apps/details?id=",
+   "count": 4
+  },
+  {
+   "url": "https://api.zalopay.vn",
+   "count": 4
+  },
+  {
+   "url": "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+   "count": 3
+  },
+  {
+   "url": "https://appx-ng/",
+   "count": 3
+  },
+  {
+   "url": "https://appx/",
+   "count": 3
+  },
+  {
+   "url": "https://appx/af-appx.min.js",
+   "count": 3
+  },
+  {
+   "url": "https://resource/",
+   "count": 3
+  },
+  {
+   "url": "https://zalo.me/s/3888182390069527250/?",
+   "count": 3
+  },
+  {
+   "url": "http://schemas.android.com/apk/res/android",
+   "count": 3
+  },
+  {
+   "url": "https://bank-profile.zalopay.vn/",
+   "count": 3
+  },
+  {
+   "url": "https://mmf-redemption.zalopay.vn/",
+   "count": 3
+  },
+  {
+   "url": "https://openapi.zalopay.vn",
+   "count": 3
+  },
+  {
+   "url": "https://sapi.zalopay.vn/scan360/",
+   "count": 3
+  },
+  {
+   "url": "https://scard.zalopay.vn/",
+   "count": 3
+  },
+  {
+   "url": "https://social.zalopay.vn/spa/v2",
+   "count": 3
+  },
+  {
+   "url": "https://zlp-ofp-emvco-gateway.zalopay.vn/",
+   "count": 3
+  },
+  {
+   "url": "https://zlp-ofp-zpa-camera-config-be.zalopay.vn/",
+   "count": 3
+  },
+  {
+   "url": "https://zalopay.com.vn/",
+   "count": 3
+  },
+  {
+   "url": "https://user-life-cycle-public.zalopay.vn",
+   "count": 3
+  },
+  {
+   "url": "https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread",
+   "count": 2
+  },
+  {
+   "url": "https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted",
+   "count": 2
+  },
+  {
+   "url": "https://issuetracker.google.com/issues/new?component=413106",
+   "count": 2
+  },
+  {
+   "url": "http://g.co/dev/packagevisibility",
+   "count": 2
+  },
+  {
+   "url": "http://ns.adobe.com/xap/1.0/",
+   "count": 2
+  },
+  {
+   "url": "https://alipay.kylinBridge",
+   "count": 2
+  },
+  {
+   "url": "https://appx",
+   "count": 2
+  },
+  {
+   "url": "https://appx-ng/af-appx.min.js",
+   "count": 2
+  },
+  {
+   "url": "https://appx-ng/af-appx.worker.min.js",
+   "count": 2
+  },
+  {
+   "url": "https://appx-ng/index.prerender.html",
+   "count": 2
+  },
+  {
+   "url": "https://appx/af-appx.worker.min.js",
+   "count": 2
+  },
+  {
+   "url": "https://mobilegw.alipay.com/mgw.htm",
+   "count": 2
+  },
+  {
+   "url": "https://play.google.com/store/apps/details?id=vn.com.vng.zalopay",
+   "count": 2
+  },
+  {
+   "url": "https://shared",
+   "count": 2
+  },
+  {
+   "url": "https://usr/",
+   "count": 2
+  },
+  {
+   "url": "https://render.alipay.com/p/w/ac-fe-adaptor/",
+   "count": 2
+  },
+  {
+   "url": "http://openauth.alipay.com/",
+   "count": 2
+  },
+  {
+   "url": "https://openauth.alipay.com/",
+   "count": 2
+  },
+  {
+   "url": "https://render.alipay.com/p/s/i.*scheme=alipays.*",
+   "count": 2
+  },
+  {
+   "url": "https://ds.alipay.com.*scheme=alipays.*",
+   "count": 2
+  },
+  {
+   "url": "https://d.alipay.com.*scheme=alipays.*",
+   "count": 2
+  },
+  {
+   "url": "https://ulink.alipay.com.*scheme=alipays.*",
+   "count": 2
+  },
+  {
+   "url": "https://render.alipay.com/p/s/i.*scheme=.*",
+   "count": 2
+  },
+  {
+   "url": "http://iopengw-280.sggz00b.dev.alipay.net/",
+   "count": 2
+  },
+  {
+   "url": "https://imdap-sea.alipay.com/loggw/logUpload.do",
+   "count": 2
+  },
+  {
+   "url": "https://imgs-ac.alipay.com/imgw.htm",
+   "count": 2
+  },
+  {
+   "url": "https://open-sea.alipayplus.com/",
+   "count": 2
+  },
+  {
+   "url": "https://play.google.com/store/apps/details?id=com.zing.zalo",
+   "count": 2
+  },
+  {
+   "url": "https://render.alipay.com/p/w/ac-fe-adaptor",
+   "count": 2
+  },
+  {
+   "url": "http://www.w3.org/1999/xlink",
+   "count": 2
+  },
+  {
+   "url": "http://www.w3.org/2000/svg",
+   "count": 2
+  },
+  {
+   "url": "http://www.w3.org/TR/SVG11/feature#",
+   "count": 2
+  },
+  {
+   "url": "http://xml.org/sax/features/external-general-entities",
+   "count": 2
+  },
+  {
+   "url": "http://xml.org/sax/features/external-parameter-entities",
+   "count": 2
+  },
+  {
+   "url": "http://xml.org/sax/properties/lexical-handler",
+   "count": 2
+  },
+  {
+   "url": "http://xmlpull.org/v1/doc/features.html#process-docdecl",
+   "count": 2
+  },
+  {
+   "url": "https://issuetracker.google.com/issues/new?component=618491&template=1257717",
+   "count": 2
+  },
+  {
+   "url": "https://googlemobileadssdk.page.link/admob-interstitial-policies",
+   "count": 2
+  },
+  {
+   "url": "https://goo.gl/NAOOOI",
+   "count": 2
+  },
+  {
+   "url": "http://www.google.com",
+   "count": 2
+  },
+  {
+   "url": "http://www.w3.org/ns/ttml#parameter",
+   "count": 2
+  },
+  {
+   "url": "https://app-measurement.com/a",
+   "count": 2
+  },
+  {
+   "url": "https://app-measurement.com/s",
+   "count": 2
+  },
+  {
+   "url": "https://csi.gstatic.com/csi",
+   "count": 2
+  },
+  {
+   "url": "https://simg.zalopay.com.vn/zst/zpi-spa/um/images/confirm_icon.png",
+   "count": 2
+  },
+  {
+   "url": "https://alipay.worker.com/worker",
+   "count": 2
+  },
+  {
+   "url": "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+   "count": 2
+  },
+  {
+   "url": "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest",
+   "count": 2
+  },
+  {
+   "url": "https://mnap-director.zalopay.vn/redir/-1000?type=standalone",
+   "count": 2
+  },
+  {
+   "url": "https://play.google.com/store/apps/details?id=com.vnid",
+   "count": 2
+  },
+  {
+   "url": "https://upload.zalopay.com.vn/",
+   "count": 2
+  }
+ ],
+ "api_paths": [
+  {
+   "path": "/",
+   "count": 60
+  },
+  {
+   "path": "/,",
+   "count": 33
+  },
+  {
+   "path": "/p/yuyan/180020010001253580/exception_no_support.html?errorType=UNMARKED_MOVING_PINS",
+   "count": 10
+  },
+  {
+   "path": "/quy-dinh/thoa-thuan-su-dung-zalopay",
+   "count": 8
+  },
+  {
+   "path": "/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu-hop-nhat",
+   "count": 7
+  },
+  {
+   "path": "/zst/zpi-spa/um/kyc/images/error.png",
+   "count": 6
+  },
+  {
+   "path": "/imgw.htm",
+   "count": 6
+  },
+  {
+   "path": "/zst/zpi-spa/um/kyc/images/toro_information.png",
+   "count": 6
+  },
+  {
+   "path": "/api/v",
+   "count": 6
+  },
+  {
+   "path": "/af-appx.min.js",
+   "count": 5
+  },
+  {
+   "path": "/zdl/service_map_all.bin",
+   "count": 5
+  },
+  {
+   "path": "/support/privacy/init-options.",
+   "count": 5
+  },
+  {
+   "path": "/af-appx.worker.min.js",
+   "count": 4
+  },
+  {
+   "path": "/v1/doc/features.html#process-namespaces",
+   "count": 3
+  },
+  {
+   "path": "/mgw.htm",
+   "count": 3
+  },
+  {
+   "path": "/s/3888182390069527250/?",
+   "count": 3
+  },
+  {
+   "path": "/apk/res/android",
+   "count": 3
+  },
+  {
+   "path": "/store/apps/details?id=",
+   "count": 3
+  },
+  {
+   "path": "/spa/v2",
+   "count": 3
+  },
+  {
+   "path": "/generate_204",
+   "count": 3
+  },
+  {
+   "path": "/guide/topics/media/issues/player-accessed-on-wrong-thread",
+   "count": 2
+  },
+  {
+   "path": "/guide/topics/media/issues/cleartext-not-permitted",
+   "count": 2
+  },
+  {
+   "path": "/issues/new?component=413106",
+   "count": 2
+  },
+  {
+   "path": "/dev/packagevisibility.",
+   "count": 2
+  },
+  {
+   "path": "/xap/1.0/",
+   "count": 2
+  },
+  {
+   "path": "/index.prerender.html",
+   "count": 2
+  },
+  {
+   "path": "/store/apps/details?id=vn.com.vng.zalopay",
+   "count": 2
+  },
+  {
+   "path": "/p/w/ac-fe-adaptor/",
+   "count": 2
+  },
+  {
+   "path": "/p/s/i.*scheme=alipays.*",
+   "count": 2
+  },
+  {
+   "path": "/p/s/i.*scheme=.*",
+   "count": 2
+  },
+  {
+   "path": "/isupergw/alipaynet/site/oauth/auth/extension/prepare.htm",
+   "count": 2
+  },
+  {
+   "path": "/loggw/logUpload.do",
+   "count": 2
+  },
+  {
+   "path": "/store/apps/details?id=com.zing.zalo",
+   "count": 2
+  },
+  {
+   "path": "/p/w/ac-fe-adaptor",
+   "count": 2
+  },
+  {
+   "path": "/1999/xlink",
+   "count": 2
+  },
+  {
+   "path": "/2000/svg",
+   "count": 2
+  },
+  {
+   "path": "/TR/SVG11/feature#",
+   "count": 2
+  },
+  {
+   "path": "/sax/features/external-general-entities",
+   "count": 2
+  },
+  {
+   "path": "/sax/features/external-parameter-entities",
+   "count": 2
+  },
+  {
+   "path": "/sax/properties/lexical-handler",
+   "count": 2
+  },
+  {
+   "path": "/v1/doc/features.html#process-docdecl",
+   "count": 2
+  },
+  {
+   "path": "/issues/new?component=618491&template=1257717",
+   "count": 2
+  },
+  {
+   "path": "/admob-interstitial-policies",
+   "count": 2
+  },
+  {
+   "path": "/ns/ttml#parameter",
+   "count": 2
+  },
+  {
+   "path": "/a",
+   "count": 2
+  },
+  {
+   "path": "/s",
+   "count": 2
+  },
+  {
+   "path": "/csi",
+   "count": 2
+  },
+  {
+   "path": "/zst/zpi-spa/um/images/confirm_icon.png",
+   "count": 2
+  },
+  {
+   "path": "/worker",
+   "count": 2
+  },
+  {
+   "path": "/admob-android-update-manifest",
+   "count": 2
+  },
+  {
+   "path": "/ad-manager-android-update-manifest.",
+   "count": 2
+  },
+  {
+   "path": "/api/v1/",
+   "count": 2
+  },
+  {
+   "path": "/redir/-1000?type=standalone",
+   "count": 2
+  },
+  {
+   "path": "/store/apps/details?id=com.vnid",
+   "count": 2
+  },
+  {
+   "path": "/scan360/",
+   "count": 2
+  },
+  {
+   "path": "/sg/inbound-payment/merchant-oauth.shtml",
+   "count": 2
+  },
+  {
+   "path": "/4046405574025332160",
+   "count": 2
+  },
+  {
+   "path": "/spa/v2/cashier-payment-complete",
+   "count": 2
+  },
+  {
+   "path": "/redir/-2003",
+   "count": 2
+  },
+  {
+   "path": "/issues/297974033",
+   "count": 1
+  }
+ ],
+ "interesting_literals": [
+  {
+   "kind": "zalopay_api",
+   "value": "; Domain=zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://zalopay.vn/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu-hop-nhat"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://rdx.zalopay.vn/v1/api/android/crash-log"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://zalopay.vn/hoi-dap/an-toan-va-bao-mat/hoi-dap-ve-an-toan-bao-mat/tai-sao-toi-khong-su-dung-duoc-ung-dung-zalopay"
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "/bkPoQedf8H6er/z22s5Ugb2zQK/aJlVqqMiarhu0YY="
+  },
+  {
+   "kind": "gcm_sender",
+   "value": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "1hqMb526iXwDuGjyfOFzL8CpmWwTXgqej4g8gq9uBJ4="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "3J/aaHdjwZnfPcJ4uTLf1waaNQZJXDmN6IGGhtRxrXI="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "5EH0wgVOsOOfycPFtjiDLlWMUl1WsId7lt7tllT9vVA="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "85J7Wr+LLVwpDfypFtzN1eoOiAfuTMa63SuSJgN9bwE="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "A7tv2KK9I23pi5gqrDhkhgrz6cV3BFoHJTUga5I7vx4="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "CXimWsgId9Q4NJ7Th/z0oZbD0fgxUqQs1m5HYkmnDaE="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "CbvMM1RmBqY6HgXPSjmPhmgdiwuju3NT+G66/tI7UPk="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "GJYSDgYrAgCxY14XYxunZiSr8dTk91g66tw4qbpYxV8="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "JlPicGd8nbcQ8ZbmhNqFQR3s817OLQa0+uauZ8OF17M="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "K8GEBKnLvE9ILfJGB5b9krvXjFIAigM9H8Mu/ozNfRc="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "KIfx7EUeWhnA+aC9P4Mk2uzmdiZwzAWUKm+DIiGxj24="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "MRnsFh7aI+oC8kg1+amaEJuIrxjLkR8/37mSauK2nHU="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "NXPtv44zmdtGcAoKWfDQv5BuqJ7K37WVaE+QdtFiH0c="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "UcBsIyWJ1ILWxlv+9MafJ7lcNPMojMcMoBQJnzvSyQQ="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "V8AFkrWTqIFMlH2T0HF0GHt49h/FZu+6Sm1YbAzJ62A="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "XF2ECF8x32hNHbBL1ZweWW5YOt0QuzlbOpXni7lBWlc="
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "^https://.*.zalopay.vn/.*$"
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "aH+LkkSrrb3t9z/9chsxYBmeH34qaSymsmB0IYlZ8kA="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "bxwXOoEQUxH5XWh5SE6sIt1AlD2mR+aN5LSYX3ZGs5Q="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "c80TveimhHTg47yq+ca1w6vXt+JXULmGO8Nz62+yMN8="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "dGJd9fIaxgnbA6Dc4nB6tFRdL3cXJ8ToAbabnjV7KZM="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "dvq2wU3xdgVVjZT9gC/0PMuBLs8WhmySJmrq8zzkkwM="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "edZBbMBYITINvHy1TGuBnyHrwyVIJEJzJQocfZ8d7ZI="
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://upload-img.zalopay.vn/"
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "iO2i4E5kKwgdMIyURHCZV/iLx1KtGqgpgsfiaMoXkaQ="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "j+KOJWcuW5eAeYurIvI/WDWaxjjVmMhwZuok18XlZ7Q="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "nPlMagQmW6RSJqnTQ57SbpssxbOxIap7X2C6yeu+l3U="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "opDPFauVb4cwnfQzDqDp9yn5NlOrrzIvgPDGrYZmcXE="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "qVy1S3GZ9+f6FFC31TUnbavXTKbKjAeTCoTlnIfZI+M="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "v4ERF2BZ8VhfOGsNaLYR31bPmiZ7/cUjCjYq2SCVO2Q="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "vyPJQ44Cs+DiV597MU4yHYF5mAH0rpjmfJE+rEowUe0="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "zJhT7qghLWaTsmehrEh6IjKTMRAYPpUw83GIeS8cyos="
+  },
+  {
+   "kind": "sha256_pin",
+   "value": "4/nh4M+Z0OVqBVumXiQbM5n3zqUkMmsM3W7BMn7Q/cE="
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://api.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://atlas.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://bank-profile.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://mmf-redemption.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://mnap-director.zalopay.vn/redir/-1000?type=standalone"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://openapi.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://sapi.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://sapi.zalopay.vn/scan360/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://scard.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://social.zalopay.vn/spa/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://social.zalopay.vn/spa/v2"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://support.zalopay.vn/faq/integrate?target=form/quick-pay"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://support.zalopay.vn/faq/services?issueId=4&provider=QuickPay&serviceTag=general_scanqr&source=1&issueDetail=Quét%20mã%20thanh%20toán&moreInfo"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://support.zalopay.vn/faq/services?serviceTag=general_quickpay&issueDetail=Thanh%20toán%20QR&source=1&issueId=4&provider=QuickPay&moreInfo="
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://uudai.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://zlp-ofp-emvco-gateway.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://zlp-ofp-zpa-camera-config-be.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "*.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": ".zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "://go.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "<p>Bạn đã đồng ý với <a href=\"https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay\" data-link-id=\"terms_of_use\" data-action=\"OPEN_BOTTOM_SHEET\">Thỏa thuận mở "
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "ApiDomainConfiguration(baseHost=https://zalopay.com.vn/, uploadPhotoHost=https://upload.zalopay.com.vn/, clientLogHost=https://log.zalopay.com.vn/, zpmHost=http"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "Bằng việc bấm <b>Xác nhận</b>, tôi đồng ý với <a href=\"https://zalopay.vn/quy-dinh/thoa-thuan-su-dung-zalopay\">Thoả thuận sử dụng</a> và <a href=\"https://zalopa"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "PayByWalletSession(backendBaseUrl=https://openapi.zalopay.vn, backendAuthToken="
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "go.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "hotro@zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://api.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://api.zalopay.vn/v2/user/session/check"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://bim.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://bim.zalopay.vn/oss/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://bnpl-gateway.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://dala2zoom.zalopay.vn/liveness/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://fin-installment.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://loyalty.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://miniprogram.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://mmf-user.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://mmf-user.zalopay.vn/api/v1/public/docs/contract"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://mnap-director.zalopay.vn/redir/-99"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://mp.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://onelink.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://openapi.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://partners.zalopay.vn/link/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://qrpay.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://rar-um.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://rdx.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://social.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://social.zalopay.vn/guide/HDB"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://social.zalopay.vn/guide/VARB"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://social.zalopay.vn/guide/topup-withdraw/service-info"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://social.zalopay.vn/spa/v2/personal/career-information?platform=zpa"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://sse.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://token.zalopay.vn/"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://tracking.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://tracking.zalopay.vn/v3/log/events"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://user-life-cycle-public.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://zalopay.vn/quy-dinh"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://zalopay.vn/quy-dinh/quy-che-hoat-dong"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://zlp-movie-api.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://zlp-ofp-integration-hub.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://zlp-ofp-qp-public-api.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "km.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "mailto:hotro@zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "mnap-director.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "oauth2.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "onelink.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "promotion.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "ticket.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "uudai.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://social.zalopay.vn/spa/v2/cashier-payment-complete"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://dala2zoom.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "social.zalopay.vn"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://social.zalopay.vn/spa/kyc/phone/change/zpa-v2?source="
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://mnap-director.zalopay.vn/redir/-2003"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://mnap-director.zalopay.vn/redir?app_id=-986&data=%s"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://social.zalopay.vn/spa/v2/rba/verify/cashier_verify/%s"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://mnap-director.zalopay.vn/redir"
+  },
+  {
+   "kind": "zalopay_api",
+   "value": "https://mnap-director.zalopay.vn/redir/-2004"
+  }
+ ],
+ "unique_strings": 243786
+}

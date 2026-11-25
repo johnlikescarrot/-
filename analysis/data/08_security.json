@@ -1,0 +1,312 @@
+{
+ "controls": [
+  {
+   "id": "root",
+   "control": "Root / su binary detection",
+   "ecosystem": "first-party UI + VISA CBP SDK + FPT trueID",
+   "literal_hits": 6,
+   "dex_spread": {
+    "classes4.dex": 3,
+    "classes7.dex": 2,
+    "classes.dex": 1
+   },
+   "user_facing_vi": [],
+   "evidence": [
+    "/magisk",
+    "/system/app/Superuser.apk",
+    "/system/xbin/su",
+    "test-keys"
+   ],
+   "verified": true
+  },
+  {
+   "id": "hook",
+   "control": "Runtime instrumentation (hook) detection",
+   "ecosystem": "first-party + FPT trueID",
+   "literal_hits": 6,
+   "dex_spread": {
+    "classes5.dex": 3,
+    "classes7.dex": 2,
+    "classes2.dex": 1
+   },
+   "user_facing_vi": [],
+   "evidence": [
+    "FRIDA",
+    "XPOSED",
+    "de.robv.android.xposed",
+    "de.robv.android.xposed.installer",
+    "frida-agent",
+    "isHooked"
+   ],
+   "verified": true
+  },
+  {
+   "id": "emulator",
+   "control": "Emulator / virtual-machine detection",
+   "ecosystem": "first-party + VISA CBP SDK",
+   "literal_hits": 17,
+   "dex_spread": {
+    "classes2.dex": 5,
+    "classes4.dex": 5,
+    "classes5.dex": 3,
+    "classes.dex": 1,
+    "classes3.dex": 1,
+    "classes6.dex": 1,
+    "classes7.dex": 1
+   },
+   "user_facing_vi": [],
+   "evidence": [
+    ", isEmulator=",
+    "Genymotion",
+    "This application does not support running on virtual machines and emulators.",
+    "buildPropsMatch isEmulator: strong build property indicator matched (+5) current score = ",
+    "emulator_detected",
+    "gads:emulator:ranchu_check_enabled",
+    "goldfish",
+    "isEmulator"
+   ],
+   "verified": true
+  },
+  {
+   "id": "debug",
+   "control": "Debugger & developer-mode detection",
+   "ecosystem": "first-party UI + FPT trueID",
+   "literal_hits": 17,
+   "dex_spread": {
+    "classes.dex": 6,
+    "classes3.dex": 3,
+    "classes7.dex": 3,
+    "classes2.dex": 2,
+    "classes4.dex": 2,
+    "classes6.dex": 1
+   },
+   "user_facing_vi": [
+    "Thiết bị đang bật chế độ gỡ lỗi USB debugging. Vui lòng tắt chế độ gỡ lỗi để sử dụng ứng dụng",
+    "Thiết bị đang bật chế độ nhà phát triển. Vui lòng tắt chế độ nhà phát triển để sử dụng ứng dụng",
+    "Điện thoại đang bật chế độ nhà phát triển. Vui lòng tắt chế độ này để sử dụng Chạm thanh toán."
+   ],
+   "evidence": [
+    "Landroid/os/Debug$MemoryInfo;",
+    "Landroid/os/Debug;",
+    "The device is currently in USB debugging mode. Please turn off debugging mode to use the application.",
+    "Thiết bị đang bật chế độ gỡ lỗi USB debugging. Vui lòng tắt chế độ gỡ lỗi để sử dụng ứng dụng",
+    "Thiết bị đang bật chế độ nhà phát triển. Vui lòng tắt chế độ nhà phát triển để sử dụng ứng dụng",
+    "TracerPid",
+    "[Landroid/os/Debug$MemoryInfo;",
+    "isDebuggerConnected"
+   ],
+   "verified": true
+  },
+  {
+   "id": "proxy",
+   "control": "Proxy / MITM detection",
+   "ecosystem": "first-party",
+   "literal_hits": 6,
+   "dex_spread": {
+    "classes.dex": 3,
+    "classes7.dex": 2,
+    "classes3.dex": 1
+   },
+   "user_facing_vi": [
+    "Thiết bị đang bật chế độ proxy. Vui lòng tắt chế độ proxy trên điện thoại"
+   ],
+   "evidence": [
+    "Thiết bị đang bật chế độ proxy. Vui lòng tắt chế độ proxy trên điện thoại",
+    "http.proxyHost",
+    "http.proxyPort"
+   ],
+   "verified": true
+  },
+  {
+   "id": "keyboard",
+   "control": "Untrusted-input-method (keyboard) detection",
+   "ecosystem": "first-party",
+   "literal_hits": 12,
+   "dex_spread": {
+    "classes.dex": 2,
+    "classes3.dex": 2,
+    "classes6.dex": 2,
+    "classes2.dex": 1,
+    "classes4.dex": 1,
+    "classes5.dex": 1,
+    "classes7.dex": 1,
+    "classes9.dex": 1,
+    "classes15.dex": 1
+   },
+   "user_facing_vi": [
+    "Thiết bị hiện đang sử dụng bàn phím không có trong danh sách được tin cậy. Vui lòng thay đổi sang loại bàn phím khác."
+   ],
+   "evidence": [
+    "Landroid/view/inputmethod/InputMethodManager;",
+    "Thiết bị hiện đang sử dụng bàn phím không có trong danh sách được tin cậy. Vui lòng thay đổi sang loại bàn phím khác.",
+    "Untrusted keyboard"
+   ],
+   "verified": true
+  },
+  {
+   "id": "screen",
+   "control": "Screen-capture / overlay defense",
+   "ecosystem": "Android platform",
+   "literal_hits": 3,
+   "dex_spread": {
+    "classes7.dex": 2,
+    "classes3.dex": 1
+   },
+   "user_facing_vi": [],
+   "evidence": [
+    "onScreenCaptured",
+    "setRecentsScreenshotEnabled"
+   ],
+   "verified": true
+  },
+  {
+   "id": "integrity",
+   "control": "APK signature / tamper integrity",
+   "ecosystem": "Android platform + first-party",
+   "literal_hits": 8,
+   "dex_spread": {
+    "classes7.dex": 4,
+    "classes.dex": 1,
+    "classes3.dex": 1,
+    "classes4.dex": 1,
+    "classes5.dex": 1
+   },
+   "user_facing_vi": [],
+   "evidence": [
+    " signature did not verify",
+    "NFC decode error or tampered NFC",
+    "WYSIWYS verification failed: transaction data tampered!",
+    "nfc_tampered_status",
+    "password incorrect or store tampered with",
+    "signingInfo"
+   ],
+   "verified": true
+  },
+  {
+   "id": "pinning",
+   "control": "Certificate pinning (TLS)",
+   "ecosystem": "OkHttp + Google Ads SDK",
+   "literal_hits": 30,
+   "dex_spread": {
+    "classes2.dex": 15,
+    "classes7.dex": 8,
+    "classes6.dex": 3,
+    "classes10.dex": 1,
+    "classes12.dex": 1,
+    "classes15.dex": 1,
+    "classes16.dex": 1
+   },
+   "user_facing_vi": [],
+   "evidence": [
+    "()Lokhttp3/CertificatePinner;",
+    "(Ljava/lang/String;[Ljava/lang/String;)Lokhttp3/CertificatePinner$Builder;",
+    "(Lokhttp3/CertificatePinner;)Lokhttp3/OkHttpClient$Builder;",
+    "(Lokhttp3/CertificatePinner;)V",
+    "Ljavax/net/ssl/TrustManagerFactory;",
+    "Lokhttp3/CertificatePinner$Builder;",
+    "Lokhttp3/CertificatePinner$Companion;",
+    "Lokhttp3/CertificatePinner$Pin;"
+   ],
+   "verified": true
+  },
+  {
+   "id": "keystore",
+   "control": "Hardware-backed keystore / biometrics",
+   "ecosystem": "AndroidX Security + Biometric",
+   "literal_hits": 48,
+   "dex_spread": {
+    "classes7.dex": 14,
+    "classes.dex": 13,
+    "classes5.dex": 8,
+    "classes6.dex": 5,
+    "classes2.dex": 4,
+    "classes4.dex": 4
+   },
+   "user_facing_vi": [],
+   "evidence": [
+    "BiometricPromptCompat",
+    "Failure in canAuthenticate(). FingerprintManager was null.",
+    "FingerprintManagerCompat not initialized",
+    "Identity credential is not supported by FingerprintManager.",
+    "KeyGenParameterSpec was null after build() check",
+    "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback;",
+    "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationResult;",
+    "Landroid/hardware/biometrics/BiometricPrompt$Builder;"
+   ],
+   "verified": true
+  },
+  {
+   "id": "attestation",
+   "control": "Platform attestation",
+   "ecosystem": "Google Play Integrity",
+   "literal_hits": 50,
+   "dex_spread": {
+    "classes4.dex": 33,
+    "classes6.dex": 11,
+    "classes5.dex": 4,
+    "classes2.dex": 2
+   },
+   "user_facing_vi": [],
+   "evidence": [
+    "IntegrityTokenRequest{nonce=",
+    "Lcom/google/android/gms/safetynet/SafetyNet;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$AttestationResponse;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$AttestationResult;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$HarmfulAppsResponse;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$HarmfulAppsResult;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$RecaptchaTokenResponse;",
+    "Lcom/google/android/gms/safetynet/SafetyNetApi$RecaptchaTokenResult;"
+   ],
+   "verified": true
+  },
+  {
+   "id": "db_encryption",
+   "control": "Database encryption at rest",
+   "ecosystem": "SQLCipher (Zetetic)",
+   "literal_hits": 57,
+   "dex_spread": {
+    "classes2.dex": 46,
+    "classes7.dex": 5,
+    "classes4.dex": 4,
+    "classes6.dex": 2
+   },
+   "user_facing_vi": [],
+   "evidence": [
+    "Lnet/zetetic/database/sqlcipher/CloseGuard$DefaultReporter;",
+    "Lnet/zetetic/database/sqlcipher/CloseGuard$Reporter;",
+    "Lnet/zetetic/database/sqlcipher/CloseGuard;",
+    "Lnet/zetetic/database/sqlcipher/DatabaseObjectNotClosedException;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteClosable;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnection$Operation;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnection$OperationLog;",
+    "Lnet/zetetic/database/sqlcipher/SQLiteConnection$PreparedStatement;"
+   ],
+   "verified": true
+  },
+  {
+   "id": "sdk_security",
+   "control": "Vendor security SDK (SecurityGuard Lite)",
+   "ecosystem": "Alipay+ / Zoloz",
+   "literal_hits": 25,
+   "dex_spread": {
+    "classes5.dex": 20,
+    "classes2.dex": 4,
+    "classes6.dex": 1
+   },
+   "user_facing_vi": [],
+   "evidence": [
+    "Lcom/alipay/plus/security/lite/ISecurityGuardLiteManager;",
+    "Lcom/alipay/plus/security/lite/R;",
+    "Lcom/alipay/plus/security/lite/SecLiteException;",
+    "Lcom/alipay/plus/security/lite/SecureLiteSignatureDefine;",
+    "Lcom/alipay/plus/security/lite/SecurityGuardLiteManager;",
+    "Lcom/alipay/plus/security/lite/SecurityGuardLiteNative;",
+    "Lcom/alipay/plus/security/lite/SecurityGuardLiteParamContext;",
+    "Lcom/alipay/plus/security/lite/a/a;"
+   ],
+   "verified": true
+  }
+ ],
+ "controls_verified": 13,
+ "user_facing_vi_messages": 5
+}

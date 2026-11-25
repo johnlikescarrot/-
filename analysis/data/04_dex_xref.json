@@ -1,0 +1,952 @@
+{
+ "per_dex": [
+  {
+   "file": "classes.dex",
+   "classes_with_code_strings": 8486,
+   "string_ids": 61218,
+   "methods": 59948
+  },
+  {
+   "file": "classes2.dex",
+   "classes_with_code_strings": 8690,
+   "string_ids": 56948,
+   "methods": 45527
+  },
+  {
+   "file": "classes3.dex",
+   "classes_with_code_strings": 592,
+   "string_ids": 8010,
+   "methods": 6354
+  },
+  {
+   "file": "classes4.dex",
+   "classes_with_code_strings": 10190,
+   "string_ids": 52812,
+   "methods": 59997
+  },
+  {
+   "file": "classes5.dex",
+   "classes_with_code_strings": 7930,
+   "string_ids": 56424,
+   "methods": 49055
+  },
+  {
+   "file": "classes6.dex",
+   "classes_with_code_strings": 6058,
+   "string_ids": 55274,
+   "methods": 49201
+  },
+  {
+   "file": "classes7.dex",
+   "classes_with_code_strings": 10539,
+   "string_ids": 59110,
+   "methods": 60000
+  },
+  {
+   "file": "classes8.dex",
+   "classes_with_code_strings": 165,
+   "string_ids": 1906,
+   "methods": 1552
+  },
+  {
+   "file": "classes9.dex",
+   "classes_with_code_strings": 1056,
+   "string_ids": 6155,
+   "methods": 7170
+  },
+  {
+   "file": "classes10.dex",
+   "classes_with_code_strings": 58,
+   "string_ids": 920,
+   "methods": 578
+  },
+  {
+   "file": "classes11.dex",
+   "classes_with_code_strings": 127,
+   "string_ids": 1584,
+   "methods": 1171
+  },
+  {
+   "file": "classes12.dex",
+   "classes_with_code_strings": 391,
+   "string_ids": 3207,
+   "methods": 2604
+  },
+  {
+   "file": "classes13.dex",
+   "classes_with_code_strings": 97,
+   "string_ids": 1381,
+   "methods": 997
+  },
+  {
+   "file": "classes14.dex",
+   "classes_with_code_strings": 75,
+   "string_ids": 961,
+   "methods": 575
+  },
+  {
+   "file": "classes15.dex",
+   "classes_with_code_strings": 67,
+   "string_ids": 1005,
+   "methods": 658
+  },
+  {
+   "file": "classes16.dex",
+   "classes_with_code_strings": 10,
+   "string_ids": 261,
+   "methods": 101
+  },
+  {
+   "file": "classes17.dex",
+   "classes_with_code_strings": 145,
+   "string_ids": 1847,
+   "methods": 1311
+  },
+  {
+   "file": "classes18.dex",
+   "classes_with_code_strings": 44,
+   "string_ids": 1094,
+   "methods": 668
+  },
+  {
+   "file": "classes19.dex",
+   "classes_with_code_strings": 596,
+   "string_ids": 4159,
+   "methods": 3781
+  }
+ ],
+ "security_string_classes": [
+  {
+   "dex": "classes.dex",
+   "class": "Lcom/xq/cxzmoiwuegvp/u;",
+   "count": 92,
+   "sample": [
+    "%1$s not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.",
+    "%1$s signature over signed-data did not verify",
+    "A source stamp signature block was found without a corresponding certificate digest in the APK",
+    "APK Signature Scheme V2 only supports a maximum of %1$d signers, found %2$d",
+    "APK Signature Scheme v1 only supports a maximum of %1$d signers, found %2$d",
+    "APK Signature Scheme v2 signature %1$s indicates the APK is signed using %2$s but no such signature was found. Signature stripped?"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lorg/bouncycastle/jcajce/provider/asymmetric/RSA$Mappings;",
+   "count": 91,
+   "sample": [
+    "Alg.Alias.Signature.",
+    "Alg.Alias.Signature.NONEWITHRSA",
+    "Alg.Alias.Signature.NONEWITHRSAANDMGF1",
+    "Alg.Alias.Signature.NONEWITHRSAPSS",
+    "Alg.Alias.Signature.NONEWITHRSASSA-PSS",
+    "Alg.Alias.Signature.OID."
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lorg/bouncycastle/jcajce/provider/asymmetric/EC$Mappings;",
+   "count": 68,
+   "sample": [
+    "Alg.Alias.Signature.",
+    "Alg.Alias.Signature.1.2.840.10045.4.1",
+    "Alg.Alias.Signature.DETECDSA",
+    "Alg.Alias.Signature.ECDSAWITHSHA1",
+    "Alg.Alias.Signature.ECDSAWithSHA1",
+    "Alg.Alias.Signature.ECDSAwithSHA1"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/mlkit_vision_face_bundled/n5;",
+   "count": 54,
+   "sample": [
+    "AGGREGATED_CUSTOM_IMAGE_LABEL_DETECTION",
+    "AGGREGATED_ON_DEVICE_BARCODE_DETECTION",
+    "AGGREGATED_ON_DEVICE_DOCUMENT_DETECT_PROCESS",
+    "AGGREGATED_ON_DEVICE_EXPLICIT_CONTENT_DETECTION",
+    "AGGREGATED_ON_DEVICE_FACE_DETECTION",
+    "AGGREGATED_ON_DEVICE_FACE_MESH_DETECTION"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lp9/g5;",
+   "count": 54,
+   "sample": [
+    "AGGREGATED_CUSTOM_IMAGE_LABEL_DETECTION",
+    "AGGREGATED_ON_DEVICE_BARCODE_DETECTION",
+    "AGGREGATED_ON_DEVICE_DOCUMENT_DETECT_PROCESS",
+    "AGGREGATED_ON_DEVICE_EXPLICIT_CONTENT_DETECTION",
+    "AGGREGATED_ON_DEVICE_FACE_DETECTION",
+    "AGGREGATED_ON_DEVICE_FACE_MESH_DETECTION"
+   ]
+  },
+  {
+   "dex": "classes6.dex",
+   "class": "Lcom/google/android/gms/internal/mlkit_vision_barcode/P5;",
+   "count": 54,
+   "sample": [
+    "AGGREGATED_CUSTOM_IMAGE_LABEL_DETECTION",
+    "AGGREGATED_ON_DEVICE_BARCODE_DETECTION",
+    "AGGREGATED_ON_DEVICE_DOCUMENT_DETECT_PROCESS",
+    "AGGREGATED_ON_DEVICE_EXPLICIT_CONTENT_DETECTION",
+    "AGGREGATED_ON_DEVICE_FACE_DETECTION",
+    "AGGREGATED_ON_DEVICE_FACE_MESH_DETECTION"
+   ]
+  },
+  {
+   "dex": "classes6.dex",
+   "class": "Lq9/z5;",
+   "count": 54,
+   "sample": [
+    "AGGREGATED_CUSTOM_IMAGE_LABEL_DETECTION",
+    "AGGREGATED_ON_DEVICE_BARCODE_DETECTION",
+    "AGGREGATED_ON_DEVICE_DOCUMENT_DETECT_PROCESS",
+    "AGGREGATED_ON_DEVICE_EXPLICIT_CONTENT_DETECTION",
+    "AGGREGATED_ON_DEVICE_FACE_DETECTION",
+    "AGGREGATED_ON_DEVICE_FACE_MESH_DETECTION"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lm9/l3;",
+   "count": 48,
+   "sample": [
+    "AGGREGATED_CUSTOM_IMAGE_LABEL_DETECTION",
+    "AGGREGATED_ON_DEVICE_BARCODE_DETECTION",
+    "AGGREGATED_ON_DEVICE_EXPLICIT_CONTENT_DETECTION",
+    "AGGREGATED_ON_DEVICE_FACE_DETECTION",
+    "AGGREGATED_ON_DEVICE_FACE_MESH_DETECTION",
+    "AGGREGATED_ON_DEVICE_IMAGE_LABEL_DETECTION"
+   ]
+  },
+  {
+   "dex": "classes6.dex",
+   "class": "Lorg/bouncycastle/pqc/jcajce/provider/Snova$Mappings;",
+   "count": 45,
+   "sample": [
+    "org.bouncycastle.pqc.jcajce.provider.snova.SignatureSpi$Base",
+    "org.bouncycastle.pqc.jcajce.provider.snova.SignatureSpi$SNOVA_24_5_4_ESK",
+    "org.bouncycastle.pqc.jcajce.provider.snova.SignatureSpi$SNOVA_24_5_4_SHAKE_ESK",
+    "org.bouncycastle.pqc.jcajce.provider.snova.SignatureSpi$SNOVA_24_5_4_SHAKE_SSK",
+    "org.bouncycastle.pqc.jcajce.provider.snova.SignatureSpi$SNOVA_24_5_4_SSK",
+    "org.bouncycastle.pqc.jcajce.provider.snova.SignatureSpi$SNOVA_24_5_5_ESK"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Ln9/u3;",
+   "count": 42,
+   "sample": [
+    "AGGREGATED_CUSTOM_IMAGE_LABEL_DETECTION",
+    "AGGREGATED_ON_DEVICE_BARCODE_DETECTION",
+    "AGGREGATED_ON_DEVICE_EXPLICIT_CONTENT_DETECTION",
+    "AGGREGATED_ON_DEVICE_FACE_DETECTION",
+    "AGGREGATED_ON_DEVICE_IMAGE_LABEL_DETECTION",
+    "AGGREGATED_ON_DEVICE_POSE_DETECTION"
+   ]
+  },
+  {
+   "dex": "classes6.dex",
+   "class": "Lorg/bouncycastle/pqc/jcajce/provider/XMSS$Mappings;",
+   "count": 38,
+   "sample": [
+    "Alg.Alias.Signature.",
+    "Alg.Alias.Signature.OID.",
+    "Alg.Alias.Signature.SHA256WITHXMSS",
+    "Alg.Alias.Signature.SHA256WITHXMSSMT",
+    "Alg.Alias.Signature.SHA512WITHXMSS",
+    "Alg.Alias.Signature.SHA512WITHXMSSMT"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/mlkit_vision_face_bundled/h2;",
+   "count": 33,
+   "sample": [
+    "aggregatedOnDeviceBarcodeDetectionLogEvent",
+    "aggregatedOnDeviceDocumentDetectionLogEvent",
+    "aggregatedOnDeviceFaceDetectionLogEvent",
+    "aggregatedOnDeviceImageLabelDetectionLogEvent",
+    "aggregatedOnDevicePoseDetectionLogEvent",
+    "aggregatedOnDeviceTextDetectionLogEvent"
+   ]
+  },
+  {
+   "dex": "classes6.dex",
+   "class": "Lcom/google/android/gms/internal/mlkit_vision_barcode/H2;",
+   "count": 33,
+   "sample": [
+    "aggregatedOnDeviceBarcodeDetectionLogEvent",
+    "aggregatedOnDeviceDocumentDetectionLogEvent",
+    "aggregatedOnDeviceFaceDetectionLogEvent",
+    "aggregatedOnDeviceImageLabelDetectionLogEvent",
+    "aggregatedOnDevicePoseDetectionLogEvent",
+    "aggregatedOnDeviceTextDetectionLogEvent"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lorg/bouncycastle/jcajce/provider/asymmetric/DSA$Mappings;",
+   "count": 29,
+   "sample": [
+    "Alg.Alias.Signature.",
+    "Alg.Alias.Signature.1.3.14.3.2.26with1.2.840.10040.4.1",
+    "Alg.Alias.Signature.1.3.14.3.2.26with1.2.840.10040.4.3",
+    "Alg.Alias.Signature.DSAWITHSHA1",
+    "Alg.Alias.Signature.DSAWithSHA1",
+    "Alg.Alias.Signature.DSAwithSHA1"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lm9/h1;",
+   "count": 28,
+   "sample": [
+    "aggregatedOnDeviceBarcodeDetectionLogEvent",
+    "aggregatedOnDeviceFaceDetectionLogEvent",
+    "aggregatedOnDeviceImageLabelDetectionLogEvent",
+    "aggregatedOnDevicePoseDetectionLogEvent",
+    "aggregatedOnDeviceTextDetectionLogEvent",
+    "barcodeDetectionOptionalModuleLogEvent"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Ln9/v1;",
+   "count": 26,
+   "sample": [
+    "aggregatedOnDeviceBarcodeDetectionLogEvent",
+    "aggregatedOnDeviceFaceDetectionLogEvent",
+    "aggregatedOnDeviceImageLabelDetectionLogEvent",
+    "aggregatedOnDevicePoseDetectionLogEvent",
+    "aggregatedOnDeviceTextDetectionLogEvent",
+    "barcodeDetectionOptionalModuleLogEvent"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lorg/bouncycastle/jcajce/provider/asymmetric/MLDSA$Mappings;",
+   "count": 17,
+   "sample": [
+    "Alg.Alias.Signature.MLDSA",
+    "Alg.Alias.Signature.MLDSA-CALCULATE-MU",
+    "Alg.Alias.Signature.MLDSA-EXTERNAL-MU",
+    "Alg.Alias.Signature.SHA512WITHMLDSA",
+    "Alg.Alias.Signature.SHA512WITHMLDSA44",
+    "Alg.Alias.Signature.SHA512WITHMLDSA65"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/R7;",
+   "count": 16,
+   "sample": [
+    "gads:ad_overlay:collect_cutout_info:enabled",
+    "gads:ad_overlay:delay_page_close_timeout_ms",
+    "gads:ad_overlay_info_parcel_memory_leak_fix",
+    "gads:ad_overlay_objects_map_retain_duration_seconds",
+    "gads:adoverlay:b68684796:sdk_int:lower_bound",
+    "gads:adoverlay:b68684796:sdk_int:upper_bound"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lorg/bouncycastle/jcajce/provider/asymmetric/ECGOST$Mappings;",
+   "count": 13,
+   "sample": [
+    "Alg.Alias.Signature.ECGOST-3410",
+    "Alg.Alias.Signature.ECGOST3410-2012-512",
+    "Alg.Alias.Signature.GOST-3410-2001",
+    "Alg.Alias.Signature.GOST-3410-2012-256",
+    "Alg.Alias.Signature.GOST-3410-2012-512",
+    "Alg.Alias.Signature.GOST3411WITHECGOST3410-2012-256"
+   ]
+  },
+  {
+   "dex": "classes6.dex",
+   "class": "Lcom/iap/ac/android/biz/common/ACManager;",
+   "count": 13,
+   "sample": [
+    "SecurityStorage clear key by v1",
+    "SecurityStorage clear key by v2",
+    "SecurityStorage delete key by v1",
+    "SecurityStorage delete key by v2",
+    "SecurityStorage fetch key by v1, key=",
+    "SecurityStorage fetch key by v2 is null, use v1 key is null, return null, key="
+   ]
+  },
+  {
+   "dex": "classes7.dex",
+   "class": "Lvn/ai/trueid/sdk/navigation/TrueIDV3;",
+   "count": 11,
+   "sample": [
+    "Device is Rooted",
+    "ERR_SECURITY_VAULT_INVALID",
+    "ERR_SECURITY_VAULT_MISSING",
+    "SDK does not support emulator",
+    "Security Environment Mismatch",
+    "Security Hook Detected"
+   ]
+  },
+  {
+   "dex": "classes.dex",
+   "class": "Lamcsetxek/dmayljy;",
+   "count": 10,
+   "sample": [
+    "For security reasons, the application does not allow simulated input.",
+    "The application is running in an insecure environment (hooking). Unauthorized malicious software may interfere with the application's execution thread to monitor or modify system behavior.",
+    "The device's bootloader has been unlocked and is no longer secure.",
+    "This application does not support running on virtual machines and emulators.",
+    "Thiết bị của bạn có vẻ đã bị bẻ khóa (root), điều này có thể ảnh hưởng đến tính bảo mật và ổn định. Vui lòng cài đặt lại phiên bản phần mềm gốc của điện thoại.",
+    "Thiết bị của bạn có vẻ đã bị can thiệp hệ thống (hook), điều này có thể ảnh hưởng đến tính bảo mật và ổn định. Vui lòng cài đặt lại phiên bản phần mềm gốc của điện thoại."
+   ]
+  },
+  {
+   "dex": "classes3.dex",
+   "class": "Lyydamachy/xqcntsk;",
+   "count": 10,
+   "sample": [
+    "For security reasons, the application does not allow simulated input.",
+    "The application is running in an insecure environment (hooking). Unauthorized malicious software may interfere with the application's execution thread to monitor or modify system behavior.",
+    "The device's bootloader has been unlocked and is no longer secure.",
+    "This application does not support running on virtual machines and emulators.",
+    "Thiết bị của bạn có vẻ đã bị bẻ khóa (root), điều này có thể ảnh hưởng đến tính bảo mật và ổn định. Vui lòng cài đặt lại phiên bản phần mềm gốc của điện thoại.",
+    "Thiết bị của bạn có vẻ đã bị can thiệp hệ thống (hook), điều này có thể ảnh hưởng đến tính bảo mật và ổn định. Vui lòng cài đặt lại phiên bản phần mềm gốc của điện thoại."
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/kc;",
+   "count": 10,
+   "sample": [
+    " signature",
+    " signature did not verify",
+    "Failed to parse signature record #",
+    "No APK Signature Scheme v2 block in APK Signing Block",
+    "No signatures found",
+    "No supported signatures found"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/play/core/splitinstall/internal/y;",
+   "count": 10,
+   "sample": [
+    " signature",
+    " signature did not verify",
+    "Failed to parse signature record #",
+    "No APK Signature Scheme v2 block in APK Signing Block",
+    "No signatures found",
+    "No supported signatures found"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lorg/bouncycastle/jcajce/provider/asymmetric/GOST$Mappings;",
+   "count": 9,
+   "sample": [
+    "Alg.Alias.Signature.",
+    "Alg.Alias.Signature.GOST-3410",
+    "Alg.Alias.Signature.GOST-3410-94",
+    "Alg.Alias.Signature.GOST3411/GOST3410",
+    "Alg.Alias.Signature.GOST3411WITHGOST3410",
+    "Alg.Alias.Signature.GOST3411WithGOST3410"
+   ]
+  },
+  {
+   "dex": "classes7.dex",
+   "class": "Lorg/bouncycastle/pqc/crypto/picnic/PicnicEngine;",
+   "count": 9,
+   "sample": [
+    ", signature invalid",
+    "Challenge does not match, signature invalid",
+    "Error couldn't deserialize signature (2)!",
+    "Error couldn't deserialize signature!",
+    "Failed to create signature",
+    "Failed to generate random tapes, signature verification will fail (but signature may actually be valid)"
+   ]
+  },
+  {
+   "dex": "classes.dex",
+   "class": "Lcom/alibaba/exthub/manifest/ExtHubMainfest;",
+   "count": 8,
+   "sample": [
+    "android-phone-mobilesdk-iot-security",
+    "com.alibaba.ariver.jsapi.security.OpenAuthExtension",
+    "com.alibaba.ariver.jsapi.security.TBAuthorizeBridge",
+    "com.alipay.android.iot.security.framework.SecurityExtension",
+    "com.alipay.mobile.exthub.RecordSecureBridgeExtension",
+    "iotSecurity"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/S9;",
+   "count": 8,
+   "sample": [
+    "A GMSG tried to close something that wasn't an overlay.",
+    "DefaultGmsgHandlers.ShowLMDOverlay",
+    "Failed to apply OverlayDisplayDismissRequest: missing appId and sessionToken.",
+    "Missing App Id, cannot show LMD Overlay without it",
+    "Missing parameters for LMD Overlay show request",
+    "Show native ad policy validator overlay."
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/mlkit/vision/face/internal/b;",
+   "count": 8,
+   "sample": [
+    "Failed to create thick face detector.",
+    "Failed to create thin face detector.",
+    "Failed to init face detector.",
+    "Failed to release face detector.",
+    "Failed to run face detector.",
+    "com.google.android.gms.vision.face.mlkit.FaceDetectorCreator"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lorg/bouncycastle/jcajce/provider/keystore/bcfks/BcFKSKeyStoreSpi;",
+   "count": 8,
+   "sample": [
+    "BCFKS KeyStore corrupted: signature calculation failed",
+    "BCFKS KeyStore storeData integrity algorithm does not match store integrity algorithm.",
+    "BCFKS KeyStore unable to recognize integrity check.",
+    "INTEGRITY_CHECK",
+    "certificate chain in key store signature not valid",
+    "error creating signature: "
+   ]
+  },
+  {
+   "dex": "classes6.dex",
+   "class": "Lcom/alibaba/ariver/integration/BaseManifest;",
+   "count": 8,
+   "sample": [
+    "com.alibaba.ariver.engine.api.security.EventSendInterceptorPoint",
+    "com.alibaba.ariver.jsapi.security.PermissionConfigExtension",
+    "com.alibaba.ariver.jsapi.security.ProgramSettingExtension",
+    "com.alibaba.ariver.jsapi.security.TBAuthorizeBridge",
+    "com.alibaba.ariver.jsapi.security.TBAuthorizeOpenSettingExtension",
+    "com.alibaba.ariver.tracedebug.extension.TraceDebugEngineExtension"
+   ]
+  },
+  {
+   "dex": "classes6.dex",
+   "class": "Lcom/alibaba/ariver/remotedebug/core/RemoteDebugController;",
+   "count": 8,
+   "sample": [
+    "?scene=tinyAppDebug&roleType=TINYAPP&roleId=",
+    "AriverRemoteDebug:RemoteDebugController",
+    "CMD:RECV_RENDER_DEBUG:",
+    "exitRemoteDebug.",
+    "generateRemoteDebugUrl getRemoteDebugUrlForDebug: ",
+    "handleRecvRenderDebug msgText is empty."
+   ]
+  },
+  {
+   "dex": "classes6.dex",
+   "class": "Lcom/google/android/gms/internal/mlkit_vision_barcode/P7;",
+   "count": 8,
+   "sample": [
+    "com.facebook.appevents.integrity.BlocklistEventsManager",
+    "com.facebook.appevents.integrity.IntegrityManager",
+    "com.facebook.appevents.integrity.MACARuleMatchingManager",
+    "com.facebook.appevents.integrity.ProtectedModeManager",
+    "com.facebook.appevents.integrity.RedactedEventsManager",
+    "com.facebook.appevents.integrity.SensitiveParamsManager"
+   ]
+  },
+  {
+   "dex": "classes.dex",
+   "class": "Landroidx/test/core/app/InstrumentationActivityInvoker$BootstrapActivity;",
+   "count": 7,
+   "sample": [
+    "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+    "androidx.test.core.app.InstrumentationActivityInvoker.BOOTSTRAP_ACTIVITY_RESULT_CODE_KEY",
+    "androidx.test.core.app.InstrumentationActivityInvoker.BOOTSTRAP_ACTIVITY_RESULT_DATA_KEY",
+    "androidx.test.core.app.InstrumentationActivityInvoker.BOOTSTRAP_ACTIVITY_RESULT_RECEIVED",
+    "androidx.test.core.app.InstrumentationActivityInvoker.FINISH_BOOTSTRAP_ACTIVITY",
+    "androidx.test.core.app.InstrumentationActivityInvoker.START_TARGET_ACTIVITY_INTENT_KEY"
+   ]
+  },
+  {
+   "dex": "classes.dex",
+   "class": "Lg4/b;",
+   "count": 7,
+   "sample": [
+    "AA failed due to signature failure",
+    "Security object issuer principal is different from embedded DS certificate issuer!",
+    "Security object serial number is different from embedded DS certificate serial number!",
+    "Signature checked",
+    "Signature failed",
+    "Signature incorrect"
+   ]
+  },
+  {
+   "dex": "classes.dex",
+   "class": "Ly2/a;",
+   "count": 7,
+   "sample": [
+    "DETECT_FRAGMENT_REUSE",
+    "DETECT_FRAGMENT_TAG_USAGE",
+    "DETECT_RETAIN_INSTANCE_USAGE",
+    "DETECT_SET_USER_VISIBLE_HINT",
+    "DETECT_TARGET_FRAGMENT_USAGE",
+    "DETECT_WRONG_FRAGMENT_CONTAINER"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lorg/bouncycastle/jcajce/provider/asymmetric/EdEC$Mappings;",
+   "count": 7,
+   "sample": [
+    "Alg.Alias.Signature",
+    "Signature.ED25519",
+    "Signature.ED448",
+    "Signature.EDDSA",
+    "org.bouncycastle.jcajce.provider.asymmetric.edec.SignatureSpi$Ed25519",
+    "org.bouncycastle.jcajce.provider.asymmetric.edec.SignatureSpi$Ed448"
+   ]
+  },
+  {
+   "dex": "classes.dex",
+   "class": "Lcom/alibaba/griver/GriverManifest;",
+   "count": 6,
+   "sample": [
+    "com.alibaba.ariver.engine.api.security.EventSendInterceptorPoint",
+    "com.alibaba.ariver.remotedebug.jsapi.RemoteDebugBridgeExtension",
+    "com.alibaba.ariver.remotedebug.jsapi.RemoteDebugViewBridgeExtension",
+    "com.alibaba.ariver.remotedebug.worker.CreateRemoteWorkerExtension",
+    "com.alibaba.griver.core.jsapi.security.SecureExtension",
+    "setEnableDebug"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/og;",
+   "count": 6,
+   "sample": [
+    "/bindPlayStoreOverlay",
+    "/closePlayStoreOverlay",
+    "/collapsePlayStoreOverlay",
+    "/expandPlayStoreOverlay",
+    "/instrument",
+    "/presentPlayStoreOverlay"
+   ]
+  }
+ ],
+ "pin_classes": [
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/s4;",
+   "count": 30,
+   "sample": [
+    "/bkPoQedf8H6er/z22s5Ugb2zQK/aJlVqqMiarhu0YY=",
+    "1hqMb526iXwDuGjyfOFzL8CpmWwTXgqej4g8gq9uBJ4=",
+    "3J/aaHdjwZnfPcJ4uTLf1waaNQZJXDmN6IGGhtRxrXI=",
+    "5EH0wgVOsOOfycPFtjiDLlWMUl1WsId7lt7tllT9vVA=",
+    "85J7Wr+LLVwpDfypFtzN1eoOiAfuTMa63SuSJgN9bwE=",
+    "A7tv2KK9I23pi5gqrDhkhgrz6cV3BFoHJTUga5I7vx4="
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/P4;",
+   "count": 10,
+   "sample": [
+    "/bkPoQedf8H6er/z22s5Ugb2zQK/aJlVqqMiarhu0YY=",
+    "3J/aaHdjwZnfPcJ4uTLf1waaNQZJXDmN6IGGhtRxrXI=",
+    "5EH0wgVOsOOfycPFtjiDLlWMUl1WsId7lt7tllT9vVA=",
+    "CXimWsgId9Q4NJ7Th/z0oZbD0fgxUqQs1m5HYkmnDaE=",
+    "KIfx7EUeWhnA+aC9P4Mk2uzmdiZwzAWUKm+DIiGxj24=",
+    "MRnsFh7aI+oC8kg1+amaEJuIrxjLkR8/37mSauK2nHU="
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/R4;",
+   "count": 4,
+   "sample": [
+    "K8GEBKnLvE9ILfJGB5b9krvXjFIAigM9H8Mu/ozNfRc=",
+    "XF2ECF8x32hNHbBL1ZweWW5YOt0QuzlbOpXni7lBWlc=",
+    "dvq2wU3xdgVVjZT9gC/0PMuBLs8WhmySJmrq8zzkkwM=",
+    "j+KOJWcuW5eAeYurIvI/WDWaxjjVmMhwZuok18XlZ7Q="
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/M4;",
+   "count": 2,
+   "sample": [
+    "A7tv2KK9I23pi5gqrDhkhgrz6cV3BFoHJTUga5I7vx4=",
+    "GJYSDgYrAgCxY14XYxunZiSr8dTk91g66tw4qbpYxV8="
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/F4;",
+   "count": 1,
+   "sample": [
+    "NXPtv44zmdtGcAoKWfDQv5BuqJ7K37WVaE+QdtFiH0c="
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/N4;",
+   "count": 1,
+   "sample": [
+    "bxwXOoEQUxH5XWh5SE6sIt1AlD2mR+aN5LSYX3ZGs5Q="
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/O4;",
+   "count": 1,
+   "sample": [
+    "iO2i4E5kKwgdMIyURHCZV/iLx1KtGqgpgsfiaMoXkaQ="
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/Q4;",
+   "count": 1,
+   "sample": [
+    "vyPJQ44Cs+DiV597MU4yHYF5mAH0rpjmfJE+rEowUe0="
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/S4;",
+   "count": 1,
+   "sample": [
+    "JlPicGd8nbcQ8ZbmhNqFQR3s817OLQa0+uauZ8OF17M="
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/U4;",
+   "count": 1,
+   "sample": [
+    "c80TveimhHTg47yq+ca1w6vXt+JXULmGO8Nz62+yMN8="
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/V4;",
+   "count": 1,
+   "sample": [
+    "dGJd9fIaxgnbA6Dc4nB6tFRdL3cXJ8ToAbabnjV7KZM="
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/W4;",
+   "count": 1,
+   "sample": [
+    "aH+LkkSrrb3t9z/9chsxYBmeH34qaSymsmB0IYlZ8kA="
+   ]
+  }
+ ],
+ "host_classes": [
+  {
+   "dex": "classes7.dex",
+   "class": "LWO/d;",
+   "count": 5,
+   "sample": [
+    "go.zalopay.vn",
+    "km.zalopay.vn",
+    "kmzalopay.onelink.me",
+    "onelink.zalopay.vn",
+    "zalopay.vn"
+   ]
+  },
+  {
+   "dex": "classes7.dex",
+   "class": "LaO/d;",
+   "count": 5,
+   "sample": [
+    "go.zalopay.vn",
+    "km.zalopay.vn",
+    "kmzalopay.onelink.me",
+    "onelink.zalopay.vn",
+    "zalopay.vn"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/u4;",
+   "count": 4,
+   "sample": [
+    ".doubleclick.net",
+    ".googleadservices.com",
+    ".googlesyndication.com",
+    "ad.doubleclick.net"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/internal/ads/T9;",
+   "count": 3,
+   "sample": [
+    ".doubleclick.net",
+    ".googleadservices.com",
+    ".googlesyndication.com"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lcom/alipay/multimedia/adjuster/config/CdnConfigItem;",
+   "count": 3,
+   "sample": [
+    "mdn.alipayobjects.com",
+    "tfs.alipayobjects.com",
+    "zos.alipayobjects.com"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lo8/j;",
+   "count": 3,
+   "sample": [
+    ".doubleclick.net",
+    ".googleadservices.com",
+    ".googlesyndication.com"
+   ]
+  },
+  {
+   "dex": "classes7.dex",
+   "class": "LWQ/t;",
+   "count": 3,
+   "sample": [
+    "mnap-director.zalopay.vn",
+    "oauth2.zalopay.vn",
+    "uudai.zalopay.vn"
+   ]
+  },
+  {
+   "dex": "classes7.dex",
+   "class": "Lgs/c;",
+   "count": 3,
+   "sample": [
+    "www.gotadi.com",
+    "www.tiki.vn",
+    "wwww.123phim.vn"
+   ]
+  },
+  {
+   "dex": "classes4.dex",
+   "class": "Lcom/google/android/gms/measurement/internal/z;",
+   "count": 2,
+   "sample": [
+    "app-measurement.com",
+    "google-analytics.com"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lcom/facebook/internal/a0;",
+   "count": 2,
+   "sample": [
+    ".facebook.com",
+    "facebook.com"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lcom/facebook/m;",
+   "count": 2,
+   "sample": [
+    "facebook.com",
+    "www.facebook.com"
+   ]
+  },
+  {
+   "dex": "classes5.dex",
+   "class": "Lcom/facebook/x;",
+   "count": 2,
+   "sample": [
+    "facebook.com",
+    "instagram.com"
+   ]
+  },
+  {
+   "dex": "classes6.dex",
+   "class": "Lcom/google/android/gms/internal/measurement/p3;",
+   "count": 2,
+   "sample": [
+    "app-measurement.com",
+    "google-analytics.com"
+   ]
+  },
+  {
+   "dex": "classes7.dex",
+   "class": "LOF/a;",
+   "count": 2,
+   "sample": [
+    "id.zalo.me",
+    "id.zaloapp.com"
+   ]
+  },
+  {
+   "dex": "classes7.dex",
+   "class": "LYx/a;",
+   "count": 2,
+   "sample": [
+    "mnap-director.zalopay.vn",
+    "uudai.zalopay.vn"
+   ]
+  },
+  {
+   "dex": "classes7.dex",
+   "class": "Lev/c;",
+   "count": 2,
+   "sample": [
+    "promotion.zalopay.vn",
+    "ticket.zalopay.vn"
+   ]
+  },
+  {
+   "dex": "classes7.dex",
+   "class": "Lvn/com/vng/zalopay/webview/widget/e;",
+   "count": 2,
+   "sample": [
+    "facebook.com",
+    "oauth.zaloapp.com"
+   ]
+  },
+  {
+   "dex": "classes19.dex",
+   "class": "LZp/b;",
+   "count": 2,
+   "sample": [
+    "mnap-director.zalopay.vn",
+    "oauth2.zalopay.vn"
+   ]
+  },
+  {
+   "dex": "classes19.dex",
+   "class": "Ldq/q;",
+   "count": 2,
+   "sample": [
+    "mnap-director.zalopay.vn",
+    "oauth2.zalopay.vn"
+   ]
+  },
+  {
+   "dex": "classes.dex",
+   "class": "Landroidx/media3/container/l;",
+   "count": 1,
+   "sample": [
+    "firebase-settings.crashlytics.com"
+   ]
+  }
+ ],
+ "totals": {
+  "classes_indexed": 25622,
+  "classes_with_security_literals": 1007,
+  "classes_with_spki_pins": 13,
+  "distinct_pin_literals": 32
+ }
+}

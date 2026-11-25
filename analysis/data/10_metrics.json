@@ -1,0 +1,211 @@
+{
+ "title": "ZaloPay 11.17.0 — Independent Static Reverse-Engineering Study",
+ "identity": {
+  "package": "vn.com.vng.zalopay",
+  "version": "11.17.0",
+  "version_code": "1102758",
+  "min_sdk": "26",
+  "target_sdk": "36",
+  "compile_sdk": "36"
+ },
+ "artefact": {
+  "xapk": 105580620,
+  "splits": 5,
+  "base_sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+  "total_zip_entries": 6162,
+  "uncompressed": 136395610,
+  "stored_entries": 532
+ },
+ "code": {
+  "dex_files": 19,
+  "classes": 60671,
+  "methods": 351248,
+  "fields": 304518,
+  "strings": 374276,
+  "obfuscated_class_ratio": 0.0213,
+  "mean_name_entropy": 1.838
+ },
+ "components": {
+  "activity": 200,
+  "activity-alias": 2,
+  "service": 34,
+  "receiver": 22,
+  "provider": 9
+ },
+ "permissions": 49,
+ "deep_links": 25,
+ "exported_permissionless": 22,
+ "native": {
+  "libs": 27,
+  "bytes": 57452124,
+  "obfuscated": 6,
+  "jni_export_total": 284
+ },
+ "ai_models": {
+  "tflite": 14,
+  "ncnn": 2,
+  "tflite_bytes": 10203704
+ },
+ "third_party": {
+  "sdk_families": 30,
+  "named_sdks": [
+   "Alipay SDK",
+   "AndroidX/Jetpack",
+   "Apache Commons / HttpClient",
+   "BouncyCastle / Tink / Conscrypt",
+   "Coil image loader",
+   "Dagger / javax.inject",
+   "Dexter permissions",
+   "FPT.AI eKYC / trueID",
+   "Facebook SDK",
+   "Glide image loader",
+   "Google Firebase / Play Services",
+   "Gson / org.json",
+   "JOSE/JWT stack",
+   "JetBrains annotations/compose compiler",
+   "Kotlin stdlib & coroutines",
+   "Lottie",
+   "ML Kit (barcode/OCR/face)",
+   "Material Components",
+   "Mobile attribution",
+   "OkHttp / Okio",
+   "Play Core",
+   "Retrofit",
+   "RxJava",
+   "SQLCipher",
+   "Serialization (proto/flatbuf/wire)",
+   "Square libraries (Moshi / LeakCanary / Wire)",
+   "VNPAY",
+   "Visa / Mastercard",
+   "ZXing / MLKit barcode",
+   "Zalo SDK / Zalo OAuth"
+  ],
+  "vendors": [
+   "Airbnb",
+   "Ant Group",
+   "Apache",
+   "AppsFlyer/Adjust",
+   "Card networks",
+   "Crypto",
+   "FPT",
+   "Google",
+   "Google/Square",
+   "JetBrains",
+   "Meta",
+   "OSS",
+   "OSS/Google",
+   "ReactiveX",
+   "Square",
+   "VNG",
+   "VNPAY",
+   "Zetetic"
+  ]
+ },
+ "security": {
+  "controls_verified": 13,
+  "vi_enforcement_messages": 5,
+  "controls": [
+   {
+    "id": "root",
+    "control": "Root / su binary detection",
+    "hits": 6
+   },
+   {
+    "id": "hook",
+    "control": "Runtime instrumentation (hook) detection",
+    "hits": 6
+   },
+   {
+    "id": "emulator",
+    "control": "Emulator / virtual-machine detection",
+    "hits": 17
+   },
+   {
+    "id": "debug",
+    "control": "Debugger & developer-mode detection",
+    "hits": 17
+   },
+   {
+    "id": "proxy",
+    "control": "Proxy / MITM detection",
+    "hits": 6
+   },
+   {
+    "id": "keyboard",
+    "control": "Untrusted-input-method (keyboard) detection",
+    "hits": 12
+   },
+   {
+    "id": "screen",
+    "control": "Screen-capture / overlay defense",
+    "hits": 3
+   },
+   {
+    "id": "integrity",
+    "control": "APK signature / tamper integrity",
+    "hits": 8
+   },
+   {
+    "id": "pinning",
+    "control": "Certificate pinning (TLS)",
+    "hits": 30
+   },
+   {
+    "id": "keystore",
+    "control": "Hardware-backed keystore / biometrics",
+    "hits": 48
+   },
+   {
+    "id": "attestation",
+    "control": "Platform attestation",
+    "hits": 50
+   },
+   {
+    "id": "db_encryption",
+    "control": "Database encryption at rest",
+    "hits": 57
+   },
+   {
+    "id": "sdk_security",
+    "control": "Vendor security SDK (SecurityGuard Lite)",
+    "hits": 25
+   }
+  ]
+ },
+ "resources": {
+  "arsc_packages": 13,
+  "strings": 2100,
+  "vietnamese": 1193,
+  "vector_drawables": 3435
+ },
+ "hosts": {
+  "distinct": 120,
+  "first_party": [
+   "api.zalopay.vn",
+   "bank-profile.zalopay.vn",
+   "bim.zalopay.vn",
+   "campaign.zalopay.com.vn",
+   "cps.zalopay.com.vn",
+   "dala2zoom.zalopay.vn",
+   "fin-installment.zalopay.vn",
+   "log.zalopay.com.vn",
+   "mmf-redemption.zalopay.vn",
+   "mnap-director.zalopay.vn",
+   "oauth2.zalopay.vn",
+   "onelink.zalopay.vn",
+   "openapi.zalopay.vn",
+   "partners.zalopay.vn",
+   "rdx.zalopay.vn",
+   "sapi.zalopay.vn",
+   "scard.zalopay.vn",
+   "scdn.zalopay.com.vn",
+   "simg.zalopay.com.vn",
+   "social.zalopay.vn",
+   "sse.zalopay.vn",
+   "support.zalopay.vn",
+   "token.zalopay.vn",
+   "upload-img.zalopay.vn"
+  ],
+  "first_party_count": 29
+ }
+}

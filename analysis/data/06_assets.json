@@ -1,0 +1,368 @@
+{
+ "file_count": 124,
+ "total_bytes": 30011044,
+ "largest": [
+  {
+   "path": "audience_network.dex",
+   "bytes": 4864036
+  },
+  {
+   "path": "android.1.zip",
+   "bytes": 3913966
+  },
+  {
+   "path": "custom_models/object_labeler.tflite",
+   "bytes": 3770391
+  },
+  {
+   "path": "FastestDet.ncnn.bin",
+   "bytes": 2420588
+  },
+  {
+   "path": "mlkit_odt_default_classifier/labeler_with_validation.tflite",
+   "bytes": 1706957
+  },
+  {
+   "path": "mlkit_odt_localizer/localizer_with_validation.tflite",
+   "bytes": 1254848
+  },
+  {
+   "path": "models_bundled/contours.tfl",
+   "bytes": 1124144
+  },
+  {
+   "path": "models_bundled/LMprec_600.emd",
+   "bytes": 1078354
+  },
+  {
+   "path": "config/miniapp_config.json",
+   "bytes": 883684
+  },
+  {
+   "path": "Griver/68687209_2.9.7.8.amr",
+   "bytes": 856974
+  },
+  {
+   "path": "fgcpkjvqe.dat",
+   "bytes": 776320
+  },
+  {
+   "path": "models_bundled/fssd_medium_8bit_v5.tflite",
+   "bytes": 613352
+  },
+  {
+   "path": "models_bundled/fssd_medium_8bit_gray_v5.tflite",
+   "bytes": 613080
+  },
+  {
+   "path": "taxi_splash_loading.json",
+   "bytes": 536057
+  },
+  {
+   "path": "mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+   "bytes": 390456
+  },
+  {
+   "path": "models_bundled/blazeface.tfl",
+   "bytes": 347928
+  },
+  {
+   "path": "mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+   "bytes": 340760
+  },
+  {
+   "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+   "bytes": 315520
+  },
+  {
+   "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+   "bytes": 309568
+  },
+  {
+   "path": "Griver/66666692_1.24.8.amr",
+   "bytes": 287535
+  },
+  {
+   "path": "mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+   "bytes": 276552
+  },
+  {
+   "path": "com/visa/cbp/74e13961eb6489ab-",
+   "bytes": 265304
+  },
+  {
+   "path": "models_bundled/fssd_25_8bit_v2.tflite",
+   "bytes": 232096
+  },
+  {
+   "path": "models_bundled/fssd_25_8bit_gray_v2.tflite",
+   "bytes": 231816
+  },
+  {
+   "path": "mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+   "bytes": 213880
+  }
+ ],
+ "by_kind": [
+  [
+   "json",
+   17
+  ],
+  [
+   "tflite",
+   14
+  ],
+  [
+   "ttf",
+   12
+  ],
+  [
+   "(none)",
+   11
+  ],
+  [
+   "binarypb",
+   10
+  ],
+  [
+   "png",
+   9
+  ],
+  [
+   "html",
+   8
+  ],
+  [
+   "js",
+   8
+  ],
+  [
+   "pb",
+   6
+  ],
+  [
+   "emd",
+   4
+  ],
+  [
+   "amr",
+   3
+  ],
+  [
+   "dat",
+   3
+  ],
+  [
+   "tfl",
+   2
+  ],
+  [
+   "fb",
+   2
+  ],
+  [
+   "bincfg",
+   2
+  ],
+  [
+   "txt",
+   2
+  ],
+  [
+   "dex",
+   1
+  ],
+  [
+   "zip",
+   1
+  ],
+  [
+   "bin",
+   1
+  ],
+  [
+   "lstm_model",
+   1
+  ],
+  [
+   "conv_model",
+   1
+  ],
+  [
+   "prof",
+   1
+  ],
+  [
+   "param",
+   1
+  ],
+  [
+   "profm",
+   1
+  ],
+  [
+   "pem",
+   1
+  ],
+  [
+   "public",
+   1
+  ],
+  [
+   "so",
+   1
+  ]
+ ],
+ "tflite_models": [
+  {
+   "path": "custom_models/object_labeler.tflite",
+   "bytes": 3770391,
+   "tflite_magic_ok": true,
+   "sha256": "9400671e04685f52"
+  },
+  {
+   "path": "mlkit_odt_default_classifier/labeler_with_validation.tflite",
+   "bytes": 1706957,
+   "tflite_magic_ok": true,
+   "sha256": "479cb95767462b2f"
+  },
+  {
+   "path": "mlkit_odt_localizer/localizer_with_validation.tflite",
+   "bytes": 1254848,
+   "tflite_magic_ok": true,
+   "sha256": "fb5e5188b03c3bc0"
+  },
+  {
+   "path": "models_bundled/fssd_medium_8bit_v5.tflite",
+   "bytes": 613352,
+   "tflite_magic_ok": true,
+   "sha256": "ae2fa78e29441438"
+  },
+  {
+   "path": "models_bundled/fssd_medium_8bit_gray_v5.tflite",
+   "bytes": 613080,
+   "tflite_magic_ok": true,
+   "sha256": "f0590874fd3a006c"
+  },
+  {
+   "path": "mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+   "bytes": 390456,
+   "tflite_magic_ok": true,
+   "sha256": "6c7b209f4256ca45"
+  },
+  {
+   "path": "mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+   "bytes": 340760,
+   "tflite_magic_ok": true,
+   "sha256": "eb811a1290738f13"
+  },
+  {
+   "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+   "bytes": 315520,
+   "tflite_magic_ok": true,
+   "sha256": "7f931f6f7c1dd0ec"
+  },
+  {
+   "path": "mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+   "bytes": 276552,
+   "tflite_magic_ok": true,
+   "sha256": "981c89dcca6aac10"
+  },
+  {
+   "path": "models_bundled/fssd_25_8bit_v2.tflite",
+   "bytes": 232096,
+   "tflite_magic_ok": true,
+   "sha256": "d8abae91b0e0af52"
+  },
+  {
+   "path": "models_bundled/fssd_25_8bit_gray_v2.tflite",
+   "bytes": 231816,
+   "tflite_magic_ok": true,
+   "sha256": "57dc1f2a3b9c0c5d"
+  },
+  {
+   "path": "mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+   "bytes": 213880,
+   "tflite_magic_ok": true,
+   "sha256": "8e07cd3b38da1ded"
+  },
+  {
+   "path": "mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+   "bytes": 129612,
+   "tflite_magic_ok": true,
+   "sha256": "ecda697ed244c576"
+  },
+  {
+   "path": "mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+   "bytes": 114384,
+   "tflite_magic_ok": true,
+   "sha256": "f42197e656972c33"
+  }
+ ],
+ "ncnn_models": [
+  {
+   "path": "FastestDet.ncnn.bin",
+   "bytes": 2420588
+  },
+  {
+   "path": "FastestDet.ncnn.param",
+   "bytes": 15293
+  }
+ ],
+ "griver_bundles": [
+  {
+   "path": "Griver/68687209_2.9.7.8.amr",
+   "bytes": 856974,
+   "error": "ReadError(\"file could not be opened successfully:\\n- method gz: ReadError('not a gzip file')\\n- method bz2: ReadError('n"
+  },
+  {
+   "path": "Griver/66666692_1.24.8.amr",
+   "bytes": 287535,
+   "error": "ReadError(\"file could not be opened successfully:\\n- method gz: ReadError('not a gzip file')\\n- method bz2: ReadError('n"
+  },
+  {
+   "path": "Griver/66666693_2.0.7.amr",
+   "bytes": 17380,
+   "error": "ReadError(\"file could not be opened successfully:\\n- method gz: ReadError('not a gzip file')\\n- method bz2: ReadError('n"
+  }
+ ],
+ "opaque_blobs": [
+  {
+   "path": "FastestDet.ncnn.bin",
+   "bytes": 2420588,
+   "head_hex": "476b30018e28cd281a28b628ca28ba27",
+   "printable_ratio": 0.56
+  },
+  {
+   "path": "fgcpkjvqe.dat",
+   "bytes": 776320,
+   "head_hex": "a6eb0ca49c7510a63d179733bdf2afd8",
+   "printable_ratio": 0.19
+  },
+  {
+   "path": "mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+   "bytes": 153000,
+   "head_hex": "0da8aaaa3c0dacaaaa3c0daaaaaa3c0d",
+   "printable_ratio": 0.19
+  },
+  {
+   "path": "taibmcf.dat",
+   "bytes": 8307,
+   "head_hex": "3b0d47fc99267516b71214dbc03fdf8f",
+   "printable_ratio": 0.31
+  },
+  {
+   "path": "mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/assets.extra/LabelMap.pb",
+   "bytes": 3809,
+   "head_hex": "0a030a01200a050a012110010a050a01",
+   "printable_ratio": 0.12
+  }
+ ],
+ "bundled_dex": [
+  {
+   "path": "audience_network.dex",
+   "bytes": 4864036,
+   "dex_magic": true
+  }
+ ]
+}
