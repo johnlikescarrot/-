@@ -251,11 +251,15 @@ export function pulse(t: number, a: number, b: number, fade = 0.45): number {
 export const lerp = (a: number, b: number, x: number) => a + (b - a) * x;
 
 export function fmtBytes(n: number): string {
-  if (n >= 1e9) return `${(n / 1e9).toFixed(2)} GB`;
-  if (n >= 1e6) return `${(n / 1e6).toFixed(2)} MB`;
-  if (n >= 1e3) return `${(n / 1e3).toFixed(1)} KB`;
+  const dec = (x: number, d: number) => x.toFixed(d).replace(".", ",");
+  if (n >= 1e9) return `${dec(n / 1e9, 2)} GB`;
+  if (n >= 1e6) return `${dec(n / 1e6, 2)} MB`;
+  if (n >= 1e3) return `${dec(n / 1e3, 1)} KB`;
   return `${n} B`;
 }
+
+/** Vietnamese percentage, comma decimal. */
+export const fmtPct = (x: number, d = 1) => `${x.toFixed(d).replace(".", ",")}%`;
 
 export const fmtInt = (n: number) => n.toLocaleString("en-US").replace(/,/g, " ");
 

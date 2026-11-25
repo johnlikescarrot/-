@@ -33,6 +33,7 @@ export const facts = (() => {
   const owners = s.host_owners.filter(([, v]) => v > 0);
   return {
     /** container */
+    xapkBytes: p.container.inner.bytes,
     containerBytes: p.container.bytes,
     containerSha: p.container.sha256,
     xapkSha: p.container.inner.sha256,
@@ -90,6 +91,16 @@ export const facts = (() => {
     protectorBytes: n.totals.protector_bytes,
     biggestLib,
     libsBySize: [...n.libs].sort((a, b) => b.size - a.size),
+
+    /** hardening pass counts */
+    hard: {
+      pie: n.libs.filter((l) => l.pie).length,
+      nx: n.libs.filter((l) => l.nx).length,
+      relro: n.libs.filter((l) => l.relro === "full").length,
+      canary: n.libs.filter((l) => l.canary).length,
+      stripped: n.libs.filter((l) => l.stripped).length,
+      total: n.libs.length,
+    },
 
     /** network */
     urls: s.urls,
