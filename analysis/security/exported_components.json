@@ -1,0 +1,177 @@
+{
+  "activities": [
+    {
+      "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "com.facebook.CustomTabActivity",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "androidx.compose.ui.tooling.PreviewActivity",
+      "exported": "true",
+      "has_intent_filter": false,
+      "permission": ""
+    },
+    {
+      "name": "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+      "exported": "true",
+      "has_intent_filter": false,
+      "permission": ""
+    },
+    {
+      "name": "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+      "exported": "true",
+      "has_intent_filter": false,
+      "permission": ""
+    },
+    {
+      "name": "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+      "exported": "true",
+      "has_intent_filter": false,
+      "permission": ""
+    }
+  ],
+  "services": [
+    {
+      "name": "vn.com.vng.zalopay.notification.MyFcmListenerService",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": "android.permission.BIND_NFC_SERVICE"
+    },
+    {
+      "name": "androidx.glance.appwidget.GlanceRemoteViewsService",
+      "exported": "true",
+      "has_intent_filter": false,
+      "permission": "android.permission.BIND_REMOTEVIEWS"
+    },
+    {
+      "name": "androidx.work.impl.background.systemjob.SystemJobService",
+      "exported": "true",
+      "has_intent_filter": false,
+      "permission": "android.permission.BIND_JOB_SERVICE"
+    },
+    {
+      "name": "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": "android.permission.BIND_NFC_SERVICE"
+    },
+    {
+      "name": "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": "android.permission.BIND_NFC_SERVICE"
+    }
+  ],
+  "receivers": [
+    {
+      "name": "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": ""
+    },
+    {
+      "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": "com.google.android.c2dm.permission.SEND"
+    },
+    {
+      "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": "android.permission.DUMP"
+    },
+    {
+      "name": "androidx.profileinstaller.ProfileInstallReceiver",
+      "exported": "true",
+      "has_intent_filter": true,
+      "permission": "android.permission.DUMP"
+    }
+  ],
+  "providers": []
+}
