@@ -1,0 +1,549 @@
+{
+  "androidx_jetpack_versions": {
+    "total_version_files": 141,
+    "group_counts_top15": {
+      "androidx.lifecycle": 14,
+      "androidx.navigation": 11,
+      "androidx.compose.ui": 9,
+      "androidx.camera": 6,
+      "androidx.core": 5,
+      "kotlinx": 5,
+      "androidx.databinding": 4,
+      "com.google.dagger": 4,
+      "androidx.activity": 3,
+      "androidx.compose.material": 3,
+      "androidx.compose.runtime": 3,
+      "androidx.legacy": 3,
+      "androidx.paging": 3,
+      "androidx.sqlite": 3,
+      "androidx.work": 3
+    },
+    "jetpack_compose_versions": {
+      "androidx.activity_activity-compose": "1.9.3",
+      "androidx.compose.animation_animation-core": "1.7.2",
+      "androidx.compose.animation_animation": "1.7.2",
+      "androidx.compose.foundation_foundation-layout": "1.7.2",
+      "androidx.compose.foundation_foundation": "1.7.2",
+      "androidx.compose.material_material-icons-core": "1.6.0",
+      "androidx.compose.material_material-ripple": "1.6.0",
+      "androidx.compose.material_material": "1.6.0",
+      "androidx.compose.runtime_runtime-livedata": "1.7.2",
+      "androidx.compose.runtime_runtime-saveable": "1.7.2",
+      "androidx.compose.runtime_runtime": "1.7.2",
+      "androidx.compose.ui_ui-geometry": "1.7.2",
+      "androidx.compose.ui_ui-graphics": "1.7.2",
+      "androidx.compose.ui_ui-text": "1.7.2",
+      "androidx.compose.ui_ui-tooling-data": "1.7.2",
+      "androidx.compose.ui_ui-tooling-preview": "1.7.2",
+      "androidx.compose.ui_ui-tooling": "1.7.2",
+      "androidx.compose.ui_ui-unit": "1.7.2",
+      "androidx.compose.ui_ui-util": "1.7.2",
+      "androidx.compose.ui_ui": "1.7.2",
+      "androidx.constraintlayout_constraintlayout-compose": "1.1.1",
+      "androidx.lifecycle_lifecycle-runtime-compose": "2.8.7",
+      "androidx.lifecycle_lifecycle-viewmodel-compose": "2.8.7",
+      "androidx.navigation_navigation-compose": "2.8.3",
+      "androidx.paging_paging-compose": "3.2.1"
+    },
+    "camerax_versions": {
+      "androidx.camera_camera-camera2": "1.4.0",
+      "androidx.camera_camera-core": "1.4.0",
+      "androidx.camera_camera-extensions": "1.4.0",
+      "androidx.camera_camera-lifecycle": "1.4.0",
+      "androidx.camera_camera-video": "1.4.0",
+      "androidx.camera_camera-view": "1.4.0"
+    },
+    "all_versions": {
+      "androidx.activity_activity-compose": "1.9.3",
+      "androidx.activity_activity-ktx": "1.9.3",
+      "androidx.activity_activity": "1.9.3",
+      "androidx.annotation_annotation-experimental": "1.5.0",
+      "androidx.appcompat_appcompat-resources": "1.6.1",
+      "androidx.appcompat_appcompat": "1.6.1",
+      "androidx.arch.core_core-runtime": "task ':arch:core:core-runtime:writeVersionFile' property 'version'",
+      "androidx.asynclayoutinflater_asynclayoutinflater": "1.0.0",
+      "androidx.autofill_autofill": "1.0.0",
+      "androidx.biometric_biometric": "1.2.0-alpha05",
+      "androidx.browser_browser": "1.8.0",
+      "androidx.camera_camera-camera2": "1.4.0",
+      "androidx.camera_camera-core": "1.4.0",
+      "androidx.camera_camera-extensions": "1.4.0",
+      "androidx.camera_camera-lifecycle": "1.4.0",
+      "androidx.camera_camera-video": "1.4.0",
+      "androidx.camera_camera-view": "1.4.0",
+      "androidx.cardview_cardview": "1.0.0",
+      "androidx.compose.animation_animation-core": "1.7.2",
+      "androidx.compose.animation_animation": "1.7.2",
+      "androidx.compose.foundation_foundation-layout": "1.7.2",
+      "androidx.compose.foundation_foundation": "1.7.2",
+      "androidx.compose.material_material-icons-core": "1.6.0",
+      "androidx.compose.material_material-ripple": "1.6.0",
+      "androidx.compose.material_material": "1.6.0",
+      "androidx.compose.runtime_runtime-livedata": "1.7.2",
+      "androidx.compose.runtime_runtime-saveable": "1.7.2",
+      "androidx.compose.runtime_runtime": "1.7.2",
+      "androidx.compose.ui_ui-geometry": "1.7.2",
+      "androidx.compose.ui_ui-graphics": "1.7.2",
+      "androidx.compose.ui_ui-text": "1.7.2",
+      "androidx.compose.ui_ui-tooling-data": "1.7.2",
+      "androidx.compose.ui_ui-tooling-preview": "1.7.2",
+      "androidx.compose.ui_ui-tooling": "1.7.2",
+      "androidx.compose.ui_ui-unit": "1.7.2",
+      "androidx.compose.ui_ui-util": "1.7.2",
+      "androidx.compose.ui_ui": "1.7.2",
+      "androidx.constraintlayout_constraintlayout-compose": "1.1.1",
+      "androidx.coordinatorlayout_coordinatorlayout": "1.1.0",
+      "androidx.core_core-ktx": "1.16.0",
+      "androidx.core_core-remoteviews": "1.1.0",
+      "androidx.core_core-splashscreen": "1.0.0",
+      "androidx.core_core-viewtree": "1.0.0",
+      "androidx.core_core": "1.16.0",
+      "androidx.cursoradapter_cursoradapter": "1.0.0",
+      "androidx.customview_customview-poolingcontainer": "1.0.0",
+      "androidx.customview_customview": "1.1.0",
+      "androidx.databinding_baseAdapters": "8.12.3",
+      "androidx.databinding_databindingKtx": "8.12.3",
+      "androidx.databinding_library": "8.12.3",
+      "androidx.databinding_viewbinding": "8.12.3",
+      "androidx.datastore_datastore-preferences": "1.0.0",
+      "androidx.datastore_datastore": "1.0.0",
+      "androidx.documentfile_documentfile": "1.0.0",
+      "androidx.drawerlayout_drawerlayout": "1.1.1",
+      "androidx.dynamicanimation_dynamicanimation-ktx": "1.0.0-alpha03",
+      "androidx.dynamicanimation_dynamicanimation": "1.1.0-alpha03",
+      "androidx.emoji2_emoji2-views-helper": "1.3.0",
+      "androidx.emoji2_emoji2": "1.3.0",
+      "androidx.exifinterface_exifinterface": "1.3.6",
+      "androidx.fragment_fragment-ktx": "1.8.7",
+      "androidx.fragment_fragment": "1.8.7",
+      "androidx.glance_glance-appwidget": "1.1.1",
+      "androidx.glance_glance": "1.1.1",
+      "androidx.graphics_graphics-path": "1.0.1",
+      "androidx.interpolator_interpolator": "1.0.0",
+      "androidx.legacy_legacy-support-core-ui": "1.0.0",
+      "androidx.legacy_legacy-support-core-utils": "1.0.0",
+      "androidx.legacy_legacy-support-v4": "1.0.0",
+      "androidx.lifecycle_lifecycle-extensions": "2.1.0",
+      "androidx.lifecycle_lifecycle-livedata-core-ktx": "2.8.7",
+      "androidx.lifecycle_lifecycle-livedata-core": "2.8.7",
+      "androidx.lifecycle_lifecycle-livedata-ktx": "2.8.7",
+      "androidx.lifecycle_lifecycle-livedata": "2.8.7",
+      "androidx.lifecycle_lifecycle-process": "2.8.7",
+      "androidx.lifecycle_lifecycle-runtime-compose": "2.8.7",
+      "androidx.lifecycle_lifecycle-runtime-ktx": "2.8.7",
+      "androidx.lifecycle_lifecycle-runtime": "2.8.7",
+      "androidx.lifecycle_lifecycle-service": "2.8.7",
+      "androidx.lifecycle_lifecycle-viewmodel-compose": "2.8.7",
+      "androidx.lifecycle_lifecycle-viewmodel-ktx": "2.8.7",
+      "androidx.lifecycle_lifecycle-viewmodel-savedstate": "2.8.7",
+      "androidx.lifecycle_lifecycle-viewmodel": "2.8.7",
+      "androidx.loader_loader": "1.0.0",
+      "androidx.localbroadcastmanager_localbroadcastmanager": "1.0.0",
+      "androidx.media_media": "1.0.0",
+      "androidx.navigation_navigation-common-ktx": "2.8.3",
+      "androidx.navigation_navigation-common": "2.8.3",
+      "androidx.navigation_navigation-compose": "2.8.3",
+      "androidx.navigation_navigation-dynamic-features-fragment": "2.8.3",
+      "androidx.navigation_navigation-dynamic-features-runtime": "2.8.3",
+      "androidx.navigation_navigation-fragment-ktx": "2.8.3",
+      "androidx.navigation_navigation-fragment": "2.8.3",
+      "androidx.navigation_navigation-runtime-ktx": "2.8.3",
+      "androidx.navigation_navigation-runtime": "2.8.3",
+      "androidx.navigation_navigation-ui-ktx": "2.8.3",
+      "androidx.navigation_navigation-ui": "2.8.3",
+      "androidx.paging_paging-compose": "3.2.1",
+      "androidx.paging_paging-runtime-ktx": "3.2.1",
+      "androidx.paging_paging-runtime": "3.2.1",
+      "androidx.palette_palette-ktx": "1.0.0",
+      "androidx.palette_palette": "1.0.0",
+      "androidx.print_print": "1.0.0",
+      "androidx.privacysandbox.ads_ads-adservices-java": "1.0.0-beta05",
+      "androidx.privacysandbox.ads_ads-adservices": "1.0.0-beta05",
+      "androidx.profileinstaller_profileinstaller": "1.3.1",
+      "androidx.recyclerview_recyclerview": "1.3.0",
+      "androidx.room_room-ktx": "2.8.4",
+      "androidx.room_room-runtime": "2.8.4",
+      "androidx.savedstate_savedstate-ktx": "1.2.1",
+      "androidx.savedstate_savedstate": "1.2.1",
+      "androidx.security_security-crypto": "1.1.0",
+      "androidx.slidingpanelayout_slidingpanelayout": "1.2.0",
+      "androidx.sqlite_sqlite-framework": "2.6.2",
+      "androidx.sqlite_sqlite-ktx": "2.6.2",
+      "androidx.sqlite_sqlite": "2.6.2",
+      "androidx.startup_startup-runtime": "1.2.0",
+      "androidx.swiperefreshlayout_swiperefreshlayout": "1.1.0",
+      "androidx.tracing_tracing-ktx": "1.2.0",
+      "androidx.tracing_tracing": "1.2.0",
+      "androidx.transition_transition": "1.4.1",
+      "androidx.vectordrawable_vectordrawable-animated": "1.1.0",
+      "androidx.vectordrawable_vectordrawable": "1.1.0",
+      "androidx.versionedparcelable_versionedparcelable": "1.1.1",
+      "androidx.viewpager2_viewpager2": "1.0.0",
+      "androidx.viewpager_viewpager": "1.0.0",
+      "androidx.webkit_webkit": "1.11.0-alpha02",
+      "androidx.window_window": "1.0.0",
+      "androidx.work_work-runtime-ktx": "2.7.1",
+      "androidx.work_work-runtime": "2.7.1",
+      "androidx.work_work-rxjava2": "2.7.1",
+      "com.google.android.material_material": "1.4.0",
+      "com.google.dagger_dagger-android-support": "2.59.2",
+      "com.google.dagger_dagger-android": "2.59.2",
+      "com.google.dagger_dagger-lint-aar": "2.59.2",
+      "com.google.dagger_dagger": "2.59.2",
+      "kotlinx_coroutines_android": "1.8.1",
+      "kotlinx_coroutines_core": "1.8.1",
+      "kotlinx_coroutines_play_services": "1.8.1",
+      "kotlinx_coroutines_reactive": "1.8.1",
+      "kotlinx_coroutines_rx2": "1.8.1"
+    }
+  },
+  "ml_vision_pipeline": {
+    "total_model_artifacts": 51,
+    "total_model_bytes": 19746112,
+    "by_engine": {
+      "Face Detection / Liveness / OpenCV LBF": {
+        "count": 15,
+        "bytes": 8056742
+      },
+      "Google ML Kit Object Detection & Custom TFLite": {
+        "count": 5,
+        "bytes": 6885218
+      },
+      "Tencent NCNN (FastestDet)": {
+        "count": 2,
+        "bytes": 2435881
+      },
+      "Google ML Kit OCR (GOCR / Taser / Aksara)": {
+        "count": 21,
+        "bytes": 1486803
+      },
+      "Google ML Kit Barcode SSD": {
+        "count": 3,
+        "bytes": 880888
+      },
+      "Other ML / Protobuf Metadata": {
+        "count": 5,
+        "bytes": 580
+      }
+    },
+    "largest_models": [
+      {
+        "path": "res/raw/lbfmodel.yaml",
+        "bytes": 3778896,
+        "engine": "Face Detection / Liveness / OpenCV LBF"
+      },
+      {
+        "path": "assets/custom_models/object_labeler.tflite",
+        "bytes": 3770391,
+        "engine": "Google ML Kit Object Detection & Custom TFLite"
+      },
+      {
+        "path": "assets/FastestDet.ncnn.bin",
+        "bytes": 2420588,
+        "engine": "Tencent NCNN (FastestDet)"
+      },
+      {
+        "path": "assets/mlkit_odt_default_classifier/labeler_with_validation.tflite",
+        "bytes": 1706957,
+        "engine": "Google ML Kit Object Detection & Custom TFLite"
+      },
+      {
+        "path": "assets/mlkit_odt_localizer/localizer_with_validation.tflite",
+        "bytes": 1254848,
+        "engine": "Google ML Kit Object Detection & Custom TFLite"
+      },
+      {
+        "path": "assets/models_bundled/contours.tfl",
+        "bytes": 1124144,
+        "engine": "Face Detection / Liveness / OpenCV LBF"
+      },
+      {
+        "path": "assets/models_bundled/LMprec_600.emd",
+        "bytes": 1078354,
+        "engine": "Face Detection / Liveness / OpenCV LBF"
+      },
+      {
+        "path": "assets/models_bundled/fssd_medium_8bit_v5.tflite",
+        "bytes": 613352,
+        "engine": "Face Detection / Liveness / OpenCV LBF"
+      },
+      {
+        "path": "assets/models_bundled/fssd_medium_8bit_gray_v5.tflite",
+        "bytes": 613080,
+        "engine": "Face Detection / Liveness / OpenCV LBF"
+      },
+      {
+        "path": "assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite",
+        "bytes": 390456,
+        "engine": "Google ML Kit Barcode SSD"
+      },
+      {
+        "path": "assets/models_bundled/blazeface.tfl",
+        "bytes": 347928,
+        "engine": "Face Detection / Liveness / OpenCV LBF"
+      },
+      {
+        "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+        "bytes": 340760,
+        "engine": "Google ML Kit OCR (GOCR / Taser / Aksara)"
+      },
+      {
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+        "bytes": 315520,
+        "engine": "Google ML Kit OCR (GOCR / Taser / Aksara)"
+      },
+      {
+        "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+        "bytes": 309568,
+        "engine": "Google ML Kit OCR (GOCR / Taser / Aksara)"
+      },
+      {
+        "path": "assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite",
+        "bytes": 276552,
+        "engine": "Google ML Kit Barcode SSD"
+      },
+      {
+        "path": "assets/models_bundled/fssd_25_8bit_v2.tflite",
+        "bytes": 232096,
+        "engine": "Face Detection / Liveness / OpenCV LBF"
+      },
+      {
+        "path": "assets/models_bundled/fssd_25_8bit_gray_v2.tflite",
+        "bytes": 231816,
+        "engine": "Face Detection / Liveness / OpenCV LBF"
+      },
+      {
+        "path": "assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite",
+        "bytes": 213880,
+        "engine": "Google ML Kit Barcode SSD"
+      },
+      {
+        "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.lstm_model",
+        "bytes": 161448,
+        "engine": "Google ML Kit OCR (GOCR / Taser / Aksara)"
+      },
+      {
+        "path": "assets/mlkit_odt_localizer/mobile_object_localizer_3_1_anchors.pb",
+        "bytes": 153000,
+        "engine": "Google ML Kit Object Detection & Custom TFLite"
+      }
+    ]
+  },
+  "hybrid_containers": {
+    "react_native_bundle": {
+      "bundle_bytes": 3613478,
+      "bundle_lines": 2358,
+      "detected_rn_version_hint": "2.5.2",
+      "__d_module_definitions_count": 2346,
+      "asset_node_modules_packages": {
+        "zalopaycomponents": 45,
+        "reactnativecheckbox": 7,
+        "reactnavigationstack": 6,
+        "miniapps": 6
+      },
+      "asset_feature_modules": {
+        "notifications": 108,
+        "transactionhistoryv2": 60,
+        "about": 41,
+        "clearingaccount": 27,
+        "registeronlinebanking": 15,
+        "components": 2
+      }
+    },
+    "griver_mini_programs": {
+      "griver_66666692_1.24.8": {
+        "manifest_xml_bytes": 133,
+        "cert_keys": [
+          "66666692.tar",
+          "Manifest.xml"
+        ],
+        "tar_file_count": 10,
+        "tar_total_bytes": 968941,
+        "tar_files": [
+          {
+            "path": "appx/af-appx.min.js",
+            "bytes": 501944
+          },
+          {
+            "path": "appx/af-appx.worker.min.js",
+            "bytes": 403620
+          },
+          {
+            "path": "appx/worker.min.js",
+            "bytes": 23363
+          },
+          {
+            "path": "appx/af-appx.min.css",
+            "bytes": 21912
+          },
+          {
+            "path": "appx/web-view.min.js",
+            "bytes": 9095
+          },
+          {
+            "path": "appx/es6-promise.min.js",
+            "bytes": 6367
+          },
+          {
+            "path": "appx/index.html",
+            "bytes": 1440
+          },
+          {
+            "path": "appx/security-patch.min.js",
+            "bytes": 731
+          },
+          {
+            "path": "bugme.cfg",
+            "bytes": 267
+          },
+          {
+            "path": "hpmfile.json",
+            "bytes": 202
+          }
+        ]
+      },
+      "griver_66666693_2.0.7": {
+        "manifest_xml_bytes": 132,
+        "cert_keys": [
+          "66666693.tar",
+          "Manifest.xml"
+        ],
+        "tar_file_count": 7,
+        "tar_total_bytes": 56382,
+        "tar_files": [
+          {
+            "path": "index.worker.js",
+            "bytes": 29252
+          },
+          {
+            "path": "index.js",
+            "bytes": 22462
+          },
+          {
+            "path": "index.html",
+            "bytes": 4439
+          },
+          {
+            "path": "appConfig.json",
+            "bytes": 134
+          },
+          {
+            "path": "manifest.json",
+            "bytes": 74
+          },
+          {
+            "path": "package.json",
+            "bytes": 19
+          },
+          {
+            "path": "api_permission",
+            "bytes": 2
+          }
+        ]
+      },
+      "griver_68687209_2.9.7.8": {
+        "manifest_xml_bytes": 134,
+        "cert_keys": [
+          "68687209.tar",
+          "Manifest.xml"
+        ],
+        "tar_file_count": 13,
+        "tar_total_bytes": 3292617,
+        "tar_files": [
+          {
+            "path": "appx-ng/af-appx.min.js",
+            "bytes": 1667588
+          },
+          {
+            "path": "appx-ng/af-appx.worker.min.js",
+            "bytes": 1371101
+          },
+          {
+            "path": "appx-ng/appx-portal.min.js",
+            "bytes": 61935
+          },
+          {
+            "path": "appx-ng/appx-portal.worker.min.js",
+            "bytes": 57703
+          },
+          {
+            "path": "appx-ng/af-appx.min.css",
+            "bytes": 52368
+          },
+          {
+            "path": "appx-ng/web-view.min.js",
+            "bytes": 39939
+          },
+          {
+            "path": "appx-ng/worker.min.js",
+            "bytes": 23646
+          },
+          {
+            "path": "appx-ng/es6-promise.min.js",
+            "bytes": 6367
+          },
+          {
+            "path": "appx-ng/appx-prerender.min.js",
+            "bytes": 6058
+          },
+          {
+            "path": "appx-ng/index.prerender.html",
+            "bytes": 3393
+          },
+          {
+            "path": "appx-ng/index.html",
+            "bytes": 1521
+          },
+          {
+            "path": "appx-ng/security-patch.min.js",
+            "bytes": 731
+          },
+          {
+            "path": "bugme.cfg",
+            "bytes": 267
+          }
+        ]
+      }
+    },
+    "miniapp_config_schema": {
+      "size_bytes": 883684,
+      "top_keys": [
+        "code",
+        "data",
+        "msg"
+      ],
+      "list_counts": {
+        "data": 373
+      }
+    }
+  },
+  "network_security_configs": [
+    {
+      "file": "res/xml/network_security_config.xml",
+      "cleartext_flags": [
+        "true",
+        "true"
+      ],
+      "domain_count": 1,
+      "domains_sample": [
+        "storage.googleapis.com"
+      ],
+      "pin_set_count": 0,
+      "pin_digest_count": 0
+    }
+  ],
+  "shield_dat_payloads": [
+    {
+      "path": "assets/bshield.dat",
+      "bytes": 929
+    },
+    {
+      "path": "assets/fgcpkjvqe.dat",
+      "bytes": 776320
+    },
+    {
+      "path": "assets/taibmcf.dat",
+      "bytes": 8307
+    }
+  ]
+}

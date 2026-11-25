@@ -1,0 +1,949 @@
+{
+  "manifests": {
+    "config.armeabi_v7a": {
+      "package": "vn.com.vng.zalopay",
+      "split": "config.armeabi_v7a",
+      "versionCode": "1102758",
+      "versionName": null,
+      "compileSdkVersion": null,
+      "compileSdkVersionCodename": null,
+      "minSdkVersion": null,
+      "targetSdkVersion": null,
+      "permissions_total": 0,
+      "permissions_by_category": {},
+      "permissions": [],
+      "custom_permissions": [],
+      "uses_features": [],
+      "queries_package_count": 0,
+      "queries_packages_sample": [],
+      "queries_intent_count": 0,
+      "application_security_flags": {
+        "name": null,
+        "allowBackup": null,
+        "debuggable": null,
+        "usesCleartextTraffic": null,
+        "networkSecurityConfig": null,
+        "largeHeap": null,
+        "extractNativeLibs": "true",
+        "requestLegacyExternalStorage": null,
+        "enableOnBackInvokedCallback": null
+      },
+      "component_summary": {
+        "activity": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "activity-alias": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "service": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "receiver": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "provider": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        }
+      },
+      "isolated_processes": [],
+      "deep_link_schemes": [],
+      "deep_link_hosts_count": 0,
+      "deep_link_hosts_sample": [],
+      "meta_data_count": 1,
+      "meta_data_prefixes": {
+        "com.android": 1
+      }
+    },
+    "config.en": {
+      "package": "vn.com.vng.zalopay",
+      "split": "config.en",
+      "versionCode": "1102758",
+      "versionName": null,
+      "compileSdkVersion": null,
+      "compileSdkVersionCodename": null,
+      "minSdkVersion": null,
+      "targetSdkVersion": null,
+      "permissions_total": 0,
+      "permissions_by_category": {},
+      "permissions": [],
+      "custom_permissions": [],
+      "uses_features": [],
+      "queries_package_count": 0,
+      "queries_packages_sample": [],
+      "queries_intent_count": 0,
+      "application_security_flags": {
+        "name": null,
+        "allowBackup": null,
+        "debuggable": null,
+        "usesCleartextTraffic": null,
+        "networkSecurityConfig": null,
+        "largeHeap": null,
+        "extractNativeLibs": "true",
+        "requestLegacyExternalStorage": null,
+        "enableOnBackInvokedCallback": null
+      },
+      "component_summary": {
+        "activity": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "activity-alias": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "service": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "receiver": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "provider": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        }
+      },
+      "isolated_processes": [],
+      "deep_link_schemes": [],
+      "deep_link_hosts_count": 0,
+      "deep_link_hosts_sample": [],
+      "meta_data_count": 1,
+      "meta_data_prefixes": {
+        "com.android": 1
+      }
+    },
+    "config.vi": {
+      "package": "vn.com.vng.zalopay",
+      "split": "config.vi",
+      "versionCode": "1102758",
+      "versionName": null,
+      "compileSdkVersion": null,
+      "compileSdkVersionCodename": null,
+      "minSdkVersion": null,
+      "targetSdkVersion": null,
+      "permissions_total": 0,
+      "permissions_by_category": {},
+      "permissions": [],
+      "custom_permissions": [],
+      "uses_features": [],
+      "queries_package_count": 0,
+      "queries_packages_sample": [],
+      "queries_intent_count": 0,
+      "application_security_flags": {
+        "name": null,
+        "allowBackup": null,
+        "debuggable": null,
+        "usesCleartextTraffic": null,
+        "networkSecurityConfig": null,
+        "largeHeap": null,
+        "extractNativeLibs": "true",
+        "requestLegacyExternalStorage": null,
+        "enableOnBackInvokedCallback": null
+      },
+      "component_summary": {
+        "activity": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "activity-alias": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "service": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "receiver": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "provider": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        }
+      },
+      "isolated_processes": [],
+      "deep_link_schemes": [],
+      "deep_link_hosts_count": 0,
+      "deep_link_hosts_sample": [],
+      "meta_data_count": 1,
+      "meta_data_prefixes": {
+        "com.android": 1
+      }
+    },
+    "config.xhdpi": {
+      "package": "vn.com.vng.zalopay",
+      "split": "config.xhdpi",
+      "versionCode": "1102758",
+      "versionName": null,
+      "compileSdkVersion": null,
+      "compileSdkVersionCodename": null,
+      "minSdkVersion": null,
+      "targetSdkVersion": null,
+      "permissions_total": 0,
+      "permissions_by_category": {},
+      "permissions": [],
+      "custom_permissions": [],
+      "uses_features": [],
+      "queries_package_count": 0,
+      "queries_packages_sample": [],
+      "queries_intent_count": 0,
+      "application_security_flags": {
+        "name": null,
+        "allowBackup": null,
+        "debuggable": null,
+        "usesCleartextTraffic": null,
+        "networkSecurityConfig": null,
+        "largeHeap": null,
+        "extractNativeLibs": "true",
+        "requestLegacyExternalStorage": null,
+        "enableOnBackInvokedCallback": null
+      },
+      "component_summary": {
+        "activity": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "activity-alias": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "service": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "receiver": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "provider": {
+          "total": 0,
+          "exported_true": 0,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        }
+      },
+      "isolated_processes": [],
+      "deep_link_schemes": [],
+      "deep_link_hosts_count": 0,
+      "deep_link_hosts_sample": [],
+      "meta_data_count": 1,
+      "meta_data_prefixes": {
+        "com.android": 1
+      }
+    },
+    "vn.com.vng.zalopay": {
+      "package": "vn.com.vng.zalopay",
+      "split": null,
+      "versionCode": "1102758",
+      "versionName": "11.17.0",
+      "compileSdkVersion": "36",
+      "compileSdkVersionCodename": "16",
+      "minSdkVersion": "26",
+      "targetSdkVersion": "36",
+      "permissions_total": 49,
+      "permissions_by_category": {
+        "dangerous": 14,
+        "normal": 10,
+        "sensitive_or_oem": 25
+      },
+      "permissions": [
+        {
+          "name": "android.permission.POST_NOTIFICATIONS",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.READ_CONTACTS",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.INTERNET",
+          "category": "normal"
+        },
+        {
+          "name": "android.permission.ACCESS_WIFI_STATE",
+          "category": "normal"
+        },
+        {
+          "name": "android.permission.ACCESS_NETWORK_STATE",
+          "category": "normal"
+        },
+        {
+          "name": "android.permission.READ_PHONE_STATE",
+          "category": "dangerous"
+        },
+        {
+          "name": "com.google.android.c2dm.permission.RECEIVE",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.WAKE_LOCK",
+          "category": "normal"
+        },
+        {
+          "name": "android.permission.NFC",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.READ_EXTERNAL_STORAGE",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.ACCESS_COARSE_LOCATION",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.ACCESS_FINE_LOCATION",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.USE_FINGERPRINT",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.WRITE_CALENDAR",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.READ_CALENDAR",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.USE_BIOMETRIC",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.RECORD_AUDIO",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.MODIFY_AUDIO_SETTINGS",
+          "category": "normal"
+        },
+        {
+          "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "com.android.launcher.permission.WRITE_SETTINGS",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "com.android.launcher.permission.READ_SETTINGS",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "com.bbk.launcher2.permission.READ_SETTINGS",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "com.bbk.launcher2.permission.WRITE_SETTINGS",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.QUERY_ALL_PACKAGES",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.CAMERA",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.VIBRATE",
+          "category": "normal"
+        },
+        {
+          "name": "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.CHANGE_WIFI_STATE",
+          "category": "normal"
+        },
+        {
+          "name": "android.permission.DETECT_SCREEN_CAPTURE",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "com.google.android.gms.permission.AD_ID",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+          "category": "normal"
+        },
+        {
+          "name": "com.android.vending.BILLING",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.FOREGROUND_SERVICE",
+          "category": "normal"
+        },
+        {
+          "name": "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.REORDER_TASKS",
+          "category": "normal"
+        },
+        {
+          "name": "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+          "category": "sensitive_or_oem"
+        },
+        {
+          "name": "android.permission.READ_BASIC_PHONE_STATE",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.WRITE_CONTACTS",
+          "category": "dangerous"
+        },
+        {
+          "name": "android.permission.READ_MEDIA_AUDIO",
+          "category": "dangerous"
+        }
+      ],
+      "custom_permissions": [
+        {
+          "name": "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "protectionLevel": "0x00000002"
+        }
+      ],
+      "uses_features": [
+        {
+          "name": "android.hardware.nfc",
+          "required": "false",
+          "glEsVersion": null
+        },
+        {
+          "name": "android.hardware.nfc.hce",
+          "required": "false",
+          "glEsVersion": null
+        },
+        {
+          "name": "android.hardware.location.gps",
+          "required": "false",
+          "glEsVersion": null
+        },
+        {
+          "name": "android.hardware.bluetooth_le",
+          "required": "false",
+          "glEsVersion": null
+        },
+        {
+          "name": "android.hardware.camera",
+          "required": "false",
+          "glEsVersion": null
+        },
+        {
+          "name": "android.hardware.camera.autofocus",
+          "required": "false",
+          "glEsVersion": null
+        },
+        {
+          "name": null,
+          "required": "true",
+          "glEsVersion": "0x00020000"
+        },
+        {
+          "name": "android.hardware.camera.any",
+          "required": null,
+          "glEsVersion": null
+        }
+      ],
+      "queries_package_count": 10,
+      "queries_packages_sample": [
+        "com.vnid",
+        "com.zing.zalo",
+        "com.facebook.katana",
+        "com.google.android.apps.maps",
+        "com.instagram.android",
+        "com.facebook.lite",
+        "com.samsung.android.mapsagent",
+        "com.xiaomi.mipicks",
+        "com.zing.zalo",
+        "com.vnid"
+      ],
+      "queries_intent_count": 17,
+      "application_security_flags": {
+        "name": "jwbmqnsll.xvndbxlk",
+        "allowBackup": "false",
+        "debuggable": null,
+        "usesCleartextTraffic": null,
+        "networkSecurityConfig": "@7F16000D",
+        "largeHeap": "true",
+        "extractNativeLibs": "true",
+        "requestLegacyExternalStorage": "true",
+        "enableOnBackInvokedCallback": "false"
+      },
+      "component_summary": {
+        "activity": {
+          "total": 200,
+          "exported_true": 14,
+          "exported_false": 29,
+          "permission_protected": 0,
+          "custom_process_isolated": 8
+        },
+        "activity-alias": {
+          "total": 2,
+          "exported_true": 2,
+          "exported_false": 0,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        },
+        "service": {
+          "total": 34,
+          "exported_true": 6,
+          "exported_false": 24,
+          "permission_protected": 9,
+          "custom_process_isolated": 8
+        },
+        "receiver": {
+          "total": 22,
+          "exported_true": 8,
+          "exported_false": 14,
+          "permission_protected": 3,
+          "custom_process_isolated": 0
+        },
+        "provider": {
+          "total": 9,
+          "exported_true": 0,
+          "exported_false": 9,
+          "permission_protected": 0,
+          "custom_process_isolated": 0
+        }
+      },
+      "isolated_processes": [
+        ":lite1",
+        ":lite2",
+        ":lite3",
+        ":lite4",
+        ":lite5",
+        ":taibmcf",
+        ":xcmzqsawpqoefcds"
+      ],
+      "deep_link_schemes": [
+        "fbconnect",
+        "https",
+        "tagmanager.c.vn.com.vng.zalopay",
+        "zalopay",
+        "zalopay-1",
+        "zalopay-vnpay",
+        "zalopay.api.v2"
+      ],
+      "deep_link_hosts_count": 20,
+      "deep_link_hosts_sample": [
+        "app",
+        "auth",
+        "backtoapp",
+        "backtologin",
+        "cashier",
+        "cct.vn.com.vng.zalopay",
+        "clearing",
+        "events",
+        "go.zalopay.vn",
+        "km.zalopay.vn",
+        "kmzalopay.onelink.me",
+        "launch",
+        "merchant",
+        "onelink.zalopay.vn",
+        "otp",
+        "pay",
+        "post",
+        "promotions",
+        "recoverpassword",
+        "zalopay.vn"
+      ],
+      "meta_data_count": 27,
+      "meta_data_prefixes": {
+        "com.google": 11,
+        "com.android": 6,
+        "com.facebook": 4,
+        "com.appsflyer": 1,
+        "AF_STORE": 1,
+        "appID": 1,
+        "asset_statements": 1,
+        "google_analytics_deferred_deep_link_enabled": 1,
+        "ariver_manifest": 1
+      }
+    }
+  },
+  "resources_arsc": {
+    "config.en": {
+      "arsc_size_bytes": 61984,
+      "string_pool_count": null,
+      "packages": {
+        "vn.com.vng.zalopay": {
+          "locales_count": 1,
+          "locales": [
+            "en"
+          ],
+          "default_types": []
+        }
+      }
+    },
+    "config.vi": {
+      "arsc_size_bytes": 75460,
+      "string_pool_count": null,
+      "packages": {
+        "vn.com.vng.zalopay": {
+          "locales_count": 1,
+          "locales": [
+            "vi"
+          ],
+          "default_types": []
+        }
+      }
+    },
+    "config.xhdpi": {
+      "arsc_size_bytes": 141056,
+      "string_pool_count": null,
+      "packages": {
+        "vn.com.vng.zalopay": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "dimen",
+            "drawable",
+            "public",
+            "style"
+          ]
+        },
+        "vn.com.vng.zalopay.login_v2": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "drawable",
+            "public"
+          ]
+        }
+      }
+    },
+    "vn.com.vng.zalopay": {
+      "arsc_size_bytes": 1802300,
+      "string_pool_count": null,
+      "packages": {
+        "vn.com.vng.zalopay": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "anim",
+            "animator",
+            "array",
+            "attr",
+            "bool",
+            "color",
+            "dimen",
+            "drawable",
+            "font",
+            "id",
+            "integer",
+            "interpolator",
+            "layout",
+            "menu",
+            "mipmap",
+            "navigation",
+            "plurals",
+            "public",
+            "raw",
+            "string",
+            "style",
+            "xml"
+          ]
+        },
+        "vn.com.vng.zalopay.changepin": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "id",
+            "layout",
+            "public",
+            "string",
+            "style"
+          ]
+        },
+        "vn.com.vng.zalopay.resetpin": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "drawable",
+            "id",
+            "layout",
+            "public",
+            "string",
+            "style"
+          ]
+        },
+        "vn.com.vng.zalopay.login_v2": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "anim",
+            "attr",
+            "color",
+            "dimen",
+            "drawable",
+            "id",
+            "layout",
+            "public",
+            "string",
+            "style"
+          ]
+        },
+        "vn.com.vng.zalopay.cashier": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "color",
+            "drawable",
+            "id",
+            "layout",
+            "public",
+            "raw",
+            "string",
+            "style"
+          ]
+        },
+        "vn.com.vng.zalopay.bank_binding": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "anim",
+            "array",
+            "attr",
+            "color",
+            "dimen",
+            "drawable",
+            "id",
+            "layout",
+            "navigation",
+            "public",
+            "string",
+            "style"
+          ]
+        },
+        "vn.com.vng.zalopay.updatephone": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "dimen",
+            "id",
+            "layout",
+            "public",
+            "string"
+          ]
+        },
+        "vn.com.vng.zalopay.cash_in": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "drawable",
+            "id",
+            "layout",
+            "navigation",
+            "public",
+            "string"
+          ]
+        },
+        "vn.com.vng.zalopay.resultpage": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "color",
+            "drawable",
+            "id",
+            "layout",
+            "public",
+            "raw",
+            "style"
+          ]
+        },
+        "vn.com.vng.zalopay.withdraw": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "drawable",
+            "id",
+            "layout",
+            "navigation",
+            "public",
+            "string"
+          ]
+        },
+        "vn.com.vng.zalopay.cashier_v3": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "drawable",
+            "id",
+            "layout",
+            "public",
+            "raw",
+            "string",
+            "style"
+          ]
+        },
+        "vn.com.vng.zalopay.result_page_v3": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "color",
+            "drawable",
+            "id",
+            "layout",
+            "public",
+            "raw",
+            "string",
+            "style"
+          ]
+        },
+        "vn.com.vng.zalopay.liveness": {
+          "locales_count": 1,
+          "locales": [
+            "default"
+          ],
+          "default_types": [
+            "drawable",
+            "public",
+            "string",
+            "style"
+          ]
+        }
+      }
+    }
+  }
+}

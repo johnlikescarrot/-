@@ -1,0 +1,1104 @@
+{
+  "rea_tool": "morluto/rea (rea-agents@6.10.1 / rea@6.7.0 CLI + MCP)",
+  "generated_at": "2026-11-25T14:59:57.276Z",
+  "containers": {
+    "outer_zip": {
+      "ok": true,
+      "evidence_id": "ev_caa9c5fe787127a7241d15a342900a1828187d447308a9cb9e3eec17bc829061",
+      "subject": {
+        "name": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+        "digest": {
+          "sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a"
+        },
+        "local_path": "/home/user/-/Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+        "format": "zip",
+        "architecture": null
+      },
+      "manifest_id": "agm_61f9ec4775a4ea4691c8332de3119c0e3ff2f63a671f33d6f6abeb352d2bd968",
+      "graph_sha256": "ea16954e38cdb560bce3601bac22e0802d6b076d99188b8e3bdec061ef8f68e4",
+      "node_count": 2,
+      "occurrence_count": 2,
+      "edge_count": 1,
+      "integrity_contradictions": [],
+      "coverage": {
+        "status": "complete-within-substeps",
+        "substeps_completed": 1,
+        "observations_retained": 1,
+        "observations_omitted": 0,
+        "hypotheses_retained": 0,
+        "hypotheses_omitted": 0,
+        "unexplored_branches_retained": 0,
+        "unexplored_branches_omitted": 0,
+        "next_probes_retained": 0,
+        "next_probes_omitted": 0
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+      ]
+    },
+    "xapk": {
+      "ok": true,
+      "evidence_id": "ev_117308d887bd5c298a744913f2cb1379850008be24aa012a54a4822c07870279",
+      "subject": {
+        "name": "Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk",
+        "digest": {
+          "sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d"
+        },
+        "local_path": "/home/user/-/tmp_work/zip_contents/Zalopay-Thanh+to#U00e1n+&+T#U00e0i+ch#U00ednh_11.17.0_APKPure.xapk",
+        "format": "zip",
+        "architecture": null
+      },
+      "manifest_id": "agm_cc05f31a1d47708979b6f61b141dd52e12a18b0cafecf7708002f740ea717b49",
+      "graph_sha256": "c1386e20d3fe0c789dec5b6903bd7f11de05b6454a5a2e1c7277d0e053b103f6",
+      "node_count": 8,
+      "occurrence_count": 8,
+      "edge_count": 7,
+      "integrity_contradictions": [],
+      "coverage": {
+        "status": "complete-within-substeps",
+        "substeps_completed": 1,
+        "observations_retained": 1,
+        "observations_omitted": 0,
+        "hypotheses_retained": 0,
+        "hypotheses_omitted": 0,
+        "unexplored_branches_retained": 0,
+        "unexplored_branches_omitted": 0,
+        "next_probes_retained": 0,
+        "next_probes_omitted": 0
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+      ]
+    },
+    "config.armeabi_v7a.apk": {
+      "ok": true,
+      "evidence_id": "ev_6fb4e02b6164a066b1371ad77aa3bfa75ae449f45d36e95bb0a1418425669cf7",
+      "subject": {
+        "name": "config.armeabi_v7a.apk",
+        "digest": {
+          "sha256": "456aa08f4fa2e3f952657519ccf0b3f89a22cf8af040312425e926355c01987b"
+        },
+        "local_path": "/home/user/-/tmp_work/xapk_contents/config.armeabi_v7a.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "manifest_id": "agm_d2a79bfa7092ff0513185865ff0c3f23902c484c3f93df93cb2be21bf2e0329c",
+      "graph_sha256": "1e9a6706fd8c26519c80b1a4f3592856a86da27cc819bac5e1dab35bff73cb38",
+      "node_count": 33,
+      "occurrence_count": 33,
+      "edge_count": 32,
+      "integrity_contradictions": [],
+      "coverage": {
+        "status": "complete-within-substeps",
+        "substeps_completed": 1,
+        "observations_retained": 1,
+        "observations_omitted": 0,
+        "hypotheses_retained": 0,
+        "hypotheses_omitted": 0,
+        "unexplored_branches_retained": 0,
+        "unexplored_branches_omitted": 0,
+        "next_probes_retained": 0,
+        "next_probes_omitted": 0
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+      ]
+    },
+    "config.en.apk": {
+      "ok": true,
+      "evidence_id": "ev_15ac8b74d4f5ad774227d970caaa679b4c7e53251b661024846d8e05066fec5a",
+      "subject": {
+        "name": "config.en.apk",
+        "digest": {
+          "sha256": "87699fda97e8a9be06583d9261689966d49a749569fbfa39092d09bd84f49942"
+        },
+        "local_path": "/home/user/-/tmp_work/xapk_contents/config.en.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "manifest_id": "agm_d662167aec269d8fde569934747c3e9543a0c4785bc6fadd42218e5b48085de3",
+      "graph_sha256": "db79fea24151d5bd5618cff8eb2bdddfc053d1bab762c5097e54af5cb2d9a290",
+      "node_count": 7,
+      "occurrence_count": 7,
+      "edge_count": 6,
+      "integrity_contradictions": [],
+      "coverage": {
+        "status": "complete-within-substeps",
+        "substeps_completed": 1,
+        "observations_retained": 1,
+        "observations_omitted": 0,
+        "hypotheses_retained": 0,
+        "hypotheses_omitted": 0,
+        "unexplored_branches_retained": 0,
+        "unexplored_branches_omitted": 0,
+        "next_probes_retained": 0,
+        "next_probes_omitted": 0
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+      ]
+    },
+    "config.vi.apk": {
+      "ok": true,
+      "evidence_id": "ev_34192a3b31cf10e67475b68a886adf63952497b95035055604fd9d374aeb19c7",
+      "subject": {
+        "name": "config.vi.apk",
+        "digest": {
+          "sha256": "985fc073b810b6286c116400a88e5552616a05fc57f8a5376599c8bfaa963e33"
+        },
+        "local_path": "/home/user/-/tmp_work/xapk_contents/config.vi.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "manifest_id": "agm_e97c818f234d43112accfde71a5baec691cd5c278d59c8b5cb0f0a54cd25c12c",
+      "graph_sha256": "1661bcf6c985cc0af8e8e70f75c00975883fc859a3f9206d078f740a60ef46b4",
+      "node_count": 7,
+      "occurrence_count": 7,
+      "edge_count": 6,
+      "integrity_contradictions": [],
+      "coverage": {
+        "status": "complete-within-substeps",
+        "substeps_completed": 1,
+        "observations_retained": 1,
+        "observations_omitted": 0,
+        "hypotheses_retained": 0,
+        "hypotheses_omitted": 0,
+        "unexplored_branches_retained": 0,
+        "unexplored_branches_omitted": 0,
+        "next_probes_retained": 0,
+        "next_probes_omitted": 0
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+      ]
+    },
+    "config.xhdpi.apk": {
+      "ok": true,
+      "evidence_id": "ev_4e4235a04f1733ba3eda46e7f1f58869ae82940be19355b42233041887550563",
+      "subject": {
+        "name": "config.xhdpi.apk",
+        "digest": {
+          "sha256": "f31350c3caed15099d2c2d325d88fef52268960ef66b1496eb099a19203aaa3b"
+        },
+        "local_path": "/home/user/-/tmp_work/xapk_contents/config.xhdpi.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "manifest_id": "agm_c4128071c2846c83e40c1ea2988d777b7101153f83983eee62c7b8ca369ecf6d",
+      "graph_sha256": "bbda086f7c7de4928193c60683e5169670d4c3377f37bf8cf6f9663eaec1316b",
+      "node_count": 256,
+      "occurrence_count": 259,
+      "edge_count": 258,
+      "integrity_contradictions": [],
+      "coverage": {
+        "status": "complete-within-substeps",
+        "substeps_completed": 1,
+        "observations_retained": 1,
+        "observations_omitted": 0,
+        "hypotheses_retained": 0,
+        "hypotheses_omitted": 0,
+        "unexplored_branches_retained": 0,
+        "unexplored_branches_omitted": 0,
+        "next_probes_retained": 0,
+        "next_probes_omitted": 0
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+      ]
+    },
+    "vn.com.vng.zalopay.apk": {
+      "ok": true,
+      "evidence_id": "ev_d059c3636982df775772c2c12fb33077c0c70da7e489e80f8d1abceac3b8b7cb",
+      "subject": {
+        "name": "vn.com.vng.zalopay.apk",
+        "digest": {
+          "sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03"
+        },
+        "local_path": "/home/user/-/tmp_work/xapk_contents/vn.com.vng.zalopay.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "manifest_id": "agm_25b2b62e7b4f175813c1a4ad96a7865d920ff1b8636e15acf80a80d54630bd24",
+      "graph_sha256": "5e4ccc029c6647345b08c3ca75826745f76dbbf4aca4fd50f616bc7f172c55e9",
+      "node_count": 5675,
+      "occurrence_count": 6163,
+      "edge_count": 6162,
+      "integrity_contradictions": [],
+      "coverage": {
+        "status": "complete-within-substeps",
+        "substeps_completed": 1,
+        "observations_retained": 1,
+        "observations_omitted": 0,
+        "hypotheses_retained": 0,
+        "hypotheses_omitted": 0,
+        "unexplored_branches_retained": 0,
+        "unexplored_branches_omitted": 0,
+        "next_probes_retained": 0,
+        "next_probes_omitted": 0
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+      ]
+    },
+    "apks/vn.com.vng.zalopay/assets/android.1.zip": {
+      "ok": true,
+      "evidence_id": "ev_fd755ba6181918c9e78a8c20228ba66f251365a4b61e4ddb71bc10a1f0d99102",
+      "subject": {
+        "name": "android.1.zip",
+        "digest": {
+          "sha256": "e5358e94d6938eb1502857a78dfdb6fae7095e6859103abad9017127cd82cbda"
+        },
+        "local_path": "/home/user/-/tmp_work/apks/vn.com.vng.zalopay/assets/android.1.zip",
+        "format": "zip",
+        "architecture": null
+      },
+      "manifest_id": "agm_7c659263c6d353be7913a167de981b6dda4379b8f00d2c0b75854b7dc06c44aa",
+      "graph_sha256": "23a82d6383a92affee7b71834a04ba8f95bcf2a85e69e66565b0a48bff572b00",
+      "node_count": 315,
+      "occurrence_count": 327,
+      "edge_count": 326,
+      "integrity_contradictions": [],
+      "coverage": {
+        "status": "complete-within-substeps",
+        "substeps_completed": 1,
+        "observations_retained": 1,
+        "observations_omitted": 0,
+        "hypotheses_retained": 0,
+        "hypotheses_omitted": 0,
+        "unexplored_branches_retained": 0,
+        "unexplored_branches_omitted": 0,
+        "next_probes_retained": 0,
+        "next_probes_omitted": 0
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+      ]
+    },
+    "apks/vn.com.vng.zalopay/assets/Griver/66666692_1.24.8.amr": {
+      "ok": true,
+      "evidence_id": "ev_1129efb9c0c2a20337d695215f1a9f71348b4c4a667be5f0fd89837fd754330e",
+      "subject": {
+        "name": "66666692_1.24.8.amr",
+        "digest": {
+          "sha256": "02b7cf32e5e71d62667ed8bcc24c9c2c4eb7e644f49e487fd06e1cba19290e31"
+        },
+        "local_path": "/home/user/-/tmp_work/apks/vn.com.vng.zalopay/assets/Griver/66666692_1.24.8.amr",
+        "format": "zip",
+        "architecture": null
+      },
+      "manifest_id": "agm_050a30617c90d8da8588fddec2a0d104cb222b5c9d6b5d01179cf9d527659dbb",
+      "graph_sha256": "09575a6dc3a5f9f9c561564a71bed26f26e9e7319d94998d9cb9115d448e395d",
+      "node_count": 4,
+      "occurrence_count": 4,
+      "edge_count": 3,
+      "integrity_contradictions": [],
+      "coverage": {
+        "status": "complete-within-substeps",
+        "substeps_completed": 1,
+        "observations_retained": 1,
+        "observations_omitted": 0,
+        "hypotheses_retained": 0,
+        "hypotheses_omitted": 0,
+        "unexplored_branches_retained": 0,
+        "unexplored_branches_omitted": 0,
+        "next_probes_retained": 0,
+        "next_probes_omitted": 0
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+      ]
+    },
+    "apks/vn.com.vng.zalopay/assets/Griver/66666693_2.0.7.amr": {
+      "ok": true,
+      "evidence_id": "ev_8cc74d86b6a67eaf60e76f1e46d1f48eaff7929f0370a5e46913934a659b4188",
+      "subject": {
+        "name": "66666693_2.0.7.amr",
+        "digest": {
+          "sha256": "212c15df244230e33b820b2b831b7c05b2a4a0ffcf9d878495598294e7451127"
+        },
+        "local_path": "/home/user/-/tmp_work/apks/vn.com.vng.zalopay/assets/Griver/66666693_2.0.7.amr",
+        "format": "zip",
+        "architecture": null
+      },
+      "manifest_id": "agm_55541b7cff677215ceb4e420cbd0c00c808a4a7ede83987e63d72014eb219a19",
+      "graph_sha256": "0171b15e0cec470acbf96223984656e065366c022352810825bd5a8731991b0f",
+      "node_count": 4,
+      "occurrence_count": 4,
+      "edge_count": 3,
+      "integrity_contradictions": [],
+      "coverage": {
+        "status": "complete-within-substeps",
+        "substeps_completed": 1,
+        "observations_retained": 1,
+        "observations_omitted": 0,
+        "hypotheses_retained": 0,
+        "hypotheses_omitted": 0,
+        "unexplored_branches_retained": 0,
+        "unexplored_branches_omitted": 0,
+        "next_probes_retained": 0,
+        "next_probes_omitted": 0
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+      ]
+    },
+    "apks/vn.com.vng.zalopay/assets/Griver/68687209_2.9.7.8.amr": {
+      "ok": true,
+      "evidence_id": "ev_9b39e61ea32b9a1540f5ab18670ee23d064c2e4abd393e75a7eabe26047418f8",
+      "subject": {
+        "name": "68687209_2.9.7.8.amr",
+        "digest": {
+          "sha256": "3e67a09c8d76338cebf8cd495adbf72f26f5aecb7362e4ace4ce5dd6d0c2ad22"
+        },
+        "local_path": "/home/user/-/tmp_work/apks/vn.com.vng.zalopay/assets/Griver/68687209_2.9.7.8.amr",
+        "format": "zip",
+        "architecture": null
+      },
+      "manifest_id": "agm_82d7318842d812b2b42464d52483532732e2abbf05f4d1631a991f84c0e83c20",
+      "graph_sha256": "d2d18f19f10d585bb7cdcda7312621c32a9a096bfd03c81fbc077b9d8b697168",
+      "node_count": 4,
+      "occurrence_count": 4,
+      "edge_count": 3,
+      "integrity_contradictions": [],
+      "coverage": {
+        "status": "complete-within-substeps",
+        "substeps_completed": 1,
+        "observations_retained": 1,
+        "observations_omitted": 0,
+        "hypotheses_retained": 0,
+        "hypotheses_omitted": 0,
+        "unexplored_branches_retained": 0,
+        "unexplored_branches_omitted": 0,
+        "next_probes_retained": 0,
+        "next_probes_omitted": 0
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+      ]
+    },
+    "nested/griver_66666692_1.24.8/66666692.tar": {
+      "ok": false,
+      "error": "Command failed: /home/user/-/node_modules/.bin/rea inspect-artifact /home/user/-/tmp_work/nested/griver_66666692_1.24.8/66666692.tar --format json\n"
+    },
+    "nested/griver_66666693_2.0.7/66666693.tar": {
+      "ok": false,
+      "error": "Command failed: /home/user/-/node_modules/.bin/rea inspect-artifact /home/user/-/tmp_work/nested/griver_66666693_2.0.7/66666693.tar --format json\n"
+    },
+    "nested/griver_68687209_2.9.7.8/68687209.tar": {
+      "ok": false,
+      "error": "Command failed: /home/user/-/node_modules/.bin/rea inspect-artifact /home/user/-/tmp_work/nested/griver_68687209_2.9.7.8/68687209.tar --format json\n"
+    }
+  },
+  "flutter_checks": {
+    "config.armeabi_v7a.apk": {
+      "evidence_id": "ev_c77f2bdf3dae3c9d613dc5d7bc00baa2bb277e8cccff7af8c082eaf248224699",
+      "flutter_detected": false,
+      "abis": []
+    },
+    "config.en.apk": {
+      "evidence_id": "ev_4db80179253391bf7f5ef62999c2b9fdc7c894c270ce6ff59265de6bafb80adc",
+      "flutter_detected": false,
+      "abis": []
+    },
+    "config.vi.apk": {
+      "evidence_id": "ev_72c4ada14acded15b540d5295b6c5f249f37e88a6d314019260ab534ac857483",
+      "flutter_detected": false,
+      "abis": []
+    },
+    "config.xhdpi.apk": {
+      "evidence_id": "ev_f14e8a16af0c3dc64101b6d83959223097d5f0059baa3c8f63541145973df23c",
+      "flutter_detected": false,
+      "abis": []
+    },
+    "vn.com.vng.zalopay.apk": {
+      "evidence_id": "ev_9dac24d42334976684e75771581eb3525bc4c626255465bb3e24582dcc84e6e9",
+      "flutter_detected": false,
+      "abis": []
+    }
+  },
+  "javascript_applications": {
+    "assets/GriverBridge": {
+      "ok": true,
+      "mode": "complete",
+      "evidence_id": "ev_6ef36715fdcad1b3906ae48e91042c9619e44f73cb2022a75519d79f90559a3a",
+      "input_path": "/home/user/-/tmp_work/apks/vn.com.vng.zalopay/assets/GriverBridge",
+      "root_artifact_sha256": "e793c549756e389938bb08b83b8a407860798b8d6149f0cb293ae2eceb9d19d1",
+      "inventory_graph_sha256": "22c51d048bb218de8f0a97ec5c77c638df7201aee1d4b1323b6654c50be70211",
+      "total_nodes": 16,
+      "total_edges": 16,
+      "node_kind_counts": {
+        "javascript-asset": 4,
+        "unknown": 3,
+        "artifact": 4,
+        "javascript-module": 4,
+        "electron-renderer": 1
+      },
+      "edge_kind_counts": {
+        "contains": 15,
+        "maps_to": 1
+      },
+      "semantic_families": [],
+      "sample_assets": [
+        {
+          "kind": "javascript-asset",
+          "label": "appx_inline_bootstrap_min.js",
+          "bytes": 292
+        },
+        {
+          "kind": "javascript-asset",
+          "label": "workerjs.js",
+          "bytes": 14360
+        },
+        {
+          "kind": "javascript-asset",
+          "label": "cover_component.js",
+          "bytes": 2888
+        },
+        {
+          "kind": "javascript-asset",
+          "label": "h5_bridge.js",
+          "bytes": 4446
+        }
+      ],
+      "limitations": [
+        "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+        "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+        "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+        "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+        "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+        "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+        "create_worker.html has 1 inline JavaScript body starting at line 5 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+        "index_inline.html has 1 inline JavaScript body starting at line 16 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+        "worker.html has 1 inline JavaScript body starting at line 4 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence."
+      ]
+    },
+    "assets/android.1.zip (React Native Bundle)": {
+      "ok": true,
+      "mode": "summary",
+      "evidence_id": "ev_f9b589407e6ac9d27c15d167d489bfb08448cb774006de2804d8d54b5ffa4eb2",
+      "normalized_result": {
+        "kind": "summary",
+        "view": {
+          "kind": "summary"
+        },
+        "parent_evidence_id": "ev_48ce0669114e5056d6ed2956824e10e4516004cbc636746fae76f2e2c5ae8bb9",
+        "parent_operation": "analyze_javascript_application",
+        "parent_digest": "48ce0669114e5056d6ed2956824e10e4516004cbc636746fae76f2e2c5ae8bb9",
+        "view_digest": "3f4ca7b3e14eb2bec3c1a076ac2afef8cd894f87bd214d29bfd28aec1e0c328f",
+        "artifact": {
+          "path": "/home/user/-/tmp_work/nested/android_1_zip",
+          "sha256": "68d9bfb574c34df208382203bf0ace4de4c69f3f4e324a27f0573b9269d1c7b0"
+        },
+        "coverage": {
+          "status": "complete-within-view",
+          "examined": 0,
+          "total": 1,
+          "next_offset": null,
+          "exhausted": true
+        },
+        "limitations": [
+          "Boundary extraction covers unshadowed JSON/global coercions plus parse and validation method candidates.",
+          "Child-process extraction covers asynchronous node:child_process creation, literal argv/env/stdio options, exit/error listeners, and kill signals.",
+          "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+          "Configuration extraction covers process.env, process.argv, node:fs reads, and direct logical defaults.",
+          "Event extraction covers EventEmitter-style literal registrations, removals, and dispatch candidates; dynamic names remain unknown.",
+          "Function fingerprints are static candidates; equal digests can remain ambiguous and do not prove behavioral equivalence.",
+          "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+          "Local data flow does not claim control-flow-sensitive reaching definitions or arbitrary dynamic property resolution.",
+          "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+          "Request extraction covers fetch, WebSocket, node:http/node:https construction, direct option fields, and exact local response consumers.",
+          "Resource extraction covers built-in filesystem/network acquisition and exact local close/destroy/end handles.",
+          "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+          "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+          "The semantic graph contains static syntax observations and conservative relationship candidates; it does not claim runtime execution.",
+          "Timer extraction covers global or node:timers scheduling and exact local-handle cancellation.",
+          "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+        ],
+        "unknowns": [
+          "Boundary extraction covers unshadowed JSON/global coercions plus parse and validation method candidates.",
+          "Child-process extraction covers asynchronous node:child_process creation, literal argv/env/stdio options, exit/error listeners, and kill signals.",
+          "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+          "Configuration extraction covers process.env, process.argv, node:fs reads, and direct logical defaults.",
+          "Event extraction covers EventEmitter-style literal registrations, removals, and dispatch candidates; dynamic names remain unknown.",
+          "Function fingerprints are static candidates; equal digests can remain ambiguous and do not prove behavioral equivalence.",
+          "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+          "Local data flow does not claim control-flow-sensitive reaching definitions or arbitrary dynamic property resolution.",
+          "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+          "Request extraction covers fetch, WebSocket, node:http/node:https construction, direct option fields, and exact local response consumers.",
+          "Resource extraction covers built-in filesystem/network acquisition and exact local close/destroy/end handles.",
+          "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+          "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+          "The semantic graph contains static syntax observations and conservative relationship candidates; it does not claim runtime execution.",
+          "Timer extraction covers global or node:timers scheduling and exact local-handle cancellation.",
+          "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+          "semantic_graph.coverage.status is unknown"
+        ],
+        "summary": {
+          "input_path": "/home/user/-/tmp_work/nested/android_1_zip",
+          "format": "directory",
+          "root_artifact_sha256": "68d9bfb574c34df208382203bf0ace4de4c69f3f4e324a27f0573b9269d1c7b0",
+          "statistics": {
+            "relevant_files": 0,
+            "nested_asar_containers": 0,
+            "text_bytes_read": 0,
+            "invalid_utf8_files": 0,
+            "parsed_javascript_files": 0,
+            "skipped_javascript_files": 0,
+            "visited_ast_nodes": 0,
+            "findings": 0,
+            "modules": 0,
+            "parse_failures": 0
+          },
+          "electron": {
+            "browser_windows": 0,
+            "explicit_web_preferences": 0,
+            "preload_entrypoints": 0,
+            "context_bridge_apis": 0,
+            "exposed_api_members": 0,
+            "ipc": {
+              "operations": 0,
+              "literal_channels": 0,
+              "dynamic_channel_operations": 0,
+              "renderer_transmissions": 0,
+              "renderer_listeners": 0,
+              "main_handlers": 0,
+              "paired_renderer_transmissions": 0,
+              "ambiguous_renderer_transmissions": 0,
+              "unpaired_literal_renderer_transmissions": 0
+            },
+            "sender_validation_observations": 0,
+            "utility_processes": 0,
+            "resolved_utility_entrypoints": 0,
+            "native_addon_bindings": 0,
+            "resolved_native_addon_bindings": 0
+          },
+          "coverage": {
+            "application": {
+              "status": "complete",
+              "truncated": false,
+              "omitted_count": 0,
+              "limits": []
+            },
+            "semantic": {
+              "status": "unknown",
+              "truncated": false,
+              "omitted_nodes": 0,
+              "omitted_relations": 0,
+              "limits": [],
+              "families": [
+                {
+                  "family": "boundary",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                },
+                {
+                  "family": "call-flow",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                },
+                {
+                  "family": "child-process",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                },
+                {
+                  "family": "closure",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                },
+                {
+                  "family": "configuration",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                },
+                {
+                  "family": "data-flow",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                },
+                {
+                  "family": "event",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                },
+                {
+                  "family": "object-flow",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                },
+                {
+                  "family": "promise-ownership",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                },
+                {
+                  "family": "request",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                },
+                {
+                  "family": "resource-lifecycle",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                },
+                {
+                  "family": "timer",
+                  "status": "partial",
+                  "retained_relations": 0,
+                  "omitted_relations": 0,
+                  "unknown_count": 0
+                }
+              ]
+            },
+            "application_unknowns": 0,
+            "semantic_unknowns": 0
+          },
+          "limitation_count": 5
+        }
+      },
+      "limitations": [
+        "Boundary extraction covers unshadowed JSON/global coercions plus parse and validation method candidates.",
+        "Child-process extraction covers asynchronous node:child_process creation, literal argv/env/stdio options, exit/error listeners, and kill signals.",
+        "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+        "Configuration extraction covers process.env, process.argv, node:fs reads, and direct logical defaults.",
+        "Event extraction covers EventEmitter-style literal registrations, removals, and dispatch candidates; dynamic names remain unknown.",
+        "Function fingerprints are static candidates; equal digests can remain ambiguous and do not prove behavioral equivalence.",
+        "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+        "Local data flow does not claim control-flow-sensitive reaching definitions or arbitrary dynamic property resolution.",
+        "Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.",
+        "Request extraction covers fetch, WebSocket, node:http/node:https construction, direct option fields, and exact local response consumers.",
+        "Resource extraction covers built-in filesystem/network acquisition and exact local close/destroy/end handles.",
+        "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+        "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+        "The semantic graph contains static syntax observations and conservative relationship candidates; it does not claim runtime execution.",
+        "Timer extraction covers global or node:timers scheduling and exact local-handle cancellation.",
+        "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+      ]
+    },
+    "Griver_66666692_tar": {
+      "ok": false,
+      "error": {
+        "error": {
+          "code": "provider_timeout",
+          "category": "timeout",
+          "message": "Analysis took too long. Try a smaller request, then run `rea doctor` if it continues.",
+          "retryable": true,
+          "remediation": {
+            "action": "Analysis took too long. Try a smaller request, then run `rea doctor` if it continues."
+          },
+          "details": {
+            "operation": "analyze_javascript_application",
+            "timeout_ms": 25000,
+            "captured_output": {
+              "stdout": "",
+              "stderr": "",
+              "truncated": false,
+              "stderr_bytes": 0,
+              "exit_code": null,
+              "signal": null
+            },
+            "partial_observation": {
+              "kind": "retained-evidence",
+              "evidence_id": "ev_f564d0e2dd291954309d0944165159ff5dba12ec796356a495472c75925aeef8"
+            }
+          }
+        }
+      }
+    },
+    "Griver_66666693_tar": {
+      "ok": false,
+      "error": {
+        "error": {
+          "code": "resource_constraint",
+          "category": "resource_constraint",
+          "message": "The operation completed, but its complete MCP response exceeds the stdio response budget. The analysis result was not truncated. Export retained evidence to consume the complete analysis, or use complete CLI JSON output.",
+          "retryable": false,
+          "remediation": {
+            "action": "Discover retained records with get_evidence_bundle and detail: summary, then inspect compatible records through inspect_analysis_view using an exact Evidence reference. Export complete retained session evidence through export_evidence_bundle to a caller-selected path, or use complete CLI JSON output. The connection remains usable."
+          },
+          "details": {
+            "operation": "analyze_javascript_application",
+            "resource": "transport",
+            "reason": "The operation completed, but its complete MCP response exceeds the stdio response budget. The analysis result was not truncated. Export retained evidence to consume the complete analysis, or use complete CLI JSON output.",
+            "reported_limits": {
+              "boundary": "mcp-response",
+              "default_receive_buffer_bytes": 10485760,
+              "result_budget_bytes": 10484736,
+              "max_string_code_units": 536869864,
+              "response_bytes_at_least": 10559715,
+              "response_code_units_at_least": 10559715,
+              "constraint": "receive-buffer",
+              "evidence_id": "ev_37ac9429cfa8b8a18bc648ad97d6e03337077da5b07a1a1c2ee26db86ded0859",
+              "evidence_reference": {
+                "kind": "retained-evidence",
+                "evidence_id": "ev_37ac9429cfa8b8a18bc648ad97d6e03337077da5b07a1a1c2ee26db86ded0859"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Griver_68687209_tar": {
+      "ok": false,
+      "error": {
+        "error": {
+          "code": "provider_timeout",
+          "category": "timeout",
+          "message": "Analysis took too long. Try a smaller request, then run `rea doctor` if it continues.",
+          "retryable": true,
+          "remediation": {
+            "action": "Analysis took too long. Try a smaller request, then run `rea doctor` if it continues."
+          },
+          "details": {
+            "operation": "analyze_javascript_application",
+            "timeout_ms": 25000,
+            "captured_output": {
+              "stdout": "",
+              "stderr": "",
+              "truncated": false,
+              "stderr_bytes": 0,
+              "exit_code": null,
+              "signal": null
+            },
+            "partial_observation": {
+              "kind": "retained-evidence",
+              "evidence_id": "ev_e3ad71148586e4219bea2ffce38999b55da4c352804023cf720af672c5959f5c"
+            }
+          }
+        }
+      }
+    }
+  },
+  "native_elf_rea_audits": {
+    "libVFaceLib.so": {
+      "sha256": "c6d04f368fe967fb1fd2666519f78cf8fa5fdc3a95a1ffbb0095370483592329",
+      "bytes": 1963668,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_874148225482697dba9b2628fef7e80d1973d0904014143f4c696716380689a5",
+      "objdump_section_headers_evidence_id": "ev_a691a68fe1564bfb6f802657f045eec9fb0b8ead0816966e1a53fd8240af9ef9",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libVFaceLib.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "liba97d.so": {
+      "sha256": "7fe7d830805a1e99f0d3661a99fdad20e5ea3f4998c65b3565fde4602ce2181e",
+      "bytes": 997572,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_29152e90694acf92936d2a51eb911fcf415418a5161545845db653a347bb7577",
+      "objdump_section_headers_evidence_id": "ev_9b0fd71f5c9bb92297cc584f9157771dfbc7862d361c2ef00a56a152a91b60db",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/liba97d.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00010000\n\n"
+    },
+    "libandroidx.graphics.path.so": {
+      "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b",
+      "bytes": 7252,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_99bab2bce08ec8363daf8d1384e13ba7709de49621eb3bf1ef3d083ca45f476f",
+      "objdump_section_headers_evidence_id": "ev_3c3830b4aadfc4d3d73a9919787ca2dd814acdaaa1338650c5c54afeb1ae05fb",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libandroidx.graphics.path.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libbarhopper_v3.so": {
+      "sha256": "b3c162c69e4906b816227ae116bfd8b9ff19cfdd58a3de0c9a9b110e030063e9",
+      "bytes": 3244440,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_64fec051f3349e855bc28fea56dc5b94b5f9838337d1d0eeb3ccaf9337617c6f",
+      "objdump_section_headers_evidence_id": "ev_9d170180cbe07d9162c3e5f49de9c03af1b8f695f5c8d9e4b02588a2fdf71801",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libbarhopper_v3.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libc++_shared.so": {
+      "sha256": "91b49f121b3120538faff020fcf535ade1d945e65ccd793fc0b815b5799bbdf0",
+      "bytes": 872872,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_31d58d15b6a284e5e4646fa32fd816c45cb60bd9f336782c129f7a8dd1dca8bf",
+      "objdump_section_headers_evidence_id": "ev_f4f2ecc8b5827a245d14c16bda14d9b342ab0ee929d9eeb31430a54a747c9186",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libc++_shared.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libcrashlytics-common.so": {
+      "sha256": "4b8bcec5c0464d7b1741386e30eef9308c43d4ca8f57501ae6734fa48e1c55d2",
+      "bytes": 435732,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_b515d7da5b979f00a787d09fbea54ea6d592e4460a27da1bec5e03402a42a3b6",
+      "objdump_section_headers_evidence_id": "ev_e4d1affe58707ff60a237d2a1ff52a50ed2fc705287652ea54eab9db12236de3",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libcrashlytics-common.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libcrashlytics-handler.so": {
+      "sha256": "f58fca61975d2450e8bef2bc4b0ea68e5e181cdd0aff3693b04e469c1c6ccdb6",
+      "bytes": 87908,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_af237fc8d00208c8a04304ba196d3a9ff351dd52d6023623c07e168e998ce23e",
+      "objdump_section_headers_evidence_id": "ev_f2205bf2a5c54a1528f741a81544db61b485e3a50d5680c386b7b2ccdc4558db",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libcrashlytics-handler.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libcrashlytics-trampoline.so": {
+      "sha256": "5366393c1292cfb5c8b49bf846e644f8ce24e683e8c0e97566124b29f89eb722",
+      "bytes": 6912,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_22b6e85d353b69de2ea3b2d3a751763a738fb73c4af15c1a2319fa69edc3dec1",
+      "objdump_section_headers_evidence_id": "ev_a01eadfeb1c0b45edc416c33ecfc0fec841c38682d89e71e2a0db67446091761",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libcrashlytics-trampoline.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000454\n\n"
+    },
+    "libcrashlytics.so": {
+      "sha256": "be0dedcd52a35e717ec0eeb832108e42c8d62552bc7005fef55ca233d0679260",
+      "bytes": 94540,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_7dd30fecf982bb4c1506edb1f81711e346c7889d43b776d2320d9e436f00d414",
+      "objdump_section_headers_evidence_id": "ev_3d4a7f7f29424e5b37ba1f9aaeb98d180a237173bdfb69976479fc785a5f61eb",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libcrashlytics.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libface_detector_v2_jni.so": {
+      "sha256": "21e48bd253e1c87edee42bce9a51048ac3082d681446d0d05a79c4ad0f5e187b",
+      "bytes": 5388224,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_39712d8c193cbb2c8ea45c4ea4edfe37250e0011e951a85af2f04b34e361fe4a",
+      "objdump_section_headers_evidence_id": "ev_0c3bb5568074eac8cd994573a780e601cbd5b2141b506af678d2f9fba41c2bd3",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libface_detector_v2_jni.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libfgcpkjvqe.so": {
+      "sha256": "5f72893936adfe712e8355c33c6f453c45396c7f58c8f05c9acc9c8f83c15b39",
+      "bytes": 6524160,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_00a22f1910c317457709af0237f1bc6560b2e0078209ff8da3f189096c868b10",
+      "objdump_section_headers_evidence_id": "ev_dc79b549b6c0a688b236206d21c354aa4b73ef7c1c707bc9f4da32c76b318034",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libfgcpkjvqe.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libimage_processing_util_jni.so": {
+      "sha256": "e48e356bbe1902ae9a66178a4a0141c993b82ee9f70dde52ad83e4af3eca984f",
+      "bytes": 20380,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_1b58cbc9a3e18bb86d54546af1b922a9f756b8739199040f34d2496566fbf6a7",
+      "objdump_section_headers_evidence_id": "ev_d1e418e46693d9f2c4d957bdf77fcf72527fc30c01e47b922d0c662440eb4dad",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libimage_processing_util_jni.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libimagepipeline.so": {
+      "sha256": "2049c770f0dcca26b20d211f6113ae02eb7c3af48c784c28fd24c320d70d7cc9",
+      "bytes": 5876,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_00ece346b624c0a917e358f5c7eead1212b3619af9fc8400a6c71e0deef54de5",
+      "objdump_section_headers_evidence_id": "ev_cf5bf036c1a86af475f6b90e19683815fd089827193014326c051cd8d235e195",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libimagepipeline.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libljsfrcwmw.so": {
+      "sha256": "12a389806114a18ff57d341e740108ebfe9b07d39abe2775a652f193cb99ac84",
+      "bytes": 600296,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_9b273e4fedb38f11bf69d8049d97fcaaac06c5f9e375acd7dbc3ed6879b7717b",
+      "objdump_section_headers_evidence_id": "ev_14d3942aaa2032a43f33134d535d82b39a9e0669ac414001d70e78fca87d1e3d",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libljsfrcwmw.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "liblytcuhe.so": {
+      "sha256": "a8e59c1d4922f6bce9814667c1566bb1a2ea39700fe312625a29a7cbe6ef4629",
+      "bytes": 178628,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_081037c2bcb9143a4f149dbea20881a25c4c0ef48e895e4ed7b4364a5c187969",
+      "objdump_section_headers_evidence_id": "ev_6f9c792f3d72d66264e3ee32212790edff4fea2ebc03f7ab1329453facd5ba6b",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/liblytcuhe.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libmlkit_google_ocr_pipeline.so": {
+      "sha256": "06b9e2f587e401c6446aa0db344bb31b622957a2d04aa4eac03cde8b3a6ed78a",
+      "bytes": 6781940,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_c31b6ee185224f34802495d86996a3b0d2095934b6e380704c096474418cb055",
+      "objdump_section_headers_evidence_id": "ev_6a306deaf3674693c307d88f91349caecf096181449c526dfa56ee999ab46c82",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libmlkit_google_ocr_pipeline.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libmlkitcommonpipeline.so": {
+      "sha256": "9ab65cd53ed8334fc0fcd09fe3c442f2a9bb6653e1392bc0ff4a1c1381aba7db",
+      "bytes": 6928228,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_62330c37f9dc53192d97805a744de706df622e340565220441215dcd0daa59fd",
+      "objdump_section_headers_evidence_id": "ev_146648714023d8a4fcbf612da30b87cb0efaae76e50bf9792d609c75650b70ab",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libmlkitcommonpipeline.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libnative-filters.so": {
+      "sha256": "b8a2da1df4f33eb83adf9596e5e68c9633067a2826385e495ed47f02497b5995",
+      "bytes": 12588,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_2c2bc62a6da43ad088b5f2a58d407ce6efefb45dac8824e234809d7b4cabf0c4",
+      "objdump_section_headers_evidence_id": "ev_6ce8d9a37eac16fdeb79d28f31a74143401a2336d178a8eea6f1933385a37425",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libnative-filters.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libnative-imagetranscoder.so": {
+      "sha256": "43280a8f3f33529d3558b1f3283fec9b855ca28e7b8d7883ae7a64762f148dad",
+      "bytes": 341072,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_d425ba408513ffd8e48591713da65866c43deef165b629567cc06850e439d2d8",
+      "objdump_section_headers_evidence_id": "ev_4c97ffdb10c43bb15e848eeb9c521c8af81a45ca1b9a7e9fe45fe2d4822ffde6",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libnative-imagetranscoder.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libohxbee.so": {
+      "sha256": "2d54a2aa85d81dbfef1e8d01726b1ffd74004ead9d15d861e2323f54ffc01a74",
+      "bytes": 155412,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_fc962a18b14f22ed721a92140aa2c240f69cca83fc1078f637f6098f9d8b71ad",
+      "objdump_section_headers_evidence_id": "ev_3ac84ddc87e45ee0dd518a7a45f7ce3332cf4f965494f3c7c1098b7919227f0b",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libohxbee.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libpicodet_ncnn.so": {
+      "sha256": "442367c2e7f3e5b5f70ed8164f375d6306720eb1d3ddba4fdd936e569214230e",
+      "bytes": 2992584,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_450425865ed08e50f4e58bee1564029e5a40c40809373b720bada13d78e20cc7",
+      "objdump_section_headers_evidence_id": "ev_1bdbf22889b5b1dfe77504f969e60c4b64a1071a10a2db829e76dc708af75847",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libpicodet_ncnn.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "librcmefqonnx.so": {
+      "sha256": "9120dd02a8d94659ea178c0b73b4d02954915d8432c74b04a05d1583f69099af",
+      "bytes": 178628,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_91744afa19877f46e870e1a0615580a18561d66a5fc3dc1fad8684039ce3b3b4",
+      "objdump_section_headers_evidence_id": "ev_5bda82cb6c5085a6c6e5f08389003735af000c7c4a21e4d9fbc027ab16407e45",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/librcmefqonnx.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "librive-android.so": {
+      "sha256": "ab2dd352553cafb7b7f1a686df8bf33c814b977e7c1cdf1e65d8c99c5cb0e782",
+      "bytes": 3225636,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_7457c99e1ada0076d09301c6c3a6ae69f34270a34e798452cd78f997c5e9335b",
+      "objdump_section_headers_evidence_id": "ev_4ea0dbf45678805f275ca34498c822bfb9309f201e88e86fb13d512dbd316194",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/librive-android.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libsecurity_lite.so": {
+      "sha256": "75c5d69621c5dce9a64e4466ae011ba5a22e16b35246b39941883d424df6c786",
+      "bytes": 154840,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_366ad47184e6b5f1ca8f08c23832ce2dd3c9de51c9d36a7dca0b48a636aa6e50",
+      "objdump_section_headers_evidence_id": "ev_75340b7d9695243502974af94eb18f78f2d87f1db38279f0e695c37c3f5487b2",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libsecurity_lite.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libsqlcipher.so": {
+      "sha256": "819c11750f332a8ca0d88f251d0d22d664f559b8ed10f7a4c61cc90be49f3f44",
+      "bytes": 3555080,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_eb1309129d1e761255ff03467f6d31fa2ba96fc3c642b645ff1ebc76598408d6",
+      "objdump_section_headers_evidence_id": "ev_54bb6f2f8d8617e8363766f917c24eadf1a8d32a438e235d9913e974ca8aea79",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libsqlcipher.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libtaibmcf.so": {
+      "sha256": "0fba080d0364fc0f7a8f61611551ef3b231c8ad0c95113446916099f8112d650",
+      "bytes": 12617752,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_2dfd0861a45ad032e9e378fad0eaf61705583d1ef4ff459d763c941293121228",
+      "objdump_section_headers_evidence_id": "ev_924fadbd66515b756d47bd44057ca98ea91a3392f2f8ce303437a74d3e74e2b9",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libtaibmcf.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    },
+    "libtrueidlib.so": {
+      "sha256": "e1a98166f637ebebf814a375ec147461229ff18314dd669ebbf07eabefdfdd06",
+      "bytes": 79904,
+      "rust_auditable_metadata": null,
+      "rustc_commit": null,
+      "go_build_info": null,
+      "objdump_file_headers_ok": true,
+      "objdump_file_headers_evidence_id": "ev_de398fc3a47ed34ca0a6a43cb7f617a525346a11148517914402546a3360b53d",
+      "objdump_section_headers_evidence_id": "ev_d8942cbe4c124b89deb784e5f8aa36e834003c00780fae54afc844917ae337e2",
+      "objdump_file_headers_excerpt": "\n/home/user/-/tmp_work/apks/config.armeabi_v7a/lib/armeabi-v7a/libtrueidlib.so:     file format elf32-little\narchitecture: UNKNOWN!, flags 0x00000150:\nHAS_SYMS, DYNAMIC, D_PAGED\nstart address 0x00000000\n\n"
+    }
+  }
+}

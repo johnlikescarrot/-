@@ -1,0 +1,1489 @@
+{
+  "summary": {
+    "total_elf_libraries": 27,
+    "total_bytes": 57452124,
+    "pie_enabled_count": 27,
+    "nx_enabled_count": 27,
+    "full_relro_count": 23,
+    "partial_relro_count": 0,
+    "no_relro_count": 4,
+    "stack_canary_count": 25,
+    "fortify_source_count": 15,
+    "stripped_symtab_count": 26,
+    "jni_onload_count": 13,
+    "dt_needed_frequency": {
+      "libc.so": 27,
+      "libdl.so": 27,
+      "libm.so": 27,
+      "liblog.so": 25,
+      "libandroid.so": 9,
+      "libjnigraphics.so": 9,
+      "libz.so": 7,
+      "libEGL.so": 3,
+      "libGLESv2.so": 2,
+      "libstdc++.so": 1,
+      "librcmefqonnx.so": 1,
+      "liblytcuhe.so": 1,
+      "libGLESv3.so": 1,
+      "libc++_shared.so": 1
+    },
+    "category_byte_totals": {
+      "On-Device AI / Computer Vision / eKYC": 27557616,
+      "RASP / App Shielding & Obfuscated Native Modules": 21228660,
+      "Graphics / Vector Animation / Media": 3612804,
+      "NDK C++ Standard Runtime": 872872,
+      "Native Crash Telemetry (Firebase Crashlytics)": 625092,
+      "Encrypted Storage (SQLCipher)": 3555080
+    }
+  },
+  "libraries": [
+    {
+      "filename": "libVFaceLib.so",
+      "category": "On-Device AI / Computer Vision / eKYC",
+      "size_bytes": 1963668,
+      "sha256": "c6d04f368fe967fb1fd2666519f78cf8fa5fdc3a95a1ffbb0095370483592329",
+      "whole_file_entropy": 7.1116,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libVFaceLib.so",
+      "dt_needed": [
+        "libandroid.so",
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libz.so",
+        "libdl.so",
+        "libm.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 28,
+      "has_symtab": false,
+      "dynsym_count": 176,
+      "exported_symbols_count": 4,
+      "imported_symbols_count": 171,
+      "jni_exported_functions": 4,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (12027248, +pgo, -bolt, +lto, -mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) |  | Android (13691557, +pgo, +bolt, +lto, +mlgo, based o",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 140777,
+          "entropy": 5.6715
+        },
+        ".text": {
+          "size": 1515836,
+          "entropy": 7.2442
+        },
+        ".data": {
+          "size": 53368,
+          "entropy": 2.5315
+        },
+        ".bss": {
+          "size": 649798,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "liba97d.so",
+      "category": "RASP / App Shielding & Obfuscated Native Modules",
+      "size_bytes": 997572,
+      "sha256": "7fe7d830805a1e99f0d3661a99fdad20e5ea3f4998c65b3565fde4602ce2181e",
+      "whole_file_entropy": 6.2211,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "liba97d.so",
+      "dt_needed": [
+        "libc.so",
+        "libstdc++.so",
+        "libm.so",
+        "libdl.so",
+        "liblog.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 24,
+      "has_symtab": false,
+      "dynsym_count": 150,
+      "exported_symbols_count": 64,
+      "imported_symbols_count": 81,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": false,
+        "stripped_symtab": true
+      },
+      "compiler_comment": null,
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 1516,
+          "entropy": 6.9349
+        },
+        ".text": {
+          "size": 878552,
+          "entropy": 6.3358
+        },
+        ".data": {
+          "size": 29680,
+          "entropy": 6.7924
+        },
+        ".bss": {
+          "size": 50204,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libandroidx.graphics.path.so",
+      "category": "Graphics / Vector Animation / Media",
+      "size_bytes": 7252,
+      "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b",
+      "whole_file_entropy": 5.7671,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libandroidx.graphics.path.so",
+      "dt_needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 25,
+      "has_symtab": false,
+      "dynsym_count": 10,
+      "exported_symbols_count": 1,
+      "imported_symbols_count": 8,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": false,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 439,
+          "entropy": 4.7063
+        },
+        ".text": {
+          "size": 3116,
+          "entropy": 6.6788
+        },
+        ".bss": {
+          "size": 8,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libbarhopper_v3.so",
+      "category": "On-Device AI / Computer Vision / eKYC",
+      "size_bytes": 3244440,
+      "sha256": "b3c162c69e4906b816227ae116bfd8b9ff19cfdd58a3de0c9a9b110e030063e9",
+      "whole_file_entropy": 7.2147,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libbarhopper_v3.so",
+      "dt_needed": [
+        "libjnigraphics.so",
+        "liblog.so",
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 30,
+      "has_symtab": false,
+      "dynsym_count": 212,
+      "exported_symbols_count": 8,
+      "imported_symbols_count": 190,
+      "jni_exported_functions": 8,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": false,
+        "stripped_symtab": true
+      },
+      "compiler_comment": null,
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 192437,
+          "entropy": 5.8446
+        },
+        ".text": {
+          "size": 2836456,
+          "entropy": 7.236
+        },
+        ".data": {
+          "size": 22988,
+          "entropy": 2.7868
+        },
+        ".bss": {
+          "size": 140077,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libc++_shared.so",
+      "category": "NDK C++ Standard Runtime",
+      "size_bytes": 872872,
+      "sha256": "91b49f121b3120538faff020fcf535ade1d945e65ccd793fc0b815b5799bbdf0",
+      "whole_file_entropy": 6.8845,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libc++_shared.so",
+      "dt_needed": [
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 28,
+      "has_symtab": false,
+      "dynsym_count": 2499,
+      "exported_symbols_count": 2337,
+      "imported_symbols_count": 160,
+      "jni_exported_functions": 0,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": false,
+        "fortify_source": false,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (11695104, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) |  | Linker: LLD 18.0.3 | Android (12470979, +pgo, +bolt,",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 145141,
+          "entropy": 6.9286
+        },
+        ".text": {
+          "size": 411396,
+          "entropy": 7.0301
+        },
+        ".data": {
+          "size": 244,
+          "entropy": 3.7336
+        },
+        ".bss": {
+          "size": 22585,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libcrashlytics-common.so",
+      "category": "Native Crash Telemetry (Firebase Crashlytics)",
+      "size_bytes": 435732,
+      "sha256": "4b8bcec5c0464d7b1741386e30eef9308c43d4ca8f57501ae6734fa48e1c55d2",
+      "whole_file_entropy": 6.906,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libcrashlytics-common.so",
+      "dt_needed": [
+        "liblog.so",
+        "libz.so",
+        "libdl.so",
+        "libc.so",
+        "libm.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 27,
+      "has_symtab": false,
+      "dynsym_count": 181,
+      "exported_symbols_count": 3,
+      "imported_symbols_count": 177,
+      "jni_exported_functions": 0,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "none",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 42592,
+          "entropy": 5.1291
+        },
+        ".text": {
+          "size": 309104,
+          "entropy": 7.0198
+        },
+        ".data": {
+          "size": 72,
+          "entropy": 1.7599
+        },
+        ".bss": {
+          "size": 2572,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libcrashlytics-handler.so",
+      "category": "Native Crash Telemetry (Firebase Crashlytics)",
+      "size_bytes": 87908,
+      "sha256": "f58fca61975d2450e8bef2bc4b0ea68e5e181cdd0aff3693b04e469c1c6ccdb6",
+      "whole_file_entropy": 6.5162,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libcrashlytics-handler.so",
+      "dt_needed": [
+        "liblog.so",
+        "libz.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 26,
+      "has_symtab": false,
+      "dynsym_count": 42,
+      "exported_symbols_count": 2,
+      "imported_symbols_count": 39,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "none",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 8346,
+          "entropy": 5.2607
+        },
+        ".text": {
+          "size": 54216,
+          "entropy": 6.8274
+        },
+        ".data": {
+          "size": 28,
+          "entropy": 1.7203
+        },
+        ".bss": {
+          "size": 560,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libcrashlytics-trampoline.so",
+      "category": "Native Crash Telemetry (Firebase Crashlytics)",
+      "size_bytes": 6912,
+      "sha256": "5366393c1292cfb5c8b49bf846e644f8ce24e683e8c0e97566124b29f89eb722",
+      "whole_file_entropy": 4.6584,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": null,
+      "dt_needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 34,
+      "has_symtab": true,
+      "dynsym_count": 7,
+      "exported_symbols_count": 0,
+      "imported_symbols_count": 6,
+      "jni_exported_functions": 0,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "none",
+        "stack_canary": false,
+        "fortify_source": false,
+        "stripped_symtab": false
+      },
+      "compiler_comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 89,
+          "entropy": 4.571
+        },
+        ".text": {
+          "size": 280,
+          "entropy": 5.5717
+        },
+        ".bss": {
+          "size": 4,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libcrashlytics.so",
+      "category": "Native Crash Telemetry (Firebase Crashlytics)",
+      "size_bytes": 94540,
+      "sha256": "be0dedcd52a35e717ec0eeb832108e42c8d62552bc7005fef55ca233d0679260",
+      "whole_file_entropy": 6.5569,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libcrashlytics.so",
+      "dt_needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 26,
+      "has_symtab": false,
+      "dynsym_count": 55,
+      "exported_symbols_count": 8,
+      "imported_symbols_count": 46,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "none",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 9052,
+          "entropy": 5.2807
+        },
+        ".text": {
+          "size": 58848,
+          "entropy": 6.8357
+        },
+        ".data": {
+          "size": 28,
+          "entropy": 1.7203
+        },
+        ".bss": {
+          "size": 576,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libface_detector_v2_jni.so",
+      "category": "On-Device AI / Computer Vision / eKYC",
+      "size_bytes": 5388224,
+      "sha256": "21e48bd253e1c87edee42bce9a51048ac3082d681446d0d05a79c4ad0f5e187b",
+      "whole_file_entropy": 7.1486,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libface_detector_v2_jni.so",
+      "dt_needed": [
+        "libandroid.so",
+        "liblog.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 30,
+      "has_symtab": false,
+      "dynsym_count": 231,
+      "exported_symbols_count": 6,
+      "imported_symbols_count": 211,
+      "jni_exported_functions": 6,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": false,
+        "stripped_symtab": true
+      },
+      "compiler_comment": null,
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 471121,
+          "entropy": 5.4056
+        },
+        ".text": {
+          "size": 4108928,
+          "entropy": 7.2227
+        },
+        ".data": {
+          "size": 27948,
+          "entropy": 2.9285
+        },
+        ".bss": {
+          "size": 142877,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libfgcpkjvqe.so",
+      "category": "RASP / App Shielding & Obfuscated Native Modules",
+      "size_bytes": 6524160,
+      "sha256": "5f72893936adfe712e8355c33c6f453c45396c7f58c8f05c9acc9c8f83c15b39",
+      "whole_file_entropy": 6.2658,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libfgcpkjvqe.so",
+      "dt_needed": [
+        "libz.so",
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 30,
+      "has_symtab": false,
+      "dynsym_count": 194,
+      "exported_symbols_count": 2,
+      "imported_symbols_count": 187,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349) |  | Linker: LLD 21.0.0 (/mnt/disks/build-disk/src/googl",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 206332,
+          "entropy": 7.2787
+        },
+        ".text": {
+          "size": 5820360,
+          "entropy": 6.1394
+        },
+        ".data": {
+          "size": 6180,
+          "entropy": 4.4163
+        },
+        ".bss": {
+          "size": 29009,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libimage_processing_util_jni.so",
+      "category": "Graphics / Vector Animation / Media",
+      "size_bytes": 20380,
+      "sha256": "e48e356bbe1902ae9a66178a4a0141c993b82ee9f70dde52ad83e4af3eca984f",
+      "whole_file_entropy": 6.5741,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libimage_processing_util_jni.so",
+      "dt_needed": [
+        "liblog.so",
+        "libandroid.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 26,
+      "has_symtab": false,
+      "dynsym_count": 30,
+      "exported_symbols_count": 6,
+      "imported_symbols_count": 23,
+      "jni_exported_functions": 6,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 208,
+          "entropy": 5.1486
+        },
+        ".text": {
+          "size": 14036,
+          "entropy": 6.9691
+        },
+        ".bss": {
+          "size": 4,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libimagepipeline.so",
+      "category": "Graphics / Vector Animation / Media",
+      "size_bytes": 5876,
+      "sha256": "2049c770f0dcca26b20d211f6113ae02eb7c3af48c784c28fd24c320d70d7cc9",
+      "whole_file_entropy": 5.1578,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libimagepipeline.so",
+      "dt_needed": [
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 27,
+      "has_symtab": false,
+      "dynsym_count": 12,
+      "exported_symbols_count": 1,
+      "imported_symbols_count": 10,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": false,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18.0.2",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 734,
+          "entropy": 4.8442
+        },
+        ".text": {
+          "size": 1220,
+          "entropy": 6.2101
+        },
+        ".data": {
+          "size": 96,
+          "entropy": 3.1701
+        },
+        ".bss": {
+          "size": 12,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libljsfrcwmw.so",
+      "category": "RASP / App Shielding & Obfuscated Native Modules",
+      "size_bytes": 600296,
+      "sha256": "12a389806114a18ff57d341e740108ebfe9b07d39abe2775a652f193cb99ac84",
+      "whole_file_entropy": 6.4332,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libljsfrcwmw.so",
+      "dt_needed": [
+        "librcmefqonnx.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 25,
+      "has_symtab": false,
+      "dynsym_count": 19,
+      "exported_symbols_count": 1,
+      "imported_symbols_count": 17,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 347304,
+          "entropy": 5.8976
+        },
+        ".text": {
+          "size": 222180,
+          "entropy": 6.3775
+        },
+        ".bss": {
+          "size": 44900,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "liblytcuhe.so",
+      "category": "RASP / App Shielding & Obfuscated Native Modules",
+      "size_bytes": 178628,
+      "sha256": "a8e59c1d4922f6bce9814667c1566bb1a2ea39700fe312625a29a7cbe6ef4629",
+      "whole_file_entropy": 6.6293,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "liblytcuhe.so",
+      "dt_needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 26,
+      "has_symtab": false,
+      "dynsym_count": 339,
+      "exported_symbols_count": 303,
+      "imported_symbols_count": 35,
+      "jni_exported_functions": 0,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 9375,
+          "entropy": 5.2904
+        },
+        ".text": {
+          "size": 119752,
+          "entropy": 6.8278
+        },
+        ".data": {
+          "size": 1052,
+          "entropy": 4.9992
+        },
+        ".bss": {
+          "size": 637,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libmlkit_google_ocr_pipeline.so",
+      "category": "On-Device AI / Computer Vision / eKYC",
+      "size_bytes": 6781940,
+      "sha256": "06b9e2f587e401c6446aa0db344bb31b622957a2d04aa4eac03cde8b3a6ed78a",
+      "whole_file_entropy": 6.98,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libmlkit_google_ocr_pipeline.so",
+      "dt_needed": [
+        "liblog.so",
+        "libdl.so",
+        "libjnigraphics.so",
+        "libandroid.so",
+        "libz.so",
+        "libm.so",
+        "libEGL.so",
+        "libGLESv2.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 32,
+      "has_symtab": false,
+      "dynsym_count": 368,
+      "exported_symbols_count": 33,
+      "imported_symbols_count": 293,
+      "jni_exported_functions": 33,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": false,
+        "stripped_symtab": true
+      },
+      "compiler_comment": null,
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 1205680,
+          "entropy": 6.188
+        },
+        ".text": {
+          "size": 4406008,
+          "entropy": 7.1852
+        },
+        ".data": {
+          "size": 179284,
+          "entropy": 3.5032
+        },
+        ".bss": {
+          "size": 168601,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libmlkitcommonpipeline.so",
+      "category": "On-Device AI / Computer Vision / eKYC",
+      "size_bytes": 6928228,
+      "sha256": "9ab65cd53ed8334fc0fcd09fe3c442f2a9bb6653e1392bc0ff4a1c1381aba7db",
+      "whole_file_entropy": 7.1582,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libmlkitcommonpipeline.so",
+      "dt_needed": [
+        "liblog.so",
+        "libdl.so",
+        "libjnigraphics.so",
+        "libandroid.so",
+        "libz.so",
+        "libm.so",
+        "libEGL.so",
+        "libGLESv2.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 32,
+      "has_symtab": false,
+      "dynsym_count": 368,
+      "exported_symbols_count": 38,
+      "imported_symbols_count": 300,
+      "jni_exported_functions": 38,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": false,
+        "stripped_symtab": true
+      },
+      "compiler_comment": null,
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 686144,
+          "entropy": 5.8235
+        },
+        ".text": {
+          "size": 5275620,
+          "entropy": 7.2127
+        },
+        ".data": {
+          "size": 141716,
+          "entropy": 3.4495
+        },
+        ".bss": {
+          "size": 751525,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libnative-filters.so",
+      "category": "Graphics / Vector Animation / Media",
+      "size_bytes": 12588,
+      "sha256": "b8a2da1df4f33eb83adf9596e5e68c9633067a2826385e495ed47f02497b5995",
+      "whole_file_entropy": 6.3272,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libnative-filters.so",
+      "dt_needed": [
+        "liblog.so",
+        "libjnigraphics.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 27,
+      "has_symtab": false,
+      "dynsym_count": 15,
+      "exported_symbols_count": 1,
+      "imported_symbols_count": 13,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": false,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18.0.2",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 2175,
+          "entropy": 4.6923
+        },
+        ".text": {
+          "size": 6288,
+          "entropy": 6.8179
+        },
+        ".data": {
+          "size": 60,
+          "entropy": 3.1616
+        },
+        ".bss": {
+          "size": 12,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libnative-imagetranscoder.so",
+      "category": "Graphics / Vector Animation / Media",
+      "size_bytes": 341072,
+      "sha256": "43280a8f3f33529d3558b1f3283fec9b855ca28e7b8d7883ae7a64762f148dad",
+      "whole_file_entropy": 6.9594,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libnative-imagetranscoder.so",
+      "dt_needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 27,
+      "has_symtab": false,
+      "dynsym_count": 353,
+      "exported_symbols_count": 299,
+      "imported_symbols_count": 53,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18.0.2",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 19927,
+          "entropy": 5.8246
+        },
+        ".text": {
+          "size": 259328,
+          "entropy": 7.1167
+        },
+        ".data": {
+          "size": 84,
+          "entropy": 2.502
+        },
+        ".bss": {
+          "size": 573,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libohxbee.so",
+      "category": "RASP / App Shielding & Obfuscated Native Modules",
+      "size_bytes": 155412,
+      "sha256": "2d54a2aa85d81dbfef1e8d01726b1ffd74004ead9d15d861e2323f54ffc01a74",
+      "whole_file_entropy": 6.2457,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libohxbee.so",
+      "dt_needed": [
+        "liblytcuhe.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 25,
+      "has_symtab": false,
+      "dynsym_count": 19,
+      "exported_symbols_count": 1,
+      "imported_symbols_count": 17,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 87804,
+          "entropy": 5.6021
+        },
+        ".text": {
+          "size": 56960,
+          "entropy": 6.2553
+        },
+        ".bss": {
+          "size": 10608,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libpicodet_ncnn.so",
+      "category": "On-Device AI / Computer Vision / eKYC",
+      "size_bytes": 2992584,
+      "sha256": "442367c2e7f3e5b5f70ed8164f375d6306720eb1d3ddba4fdd936e569214230e",
+      "whole_file_entropy": 7.1811,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libpicodet_ncnn.so",
+      "dt_needed": [
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 29,
+      "has_symtab": false,
+      "dynsym_count": 2824,
+      "exported_symbols_count": 2647,
+      "imported_symbols_count": 175,
+      "jni_exported_functions": 8,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349) | Android (12027248, +pgo, -bolt, +lto, -mlgo, based on ",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 46736,
+          "entropy": 5.5087
+        },
+        ".text": {
+          "size": 2634856,
+          "entropy": 7.2069
+        },
+        ".data": {
+          "size": 5540,
+          "entropy": 3.8307
+        },
+        ".bss": {
+          "size": 6333,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "librcmefqonnx.so",
+      "category": "On-Device AI / Computer Vision / eKYC",
+      "size_bytes": 178628,
+      "sha256": "9120dd02a8d94659ea178c0b73b4d02954915d8432c74b04a05d1583f69099af",
+      "whole_file_entropy": 6.6295,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "librcmefqonnx.so",
+      "dt_needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 26,
+      "has_symtab": false,
+      "dynsym_count": 339,
+      "exported_symbols_count": 303,
+      "imported_symbols_count": 35,
+      "jni_exported_functions": 0,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 9375,
+          "entropy": 5.2904
+        },
+        ".text": {
+          "size": 119752,
+          "entropy": 6.8281
+        },
+        ".data": {
+          "size": 1052,
+          "entropy": 4.9992
+        },
+        ".bss": {
+          "size": 637,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "librive-android.so",
+      "category": "Graphics / Vector Animation / Media",
+      "size_bytes": 3225636,
+      "sha256": "ab2dd352553cafb7b7f1a686df8bf33c814b977e7c1cdf1e65d8c99c5cb0e782",
+      "whole_file_entropy": 6.4175,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "librive-android.so",
+      "dt_needed": [
+        "liblog.so",
+        "libandroid.so",
+        "libEGL.so",
+        "libGLESv3.so",
+        "libjnigraphics.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 28,
+      "has_symtab": false,
+      "dynsym_count": 6225,
+      "exported_symbols_count": 5948,
+      "imported_symbols_count": 276,
+      "jni_exported_functions": 167,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": false,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Linker: LLD 18.0.3 | Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 230351,
+          "entropy": 6.5016
+        },
+        ".text": {
+          "size": 2209180,
+          "entropy": 6.196
+        },
+        ".data": {
+          "size": 1636,
+          "entropy": 2.8206
+        },
+        ".bss": {
+          "size": 1056,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libsecurity_lite.so",
+      "category": "RASP / App Shielding & Obfuscated Native Modules",
+      "size_bytes": 154840,
+      "sha256": "75c5d69621c5dce9a64e4466ae011ba5a22e16b35246b39941883d424df6c786",
+      "whole_file_entropy": 7.3025,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libsecurity_lite.so",
+      "dt_needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 27,
+      "has_symtab": false,
+      "dynsym_count": 133,
+      "exported_symbols_count": 94,
+      "imported_symbols_count": 35,
+      "jni_exported_functions": 4,
+      "has_jni_onload": false,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": false,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (b",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".text": {
+          "size": 120148,
+          "entropy": 7.3316
+        },
+        ".rodata": {
+          "size": 11840,
+          "entropy": 7.9094
+        },
+        ".data": {
+          "size": 5512,
+          "entropy": 7.1353
+        },
+        ".bss": {
+          "size": 10905,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libsqlcipher.so",
+      "category": "Encrypted Storage (SQLCipher)",
+      "size_bytes": 3555080,
+      "sha256": "819c11750f332a8ca0d88f251d0d22d664f559b8ed10f7a4c61cc90be49f3f44",
+      "whole_file_entropy": 6.6941,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libsqlcipher.so",
+      "dt_needed": [
+        "libdl.so",
+        "liblog.so",
+        "libc.so",
+        "libm.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 27,
+      "has_symtab": false,
+      "dynsym_count": 657,
+      "exported_symbols_count": 480,
+      "imported_symbols_count": 175,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Android (7284624, based on r416183b) clang version 12.0.5 (",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 565833,
+          "entropy": 7.2881
+        },
+        ".text": {
+          "size": 2532016,
+          "entropy": 6.5678
+        },
+        ".data": {
+          "size": 11348,
+          "entropy": 3.5988
+        },
+        ".bss": {
+          "size": 7024,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libtaibmcf.so",
+      "category": "RASP / App Shielding & Obfuscated Native Modules",
+      "size_bytes": 12617752,
+      "sha256": "0fba080d0364fc0f7a8f61611551ef3b231c8ad0c95113446916099f8112d650",
+      "whole_file_entropy": 6.1236,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libtaibmcf.so",
+      "dt_needed": [
+        "libz.so",
+        "liblog.so",
+        "libandroid.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 27,
+      "has_symtab": false,
+      "dynsym_count": 198,
+      "exported_symbols_count": 2,
+      "imported_symbols_count": 191,
+      "jni_exported_functions": 0,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (11349228, +pgo, +bolt, +lto, -mlgo, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362) | Linker: LLD 17.0.2",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 211692,
+          "entropy": 7.2703
+        },
+        ".text": {
+          "size": 11900864,
+          "entropy": 6.039
+        },
+        ".data": {
+          "size": 6096,
+          "entropy": 4.4091
+        },
+        ".bss": {
+          "size": 28265,
+          "entropy": 0.0
+        }
+      }
+    },
+    {
+      "filename": "libtrueidlib.so",
+      "category": "On-Device AI / Computer Vision / eKYC",
+      "size_bytes": 79904,
+      "sha256": "e1a98166f637ebebf814a375ec147461229ff18314dd669ebbf07eabefdfdd06",
+      "whole_file_entropy": 6.9485,
+      "elf_valid": true,
+      "architecture": "ARM (32-bit, little)",
+      "elf_type": "ET_DYN",
+      "soname": "libtrueidlib.so",
+      "dt_needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath_rpath": [],
+      "section_count": 25,
+      "has_symtab": false,
+      "dynsym_count": 81,
+      "exported_symbols_count": 40,
+      "imported_symbols_count": 40,
+      "jni_exported_functions": 10,
+      "has_jni_onload": true,
+      "hardening": {
+        "pie_et_dyn": true,
+        "nx_non_exec_stack": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify_source": true,
+        "stripped_symtab": true
+      },
+      "compiler_comment": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6",
+      "ndk_note": "Android type=NT_GNU_ABI_TAG desc_len=132",
+      "sections_entropy": {
+        ".rodata": {
+          "size": 4800,
+          "entropy": 6.1736
+        },
+        ".text": {
+          "size": 62660,
+          "entropy": 7.0421
+        },
+        ".data": {
+          "size": 96,
+          "entropy": 3.4434
+        }
+      }
+    }
+  ],
+  "assets_trueidlib_so_anomaly": {
+    "path": "assets/trueidlib.so",
+    "size_bytes": 392,
+    "sha256": "055e573dbee6ee9d078b9856cb0e76ed34eb1b60e601ecae114068044fb95cc5",
+    "entropy": 7.5008,
+    "is_elf": false,
+    "note": "Non-ELF opaque/encrypted payload disguised or companion-named alongside lib/armeabi-v7a/libtrueidlib.so"
+  }
+}

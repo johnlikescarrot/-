@@ -1,0 +1,1481 @@
+{
+  "study_metadata": {
+    "target_app": "ZaloPay (Thanh toán & Tài chính)",
+    "package_name": "vn.com.vng.zalopay",
+    "version_name": "11.17.0",
+    "version_code": 1102758,
+    "min_sdk": 26,
+    "target_sdk": 36,
+    "compile_sdk": 36,
+    "source_archive": "Zalopay-Thanh+toán+&+Tài+chính_11.17.0_APKPure.zip",
+    "source_archive_sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+    "xapk_sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d",
+    "rea_version": "morluto/rea (rea-agents@6.10.1 / rea@6.7.0 CLI + MCP)"
+  },
+  "container_scale": {
+    "outer_zip_bytes": 98813878,
+    "xapk_bytes": 105608128,
+    "split_apk_count": 5,
+    "total_apk_entries": 6464,
+    "nested_container_files": 360,
+    "total_analyzed_artifacts": 6824,
+    "unique_sha256_count": 5968,
+    "duplicate_groups": 299,
+    "duplicate_wasted_bytes": 959564,
+    "total_uncompressed_bytes": 195327309,
+    "total_compressed_bytes": 104477912,
+    "split_apks": [
+      {
+        "name": "config.armeabi_v7a.apk",
+        "apk_bytes": 24828408,
+        "entries": 32,
+        "uncompressed_bytes": 57459525,
+        "avg_entropy": 6.3804,
+        "signing_schemes": [
+          "APK Signature Scheme v2",
+          "APK Signature Scheme v3",
+          "Source Stamp Block v1",
+          "Verity Padding Block"
+        ]
+      },
+      {
+        "name": "config.en.apk",
+        "apk_bytes": 74137,
+        "entries": 6,
+        "uncompressed_bytes": 64699,
+        "avg_entropy": 5.0824,
+        "signing_schemes": [
+          "APK Signature Scheme v2",
+          "APK Signature Scheme v3",
+          "Source Stamp Block v1",
+          "Verity Padding Block"
+        ]
+      },
+      {
+        "name": "config.vi.apk",
+        "apk_bytes": 86425,
+        "entries": 6,
+        "uncompressed_bytes": 78175,
+        "avg_entropy": 5.2133,
+        "signing_schemes": [
+          "APK Signature Scheme v2",
+          "APK Signature Scheme v3",
+          "Source Stamp Block v1",
+          "Verity Padding Block"
+        ]
+      },
+      {
+        "name": "config.xhdpi.apk",
+        "apk_bytes": 1232563,
+        "entries": 258,
+        "uncompressed_bytes": 1329300,
+        "avg_entropy": 6.0025,
+        "signing_schemes": [
+          "APK Signature Scheme v2",
+          "APK Signature Scheme v3",
+          "Source Stamp Block v1",
+          "Verity Padding Block"
+        ]
+      },
+      {
+        "name": "vn.com.vng.zalopay.apk",
+        "apk_bytes": 79359087,
+        "entries": 6162,
+        "uncompressed_bytes": 136395610,
+        "avg_entropy": 4.313,
+        "signing_schemes": [
+          "APK Signature Scheme v2",
+          "APK Signature Scheme v3",
+          "Source Stamp Block v1",
+          "Unknown Block (0x2146444e)",
+          "Verity Padding Block"
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "category": "Dalvik Bytecode (DEX)",
+        "count": 20,
+        "uncompressed_bytes": 69701748,
+        "share_pct": 35.68
+      },
+      {
+        "category": "Native Libraries (ELF .so)",
+        "count": 27,
+        "uncompressed_bytes": 57452124,
+        "share_pct": 29.41
+      },
+      {
+        "category": "Android Manifest & Compiled Resources",
+        "count": 5865,
+        "uncompressed_bytes": 41015850,
+        "share_pct": 21.0
+      },
+      {
+        "category": "On-Device ML & Vision Models",
+        "count": 46,
+        "uncompressed_bytes": 15965341,
+        "share_pct": 8.17
+      },
+      {
+        "category": "Hybrid Web / React Native / Griver Mini-Apps",
+        "count": 23,
+        "uncompressed_bytes": 5194060,
+        "share_pct": 2.66
+      },
+      {
+        "category": "Application Assets & Configs",
+        "count": 45,
+        "uncompressed_bytes": 3042139,
+        "share_pct": 1.56
+      },
+      {
+        "category": "Other Root Package Files",
+        "count": 226,
+        "uncompressed_bytes": 1805204,
+        "share_pct": 0.92
+      },
+      {
+        "category": "Fonts & Typography",
+        "count": 12,
+        "uncompressed_bytes": 925636,
+        "share_pct": 0.47
+      },
+      {
+        "category": "Signing & Dependency Metadata (META-INF)",
+        "count": 197,
+        "uncompressed_bytes": 203057,
+        "share_pct": 0.1
+      },
+      {
+        "category": "ART Runtime & Kotlin Tooling",
+        "count": 3,
+        "uncompressed_bytes": 22150,
+        "share_pct": 0.01
+      }
+    ]
+  },
+  "signing_integrity": {
+    "schemes": [
+      "APK Signature Scheme v2",
+      "APK Signature Scheme v3",
+      "Source Stamp Block v1",
+      "Unknown Block (0x2146444e)",
+      "Verity Padding Block"
+    ],
+    "v1_signer": {},
+    "rea_graph_sha256_base_apk": "5e4ccc029c6647345b08c3ca75826745f76dbbf4aca4fd50f616bc7f172c55e9",
+    "rea_integrity_contradictions": 0
+  },
+  "manifest_surface": {
+    "permissions_total": 49,
+    "permissions_by_category": {
+      "dangerous": 14,
+      "normal": 10,
+      "sensitive_or_oem": 25
+    },
+    "components": {
+      "activity": {
+        "total": 200,
+        "exported_true": 14,
+        "exported_false": 29,
+        "permission_protected": 0,
+        "custom_process_isolated": 8
+      },
+      "activity-alias": {
+        "total": 2,
+        "exported_true": 2,
+        "exported_false": 0,
+        "permission_protected": 0,
+        "custom_process_isolated": 0
+      },
+      "service": {
+        "total": 34,
+        "exported_true": 6,
+        "exported_false": 24,
+        "permission_protected": 9,
+        "custom_process_isolated": 8
+      },
+      "receiver": {
+        "total": 22,
+        "exported_true": 8,
+        "exported_false": 14,
+        "permission_protected": 3,
+        "custom_process_isolated": 0
+      },
+      "provider": {
+        "total": 9,
+        "exported_true": 0,
+        "exported_false": 9,
+        "permission_protected": 0,
+        "custom_process_isolated": 0
+      }
+    },
+    "isolated_processes": [
+      ":lite1",
+      ":lite2",
+      ":lite3",
+      ":lite4",
+      ":lite5",
+      ":taibmcf",
+      ":xcmzqsawpqoefcds"
+    ],
+    "deep_link_schemes": [
+      "fbconnect",
+      "https",
+      "tagmanager.c.vn.com.vng.zalopay",
+      "zalopay",
+      "zalopay-1",
+      "zalopay-vnpay",
+      "zalopay.api.v2"
+    ],
+    "allow_backup": "false",
+    "application_entrypoint": "jwbmqnsll.xvndbxlk",
+    "network_security_configs": [
+      {
+        "file": "res/xml/network_security_config.xml",
+        "cleartext_flags": [
+          "true",
+          "true"
+        ],
+        "domain_count": 1,
+        "domains_sample": [
+          "storage.googleapis.com"
+        ],
+        "pin_set_count": 0,
+        "pin_digest_count": 0
+      }
+    ]
+  },
+  "dex_architecture": {
+    "total_dex_files": 20,
+    "total_dex_bytes": 69701748,
+    "aggregate": {
+      "total_class_defs": 63827,
+      "total_method_ids_sum": 378040,
+      "total_field_ids_sum": 317841,
+      "total_string_ids_sum": 404914,
+      "short_obfuscated_classes": 44452,
+      "short_obfuscated_ratio": 0.6964,
+      "kotlin_marker_classes": 207,
+      "compose_related_classes": 509
+    },
+    "sdk_distribution": [
+      {
+        "ecosystem": "R8/ProGuard Short-Obfuscated Namespace",
+        "classes": 26977,
+        "share_pct": 42.27
+      },
+      {
+        "ecosystem": "Google / GMS / Firebase / MLKit",
+        "classes": 7861,
+        "share_pct": 12.32
+      },
+      {
+        "ecosystem": "Payments / Card / eKYC / Biometrics",
+        "classes": 7842,
+        "share_pct": 12.29
+      },
+      {
+        "ecosystem": "Ant Group / Alipay+ / Griver",
+        "classes": 6913,
+        "share_pct": 10.83
+      },
+      {
+        "ecosystem": "AndroidX / Jetpack / Kotlin",
+        "classes": 4673,
+        "share_pct": 7.32
+      },
+      {
+        "ecosystem": "React Native / Hermes / Facebook",
+        "classes": 3556,
+        "share_pct": 5.57
+      },
+      {
+        "ecosystem": "Other Third-Party Libraries",
+        "classes": 3459,
+        "share_pct": 5.42
+      },
+      {
+        "ecosystem": "ZaloPay First-Party",
+        "classes": 1138,
+        "share_pct": 1.78
+      },
+      {
+        "ecosystem": "Networking / Serialization / Concurrency",
+        "classes": 1005,
+        "share_pct": 1.57
+      },
+      {
+        "ecosystem": "Analytics / Attribution / Crash",
+        "classes": 376,
+        "share_pct": 0.59
+      },
+      {
+        "ecosystem": "VNG / Zalo Ecosystem",
+        "classes": 15,
+        "share_pct": 0.02
+      },
+      {
+        "ecosystem": "Default / Root Package",
+        "classes": 12,
+        "share_pct": 0.02
+      }
+    ],
+    "per_dex": [
+      {
+        "filename": "classes.dex",
+        "size_bytes": 8831004,
+        "sha256": "4572f052124fb4ebe9859e7311dd08251487ef258e6e39215456fe2918ceb9eb",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 61218,
+        "type_ids_count": 17196,
+        "proto_ids_count": 15953,
+        "field_ids_count": 46956,
+        "method_ids_count": 59948,
+        "class_defs_count": 10703,
+        "obfuscated_short_classes": 7150,
+        "obfuscated_ratio": 0.668,
+        "kotlin_marker_classes": 25
+      },
+      {
+        "filename": "classes10.dex",
+        "size_bytes": 78204,
+        "sha256": "c2523d14c1373950903f7477cf383f906428d23a62993b90dff72060723a928d",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 920,
+        "type_ids_count": 461,
+        "proto_ids_count": 300,
+        "field_ids_count": 314,
+        "method_ids_count": 578,
+        "class_defs_count": 92,
+        "obfuscated_short_classes": 91,
+        "obfuscated_ratio": 0.9891,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes11.dex",
+        "size_bytes": 163420,
+        "sha256": "c6ee2d78f32137cb5450b9cf0fd55cebff8704328d4b9e719981d69b34160b2e",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 1584,
+        "type_ids_count": 740,
+        "proto_ids_count": 523,
+        "field_ids_count": 694,
+        "method_ids_count": 1171,
+        "class_defs_count": 177,
+        "obfuscated_short_classes": 163,
+        "obfuscated_ratio": 0.9209,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes12.dex",
+        "size_bytes": 398276,
+        "sha256": "6742bfd85b7f61e18325045282b0ab6f8ad2ba7e4900217975c1a092889a2788",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 3207,
+        "type_ids_count": 1191,
+        "proto_ids_count": 916,
+        "field_ids_count": 1723,
+        "method_ids_count": 2604,
+        "class_defs_count": 425,
+        "obfuscated_short_classes": 413,
+        "obfuscated_ratio": 0.9718,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes13.dex",
+        "size_bytes": 145824,
+        "sha256": "eb3fffe1dace3619cfb27fcb4eb88e3def404e5ddb59e1fd85b05d2c48b659df",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 1381,
+        "type_ids_count": 590,
+        "proto_ids_count": 420,
+        "field_ids_count": 561,
+        "method_ids_count": 997,
+        "class_defs_count": 139,
+        "obfuscated_short_classes": 125,
+        "obfuscated_ratio": 0.8993,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes14.dex",
+        "size_bytes": 81748,
+        "sha256": "63bc3727cf4b3674f8021471d7c0746666d9c76a999571bf300c097ab02720ee",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 961,
+        "type_ids_count": 404,
+        "proto_ids_count": 249,
+        "field_ids_count": 371,
+        "method_ids_count": 575,
+        "class_defs_count": 90,
+        "obfuscated_short_classes": 87,
+        "obfuscated_ratio": 0.9667,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes15.dex",
+        "size_bytes": 82152,
+        "sha256": "a8b037ff84ee078e100c3362f329900d0b7d7c2e4ab5d3fd6bf014504afb5b6e",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 1005,
+        "type_ids_count": 436,
+        "proto_ids_count": 305,
+        "field_ids_count": 410,
+        "method_ids_count": 658,
+        "class_defs_count": 113,
+        "obfuscated_short_classes": 112,
+        "obfuscated_ratio": 0.9912,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes16.dex",
+        "size_bytes": 15916,
+        "sha256": "331b4ebe76e9a71501cb6d912fe80295365e407b771c07434310f5c0b1b49ef1",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 261,
+        "type_ids_count": 116,
+        "proto_ids_count": 69,
+        "field_ids_count": 38,
+        "method_ids_count": 101,
+        "class_defs_count": 20,
+        "obfuscated_short_classes": 19,
+        "obfuscated_ratio": 0.95,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes17.dex",
+        "size_bytes": 208476,
+        "sha256": "70f01df8cb8b396616aff93345018a06f69a922c2cfc9c60d3c6a49dadb4d333",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 1847,
+        "type_ids_count": 848,
+        "proto_ids_count": 611,
+        "field_ids_count": 972,
+        "method_ids_count": 1311,
+        "class_defs_count": 243,
+        "obfuscated_short_classes": 238,
+        "obfuscated_ratio": 0.9794,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes18.dex",
+        "size_bytes": 95920,
+        "sha256": "326bdb3326e630df71334a3486447f0c32758c5c6828485b5f466b74d1b9bdba",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 1094,
+        "type_ids_count": 553,
+        "proto_ids_count": 373,
+        "field_ids_count": 428,
+        "method_ids_count": 668,
+        "class_defs_count": 115,
+        "obfuscated_short_classes": 114,
+        "obfuscated_ratio": 0.9913,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes19.dex",
+        "size_bytes": 719548,
+        "sha256": "4e7f019ebd9b76f66a9727fa841026e194f2d389350de6fe63dffb95820429a9",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 4159,
+        "type_ids_count": 1782,
+        "proto_ids_count": 1445,
+        "field_ids_count": 2804,
+        "method_ids_count": 3781,
+        "class_defs_count": 777,
+        "obfuscated_short_classes": 772,
+        "obfuscated_ratio": 0.9936,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes2.dex",
+        "size_bytes": 16516960,
+        "sha256": "af4987a99dd7bb69a835933be5e6ee5ec412de051bb0958fb253742b3fd462d9",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 56948,
+        "type_ids_count": 11243,
+        "proto_ids_count": 12070,
+        "field_ids_count": 60000,
+        "method_ids_count": 45527,
+        "class_defs_count": 7421,
+        "obfuscated_short_classes": 3564,
+        "obfuscated_ratio": 0.4803,
+        "kotlin_marker_classes": 141
+      },
+      {
+        "filename": "classes3.dex",
+        "size_bytes": 850600,
+        "sha256": "7e84baa2c50fd46554628176ee7a802bb13f36e7cfe1278efbed2739a4d14881",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 8010,
+        "type_ids_count": 3827,
+        "proto_ids_count": 2361,
+        "field_ids_count": 3619,
+        "method_ids_count": 6354,
+        "class_defs_count": 1081,
+        "obfuscated_short_classes": 980,
+        "obfuscated_ratio": 0.9066,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes4.dex",
+        "size_bytes": 9418124,
+        "sha256": "77eb2deb3c18c0a56742d2fc5b7974a791b2b31298961c65dc9b3db8427602af",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 52812,
+        "type_ids_count": 19105,
+        "proto_ids_count": 15731,
+        "field_ids_count": 40269,
+        "method_ids_count": 59997,
+        "class_defs_count": 11441,
+        "obfuscated_short_classes": 9387,
+        "obfuscated_ratio": 0.8205,
+        "kotlin_marker_classes": 1
+      },
+      {
+        "filename": "classes5.dex",
+        "size_bytes": 7357484,
+        "sha256": "c6fdc65622c1855a53a7e86ef695a7575f9fe27284e6e6555d52017a122fa9b4",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 56424,
+        "type_ids_count": 14079,
+        "proto_ids_count": 13049,
+        "field_ids_count": 60002,
+        "method_ids_count": 49055,
+        "class_defs_count": 7983,
+        "obfuscated_short_classes": 2592,
+        "obfuscated_ratio": 0.3247,
+        "kotlin_marker_classes": 2
+      },
+      {
+        "filename": "classes6.dex",
+        "size_bytes": 7612432,
+        "sha256": "1484dd8a338f8526b21d375325f5cb2aa4f596e471758e36e3d142ebf0ec3518",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 55274,
+        "type_ids_count": 18399,
+        "proto_ids_count": 15543,
+        "field_ids_count": 36617,
+        "method_ids_count": 49201,
+        "class_defs_count": 5475,
+        "obfuscated_short_classes": 3619,
+        "obfuscated_ratio": 0.661,
+        "kotlin_marker_classes": 8
+      },
+      {
+        "filename": "classes7.dex",
+        "size_bytes": 10803680,
+        "sha256": "5f356407a685dbe335719b9c8b34d1e47870b15634cc6f856e3bc12401726ff2",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 59110,
+        "type_ids_count": 20633,
+        "proto_ids_count": 16081,
+        "field_ids_count": 43164,
+        "method_ids_count": 60000,
+        "class_defs_count": 12953,
+        "obfuscated_short_classes": 10728,
+        "obfuscated_ratio": 0.8282,
+        "kotlin_marker_classes": 29
+      },
+      {
+        "filename": "classes8.dex",
+        "size_bytes": 239036,
+        "sha256": "2e6d27956d455d475a7d0242bb128b9be48a6be7f37d599ed541541daa53a177",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 1906,
+        "type_ids_count": 915,
+        "proto_ids_count": 697,
+        "field_ids_count": 1056,
+        "method_ids_count": 1552,
+        "class_defs_count": 295,
+        "obfuscated_short_classes": 294,
+        "obfuscated_ratio": 0.9966,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "classes9.dex",
+        "size_bytes": 1218908,
+        "sha256": "e9b46539c92987be18e840d9ffdc338e00505d52a04e117cc79ccbd8337522f5",
+        "dex_magic": "dex\\n038\u0000",
+        "string_ids_count": 6155,
+        "type_ids_count": 2175,
+        "proto_ids_count": 1827,
+        "field_ids_count": 4520,
+        "method_ids_count": 7170,
+        "class_defs_count": 1128,
+        "obfuscated_short_classes": 932,
+        "obfuscated_ratio": 0.8262,
+        "kotlin_marker_classes": 0
+      },
+      {
+        "filename": "assets/audience_network.dex",
+        "size_bytes": 4864036,
+        "sha256": "10dc305fb2869db288bec2e114b32303dd627190dd6b23126d5e7aa610e44938",
+        "dex_magic": "dex\\n035\u0000",
+        "string_ids_count": 30638,
+        "type_ids_count": 4504,
+        "proto_ids_count": 6477,
+        "field_ids_count": 13323,
+        "method_ids_count": 26792,
+        "class_defs_count": 3156,
+        "obfuscated_short_classes": 3072,
+        "obfuscated_ratio": 0.9734,
+        "kotlin_marker_classes": 1
+      }
+    ]
+  },
+  "native_elf_hardening": {
+    "summary": {
+      "total_elf_libraries": 27,
+      "total_bytes": 57452124,
+      "pie_enabled_count": 27,
+      "nx_enabled_count": 27,
+      "full_relro_count": 23,
+      "partial_relro_count": 0,
+      "no_relro_count": 4,
+      "stack_canary_count": 25,
+      "fortify_source_count": 15,
+      "stripped_symtab_count": 26,
+      "jni_onload_count": 13,
+      "dt_needed_frequency": {
+        "libc.so": 27,
+        "libdl.so": 27,
+        "libm.so": 27,
+        "liblog.so": 25,
+        "libandroid.so": 9,
+        "libjnigraphics.so": 9,
+        "libz.so": 7,
+        "libEGL.so": 3,
+        "libGLESv2.so": 2,
+        "libstdc++.so": 1,
+        "librcmefqonnx.so": 1,
+        "liblytcuhe.so": 1,
+        "libGLESv3.so": 1,
+        "libc++_shared.so": 1
+      },
+      "category_byte_totals": {
+        "On-Device AI / Computer Vision / eKYC": 27557616,
+        "RASP / App Shielding & Obfuscated Native Modules": 21228660,
+        "Graphics / Vector Animation / Media": 3612804,
+        "NDK C++ Standard Runtime": 872872,
+        "Native Crash Telemetry (Firebase Crashlytics)": 625092,
+        "Encrypted Storage (SQLCipher)": 3555080
+      }
+    },
+    "libraries": [
+      {
+        "name": "libVFaceLib.so",
+        "category": "On-Device AI / Computer Vision / eKYC",
+        "bytes": 1963668,
+        "entropy": 7.1116,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 4,
+        "dt_needed": [
+          "libandroid.so",
+          "liblog.so",
+          "libjnigraphics.so",
+          "libc.so",
+          "libz.so",
+          "libdl.so",
+          "libm.so"
+        ],
+        "compiler": "Android (12027248, +pgo, -bolt, +lto, -mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) |  | Android (13691557, +pgo, +bolt, +lto, +mlgo, based o"
+      },
+      {
+        "name": "liba97d.so",
+        "category": "RASP / App Shielding & Obfuscated Native Modules",
+        "bytes": 997572,
+        "entropy": 6.2211,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": false,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "libc.so",
+          "libstdc++.so",
+          "libm.so",
+          "libdl.so",
+          "liblog.so"
+        ],
+        "compiler": null
+      },
+      {
+        "name": "libandroidx.graphics.path.so",
+        "category": "Graphics / Vector Animation / Media",
+        "bytes": 7252,
+        "entropy": 5.7671,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": false,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+      },
+      {
+        "name": "libbarhopper_v3.so",
+        "category": "On-Device AI / Computer Vision / eKYC",
+        "bytes": 3244440,
+        "entropy": 7.2147,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": false,
+        "stripped": true,
+        "jni_exports": 8,
+        "dt_needed": [
+          "libjnigraphics.so",
+          "liblog.so",
+          "libdl.so",
+          "libm.so",
+          "libc.so"
+        ],
+        "compiler": null
+      },
+      {
+        "name": "libc++_shared.so",
+        "category": "NDK C++ Standard Runtime",
+        "bytes": 872872,
+        "entropy": 6.8845,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": false,
+        "fortify": false,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "compiler": "Android (11695104, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) |  | Linker: LLD 18.0.3 | Android (12470979, +pgo, +bolt,"
+      },
+      {
+        "name": "libcrashlytics-common.so",
+        "category": "Native Crash Telemetry (Firebase Crashlytics)",
+        "bytes": 435732,
+        "entropy": 6.906,
+        "pie": true,
+        "nx": true,
+        "relro": "none",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "liblog.so",
+          "libz.so",
+          "libdl.so",
+          "libc.so",
+          "libm.so"
+        ],
+        "compiler": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6"
+      },
+      {
+        "name": "libcrashlytics-handler.so",
+        "category": "Native Crash Telemetry (Firebase Crashlytics)",
+        "bytes": 87908,
+        "entropy": 6.5162,
+        "pie": true,
+        "nx": true,
+        "relro": "none",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "liblog.so",
+          "libz.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "compiler": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6"
+      },
+      {
+        "name": "libcrashlytics-trampoline.so",
+        "category": "Native Crash Telemetry (Firebase Crashlytics)",
+        "bytes": 6912,
+        "entropy": 4.6584,
+        "pie": true,
+        "nx": true,
+        "relro": "none",
+        "stack_canary": false,
+        "fortify": false,
+        "stripped": false,
+        "jni_exports": 0,
+        "dt_needed": [
+          "liblog.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "compiler": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6"
+      },
+      {
+        "name": "libcrashlytics.so",
+        "category": "Native Crash Telemetry (Firebase Crashlytics)",
+        "bytes": 94540,
+        "entropy": 6.5569,
+        "pie": true,
+        "nx": true,
+        "relro": "none",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "liblog.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "compiler": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6"
+      },
+      {
+        "name": "libface_detector_v2_jni.so",
+        "category": "On-Device AI / Computer Vision / eKYC",
+        "bytes": 5388224,
+        "entropy": 7.1486,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": false,
+        "stripped": true,
+        "jni_exports": 6,
+        "dt_needed": [
+          "libandroid.so",
+          "liblog.so",
+          "libjnigraphics.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": null
+      },
+      {
+        "name": "libfgcpkjvqe.so",
+        "category": "RASP / App Shielding & Obfuscated Native Modules",
+        "bytes": 6524160,
+        "entropy": 6.2658,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "libz.so",
+          "liblog.so",
+          "libandroid.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349) |  | Linker: LLD 21.0.0 (/mnt/disks/build-disk/src/googl"
+      },
+      {
+        "name": "libimage_processing_util_jni.so",
+        "category": "Graphics / Vector Animation / Media",
+        "bytes": 20380,
+        "entropy": 6.5741,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 6,
+        "dt_needed": [
+          "liblog.so",
+          "libandroid.so",
+          "libjnigraphics.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+      },
+      {
+        "name": "libimagepipeline.so",
+        "category": "Graphics / Vector Animation / Media",
+        "bytes": 5876,
+        "entropy": 5.1578,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": false,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "liblog.so",
+          "libjnigraphics.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "compiler": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18.0.2"
+      },
+      {
+        "name": "libljsfrcwmw.so",
+        "category": "RASP / App Shielding & Obfuscated Native Modules",
+        "bytes": 600296,
+        "entropy": 6.4332,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "librcmefqonnx.so",
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6"
+      },
+      {
+        "name": "liblytcuhe.so",
+        "category": "RASP / App Shielding & Obfuscated Native Modules",
+        "bytes": 178628,
+        "entropy": 6.6293,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6"
+      },
+      {
+        "name": "libmlkit_google_ocr_pipeline.so",
+        "category": "On-Device AI / Computer Vision / eKYC",
+        "bytes": 6781940,
+        "entropy": 6.98,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": false,
+        "stripped": true,
+        "jni_exports": 33,
+        "dt_needed": [
+          "liblog.so",
+          "libdl.so",
+          "libjnigraphics.so",
+          "libandroid.so",
+          "libz.so",
+          "libm.so",
+          "libEGL.so",
+          "libGLESv2.so",
+          "libc.so"
+        ],
+        "compiler": null
+      },
+      {
+        "name": "libmlkitcommonpipeline.so",
+        "category": "On-Device AI / Computer Vision / eKYC",
+        "bytes": 6928228,
+        "entropy": 7.1582,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": false,
+        "stripped": true,
+        "jni_exports": 38,
+        "dt_needed": [
+          "liblog.so",
+          "libdl.so",
+          "libjnigraphics.so",
+          "libandroid.so",
+          "libz.so",
+          "libm.so",
+          "libEGL.so",
+          "libGLESv2.so",
+          "libc.so"
+        ],
+        "compiler": null
+      },
+      {
+        "name": "libnative-filters.so",
+        "category": "Graphics / Vector Animation / Media",
+        "bytes": 12588,
+        "entropy": 6.3272,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": false,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "liblog.so",
+          "libjnigraphics.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "compiler": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18.0.2"
+      },
+      {
+        "name": "libnative-imagetranscoder.so",
+        "category": "Graphics / Vector Animation / Media",
+        "bytes": 341072,
+        "entropy": 6.9594,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "liblog.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "compiler": "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262) | Linker: LLD 18.0.2"
+      },
+      {
+        "name": "libohxbee.so",
+        "category": "RASP / App Shielding & Obfuscated Native Modules",
+        "bytes": 155412,
+        "entropy": 6.2457,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "liblytcuhe.so",
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6"
+      },
+      {
+        "name": "libpicodet_ncnn.so",
+        "category": "On-Device AI / Computer Vision / eKYC",
+        "bytes": 2992584,
+        "entropy": 7.1811,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 8,
+        "dt_needed": [
+          "liblog.so",
+          "libandroid.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349) | Android (12027248, +pgo, -bolt, +lto, -mlgo, based on "
+      },
+      {
+        "name": "librcmefqonnx.so",
+        "category": "On-Device AI / Computer Vision / eKYC",
+        "bytes": 178628,
+        "entropy": 6.6295,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6"
+      },
+      {
+        "name": "librive-android.so",
+        "category": "Graphics / Vector Animation / Media",
+        "bytes": 3225636,
+        "entropy": 6.4175,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": false,
+        "stripped": true,
+        "jni_exports": 167,
+        "dt_needed": [
+          "liblog.so",
+          "libandroid.so",
+          "libEGL.so",
+          "libGLESv3.so",
+          "libjnigraphics.so",
+          "libm.so",
+          "libc++_shared.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Linker: LLD 18.0.3 | Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+      },
+      {
+        "name": "libsecurity_lite.so",
+        "category": "RASP / App Shielding & Obfuscated Native Modules",
+        "bytes": 154840,
+        "entropy": 7.3025,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": false,
+        "stripped": true,
+        "jni_exports": 4,
+        "dt_needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (b"
+      },
+      {
+        "name": "libsqlcipher.so",
+        "category": "Encrypted Storage (SQLCipher)",
+        "bytes": 3555080,
+        "entropy": 6.6941,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "libdl.so",
+          "liblog.so",
+          "libc.so",
+          "libm.so"
+        ],
+        "compiler": "Linker: LLD 14.0.7 | Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Android (7284624, based on r416183b) clang version 12.0.5 ("
+      },
+      {
+        "name": "libtaibmcf.so",
+        "category": "RASP / App Shielding & Obfuscated Native Modules",
+        "bytes": 12617752,
+        "entropy": 6.1236,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 0,
+        "dt_needed": [
+          "libz.so",
+          "liblog.so",
+          "libandroid.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Android (11349228, +pgo, +bolt, +lto, -mlgo, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362) | Linker: LLD 17.0.2"
+      },
+      {
+        "name": "libtrueidlib.so",
+        "category": "On-Device AI / Computer Vision / eKYC",
+        "bytes": 79904,
+        "entropy": 6.9485,
+        "pie": true,
+        "nx": true,
+        "relro": "full",
+        "stack_canary": true,
+        "fortify": true,
+        "stripped": true,
+        "jni_exports": 10,
+        "dt_needed": [
+          "liblog.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "compiler": "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6) | Linker: LLD 14.0.6"
+      }
+    ],
+    "assets_trueidlib_stub": {
+      "path": "assets/trueidlib.so",
+      "size_bytes": 392,
+      "sha256": "055e573dbee6ee9d078b9856cb0e76ed34eb1b60e601ecae114068044fb95cc5",
+      "entropy": 7.5008,
+      "is_elf": false,
+      "note": "Non-ELF opaque/encrypted payload disguised or companion-named alongside lib/armeabi-v7a/libtrueidlib.so"
+    }
+  },
+  "hybrid_and_ai_stack": {
+    "androidx_version_manifests": 141,
+    "ml_total_artifacts": 51,
+    "ml_total_bytes": 19746112,
+    "ml_by_engine": {
+      "Face Detection / Liveness / OpenCV LBF": {
+        "count": 15,
+        "bytes": 8056742
+      },
+      "Google ML Kit Object Detection & Custom TFLite": {
+        "count": 5,
+        "bytes": 6885218
+      },
+      "Tencent NCNN (FastestDet)": {
+        "count": 2,
+        "bytes": 2435881
+      },
+      "Google ML Kit OCR (GOCR / Taser / Aksara)": {
+        "count": 21,
+        "bytes": 1486803
+      },
+      "Google ML Kit Barcode SSD": {
+        "count": 3,
+        "bytes": 880888
+      },
+      "Other ML / Protobuf Metadata": {
+        "count": 5,
+        "bytes": 580
+      }
+    },
+    "react_native": {
+      "bundle_bytes": 3613478,
+      "bundle_lines": 2358,
+      "detected_rn_version_hint": "2.5.2",
+      "__d_module_definitions_count": 2346,
+      "asset_node_modules_packages": {
+        "zalopaycomponents": 45,
+        "reactnativecheckbox": 7,
+        "reactnavigationstack": 6,
+        "miniapps": 6
+      },
+      "asset_feature_modules": {
+        "notifications": 108,
+        "transactionhistoryv2": 60,
+        "about": 41,
+        "clearingaccount": 27,
+        "registeronlinebanking": 15,
+        "components": 2
+      }
+    },
+    "griver_mini_programs": {
+      "griver_66666692_1.24.8": {
+        "manifest_xml_bytes": 133,
+        "cert_keys": [
+          "66666692.tar",
+          "Manifest.xml"
+        ],
+        "tar_file_count": 10,
+        "tar_total_bytes": 968941,
+        "tar_files": [
+          {
+            "path": "appx/af-appx.min.js",
+            "bytes": 501944
+          },
+          {
+            "path": "appx/af-appx.worker.min.js",
+            "bytes": 403620
+          },
+          {
+            "path": "appx/worker.min.js",
+            "bytes": 23363
+          },
+          {
+            "path": "appx/af-appx.min.css",
+            "bytes": 21912
+          },
+          {
+            "path": "appx/web-view.min.js",
+            "bytes": 9095
+          },
+          {
+            "path": "appx/es6-promise.min.js",
+            "bytes": 6367
+          },
+          {
+            "path": "appx/index.html",
+            "bytes": 1440
+          },
+          {
+            "path": "appx/security-patch.min.js",
+            "bytes": 731
+          },
+          {
+            "path": "bugme.cfg",
+            "bytes": 267
+          },
+          {
+            "path": "hpmfile.json",
+            "bytes": 202
+          }
+        ]
+      },
+      "griver_66666693_2.0.7": {
+        "manifest_xml_bytes": 132,
+        "cert_keys": [
+          "66666693.tar",
+          "Manifest.xml"
+        ],
+        "tar_file_count": 7,
+        "tar_total_bytes": 56382,
+        "tar_files": [
+          {
+            "path": "index.worker.js",
+            "bytes": 29252
+          },
+          {
+            "path": "index.js",
+            "bytes": 22462
+          },
+          {
+            "path": "index.html",
+            "bytes": 4439
+          },
+          {
+            "path": "appConfig.json",
+            "bytes": 134
+          },
+          {
+            "path": "manifest.json",
+            "bytes": 74
+          },
+          {
+            "path": "package.json",
+            "bytes": 19
+          },
+          {
+            "path": "api_permission",
+            "bytes": 2
+          }
+        ]
+      },
+      "griver_68687209_2.9.7.8": {
+        "manifest_xml_bytes": 134,
+        "cert_keys": [
+          "68687209.tar",
+          "Manifest.xml"
+        ],
+        "tar_file_count": 13,
+        "tar_total_bytes": 3292617,
+        "tar_files": [
+          {
+            "path": "appx-ng/af-appx.min.js",
+            "bytes": 1667588
+          },
+          {
+            "path": "appx-ng/af-appx.worker.min.js",
+            "bytes": 1371101
+          },
+          {
+            "path": "appx-ng/appx-portal.min.js",
+            "bytes": 61935
+          },
+          {
+            "path": "appx-ng/appx-portal.worker.min.js",
+            "bytes": 57703
+          },
+          {
+            "path": "appx-ng/af-appx.min.css",
+            "bytes": 52368
+          },
+          {
+            "path": "appx-ng/web-view.min.js",
+            "bytes": 39939
+          },
+          {
+            "path": "appx-ng/worker.min.js",
+            "bytes": 23646
+          },
+          {
+            "path": "appx-ng/es6-promise.min.js",
+            "bytes": 6367
+          },
+          {
+            "path": "appx-ng/appx-prerender.min.js",
+            "bytes": 6058
+          },
+          {
+            "path": "appx-ng/index.prerender.html",
+            "bytes": 3393
+          },
+          {
+            "path": "appx-ng/index.html",
+            "bytes": 1521
+          },
+          {
+            "path": "appx-ng/security-patch.min.js",
+            "bytes": 731
+          },
+          {
+            "path": "bugme.cfg",
+            "bytes": 267
+          }
+        ]
+      }
+    },
+    "miniapp_config_schema": {
+      "size_bytes": 883684,
+      "top_keys": [
+        "code",
+        "data",
+        "msg"
+      ],
+      "list_counts": {
+        "data": 373
+      }
+    },
+    "shield_dat_payloads": [
+      {
+        "path": "assets/bshield.dat",
+        "bytes": 929
+      },
+      {
+        "path": "assets/fgcpkjvqe.dat",
+        "bytes": 776320
+      },
+      {
+        "path": "assets/taibmcf.dat",
+        "bytes": 8307
+      }
+    ]
+  }
+}
