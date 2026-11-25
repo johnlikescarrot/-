@@ -1,0 +1,1074 @@
+{
+ "libVFaceLib.so": {
+  "size": 1963668,
+  "needed": [
+   "libandroid.so",
+   "liblog.so",
+   "libjnigraphics.so",
+   "libc.so",
+   "libz.so",
+   "libdl.so",
+   "libm.so"
+  ],
+  "jni_exports": 4,
+  "jni_sample": [
+   "00057115 T Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_faceAlignment",
+   "00057719 T Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeDestroy",
+   "00057641 T Java_vn_ai_faceauth_sdk_opencv_VFaceLib_00024Companion_nativeInit",
+   "00056c09 T Java_vn_ai_faceauth_sdk_opencv_VFaceLib_getFaces"
+  ],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project",
+   "https://github.com/opencv/opencv/issues/16739"
+  ],
+  "interesting_strings": [
+   "pthread_key_create",
+   "pthread_key_delete",
+   "unsigned short",
+   "unsigned long long",
+   "core(parallel): no compatible plugin API for backend: ",
+   "void cv::XYZ2RGB_i<unsigned char>::operator()(const uchar *, uchar *, int) const",
+   "An attempt to add element without a key to a map, or add element with key to sequence",
+   "Complex keys are not supported",
+   "Reshaping of n-dimensional non-continuous matrices is not supported yet",
+   "Key must end with '\"'",
+   "An empty key",
+   "pthread_setspecific(tlsKey, pData) == 0",
+   "nodes[root][PARENT] < 0",
+   "Gpu API call",
+   "parallelForSetRootRegion",
+   "float cv::cubeRoot(float)",
+   "The key is too long",
+   "parseKey",
+   "Key should start with a letter or _",
+   "The key is an empty",
+   "Missing ':' between key and value",
+   "__itt_api_version",
+   "key_ == -1",
+   "reshape",
+   "assign"
+  ],
+  "total_strings": 6620
+ },
+ "liba97d.so": {
+  "size": 997572,
+  "needed": [
+   "libc.so",
+   "libstdc++.so",
+   "libm.so",
+   "libdl.so",
+   "liblog.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [],
+  "interesting_strings": [
+   "pthread_key_delete",
+   "pthread_key_create"
+  ],
+  "total_strings": 724
+ },
+ "libandroidx.graphics.path.so": {
+  "size": 7252,
+  "needed": [
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "androidx/graphics/path/PathIteratorPreApi34Impl",
+   "Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+  ],
+  "total_strings": 60
+ },
+ "libbarhopper_v3.so": {
+  "size": 3244440,
+  "needed": [
+   "libjnigraphics.so",
+   "liblog.so",
+   "libdl.so",
+   "libm.so",
+   "libc.so"
+  ],
+  "jni_exports": 8,
+  "jni_sample": [
+   "000561f5 T Java_com_google_android_libraries_barhopper_BarhopperV3_closeNative@@VERS_1.0",
+   "00056165 T Java_com_google_android_libraries_barhopper_BarhopperV3_createNative@@VERS_1.0",
+   "00056175 T Java_com_google_android_libraries_barhopper_BarhopperV3_createNativeWithClientOptions@@VERS_1.0",
+   "00056209 T Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBitmapNative@@VERS_1.0",
+   "00056563 T Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeBufferNative@@VERS_1.0",
+   "00056675 T Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeNative@@VERS_1.0",
+   "000565d1 T Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedBufferNative@@VERS_1.0",
+   "000566cb T Java_com_google_android_libraries_barhopper_BarhopperV3_recognizeStridedNative@@VERS_1.0"
+  ],
+  "urls": [
+   "http://http",
+   "https://www.tensorflow.org/lite/guide/ops_custom",
+   "https://www.tensorflow.org/lite/guide/ops_select"
+  ],
+  "interesting_strings": [
+   "OPENSSL_memory_alloc",
+   "OPENSSL_memory_free",
+   "OPENSSL_memory_get_size",
+   "pthread_key_create",
+   "pthread_cond_signal",
+   "pthread_key_delete",
+   "SignedVertexCrossing called with 4 distinct vertices",
+   "', token '",
+   "NN API Delegate: Can't get an equivalent TF Lite type for provided NN API type: %d.",
+   "Execution info: getSessionId=%d getErrorCode=%d getNnApiVersion=%lld getModelArchHash=%x getDeviceIds=%s getInputDataClass=%d getOutputDataClass=%d isCachingEnabled=%s isControlFlowUsed=%s getExecutionMode=%d getRuntimeExecutionTimeNanos=%llu getDriverExecutionTimeNanos=%llu getHardwareExecutionTimeNanos=%llu",
+   "xnn_define_static_transpose( subgraph, permute_k.size(), permute_k.data(), key_proj_id, permute_k_out_id, 0)",
+   "xnn_define_static_reshape(subgraph, q_reshape_dims.size(), q_reshape_dims.data(), permute_q_out_id, q_reshape_id, 0)",
+   "HaveSameShapes(input, output)",
+   "third_party/tensorflow/lite/kernels/numeric_verify.cc",
+   "shape_data[ix + i]",
+   "third_party/openssl/boringssl/src/crypto/mem.c",
+   "configuring NNAPI caching",
+   "map::at:  key not found",
+   "%s shape (%d) must be equal to input shape (%d) in STRIDED_SLICE node #%d",
+   "op_context.shape1->type",
+   "third_party/tensorflow/lite/kernels/reshape.cc",
+   "final_dim_size % block_shape[dim]",
+   "klogdebugfatal",
+   "Shape %d has invalid coordinates",
+   "Shape %d: chain %d, edge %d is degenerate"
+  ],
+  "total_strings": 12041
+ },
+ "libc++_shared.so": {
+  "size": 872872,
+  "needed": [
+   "libc.so",
+   "libm.so",
+   "libdl.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "pthread_key_create",
+   "_ZNSt6__ndk119__shared_weak_count14__release_weakEv",
+   "_ZNKSt6__ndk14__fs10filesystem4path11__root_nameEv",
+   "_ZNKSt6__ndk14__fs10filesystem4path16__root_directoryEv",
+   "_ZNKSt6__ndk14__fs10filesystem4path15__root_path_rawEv",
+   "_ZNSt6__ndk114__shared_countD2Ev",
+   "_ZNSt6__ndk114__shared_countD0Ev",
+   "_ZNSt6__ndk119__shared_weak_countD0Ev",
+   "_ZNSt6__ndk114__shared_count12__add_sharedEv",
+   "_ZNSt6__ndk114__shared_count16__release_sharedEv",
+   "_ZNSt6__ndk119__shared_weak_count12__add_sharedEv",
+   "_ZNSt6__ndk119__shared_weak_count10__add_weakEv",
+   "_ZNSt6__ndk119__shared_weak_count16__release_sharedEv",
+   "_ZNSt6__ndk119__shared_weak_count4lockEv",
+   "_ZNKSt6__ndk119__shared_weak_count13__get_deleterERKSt9type_info",
+   "_ZTVNSt6__ndk114__shared_countE",
+   "_ZTINSt6__ndk114__shared_countE",
+   "_ZNSt6__ndk114__shared_countD1Ev",
+   "_ZTSNSt6__ndk114__shared_countE",
+   "_ZTVNSt6__ndk119__shared_weak_countE",
+   "_ZTINSt6__ndk119__shared_weak_countE",
+   "_ZNSt6__ndk119__shared_weak_countD1Ev",
+   "_ZTSNSt6__ndk119__shared_weak_countE",
+   "_ZNSt6__ndk119__shared_weak_countD2Ev",
+   "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKcj"
+  ],
+  "total_strings": 4169
+ },
+ "libcrashlytics-common.so": {
+  "size": 435732,
+  "needed": [
+   "liblog.so",
+   "libz.so",
+   "libdl.so",
+   "libc.so",
+   "libm.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project",
+   "https://crashpad.chromium.org/",
+   "https://crashpad.chromium.org/bug/new"
+  ],
+  "interesting_strings": [
+   "install_signal_handler_linker",
+   "install_signal_handler_java",
+   "pthread_key_create",
+   "ptrace",
+   "pthread_cond_signal",
+   "pthread_key_delete",
+   "Handler Client SetPtracer",
+   "expecting http or https",
+   "Unhandled signal ",
+   "unsigned __int128",
+   "no ptrace",
+   "PtraceBroker ReadMemory",
+   "Check failed: scheme == \"http\"",
+   "unsigned char",
+   " cannot be converted to UTF-16 losslessly",
+   "unsigned short",
+   "https://crashpad.chromium.org/",
+   "/home/runner/work/firebase-android-sdk/firebase-android-sdk/firebase-crashlytics-ndk/src/main/jni/crashpad/crashpad_util/../../../../third_party/crashpad/util/net/http_transport_socket.cc",
+   "signed char",
+   "CodeView record in module too small to contain signature",
+   "unsigned long",
+   "--shared-client-connection requires --initial-client-fd",
+   "duplicate key ",
+   "https://crashpad.chromium.org/bug/new",
+   "unsigned int"
+  ],
+  "total_strings": 2379
+ },
+ "libcrashlytics-handler.so": {
+  "size": 87908,
+  "needed": [
+   "liblog.so",
+   "libz.so",
+   "libc.so",
+   "libm.so",
+   "libdl.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "pthread_key_delete",
+   "pthread_key_create",
+   "unsigned __int128",
+   "unsigned char",
+   "unsigned short",
+   "signed char",
+   "unsigned long",
+   "unsigned int",
+   "unsigned long long",
+   "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+  ],
+  "total_strings": 689
+ },
+ "libcrashlytics-trampoline.so": {
+  "size": 6912,
+  "needed": [
+   "liblog.so",
+   "libc.so",
+   "libm.so",
+   "libdl.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)",
+   "unsigned int",
+   "ANDROID_LOG_DEBUG",
+   "/usr/local/lib/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android",
+   ".debug_loc",
+   ".debug_abbrev",
+   ".debug_info",
+   ".debug_str",
+   ".debug_frame",
+   ".debug_line"
+  ],
+  "total_strings": 104
+ },
+ "libcrashlytics.so": {
+  "size": 94540,
+  "needed": [
+   "liblog.so",
+   "libc.so",
+   "libm.so",
+   "libdl.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "external_api_initialize",
+   "external_api_dispose",
+   "external_api_set",
+   "external_api_log",
+   "external_api_set_user_id",
+   "pthread_key_delete",
+   "pthread_key_create",
+   "unsigned __int128",
+   "unsigned char",
+   "unsigned short",
+   "signed char",
+   "unsigned long",
+   "install_signal_handler_linker",
+   "unsigned int",
+   "setCustomKey",
+   "install_signal_handler_java",
+   "unsigned long long",
+   "com/google/firebase/crashlytics/ndk/JniNativeApi",
+   "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+  ],
+  "total_strings": 754
+ },
+ "libface_detector_v2_jni.so": {
+  "size": 5388224,
+  "needed": [
+   "libandroid.so",
+   "liblog.so",
+   "libjnigraphics.so",
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 6,
+  "jni_sample": [
+   "0010704d T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_closeDetectorJni@@VERS_1.0",
+   "001067e5 T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayJni@@VERS_1.0",
+   "00106dbd T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteArrayMultiPlanesJni@@VERS_1.0",
+   "001065ad T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferJni@@VERS_1.0",
+   "00106b11 T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_detectFacesImageByteBufferMultiPlanesJni@@VERS_1.0",
+   "00105ef9 T Java_com_google_android_gms_vision_face_FaceDetectorV2Jni_initDetectorJni@@VERS_1.0"
+  ],
+  "urls": [
+   "https://www.tensorflow.org/lite/guide/ops_custom",
+   "https://www.tensorflow.org/lite/guide/ops_select"
+  ],
+  "interesting_strings": [
+   "pthread_cond_signal",
+   "OPENSSL_memory_alloc",
+   "OPENSSL_memory_free",
+   "OPENSSL_memory_get_size",
+   "pthread_key_create",
+   "pthread_key_delete",
+   "shape map =",
+   "key string contains backslash '\\'",
+   "vpf_EigenShapeMap",
+   "void ebs_IntAssoc::add( const ebs_String& stringA, int32 keyA ): keyA already contained",
+   "', token '",
+   "NN API Delegate: Can't get an equivalent TF Lite type for provided NN API type: %d.",
+   "Execution info: getSessionId=%d getErrorCode=%d getNnApiVersion=%lld getModelArchHash=%x getDeviceIds=%s getInputDataClass=%d getOutputDataClass=%d isCachingEnabled=%s isControlFlowUsed=%s getExecutionMode=%d getRuntimeExecutionTimeNanos=%llu getDriverExecutionTimeNanos=%llu getHardwareExecutionTimeNanos=%llu",
+   "HaveSameShapes(input, output)",
+   "third_party/tensorflow/lite/kernels/numeric_verify.cc",
+   "shape_data[ix + i]",
+   "xnn_define_static_transpose( subgraph, permute_k.size(), permute_k.data(), key_proj_id, permute_k_out_id, 0)",
+   "xnn_define_static_reshape(subgraph, q_reshape_dims.size(), q_reshape_dims.data(), permute_q_out_id, q_reshape_id, 0)",
+   "relator missing ('assign' was not called)",
+   "Search engine is not ready for search; assignment and/or clustering missing",
+   "photos_vision_face_util::ComputeFacePose( face_shape, landmarks, &pan_radians, &tilt_radians, &roll_radians, &box_center, &scale)",
+   "third_party/openssl/boringssl/src/crypto/mem.c",
+   "configuring NNAPI caching",
+   "map::at:  key not found",
+   "op_context.shape1->type"
+  ],
+  "total_strings": 27318
+ },
+ "libfgcpkjvqe.so": {
+  "size": 6524160,
+  "needed": [
+   "libz.so",
+   "liblog.so",
+   "libandroid.so",
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "pthread_key_create",
+   "OPENSSL_memory_alloc",
+   "OPENSSL_memory_free",
+   "OPENSSL_memory_get_size",
+   "pthread_key_delete",
+   "RSA-SHA1",
+   "pbeWithSHA1AndRC2-CBC",
+   "AES-128-OFB",
+   "AES-192-ECB",
+   "setCext-TokenType",
+   "AES-256-CFB1",
+   "id-aes192-GCM",
+   "unsigned short",
+   "unsigned long long",
+   "/home/vsts/work/1/s/libs/boringssl/crypto/fipsmodule/ec/ec.cc.inc",
+   "/home/vsts/work/1/s/libs/boringssl/crypto/evp/p_ec_asn1.cc",
+   "pkcs7-signedAndEnvelopedData",
+   "countersignature",
+   "Microsoft Trust List Signing",
+   "aes-256-ecb",
+   "aes-192-cfb8",
+   "Microsoft Local Key set",
+   "AES-256-CTR",
+   "RSAES-OAEP",
+   "/home/vsts/work/1/s/libs/boringssl/crypto/x509/x_name.cc"
+  ],
+  "total_strings": 3594
+ },
+ "libimage_processing_util_jni.so": {
+  "size": 20380,
+  "needed": [
+   "liblog.so",
+   "libandroid.so",
+   "libjnigraphics.so",
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 6,
+  "jni_sample": [
+   "00003f19 T Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToABGR@@VERS_1.0",
+   "0000415d T Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToBitmap@@VERS_1.0",
+   "00003ca9 T Java_androidx_camera_core_ImageProcessingUtil_nativeCopyBetweenByteBufferAndBitmap@@VERS_1.0",
+   "00004221 T Java_androidx_camera_core_ImageProcessingUtil_nativeRotateYUV@@VERS_1.0",
+   "00003d3d T Java_androidx_camera_core_ImageProcessingUtil_nativeShiftPixel@@VERS_1.0",
+   "00003e19 T Java_androidx_camera_core_ImageProcessingUtil_nativeWriteJpegToSurface@@VERS_1.0"
+  ],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+  ],
+  "total_strings": 142
+ },
+ "libimagepipeline.so": {
+  "size": 5876,
+  "needed": [
+   "liblog.so",
+   "libjnigraphics.so",
+   "libc.so",
+   "libm.so",
+   "libdl.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+  ],
+  "total_strings": 76
+ },
+ "libljsfrcwmw.so": {
+  "size": 600296,
+  "needed": [
+   "librcmefqonnx.so",
+   "liblog.so",
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "Lcom/android/billingclient/api/ProxyBillingActivity;",
+   "Lcom/facebook/ads/internal/api/AudienceNetworkActivityApi;",
+   "mAudienceNetworkActivityApi",
+   "mAudienceNetworkActivityParentApi",
+   "com/facebook/ads/internal/api/AudienceNetworkActivityApi",
+   "com/android/billingclient/api/ProxyBillingActivity",
+   "KEY_BUTTON_TEXT",
+   "KEY_ICON_URL",
+   "KEY_MESSAGE",
+   "KEY_PAGE_FINISH_TYPE",
+   "KEY_TITLE",
+   "Lcom/zing/zalo/zalosdk/oauth/OpenAPIActivity;",
+   "com/zing/zalo/zalosdk/oauth/OpenAPIActivity",
+   "Lcom/android/billingclient/api/c0;",
+   "Lvn/com/vng/zalopay/ui/activity/HomeActivity;",
+   "Lvn/com/vng/zalopay/user/UserBaseActivity;",
+   "vn/com/vng/zalopay/ui/activity/HomeActivity",
+   "vn/com/vng/zalopay/user/UserBaseActivity",
+   "com/android/billingclient/api/c0",
+   " when parsing V3SigningCertificateLineage object",
+   " when verifying V3SigningCertificateLineage object",
+   ", signature algorithm: ",
+   ".  All signing certificates should be unique",
+   "A non-null apk and zip sections must be specified to verify an APK's v3 signatures",
+   "APK Signing Block offset out of range: "
+  ],
+  "total_strings": 4303
+ },
+ "liblytcuhe.so": {
+  "size": 178628,
+  "needed": [
+   "liblog.so",
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "pthread_key_delete",
+   "pthread_key_create",
+   "unsigned __int128",
+   "unsigned char",
+   "unsigned short",
+   "signed char",
+   "unsigned long",
+   "unsigned int",
+   "unsigned long long",
+   "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+  ],
+  "total_strings": 1069
+ },
+ "libmlkit_google_ocr_pipeline.so": {
+  "size": 6781940,
+  "needed": [
+   "liblog.so",
+   "libdl.so",
+   "libjnigraphics.so",
+   "libandroid.so",
+   "libz.so",
+   "libm.so",
+   "libEGL.so",
+   "libGLESv2.so",
+   "libc.so"
+  ],
+  "jni_exports": 33,
+  "jni_sample": [
+   "001cd8f9 T Java_com_google_android_libraries_vision_visionkit_pipeline_AndroidAssetUtil_nativeInitializeAssetManager@@VERS_1.0",
+   "002ece29 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_close@@VERS_1.0",
+   "002ecc65 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_disableSubpipeline@@VERS_1.0",
+   "002ecbc5 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_enableSubpipeline@@VERS_1.0",
+   "002ecec9 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_experimentalRotateResults@@VERS_1.0",
+   "002ecf33 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_flushAndClearMobileIqSamples@@VERS_1.0",
+   "002ecda9 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_getAnalyticsLogs@@VERS_1.0",
+   "002ebab9 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initialize@@VERS_1.0",
+   "002ebcc9 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameBufferReleaseCallback@@VERS_1.0",
+   "002ebc99 T Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_initializeFrameManager@@VERS_1.0"
+  ],
+  "urls": [
+   "http://b/24559754.",
+   "https://developer.android.com/reference/android/content/Context.html#getFilesDir",
+   "https://www.tensorflow.org/lite/guide/ops_custom",
+   "https://www.tensorflow.org/lite/guide/ops_select"
+  ],
+  "interesting_strings": [
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_alt_NativePipelineImpl_flushAndClearMobileIqSamples",
+   "eglBindAPI",
+   "pthread_key_create",
+   "pthread_cond_signal",
+   "stats_census_experimental_export_root_scoped_data_signal_safe",
+   "pthread_key_delete",
+   "google_ocr.MultiPassLineRecognitionMutatorRuntimeOptions.custom_line_recognizers",
+   "research/ocr/api/internal/layout_analyzer/fill_symbol_gaps_step.cc",
+   "NnapiTextClassifier::Process started ",
+   "signature: ",
+   "noncurrency_token_prefix_symbolCharPropertyWrapper",
+   "noncurrency_token_prefix_symbol",
+   "token_suffix_symbol",
+   "', token '",
+   "Invalid output tensor shape.",
+   "universal",
+   "NN API Delegate: Can't get an equivalent TF Lite type for provided NN API type: %d.",
+   "Execution info: getSessionId=%d getErrorCode=%d getNnApiVersion=%lld getModelArchHash=%x getDeviceIds=%s getInputDataClass=%d getOutputDataClass=%d isCachingEnabled=%s isControlFlowUsed=%s getExecutionMode=%d getRuntimeExecutionTimeNanos=%llu getDriverExecutionTimeNanos=%llu getHardwareExecutionTimeNanos=%llu",
+   "xnn_define_static_transpose( subgraph, permute_k.size(), permute_k.data(), key_proj_id, permute_k_out_id, 0)",
+   "xnn_define_static_reshape(subgraph, q_reshape_dims.size(), q_reshape_dims.data(), permute_q_out_id, q_reshape_id, 0)",
+   "shape_data[ix + i]",
+   "photos/vision/visionkit/pipeline/config/shared_graph_config_helper.cc",
+   "eglBindAPI in third_party/tensorflow/lite/delegates/gpu/gl/egl_environment.cc:69",
+   "third_party/mediapipe/gpu/gl_context_egl.cc",
+   "Close() on node \"$0\" returned tool::StatusStop() which should only be used to signal that a source node is done producing data."
+  ],
+  "total_strings": 36621
+ },
+ "libmlkitcommonpipeline.so": {
+  "size": 6928228,
+  "needed": [
+   "liblog.so",
+   "libdl.so",
+   "libjnigraphics.so",
+   "libandroid.so",
+   "libz.so",
+   "libm.so",
+   "libEGL.so",
+   "libGLESv2.so",
+   "libc.so"
+  ],
+  "jni_exports": 38,
+  "jni_sample": [
+   "005f2e3b T Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeIsProcessInBackground@@VERS_1.0",
+   "005f2e2f T Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeNotifyProcessLifecycleState@@VERS_1.0",
+   "00329515 T Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetDeviceInfo@@VERS_1.0",
+   "00329645 T Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetGPUInfo@@VERS_1.0",
+   "00329721 T Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetNNAPIInfo@@VERS_1.0",
+   "0032aea5 T Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_close@@VERS_1.0",
+   "0032ace1 T Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_disableSubpipeline@@VERS_1.0",
+   "0032ac41 T Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_enableSubpipeline@@VERS_1.0",
+   "0032af45 T Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_experimentalRotateResults@@VERS_1.0",
+   "0032afaf T Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_flushAndClearMobileIqSamples@@VERS_1.0"
+  ],
+  "urls": [
+   "http://b/24559754.",
+   "https://android.googlesource.com/toolchain/llvm-project",
+   "https://developer.android.com/reference/android/content/Context.html#getFilesDir",
+   "https://github.com/opencv/opencv/issues/16739",
+   "https://www.tensorflow.org/lite/guide/ops_custom",
+   "https://www.tensorflow.org/lite/guide/ops_select"
+  ],
+  "interesting_strings": [
+   "pthread_key_create",
+   "pthread_key_delete",
+   "Java_com_google_android_libraries_intelligence_acceleration_AndroidSystemDetectionJNI_GetNNAPIInfo",
+   "Java_com_google_android_libraries_vision_visionkit_pipeline_NativePipelineImpl_flushAndClearMobileIqSamples",
+   "eglBindAPI",
+   "pthread_cond_signal",
+   "Java_com_google_android_libraries_intelligence_acceleration_Analytics_nativeNotifyProcessLifecycleState",
+   "stats_census_experimental_export_root_scoped_data_signal_safe",
+   "', token '",
+   "static cv::Ptr<Heap<T>> cvflann::Heap<cvflann::BranchStruct<cvflann::HierarchicalClusteringIndex<cvflann::L2<float>>::Node *, float>>::getPooledInstance(const HashableT &, const int, int) [T = cvflann::BranchStruct<cvflann::HierarchicalClusteringIndex<cvflann::L2<float>>::Node *, float>, HashableT = int]",
+   "    C++ flags (Release):         -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Wno-long-long -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG",
+   "    C++ flags (Debug):           -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Wno-long-long -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG",
+   "    C flags (Release):           -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Wno-long-long -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG",
+   "    C flags (Debug):             -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Wno-long-long -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG",
+   "    Linker flags (Debug):        -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  ",
+   "    To be built:                 alphamat aruco bgsegm bioinspired calib3d ccalib core datasets dnn dnn_objdetect dnn_superres dpm face features2d flann freetype fuzzy hfs highgui img_hash imgcodecs imgproc intensity_transform java line_descriptor mcc ml objdetect optflow phase_unwrapping photo plot python3 quality rapid reg rgbd saliency shape signal stereo stitching structured_light superres surface_matching text tracking ts video videoio videostab wechat_qrcode xfeatures2d ximgproc xobjdetect xphoto",
+   "    Disabled:                    gapi world",
+   "    Limited API:                 NO",
+   "NN API Delegate: Can't get an equivalent TF Lite type for provided NN API type: %d.",
+   "Execution info: getSessionId=%d getErrorCode=%d getNnApiVersion=%lld getModelArchHash=%x getDeviceIds=%s getInputDataClass=%d getOutputDataClass=%d isCachingEnabled=%s isControlFlowUsed=%s getExecutionMode=%d getRuntimeExecutionTimeNanos=%llu getDriverExecutionTimeNanos=%llu getHardwareExecutionTimeNanos=%llu",
+   "xnn_define_static_transpose( subgraph, permute_k.size(), permute_k.data(), key_proj_id, permute_k_out_id, 0)",
+   "xnn_define_static_reshape(subgraph, q_reshape_dims.size(), q_reshape_dims.data(), permute_q_out_id, q_reshape_id, 0)",
+   "HaveSameShapes(input, output)",
+   "third_party/tensorflow/lite/kernels/numeric_verify.cc",
+   "shape_data[ix + i]"
+  ],
+  "total_strings": 29077
+ },
+ "libnative-filters.so": {
+  "size": 12588,
+  "needed": [
+   "liblog.so",
+   "libjnigraphics.so",
+   "libc.so",
+   "libm.so",
+   "libdl.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+  ],
+  "total_strings": 104
+ },
+ "libnative-imagetranscoder.so": {
+  "size": 341072,
+  "needed": [
+   "liblog.so",
+   "libc.so",
+   "libm.so",
+   "libdl.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "pthread_key_create",
+   "pthread_key_delete",
+   "unsigned short",
+   "unsigned long long",
+   "unsigned __int128",
+   "unsigned char",
+   "unsigned int",
+   "signed char",
+   "unsigned long",
+   "unsigned ",
+   "Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+  ],
+  "total_strings": 1487
+ },
+ "libohxbee.so": {
+  "size": 155412,
+  "needed": [
+   "liblytcuhe.so",
+   "liblog.so",
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "Landroid/net/http/X509TrustManagerExtensions;",
+   "Lcom/google/android/gms/tasks/OnSuccessListener;",
+   "Ljava/security/KeyManagementException;",
+   "Ljavax/net/ssl/HttpsURLConnection;",
+   "Ljavax/net/ssl/SSLContext;",
+   "Ljavax/net/ssl/SSLEngine;",
+   "Ljavax/net/ssl/SSLSession;",
+   "Ljavax/net/ssl/SSLSocket;",
+   "Ljavax/net/ssl/SSLSocketFactory;",
+   "Ljavax/net/ssl/X509ExtendedTrustManager;",
+   "Ljavax/net/ssl/X509TrustManager;",
+   "Lokhttp3/HttpUrl;",
+   "Lokhttp3/Interceptor$Chain;",
+   "Lokhttp3/Interceptor;",
+   "Lokhttp3/OkHttpClient$Builder;",
+   "Lokhttp3/Request;",
+   "Lokhttp3/Response;",
+   "Lvn/ai/faceauth/sdk/presentation/domain/model/AccessTokenData;",
+   "Lvn/com/vng/bcell/BShieldApplication;",
+   "SHA-256",
+   "VERSION_API",
+   "[Ljavax/net/ssl/KeyManager;",
+   "[Ljavax/net/ssl/TrustManager;",
+   "[Ljavax/net/ssl/X509TrustManager;",
+   "accessToken"
+  ],
+  "total_strings": 1442
+ },
+ "libpicodet_ncnn.so": {
+  "size": 2992584,
+  "needed": [
+   "liblog.so",
+   "libandroid.so",
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 8,
+  "jni_sample": [
+   "0004aa25 T Java_com_example_picodet_PicoDetJNI_detect",
+   "0004ab09 T Java_com_example_picodet_PicoDetJNI_detectYuv",
+   "0004a95d T Java_com_example_picodet_PicoDetJNI_picodetConfigure",
+   "0004a9b5 T Java_com_example_picodet_PicoDetJNI_picodetConfigure2",
+   "0004a8b5 T Java_com_example_picodet_PicoDetJNI_picodetCreate",
+   "0004a939 T Java_com_example_picodet_PicoDetJNI_picodetDestroy",
+   "0004a8a5 T Java_com_example_picodet_PicoDetJNI_picodetInputHeight",
+   "0004a895 T Java_com_example_picodet_PicoDetJNI_picodetInputWidth"
+  ],
+  "urls": [
+   "http://openmp.llvm.org/",
+   "https://android.googlesource.com/toolchain/llvm-project",
+   "https://github.com/llvm/llvm-project/issues/."
+  ],
+  "interesting_strings": [
+   "ARGBShade",
+   "ARGBShadeRow_C",
+   "ARGBShadeRow_NEON",
+   "pthread_key_delete",
+   "pthread_key_create",
+   "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc",
+   "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKcj",
+   "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignERKS5_jj",
+   "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEjc",
+   "_ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignEPKwj",
+   "_ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignERKS5_jj",
+   "_ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignEjw",
+   "_ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignEPKw",
+   "__kmp_debug_assert",
+   "__kmp_pop_workshare",
+   "llvm_omp_target_shared_mem_space",
+   "llvm_omp_target_shared_mem_alloc",
+   "__kmp_debug_printf",
+   "__kmp_dump_debug_buffer",
+   "__kmp_debug_buffer",
+   "__kmp_debug_count",
+   "__kmp_debug_buf_chars",
+   "__kmp_debug_buf_lines",
+   "__kmp_check_workshare",
+   "__kmp_push_workshare"
+  ],
+  "total_strings": 9747
+ },
+ "librcmefqonnx.so": {
+  "size": 178628,
+  "needed": [
+   "liblog.so",
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "pthread_key_delete",
+   "pthread_key_create",
+   "unsigned __int128",
+   "unsigned char",
+   "unsigned short",
+   "signed char",
+   "unsigned long",
+   "unsigned int",
+   "unsigned long long",
+   "Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+  ],
+  "total_strings": 1069
+ },
+ "librive-android.so": {
+  "size": 3225636,
+  "needed": [
+   "liblog.so",
+   "libandroid.so",
+   "libEGL.so",
+   "libGLESv3.so",
+   "libjnigraphics.so",
+   "libm.so",
+   "libc++_shared.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 167,
+  "jni_sample": [
+   "000e53e4 T Java_app_rive_runtime_kotlin_RiveTextureView_cppGetAverageFps",
+   "000e484c T Java_app_rive_runtime_kotlin_core_AnimationState_cppName",
+   "000e26b8 T Java_app_rive_runtime_kotlin_core_Artboard_cppAdvance",
+   "000e1ff8 T Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByIndex",
+   "000e2024 T Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationByName",
+   "000e2088 T Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationCount",
+   "000e1ec0 T Java_app_rive_runtime_kotlin_core_Artboard_cppAnimationNameByIndex",
+   "000e26d4 T Java_app_rive_runtime_kotlin_core_Artboard_cppBounds",
+   "000e2aac T Java_app_rive_runtime_kotlin_core_Artboard_cppDelete",
+   "000e2904 T Java_app_rive_runtime_kotlin_core_Artboard_cppDraw"
+  ],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project",
+   "https://public.rive.app/cdn/uuid"
+  ],
+  "interesting_strings": [
+   "_ZN4rive23LinearAnimationInstance7advanceEfPNS_21KeyedCallbackReporterE",
+   "_ZN12rive_android26LinearGradientCanvasShaderC1EffffPKjPKfj",
+   "_ZN12rive_android26RadialGradientCanvasShaderC1EfffPKjPKfj",
+   "_ZNSt6__ndk119__shared_weak_count14__release_weakEv",
+   "_ZN12rive_android26LinearGradientCanvasShaderC2EffffPKjPKfj",
+   "_ZN4rive12RenderShaderC2Ev",
+   "_ZTVN12rive_android26LinearGradientCanvasShaderE",
+   "_ZN12rive_android26RadialGradientCanvasShaderC2EfffPKjPKfj",
+   "_ZTVN12rive_android26RadialGradientCanvasShaderE",
+   "_ZN12rive_android17CanvasRenderPaint6shaderEN4rive3rcpINS1_12RenderShaderEEE",
+   "_ZN12rive_android20GetSetShaderMethodIdEv",
+   "_ZN12rive_android17CanvasRenderPaint9SetShaderEP8_jobjectS2_",
+   "_ZN12rive_android26LinearGradientCanvasShaderD0Ev",
+   "_ZN4rive12RenderShaderD2Ev",
+   "_ZTVN12rive_android12CanvasShaderE",
+   "_ZN12rive_android12CanvasShaderD2Ev",
+   "_ZN12rive_android26RadialGradientCanvasShaderD0Ev",
+   "_ZN12rive_android12CanvasShaderD0Ev",
+   "_ZNSt6__ndk112__hash_tableINS_17__hash_value_typeItNS_6vectorIN4rive3rcpINS3_4FontEEENS_9allocatorIS6_EEEEEENS_22__unordered_map_hasherItSA_NS_4hashItEENS_8equal_toItEELb1EEENS_21__unordered_map_equalItSA_SF_SD_Lb1EEENS7_ISA_EEE25__emplace_unique_key_argsItJRKtS9_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_",
+   "_ZTVNSt6__ndk120__shared_ptr_emplaceINS_5mutexENS_9allocatorIS1_EEEE",
+   "_ZNSt6__ndk120__shared_ptr_emplaceINS_5mutexENS_9allocatorIS1_EEED2Ev",
+   "_ZNSt6__ndk119__shared_weak_countD2Ev",
+   "_ZNSt6__ndk120__shared_ptr_emplaceINS_5mutexENS_9allocatorIS1_EEED0Ev",
+   "_ZNKSt6__ndk119__shared_weak_count13__get_deleterERKSt9type_info",
+   "_ZN12rive_android20GetBitmapShaderClassEv"
+  ],
+  "total_strings": 9306
+ },
+ "libsecurity_lite.so": {
+  "size": 154840,
+  "needed": [
+   "liblog.so",
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 4,
+  "jni_sample": [
+   "00002c25 T Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+   "00002b55 T Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+   "00002a15 T Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+   "00002a81 T Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest"
+  ],
+  "urls": [
+   "https://android.googlesource.com/toolchain/clang",
+   "https://android.googlesource.com/toolchain/llvm"
+  ],
+  "interesting_strings": [
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_decrypt",
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_encrypt",
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_init",
+   "Java_com_alipay_plus_security_lite_SecurityGuardLiteNative_signRequest",
+   "decryptByAes",
+   "encryptByAes",
+   "signRequest",
+   "bn_assign",
+   "bn_assign_2exp",
+   "bn_assign_zero",
+   "rsa_filter",
+   "rsa_generate_keys",
+   "rsa_private_decrypt",
+   "rsa_private_encrypt",
+   "rsa_public_decrypt",
+   "rsa_public_encrypt",
+   "aes_cbc_decrypt",
+   "aes_cbc_encrypt",
+   "decAescbc",
+   "encAescbc",
+   "parseAPKSign",
+   "AES_decrypt",
+   "AES_encrypt",
+   "AES_set_decrypt_key",
+   "AES_set_encrypt_key"
+  ],
+  "total_strings": 819
+ },
+ "libsqlcipher.so": {
+  "size": 3555080,
+  "needed": [
+   "libdl.so",
+   "liblog.so",
+   "libc.so",
+   "libm.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "http://%s",
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "_ZN7android37register_android_database_SQLiteDebugEP7_JNIEnv",
+   "sqlite3_key",
+   "sqlite3_rekey",
+   "sqlite3_enable_shared_cache",
+   "sqlcipherCodecGetKey",
+   "sqlcipher_openssl_setup",
+   "sqlite3_key_v2",
+   "sqlite3_rekey_v2",
+   "sqlite3_keyword_name",
+   "sqlite3_keyword_count",
+   "sqlite3_keyword_check",
+   "sqlite3_uri_key",
+   "pthread_key_create",
+   "pthread_key_delete",
+   "bsd_signal",
+   "Could not rekey db.",
+   "sqlite3_key",
+   "SELECT sql   FROM %s.sqlite_schema WHERE type='table' AND name!='sqlite_sequence'   AND rootpage>0",
+   "%s: error occurred from provider kdf generating HMAC key",
+   "sqlcipher_openssl_hmac: EVP_MAC_update() on 1st input buffer of %d bytes using algorithm %d returned %d",
+   "sqlcipher_openssl_hmac: EVP_MAC_update() on 2nd input buffer of %d bytes using algorithm %d returned %d",
+   "CREATE TABLE x(input, token, start, end, position)",
+   "public-key:",
+   "privateKey",
+   "ossl_ec_GFp_simple_points_make_affine"
+  ],
+  "total_strings": 13788
+ },
+ "libtaibmcf.so": {
+  "size": 12617752,
+  "needed": [
+   "libz.so",
+   "liblog.so",
+   "libandroid.so",
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 0,
+  "jni_sample": [],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "pthread_key_create",
+   "OPENSSL_memory_alloc",
+   "OPENSSL_memory_free",
+   "OPENSSL_memory_get_size",
+   "pthread_key_delete",
+   "token too large, exceeds YYLMAX",
+   "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/evp/p_ed25519_asn1.cc",
+   "subjectKeyIdentifier",
+   "extendedKeyUsage",
+   "Code Signing",
+   "Microsoft Commercial Code Signing",
+   "id-smime-aa-smimeEncryptCerts",
+   "id-it-encKeyPairTypes",
+   "ecdsa-with-SHA1",
+   "AES-256-OFB",
+   "setct-PIUnsignedTBE",
+   "HMAC-SHA1",
+   "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/asn1/tasn_utl.cc",
+   "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/fipsmodule/bn/bn.cc.inc",
+   "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/fipsmodule/bn/ctx.cc.inc",
+   "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/fipsmodule/bn/random.cc.inc",
+   "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/fipsmodule/rsa/blinding.cc.inc",
+   "/home/cpu12313/Documents/BshieldAzure/agent/_work/1/s/libs/boringssl/crypto/evp/p_x25519.cc",
+   "RSA-MD5",
+   "aes-128-cfb"
+  ],
+  "total_strings": 3539
+ },
+ "libtrueidlib.so": {
+  "size": 79904,
+  "needed": [
+   "liblog.so",
+   "libm.so",
+   "libdl.so",
+   "libc.so"
+  ],
+  "jni_exports": 10,
+  "jni_sample": [
+   "00006099 T Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_genSignature",
+   "00005f01 T Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_getNonce",
+   "0000b65d T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultAuthCeremony",
+   "0000b139 T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckDebugger",
+   "0000b13d T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckIntegrity",
+   "0000b209 T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQAuth",
+   "0000b141 T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultComputeQReg",
+   "0000b415 T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultRegisterCeremony",
+   "0000b3a1 T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultVerifyTxDigest",
+   "0000b2fd T Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey"
+  ],
+  "urls": [
+   "https://android.googlesource.com/toolchain/llvm-project"
+  ],
+  "interesting_strings": [
+   "hmac_sha256",
+   "sha256_transform",
+   "sha256_init",
+   "sha256_update",
+   "sha256_final",
+   "genSignValue",
+   "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_getNonce",
+   "Java_vn_ai_trueid_sdk_face_opencv_DataSignService_00024Companion_genSignature",
+   "vault_verify_tx_digest",
+   "chacha20poly1305_decrypt",
+   "vault_check_debugger",
+   "x25519_pubkey",
+   "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultCheckDebugger",
+   "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultX25519Pubkey",
+   "Java_vn_ai_trueid_sdk_utils_SmartOTPHelper_vaultVerifyTxDigest",
+   "getprop ro.debuggable",
+   "sha256/",
+   "sha256",
+   "vn/ai/trueid/sdk/utils/facedetector/DataSignService",
+   "magisk",
+   "ro.debuggable",
+   "/data/adb/magisk.db",
+   "checkDebugger",
+   "/dev/.magisk.unblock",
+   "/sbin/.magisk"
+  ],
+  "total_strings": 526
+ }
+}

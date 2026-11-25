@@ -1,0 +1,267 @@
+libVFaceLib.so: needed=['libandroid.so', 'liblog.so', 'libjnigraphics.so', 'libc.so', 'libz.so', 'libdl.so', 'libm.so'] jni=4 strings=6620
+liba97d.so: needed=['libc.so', 'libstdc++.so', 'libm.so', 'libdl.so', 'liblog.so'] jni=0 strings=724
+libandroidx.graphics.path.so: needed=['libm.so', 'libdl.so', 'libc.so'] jni=0 strings=60
+libbarhopper_v3.so: needed=['libjnigraphics.so', 'liblog.so', 'libdl.so', 'libm.so', 'libc.so'] jni=8 strings=12041
+libc++_shared.so: needed=['libc.so', 'libm.so', 'libdl.so'] jni=0 strings=4169
+libcrashlytics-common.so: needed=['liblog.so', 'libz.so', 'libdl.so', 'libc.so', 'libm.so'] jni=0 strings=2379
+libcrashlytics-handler.so: needed=['liblog.so', 'libz.so', 'libc.so', 'libm.so', 'libdl.so'] jni=0 strings=689
+libcrashlytics-trampoline.so: needed=['liblog.so', 'libc.so', 'libm.so', 'libdl.so'] jni=0 strings=104
+libcrashlytics.so: needed=['liblog.so', 'libc.so', 'libm.so', 'libdl.so'] jni=0 strings=754
+libface_detector_v2_jni.so: needed=['libandroid.so', 'liblog.so', 'libjnigraphics.so', 'libm.so', 'libdl.so', 'libc.so'] jni=6 strings=27318
+libfgcpkjvqe.so: needed=['libz.so', 'liblog.so', 'libandroid.so', 'libm.so', 'libdl.so', 'libc.so'] jni=0 strings=3594
+libimage_processing_util_jni.so: needed=['liblog.so', 'libandroid.so', 'libjnigraphics.so', 'libm.so', 'libdl.so', 'libc.so'] jni=6 strings=142
+libimagepipeline.so: needed=['liblog.so', 'libjnigraphics.so', 'libc.so', 'libm.so', 'libdl.so'] jni=0 strings=76
+libljsfrcwmw.so: needed=['librcmefqonnx.so', 'liblog.so', 'libm.so', 'libdl.so', 'libc.so'] jni=0 strings=4303
+liblytcuhe.so: needed=['liblog.so', 'libm.so', 'libdl.so', 'libc.so'] jni=0 strings=1069
+libmlkit_google_ocr_pipeline.so: needed=['liblog.so', 'libdl.so', 'libjnigraphics.so', 'libandroid.so', 'libz.so', 'libm.so', 'libEGL.so', 'libGLESv2.so', 'libc.so'] jni=33 strings=36621
+libmlkitcommonpipeline.so: needed=['liblog.so', 'libdl.so', 'libjnigraphics.so', 'libandroid.so', 'libz.so', 'libm.so', 'libEGL.so', 'libGLESv2.so', 'libc.so'] jni=38 strings=29077
+libnative-filters.so: needed=['liblog.so', 'libjnigraphics.so', 'libc.so', 'libm.so', 'libdl.so'] jni=0 strings=104
+libnative-imagetranscoder.so: needed=['liblog.so', 'libc.so', 'libm.so', 'libdl.so'] jni=0 strings=1487
+libohxbee.so: needed=['liblytcuhe.so', 'liblog.so', 'libm.so', 'libdl.so', 'libc.so'] jni=0 strings=1442
+libpicodet_ncnn.so: needed=['liblog.so', 'libandroid.so', 'libm.so', 'libdl.so', 'libc.so'] jni=8 strings=9747
+librcmefqonnx.so: needed=['liblog.so', 'libm.so', 'libdl.so', 'libc.so'] jni=0 strings=1069
+librive-android.so: needed=['liblog.so', 'libandroid.so', 'libEGL.so', 'libGLESv3.so', 'libjnigraphics.so', 'libm.so', 'libc++_shared.so', 'libdl.so', 'libc.so'] jni=167 strings=9306
+libsecurity_lite.so: needed=['liblog.so', 'libm.so', 'libdl.so', 'libc.so'] jni=4 strings=819
+libsqlcipher.so: needed=['libdl.so', 'liblog.so', 'libc.so', 'libm.so'] jni=0 strings=13788
+libtaibmcf.so: needed=['libz.so', 'liblog.so', 'libandroid.so', 'libm.so', 'libdl.so', 'libc.so'] jni=0 strings=3539
+libtrueidlib.so: needed=['liblog.so', 'libm.so', 'libdl.so', 'libc.so'] jni=10 strings=526
+dex strings: 321129
+--- firebase (60) ---
+     is an unsupported authority. Only com.google.android.gms.phenotype authority is supported.
+     is not an instance of com.google.firebase.components.ComponentRegistrar
+    , crashlytics=
+    , firebaseAuthenticationToken=
+    , firebaseInstallationId=
+    , imageFaceMeasurementsBlock: 
+    .  You must have the following declaration within the <application> element:     <meta-data android:name="com.google.android.gms.version" android:value="@intege
+    . Make sure to call FirebaseApp.initializeApp(Context) first.
+    .*java.*/com/google/android/gms.*
+    .com.google.firebase.crashlytics
+    .com.google.firebase.crashlytics-ndk
+    .com.google.firebase.crashlytics.files.v1
+--- facebook (60) ---
+    (Lcom/facebook/FacebookException;)V
+    , facebookErrorCode: 
+    , facebookErrorType: 
+    .facebook.com
+    A valid Facebook app client token must be set in the AndroidManifest.xml or set by calling FacebookSdk.setClientToken before initializing the sdk.
+    A valid Facebook app id must be set in the AndroidManifest.xml or set by calling FacebookSdk.setApplicationId before initializing the sdk.
+    A valid Facebook client token must be set in the AndroidManifest.xml or set by calling FacebookSdk.setClientToken before initializing the sdk. Visit https://dev
+    AF Facebook app id Manifest metadata is not found.
+    AUDIENCE_NETWORK_CODE_PATH
+    AUDIENCE_NETWORK_DEX
+    Apps that target Android API 30+ (Android 11+) cannot call Facebook native apps unless the package visibility needs are declared. Please follow https://develope
+    Automatic logging of basic events will not happen, because FacebookSdk.getApplicationContext() returns object that is not instance of android.app.Application. M
+--- alipay (60) ---
+    , AppxLoadedCost=
+    , appxPhase=
+     AlipayConnect iapconnectsdk/1.8.0 MPPAlipayPlusClient
+     AlipayConnect iapconnectsdk/1.8.0 MPPAlipayPlusClient 
+     Griver/2.70.0 AppContainer/10.5.10
+     appx-ng: 
+     appx2.0size/
+     appx:
+     appxModel is null
+     appxSupport:
+     iapconnectsdk/1.8.0 MPPAlipayPlusClient
+     isAppxSupportCustomizeTabbar: false
+--- appsflyer (60) ---
+     - Initializing AppsFlyer Tacking
+    'allowBackup' is set to true; appsflyer_backup_rules.xml is NOT detected.
+    AppsFlyer shared preferences should be excluded from auto backup by adding: <exclude domain="sharedpref" path="appsflyer-data"/> to the Application's <full-back
+    If Appsflyer's Purchase Connector is in use then you also must add the following to your rules: <exclude domain="sharedpref" path="appsflyer-purchase-data"/> AN
+    'allowBackup' is set to true; appsflyer_data_extraction_rules.xml is NOT detected.
+    AppsFlyer shared preferences should be excluded from auto backup by adding: <exclude domain="sharedpref" path="appsflyer-data"/> to the Application's <data-extr
+    If Appsflyer's Purchase Connector is in use then you also must add to <device-transfer> and <cloud-backup> the following excludes: <exclude domain="sharedpref" 
+    ()' must be called after the 'init(String, AppsFlyerConversionListener)' API method, which should be called on the Application's onCreate.
+    ()Lcom/appsflyer/AFPurchaseType;
+    ()Lcom/appsflyer/AppsFlyerConsent;
+    ()Lcom/appsflyer/AppsFlyerProperties;
+    ()Lcom/appsflyer/MediationNetwork;
+--- visa (60) ---
+                                          "isShowSkipNFC":false,
+                                          "returnNFC":true,
+                                          "nfcSkipMaxRetry":true,
+    NFC DOB   : '
+    NFC GENDER: '
+    NFC NAME  : '
+     chưa hỗ trợ công nghệ NFC. Hãy chọn 1 trong những cách sau thay thế:
+     chưa hỗ trợ tích hợp NFC.
+     hoặc NFC và thanh toán không tiếp xúc
+     isNfcEnable = 
+    $SwitchMap$com$visa$cbp$external$common$HardwareKeyStoreState
+    ()Landroid/nfc/NfcAdapter;
+--- vnpay (60) ---
+    /v1/travel/vnpay_taxi/condition
+    4184ZlpVNPayLocal
+    ADDRESS_VNPAY_DATA
+    ADDRESS_VNPAY_ID
+    Exception handleVNPayView
+    Lcom/vnpay/sdkmarketingevent/PEHandler$Companion;
+    Lcom/vnpay/sdkmarketingevent/PEHandler;
+    Lcom/vnpay/supersecure/a;
+    Lcom/vnpay/supersecure/b;
+    Lcom/vnpay/supersecure/c;
+    Lcom/vnpay/supersecure/d;
+    Lcom/vnpay/tracking/TrackFieldName;
+--- trueid_ekyc (60) ---
+                                          "trueidWatermark":false,
+                                          "trueidWatermark":true,
+     result EkycSDK getCallBack 
+     và xác nhận chia sẻ thông tin với VNeID
+    &request_code=134&source=6&should_display_ekyc_suggestion=
+    ()Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXError;
+    ()Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessResponse;
+    ()Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;
+    ()Lvn/ai/trueid/sdk/face/e;
+    ()Lvn/ai/trueid/sdk/face/p0;
+    ()Lvn/ai/trueid/sdk/face/present/domain/configs/SDKConfig;
+    ()Lvn/ai/trueid/sdk/models/ConfigEndPoint;
+--- crypto (60) ---
+    AES
+    AES GCM SIV cipher is not available or is invalid.
+    AES GCM ciphers are expected to make use of algorithm parameters
+    AES IV
+    AES engine not initialised
+    AES key size is not set
+    AES key size mismatch
+    AES key size must be 16 or 32 bytes
+    AES-
+    AES-128
+    AES-128-
+    AES-128/CBC
+--- network (60) ---
+     To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+     WebSocket 
+     not permitted by network security policy
+    $certificatePinner
+    ()Lcom/android/volley/t;
+    ()Lokhttp3/Address;
+    ()Lokhttp3/Authenticator;
+    ()Lokhttp3/Cache;
+    ()Lokhttp3/CacheControl;
+    ()Lokhttp3/CertificatePinner;
+    ()Lokhttp3/CipherSuite;
+    ()Lokhttp3/ConnectionPool;
+--- obfuscation (60) ---
+                                          "isDisableSecurity":false,
+     This may occur when resolving Google Play services connection issues on emulators with Google APIs but not Google Play Store.
+     bits of security only 
+     not permitted by network security policy
+    ()Ljava/security/Principal;
+    ()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankSecurityEntity;
+    (Ljava/lang/String;ILvn/com/vng/zalopay/bankbinding/domain/entity/BankValidatorEntity;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Lj
+    (Ljava/lang/String;[Ljava/security/cert/Certificate;)V
+    (Ljava/security/cert/Certificate;)Ljava/lang/String;
+    (Lokio/Sink;Ljava/security/MessageDigest;)V
+    (Lokio/Source;Ljava/security/MessageDigest;)V
+    (Lvn/com/vng/zalopay/bankbinding/domain/entity/BankSecurityEntity;Ljava/lang/String;Ljava/lang/String;ILvn/com/vng/zalopay/bankbinding/domain/entity/link/Authen
+--- deeplink (60) ---
+    &type=1&src=deeplink
+    &type=1&src=deeplink&is_new_layer=true
+    (ZLcom/appsflyer/deeplink/DeepLink;)V
+    , actionMoreDeeplink=
+    , adjustMergeDeeplinkAfterWrongMrz=
+    , ctaBannerDeeplink=
+    , ctaDeepLink=
+    , ctaDeeplink=
+    , ctaDeeplinkUrl=
+    , deepLink=
+    , deepLinkVer3=
+    , deeplink=
+--- biometric (60) ---
+     chữ số để bảo vệ Smart OTP.
+     correct rootPath: 
+    $SwitchMap$org$jmrtd$cbeff$BiometricEncodingType
+    ()Lvn/ai/trueid/sdk/models/sotp/FieldStyle;
+    ()Lvn/ai/trueid/sdk/models/sotp/TransactionType;
+    ()Lvn/ai/trueid/sdk/models/sotp/TrueIDSSLPinningConfig;
+    ()Lvn/ai/trueid/sdk/models/sotp/TrueIdSmartOTPConfig;
+    ()Lvn/ai/trueid/sdk/models/sotp/TrueIdSmartOTPPinPolicy;
+    ()Lvn/ai/trueid/sdk/models/sotp/TrueIdSmartOTPUIConfig;
+    ()Lvn/ai/trueid/sdk/navigation/TrueIdSmartOTPListener;
+    ()Lvn/com/vng/zalopay/bankbinding/domain/entity/BankSmsOtpDetectorEntity;
+    ()Lvn/com/vng/zalopay/loginv2/data/model/SmartOTPConfigResponse;
+--- analytics (60) ---
+     getTrackingCode error 
+     is a reserved path segment.
+     path segment
+     tracking runtime occurs a error no: 
+    &platform=zpa&tracking_session_id_zpa=
+    &tracking_session_id_zpa=
+    ', trackingCode='
+    ()Lokio/Segment;
+    (Lokio/Segment;)V
+    (Lokio/SegmentedByteString;)I
+    (Lokio/SegmentedByteString;)[B
+    (Lokio/SegmentedByteString;I)B
+first-party: {'vn/com': 1616, 'vn/ai': 1114, 'vn/zalopay': 260, 'com/zing': 12}
+=== assets__config__zalopay_config.json (105659 bytes, entropy 4.37) ===
+  keys: ['general', 'zpc', 'api', 'webapp', 'tab_me', 'notification', 'tab_home', 'promotion', 'promotion_handler', 'bank_integration', 'bank', 'profile', 'transfer_history', 'transfer_via_zalo', 'kvs', 'z', 'omniP', 'serverlog', 'sdk', 'social', 'red_packet', 'payment_app_policy', 'bank_kyc', 'kyc', 'network_config', 'update_profile_level', 'otp', 'qrcode_emv', 'ibft', 'reset_passcode']
+   {"general": {"phone_format": {"min_length": 9, "max_length": 12, "patterns": ["^(840|84|0|)8(1|2|3|4|5|6|7|8|9)\\d{7}$", "(840|84|0|)9\\d{8}", "^(840|84|0|)5(2|5|6|8|9)\\d{7}$", "(840|84|0|)7(0|6|7|8|9)\\d{7}", "(840|84|0|)3[2-9]\\d{7}"], "invalid_length_message": "Số điện thoại cần từ 9 đến 12 chữ số", "general_message": "Số điện thoại không hợp lệ"}, "click_timeout": 1000, "api_timeout": 10000, "cskh_phonenumber": "1900545436", "pcidss": "https://seal.controlcase.com/index.php?page=showCert&cId=3654794347", "otp_sender": "ZaloPay"}, "zpc": {"enable_merge_contact_name": 1, "friend_favorite": 0, "interval_sync_contact": 259200, "time_reload": 300, "max_life_time_millis": 300000, "enable_send_invite_friend_zalo": 1, "enable_custom_keypad": 1, "max_search_text_length": 26, "max_request_statu
+=== assets__config__miniapp_config.json (883684 bytes, entropy 4.42) ===
+  keys: ['code', 'data', 'msg']
+   {"code": 200, "data": [{"app_id": "9588434516294069", "app_name": "Zalopay", "app_logo": "https://simg.zalopay.com.vn/zst/zpi/images/mini-app-info/logozalopay_square.jpg", "path": "spa/v2/quick-pay-binding/multigo/tnc", "category_name": "Tài chính", "base_url": "https://social.zalopay.vn", "one_link": "https://onelink.zalopay.vn/d/9588434516294069", "deep_link": "zalopay://launch/app/9588434516294069", "is_web_v1": false, "is_persist_content": false, "is_active": true, "created_at": 1794902427, "updated_at": 1794902427, "legacy_app_id": 0, "is_open_browser": false, "page_orientation_config": 0, "active_web_resource_url": "", "description": "", "is_hide_bottom_area": true, "is_show_ads": false, "nav_bar": {"type": "FULLSCREEN", "status_bar_mode": "LIGHT", "show_menu": false, "show_favorite"
+=== assets__taibmcf.json (46 bytes, entropy 4.35) ===
+  keys: ['vi', 'en']
+   {"vi": "Mở cài đặt", "en": "Open settings"}
+=== assets__vdfmoer.json (46 bytes, entropy 4.35) ===
+  keys: ['vi', 'en']
+   {"vi": "Mở cài đặt", "en": "Open settings"}
+=== assets__bundle.json (312 bytes, entropy 4.60) ===
+  keys: ['external_bundle', 'internal_bundle']
+   {"external_bundle": [{"appid": 1, "appname": "Internal Application", "asset": "android.1.zip", "checksum": "An3SoswJ6ujv2Qk6UqYxcw", "version": "1.0.0", "status": 1}], "internal_bundle": {"checksum": "ba910kal", "version": "1.0.20160523.001"}}
+=== assets__Griver__appx.json (2178 bytes, entropy 4.86) ===
+  keys: ['mini']
+   {"mini": {"66666692": {"appInfo": {"appId": "66666692", "deployVersion": "1.24.8", "fallbackBaseUrl": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/", "packageUrl": "https://cdn.marmot-cloud.com/storage/gmpop/5b39bcb7-85be-471c-aeaf-55ee5c4437a5/66666692_1.24.8.amr", "mainUrl": "/index.html#pages/index/index", "name": "appx framework", "desc": "appx framework", "logo": "http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg"}, "container": {"downloadType": 1}, "extendInfo": {"appType": 2}, "permissions": ""}, "66666693": {"appInfo": {"appId": "66666693", "deployVersion": "2.0.7", "fallbackBaseUrl": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/", "packageUrl": "https://cdn.marmot-cloud.com/storage/gmpop/3df2716
+=== assets__client_tracking.json (146391 bytes, entropy 4.82) ===
+  keys: ['tripDetail', 'trackingItems']
+   {"tripDetail": {"id": "672974f2af8c4f101ed3d86f", "userId": "575184139519795200", "trackingKey": "f6:32:f8:47:87:eb|", "partnerTripId": "637478535", "tripNoRef": "ALLM33RV8I8", "tripNo": "BKPM33RVFCI", "txnId": 1730770162820, "customerId": "64e00d40f944a412c73d678e", "customerSessionId": "6c1b7d9aeee1457e9bfbf1d6db616759", "customerName": "NGUYỄN MẠNH HIẾU", "customerMobileNo": "0984086431", "customerEmail": "Manhhiu0509@gmail.com", "customerTaxName": "CÔNG TY CỔ PHẦN  GIẢI PHÁP THANH TOÁN VIỆT NAM", "customerTaxAddress": "Tầng 8, Số 22, phố Láng Hạ, Phường Láng Hạ, Quận Đống Đa, Thành phố Hà Nội", "customerTaxNo": "0102182292", "invoiceSent": true, "driverCode": "BE-14917300", "driverName": "Nguyễn Văn Toàn", "driverAvatar": "https://storage.googleapis.com/veep-production-drivers/document
+assets__fgcpkjvqe.dat: size=776320 entropy=8.000 head=a6eb0ca49c7510a63d179733bdf2afd8043ff1943e25dd850ac3c9200f94db91 sha256=cb8c0211e579f103
+assets__taibmcf.dat: size=8307 entropy=7.976 head=3b0d47fc99267516b71214dbc03fdf8f044a1d64fa2974aa71e9014482537ecc sha256=392c01d84cc770b0
+assets__bshield.dat: size=929 entropy=7.785 head=082510a40d1a9907a434c6a46dc8b61611e100c61e2204fd046823df5105a512 sha256=b1750911acee6d39
+android.1.zip entries: 326
+   main.jsbundle
+   drawable-hdpi/
+   drawable-hdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png
+   drawable-hdpi/node_modules_miniapps_navigation_src_libs_stack_dist_views_assets_backicon.png
+   drawable-mdpi/
+   drawable-mdpi/notifications_images_educationfee.png
+   drawable-mdpi/notifications_images_postpaid.png
+   drawable-mdpi/node_modules_reactnativecheckbox_img_ic_indeterminate_check_box.png
+   drawable-mdpi/about_intro_images_02_dt.png
+   drawable-mdpi/notifications_images_reminder.png
+   drawable-mdpi/notifications_images_refund.png
+   drawable-mdpi/about_images_logoccdv.png
+   drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_disconnect.png
+   drawable-mdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_vinaphone.png
+   drawable-mdpi/about_intro_images_05_dt_ipx.png
+   drawable-mdpi/notifications_images_receive.png
+   drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_errorcloud.png
+   drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_nobill.png
+   drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_mobilecard_images_bgcard.png
+   drawable-mdpi/notifications_images_internet.png
+   drawable-mdpi/clearingaccount_images_icon_123pjcb.png
+   drawable-mdpi/notifications_images_servicescards.png
+   drawable-mdpi/notifications_images_travelticket.png
+   drawable-mdpi/notifications_images_water.png
+   drawable-mdpi/registeronlinebanking_image_smsregistericon.png
+   drawable-mdpi/notifications_images_homestay.png
+   drawable-mdpi/notifications_images_recharge.png
+   drawable-mdpi/about_images_arrowright.png
+   drawable-mdpi/about_images_iconpolicy.png
+   drawable-mdpi/notifications_images_travel.png
+   drawable-mdpi/transactionhistoryv2_src_screens_transactiondetailscreen_progressview_images_success.png
+   drawable-mdpi/clearingaccount_images_icon_123pscb.png
+   drawable-mdpi/notifications_images_iconcheck.png
+   drawable-mdpi/registeronlinebanking_image_icomapcard.png
+   drawable-mdpi/clearingaccount_images_icon_123pvisa.png
+   drawable-mdpi/node_modules_zalopaycomponents_src_lib_zpplaceholder_images_emptybill.png
+   drawable-mdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_mobifone.png
+   drawable-mdpi/node_modules_reactnavigationstack_dist_views_assets_backicon.png
+   drawable-mdpi/transactionhistoryv2_src_components_telcoproviderlogo_images_vietnamobile.png
+   drawable-mdpi/about_images_logosquare.png
+audience_network.dex magic: b'dex\n035\x00' size: 4864036
+resources.arsc: 1802300 bytes
+arsc utf16 strings: 135; sample: ['vn.com.vng.zalopay', 'animator', 'drawable', 'integer', 'interpolator', 'layout', 'mipmap', 'navigation', 'plurals', 'string', 'vn.com.vng.zalopay.changepin', 'layout', 'string', 'vn.com.vng.zalopay.changepin', 'vn.com.vng.zalopay.resetpin', 'drawable', 'layout', 'string', 'vn.com.vng.zalopay.changepin', 'vn.com.vng.zalopay.resetpin']
+xml-ish entries: ['AndroidManifest.xml', 'assets/audience_network.dex', 'res/anim/abc_grow_fade_in_from_bottom.xml', 'res/anim/abc_popup_enter.xml', 'res/anim/abc_popup_exit.xml', 'res/anim/abc_shrink_fade_out_from_bottom.xml', 'res/anim/ariver_fragment_translate_in_left_default.xml', 'res/anim/ariver_fragment_translate_in_right_default.xml', 'res/anim/ariver_fragment_translate_out_left_default.xml', 'res/anim/ariver_fragment_translate_out_right_default.xml', 'res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml', 'res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml', 'res/anim/btn_checkbox_to_checked_icon_null_animation.xml', 'res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml', 'res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml', 'res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml', 'res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml', 'res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml', 'res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml', 'res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml', 'res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml', 'res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml', 'res/anim/catalyst_fade_in.xml', 'res/anim/catalyst_fade_out.xml', 'res/anim/error_x_in.xml', 'res/anim/face_in_down.xml', 'res/anim/face_in_up.xml', 'res/anim/fci_zoom.xml', 'res/anim/fci_zoom_in.xml', 'res/anim/fci_zoom_out.xml', 'res/anim/glance_btn_checkbox_to_checked_box_inner_merged_animation.xml', 'res/anim/glance_btn_checkbox_to_checked_box_outer_merged_animation.xml', 'res/anim/glance_btn_checkbox_to_checked_icon_null_animation.xml', 'res/anim/glance_btn_checkbox_to_unchecked_box_inner_merged_animation.xml', 'res/anim/glance_btn_checkbox_to_unchecked_check_path_merged_animation.xml', 'res/anim/glance_btn_checkbox_to_unchecked_icon_null_animation.xml', 'res/anim/glance_btn_radio_to_off_mtrl_dot_group_animation.xml', 'res/anim/glance_btn_radio_to_off_mtrl_ring_outer_animation.xml', 'res/anim/glance_btn_radio_to_off_mtrl_ring_outer_path_animation.xml', 'res/anim/glance_btn_radio_to_on_mtrl_dot_group_animation.xml']

@@ -1,0 +1,358 @@
+{
+ "Google Firebase / Play services": {
+  "dex_string_hits": 6761,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   " is not an instance of com.google.firebase.components.ComponentRegistrar",
+   ", crashlytics=",
+   ", firebaseAuthenticationToken=",
+   ", firebaseInstallationId=",
+   ". Make sure to call FirebaseApp.initializeApp(Context) first.",
+   ".*java.*/com/google/android/gms.*"
+  ]
+ },
+ "Google ML Kit (vision/text)": {
+  "dex_string_hits": 2118,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "BarhopperV3",
+   "Lcom/google/android/gms/dynamite/descriptors/com/google/mlkit/dynamite/barcode/ModuleDescriptor;",
+   "Lcom/google/android/gms/dynamite/descriptors/com/google/mlkit/dynamite/face/ModuleDescriptor;",
+   "Lcom/google/android/gms/dynamite/descriptors/com/google/mlkit/dynamite/text/common/ModuleDescriptor;",
+   "Lcom/google/android/gms/dynamite/descriptors/com/google/mlkit/dynamite/text/latin/ModuleDescriptor;",
+   "Lcom/google/android/gms/internal/mlkit_common/zzbb;"
+  ]
+ },
+ "Alipay / Ant Griver mini-programs": {
+  "dex_string_hits": 8032,
+  "js_line_hits": 2,
+  "stated_versions": [],
+  "evidence": [
+   ", AppxLoadedCost=",
+   ", appxPhase=",
+   " AlipayConnect iapconnectsdk/1.8.0 MPPAlipayPlusClient",
+   " AlipayConnect iapconnectsdk/1.8.0 MPPAlipayPlusClient ",
+   " Griver/2.70.0 AppContainer/10.5.10",
+   " appx-ng: "
+  ]
+ },
+ "Facebook Graph / Audience Network": {
+  "dex_string_hits": 603,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "(Lcom/facebook/FacebookException;)V",
+   "AUDIENCE_NETWORK_CODE_PATH",
+   "AUDIENCE_NETWORK_DEX",
+   "Can't load Audience Network Dex. Please, check that audience_network.dex is inside of assets folder.",
+   "Can't load Audience Network Dex. Please, check that audience_network.dex is inside of assets folder.",
+   "Lcom/facebook/A;"
+  ]
+ },
+ "AppsFlyer attribution": {
+  "dex_string_hits": 605,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   " - Initializing AppsFlyer Tacking",
+   "'allowBackup' is set to true; appsflyer_backup_rules.xml is NOT detected.",
+   "AppsFlyer shared preferences should be excluded from auto backup by adding: <exclude domain=\"sharedpref\" path=\"appsflyer-data\"/> to the Application's <full-back",
+   "If Appsflyer's Purchase Connector is in use then you also must add the following to your rules: <exclude domain=\"sharedpref\" path=\"appsflyer-purchase-data\"/> AN",
+   "'allowBackup' is set to true; appsflyer_data_extraction_rules.xml is NOT detected.",
+   "AppsFlyer shared preferences should be excluded from auto backup by adding: <exclude domain=\"sharedpref\" path=\"appsflyer-data\"/> to the Application's <data-extr"
+  ]
+ },
+ "Visa Click-to-Pay / CBP (NFC)": {
+  "dex_string_hits": 952,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "15;com.visa.cbp.action.VISA_SDK_NOTIFICATION_ACTION",
+   "31;0;23;0;21;com.visa.cbp.action.REPLENISH",
+   "7/26/com.visa.cbp.action.VISA_SDK_NOTIFICATION_ACTION",
+   "Lcom/visa/cbp/AidInfo;",
+   "Lcom/visa/cbp/Base64;",
+   "Lcom/visa/cbp/Base64Encoder;"
+  ]
+ },
+ "VNPAY": {
+  "dex_string_hits": 427,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "/v1/travel/vnpay_taxi/condition",
+   "4184ZlpVNPayLocal",
+   "ADDRESS_VNPAY_DATA",
+   "ADDRESS_VNPAY_ID",
+   "Exception handleVNPayView",
+   "Lcom/vnpay/sdkmarketingevent/PEHandler$Companion;"
+  ]
+ },
+ "TrueID eKYC (VNG/TrueID)": {
+  "dex_string_hits": 892,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "()Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessCameraXError;",
+   "()Lvn/ai/faceauth/sdk/presentation/domain/model/LivenessResponse;",
+   "()Lvn/ai/faceauth/sdk/presentation/domain/model/StepLiveness;",
+   "()Lvn/ai/trueid/sdk/face/e;",
+   "()Lvn/ai/trueid/sdk/face/p0;",
+   "()Lvn/ai/trueid/sdk/face/present/domain/configs/SDKConfig;"
+  ]
+ },
+ "FPT.AI eKYC": {
+  "dex_string_hits": 23,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Lcom/fpt/fci/ekycfull/lib/innovatrics/d;",
+   "Lcom/fpt/fci/ekycfull/presentation/view/CaptureFragment;",
+   "Lcom/fpt/fci/ekycfull/presentation/view/DocumentFragment;",
+   "Lcom/fpt/fci/ekycfull/presentation/view/EkycActivity;",
+   "Lcom/fpt/fci/ekycfull/presentation/view/EkycActivityAll;",
+   "Lcom/fpt/fci/ekycfull/presentation/view/PreviewFragment;"
+  ]
+ },
+ "Nimbus JOSE+JWT": {
+  "dex_string_hits": 412,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Lcom/nimbusds/jose/ActionRequiredForJWSCompletionException;",
+   "Lcom/nimbusds/jose/Algorithm;",
+   "Lcom/nimbusds/jose/AlgorithmFamily;",
+   "Lcom/nimbusds/jose/AlgorithmFamily<",
+   "Lcom/nimbusds/jose/CommonSEHeader;",
+   "Lcom/nimbusds/jose/CompletableJWSObjectSigning;"
+  ]
+ },
+ "Bouncy Castle crypto": {
+  "dex_string_hits": 6306,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Lorg/bouncycastle/LICENSE;",
+   "Lorg/bouncycastle/asn1/ASN1Absent;",
+   "Lorg/bouncycastle/asn1/ASN1BMPString$1;",
+   "Lorg/bouncycastle/asn1/ASN1BMPString;",
+   "Lorg/bouncycastle/asn1/ASN1BitString$1;",
+   "Lorg/bouncycastle/asn1/ASN1BitString;"
+  ]
+ },
+ "JMrtd eMRTD (passport/NFC ID)": {
+  "dex_string_hits": 294,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Lorg/jmrtd/APDULevelAACapable;",
+   "Lorg/jmrtd/APDULevelBACCapable;",
+   "Lorg/jmrtd/APDULevelEACCACapable;",
+   "Lorg/jmrtd/APDULevelEACTACapable;",
+   "Lorg/jmrtd/APDULevelPACECapable;",
+   "Lorg/jmrtd/APDULevelReadBinaryCapable;"
+  ]
+ },
+ "SQLCipher": {
+  "dex_string_hits": 47,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Lnet/zetetic/database/sqlcipher/CloseGuard$DefaultReporter;",
+   "Lnet/zetetic/database/sqlcipher/CloseGuard$Reporter;",
+   "Lnet/zetetic/database/sqlcipher/CloseGuard;",
+   "Lnet/zetetic/database/sqlcipher/DatabaseObjectNotClosedException;",
+   "Lnet/zetetic/database/sqlcipher/SQLiteClosable;",
+   "Lnet/zetetic/database/sqlcipher/SQLiteConnection$Operation;"
+  ]
+ },
+ "Rive animation": {
+  "dex_string_hits": 242,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "()Lapp/rive/runtime/kotlin/ResourceType;",
+   "()Lapp/rive/runtime/kotlin/RiveAnimationView$RendererAttributes;",
+   "()Lapp/rive/runtime/kotlin/controllers/ControllerState;",
+   "()Lapp/rive/runtime/kotlin/controllers/RiveFileController;",
+   "()Lapp/rive/runtime/kotlin/core/Alignment;",
+   "()Lapp/rive/runtime/kotlin/core/Artboard;"
+  ]
+ },
+ "Glide image pipeline": {
+  "dex_string_hits": 220,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Lcom/bumptech/glide/GeneratedAppGlideModule;",
+   "Lcom/bumptech/glide/GlideContext;",
+   "Lcom/bumptech/glide/Registry$MissingComponentException;",
+   "Lcom/bumptech/glide/Registry$NoImageHeaderParserException;",
+   "Lcom/bumptech/glide/Registry$NoModelLoaderAvailableException;",
+   "Lcom/bumptech/glide/Registry$NoResultEncoderAvailableException;"
+  ]
+ },
+ "OkHttp / Retrofit": {
+  "dex_string_hits": 761,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "()Lokhttp3/Address;",
+   "()Lokhttp3/Authenticator;",
+   "()Lokhttp3/Cache;",
+   "()Lokhttp3/CacheControl;",
+   "()Lokhttp3/CertificatePinner;",
+   "()Lokhttp3/CipherSuite;"
+  ]
+ },
+ "jsoup HTML parser": {
+  "dex_string_hits": 181,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Lorg/jsoup/HttpStatusException;",
+   "Lorg/jsoup/SerializationException;",
+   "Lorg/jsoup/UncheckedIOException;",
+   "Lorg/jsoup/UnsupportedMimeTypeException;",
+   "Lorg/jsoup/a$a;",
+   "Lorg/jsoup/a$a<"
+  ]
+ },
+ "Sentry crash reporting": {
+  "dex_string_hits": 0,
+  "js_line_hits": 5,
+  "stated_versions": [],
+  "evidence": []
+ },
+ "Adjust attribution": {
+  "dex_string_hits": 0,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": []
+ },
+ "TikTok / ByteDance SDK": {
+  "dex_string_hits": 119,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Lcom/tiktok/BuildConfig;",
+   "Lcom/tiktok/R$id;",
+   "Lcom/tiktok/R$xml;",
+   "Lcom/tiktok/R;",
+   "Lcom/tiktok/TikTokBusinessSdk$1;",
+   "Lcom/tiktok/TikTokBusinessSdk$CrashListener;"
+  ]
+ },
+ "Media3 / ExoPlayer": {
+  "dex_string_hits": 1250,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Landroidx/media3/common/A0;",
+   "Landroidx/media3/common/A;",
+   "Landroidx/media3/common/B0;",
+   "Landroidx/media3/common/B;",
+   "Landroidx/media3/common/C0;",
+   "Landroidx/media3/common/C;"
+  ]
+ },
+ "CameraX": {
+  "dex_string_hits": 860,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Landroidx/camera/camera2/Camera2Config$DefaultProvider;",
+   "Landroidx/camera/camera2/impl/a;",
+   "Landroidx/camera/camera2/impl/b;",
+   "Landroidx/camera/camera2/impl/c;",
+   "Landroidx/camera/camera2/internal/A0;",
+   "Landroidx/camera/camera2/internal/A;"
+  ]
+ },
+ "Compose UI": {
+  "dex_string_hits": 562,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "(Landroidx/compose/ui/text/android/F;)Landroid/text/StaticLayout;",
+   "ContentView$onClickTooltip(Landroidx/compose/runtime/MutableState;Landroidx/compose/runtime/MutableState;Landroidx/compose/runtime/MutableState;Landroidx/compos",
+   "Landroidx/compose/animation/EnterExitTransitionElement;",
+   "Landroidx/compose/animation/SizeAnimationModifierElement;",
+   "Landroidx/compose/animation/a;",
+   "Landroidx/compose/animation/b;"
+  ]
+ },
+ "Glance app widgets": {
+  "dex_string_hits": 180,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Landroidx/glance/appwidget/GlanceAppWidgetReceiver;",
+   "Landroidx/glance/appwidget/GlanceRemoteViewsService;",
+   "Landroidx/glance/appwidget/MyPackageReplacedReceiver;",
+   "Landroidx/glance/appwidget/UnmanagedSessionReceiver;",
+   "Landroidx/glance/appwidget/action/ActionCallbackBroadcastReceiver;",
+   "Landroidx/glance/appwidget/action/ActionTrampolineActivity;"
+  ]
+ },
+ "React Native": {
+  "dex_string_hits": 0,
+  "js_line_hits": 13,
+  "stated_versions": [],
+  "evidence": []
+ },
+ "NC CNN (picoDet / FastestDet)": {
+  "dex_string_hits": 15,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Failed to create PicoDet instance",
+   "FastestDet.ncnn.bin",
+   "FastestDet.ncnn.param",
+   "Lcom/example/picodet/PicoDet;",
+   "Lcom/example/picodet/PicoDetDetection;",
+   "Lcom/example/picodet/PicoDetJNI;"
+  ]
+ },
+ "Zalo SDK": {
+  "dex_string_hits": 9,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   "Lcom/zing/zalo/zalosdk/core/exception/InitializedException;",
+   "Lcom/zing/zalo/zalosdk/core/exception/PreloadException;",
+   "Lcom/zing/zalo/zalosdk/core/helper/Base64DecoderException;",
+   "Lcom/zing/zalo/zalosdk/oauth/BrowserLoginActivity;",
+   "Lcom/zing/zalo/zalosdk/oauth/OpenAPIActivity;",
+   "Lcom/zing/zalo/zalosdk/oauth/WebLoginActivity$a;"
+  ]
+ },
+ "EMVCo QR (zlp-ofp)": {
+  "dex_string_hits": 18,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   ", emvcoQrcode=",
+   "/v1/emvco/verify",
+   "ApiDomainConfiguration(baseHost=https://zalopay.com.vn/, uploadPhotoHost=https://upload.zalopay.com.vn/, clientLogHost=https://log.zalopay.com.vn/, zpmHost=http",
+   "EMVCoQRInfo(emvcoLink=",
+   "emvcoLink",
+   "emvcoQR"
+  ]
+ },
+ "SafetyNet / Play Integrity": {
+  "dex_string_hits": 165,
+  "js_line_hits": 0,
+  "stated_versions": [],
+  "evidence": [
+   " (https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#",
+   " (https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#",
+   "AttestationResult",
+   "Lcom/google/android/gms/safetynet/HarmfulAppsData;",
+   "Lcom/google/android/gms/safetynet/R;",
+   "Lcom/google/android/gms/safetynet/SafeBrowsingData;"
+  ]
+ }
+}

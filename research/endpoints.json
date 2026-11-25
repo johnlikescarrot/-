@@ -1,0 +1,2061 @@
+[
+ {
+  "host": "127.0.0.1",
+  "class": "local/runtime-placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://127.0.0.1:"
+  ]
+ },
+ {
+  "host": "appx-ng",
+  "class": "local/runtime-placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://appx-ng/",
+   "https://appx-ng/af-appx.min.js",
+   "https://appx-ng/af-appx.worker.min.js"
+  ]
+ },
+ {
+  "host": "localhost",
+  "class": "local/runtime-placeholder",
+  "seen_in": [
+   "dex",
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://localhost",
+   "http://localhost:8081/"
+  ]
+ },
+ {
+  "host": "resource",
+  "class": "local/runtime-placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://resource/"
+  ]
+ },
+ {
+  "host": "shared",
+  "class": "local/runtime-placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://shared"
+  ]
+ },
+ {
+  "host": "usr",
+  "class": "local/runtime-placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://usr",
+   "https://usr/"
+  ]
+ },
+ {
+  "host": "demomb.vnpaytest.vn",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://demomb.vnpaytest.vn/vnptoken/api/v1/getToken"
+  ]
+ },
+ {
+  "host": "devcps.zalopay.com.vn",
+  "class": "non-production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://devcps.zalopay.com.vn/"
+  ]
+ },
+ {
+  "host": "developer.apple.com",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://developer.apple.com/streaming/emsg-id3"
+  ]
+ },
+ {
+  "host": "dpe.qa.consumerapi.digital.visa.com",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://dpe.qa.consumerapi.digital.visa.com/"
+  ]
+ },
+ {
+  "host": "dpe.sandbox.consumerapi.digital.visa.com",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://dpe.sandbox.consumerapi.digital.visa.com"
+  ]
+ },
+ {
+  "host": "ekyc-dev.fpt.ai",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://ekyc-dev.fpt.ai/api/v1/"
+  ]
+ },
+ {
+  "host": "googletng.dl.alipaydev.com",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://googletng.dl.alipaydev.com/isupergw/alipaynet/site/oauth/auth/extension/prepare.htm"
+  ]
+ },
+ {
+  "host": "imgs-ac-amcs.dl.alipaydev.com",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://imgs-ac-amcs.dl.alipaydev.com/imgw.htm"
+  ]
+ },
+ {
+  "host": "imgs-ac-saas.dl.alipaydev.com",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://imgs-ac-saas.dl.alipaydev.com/imgw.htm"
+  ]
+ },
+ {
+  "host": "imgs-sit-sg.dl.alipaydev.com",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://imgs-sit-sg.dl.alipaydev.com/imgw.htm"
+  ]
+ },
+ {
+  "host": "iopengw-280.sggz00b.dev.alipay.net",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://iopengw-280.sggz00b.dev.alipay.net/"
+  ]
+ },
+ {
+  "host": "mdgwdev.alipay.net",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://mdgwdev.alipay.net"
+  ]
+ },
+ {
+  "host": "privacy-sandbox.appsflyersdk.com",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://privacy-sandbox.appsflyersdk.com/api/trigger"
+  ]
+ },
+ {
+  "host": "sandbox.zalopay.com.vn",
+  "class": "non-production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://sandbox.zalopay.com.vn/static"
+  ]
+ },
+ {
+  "host": "sandbox.zalopay.vn",
+  "class": "non-production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://sandbox.zalopay.vn/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu",
+   "https://sandbox.zalopay.vn/quy-dinh",
+   "https://sandbox.zalopay.vn/quy-dinh/quy-che-hoat-dong"
+  ]
+ },
+ {
+  "host": "socialdev.zalopay.vn",
+  "class": "non-production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://socialdev.zalopay.vn"
+  ]
+ },
+ {
+  "host": "socialstg.zalopay.vn",
+  "class": "non-production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://socialstg.zalopay.vn"
+  ]
+ },
+ {
+  "host": "staging.zalopay.vn",
+  "class": "non-production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://staging.zalopay.vn/quy-dinh/chinh-sach-bao-ve-quyen-rieng-tu",
+   "https://staging.zalopay.vn/quy-dinh",
+   "https://staging.zalopay.vn/quy-dinh/quy-che-hoat-dong"
+  ]
+ },
+ {
+  "host": "stcstg.zalopay.com.vn",
+  "class": "non-production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://stcstg.zalopay.com.vn"
+  ]
+ },
+ {
+  "host": "stgcdn.zalopay.com.vn",
+  "class": "non-production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://stgcdn.zalopay.com.vn/"
+  ]
+ },
+ {
+  "host": "stgcps.zalopay.com.vn",
+  "class": "non-production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://stgcps.zalopay.com.vn/"
+  ]
+ },
+ {
+  "host": "uat.tenpayglobal.com",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://uat.tenpayglobal.com/sg/inbound-payment/merchant-oauth.shtml"
+  ]
+ },
+ {
+  "host": "web-ekyc-uat.fpt.ai",
+  "class": "non-production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://web-ekyc-uat.fpt.ai/api/v1/"
+  ]
+ },
+ {
+  "host": "a.alipayobjects.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://a.alipayobjects.com/bridgeapi/1.0/jsready.js"
+  ]
+ },
+ {
+  "host": "activityservice.alibaba.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://activityservice.alibaba.com/openapi/v1/version?name="
+  ]
+ },
+ {
+  "host": "admob-gmats.uc.r.appspot.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://admob-gmats.uc.r.appspot.com/"
+  ]
+ },
+ {
+  "host": "alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://alipay.com/h5container/un_safe.html"
+  ]
+ },
+ {
+  "host": "alipay.kylinbridge",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://alipay.kylinBridge"
+  ]
+ },
+ {
+  "host": "alipay.worker.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://alipay.worker.com",
+   "https://alipay.worker.com/worker"
+  ]
+ },
+ {
+  "host": "analytics.us.tiktok.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://analytics.us.tiktok.com/api/v1/app_sdk/config"
+  ]
+ },
+ {
+  "host": "aomedia.org",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://aomedia.org/emsg/ID3"
+  ]
+ },
+ {
+  "host": "api.fpt.ai",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://api.fpt.ai/",
+   "https://api.fpt.ai/vision/ekyc-be/"
+  ]
+ },
+ {
+  "host": "api.trueid.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://api.trueid.vn"
+  ]
+ },
+ {
+  "host": "api.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://api.zalopay.vn",
+   "https://api.zalopay.vn/",
+   "https://api.zalopay.vn/v2/user/session/check"
+  ]
+ },
+ {
+  "host": "app-measurement.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://app-measurement.com/a",
+   "https://app-measurement.com/s"
+  ]
+ },
+ {
+  "host": "appx",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://appx",
+   "https://appx/",
+   "https://appx/af-appx.min.js"
+  ]
+ },
+ {
+  "host": "atlas.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://atlas.zalopay.vn"
+  ]
+ },
+ {
+  "host": "bank-profile.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://bank-profile.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "bim.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://bim.zalopay.vn/",
+   "https://bim.zalopay.vn/oss/"
+  ]
+ },
+ {
+  "host": "bnpl-gateway.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://bnpl-gateway.zalopay.vn"
+  ]
+ },
+ {
+  "host": "campaign.zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://campaign.zalopay.com.vn/"
+  ]
+ },
+ {
+  "host": "cdn.marmot-cloud.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://cdn.marmot-cloud.com/page/g_diagnostic_tool/index.html",
+   "https://cdn.marmot-cloud.com/page/miniprogram-about/index.html"
+  ]
+ },
+ {
+  "host": "cdn.zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://cdn.zalopay.com.vn/"
+  ]
+ },
+ {
+  "host": "clients3.google.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://clients3.google.com/generate_204"
+  ]
+ },
+ {
+  "host": "connectivitycheck.gstatic.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://connectivitycheck.gstatic.com/generate_204"
+  ]
+ },
+ {
+  "host": "cps.zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "dex",
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://cps.zalopay.com.vn/",
+   "https://cps.zalopay.com.vn/wallet-topup-client/"
+  ]
+ },
+ {
+  "host": "csi.gstatic.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://csi.gstatic.com/csi"
+  ]
+ },
+ {
+  "host": "d6ce683467984ff0b96c8e228b56c9a5@o529616.ingest.sentry.io",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://d6ce683467984ff0b96c8e228b56c9a5@o529616.ingest.sentry.io/5666380"
+  ]
+ },
+ {
+  "host": "dala2zoom.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://dala2zoom.zalopay.vn",
+   "https://dala2zoom.zalopay.vn/liveness/"
+  ]
+ },
+ {
+  "host": "design.vnpay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://design.vnpay.vn/web/sdk/sdk-taxi/tro-giup-vi-vnpay/page/"
+  ]
+ },
+ {
+  "host": "dpe.aacert.consumerapi.digital.visa.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://dpe.aacert.consumerapi.digital.visa.com"
+  ]
+ },
+ {
+  "host": "dpe.consumerapi.digital.visa.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://dpe.consumerapi.digital.visa.com"
+  ]
+ },
+ {
+  "host": "ebank.bidv.com.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://ebank.bidv.com.vn/DKNHDT/",
+   "https://ebank.bidv.com.vn/EWALLET/pay.jsp"
+  ]
+ },
+ {
+  "host": "facebook.com",
+  "class": "production",
+  "seen_in": [
+   "dex",
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://facebook.com",
+   "https://facebook.com/device?user_code=%1$s&qr=1"
+  ]
+ },
+ {
+  "host": "facebook.github.io",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "http://facebook.github.io/react-native/docs/navigation.html"
+  ]
+ },
+ {
+  "host": "fb.me",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://fb.me/nolistview",
+   "http://fb.me/use-check-prop-types",
+   "https://fb.me/react-refs-must-have-owner"
+  ]
+ },
+ {
+  "host": "fin-installment.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://fin-installment.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "firebase-settings.crashlytics.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://firebase-settings.crashlytics.com/spi/v2/platforms/android/gmp/"
+  ]
+ },
+ {
+  "host": "firebaseinstallations.googleapis.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://firebaseinstallations.googleapis.com/v1/"
+  ]
+ },
+ {
+  "host": "firebaseremoteconfig.googleapis.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://firebaseremoteconfig.googleapis.com/v1/projects/"
+  ]
+ },
+ {
+  "host": "git.io",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://git.io/fxCyr"
+  ]
+ },
+ {
+  "host": "github.com",
+  "class": "production",
+  "seen_in": [
+   "dex",
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://github.com/google/gson/blob/main/Troubleshooting.md#",
+   "https://github.com/react-native-community/react-native-masked-view",
+   "https://github.com/react-native-community/react-native-slider"
+  ]
+ },
+ {
+  "host": "google.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://google.com/search?"
+  ]
+ },
+ {
+  "host": "googleads.g.doubleclick.net",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://googleads.g.doubleclick.net",
+   "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html",
+   "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_banner.js"
+  ]
+ },
+ {
+  "host": "graph.zaloapp.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://graph.zaloapp.com"
+  ]
+ },
+ {
+  "host": "gw.alipayobjects.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://gw.alipayobjects.com/mdn/rms_ef981d/afts/img/A*qpA3TKXchKUAAAAAAAAAAABkARQnAQ"
+  ]
+ },
+ {
+  "host": "gw.zamcs.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://gw.zamcs.com/mgw.htm"
+  ]
+ },
+ {
+  "host": "hpmweb-pre.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "wss://hpmweb-pre.alipay.com/host/"
+  ]
+ },
+ {
+  "host": "hpmweb.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://hpmweb.alipay.com/report/android/batch",
+   "wss://hpmweb.alipay.com/host/"
+  ]
+ },
+ {
+  "host": "html.zapps.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://html.zapps.vn/pay/FAQCenter/suport_bidv.html"
+  ]
+ },
+ {
+  "host": "icl.visa.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://icl.visa.com"
+  ]
+ },
+ {
+  "host": "imasdk.googleapis.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://imasdk.googleapis.com/admob/sdkloader/native_video.html"
+  ]
+ },
+ {
+  "host": "imdap-sea.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://imdap-sea.alipay.com/loggw/logUpload.do"
+  ]
+ },
+ {
+  "host": "imgs-ac.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://imgs-ac.alipay.com/imgw.htm"
+  ]
+ },
+ {
+  "host": "imgs-sea-pre.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://imgs-sea-pre.alipay.com/imgw.htm"
+  ]
+ },
+ {
+  "host": "issuetracker.google.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://issuetracker.google.com/issues/new?component=413106"
+  ]
+ },
+ {
+  "host": "itunes.apple.com",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://itunes.apple.com/us/app/zalo-pay-thanh-toan-trong/id1112407590?ls=1&mt=8"
+  ]
+ },
+ {
+  "host": "log.zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://log.zalopay.com.vn/"
+  ]
+ },
+ {
+  "host": "loyalty.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://loyalty.zalopay.vn"
+  ]
+ },
+ {
+  "host": "m.me",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "http://m.me/ZaloPay"
+  ]
+ },
+ {
+  "host": "mdgw.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://mdgw.alipay.com"
+  ]
+ },
+ {
+  "host": "mdn.alipayobjects.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://mdn.alipayobjects.com"
+  ]
+ },
+ {
+  "host": "miniprogram.alipay-eco.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://miniprogram.alipay-eco.com",
+   "https://miniprogram.alipay-eco.com/index.html"
+  ]
+ },
+ {
+  "host": "miniprogram.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "wss://miniprogram.alipay.com"
+  ]
+ },
+ {
+  "host": "miniprogram.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://miniprogram.zalopay.vn"
+  ]
+ },
+ {
+  "host": "mmf-redemption.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://mmf-redemption.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "mmf-user.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://mmf-user.zalopay.vn",
+   "https://mmf-user.zalopay.vn/api/v1/public/docs/contract"
+  ]
+ },
+ {
+  "host": "mnap-director.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://mnap-director.zalopay.vn/redir",
+   "https://mnap-director.zalopay.vn/redir/-1000?type=standalone",
+   "https://mnap-director.zalopay.vn/redir/-2003"
+  ]
+ },
+ {
+  "host": "mobilegw.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://mobilegw.alipay.com/mgw.htm"
+  ]
+ },
+ {
+  "host": "mock.saas.mini-program.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://mock.saas.mini-program.com"
+  ]
+ },
+ {
+  "host": "momentjs.com",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "http://momentjs.com/guides/#/warnings/define-locale/",
+   "http://momentjs.com/guides/#/warnings/js-date/",
+   "http://momentjs.com/guides/#/warnings/min-max/"
+  ]
+ },
+ {
+  "host": "mozilla.github.io",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://mozilla.github.io/localForage/#definedriver"
+  ]
+ },
+ {
+  "host": "mp.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://mp.zalopay.vn"
+  ]
+ },
+ {
+  "host": "mp3.zing.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://mp3.zing.vn/zdl/service_map_all.bin"
+  ]
+ },
+ {
+  "host": "n.zing.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://n.zing.vn/zdl/service_map_all.bin"
+  ]
+ },
+ {
+  "host": "news.zing.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://news.zing.vn/zdl/service_map_all.bin"
+  ]
+ },
+ {
+  "host": "npms.io",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://npms.io/search?q=ponyfill."
+  ]
+ },
+ {
+  "host": "ns.adobe.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://ns.adobe.com/xap/1.0/"
+  ]
+ },
+ {
+  "host": "oauth.zaloapp.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://oauth.zaloapp.com",
+   "https://oauth.zaloapp.com/v2/auth"
+  ]
+ },
+ {
+  "host": "onelink.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://onelink.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "online.gov.vn",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "http://online.gov.vn/Home/AppDetails/879"
+  ]
+ },
+ {
+  "host": "open-sea.alipayplus.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://open-sea.alipayplus.com/",
+   "https://open-sea.alipayplus.com/isupergw/alipaynet/site/oauth/auth/extension/prepare.htm"
+  ]
+ },
+ {
+  "host": "openapi.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://openapi.zalopay.vn",
+   "https://openapi.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "openchannel.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "wss://openchannel.alipay.com/group/connect/",
+   "wss://openchannel.alipay.com/group/connect/%s?scene=tinyAppDebug&roleType=TINYAPP&roleId=%s"
+  ]
+ },
+ {
+  "host": "pagead2.googlesyndication.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps",
+   "https://pagead2.googlesyndication.com/pagead/ping?e=2&f=1"
+  ]
+ },
+ {
+  "host": "partners.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://partners.zalopay.vn/link/"
+  ]
+ },
+ {
+  "host": "play.google.com",
+  "class": "production",
+  "seen_in": [
+   "dex",
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://play.google.com/d",
+   "https://play.google.com/store/apps/details?id=",
+   "https://play.google.com/store/apps/details?id=com.vnid"
+  ]
+ },
+ {
+  "host": "qccdn.zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://qccdn.zalopay.com.vn/"
+  ]
+ },
+ {
+  "host": "qccps.zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://qccps.zalopay.com.vn/"
+  ]
+ },
+ {
+  "host": "qrpay.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://qrpay.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "rar-um.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://rar-um.zalopay.vn"
+  ]
+ },
+ {
+  "host": "rdx.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://rdx.zalopay.vn",
+   "https://rdx.zalopay.vn/v1/api/android/crash-log"
+  ]
+ },
+ {
+  "host": "reactjs.org",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://reactjs.org/docs/error-decoder.html?invariant="
+  ]
+ },
+ {
+  "host": "reactnavigation.org",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://reactnavigation.org/docs/",
+   "https://reactnavigation.org/docs/en/custom-navigators.html#navigator-navigation-prop"
+  ]
+ },
+ {
+  "host": "redux.js.org",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://redux.js.org/api-reference/store#subscribelistener"
+  ]
+ },
+ {
+  "host": "render-intl.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://render-intl.alipay.com/p/yuyan/180020010001251202/index.html",
+   "https://render-intl.alipay.com/p/yuyan/180020010001251202/nationalQR-result.html",
+   "https://render-intl.alipay.com/p/yuyan/180020010001251202/nationalQR.html"
+  ]
+ },
+ {
+  "host": "render.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://render.alipay.com/p/c/",
+   "https://render.alipay.com/p/s/h5misc/resource_error?url=",
+   "https://render.alipay.com/p/w/ac-fe-adaptor"
+  ]
+ },
+ {
+  "host": "sapi.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex",
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://sapi.zalopay.vn/",
+   "https://sapi.zalopay.vn/scan360/",
+   "https://sapi.zalopay.vn"
+  ]
+ },
+ {
+  "host": "scard.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://scard.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "scdn.zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://scdn.zalopay.com.vn/fs/bnpl/document/bnpl-od-term/index.html?partner_code=",
+   "https://scdn.zalopay.com.vn/zst/zpi-spa/cashier/icon/zalopay.png"
+  ]
+ },
+ {
+  "host": "schemas.android.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://schemas.android.com/apk/res-auto",
+   "http://schemas.android.com/apk/res/android"
+  ]
+ },
+ {
+  "host": "simg.zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://simg.zalopay.com.vn/bank-mapping/phoenix/bank-card/Wallet_2.png",
+   "https://simg.zalopay.com.vn/bank-mapping/phoenix/bg/addSource-green.png",
+   "https://simg.zalopay.com.vn/bank-mapping/phoenix/bg/topup-middle-page-bg.png"
+  ]
+ },
+ {
+  "host": "social.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://social.zalopay.vn",
+   "https://social.zalopay.vn/guide/HDB",
+   "https://social.zalopay.vn/guide/VARB"
+  ]
+ },
+ {
+  "host": "srv.mp3.zing.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://srv.mp3.zing.vn/zdl/service_map_all.bin"
+  ]
+ },
+ {
+  "host": "sse.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://sse.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "ssl.google-analytics.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://ssl.google-analytics.com"
+  ]
+ },
+ {
+  "host": "stc.zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://stc.zalopay.com.vn"
+  ]
+ },
+ {
+  "host": "support.google.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://support.google.com/dfp_premium/answer/7160685#push"
+  ]
+ },
+ {
+  "host": "support.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://support.zalopay.vn/faq/integrate?target=form/quick-pay"
+  ]
+ },
+ {
+  "host": "symbols.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://symbols.vn/wp-content/uploads/2022/02/Hinh-Lisa-cute-cuoi-toa-nang.jpg"
+  ]
+ },
+ {
+  "host": "tfsimg.alipay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://tfsimg.alipay.com/images/partner/T1IVXXXb0bXXXXXXXX"
+  ]
+ },
+ {
+  "host": "token.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://token.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "tracking.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://tracking.zalopay.vn",
+   "https://tracking.zalopay.vn/v3/log/events"
+  ]
+ },
+ {
+  "host": "trueid.net",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://trueid.net"
+  ]
+ },
+ {
+  "host": "universal.vneid.gov.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://universal.vneid.gov.vn/"
+  ]
+ },
+ {
+  "host": "upload-img.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://upload-img.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "upload.zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://upload.zalopay.com.vn/"
+  ]
+ },
+ {
+  "host": "user-life-cycle-public.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://user-life-cycle-public.zalopay.vn"
+  ]
+ },
+ {
+  "host": "uudai.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://uudai.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "visapay.as1.juspay.io",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://visapay.as1.juspay.io/visapay/sdk/v1",
+   "https://visapay.as1.juspay.io/visapay/sdk/v1/logs"
+  ]
+ },
+ {
+  "host": "vngzalopay.freshdesk.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://vngzalopay.freshdesk.com/support/solutions/articles/43000492694",
+   "https://vngzalopay.freshdesk.com/support/solutions/articles/43000504799",
+   "https://vngzalopay.freshdesk.com/support/solutions/articles/43000510879"
+  ]
+ },
+ {
+  "host": "vnpay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://vnpay.vn"
+  ]
+ },
+ {
+  "host": "weremit-static.tenpay.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://weremit-static.tenpay.com/sdk/prod/tpg-runtime",
+   "https://weremit-static.tenpay.com/sdk/uat/tpg-runtime"
+  ]
+ },
+ {
+  "host": "www.",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://www."
+  ]
+ },
+ {
+  "host": "www.android.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://www.android.com/"
+  ]
+ },
+ {
+  "host": "www.example.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://www.example.com"
+  ]
+ },
+ {
+  "host": "www.facebook.com",
+  "class": "production",
+  "seen_in": [
+   "dex",
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "http://www.facebook.com/dialog/oauth",
+   "https://www.facebook.com/adnw_logging/",
+   "https://www.facebook.com/ZaloPay/"
+  ]
+ },
+ {
+  "host": "www.google-analytics.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://www.google-analytics.com",
+   "https://www.google-analytics.com/",
+   "https://www.google-analytics.com/gtm/android?"
+  ]
+ },
+ {
+  "host": "www.google.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://www.google.com",
+   "https://www.google.com",
+   "https://www.google.com/dfp/debugSignals"
+  ]
+ },
+ {
+  "host": "www.googleadservices.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://www.googleadservices.com/pagead/conversion/app/deeplink?id_type=adid&sdk_version="
+  ]
+ },
+ {
+  "host": "www.tenpayglobal.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://www.tenpayglobal.com/sg/inbound-payment/merchant-oauth.shtml"
+  ]
+ },
+ {
+  "host": "www.visa.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://www.visa.com",
+   "https://www.visa.com/key_dm/op_profile/concat-kdf/default"
+  ]
+ },
+ {
+  "host": "www.w3.org",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://www.w3.org/1999/xlink",
+   "http://www.w3.org/2000/svg",
+   "http://www.w3.org/TR/SVG11/feature#"
+  ]
+ },
+ {
+  "host": "xml.org",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://xml.org/sax/features/external-general-entities",
+   "http://xml.org/sax/features/external-parameter-entities",
+   "http://xml.org/sax/properties/lexical-handler"
+  ]
+ },
+ {
+  "host": "xmlpull.org",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://xmlpull.org/v1/doc/features.html#process-docdecl",
+   "http://xmlpull.org/v1/doc/features.html#process-namespaces"
+  ]
+ },
+ {
+  "host": "zalo.me",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://zalo.me/4046405574025332160",
+   "https://zalo.me/s/3888182390069527250/?"
+  ]
+ },
+ {
+  "host": "zaloapp.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://zaloapp.com/zdl/service_map_all.bin"
+  ]
+ },
+ {
+  "host": "zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://zalopay.com.vn",
+   "https://zalopay.com.vn/"
+  ]
+ },
+ {
+  "host": "zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex",
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "https://zalopay.vn",
+   "https://zalopay.vn/hoi-dap/an-toan-va-bao-mat/hoi-dap-ve-an-toan-bao-mat/tai-sao-toi-khong-su-dung-duoc-ung-dung-zalopay",
+   "https://zalopay.vn/quy-dinh"
+  ]
+ },
+ {
+  "host": "zlp-movie-api.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://zlp-movie-api.zalopay.vn"
+  ]
+ },
+ {
+  "host": "zlp-ofp-emvco-gateway.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://zlp-ofp-emvco-gateway.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "zlp-ofp-integration-hub.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://zlp-ofp-integration-hub.zalopay.vn"
+  ]
+ },
+ {
+  "host": "zlp-ofp-qp-public-api.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://zlp-ofp-qp-public-api.zalopay.vn"
+  ]
+ },
+ {
+  "host": "zlp-ofp-zpa-camera-config-be.zalopay.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://zlp-ofp-zpa-camera-config-be.zalopay.vn/"
+  ]
+ },
+ {
+  "host": "zpm.zalopay.com.vn",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://zpm.zalopay.com.vn/"
+  ]
+ },
+ {
+  "host": "ztevents.zaloapp.com",
+  "class": "production",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://ztevents.zaloapp.com"
+  ]
+ },
+ {
+  "host": "%sadrevenue.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%sadrevenue.%s/api/v2/generic/v6.17.4/android?app_id="
+  ]
+ },
+ {
+  "host": "%sapp.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%sapp.%s"
+  ]
+ },
+ {
+  "host": "%sars.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%sars.%s/api/v2/android/validate_subscription?app_id=",
+   "https://%sars.%s/api/v2/android/validate_subscription_v2?app_id="
+  ]
+ },
+ {
+  "host": "%sattr.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%sattr.%s/api/v"
+  ]
+ },
+ {
+  "host": "%sconversions.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%sconversions.%s/api/v"
+  ]
+ },
+ {
+  "host": "%sdlsdk.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%sdlsdk.%s/v1.0/android/"
+  ]
+ },
+ {
+  "host": "%sgcdsdk.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%sgcdsdk.%s/install_data/v5.0/"
+  ]
+ },
+ {
+  "host": "%simpression.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%simpression.%s"
+  ]
+ },
+ {
+  "host": "%sinapps.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%sinapps.%s/api/v"
+  ]
+ },
+ {
+  "host": "%slaunches.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%slaunches.%s/api/v"
+  ]
+ },
+ {
+  "host": "%smonitorsdk.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%smonitorsdk.%s/api/remote-debug/v2.0?app_id=",
+   "https://%smonitorsdk.%s/remote-debug/exception-manager"
+  ]
+ },
+ {
+  "host": "%sonelink.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%sonelink.%s/shortlink-sdk/v2"
+  ]
+ },
+ {
+  "host": "%spia.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%spia.%s/api/v1.0/pia-android-event?app_id="
+  ]
+ },
+ {
+  "host": "%sregister.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%sregister.%s/api/v"
+  ]
+ },
+ {
+  "host": "%ssdk-services.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%ssdk-services.%s/validate-android-signature"
+  ]
+ },
+ {
+  "host": "%svalidate-and-log.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%svalidate-and-log.%s/api/v4.0/android/one_time_purchase/validateAndLog?app_id=",
+   "https://%svalidate-and-log.%s/api/v4.0/android/subscription/validateAndLog?app_id="
+  ]
+ },
+ {
+  "host": "%svalidate.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%svalidate.%s/api/v"
+  ]
+ },
+ {
+  "host": "%sviap.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://%sviap.%s/api/v1/android/validate_purchase?app_id=",
+   "https://%sviap.%s/api/v1/android/validate_purchase_v2?app_id="
+  ]
+ },
+ {
+  "host": "*",
+  "class": "template/placeholder",
+  "seen_in": [
+   "js:main.jsbundle"
+  ],
+  "sample_urls": [
+   "http://*",
+   "https://*"
+  ]
+ },
+ {
+  "host": ".facebook.com",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://.facebook.com"
+  ]
+ },
+ {
+  "host": "dummy",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://dummy?"
+  ]
+ },
+ {
+  "host": "graph-video.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://graph-video.%s"
+  ]
+ },
+ {
+  "host": "graph.%s",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://graph.%s"
+  ]
+ },
+ {
+  "host": "hostname",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "http://hostname/?"
+  ]
+ },
+ {
+  "host": "https",
+  "class": "template/placeholder",
+  "seen_in": [
+   "dex"
+  ],
+  "sample_urls": [
+   "https://https://pad.trueid.ai/face/v1.3/sdk-verify"
+  ]
+ }
+]
