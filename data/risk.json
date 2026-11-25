@@ -1,0 +1,132 @@
+{
+ "count": 12,
+ "by_severity": {
+  "high": 1,
+  "medium": 4,
+  "low": 2,
+  "info": 5
+ },
+ "risks": [
+  {
+   "id": "R-03",
+   "title": "NFC payment card emulation enabled with requireDeviceUnlock=false",
+   "severity": "high",
+   "evidence": "res/xml/apdu_service.xml: requireDeviceUnlock=false; 7 AIDs including the EMV PPSE 325041592E5359532E4444463031; service vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+   "standard": "MASVS-PLATFORM-1 / EMVCo contactless security requirements",
+   "impact_if_confirmed": "a contactless transaction can be initiated while the device is locked, which removes the 'unlock before pay' user-intent barrier that EMVCo recommends for HCE wallets",
+   "how_to_confirm_or_refute": "on a lab device, present an NFC reader while the screen is locked and observe whether the HCE service establishes a session before authentication",
+   "status": "static hypothesis"
+  },
+  {
+   "id": "R-01",
+   "title": "requestLegacyExternalStorage on a targetSdk-36 build",
+   "severity": "medium",
+   "evidence": "AndroidManifest.xml application@requestLegacyExternalStorage=true; targetSdk=36",
+   "standard": "MASVS-STORAGE-1 / OWASP MSTG-STORAGE-2",
+   "impact_if_confirmed": "the attribute is ignored for targetSdk>=30 unless scoped-storage is opted out at runtime; still signals legacy file handling paths inside the app",
+   "how_to_confirm_or_refute": "confirm whether any code reads external storage without MediaStore/SAF",
+   "status": "static hypothesis"
+  },
+  {
+   "id": "R-02",
+   "title": "cleartext HTTP permitted app-wide, no pin-set in platform network config",
+   "severity": "medium",
+   "evidence": "res/xml/network_security_config.xml: base-config cleartextTrafficPermitted=true; 0 <pin-set> elements; no certificate-transparency block",
+   "standard": "MASVS-NETWORK-1/2 / OWASP MSTG-NETWORK-2/3",
+   "impact_if_confirmed": "any code path that does not go through the pinned OkHttp client (a WebView, a native client, an SDK-owned stack) is free to speak plaintext HTTP",
+   "how_to_confirm_or_refute": "resolve every Socket/HttpURLConnection/WebView usage and diff its host allow-list against the pinned client's; a dynamic proxy run would settle it",
+   "status": "static hypothesis"
+  },
+  {
+   "id": "R-04",
+   "title": "7 AIDs in one HCE group includes a catch-all Visa prefix",
+   "severity": "medium",
+   "evidence": "res/xml/apdu_service.xml: aid-filter A000000003 (3-byte prefix) sits beside the specific A0000000031010/2010/2020/3010",
+   "standard": "EMV AID allocation rules",
+   "impact_if_confirmed": "the 3-byte AID widens SELECT matching to the entire Visa range, so unlisted Visa applets also resolve to this service",
+   "how_to_confirm_or_refute": "verify with an APDU trace whether the 3-byte filter is reachable given AID priority",
+   "status": "static hypothesis"
+  },
+  {
+   "id": "R-11",
+   "title": "Alipay AppX mini-app bundles execute remote-equivalent JavaScript",
+   "severity": "medium",
+   "evidence": "assets/Griver/*.amr are AppX containers (appx/js 1.67 MB, worker 1.37 MB) with CERT.json holding only digests; 3 packages, uid 66666692/66666693/68687209",
+   "standard": "MASVS-PLATFORM-2 (WebView/native bridge)",
+   "impact_if_confirmed": "1.67 MB of JS runs inside the app's WebView container with a JS bridge; the trust boundary is the bridge surface, which must be permission-gated on every call",
+   "how_to_confirm_or_refute": "enumerate @JavascriptInterface methods and check each one's authorisation gate",
+   "status": "static hypothesis"
+  },
+  {
+   "id": "R-05",
+   "title": "5 test/tooling components exported in a release build",
+   "severity": "low",
+   "evidence": "com.google.android.gms.tagmanager.TagManagerPreviewActivity; androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity; androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity; androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity; androidx.compose.ui.tooling.PreviewActivity",
+   "standard": "MASVS-RESILIENCE-2 / build hygiene",
+   "impact_if_confirmed": "debug-only scaffolding is reachable by other apps; typically harmless but it shows the release variant was not stripped of androidTest dependencies",
+   "how_to_confirm_or_refute": "launch each component from adb on a lab device and observe behaviour",
+   "status": "static hypothesis"
+  },
+  {
+   "id": "R-09",
+   "title": "32-bit-only native split (armeabi-v7a) with a 57.5 MB payload",
+   "severity": "low",
+   "evidence": "config.armeabi_v7a.apk is the only ABI split; no arm64-v8a or x86_64 split in the bundle",
+   "standard": "Play device-targeting / performance guidance",
+   "impact_if_confirmed": "on 64-bit-only devices (Play requirement since 2019) the app cannot install from this bundle; the 32-bit JNI surface also loses the benefit of arm64 hardening (BTI/PAC)",
+   "how_to_confirm_or_refute": "confirm the ABI set on the Play listing rather than a third-party mirror",
+   "status": "static hypothesis"
+  },
+  {
+   "id": "R-06",
+   "title": "Self-signed 25-year signer certificate with no organisational identity",
+   "severity": "info",
+   "evidence": "signer CN-only subject, valid 2016-04-21 15:41:14+00:00 → 2041-04-15 15:41:14+00:00, SHA-256 59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae",
+   "standard": "MASVS-RESILIENCE-1 (context, not a defect)",
+   "impact_if_confirmed": "normal for Android: the certificate is an app identity, not a PKI identity. Documented so the signer fingerprint can be pinned by defenders.",
+   "how_to_confirm_or_refute": "n/a — informational. Cross-check the fingerprint against Play App Signing",
+   "status": "static hypothesis"
+  },
+  {
+   "id": "R-07",
+   "title": "Anti-analysis probes present in native eKYC library",
+   "severity": "info",
+   "evidence": "libtrueidlib.so: frida-agent/re.frida.server, de.robv.android.xposed, TracerPid, /data/adb/magisk, /sbin/.magisk, vaultCheckIntegrity, vaultCheckDebugger",
+   "standard": "MASVS-RESILIENCE-3/4 (defensive control, working as intended)",
+   "impact_if_confirmed": "the eKYC path actively resists instrumentation — good for the vendor, and the reason this study stays fully static",
+   "how_to_confirm_or_refute": "n/a — the probes are the control, not a weakness",
+   "status": "static hypothesis"
+  },
+  {
+   "id": "R-08",
+   "title": "Third-party SDK data collection breadth",
+   "severity": "info",
+   "evidence": "AppsFlyer (430 cls), Meta Audience Network (3,622 cls), Firebase/Measurement, AD_ID + ACCESS_ADSERVICES_* permissions, client_tracking.json (146 KB)",
+   "standard": "GDPR/Decree 13/2023-ND-CP (Vietnam PDPD) consent surface",
+   "impact_if_confirmed": "advertising identifiers plus behavioural events leave the device; lawfulness depends on consent flow, which is not statically decidable",
+   "how_to_confirm_or_refute": "audit the consent gate that guards SDK initialisation (AppTrackingConsent / TCF string)",
+   "status": "static hypothesis"
+  },
+  {
+   "id": "R-10",
+   "title": "Pinned RSA key does not authenticate the shipped config payloads",
+   "severity": "info",
+   "evidence": "18 hash/padding combinations over both assets/config/*.json payloads, 0 valid; key SPKI SHA-256 6c4d7f0f…",
+   "standard": "MASVS-CRYPTO-1 (key purpose clarification)",
+   "impact_if_confirmed": "the pinned key guards runtime-fetched config; the bootstrap copy relies on the APK signature instead. This is a design choice, stated so nobody assumes otherwise",
+   "how_to_confirm_or_refute": "capture a live config push and verify the signature over the fetched body",
+   "status": "static hypothesis"
+  },
+  {
+   "id": "R-12",
+   "title": "Obfuscation is aggressive but reversible in principle",
+   "severity": "info",
+   "evidence": "45.73% of classes sit in relocated 1-3 char packages; 20 DEX files; source-file attribute stripped for 52,713 of 63,827 classes",
+   "standard": "MASVS-RESILIENCE-2",
+   "impact_if_confirmed": "the Java layer resists casual reading; the native layer keeps readable rodata, so strings remain the cheapest entry point for an analyst (and for an attacker)",
+   "how_to_confirm_or_refute": "n/a — measurement, not defect",
+   "status": "static hypothesis"
+  }
+ ],
+ "disclaimer": "Static analysis yields hypotheses. Every entry names the experiment that would confirm or refute it; none has been executed here."
+}

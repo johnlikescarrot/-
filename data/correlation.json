@@ -1,0 +1,183 @@
+{
+ "note": "Each row is a functional subsystem assembled from four independent evidence layers. Counts are measured, not estimated.",
+ "subsystems": {
+  "eKYC / liveness": {
+   "dex_namespaces": [
+    "vn.ai.trueid",
+    "vn.ai.faceauth",
+    "com.fpt.fci"
+   ],
+   "native": [
+    "libtrueidlib.so",
+    "libVFaceLib.so",
+    "libohxbee.so",
+    "libface_detector_v2_jni.so",
+    "libimage_processing_util_jni.so"
+   ],
+   "assets": [
+    "models_bundled/*.tflite",
+    "FastestDet.ncnn.*",
+    "custom_models/object_labeler.tflite",
+    "res/raw/haarcascade_frontalface_default.xml"
+   ],
+   "config": [
+    "miniapp_config.json",
+    "zalopay_config.json#bank_kyc",
+    "zalopay_config.json#kyc"
+   ],
+   "feature_module": "vn.com.vng.zalopay.liveness",
+   "measured_dex_classes": 710,
+   "measured_native_bytes": 7607588,
+   "measured_native_jni": 26
+  },
+  "payments / cashier": {
+   "dex_namespaces": [
+    "vn.com.vng.zalopay.",
+    "com.visa.cbp"
+   ],
+   "native": [
+    "libsecurity_lite.so",
+    "libsqlcipher.so"
+   ],
+   "assets": [
+    "config/zalopay_config.json#api",
+    "taxi_splash_loading.json"
+   ],
+   "config": [
+    "zalopay_config.json#cashier",
+    "zalopay_config.json#qrcode_emv"
+   ],
+   "feature_module": "vn.com.vng.zalopay.cashier, .cashier_v3, .result_page_v3",
+   "note": "first-party base counts include all vn.com.vng.zalopay.* code",
+   "measured_dex_classes": 1852,
+   "measured_native_bytes": 3709920,
+   "measured_native_jni": 4
+  },
+  "NFC card emulation": {
+   "dex_namespaces": [
+    "vn.com.vng.zalopay.miniapp.api.v2.visa",
+    "com.alibaba.griver.device.jsapi.nfc"
+   ],
+   "native": [],
+   "assets": [
+    "res/xml/apdu_service.xml",
+    "res/xml/tiny_app_apdu_service.xml"
+   ],
+   "config": [],
+   "feature_module": null,
+   "measured_dex_classes": 11,
+   "measured_native_bytes": 0,
+   "measured_native_jni": 0
+  },
+  "mini-app platform": {
+   "dex_namespaces": [
+    "com.alibaba.griver",
+    "com.alibaba.ariver",
+    "com.iap.ac"
+   ],
+   "native": [
+    "libljsfrcwmw.so"
+   ],
+   "assets": [
+    "Griver/*.amr (AppX archives)",
+    "GriverBridge/*.js",
+    "jsbridge.js",
+    "internaljsbridge.js",
+    "android_jsbridge.js",
+    "android.1.zip"
+   ],
+   "config": [
+    "config/miniapp_config.json"
+   ],
+   "feature_module": "miniapp_config.json app catalogue",
+   "measured_dex_classes": 5973,
+   "measured_native_bytes": 600296,
+   "measured_native_jni": 0
+  },
+  "cryptography": {
+   "dex_namespaces": [
+    "org.bouncycastle",
+    "com.nimbusds"
+   ],
+   "native": [
+    "libsqlcipher.so",
+    "libsecurity_lite.so"
+   ],
+   "assets": [
+    "public.pem",
+    "zoom.public",
+    "config/public_key.txt",
+    "config/signature.txt"
+   ],
+   "config": [],
+   "feature_module": null,
+   "measured_dex_classes": 6473,
+   "measured_native_bytes": 3709920,
+   "measured_native_jni": 4
+  },
+  "banking connectors": {
+   "dex_namespaces": [
+    "vn.com.vng.zalopay.",
+    "com.vnpay"
+   ],
+   "native": [],
+   "assets": [
+    "config/zalopay_config.json#bank_integration",
+    "theme/bank/*.json"
+   ],
+   "config": [
+    "getbanklist-style remote JSON (not bundled)"
+   ],
+   "feature_module": "vn.com.vng.zalopay.bank_binding",
+   "note": "first-party base counts include all vn.com.vng.zalopay.* code",
+   "measured_dex_classes": 1340,
+   "measured_native_bytes": 0,
+   "measured_native_jni": 0
+  },
+  "analytics / attribution": {
+   "dex_namespaces": [
+    "com.appsflyer",
+    "com.facebook",
+    "com.google.android.gms.measurement"
+   ],
+   "native": [
+    "libcrashlytics.so",
+    "libcrashlytics-common.so"
+   ],
+   "assets": [
+    "client_tracking.json"
+   ],
+   "config": [
+    "zalopay_config.json#tracking_location_flow"
+   ],
+   "feature_module": null,
+   "measured_dex_classes": 4198,
+   "measured_native_bytes": 530272,
+   "measured_native_jni": 0
+  },
+  "UI / rendering": {
+   "dex_namespaces": [
+    "androidx.compose",
+    "com.airbnb.lottie"
+   ],
+   "native": [
+    "librive-android.so",
+    "libnative-imagetranscoder.so",
+    "libimagepipeline.so"
+   ],
+   "assets": [
+    "theme/*",
+    "taxi_images/*",
+    "fonts/*"
+   ],
+   "config": [
+    "zalopay_config.json#theming"
+   ],
+   "feature_module": null,
+   "measured_dex_classes": 677,
+   "measured_native_bytes": 3572584,
+   "measured_native_jni": 167
+  }
+ },
+ "edge_count": 67
+}

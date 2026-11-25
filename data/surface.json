@@ -1,0 +1,3228 @@
+{
+ "hmac_components": {},
+ "manifest": {
+  "n_activities": 202,
+  "n_services": 34,
+  "n_receivers": 22,
+  "n_providers": 9,
+  "n_intent_filters": 44,
+  "deeplink_schemes": [
+   "fbconnect",
+   "https",
+   "tagmanager.c.vn.com.vng.zalopay",
+   "zalopay",
+   "zalopay-1",
+   "zalopay-vnpay",
+   "zalopay.api.v2"
+  ],
+  "queries_packages": [
+   "com.vnid",
+   "com.zing.zalo",
+   "com.facebook.katana",
+   "com.google.android.apps.maps",
+   "com.instagram.android",
+   "com.facebook.lite",
+   "com.samsung.android.mapsagent",
+   "com.xiaomi.mipicks",
+   "com.zing.zalo",
+   "com.vnid"
+  ]
+ },
+ "components": {
+  "total_components": 267,
+  "exported_effective": 30,
+  "exported_without_permission": 22,
+  "exported_with_permission": 8,
+  "risk_categories": {
+   "launcher entry": 2,
+   "other exported": 7,
+   "broadcast receiver": 6,
+   "vendor tooling activity": 1,
+   "test/tooling stub shipped in release": 4,
+   "cross-app entry alias": 2
+  },
+  "risky": [
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "launcher entry",
+    "why": "expected exported launcher surface"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "launcher entry",
+    "why": "expected exported launcher surface"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "com.facebook.CustomTabActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "vendor tooling activity",
+    "why": "Google Tag Manager preview/debug entry point"
+   },
+   {
+    "kind": "activitie",
+    "name": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "test/tooling stub shipped in release",
+    "why": "androidx.test / Compose tooling activities are debug scaffolding; their presence in a release manifest is a build-hygiene defect"
+   },
+   {
+    "kind": "activitie",
+    "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "test/tooling stub shipped in release",
+    "why": "androidx.test / Compose tooling activities are debug scaffolding; their presence in a release manifest is a build-hygiene defect"
+   },
+   {
+    "kind": "activitie",
+    "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "test/tooling stub shipped in release",
+    "why": "androidx.test / Compose tooling activities are debug scaffolding; their presence in a release manifest is a build-hygiene defect"
+   },
+   {
+    "kind": "activitie",
+    "name": "androidx.compose.ui.tooling.PreviewActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "test/tooling stub shipped in release",
+    "why": "androidx.test / Compose tooling activities are debug scaffolding; their presence in a release manifest is a build-hygiene defect"
+   },
+   {
+    "kind": "activitie",
+    "name": "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "cross-app entry alias",
+    "why": "allows Zalo / third-party apps to deep-link into payment flows"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.zalopay.apps.ZaloAppActivityAlias",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "cross-app entry alias",
+    "why": "allows Zalo / third-party apps to deep-link into payment flows"
+   },
+   {
+    "kind": "service",
+    "name": "vn.com.vng.zalopay.notification.MyFcmListenerService",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "receiver",
+    "name": "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   },
+   {
+    "kind": "receiver",
+    "name": "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   },
+   {
+    "kind": "receiver",
+    "name": "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   },
+   {
+    "kind": "receiver",
+    "name": "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   },
+   {
+    "kind": "receiver",
+    "name": "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   }
+  ],
+  "all": [
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.miniapp.ui.MiniAppActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.miniapp.error.NoWebViewSdkActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenActivityV2",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "launcher entry",
+    "why": "expected exported launcher surface"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.splashscreen.presentation.SplashScreenGooglePaymentActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "launcher entry",
+    "why": "expected exported launcher surface"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.ui.activity.HomeActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.webview.ui.WebViewActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.webview.ui.ResetPinWebViewActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.webview.ui.HomeSearchWebViewActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.webview.ui.BalanceLiquidationWebViewActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.webview.ui.VerificationAtBankCounterWebViewActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.webview.ui.update_personal_info.UpdatePersonalInfoWebViewActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.webapp.activity.UpdatePhoneWebAppActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.webapp.activity.ManualResetPinWebAppActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.webapp.activity.WebAppExternalActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.protect.ui.ProtectAccountActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.logindevice.LoginDevicesActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.clearing.ClearingAccountActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.zing.zalo.zalosdk.oauth.WebLoginActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.core.ui.activity.TutorialConnectInternetActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.lockscreen.LockScreenActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.appinfo.AppInfoActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.passport.ForceUpdatePhoneActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.behaviorguideline.LoginGuidelineActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.closeaccount.presentation.ui.CloseAccountActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.logindevice.DeviceVerificationActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.passport.LockAccountActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.reformkyc.presentation.ui.ReformKycActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.feature.ui.FeatureModuleRoutingActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.camera.CustomDefaultCamera",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.ui.balance.activity.BalanceActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.cashier.buffer.CashierBufferActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.cashier.middle.CashierMiddlePageActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vn.zalopay.upgrade_user_profile.presentation.ReformKycActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.user_profile.presentation.profiledetails.ProfileDetailsActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.user_profile.presentation.profiledetailv2.ProfileDetailsV2Activity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.user_profile.presentation.additionalinfo.AdditionalProfileInfoActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.user_profile.presentation.editheaderinfo.EditAvatarAndNameActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.user_profile.presentation.camera.CameraAutoRotationImage",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.user_profile.presentation.protectaccount.AccountSecurityActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.user_profile.presentation.umminiapps.UMMiniAppActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.user_profile.presentation.umminiapps.DebugAuditActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.homev5.presenter.ui.routing.HomeRoutingActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.homev5.presenter.ui.home.HomeActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.homev5.presenter.ui.onboarding.OnboardingActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.homev5.presenter.ui.ekyc_intro.EkycIntroActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.homev5.presenter.ui.story_collections_player.StoryCollectionsPlayerActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.scanqr.presentation.v2.ScanQRActivityV2",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.scancode.presentation.ScanCodeActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.alipay.presentation.AlipayEmptyScanQRActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.alipay.presentation.dialog.AlipayErrorDialogActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.homev4.presentation.ui.recommendsystem.RecommendSystemActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.homev4.presentation.ui.onboarding.HomeOnBoardingActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.home_more.presentation.ui.home_more.HomeMoreActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.search.presentation.ui.search.SearchActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.ekycpro.presentation.main.MainEKycActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.ekycpro.presentation.nfc.MainNFCFeatureActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.ekycpro.presentation.guardian_consent.GuardianInfoActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.ekycpro.presentation.selfie.SelfieActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.ekycpro.presentation.bca.ui.activity.BcaActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.balance_liquidation.presentation.BalanceLiquidationActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.identity_verification.presentation.VerificationByVNeIDActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.profile_tab_v2.presentation.ui.account.AccountHostActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.profile_tab_v2.presentation.ui.privacy.PrivacyHubActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.pdfviewer.PdfViewerActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.permission.notification.presentation.NotificationPermissionActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.permission.location.presentation.LocationPermissionActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.skewface.presentation.activity.SkewFaceActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.nfc.FundingSolutionNFCActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.my_qr.MyQRActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.quickpay_native.presentation.ui.QuickPayNativeActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.pay_by_wallet_native.presentation.ui.PayByWalletReadyToPayActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.storage_management.presentation.StorageManagementActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.shareqr.presentation.QRReceiverActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.receive_money.ReceiveMoneyActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.reset_pin.presentation.ui.ResetPinContainerViewActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.reset_pin.presentation.pin_creation.CreatePinActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.owner_verification.presentation.ui.OVContainerViewActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.auth.presentation.faceauth.components.selfdev.ui.SelfDevCameraActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.auth.presentation.faceauth.FaceAuthActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.auth.presentation.otp.OTPChallengeActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.auth.presentation.otp.popup.OTPChallengeRootActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.auth.presentation.smartotp.SmartOTPActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.auth.presentation.mfa.view.AuthUIHolderActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.ce_ticket.presentation.ui.CETicketContainerActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.livenessdetection.presentation.FaceLivenessCameraXActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.livenessdetection.presentation.face_auth_revamp.FaceLivenessRevampActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.livenessdetection.presentation.idcard.IdentityCardCaptureActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.livenessdetection.presentation.qrcode.QRCodeScannerActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.zalopay.nfc_sdk.nfc_in_house.BottomSheetNFC",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.tenpay.TPGPaymentActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.tenpay.image_preview.ImagePreviewActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.zalopay.ui.um_custom_loading.FullScreenLoadingActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.zalopay.ui.um_custom_loading.CenterLoadingActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.zing.zalo.zalosdk.oauth.OpenAPIActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.facebook.FacebookActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.facebook.CustomTabMainActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.facebook.CustomTabActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.inapp_webview.InternalWebViewActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.karumi.dexter.DexterActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.android.billingclient.api.ProxyBillingActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.android.billingclient.api.ProxyBillingActivityV2",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.google.android.gms.tagmanager.TagManagerPreviewActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "vendor tooling activity",
+    "why": "Google Tag Manager preview/debug entry point"
+   },
+   {
+    "kind": "activitie",
+    "name": "com.google.android.gms.common.api.GoogleApiActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "androidx.glance.appwidget.action.ActionTrampolineActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "androidx.glance.appwidget.action.InvisibleActionTrampolineActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.google.android.gms.ads.AdActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.google.android.gms.ads.NotificationHandlerActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "test/tooling stub shipped in release",
+    "why": "androidx.test / Compose tooling activities are debug scaffolding; their presence in a release manifest is a build-hygiene defect"
+   },
+   {
+    "kind": "activitie",
+    "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "test/tooling stub shipped in release",
+    "why": "androidx.test / Compose tooling activities are debug scaffolding; their presence in a release manifest is a build-hygiene defect"
+   },
+   {
+    "kind": "activitie",
+    "name": "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "test/tooling stub shipped in release",
+    "why": "androidx.test / Compose tooling activities are debug scaffolding; their presence in a release manifest is a build-hygiene defect"
+   },
+   {
+    "kind": "activitie",
+    "name": "androidx.compose.ui.tooling.PreviewActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "test/tooling stub shipped in release",
+    "why": "androidx.test / Compose tooling activities are debug scaffolding; their presence in a release manifest is a build-hygiene defect"
+   },
+   {
+    "kind": "activitie",
+    "name": "com.facebook.ads.AudienceNetworkActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.iap.android.mppclient.container.activity.ACContainerActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.iap.android.mppclient.container.activity.H5NetworkCheckActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "yydamachy.xqcntsk",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.splash.SplashActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.address.SelectAddressActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.address.setting.DetailAddressActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.book.BookActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.address.search.SearchAddressActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.address.setting.AddressSettingActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.address.search.SearchOnMapActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.address.setting.ChooseAddressActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.DetailBookTaxiActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.history.TaxiHistoryActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.history.DetailHistoryTaxiActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.TaxiBrowserActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.TaxiWebviewLinkActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.voucher.list.VoucherListActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.voucher.detail.VoucherDetailActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.note.note.ClientNoteActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.note.invoice.ExtractInvoiceActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.airport.TaxiAirportActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.address.search.ConfirmOnMapActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.selectpartner.TaxiBrandActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.report.FastReportTaxiActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.fragments.book.TaxiHelpMethodActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.vnpay.vntaxi.ui.activities.insurance.TaxiInsuranceActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.fpt.fci.ekycfull.presentation.view.EkycActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.ai.trueid.sdk.activity.TrueIDActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.ai.trueid.sdk.facev3.present.presentation.LivenessCameraXActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.ai.trueid.sdk.activity.SotpConfirmActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.ai.trueid.sdk.face.present.presentation.LivenessCameraXActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.ui.jsapi.picker.nebula.wheelview.multilevel.MultilevelSelectActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Main",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back1",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back2",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back3",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back4",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back5",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Back6",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverFileChooserActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite1",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite2",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverBaseActivity$Lite3",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Main",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite1",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite2",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Lite3",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back1",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back2",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back3",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back4",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back5",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.ui.activity.GriverTransActivity$Back6",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.core.keepalive.GriverProxyActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.image.activity.GriverPhotoSelectActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.image.activity.GriverPhotoPreviewActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.image.activity.GriverVideoPreviewActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.image.activity.GriverCaptureActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.image.activity.GriverCapturePreviewActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.device.ui.GriverOpenSettingActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.alibaba.griver.file.ui.FileViewerActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "com.iap.ac.android.acs.plugin.downgrade.ui.ErrorPageActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.changepin.presentation.ui.activity.ChangePinActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.resetpin.presentation.ui.activity.ResetPinActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.loginv2.presentation.ui.login.LoginActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.loginv2.presentation.ui.upgradeuserk0k1.UpgradeUserK0K1Activity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.loginv2.presentation.ui.otp.OtpVerificationActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.loginv2.presentation.ui.webview.LoginWebViewActivity",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.cashier.presentation.ui.main.MainCashierV2Activity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.cashier.presentation.ui.otp.DOtpErrorActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.cashier.presentation.ui.web.activity.CashierWebActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.cashier.presentation.newui.CashierNewUIActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankBindingActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.BankMediaWebViewActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.bankbinding.presentation.ui.activity.FundManagementActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.updatephone.presentation.ui.UpdatePhoneActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.cashin.presentation.ui.activity.CashInActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.resultpage.presentation.ui.activity.ResultPageV2Activity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.resultpage.presentation.ui.webview.RPWebActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.resultpage.presentation.newui.ResultPageNewUIActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.resultpage.presentation.newuinative.ResultPageNativeActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.withdraw.presentation.ui.activity.WithdrawActivity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.cashier_v3.presentation.main.activity.CashierV3Activity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.result_page_v3.presentation.main.activity.ResultPageV3Activity",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.com.vng.zalopay.liveness.presentation.LivenessVerificationActivity",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "activitie",
+    "name": "amcsetxek.dmayljy",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.zalopay.apps.ThirdPartyAppActivityAlias",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "cross-app entry alias",
+    "why": "allows Zalo / third-party apps to deep-link into payment flows"
+   },
+   {
+    "kind": "activitie",
+    "name": "vn.zalopay.apps.ZaloAppActivityAlias",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "cross-app entry alias",
+    "why": "allows Zalo / third-party apps to deep-link into payment flows"
+   },
+   {
+    "kind": "service",
+    "name": "vn.com.vng.zalopay.notification.MyFcmListenerService",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "other exported",
+    "why": "exported with no permission guard"
+   },
+   {
+    "kind": "service",
+    "name": "vn.com.vng.zalopay.miniapp.api.v2.visa.VisaHostApduService",
+    "exported_flag": "true",
+    "permission": "android.permission.BIND_NFC_SERVICE",
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.google.firebase.components.ComponentDiscoveryService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.google.android.gms.tagmanager.TagManagerService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.google.firebase.messaging.FirebaseMessagingService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.google.firebase.sessions.SessionLifecycleService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.google.android.gms.measurement.AppMeasurementService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.google.android.gms.measurement.AppMeasurementJobService",
+    "exported_flag": "false",
+    "permission": "android.permission.BIND_JOB_SERVICE",
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "androidx.camera.core.impl.MetadataHolderService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "androidx.glance.appwidget.GlanceRemoteViewsService",
+    "exported_flag": "true",
+    "permission": "android.permission.BIND_REMOTEVIEWS",
+    "has_intent_filter": false,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.google.android.gms.ads.AdService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "androidx.work.impl.background.systemjob.SystemJobService",
+    "exported_flag": "true",
+    "permission": "android.permission.BIND_JOB_SERVICE",
+    "has_intent_filter": false,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "androidx.work.impl.foreground.SystemForegroundService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "androidx.room.MultiInstanceInvalidationService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "androidx.core.widget.RemoteViewsCompatService",
+    "exported_flag": null,
+    "permission": "android.permission.BIND_REMOTEVIEWS",
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "exported_flag": "false",
+    "permission": "android.permission.BIND_JOB_SERVICE",
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.vnpay.vntaxi.base.gps.FusedLocationService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.ariver.ipc.RemoteCallService",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.exthub.bigdata.service.BigDataMainService",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService1",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService2",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService3",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService4",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.exthub.bigdata.service.BigDataLiteService$BigDataLiteService5",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.ariver.commonability.device.jsapi.nfc.service.TinyAppHostApduService",
+    "exported_flag": "true",
+    "permission": "android.permission.BIND_NFC_SERVICE",
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.griver.base.resource.predownload.AppPreDownloadJobSchedulerService",
+    "exported_flag": null,
+    "permission": "android.permission.BIND_JOB_SERVICE",
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.griver.core.kernel.ipc.server.IpcMsgServerService",
+    "exported_flag": null,
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite1",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite2",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite3",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "service",
+    "name": "com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService",
+    "exported_flag": "true",
+    "permission": "android.permission.BIND_NFC_SERVICE",
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "vn.com.vng.zalopay.receivers.ZPInstallBroadcastReceiver",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   },
+   {
+    "kind": "receiver",
+    "name": "vn.com.vng.zalopay.app_widget.presentation.ui.standard.StandardAppWidgetReceiver",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   },
+   {
+    "kind": "receiver",
+    "name": "vn.com.vng.zalopay.app_widget.presentation.ui.personal_qr.PersonalQRAppWidgetReceiver",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   },
+   {
+    "kind": "receiver",
+    "name": "vn.com.vng.zalopay.app_widget.presentation.ui.game.GameAppWidgetReceiver",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   },
+   {
+    "kind": "receiver",
+    "name": "vn.com.vng.zalopay.app_widget.presentation.ui.movie.MovieAppWidgetReceiver",
+    "exported_flag": "true",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null,
+    "category": "broadcast receiver",
+    "why": "receives system/app broadcasts; check for implicit-broadcast abuse"
+   },
+   {
+    "kind": "receiver",
+    "name": "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "exported_flag": "true",
+    "permission": "com.google.android.c2dm.permission.SEND",
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.glance.appwidget.UnmanagedSessionReceiver",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.glance.appwidget.MyPackageReplacedReceiver",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": true,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "exported_flag": "true",
+    "permission": "android.permission.DUMP",
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "androidx.profileinstaller.ProfileInstallReceiver",
+    "exported_flag": "true",
+    "permission": "android.permission.DUMP",
+    "has_intent_filter": true,
+    "effective_exported": true,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "receiver",
+    "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": null,
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "provider",
+    "name": "androidx.core.content.FileProvider",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": "@7F1304C0",
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "provider",
+    "name": "com.facebook.internal.FacebookInitProvider",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": "vn.com.vng.zalopay.FacebookInitProvider",
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "provider",
+    "name": "com.google.firebase.perf.provider.FirebasePerfProvider",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": "vn.com.vng.zalopay.firebaseperfprovider",
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "provider",
+    "name": "com.google.mlkit.common.internal.MlKitInitProvider",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": "vn.com.vng.zalopay.mlkitinitprovider",
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "provider",
+    "name": "com.google.firebase.provider.FirebaseInitProvider",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": "vn.com.vng.zalopay.firebaseinitprovider",
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "provider",
+    "name": "com.google.android.gms.ads.MobileAdsInitProvider",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": "vn.com.vng.zalopay.mobileadsinitprovider",
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "provider",
+    "name": "androidx.startup.InitializationProvider",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": "vn.com.vng.zalopay.androidx-startup",
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "provider",
+    "name": "com.facebook.ads.AudienceNetworkContentProvider",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": "vn.com.vng.zalopay.AudienceNetworkContentProvider",
+    "foregroundServiceType": null
+   },
+   {
+    "kind": "provider",
+    "name": "com.alibaba.griver.file.utils.GriverFileProvider",
+    "exported_flag": "false",
+    "permission": null,
+    "has_intent_filter": false,
+    "effective_exported": false,
+    "host": "vn.com.vng.zalopay.griver.file.provider",
+    "foregroundServiceType": null
+   }
+  ]
+ },
+ "hce": {
+  "groups": [
+   {
+    "file": "res/xml/apdu_service.xml",
+    "requireDeviceUnlock": "false",
+    "category": "payment",
+    "n_aids": 7,
+    "aids": [
+     {
+      "hex": "325041592E5359532E4444463031",
+      "ascii": "2PAY.SYS.DDF01",
+      "name": "2PAY.SYS.DDF01",
+      "description": "EMV PPSE — contactless payment system environment"
+     },
+     {
+      "hex": "A0000000980840",
+      "ascii": null,
+      "name": "Private/closed-loop",
+      "description": "not in the EMV public registry — issuer-proprietary AID"
+     },
+     {
+      "hex": "A0000000032020",
+      "ascii": null,
+      "name": "Visa V Pay",
+      "description": "Visa V Pay AID"
+     },
+     {
+      "hex": "A0000000032010",
+      "ascii": null,
+      "name": "Visa Electron",
+      "description": "Visa Electron AID"
+     },
+     {
+      "hex": "A0000000033010",
+      "ascii": null,
+      "name": "Visa Interlink",
+      "description": "Visa Interlink AID"
+     },
+     {
+      "hex": "A0000000031010",
+      "ascii": null,
+      "name": "Visa Credit/Debit",
+      "description": "Visa classic AID"
+     },
+     {
+      "hex": "A000000003",
+      "ascii": null,
+      "name": "Visa (short AID)",
+      "description": "Visa 3-byte prefix, matches the whole Visa range"
+     }
+    ]
+   },
+   {
+    "file": "res/xml/tiny_app_apdu_service.xml",
+    "requireDeviceUnlock": "false",
+    "category": null,
+    "n_aids": 0,
+    "aids": []
+   }
+  ],
+  "aids": [
+   {
+    "hex": "325041592E5359532E4444463031",
+    "ascii": "2PAY.SYS.DDF01",
+    "name": "2PAY.SYS.DDF01",
+    "description": "EMV PPSE — contactless payment system environment"
+   },
+   {
+    "hex": "A0000000980840",
+    "ascii": null,
+    "name": "Private/closed-loop",
+    "description": "not in the EMV public registry — issuer-proprietary AID"
+   },
+   {
+    "hex": "A0000000032020",
+    "ascii": null,
+    "name": "Visa V Pay",
+    "description": "Visa V Pay AID"
+   },
+   {
+    "hex": "A0000000032010",
+    "ascii": null,
+    "name": "Visa Electron",
+    "description": "Visa Electron AID"
+   },
+   {
+    "hex": "A0000000033010",
+    "ascii": null,
+    "name": "Visa Interlink",
+    "description": "Visa Interlink AID"
+   },
+   {
+    "hex": "A0000000031010",
+    "ascii": null,
+    "name": "Visa Credit/Debit",
+    "description": "Visa classic AID"
+   },
+   {
+    "hex": "A000000003",
+    "ascii": null,
+    "name": "Visa (short AID)",
+    "description": "Visa 3-byte prefix, matches the whole Visa range"
+   }
+  ]
+ },
+ "network": {
+  "file": "res/xml/network_security_config.xml",
+  "exists": true,
+  "xml": "<network-security-config>\n  <domain-config>\n    <domain includeSubdomains=\"true\">storage.googleapis.com</domain>\n  </domain-config>\n  <base-config cleartextTrafficPermitted=\"true\">\n    <trust-anchors>\n      <certificates src=\"system\"/>\n    </trust-anchors>\n  </base-config>\n  <debug-overrides cleartextTrafficPermitted=\"true\">\n    <trust-anchors>\n      <certificates src=\"system\"/>\n      <certificates src=\"user\"/>\n    </trust-anchors>\n  </debug-overrides>\n</network-security-config>\n",
+  "base_cleartext": true,
+  "debug_overrides": true,
+  "user_ca_trusted_in_debug": true,
+  "domain_configs": [
+   "storage.googleapis.com"
+  ],
+  "pinned_domains": 0,
+  "certificate_transparency": false,
+  "verdict": "cleartext permitted app-wide, zero pin-sets, no CT enforcement; transport hardening lives entirely in application code (OkHttp CertificatePinner + host allow-lists), not in the platform config. Effective only if every network path goes through the pinned client — a WebView, a native HTTP client, or an SDK with its own stack bypasses it."
+ },
+ "permissions": {
+  "declared_in_manifest": 49,
+  "declared_in_xapk_descriptor": 49,
+  "only_in_xapk_descriptor": [],
+  "dangerous": [
+   "android.permission.ACCESS_COARSE_LOCATION",
+   "android.permission.ACCESS_FINE_LOCATION",
+   "android.permission.CAMERA",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.READ_BASIC_PHONE_STATE",
+   "android.permission.READ_CALENDAR",
+   "android.permission.READ_CONTACTS",
+   "android.permission.READ_EXTERNAL_STORAGE",
+   "android.permission.READ_MEDIA_AUDIO",
+   "android.permission.READ_PHONE_STATE",
+   "android.permission.RECORD_AUDIO",
+   "android.permission.USE_BIOMETRIC",
+   "android.permission.USE_FINGERPRINT",
+   "android.permission.WRITE_CALENDAR",
+   "android.permission.WRITE_CONTACTS",
+   "android.permission.WRITE_EXTERNAL_STORAGE"
+  ],
+  "special_policy": [
+   "android.permission.DETECT_SCREEN_CAPTURE",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.settings.action.MANAGE_OVERLAY_PERMISSION"
+  ],
+  "normal_or_signature": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.ACCESS_WIFI_STATE",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.INTERNET",
+   "android.permission.NFC",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.VIBRATE",
+   "android.permission.WAKE_LOCK"
+  ],
+  "custom": [
+   "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+   "com.android.launcher.permission.INSTALL_SHORTCUT",
+   "com.android.launcher.permission.READ_SETTINGS",
+   "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+   "com.android.launcher.permission.WRITE_SETTINGS",
+   "com.android.vending.BILLING",
+   "com.bbk.launcher2.permission.READ_SETTINGS",
+   "com.bbk.launcher2.permission.WRITE_SETTINGS",
+   "com.google.android.c2dm.permission.RECEIVE",
+   "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+   "com.google.android.gms.permission.AD_ID",
+   "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+   "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+   "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+   "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+   "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "ungrouped": [
+   "android.permission.ACCESS_ADSERVICES_AD_ID",
+   "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+   "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+   "android.permission.ACCESS_ADSERVICES_TOPICS",
+   "android.permission.CHANGE_WIFI_STATE",
+   "android.permission.MODIFY_AUDIO_SETTINGS",
+   "android.permission.REORDER_TASKS",
+   "com.android.launcher.permission.INSTALL_SHORTCUT",
+   "com.android.launcher.permission.READ_SETTINGS",
+   "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+   "com.android.launcher.permission.WRITE_SETTINGS",
+   "com.android.vending.BILLING",
+   "com.bbk.launcher2.permission.READ_SETTINGS",
+   "com.bbk.launcher2.permission.WRITE_SETTINGS",
+   "com.google.android.c2dm.permission.RECEIVE",
+   "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+   "com.google.android.gms.permission.AD_ID",
+   "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+   "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+   "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+   "com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION",
+   "vn.com.vng.zalopay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "n_dangerous": 16,
+  "n_special": 3
+ }
+}

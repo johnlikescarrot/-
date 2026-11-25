@@ -1,0 +1,469 @@
+{
+ "artifact": {
+  "zip_sha256": "34b9b6b6735f0f739617f97a259f931d17cdbacb51871c40b066de41f4b4610a",
+  "xapk_sha256": "686e9459da646c18b53a67d57e5a23c49466da140ec1e3e9682032f453ea7b8d",
+  "base_apk_sha256": "e289d547b45f6224aed8ce7bf72d75ea5545cd50c0e768d1a74a3e8165fe6a03",
+  "package": "vn.com.vng.zalopay",
+  "version": "11.17.0",
+  "version_code": "1102758",
+  "min_sdk": "26",
+  "target_sdk": "36",
+  "splits": [
+   "base",
+   "config.armeabi_v7a",
+   "config.en",
+   "config.vi",
+   "config.xhdpi"
+  ],
+  "total_size": 105580620,
+  "signer_sha256": [
+   "59dd31fdf36070a0d7f8c8cde843fac371df7f1a915c0136c9c9b55992e8cdae"
+  ],
+  "signing_schemes": [
+   "v2",
+   "v3",
+   "verity-padding"
+  ],
+  "all_dex_integrity_ok": true
+ },
+ "scale": {
+  "files": 6466,
+  "uncompressed_bytes": 195353860,
+  "distinct_files": 5970,
+  "duplicate_entries": 496,
+  "dex_files": 20,
+  "dex_bytes": 69701748,
+  "classes": 63827,
+  "methods": 287480,
+  "fields": 286224,
+  "code_bytes": 39282400,
+  "native_libs": 27,
+  "native_bytes": 57452124,
+  "jni_exports": 284,
+  "activities": 202,
+  "services": 34,
+  "receivers": 22,
+  "providers": 9,
+  "permissions": 49,
+  "domains": 203,
+  "resources_entries": 122610,
+  "resource_packages": 13,
+  "jetpack_components": 141,
+  "ml_models": 17,
+  "exported_components": 30
+ },
+ "composition": {
+  "owners": [
+   {
+    "owner": "R8-obfuscated (relocated)",
+    "classes": 28915,
+    "methods": 98231,
+    "pct_classes": 45.3
+   },
+   {
+    "owner": "Google (AndroidX/GMS/Firebase)",
+    "classes": 7761,
+    "methods": 35338,
+    "pct_classes": 12.16
+   },
+   {
+    "owner": "Bouncy Castle",
+    "classes": 6112,
+    "methods": 33931,
+    "pct_classes": 9.58
+   },
+   {
+    "owner": "Alibaba (Griver/ARiver)",
+    "classes": 4821,
+    "methods": 27362,
+    "pct_classes": 7.55
+   },
+   {
+    "owner": "AndroidX",
+    "classes": 4250,
+    "methods": 18320,
+    "pct_classes": 6.66
+   },
+   {
+    "owner": "Meta SDK",
+    "classes": 3622,
+    "methods": 24903,
+    "pct_classes": 5.67
+   },
+   {
+    "owner": "Alipay IAPConnect",
+    "classes": 1599,
+    "methods": 6491,
+    "pct_classes": 2.51
+   },
+   {
+    "owner": "Visa CBP",
+    "classes": 1370,
+    "methods": 8314,
+    "pct_classes": 2.15
+   },
+   {
+    "owner": "ZaloPay (first-party)",
+    "classes": 1053,
+    "methods": 7496,
+    "pct_classes": 1.65
+   },
+   {
+    "owner": "TrueID eKYC",
+    "classes": 622,
+    "methods": 4632,
+    "pct_classes": 0.97
+   },
+   {
+    "owner": "Alipay",
+    "classes": 493,
+    "methods": 2701,
+    "pct_classes": 0.77
+   },
+   {
+    "owner": "AppsFlyer",
+    "classes": 430,
+    "methods": 2349,
+    "pct_classes": 0.67
+   },
+   {
+    "owner": "VNPAY",
+    "classes": 388,
+    "methods": 1866,
+    "pct_classes": 0.61
+   },
+   {
+    "owner": "Kotlin stdlib",
+    "classes": 378,
+    "methods": 3721,
+    "pct_classes": 0.59
+   },
+   {
+    "owner": "Nimbus JOSE+JWT",
+    "classes": 361,
+    "methods": 2674,
+    "pct_classes": 0.57
+   },
+   {
+    "owner": "OkHttp",
+    "classes": 335,
+    "methods": 2861,
+    "pct_classes": 0.52
+   },
+   {
+    "owner": "RxJava",
+    "classes": 266,
+    "methods": 1328,
+    "pct_classes": 0.42
+   },
+   {
+    "owner": "Glide",
+    "classes": 213,
+    "methods": 718,
+    "pct_classes": 0.33
+   },
+   {
+    "owner": "Lottie",
+    "classes": 173,
+    "methods": 718,
+    "pct_classes": 0.27
+   },
+   {
+    "owner": "third-party (other)",
+    "classes": 137,
+    "methods": 694,
+    "pct_classes": 0.21
+   },
+   {
+    "owner": "Retrofit",
+    "classes": 137,
+    "methods": 487,
+    "pct_classes": 0.21
+   },
+   {
+    "owner": "Okio",
+    "classes": 107,
+    "methods": 1474,
+    "pct_classes": 0.17
+   },
+   {
+    "owner": "Square (Moshi/OkHttp/LeakCanary)",
+    "classes": 81,
+    "methods": 511,
+    "pct_classes": 0.13
+   },
+   {
+    "owner": "Android platform",
+    "classes": 79,
+    "methods": 151,
+    "pct_classes": 0.12
+   },
+   {
+    "owner": "Dagger",
+    "classes": 51,
+    "methods": 40,
+    "pct_classes": 0.08
+   },
+   {
+    "owner": "Chromium/WebView",
+    "classes": 38,
+    "methods": 143,
+    "pct_classes": 0.06
+   },
+   {
+    "owner": "Jackson",
+    "classes": 25,
+    "methods": 24,
+    "pct_classes": 0.04
+   },
+   {
+    "owner": "Java EE",
+    "classes": 5,
+    "methods": 0,
+    "pct_classes": 0.01
+   },
+   {
+    "owner": "Apache Commons/HTTP",
+    "classes": 3,
+    "methods": 2,
+    "pct_classes": 0.0
+   },
+   {
+    "owner": "JetBrains (Kotlin tooling)",
+    "classes": 2,
+    "methods": 0,
+    "pct_classes": 0.0
+   }
+  ],
+  "categories": {
+   "code:dex": {
+    "files": 20,
+    "bytes": 69701748,
+    "compressed": 31207880,
+    "mean_entropy": 6.031
+   },
+   "native:elf": {
+    "files": 27,
+    "bytes": 57452124,
+    "compressed": 24809641,
+    "mean_entropy": 6.56
+   },
+   "res:other": {
+    "files": 55,
+    "bytes": 11466287,
+    "compressed": 6678145,
+    "mean_entropy": 4.963
+   },
+   "res:xml": {
+    "files": 5315,
+    "bytes": 11092744,
+    "compressed": 3748035,
+    "mean_entropy": 4.11
+   },
+   "asset:ml-model": {
+    "files": 30,
+    "bytes": 10390864,
+    "compressed": 10215990,
+    "mean_entropy": 5.782
+   },
+   "res:image": {
+    "files": 473,
+    "bytes": 9716239,
+    "compressed": 9716239,
+    "mean_entropy": 7.381
+   },
+   "res:font": {
+    "files": 13,
+    "bytes": 6529796,
+    "compressed": 2780261,
+    "mean_entropy": 6.316
+   },
+   "asset:archive": {
+    "files": 1,
+    "bytes": 3913966,
+    "compressed": 3851147,
+    "mean_entropy": 7.996
+   },
+   "asset:other": {
+    "files": 47,
+    "bytes": 3729849,
+    "compressed": 3079902,
+    "mean_entropy": 6.81
+   },
+   "asset:ml-ncnn": {
+    "files": 2,
+    "bytes": 2435881,
+    "compressed": 2239994,
+    "mean_entropy": 5.491
+   },
+   "resources:table": {
+    "files": 4,
+    "bytes": 2080800,
+    "compressed": 2080800,
+    "mean_entropy": 3.688
+   },
+   "asset:config-json": {
+    "files": 17,
+    "bytes": 1812445,
+    "compressed": 126453,
+    "mean_entropy": 4.49
+   },
+   "build:metadata": {
+    "files": 231,
+    "bytes": 1415100,
+    "compressed": 1246688,
+    "mean_entropy": 3.052
+   },
+   "asset:audio": {
+    "files": 3,
+    "bytes": 1161889,
+    "compressed": 1161889,
+    "mean_entropy": 7.993
+   },
+   "asset:font": {
+    "files": 12,
+    "bytes": 882756,
+    "compressed": 468682,
+    "mean_entropy": 6.234
+   },
+   "asset:opaque-dat": {
+    "files": 3,
+    "bytes": 785556,
+    "compressed": 785556,
+    "mean_entropy": 7.92
+   },
+   "root:other": {
+    "files": 155,
+    "bytes": 395791,
+    "compressed": 181815,
+    "mean_entropy": 4.709
+   },
+   "meta-inf:other": {
+    "files": 14,
+    "bytes": 165459,
+    "compressed": 53415,
+    "mean_entropy": 4.837
+   },
+   "manifest:axml": {
+    "files": 5,
+    "bytes": 129984,
+    "compressed": 21204,
+    "mean_entropy": 3.414
+   },
+   "asset:javascript": {
+    "files": 8,
+    "bytes": 33802,
+    "compressed": 9844,
+    "mean_entropy": 4.805
+   },
+   "signature:v1": {
+    "files": 8,
+    "bytes": 33737,
+    "compressed": 13902,
+    "mean_entropy": 6.593
+   },
+   "build:spi-registry": {
+    "files": 16,
+    "bytes": 332,
+    "compressed": 255,
+    "mean_entropy": 2.577
+   },
+   "signature:sourcestamp": {
+    "files": 5,
+    "bytes": 160,
+    "compressed": 175,
+    "mean_entropy": 4.938
+   }
+  },
+  "formats": {
+   "axml": 5319,
+   "text": 395,
+   "png": 318,
+   "webp": 159,
+   "other": 76,
+   "json": 64,
+   "elf": 27,
+   "font-ttf": 23,
+   "dex": 20,
+   "tflite": 20,
+   "binary": 10,
+   "gif": 5,
+   "arsc": 4,
+   "zip": 4,
+   "gzip": 4,
+   "rive": 4,
+   "pem": 3,
+   "jpeg": 2,
+   "font-otf": 2,
+   "image?.svg": 2,
+   "java-class": 1,
+   "elf?": 1,
+   "xml": 1
+  },
+  "obfuscation": 45.73,
+  "duplicate_entries": 496
+ },
+ "defence": {
+  "crypto_classes": 2691,
+  "bouncycastle_classes": 6112,
+  "sqlcipher": true,
+  "pinned_keys": 3,
+  "anti_analysis_libs": [
+   "libmlkitcommonpipeline.so",
+   "libcrashlytics-common.so",
+   "libtrueidlib.so"
+  ],
+  "ekyc_layers": 4
+ },
+ "risk": {
+  "count": 12,
+  "by_severity": {
+   "high": 1,
+   "medium": 4,
+   "low": 2,
+   "info": 5
+  }
+ },
+ "subsystems": {
+  "eKYC / liveness": {
+   "measured_dex_classes": 710,
+   "measured_native_bytes": 7607588,
+   "measured_native_jni": 26
+  },
+  "payments / cashier": {
+   "measured_dex_classes": 1852,
+   "measured_native_bytes": 3709920,
+   "measured_native_jni": 4
+  },
+  "NFC card emulation": {
+   "measured_dex_classes": 11,
+   "measured_native_bytes": 0,
+   "measured_native_jni": 0
+  },
+  "mini-app platform": {
+   "measured_dex_classes": 5973,
+   "measured_native_bytes": 600296,
+   "measured_native_jni": 0
+  },
+  "cryptography": {
+   "measured_dex_classes": 6473,
+   "measured_native_bytes": 3709920,
+   "measured_native_jni": 4
+  },
+  "banking connectors": {
+   "measured_dex_classes": 1340,
+   "measured_native_bytes": 0,
+   "measured_native_jni": 0
+  },
+  "analytics / attribution": {
+   "measured_dex_classes": 4198,
+   "measured_native_bytes": 530272,
+   "measured_native_jni": 0
+  },
+  "UI / rendering": {
+   "measured_dex_classes": 677,
+   "measured_native_bytes": 3572584,
+   "measured_native_jni": 167
+  }
+ }
+}

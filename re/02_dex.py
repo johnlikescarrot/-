@@ -175,6 +175,20 @@ def main() -> None:
     interface_impl = collections.Counter()
     indicators: dict[str, list[str]] = {k: [] for k in INDICATORS}
     big_classes: list[tuple[int, str, str]] = []
+    # exact prefix counts for namespaces referenced by the subsystem graph in
+    # 06_surface.py — measures how much real code a subsystem owns
+    QUERY = [
+        "vn.com.vng.zalopay", "vn.com.vng.zalopay.",
+        "vn.com.vng.zalopay.bank_binding", "vn.com.vng.zalopay.cashier",
+        "vn.com.vng.zalopay.liveness", "vn.com.vng.zalopay.miniapp",
+        "vn.com.vng.zalopay.miniapp.api.v2.visa", "vn.ai.trueid", "vn.ai.faceauth",
+        "com.fpt.fci", "com.visa.cbp", "com.alibaba.griver", "com.alibaba.ariver",
+        "com.alibaba.griver.device.jsapi.nfc", "com.iap.ac", "org.bouncycastle",
+        "com.nimbusds", "com.appsflyer", "com.facebook", "com.google.android.gms.measurement",
+        "androidx.compose", "com.airbnb.lottie", "com.vnpay", "id.barcode",
+    ]
+    QUERY_DESC = [("L" + q.replace(".", "/"), q) for q in QUERY]
+    ns_counts: collections.Counter = collections.Counter()
 
     for path in dex_paths:
         t0 = time.time()
@@ -229,6 +243,14 @@ def main() -> None:
                         native_classes.append(c.name)
                     if c.code_bytes > 40_000:
                         big_classes.append((c.code_bytes, c.name, name))
+                    for desc, dotted in QUERY_DESC:
+                        # "vn.com.vng.zalopay." ends with a dot => subtree match;
+                        # otherwise the descriptor must be a direct child
+                        if dotted.endswith("."):
+                            if c.name.startswith(desc) and c.name != "L;":
+                                ns_counts[dotted] += 1
+                        elif c.name.startswith(desc + "/") or c.name == desc + ";":
+                            ns_counts[dotted] += 1
                     low = c.name.lower()
                     for family, keys in SECURITY_KEYWORDS.items():
                         if any(k in low for k in keys):
@@ -298,6 +320,7 @@ def main() -> None:
         "pkg_depth2": pkg2.most_common(60),
         "pkg_depth3": pkg3.most_common(60),
         "pkg_depth3_full": dict(pkg3),  # exact namespace counts for SBOM attribution
+        "namespace_counts": dict(ns_counts),
         "obfuscation": {
             "single_letter_pkg_classes": obf_single_letter,
             "single_letter_pkg_pct": round(100 * obf_single_letter / totals["classes"], 2),
