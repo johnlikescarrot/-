@@ -1,0 +1,9 @@
+# Large extracted binary artifacts - regenerated via research/scripts/extract.py
+research/extracted/
+# Python caches
+__pycache__/
+*.pyc
+# Node
+node_modules/
+# OS
+.DS_Store
