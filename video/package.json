@@ -1,0 +1,22 @@
+{
+  "name": "zalopay-re-film",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Evidence-driven research film on ZaloPay 11.17.0 (XAPK), rendered with TypeScript → SVG → MP4.",
+  "scripts": {
+    "still": "tsx src/still.ts",
+    "audio": "tsx src/audio/build.ts",
+    "render": "tsx src/render.ts",
+    "build": "npm run audio && npm run render",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2"
+  }
+}
